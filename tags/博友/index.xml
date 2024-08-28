@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>博友 on 流金岁月</title>
-    <link>https://iliuorg/tags/%E5%8D%9A%E5%8F%8B/</link>
+    <link>https://iliu.org/tags/%E5%8D%9A%E5%8F%8B/</link>
     <description>Recent content in 博友 on 流金岁月</description>
     <image>
       <title>流金岁月</title>
-      <url>https://iliuorg/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://iliuorg/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://iliu.org/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://iliu.org/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.133.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 28 Aug 2024 09:30:00 +0800</lastBuildDate>
-    <atom:link href="https://iliuorg/tags/%E5%8D%9A%E5%8F%8B/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://iliu.org/tags/%E5%8D%9A%E5%8F%8B/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>博友配镜指南</title>
-      <link>https://iliuorg/boyoupeijing/</link>
+      <link>https://iliu.org/boyoupeijing/</link>
       <pubDate>Wed, 28 Aug 2024 09:30:00 +0800</pubDate>
-      <guid>https://iliuorg/boyoupeijing/</guid>
+      <guid>https://iliu.org/boyoupeijing/</guid>
       <description>最近找老刘配眼镜的博友越来越多了，尽管有因为验光或者其他原因没有成功，还是要感谢所有信任于支持老刘的博友们。 思来想去，还是单独增加一个页面，</description>
     </item>
   </channel>
