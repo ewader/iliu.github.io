@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>人间世 on 流金岁月</title>
+    <link>https://iliuorg/categories/%E4%BA%BA%E9%97%B4%E4%B8%96/</link>
+    <description>Recent content in 人间世 on 流金岁月</description>
+    <image>
+      <title>流金岁月</title>
+      <url>https://iliuorg/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://iliuorg/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.133.1</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 28 Aug 2024 09:48:57 +0800</lastBuildDate>
+    <atom:link href="https://iliuorg/categories/%E4%BA%BA%E9%97%B4%E4%B8%96/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>重新启航</title>
+      <link>https://iliuorg/posts/set-sail-again/</link>
+      <pubDate>Wed, 28 Aug 2024 09:48:57 +0800</pubDate>
+      <guid>https://iliuorg/posts/set-sail-again/</guid>
+      <description>既然缘法如此，就重新开始吧</description>
+    </item>
+  </channel>
+</rss>
