@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://iliu.org/</loc>
+    <lastmod>2024-08-28T17:33:12+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/friends/</loc>
+    <lastmod>2024-08-28T17:33:12+08:00</lastmod>
+  </url><url>
     <loc>https://iliu.org/categories/</loc>
     <lastmod>2024-08-28T09:48:57+08:00</lastmod>
   </url><url>
@@ -12,9 +18,6 @@
     <lastmod>2024-08-28T09:48:57+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/tags/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2024-08-28T09:48:57+08:00</lastmod>
-  </url><url>
-    <loc>https://iliu.org/</loc>
     <lastmod>2024-08-28T09:48:57+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/categories/%E4%BA%BA%E9%97%B4%E4%B8%96/</loc>
