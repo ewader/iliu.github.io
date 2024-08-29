@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Vps on 流金岁月</title>
+    <link>https://iliu.org/vps/</link>
+    <description>Recent content in Vps on 流金岁月</description>
+    <image>
+      <title>流金岁月</title>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.133.1</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 29 Aug 2024 08:33:23 +0800</lastBuildDate>
+    <atom:link href="https://iliu.org/vps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>老刘用的VPS</title>
+      <link>https://iliu.org/vps/cloudcone/</link>
+      <pubDate>Thu, 29 Aug 2024 08:33:23 +0800</pubDate>
+      <guid>https://iliu.org/vps/cloudcone/</guid>
+      <description>cloudcone是我使用的第一款国外 VPS 服务商（大家都习惯的称为“CC”），在此之前使用的要么是虚拟主机，然后就是使用了香港的VPS。老刘目</description>
+    </item>
+  </channel>
+</rss>

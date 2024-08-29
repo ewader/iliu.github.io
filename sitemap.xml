@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://iliu.org/vps/</loc>
+    <lastmod>2024-08-29T08:33:23+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/vps/cloudcone/</loc>
+    <lastmod>2024-08-29T08:33:23+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/</loc>
+    <lastmod>2024-08-29T08:33:23+08:00</lastmod>
+  </url><url>
     <loc>https://iliu.org/categories/</loc>
     <lastmod>2024-08-29T07:56:45+08:00</lastmod>
   </url><url>
@@ -15,9 +24,6 @@
     <lastmod>2024-08-29T07:56:45+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/posts/solution-to-the-blank-screen-windows-11s-security-center/</loc>
-    <lastmod>2024-08-29T07:56:45+08:00</lastmod>
-  </url><url>
-    <loc>https://iliu.org/</loc>
     <lastmod>2024-08-29T07:56:45+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/categories/%E9%BD%90%E7%89%A9%E8%AE%BA/</loc>
