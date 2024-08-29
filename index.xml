@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.133.1</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 28 Aug 2024 17:33:12 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 29 Aug 2024 07:56:45 +0800</lastBuildDate>
     <atom:link href="https://iliu.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>解决Windows11打开安全中心空白的方法</title>
+      <link>https://iliu.org/posts/solution-to-the-blank-screen-windows-11s-security-center/</link>
+      <pubDate>Thu, 29 Aug 2024 07:56:45 +0800</pubDate>
+      <guid>https://iliu.org/posts/solution-to-the-blank-screen-windows-11s-security-center/</guid>
+      <description>老刘在前面一篇文章中说，某年某月的某一天，老刘重置了电脑，不但丢失了存在本地的博客数据，而且发现安全中心打开是一个空白的窗口。老刘使用了重启</description>
+    </item>
     <item>
       <title>我的朋友</title>
       <link>https://iliu.org/friends/</link>

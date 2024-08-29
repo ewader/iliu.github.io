@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on 流金岁月</title>
-    <link>https://iliu.org/posts/</link>
-    <description>Recent content in Posts on 流金岁月</description>
+    <title>操作系统 on 流金岁月</title>
+    <link>https://iliu.org/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</link>
+    <description>Recent content in 操作系统 on 流金岁月</description>
     <image>
       <title>流金岁月</title>
       <url>https://iliu.org/img/liujinsuiyue.jpg</url>
@@ -12,20 +12,13 @@
     <generator>Hugo -- 0.133.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 29 Aug 2024 07:56:45 +0800</lastBuildDate>
-    <atom:link href="https://iliu.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://iliu.org/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>解决Windows11打开安全中心空白的方法</title>
       <link>https://iliu.org/posts/solution-to-the-blank-screen-windows-11s-security-center/</link>
       <pubDate>Thu, 29 Aug 2024 07:56:45 +0800</pubDate>
       <guid>https://iliu.org/posts/solution-to-the-blank-screen-windows-11s-security-center/</guid>
       <description>老刘在前面一篇文章中说，某年某月的某一天，老刘重置了电脑，不但丢失了存在本地的博客数据，而且发现安全中心打开是一个空白的窗口。老刘使用了重启</description>
-    </item>
-    <item>
-      <title>重新启航</title>
-      <link>https://iliu.org/posts/set-sail-again/</link>
-      <pubDate>Wed, 28 Aug 2024 09:48:57 +0800</pubDate>
-      <guid>https://iliu.org/posts/set-sail-again/</guid>
-      <description>既然缘法如此，就重新开始吧</description>
     </item>
   </channel>
 </rss>
