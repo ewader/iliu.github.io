@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.133.1</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 29 Aug 2024 08:33:23 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 01 Sep 2024 09:06:41 +0800</lastBuildDate>
     <atom:link href="https://iliu.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>军训</title>
+      <link>https://iliu.org/posts/military-training/</link>
+      <pubDate>Sun, 01 Sep 2024 09:06:41 +0800</pubDate>
+      <guid>https://iliu.org/posts/military-training/</guid>
+      <description>军训，顾名思义就是军事训练。这个在我小时候很少听到的词汇，在今天，尤其是暑假开学后的日子，被人们累累提起。 老刘参加的唯一一次军训是1998年</description>
+    </item>
     <item>
       <title>老刘用的VPS</title>
       <link>https://iliu.org/vps/cloudcone/</link>

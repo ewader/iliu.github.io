@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>人间世 on 流金岁月</title>
-    <link>https://iliu.org/categories/%E4%BA%BA%E9%97%B4%E4%B8%96/</link>
-    <description>Recent content in 人间世 on 流金岁月</description>
+    <title>教育 on 流金岁月</title>
+    <link>https://iliu.org/tags/%E6%95%99%E8%82%B2/</link>
+    <description>Recent content in 教育 on 流金岁月</description>
     <image>
       <title>流金岁月</title>
       <url>https://iliu.org/img/liujinsuiyue.jpg</url>
@@ -12,20 +12,13 @@
     <generator>Hugo -- 0.133.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 01 Sep 2024 09:06:41 +0800</lastBuildDate>
-    <atom:link href="https://iliu.org/categories/%E4%BA%BA%E9%97%B4%E4%B8%96/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://iliu.org/tags/%E6%95%99%E8%82%B2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>军训</title>
       <link>https://iliu.org/posts/military-training/</link>
       <pubDate>Sun, 01 Sep 2024 09:06:41 +0800</pubDate>
       <guid>https://iliu.org/posts/military-training/</guid>
       <description>军训，顾名思义就是军事训练。这个在我小时候很少听到的词汇，在今天，尤其是暑假开学后的日子，被人们累累提起。 老刘参加的唯一一次军训是1998年</description>
-    </item>
-    <item>
-      <title>重新启航</title>
-      <link>https://iliu.org/posts/set-sail-again/</link>
-      <pubDate>Wed, 28 Aug 2024 09:48:57 +0800</pubDate>
-      <guid>https://iliu.org/posts/set-sail-again/</guid>
-      <description>既然缘法如此，就重新开始吧</description>
     </item>
   </channel>
 </rss>
