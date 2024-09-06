@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.133.1</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 03 Sep 2024 13:46:02 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 06 Sep 2024 11:03:02 +0800</lastBuildDate>
     <atom:link href="https://iliu.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>手机上有好用的输入法吗？</title>
+      <link>https://iliu.org/posts/good-input-method-on-mobile-phones/</link>
+      <pubDate>Fri, 06 Sep 2024 11:03:02 +0800</pubDate>
+      <guid>https://iliu.org/posts/good-input-method-on-mobile-phones/</guid>
+      <description>老刘在以前的文章里也曾提过选择输入法的过程，目前在电脑上的方案是使用小狼毫输入法加雾凇拼音的词库。并通过群晖drive实现几个PC之间个人词</description>
+    </item>
     <item>
       <title>再次使用 KeepassXC进行密码管理</title>
       <link>https://iliu.org/posts/use-keepassxc-again-for-password-management/</link>
