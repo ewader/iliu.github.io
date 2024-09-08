@@ -2,23 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>博客 on 流金岁月</title>
-    <link>https://iliu.org/tags/%E5%8D%9A%E5%AE%A2/</link>
+    <link>http://localhost:1313/tags/%E5%8D%9A%E5%AE%A2/</link>
     <description>Recent content in 博客 on 流金岁月</description>
     <image>
       <title>流金岁月</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.133.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 28 Aug 2024 09:48:57 +0800</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>重新启航</title>
-      <link>https://iliu.org/posts/set-sail-again/</link>
+      <link>http://localhost:1313/posts/set-sail-again/</link>
       <pubDate>Wed, 28 Aug 2024 09:48:57 +0800</pubDate>
-      <guid>https://iliu.org/posts/set-sail-again/</guid>
+      <guid>http://localhost:1313/posts/set-sail-again/</guid>
       <description>既然缘法如此，就重新开始吧</description>
+      <content:encoded><![CDATA[<p>朋友们，老刘换新博客了，事情的原因是这样子的：</p>
+<p>在某年某月的某一天，老刘发现电脑有点不好用了，于是，就重置了一下电脑，并且没有保留软件和文档。所以，等老刘意识到还没有备份网站数据的时候，事情已经发生了，有看官要问了，你的网站数据难道是放在C盘了吗？这个说来就有点话长了。</p>
+<p>最初换成Hugo的时候，电脑是比较旧的一台电脑，装的是endeavouros，而且在Linux下，配置Hugo那不是一般的方便。后来把电脑进行了升级，就没有在装双系统。看了下Windows下配置git和Hugo的复杂性，老刘选择了启动Windows里带的子系统Ubuntu，所以，网站数据都存在那个Ubuntu这个子系统内。</p>
+<p>当老刘重置系统后，子系统也被重置了，我的数据也就随风飘散了。Hugo的好处在于本地和网络是两个不同的世界，所以我的网站是没有任何的问题，但是无法再进行更新了。也正是这个原因，换了Hugo后，对备份少了一丝敬畏之心。一个疏忽，就这样了。</p>
+<p>本来吧，有HTML的文件在，把这些文件重新转成md文件也是可以的，但是这样一来，网站的目录势必发生变化，后来想想，天下没有不散之宴席，任何事物都不开永远的存在，网站博客也是如此，这可能也是图南博客的缘法。所以，最后老刘的决定是把图南博客就放在那里好了，不再进行更新。</p>
+<p>新博客还是沿用流金岁月的名字吧，寓意博主对过去时光的珍视，表达了平淡的生活也自有记录的意义这个含义。</p>
+<p>枯木前头万木春，靠别老博客冗长的数据，也许是一件好事。新博客将以记录生活为主，折腾和一些私货为辅吧。</p>
+<p>最后的最后，希望大家都勤备份，格局大一些，昨天老刘仔细研究了一下Windows下安装git和Hugo也没有想象的那么复杂，所以，有时候告别自己的舒适圈还是有必要的。目前网站数据放在其他的盘了，并同步到群晖，由群晖加密同步到百度网盘，应该是有一些保证了。</p>
+]]></content:encoded>
     </item>
   </channel>
+  <follow_challenge>
+    <feedId>55234162574971904</feedId>
+    <userId>55160205417323520</userId>
+</follow_challenge>
 </rss>
