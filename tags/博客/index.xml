@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>博客 on 流金岁月</title>
-    <link>http://localhost:1313/tags/%E5%8D%9A%E5%AE%A2/</link>
+    <link>https://iliu.org/tags/%E5%8D%9A%E5%AE%A2/</link>
     <description>Recent content in 博客 on 流金岁月</description>
     <image>
       <title>流金岁月</title>
-      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
-      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.133.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 28 Aug 2024 09:48:57 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://iliu.org/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>重新启航</title>
-      <link>http://localhost:1313/posts/set-sail-again/</link>
+      <link>https://iliu.org/posts/set-sail-again/</link>
       <pubDate>Wed, 28 Aug 2024 09:48:57 +0800</pubDate>
-      <guid>http://localhost:1313/posts/set-sail-again/</guid>
+      <guid>https://iliu.org/posts/set-sail-again/</guid>
       <description>既然缘法如此，就重新开始吧</description>
       <content:encoded><![CDATA[<p>朋友们，老刘换新博客了，事情的原因是这样子的：</p>
 <p>在某年某月的某一天，老刘发现电脑有点不好用了，于是，就重置了一下电脑，并且没有保留软件和文档。所以，等老刘意识到还没有备份网站数据的时候，事情已经发生了，有看官要问了，你的网站数据难道是放在C盘了吗？这个说来就有点话长了。</p>
