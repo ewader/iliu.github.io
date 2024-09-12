@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Mysql on 图南博客</title>
+    <link>https://tunan.org/tags/mysql/</link>
+    <description>Recent content in Mysql on 图南博客</description>
+    <image>
+      <title>图南博客</title>
+      <url>https://tunan.org/img/liujinsuiyue.jpg</url>
+      <link>https://tunan.org/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.133.1</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 18 Nov 2022 00:17:14 +0000</lastBuildDate>
+    <atom:link href="https://tunan.org/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Django设置使用MySql的时候遇到的一些坑</title>
+      <link>https://tunan.org/4298.html</link>
+      <pubDate>Fri, 18 Nov 2022 00:17:14 +0000</pubDate>
+      <guid>https://tunan.org/4298.html</guid>
+      <description>Django默认使用的数据库是sqllit,如果是一个小项目的话是完全够用的，但是如果考虑到这个项目未来的话，一般都会换成Mysql或者其他</description>
+      <content:encoded><![CDATA[<p>Django默认使用的数据库是sqllit,如果是一个小项目的话是完全够用的，但是如果考虑到这个项目未来的话，一般都会换成Mysql或者其他更专业的数据库。本文，就来说说，在设置使用mysql的时候，遇到的一些问题及解决的方法。<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<h2 class="wp-block-heading" id="项目里设置引用mysql">项目里设置引用Mysql</h2>
+<p>在setting.py里,把原来使用sqllit的语句删除或者注释掉，添加如下代码</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p><strong>安装Python访问MySQL的模块</strong></p>
+<p>Django官方已经不建议使用pymysql库了，而是改用mysqlclient，直接pip安装即可。</p>
+<!-- raw HTML omitted -->
+<p>在debian11上安装的时候，显示OSError: mysql_config not found的错误，查询得知，需要安装libmysqlclient-dev，但是用apt install libmysqlclient-dev的时候，安装不成功，提示是另一个分支，建议安装libmariadb-dev。所以安装这个即可。</p>
+<!-- raw HTML omitted -->
+<p>出错：error: command ‘x86_64-linux-gnu-gcc’ failed: No such file or directory</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+]]></content:encoded>
+    </item>
+  </channel>
+  <follow_challenge>
+    <feedId>55234162574971904</feedId>
+    <userId>55160205417323520</userId>
+</follow_challenge>
+</rss>

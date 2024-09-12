@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ibus on 图南博客</title>
+    <link>https://tunan.org/tags/ibus/</link>
+    <description>Recent content in Ibus on 图南博客</description>
+    <image>
+      <title>图南博客</title>
+      <url>https://tunan.org/img/liujinsuiyue.jpg</url>
+      <link>https://tunan.org/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.133.1</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 25 Dec 2021 05:47:41 +0000</lastBuildDate>
+    <atom:link href="https://tunan.org/tags/ibus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ubuntu20.10升级编译安装ibus-libpinyin输入法</title>
+      <link>https://tunan.org/3976.html</link>
+      <pubDate>Sat, 25 Dec 2021 05:47:41 +0000</pubDate>
+      <guid>https://tunan.org/3976.html</guid>
+      <description>以前无论是使用Uos还是linuxmint或者是ubtuntu，都是直接安装搜狗输入法。可以和ubuntu兼容最好的还是自带的ibus-li</description>
+      <content:encoded><![CDATA[<p>以前无论是使用Uos还是linuxmint或者是ubtuntu，都是直接安装搜狗输入法。可以和ubuntu兼容最好的还是自带的ibus-libpinyin，开始的时候觉得这个输入法的词库比较小，用起来很不方便，但是后来发现这个输入法加入新的云输入引擎后，使用体验大幅上升，并且再加上额外的词库的话，用起来已经是非常方便了。</p>
+<p>ubuntu20.10自带的是1.20.0的版本，这个版本已经有了云输入引擎，但是不能把云输入引擎里的词自动添加到用户的本地词库里，而最新版已经解决了这个问题。要升级输入法，只能编译安装，Linux的不方便之处就在于此。<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted -->如上图，ibus-libpinyin已经有了云输入，非常的方便<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<h2 class="wp-block-heading" id="首先下载ibus-libpinyin输入法源码">首先，下载ibus-libpinyin输入法源码</h2>
+<p>源码地址是：<a href="https://github.com/libpinyin/ibus-libpinyin">https://github.com/libpinyin/ibus-libpinyin</a></p>
+<h2 class="wp-block-heading" id="第二步安装编译环境">第二步，安装编译环境</h2>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h2 class="wp-block-heading" id="第三步编译输入法">第三步，编译输入法</h2>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>至此，安装结束。在编译的第一步骤中，如果编译成功的化，应该出现以下的文字：</p>
+<p>Build options:<br>
+Version 1.20.2<br>
+Install prefix /usr<br>
+Use boost no<br>
+Use opencc no<br>
+Use libpinyin yes<br>
+Build lua extension no<br>
+Build stroke input mode yes<br>
+Build cloud input mode ye<br>
+Build english input mode yes</p>
+<p>一般出错的化都是编译环境缺少一些组件，按照提示安装即可。<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted -->最终编译安装后的结果<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+]]></content:encoded>
+    </item>
+  </channel>
+  <follow_challenge>
+    <feedId>55234162574971904</feedId>
+    <userId>55160205417323520</userId>
+</follow_challenge>
+</rss>

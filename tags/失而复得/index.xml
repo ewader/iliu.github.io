@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>失而复得 on 图南博客</title>
+    <link>https://tunan.org/tags/%E5%A4%B1%E8%80%8C%E5%A4%8D%E5%BE%97/</link>
+    <description>Recent content in 失而复得 on 图南博客</description>
+    <image>
+      <title>图南博客</title>
+      <url>https://tunan.org/img/liujinsuiyue.jpg</url>
+      <link>https://tunan.org/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.133.1</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 20 Jan 2010 12:17:03 +0000</lastBuildDate>
+    <atom:link href="https://tunan.org/tags/%E5%A4%B1%E8%80%8C%E5%A4%8D%E5%BE%97/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>体验了下失而复得</title>
+      <link>https://tunan.org/477.html</link>
+      <pubDate>Wed, 20 Jan 2010 12:17:03 +0000</pubDate>
+      <guid>https://tunan.org/477.html</guid>
+      <description>昨天下午4点多的时候，忽然发现网站打不开了，显示404错误，发现ftp也不能用，进到godaddy的后台，文件管理也进不去了，不过数据库没有</description>
+      <content:encoded><![CDATA[<p>昨天下午4点多的时候，忽然发现网站打不开了，显示404错误，发现ftp也不能用，进到godaddy的后台，文件管理也进不去了，不过数据库没有影响。给godaddy的客服发了封邮件，给他们说网站不能访问的问题，然后就是等待。</p>
+<p>下班回到家后，发现问题还是没有能解决，但是ping都是可以的，从网上搜这个ip发现有这个网址的ip，而且人家的网站也是能访问的，说明问题不具有普遍性。所以自己就开始想办法，把linux的主机换成windows的，然后等能访问了再给换回来。点了确定之后就有些后悔，毕竟是不能访问，说不定就转不过来，但是已经转了，也就不多想了，然后把数据库备份了一下。关机睡觉。</p>
+<p>第二天，果然不出所料，空间已经换成了windows的，但是数据没有能转过去，数据库还在，上传网站程序，然后转Linux，出乎意料的是原来的文件什么的都又回来了，非常高兴，看来godaddy还是可以信赖的。<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>另外，发的邮件回复的比较慢，下午5点发的邮件，一直到半夜1：30收到第一封的邮件：Due to its complex nature, your issue has been relayed to our Advanced Technical Support TeamThank you for contacting Hosting Support and bringing this to our attention. 意思是他们解决不了，要转到高级技术支持，然后在上午8点终于收到了第二封高级技术支持的邮件：The issue regarding account status for lghcx.info has been addressed and should be resolved at this time. If you continue to experience delivery or access problems please let us know and we would be happy to assist you further. We appreciate your patience and understanding in this matter.</p>
+<p>Please contact us if you have any further issues.. Our most skilled technicians will be working to resolve your issue quickly and completely. You will be notified promptly upon resolution.</p>
+<p>除了回复不及时以外，godaddy的空间还是值得信赖的</p>
+]]></content:encoded>
+    </item>
+  </channel>
+  <follow_challenge>
+    <feedId>55234162574971904</feedId>
+    <userId>55160205417323520</userId>
+</follow_challenge>
+</rss>

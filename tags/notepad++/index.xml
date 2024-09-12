@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Notepad&#43;&#43; on 图南博客</title>
+    <link>https://tunan.org/tags/notepad&#43;&#43;/</link>
+    <description>Recent content in Notepad&#43;&#43; on 图南博客</description>
+    <image>
+      <title>图南博客</title>
+      <url>https://tunan.org/img/liujinsuiyue.jpg</url>
+      <link>https://tunan.org/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.133.1</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 23 Dec 2009 08:51:55 +0000</lastBuildDate>
+    <atom:link href="https://tunan.org/tags/notepad++/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>博客整体细节基本完成</title>
+      <link>https://tunan.org/257.html</link>
+      <pubDate>Wed, 23 Dec 2009 08:51:55 +0000</pubDate>
+      <guid>https://tunan.org/257.html</guid>
+      <description>&lt;p&gt;上午的时候在那边的办公室忙，而那边的网速慢的要死，连个新浪都打不开，所以基本上上午都白白浪费了，郁闷的是QQ农场的菜也被偷了很多，说到这里不得不说几句，原本对QQ弄成的圣诞树报有很大的希望，想不到种出来的是一堆垃圾，就是不知道这堆垃圾在圣诞节的那天是不是能变成金子。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>上午的时候在那边的办公室忙，而那边的网速慢的要死，连个新浪都打不开，所以基本上上午都白白浪费了，郁闷的是QQ农场的菜也被偷了很多，说到这里不得不说几句，原本对QQ弄成的圣诞树报有很大的希望，想不到种出来的是一堆垃圾，就是不知道这堆垃圾在圣诞节的那天是不是能变成金子。</p>
+<p>下午回到这边，基本上都在整理这个博客，用的这个模板原来好好的，不过自从空间商升级了空间后就出现了很多的乱码，知道乱码是用于编码不对造成的，但是总是解决不了，就算是你保存成了utf-8的编码依然是出错，后来发现，从我家里的电脑上传的几个文件编码竟然没有错误，细想了一下原因，很简单了，家里的文本默认是用Notepad++编辑的，而在办公室由于没有重视用了Windows xp自带的记事本，看来微软就喜欢搞与众不同，就算保存成utf8的格式，依然还是不同的，既然找到了源头就好在解决了，下载Notepad++，编辑。终于正常了。<br>
+更改下了原来的模板，主要是1、把banner默认的google的广告去掉了，不想在首页就出来那么多的广告，等以后流量上来后，如果想要再加的话，也不加那个地方，一直认为banner那个地方不适合放点击的广告。2、在首页加上了最新评论，本来想用插件呢，但是可能wordpress是最新的版本，那个插件还不支持，没有用成，只能用代码带实现，顺便说下，wordpress自带的最新评论的功能也不怎么好用。3、在文章的页面加了些广告。就这些吧，原来一直觉得wordpress的模板比较复杂，现在看来也没啥。修修补补还是很好弄的！～～</p>]]></content:encoded>
+    </item>
+  </channel>
+  <follow_challenge>
+    <feedId>55234162574971904</feedId>
+    <userId>55160205417323520</userId>
+</follow_challenge>
+</rss>

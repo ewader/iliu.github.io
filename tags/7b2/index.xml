@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>7b2 on 图南博客</title>
+    <link>https://tunan.org/tags/7b2/</link>
+    <description>Recent content in 7b2 on 图南博客</description>
+    <image>
+      <title>图南博客</title>
+      <url>https://tunan.org/img/liujinsuiyue.jpg</url>
+      <link>https://tunan.org/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.133.1</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 25 Jul 2019 00:54:22 +0000</lastBuildDate>
+    <atom:link href="https://tunan.org/tags/7b2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>给7b2的主题加上评论回复功能</title>
+      <link>https://tunan.org/2552.html</link>
+      <pubDate>Thu, 25 Jul 2019 00:54:22 +0000</pubDate>
+      <guid>https://tunan.org/2552.html</guid>
+      <description>7b2主题默认是不会给评论者回复邮件的。也曾经问过作者，作者说如果实现这个的话，没几天邮箱就被封掉了，可能作者有作者的理由吧，但是不加的话，</description>
+      <content:encoded><![CDATA[<p>7b2主题默认是不会给评论者回复邮件的。也曾经问过作者，作者说如果实现这个的话，没几天邮箱就被封掉了，可能作者有作者的理由吧，但是不加的话，你回复了评论者，他也不知道你给他回复了，没有个反馈，十分的不方便。</p>
+<p>要想实现给评论者发邮件现在有两种方法，一种是代码实现，一种是插件实现。</p>
+<h2 id="代码实现回复评论给评论者发送邮件">代码实现回复评论给评论者发送邮件</h2>
+<p>修改<!-- raw HTML omitted -->functions.php，在文件的最后加上如下代码<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>﻿现在﻿，在回复评论者就会有邮件通知了。</p>
+<h2 id="第二种插件的方式来实现">第二种，插件的方式来实现</h2>
+<p>这里跋涉者推荐国人开发的<!-- raw HTML omitted -->Wenprise Better Emails插件。美化的不错，符合国人的使用习惯，最重要是的中文的，哈哈<!-- raw HTML omitted --></p>
+<p>wordpress后台点击添加插件，搜索<!-- raw HTML omitted -->Wenprise Better Emails，安装启用即可。<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>跋涉者使用的是第一种方式来实现，因为跋涉者不喜欢插件。</p>
+<p>本文参考奶爸笔记的文章<!-- raw HTML omitted -->2019新版给WordPress添加评论邮件回复通知的方法<!-- raw HTML omitted -->，只为给自己备忘，感谢奶爸</p>
+]]></content:encoded>
+    </item>
+  </channel>
+  <follow_challenge>
+    <feedId>55234162574971904</feedId>
+    <userId>55160205417323520</userId>
+</follow_challenge>
+</rss>

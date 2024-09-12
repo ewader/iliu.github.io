@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Linux on 图南博客</title>
+    <link>https://tunan.org/tags/linux/</link>
+    <description>Recent content in Linux on 图南博客</description>
+    <image>
+      <title>图南博客</title>
+      <url>https://tunan.org/img/liujinsuiyue.jpg</url>
+      <link>https://tunan.org/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.133.1</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 17 Jan 2022 00:24:40 +0000</lastBuildDate>
+    <atom:link href="https://tunan.org/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>正式使用Manjaro系统</title>
+      <link>https://tunan.org/4036.html</link>
+      <pubDate>Mon, 17 Jan 2022 00:24:40 +0000</pubDate>
+      <guid>https://tunan.org/4036.html</guid>
+      <description>昨天把开发python 的这个电脑也更换成manjaro这个系统了。经过一段时间的试用，感觉这个系统确实是一个使用起来舒服有稳定的系统。 man</description>
+      <content:encoded><![CDATA[<p>昨天把开发python 的这个电脑也更换成manjaro这个系统了。经过一段时间的试用，感觉这个系统确实是一个使用起来舒服有稳定的系统。<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<h2 class="wp-block-heading" id="manjaro之于ubuntu">manjaro之于ubuntu</h2>
+<p>以前在桌面上选择LINUX的时候首选是ubuntu,这个系统的优点是用户多，大的方面比较稳定，运行也比较流畅，很多软件都是以ubuntu的格式来开发的。在我的电脑上有一个很烦人的问题，就是不能保存电脑的亮度，调整完之后，下次一重新启动，亮度又是最大了。虽然通过代码可以改，但是改后还是有一丢小问题的，强迫症有点。另外就是安装软件的时候，软件中心启动的慢，有时候甚至安装的界面都出不来。基于这么几点，优点不太满意。</p>
+<h2 class="wp-block-heading" id="manjaro之于deepinuos">manjaro之于deepin/uos</h2>
+<p>deepin和uos算是国产系统里的佼佼者了，我遇到的问题是，deepin偶会卡死，毫无征兆的那种，忽然桌面一卡，整个都不能用了。UOS刚开始也有这毛病，最新版貌似解决了这个问题。另外就是蓝牙有问题，死活连不上鼠标。</p>
+<p>deepin系我最喜欢的是它的终端，设计的非常人性化，特别是连接远程服务器里面，我用过的终端里，深度终端是最好用的。</p>
+<p>在就是UOS的系统资源占用率有点高，比如你开上一个浏览器，然后什么都不动，基本CPU会在5-8%的占用，要是浏览点网页，还会更高，所以使用的时候，风扇就会呼呼的转。笔记本在不用电源的情况下，充满电只能有3个小时左右（manjaro基本上能用5个多小时），还是挺费电的。<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted -->manjaro占用，开着edeg还有wine版的微信<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<h2 class="wp-block-heading" id="manjaro的缺点">manjaro的缺点</h2>
+<p>默认没有中文输入法，需要自己安装。wps字体非常的模糊。软件商店没有deepin这种的直观。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>manjaro安装配置fcitx5输入法</title>
+      <link>https://tunan.org/4016.html</link>
+      <pubDate>Thu, 06 Jan 2022 09:38:19 +0000</pubDate>
+      <guid>https://tunan.org/4016.html</guid>
+      <description>网上很多文章都说manjaro多么的牛叉，软件如何的多，如何的稳定，滚动更新如何的方便等等等等。下午没事，在一台不怎么用的电脑上试用了一下这</description>
+      <content:encoded><![CDATA[<p>网上很多文章都说manjaro多么的牛叉，软件如何的多，如何的稳定，滚动更新如何的方便等等等等。下午没事，在一台不怎么用的电脑上试用了一下这个系统。<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<p>kde的界面很漂亮，运行也流畅，但就是没使用习惯，总体来说不如debian系的方便。也可能是我用习惯了的缘故吧。记得张波老师在群里问过manjaro如何安装输入法的问题，特意安装了最新的fcitx5输入法。</p>
+<h2 class="wp-block-heading" id="以下是安装流程">以下是安装流程</h2>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>然后注销一下系统，输入法的图标就已经出来了。</p>
+<h2 class="wp-block-heading" id="然后安装词库">然后安装词库</h2>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h2 class="wp-block-heading" id="一点坑">一点坑</h2>
+<p>安装完成后，切换到中文输入法状态，显示拼音不可用，老刘找了很多教程也没有发现有用的，后来更新了一下系统，输入法正常使用了。如果，你也正受到这个问题的影响，不妨更新一下系统试试。</p>
+<h2 class="wp-block-heading" id="最后说一下">最后说一下</h2>
+<p>这个系统真的使用不习惯，新手不建议使用，目前强烈推荐使用uos家庭版。经过最近一段时间的试用，最新版电脑死机的问题已经修复了，安装简单，并且软件丰富，连原生的Linux版本的微信都是绑定了uos系统。可见国家对这个系统的支持。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>ubuntu20.10升级编译安装ibus-libpinyin输入法</title>
+      <link>https://tunan.org/3976.html</link>
+      <pubDate>Sat, 25 Dec 2021 05:47:41 +0000</pubDate>
+      <guid>https://tunan.org/3976.html</guid>
+      <description>以前无论是使用Uos还是linuxmint或者是ubtuntu，都是直接安装搜狗输入法。可以和ubuntu兼容最好的还是自带的ibus-li</description>
+      <content:encoded><![CDATA[<p>以前无论是使用Uos还是linuxmint或者是ubtuntu，都是直接安装搜狗输入法。可以和ubuntu兼容最好的还是自带的ibus-libpinyin，开始的时候觉得这个输入法的词库比较小，用起来很不方便，但是后来发现这个输入法加入新的云输入引擎后，使用体验大幅上升，并且再加上额外的词库的话，用起来已经是非常方便了。</p>
+<p>ubuntu20.10自带的是1.20.0的版本，这个版本已经有了云输入引擎，但是不能把云输入引擎里的词自动添加到用户的本地词库里，而最新版已经解决了这个问题。要升级输入法，只能编译安装，Linux的不方便之处就在于此。<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted -->如上图，ibus-libpinyin已经有了云输入，非常的方便<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<h2 class="wp-block-heading" id="首先下载ibus-libpinyin输入法源码">首先，下载ibus-libpinyin输入法源码</h2>
+<p>源码地址是：<a href="https://github.com/libpinyin/ibus-libpinyin">https://github.com/libpinyin/ibus-libpinyin</a></p>
+<h2 class="wp-block-heading" id="第二步安装编译环境">第二步，安装编译环境</h2>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h2 class="wp-block-heading" id="第三步编译输入法">第三步，编译输入法</h2>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>至此，安装结束。在编译的第一步骤中，如果编译成功的化，应该出现以下的文字：</p>
+<p>Build options:<br>
+Version 1.20.2<br>
+Install prefix /usr<br>
+Use boost no<br>
+Use opencc no<br>
+Use libpinyin yes<br>
+Build lua extension no<br>
+Build stroke input mode yes<br>
+Build cloud input mode ye<br>
+Build english input mode yes</p>
+<p>一般出错的化都是编译环境缺少一些组件，按照提示安装即可。<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted -->最终编译安装后的结果<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>python开发web程序，最好还是在Linux下</title>
+      <link>https://tunan.org/3947.html</link>
+      <pubDate>Tue, 14 Dec 2021 12:57:17 +0000</pubDate>
+      <guid>https://tunan.org/3947.html</guid>
+      <description>看了一些python教程，很多都是在windows下进行的开发，由于老刘对linux还算是有一丢丢的了解，所以从开始就在ubuntu下进行。</description>
+      <content:encoded><![CDATA[<p>看了一些python教程，很多都是在windows下进行的开发，由于老刘对linux还算是有一丢丢的了解，所以从开始就在ubuntu下进行。前两天由于要在windows下用电脑，用完之后懒得重启，由于win10里也配置好了python的开发环境，所以就在win下写了一些代码。</p>
+<!-- raw HTML omitted -->
+<p>写完之后，浏览器打开显示404错误，小心的查代码，也找不到错误的地方，明明有这个网页的模板，就是显示404，折腾了1个多小时。也每发现错误之处。后来实在是烦躁，干脆不搞了。</p>
+<p>隔了一天，进入ubuntu，浏览器打开，还是显示404，这点没错，说明程序确实有问题，但是浏览器里给出了错误出在那一个文件，那一行。看了一下是把模板里的一个路由users写成了user了，然后就找不到user这个页面。就是这么点错误，在win下就是不给你详细的出错信息。</p>
+<p>后来看了一下windows的文档，在里面也明确的说，开发python的web程序，建议使用linux。所以，新手朋友如果想学python，不妨先熟悉一下LINUX。其实也是蛮简单的。磨刀不误砍柴工。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>最终还是用回了Linux mint</title>
+      <link>https://tunan.org/3932.html</link>
+      <pubDate>Mon, 01 Nov 2021 01:56:20 +0000</pubDate>
+      <guid>https://tunan.org/3932.html</guid>
+      <description>安装统信uos后，一度用着挺不的，各方面都很满意，于是花了9.9激活了，结果激活后没多久就感觉不好了。原因是和deepin的毛病一样，莫名其</description>
+      <content:encoded><![CDATA[<p>安装统信uos后，一度用着挺不的，各方面都很满意，于是花了9.9激活了，结果激活后没多久就感觉不好了。原因是和deepin的毛病一样，莫名其妙的，桌面卡死，闪屏，或者直接黑屏了。</p>
+<p>幸亏遇到的时候，都是在用浏览器看一些网页的时候，真要是我在写程序的时候给我来这么一出，不得郁闷死。</p>
+<p>说实话，uos真的挺满意的，各方面做的真都不错，可惜稳定性是个硬伤。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>试用统信uos家庭版</title>
+      <link>https://tunan.org/3927.html</link>
+      <pubDate>Fri, 29 Oct 2021 01:22:00 +0000</pubDate>
+      <guid>https://tunan.org/3927.html</guid>
+      <description>之前上篇文章说了折腾Linux的因由，最后确定使用原版的ubuntu。不过在使用的过程中发现。还是有些许的小毛病。主要是安装了搜狗输入法之后</description>
+      <content:encoded><![CDATA[<p>之前上篇文章说了折腾Linux的因由，最后确定使用原版的ubuntu。不过在使用的过程中发现。还是有些许的小毛病。主要是安装了搜狗输入法之后，关机需要90秒的倒计时。从网上查了一下相关的信息，发现这个小毛病还是挺多人遇到的。虽然可以更改时间来较少，但是又可能造成系统的崩溃。</p>
+<p>Linuxmint倒是很流畅，一切都很满意。但是用了两天后发现了一个问题，不能使用微信，虽然在windows上，老刘也很少用微信，但是偶尔会用吧。加上近期媳妇申报副高要处理不少的文档，她都是用微信直接给我发过来，我要处理的话还得重启更换系统，非常的不方便。deepin吧，又时有卡桌面。后来想到了这个统信uos。批了一层皮的deepin os。本来没有报太大的希望，不过安装后却给了我不少的惊喜。</p>
+<!-- raw HTML omitted -->
+<p>一、安装方便</p>
+<p>比任何Linux系统安装的都方便，尽管别的现在也不复杂了。真不会安装的话，可以申请官方的一对一服务。甚至安装后，你windows桌面上的文件都给你复制过来了。</p>
+<p>二、系统流畅</p>
+<p>这个在固态硬盘下，估计都流畅，除了那个ubuntukelly吧，优化的真不错。上手也简单。</p>
+<p>三、软件不少</p>
+<p>应用商店里的软件不少，不管是通过wine也好，还是通过使用安卓也好，反正基本上解决了Linux下软件不足的问题，尽管有些是非原生的系统，不过使用频率也低。偶尔应应急还是可以的。</p>
+<p>四、不足之处</p>
+<p>当然系统也还存在不足，主要表现在应用商店里的软件版本大多数都比较低，有的都1年多没有更新了。别如老刘必须要用的keepassxc。官方都已经是2.6.6了，商店里的还是2.3.4。又没法像ubuntu一样可以用ppa安装软件。</p>
+<p>尽管如此，也是瑕不掩瑜，感兴趣的朋友真的可以试试这个系统了。另外，家庭版目前是公测，挺稳定了，可以分享他人使用而免费激活，也可以支付9.9激活，据说以后会涨价，也不知真假。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>几种Linux系统安装之后的体验</title>
+      <link>https://tunan.org/3925.html</link>
+      <pubDate>Mon, 25 Oct 2021 01:18:46 +0000</pubDate>
+      <guid>https://tunan.org/3925.html</guid>
+      <description>前一段张波老师说打算学习Python。正好老刘也有这么一个心思。之所以要学这个，是因为老刘一直以来都想弄一个客户查询系统。这个系统也很简单，</description>
+      <content:encoded><![CDATA[<p>前一段张波老师说打算学习Python。正好老刘也有这么一个心思。之所以要学这个，是因为老刘一直以来都想弄一个客户查询系统。这个系统也很简单，只要几个页面就能完成。实现的功能是，1、后台可以添加客户资料。2、前台通过用户名和手机号码可以查询各自的详情。</p>
+<p>曾经和一个搞开发的朋友聊起过这个玩意，他嫌太简单，让我自己弄。可惜我一直静不下心来做。</p>
+<p>要说编程老刘还算是有一丢丢的基础吧。毕竟在大学也是学过True Basic 以及C语言和VB的人。尽管当时学的也不咋地，就是混个学分。现在也早已经把知识还给了我的老师。</p>
+<p>看了一下Python的教程，感觉是我的菜。比当年学的那些个语言要简单的多了。基本上就是写英语句子呗。所以，下定决心系统的学习一下，争取能把我那个小玩意给弄出来。于是，有了这个折腾安装Linux的经历。</p>
+<h2 id="深度deepin-os">深度deepin os</h2>
+<p>首先考虑的就是深度deepin的这个系统。毕竟在国内的名气更大，各方面也挺完善。安装上用了不到一天，卸载了。主要是因为：</p>
+<p>第一，桌面偶有卡住的现象。发生在我使用Chrome的时候，整个卡住了，就鼠标能动，别的动动不了，也点不动别的东西。最后强制关机。</p>
+<p>第二，上面那个原因可能还是小概率的事件。最主要的原因是老刘需要使用群晖的drive这个软件。以便同步我的keepassxc。可惜的是，安装上之后，打不开这个软件。在深度的论坛上发布了相关的帖子，也没有啥回音。只好弃之。</p>
+<h2 id="linuxmint">Linuxmint</h2>
+<p>这个一款排名也比较靠前的系统，以Ubuntu为母本开发出来的。系统运行非常的流畅。尽管存在中文化不足的毛病，但是通过网上的一些教程，还是解决了这个问题。群晖的那个软件也可以使用。让老刘最终放弃的原因是总感觉用这个系统后，看着费眼。所以作为备选的系统，在测试一下别的。</p>
+<h2 id="ubuntukelly">Ubuntukelly</h2>
+<p>优麒麟系统，也是以Ubuntu为母本开发的，中文化很好。界面和Windows 10的界面基本上90%的相似。上手没难度。更难能可贵的是，这个系统可以直接运行安卓的软件。</p>
+<p>使用了半天，最终还是放弃了。原因是卡顿，不丝滑。特别是使用wps编辑文档的时候，是真的卡，别的程序倒是还好。不知道这么卡顿，国内的很多部门是咋用的。</p>
+<h2 id="ubuntu原版">Ubuntu原版</h2>
+<p>本来就打算装回Linuxmint算了，最后觉得吧，都试了这么些了，不如装装原版的试试吧。结果出乎老刘的意料。系统运行的非常流畅，中文化很好（尽管没有农历的日期之类的，不过应该也是可以安装的），最重要的是浏览网页几乎和win下没有两样了。</p>
+<p>最终决定，就用原版的Ubuntu系统了。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>常用的几个Linux的命令</title>
+      <link>https://tunan.org/2535.html</link>
+      <pubDate>Sat, 20 Jul 2019 08:49:47 +0000</pubDate>
+      <guid>https://tunan.org/2535.html</guid>
+      <description>作为一个命令记不全的人，每次都要跋山涉水的找命令，这次把一些经常用到的命令综合到一起，省的再去翻找别人的文章。 Linux 删除文件夹和文件的命令 删除文</description>
+      <content:encoded><![CDATA[<p>作为一个命令记不全的人，每次都要跋山涉水的找命令，这次把一些经常用到的命令综合到一起，省的再去翻找别人的文章。</p>
+<h2 id="linux-删除文件夹和文件的命令">Linux 删除文件夹和文件的命令</h2>
+<p><!-- raw HTML omitted -->删除文件夹实例：<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted -->rm -rf /var/log/httpd/access<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted -->将会删除/var/log/httpd/access目录以及其下所有文件、文件夹<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted -->删除文件使用实例：<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted -->rm -f /var/log/httpd/access.log<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted -->将会强制删除/var/log/httpd/access.log这个文件<!-- raw HTML omitted --></p>
+<h2 id="更改网站目录权限">更改网站目录权限</h2>
+<p>网站根目录权限遵循：</p>
+<p>文件644 文件夹755  权限用户和用户组www，其余文档777权限是不正常的</p>
+<p>如出现文件权限问题时，请执行下面3条命令：</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h2 id="管理服务器命令">管理服务器命令</h2>
+<ul>
+<li>
+<p>Nginx/Tengine/OpenResty:<br>
+service nginx {start|stop|status|restart|reload|configtest}</p>
+</li>
+<li>
+<p>MySQL/MariaDB/Percona:
+service mysqld {start|stop|restart|reload|status}<!-- raw HTML omitted --></p>
+<ul>
+<li>
+<p>PostgreSQL:
+service postgresql {start|stop|restart|status}<!-- raw HTML omitted --></p>
+<ul>
+<li>
+<p>MongoDB:
+service mongod {start|stop|status|restart|reload}<!-- raw HTML omitted --></p>
+<ul>
+<li>
+<p>PHP:
+service php-fpm {start|stop|restart|reload|status}<!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<h2 id="linux-中-cp-命令文件复制">Linux 中 cp 命令（文件复制）</h2>
+<p>1、cp fileOne fileTwo 或者 cp -i fileOne fileTwo ——–将文档One复制并命名成Two</p>
+<p>2、cp -i fileOne dirOne 或者 cp fileOne dirOne  —————将文档One复制到DirOne目录下</p>
+<p>3、cp -r dirOne dirTwo   ———–将目录dirOne复制到dirTwo下</p>
+<p>4、cp -r dirOne/*.* dirTwo   ———-将dirOne下所有文件包括文件夹复制到dirTwo</p>
+<p>待续…….</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>centos7.6更改dns的方法</title>
+      <link>https://tunan.org/2260.html</link>
+      <pubDate>Fri, 12 Jul 2019 09:29:00 +0000</pubDate>
+      <guid>https://tunan.org/2260.html</guid>
+      <description>今天在重新安装服务器的生产环境的时候发现无法申请Let’s Encrypt的证书，根据我的经验，一般把服务器上的dns设置成Google的8.</description>
+      <content:encoded><![CDATA[<p>今天在重新安装服务器的生产环境的时候发现无法申请<!-- raw HTML omitted -->Let’s Encrypt的证书，根据我的经验，一般把服务器上的dns设置成Google的8.8.8.8就可以顺利的进行申请，可能是国内的dns解析<!-- raw HTML omitted --><!-- raw HTML omitted -->Let’s Encrypt域名不通畅所导致。所以，第一时间，笔者就想到把服务器的dns设置成Google的。搜索引擎查了一下，很多都是千篇一律的。根据他们的经验，总结了一下，以备以后使用。<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<h2 id="首先重新启动一下span-stylebackground-color-rgb255-255-255-color-rgb51-51-51networkmanagerspan">首先，重新启动一下<!-- raw HTML omitted -->NetworkManager<!-- raw HTML omitted --></h2>
+<p>有时候服务器的这个进程并没有启动，所以后面用的代码方法就不管用，输入代码后，显示Error: NetworkManager is not running.，笔者就是吃了这个的亏，搞了半天才稿定。</p>
+<p>使用命令：</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h2 id="第二使用命令行工具-nmcli-来设置">第二，使用命令行工具 nmcli 来设置</h2>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>注意：eth0可能这个参数每台机器都不同，所以，根据你自己的服务器的网关参数来进行修改。</p>
+<h2 id="第三重复第一步">第三：重复第一步</h2>
+<p>重新启动NetworkManager，使这个服务生效即可。</p>
+]]></content:encoded>
+    </item>
+  </channel>
+  <follow_challenge>
+    <feedId>55234162574971904</feedId>
+    <userId>55160205417323520</userId>
+</follow_challenge>
+</rss>

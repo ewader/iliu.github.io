@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Linux命令 on 图南博客</title>
+    <link>https://tunan.org/tags/linux%E5%91%BD%E4%BB%A4/</link>
+    <description>Recent content in Linux命令 on 图南博客</description>
+    <image>
+      <title>图南博客</title>
+      <url>https://tunan.org/img/liujinsuiyue.jpg</url>
+      <link>https://tunan.org/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.133.1</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 20 Jul 2019 08:49:47 +0000</lastBuildDate>
+    <atom:link href="https://tunan.org/tags/linux%E5%91%BD%E4%BB%A4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>常用的几个Linux的命令</title>
+      <link>https://tunan.org/2535.html</link>
+      <pubDate>Sat, 20 Jul 2019 08:49:47 +0000</pubDate>
+      <guid>https://tunan.org/2535.html</guid>
+      <description>作为一个命令记不全的人，每次都要跋山涉水的找命令，这次把一些经常用到的命令综合到一起，省的再去翻找别人的文章。 Linux 删除文件夹和文件的命令 删除文</description>
+      <content:encoded><![CDATA[<p>作为一个命令记不全的人，每次都要跋山涉水的找命令，这次把一些经常用到的命令综合到一起，省的再去翻找别人的文章。</p>
+<h2 id="linux-删除文件夹和文件的命令">Linux 删除文件夹和文件的命令</h2>
+<p><!-- raw HTML omitted -->删除文件夹实例：<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted -->rm -rf /var/log/httpd/access<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted -->将会删除/var/log/httpd/access目录以及其下所有文件、文件夹<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted -->删除文件使用实例：<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted -->rm -f /var/log/httpd/access.log<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted -->将会强制删除/var/log/httpd/access.log这个文件<!-- raw HTML omitted --></p>
+<h2 id="更改网站目录权限">更改网站目录权限</h2>
+<p>网站根目录权限遵循：</p>
+<p>文件644 文件夹755  权限用户和用户组www，其余文档777权限是不正常的</p>
+<p>如出现文件权限问题时，请执行下面3条命令：</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h2 id="管理服务器命令">管理服务器命令</h2>
+<ul>
+<li>
+<p>Nginx/Tengine/OpenResty:<br>
+service nginx {start|stop|status|restart|reload|configtest}</p>
+</li>
+<li>
+<p>MySQL/MariaDB/Percona:
+service mysqld {start|stop|restart|reload|status}<!-- raw HTML omitted --></p>
+<ul>
+<li>
+<p>PostgreSQL:
+service postgresql {start|stop|restart|status}<!-- raw HTML omitted --></p>
+<ul>
+<li>
+<p>MongoDB:
+service mongod {start|stop|status|restart|reload}<!-- raw HTML omitted --></p>
+<ul>
+<li>
+<p>PHP:
+service php-fpm {start|stop|restart|reload|status}<!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
+<h2 id="linux-中-cp-命令文件复制">Linux 中 cp 命令（文件复制）</h2>
+<p>1、cp fileOne fileTwo 或者 cp -i fileOne fileTwo ——–将文档One复制并命名成Two</p>
+<p>2、cp -i fileOne dirOne 或者 cp fileOne dirOne  —————将文档One复制到DirOne目录下</p>
+<p>3、cp -r dirOne dirTwo   ———–将目录dirOne复制到dirTwo下</p>
+<p>4、cp -r dirOne/*.* dirTwo   ———-将dirOne下所有文件包括文件夹复制到dirTwo</p>
+<p>待续…….</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+  </channel>
+  <follow_challenge>
+    <feedId>55234162574971904</feedId>
+    <userId>55160205417323520</userId>
+</follow_challenge>
+</rss>

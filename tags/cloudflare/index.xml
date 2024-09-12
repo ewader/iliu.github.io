@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Cloudflare on 图南博客</title>
+    <link>https://tunan.org/tags/cloudflare/</link>
+    <description>Recent content in Cloudflare on 图南博客</description>
+    <image>
+      <title>图南博客</title>
+      <url>https://tunan.org/img/liujinsuiyue.jpg</url>
+      <link>https://tunan.org/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.133.1</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 01 Dec 2023 21:04:03 +0800</lastBuildDate>
+    <atom:link href="https://tunan.org/tags/cloudflare/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>利用cloudflare页面规则设置301永久跳转</title>
+      <link>https://tunan.org/posts/use-cloudflare-page-rules-setup-301-permanent-redirect/</link>
+      <pubDate>Fri, 01 Dec 2023 21:04:03 +0800</pubDate>
+      <guid>https://tunan.org/posts/use-cloudflare-page-rules-setup-301-permanent-redirect/</guid>
+      <description>前言 细心的读者可能已经发现，图南博客的域名已经由iliu.org 更换到tunan.org。这个域名是之前在Google注册的，可惜的80端口</description>
+      <content:encoded><![CDATA[<h2 id="前言">前言</h2>
+<p>细心的读者可能已经发现，图南博客的域名已经由<code>iliu.org</code> 更换到<code>tunan.org</code>。这个域名是之前在<code>Google</code>注册的，可惜的80端口被墙了，也不知道是怎么实现强域名80端口的。于是在暂时使用一段时间后又使用了原域名。</p>
+<p>前两天的时候，感觉还是需要用tunan这个域名，和博客的名字比较搭配，而且用了ssl之后，网站走的443端口，基本上也不会影响什么，所以就切换了过来。</p>
+<p>换域名之后另一个需要的解决的事情是要把<code>iliu.org</code>的网址301跳转到新网站，以前用VPS的时候，直接在<code>nginx</code>里设置，现在不用vps了，有没有别的方法呢？答案是肯定的，而且比vps更方便。那就是使用<code>Cloudflare</code>的页面规则进行跳转。</p>
+<h2 id="方法">方法</h2>
+<p>进入到<code>cloudflare</code>的个人中心，点击需要跳转的网站域名，点击DNS。 把域名解析到8.8.8.8，当然你解析到1.1.1.1也是可以的。然后点击规则，再点击页面规则。具体的设置如下图：<img loading="lazy" src="https://ewader.s3.bitiful.net/blog/guize.png" alt="规则"  />
+</p>
+<p>这样，就把<code>iliu.org</code>这个网站的网址，按照同样的规则，跳转到了<code>tunan.org</code>这个网站。</p>
+<p>使用免费的<code>cloudflare</code>一个域名只有3个免费的页面规则，因此还有另外一个方法也可以实现，那就是利用<code>cloudflare</code>的<code>workers</code>。</p>
+<p>进入到<code>cloudflare</code>的后台后，点击<code>Workers 和 Pages</code>。</p>
+<p>点击<code>创建应用程序</code>,再点击<code>创建workers</code>：把下面的代码修改一下，复制到代码区保存。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="o">/**</span>
+</span></span><span class="line"><span class="cl"> <span class="o">*</span> <span class="n">Welcome</span> <span class="n">to</span> <span class="n">Cloudflare</span> <span class="n">Workers</span><span class="o">!</span> <span class="n">This</span> <span class="n">is</span> <span class="n">your</span> <span class="n">first</span> <span class="n">worker</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl"> <span class="o">*</span>
+</span></span><span class="line"><span class="cl"> <span class="o">*</span> <span class="o">-</span> <span class="n">Run</span> <span class="s2">&#34;npm run dev&#34;</span> <span class="ow">in</span> <span class="n">your</span> <span class="n">terminal</span> <span class="n">to</span> <span class="n">start</span> <span class="n">a</span> <span class="n">development</span> <span class="n">server</span>
+</span></span><span class="line"><span class="cl"> <span class="o">*</span> <span class="o">-</span> <span class="n">Open</span> <span class="n">a</span> <span class="n">browser</span> <span class="n">tab</span> <span class="n">at</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">localhost</span><span class="p">:</span><span class="mi">8787</span><span class="o">/</span> <span class="n">to</span> <span class="n">see</span> <span class="n">your</span> <span class="n">worker</span> <span class="ow">in</span> <span class="n">action</span>
+</span></span><span class="line"><span class="cl"> <span class="o">*</span> <span class="o">-</span> <span class="n">Run</span> <span class="s2">&#34;npm run deploy&#34;</span> <span class="n">to</span> <span class="n">publish</span> <span class="n">your</span> <span class="n">worker</span>
+</span></span><span class="line"><span class="cl"> <span class="o">*</span>
+</span></span><span class="line"><span class="cl"> <span class="o">*</span> <span class="n">Learn</span> <span class="n">more</span> <span class="n">at</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">developers</span><span class="o">.</span><span class="n">cloudflare</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">workers</span><span class="o">/</span>
+</span></span><span class="line"><span class="cl"> <span class="o">*/</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">//</span> <span class="n">Redirect</span> <span class="n">requests</span> <span class="n">from</span> <span class="n">one</span> <span class="n">domain</span> <span class="n">to</span> <span class="n">another</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">const</span> <span class="n">base</span> <span class="o">=</span> <span class="s2">&#34;https://tunan.org&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="k">const</span> <span class="n">statusCode</span> <span class="o">=</span> <span class="mi">301</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">async</span> <span class="n">function</span> <span class="n">handleRequest</span><span class="p">(</span><span class="n">request</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="k">const</span> <span class="n">url</span> <span class="o">=</span> <span class="n">new</span> <span class="n">URL</span><span class="p">(</span><span class="n">request</span><span class="o">.</span><span class="n">url</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="k">const</span> <span class="p">{</span> <span class="n">pathname</span><span class="p">,</span> <span class="n">search</span> <span class="p">}</span> <span class="o">=</span> <span class="n">url</span>
+</span></span><span class="line"><span class="cl">  <span class="k">const</span> <span class="n">destinationURL</span> <span class="o">=</span> <span class="n">base</span> <span class="o">+</span> <span class="n">pathname</span> <span class="o">+</span> <span class="n">search</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="n">Response</span><span class="o">.</span><span class="n">redirect</span><span class="p">(</span><span class="n">destinationURL</span><span class="p">,</span> <span class="n">statusCode</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">addEventListener</span><span class="p">(</span><span class="s2">&#34;fetch&#34;</span><span class="p">,</span> <span class="n">async</span> <span class="n">event</span> <span class="o">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="n">event</span><span class="o">.</span><span class="n">respondWith</span><span class="p">(</span><span class="n">handleRequest</span><span class="p">(</span><span class="n">event</span><span class="o">.</span><span class="n">request</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="p">})</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>上面秩序把域名化成你的域名，然后设置workers的域名是你要转出的域名即可。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>博客web端改用apache</title>
+      <link>https://tunan.org/3520.html</link>
+      <pubDate>Wed, 30 Dec 2020 07:35:59 +0000</pubDate>
+      <guid>https://tunan.org/3520.html</guid>
+      <description>试用了几天Cloudflare加racknerd的2h2g的小鸡，感觉还算差强人意。所以干脆就先把博客放这里算了，然后又突发奇想，其他的网站</description>
+      <content:encoded><![CDATA[<p>试用了几天Cloudflare加racknerd的2h2g的小鸡，感觉还算差强人意。所以干脆就先把博客放这里算了，然后又突发奇想，其他的网站一直用的lnmp，为啥博客就不能用用lamp呢？况且apache在稳定性以及对php的支持等方面都比nginx要好，nginx的优势是轻便和并发能力强。其实对小博客来说，基本没有啥区别。<!-- raw HTML omitted --></p>
+<p><a href="https://tunan.org/wp-content/uploads/2021/01/ac6793f3e79aaa6.jpg"><!-- raw HTML omitted --></a><!-- raw HTML omitted --></p>
+<p>说折腾就折腾，编译安装apache，发现需要重新设置虚拟主机，设置的时候发现，不像nginx的时候，脚本提示把http301到https，什么www域名301到一级域名等，这些提示都没有。也没有设置伪静态的选项。网上查了一下，发现是几行代码就可以搞定的事情。</p>
+<h2 class="wp-block-heading" id="设置301跳转">设置301跳转</h2>
+<p>在apache里设置301跳转很简单，只需要在.htaccess里添加代码就好了，老刘主要用到两个，一个是http跳到https，一个是www跳到一级域名。感觉比nginx要简洁一些，代码如下：</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>设置后才发现，设置和不设置没有啥区别，老刘用的cf，应该是在cf里设置了301到443接口了，至于wordpress伪静态的问题，也是很容易，直接到wordpress的后台，保存一下固定链接样式就行了，保存后在根目录里自动生成了.htaccess。代码如下：</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h2 class="wp-block-heading" id="使用cloudflare后获取用户真实ip">使用cloudflare后获取用户真实IP</h2>
+<p>由于apache已经自带mod_remoteip模块，所以只需按如下操作即可</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>service httpd restar重启apache，然后去日志里看看，已经获得了真实IP。前连天灰常记忆博友说在cloudflare里设置一下也能显示真实IP，但是老刘没有找到这个设置，只好继续在网站上改了，网站上改还有一个好处是，这个方法不仅限于cloudflare，别的CDN也是适用的</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>利用cloudFlare的边缘计算workers实现外链转内链跳转</title>
+      <link>https://tunan.org/2248.html</link>
+      <pubDate>Tue, 09 Jul 2019 01:20:11 +0000</pubDate>
+      <guid>https://tunan.org/2248.html</guid>
+      <description>跋涉者曾经分享过一篇7b2主题外链跳转的文章，那篇文章实现的原理是在自己服务器里增加一个跳转的页面代码。 [zrz_insert_post id=1656] 不过今天看张戈大神的一篇文章Cl</description>
+      <content:encoded><![CDATA[<p>跋涉者曾经分享过一篇7b2主题外链跳转的文章，那篇文章实现的原理是在自己服务器里增加一个跳转的页面代码。</p>
+<p>[zrz_insert_post id=1656]</p>
+<p>不过今天看张戈大神的一篇文章<!-- raw HTML omitted -->CloudFlare边缘计算Workers尝鲜初探：博客跳转中间页<!-- raw HTML omitted -->。这篇文章谈到可以把这个跳转代码保存到cloudFlare的边缘计算workers中，从而让跳转可以在CDN里实现，显然，这样会减轻服务器计算的压力。对小水管的博客来说有一定的使用价值。</p>
+<h2 id="首先你的网站要使用cloudflare这个cdn加速">首先，你的网站要使用cloudFlare这个cdn加速。</h2>
+<p>由于国内的网络情况，直接使用往往比较卡，不过好在张戈大神折腾出了另外一个套路，使用后感觉还不错。有兴趣的朋友可以去他的网站上参考。本文不做详细的叙述。</p>
+<h2 id="第二把代码添加到cloudflare的边缘计算workers中">第二，把代码添加到cloudFlare的边缘计算workers中</h2>
+<p>步骤如下：</p>
+<ul>
+<li><!-- raw HTML omitted -->打开CF域名控制面板，如图1点击切换到Workers选项卡；<!-- raw HTML omitted --></li>
+<li><!-- raw HTML omitted -->点击【Launch Editor】按钮进入Workers编辑界面后，点击【Add script】输入脚本名称并保存，如图：<!-- raw HTML omitted --><!-- raw HTML omitted --></li>
+</ul>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<ul>
+<li>把如下代码放入代码编辑框中，此代码来自<!-- raw HTML omitted -->张戈博客<!-- raw HTML omitted -->.并点击save。</li>
+</ul>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<ul>
+<li><!-- raw HTML omitted -->点击【routers】按钮切到路由编辑界面，点击【Add router】后如图添加路由：点击save<!-- raw HTML omitted --><!-- raw HTML omitted --></li>
+</ul>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>至此，已经大功告成，想看效果的可以点击上面的外链，值得说明的一点是，cloudFlare的边缘计算workers是收费服务，不过每天有免费10w的请求数量，对我们这个小博客来说，是非常非常的够用了。</p>
+<p>如果，你也在使用<!-- raw HTML omitted -->cloudFlare，不妨也可以用用这个玩意，毕竟充分利用外部资源是我等小博主追求的目标哈。<!-- raw HTML omitted --></p>
+]]></content:encoded>
+    </item>
+  </channel>
+  <follow_challenge>
+    <feedId>55234162574971904</feedId>
+    <userId>55160205417323520</userId>
+</follow_challenge>
+</rss>

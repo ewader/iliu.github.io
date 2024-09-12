@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>DNS设置 on 图南博客</title>
+    <link>https://tunan.org/tags/dns%E8%AE%BE%E7%BD%AE/</link>
+    <description>Recent content in DNS设置 on 图南博客</description>
+    <image>
+      <title>图南博客</title>
+      <url>https://tunan.org/img/liujinsuiyue.jpg</url>
+      <link>https://tunan.org/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.133.1</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 12 Jul 2019 09:29:00 +0000</lastBuildDate>
+    <atom:link href="https://tunan.org/tags/dns%E8%AE%BE%E7%BD%AE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>centos7.6更改dns的方法</title>
+      <link>https://tunan.org/2260.html</link>
+      <pubDate>Fri, 12 Jul 2019 09:29:00 +0000</pubDate>
+      <guid>https://tunan.org/2260.html</guid>
+      <description>今天在重新安装服务器的生产环境的时候发现无法申请Let’s Encrypt的证书，根据我的经验，一般把服务器上的dns设置成Google的8.</description>
+      <content:encoded><![CDATA[<p>今天在重新安装服务器的生产环境的时候发现无法申请<!-- raw HTML omitted -->Let’s Encrypt的证书，根据我的经验，一般把服务器上的dns设置成Google的8.8.8.8就可以顺利的进行申请，可能是国内的dns解析<!-- raw HTML omitted --><!-- raw HTML omitted -->Let’s Encrypt域名不通畅所导致。所以，第一时间，笔者就想到把服务器的dns设置成Google的。搜索引擎查了一下，很多都是千篇一律的。根据他们的经验，总结了一下，以备以后使用。<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<h2 id="首先重新启动一下span-stylebackground-color-rgb255-255-255-color-rgb51-51-51networkmanagerspan">首先，重新启动一下<!-- raw HTML omitted -->NetworkManager<!-- raw HTML omitted --></h2>
+<p>有时候服务器的这个进程并没有启动，所以后面用的代码方法就不管用，输入代码后，显示Error: NetworkManager is not running.，笔者就是吃了这个的亏，搞了半天才稿定。</p>
+<p>使用命令：</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h2 id="第二使用命令行工具-nmcli-来设置">第二，使用命令行工具 nmcli 来设置</h2>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>注意：eth0可能这个参数每台机器都不同，所以，根据你自己的服务器的网关参数来进行修改。</p>
+<h2 id="第三重复第一步">第三：重复第一步</h2>
+<p>重新启动NetworkManager，使这个服务生效即可。</p>
+]]></content:encoded>
+    </item>
+  </channel>
+  <follow_challenge>
+    <feedId>55234162574971904</feedId>
+    <userId>55160205417323520</userId>
+</follow_challenge>
+</rss>

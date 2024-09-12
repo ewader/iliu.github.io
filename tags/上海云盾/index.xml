@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>上海云盾 on 图南博客</title>
+    <link>https://tunan.org/tags/%E4%B8%8A%E6%B5%B7%E4%BA%91%E7%9B%BE/</link>
+    <description>Recent content in 上海云盾 on 图南博客</description>
+    <image>
+      <title>图南博客</title>
+      <url>https://tunan.org/img/liujinsuiyue.jpg</url>
+      <link>https://tunan.org/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.133.1</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 26 May 2019 02:29:32 +0000</lastBuildDate>
+    <atom:link href="https://tunan.org/tags/%E4%B8%8A%E6%B5%B7%E4%BA%91%E7%9B%BE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>上海云盾CDN简要设置指南</title>
+      <link>https://tunan.org/1653.html</link>
+      <pubDate>Sun, 26 May 2019 02:29:32 +0000</pubDate>
+      <guid>https://tunan.org/1653.html</guid>
+      <description>在免费cdn市场上，广大站长所使用的一般是又拍云cdn，360网站加速，上海云盾cdn以及腾讯云cdn，笔者以前也是使用的又拍云cdn,可能</description>
+      <content:encoded><![CDATA[<p>在免费cdn市场上，广大站长所使用的一般是又拍云cdn，360网站加速，上海云盾cdn以及腾讯云cdn，笔者以前也是使用的又拍云cdn,可能是和又拍云犯冲又或者是自己设置的不对，网站总出现这样那样的问题，后来把cdn转移到了上海云顿，网站之前的问题就没有再出现，于是就一直用了下去，当时觉得上海云盾的设置很简单，昨天，青山绿水博客的的博主小朋友问我上海云盾的设置小技巧，说实话真没有啥技巧，就把自己的一些设置弄出来，可能还有更多优化的地方，欢迎指正。<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>云盾的cdn登录后的界面，我们一般也就用到cdn功能，可以在性能优化里面设置。上海云盾每月送50g的流量，对于小博客来说是够用了，不过送的流量并没有显示出来，和官方人员也有过沟通，他说你用就行了，反正每月50g。<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>点击性能优化后，就进入了CDN设置的地方，首先要添加网站，添加后系统会给你一个cname地址，在你的域名解析的地方，把你的网站解析到这个地址上，添加后就要等云盾的审核了，一般情况下需要1-2小时的时间。<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<h2 id="回源配置">回源配置</h2>
+<p>域名审核通过后，域名后面的控制台，就进入了cdn的设置项，设置项很简单，有三个方面，第一个方面是回源配置，在这里你需要设置你的http协议，回源的地址以及端口，http的话是80端口，https的话一般是443端口。<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<h2 id="性能优化">性能优化</h2>
+<p>这里是设置缓存的地方，根据自己网站的情况具体设置即可，镜缘轩这个网站的设置情况如上图，笔者把js和css以及图片视频等都设置的缓存15天，其他目录设置的是半小时。可以根据自己的实际情况来设置。</p>
+<p>另外这里还有一个是不缓存的设置，一般把你网站的后台目录设置成不缓存即可。<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<h2 id="高级配置">高级配置</h2>
+<p>这个配置项有搜索引擎优化，这里把你源站的ip地址输入里面即可，还有一些https的设置，值得说明的是上海云盾的ssl证书是在公共组件里上传和修改的。，高级配置本人就做了这两项，其他的都默认配置即可。</p>
+]]></content:encoded>
+    </item>
+  </channel>
+  <follow_challenge>
+    <feedId>55234162574971904</feedId>
+    <userId>55160205417323520</userId>
+</follow_challenge>
+</rss>

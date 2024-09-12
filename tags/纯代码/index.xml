@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>纯代码 on 图南博客</title>
+    <link>https://tunan.org/tags/%E7%BA%AF%E4%BB%A3%E7%A0%81/</link>
+    <description>Recent content in 纯代码 on 图南博客</description>
+    <image>
+      <title>图南博客</title>
+      <url>https://tunan.org/img/liujinsuiyue.jpg</url>
+      <link>https://tunan.org/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.133.1</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 18 Oct 2020 07:27:04 +0000</lastBuildDate>
+    <atom:link href="https://tunan.org/tags/%E7%BA%AF%E4%BB%A3%E7%A0%81/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>纯代码设置frp服务器</title>
+      <link>https://tunan.org/3340.html</link>
+      <pubDate>Sun, 18 Oct 2020 07:27:04 +0000</pubDate>
+      <guid>https://tunan.org/3340.html</guid>
+      <description>以前老刘写过《宝塔面板安装FRP内网穿透控制群晖》的文章，最近发现不知道是这个插件的作者不再开发了还是其他的原因，xeath开发的这个frp</description>
+      <content:encoded><![CDATA[<p>以前老刘写过《<a href="https://tunan.org/2918.html">宝塔面板安装FRP内网穿透控制群晖</a>》的文章，最近发现不知道是这个插件的作者不再开发了还是其他的原因，xeath开发的这个frp服务器插件已经在商店里找不到了。其实，这也没什么，直接用代码的方式部署也是可以的。</p>
+<p>SSH连接到VPS之后运行如下命令查看处理器架构，根据架构下载不同版本的frp</p>
+<!-- raw HTML omitted -->
+<p>查看结果，如果是“X86_64“即可选择”amd64”，<br>
+运行如下命令，根据架构不同，选择相应版本并进行下载，然后登陆frp的官网地址，现在最新的应该是0.34.1，所以，运行如下的命令：</p>
+<!-- raw HTML omitted -->
+<p>然后解压，给文件换一个名字，进入frp目录</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>修改frps.ini文件</p>
+<!-- raw HTML omitted -->
+<p>格式如下：</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>编辑完成后保存（vim保存如果不会请自行搜索）。<br>
+之后我们就可以运行frps的服务端了。</p>
+<p>使用命令：</p>
+<!-- raw HTML omitted -->
+<p>如果输出如下文字，说明服务器配置成功</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>通过你的服务器IP：7500,然后输入刚才你设置的用户名密码，应该可以看到如下的画面：<!-- raw HTML omitted --></p>
+<p><a href="https://tunan.org/wp-content/uploads/2020/10/574e8aabbd9f2ca.png"><!-- raw HTML omitted --></a><!-- raw HTML omitted --></p>
+<h2 class="wp-block-heading" id="让frp服务在后台运行">让FRP服务在后台运行</h2>
+<p>这时候你会发现，如果你关闭了xshell等的窗口，frp的服务也即可停止了，所以，为了让FRP在后台运行，我们还输入如下的命令：</p>
+<!-- raw HTML omitted -->
+<p>如果出来的如下的文字，说明配置成功</p>
+<!-- raw HTML omitted -->
+<p>至此，服务器端设置完毕，群晖的设置在上一篇文章内已经说过，这次就不再啰嗦了。</p>
+<h2 class="wp-block-heading" id="可能遇到的坑">可能遇到的坑：</h2>
+<p>如果你按照这个方法设置后，最后的输出总不正确，那么很大的可能是你的服务器的相应的端口没有开放，如果使用的是腾讯云或者阿里云的话，服务器的端口打开之后，还需要在这些云的控制端设置开放端口。</p>
+]]></content:encoded>
+    </item>
+  </channel>
+  <follow_challenge>
+    <feedId>55234162574971904</feedId>
+    <userId>55160205417323520</userId>
+</follow_challenge>
+</rss>

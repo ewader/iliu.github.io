@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>软件 on 流金岁月</title>
-    <link>https://iliu.org/tags/%E8%BD%AF%E4%BB%B6/</link>
-    <description>Recent content in 软件 on 流金岁月</description>
+    <title>软件 on 图南博客</title>
+    <link>https://tunan.org/tags/%E8%BD%AF%E4%BB%B6/</link>
+    <description>Recent content in 软件 on 图南博客</description>
     <image>
-      <title>流金岁月</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <title>图南博客</title>
+      <url>https://tunan.org/img/liujinsuiyue.jpg</url>
+      <link>https://tunan.org/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.133.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 06 Sep 2024 11:03:02 +0800</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E8%BD%AF%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://tunan.org/tags/%E8%BD%AF%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>手机上有好用的输入法吗？</title>
-      <link>https://iliu.org/posts/good-input-method-on-mobile-phones/</link>
+      <link>https://tunan.org/posts/good-input-method-on-mobile-phones/</link>
       <pubDate>Fri, 06 Sep 2024 11:03:02 +0800</pubDate>
-      <guid>https://iliu.org/posts/good-input-method-on-mobile-phones/</guid>
+      <guid>https://tunan.org/posts/good-input-method-on-mobile-phones/</guid>
       <description>老刘在以前的文章里也曾提过选择输入法的过程，目前在电脑上的方案是使用小狼毫输入法加雾凇拼音的词库。并通过群晖drive实现几个PC之间个人词</description>
       <content:encoded><![CDATA[<p>老刘在以前的文章里也曾提过选择输入法的过程，目前在电脑上的方案是使用<code>小狼毫输入法</code>加<code>雾凇拼音</code>的词库。并通过<code>群晖drive</code>实现几个PC之间个人词库的同步，使用起来还算方便。</p>
 <p><img loading="lazy" src="https://ewader.s3.bitiful.net/blog/2024-09-06-10-44-13.png?no-wait%5c=on" alt=""  />
@@ -38,9 +38,9 @@
     </item>
     <item>
       <title>再次使用 KeepassXC进行密码管理</title>
-      <link>https://iliu.org/posts/use-keepassxc-again-for-password-management/</link>
+      <link>https://tunan.org/posts/use-keepassxc-again-for-password-management/</link>
       <pubDate>Tue, 03 Sep 2024 13:46:02 +0800</pubDate>
-      <guid>https://iliu.org/posts/use-keepassxc-again-for-password-management/</guid>
+      <guid>https://tunan.org/posts/use-keepassxc-again-for-password-management/</guid>
       <description>前因 几年前，老刘最开始用软件进行密码管理的时候，用的就是keepassxc，只是后来有一段时间使用deepin，系统的内核比较低，不支持ke</description>
       <content:encoded><![CDATA[<p><img loading="lazy" src="https://memos.1169f1b9dbf57062d00029d30c7fde9e.r2.cloudflarestorage.com/assets/1725262863_2024-09-02-15-23-54.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=67756f7e669d24ac11ea5c24ecfdb150%2F20240902%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20240902T074103Z&amp;X-Amz-Expires=432000&amp;X-Amz-SignedHeaders=host&amp;x-id=GetObject&amp;X-Amz-Signature=f948507f71602f764fa24695ce3823930013949acc00d88a388e6b6d825ee8dd" alt=""  />
 </p>
@@ -58,6 +58,47 @@
 <p>以前老刘用一个很简单的方案，就是用synalogy drive在各个终端进行同步密码文件，有一点不方便的是，在手机上由于drive程序后台被杀之后，keepass获取的只是以前的缓存，每次使用前都要打开一次drive，很不方便。好在keepass支持webdav的同步方式。NAS开通webdav，设置好文件夹，各个端就能愉快的使用了。妈妈再也不用担心我的密码了。</p>
 <h2 id="后记">后记</h2>
 <p>目前使用了keepass一个星期，相比bitwarden来说，需要在电脑里多打开一个软件，占了电脑里的一些资源，减少了一些NAS里的资源，体验的话就是从B无缝衔接到了K，两个软件在网站输入密码的时候，没有什么不同。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>2024年，高德地图和百度地图选哪个？</title>
+      <link>https://tunan.org/posts/comparison-between-autonavi-map-and-baidu-map/</link>
+      <pubDate>Sat, 24 Feb 2024 14:42:58 +0800</pubDate>
+      <guid>https://tunan.org/posts/comparison-between-autonavi-map-and-baidu-map/</guid>
+      <description>在网上经常看到网友询问百度地图和高德地图如何选择，网上的文章要么太老，要么太老，要么太老，没有什么参考价值。为什么这么说呢，因为现在导航技术</description>
+      <content:encoded><![CDATA[<p>在网上经常看到网友询问百度地图和高德地图如何选择，网上的文章要么太老，要么太老，要么太老，没有什么参考价值。为什么这么说呢，因为现在导航技术加上北斗的支持，已经远远不是文章的那个年代所用的技术了。</p>
+<p>我之前也在博客群里问相关的问题，得到的答案一般都是推荐高德导航，理由是高德更纯粹，他是靠导航来吃饭的，如果导航做不好，他就无法很好的生存；相反百度是一个大杂烩，什么都搞，什么都搞不好。我也是一直在用高德导航。不过，前几天的一次试用百度导航，让我对百度地图的看法有些不少的改变。下面就详细的说一说：</p>
+<h2 id="两个导航的相同点">两个导航的相同点</h2>
+<p>目前两个导航都支持车道级的导航。都不单单是纯粹的地图软件，上面商家广告等等，如果把名字互相换一下，你根本就分辨不出来谁是谁。另外就是导航语音的选择、什么拥堵的算法等等，也都非常的相似。没有什么好比较的。</p>
+<h2 id="高德地图的亮点与不足">高德地图的亮点与不足</h2>
+<p>高德的亮点在于如果你和别的司机都装有高德地图，在会车的时候会提示你注意安全，你的后方有车辆快速驶近的时候，高德也会提醒。</p>
+<p>不足之处在于，高德也是号称车道级导航，但是很不明显，从地图上根本看不到你在哪个车道行驶。</p>
+<h2 id="百度地图的亮点和不足">百度地图的亮点和不足</h2>
+<p>高德的不足就是百度的亮点，百度地图的车道级导航就很明确，你的车在哪个车道行驶，在地图上一目了然。而且百度还通过大数据算法，给你推荐最优的车道。这点的好处很多，比如前方有事故，百度就会很明确的给你提示事故在哪个车道，并推荐最优的车道给你，另外一个很贴心的功能是临近高速的出口的时候，其他的车道在地图上都会有个红叉叉，提示你不要从那边走，这对新手司机来说尤其友好。我媳妇最怕的就是不知道从哪个出口下高速……</p>
+<p>当然，百度地图的不足就是高德的亮点，百度地图目前还没有诸如会车提醒这样的功能。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>推荐一款免费开源的RSS软件-Quiterss</title>
+      <link>https://tunan.org/3958.html</link>
+      <pubDate>Thu, 23 Dec 2021 01:48:37 +0000</pubDate>
+      <guid>https://tunan.org/3958.html</guid>
+      <description>RSS对于很多博主来说都不会陌生，很多博友还都有着使用RSS订阅的习惯。有很多朋友还专门在VPS用tiny tinyRSS或者freshrss</description>
+      <content:encoded><![CDATA[<p>RSS对于很多博主来说都不会陌生，很多博友还都有着使用RSS订阅的习惯。有很多朋友还专门在VPS用tiny tinyRSS或者freshrss程序自己设立一个服务器。老刘目前也是在甲骨文的免费小鸡上用着tinyrss。这段时间在折腾PYTHON，在ubuntu上折腾。偶然发现了这个程序，体验了一下，感觉还是很不错的，推荐给大家。</p>
+<p><strong>QuiteRSS</strong>。它是一款免费开源且跨平台的 <strong>RSS 阅读器</strong>客户端软件，支持 Windows、Mac、Linux 系统，界面并不算华丽，但是该有的功能都有了，比如：支持 RSS 内容的中文关键字搜索，支持标签归类功能，可以对文章加上星号或标签来收藏整理，标记未读已读，支持 OPML 导入导出、可以文件夹整理 Feed、内置浏览器 (可设置使用外部默认浏览器打开)、支持多标签页等，基本上能满足一切 RSS 的阅读需求。</p>
+<!-- raw HTML omitted -->
+<p>Quiterss支持windows、MACOS、LINUX，在ubuntu、win7、win10等都可以完美的应用，对于windows版本，官方推出的还有绿色版，可以说非常的全面了，唯一让老刘感觉不爽是无法在各个设备之间同步，要是以后通过网盘之类的在不同设备之间同步，那就非常的完美了。</p>
+<h2 id="安装方法">安装方法：</h2>
+<p>win下和mac下都很简单，直接下载安装即可。这里专门说说Linux下的方法</p>
+<h3 id="arch-linux"><strong>Arch Linux</strong></h3>
+<!-- raw HTML omitted -->
+<h3 id="fedora"><strong>Fedora</strong></h3>
+<!-- raw HTML omitted -->
+<h3 id="ubuntu"><strong>Ubuntu</strong></h3>
+<p>可以直接在应用商店里搜索下载，也可以：</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p> </p>
 ]]></content:encoded>
     </item>
   </channel>

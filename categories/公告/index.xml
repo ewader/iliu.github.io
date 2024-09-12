@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>公告 on 图南博客</title>
+    <link>https://tunan.org/categories/%E5%85%AC%E5%91%8A/</link>
+    <description>Recent content in 公告 on 图南博客</description>
+    <image>
+      <title>图南博客</title>
+      <url>https://tunan.org/img/liujinsuiyue.jpg</url>
+      <link>https://tunan.org/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.133.1</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 21 May 2023 09:18:15 +0000</lastBuildDate>
+    <atom:link href="https://tunan.org/categories/%E5%85%AC%E5%91%8A/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>朋友们，博客改名加换域名了！</title>
+      <link>https://tunan.org/4399.html</link>
+      <pubDate>Sun, 21 May 2023 09:18:15 +0000</pubDate>
+      <guid>https://tunan.org/4399.html</guid>
+      <description>流金岁月换域名，换博客名了 最近读《庄子》，对绝云气、负青天、然后图南的大鹏很是羡慕，遂改博客名为图南博客，域名为https://tunan.</description>
+      <content:encoded><![CDATA[<p>流金岁月换域名，换博客名了 最近读《庄子》，对<strong>绝云气、负青天、然后图南</strong>的大鹏很是羡慕，遂改博客名为图南博客，域名为https://tunan.org</p>
+<p>有订阅老刘的同志们，麻烦改改链接哈</p>
+]]></content:encoded>
+    </item>
+  </channel>
+  <follow_challenge>
+    <feedId>55234162574971904</feedId>
+    <userId>55160205417323520</userId>
+</follow_challenge>
+</rss>

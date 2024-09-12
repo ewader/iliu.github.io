@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>群晖添加打印机 on 图南博客</title>
+    <link>https://tunan.org/tags/%E7%BE%A4%E6%99%96%E6%B7%BB%E5%8A%A0%E6%89%93%E5%8D%B0%E6%9C%BA/</link>
+    <description>Recent content in 群晖添加打印机 on 图南博客</description>
+    <image>
+      <title>图南博客</title>
+      <url>https://tunan.org/img/liujinsuiyue.jpg</url>
+      <link>https://tunan.org/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.133.1</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 12 Jan 2020 03:05:02 +0000</lastBuildDate>
+    <atom:link href="https://tunan.org/tags/%E7%BE%A4%E6%99%96%E6%B7%BB%E5%8A%A0%E6%89%93%E5%8D%B0%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用群晖，配置打印机，实现无线打印机的功能</title>
+      <link>https://tunan.org/3005.html</link>
+      <pubDate>Sun, 12 Jan 2020 03:05:02 +0000</pubDate>
+      <guid>https://tunan.org/3005.html</guid>
+      <description>换成荣耀的这台笔记本之后，由于接口比较少，再加上一个笔记本插上usb数据线连上打印机，也不够方便，因为有时候笔记本还要拿回家用用。恰好再群晖</description>
+      <content:encoded><![CDATA[<p>换成荣耀的这台笔记本之后，由于接口比较少，再加上一个笔记本插上usb数据线连上打印机，也不够方便，因为有时候笔记本还要拿回家用用。恰好再群晖的网站上看到群晖也支持市面上大多数的打印机。于是动了把打印机和群晖相联的念头。</p>
+<p>实际上操作还是挺简单的，只要注意一些基本的坑不要踩就行。</p>
+<h2 id="首先把打印机和群晖相联">首先，把打印机和群晖相联</h2>
+<p>把打印机的数据线插在群晖的usb端口上,打开群晖的管理页面。点击控制面板——点击外接设备——选择打印机标签</p>
+<p><a href="https://tunan.org/wp-content/uploads/2020/01/64f4b98d52cdd2c.png"><!-- raw HTML omitted --></a></p>
+<p>点击打印机管理，点击设置打印机。</p>
+<p><a href="https://tunan.org/wp-content/uploads/2020/01/9f19250c710cc82.png"><!-- raw HTML omitted --></a></p>
+<p>由于跋涉者的打印机是兄弟 hl-1208系列，没有复印 传真等功能，所以，只是选中网络打印机的模式。当然你也可以选择羡慕的Apple无线打印和Google云端打印，这些都是支持的。选择完了，点击保存即可。</p>
+<h2 id="电脑端设置">电脑端设置</h2>
+<p>打开群晖助手，识别出群晖的IP地址后，点击打印机设备。点击新增</p>
+<p><a href="https://tunan.org/wp-content/uploads/2020/01/88c00cba56f68ca.png">下<!-- raw HTML omitted --></a></p>
+<p>选择识别出来的打印机，点击下一步，然后装上打印机的驱动。整个工作宣告结束。</p>
+<p>据说，通过群晖还可以实现，手机直接打印的功能，由于不是很需要这个功能，没有研究，有需要这方面的功能的，不妨研究一下。其实也不复杂，都是局域网打印而已。</p>
+<p> </p>
+<p> </p>
+]]></content:encoded>
+    </item>
+  </channel>
+  <follow_challenge>
+    <feedId>55234162574971904</feedId>
+    <userId>55160205417323520</userId>
+</follow_challenge>
+</rss>

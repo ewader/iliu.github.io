@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Sis显卡 on 图南博客</title>
+    <link>https://tunan.org/tags/sis%E6%98%BE%E5%8D%A1/</link>
+    <description>Recent content in Sis显卡 on 图南博客</description>
+    <image>
+      <title>图南博客</title>
+      <url>https://tunan.org/img/liujinsuiyue.jpg</url>
+      <link>https://tunan.org/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.133.1</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 11 Dec 2009 06:48:00 +0000</lastBuildDate>
+    <atom:link href="https://tunan.org/tags/sis%E6%98%BE%E5%8D%A1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ubuntu9.10 sis显卡驱动程序</title>
+      <link>https://tunan.org/158.html</link>
+      <pubDate>Fri, 11 Dec 2009 06:48:00 +0000</pubDate>
+      <guid>https://tunan.org/158.html</guid>
+      <description>今天从上午把ubuntu9.10装上后就一直为系统的分辨率的问题而寻找，真的让人很郁闷的是SIS的显卡，UBUNTU竟然不支持，其实这也不能</description>
+      <content:encoded><![CDATA[<p>今天从上午把ubuntu9.10装上后就一直为系统的分辨率的问题而寻找，真的让人很郁闷的是SIS的显卡，UBUNTU竟然不支持，其实这也不能怨UBUNTU，只能说SIS的人都是一帮SB，为什么不开发支持linux的驱动程序呢，没办法，到网上寻找，总算找到了解决的方案，我就纳闷了，为什么官方就不更新下这驱动呢。<br>
+其实，解决的方法也很简单，热心的linux爱好者已经开发出来了相关的驱动程序。而且是deb包的形式，直接双击安装就可以了，真是不明白不管新立得还是ubuntu的官方的源里面都没有这样的程序！<br>
+驱动程序我已经放在我的网盘里了，有需要的朋友可以点击下面的地址下载下载</p>
+<!-- raw HTML omitted -->
+]]></content:encoded>
+    </item>
+  </channel>
+  <follow_challenge>
+    <feedId>55234162574971904</feedId>
+    <userId>55160205417323520</userId>
+</follow_challenge>
+</rss>

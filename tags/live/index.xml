@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Live on 图南博客</title>
+    <link>https://tunan.org/tags/live/</link>
+    <description>Recent content in Live on 图南博客</description>
+    <image>
+      <title>图南博客</title>
+      <url>https://tunan.org/img/liujinsuiyue.jpg</url>
+      <link>https://tunan.org/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.133.1</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 16 Dec 2009 08:25:15 +0000</lastBuildDate>
+    <atom:link href="https://tunan.org/tags/live/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>推荐一个免费发短信的软件——天翼live</title>
+      <link>https://tunan.org/190.html</link>
+      <pubDate>Wed, 16 Dec 2009 08:25:15 +0000</pubDate>
+      <guid>https://tunan.org/190.html</guid>
+      <description>由于用的是电信的手机，昨天收到了一条短信，大意是电信也推出了可以像QQ、msn等一样可以免费发送短信的客户端，并且每个月可以免费发送300条</description>
+      <content:encoded><![CDATA[<p>由于用的是电信的手机，昨天收到了一条短信，大意是电信也推出了可以像QQ、msn等一样可以免费发送短信的客户端，并且每个月可以免费发送300条短信。经过确认证明不是所谓的骗子，就下载来使用。还算不错，每天可以发50条，每月发300条，都是免费的，可以同时给20个人发送。<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>华彩建议您使用这软件，但是必须是电信的用户，不管是宽带或者手机用户都可以，并且送一个189的邮箱，推荐中。</p>
+<p>官方网址为：<!-- raw HTML omitted --><a href="http://elive.vnet.cn/">http://elive.vnet.cn/</a><!-- raw HTML omitted --></p>
+]]></content:encoded>
+    </item>
+  </channel>
+  <follow_challenge>
+    <feedId>55234162574971904</feedId>
+    <userId>55160205417323520</userId>
+</follow_challenge>
+</rss>

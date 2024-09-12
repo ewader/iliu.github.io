@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>外链跳转 on 图南博客</title>
+    <link>https://tunan.org/tags/%E5%A4%96%E9%93%BE%E8%B7%B3%E8%BD%AC/</link>
+    <description>Recent content in 外链跳转 on 图南博客</description>
+    <image>
+      <title>图南博客</title>
+      <url>https://tunan.org/img/liujinsuiyue.jpg</url>
+      <link>https://tunan.org/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.133.1</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 09 Jul 2019 01:20:11 +0000</lastBuildDate>
+    <atom:link href="https://tunan.org/tags/%E5%A4%96%E9%93%BE%E8%B7%B3%E8%BD%AC/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>利用cloudFlare的边缘计算workers实现外链转内链跳转</title>
+      <link>https://tunan.org/2248.html</link>
+      <pubDate>Tue, 09 Jul 2019 01:20:11 +0000</pubDate>
+      <guid>https://tunan.org/2248.html</guid>
+      <description>跋涉者曾经分享过一篇7b2主题外链跳转的文章，那篇文章实现的原理是在自己服务器里增加一个跳转的页面代码。 [zrz_insert_post id=1656] 不过今天看张戈大神的一篇文章Cl</description>
+      <content:encoded><![CDATA[<p>跋涉者曾经分享过一篇7b2主题外链跳转的文章，那篇文章实现的原理是在自己服务器里增加一个跳转的页面代码。</p>
+<p>[zrz_insert_post id=1656]</p>
+<p>不过今天看张戈大神的一篇文章<!-- raw HTML omitted -->CloudFlare边缘计算Workers尝鲜初探：博客跳转中间页<!-- raw HTML omitted -->。这篇文章谈到可以把这个跳转代码保存到cloudFlare的边缘计算workers中，从而让跳转可以在CDN里实现，显然，这样会减轻服务器计算的压力。对小水管的博客来说有一定的使用价值。</p>
+<h2 id="首先你的网站要使用cloudflare这个cdn加速">首先，你的网站要使用cloudFlare这个cdn加速。</h2>
+<p>由于国内的网络情况，直接使用往往比较卡，不过好在张戈大神折腾出了另外一个套路，使用后感觉还不错。有兴趣的朋友可以去他的网站上参考。本文不做详细的叙述。</p>
+<h2 id="第二把代码添加到cloudflare的边缘计算workers中">第二，把代码添加到cloudFlare的边缘计算workers中</h2>
+<p>步骤如下：</p>
+<ul>
+<li><!-- raw HTML omitted -->打开CF域名控制面板，如图1点击切换到Workers选项卡；<!-- raw HTML omitted --></li>
+<li><!-- raw HTML omitted -->点击【Launch Editor】按钮进入Workers编辑界面后，点击【Add script】输入脚本名称并保存，如图：<!-- raw HTML omitted --><!-- raw HTML omitted --></li>
+</ul>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<ul>
+<li>把如下代码放入代码编辑框中，此代码来自<!-- raw HTML omitted -->张戈博客<!-- raw HTML omitted -->.并点击save。</li>
+</ul>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<ul>
+<li><!-- raw HTML omitted -->点击【routers】按钮切到路由编辑界面，点击【Add router】后如图添加路由：点击save<!-- raw HTML omitted --><!-- raw HTML omitted --></li>
+</ul>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>至此，已经大功告成，想看效果的可以点击上面的外链，值得说明的一点是，cloudFlare的边缘计算workers是收费服务，不过每天有免费10w的请求数量，对我们这个小博客来说，是非常非常的够用了。</p>
+<p>如果，你也在使用<!-- raw HTML omitted -->cloudFlare，不妨也可以用用这个玩意，毕竟充分利用外部资源是我等小博主追求的目标哈。<!-- raw HTML omitted --></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>给7B2主题加上外链自动跳转功能</title>
+      <link>https://tunan.org/1656.html</link>
+      <pubDate>Mon, 27 May 2019 07:08:40 +0000</pubDate>
+      <guid>https://tunan.org/1656.html</guid>
+      <description>7B2主题默认是没有外链自动跳转功能的，这玩意要说有用吧，作用不大，要说没用吧，大家都这么加，所以跋涉者也给外链增加一个自动跳转。 是不是很漂</description>
+      <content:encoded><![CDATA[<p>7B2主题默认是没有外链自动跳转功能的，这玩意要说有用吧，作用不大，要说没用吧，大家都这么加，所以跋涉者也给外链增加一个自动跳转。<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>是不是很漂亮的的，感谢<!-- raw HTML omitted -->缙哥哥<!-- raw HTML omitted -->分享的源码</p>
+<h2 id="第一步建立一个go跳转文件">第一步，建立一个go跳转文件</h2>
+<p>把下面的代码保存成index.php,在网站的根目录里新建一个go文件夹，然后把这个index.php上传到这个文件夹里</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h2 id="heading"></h2>
+<h2 id="第二步在functionsphp里添加如下代码">第二步，在functions.php里添加如下代码</h2>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h2 id="第三步添加新窗口自动打开并添加nofollow属性">第三步，添加新窗口自动打开并添加nofollow属性</h2>
+<p>现在打开文章里的链接是在原有窗口上打开的，我们一般要求是在新窗口打开，为了不让权重的流逝，我们还要加上nofollow标签，继续在functions.php添加如下代码：</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>至此，所有的工作都已经完成了，是不是很简单。</p>
+<h2 class="ql-align-justify" id="参考资料"><strong>参考资料</strong></h2>
+<p>缙哥哥博客-https://www.dujin.org/12762.html</p>
+<p>缙哥哥博客-https://www.dujin.org/12336.html</p>
+]]></content:encoded>
+    </item>
+  </channel>
+  <follow_challenge>
+    <feedId>55234162574971904</feedId>
+    <userId>55160205417323520</userId>
+</follow_challenge>
+</rss>

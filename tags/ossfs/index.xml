@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ossfs on 图南博客</title>
+    <link>https://tunan.org/tags/ossfs/</link>
+    <description>Recent content in Ossfs on 图南博客</description>
+    <image>
+      <title>图南博客</title>
+      <url>https://tunan.org/img/liujinsuiyue.jpg</url>
+      <link>https://tunan.org/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.133.1</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 15 Jul 2019 03:27:27 +0000</lastBuildDate>
+    <atom:link href="https://tunan.org/tags/ossfs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>备忘，使用阿里云ossfs备份网站</title>
+      <link>https://tunan.org/2513.html</link>
+      <pubDate>Mon, 15 Jul 2019 03:27:27 +0000</pubDate>
+      <guid>https://tunan.org/2513.html</guid>
+      <description>昨天看到明月云服务上有篇关于使用ossfs备份网站的文章，看起来也不复杂，于是就试用了一下，试用后感觉真是体验不错，用这个后，妈妈再也不担心</description>
+      <content:encoded><![CDATA[<p>昨天看到明月云服务上有篇关于使用ossfs备份网站的文章，看起来也不复杂，于是就试用了一下，试用后感觉真是体验不错，用这个后，妈妈再也不担心网站数据丢失了。</p>
+<h2 id="给服务器安装ossfs">给服务器安装ossfs。</h2>
+<ul>
+<li>下载安装包</li>
+</ul>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>这个可以到阿里云官网上下载最新的版本。</p>
+<ul>
+<li>安装，这里是centos7.x的安装方式</li>
+</ul>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<ul>
+<li><!-- raw HTML omitted -->配置账号访问信息<!-- raw HTML omitted --></li>
+</ul>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>例如，本人用的香港阿里云服务器，配置就是这么做的</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>如果服务器不在阿里云，那么就不要用内网传输，至此，安装完毕，已经可以试用了，利用oneinstak的备份脚本，选择本地备份，目录选择刚才新建的/tmp/ossfs，即可，备份成功后，可以到oss里看一下，确实已经存在了，速度非常的快。<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<h2 id="开机后自动挂载ossfs">开机后自动挂载ossfs</h2>
+<p>上面的设置后，服务器不能重启，所以还要进一步的设置一下。</p>
+<p><!-- raw HTML omitted -->在/etc/init.d/目录下建立文件 ossfs，把模板文件中的内容拷贝到这个新文件中。并将其中的 your_xxx 内容改成您自己的信息。<!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>执行如下命令：</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>这样就完全不用担心重启服务器了，以后如果必须要重装服务器的话，重装玩后，可以直接通过内容把备份的东西拷贝回服务器，一般都是秒传。</p>
+]]></content:encoded>
+    </item>
+  </channel>
+  <follow_challenge>
+    <feedId>55234162574971904</feedId>
+    <userId>55160205417323520</userId>
+</follow_challenge>
+</rss>
