@@ -1331,9 +1331,9 @@
     </item>
     <item>
       <title>EndeavourOS安装之后的几件事</title>
-      <link>https://tunan.org/posts/a-few-things-after-installing-endeavouros/</link>
+      <link>https://tunan.org/A-few-things-after-installing-EndeavourOS/</link>
       <pubDate>Wed, 08 Nov 2023 21:22:44 +0800</pubDate>
-      <guid>https://tunan.org/posts/a-few-things-after-installing-endeavouros/</guid>
+      <guid>https://tunan.org/A-few-things-after-installing-EndeavourOS/</guid>
       <description>很多追求新，追求精简的Linux系统的使用者，往往都会推荐Arch Linux，这个系统特点是精简，精简到什么都需要你来搞定，所以也让很多人望</description>
       <content:encoded><![CDATA[<p>很多追求新，追求精简的Linux系统的使用者，往往都会推荐Arch Linux，这个系统特点是精简，精简到什么都需要你来搞定，所以也让很多人望而却步。</p>
 <p><img loading="lazy" src="https://tunan.org/tupian/2023-11-08.png" alt="最终效果"  />
@@ -1760,9 +1760,9 @@
     </item>
     <item>
       <title>从WordPress转到Hugo</title>
-      <link>https://tunan.org/posts/frome-wordpress-to-hugo/</link>
+      <link>https://tunan.org/frome-wordpress-to-hugo/</link>
       <pubDate>Wed, 01 Nov 2023 21:35:36 +0800</pubDate>
-      <guid>https://tunan.org/posts/frome-wordpress-to-hugo/</guid>
+      <guid>https://tunan.org/frome-wordpress-to-hugo/</guid>
       <description>在cloudcone上买的VPS马上就要到期了，由于去年买的是黑五预售，比正经黑五的机子要贵20来块钱，而且配置还要低一些。所以，续费是不能</description>
       <content:encoded><![CDATA[<p>在cloudcone上买的VPS马上就要到期了，由于去年买的是黑五预售，比正经黑五的机子要贵20来块钱，而且配置还要低一些。所以，续费是不能续费的了。原本打算在荷兰的liteserver这个上面暂时放一段时间。这是一台2c2g的机子，装完php、MySQL、和Nginx之后，只要运行一段时间，内存就基本上爆了。再加上最近lnmp和oneinstack都被收购而且被挂恶意代码，也不想用宝塔之类的面板，自己编译环境又很麻烦。于是，就产生了转成静态博客的想法。在这里也要感谢阿甘和韩宇的帮助。</p>
 <p>原本以为很复杂，其实操作下来发现也是挺简单的。</p>

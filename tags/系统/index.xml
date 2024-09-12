@@ -15,9 +15,9 @@
     <atom:link href="https://tunan.org/tags/%E7%B3%BB%E7%BB%9F/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>EndeavourOS安装之后的几件事</title>
-      <link>https://tunan.org/posts/a-few-things-after-installing-endeavouros/</link>
+      <link>https://tunan.org/A-few-things-after-installing-EndeavourOS/</link>
       <pubDate>Wed, 08 Nov 2023 21:22:44 +0800</pubDate>
-      <guid>https://tunan.org/posts/a-few-things-after-installing-endeavouros/</guid>
+      <guid>https://tunan.org/A-few-things-after-installing-EndeavourOS/</guid>
       <description>很多追求新，追求精简的Linux系统的使用者，往往都会推荐Arch Linux，这个系统特点是精简，精简到什么都需要你来搞定，所以也让很多人望</description>
       <content:encoded><![CDATA[<p>很多追求新，追求精简的Linux系统的使用者，往往都会推荐Arch Linux，这个系统特点是精简，精简到什么都需要你来搞定，所以也让很多人望而却步。</p>
 <p><img loading="lazy" src="https://tunan.org/tupian/2023-11-08.png" alt="最终效果"  />
