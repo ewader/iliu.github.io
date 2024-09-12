@@ -9,7 +9,7 @@
       <url>https://tunan.org/img/liujinsuiyue.jpg</url>
       <link>https://tunan.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 30 Dec 2021 02:47:58 +0000</lastBuildDate>
     <atom:link href="https://tunan.org/tags/ddns/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,8 @@
       <link>https://tunan.org/3997.html</link>
       <pubDate>Thu, 30 Dec 2021 02:47:58 +0000</pubDate>
       <guid>https://tunan.org/3997.html</guid>
-      <description>我们知道，玩群晖，没有公网IP，可玩性就下降很多，虽然可以用QuickConnect，但是速度还是不太理想。其他的内网穿透啊，zerotie</description>
+      <description>&lt;p&gt;我们知道，玩群晖，没有公网IP，可玩性就下降很多，虽然可以用QuickConnect，但是速度还是不太理想。其他的&lt;a href=&#34;https://tunan.org/?s=%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F&#34;&gt;内网穿透&lt;/a&gt;啊，&lt;a href=&#34;https://tunan.org/?s=zero&#34;&gt;zerotier&lt;/a&gt;等等都有不方便之处。老刘也曾记下折腾这些东西的过程。有兴趣的可以参考。&lt;/p&gt;
+&lt;p&gt;今天老刘说的是DDNS，这个是需要公网IP的，而我们一说公网IP，其实都是说的IPV4的ip地址，这个目前全球都稀缺，移动是不用想了，联通和电信个别地方还能申请到。老刘一直用的是移动的宽带，以前用zerotier，后来就用qc来凑合着用。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>我们知道，玩群晖，没有公网IP，可玩性就下降很多，虽然可以用QuickConnect，但是速度还是不太理想。其他的<a href="https://tunan.org/?s=%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F">内网穿透</a>啊，<a href="https://tunan.org/?s=zero">zerotier</a>等等都有不方便之处。老刘也曾记下折腾这些东西的过程。有兴趣的可以参考。</p>
 <p>今天老刘说的是DDNS，这个是需要公网IP的，而我们一说公网IP，其实都是说的IPV4的ip地址，这个目前全球都稀缺，移动是不用想了，联通和电信个别地方还能申请到。老刘一直用的是移动的宽带，以前用zerotier，后来就用qc来凑合着用。</p>
 <p>这两天由于keepassxc的版本在uos非常的低，由于环境的原因也更新不到最新的版本，想在群晖上部署<strong>Bitwarden</strong>。所以，又动了ddns的心思，想到目前各大运营商IPV6已经普及了，而这个都是公网的IP，所以，理论上用ddns加IPV6是完全没有问题的。网上查了一下，也有很多的教程。正准备按教程操作的时候，发现根本就不必那么麻烦。</p>

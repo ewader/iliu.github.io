@@ -9,7 +9,7 @@
       <url>https://tunan.org/img/liujinsuiyue.jpg</url>
       <link>https://tunan.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 17 Jan 2022 00:24:40 +0000</lastBuildDate>
     <atom:link href="https://tunan.org/tags/linux/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <link>https://tunan.org/4036.html</link>
       <pubDate>Mon, 17 Jan 2022 00:24:40 +0000</pubDate>
       <guid>https://tunan.org/4036.html</guid>
-      <description>昨天把开发python 的这个电脑也更换成manjaro这个系统了。经过一段时间的试用，感觉这个系统确实是一个使用起来舒服有稳定的系统。 man</description>
+      <description>&lt;p&gt;昨天把开发python 的这个电脑也更换成manjaro这个系统了。经过一段时间的试用，感觉这个系统确实是一个使用起来舒服有稳定的系统。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>昨天把开发python 的这个电脑也更换成manjaro这个系统了。经过一段时间的试用，感觉这个系统确实是一个使用起来舒服有稳定的系统。<!-- raw HTML omitted --></p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
 <h2 class="wp-block-heading" id="manjaro之于ubuntu">manjaro之于ubuntu</h2>
@@ -37,7 +37,7 @@
       <link>https://tunan.org/4016.html</link>
       <pubDate>Thu, 06 Jan 2022 09:38:19 +0000</pubDate>
       <guid>https://tunan.org/4016.html</guid>
-      <description>网上很多文章都说manjaro多么的牛叉，软件如何的多，如何的稳定，滚动更新如何的方便等等等等。下午没事，在一台不怎么用的电脑上试用了一下这</description>
+      <description>&lt;p&gt;网上很多文章都说manjaro多么的牛叉，软件如何的多，如何的稳定，滚动更新如何的方便等等等等。下午没事，在一台不怎么用的电脑上试用了一下这个系统。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>网上很多文章都说manjaro多么的牛叉，软件如何的多，如何的稳定，滚动更新如何的方便等等等等。下午没事，在一台不怎么用的电脑上试用了一下这个系统。<!-- raw HTML omitted --></p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
 <p>kde的界面很漂亮，运行也流畅，但就是没使用习惯，总体来说不如debian系的方便。也可能是我用习惯了的缘故吧。记得张波老师在群里问过manjaro如何安装输入法的问题，特意安装了最新的fcitx5输入法。</p>
@@ -59,7 +59,7 @@
       <link>https://tunan.org/3976.html</link>
       <pubDate>Sat, 25 Dec 2021 05:47:41 +0000</pubDate>
       <guid>https://tunan.org/3976.html</guid>
-      <description>以前无论是使用Uos还是linuxmint或者是ubtuntu，都是直接安装搜狗输入法。可以和ubuntu兼容最好的还是自带的ibus-li</description>
+      <description>&lt;p&gt;以前无论是使用Uos还是linuxmint或者是ubtuntu，都是直接安装搜狗输入法。可以和ubuntu兼容最好的还是自带的ibus-libpinyin，开始的时候觉得这个输入法的词库比较小，用起来很不方便，但是后来发现这个输入法加入新的云输入引擎后，使用体验大幅上升，并且再加上额外的词库的话，用起来已经是非常方便了。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>以前无论是使用Uos还是linuxmint或者是ubtuntu，都是直接安装搜狗输入法。可以和ubuntu兼容最好的还是自带的ibus-libpinyin，开始的时候觉得这个输入法的词库比较小，用起来很不方便，但是后来发现这个输入法加入新的云输入引擎后，使用体验大幅上升，并且再加上额外的词库的话，用起来已经是非常方便了。</p>
 <p>ubuntu20.10自带的是1.20.0的版本，这个版本已经有了云输入引擎，但是不能把云输入引擎里的词自动添加到用户的本地词库里，而最新版已经解决了这个问题。要升级输入法，只能编译安装，Linux的不方便之处就在于此。<!-- raw HTML omitted --></p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted -->如上图，ibus-libpinyin已经有了云输入，非常的方便<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
@@ -91,7 +91,7 @@ Build english input mode yes</p>
       <link>https://tunan.org/3947.html</link>
       <pubDate>Tue, 14 Dec 2021 12:57:17 +0000</pubDate>
       <guid>https://tunan.org/3947.html</guid>
-      <description>看了一些python教程，很多都是在windows下进行的开发，由于老刘对linux还算是有一丢丢的了解，所以从开始就在ubuntu下进行。</description>
+      <description>&lt;p&gt;看了一些python教程，很多都是在windows下进行的开发，由于老刘对linux还算是有一丢丢的了解，所以从开始就在ubuntu下进行。前两天由于要在windows下用电脑，用完之后懒得重启，由于win10里也配置好了python的开发环境，所以就在win下写了一些代码。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>看了一些python教程，很多都是在windows下进行的开发，由于老刘对linux还算是有一丢丢的了解，所以从开始就在ubuntu下进行。前两天由于要在windows下用电脑，用完之后懒得重启，由于win10里也配置好了python的开发环境，所以就在win下写了一些代码。</p>
 <!-- raw HTML omitted -->
 <p>写完之后，浏览器打开显示404错误，小心的查代码，也找不到错误的地方，明明有这个网页的模板，就是显示404，折腾了1个多小时。也每发现错误之处。后来实在是烦躁，干脆不搞了。</p>
@@ -104,7 +104,7 @@ Build english input mode yes</p>
       <link>https://tunan.org/3932.html</link>
       <pubDate>Mon, 01 Nov 2021 01:56:20 +0000</pubDate>
       <guid>https://tunan.org/3932.html</guid>
-      <description>安装统信uos后，一度用着挺不的，各方面都很满意，于是花了9.9激活了，结果激活后没多久就感觉不好了。原因是和deepin的毛病一样，莫名其</description>
+      <description>&lt;p&gt;安装统信uos后，一度用着挺不的，各方面都很满意，于是花了9.9激活了，结果激活后没多久就感觉不好了。原因是和deepin的毛病一样，莫名其妙的，桌面卡死，闪屏，或者直接黑屏了。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>安装统信uos后，一度用着挺不的，各方面都很满意，于是花了9.9激活了，结果激活后没多久就感觉不好了。原因是和deepin的毛病一样，莫名其妙的，桌面卡死，闪屏，或者直接黑屏了。</p>
 <p>幸亏遇到的时候，都是在用浏览器看一些网页的时候，真要是我在写程序的时候给我来这么一出，不得郁闷死。</p>
 <p>说实话，uos真的挺满意的，各方面做的真都不错，可惜稳定性是个硬伤。</p>
@@ -115,7 +115,7 @@ Build english input mode yes</p>
       <link>https://tunan.org/3927.html</link>
       <pubDate>Fri, 29 Oct 2021 01:22:00 +0000</pubDate>
       <guid>https://tunan.org/3927.html</guid>
-      <description>之前上篇文章说了折腾Linux的因由，最后确定使用原版的ubuntu。不过在使用的过程中发现。还是有些许的小毛病。主要是安装了搜狗输入法之后</description>
+      <description>&lt;p&gt;之前上篇文章说了折腾Linux的因由，最后确定使用原版的ubuntu。不过在使用的过程中发现。还是有些许的小毛病。主要是安装了搜狗输入法之后，关机需要90秒的倒计时。从网上查了一下相关的信息，发现这个小毛病还是挺多人遇到的。虽然可以更改时间来较少，但是又可能造成系统的崩溃。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>之前上篇文章说了折腾Linux的因由，最后确定使用原版的ubuntu。不过在使用的过程中发现。还是有些许的小毛病。主要是安装了搜狗输入法之后，关机需要90秒的倒计时。从网上查了一下相关的信息，发现这个小毛病还是挺多人遇到的。虽然可以更改时间来较少，但是又可能造成系统的崩溃。</p>
 <p>Linuxmint倒是很流畅，一切都很满意。但是用了两天后发现了一个问题，不能使用微信，虽然在windows上，老刘也很少用微信，但是偶尔会用吧。加上近期媳妇申报副高要处理不少的文档，她都是用微信直接给我发过来，我要处理的话还得重启更换系统，非常的不方便。deepin吧，又时有卡桌面。后来想到了这个统信uos。批了一层皮的deepin os。本来没有报太大的希望，不过安装后却给了我不少的惊喜。</p>
 <!-- raw HTML omitted -->
@@ -135,7 +135,7 @@ Build english input mode yes</p>
       <link>https://tunan.org/3925.html</link>
       <pubDate>Mon, 25 Oct 2021 01:18:46 +0000</pubDate>
       <guid>https://tunan.org/3925.html</guid>
-      <description>前一段张波老师说打算学习Python。正好老刘也有这么一个心思。之所以要学这个，是因为老刘一直以来都想弄一个客户查询系统。这个系统也很简单，</description>
+      <description>&lt;p&gt;前一段张波老师说打算学习Python。正好老刘也有这么一个心思。之所以要学这个，是因为老刘一直以来都想弄一个客户查询系统。这个系统也很简单，只要几个页面就能完成。实现的功能是，1、后台可以添加客户资料。2、前台通过用户名和手机号码可以查询各自的详情。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>前一段张波老师说打算学习Python。正好老刘也有这么一个心思。之所以要学这个，是因为老刘一直以来都想弄一个客户查询系统。这个系统也很简单，只要几个页面就能完成。实现的功能是，1、后台可以添加客户资料。2、前台通过用户名和手机号码可以查询各自的详情。</p>
 <p>曾经和一个搞开发的朋友聊起过这个玩意，他嫌太简单，让我自己弄。可惜我一直静不下心来做。</p>
 <p>要说编程老刘还算是有一丢丢的基础吧。毕竟在大学也是学过True Basic 以及C语言和VB的人。尽管当时学的也不咋地，就是混个学分。现在也早已经把知识还给了我的老师。</p>
@@ -159,7 +159,9 @@ Build english input mode yes</p>
       <link>https://tunan.org/2535.html</link>
       <pubDate>Sat, 20 Jul 2019 08:49:47 +0000</pubDate>
       <guid>https://tunan.org/2535.html</guid>
-      <description>作为一个命令记不全的人，每次都要跋山涉水的找命令，这次把一些经常用到的命令综合到一起，省的再去翻找别人的文章。 Linux 删除文件夹和文件的命令 删除文</description>
+      <description>&lt;p&gt;作为一个命令记不全的人，每次都要跋山涉水的找命令，这次把一些经常用到的命令综合到一起，省的再去翻找别人的文章。&lt;/p&gt;
+&lt;h2 id=&#34;linux-删除文件夹和文件的命令&#34;&gt;Linux 删除文件夹和文件的命令&lt;/h2&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;删除文件夹实例：&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>作为一个命令记不全的人，每次都要跋山涉水的找命令，这次把一些经常用到的命令综合到一起，省的再去翻找别人的文章。</p>
 <h2 id="linux-删除文件夹和文件的命令">Linux 删除文件夹和文件的命令</h2>
 <p><!-- raw HTML omitted -->删除文件夹实例：<!-- raw HTML omitted --></p>
@@ -216,7 +218,7 @@ service php-fpm {start|stop|restart|reload|status}<!-- raw HTML omitted --> <!--
       <link>https://tunan.org/2260.html</link>
       <pubDate>Fri, 12 Jul 2019 09:29:00 +0000</pubDate>
       <guid>https://tunan.org/2260.html</guid>
-      <description>今天在重新安装服务器的生产环境的时候发现无法申请Let’s Encrypt的证书，根据我的经验，一般把服务器上的dns设置成Google的8.</description>
+      <description>&lt;p&gt;今天在重新安装服务器的生产环境的时候发现无法申请&lt;!-- raw HTML omitted --&gt;Let’s Encrypt的证书，根据我的经验，一般把服务器上的dns设置成Google的8.8.8.8就可以顺利的进行申请，可能是国内的dns解析&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;Let’s Encrypt域名不通畅所导致。所以，第一时间，笔者就想到把服务器的dns设置成Google的。搜索引擎查了一下，很多都是千篇一律的。根据他们的经验，总结了一下，以备以后使用。&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>今天在重新安装服务器的生产环境的时候发现无法申请<!-- raw HTML omitted -->Let’s Encrypt的证书，根据我的经验，一般把服务器上的dns设置成Google的8.8.8.8就可以顺利的进行申请，可能是国内的dns解析<!-- raw HTML omitted --><!-- raw HTML omitted -->Let’s Encrypt域名不通畅所导致。所以，第一时间，笔者就想到把服务器的dns设置成Google的。搜索引擎查了一下，很多都是千篇一律的。根据他们的经验，总结了一下，以备以后使用。<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <h2 id="首先重新启动一下span-stylebackground-color-rgb255-255-255-color-rgb51-51-51networkmanagerspan">首先，重新启动一下<!-- raw HTML omitted -->NetworkManager<!-- raw HTML omitted --></h2>

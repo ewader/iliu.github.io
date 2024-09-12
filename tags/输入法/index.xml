@@ -9,7 +9,7 @@
       <url>https://tunan.org/img/liujinsuiyue.jpg</url>
       <link>https://tunan.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 07 Feb 2024 20:28:26 +0800</lastBuildDate>
     <atom:link href="https://tunan.org/tags/%E8%BE%93%E5%85%A5%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <link>https://tunan.org/posts/use-fcitx5-andriod-input/</link>
       <pubDate>Wed, 07 Feb 2024 20:28:26 +0800</pubDate>
       <guid>https://tunan.org/posts/use-fcitx5-andriod-input/</guid>
-      <description>最近女儿放假了，忙着辅导她的功课，毕竟初三了，加上期末考试的成绩不是很理想，所以寒假是要努力的时候了。在这期间读书也少了，只读了《万历十五年</description>
+      <description>&lt;p&gt;最近女儿放假了，忙着辅导她的功课，毕竟初三了，加上期末考试的成绩不是很理想，所以寒假是要努力的时候了。在这期间读书也少了，只读了《万历十五年》这本历史书，另外就是在看了1900的博客后，把手机的输入法改成了Fcitx5 for Android，并且安装rime插件，使用雾凇拼音词库；这样手机就和电脑使用同一个词库了。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>最近女儿放假了，忙着辅导她的功课，毕竟初三了，加上期末考试的成绩不是很理想，所以寒假是要努力的时候了。在这期间读书也少了，只读了《万历十五年》这本历史书，另外就是在看了1900的博客后，把手机的输入法改成了Fcitx5 for Android，并且安装rime插件，使用雾凇拼音词库；这样手机就和电脑使用同一个词库了。</p>
 <h2 id="手机安装并fcitx5-for-android">手机安装并Fcitx5 for Android</h2>
 <p>在电脑上从去年开始就一直使用小狼毫输入法加雾凇拼音的词库，这个输入法开源，对隐私的保护好，并且词库很大，使用起来很准确，但是手机上的输入法一直不能让我满意。</p>
@@ -39,7 +39,7 @@
       <link>https://tunan.org/4357.html</link>
       <pubDate>Fri, 14 Apr 2023 04:24:52 +0000</pubDate>
       <guid>https://tunan.org/4357.html</guid>
-      <description>自从用到win10以来，就开始懒得安装输入法了，毕竟微软拼音已经可以胜任很多的输入了。不过微软输入法有一点不太能容忍的bug是，偶尔会卡系统</description>
+      <description>&lt;p&gt;自从用到win10以来，就开始懒得安装输入法了，毕竟微软拼音已经可以胜任很多的输入了。不过微软输入法有一点不太能容忍的bug是，偶尔会卡系统，不过也没有太放在心上。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>自从用到win10以来，就开始懒得安装输入法了，毕竟微软拼音已经可以胜任很多的输入了。不过微软输入法有一点不太能容忍的bug是，偶尔会卡系统，不过也没有太放在心上。<!-- raw HTML omitted --></p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
 <p>今天漂了一眼博客群，然后就看到博友推荐小狼毫输入法，我就不声不响的安装了一下，目前来看，基本是可以满足我的需求。直接安装使用了，高级的使用方法也没有去可以的学习。</p>
@@ -56,7 +56,7 @@
       <link>https://tunan.org/4016.html</link>
       <pubDate>Thu, 06 Jan 2022 09:38:19 +0000</pubDate>
       <guid>https://tunan.org/4016.html</guid>
-      <description>网上很多文章都说manjaro多么的牛叉，软件如何的多，如何的稳定，滚动更新如何的方便等等等等。下午没事，在一台不怎么用的电脑上试用了一下这</description>
+      <description>&lt;p&gt;网上很多文章都说manjaro多么的牛叉，软件如何的多，如何的稳定，滚动更新如何的方便等等等等。下午没事，在一台不怎么用的电脑上试用了一下这个系统。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>网上很多文章都说manjaro多么的牛叉，软件如何的多，如何的稳定，滚动更新如何的方便等等等等。下午没事，在一台不怎么用的电脑上试用了一下这个系统。<!-- raw HTML omitted --></p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
 <p>kde的界面很漂亮，运行也流畅，但就是没使用习惯，总体来说不如debian系的方便。也可能是我用习惯了的缘故吧。记得张波老师在群里问过manjaro如何安装输入法的问题，特意安装了最新的fcitx5输入法。</p>
@@ -78,7 +78,7 @@
       <link>https://tunan.org/3951.html</link>
       <pubDate>Mon, 20 Dec 2021 09:20:38 +0000</pubDate>
       <guid>https://tunan.org/3951.html</guid>
-      <description>从很久以前UBUNTU就有一个毛病，有些电脑安装后，开机后屏幕的亮度会是最大。据说从很低的一个版本都有这样bug存在，但是不知道为啥官方一直</description>
+      <description>&lt;p&gt;从很久以前UBUNTU就有一个毛病，有些电脑安装后，开机后屏幕的亮度会是最大。据说从很低的一个版本都有这样bug存在，但是不知道为啥官方一直都没有修复。不过网上也有很多的教程，试用了一下，有些有用，有些没用，直到扒到了一个很老的文章，上面记载的一个很简单的方法，却解决了这样一个问题。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>从很久以前UBUNTU就有一个毛病，有些电脑安装后，开机后屏幕的亮度会是最大。据说从很低的一个版本都有这样bug存在，但是不知道为啥官方一直都没有修复。不过网上也有很多的教程，试用了一下，有些有用，有些没用，直到扒到了一个很老的文章，上面记载的一个很简单的方法，却解决了这样一个问题。</p>
 <p>别的不说，直接上代码，照着做就行了：</p>
 <!-- raw HTML omitted -->
@@ -101,7 +101,8 @@
       <link>https://tunan.org/943.html</link>
       <pubDate>Wed, 27 Oct 2010 01:43:35 +0000</pubDate>
       <guid>https://tunan.org/943.html</guid>
-      <description>由于黑莓手机上使用的是百度输入法，感觉还不错。（不错的原因是没有比较）所以再百度电脑版的输入法出来伊始，就装上体验了一番 百度输入法的优点是：</description>
+      <description>&lt;p&gt;由于黑莓手机上使用的是百度输入法，感觉还不错。（不错的原因是没有比较）所以再百度电脑版的输入法出来伊始，就装上体验了一番&lt;/p&gt;
+&lt;p&gt;百度输入法的优点是：占用的资源比较下，占用的磁盘空间只有30多M，比搜狗的要小的多了，不过和google的差不多。其他方面可能是测试版的原因，没有发现更具有的优势。所具有的功能比的也都有了，而且最重要的是，不太稳定，有时候会出现白屏的现象以及找不到词库。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>由于黑莓手机上使用的是百度输入法，感觉还不错。（不错的原因是没有比较）所以再百度电脑版的输入法出来伊始，就装上体验了一番</p>
 <p>百度输入法的优点是：占用的资源比较下，占用的磁盘空间只有30多M，比搜狗的要小的多了，不过和google的差不多。其他方面可能是测试版的原因，没有发现更具有的优势。所具有的功能比的也都有了，而且最重要的是，不太稳定，有时候会出现白屏的现象以及找不到词库。</p>
 <p>百度输入法的介绍写的是，“基于百度搜索技术，最强大的中文输入引擎”，不过目前除了云查找之外，还真的没有见到其他的优势，不过有一点还是比较看好百度的，其所说的基于搜索技术，可能使得拼音的结果更智能化，我的理解是，输入拼音之后，最优先出现的词是搜索引擎中使用频率最高的，这样可以让拼音的重复率降低的最小。基于此，对于输入法，还是比较看好百度和google的。</p>

@@ -9,7 +9,7 @@
       <url>https://tunan.org/img/liujinsuiyue.jpg</url>
       <link>https://tunan.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 18 Oct 2020 07:27:04 +0000</lastBuildDate>
     <atom:link href="https://tunan.org/tags/%E7%BA%AF%E4%BB%A3%E7%A0%81/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,11 @@
       <link>https://tunan.org/3340.html</link>
       <pubDate>Sun, 18 Oct 2020 07:27:04 +0000</pubDate>
       <guid>https://tunan.org/3340.html</guid>
-      <description>以前老刘写过《宝塔面板安装FRP内网穿透控制群晖》的文章，最近发现不知道是这个插件的作者不再开发了还是其他的原因，xeath开发的这个frp</description>
+      <description>&lt;p&gt;以前老刘写过《&lt;a href=&#34;https://tunan.org/2918.html&#34;&gt;宝塔面板安装FRP内网穿透控制群晖&lt;/a&gt;》的文章，最近发现不知道是这个插件的作者不再开发了还是其他的原因，xeath开发的这个frp服务器插件已经在商店里找不到了。其实，这也没什么，直接用代码的方式部署也是可以的。&lt;/p&gt;
+&lt;p&gt;SSH连接到VPS之后运行如下命令查看处理器架构，根据架构下载不同版本的frp&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;查看结果，如果是“X86_64“即可选择”amd64”，&lt;br&gt;
+运行如下命令，根据架构不同，选择相应版本并进行下载，然后登陆frp的官网地址，现在最新的应该是0.34.1，所以，运行如下的命令：&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>以前老刘写过《<a href="https://tunan.org/2918.html">宝塔面板安装FRP内网穿透控制群晖</a>》的文章，最近发现不知道是这个插件的作者不再开发了还是其他的原因，xeath开发的这个frp服务器插件已经在商店里找不到了。其实，这也没什么，直接用代码的方式部署也是可以的。</p>
 <p>SSH连接到VPS之后运行如下命令查看处理器架构，根据架构下载不同版本的frp</p>
 <!-- raw HTML omitted -->

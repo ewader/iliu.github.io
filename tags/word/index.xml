@@ -9,7 +9,7 @@
       <url>https://tunan.org/img/liujinsuiyue.jpg</url>
       <link>https://tunan.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 14 Jan 2010 13:09:10 +0000</lastBuildDate>
     <atom:link href="https://tunan.org/tags/word/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <link>https://tunan.org/462.html</link>
       <pubDate>Thu, 14 Jan 2010 13:09:10 +0000</pubDate>
       <guid>https://tunan.org/462.html</guid>
-      <description>在前面《介绍本人所用的软件–安全软件篇》给大家介绍了本人对安全软的理解，以及这么多年来使用电脑安全软件的心得体会，今天就给大家聊聊我所用的办</description>
+      <description>&lt;p&gt;在前面&lt;!-- raw HTML omitted --&gt;《介绍本人所用的软件–安全软件篇》&lt;!-- raw HTML omitted --&gt;给大家介绍了本人对安全软的理解，以及这么多年来使用电脑安全软件的心得体会，今天就给大家聊聊我所用的办公软件。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>在前面<!-- raw HTML omitted -->《介绍本人所用的软件–安全软件篇》<!-- raw HTML omitted -->给大家介绍了本人对安全软的理解，以及这么多年来使用电脑安全软件的心得体会，今天就给大家聊聊我所用的办公软件。</p>
 <p>第一次接触文字处理软件是在大一的时候，当时有计算机课，当然那时候的条件远远没有达到现在视窗的水平，还是处于dos的时代，要运行中文的软件必须先进入到ucdos下，然后执行wps的命令，出来的就是一个字处理的软件。当时调出来这个软件的目的是为了学习打字。因此，wps是我接触最早的文字软件了。</p>
 <p>可惜是，科技的日新月异使得视窗系统很快就取代了dos，铺天盖地而来的就是随windows一起打包的office，其简洁的操作界面，友好的人机对话方式，使得offic很快得到了普及，好在，从dos下出身的在用视窗系统不会有很大的难度，这也是我也能习惯用Linux的原因，毕竟Linux比起dos来已经很是简单明了了。</p>

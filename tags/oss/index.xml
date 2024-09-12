@@ -9,7 +9,7 @@
       <url>https://tunan.org/img/liujinsuiyue.jpg</url>
       <link>https://tunan.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 15 Jul 2019 03:27:27 +0000</lastBuildDate>
     <atom:link href="https://tunan.org/tags/oss/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <link>https://tunan.org/2513.html</link>
       <pubDate>Mon, 15 Jul 2019 03:27:27 +0000</pubDate>
       <guid>https://tunan.org/2513.html</guid>
-      <description>昨天看到明月云服务上有篇关于使用ossfs备份网站的文章，看起来也不复杂，于是就试用了一下，试用后感觉真是体验不错，用这个后，妈妈再也不担心</description>
+      <description>&lt;p&gt;昨天看到明月云服务上有篇关于使用ossfs备份网站的文章，看起来也不复杂，于是就试用了一下，试用后感觉真是体验不错，用这个后，妈妈再也不担心网站数据丢失了。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>昨天看到明月云服务上有篇关于使用ossfs备份网站的文章，看起来也不复杂，于是就试用了一下，试用后感觉真是体验不错，用这个后，妈妈再也不担心网站数据丢失了。</p>
 <h2 id="给服务器安装ossfs">给服务器安装ossfs。</h2>
 <ul>

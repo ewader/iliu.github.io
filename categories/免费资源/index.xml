@@ -9,7 +9,7 @@
       <url>https://tunan.org/img/liujinsuiyue.jpg</url>
       <link>https://tunan.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 03 Jan 2022 08:11:20 +0000</lastBuildDate>
     <atom:link href="https://tunan.org/categories/%E5%85%8D%E8%B4%B9%E8%B5%84%E6%BA%90/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,8 @@
       <link>https://tunan.org/4004.html</link>
       <pubDate>Mon, 03 Jan 2022 08:11:20 +0000</pubDate>
       <guid>https://tunan.org/4004.html</guid>
-      <description>昨天中午收到快递打来的电话，由于不在家，让放到了快递柜里。晚上回来的时候又个忘记了，好在放的是菜鸟，要是放丰巢又该收费了。 中午给哪了出来，小</description>
+      <description>&lt;p&gt;昨天中午收到快递打来的电话，由于不在家，让放到了快递柜里。晚上回来的时候又个忘记了，好在放的是菜鸟，要是放丰巢又该收费了。&lt;/p&gt;
+&lt;p&gt;中午给哪了出来，小箱子不大，包装的还比较不错。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>昨天中午收到快递打来的电话，由于不在家，让放到了快递柜里。晚上回来的时候又个忘记了，好在放的是菜鸟，要是放丰巢又该收费了。</p>
 <p>中午给哪了出来，小箱子不大，包装的还比较不错。<!-- raw HTML omitted --></p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
@@ -35,7 +36,7 @@
       <link>https://tunan.org/3430.html</link>
       <pubDate>Sun, 29 Nov 2020 00:53:36 +0000</pubDate>
       <guid>https://tunan.org/3430.html</guid>
-      <description>自从前两天体验了keepass的方便后，真的是对这个软件爱不释手了。但是在上一篇中，总体设置较为复杂，而且使用当中发现了诸多不方便之处。虽然</description>
+      <description>&lt;p&gt;自从前两天体验了keepass的方便后，真的是对这个软件爱不释手了。但是在上一篇中，总体设置较为复杂，而且使用当中发现了诸多不方便之处。虽然对于老刘来说，因为只是店和家同步，路由器里设置好zerotier就行了，但是后来想想，这个方案还有有点依赖硬件，没有普遍性，而且如果老刘不在局域网范围内的话，手机上使用也很不方便。熟悉这个软件之后发现，根本不需要如此复杂的设置，就能很容易的同步数据，如果是使用的白群晖的话，利用quickconnet,可以做到无论在何地，都能方便的使用群辉和keepass的便利之处。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>自从前两天体验了keepass的方便后，真的是对这个软件爱不释手了。但是在上一篇中，总体设置较为复杂，而且使用当中发现了诸多不方便之处。虽然对于老刘来说，因为只是店和家同步，路由器里设置好zerotier就行了，但是后来想想，这个方案还有有点依赖硬件，没有普遍性，而且如果老刘不在局域网范围内的话，手机上使用也很不方便。熟悉这个软件之后发现，根本不需要如此复杂的设置，就能很容易的同步数据，如果是使用的白群晖的话，利用quickconnet,可以做到无论在何地，都能方便的使用群辉和keepass的便利之处。</p>
 <h2 id="软件介绍">软件介绍</h2>
 <p>这次老刘介绍的软件叫KeePassXC,也是开源的作品，和keepass是一脉相承，可以说是keepass的分支吧，但是和前者相比，使用起来更方便。系统自带中文，不需要在装语言插件了，软件自带有对浏览器的支持，也不需要再装keepasshttp插件了，要知道，http这个插件作者已经好多年没有更新了，用起来确实没有keepassxc方便了。</p>
@@ -55,7 +56,7 @@
       <link>https://tunan.org/3413.html</link>
       <pubDate>Thu, 26 Nov 2020 09:10:34 +0000</pubDate>
       <guid>https://tunan.org/3413.html</guid>
-      <description>前两天看老张老师到处寻找管理密码的软件，老刘由于一直在使用Norton的密码管理，所以没有在意，后来发现Norton的服务器链接较慢，使用起</description>
+      <description>&lt;p&gt;前两天看老张老师到处寻找管理密码的软件，老刘由于一直在使用Norton的密码管理，所以没有在意，后来发现Norton的服务器链接较慢，使用起来还是有点不方便，恰好又看到老张在吐槽 某个软件（主要是老刘忘记名字了）使用的问题，于是老刘就想群晖上有没有一款密码管理的软件或者套件（自从老刘入白群晖后，找软件都先考虑这个），你还别说，真的搜出来了这样一个软件，不过不是安装在群晖上，而是把数据放在群晖上，其他的客户端都从群晖来读取数据，这个软件叫Keepass。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>前两天看老张老师到处寻找管理密码的软件，老刘由于一直在使用Norton的密码管理，所以没有在意，后来发现Norton的服务器链接较慢，使用起来还是有点不方便，恰好又看到老张在吐槽 某个软件（主要是老刘忘记名字了）使用的问题，于是老刘就想群晖上有没有一款密码管理的软件或者套件（自从老刘入白群晖后，找软件都先考虑这个），你还别说，真的搜出来了这样一个软件，不过不是安装在群晖上，而是把数据放在群晖上，其他的客户端都从群晖来读取数据，这个软件叫Keepass。</p>
 <h2 id="为什么选择keepass">为什么选择Keepass？</h2>
 <p>因为这是一款开源软件，任何人都能读它的源代码，支持所有的端，插件非常的丰富，只要你想到的功能，都有插件来实现。最重要的是免费，所以老刘毫不犹豫的上手了这个软件。</p>
@@ -97,7 +98,7 @@
       <link>https://tunan.org/3356.html</link>
       <pubDate>Sat, 24 Oct 2020 07:49:34 +0000</pubDate>
       <guid>https://tunan.org/3356.html</guid>
-      <description>刚开始完群晖的时候，写过一片使用zerotier进行内网穿透实现连接群晖的功能。详情《使用zerotier进行内网穿透 》但是后来升级移动宽带</description>
+      <description>&lt;p&gt;刚开始完群晖的时候，写过一片使用zerotier进行内网穿透实现连接群晖的功能。详情《&lt;a href=&#34;https://tunan.org/2872.html&#34;&gt;使用zerotier进行内网穿透&lt;/a&gt; 》但是后来升级移动宽带，带了一个光猫的路由，导致群晖成为了内网中的内网，使用zerotier总链接不上。因此，改用了frp进行内网穿透。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>刚开始完群晖的时候，写过一片使用zerotier进行内网穿透实现连接群晖的功能。详情《<a href="https://tunan.org/2872.html">使用zerotier进行内网穿透</a> 》但是后来升级移动宽带，带了一个光猫的路由，导致群晖成为了内网中的内网，使用zerotier总链接不上。因此，改用了frp进行内网穿透。</p>
 <p>FRP和zerotier各有千秋，本站也一些文章来结束这些，有兴趣可以利用搜索来查询。昨天，发现路由器里带的又zerotier的插件。其实以前也见到过，只是觉得只是控制路由器，用处不大，所以也没有过多的理会。昨天，突发奇想，是不是在两台路由器都设置zerotier的情况下，能实现各自路由下的设备能访问另一台路由下的设备。网上查了一下，发现是可行的。而且，设置起来也要简单的多。</p>
 <h2 id="首先注册zerotier">首先，注册zerotier</h2>
@@ -117,7 +118,11 @@
       <link>https://tunan.org/3340.html</link>
       <pubDate>Sun, 18 Oct 2020 07:27:04 +0000</pubDate>
       <guid>https://tunan.org/3340.html</guid>
-      <description>以前老刘写过《宝塔面板安装FRP内网穿透控制群晖》的文章，最近发现不知道是这个插件的作者不再开发了还是其他的原因，xeath开发的这个frp</description>
+      <description>&lt;p&gt;以前老刘写过《&lt;a href=&#34;https://tunan.org/2918.html&#34;&gt;宝塔面板安装FRP内网穿透控制群晖&lt;/a&gt;》的文章，最近发现不知道是这个插件的作者不再开发了还是其他的原因，xeath开发的这个frp服务器插件已经在商店里找不到了。其实，这也没什么，直接用代码的方式部署也是可以的。&lt;/p&gt;
+&lt;p&gt;SSH连接到VPS之后运行如下命令查看处理器架构，根据架构下载不同版本的frp&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;查看结果，如果是“X86_64“即可选择”amd64”，&lt;br&gt;
+运行如下命令，根据架构不同，选择相应版本并进行下载，然后登陆frp的官网地址，现在最新的应该是0.34.1，所以，运行如下的命令：&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>以前老刘写过《<a href="https://tunan.org/2918.html">宝塔面板安装FRP内网穿透控制群晖</a>》的文章，最近发现不知道是这个插件的作者不再开发了还是其他的原因，xeath开发的这个frp服务器插件已经在商店里找不到了。其实，这也没什么，直接用代码的方式部署也是可以的。</p>
 <p>SSH连接到VPS之后运行如下命令查看处理器架构，根据架构下载不同版本的frp</p>
 <!-- raw HTML omitted -->
@@ -156,7 +161,8 @@
       <link>https://tunan.org/3283.html</link>
       <pubDate>Sun, 11 Oct 2020 02:29:24 +0000</pubDate>
       <guid>https://tunan.org/3283.html</guid>
-      <description>在以前的文章（推荐一款国外CDN——Nodecache，注册即送1T流量）中介绍过nodecache这个CDN服务商，当时是注册送1T的流量</description>
+      <description>&lt;p&gt;在以前的文章（&lt;a href=&#34;https://tunan.org/1679.html&#34;&gt;推荐一款国外CDN——Nodecache，注册即送1T流量&lt;/a&gt;）中介绍过nodecache这个CDN服务商，当时是注册送1T的流量，后来由于觉得其速度有点慢，有时候又不稳定，所以就一直没有，后来通过这篇文字，陆续有了写aff送的流量，差不多一个月9G的样子，要说用在我这个小博客上市绰绰有余了，但是由于怕跑路就一直也没有用。&lt;/p&gt;
+&lt;p&gt;今天闲着没事，翻看自己以前的文字，发现了自己的这篇文章，于是，怀旧的登录上去看看，结果这个CDN服务商居然还没有跑路，哈哈！看了一下，里面的设置基本上和上海云盾的类似，有些还借鉴了又拍云的设置方式。又看了一下发现居然增加了中国直连线路。于是，我可耻的心动了。设置了一番，发现没有想想的那么美好，中国直连线路不是中国线路。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>在以前的文章（<a href="https://tunan.org/1679.html">推荐一款国外CDN——Nodecache，注册即送1T流量</a>）中介绍过nodecache这个CDN服务商，当时是注册送1T的流量，后来由于觉得其速度有点慢，有时候又不稳定，所以就一直没有，后来通过这篇文字，陆续有了写aff送的流量，差不多一个月9G的样子，要说用在我这个小博客上市绰绰有余了，但是由于怕跑路就一直也没有用。</p>
 <p>今天闲着没事，翻看自己以前的文字，发现了自己的这篇文章，于是，怀旧的登录上去看看，结果这个CDN服务商居然还没有跑路，哈哈！看了一下，里面的设置基本上和上海云盾的类似，有些还借鉴了又拍云的设置方式。又看了一下发现居然增加了中国直连线路。于是，我可耻的心动了。设置了一番，发现没有想想的那么美好，中国直连线路不是中国线路。</p>
 <h2 id="设置成中国直连线路后的ping值">设置成中国直连线路后的ping值</h2>
@@ -181,7 +187,7 @@
       <link>https://tunan.org/3279.html</link>
       <pubDate>Sat, 10 Oct 2020 07:53:31 +0000</pubDate>
       <guid>https://tunan.org/3279.html</guid>
-      <description>自从Windows 10推出以来，微软的Microsoft Defender已经可以作为一款合格的杀毒软件来使用了，但是微软为了平衡误杀和安全之</description>
+      <description>&lt;p&gt;自从Windows 10推出以来，微软的Microsoft Defender已经可以作为一款合格的杀毒软件来使用了，但是微软为了平衡误杀和安全之间的关系，默认情况西安Microsoft Defender很多先进的技术都没有开启，比如对流氓软件pup的查杀等。要想开启高级功能就必须去组策略里进行调整，这一步对软件小白来说是真的费事。好消息来了，有大神开发出来了一款可以设置Microsoft Defender的辅助软件，不需要进组策略即可对Microsoft Defender进行调整。目前已经更新到了3.0.0.1版，坏消息是没有中文版。不过软件的设置很简单。看着本文的图片进行设置就行。或者设置成“HIGH”即可。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>自从Windows 10推出以来，微软的Microsoft Defender已经可以作为一款合格的杀毒软件来使用了，但是微软为了平衡误杀和安全之间的关系，默认情况西安Microsoft Defender很多先进的技术都没有开启，比如对流氓软件pup的查杀等。要想开启高级功能就必须去组策略里进行调整，这一步对软件小白来说是真的费事。好消息来了，有大神开发出来了一款可以设置Microsoft Defender的辅助软件，不需要进组策略即可对Microsoft Defender进行调整。目前已经更新到了3.0.0.1版，坏消息是没有中文版。不过软件的设置很简单。看着本文的图片进行设置就行。或者设置成“HIGH”即可。</p>
 <p><a href="https://tunan.org/wp-content/uploads/2020/10/964c67f993d670e.png"><!-- raw HTML omitted --></a></p>
 <h2 id="用于配置windows-10内置defender防病毒设置的实用程序它是一个便携式实用程序">用于配置Windows 10内置Defender防病毒设置的实用程序.它是一个便携式实用程序</h2>
@@ -209,7 +215,14 @@
       <link>https://tunan.org/3197.html</link>
       <pubDate>Sun, 28 Jun 2020 07:25:45 +0000</pubDate>
       <guid>https://tunan.org/3197.html</guid>
-      <description>填空类（一） 1．把 5 米长的绳子平均剪成 4 段，每段长（ ）米，每段是全长的（ ）。 2．把 3kg 水果平均分给 4 个小朋友，每个小朋友分得这 3kg 水果的（ ），每</description>
+      <description>&lt;p&gt;填空类（一）&lt;br&gt;
+1．把 5 米长的绳子平均剪成 4 段，每段长（ ）米，每段是全长的（ ）。&lt;br&gt;
+2．把 3kg 水果平均分给 4 个小朋友，每个小朋友分得这 3kg 水果的（ ），每&lt;br&gt;
+个小朋友分到（ ）kg。&lt;br&gt;
+3．王师傅 8 分钟制作了 5 个零件，他每分钟能制作（ ）个零件，制作一个&lt;br&gt;
+零件要（ ）分钟&lt;br&gt;
+4．把 5 米长的绳子剪去 1米，还剩下（ ）米。 5 米长的绳子剪去它的1/5还剩下（ ）米。&lt;br&gt;
+5、6/8的分子加上 9，分母加（ ）分数的大小才不会变&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>填空类（一）<br>
 1．把 5 米长的绳子平均剪成 4 段，每段长（ ）米，每段是全长的（ ）。<br>
 2．把 3kg 水果平均分给 4 个小朋友，每个小朋友分得这 3kg 水果的（ ），每<br>
@@ -237,7 +250,7 @@
       <link>https://tunan.org/2250.html</link>
       <pubDate>Tue, 09 Jul 2019 08:47:39 +0000</pubDate>
       <guid>https://tunan.org/2250.html</guid>
-      <description>nodecache是一款新出的cdn服务商，搜索引擎上关于它的资料很少，今天搜了半天也只是找到一个快照，是和某个国外主机论坛合作推广送50美</description>
+      <description>&lt;p&gt;nodecache是一款新出的cdn服务商，搜索引擎上关于它的资料很少，今天搜了半天也只是找到一个快照，是和某个国外主机论坛合作推广送50美元的文章，这篇文章是2019年1月左右。不过这个活动也早就停了。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>nodecache是一款新出的cdn服务商，搜索引擎上关于它的资料很少，今天搜了半天也只是找到一个快照，是和某个国外主机论坛合作推广送50美元的文章，这篇文章是2019年1月左右。不过这个活动也早就停了。</p>
 <p>知道这个公司是看到缙哥哥分享的，说实话，目前用着来说还算可以，毕竟人数可能比较少，加速的节点是香港的，而且种种迹象表明，这是一个国人开办的公司，对中文支持那也就相当的好了。当时用着很满意，不过它的流量就送一个月，由于满意就想在试用一段时间，于是充了1美元，因为目前这个博客的流量很小，1美元也可以用好久了。</p>
 <p>充完了之后才发现推广链接还能送流量，首个用户是送5g，以后的用户送1g，跋涉者成功的推广了两个用户，所以账户中每个月是有6g的流量的，对于跋涉者来说，这个流量已经是足够了。于是就想把这个钱给退回来，虽然少，蚊子多了也是肉嘛。</p>
@@ -263,7 +276,10 @@
       <link>https://tunan.org/1481.html</link>
       <pubDate>Fri, 30 Sep 2011 03:22:16 +0000</pubDate>
       <guid>https://tunan.org/1481.html</guid>
-      <description>笔记本还是05年买的，硬盘有点小 只有30G，本来已经淘汰了，不过开了小店以后，就拿到店内用了,硬盘太小，所以就找一些可以直接同步的网络硬盘来</description>
+      <description>&lt;p&gt;笔记本还是05年买的，硬盘有点小 只有30G，本来已经淘汰了，不过开了小店以后，就拿到店内用了,硬盘太小，所以就找一些可以直接同步的网络硬盘来扩大电脑的容量。&lt;br&gt;
+首先一个是微软的，叫做skydrive，地址：&lt;a href=&#34;http://skydrive.live.com/&#34;&gt;http://skydrive.live.com&lt;/a&gt;，优点是注册就给送25G，而且可以在线编辑office文档，如果你有一些文档是要由几个人来完成的话，用这个绝对没有错！缺点是微软没有发布同步工具，只能通过网页上传下载，不是很方便。&lt;br&gt;
+第二个要推荐的是大名鼎鼎的DROPBOX，他是全球第一个做云储存的，也就是电脑和服务器端同步的方式储存数据，目前有上亿的用户，已经上市了，据说GOOGLE要收购这个公司，地址：&lt;a href=&#34;https://www.dropbox.com/&#34;&gt;https://www.dropbox.com/&lt;/a&gt;   优点：上传下载的速度很快，和国内的差不多，缺点是英文！&lt;br&gt;
+第三个，国内的金山快盘，是国内最早做同步的网盘的，不多说，上地址：&lt;a href=&#34;http://www.kuaipan.cn/index.php?ac=account&amp;amp;op=register&amp;amp;channel=onsio3&#34;&gt;http://www.kuaipan.cn/&lt;/a&gt;优点：同步速度快，客户端小巧  缺点：单个文件限制在100m 初始5G，可以做任务达到15G&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>笔记本还是05年买的，硬盘有点小 只有30G，本来已经淘汰了，不过开了小店以后，就拿到店内用了,硬盘太小，所以就找一些可以直接同步的网络硬盘来扩大电脑的容量。<br>
 首先一个是微软的，叫做skydrive，地址：<a href="http://skydrive.live.com/">http://skydrive.live.com</a>，优点是注册就给送25G，而且可以在线编辑office文档，如果你有一些文档是要由几个人来完成的话，用这个绝对没有错！缺点是微软没有发布同步工具，只能通过网页上传下载，不是很方便。<br>
 第二个要推荐的是大名鼎鼎的DROPBOX，他是全球第一个做云储存的，也就是电脑和服务器端同步的方式储存数据，目前有上亿的用户，已经上市了，据说GOOGLE要收购这个公司，地址：<a href="https://www.dropbox.com/">https://www.dropbox.com/</a>   优点：上传下载的速度很快，和国内的差不多，缺点是英文！<br>
@@ -277,7 +293,7 @@
       <link>https://tunan.org/1328.html</link>
       <pubDate>Tue, 06 Sep 2011 09:30:47 +0000</pubDate>
       <guid>https://tunan.org/1328.html</guid>
-      <description>照例翻开报纸，正介绍邮政储蓄的信用卡，看了以后发现，还确实不错！其特点为网点多、好还款、终生免年费、卡片遗失银行承担风险、自选多档期分期付款</description>
+      <description>&lt;p&gt;照例翻开报纸，正介绍邮政储蓄的信用卡，看了以后发现，还确实不错！其特点为网点多、好还款、终生免年费、卡片遗失银行承担风险、自选多档期分期付款。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>照例翻开报纸，正介绍邮政储蓄的信用卡，看了以后发现，还确实不错！其特点为网点多、好还款、终生免年费、卡片遗失银行承担风险、自选多档期分期付款。</p>
 <p>网点多就不说了，可以说中国的银行网点最多的就是邮政了，很多偏远小镇，可以没有银行，但是是绝对有邮政，有邮政的地方就有邮政储蓄啊，呵呵</p>
 <p>什么好还款、什么多档期分期等等都无所谓，我觉得最实惠的莫过于终生免年费这个优势了，相对于国内大大小小的其他银行推出的免年费的条件，邮政银行的这个可谓是占尽优势。</p>
@@ -352,7 +368,8 @@
       <link>https://tunan.org/1149.html</link>
       <pubDate>Fri, 05 Aug 2011 02:15:32 +0000</pubDate>
       <guid>https://tunan.org/1149.html</guid>
-      <description>每次都要登录优酷看，转发到博客上来，就没那么麻烦了，呵呵 http://v.youku.com/v_show/id_XMzE5NDgwMA==.html</description>
+      <description>&lt;p&gt;每次都要登录优酷看，转发到博客上来，就没那么麻烦了，呵呵&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://v.youku.com/v&#34;&gt;http://v.youku.com/v&lt;/a&gt;_show/id_XMzE5NDgwMA==.html&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>每次都要登录优酷看，转发到博客上来，就没那么麻烦了，呵呵</p>
 <p><a href="http://v.youku.com/v">http://v.youku.com/v</a>_show/id_XMzE5NDgwMA==.html</p>
 ]]></content:encoded>
@@ -362,7 +379,7 @@
       <link>https://tunan.org/959.html</link>
       <pubDate>Fri, 29 Oct 2010 01:34:58 +0000</pubDate>
       <guid>https://tunan.org/959.html</guid>
-      <description>以前觉得手机上网就是个鸡肋，食之无味、弃之可惜，最近发现，原来的观点是错误的，其实手机上网还是能做很多很多的事情的，相信很多朋友都和我一样有</description>
+      <description>&lt;p&gt;以前觉得手机上网就是个鸡肋，食之无味、弃之可惜，最近发现，原来的观点是错误的，其实手机上网还是能做很多很多的事情的，相信很多朋友都和我一样有这样的经历，在公交站等公交车，辛苦等半天，座上后，挤得要死，忽然一扭头发现后来跟来了一个空车，这个感觉郁闷吧，今天华彩就交你用手机来查询公交车的GPS信息，当然这个公交车仅限郑州，别的地方不适用哦。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>以前觉得手机上网就是个鸡肋，食之无味、弃之可惜，最近发现，原来的观点是错误的，其实手机上网还是能做很多很多的事情的，相信很多朋友都和我一样有这样的经历，在公交站等公交车，辛苦等半天，座上后，挤得要死，忽然一扭头发现后来跟来了一个空车，这个感觉郁闷吧，今天华彩就交你用手机来查询公交车的GPS信息，当然这个公交车仅限郑州，别的地方不适用哦。</p>
 <p>其实这是利用郑州公交公司最新推出的GPS查询候车系统来实现的，首先，用手机登陆http://wap.zhengzhoubus.com ，见图。</p>
 <p>然后选择GPS候车查询<!-- raw HTML omitted --></p>
@@ -376,7 +393,7 @@
       <link>https://tunan.org/500.html</link>
       <pubDate>Sun, 24 Jan 2010 13:50:01 +0000</pubDate>
       <guid>https://tunan.org/500.html</guid>
-      <description>现在window下主要的离线博客主要有windows live write，zoundry raven以及国内一家公司开发的菊子曰。下面本人就对这三个软</description>
+      <description>&lt;p&gt;现在window下主要的离线博客主要有windows live write，zoundry raven以及国内一家公司开发的菊子曰。下面本人就对这三个软件做个点评。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>现在window下主要的离线博客主要有windows live write，zoundry raven以及国内一家公司开发的菊子曰。下面本人就对这三个软件做个点评。</p>
 <p>之所以这么关系离线博客编辑软件是因为本人所用的空间是godaddy的免费空间，上面的那个大大的广告条让博客的后台有些功能无法使用，正好可以用这类离线编辑的软件来替代。首先让我们来说说windows live writer，因为我本机用的window 2003，而这个软件不支持在服务器系统上的安装，所以兼容性就比其他两个软件要差。另外live writer要安装.net所以安装下来要占用100多M的空间，虽然现在的空间动辄成T，但live writer的冗肿是无容置疑的，live writer支持分类、标签、离线模板，支持上传图片、并可以给图片加上特效和水印。加水印是window live writer的一个独特的地方，其他两个没有这样的功能。</p>
 <p>第二个软件就是我前面《<!-- raw HTML omitted -->完美解决godaddy免费空间广告条对WordPress后台的影响<!-- raw HTML omitted --> 》说的zoundry raven 这个软件的界面如下：</p>
@@ -402,7 +419,7 @@
       <link>https://tunan.org/476.html</link>
       <pubDate>Tue, 19 Jan 2010 01:39:32 +0000</pubDate>
       <guid>https://tunan.org/476.html</guid>
-      <description>众所周知，godaddy免费空间带有一个很大的广告条，有广告也就罢了，不厚道的是通过增加的广告代码，使得很多源代码发生了错误，这是因为它的广</description>
+      <description>&lt;p&gt;        众所周知，godaddy免费空间带有一个很大的广告条，有广告也就罢了，不厚道的是通过增加的广告代码，使得很多源代码发生了错误，这是因为它的广告代码用了一连串的闭合标签，使你的程序人为的关闭，因此会出错，通过这一个月的摸索，现在把我的经验给大家说说，能让用这个空间的人多一些了解。我在上一篇&lt;!-- raw HTML omitted --&gt;完美解决godaddy免费空间广告条对WordPress后台的影响&lt;!-- raw HTML omitted --&gt;也说了一些，现在把其他的在给大家分享一下。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>        众所周知，godaddy免费空间带有一个很大的广告条，有广告也就罢了，不厚道的是通过增加的广告代码，使得很多源代码发生了错误，这是因为它的广告代码用了一连串的闭合标签，使你的程序人为的关闭，因此会出错，通过这一个月的摸索，现在把我的经验给大家说说，能让用这个空间的人多一些了解。我在上一篇<!-- raw HTML omitted -->完美解决godaddy免费空间广告条对WordPress后台的影响<!-- raw HTML omitted -->也说了一些，现在把其他的在给大家分享一下。<!-- raw HTML omitted --></p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <p>    首先，最完美的解决方案，把你的主机切换到windows主机，选择iis7和php5，这样安装WordPress后不会显示任何广告，据网友反映，装zblog也没有问题，貌似动态的网页不会显示广告，但是html的静态网页会显示广告。windows主机也支持伪静态化，通过web.config来实现。缺点是1、对中文tag支持的不好，2、安全性没有保证，不知道是不是会因为没有广告而被K账户。有网友表示向godaddy的客服询问，但是没有看到结果，有一个网友现在用了4个月的时间，现在还一直在用，所以用这个的话记得经常备份数据。</p>
@@ -440,7 +457,7 @@
       <link>https://tunan.org/388.html</link>
       <pubDate>Sun, 03 Jan 2010 13:09:22 +0000</pubDate>
       <guid>https://tunan.org/388.html</guid>
-      <description>自从从godaddy搞了域名之后，一直对它提供的免费空间耿耿于怀，用也不是，不用又觉得可惜，难怪网上都说此空间是一个鸡肋。很多童鞋都把此空间</description>
+      <description>&lt;p&gt;自从从godaddy搞了域名之后，一直对它提供的免费空间耿耿于怀，用也不是，不用又觉得可惜，难怪网上都说此空间是一个鸡肋。很多童鞋都把此空间做为图床来使用，只是我觉得，这么好的一个空间，10g，300g的流量，仅仅用做图床未免有些浪费，加之目前手里也没有什么像样的空间，先前一直在有pipni的空间，各方面还比较满意，就是速度差了些，后来又觉得byethost的空间也不错，可惜IP老被封，加上本次的整顿事件，越发不敢用了，毕竟被墙以后，再找空间也麻烦。所以想来想去，还是就用godaddy提供的这个免费的空间吧。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>自从从godaddy搞了域名之后，一直对它提供的免费空间耿耿于怀，用也不是，不用又觉得可惜，难怪网上都说此空间是一个鸡肋。很多童鞋都把此空间做为图床来使用，只是我觉得，这么好的一个空间，10g，300g的流量，仅仅用做图床未免有些浪费，加之目前手里也没有什么像样的空间，先前一直在有pipni的空间，各方面还比较满意，就是速度差了些，后来又觉得byethost的空间也不错，可惜IP老被封，加上本次的整顿事件，越发不敢用了，毕竟被墙以后，再找空间也麻烦。所以想来想去，还是就用godaddy提供的这个免费的空间吧。<!-- raw HTML omitted --></p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <p>要说用你的免费空间给你做做广告也不是不可以，但是加载的代码对网页有影响。对wordpress而言，主要的问题是在后台，发文章，传文件等都受到很大的影响。目前迫切需要的是，1、把后台的广告给去掉，这个网上有很多的方法。我这里就不一一介绍了，只是说我的做法是<code>：在admin-footer.php加上</code></p>
@@ -454,7 +471,7 @@
       <link>https://tunan.org/221.html</link>
       <pubDate>Sat, 19 Dec 2009 12:06:02 +0000</pubDate>
       <guid>https://tunan.org/221.html</guid>
-      <description>free.fr旗下的小空间chez.com，之所以说是小空间，因为不知道空间的大小，速度还不错，稳定性应该也不错，其实这空间2001年就有了</description>
+      <description>&lt;p&gt;free.fr旗下的小空间chez.com，之所以说是小空间，因为不知道空间的大小，速度还不错，稳定性应该也不错，其实这空间2001年就有了，支持php、mysql，但是不能绑定域名。有兴趣的可以去看看。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>free.fr旗下的小空间chez.com，之所以说是小空间，因为不知道空间的大小，速度还不错，稳定性应该也不错，其实这空间2001年就有了，支持php、mysql，但是不能绑定域名。有兴趣的可以去看看。</p>
 <p>申请地址：<!-- raw HTML omitted --><a href="http://www.chez.com">http://www.chez.com</a><!-- raw HTML omitted --></p>
 <p>由于是法文，所以有些地方估计看不懂，baidu下攻略吧，应该是有的。</p>
@@ -467,7 +484,7 @@
       <link>https://tunan.org/190.html</link>
       <pubDate>Wed, 16 Dec 2009 08:25:15 +0000</pubDate>
       <guid>https://tunan.org/190.html</guid>
-      <description>由于用的是电信的手机，昨天收到了一条短信，大意是电信也推出了可以像QQ、msn等一样可以免费发送短信的客户端，并且每个月可以免费发送300条</description>
+      <description>&lt;p&gt;由于用的是电信的手机，昨天收到了一条短信，大意是电信也推出了可以像QQ、msn等一样可以免费发送短信的客户端，并且每个月可以免费发送300条短信。经过确认证明不是所谓的骗子，就下载来使用。还算不错，每天可以发50条，每月发300条，都是免费的，可以同时给20个人发送。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>由于用的是电信的手机，昨天收到了一条短信，大意是电信也推出了可以像QQ、msn等一样可以免费发送短信的客户端，并且每个月可以免费发送300条短信。经过确认证明不是所谓的骗子，就下载来使用。还算不错，每天可以发50条，每月发300条，都是免费的，可以同时给20个人发送。<!-- raw HTML omitted --></p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <p>华彩建议您使用这软件，但是必须是电信的用户，不管是宽带或者手机用户都可以，并且送一个189的邮箱，推荐中。</p>
@@ -519,7 +536,7 @@
       <link>https://tunan.org/1141.html</link>
       <pubDate>Sun, 18 Oct 2009 11:40:10 +0000</pubDate>
       <guid>https://tunan.org/1141.html</guid>
-      <description>中国平安车险的最新有奖活动，按照车险投保平台页面指示提交报价即可获得“赢取188-3888元不等油卡”的抽奖机会（无需支付款项，到提示上门收</description>
+      <description>&lt;p&gt;中国平安车险的最新有奖活动，按照车险投保平台页面指示提交报价即可获得“赢取188-3888元不等油卡”的抽奖机会（无需支付款项，到提示上门收费那页，选暂存离开，进入你的会员帐户即可，信息资料一定真实，可能会打电话联系你核对，虚假、错误信息取消获奖资格！），如果您是北京、上海、深圳平安车险客户还能获得&lt;!-- raw HTML omitted --&gt;免费&lt;!-- raw HTML omitted --&gt;非事故道路救援服务！一等奖1名：获3888元加油卡一张，二等奖3名：每名获888元加油卡一张，三等奖10名：每名获188元加油卡一张，该&lt;!-- raw HTML omitted --&gt;有奖活动&lt;!-- raw HTML omitted --&gt;截止到2009年11月4日。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>中国平安车险的最新有奖活动，按照车险投保平台页面指示提交报价即可获得“赢取188-3888元不等油卡”的抽奖机会（无需支付款项，到提示上门收费那页，选暂存离开，进入你的会员帐户即可，信息资料一定真实，可能会打电话联系你核对，虚假、错误信息取消获奖资格！），如果您是北京、上海、深圳平安车险客户还能获得<!-- raw HTML omitted -->免费<!-- raw HTML omitted -->非事故道路救援服务！一等奖1名：获3888元加油卡一张，二等奖3名：每名获888元加油卡一张，三等奖10名：每名获188元加油卡一张，该<!-- raw HTML omitted -->有奖活动<!-- raw HTML omitted -->截止到2009年11月4日。</p>
 <p>网址：<!-- raw HTML omitted --><a href="http://www.pingan.com/campaign/channels/pingan/car-quote/index.jsp">http://www.pingan.com/campaign/channels/pingan/car-quote/index.jsp</a><!-- raw HTML omitted --></p>
 ]]></content:encoded>
@@ -529,7 +546,9 @@
       <link>https://tunan.org/1139.html</link>
       <pubDate>Thu, 15 Oct 2009 13:04:32 +0000</pubDate>
       <guid>https://tunan.org/1139.html</guid>
-      <description>用脑拿订单下载 很不错的一本书，适合销售新手老手观看 下载地址</description>
+      <description>&lt;p&gt;用脑拿订单下载&lt;/p&gt;
+&lt;p&gt;很不错的一本书，适合销售新手老手观看&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://down.qiannao.com/space/file/ewader/-4e0a-4f20-5206-4eab/-7528-8111-62ff-8ba2-5355-ff1a-9500-552e-4e2d-7684-5168-8111-535a-5f08.pdf/.page&#34;&gt;下载地址&lt;/a&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>用脑拿订单下载</p>
 <p>很不错的一本书，适合销售新手老手观看</p>
 <p><a href="http://down.qiannao.com/space/file/ewader/-4e0a-4f20-5206-4eab/-7528-8111-62ff-8ba2-5355-ff1a-9500-552e-4e2d-7684-5168-8111-535a-5f08.pdf/.page">下载地址</a></p>
@@ -684,7 +703,8 @@
       <link>https://tunan.org/1135.html</link>
       <pubDate>Mon, 05 Oct 2009 12:52:28 +0000</pubDate>
       <guid>https://tunan.org/1135.html</guid>
-      <description>189邮箱是由中国电信推出的免费邮箱服务，yourname@189.cn域名后缀，类似中国移动的139邮箱，仅限中国电信用户使用，每月可向中</description>
+      <description>&lt;p&gt;        189邮箱是由中国电信推出的免费邮箱服务，&lt;a href=&#34;mailto:yourname@189.cn&#34;&gt;yourname@189.cn&lt;/a&gt;域名后缀，类似中国移动的139邮箱，仅限中国电信用户使用，每月可向中国电信手机用户免费发短信50条，支持邮件到达自动短信通知，长短信可收取邮件全文，支持短信直接回复邮件，保证您在第一时间处理邮件，自由设置通知时间段，保证休息时间不被打扰。189免费邮箱具有2G容量，附件最大20M，支持POP3、SMTP、WAP、Web收发邮件，还提供500M免费网络硬盘，单个文件限50M以内。华彩试了一下，189邮箱速度不错，联通访问速度也很好！&lt;/p&gt;
+&lt;p&gt;网址：&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;http://mail.189.cn&#34;&gt;http://mail.189.cn&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>        189邮箱是由中国电信推出的免费邮箱服务，<a href="mailto:yourname@189.cn">yourname@189.cn</a>域名后缀，类似中国移动的139邮箱，仅限中国电信用户使用，每月可向中国电信手机用户免费发短信50条，支持邮件到达自动短信通知，长短信可收取邮件全文，支持短信直接回复邮件，保证您在第一时间处理邮件，自由设置通知时间段，保证休息时间不被打扰。189免费邮箱具有2G容量，附件最大20M，支持POP3、SMTP、WAP、Web收发邮件，还提供500M免费网络硬盘，单个文件限50M以内。华彩试了一下，189邮箱速度不错，联通访问速度也很好！</p>
 <p>网址：<!-- raw HTML omitted --><a href="http://mail.189.cn">http://mail.189.cn</a><!-- raw HTML omitted --></p>
 ]]></content:encoded>
@@ -694,7 +714,8 @@
       <link>https://tunan.org/331.html</link>
       <pubDate>Sat, 31 Jan 2009 13:24:00 +0000</pubDate>
       <guid>https://tunan.org/331.html</guid>
-      <description>1000MB（1GB）免费空间无任何广告支持PHP+Mysql数据库10个数据库支持绑定顶级域名免费提供二级域名25000宽带支持FTP上传</description>
+      <description>&lt;p&gt;1000MB（1GB）免费空间无任何广告支持PHP+Mysql数据库10个数据库支持绑定顶级域名免费提供二级域名25000宽带支持FTP上传LayeredPanel 控制面板申请地址：&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;http://www.hostse.com/register.jsp&#34;&gt;http://www.hostse.com/register.jsp&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;br&gt;
+演示地址：&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;http://ewader.hostse.com&#34;&gt;http://ewader.hostse.com&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>1000MB（1GB）免费空间无任何广告支持PHP+Mysql数据库10个数据库支持绑定顶级域名免费提供二级域名25000宽带支持FTP上传LayeredPanel 控制面板申请地址：<!-- raw HTML omitted --><a href="http://www.hostse.com/register.jsp">http://www.hostse.com/register.jsp</a><!-- raw HTML omitted --><br>
 演示地址：<!-- raw HTML omitted --><a href="http://ewader.hostse.com">http://ewader.hostse.com</a><!-- raw HTML omitted --></p>
 ]]></content:encoded>

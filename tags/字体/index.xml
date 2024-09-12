@@ -9,7 +9,7 @@
       <url>https://tunan.org/img/liujinsuiyue.jpg</url>
       <link>https://tunan.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 13 Dec 2021 06:09:18 +0000</lastBuildDate>
     <atom:link href="https://tunan.org/tags/%E5%AD%97%E4%BD%93/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <link>https://tunan.org/3944.html</link>
       <pubDate>Mon, 13 Dec 2021 06:09:18 +0000</pubDate>
       <guid>https://tunan.org/3944.html</guid>
-      <description>最近一直使用Linuxmint，如果不是一些必备的软件在Linux下没有，甚至都可以把Windows10卸载了，不过没有办法，有些软件还必须</description>
+      <description>&lt;p&gt;最近一直使用Linuxmint，如果不是一些必备的软件在Linux下没有，甚至都可以把Windows10卸载了，不过没有办法，有些软件还必须在win下使用。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>最近一直使用Linuxmint，如果不是一些必备的软件在Linux下没有，甚至都可以把Windows10卸载了，不过没有办法，有些软件还必须在win下使用。</p>
 <p>现在很多笔记本都是1920*1080的分辨率，这就导致字体有些小，在win10下默认是显示125%，Linuxmint下虽然也是可以设置成125%，但是总感觉有些不协调。</p>
 <p>网上还有一些教程是调大字体显示。但是无论怎么调，总感觉有些违和，看网页不舒服。后来发现其实Linuxmint在高分屏的支持方面已经比较完美了，可能是笔记本的屏幕太小导致字体小。</p>

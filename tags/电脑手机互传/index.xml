@@ -9,7 +9,7 @@
       <url>https://tunan.org/img/liujinsuiyue.jpg</url>
       <link>https://tunan.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 15 Apr 2023 09:55:19 +0000</lastBuildDate>
     <atom:link href="https://tunan.org/tags/%E7%94%B5%E8%84%91%E6%89%8B%E6%9C%BA%E4%BA%92%E4%BC%A0/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <link>https://tunan.org/4362.html</link>
       <pubDate>Sat, 15 Apr 2023 09:55:19 +0000</pubDate>
       <guid>https://tunan.org/4362.html</guid>
-      <description>今天从电脑上下载了一个app，一般情况下，传到手机里要么用微信或者QQ，要么用群晖的drive同步，但是今天忽然发现edge浏览器自带的dr</description>
+      <description>&lt;p&gt;今天从电脑上下载了一个app，一般情况下，传到手机里要么用微信或者QQ，要么用群晖的drive同步，但是今天忽然发现edge浏览器自带的drop小工具就可以轻松的实现，仔细看了一下，发现新版Edge浏览器侧边栏的小工具还是挺实用的。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>今天从电脑上下载了一个app，一般情况下，传到手机里要么用微信或者QQ，要么用群晖的drive同步，但是今天忽然发现edge浏览器自带的drop小工具就可以轻松的实现，仔细看了一下，发现新版Edge浏览器侧边栏的小工具还是挺实用的。</p>
 <h2 class="wp-block-heading" id="drop实现很手机之间的互传">drop实现很手机之间的互传</h2>
 <p>在浏览器右侧的边栏里，有一个小飞机一样的图标，点开来，是一个类似对话框的页面，点击下面的➕号，把需要的文件发送即可。当然手机上也需要安装EDGE浏览器，这个文件应该是保存在了onedrive里，使用起来还是非常好用的。<!-- raw HTML omitted --></p>

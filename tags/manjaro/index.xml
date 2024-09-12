@@ -9,7 +9,7 @@
       <url>https://tunan.org/img/liujinsuiyue.jpg</url>
       <link>https://tunan.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 23 Apr 2023 09:47:27 +0000</lastBuildDate>
     <atom:link href="https://tunan.org/tags/manjaro/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <link>https://tunan.org/4367.html</link>
       <pubDate>Sun, 23 Apr 2023 09:47:27 +0000</pubDate>
       <guid>https://tunan.org/4367.html</guid>
-      <description>前几天，在朋友的推荐下，使用了小狼毫rime输入法，不过那是在Windows11里使用的，装的另外一个系统是manjaro，偶尔想搞几下Py</description>
+      <description>&lt;p&gt;前几天，在朋友的推荐下，使用了小狼毫rime输入法，不过那是在Windows11里使用的，装的另外一个系统是manjaro，偶尔想搞几下Python代码的时候会使用，在这个系统里一直使用的Fcitx5，这个输入法也是挺成熟的了，用起来也很不错，不过既然在Windows里使用了rime就想在manjaro里也使用。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>前几天，在朋友的推荐下，使用了小狼毫rime输入法，不过那是在Windows11里使用的，装的另外一个系统是manjaro，偶尔想搞几下Python代码的时候会使用，在这个系统里一直使用的Fcitx5，这个输入法也是挺成熟的了，用起来也很不错，不过既然在Windows里使用了rime就想在manjaro里也使用。<!-- raw HTML omitted --></p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
 <h2 class="wp-block-heading" id="安装方法">安装方法</h2>
@@ -38,7 +38,12 @@
       <link>https://tunan.org/4295.html</link>
       <pubDate>Wed, 16 Nov 2022 01:40:50 +0000</pubDate>
       <guid>https://tunan.org/4295.html</guid>
-      <description>都说使用manjaro最频繁使用的就是命令是 这不，照例这么运行了一下，提示有更新，好家伙下载了1g多，不过更新替换后，系统反而小了1m。当时</description>
+      <description>&lt;p&gt;都说使用manjaro最频繁使用的就是命令是&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;这不，照例这么运行了一下，提示有更新，好家伙下载了1g多，不过更新替换后，系统反而小了1m。当时也没有注意更新了啥，直到我点击了这里，发现快速设置菜单变了。&lt;br&gt;
+&lt;!-- raw HTML omitted --&gt;&lt;br&gt;
+发现整个改变了，看了一下系统才发现原来是更新了gnome，现在已经是最新版的了，不得不说，如果想用linux的最新版本，还的使用ARCH系的。滚动更新，yyds。&lt;br&gt;
+&lt;strong&gt;&lt;em&gt;gnome43更新了不少东西。别说这些东西win都有。&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>都说使用manjaro最频繁使用的就是命令是</p>
 <!-- raw HTML omitted -->
 <p>这不，照例这么运行了一下，提示有更新，好家伙下载了1g多，不过更新替换后，系统反而小了1m。当时也没有注意更新了啥，直到我点击了这里，发现快速设置菜单变了。<br>
@@ -59,7 +64,7 @@
       <link>https://tunan.org/4036.html</link>
       <pubDate>Mon, 17 Jan 2022 00:24:40 +0000</pubDate>
       <guid>https://tunan.org/4036.html</guid>
-      <description>昨天把开发python 的这个电脑也更换成manjaro这个系统了。经过一段时间的试用，感觉这个系统确实是一个使用起来舒服有稳定的系统。 man</description>
+      <description>&lt;p&gt;昨天把开发python 的这个电脑也更换成manjaro这个系统了。经过一段时间的试用，感觉这个系统确实是一个使用起来舒服有稳定的系统。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>昨天把开发python 的这个电脑也更换成manjaro这个系统了。经过一段时间的试用，感觉这个系统确实是一个使用起来舒服有稳定的系统。<!-- raw HTML omitted --></p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
 <h2 class="wp-block-heading" id="manjaro之于ubuntu">manjaro之于ubuntu</h2>

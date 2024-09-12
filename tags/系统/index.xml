@@ -9,7 +9,7 @@
       <url>https://tunan.org/img/liujinsuiyue.jpg</url>
       <link>https://tunan.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 08 Nov 2023 21:22:44 +0800</lastBuildDate>
     <atom:link href="https://tunan.org/tags/%E7%B3%BB%E7%BB%9F/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <link>https://tunan.org/A-few-things-after-installing-EndeavourOS/</link>
       <pubDate>Wed, 08 Nov 2023 21:22:44 +0800</pubDate>
       <guid>https://tunan.org/A-few-things-after-installing-EndeavourOS/</guid>
-      <description>很多追求新，追求精简的Linux系统的使用者，往往都会推荐Arch Linux，这个系统特点是精简，精简到什么都需要你来搞定，所以也让很多人望</description>
+      <description>&lt;p&gt;很多追求新，追求精简的Linux系统的使用者，往往都会推荐Arch Linux，这个系统特点是精简，精简到什么都需要你来搞定，所以也让很多人望而却步。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>很多追求新，追求精简的Linux系统的使用者，往往都会推荐Arch Linux，这个系统特点是精简，精简到什么都需要你来搞定，所以也让很多人望而却步。</p>
 <p><img loading="lazy" src="https://tunan.org/tupian/2023-11-08.png" alt="最终效果"  />
 </p>
@@ -197,7 +197,7 @@
       <link>https://tunan.org/4126.html</link>
       <pubDate>Fri, 27 May 2022 07:29:40 +0000</pubDate>
       <guid>https://tunan.org/4126.html</guid>
-      <description>随着云业务的蓬勃发展，很多独立博客的博主，个人网站站长都抛弃了曾经的虚拟主机而选择VPS，vps相对于虚拟主机来说，容量更大，可玩性更高；同</description>
+      <description>&lt;p&gt;随着云业务的蓬勃发展，很多独立博客的博主，个人网站站长都抛弃了曾经的虚拟主机而选择VPS，vps相对于虚拟主机来说，容量更大，可玩性更高；同时，要对个人的要求也随之更高。玩VPS首先遇到的就是系统的选择问题。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>随着云业务的蓬勃发展，很多独立博客的博主，个人网站站长都抛弃了曾经的虚拟主机而选择VPS，vps相对于虚拟主机来说，容量更大，可玩性更高；同时，要对个人的要求也随之更高。玩VPS首先遇到的就是系统的选择问题。</p>
 <h2 class="wp-block-heading" id="windows系统">Windows系统</h2>
 <p>大多数的站长第一次选择系统的时候都是喜欢用windows系统，毕竟熟悉，上手快。但是Windows服务器系统先天上占用资源比较大，系统不稳定，导致获得不了良好的用户体验。同样1H1G配置的vps，运行最新版本的debian11，然后装个博客系统，是一点问题都没有，但是你要是想要运行Windows服务器，只能选择低版本的了。所以，用了一段时间后，自然就淘汰不用了。</p>
@@ -224,7 +224,7 @@
       <link>https://tunan.org/3932.html</link>
       <pubDate>Mon, 01 Nov 2021 01:56:20 +0000</pubDate>
       <guid>https://tunan.org/3932.html</guid>
-      <description>安装统信uos后，一度用着挺不的，各方面都很满意，于是花了9.9激活了，结果激活后没多久就感觉不好了。原因是和deepin的毛病一样，莫名其</description>
+      <description>&lt;p&gt;安装统信uos后，一度用着挺不的，各方面都很满意，于是花了9.9激活了，结果激活后没多久就感觉不好了。原因是和deepin的毛病一样，莫名其妙的，桌面卡死，闪屏，或者直接黑屏了。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>安装统信uos后，一度用着挺不的，各方面都很满意，于是花了9.9激活了，结果激活后没多久就感觉不好了。原因是和deepin的毛病一样，莫名其妙的，桌面卡死，闪屏，或者直接黑屏了。</p>
 <p>幸亏遇到的时候，都是在用浏览器看一些网页的时候，真要是我在写程序的时候给我来这么一出，不得郁闷死。</p>
 <p>说实话，uos真的挺满意的，各方面做的真都不错，可惜稳定性是个硬伤。</p>

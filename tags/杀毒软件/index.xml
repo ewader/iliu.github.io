@@ -9,7 +9,7 @@
       <url>https://tunan.org/img/liujinsuiyue.jpg</url>
       <link>https://tunan.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 19 Apr 2023 01:29:27 +0000</lastBuildDate>
     <atom:link href="https://tunan.org/tags/%E6%9D%80%E6%AF%92%E8%BD%AF%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <link>https://tunan.org/4365.html</link>
       <pubDate>Wed, 19 Apr 2023 01:29:27 +0000</pubDate>
       <guid>https://tunan.org/4365.html</guid>
-      <description>现在电脑虽然普及，但是随着微软系统内置杀毒软件，以及PC的使用率下降等原因，导致杀毒软件的行业也不在如以前繁荣，很多知名的杀毒软件，要么慢慢</description>
+      <description>&lt;p&gt;现在电脑虽然普及，但是随着微软系统内置杀毒软件，以及PC的使用率下降等原因，导致杀毒软件的行业也不在如以前繁荣，很多知名的杀毒软件，要么慢慢淡去，要么被实力更大的厂商收购。今天，就来盘点一下，用电脑的这些年，折腾过的杀毒软件。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>现在电脑虽然普及，但是随着微软系统内置杀毒软件，以及PC的使用率下降等原因，导致杀毒软件的行业也不在如以前繁荣，很多知名的杀毒软件，要么慢慢淡去，要么被实力更大的厂商收购。今天，就来盘点一下，用电脑的这些年，折腾过的杀毒软件。</p>
 <p>对电脑病毒初次有印象是1999年，CIH病毒泛滥的那段时间。老师上课的时候，不经意间说他家的电脑中病毒了，从此对电脑病毒有了印象。第一次真正的遇到电脑病毒是2003年的时候，当时单位的电脑运行的很慢，网管给装上了瑞星杀毒软件，更新后，扫出来几千个病毒，当时把我给兴奋的不行。</p>
 <p>也正是如此，对瑞星杀毒软件就有了好印象，于是在买的第一台电脑里，安装的杀毒软件就是瑞星。<!-- raw HTML omitted --></p>
@@ -59,7 +59,7 @@
       <link>https://tunan.org/343.html</link>
       <pubDate>Sun, 15 Feb 2009 09:57:00 +0000</pubDate>
       <guid>https://tunan.org/343.html</guid>
-      <description>今天很不幸，电脑中招了，貌似是那个著名的中华吸血鬼病毒，这个病毒会在%systemroot%＼Tasks＼中释放“安装.bat”，在系统目录</description>
+      <description>&lt;p&gt;今天很不幸，电脑中招了，貌似是那个著名的中华吸血鬼病毒，这个病毒会在%systemroot%＼Tasks＼中释放“安装.bat”，在系统目录下新建目录ini，并且把自己命名为“ini.exe”放到目录ini里面。然后生成一个名字为“shit.vbs”的脚本来运行“ini.exe”。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>今天很不幸，电脑中招了，貌似是那个著名的中华吸血鬼病毒，这个病毒会在%systemroot%＼Tasks＼中释放“安装.bat”，在系统目录下新建目录ini，并且把自己命名为“ini.exe”放到目录ini里面。然后生成一个名字为“shit.vbs”的脚本来运行“ini.exe”。<!-- raw HTML omitted --></p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <p>遍历目录，在每一个目录下释放一个名字为“wsock32.dll”的病毒。通过修改注册表键值实现开机自动启动，为了躲避杀毒软件查杀，该病毒还会关闭破坏多种主流杀毒软件和安全工具。病毒会修改hosts文件，加入很多恶意网址，并且会屏蔽360安全卫士等网站，并且会关闭comodo，等等一些安全软件，真真是一个奶奶的鸡巴病毒。</p>
@@ -71,7 +71,7 @@
       <link>https://tunan.org/338.html</link>
       <pubDate>Thu, 05 Feb 2009 11:02:00 +0000</pubDate>
       <guid>https://tunan.org/338.html</guid>
-      <description>在论坛闲逛，看到一网友介绍墨者最新推出的墨者病毒追踪助手，说是可以有效追踪并根除杀毒软件无法清除的顽固木马病毒，同时还提供了墨者独创的病毒释</description>
+      <description>&lt;p&gt;在论坛闲逛，看到一网友介绍墨者最新推出的墨者病毒追踪助手，说是可以有效追踪并根除杀毒软件无法清除的顽固木马病毒，同时还提供了墨者独创的病毒释放关系图，它将成为用户杀毒的又一强力武器。说是最新支持了avast！，恰好本人在用，因此就来到了这家网站，结果让人看到一片很雷的报道！&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>在论坛闲逛，看到一网友介绍墨者最新推出的墨者病毒追踪助手，说是可以有效追踪并根除杀毒软件无法清除的顽固木马病毒，同时还提供了墨者独创的病毒释放关系图，它将成为用户杀毒的又一强力武器。说是最新支持了avast！，恰好本人在用，因此就来到了这家网站，结果让人看到一片很雷的报道！<!-- raw HTML omitted --></p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <p>“2008最新杀毒软件评测结果:趋势第一，诺顿第二，卡巴第三”很是大吃一惊，因为还从来没有听说趋势在测评中得过第一，然后看了看给的数据：</p>

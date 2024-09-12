@@ -9,7 +9,7 @@
       <url>https://tunan.org/img/liujinsuiyue.jpg</url>
       <link>https://tunan.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 03 Jan 2021 08:33:54 +0000</lastBuildDate>
     <atom:link href="https://tunan.org/tags/%E9%98%BF%E9%87%8C%E4%BA%91/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,8 @@
       <link>https://tunan.org/3545.html</link>
       <pubDate>Sun, 03 Jan 2021 08:33:54 +0000</pubDate>
       <guid>https://tunan.org/3545.html</guid>
-      <description>前两天，老刘想把在阿里云的一个域名转到name.com,后续可能还会把一些不需要备案的都转出去，其实转出的方法也很简单。 首先，登录阿里云的后</description>
+      <description>&lt;p&gt;前两天，老刘想把在阿里云的一个域名转到name.com,后续可能还会把一些不需要备案的都转出去，其实转出的方法也很简单。&lt;/p&gt;
+&lt;p&gt;首先，登录阿里云的后台，选择域名&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>前两天，老刘想把在阿里云的一个域名转到name.com,后续可能还会把一些不需要备案的都转出去，其实转出的方法也很简单。</p>
 <p>首先，登录阿里云的后台，选择域名<!-- raw HTML omitted --></p>
 <p><a href="https://tunan.org/wp-content/uploads/2021/01/c69fea34694a0d9.png"><!-- raw HTML omitted --></a><!-- raw HTML omitted --></p>
@@ -39,7 +40,9 @@
       <link>https://tunan.org/2526.html</link>
       <pubDate>Fri, 19 Jul 2019 09:12:00 +0000</pubDate>
       <guid>https://tunan.org/2526.html</guid>
-      <description>从小接受的教育就是要实践出真知，别人的意见可以参考，但是不能完全照搬。不能像小马过河里的小马一样。 这不，今天差点又犯了人云亦云的毛病。 事情的</description>
+      <description>&lt;p&gt;从小接受的教育就是要实践出真知，别人的意见可以参考，但是不能完全照搬。不能像小马过河里的小马一样。&lt;/p&gt;
+&lt;h2 id=&#34;这不今天差点又犯了人云亦云的毛病&#34;&gt;这不，今天差点又犯了人云亦云的毛病。&lt;/h2&gt;
+&lt;p&gt;事情的经过是这样的，先前想给这个域名备个案，由于国内的服务器使用的是景安的，所以，就把这个域名在景安提交了，结果过了两三天还是没有任何动静，联系客服以备案人数过多被打发了，后来才发现原来这家公司除了问题，已经半年多没有发工资了，所以果断的撤了备案，详情可以看以前的文章：&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>从小接受的教育就是要实践出真知，别人的意见可以参考，但是不能完全照搬。不能像小马过河里的小马一样。</p>
 <h2 id="这不今天差点又犯了人云亦云的毛病">这不，今天差点又犯了人云亦云的毛病。</h2>
 <p>事情的经过是这样的，先前想给这个域名备个案，由于国内的服务器使用的是景安的，所以，就把这个域名在景安提交了，结果过了两三天还是没有任何动静，联系客服以备案人数过多被打发了，后来才发现原来这家公司除了问题，已经半年多没有发工资了，所以果断的撤了备案，详情可以看以前的文章：</p>
@@ -62,7 +65,7 @@
       <link>https://tunan.org/2513.html</link>
       <pubDate>Mon, 15 Jul 2019 03:27:27 +0000</pubDate>
       <guid>https://tunan.org/2513.html</guid>
-      <description>昨天看到明月云服务上有篇关于使用ossfs备份网站的文章，看起来也不复杂，于是就试用了一下，试用后感觉真是体验不错，用这个后，妈妈再也不担心</description>
+      <description>&lt;p&gt;昨天看到明月云服务上有篇关于使用ossfs备份网站的文章，看起来也不复杂，于是就试用了一下，试用后感觉真是体验不错，用这个后，妈妈再也不担心网站数据丢失了。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>昨天看到明月云服务上有篇关于使用ossfs备份网站的文章，看起来也不复杂，于是就试用了一下，试用后感觉真是体验不错，用这个后，妈妈再也不担心网站数据丢失了。</p>
 <h2 id="给服务器安装ossfs">给服务器安装ossfs。</h2>
 <ul>

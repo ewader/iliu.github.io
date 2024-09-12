@@ -9,7 +9,7 @@
       <url>https://tunan.org/img/liujinsuiyue.jpg</url>
       <link>https://tunan.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 14 Oct 2020 07:03:04 +0000</lastBuildDate>
     <atom:link href="https://tunan.org/tags/%E7%A9%BA%E9%97%B4/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <link>https://tunan.org/3309.html</link>
       <pubDate>Wed, 14 Oct 2020 07:03:04 +0000</pubDate>
       <guid>https://tunan.org/3309.html</guid>
-      <description>前几天发现网站有点卡，特别是回复评论的时候，速度很慢。然后后台看了一下进程，发现WWW进程占用的CPU会一下一下的飙升，最高的时候达到了10</description>
+      <description>&lt;p&gt;前几天发现网站有点卡，特别是回复评论的时候，速度很慢。然后后台看了一下进程，发现WWW进程占用的CPU会一下一下的飙升，最高的时候达到了100%。但是根据流量的话，不可能是这样一个占用。这个博客也就日流量30IP左右，另外一个网站，日流量就是400-500之间。作为一台2核4g内存的vps,不可能达到这个资源占用水平。所以，打算重新整下生产环境。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>前几天发现网站有点卡，特别是回复评论的时候，速度很慢。然后后台看了一下进程，发现WWW进程占用的CPU会一下一下的飙升，最高的时候达到了100%。但是根据流量的话，不可能是这样一个占用。这个博客也就日流量30IP左右，另外一个网站，日流量就是400-500之间。作为一台2核4g内存的vps,不可能达到这个资源占用水平。所以，打算重新整下生产环境。</p>
 <p><a href="https://tunan.org/wp-content/uploads/2020/10/194686deba817bf.jpg"><!-- raw HTML omitted --></a></p>
 <p>昨天下午正好有点时间，把两个网站进行了备份，这个博客还好，打包之后只有100多兆，另外一个网站打包后竟然有了1G多，唉。所有，能不折腾还是少折腾啊。</p>

@@ -9,7 +9,7 @@
       <url>https://tunan.org/img/liujinsuiyue.jpg</url>
       <link>https://tunan.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 29 Nov 2020 00:53:36 +0000</lastBuildDate>
     <atom:link href="https://tunan.org/tags/%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <link>https://tunan.org/3430.html</link>
       <pubDate>Sun, 29 Nov 2020 00:53:36 +0000</pubDate>
       <guid>https://tunan.org/3430.html</guid>
-      <description>自从前两天体验了keepass的方便后，真的是对这个软件爱不释手了。但是在上一篇中，总体设置较为复杂，而且使用当中发现了诸多不方便之处。虽然</description>
+      <description>&lt;p&gt;自从前两天体验了keepass的方便后，真的是对这个软件爱不释手了。但是在上一篇中，总体设置较为复杂，而且使用当中发现了诸多不方便之处。虽然对于老刘来说，因为只是店和家同步，路由器里设置好zerotier就行了，但是后来想想，这个方案还有有点依赖硬件，没有普遍性，而且如果老刘不在局域网范围内的话，手机上使用也很不方便。熟悉这个软件之后发现，根本不需要如此复杂的设置，就能很容易的同步数据，如果是使用的白群晖的话，利用quickconnet,可以做到无论在何地，都能方便的使用群辉和keepass的便利之处。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>自从前两天体验了keepass的方便后，真的是对这个软件爱不释手了。但是在上一篇中，总体设置较为复杂，而且使用当中发现了诸多不方便之处。虽然对于老刘来说，因为只是店和家同步，路由器里设置好zerotier就行了，但是后来想想，这个方案还有有点依赖硬件，没有普遍性，而且如果老刘不在局域网范围内的话，手机上使用也很不方便。熟悉这个软件之后发现，根本不需要如此复杂的设置，就能很容易的同步数据，如果是使用的白群晖的话，利用quickconnet,可以做到无论在何地，都能方便的使用群辉和keepass的便利之处。</p>
 <h2 id="软件介绍">软件介绍</h2>
 <p>这次老刘介绍的软件叫KeePassXC,也是开源的作品，和keepass是一脉相承，可以说是keepass的分支吧，但是和前者相比，使用起来更方便。系统自带中文，不需要在装语言插件了，软件自带有对浏览器的支持，也不需要再装keepasshttp插件了，要知道，http这个插件作者已经好多年没有更新了，用起来确实没有keepassxc方便了。</p>
@@ -38,7 +38,7 @@
       <link>https://tunan.org/3413.html</link>
       <pubDate>Thu, 26 Nov 2020 09:10:34 +0000</pubDate>
       <guid>https://tunan.org/3413.html</guid>
-      <description>前两天看老张老师到处寻找管理密码的软件，老刘由于一直在使用Norton的密码管理，所以没有在意，后来发现Norton的服务器链接较慢，使用起</description>
+      <description>&lt;p&gt;前两天看老张老师到处寻找管理密码的软件，老刘由于一直在使用Norton的密码管理，所以没有在意，后来发现Norton的服务器链接较慢，使用起来还是有点不方便，恰好又看到老张在吐槽 某个软件（主要是老刘忘记名字了）使用的问题，于是老刘就想群晖上有没有一款密码管理的软件或者套件（自从老刘入白群晖后，找软件都先考虑这个），你还别说，真的搜出来了这样一个软件，不过不是安装在群晖上，而是把数据放在群晖上，其他的客户端都从群晖来读取数据，这个软件叫Keepass。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>前两天看老张老师到处寻找管理密码的软件，老刘由于一直在使用Norton的密码管理，所以没有在意，后来发现Norton的服务器链接较慢，使用起来还是有点不方便，恰好又看到老张在吐槽 某个软件（主要是老刘忘记名字了）使用的问题，于是老刘就想群晖上有没有一款密码管理的软件或者套件（自从老刘入白群晖后，找软件都先考虑这个），你还别说，真的搜出来了这样一个软件，不过不是安装在群晖上，而是把数据放在群晖上，其他的客户端都从群晖来读取数据，这个软件叫Keepass。</p>
 <h2 id="为什么选择keepass">为什么选择Keepass？</h2>
 <p>因为这是一款开源软件，任何人都能读它的源代码，支持所有的端，插件非常的丰富，只要你想到的功能，都有插件来实现。最重要的是免费，所以老刘毫不犹豫的上手了这个软件。</p>

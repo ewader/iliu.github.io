@@ -9,7 +9,7 @@
       <url>https://tunan.org/img/liujinsuiyue.jpg</url>
       <link>https://tunan.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 18 Jan 2020 10:14:33 +0000</lastBuildDate>
     <atom:link href="https://tunan.org/tags/php%E5%8D%87%E7%BA%A7/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <link>https://tunan.org/3022.html</link>
       <pubDate>Sat, 18 Jan 2020 10:14:33 +0000</pubDate>
       <guid>https://tunan.org/3022.html</guid>
-      <description>今天发现PHP7.3已经有7.3.13版本了，而我博客的版本还是7.3.10，所以，为了更好的安全性就决定把php升级到最新的版本。其实，o</description>
+      <description>&lt;p&gt;今天发现PHP7.3已经有7.3.13版本了，而我博客的版本还是7.3.10，所以，为了更好的安全性就决定把php升级到最新的版本。其实，oneinstack升级php版本很简单，因为已经自带了升级的程序，只需进入到oneinstack的目录，然后./upgrade，选择升级php的选项即可。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>今天发现PHP7.3已经有7.3.13版本了，而我博客的版本还是7.3.10，所以，为了更好的安全性就决定把php升级到最新的版本。其实，oneinstack升级php版本很简单，因为已经自带了升级的程序，只需进入到oneinstack的目录，然后./upgrade，选择升级php的选项即可。</p>
 <p><a href="https://tunan.org/wp-content/uploads/2020/01/7cdd46e35b66157.png"><!-- raw HTML omitted --></a></p>
 <p>升级一会就完成了，提示成功升级到了7.3.13。但是看了下php的版本还是7.3.10。看了下上面的代码，显示make: *** No rule to make target `install’. Stop.。虽然我也是菜鸟一枚，但是也看出是在编译的过程中出现了问题，导致编译不成功的。</p>

@@ -9,7 +9,7 @@
       <url>https://tunan.org/img/liujinsuiyue.jpg</url>
       <link>https://tunan.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 12 Jul 2019 09:29:00 +0000</lastBuildDate>
     <atom:link href="https://tunan.org/tags/dns%E8%AE%BE%E7%BD%AE/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <link>https://tunan.org/2260.html</link>
       <pubDate>Fri, 12 Jul 2019 09:29:00 +0000</pubDate>
       <guid>https://tunan.org/2260.html</guid>
-      <description>今天在重新安装服务器的生产环境的时候发现无法申请Let’s Encrypt的证书，根据我的经验，一般把服务器上的dns设置成Google的8.</description>
+      <description>&lt;p&gt;今天在重新安装服务器的生产环境的时候发现无法申请&lt;!-- raw HTML omitted --&gt;Let’s Encrypt的证书，根据我的经验，一般把服务器上的dns设置成Google的8.8.8.8就可以顺利的进行申请，可能是国内的dns解析&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;Let’s Encrypt域名不通畅所导致。所以，第一时间，笔者就想到把服务器的dns设置成Google的。搜索引擎查了一下，很多都是千篇一律的。根据他们的经验，总结了一下，以备以后使用。&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>今天在重新安装服务器的生产环境的时候发现无法申请<!-- raw HTML omitted -->Let’s Encrypt的证书，根据我的经验，一般把服务器上的dns设置成Google的8.8.8.8就可以顺利的进行申请，可能是国内的dns解析<!-- raw HTML omitted --><!-- raw HTML omitted -->Let’s Encrypt域名不通畅所导致。所以，第一时间，笔者就想到把服务器的dns设置成Google的。搜索引擎查了一下，很多都是千篇一律的。根据他们的经验，总结了一下，以备以后使用。<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <h2 id="首先重新启动一下span-stylebackground-color-rgb255-255-255-color-rgb51-51-51networkmanagerspan">首先，重新启动一下<!-- raw HTML omitted -->NetworkManager<!-- raw HTML omitted --></h2>

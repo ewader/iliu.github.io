@@ -9,7 +9,7 @@
       <url>https://tunan.org/img/liujinsuiyue.jpg</url>
       <link>https://tunan.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 02 Aug 2022 12:33:43 +0000</lastBuildDate>
     <atom:link href="https://tunan.org/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <link>https://tunan.org/4211.html</link>
       <pubDate>Tue, 02 Aug 2022 12:33:43 +0000</pubDate>
       <guid>https://tunan.org/4211.html</guid>
-      <description>前几天RSS不太正常访问了，这个RSS服务一直建立在甲骨文的一个免费小鸡上面。一直也挺稳定的，貌似是容器还是什么出了点问题，就访问不了。而且</description>
+      <description>&lt;p&gt;前几天RSS不太正常访问了，这个RSS服务一直建立在甲骨文的一个免费小鸡上面。一直也挺稳定的，貌似是容器还是什么出了点问题，就访问不了。而且用ssh客户端连接也连不上，但是能ping通，登录到后台，重新启动后，症状消失，但是时间不长又访问不了，所以，打算重新生成一个新的实例。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>前几天RSS不太正常访问了，这个RSS服务一直建立在甲骨文的一个免费小鸡上面。一直也挺稳定的，貌似是容器还是什么出了点问题，就访问不了。而且用ssh客户端连接也连不上，但是能ping通，登录到后台，重新启动后，症状消失，但是时间不长又访问不了，所以，打算重新生成一个新的实例。</p>
 <p>结果弄了之后，换了几个IP，都是能ping通，但是ssh连接不上，后来有一个IP好不容易连上了，一会的工夫，又掉了。不知道咋回事，安全网络了也都放行了。网上搜了一下，发现也有问类似问题的。</p>
 <p>所以，索性把RSS也安装的NAS上算了。装的过程略。结果完美</p>

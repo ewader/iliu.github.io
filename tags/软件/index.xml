@@ -9,7 +9,7 @@
       <url>https://tunan.org/img/liujinsuiyue.jpg</url>
       <link>https://tunan.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 06 Sep 2024 11:03:02 +0800</lastBuildDate>
     <atom:link href="https://tunan.org/tags/%E8%BD%AF%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <link>https://tunan.org/posts/good-input-method-on-mobile-phones/</link>
       <pubDate>Fri, 06 Sep 2024 11:03:02 +0800</pubDate>
       <guid>https://tunan.org/posts/good-input-method-on-mobile-phones/</guid>
-      <description>老刘在以前的文章里也曾提过选择输入法的过程，目前在电脑上的方案是使用小狼毫输入法加雾凇拼音的词库。并通过群晖drive实现几个PC之间个人词</description>
+      <description>&lt;p&gt;老刘在以前的文章里也曾提过选择输入法的过程，目前在电脑上的方案是使用&lt;code&gt;小狼毫输入法&lt;/code&gt;加&lt;code&gt;雾凇拼音&lt;/code&gt;的词库。并通过&lt;code&gt;群晖drive&lt;/code&gt;实现几个PC之间个人词库的同步，使用起来还算方便。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>老刘在以前的文章里也曾提过选择输入法的过程，目前在电脑上的方案是使用<code>小狼毫输入法</code>加<code>雾凇拼音</code>的词库。并通过<code>群晖drive</code>实现几个PC之间个人词库的同步，使用起来还算方便。</p>
 <p><img loading="lazy" src="https://ewader.s3.bitiful.net/blog/2024-09-06-10-44-13.png?no-wait%5c=on" alt=""  />
 </p>
@@ -41,7 +41,10 @@
       <link>https://tunan.org/posts/use-keepassxc-again-for-password-management/</link>
       <pubDate>Tue, 03 Sep 2024 13:46:02 +0800</pubDate>
       <guid>https://tunan.org/posts/use-keepassxc-again-for-password-management/</guid>
-      <description>前因 几年前，老刘最开始用软件进行密码管理的时候，用的就是keepassxc，只是后来有一段时间使用deepin，系统的内核比较低，不支持ke</description>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://memos.1169f1b9dbf57062d00029d30c7fde9e.r2.cloudflarestorage.com/assets/1725262863_2024-09-02-15-23-54.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Credential=67756f7e669d24ac11ea5c24ecfdb150%2F20240902%2Fauto%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20240902T074103Z&amp;amp;X-Amz-Expires=432000&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&amp;amp;X-Amz-Signature=f948507f71602f764fa24695ce3823930013949acc00d88a388e6b6d825ee8dd&#34; alt=&#34;&#34;  /&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;前因&#34;&gt;前因&lt;/h2&gt;
+&lt;p&gt;几年前，老刘最开始用软件进行密码管理的时候，用的就是keepassxc，只是后来有一段时间使用deepin，系统的内核比较低，不支持keepassxc的最新版，取舍之后，使用了Bitwarden，并部署在我nas里。这一用就是几年的时间过去了，只到最近遇到了问题。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><img loading="lazy" src="https://memos.1169f1b9dbf57062d00029d30c7fde9e.r2.cloudflarestorage.com/assets/1725262863_2024-09-02-15-23-54.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=67756f7e669d24ac11ea5c24ecfdb150%2F20240902%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20240902T074103Z&amp;X-Amz-Expires=432000&amp;X-Amz-SignedHeaders=host&amp;x-id=GetObject&amp;X-Amz-Signature=f948507f71602f764fa24695ce3823930013949acc00d88a388e6b6d825ee8dd" alt=""  />
 </p>
 <h2 id="前因">前因</h2>
@@ -65,7 +68,7 @@
       <link>https://tunan.org/posts/comparison-between-autonavi-map-and-baidu-map/</link>
       <pubDate>Sat, 24 Feb 2024 14:42:58 +0800</pubDate>
       <guid>https://tunan.org/posts/comparison-between-autonavi-map-and-baidu-map/</guid>
-      <description>在网上经常看到网友询问百度地图和高德地图如何选择，网上的文章要么太老，要么太老，要么太老，没有什么参考价值。为什么这么说呢，因为现在导航技术</description>
+      <description>&lt;p&gt;在网上经常看到网友询问百度地图和高德地图如何选择，网上的文章要么太老，要么太老，要么太老，没有什么参考价值。为什么这么说呢，因为现在导航技术加上北斗的支持，已经远远不是文章的那个年代所用的技术了。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>在网上经常看到网友询问百度地图和高德地图如何选择，网上的文章要么太老，要么太老，要么太老，没有什么参考价值。为什么这么说呢，因为现在导航技术加上北斗的支持，已经远远不是文章的那个年代所用的技术了。</p>
 <p>我之前也在博客群里问相关的问题，得到的答案一般都是推荐高德导航，理由是高德更纯粹，他是靠导航来吃饭的，如果导航做不好，他就无法很好的生存；相反百度是一个大杂烩，什么都搞，什么都搞不好。我也是一直在用高德导航。不过，前几天的一次试用百度导航，让我对百度地图的看法有些不少的改变。下面就详细的说一说：</p>
 <h2 id="两个导航的相同点">两个导航的相同点</h2>
@@ -83,7 +86,7 @@
       <link>https://tunan.org/3958.html</link>
       <pubDate>Thu, 23 Dec 2021 01:48:37 +0000</pubDate>
       <guid>https://tunan.org/3958.html</guid>
-      <description>RSS对于很多博主来说都不会陌生，很多博友还都有着使用RSS订阅的习惯。有很多朋友还专门在VPS用tiny tinyRSS或者freshrss</description>
+      <description>&lt;p&gt;RSS对于很多博主来说都不会陌生，很多博友还都有着使用RSS订阅的习惯。有很多朋友还专门在VPS用tiny tinyRSS或者freshrss程序自己设立一个服务器。老刘目前也是在甲骨文的免费小鸡上用着tinyrss。这段时间在折腾PYTHON，在ubuntu上折腾。偶然发现了这个程序，体验了一下，感觉还是很不错的，推荐给大家。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>RSS对于很多博主来说都不会陌生，很多博友还都有着使用RSS订阅的习惯。有很多朋友还专门在VPS用tiny tinyRSS或者freshrss程序自己设立一个服务器。老刘目前也是在甲骨文的免费小鸡上用着tinyrss。这段时间在折腾PYTHON，在ubuntu上折腾。偶然发现了这个程序，体验了一下，感觉还是很不错的，推荐给大家。</p>
 <p><strong>QuiteRSS</strong>。它是一款免费开源且跨平台的 <strong>RSS 阅读器</strong>客户端软件，支持 Windows、Mac、Linux 系统，界面并不算华丽，但是该有的功能都有了，比如：支持 RSS 内容的中文关键字搜索，支持标签归类功能，可以对文章加上星号或标签来收藏整理，标记未读已读，支持 OPML 导入导出、可以文件夹整理 Feed、内置浏览器 (可设置使用外部默认浏览器打开)、支持多标签页等，基本上能满足一切 RSS 的阅读需求。</p>
 <!-- raw HTML omitted -->

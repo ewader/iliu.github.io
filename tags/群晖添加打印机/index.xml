@@ -9,7 +9,7 @@
       <url>https://tunan.org/img/liujinsuiyue.jpg</url>
       <link>https://tunan.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 12 Jan 2020 03:05:02 +0000</lastBuildDate>
     <atom:link href="https://tunan.org/tags/%E7%BE%A4%E6%99%96%E6%B7%BB%E5%8A%A0%E6%89%93%E5%8D%B0%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <link>https://tunan.org/3005.html</link>
       <pubDate>Sun, 12 Jan 2020 03:05:02 +0000</pubDate>
       <guid>https://tunan.org/3005.html</guid>
-      <description>换成荣耀的这台笔记本之后，由于接口比较少，再加上一个笔记本插上usb数据线连上打印机，也不够方便，因为有时候笔记本还要拿回家用用。恰好再群晖</description>
+      <description>&lt;p&gt;换成荣耀的这台笔记本之后，由于接口比较少，再加上一个笔记本插上usb数据线连上打印机，也不够方便，因为有时候笔记本还要拿回家用用。恰好再群晖的网站上看到群晖也支持市面上大多数的打印机。于是动了把打印机和群晖相联的念头。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>换成荣耀的这台笔记本之后，由于接口比较少，再加上一个笔记本插上usb数据线连上打印机，也不够方便，因为有时候笔记本还要拿回家用用。恰好再群晖的网站上看到群晖也支持市面上大多数的打印机。于是动了把打印机和群晖相联的念头。</p>
 <p>实际上操作还是挺简单的，只要注意一些基本的坑不要踩就行。</p>
 <h2 id="首先把打印机和群晖相联">首先，把打印机和群晖相联</h2>

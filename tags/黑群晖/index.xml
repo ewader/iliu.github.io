@@ -9,7 +9,7 @@
       <url>https://tunan.org/img/liujinsuiyue.jpg</url>
       <link>https://tunan.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 04 Jun 2020 10:02:22 +0000</lastBuildDate>
     <atom:link href="https://tunan.org/tags/%E9%BB%91%E7%BE%A4%E6%99%96/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <link>https://tunan.org/3179.html</link>
       <pubDate>Thu, 04 Jun 2020 10:02:22 +0000</pubDate>
       <guid>https://tunan.org/3179.html</guid>
-      <description>去年的看老张弄NAS，也跟风弄了一个黑群晖，不过弄来之后就基本上处于闲置的状态。想不到用来做什么。存个图片，备份个文件，完事之后就关机，不然</description>
+      <description>&lt;p&gt;去年的看老张弄NAS，也跟风弄了一个黑群晖，不过弄来之后就基本上处于闲置的状态。想不到用来做什么。存个图片，备份个文件，完事之后就关机，不然开着也是开着，净浪费电。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>去年的看老张弄NAS，也跟风弄了一个黑群晖，不过弄来之后就基本上处于闲置的状态。想不到用来做什么。存个图片，备份个文件，完事之后就关机，不然开着也是开着，净浪费电。</p>
 <p>后来，把打印机和NAS连在一起，算是有了一个打印的功能，笔记本不用再插打印机的线了。但是还是感觉有些鸡肋。前两天阿里云OSS到期了，不准备再续费了，因为这个oss也是一个天坑啊，阿里云离有300来块钱的余额，都被这玩意给吃了。有苦说不出，谁让自己发现的晚了呢。</p>
 <p>另一个主做视光的网站，提供一些培训视频，培训资料的下载，一直没有合适的地方放置这些资源，灵机一动，发现NAS其实提供了分享文件的功能，这样，自己的这些资料只需存到nas了，对外提供下载就可以了。嗯嗯嗯，</p>
@@ -30,7 +30,7 @@
       <link>https://tunan.org/2860.html</link>
       <pubDate>Sat, 23 Nov 2019 02:51:56 +0000</pubDate>
       <guid>https://tunan.org/2860.html</guid>
-      <description>昨天拍了一些眼镜架的图片，可以却同步不到群晖的monents里面，有了群晖之后有些事情确实特别的方便，比如我拍的镜架的图片，想传到在线商城里</description>
+      <description>&lt;p&gt;昨天拍了一些眼镜架的图片，可以却同步不到群晖的monents里面，有了群晖之后有些事情确实特别的方便，比如我拍的镜架的图片，想传到在线商城里面，以前的做法是，选择图片，再微信里用文件传输助手传给自己，然后再在桌面的微信里下载下来，很不方便，有了群晖之后，就可以直接在客户端里同步到群晖里，我直接在里面修图，上传到网站即可。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>昨天拍了一些眼镜架的图片，可以却同步不到群晖的monents里面，有了群晖之后有些事情确实特别的方便，比如我拍的镜架的图片，想传到在线商城里面，以前的做法是，选择图片，再微信里用文件传输助手传给自己，然后再在桌面的微信里下载下来，很不方便，有了群晖之后，就可以直接在客户端里同步到群晖里，我直接在里面修图，上传到网站即可。</p>
 <p><a href="https://tunan.org/wp-content/uploads/2019/11/b030f7d30297555.jpg"><!-- raw HTML omitted --></a></p>
 <p>但是今天却同步出错了，用重启大法重启后，竟然显示数据损坏，让重新安装系统，但是下载了3617的pat后上传，却显示13错误，从网上查了一下，应该是和引导不匹配造成的。那就重新安装吧，听张波老师说，二合一的系统不稳定，这次打算直接把引导程序装到U盘里，暴风自带的ssd专门装套件，西数的那块2T的硬盘作为数据盘。</p>
@@ -47,7 +47,7 @@
       <link>https://tunan.org/2855.html</link>
       <pubDate>Mon, 18 Nov 2019 07:28:30 +0000</pubDate>
       <guid>https://tunan.org/2855.html</guid>
-      <description>双11前后，张波老师弄了个zhang.gg和zhang.bo的两个域名，看gg不贵，而且有www.liuday.com这个域名还没有被注册，</description>
+      <description>&lt;p&gt;双11前后，张波老师弄了个zhang.gg和zhang.bo的两个域名，看gg不贵，而且有www.liuday.com这个域名还没有被注册，于是也跟风注册了个个性域名。后来不知道怎么聊的聊到了NAS上面，本来觉得我对这个需求不是很大，后来张波老师说，他淘汰了他的蜗牛弄了个暴风，于是我就想用张老师淘汰下来的蜗牛玩一玩。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>双11前后，张波老师弄了个zhang.gg和zhang.bo的两个域名，看gg不贵，而且有www.liuday.com这个域名还没有被注册，于是也跟风注册了个个性域名。后来不知道怎么聊的聊到了NAS上面，本来觉得我对这个需求不是很大，后来张波老师说，他淘汰了他的蜗牛弄了个暴风，于是我就想用张老师淘汰下来的蜗牛玩一玩。</p>
 <p><a href="https://tunan.org/wp-content/uploads/2019/11/9b81db5da85a49e.png"><!-- raw HTML omitted --></a></p>
 <p>张波老师要送给我，我不同意，后来半卖半送的给了我，不巧的是，张老师再发货的时候，蜗牛的系统出问题了，于是也就不了了之了。在这期间也了解了下NAS这个玩意，觉得还是不错的，自己还是有一定的需求的，再加上媳妇手机的照片满了，特别是她备份到华为云，只有5g的免费空间，早就超了，现在50g的也超了，下一个就要买200g的，一年也不少钱，于是决定淘个这种垃圾玩，张老师建议直接上暴风，但是当时我已经下单买了蜗牛，当时想着弄个NAS加上个软路由，所以还买的卖家改的双网口版的。</p>

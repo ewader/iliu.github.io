@@ -9,7 +9,7 @@
       <url>https://tunan.org/img/liujinsuiyue.jpg</url>
       <link>https://tunan.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 27 May 2022 07:29:40 +0000</lastBuildDate>
     <atom:link href="https://tunan.org/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <link>https://tunan.org/4126.html</link>
       <pubDate>Fri, 27 May 2022 07:29:40 +0000</pubDate>
       <guid>https://tunan.org/4126.html</guid>
-      <description>随着云业务的蓬勃发展，很多独立博客的博主，个人网站站长都抛弃了曾经的虚拟主机而选择VPS，vps相对于虚拟主机来说，容量更大，可玩性更高；同</description>
+      <description>&lt;p&gt;随着云业务的蓬勃发展，很多独立博客的博主，个人网站站长都抛弃了曾经的虚拟主机而选择VPS，vps相对于虚拟主机来说，容量更大，可玩性更高；同时，要对个人的要求也随之更高。玩VPS首先遇到的就是系统的选择问题。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>随着云业务的蓬勃发展，很多独立博客的博主，个人网站站长都抛弃了曾经的虚拟主机而选择VPS，vps相对于虚拟主机来说，容量更大，可玩性更高；同时，要对个人的要求也随之更高。玩VPS首先遇到的就是系统的选择问题。</p>
 <h2 class="wp-block-heading" id="windows系统">Windows系统</h2>
 <p>大多数的站长第一次选择系统的时候都是喜欢用windows系统，毕竟熟悉，上手快。但是Windows服务器系统先天上占用资源比较大，系统不稳定，导致获得不了良好的用户体验。同样1H1G配置的vps，运行最新版本的debian11，然后装个博客系统，是一点问题都没有，但是你要是想要运行Windows服务器，只能选择低版本的了。所以，用了一段时间后，自然就淘汰不用了。</p>
@@ -45,7 +45,7 @@
       <link>https://tunan.org/4036.html</link>
       <pubDate>Mon, 17 Jan 2022 00:24:40 +0000</pubDate>
       <guid>https://tunan.org/4036.html</guid>
-      <description>昨天把开发python 的这个电脑也更换成manjaro这个系统了。经过一段时间的试用，感觉这个系统确实是一个使用起来舒服有稳定的系统。 man</description>
+      <description>&lt;p&gt;昨天把开发python 的这个电脑也更换成manjaro这个系统了。经过一段时间的试用，感觉这个系统确实是一个使用起来舒服有稳定的系统。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>昨天把开发python 的这个电脑也更换成manjaro这个系统了。经过一段时间的试用，感觉这个系统确实是一个使用起来舒服有稳定的系统。<!-- raw HTML omitted --></p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
 <h2 class="wp-block-heading" id="manjaro之于ubuntu">manjaro之于ubuntu</h2>
@@ -64,7 +64,7 @@
       <link>https://tunan.org/3951.html</link>
       <pubDate>Mon, 20 Dec 2021 09:20:38 +0000</pubDate>
       <guid>https://tunan.org/3951.html</guid>
-      <description>从很久以前UBUNTU就有一个毛病，有些电脑安装后，开机后屏幕的亮度会是最大。据说从很低的一个版本都有这样bug存在，但是不知道为啥官方一直</description>
+      <description>&lt;p&gt;从很久以前UBUNTU就有一个毛病，有些电脑安装后，开机后屏幕的亮度会是最大。据说从很低的一个版本都有这样bug存在，但是不知道为啥官方一直都没有修复。不过网上也有很多的教程，试用了一下，有些有用，有些没用，直到扒到了一个很老的文章，上面记载的一个很简单的方法，却解决了这样一个问题。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>从很久以前UBUNTU就有一个毛病，有些电脑安装后，开机后屏幕的亮度会是最大。据说从很低的一个版本都有这样bug存在，但是不知道为啥官方一直都没有修复。不过网上也有很多的教程，试用了一下，有些有用，有些没用，直到扒到了一个很老的文章，上面记载的一个很简单的方法，却解决了这样一个问题。</p>
 <p>别的不说，直接上代码，照着做就行了：</p>
 <!-- raw HTML omitted -->
@@ -87,7 +87,9 @@
       <link>https://tunan.org/158.html</link>
       <pubDate>Fri, 11 Dec 2009 06:48:00 +0000</pubDate>
       <guid>https://tunan.org/158.html</guid>
-      <description>今天从上午把ubuntu9.10装上后就一直为系统的分辨率的问题而寻找，真的让人很郁闷的是SIS的显卡，UBUNTU竟然不支持，其实这也不能</description>
+      <description>&lt;p&gt;今天从上午把ubuntu9.10装上后就一直为系统的分辨率的问题而寻找，真的让人很郁闷的是SIS的显卡，UBUNTU竟然不支持，其实这也不能怨UBUNTU，只能说SIS的人都是一帮SB，为什么不开发支持linux的驱动程序呢，没办法，到网上寻找，总算找到了解决的方案，我就纳闷了，为什么官方就不更新下这驱动呢。&lt;br&gt;
+其实，解决的方法也很简单，热心的linux爱好者已经开发出来了相关的驱动程序。而且是deb包的形式，直接双击安装就可以了，真是不明白不管新立得还是ubuntu的官方的源里面都没有这样的程序！&lt;br&gt;
+驱动程序我已经放在我的网盘里了，有需要的朋友可以点击下面的地址下载下载&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>今天从上午把ubuntu9.10装上后就一直为系统的分辨率的问题而寻找，真的让人很郁闷的是SIS的显卡，UBUNTU竟然不支持，其实这也不能怨UBUNTU，只能说SIS的人都是一帮SB，为什么不开发支持linux的驱动程序呢，没办法，到网上寻找，总算找到了解决的方案，我就纳闷了，为什么官方就不更新下这驱动呢。<br>
 其实，解决的方法也很简单，热心的linux爱好者已经开发出来了相关的驱动程序。而且是deb包的形式，直接双击安装就可以了，真是不明白不管新立得还是ubuntu的官方的源里面都没有这样的程序！<br>
 驱动程序我已经放在我的网盘里了，有需要的朋友可以点击下面的地址下载下载</p>

@@ -9,7 +9,7 @@
       <url>https://tunan.org/img/liujinsuiyue.jpg</url>
       <link>https://tunan.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 06 Apr 2023 09:42:54 +0000</lastBuildDate>
     <atom:link href="https://tunan.org/tags/lnmp/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <link>https://tunan.org/4344.html</link>
       <pubDate>Thu, 06 Apr 2023 09:42:54 +0000</pubDate>
       <guid>https://tunan.org/4344.html</guid>
-      <description>前几天在安装CRMEB商城的时候，由于不想再用宝塔了，先是选择oneinstack,但是会有一些问题，比如，用www用户无法在终端运行php</description>
+      <description>&lt;p&gt;前几天在安装CRMEB商城的时候，由于不想再用宝塔了，先是选择oneinstack,但是会有一些问题，比如，用www用户无法在终端运行php等。后来就使用军哥开发的lnmp。却又碰到了一个问题，那就是所有的文件夹，在设置玩读写权限后，依然之后public这个文件夹有读写的权限。这就很郁闷了，难道最终还必须上宝塔？&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>前几天在安装CRMEB商城的时候，由于不想再用宝塔了，先是选择oneinstack,但是会有一些问题，比如，用www用户无法在终端运行php等。后来就使用军哥开发的lnmp。却又碰到了一个问题，那就是所有的文件夹，在设置玩读写权限后，依然之后public这个文件夹有读写的权限。这就很郁闷了，难道最终还必须上宝塔？<!-- raw HTML omitted --></p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
 <p>网上搜了一些教程，都是解决不了问题的。后来还是在lnmp.org的网站上找到了答案，感觉应该是设置了防跨站引起的，但是当时我已经把 .user.ini给删除了，看了那篇文章后才发现，光删除文件还不够，还需要在nginx的配置中进行设置。不过一个最简单的方法是，lnmp的开发者已经想到了这个问题，可以用lnmp自带的小工具脚本来解决。</p>
@@ -34,7 +34,7 @@
       <link>https://tunan.org/2556.html</link>
       <pubDate>Sun, 28 Jul 2019 09:07:40 +0000</pubDate>
       <guid>https://tunan.org/2556.html</guid>
-      <description>试用了阿里云香港的轻量服务器之后，赶紧确实是一个不错的选择，因此，决定把网站给迁移过来。以前都是用的oneinstack安装包，这是因为军哥</description>
+      <description>&lt;p&gt;试用了阿里云香港的轻量服务器之后，赶紧确实是一个不错的选择，因此，决定把网站给迁移过来。以前都是用的oneinstack安装包，这是因为军哥的lnmp如果使用mysql5.6以上的话就必须要内存2G衣裳，这次用的就是2G的，所以还是使用lnmp一键安装包比较舒心。和one的区别是，one很多的事项在编译环境的时候已经弄好了，而lnmp需要西西的打磨，这也是一个好事，毕竟服务器不同，弄的规则也不尽一样。闲言少续，开始正体。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>试用了阿里云香港的轻量服务器之后，赶紧确实是一个不错的选择，因此，决定把网站给迁移过来。以前都是用的oneinstack安装包，这是因为军哥的lnmp如果使用mysql5.6以上的话就必须要内存2G衣裳，这次用的就是2G的，所以还是使用lnmp一键安装包比较舒心。和one的区别是，one很多的事项在编译环境的时候已经弄好了，而lnmp需要西西的打磨，这也是一个好事，毕竟服务器不同，弄的规则也不尽一样。闲言少续，开始正体。</p>
 <h2 id="lnmp开启waf的方法">lnmp开启waf的方法</h2>
 <p><!-- raw HTML omitted -->LNMP一键安装包从1.5开始增加了lua支持的选项，可以通过修改lnmp.conf中Enable_Nginx_Lua后的参数为 y 来启用lua，如果没安装lnmp，修改lnmp.conf后保存，安装完lnmp就是支持lua的，如果已经安装好lnmp，也是按前面修改lnmp.conf，然后lnmp安装包目录下 <!-- raw HTML omitted --><!-- raw HTML omitted -->./upgrade.sh nginx<!-- raw HTML omitted --><!-- raw HTML omitted --> 升级nginx，输入当前 <!-- raw HTML omitted --><!-- raw HTML omitted -->nginx<!-- raw HTML omitted --><!-- raw HTML omitted --> 版本号或更新的nginx版本号，升级完成就是支持lua的了。<!-- raw HTML omitted --></p>

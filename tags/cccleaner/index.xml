@@ -9,7 +9,7 @@
       <url>https://tunan.org/img/liujinsuiyue.jpg</url>
       <link>https://tunan.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 20 Aug 2021 09:59:10 +0000</lastBuildDate>
     <atom:link href="https://tunan.org/tags/cccleaner/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <link>https://tunan.org/3844.html</link>
       <pubDate>Fri, 20 Aug 2021 09:59:10 +0000</pubDate>
       <guid>https://tunan.org/3844.html</guid>
-      <description>老刘的笔记本电脑自从去年1月份买回来之后，一直也没怎么管过它，最近发现C盘的可用空间已经变的非常的小了，当时给分配了80G，现在只剩下不到1</description>
+      <description>&lt;p&gt;老刘的笔记本电脑自从去年1月份买回来之后，一直也没怎么管过它，最近发现C盘的可用空间已经变的非常的小了，当时给分配了80G，现在只剩下不到10g了，所以想清理一下电脑内的垃圾。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>老刘的笔记本电脑自从去年1月份买回来之后，一直也没怎么管过它，最近发现C盘的可用空间已经变的非常的小了，当时给分配了80G，现在只剩下不到10g了，所以想清理一下电脑内的垃圾。<!-- raw HTML omitted --></p>
 <p><a href="https://tunan.org/wp-content/uploads/2021/08/d7b01207fc8fa67.jpg"><!-- raw HTML omitted --></a><!-- raw HTML omitted --></p>
 <p>首先用系统自带的磁盘清理，差不都清理出去3g左右的垃圾。觉得还能有进一步的空间。国产的诸如360之类的本来就敬而远之，想到以前用的cccleaner这个软件还不错，虽然PRO版功能更全，但是清理一下电脑用免费版已经足够了。</p>

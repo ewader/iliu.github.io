@@ -9,7 +9,7 @@
       <url>https://tunan.org/img/liujinsuiyue.jpg</url>
       <link>https://tunan.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 30 Jul 2019 03:28:14 +0000</lastBuildDate>
     <atom:link href="https://tunan.org/tags/%E6%9D%82%E8%B0%88/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,11 @@
       <link>https://tunan.org/2574.html</link>
       <pubDate>Tue, 30 Jul 2019 03:28:14 +0000</pubDate>
       <guid>https://tunan.org/2574.html</guid>
-      <description>最近在折腾阿里云的这台轻量应用服务器，给它增加一些防护的措施，经过这几天的折腾，明白了一个道理，那就是老祖宗曾经总结出的来话： 尽信书不如无书</description>
+      <description>&lt;p&gt;最近在折腾阿里云的这台轻量应用服务器，给它增加一些防护的措施，经过这几天的折腾，明白了一个道理，那就是老祖宗曾经总结出的来话：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;尽信书不如无书&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;尤其是一些个所谓大佬发布的代码，还是要仔细的审查一下才能再用，因为有些代码是错的，还有少语句的，缺单词的，等等都不罕见。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>最近在折腾阿里云的这台轻量应用服务器，给它增加一些防护的措施，经过这几天的折腾，明白了一个道理，那就是老祖宗曾经总结出的来话：</p>
 <blockquote>
 <p>尽信书不如无书</p>

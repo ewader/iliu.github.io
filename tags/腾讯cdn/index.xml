@@ -9,7 +9,7 @@
       <url>https://tunan.org/img/liujinsuiyue.jpg</url>
       <link>https://tunan.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 24 Jul 2020 09:35:42 +0000</lastBuildDate>
     <atom:link href="https://tunan.org/tags/%E8%85%BE%E8%AE%AFcdn/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <link>https://tunan.org/3217.html</link>
       <pubDate>Fri, 24 Jul 2020 09:35:42 +0000</pubDate>
       <guid>https://tunan.org/3217.html</guid>
-      <description>2018年的时候，申请了腾讯的COS，CDN等，因为那时候cos有免费50g的额度，CDN每月10g的免费流量，COS倒是一直用着，cdn因</description>
+      <description>&lt;p&gt;2018年的时候，申请了腾讯的COS，CDN等，因为那时候cos有免费50g的额度，CDN每月10g的免费流量，COS倒是一直用着，cdn因为当时是景安的服务器，用上腾讯的cdn后，奇卡无比。找客服，发工单说是正常的。没有办法，只好放弃。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>2018年的时候，申请了腾讯的COS，CDN等，因为那时候cos有免费50g的额度，CDN每月10g的免费流量，COS倒是一直用着，cdn因为当时是景安的服务器，用上腾讯的cdn后，奇卡无比。找客服，发工单说是正常的。没有办法，只好放弃。</p>
 <p><a href="https://tunan.org/wp-content/uploads/2020/07/2a7bc86928e6c37.png"><!-- raw HTML omitted --></a></p>
 <p>一直闲置到现在，镜缘轩这个网站也一直使用的是云盾的cdn，这几天又忍不住了折腾镜缘轩官网，当时这个就是一个PC+微信小程序的商城，说实话，现在商城的PC端流量少的可怜，商城的销量基本都是小程序贡献的。所以，打算给改版一下，采用企业博客+微信小程序的模式。</p>

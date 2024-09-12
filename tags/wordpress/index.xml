@@ -9,7 +9,7 @@
       <url>https://tunan.org/img/liujinsuiyue.jpg</url>
       <link>https://tunan.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 30 Dec 2020 07:35:59 +0000</lastBuildDate>
     <atom:link href="https://tunan.org/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <link>https://tunan.org/3520.html</link>
       <pubDate>Wed, 30 Dec 2020 07:35:59 +0000</pubDate>
       <guid>https://tunan.org/3520.html</guid>
-      <description>试用了几天Cloudflare加racknerd的2h2g的小鸡，感觉还算差强人意。所以干脆就先把博客放这里算了，然后又突发奇想，其他的网站</description>
+      <description>&lt;p&gt;试用了几天Cloudflare加racknerd的2h2g的小鸡，感觉还算差强人意。所以干脆就先把博客放这里算了，然后又突发奇想，其他的网站一直用的lnmp，为啥博客就不能用用lamp呢？况且apache在稳定性以及对php的支持等方面都比nginx要好，nginx的优势是轻便和并发能力强。其实对小博客来说，基本没有啥区别。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>试用了几天Cloudflare加racknerd的2h2g的小鸡，感觉还算差强人意。所以干脆就先把博客放这里算了，然后又突发奇想，其他的网站一直用的lnmp，为啥博客就不能用用lamp呢？况且apache在稳定性以及对php的支持等方面都比nginx要好，nginx的优势是轻便和并发能力强。其实对小博客来说，基本没有啥区别。<!-- raw HTML omitted --></p>
 <p><a href="https://tunan.org/wp-content/uploads/2021/01/ac6793f3e79aaa6.jpg"><!-- raw HTML omitted --></a><!-- raw HTML omitted --></p>
 <p>说折腾就折腾，编译安装apache，发现需要重新设置虚拟主机，设置的时候发现，不像nginx的时候，脚本提示把http301到https，什么www域名301到一级域名等，这些提示都没有。也没有设置伪静态的选项。网上查了一下，发现是几行代码就可以搞定的事情。</p>
@@ -41,7 +41,7 @@
       <link>https://tunan.org/2552.html</link>
       <pubDate>Thu, 25 Jul 2019 00:54:22 +0000</pubDate>
       <guid>https://tunan.org/2552.html</guid>
-      <description>7b2主题默认是不会给评论者回复邮件的。也曾经问过作者，作者说如果实现这个的话，没几天邮箱就被封掉了，可能作者有作者的理由吧，但是不加的话，</description>
+      <description>&lt;p&gt;7b2主题默认是不会给评论者回复邮件的。也曾经问过作者，作者说如果实现这个的话，没几天邮箱就被封掉了，可能作者有作者的理由吧，但是不加的话，你回复了评论者，他也不知道你给他回复了，没有个反馈，十分的不方便。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>7b2主题默认是不会给评论者回复邮件的。也曾经问过作者，作者说如果实现这个的话，没几天邮箱就被封掉了，可能作者有作者的理由吧，但是不加的话，你回复了评论者，他也不知道你给他回复了，没有个反馈，十分的不方便。</p>
 <p>要想实现给评论者发邮件现在有两种方法，一种是代码实现，一种是插件实现。</p>
 <h2 id="代码实现回复评论给评论者发送邮件">代码实现回复评论给评论者发送邮件</h2>
@@ -63,7 +63,9 @@
       <link>https://tunan.org/1787.html</link>
       <pubDate>Wed, 19 Jun 2019 02:15:39 +0000</pubDate>
       <guid>https://tunan.org/1787.html</guid>
-      <description>今天打开邮箱，发现系统发的邮件。 嗨！您位于 https://tunan.org 的站点已被成功升级到WordPress 5.2.2。 您不需要再做什么。 要获取更多关于5.2.2版本</description>
+      <description>&lt;p&gt;今天打开邮箱，发现系统发的邮件。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;嗨！您位于 &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;https://tunan.org&#34;&gt;https://tunan.org&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; 的站点已被成功升级到WordPress 5.2.2。 您不需要再做什么。 要获取更多关于5.2.2版本的信息，请参阅“关于WordPress”屏幕： &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;https://tunan.org/wp-admin/about.php&#34;&gt;https://tunan.org/wp-admin/about.php&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; 如果您遇到了任何问题或需要帮助，WordPress.org支持论坛的志愿者或许能帮到您。 &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;http://zh-cn.forums.wordpress.org/&#34;&gt;http://zh-cn.forums.wordpress.org/&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; WordPress小组&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>今天打开邮箱，发现系统发的邮件。</p>
 <blockquote>
 <p><!-- raw HTML omitted -->嗨！您位于 <!-- raw HTML omitted --><!-- raw HTML omitted --><a href="https://tunan.org">https://tunan.org</a><!-- raw HTML omitted --><!-- raw HTML omitted --> 的站点已被成功升级到WordPress 5.2.2。 您不需要再做什么。 要获取更多关于5.2.2版本的信息，请参阅“关于WordPress”屏幕： <!-- raw HTML omitted --><!-- raw HTML omitted --><a href="https://tunan.org/wp-admin/about.php">https://tunan.org/wp-admin/about.php</a><!-- raw HTML omitted --><!-- raw HTML omitted --> 如果您遇到了任何问题或需要帮助，WordPress.org支持论坛的志愿者或许能帮到您。 <!-- raw HTML omitted --><!-- raw HTML omitted --><a href="http://zh-cn.forums.wordpress.org/">http://zh-cn.forums.wordpress.org/</a><!-- raw HTML omitted --><!-- raw HTML omitted --> WordPress小组<!-- raw HTML omitted --></p>
@@ -98,7 +100,7 @@
       <link>https://tunan.org/1636.html</link>
       <pubDate>Sat, 25 May 2019 07:00:29 +0000</pubDate>
       <guid>https://tunan.org/1636.html</guid>
-      <description>原来使用的是知更鸟的begin主题，和7b2的主题可以说是侧重点不同，不可否认的是7b2主题 在展示网页的方面和begin有一定的差距，比如b</description>
+      <description>&lt;p&gt;原来使用的是知更鸟的begin主题，和7b2的主题可以说是侧重点不同，不可否认的是7b2主题 在展示网页的方面和begin有一定的差距，比如begin里的一些小功能，其中百度是否收录就是其中的一项，让让人只管的文章用不要再次提交，不过要实现这个也不是一件很难的事情，之间在functions.php里添加一些代码就可以了。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>原来使用的是知更鸟的begin主题，和7b2的主题可以说是侧重点不同，不可否认的是7b2主题 在展示网页的方面和begin有一定的差距，比如begin里的一些小功能，其中百度是否收录就是其中的一项，让让人只管的文章用不要再次提交，不过要实现这个也不是一件很难的事情，之间在functions.php里添加一些代码就可以了。</p>
 <h2 id="添加百度是否收录的代码管理员可见">添加百度是否收录的代码（管理员可见）</h2>
 <!-- raw HTML omitted -->
@@ -114,7 +116,7 @@
       <link>https://tunan.org/950.html</link>
       <pubDate>Thu, 28 Oct 2010 06:03:38 +0000</pubDate>
       <guid>https://tunan.org/950.html</guid>
-      <description>以前本站有一篇文章，说是解决godaddy免费空间广告条对wordpress后台的影响，当时是采用第三方软件来实现的，但是到底有没有一种方法</description>
+      <description>&lt;p&gt;以前本站有一篇文章，说是解决godaddy免费空间广告条对wordpress后台的影响，当时是采用第三方软件来实现的，但是到底有没有一种方法，能让不借用第三方软件来实现呢，答案是肯定的。而且很简单，只需要三步。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>以前本站有一篇文章，说是解决godaddy免费空间广告条对wordpress后台的影响，当时是采用第三方软件来实现的，但是到底有没有一种方法，能让不借用第三方软件来实现呢，答案是肯定的。而且很简单，只需要三步。</p>
 <p><strong>1.隐藏前台页面广告</strong></p>
 <p>打开主题文件中的“style.css”文件，在文件最后加上如下这段代码：</p>
@@ -154,7 +156,7 @@
       <link>https://tunan.org/476.html</link>
       <pubDate>Tue, 19 Jan 2010 01:39:32 +0000</pubDate>
       <guid>https://tunan.org/476.html</guid>
-      <description>众所周知，godaddy免费空间带有一个很大的广告条，有广告也就罢了，不厚道的是通过增加的广告代码，使得很多源代码发生了错误，这是因为它的广</description>
+      <description>&lt;p&gt;        众所周知，godaddy免费空间带有一个很大的广告条，有广告也就罢了，不厚道的是通过增加的广告代码，使得很多源代码发生了错误，这是因为它的广告代码用了一连串的闭合标签，使你的程序人为的关闭，因此会出错，通过这一个月的摸索，现在把我的经验给大家说说，能让用这个空间的人多一些了解。我在上一篇&lt;!-- raw HTML omitted --&gt;完美解决godaddy免费空间广告条对WordPress后台的影响&lt;!-- raw HTML omitted --&gt;也说了一些，现在把其他的在给大家分享一下。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>        众所周知，godaddy免费空间带有一个很大的广告条，有广告也就罢了，不厚道的是通过增加的广告代码，使得很多源代码发生了错误，这是因为它的广告代码用了一连串的闭合标签，使你的程序人为的关闭，因此会出错，通过这一个月的摸索，现在把我的经验给大家说说，能让用这个空间的人多一些了解。我在上一篇<!-- raw HTML omitted -->完美解决godaddy免费空间广告条对WordPress后台的影响<!-- raw HTML omitted -->也说了一些，现在把其他的在给大家分享一下。<!-- raw HTML omitted --></p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <p>    首先，最完美的解决方案，把你的主机切换到windows主机，选择iis7和php5，这样安装WordPress后不会显示任何广告，据网友反映，装zblog也没有问题，貌似动态的网页不会显示广告，但是html的静态网页会显示广告。windows主机也支持伪静态化，通过web.config来实现。缺点是1、对中文tag支持的不好，2、安全性没有保证，不知道是不是会因为没有广告而被K账户。有网友表示向godaddy的客服询问，但是没有看到结果，有一个网友现在用了4个月的时间，现在还一直在用，所以用这个的话记得经常备份数据。</p>
@@ -168,7 +170,7 @@
       <link>https://tunan.org/407.html</link>
       <pubDate>Sat, 09 Jan 2010 02:19:28 +0000</pubDate>
       <guid>https://tunan.org/407.html</guid>
-      <description>原来用的linux的主机，在设定固定连接后不存在中文tag、中文分类找不到文章，但自从换了godaddy的windows主机以后，由于iis</description>
+      <description>&lt;p&gt;原来用的linux的主机，在设定固定连接后不存在中文tag、中文分类找不到文章，但自从换了godaddy的windows主机以后，由于iis7对php支持不够好的原因，中文的tag，中文的分类等，就会找不到文章，比如：&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>原来用的linux的主机，在设定固定连接后不存在中文tag、中文分类找不到文章，但自从换了godaddy的windows主机以后，由于iis7对php支持不够好的原因，中文的tag，中文的分类等，就会找不到文章，比如：</p>
 <p>正常，能访问日志：www.example.com/?tag=中文</p>
 <p>不正常，不能访问日志：www.example.com/tag/中文 ；这是系统的原因，没有办法，但我们为了seo还必须启用固定链接，怎么办呢？整了上午，总算找到了解决的方案，而且支持目前的2.9.1版本！<!-- raw HTML omitted --></p>
@@ -215,7 +217,7 @@
       <link>https://tunan.org/388.html</link>
       <pubDate>Sun, 03 Jan 2010 13:09:22 +0000</pubDate>
       <guid>https://tunan.org/388.html</guid>
-      <description>自从从godaddy搞了域名之后，一直对它提供的免费空间耿耿于怀，用也不是，不用又觉得可惜，难怪网上都说此空间是一个鸡肋。很多童鞋都把此空间</description>
+      <description>&lt;p&gt;自从从godaddy搞了域名之后，一直对它提供的免费空间耿耿于怀，用也不是，不用又觉得可惜，难怪网上都说此空间是一个鸡肋。很多童鞋都把此空间做为图床来使用，只是我觉得，这么好的一个空间，10g，300g的流量，仅仅用做图床未免有些浪费，加之目前手里也没有什么像样的空间，先前一直在有pipni的空间，各方面还比较满意，就是速度差了些，后来又觉得byethost的空间也不错，可惜IP老被封，加上本次的整顿事件，越发不敢用了，毕竟被墙以后，再找空间也麻烦。所以想来想去，还是就用godaddy提供的这个免费的空间吧。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>自从从godaddy搞了域名之后，一直对它提供的免费空间耿耿于怀，用也不是，不用又觉得可惜，难怪网上都说此空间是一个鸡肋。很多童鞋都把此空间做为图床来使用，只是我觉得，这么好的一个空间，10g，300g的流量，仅仅用做图床未免有些浪费，加之目前手里也没有什么像样的空间，先前一直在有pipni的空间，各方面还比较满意，就是速度差了些，后来又觉得byethost的空间也不错，可惜IP老被封，加上本次的整顿事件，越发不敢用了，毕竟被墙以后，再找空间也麻烦。所以想来想去，还是就用godaddy提供的这个免费的空间吧。<!-- raw HTML omitted --></p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <p>要说用你的免费空间给你做做广告也不是不可以，但是加载的代码对网页有影响。对wordpress而言，主要的问题是在后台，发文章，传文件等都受到很大的影响。目前迫切需要的是，1、把后台的广告给去掉，这个网上有很多的方法。我这里就不一一介绍了，只是说我的做法是<code>：在admin-footer.php加上</code></p>
@@ -229,7 +231,7 @@
       <link>https://tunan.org/304.html</link>
       <pubDate>Sat, 26 Dec 2009 08:05:16 +0000</pubDate>
       <guid>https://tunan.org/304.html</guid>
-      <description>昨天发掘出 Marcelle这个主题，很快为他的那种简约而清爽的界面而吸引，打算使用这个主题，简单的汉化以后，觉得还不错，不过今天就又发现了个</description>
+      <description>&lt;p&gt;昨天发掘出 Marcelle这个主题，很快为他的那种简约而清爽的界面而吸引，打算使用这个主题，简单的汉化以后，觉得还不错，不过今天就又发现了个更适合的，也就是目前所用的这个主题，所以就把昨天汉化的这个给分享出来吧，有喜欢的可以下载用用。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>昨天发掘出 Marcelle这个主题，很快为他的那种简约而清爽的界面而吸引，打算使用这个主题，简单的汉化以后，觉得还不错，不过今天就又发现了个更适合的，也就是目前所用的这个主题，所以就把昨天汉化的这个给分享出来吧，有喜欢的可以下载用用。<!-- raw HTML omitted --></p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <p>这款名叫Marcelle的Wordpress 主题整体配色采用了柔和的城砖青，简单又不失大气，稳重而宁静。</p>
@@ -250,7 +252,7 @@
       <link>https://tunan.org/196.html</link>
       <pubDate>Thu, 17 Dec 2009 02:20:09 +0000</pubDate>
       <guid>https://tunan.org/196.html</guid>
-      <description>WordPress默认的上传文件类型只有图片、视频、音频、其他媒体。但是如果我们想分享一些其他的文件比如文档等怎么办呢？其实Wordpres</description>
+      <description>&lt;p&gt;WordPress默认的上传文件类型只有图片、视频、音频、其他媒体。但是如果我们想分享一些其他的文件比如文档等怎么办呢？其实Wordpress其充满魅力的所在就在于开源，开源的好处是随时可以增加你想要的东西。下面就以增加一个.rar类型为例来说明如何增加Wordpress上传文件类型！&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>WordPress默认的上传文件类型只有图片、视频、音频、其他媒体。但是如果我们想分享一些其他的文件比如文档等怎么办呢？其实Wordpress其充满魅力的所在就在于开源，开源的好处是随时可以增加你想要的东西。下面就以增加一个.rar类型为例来说明如何增加Wordpress上传文件类型！<!-- raw HTML omitted --></p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <p>修改 wp-includes/functions.php</p>

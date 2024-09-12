@@ -9,7 +9,7 @@
       <url>https://tunan.org/img/liujinsuiyue.jpg</url>
       <link>https://tunan.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 14 Dec 2021 12:57:17 +0000</lastBuildDate>
     <atom:link href="https://tunan.org/tags/%E9%80%89%E6%8B%A9/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <link>https://tunan.org/3947.html</link>
       <pubDate>Tue, 14 Dec 2021 12:57:17 +0000</pubDate>
       <guid>https://tunan.org/3947.html</guid>
-      <description>看了一些python教程，很多都是在windows下进行的开发，由于老刘对linux还算是有一丢丢的了解，所以从开始就在ubuntu下进行。</description>
+      <description>&lt;p&gt;看了一些python教程，很多都是在windows下进行的开发，由于老刘对linux还算是有一丢丢的了解，所以从开始就在ubuntu下进行。前两天由于要在windows下用电脑，用完之后懒得重启，由于win10里也配置好了python的开发环境，所以就在win下写了一些代码。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>看了一些python教程，很多都是在windows下进行的开发，由于老刘对linux还算是有一丢丢的了解，所以从开始就在ubuntu下进行。前两天由于要在windows下用电脑，用完之后懒得重启，由于win10里也配置好了python的开发环境，所以就在win下写了一些代码。</p>
 <!-- raw HTML omitted -->
 <p>写完之后，浏览器打开显示404错误，小心的查代码，也找不到错误的地方，明明有这个网页的模板，就是显示404，折腾了1个多小时。也每发现错误之处。后来实在是烦躁，干脆不搞了。</p>

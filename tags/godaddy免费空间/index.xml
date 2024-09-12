@@ -9,7 +9,7 @@
       <url>https://tunan.org/img/liujinsuiyue.jpg</url>
       <link>https://tunan.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 28 Oct 2010 06:03:38 +0000</lastBuildDate>
     <atom:link href="https://tunan.org/tags/godaddy%E5%85%8D%E8%B4%B9%E7%A9%BA%E9%97%B4/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <link>https://tunan.org/950.html</link>
       <pubDate>Thu, 28 Oct 2010 06:03:38 +0000</pubDate>
       <guid>https://tunan.org/950.html</guid>
-      <description>以前本站有一篇文章，说是解决godaddy免费空间广告条对wordpress后台的影响，当时是采用第三方软件来实现的，但是到底有没有一种方法</description>
+      <description>&lt;p&gt;以前本站有一篇文章，说是解决godaddy免费空间广告条对wordpress后台的影响，当时是采用第三方软件来实现的，但是到底有没有一种方法，能让不借用第三方软件来实现呢，答案是肯定的。而且很简单，只需要三步。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>以前本站有一篇文章，说是解决godaddy免费空间广告条对wordpress后台的影响，当时是采用第三方软件来实现的，但是到底有没有一种方法，能让不借用第三方软件来实现呢，答案是肯定的。而且很简单，只需要三步。</p>
 <p><strong>1.隐藏前台页面广告</strong></p>
 <p>打开主题文件中的“style.css”文件，在文件最后加上如下这段代码：</p>
@@ -69,7 +69,7 @@
       <link>https://tunan.org/476.html</link>
       <pubDate>Tue, 19 Jan 2010 01:39:32 +0000</pubDate>
       <guid>https://tunan.org/476.html</guid>
-      <description>众所周知，godaddy免费空间带有一个很大的广告条，有广告也就罢了，不厚道的是通过增加的广告代码，使得很多源代码发生了错误，这是因为它的广</description>
+      <description>&lt;p&gt;        众所周知，godaddy免费空间带有一个很大的广告条，有广告也就罢了，不厚道的是通过增加的广告代码，使得很多源代码发生了错误，这是因为它的广告代码用了一连串的闭合标签，使你的程序人为的关闭，因此会出错，通过这一个月的摸索，现在把我的经验给大家说说，能让用这个空间的人多一些了解。我在上一篇&lt;!-- raw HTML omitted --&gt;完美解决godaddy免费空间广告条对WordPress后台的影响&lt;!-- raw HTML omitted --&gt;也说了一些，现在把其他的在给大家分享一下。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>        众所周知，godaddy免费空间带有一个很大的广告条，有广告也就罢了，不厚道的是通过增加的广告代码，使得很多源代码发生了错误，这是因为它的广告代码用了一连串的闭合标签，使你的程序人为的关闭，因此会出错，通过这一个月的摸索，现在把我的经验给大家说说，能让用这个空间的人多一些了解。我在上一篇<!-- raw HTML omitted -->完美解决godaddy免费空间广告条对WordPress后台的影响<!-- raw HTML omitted -->也说了一些，现在把其他的在给大家分享一下。<!-- raw HTML omitted --></p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <p>    首先，最完美的解决方案，把你的主机切换到windows主机，选择iis7和php5，这样安装WordPress后不会显示任何广告，据网友反映，装zblog也没有问题，貌似动态的网页不会显示广告，但是html的静态网页会显示广告。windows主机也支持伪静态化，通过web.config来实现。缺点是1、对中文tag支持的不好，2、安全性没有保证，不知道是不是会因为没有广告而被K账户。有网友表示向godaddy的客服询问，但是没有看到结果，有一个网友现在用了4个月的时间，现在还一直在用，所以用这个的话记得经常备份数据。</p>
@@ -83,7 +83,7 @@
       <link>https://tunan.org/388.html</link>
       <pubDate>Sun, 03 Jan 2010 13:09:22 +0000</pubDate>
       <guid>https://tunan.org/388.html</guid>
-      <description>自从从godaddy搞了域名之后，一直对它提供的免费空间耿耿于怀，用也不是，不用又觉得可惜，难怪网上都说此空间是一个鸡肋。很多童鞋都把此空间</description>
+      <description>&lt;p&gt;自从从godaddy搞了域名之后，一直对它提供的免费空间耿耿于怀，用也不是，不用又觉得可惜，难怪网上都说此空间是一个鸡肋。很多童鞋都把此空间做为图床来使用，只是我觉得，这么好的一个空间，10g，300g的流量，仅仅用做图床未免有些浪费，加之目前手里也没有什么像样的空间，先前一直在有pipni的空间，各方面还比较满意，就是速度差了些，后来又觉得byethost的空间也不错，可惜IP老被封，加上本次的整顿事件，越发不敢用了，毕竟被墙以后，再找空间也麻烦。所以想来想去，还是就用godaddy提供的这个免费的空间吧。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>自从从godaddy搞了域名之后，一直对它提供的免费空间耿耿于怀，用也不是，不用又觉得可惜，难怪网上都说此空间是一个鸡肋。很多童鞋都把此空间做为图床来使用，只是我觉得，这么好的一个空间，10g，300g的流量，仅仅用做图床未免有些浪费，加之目前手里也没有什么像样的空间，先前一直在有pipni的空间，各方面还比较满意，就是速度差了些，后来又觉得byethost的空间也不错，可惜IP老被封，加上本次的整顿事件，越发不敢用了，毕竟被墙以后，再找空间也麻烦。所以想来想去，还是就用godaddy提供的这个免费的空间吧。<!-- raw HTML omitted --></p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <p>要说用你的免费空间给你做做广告也不是不可以，但是加载的代码对网页有影响。对wordpress而言，主要的问题是在后台，发文章，传文件等都受到很大的影响。目前迫切需要的是，1、把后台的广告给去掉，这个网上有很多的方法。我这里就不一一介绍了，只是说我的做法是<code>：在admin-footer.php加上</code></p>

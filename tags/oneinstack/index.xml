@@ -9,7 +9,7 @@
       <url>https://tunan.org/img/liujinsuiyue.jpg</url>
       <link>https://tunan.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 27 Aug 2020 03:25:28 +0000</lastBuildDate>
     <atom:link href="https://tunan.org/tags/oneinstack/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <link>https://tunan.org/3240.html</link>
       <pubDate>Thu, 27 Aug 2020 03:25:28 +0000</pubDate>
       <guid>https://tunan.org/3240.html</guid>
-      <description>年初的时候，由于疫情的原因，在家没事就折腾服务器，由于看上了宝塔面板的FRP插件，所以把网站环境管理面板从oneinstack换成了宝塔面板</description>
+      <description>&lt;p&gt;年初的时候，由于疫情的原因，在家没事就折腾服务器，由于看上了宝塔面板的FRP插件，所以把网站环境管理面板从oneinstack换成了宝塔面板，不成想，前几天出现了这么一个低级的bug，所以，思来想去，不能为了一颗树苗而放弃整片森林，为了安全，还是把宝塔面板换掉为妙。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>年初的时候，由于疫情的原因，在家没事就折腾服务器，由于看上了宝塔面板的FRP插件，所以把网站环境管理面板从oneinstack换成了宝塔面板，不成想，前几天出现了这么一个低级的bug，所以，思来想去，不能为了一颗树苗而放弃整片森林，为了安全，还是把宝塔面板换掉为妙。</p>
 <p><a href="https://tunan.org/wp-content/uploads/2020/08/2d3a77705b1e397.jpg"><!-- raw HTML omitted --></a></p>
 <p>步骤很简单，无非是再宝塔里先把网站的文件夹打包，下载。然后备份数据文件下载。趁着这个机会，把服务器的系统也升级到centos8了。然后安装oneinstack，并编译环境，生成网站目录等等，都是基本的方法，不是本文重点要说的。我要说的是，这里面的坑。</p>

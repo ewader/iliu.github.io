@@ -9,7 +9,7 @@
       <url>https://tunan.org/img/liujinsuiyue.jpg</url>
       <link>https://tunan.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 15 May 2023 07:11:31 +0000</lastBuildDate>
     <atom:link href="https://tunan.org/tags/%E7%BE%A4%E6%99%96/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <link>https://tunan.org/4375.html</link>
       <pubDate>Mon, 15 May 2023 07:11:31 +0000</pubDate>
       <guid>https://tunan.org/4375.html</guid>
-      <description>我们在玩群晖的时候，往往不会满足于群晖只作为局域网里的一个服务器的存在，还想让它发挥更大的作用，让我们无论身在何地，都可以自由的访问我们群晖</description>
+      <description>&lt;p&gt;我们在玩群晖的时候，往往不会满足于群晖只作为局域网里的一个服务器的存在，还想让它发挥更大的作用，让我们无论身在何地，都可以自由的访问我们群晖里的东西，这就需要我们把群晖暴露在公网之中。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>我们在玩群晖的时候，往往不会满足于群晖只作为局域网里的一个服务器的存在，还想让它发挥更大的作用，让我们无论身在何地，都可以自由的访问我们群晖里的东西，这就需要我们把群晖暴露在公网之中。</p>
 <p>无论你是使用<a href="https://tunan.org/3997.html">ddns</a>，或者<a href="https://tunan.org/2918.html">frp</a>、<a href="https://tunan.org/3356.html">zerotier</a>内网穿透技术，只要是你把群晖暴露在公网上，那就要做好承担被网络上成千上万个扫描器扫描到的风险。扫描到不可怕，重要的扫描到也让它没有办法才行。这样，设置群晖的安全性设置就很必要了。</p>
 <h2 class="wp-block-heading" id="安全性设置">安全性设置</h2>
@@ -41,7 +41,7 @@
       <link>https://tunan.org/4154.html</link>
       <pubDate>Sun, 26 Jun 2022 03:50:24 +0000</pubDate>
       <guid>https://tunan.org/4154.html</guid>
-      <description>最初装上trilium上之后，发现web端新建笔记或者删除笔记等都不会刷新。也和中文博客群里的少君等人讨论过，也没有得出过什么结论，毕竟环境</description>
+      <description>&lt;p&gt;最初装上trilium上之后，发现web端新建笔记或者删除笔记等都不会刷新。也和中文博客群里的少君等人讨论过，也没有得出过什么结论，毕竟环境不同嘛，当时貌似也就我一个人遇到了这种情况。后来发现是网络有错误，是websocket链接错误。但是作为小白，也没有解决的办法。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>最初装上trilium上之后，发现web端新建笔记或者删除笔记等都不会刷新。也和中文博客群里的少君等人讨论过，也没有得出过什么结论，毕竟环境不同嘛，当时貌似也就我一个人遇到了这种情况。后来发现是网络有错误，是websocket链接错误。但是作为小白，也没有解决的办法。</p>
 <p>后来张波老师也遇到了，原来用域名反代访问就会出现这个问题。群里的大神给出了NGINX下的解决方案，可是我用的群晖啊，没有nginx肿么办？</p>
 <h3 class="wp-block-heading" id="其实用群晖的反代更简单">其实，用群晖的反代更简单</h3>
@@ -54,7 +54,7 @@
       <link>https://tunan.org/4131.html</link>
       <pubDate>Sat, 28 May 2022 08:23:06 +0000</pubDate>
       <guid>https://tunan.org/4131.html</guid>
-      <description>不管是做网站也好，写独立博客也好，最重要的事情之一就是备份。几乎每一个站长都经历过一不小心，多年的心血付之东流的经历。不过好在现在备份的方法</description>
+      <description>&lt;p&gt;不管是做网站也好，写独立博客也好，最重要的事情之一就是备份。几乎每一个站长都经历过一不小心，多年的心血付之东流的经历。不过好在现在备份的方法很多，可以备份到本地，可以备份的腾讯cos，阿里云等等。云储存也不贵，几十块钱甚至十几块可以用一年，唯一的缺点是这些云储存都收取上行流量费。也就是说，一旦你用到你的数据，想把数据下载到本地，是还要付出一些费用的。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>不管是做网站也好，写独立博客也好，最重要的事情之一就是备份。几乎每一个站长都经历过一不小心，多年的心血付之东流的经历。不过好在现在备份的方法很多，可以备份到本地，可以备份的腾讯cos，阿里云等等。云储存也不贵，几十块钱甚至十几块可以用一年，唯一的缺点是这些云储存都收取上行流量费。也就是说，一旦你用到你的数据，想把数据下载到本地，是还要付出一些费用的。</p>
 <p>折腾群晖的时候，发现群晖的Active Back for Business这个套件可以自动的同步服务器上的文件，非常的方便，于是拿来备份网站，还是非常的方便的。</p>
 <h2 class="wp-block-heading" id="安装active-back-for-business">安装Active Back for Business</h2>
@@ -80,7 +80,8 @@
       <link>https://tunan.org/3997.html</link>
       <pubDate>Thu, 30 Dec 2021 02:47:58 +0000</pubDate>
       <guid>https://tunan.org/3997.html</guid>
-      <description>我们知道，玩群晖，没有公网IP，可玩性就下降很多，虽然可以用QuickConnect，但是速度还是不太理想。其他的内网穿透啊，zerotie</description>
+      <description>&lt;p&gt;我们知道，玩群晖，没有公网IP，可玩性就下降很多，虽然可以用QuickConnect，但是速度还是不太理想。其他的&lt;a href=&#34;https://tunan.org/?s=%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F&#34;&gt;内网穿透&lt;/a&gt;啊，&lt;a href=&#34;https://tunan.org/?s=zero&#34;&gt;zerotier&lt;/a&gt;等等都有不方便之处。老刘也曾记下折腾这些东西的过程。有兴趣的可以参考。&lt;/p&gt;
+&lt;p&gt;今天老刘说的是DDNS，这个是需要公网IP的，而我们一说公网IP，其实都是说的IPV4的ip地址，这个目前全球都稀缺，移动是不用想了，联通和电信个别地方还能申请到。老刘一直用的是移动的宽带，以前用zerotier，后来就用qc来凑合着用。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>我们知道，玩群晖，没有公网IP，可玩性就下降很多，虽然可以用QuickConnect，但是速度还是不太理想。其他的<a href="https://tunan.org/?s=%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F">内网穿透</a>啊，<a href="https://tunan.org/?s=zero">zerotier</a>等等都有不方便之处。老刘也曾记下折腾这些东西的过程。有兴趣的可以参考。</p>
 <p>今天老刘说的是DDNS，这个是需要公网IP的，而我们一说公网IP，其实都是说的IPV4的ip地址，这个目前全球都稀缺，移动是不用想了，联通和电信个别地方还能申请到。老刘一直用的是移动的宽带，以前用zerotier，后来就用qc来凑合着用。</p>
 <p>这两天由于keepassxc的版本在uos非常的低，由于环境的原因也更新不到最新的版本，想在群晖上部署<strong>Bitwarden</strong>。所以，又动了ddns的心思，想到目前各大运营商IPV6已经普及了，而这个都是公网的IP，所以，理论上用ddns加IPV6是完全没有问题的。网上查了一下，也有很多的教程。正准备按教程操作的时候，发现根本就不必那么麻烦。</p>
@@ -100,7 +101,9 @@
       <link>https://tunan.org/3887.html</link>
       <pubDate>Mon, 06 Sep 2021 10:25:46 +0000</pubDate>
       <guid>https://tunan.org/3887.html</guid>
-      <description>今天上午来到店内，不知道是怎么回事，产生了一些惰性，看到群里小胡同学发的白嫖亚马逊12本的电子书，就去搞了一下，看了会书，也不想更新商城的产</description>
+      <description>&lt;p&gt;今天上午来到店内，不知道是怎么回事，产生了一些惰性，看到群里小胡同学发的白嫖亚马逊12本的电子书，就去搞了一下，看了会书，也不想更新商城的产品了，后来就想不行把群晖的系统升级一下吧。&lt;br&gt;
+&lt;!-- raw HTML omitted --&gt;&lt;br&gt;
+群晖6.0的的系统不能自动升级到7.0，需要进行手动升级。于是到群晖官网下载相应型号的固件，在群晖的管理面板里手动升级即可。升级也很顺利。升级后有点小坑。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>今天上午来到店内，不知道是怎么回事，产生了一些惰性，看到群里小胡同学发的白嫖亚马逊12本的电子书，就去搞了一下，看了会书，也不想更新商城的产品了，后来就想不行把群晖的系统升级一下吧。<br>
 <!-- raw HTML omitted --><br>
 群晖6.0的的系统不能自动升级到7.0，需要进行手动升级。于是到群晖官网下载相应型号的固件，在群晖的管理面板里手动升级即可。升级也很顺利。升级后有点小坑。</p>
@@ -117,7 +120,7 @@
       <link>https://tunan.org/3413.html</link>
       <pubDate>Thu, 26 Nov 2020 09:10:34 +0000</pubDate>
       <guid>https://tunan.org/3413.html</guid>
-      <description>前两天看老张老师到处寻找管理密码的软件，老刘由于一直在使用Norton的密码管理，所以没有在意，后来发现Norton的服务器链接较慢，使用起</description>
+      <description>&lt;p&gt;前两天看老张老师到处寻找管理密码的软件，老刘由于一直在使用Norton的密码管理，所以没有在意，后来发现Norton的服务器链接较慢，使用起来还是有点不方便，恰好又看到老张在吐槽 某个软件（主要是老刘忘记名字了）使用的问题，于是老刘就想群晖上有没有一款密码管理的软件或者套件（自从老刘入白群晖后，找软件都先考虑这个），你还别说，真的搜出来了这样一个软件，不过不是安装在群晖上，而是把数据放在群晖上，其他的客户端都从群晖来读取数据，这个软件叫Keepass。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>前两天看老张老师到处寻找管理密码的软件，老刘由于一直在使用Norton的密码管理，所以没有在意，后来发现Norton的服务器链接较慢，使用起来还是有点不方便，恰好又看到老张在吐槽 某个软件（主要是老刘忘记名字了）使用的问题，于是老刘就想群晖上有没有一款密码管理的软件或者套件（自从老刘入白群晖后，找软件都先考虑这个），你还别说，真的搜出来了这样一个软件，不过不是安装在群晖上，而是把数据放在群晖上，其他的客户端都从群晖来读取数据，这个软件叫Keepass。</p>
 <h2 id="为什么选择keepass">为什么选择Keepass？</h2>
 <p>因为这是一款开源软件，任何人都能读它的源代码，支持所有的端，插件非常的丰富，只要你想到的功能，都有插件来实现。最重要的是免费，所以老刘毫不犹豫的上手了这个软件。</p>
@@ -159,7 +162,11 @@
       <link>https://tunan.org/3340.html</link>
       <pubDate>Sun, 18 Oct 2020 07:27:04 +0000</pubDate>
       <guid>https://tunan.org/3340.html</guid>
-      <description>以前老刘写过《宝塔面板安装FRP内网穿透控制群晖》的文章，最近发现不知道是这个插件的作者不再开发了还是其他的原因，xeath开发的这个frp</description>
+      <description>&lt;p&gt;以前老刘写过《&lt;a href=&#34;https://tunan.org/2918.html&#34;&gt;宝塔面板安装FRP内网穿透控制群晖&lt;/a&gt;》的文章，最近发现不知道是这个插件的作者不再开发了还是其他的原因，xeath开发的这个frp服务器插件已经在商店里找不到了。其实，这也没什么，直接用代码的方式部署也是可以的。&lt;/p&gt;
+&lt;p&gt;SSH连接到VPS之后运行如下命令查看处理器架构，根据架构下载不同版本的frp&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;查看结果，如果是“X86_64“即可选择”amd64”，&lt;br&gt;
+运行如下命令，根据架构不同，选择相应版本并进行下载，然后登陆frp的官网地址，现在最新的应该是0.34.1，所以，运行如下的命令：&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>以前老刘写过《<a href="https://tunan.org/2918.html">宝塔面板安装FRP内网穿透控制群晖</a>》的文章，最近发现不知道是这个插件的作者不再开发了还是其他的原因，xeath开发的这个frp服务器插件已经在商店里找不到了。其实，这也没什么，直接用代码的方式部署也是可以的。</p>
 <p>SSH连接到VPS之后运行如下命令查看处理器架构，根据架构下载不同版本的frp</p>
 <!-- raw HTML omitted -->
@@ -198,7 +205,7 @@
       <link>https://tunan.org/3005.html</link>
       <pubDate>Sun, 12 Jan 2020 03:05:02 +0000</pubDate>
       <guid>https://tunan.org/3005.html</guid>
-      <description>换成荣耀的这台笔记本之后，由于接口比较少，再加上一个笔记本插上usb数据线连上打印机，也不够方便，因为有时候笔记本还要拿回家用用。恰好再群晖</description>
+      <description>&lt;p&gt;换成荣耀的这台笔记本之后，由于接口比较少，再加上一个笔记本插上usb数据线连上打印机，也不够方便，因为有时候笔记本还要拿回家用用。恰好再群晖的网站上看到群晖也支持市面上大多数的打印机。于是动了把打印机和群晖相联的念头。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>换成荣耀的这台笔记本之后，由于接口比较少，再加上一个笔记本插上usb数据线连上打印机，也不够方便，因为有时候笔记本还要拿回家用用。恰好再群晖的网站上看到群晖也支持市面上大多数的打印机。于是动了把打印机和群晖相联的念头。</p>
 <p>实际上操作还是挺简单的，只要注意一些基本的坑不要踩就行。</p>
 <h2 id="首先把打印机和群晖相联">首先，把打印机和群晖相联</h2>

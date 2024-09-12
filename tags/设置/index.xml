@@ -9,7 +9,7 @@
       <url>https://tunan.org/img/liujinsuiyue.jpg</url>
       <link>https://tunan.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 15 May 2023 07:11:31 +0000</lastBuildDate>
     <atom:link href="https://tunan.org/tags/%E8%AE%BE%E7%BD%AE/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <link>https://tunan.org/4375.html</link>
       <pubDate>Mon, 15 May 2023 07:11:31 +0000</pubDate>
       <guid>https://tunan.org/4375.html</guid>
-      <description>我们在玩群晖的时候，往往不会满足于群晖只作为局域网里的一个服务器的存在，还想让它发挥更大的作用，让我们无论身在何地，都可以自由的访问我们群晖</description>
+      <description>&lt;p&gt;我们在玩群晖的时候，往往不会满足于群晖只作为局域网里的一个服务器的存在，还想让它发挥更大的作用，让我们无论身在何地，都可以自由的访问我们群晖里的东西，这就需要我们把群晖暴露在公网之中。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>我们在玩群晖的时候，往往不会满足于群晖只作为局域网里的一个服务器的存在，还想让它发挥更大的作用，让我们无论身在何地，都可以自由的访问我们群晖里的东西，这就需要我们把群晖暴露在公网之中。</p>
 <p>无论你是使用<a href="https://tunan.org/3997.html">ddns</a>，或者<a href="https://tunan.org/2918.html">frp</a>、<a href="https://tunan.org/3356.html">zerotier</a>内网穿透技术，只要是你把群晖暴露在公网上，那就要做好承担被网络上成千上万个扫描器扫描到的风险。扫描到不可怕，重要的扫描到也让它没有办法才行。这样，设置群晖的安全性设置就很必要了。</p>
 <h2 class="wp-block-heading" id="安全性设置">安全性设置</h2>
@@ -41,7 +41,7 @@
       <link>https://tunan.org/4051.html</link>
       <pubDate>Sun, 30 Jan 2022 07:38:15 +0000</pubDate>
       <guid>https://tunan.org/4051.html</guid>
-      <description>昨天开车回家，路过一个路口的时候，明明觉得直行还有左传的灯都是亮的，但是转过去的时候，又抬眼看了一眼，发现左传的灯不亮。于是，对自己刚开始看</description>
+      <description>&lt;p&gt;昨天开车回家，路过一个路口的时候，明明觉得直行还有左传的灯都是亮的，但是转过去的时候，又抬眼看了一眼，发现左传的灯不亮。于是，对自己刚开始看到的产生了怀疑，不知道到底是有没有闯红灯。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>昨天开车回家，路过一个路口的时候，明明觉得直行还有左传的灯都是亮的，但是转过去的时候，又抬眼看了一眼，发现左传的灯不亮。于是，对自己刚开始看到的产生了怀疑，不知道到底是有没有闯红灯。</p>
 <p>然后就一路想这个事情，结果又一个路口右转，灯我转过去后才发现，竟然一个小路口，右转灯竟然是红的。我刚转过去才变绿的，这个路口的右转灯设置的也太奇葩了，一般情况，小路口都不设置右转灯，直接转就好了，大路口右转灯在刚开始直行的时候，是红灯，过一会就是绿灯了，这个路口奇葩在于，直行的时候，右转灯是红灯，直行是红灯的时候，右转才是绿灯。我的神。</p>
 <p>今天又路过这个路口，仔细看了一下，幸亏没有安装摄像头。不然得有多少人中招啊。</p>

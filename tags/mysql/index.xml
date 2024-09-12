@@ -9,7 +9,7 @@
       <url>https://tunan.org/img/liujinsuiyue.jpg</url>
       <link>https://tunan.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 18 Nov 2022 00:17:14 +0000</lastBuildDate>
     <atom:link href="https://tunan.org/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <link>https://tunan.org/4298.html</link>
       <pubDate>Fri, 18 Nov 2022 00:17:14 +0000</pubDate>
       <guid>https://tunan.org/4298.html</guid>
-      <description>Django默认使用的数据库是sqllit,如果是一个小项目的话是完全够用的，但是如果考虑到这个项目未来的话，一般都会换成Mysql或者其他</description>
+      <description>&lt;p&gt;Django默认使用的数据库是sqllit,如果是一个小项目的话是完全够用的，但是如果考虑到这个项目未来的话，一般都会换成Mysql或者其他更专业的数据库。本文，就来说说，在设置使用mysql的时候，遇到的一些问题及解决的方法。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Django默认使用的数据库是sqllit,如果是一个小项目的话是完全够用的，但是如果考虑到这个项目未来的话，一般都会换成Mysql或者其他更专业的数据库。本文，就来说说，在设置使用mysql的时候，遇到的一些问题及解决的方法。<!-- raw HTML omitted --></p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
 <h2 class="wp-block-heading" id="项目里设置引用mysql">项目里设置引用Mysql</h2>

@@ -9,7 +9,7 @@
       <url>https://tunan.org/img/liujinsuiyue.jpg</url>
       <link>https://tunan.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 25 Oct 2021 01:18:46 +0000</lastBuildDate>
     <atom:link href="https://tunan.org/tags/%E7%B3%BB%E7%BB%9F%E5%AF%B9%E5%90%A7/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <link>https://tunan.org/3925.html</link>
       <pubDate>Mon, 25 Oct 2021 01:18:46 +0000</pubDate>
       <guid>https://tunan.org/3925.html</guid>
-      <description>前一段张波老师说打算学习Python。正好老刘也有这么一个心思。之所以要学这个，是因为老刘一直以来都想弄一个客户查询系统。这个系统也很简单，</description>
+      <description>&lt;p&gt;前一段张波老师说打算学习Python。正好老刘也有这么一个心思。之所以要学这个，是因为老刘一直以来都想弄一个客户查询系统。这个系统也很简单，只要几个页面就能完成。实现的功能是，1、后台可以添加客户资料。2、前台通过用户名和手机号码可以查询各自的详情。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>前一段张波老师说打算学习Python。正好老刘也有这么一个心思。之所以要学这个，是因为老刘一直以来都想弄一个客户查询系统。这个系统也很简单，只要几个页面就能完成。实现的功能是，1、后台可以添加客户资料。2、前台通过用户名和手机号码可以查询各自的详情。</p>
 <p>曾经和一个搞开发的朋友聊起过这个玩意，他嫌太简单，让我自己弄。可惜我一直静不下心来做。</p>
 <p>要说编程老刘还算是有一丢丢的基础吧。毕竟在大学也是学过True Basic 以及C语言和VB的人。尽管当时学的也不咋地，就是混个学分。现在也早已经把知识还给了我的老师。</p>

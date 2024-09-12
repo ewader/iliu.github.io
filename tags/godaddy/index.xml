@@ -9,7 +9,7 @@
       <url>https://tunan.org/img/liujinsuiyue.jpg</url>
       <link>https://tunan.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 26 Jun 2019 00:38:56 +0000</lastBuildDate>
     <atom:link href="https://tunan.org/tags/godaddy/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,8 @@
       <link>https://tunan.org/2207.html</link>
       <pubDate>Wed, 26 Jun 2019 00:38:56 +0000</pubDate>
       <guid>https://tunan.org/2207.html</guid>
-      <description>不得不说微信现在的影响力是越来越大了，就连当年蹭退出中国风的godaddy现在也开始使用微信来管理域名了，今天打开邮箱就收到了如下的邮件。 用</description>
+      <description>&lt;p&gt;不得不说微信现在的影响力是越来越大了，就连当年蹭退出中国风的godaddy现在也开始使用微信来管理域名了，今天打开邮箱就收到了如下的邮件。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;用微信管理域名，接收通知并获取优惠。&lt;/strong&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>不得不说微信现在的影响力是越来越大了，就连当年蹭退出中国风的godaddy现在也开始使用微信来管理域名了，今天打开邮箱就收到了如下的邮件。</p>
 <p><strong>用微信管理域名，接收通知并获取优惠。</strong></p>
 <p> 立即扫码或微信搜索公众号“<!-- raw HTML omitted -->godaddy.com<!-- raw HTML omitted -->”关注我们，登录 GoDaddy 帐户在微信中使用各种管理功能，比以前更加方便。<!-- raw HTML omitted --></p>
@@ -41,7 +42,8 @@
       <link>https://tunan.org/515.html</link>
       <pubDate>Sun, 31 Jan 2010 08:01:10 +0000</pubDate>
       <guid>https://tunan.org/515.html</guid>
-      <description>杯具啊，1月29日的时候发现ip被和谐了，于是毫不犹豫的转系统。可能godaddy方面出现了问题，文件没有能转过来。神那！ 洗具的是，数据库内</description>
+      <description>&lt;p&gt;   杯具啊，1月29日的时候发现ip被和谐了，于是毫不犹豫的转系统。可能godaddy方面出现了问题，文件没有能转过来。神那！&lt;/p&gt;
+&lt;p&gt;  洗具的是，数据库内容还在，顺便bs下百度，也就1天不能访问，就给我拔毛了。郁闷死！&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>   杯具啊，1月29日的时候发现ip被和谐了，于是毫不犹豫的转系统。可能godaddy方面出现了问题，文件没有能转过来。神那！</p>
 <p>  洗具的是，数据库内容还在，顺便bs下百度，也就1天不能访问，就给我拔毛了。郁闷死！</p>
 ]]></content:encoded>
@@ -62,7 +64,7 @@
       <link>https://tunan.org/476.html</link>
       <pubDate>Tue, 19 Jan 2010 01:39:32 +0000</pubDate>
       <guid>https://tunan.org/476.html</guid>
-      <description>众所周知，godaddy免费空间带有一个很大的广告条，有广告也就罢了，不厚道的是通过增加的广告代码，使得很多源代码发生了错误，这是因为它的广</description>
+      <description>&lt;p&gt;        众所周知，godaddy免费空间带有一个很大的广告条，有广告也就罢了，不厚道的是通过增加的广告代码，使得很多源代码发生了错误，这是因为它的广告代码用了一连串的闭合标签，使你的程序人为的关闭，因此会出错，通过这一个月的摸索，现在把我的经验给大家说说，能让用这个空间的人多一些了解。我在上一篇&lt;!-- raw HTML omitted --&gt;完美解决godaddy免费空间广告条对WordPress后台的影响&lt;!-- raw HTML omitted --&gt;也说了一些，现在把其他的在给大家分享一下。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>        众所周知，godaddy免费空间带有一个很大的广告条，有广告也就罢了，不厚道的是通过增加的广告代码，使得很多源代码发生了错误，这是因为它的广告代码用了一连串的闭合标签，使你的程序人为的关闭，因此会出错，通过这一个月的摸索，现在把我的经验给大家说说，能让用这个空间的人多一些了解。我在上一篇<!-- raw HTML omitted -->完美解决godaddy免费空间广告条对WordPress后台的影响<!-- raw HTML omitted -->也说了一些，现在把其他的在给大家分享一下。<!-- raw HTML omitted --></p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <p>    首先，最完美的解决方案，把你的主机切换到windows主机，选择iis7和php5，这样安装WordPress后不会显示任何广告，据网友反映，装zblog也没有问题，貌似动态的网页不会显示广告，但是html的静态网页会显示广告。windows主机也支持伪静态化，通过web.config来实现。缺点是1、对中文tag支持的不好，2、安全性没有保证，不知道是不是会因为没有广告而被K账户。有网友表示向godaddy的客服询问，但是没有看到结果，有一个网友现在用了4个月的时间，现在还一直在用，所以用这个的话记得经常备份数据。</p>

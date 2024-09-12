@@ -9,7 +9,7 @@
       <url>https://tunan.org/img/liujinsuiyue.jpg</url>
       <link>https://tunan.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 06 Jun 2021 07:21:33 +0000</lastBuildDate>
     <atom:link href="https://tunan.org/tags/%E7%94%B2%E9%AA%A8%E6%96%87/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <link>https://tunan.org/3769.html</link>
       <pubDate>Sun, 06 Jun 2021 07:21:33 +0000</pubDate>
       <guid>https://tunan.org/3769.html</guid>
-      <description>前两天买的出去的东西过期了，看了下今年的价格基本上小80一年了，去年才60，感觉再买一年实在是划不来。正好去年的时候买的一台RN的VPS，自</description>
+      <description>&lt;p&gt;前两天买的出去的东西过期了，看了下今年的价格基本上小80一年了，去年才60，感觉再买一年实在是划不来。正好去年的时候买的一台RN的VPS，自己一直是用来搞RSS，看到张老师搞的出圈的东西还是挺稳定的，于是也想自己弄一弄。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>前两天买的出去的东西过期了，看了下今年的价格基本上小80一年了，去年才60，感觉再买一年实在是划不来。正好去年的时候买的一台RN的VPS，自己一直是用来搞RSS，看到张老师搞的出圈的东西还是挺稳定的，于是也想自己弄一弄。</p>
 <p>结果没有经验，只用了一天，VPS的IP被ban了。</p>
 <p>昨天看张老师白嫖甲骨文的VPS成功了，前几天自己也弄过，但是信用卡验证环节一直不对，所以就作罢了。昨天看张老师成功了，自己也就有了这个想法，结果一次性成功了。那就用甲骨文的这个东西搭建RSS吧。</p>

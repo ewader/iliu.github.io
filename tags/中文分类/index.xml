@@ -9,7 +9,7 @@
       <url>https://tunan.org/img/liujinsuiyue.jpg</url>
       <link>https://tunan.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 09 Jan 2010 02:19:28 +0000</lastBuildDate>
     <atom:link href="https://tunan.org/tags/%E4%B8%AD%E6%96%87%E5%88%86%E7%B1%BB/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <link>https://tunan.org/407.html</link>
       <pubDate>Sat, 09 Jan 2010 02:19:28 +0000</pubDate>
       <guid>https://tunan.org/407.html</guid>
-      <description>原来用的linux的主机，在设定固定连接后不存在中文tag、中文分类找不到文章，但自从换了godaddy的windows主机以后，由于iis</description>
+      <description>&lt;p&gt;原来用的linux的主机，在设定固定连接后不存在中文tag、中文分类找不到文章，但自从换了godaddy的windows主机以后，由于iis7对php支持不够好的原因，中文的tag，中文的分类等，就会找不到文章，比如：&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>原来用的linux的主机，在设定固定连接后不存在中文tag、中文分类找不到文章，但自从换了godaddy的windows主机以后，由于iis7对php支持不够好的原因，中文的tag，中文的分类等，就会找不到文章，比如：</p>
 <p>正常，能访问日志：www.example.com/?tag=中文</p>
 <p>不正常，不能访问日志：www.example.com/tag/中文 ；这是系统的原因，没有办法，但我们为了seo还必须启用固定链接，怎么办呢？整了上午，总算找到了解决的方案，而且支持目前的2.9.1版本！<!-- raw HTML omitted --></p>

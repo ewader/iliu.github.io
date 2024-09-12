@@ -9,7 +9,7 @@
       <url>https://tunan.org/img/liujinsuiyue.jpg</url>
       <link>https://tunan.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 07 Nov 2022 06:58:25 +0000</lastBuildDate>
     <atom:link href="https://tunan.org/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <link>https://tunan.org/4285.html</link>
       <pubDate>Mon, 07 Nov 2022 06:58:25 +0000</pubDate>
       <guid>https://tunan.org/4285.html</guid>
-      <description>上个月，由于服务器到期加上注销备案，需要找一个便宜、稳定的香港vps，大厂的云又太贵，看双十一也没有打算作活动的意思。后来看老张说起硅云的云</description>
+      <description>&lt;p&gt;上个月，由于服务器到期加上注销备案，需要找一个便宜、稳定的香港vps，大厂的云又太贵，看双十一也没有打算作活动的意思。后来看老张说起硅云的云服务器，十年之约用户的福利，2C4G一年380块钱，看了一下网上的介绍，说什么的都有。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>上个月，由于服务器到期加上注销备案，需要找一个便宜、稳定的香港vps，大厂的云又太贵，看双十一也没有打算作活动的意思。后来看老张说起硅云的云服务器，十年之约用户的福利，2C4G一年380块钱，看了一下网上的介绍，说什么的都有。</p>
 <p><strong><!-- raw HTML omitted -->PS，网上的评论还真不是空穴来风，妈的，我用了一个月，退款的时候扣了我130。说是按原价计费。套路真深！<!-- raw HTML omitted --></strong><!-- raw HTML omitted --></p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>
@@ -194,7 +194,7 @@
       <link>https://tunan.org/3309.html</link>
       <pubDate>Wed, 14 Oct 2020 07:03:04 +0000</pubDate>
       <guid>https://tunan.org/3309.html</guid>
-      <description>前几天发现网站有点卡，特别是回复评论的时候，速度很慢。然后后台看了一下进程，发现WWW进程占用的CPU会一下一下的飙升，最高的时候达到了10</description>
+      <description>&lt;p&gt;前几天发现网站有点卡，特别是回复评论的时候，速度很慢。然后后台看了一下进程，发现WWW进程占用的CPU会一下一下的飙升，最高的时候达到了100%。但是根据流量的话，不可能是这样一个占用。这个博客也就日流量30IP左右，另外一个网站，日流量就是400-500之间。作为一台2核4g内存的vps,不可能达到这个资源占用水平。所以，打算重新整下生产环境。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>前几天发现网站有点卡，特别是回复评论的时候，速度很慢。然后后台看了一下进程，发现WWW进程占用的CPU会一下一下的飙升，最高的时候达到了100%。但是根据流量的话，不可能是这样一个占用。这个博客也就日流量30IP左右，另外一个网站，日流量就是400-500之间。作为一台2核4g内存的vps,不可能达到这个资源占用水平。所以，打算重新整下生产环境。</p>
 <p><a href="https://tunan.org/wp-content/uploads/2020/10/194686deba817bf.jpg"><!-- raw HTML omitted --></a></p>
 <p>昨天下午正好有点时间，把两个网站进行了备份，这个博客还好，打包之后只有100多兆，另外一个网站打包后竟然有了1G多，唉。所有，能不折腾还是少折腾啊。</p>

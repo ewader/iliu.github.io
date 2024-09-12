@@ -9,7 +9,7 @@
       <url>https://tunan.org/img/liujinsuiyue.jpg</url>
       <link>https://tunan.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 11 Dec 2009 06:48:00 +0000</lastBuildDate>
     <atom:link href="https://tunan.org/tags/sis%E6%98%BE%E5%8D%A1/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,9 @@
       <link>https://tunan.org/158.html</link>
       <pubDate>Fri, 11 Dec 2009 06:48:00 +0000</pubDate>
       <guid>https://tunan.org/158.html</guid>
-      <description>今天从上午把ubuntu9.10装上后就一直为系统的分辨率的问题而寻找，真的让人很郁闷的是SIS的显卡，UBUNTU竟然不支持，其实这也不能</description>
+      <description>&lt;p&gt;今天从上午把ubuntu9.10装上后就一直为系统的分辨率的问题而寻找，真的让人很郁闷的是SIS的显卡，UBUNTU竟然不支持，其实这也不能怨UBUNTU，只能说SIS的人都是一帮SB，为什么不开发支持linux的驱动程序呢，没办法，到网上寻找，总算找到了解决的方案，我就纳闷了，为什么官方就不更新下这驱动呢。&lt;br&gt;
+其实，解决的方法也很简单，热心的linux爱好者已经开发出来了相关的驱动程序。而且是deb包的形式，直接双击安装就可以了，真是不明白不管新立得还是ubuntu的官方的源里面都没有这样的程序！&lt;br&gt;
+驱动程序我已经放在我的网盘里了，有需要的朋友可以点击下面的地址下载下载&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>今天从上午把ubuntu9.10装上后就一直为系统的分辨率的问题而寻找，真的让人很郁闷的是SIS的显卡，UBUNTU竟然不支持，其实这也不能怨UBUNTU，只能说SIS的人都是一帮SB，为什么不开发支持linux的驱动程序呢，没办法，到网上寻找，总算找到了解决的方案，我就纳闷了，为什么官方就不更新下这驱动呢。<br>
 其实，解决的方法也很简单，热心的linux爱好者已经开发出来了相关的驱动程序。而且是deb包的形式，直接双击安装就可以了，真是不明白不管新立得还是ubuntu的官方的源里面都没有这样的程序！<br>
 驱动程序我已经放在我的网盘里了，有需要的朋友可以点击下面的地址下载下载</p>

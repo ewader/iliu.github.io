@@ -9,7 +9,7 @@
       <url>https://tunan.org/img/liujinsuiyue.jpg</url>
       <link>https://tunan.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 24 Jul 2019 12:55:34 +0000</lastBuildDate>
     <atom:link href="https://tunan.org/tags/wps/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <link>https://tunan.org/2547.html</link>
       <pubDate>Wed, 24 Jul 2019 12:55:34 +0000</pubDate>
       <guid>https://tunan.org/2547.html</guid>
-      <description>WPS可以说算是金山的一款良心产品了，不过跋涉者已经好久没有用它了，原因无他，就是有太多的广告，不过这两天试用下来，由于每日可以签到送会员 ，</description>
+      <description>&lt;p&gt;WPS可以说算是金山的一款良心产品了，不过跋涉者已经好久没有用它了，原因无他，就是有太多的广告，不过这两天试用下来，由于每日可以签到送会员 ，会员是没有广告的，其他的功能用起来我也满意。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>WPS可以说算是金山的一款良心产品了，不过跋涉者已经好久没有用它了，原因无他，就是有太多的广告，不过这两天试用下来，由于每日可以签到送会员 ，会员是没有广告的，其他的功能用起来我也满意。</p>
 <h2 id="我与wps的渊源">我与WPS的渊源</h2>
 <p>WPS也算是跋涉者最早接触的电脑软件了，记得当年刚刚接触电脑的时候，还是DOS的时代，在学习的机房里，老师让输true basic的程序，但是我们都不愿意弄，于是自己乱搞，最后也不知道那位同学从老师那里知道了可以先进ucdos，然后输入WPS，就可以启动中文的输入，当时兴奋的不得了。</p>
@@ -45,7 +45,7 @@
       <link>https://tunan.org/462.html</link>
       <pubDate>Thu, 14 Jan 2010 13:09:10 +0000</pubDate>
       <guid>https://tunan.org/462.html</guid>
-      <description>在前面《介绍本人所用的软件–安全软件篇》给大家介绍了本人对安全软的理解，以及这么多年来使用电脑安全软件的心得体会，今天就给大家聊聊我所用的办</description>
+      <description>&lt;p&gt;在前面&lt;!-- raw HTML omitted --&gt;《介绍本人所用的软件–安全软件篇》&lt;!-- raw HTML omitted --&gt;给大家介绍了本人对安全软的理解，以及这么多年来使用电脑安全软件的心得体会，今天就给大家聊聊我所用的办公软件。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>在前面<!-- raw HTML omitted -->《介绍本人所用的软件–安全软件篇》<!-- raw HTML omitted -->给大家介绍了本人对安全软的理解，以及这么多年来使用电脑安全软件的心得体会，今天就给大家聊聊我所用的办公软件。</p>
 <p>第一次接触文字处理软件是在大一的时候，当时有计算机课，当然那时候的条件远远没有达到现在视窗的水平，还是处于dos的时代，要运行中文的软件必须先进入到ucdos下，然后执行wps的命令，出来的就是一个字处理的软件。当时调出来这个软件的目的是为了学习打字。因此，wps是我接触最早的文字软件了。</p>
 <p>可惜是，科技的日新月异使得视窗系统很快就取代了dos，铺天盖地而来的就是随windows一起打包的office，其简洁的操作界面，友好的人机对话方式，使得offic很快得到了普及，好在，从dos下出身的在用视窗系统不会有很大的难度，这也是我也能习惯用Linux的原因，毕竟Linux比起dos来已经很是简单明了了。</p>

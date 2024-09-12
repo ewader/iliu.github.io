@@ -9,7 +9,7 @@
       <url>https://tunan.org/img/liujinsuiyue.jpg</url>
       <link>https://tunan.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 26 May 2019 02:29:32 +0000</lastBuildDate>
     <atom:link href="https://tunan.org/tags/%E4%B8%8A%E6%B5%B7%E4%BA%91%E7%9B%BE/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <link>https://tunan.org/1653.html</link>
       <pubDate>Sun, 26 May 2019 02:29:32 +0000</pubDate>
       <guid>https://tunan.org/1653.html</guid>
-      <description>在免费cdn市场上，广大站长所使用的一般是又拍云cdn，360网站加速，上海云盾cdn以及腾讯云cdn，笔者以前也是使用的又拍云cdn,可能</description>
+      <description>&lt;p&gt;在免费cdn市场上，广大站长所使用的一般是又拍云cdn，360网站加速，上海云盾cdn以及腾讯云cdn，笔者以前也是使用的又拍云cdn,可能是和又拍云犯冲又或者是自己设置的不对，网站总出现这样那样的问题，后来把cdn转移到了上海云顿，网站之前的问题就没有再出现，于是就一直用了下去，当时觉得上海云盾的设置很简单，昨天，青山绿水博客的的博主小朋友问我上海云盾的设置小技巧，说实话真没有啥技巧，就把自己的一些设置弄出来，可能还有更多优化的地方，欢迎指正。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>在免费cdn市场上，广大站长所使用的一般是又拍云cdn，360网站加速，上海云盾cdn以及腾讯云cdn，笔者以前也是使用的又拍云cdn,可能是和又拍云犯冲又或者是自己设置的不对，网站总出现这样那样的问题，后来把cdn转移到了上海云顿，网站之前的问题就没有再出现，于是就一直用了下去，当时觉得上海云盾的设置很简单，昨天，青山绿水博客的的博主小朋友问我上海云盾的设置小技巧，说实话真没有啥技巧，就把自己的一些设置弄出来，可能还有更多优化的地方，欢迎指正。<!-- raw HTML omitted --></p>
 <p><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <p>云盾的cdn登录后的界面，我们一般也就用到cdn功能，可以在性能优化里面设置。上海云盾每月送50g的流量，对于小博客来说是够用了，不过送的流量并没有显示出来，和官方人员也有过沟通，他说你用就行了，反正每月50g。<!-- raw HTML omitted --></p>
