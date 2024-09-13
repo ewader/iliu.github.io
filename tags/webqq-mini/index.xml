@@ -25,9 +25,10 @@
 <p>按钮分别是从左到右讨论信息、好友信息、群信息、设置，界面非常的简洁，但是不知道是我网速的问题，还是别的原因，打开的速度非常的慢，打开后点那几个按钮，反映的时间也很长，大概还不成熟吧，和webqq还是不能同日而语，不过简洁的界面还是挺令人期待的。不喜欢广告的可以关注这个东东。</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

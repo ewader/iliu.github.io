@@ -63,9 +63,10 @@
 <p>人力资源管理无定式！</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

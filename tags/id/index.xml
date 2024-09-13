@@ -25,9 +25,10 @@
 <p>结果网页上手机号验证之后，还是要在IPAD上设置，转了一圈又回来了。倒是有一个不在本机设置的选择，选择了之后也24小时的验证时间。我算是服了！~</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

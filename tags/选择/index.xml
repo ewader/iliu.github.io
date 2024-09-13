@@ -26,9 +26,10 @@
 <p>后来看了一下windows的文档，在里面也明确的说，开发python的web程序，建议使用linux。所以，新手朋友如果想学python，不妨先熟悉一下LINUX。其实也是蛮简单的。磨刀不误砍柴工。</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

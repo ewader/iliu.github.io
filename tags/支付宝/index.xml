@@ -58,9 +58,10 @@
 <p>再次提醒各位，为了不必要的麻烦，医保和社保一定要记得缴费，这个一定不能懒！</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

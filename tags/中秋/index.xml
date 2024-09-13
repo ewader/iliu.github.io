@@ -36,9 +36,10 @@
       <content:encoded><![CDATA[<p>太爽了，可喜明天就要去上班了</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

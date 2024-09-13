@@ -60,9 +60,10 @@
 <p>有同学担心把数据存到NAS硬盘挂了，数据丢了怎么办，其实这真的不是一个需要担心的事情，NAS早就想到了这一点，两块或者更多额硬盘设置成raid模式就行。再怎么着，两块硬盘不会同时坏吧，就算同时坏了，keepass还支持同步到云盘，比如Google，DropBox等等都支持。</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

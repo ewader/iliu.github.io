@@ -506,9 +506,10 @@ Build english input mode yes</p>
 <p>2、点开高级往下拉，勾上”使用TLS 1.2″选项，或者点还原高级设置。</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

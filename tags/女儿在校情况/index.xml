@@ -31,9 +31,10 @@
 <p>这学期已经到了尾声，过程还差强人意。希望期末考试也能取得一个好的成绩。</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

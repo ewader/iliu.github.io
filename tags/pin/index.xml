@@ -30,9 +30,10 @@
 <p>我又搬回篱落的vps了，这几天腾讯香港轻量卡到爆了，我博客后台都登录不进去。网站打包后，下载速度只有几十k，看来怎么着还是国内的服务器比较稳定。既然腾讯的篱落的香港服务器都差不多，当然还是选更便宜一些的了</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

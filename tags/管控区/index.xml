@@ -55,9 +55,10 @@
 <p>不过，晚上又收到了好几条短信，说什么疑似同一轨迹云云，大数据也就一般吧。</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

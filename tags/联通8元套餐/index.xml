@@ -25,9 +25,10 @@
 <p>第二，营业厅，告诉营业员办理8元套餐，一顿操作之后，下个月就生效了</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

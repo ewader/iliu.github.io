@@ -30,9 +30,10 @@
 <p>以为驱动就这么废了，结果重启后，驱动是正常了，原来是软件里夹带了很多的私活，这就是现状！想想河南有多少企业，每个企业至少一个电脑要安装这个破玩意。</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

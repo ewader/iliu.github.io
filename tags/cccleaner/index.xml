@@ -30,9 +30,10 @@
 <p>网上查了一下，这货是有前科的。2017年9月，该软件还被发现感染恶意软件Floxif。</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

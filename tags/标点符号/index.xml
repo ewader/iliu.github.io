@@ -28,9 +28,10 @@
 <p>这样的结果就是，系统没有调用 <!-- raw HTML omitted -->swoole_loader72.so，所以，也就不奇怪会出现SWOOLEC Loader ext not installed的提示。这件小事告诉我，以后一定要更细心一些，考虑更全面一下，不要遇到不好解决的事情就推倒重来。<!-- raw HTML omitted --></p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

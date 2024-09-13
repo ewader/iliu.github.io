@@ -36,9 +36,10 @@
 <p>至此，输入法使用起来基本上和在win10的微软拼音方便程度差不多了。</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

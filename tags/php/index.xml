@@ -26,9 +26,10 @@
 <p>然后想出来了另外一个办法，本地下载，由于有梯子下载的很快，然后通过FTP传到src的目录了，然后运行./upgrade。编译了十来分钟，终于升级成功了。</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

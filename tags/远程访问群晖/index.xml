@@ -110,9 +110,10 @@
 <p><a href="https://tunan.org/wp-content/uploads/2019/11/cd5dfa5f7cf472d.zip">安卓客户端下载</a></p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

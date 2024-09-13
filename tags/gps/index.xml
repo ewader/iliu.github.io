@@ -27,9 +27,10 @@
 <p>等待一下，就出来公交车距离你有多远，下一趟车在什么地方，这样就有有目的的乘车了！<!-- raw HTML omitted --></p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

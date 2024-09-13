@@ -23,9 +23,10 @@
 <p>申请的时候点击导航栏上的圈子，然后点击右下方的申请链接，即可！</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

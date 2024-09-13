@@ -29,9 +29,10 @@
 <p>看了一下也不是孤立，原来老张的博客，收录了2w多，现在也只有两千多了</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

@@ -24,9 +24,10 @@
 <p><a href="http://v.youku.com/v">http://v.youku.com/v</a>_show/id_XMzE5NDgwMA==.html</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

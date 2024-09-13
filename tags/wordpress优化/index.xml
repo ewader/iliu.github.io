@@ -40,9 +40,10 @@
 <p>开通这个之后，确实打开网页的速度快了不少，在不用CDN的前提下，网页也能秒开了，有动手能力的同学不妨一试。</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

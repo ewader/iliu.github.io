@@ -59,9 +59,10 @@
 <p>晚餐四菜一汤加一个苹果，至于味道和分量，免费还要啥自行车啊。</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

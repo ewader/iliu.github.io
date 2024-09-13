@@ -28,9 +28,10 @@
 <p>猜测是文件还没有用2号服务器转移到20号，随后证明我的猜测是对的，5分钟后网站可以打开了，在这里赞一下这个空间商，顺便bs下国内的奸商</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

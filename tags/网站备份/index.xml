@@ -53,9 +53,10 @@
 <p>这样就完全不用担心重启服务器了，以后如果必须要重装服务器的话，重装玩后，可以直接通过内容把备份的东西拷贝回服务器，一般都是秒传。</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

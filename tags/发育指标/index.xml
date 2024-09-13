@@ -223,9 +223,10 @@
 <p>什锦猪肉菜末：猪肉15克，蕃茄、胡萝卜、葱头、柿子椒各10克。精盐和肉汤各适量。将猪肉、蕃茄、胡萝卜、葱头、柿子椒分别切成碎末。将猪肉末、胡萝卜末、柿子椒末、葱头末一起放入锅内，加肉汤煮软，再加入蕃茄末略煮。加入少许精盐，使其有淡淡的咸味</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

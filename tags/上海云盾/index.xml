@@ -36,9 +36,10 @@
 <p>这个配置项有搜索引擎优化，这里把你源站的ip地址输入里面即可，还有一些https的设置，值得说明的是上海云盾的ssl证书是在公共组件里上传和修改的。，高级配置本人就做了这两项，其他的都默认配置即可。</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

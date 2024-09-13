@@ -35,9 +35,10 @@
 <p>整个过程大概要5-7天，记得以前从godaddy转到阿里云的时候，是可以在godaddy确认的，确认后会立刻转移到新的域名商。但是阿里云没有这一个选项，只能等待默认生效为止。也别吐槽它们了，现在让转出的已经是进步了，记得很久以前转出的话还要开一堆的证明。</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

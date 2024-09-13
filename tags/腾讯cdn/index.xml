@@ -26,9 +26,10 @@
 <p>又看了看CDN，觉得不用有点可惜了，加上服务器也是腾讯家的，索性把cdn也从云盾转过来好了，结果发现腾讯自家的产品组合的一起，下过好的不得了，速度真是刚刚的。</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

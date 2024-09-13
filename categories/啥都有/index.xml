@@ -736,9 +736,10 @@
 <p>应该注意的是，即使考核人与被考核人口头沟通非常及时也不能取代书面沟通形式。相比口头沟通，书</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

@@ -66,9 +66,10 @@
 <p>2、没有在uwsgi.ini中配置虚拟环境目录，导致浏览器打开时候报502的错误。只需要正确的配置目录，是会正常启动的。</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

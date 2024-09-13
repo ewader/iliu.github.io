@@ -54,9 +54,10 @@
 <p>最后的最后，希望大家都勤备份，格局大一些，昨天老刘仔细研究了一下Windows下安装git和Hugo也没有想象的那么复杂，所以，有时候告别自己的舒适圈还是有必要的。目前网站数据放在其他的盘了，并同步到群晖，由群晖加密同步到百度网盘，应该是有一些保证了。</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

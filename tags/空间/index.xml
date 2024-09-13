@@ -40,9 +40,10 @@
 <p>刚开始给分配的机房是“EGI机房“宋”服务器”，PINGl了一下，我的天那，500多，觉得小张的空间也不过如此，只不过是炒作的厉害罢了。联系小张和蓝冰，两个人都不在线。ftp传的那个慢啊，觉得真的是不值。<br>
 下午的时候联系到了蓝冰，这姑娘不错，很热心。比一般的IDC的客服要强的不是半点，给调了一个机房，ping值210左右，而且还是和这个姑娘的博客同一个服务器。目前正在试用中，详细的报告等过几天在说！</p>]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

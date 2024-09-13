@@ -26,9 +26,10 @@
 <p>目前来看这个新的校园管理系统还是挺满意的，孩子进出校门都能识别出来，甚至戴着口罩也正确的识别了。如果功能使用费不贵的话，还是可以选择缴费的。</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

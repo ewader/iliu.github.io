@@ -33,9 +33,10 @@
 <p>重置系统，重新编译生产环境，从官网下载最新的程序包，把备份的网站文件只要里面的图片，其他的一概都不要了，希望是虚惊一场吧。</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

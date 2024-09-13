@@ -62,9 +62,10 @@
 <p>就比如我来说，我目前用群晖note来管理日程，因为这个软件的移动端做的很不错。写文章我用Obsidian,因为它更适合。读书、记笔记，一些零散的想法，我都扔到Logseq里，因为这是它最擅长的。至于Trilium，打算暂时放弃。</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

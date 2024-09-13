@@ -148,9 +148,10 @@
 <p>如果，你也在使用<!-- raw HTML omitted -->cloudFlare，不妨也可以用用这个玩意，毕竟充分利用外部资源是我等小博主追求的目标哈。<!-- raw HTML omitted --></p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

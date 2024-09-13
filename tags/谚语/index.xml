@@ -31,9 +31,10 @@
 <p>但是现在的气候明显是不同了，从天气预报上来看，感觉要往后拖半个月的时间才能差不多相符。</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

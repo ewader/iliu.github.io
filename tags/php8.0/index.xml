@@ -27,9 +27,10 @@
 <p>用了差不多两个来小时编译环境，重新部署博客后，也不知道是不是错觉，感觉速度有了那么一丢丢的快。难道php8.0这么牛叉？</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

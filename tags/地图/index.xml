@@ -31,9 +31,10 @@
 <p>当然，百度地图的不足就是高德的亮点，百度地图目前还没有诸如会车提醒这样的功能。</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

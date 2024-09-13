@@ -30,9 +30,10 @@
 <p>今天不但QQ再次收到作者的广告，邮件也受到了，哦，不对，是作者的活动通知。作者说，他以后会弄个开关，可以屏蔽。嗯，越来越像360了。</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

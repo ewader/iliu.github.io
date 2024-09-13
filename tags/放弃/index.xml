@@ -26,9 +26,10 @@
 <p>这么一看，不是我的内容有问题，而是百度小程序的吃相太难看了。闭环的厉害，生怕出去一丁点的流量。那么只好放弃了。</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

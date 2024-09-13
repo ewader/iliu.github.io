@@ -32,9 +32,10 @@
 <p>这位教授还写过关于聊斋的一些研究，翻了一下，感觉写的也是不错的。已经列入老刘看的书单了</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

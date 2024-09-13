@@ -56,9 +56,10 @@
 <p>如果你按照这个方法设置后，最后的输出总不正确，那么很大的可能是你的服务器的相应的端口没有开放，如果使用的是腾讯云或者阿里云的话，服务器的端口打开之后，还需要在这些云的控制端设置开放端口。</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

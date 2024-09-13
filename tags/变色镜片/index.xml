@@ -60,9 +60,10 @@
 <p>我是老刘，曾担任某眼科医院视光部主任，专注验光配镜十数年，只做低价的品牌眼镜。</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

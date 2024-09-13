@@ -36,9 +36,10 @@
 <p>service httpd restar重启apache，然后去日志里看看，已经获得了真实IP。前连天灰常记忆博友说在cloudflare里设置一下也能显示真实IP，但是老刘没有找到这个设置，只好继续在网站上改了，网站上改还有一个好处是，这个方法不仅限于cloudflare，别的CDN也是适用的</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

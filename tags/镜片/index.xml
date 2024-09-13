@@ -57,9 +57,10 @@
 <p>好了，今天就说这些吧，<strong><!-- raw HTML omitted -->我是老刘，从业10数载，只做低价的品牌眼镜。<!-- raw HTML omitted --></strong></p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

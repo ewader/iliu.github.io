@@ -73,9 +73,10 @@
 <p>用DOCKER就是方便，傻瓜式的装法，装完啥都不用设置，和以前ghost装电脑系统一样。看看甲骨文到底能坚持多久，稳定的话就可以把博客搬过去了！</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

@@ -73,9 +73,10 @@
 <p>第三、不管是windows主机还是linux主机都可以用离线发布的形式来发布，另外发现windows live writer也是不错的选择，还支持给图片加水印！</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

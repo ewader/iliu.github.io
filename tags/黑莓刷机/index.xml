@@ -30,9 +30,10 @@
 <p>特别提醒的是：1、刷完机后，请耐心等待手机重新启动，此时屏幕上的漏斗会一直在转，但是不要以为出了问题，不要乱动BB，甚至不要去拔电池，只需要等待大约10几分钟左右，就会进入系统界面了。2、刷机前最好把sim取出来，因为在漏斗转的时候，如果有人打电话进来，是会显示正常的，而你却不知道有人给你打电话，容易造成电话的漏接。</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

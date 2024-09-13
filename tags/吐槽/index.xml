@@ -67,9 +67,10 @@ qq群优势在于：没有其他信息刷屏，只在群内进行线上教学，
 用一个缙哥哥网站上一个测试服务器的代码测试了一下，景安的这台服务器不管是I/O还是在CPU跑分等方面都完爆阿里云的这台，但是却没有阿里云的香港的流畅，感觉景安的网络是没有人精心维护了。。。。</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>

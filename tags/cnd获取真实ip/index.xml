@@ -149,9 +149,10 @@
 <p>本文参考了<!-- raw HTML omitted -->落格部落<!-- raw HTML omitted -->及<!-- raw HTML omitted -->明月登楼博客<!-- raw HTML omitted -->里的一些文章，在此表示感谢</p>
 ]]></content:encoded>
     </item>
-  </channel>
-  <follow_challenge>
+    <follow_challenge>
     <feedId>41473172365329457</feedId>
     <userId>55160205417323520</userId>
 </follow_challenge>
+  </channel>
+ 
 </rss>
