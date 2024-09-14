@@ -243,9 +243,9 @@
     </item>
     <item>
       <title>利用cloudflare页面规则设置301永久跳转</title>
-      <link>https://tunan.org/use-cloudflare-page-rules-setup-301-permanent-redirect/</link>
+      <link>https://tunan.org/Use-cloudflare-page-rules-setup-301-permanent-redirect/</link>
       <pubDate>Fri, 01 Dec 2023 21:04:03 +0800</pubDate>
-      <guid>https://tunan.org/use-cloudflare-page-rules-setup-301-permanent-redirect/</guid>
+      <guid>https://tunan.org/Use-cloudflare-page-rules-setup-301-permanent-redirect/</guid>
       <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;细心的读者可能已经发现，图南博客的域名已经由&lt;code&gt;iliu.org&lt;/code&gt; 更换到&lt;code&gt;tunan.org&lt;/code&gt;。这个域名是之前在&lt;code&gt;Google&lt;/code&gt;注册的，可惜的80端口被墙了，也不知道是怎么实现强域名80端口的。于是在暂时使用一段时间后又使用了原域名。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h2 id="前言">前言</h2>
