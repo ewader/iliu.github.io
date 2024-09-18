@@ -912,6 +912,61 @@
 </div>]]></content:encoded>
     </item>
     <item>
+      <title>思源笔记群晖正确的部署方法</title>
+      <link>https://tunan.org/posts/4418/</link>
+      <pubDate>Sat, 01 Jul 2023 03:10:30 -0400</pubDate>
+      <guid>https://tunan.org/posts/4418/</guid>
+      <description>&lt;p&gt;最近一直在选择一款适合自己的笔记软件，最后确定在思源笔记和 Joplin 这两个上面，打算都长期试用一下，比较一下哪个更适合自己。&lt;/p&gt;
+&lt;h2 id=&#34;事情的起因事情的起因&#34;&gt;事情的起因&lt;a href=&#34;#%E4%BA%8B%E6%83%85%E7%9A%84%E8%B5%B7%E5%9B%A0&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;思源笔记的升级是相当频繁，可是我却发现，每次 docker 升级后，数据都没有保存下来，只能从备份的数据里重新导入，找了一下原因，发现是映射的文件夹里面没有数据，于是就重新安装，发现按照网上的教程，安装后 跑不起来。经过一番摸索，总算是搞定了！&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>最近一直在选择一款适合自己的笔记软件，最后确定在思源笔记和 Joplin 这两个上面，打算都长期试用一下，比较一下哪个更适合自己。</p>
+<h2 id="事情的起因事情的起因">事情的起因<a href="#%E4%BA%8B%E6%83%85%E7%9A%84%E8%B5%B7%E5%9B%A0">#</a></h2>
+<p>思源笔记的升级是相当频繁，可是我却发现，每次 docker 升级后，数据都没有保存下来，只能从备份的数据里重新导入，找了一下原因，发现是映射的文件夹里面没有数据，于是就重新安装，发现按照网上的教程，安装后 跑不起来。经过一番摸索，总算是搞定了！</p>
+<h2 id="成功部署的方法成功部署的方法">成功部署的方法<a href="#%E6%88%90%E5%8A%9F%E9%83%A8%E7%BD%B2%E7%9A%84%E6%96%B9%E6%B3%95">#</a></h2>
+<p>关于如何在群晖上设置Docker等基础的教程，老刘就不再重复制造数据垃圾了，既然你能找到我这里，说明你也已经查了很多的资料了，部署的方法都大同小异，只需要注意以下两点就可以了。</p>
+<p>经过博友@<a href="https://laomai.org">老麦</a>的反馈，直接在Container Manager上操作的话，第一步可以不做，直接用第二步即可。详细看下面老麦的评论。</p>
+<h3 id="第一在运行命令那处填写第一-在运行命令那处填写--">第一，在运行命令那处填写：<a href="#%E7%AC%AC%E4%B8%80-%E5%9C%A8%E8%BF%90%E8%A1%8C%E5%91%BD%E4%BB%A4%E9%82%A3%E5%A4%84%E5%A1%AB%E5%86%99--">#</a></h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"> &lt;s&gt;-workspace /siyuan/workspace/&lt;/s&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>经过老刘的测试，最新版的思源，只能用上面的这句命令，用别的任何命令，群晖的Docker都会重复重启。</p>
+<h3 id="第二储存空间设置">第二，储存空间设置</h3>
+<p><a href="#%E7%AC%AC%E4%BA%8C%E5%82%A8%E5%AD%98%E7%A9%BA%E9%97%B4%E8%AE%BE%E7%BD%AE-%E7%AC%AC%E4%BA%8C%E5%82%A8%E5%AD%98%E7%A9%BA%E9%97%B4%E8%AE%BE%E7%BD%AEfigure-classwp-block-image">#</a></p>
+<p><img loading="lazy" src="https://cdn.staticaly.com/gh/ewader/img@master/20230701/xxx.6lnukqsan6c0.webp" alt=""  />
+</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;span class=&#34;hljs-regexp&#34;&gt;/Home/&lt;/span&gt;siyuan
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>以前的教程都是把群晖本地的文件夹映射到Docker的siyuan目录，现在看了是不正确的，这个目录如果填写不正确，思源的Docker可以正常启动，但是升级后，数据都会全部删除，因为没有正确的映射到本地文件夹。<!-- raw HTML omitted -->这样就可以运行起来了。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>近视人群夏季佩戴太阳镜的几种方案</title>
+      <link>https://tunan.org/4408.html</link>
+      <pubDate>Wed, 24 May 2023 02:55:30 -0400</pubDate>
+      <guid>https://tunan.org/4408.html</guid>
+      <description>&lt;p&gt;夏天到了，阳光明媚，很多人都想佩戴太阳镜保护眼睛。但是对于近视人群来说，普通的太阳镜无法满足需求，那么应该怎样选择和佩戴太阳镜呢？下面为大家介绍几种方案。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>夏天到了，阳光明媚，很多人都想佩戴太阳镜保护眼睛。但是对于近视人群来说，普通的太阳镜无法满足需求，那么应该怎样选择和佩戴太阳镜呢？下面为大家介绍几种方案。</p>
+<h2 id="隐形眼镜非处方太阳镜隐形眼镜非处方太阳镜">隐形眼镜+非处方太阳镜<a href="#%E9%9A%90%E5%BD%A2%E7%9C%BC%E9%95%9C%E9%9D%9E%E5%A4%84%E6%96%B9%E5%A4%AA%E9%98%B3%E9%95%9C">#</a></h2>
+<p>对于已经佩戴隐形眼镜的近视人群来说，可以直接选择佩戴非处方太阳镜。老刘上大学的时候就曾动过这个念头，不过一直到现在也没有实施，原因是<strong>佩戴隐形眼镜比较麻烦，虽然现在有日抛型的隐形，但是使用的成本较高</strong>。</p>
+<h2 id="定制近视太阳镜定制近视太阳镜">定制近视太阳镜<a href="#%E5%AE%9A%E5%88%B6%E8%BF%91%E8%A7%86%E5%A4%AA%E9%98%B3%E9%95%9C">#</a></h2>
+<p>对于需要矫正近视的人群来说，虽然不能佩戴普通的太阳镜，但是目前可以选择定制近视太阳镜，在验光后由专业的配镜人员根据具体的近视情况以及太阳镜材质、颜色进行定制。定制近视太阳镜不仅能够满足夏天佩戴太阳镜的需求，还能够矫正视力，对眼健康有很好的保护作用。<!-- raw HTML omitted -->但是这个方案对<strong>高度近视的朋友不是很友好。做出来的眼镜很重。所以，推荐给中低度近视人群使用</strong>。</p>
+<h2 id="变色镜片变色镜片">变色镜片<a href="#%E5%8F%98%E8%89%B2%E9%95%9C%E7%89%87">#</a></h2>
+<p>变色镜片可以根据环境光线强度自动调节镜片颜色，能够有效地抵挡眩光和强光的刺激，使得视线更加舒适，同时具有紫外线防护作用。好的变色镜片可是实现秒变色，褪色速度也很快。对于，重高度近视的人群来说，是一个非常理想的选择。<!-- raw HTML omitted -->但是变色镜片收到环境的影响比较大，比如说温度和紫外线的强度，在同等的条件下，<strong>温度越高，变色的效果会越差</strong>。同时也会收到紫外线的影响，有时候虽然光学很亮，但是紫外线很少的情况下，镜片的变色效果也不好，比如车内。好在目前也开发出来了车内变色镜片，但是价格较贵。</p>
+<p>总之，选择合适的太阳镜对于近视人群的眼健康至关重要。尽管现在市面上有很多太阳镜可以选择，但是一定要根据自身的近视情况、角膜曲率等因素进行选择。建议大家带领着验光单，到专业的配镜机构进行购买和定制。</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>如何使用git并把代码提交到GitHub</title>
       <link>https://tunan.org/posts/how-to-use-git/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
