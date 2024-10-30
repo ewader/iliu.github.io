@@ -11,8 +11,64 @@
     </image>
     <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 06 Sep 2024 11:03:02 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 30 Oct 2024 03:48:47 -0400</lastBuildDate>
     <atom:link href="https://tunan.org/tags/%E8%BD%AF%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>在群晖里安装简单的笔记软件flatnotes</title>
+      <link>https://tunan.org/posts/install-the-simple-note-taking-software-flatnotes-on-synology/</link>
+      <pubDate>Wed, 30 Oct 2024 03:48:47 -0400</pubDate>
+      <guid>https://tunan.org/posts/install-the-simple-note-taking-software-flatnotes-on-synology/</guid>
+      <description>&lt;p&gt;老刘这一段时间以来都是使用&lt;code&gt;VSCode&lt;/code&gt;来写博客，主要是因为&lt;code&gt;anytype&lt;/code&gt;对长文的支持一般，另外对&lt;code&gt;markdown&lt;/code&gt;语法支持的也不够，比如表格功能就没法用&lt;code&gt;markdown&lt;/code&gt;语法。但是&lt;code&gt;VSCode&lt;/code&gt;有一个缺点是同步不方便，而我也想要能随时随地的写博客，直到看到&lt;code&gt;flatnotes&lt;/code&gt;这个笔记软件，说它是笔记软件有点抬举它了，因为它太简洁，不过用来写博客文章是刚刚好，并且支持docker部署使用，这样只要有网络，有浏览器，就可以随时随地的写博客了。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>老刘这一段时间以来都是使用<code>VSCode</code>来写博客，主要是因为<code>anytype</code>对长文的支持一般，另外对<code>markdown</code>语法支持的也不够，比如表格功能就没法用<code>markdown</code>语法。但是<code>VSCode</code>有一个缺点是同步不方便，而我也想要能随时随地的写博客，直到看到<code>flatnotes</code>这个笔记软件，说它是笔记软件有点抬举它了，因为它太简洁，不过用来写博客文章是刚刚好，并且支持docker部署使用，这样只要有网络，有浏览器，就可以随时随地的写博客了。</p>
+<p>既然合适使用，当然就要把他部署在<code>NAS</code>里，网上群晖部署的教程比较麻烦，还需要进命令行操作，其实根本不用那么麻烦，直接使用群晖默认的<code>docker</code>管理套件<code>container manager</code>来部署就行了。步骤如下：</p>
+<h2 id="首先找到flatnotes">首先找到flatnotes</h2>
+<p>在注册表里搜索flatnotes，选择第一个，下载
+<img loading="lazy" src="https://s2.l22.org/flatnotes/flatnote1.png" alt="image"  />
+</p>
+<h2 id="安装过程">安装过程</h2>
+<p>下载完成后，点击安装，在端口设置，环境，存储空间设置，根据实际情况设置一下就行，其他一路下一步。
+<img loading="lazy" src="https://s2.l22.org/flatnotes/flatenote2.png" alt="image"  />
+
+<img loading="lazy" src="https://s2.l22.org/flatnotes/flatenote3.png" alt="image"  />
+</p>
+<p>重点说一下环境变量设置，
+增加如下几个字段：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">FLATNOTES_AUTH_TYPE: password
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">FLATNOTES_USERNAME: user
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">FLATNOTES_PASSWORD: panda # 密码可自行修改
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">FLATNOTES_SECRET_KEY: aLongRandomSeriesOfCharacters
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>另外一个需要说明的地方是8080端口不要改成其他的，改了虽然docker不会报错，但是网页是打不开的。</p>
+<h2 id="代理设置">代理设置</h2>
+<p>如果不出意外的，在浏览器里输入你NAS的ip加上你设置的端口号就应该可以打开应用了，但是我们需要的是随时随地的使用，所以还需要在NAS里设置一下代理。</p>
+<h3 id="反向代理设置方法">反向代理设置方法</h3>
+<p>点击控制面板，点击登录门户，点击高级，点击反向代理服务器。
+<img loading="lazy" src="https://s2.l22.org/flatnotes/flatnotes4.png" alt="image"  />
+
+点击新增，如下：
+<img loading="lazy" src="https://s2.l22.org/flatnotes/flatnotes5.png" alt="image"  />
+
+至此 ，就可以愉快的使用flatnotes来写文章了，本文就是使用这个软件写的，体验非常的不错！~
+<img loading="lazy" src="https://s2.l22.org/flatnotes/flatnotes6.png" alt="image"  />
+
+唯一的一点，这个软件好像不是实时保存，写完文章后记得保存一下</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>手机上有好用的输入法吗？</title>
       <link>https://tunan.org/posts/good-input-method-on-mobile-phones/</link>
