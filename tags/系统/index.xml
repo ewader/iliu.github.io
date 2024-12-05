@@ -20,10 +20,7 @@
       <guid>https://tunan.org/A-few-things-after-installing-EndeavourOS/</guid>
       <description>&lt;p&gt;很多追求新，追求精简的Linux系统的使用者，往往都会推荐Arch Linux，这个系统特点是精简，精简到什么都需要你来搞定，所以也让很多人望而却步。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>很多追求新，追求精简的Linux系统的使用者，往往都会推荐Arch Linux，这个系统特点是精简，精简到什么都需要你来搞定，所以也让很多人望而却步。</p>
-<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream<img alt="最终效果" loading="lazy" src="https://tunan.org/tupian/2023-11-08.png">=======
-<img loading="lazy" src="https://tunan.org/tupian/2023-11-08.png" alt="最终效果"  />
->>>>>>> Stashed changes
-</p>
+<p><img alt="最终效果" loading="lazy" src="https://tunan.org/tupian/2023-11-08.png"></p>
 <p>后来有人根据Arch Linux开发出manjaro这个系统，一问世就获得了用户的好评，但是，后来manjaro的发展也偏离了初心，EndeavourOs可以简便了Arch Linux的安装，但是又不多添加零碎，是最接近Arch Linux的系统了。老刘原来用Ubuntu，但是又不想到处去找想要安装的软件，所以换成了EndeavourOs，为了打造更好用的系统，老刘安装后做了如下的优化，文章小白可以参考，大佬请路过。</p>
 <h2 id="安装输入法">安装输入法</h2>
 <p>老刘比较喜欢用的小狼毫的输入法，这个在Linux平台下，叫rime输入法，aur里什么都用，直接命令安装就行：</p>
@@ -232,10 +229,5 @@
 <p>说实话，uos真的挺满意的，各方面做的真都不错，可惜稳定性是个硬伤。</p>
 ]]></content:encoded>
     </item>
-    <follow_challenge>
-    <feedId>41473172365329457</feedId>
-    <userId>55160205417323520</userId>
-</follow_challenge>
   </channel>
- 
 </rss>

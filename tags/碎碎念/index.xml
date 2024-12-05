@@ -26,10 +26,5 @@
 <p>下午看到挖站否的技术帖子，把博客套上了一层cf的皮，速度还是蛮快的。特别是移动，ping只有46，貌似是直连了。其实之前也用过其他的API来实现可以直接把域名解析到某个IP上，后来引文种种原因不原因用别人的服务，现在cf自己推出了一个服务，可以实现解析域名到某个IP上了。</p>
 ]]></content:encoded>
     </item>
-    <follow_challenge>
-    <feedId>41473172365329457</feedId>
-    <userId>55160205417323520</userId>
-</follow_challenge>
   </channel>
- 
 </rss>

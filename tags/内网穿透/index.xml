@@ -30,10 +30,7 @@
 <p>网页的右上角，有个downloads，点击就可以了。里面有常用的Windows、Linux等的客户端，直接点击下载相应的客户端，并安装。安装后登录，然后在个人中心里，系统自动给你分配了一个ip地址，如果你要了解某个设备，直接在浏览器里打开那个ip地址就好了。</p>
 <p>如果你的系统没有在常用的客户端页面，可以点击<a href="https://pkgs.tailscale.com/stable/#spks">这里</a>，会进入一个所有的客户端的页面，找到你的系统下载即可。</p>
 <h3 id="群晖中安装">群晖中安装</h3>
-<p>点击我上面说的那个连接，然后找到群晖的客户端。根据你群晖的系统选。如果你群晖是DSM6就选6，DSM7就选7，不要选错了。下载之后进入群晖的后台，进入套件中心，点击手动安装。&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream<img loading="lazy" src="https://tunan.org/tupian/qunhui-1.jpg">=======
-<img loading="lazy" src="https://tunan.org/tupian/qunhui-1.jpg" alt=""  />
->>>>>>> Stashed changes
-</p>
+<p>点击我上面说的那个连接，然后找到群晖的客户端。根据你群晖的系统选。如果你群晖是DSM6就选6，DSM7就选7，不要选错了。下载之后进入群晖的后台，进入套件中心，点击手动安装。<img loading="lazy" src="https://tunan.org/tupian/qunhui-1.jpg"></p>
 <p>安装的时候DSM会有一些权限的提示，选择允许就行了。安装后打开套件，点==connect==那个黑色的按钮，登录你的账号就可以了。</p>
 <h3 id="linux里安装与使用">Linux里安装与使用</h3>
 <p>也是选择合适系统的客户端，下载安装，如果你用的Arch Linux系列，可以直接用命令安装：</p>
@@ -75,10 +72,7 @@
 </div>
 </div><p>找到群晖的ip地址，选中复制，粘贴到浏览器里，打开，是不是熟悉的群晖后台出现了？</p>
 <h2 id="后续的一些优化">后续的一些优化</h2>
-<p>如果是你经常用的设备，你不想让这个设备的ip地址发生变化，可以进行一点小小的设置，如下图：&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream<img loading="lazy" src="https://tunan.org/tupian/qunhui-3.png">=======
-<img loading="lazy" src="https://tunan.org/tupian/qunhui-3.png" alt=""  />
->>>>>>> Stashed changes
-</p>
+<p>如果是你经常用的设备，你不想让这个设备的ip地址发生变化，可以进行一点小小的设置，如下图：<img loading="lazy" src="https://tunan.org/tupian/qunhui-3.png"></p>
 <p>但让，tailscale还有一些高级的用法，比如在路由器里安装后，其他设备不用安装也能相互访问，这个有点折腾了，不在本文的范围，有兴趣的朋友可以去官方看相关教程。</p>
 ]]></content:encoded>
     </item>
@@ -242,10 +236,5 @@
 <p><a href="https://tunan.org/wp-content/uploads/2019/11/cd5dfa5f7cf472d.zip">安卓客户端下载</a></p>
 ]]></content:encoded>
     </item>
-    <follow_challenge>
-    <feedId>41473172365329457</feedId>
-    <userId>55160205417323520</userId>
-</follow_challenge>
   </channel>
- 
 </rss>

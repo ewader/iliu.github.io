@@ -39,10 +39,7 @@
 </div><p>经过老刘的测试，最新版的思源，只能用上面的这句命令，用别的任何命令，群晖的Docker都会重复重启。</p>
 <h3 id="第二储存空间设置">第二，储存空间设置</h3>
 <p><a href="#%E7%AC%AC%E4%BA%8C%E5%82%A8%E5%AD%98%E7%A9%BA%E9%97%B4%E8%AE%BE%E7%BD%AE-%E7%AC%AC%E4%BA%8C%E5%82%A8%E5%AD%98%E7%A9%BA%E9%97%B4%E8%AE%BE%E7%BD%AEfigure-classwp-block-image">#</a></p>
-<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream<img loading="lazy" src="https://cdn.staticaly.com/gh/ewader/img@master/20230701/xxx.6lnukqsan6c0.webp">=======
-<img loading="lazy" src="https://cdn.staticaly.com/gh/ewader/img@master/20230701/xxx.6lnukqsan6c0.webp" alt=""  />
->>>>>>> Stashed changes
-</p>
+<p><img loading="lazy" src="https://cdn.staticaly.com/gh/ewader/img@master/20230701/xxx.6lnukqsan6c0.webp"></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -54,10 +51,5 @@
 </div><p>以前的教程都是把群晖本地的文件夹映射到Docker的siyuan目录，现在看了是不正确的，这个目录如果填写不正确，思源的Docker可以正常启动，但是升级后，数据都会全部删除，因为没有正确的映射到本地文件夹。<!-- raw HTML omitted -->这样就可以运行起来了。</p>
 ]]></content:encoded>
     </item>
-    <follow_challenge>
-    <feedId>41473172365329457</feedId>
-    <userId>55160205417323520</userId>
-</follow_challenge>
   </channel>
- 
 </rss>

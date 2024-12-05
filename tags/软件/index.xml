@@ -23,20 +23,11 @@
 <p>既然合适使用，当然就要把他部署在<code>NAS</code>里，网上群晖部署的教程比较麻烦，还需要进命令行操作，其实根本不用那么麻烦，直接使用群晖默认的<code>docker</code>管理套件<code>container manager</code>来部署就行了。步骤如下：</p>
 <h2 id="首先找到flatnotes">首先找到flatnotes</h2>
 <p>在注册表里搜索flatnotes，选择第一个，下载
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream<img alt="image" loading="lazy" src="https://s2.l22.org/flatnotes/flatnote1.png">=======
-<img loading="lazy" src="https://s2.l22.org/flatnotes/flatnote1.png" alt="image"  />
->>>>>>> Stashed changes
-</p>
+<img alt="image" loading="lazy" src="https://s2.l22.org/flatnotes/flatnote1.png"></p>
 <h2 id="安装过程">安装过程</h2>
 <p>下载完成后，点击安装，在端口设置，环境，存储空间设置，根据实际情况设置一下就行，其他一路下一步。
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream<img alt="image" loading="lazy" src="https://s2.l22.org/flatnotes/flatenote2.png">=======
-<img loading="lazy" src="https://s2.l22.org/flatnotes/flatenote2.png" alt="image"  />
->>>>>>> Stashed changes
-
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream<img alt="image" loading="lazy" src="https://s2.l22.org/flatnotes/flatenote3.png">=======
-<img loading="lazy" src="https://s2.l22.org/flatnotes/flatenote3.png" alt="image"  />
->>>>>>> Stashed changes
-</p>
+<img alt="image" loading="lazy" src="https://s2.l22.org/flatnotes/flatenote2.png">
+<img alt="image" loading="lazy" src="https://s2.l22.org/flatnotes/flatenote3.png"></p>
 <p>重点说一下环境变量设置，
 增加如下几个字段：</p>
 <div class="highlight"><div class="chroma">
@@ -64,20 +55,11 @@
 <p>如果不出意外的，在浏览器里输入你NAS的ip加上你设置的端口号就应该可以打开应用了，但是我们需要的是随时随地的使用，所以还需要在NAS里设置一下代理。</p>
 <h3 id="反向代理设置方法">反向代理设置方法</h3>
 <p>点击控制面板，点击登录门户，点击高级，点击反向代理服务器。
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream<img alt="image" loading="lazy" src="https://s2.l22.org/flatnotes/flatnotes4.png">=======
-<img loading="lazy" src="https://s2.l22.org/flatnotes/flatnotes4.png" alt="image"  />
->>>>>>> Stashed changes
-
+<img alt="image" loading="lazy" src="https://s2.l22.org/flatnotes/flatnotes4.png">
 点击新增，如下：
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream<img alt="image" loading="lazy" src="https://s2.l22.org/flatnotes/flatnotes5.png">=======
-<img loading="lazy" src="https://s2.l22.org/flatnotes/flatnotes5.png" alt="image"  />
->>>>>>> Stashed changes
-
+<img alt="image" loading="lazy" src="https://s2.l22.org/flatnotes/flatnotes5.png">
 至此 ，就可以愉快的使用flatnotes来写文章了，本文就是使用这个软件写的，体验非常的不错！~
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream<img alt="image" loading="lazy" src="https://s2.l22.org/flatnotes/flatnotes6.png">=======
-<img loading="lazy" src="https://s2.l22.org/flatnotes/flatnotes6.png" alt="image"  />
->>>>>>> Stashed changes
-
+<img alt="image" loading="lazy" src="https://s2.l22.org/flatnotes/flatnotes6.png">
 唯一的一点，这个软件好像不是实时保存，写完文章后记得保存一下</p>
 ]]></content:encoded>
     </item>
@@ -88,10 +70,7 @@
       <guid>https://tunan.org/posts/good-input-method-on-mobile-phones/</guid>
       <description>&lt;p&gt;老刘在以前的文章里也曾提过选择输入法的过程，目前在电脑上的方案是使用&lt;code&gt;小狼毫输入法&lt;/code&gt;加&lt;code&gt;雾凇拼音&lt;/code&gt;的词库。并通过&lt;code&gt;群晖drive&lt;/code&gt;实现几个PC之间个人词库的同步，使用起来还算方便。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>老刘在以前的文章里也曾提过选择输入法的过程，目前在电脑上的方案是使用<code>小狼毫输入法</code>加<code>雾凇拼音</code>的词库。并通过<code>群晖drive</code>实现几个PC之间个人词库的同步，使用起来还算方便。</p>
-<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream<img loading="lazy" src="https://ewader.s3.bitiful.net/blog/2024-09-06-10-44-13.png?no-wait\\=on">=======
-<img loading="lazy" src="https://ewader.s3.bitiful.net/blog/2024-09-06-10-44-13.png?no-wait%5c=on" alt=""  />
->>>>>>> Stashed changes
-</p>
+<p><img loading="lazy" src="https://ewader.s3.bitiful.net/blog/2024-09-06-10-44-13.png?no-wait\\=on"></p>
 <p>但是在手机上一直找不到好用的输入法，老刘目前使用的是荣耀的一款手机，荣耀现在和百度走的很近，所以输入法当然也是<code>百度输入法荣耀版</code>。众所周知的是，国内的软件，都写的有隐私保护，但是也都没有做到过隐私保护，都是拿着用户的隐私来牟取利益。最近老刘家在装修，每当和装修负责人谈论一些东西后，再打开购物软件，谈论的东西妥妥的都会出现，不懂的人还觉得现在手机真智能（我老婆就是），殊不知，智能的代价就是你隐私的泄露。</p>
 <p>于是老刘开始重视起来手机上的输入法。</p>
 <p>由于电脑上使用的是小狼毫输入法，使用的还算是满意，所以手机上首先想到的也是这个输入法，在手机上名字叫作<code>同文输入法</code>，本身<code>小狼毫输入法</code>就以难配置而著称，想不到<code>同文输入法</code>是更难配置，安装后根本没法用，按照网上找的配置方法设置了一圈还是没有搞定，所以只好删除作罢。</p>
@@ -111,16 +90,10 @@
       <link>https://tunan.org/posts/use-keepassxc-again-for-password-management/</link>
       <pubDate>Tue, 03 Sep 2024 13:46:02 +0800</pubDate>
       <guid>https://tunan.org/posts/use-keepassxc-again-for-password-management/</guid>
-      <description>&lt;p&gt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; Updated upstream&lt;img loading=&#34;lazy&#34; src=&#34;https://memos.1169f1b9dbf57062d00029d30c7fde9e.r2.cloudflarestorage.com/assets/1725262863_2024-09-02-15-23-54.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=67756f7e669d24ac11ea5c24ecfdb150%2F20240902%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20240902T074103Z&amp;X-Amz-Expires=432000&amp;X-Amz-SignedHeaders=host&amp;x-id=GetObject&amp;X-Amz-Signature=f948507f71602f764fa24695ce3823930013949acc00d88a388e6b6d825ee8dd&#34;&gt;=======
-&lt;img loading=&#34;lazy&#34; src=&#34;https://memos.1169f1b9dbf57062d00029d30c7fde9e.r2.cloudflarestorage.com/assets/1725262863_2024-09-02-15-23-54.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Credential=67756f7e669d24ac11ea5c24ecfdb150%2F20240902%2Fauto%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20240902T074103Z&amp;amp;X-Amz-Expires=432000&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&amp;amp;X-Amz-Signature=f948507f71602f764fa24695ce3823930013949acc00d88a388e6b6d825ee8dd&#34; alt=&#34;&#34;  /&gt;
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; Stashed changes
-&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://memos.1169f1b9dbf57062d00029d30c7fde9e.r2.cloudflarestorage.com/assets/1725262863_2024-09-02-15-23-54.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=67756f7e669d24ac11ea5c24ecfdb150%2F20240902%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20240902T074103Z&amp;X-Amz-Expires=432000&amp;X-Amz-SignedHeaders=host&amp;x-id=GetObject&amp;X-Amz-Signature=f948507f71602f764fa24695ce3823930013949acc00d88a388e6b6d825ee8dd&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;前因&#34;&gt;前因&lt;/h2&gt;
 &lt;p&gt;几年前，老刘最开始用软件进行密码管理的时候，用的就是keepassxc，只是后来有一段时间使用deepin，系统的内核比较低，不支持keepassxc的最新版，取舍之后，使用了Bitwarden，并部署在我nas里。这一用就是几年的时间过去了，只到最近遇到了问题。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream<img loading="lazy" src="https://memos.1169f1b9dbf57062d00029d30c7fde9e.r2.cloudflarestorage.com/assets/1725262863_2024-09-02-15-23-54.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=67756f7e669d24ac11ea5c24ecfdb150%2F20240902%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20240902T074103Z&X-Amz-Expires=432000&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=f948507f71602f764fa24695ce3823930013949acc00d88a388e6b6d825ee8dd">=======
-<img loading="lazy" src="https://memos.1169f1b9dbf57062d00029d30c7fde9e.r2.cloudflarestorage.com/assets/1725262863_2024-09-02-15-23-54.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=67756f7e669d24ac11ea5c24ecfdb150%2F20240902%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20240902T074103Z&amp;X-Amz-Expires=432000&amp;X-Amz-SignedHeaders=host&amp;x-id=GetObject&amp;X-Amz-Signature=f948507f71602f764fa24695ce3823930013949acc00d88a388e6b6d825ee8dd" alt=""  />
->>>>>>> Stashed changes
-</p>
+      <content:encoded><![CDATA[<p><img loading="lazy" src="https://memos.1169f1b9dbf57062d00029d30c7fde9e.r2.cloudflarestorage.com/assets/1725262863_2024-09-02-15-23-54.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=67756f7e669d24ac11ea5c24ecfdb150%2F20240902%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20240902T074103Z&X-Amz-Expires=432000&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=f948507f71602f764fa24695ce3823930013949acc00d88a388e6b6d825ee8dd"></p>
 <h2 id="前因">前因</h2>
 <p>几年前，老刘最开始用软件进行密码管理的时候，用的就是keepassxc，只是后来有一段时间使用deepin，系统的内核比较低，不支持keepassxc的最新版，取舍之后，使用了Bitwarden，并部署在我nas里。这一用就是几年的时间过去了，只到最近遇到了问题。</p>
 <p>这个问题就是docker镜像被墙了以后，部署在NAS里的bitwarden就没法更新了。作为一个安全软件，没法更新后的漏洞带来的风险很大，老刘也层想过让NAS智能在局域网里使用，家里和店里的电脑用tailscale相连，这样Docker更新与否都不重要了，后来发现也行不通，bitwarden需要使用ssl证书才能链接，不然就会报错，所以使用IP的方案也就搁浅了。</p>
@@ -178,10 +151,5 @@
 <p> </p>
 ]]></content:encoded>
     </item>
-    <follow_challenge>
-    <feedId>41473172365329457</feedId>
-    <userId>55160205417323520</userId>
-</follow_challenge>
   </channel>
- 
 </rss>

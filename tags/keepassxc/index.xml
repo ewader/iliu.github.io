@@ -18,16 +18,10 @@
       <link>https://tunan.org/posts/use-keepassxc-again-for-password-management/</link>
       <pubDate>Tue, 03 Sep 2024 13:46:02 +0800</pubDate>
       <guid>https://tunan.org/posts/use-keepassxc-again-for-password-management/</guid>
-      <description>&lt;p&gt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; Updated upstream&lt;img loading=&#34;lazy&#34; src=&#34;https://memos.1169f1b9dbf57062d00029d30c7fde9e.r2.cloudflarestorage.com/assets/1725262863_2024-09-02-15-23-54.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=67756f7e669d24ac11ea5c24ecfdb150%2F20240902%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20240902T074103Z&amp;X-Amz-Expires=432000&amp;X-Amz-SignedHeaders=host&amp;x-id=GetObject&amp;X-Amz-Signature=f948507f71602f764fa24695ce3823930013949acc00d88a388e6b6d825ee8dd&#34;&gt;=======
-&lt;img loading=&#34;lazy&#34; src=&#34;https://memos.1169f1b9dbf57062d00029d30c7fde9e.r2.cloudflarestorage.com/assets/1725262863_2024-09-02-15-23-54.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Credential=67756f7e669d24ac11ea5c24ecfdb150%2F20240902%2Fauto%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20240902T074103Z&amp;amp;X-Amz-Expires=432000&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&amp;amp;X-Amz-Signature=f948507f71602f764fa24695ce3823930013949acc00d88a388e6b6d825ee8dd&#34; alt=&#34;&#34;  /&gt;
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; Stashed changes
-&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://memos.1169f1b9dbf57062d00029d30c7fde9e.r2.cloudflarestorage.com/assets/1725262863_2024-09-02-15-23-54.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=67756f7e669d24ac11ea5c24ecfdb150%2F20240902%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20240902T074103Z&amp;X-Amz-Expires=432000&amp;X-Amz-SignedHeaders=host&amp;x-id=GetObject&amp;X-Amz-Signature=f948507f71602f764fa24695ce3823930013949acc00d88a388e6b6d825ee8dd&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;前因&#34;&gt;前因&lt;/h2&gt;
 &lt;p&gt;几年前，老刘最开始用软件进行密码管理的时候，用的就是keepassxc，只是后来有一段时间使用deepin，系统的内核比较低，不支持keepassxc的最新版，取舍之后，使用了Bitwarden，并部署在我nas里。这一用就是几年的时间过去了，只到最近遇到了问题。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream<img loading="lazy" src="https://memos.1169f1b9dbf57062d00029d30c7fde9e.r2.cloudflarestorage.com/assets/1725262863_2024-09-02-15-23-54.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=67756f7e669d24ac11ea5c24ecfdb150%2F20240902%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20240902T074103Z&X-Amz-Expires=432000&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=f948507f71602f764fa24695ce3823930013949acc00d88a388e6b6d825ee8dd">=======
-<img loading="lazy" src="https://memos.1169f1b9dbf57062d00029d30c7fde9e.r2.cloudflarestorage.com/assets/1725262863_2024-09-02-15-23-54.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=67756f7e669d24ac11ea5c24ecfdb150%2F20240902%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20240902T074103Z&amp;X-Amz-Expires=432000&amp;X-Amz-SignedHeaders=host&amp;x-id=GetObject&amp;X-Amz-Signature=f948507f71602f764fa24695ce3823930013949acc00d88a388e6b6d825ee8dd" alt=""  />
->>>>>>> Stashed changes
-</p>
+      <content:encoded><![CDATA[<p><img loading="lazy" src="https://memos.1169f1b9dbf57062d00029d30c7fde9e.r2.cloudflarestorage.com/assets/1725262863_2024-09-02-15-23-54.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=67756f7e669d24ac11ea5c24ecfdb150%2F20240902%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20240902T074103Z&X-Amz-Expires=432000&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=f948507f71602f764fa24695ce3823930013949acc00d88a388e6b6d825ee8dd"></p>
 <h2 id="前因">前因</h2>
 <p>几年前，老刘最开始用软件进行密码管理的时候，用的就是keepassxc，只是后来有一段时间使用deepin，系统的内核比较低，不支持keepassxc的最新版，取舍之后，使用了Bitwarden，并部署在我nas里。这一用就是几年的时间过去了，只到最近遇到了问题。</p>
 <p>这个问题就是docker镜像被墙了以后，部署在NAS里的bitwarden就没法更新了。作为一个安全软件，没法更新后的漏洞带来的风险很大，老刘也层想过让NAS智能在局域网里使用，家里和店里的电脑用tailscale相连，这样Docker更新与否都不重要了，后来发现也行不通，bitwarden需要使用ssl证书才能链接，不然就会报错，所以使用IP的方案也就搁浅了。</p>
@@ -64,10 +58,5 @@
 <p>有同学担心把数据存到NAS硬盘挂了，数据丢了怎么办，其实这真的不是一个需要担心的事情，NAS早就想到了这一点，两块或者更多额硬盘设置成raid模式就行。再怎么着，两块硬盘不会同时坏吧，就算同时坏了，keepass还支持同步到云盘，比如Google，DropBox等等都支持。</p>
 ]]></content:encoded>
     </item>
-    <follow_challenge>
-    <feedId>41473172365329457</feedId>
-    <userId>55160205417323520</userId>
-</follow_challenge>
   </channel>
- 
 </rss>

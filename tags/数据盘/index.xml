@@ -42,10 +42,5 @@
 <p><!-- raw HTML omitted -->景安的服务器虽然没有比如阿里云oss这种物美价廉的储存空间（也有，就是价格比较贵），送了一块数据盘也是很方便的，平常把备份的数据就放在这里，万一系统有问题了，重装系统后可以很方便的从数据盘里把数据还原，并且景安的快照是系统盘和数据盘分开的，这点还是不错的。<!-- raw HTML omitted --></p>
 ]]></content:encoded>
     </item>
-    <follow_challenge>
-    <feedId>41473172365329457</feedId>
-    <userId>55160205417323520</userId>
-</follow_challenge>
   </channel>
- 
 </rss>

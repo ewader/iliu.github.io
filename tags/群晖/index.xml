@@ -23,20 +23,11 @@
 <p>既然合适使用，当然就要把他部署在<code>NAS</code>里，网上群晖部署的教程比较麻烦，还需要进命令行操作，其实根本不用那么麻烦，直接使用群晖默认的<code>docker</code>管理套件<code>container manager</code>来部署就行了。步骤如下：</p>
 <h2 id="首先找到flatnotes">首先找到flatnotes</h2>
 <p>在注册表里搜索flatnotes，选择第一个，下载
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream<img alt="image" loading="lazy" src="https://s2.l22.org/flatnotes/flatnote1.png">=======
-<img loading="lazy" src="https://s2.l22.org/flatnotes/flatnote1.png" alt="image"  />
->>>>>>> Stashed changes
-</p>
+<img alt="image" loading="lazy" src="https://s2.l22.org/flatnotes/flatnote1.png"></p>
 <h2 id="安装过程">安装过程</h2>
 <p>下载完成后，点击安装，在端口设置，环境，存储空间设置，根据实际情况设置一下就行，其他一路下一步。
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream<img alt="image" loading="lazy" src="https://s2.l22.org/flatnotes/flatenote2.png">=======
-<img loading="lazy" src="https://s2.l22.org/flatnotes/flatenote2.png" alt="image"  />
->>>>>>> Stashed changes
-
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream<img alt="image" loading="lazy" src="https://s2.l22.org/flatnotes/flatenote3.png">=======
-<img loading="lazy" src="https://s2.l22.org/flatnotes/flatenote3.png" alt="image"  />
->>>>>>> Stashed changes
-</p>
+<img alt="image" loading="lazy" src="https://s2.l22.org/flatnotes/flatenote2.png">
+<img alt="image" loading="lazy" src="https://s2.l22.org/flatnotes/flatenote3.png"></p>
 <p>重点说一下环境变量设置，
 增加如下几个字段：</p>
 <div class="highlight"><div class="chroma">
@@ -64,20 +55,11 @@
 <p>如果不出意外的，在浏览器里输入你NAS的ip加上你设置的端口号就应该可以打开应用了，但是我们需要的是随时随地的使用，所以还需要在NAS里设置一下代理。</p>
 <h3 id="反向代理设置方法">反向代理设置方法</h3>
 <p>点击控制面板，点击登录门户，点击高级，点击反向代理服务器。
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream<img alt="image" loading="lazy" src="https://s2.l22.org/flatnotes/flatnotes4.png">=======
-<img loading="lazy" src="https://s2.l22.org/flatnotes/flatnotes4.png" alt="image"  />
->>>>>>> Stashed changes
-
+<img alt="image" loading="lazy" src="https://s2.l22.org/flatnotes/flatnotes4.png">
 点击新增，如下：
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream<img alt="image" loading="lazy" src="https://s2.l22.org/flatnotes/flatnotes5.png">=======
-<img loading="lazy" src="https://s2.l22.org/flatnotes/flatnotes5.png" alt="image"  />
->>>>>>> Stashed changes
-
+<img alt="image" loading="lazy" src="https://s2.l22.org/flatnotes/flatnotes5.png">
 至此 ，就可以愉快的使用flatnotes来写文章了，本文就是使用这个软件写的，体验非常的不错！~
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream<img alt="image" loading="lazy" src="https://s2.l22.org/flatnotes/flatnotes6.png">=======
-<img loading="lazy" src="https://s2.l22.org/flatnotes/flatnotes6.png" alt="image"  />
->>>>>>> Stashed changes
-
+<img alt="image" loading="lazy" src="https://s2.l22.org/flatnotes/flatnotes6.png">
 唯一的一点，这个软件好像不是实时保存，写完文章后记得保存一下</p>
 ]]></content:encoded>
     </item>
@@ -107,10 +89,7 @@
 </div><p>经过老刘的测试，最新版的思源，只能用上面的这句命令，用别的任何命令，群晖的Docker都会重复重启。</p>
 <h3 id="第二储存空间设置">第二，储存空间设置</h3>
 <p><a href="#%E7%AC%AC%E4%BA%8C%E5%82%A8%E5%AD%98%E7%A9%BA%E9%97%B4%E8%AE%BE%E7%BD%AE-%E7%AC%AC%E4%BA%8C%E5%82%A8%E5%AD%98%E7%A9%BA%E9%97%B4%E8%AE%BE%E7%BD%AEfigure-classwp-block-image">#</a></p>
-<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream<img loading="lazy" src="https://cdn.staticaly.com/gh/ewader/img@master/20230701/xxx.6lnukqsan6c0.webp">=======
-<img loading="lazy" src="https://cdn.staticaly.com/gh/ewader/img@master/20230701/xxx.6lnukqsan6c0.webp" alt=""  />
->>>>>>> Stashed changes
-</p>
+<p><img loading="lazy" src="https://cdn.staticaly.com/gh/ewader/img@master/20230701/xxx.6lnukqsan6c0.webp"></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -332,10 +311,5 @@
 <p> </p>
 ]]></content:encoded>
     </item>
-    <follow_challenge>
-    <feedId>41473172365329457</feedId>
-    <userId>55160205417323520</userId>
-</follow_challenge>
   </channel>
- 
 </rss>

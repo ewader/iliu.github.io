@@ -23,20 +23,11 @@
 <p>既然合适使用，当然就要把他部署在<code>NAS</code>里，网上群晖部署的教程比较麻烦，还需要进命令行操作，其实根本不用那么麻烦，直接使用群晖默认的<code>docker</code>管理套件<code>container manager</code>来部署就行了。步骤如下：</p>
 <h2 id="首先找到flatnotes">首先找到flatnotes</h2>
 <p>在注册表里搜索flatnotes，选择第一个，下载
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream<img alt="image" loading="lazy" src="https://s2.l22.org/flatnotes/flatnote1.png">=======
-<img loading="lazy" src="https://s2.l22.org/flatnotes/flatnote1.png" alt="image"  />
->>>>>>> Stashed changes
-</p>
+<img alt="image" loading="lazy" src="https://s2.l22.org/flatnotes/flatnote1.png"></p>
 <h2 id="安装过程">安装过程</h2>
 <p>下载完成后，点击安装，在端口设置，环境，存储空间设置，根据实际情况设置一下就行，其他一路下一步。
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream<img alt="image" loading="lazy" src="https://s2.l22.org/flatnotes/flatenote2.png">=======
-<img loading="lazy" src="https://s2.l22.org/flatnotes/flatenote2.png" alt="image"  />
->>>>>>> Stashed changes
-
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream<img alt="image" loading="lazy" src="https://s2.l22.org/flatnotes/flatenote3.png">=======
-<img loading="lazy" src="https://s2.l22.org/flatnotes/flatenote3.png" alt="image"  />
->>>>>>> Stashed changes
-</p>
+<img alt="image" loading="lazy" src="https://s2.l22.org/flatnotes/flatenote2.png">
+<img alt="image" loading="lazy" src="https://s2.l22.org/flatnotes/flatenote3.png"></p>
 <p>重点说一下环境变量设置，
 增加如下几个字段：</p>
 <div class="highlight"><div class="chroma">
@@ -64,20 +55,11 @@
 <p>如果不出意外的，在浏览器里输入你NAS的ip加上你设置的端口号就应该可以打开应用了，但是我们需要的是随时随地的使用，所以还需要在NAS里设置一下代理。</p>
 <h3 id="反向代理设置方法">反向代理设置方法</h3>
 <p>点击控制面板，点击登录门户，点击高级，点击反向代理服务器。
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream<img alt="image" loading="lazy" src="https://s2.l22.org/flatnotes/flatnotes4.png">=======
-<img loading="lazy" src="https://s2.l22.org/flatnotes/flatnotes4.png" alt="image"  />
->>>>>>> Stashed changes
-
+<img alt="image" loading="lazy" src="https://s2.l22.org/flatnotes/flatnotes4.png">
 点击新增，如下：
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream<img alt="image" loading="lazy" src="https://s2.l22.org/flatnotes/flatnotes5.png">=======
-<img loading="lazy" src="https://s2.l22.org/flatnotes/flatnotes5.png" alt="image"  />
->>>>>>> Stashed changes
-
+<img alt="image" loading="lazy" src="https://s2.l22.org/flatnotes/flatnotes5.png">
 至此 ，就可以愉快的使用flatnotes来写文章了，本文就是使用这个软件写的，体验非常的不错！~
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream<img alt="image" loading="lazy" src="https://s2.l22.org/flatnotes/flatnotes6.png">=======
-<img loading="lazy" src="https://s2.l22.org/flatnotes/flatnotes6.png" alt="image"  />
->>>>>>> Stashed changes
-
+<img alt="image" loading="lazy" src="https://s2.l22.org/flatnotes/flatnotes6.png">
 唯一的一点，这个软件好像不是实时保存，写完文章后记得保存一下</p>
 ]]></content:encoded>
     </item>
@@ -88,10 +70,7 @@
       <guid>https://tunan.org/posts/good-input-method-on-mobile-phones/</guid>
       <description>&lt;p&gt;老刘在以前的文章里也曾提过选择输入法的过程，目前在电脑上的方案是使用&lt;code&gt;小狼毫输入法&lt;/code&gt;加&lt;code&gt;雾凇拼音&lt;/code&gt;的词库。并通过&lt;code&gt;群晖drive&lt;/code&gt;实现几个PC之间个人词库的同步，使用起来还算方便。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>老刘在以前的文章里也曾提过选择输入法的过程，目前在电脑上的方案是使用<code>小狼毫输入法</code>加<code>雾凇拼音</code>的词库。并通过<code>群晖drive</code>实现几个PC之间个人词库的同步，使用起来还算方便。</p>
-<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream<img loading="lazy" src="https://ewader.s3.bitiful.net/blog/2024-09-06-10-44-13.png?no-wait\\=on">=======
-<img loading="lazy" src="https://ewader.s3.bitiful.net/blog/2024-09-06-10-44-13.png?no-wait%5c=on" alt=""  />
->>>>>>> Stashed changes
-</p>
+<p><img loading="lazy" src="https://ewader.s3.bitiful.net/blog/2024-09-06-10-44-13.png?no-wait\\=on"></p>
 <p>但是在手机上一直找不到好用的输入法，老刘目前使用的是荣耀的一款手机，荣耀现在和百度走的很近，所以输入法当然也是<code>百度输入法荣耀版</code>。众所周知的是，国内的软件，都写的有隐私保护，但是也都没有做到过隐私保护，都是拿着用户的隐私来牟取利益。最近老刘家在装修，每当和装修负责人谈论一些东西后，再打开购物软件，谈论的东西妥妥的都会出现，不懂的人还觉得现在手机真智能（我老婆就是），殊不知，智能的代价就是你隐私的泄露。</p>
 <p>于是老刘开始重视起来手机上的输入法。</p>
 <p>由于电脑上使用的是小狼毫输入法，使用的还算是满意，所以手机上首先想到的也是这个输入法，在手机上名字叫作<code>同文输入法</code>，本身<code>小狼毫输入法</code>就以难配置而著称，想不到<code>同文输入法</code>是更难配置，安装后根本没法用，按照网上找的配置方法设置了一圈还是没有搞定，所以只好删除作罢。</p>
@@ -111,16 +90,10 @@
       <link>https://tunan.org/posts/use-keepassxc-again-for-password-management/</link>
       <pubDate>Tue, 03 Sep 2024 13:46:02 +0800</pubDate>
       <guid>https://tunan.org/posts/use-keepassxc-again-for-password-management/</guid>
-      <description>&lt;p&gt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; Updated upstream&lt;img loading=&#34;lazy&#34; src=&#34;https://memos.1169f1b9dbf57062d00029d30c7fde9e.r2.cloudflarestorage.com/assets/1725262863_2024-09-02-15-23-54.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=67756f7e669d24ac11ea5c24ecfdb150%2F20240902%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20240902T074103Z&amp;X-Amz-Expires=432000&amp;X-Amz-SignedHeaders=host&amp;x-id=GetObject&amp;X-Amz-Signature=f948507f71602f764fa24695ce3823930013949acc00d88a388e6b6d825ee8dd&#34;&gt;=======
-&lt;img loading=&#34;lazy&#34; src=&#34;https://memos.1169f1b9dbf57062d00029d30c7fde9e.r2.cloudflarestorage.com/assets/1725262863_2024-09-02-15-23-54.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Credential=67756f7e669d24ac11ea5c24ecfdb150%2F20240902%2Fauto%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20240902T074103Z&amp;amp;X-Amz-Expires=432000&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&amp;amp;X-Amz-Signature=f948507f71602f764fa24695ce3823930013949acc00d88a388e6b6d825ee8dd&#34; alt=&#34;&#34;  /&gt;
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; Stashed changes
-&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://memos.1169f1b9dbf57062d00029d30c7fde9e.r2.cloudflarestorage.com/assets/1725262863_2024-09-02-15-23-54.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=67756f7e669d24ac11ea5c24ecfdb150%2F20240902%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20240902T074103Z&amp;X-Amz-Expires=432000&amp;X-Amz-SignedHeaders=host&amp;x-id=GetObject&amp;X-Amz-Signature=f948507f71602f764fa24695ce3823930013949acc00d88a388e6b6d825ee8dd&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;前因&#34;&gt;前因&lt;/h2&gt;
 &lt;p&gt;几年前，老刘最开始用软件进行密码管理的时候，用的就是keepassxc，只是后来有一段时间使用deepin，系统的内核比较低，不支持keepassxc的最新版，取舍之后，使用了Bitwarden，并部署在我nas里。这一用就是几年的时间过去了，只到最近遇到了问题。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream<img loading="lazy" src="https://memos.1169f1b9dbf57062d00029d30c7fde9e.r2.cloudflarestorage.com/assets/1725262863_2024-09-02-15-23-54.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=67756f7e669d24ac11ea5c24ecfdb150%2F20240902%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20240902T074103Z&X-Amz-Expires=432000&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=f948507f71602f764fa24695ce3823930013949acc00d88a388e6b6d825ee8dd">=======
-<img loading="lazy" src="https://memos.1169f1b9dbf57062d00029d30c7fde9e.r2.cloudflarestorage.com/assets/1725262863_2024-09-02-15-23-54.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=67756f7e669d24ac11ea5c24ecfdb150%2F20240902%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20240902T074103Z&amp;X-Amz-Expires=432000&amp;X-Amz-SignedHeaders=host&amp;x-id=GetObject&amp;X-Amz-Signature=f948507f71602f764fa24695ce3823930013949acc00d88a388e6b6d825ee8dd" alt=""  />
->>>>>>> Stashed changes
-</p>
+      <content:encoded><![CDATA[<p><img loading="lazy" src="https://memos.1169f1b9dbf57062d00029d30c7fde9e.r2.cloudflarestorage.com/assets/1725262863_2024-09-02-15-23-54.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=67756f7e669d24ac11ea5c24ecfdb150%2F20240902%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20240902T074103Z&X-Amz-Expires=432000&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=f948507f71602f764fa24695ce3823930013949acc00d88a388e6b6d825ee8dd"></p>
 <h2 id="前因">前因</h2>
 <p>几年前，老刘最开始用软件进行密码管理的时候，用的就是keepassxc，只是后来有一段时间使用deepin，系统的内核比较低，不支持keepassxc的最新版，取舍之后，使用了Bitwarden，并部署在我nas里。这一用就是几年的时间过去了，只到最近遇到了问题。</p>
 <p>这个问题就是docker镜像被墙了以后，部署在NAS里的bitwarden就没法更新了。作为一个安全软件，没法更新后的漏洞带来的风险很大，老刘也层想过让NAS智能在局域网里使用，家里和店里的电脑用tailscale相连，这样Docker更新与否都不重要了，后来发现也行不通，bitwarden需要使用ssl证书才能链接，不然就会报错，所以使用IP的方案也就搁浅了。</p>
@@ -211,15 +184,9 @@
       <content:encoded><![CDATA[<p>前年的时候，曾经写过一篇<a href="https://tunan.org/4242">修汽车空调</a>的文章。当时加过氟利昂之后，制冷效果是立马起来了。不过过了半个多月的时间，开车回老家，再次出现空调制冷效果不好的情况，也不是制冷效果不好，而是有时候能空调能启动，有时候又启动不了。甚至在堵车的时候还发生了，水箱温度过高的提示。之后又去店里修了一次，氟利昂压力是正常的，说可能是水箱比较脏了，拆下来冲洗一下就好了。结果拆冲洗后当时是可以了，但是我看到水箱也不是很脏的样子。</p>
 <p>后来这两年，空调基本上也能凑合着用，但是效果不是太好，本身用车的时候也少，就觉得可能是缺氟利昂了。</p>
 <p>21号，送女儿去参加中考，不想去的时候，再次出现空调不能运行的情况，好在当天阴天还有点小雨，气温不是太高，开车车窗勉强能用车，不过行车过程中外面的噪音太大。很不舒适。</p>
-<p>送完女儿后，直接开去了修理店，令人哭笑不得的是，回去的时候空调又能用了。到店说明情况后，具体检查了一下，氟利昂压力正常，老板检查了半天，发现压缩机那块的风扇不转圈，判断是控制风扇开启的模块出现了故障。&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream<img alt="汽车空调风扇控制器" loading="lazy" src="https://ewader.s3.bitiful.net/blog/%e5%be%ae%e4%bf%a1%e5%9b%be%e7%89%87_20240624155035.jpg">=======
-<img loading="lazy" src="https://ewader.s3.bitiful.net/blog/%e5%be%ae%e4%bf%a1%e5%9b%be%e7%89%87_20240624155035.jpg" alt="汽车空调风扇控制器"  />
->>>>>>> Stashed changes
-</p>
+<p>送完女儿后，直接开去了修理店，令人哭笑不得的是，回去的时候空调又能用了。到店说明情况后，具体检查了一下，氟利昂压力正常，老板检查了半天，发现压缩机那块的风扇不转圈，判断是控制风扇开启的模块出现了故障。<img alt="汽车空调风扇控制器" loading="lazy" src="https://ewader.s3.bitiful.net/blog/%e5%be%ae%e4%bf%a1%e5%9b%be%e7%89%87_20240624155035.jpg"></p>
 <p>这是这个玩意，老板从汽配城发货，跑腿很快送过来了，安装之后，终于是恢复正常了，又把车保养了一下。一共收了450元。应该是比在4S店要便宜一些。</p>
-<p>后来在4S店的群里问了一下这玩意的价格是225一个，不包括工时费。算下来确实是要便宜一些。刚问了，群里的一个哥们就问道，你这是空调出问题了吗？然后我的车和你这同一个毛病。看来不是个例了。&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream<img loading="lazy" src="https://ewader.s3.bitiful.net/blog/20240624155254.png">=======
-<img loading="lazy" src="https://ewader.s3.bitiful.net/blog/20240624155254.png" alt=""  />
->>>>>>> Stashed changes
-</p>
+<p>后来在4S店的群里问了一下这玩意的价格是225一个，不包括工时费。算下来确实是要便宜一些。刚问了，群里的一个哥们就问道，你这是空调出问题了吗？然后我的车和你这同一个毛病。看来不是个例了。<img loading="lazy" src="https://ewader.s3.bitiful.net/blog/20240624155254.png"></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -335,10 +302,7 @@
 <p>前两天的时候，感觉还是需要用tunan这个域名，和博客的名字比较搭配，而且用了ssl之后，网站走的443端口，基本上也不会影响什么，所以就切换了过来。</p>
 <p>换域名之后另一个需要的解决的事情是要把<code>iliu.org</code>的网址301跳转到新网站，以前用VPS的时候，直接在<code>nginx</code>里设置，现在不用vps了，有没有别的方法呢？答案是肯定的，而且比vps更方便。那就是使用<code>Cloudflare</code>的页面规则进行跳转。</p>
 <h2 id="方法">方法</h2>
-<p>进入到<code>cloudflare</code>的个人中心，点击需要跳转的网站域名，点击DNS。 把域名解析到8.8.8.8，当然你解析到1.1.1.1也是可以的。然后点击规则，再点击页面规则。具体的设置如下图：&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream<img alt="规则" loading="lazy" src="https://ewader.s3.bitiful.net/blog/guize.png">=======
-<img loading="lazy" src="https://ewader.s3.bitiful.net/blog/guize.png" alt="规则"  />
->>>>>>> Stashed changes
-</p>
+<p>进入到<code>cloudflare</code>的个人中心，点击需要跳转的网站域名，点击DNS。 把域名解析到8.8.8.8，当然你解析到1.1.1.1也是可以的。然后点击规则，再点击页面规则。具体的设置如下图：<img alt="规则" loading="lazy" src="https://ewader.s3.bitiful.net/blog/guize.png"></p>
 <p>这样，就把<code>iliu.org</code>这个网站的网址，按照同样的规则，跳转到了<code>tunan.org</code>这个网站。</p>
 <p>使用免费的<code>cloudflare</code>一个域名只有3个免费的页面规则，因此还有另外一个方法也可以实现，那就是利用<code>cloudflare</code>的<code>workers</code>。</p>
 <p>进入到<code>cloudflare</code>的后台后，点击<code>Workers 和 Pages</code>。</p>
@@ -445,10 +409,7 @@
 <p>网页的右上角，有个downloads，点击就可以了。里面有常用的Windows、Linux等的客户端，直接点击下载相应的客户端，并安装。安装后登录，然后在个人中心里，系统自动给你分配了一个ip地址，如果你要了解某个设备，直接在浏览器里打开那个ip地址就好了。</p>
 <p>如果你的系统没有在常用的客户端页面，可以点击<a href="https://pkgs.tailscale.com/stable/#spks">这里</a>，会进入一个所有的客户端的页面，找到你的系统下载即可。</p>
 <h3 id="群晖中安装">群晖中安装</h3>
-<p>点击我上面说的那个连接，然后找到群晖的客户端。根据你群晖的系统选。如果你群晖是DSM6就选6，DSM7就选7，不要选错了。下载之后进入群晖的后台，进入套件中心，点击手动安装。&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream<img loading="lazy" src="https://tunan.org/tupian/qunhui-1.jpg">=======
-<img loading="lazy" src="https://tunan.org/tupian/qunhui-1.jpg" alt=""  />
->>>>>>> Stashed changes
-</p>
+<p>点击我上面说的那个连接，然后找到群晖的客户端。根据你群晖的系统选。如果你群晖是DSM6就选6，DSM7就选7，不要选错了。下载之后进入群晖的后台，进入套件中心，点击手动安装。<img loading="lazy" src="https://tunan.org/tupian/qunhui-1.jpg"></p>
 <p>安装的时候DSM会有一些权限的提示，选择允许就行了。安装后打开套件，点==connect==那个黑色的按钮，登录你的账号就可以了。</p>
 <h3 id="linux里安装与使用">Linux里安装与使用</h3>
 <p>也是选择合适系统的客户端，下载安装，如果你用的Arch Linux系列，可以直接用命令安装：</p>
@@ -490,10 +451,7 @@
 </div>
 </div><p>找到群晖的ip地址，选中复制，粘贴到浏览器里，打开，是不是熟悉的群晖后台出现了？</p>
 <h2 id="后续的一些优化">后续的一些优化</h2>
-<p>如果是你经常用的设备，你不想让这个设备的ip地址发生变化，可以进行一点小小的设置，如下图：&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream<img loading="lazy" src="https://tunan.org/tupian/qunhui-3.png">=======
-<img loading="lazy" src="https://tunan.org/tupian/qunhui-3.png" alt=""  />
->>>>>>> Stashed changes
-</p>
+<p>如果是你经常用的设备，你不想让这个设备的ip地址发生变化，可以进行一点小小的设置，如下图：<img loading="lazy" src="https://tunan.org/tupian/qunhui-3.png"></p>
 <p>但让，tailscale还有一些高级的用法，比如在路由器里安装后，其他设备不用安装也能相互访问，这个有点折腾了，不在本文的范围，有兴趣的朋友可以去官方看相关教程。</p>
 ]]></content:encoded>
     </item>
@@ -504,10 +462,7 @@
       <guid>https://tunan.org/A-few-things-after-installing-EndeavourOS/</guid>
       <description>&lt;p&gt;很多追求新，追求精简的Linux系统的使用者，往往都会推荐Arch Linux，这个系统特点是精简，精简到什么都需要你来搞定，所以也让很多人望而却步。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>很多追求新，追求精简的Linux系统的使用者，往往都会推荐Arch Linux，这个系统特点是精简，精简到什么都需要你来搞定，所以也让很多人望而却步。</p>
-<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream<img alt="最终效果" loading="lazy" src="https://tunan.org/tupian/2023-11-08.png">=======
-<img loading="lazy" src="https://tunan.org/tupian/2023-11-08.png" alt="最终效果"  />
->>>>>>> Stashed changes
-</p>
+<p><img alt="最终效果" loading="lazy" src="https://tunan.org/tupian/2023-11-08.png"></p>
 <p>后来有人根据Arch Linux开发出manjaro这个系统，一问世就获得了用户的好评，但是，后来manjaro的发展也偏离了初心，EndeavourOs可以简便了Arch Linux的安装，但是又不多添加零碎，是最接近Arch Linux的系统了。老刘原来用Ubuntu，但是又不想到处去找想要安装的软件，所以换成了EndeavourOs，为了打造更好用的系统，老刘安装后做了如下的优化，文章小白可以参考，大佬请路过。</p>
 <h2 id="安装输入法">安装输入法</h2>
 <p>老刘比较喜欢用的小狼毫的输入法，这个在Linux平台下，叫rime输入法，aur里什么都用，直接命令安装就行：</p>
@@ -872,17 +827,11 @@
       <content:encoded><![CDATA[<p>这里记录每周值得分享的视光内容。周五在<strong>光学视界</strong>公众号和<strong>图南博客</strong>发布。本周的主要内容包括：<strong>角膜塑形镜的安全性，近视人年老了会不会老花，高度近视人的选框技巧</strong>等。</p>
 <p>投稿请发邮件至：ewader@qq.com。</p>
 <h2 id="封面图-防紫外线的重要性">封面图-防紫外线的重要性</h2>
-<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream<img alt="严重的白内障患者的眼睛" loading="lazy" src="https://iliu.org/zhoukan/9-1.jpg">=======
-<img loading="lazy" src="https://iliu.org/zhoukan/9-1.jpg" alt="严重的白内障患者的眼睛"  />
->>>>>>> Stashed changes
-</p>
+<p><img alt="严重的白内障患者的眼睛" loading="lazy" src="https://iliu.org/zhoukan/9-1.jpg"></p>
 <p>这是一只患有严重白内障患者的眼睛，可以看到整个眼球都类似一个玉石一样的颜色了。可想而知，该患者的视力情况。 预防白内障要从防紫外线着手，比如外出佩戴防紫外线的太阳镜，一定要用合格的，UV400以上的才有效果。 另外常带眼镜的人可以选择佩戴变色的镜片，也是可以达到非常好的防护眼睛的效果。</p>
 <h2 id="本周视光内容">本周视光内容</h2>
 <h3 id="角膜塑形镜的安全性">角膜塑形镜的安全性</h3>
-<p>中国的研究人员系统地评估了关于控制近视发展的现有文献，发现角膜塑形术是一种安全的方法来预防和控制近视。在14项涉及2058名儿童的研究中，角膜塑形术在控制近视进展方面表现出优于框架眼镜的效果。&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream<img alt="佩戴角膜塑形镜后的图像" loading="lazy" src="https://iliu.org/zhoukan/9-2.jpg">=======
-<img loading="lazy" src="https://iliu.org/zhoukan/9-2.jpg" alt="佩戴角膜塑形镜后的图像"  />
->>>>>>> Stashed changes
-</p>
+<p>中国的研究人员系统地评估了关于控制近视发展的现有文献，发现角膜塑形术是一种安全的方法来预防和控制近视。在14项涉及2058名儿童的研究中，角膜塑形术在控制近视进展方面表现出优于框架眼镜的效果。<img alt="佩戴角膜塑形镜后的图像" loading="lazy" src="https://iliu.org/zhoukan/9-2.jpg"></p>
 <p>角膜塑形术通过改善视觉质量、减少角膜刺激、改善泪液循环和泪膜稳定性来发挥作用。研究人员强调，这不仅改变了近视患者的角膜曲率，还改善了他们的裸眼视力、减少近视度数和眼轴长度，从而控制近视的发展。</p>
 <p>但是研究人员也表示：对于不同种族儿童使用ok镜的长期疗效和安全性是否存在差异，以及不同ok镜对不同类型近视和不同年龄患者的疗效，研究小组仍心存疑虑。他们总结说，这些问题仍需要通过大量高质量的随机对照研究来进一步验证。</p>
 <p>本文详见：<a href="https://www.reviewofoptometry.com/article/orthok-safe-with-room-for-improvement">Ortho-K Safe, With Room for Improvement</a></p>
@@ -905,10 +854,7 @@
 </ul>
 <p>具体内容，可以<a href="https://mp.weixin.qq.com/s?__biz=MzI0NTAwNDg4OQ==&amp;mid=2651109179&amp;idx=1&amp;sn=a2cd0124c18e67f5c723be08edf584b0&amp;chksm=f2a5380dc5d2b11b59ea905631bd41b19dc93b0e57e021ccebbb165777458d304c981818babe&amp;mpshare=1&amp;scene=24&amp;srcid=1027dORNtWr2MMBlSLmWY66V&amp;sharer_shareinfo=1e5721950bd17a3bc98cffce5565d1c9&amp;sharer_shareinfo_first=1e5721950bd17a3bc98cffce5565d1c9#rd">点击</a>查看。</p>
 <h2 id="关于视光周刊">关于视光周刊</h2>
-<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream<img alt="周刊" loading="lazy" src="https://iliu.org/zhoukan/foot.jpeg">=======
-<img loading="lazy" src="https://iliu.org/zhoukan/foot.jpeg" alt="周刊"  />
->>>>>>> Stashed changes
-</p>
+<p><img alt="周刊" loading="lazy" src="https://iliu.org/zhoukan/foot.jpeg"></p>
 <p>我是一名爱读书的验光师，受佛道两家的思想影响颇深。有感于目前很多视光号发布的文章质量参差不齐，甚至打着科普的旗号在制造焦虑，遂产生了把看到的优质的视光内容聚合起来的想法。 如果你还喜欢我的内容的话，==不妨点个赞，转发一下或者关注一下我们的公众号==。这是对我最大的支持，您对我们的周刊有任何意见或者建议，欢迎留言给我们。</p>
 ]]></content:encoded>
     </item>
@@ -1033,10 +979,7 @@
 </div><p>经过老刘的测试，最新版的思源，只能用上面的这句命令，用别的任何命令，群晖的Docker都会重复重启。</p>
 <h3 id="第二储存空间设置">第二，储存空间设置</h3>
 <p><a href="#%E7%AC%AC%E4%BA%8C%E5%82%A8%E5%AD%98%E7%A9%BA%E9%97%B4%E8%AE%BE%E7%BD%AE-%E7%AC%AC%E4%BA%8C%E5%82%A8%E5%AD%98%E7%A9%BA%E9%97%B4%E8%AE%BE%E7%BD%AEfigure-classwp-block-image">#</a></p>
-<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream<img loading="lazy" src="https://cdn.staticaly.com/gh/ewader/img@master/20230701/xxx.6lnukqsan6c0.webp">=======
-<img loading="lazy" src="https://cdn.staticaly.com/gh/ewader/img@master/20230701/xxx.6lnukqsan6c0.webp" alt=""  />
->>>>>>> Stashed changes
-</p>
+<p><img loading="lazy" src="https://cdn.staticaly.com/gh/ewader/img@master/20230701/xxx.6lnukqsan6c0.webp"></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -1169,10 +1112,5 @@
 </div>
 </div>]]></content:encoded>
     </item>
-    <follow_challenge>
-    <feedId>41473172365329457</feedId>
-    <userId>55160205417323520</userId>
-</follow_challenge>
   </channel>
- 
 </rss>

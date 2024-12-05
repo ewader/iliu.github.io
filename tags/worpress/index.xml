@@ -145,10 +145,5 @@
 <p>说明配置对了，否则就是错的咯，如果出错的话，按网上的教程设置一般都不行，可以在用户验证那里选中第二项，一般都可以成功，如果还不行的话，可以选择 Use SSL encryption.</p>
 ]]></content:encoded>
     </item>
-    <follow_challenge>
-    <feedId>41473172365329457</feedId>
-    <userId>55160205417323520</userId>
-</follow_challenge>
   </channel>
- 
 </rss>
