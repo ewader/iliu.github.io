@@ -95,27 +95,8 @@
 <p>✅ 重新生成TOTP种子码<br>
 ✅ 多介质备份恢复码（电子+纸质+加密USB）</p>
 <h3 id="32-全新的备份架构">3.2 全新的备份架构</h3>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">graph TD
-</span></span><span class="line"><span class="cl">    A[KeepassXc主密码库] --&gt;|Drive同步| B[群晖NAS]
-</span></span><span class="line"><span class="cl">    B --&gt;|加密备份| C[百度云]
-</span></span><span class="line"><span class="cl">    A --&gt;|冷存储| D[移动硬盘]
-</span></span><span class="line"><span class="cl">	E[恢复码] --&gt; F[群晖nas]
-</span></span><span class="line"><span class="cl">	F--&gt;|加密备份| C[百度云]
-</span></span><span class="line"><span class="cl">    E --&gt; G[保险箱纸质副本]
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h3 id="33-血泪换来的安全原则">3.3 血泪换来的安全原则</h3>
+<p><img loading="lazy" src="https://s2.l22.org/20250329185329.png"></p>
+<h3 id="33-血泪换来的安全原则">3.3 血泪换来的安全原则</h3>
 <ol>
 <li><strong>3-2-1备份法则</strong>：3份副本，2种介质，1份离线</li>
 <li><strong>关键凭证隔离存储</strong>：TOTP种子不与密码管理器共存</li>
