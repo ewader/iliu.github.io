@@ -11,8 +11,163 @@
     </image>
     <generator>Hugo -- 0.134.2</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 30 Oct 2024 03:48:47 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 29 Mar 2025 18:47:24 +0800</lastBuildDate>
     <atom:link href="https://tunan.org/categories/%E9%BD%90%E7%89%A9%E8%AE%BA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>当GitHub二次验证丢失：我的完整恢复经历</title>
+      <link>https://tunan.org/posts/when-the-2fa-of-github-is-lost/</link>
+      <pubDate>Sat, 29 Mar 2025 18:47:24 +0800</pubDate>
+      <guid>https://tunan.org/posts/when-the-2fa-of-github-is-lost/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;数字时代的噩梦&lt;/strong&gt;：当你精心设置的安全措施反而将你锁在自己的账户之外时，该怎么办？这是一次关于数字资产管理、备份策略和安全实践的深刻教训。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;一灾难降临完美的安全闭环变成死循环&#34;&gt;一、灾难降临：完美的安全闭环变成死循环&lt;/h2&gt;
+&lt;h3 id=&#34;11-强制2fa时代的困境&#34;&gt;1.1 强制2FA时代的困境&lt;/h3&gt;
+&lt;p&gt;随着GitHub强制实施双重认证，像大多数开发者一样，我选择了自托管的Vaultwarden（Bitwarden开源替代方案）管理TOTP验证码。这个方案看似完美——完全自主控制，既方便又安全。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<blockquote>
+<p><strong>数字时代的噩梦</strong>：当你精心设置的安全措施反而将你锁在自己的账户之外时，该怎么办？这是一次关于数字资产管理、备份策略和安全实践的深刻教训。</p>
+</blockquote>
+<h2 id="一灾难降临完美的安全闭环变成死循环">一、灾难降临：完美的安全闭环变成死循环</h2>
+<h3 id="11-强制2fa时代的困境">1.1 强制2FA时代的困境</h3>
+<p>随着GitHub强制实施双重认证，像大多数开发者一样，我选择了自托管的Vaultwarden（Bitwarden开源替代方案）管理TOTP验证码。这个方案看似完美——完全自主控制，既方便又安全。</p>
+<h3 id="12-单点故障的代价">1.2 单点故障的代价</h3>
+<p>直到那天，我的NAS存储池突然降级为只读模式，所有Docker服务（包括Vaultwarden）瘫痪。更糟的是：</p>
+<ul>
+<li>没有备份TOTP种子码</li>
+<li>忽略了GitHub的16位恢复码</li>
+<li>所有数字资产访问权限被切断</li>
+</ul>
+<p>&ldquo;安全措施反而成为最大的安全隐患&rdquo;——这一刻我深刻体会到了这句话的含义。</p>
+<h2 id="二绝境求生没有恢复码的账户恢复之路">二、绝境求生：没有恢复码的账户恢复之路</h2>
+<h3 id="21-常规方案全部失效">2.1 常规方案全部失效</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">恢复方式</th>
+          <th style="text-align: left">可用性</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">恢复码</td>
+          <td style="text-align: left">❌ 未备份</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">备用设备</td>
+          <td style="text-align: left">❌ 单设备配置</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">短信验证</td>
+          <td style="text-align: left">❌ 不支持</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="22-意外发现的救命稻草">2.2 意外发现的救命稻草</h3>
+<p>通过深入研究GitHub恢复策略，发现三种替代验证方式：</p>
+<ol>
+<li><strong>设备验证</strong>（需浏览器保留Cookie）</li>
+<li><strong>SSH密钥验证</strong>（开发者专属通道）</li>
+<li><strong>个人访问令牌</strong>（PAT）</li>
+</ol>
+<blockquote>
+<p>幸运的是，我部署博客时设置的SSH密钥成为了突破口。</p>
+</blockquote>
+<h3 id="23-详细恢复流程实测有效">2.3 详细恢复流程（实测有效）</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 关键步骤：SSH密钥验证</span>
+</span></span><span class="line"><span class="cl">ssh -T git@github.com verify
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol>
+<li>访问GitHub恢复页面 → 选择&quot;Try 2FA account recovery&quot;</li>
+<li>通过注册邮箱接收一次性密码</li>
+<li>选择&quot;SSH Key&quot;验证方式</li>
+<li>执行上述命令获取验证码</li>
+<li>提交审核（实际处理时间：36小时）</li>
+</ol>
+<h2 id="三重建更健壮的安全体系">三、重建更健壮的安全体系</h2>
+<h3 id="31-立即实施的应急措施">3.1 立即实施的应急措施</h3>
+<p>✅ 重新生成TOTP种子码<br>
+✅ 多介质备份恢复码（电子+纸质+加密USB）</p>
+<h3 id="32-全新的备份架构">3.2 全新的备份架构</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">graph TD
+</span></span><span class="line"><span class="cl">    A[KeepassXc主密码库] --&gt;|Drive同步| B[群晖NAS]
+</span></span><span class="line"><span class="cl">    B --&gt;|加密备份| C[百度云]
+</span></span><span class="line"><span class="cl">    A --&gt;|冷存储| D[移动硬盘]
+</span></span><span class="line"><span class="cl">	E[恢复码] --&gt; F[群晖nas]
+</span></span><span class="line"><span class="cl">	F--&gt;|加密备份| C[百度云]
+</span></span><span class="line"><span class="cl">    E --&gt; G[保险箱纸质副本]
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="33-血泪换来的安全原则">3.3 血泪换来的安全原则</h3>
+<ol>
+<li><strong>3-2-1备份法则</strong>：3份副本，2种介质，1份离线</li>
+<li><strong>关键凭证隔离存储</strong>：TOTP种子不与密码管理器共存</li>
+<li><strong>定期恢复演练</strong>：每季度测试备份有效性</li>
+</ol>
+<h2 id="四前瞻思考安全与便利的永恒博弈">四、前瞻思考：安全与便利的永恒博弈</h2>
+<h3 id="41-自托管服务的风险矩阵">4.1 自托管服务的风险矩阵</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">风险类型</th>
+          <th style="text-align: left">自托管方案</th>
+          <th style="text-align: left">云服务方案</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">可用性</td>
+          <td style="text-align: left">❌ 单点故障</td>
+          <td style="text-align: left">✅ 高可用</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">控制权</td>
+          <td style="text-align: left">✅ 完全自主</td>
+          <td style="text-align: left">❌ 依赖厂商</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">维护成本</td>
+          <td style="text-align: left">❌ 需专业知识</td>
+          <td style="text-align: left">✅ 免维护</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="42-web3时代的认证演进">4.2 Web3时代的认证演进</h3>
+<ul>
+<li>硬件安全密钥（FIDO2/WebAuthn）</li>
+<li>生物识别集成认证</li>
+<li>去中心化身份系统</li>
+</ul>
+<h2 id="五终极建议每个开发者都该做的5件事">五、终极建议：每个开发者都该做的5件事</h2>
+<ol>
+<li><strong>立即打印恢复码</strong>：存放于保险箱或可信亲友处</li>
+<li><strong>配置多因素冗余</strong>：如Authy+硬件密钥组合</li>
+<li><strong>建立逃生通道</strong>：至少设置两种恢复方式</li>
+<li><strong>实施分级保护</strong>：关键账户使用独立安全方案</li>
+<li><strong>定期安全审计</strong>：每半年检查一次认证体系</li>
+</ol>
+<blockquote>
+<p><strong>最后提醒</strong>：最危险的安全错觉就是&quot;这种事不会发生在我身上&quot;。请今天就开始行动，别等灾难降临</p>
+</blockquote>
+]]></content:encoded>
+    </item>
     <item>
       <title>在群晖里安装简单的笔记软件flatnotes</title>
       <link>https://tunan.org/posts/install-the-simple-note-taking-software-flatnotes-on-synology/</link>
