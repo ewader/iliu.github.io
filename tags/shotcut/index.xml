@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Shotcut on 老刘博客</title>
+    <link>https://iliu.org/tags/shotcut/</link>
+    <description>Recent content in Shotcut on 老刘博客</description>
+    <image>
+      <title>老刘博客</title>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.151.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 06 Dec 2019 02:37:53 +0000</lastBuildDate>
+    <atom:link href="https://iliu.org/tags/shotcut/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>推荐一款免费的视频剪辑软件shotcut</title>
+      <link>https://iliu.org/2914.html</link>
+      <pubDate>Fri, 06 Dec 2019 02:37:53 +0000</pubDate>
+      <guid>https://iliu.org/2914.html</guid>
+      <description>&lt;p&gt;跋涉者最近在弄另一个网站的时候，需要把一些长的视频剪辑成一个短的预览视频，这样没有权限看的人，只能看到短视频，而支付积分后则可以看完整的视频。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>跋涉者最近在弄另一个网站的时候，需要把一些长的视频剪辑成一个短的预览视频，这样没有权限看的人，只能看到短视频，而支付积分后则可以看完整的视频。</p>
+<p>由于以前一只没有用过此类的软件，因此要求这类软件越简单越好，越容易上手，学习成本越低最理想，可是找了不少，要不是收费的，价格很贵，要不软件很大，功能多的不知道如何下手，要不打开都是广告，一直没有找到理想的，最后，寻寻觅觅终于找到了这款比较满意的——shotcut。<figure class="wp-block-image size-large"></p>
+<p><img loading="lazy" decoding="async" width="1024" height="576" src="https://tunan.org/wp-content/uploads/2019/12/Shotcut-18.11.18-1024x576.png" alt="" class="wp-image-2915" srcset="https://tunan.org/wp-content/uploads/2019/12/Shotcut-18.11.18-1024x576.png 1024w, https://tunan.org/wp-content/uploads/2019/12/Shotcut-18.11.18-300x169.png 300w, https://tunan.org/wp-content/uploads/2019/12/Shotcut-18.11.18-768x432.png 768w, https://tunan.org/wp-content/uploads/2019/12/Shotcut-18.11.18-1536x865.png 1536w, https://tunan.org/wp-content/uploads/2019/12/Shotcut-18.11.18.png 1906w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure></p>
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+  <p>
+    Shotcut是一个免费的、开源的、跨平台的视频编辑器，适用于Windows、Mac和Linux。主要功能包括支持多种格式;不需要导入本地时间轴编辑;Blackmagic设计支持输入和预览监控;支持4k分辨率。
+  </p>
+  <p>
+  </p>
+</blockquote>
+<p>软件的官方网站： <a href="https://www.shotcut.org/">https://www.shotcut.org/</a></p>
+<p>软件不大，只有不到100M，但是该有的功能都有了。想要剪辑视频只要鼠标简单的点上几下，就能把视频剪辑到你想要的位置和时间。<figure class="wp-block-image size-large"></p>
+<p><img loading="lazy" decoding="async" width="1024" height="581" src="https://tunan.org/wp-content/uploads/2019/12/20191206090445-1024x581.png" alt="" class="wp-image-2916" srcset="https://tunan.org/wp-content/uploads/2019/12/20191206090445-1024x581.png 1024w, https://tunan.org/wp-content/uploads/2019/12/20191206090445-300x170.png 300w, https://tunan.org/wp-content/uploads/2019/12/20191206090445-768x436.png 768w, https://tunan.org/wp-content/uploads/2019/12/20191206090445.png 1269w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure></p>
+<p>如上图，想要简介一个视频，只需四步：</p>
+<ul class="wp-block-list">
+  <li>
+    第一步：点击打开文件，选择你要剪辑的视频
+  </li>
+  <li>
+    第二步：在时间轴哪里选择你要剪辑的位置。
+  </li>
+  <li>
+    第三步：点击输出。
+  </li>
+  <li>
+    第四步：点击输出文件
+  </li>
+</ul>
+<p>然后，系统会编译一会，时间和你电脑的配置以及你剪辑的视频长短有关。</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

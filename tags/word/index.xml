@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Word on 老刘博客</title>
+    <link>https://iliu.org/tags/word/</link>
+    <description>Recent content in Word on 老刘博客</description>
+    <image>
+      <title>老刘博客</title>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.151.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 14 Jan 2010 13:09:10 +0000</lastBuildDate>
+    <atom:link href="https://iliu.org/tags/word/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>介绍本人所用的软件——办公软件篇</title>
+      <link>https://iliu.org/462.html</link>
+      <pubDate>Thu, 14 Jan 2010 13:09:10 +0000</pubDate>
+      <guid>https://iliu.org/462.html</guid>
+      <description>&lt;p&gt;在前面&lt;a href=&#34;http://www.lghcx.info/2010/01/428.html&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;《介绍本人所用的软件–安全软件篇》&lt;/a&gt;给大家介绍了本人对安全软的理解，以及这么多年来使用电脑安全软件的心得体会，今天就给大家聊聊我所用的办公软件。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>在前面<a href="http://www.lghcx.info/2010/01/428.html" target="_blank" rel="noopener noreferrer">《介绍本人所用的软件–安全软件篇》</a>给大家介绍了本人对安全软的理解，以及这么多年来使用电脑安全软件的心得体会，今天就给大家聊聊我所用的办公软件。</p>
+<p>第一次接触文字处理软件是在大一的时候，当时有计算机课，当然那时候的条件远远没有达到现在视窗的水平，还是处于dos的时代，要运行中文的软件必须先进入到ucdos下，然后执行wps的命令，出来的就是一个字处理的软件。当时调出来这个软件的目的是为了学习打字。因此，wps是我接触最早的文字软件了。</p>
+<p>可惜是，科技的日新月异使得视窗系统很快就取代了dos，铺天盖地而来的就是随windows一起打包的office，其简洁的操作界面，友好的人机对话方式，使得offic很快得到了普及，好在，从dos下出身的在用视窗系统不会有很大的难度，这也是我也能习惯用Linux的原因，毕竟Linux比起dos来已经很是简单明了了。</p>
+<p>后来，金山继续开发的他的wps，我继续用我的office，知道2006年的时候，金山推出了它的免费版本，当时测试了以后发现打开office文件有些慢，也就不在使用了，然后2008年的黑屏事件让我改变了，经过试验发现，新版的wps完全可以取代office，其兼容性非常的好，而且还能直接打开office最新版本的文档，而不需要安装什么兼容包。这一点是oppenoffice、以及永中office远远比不上的。因此从此以后，我wps就是我的主流的办公软件。</p>
+<p>目前最新的版本是2009版的，送一个1g的在线存储空间，推荐使用！</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

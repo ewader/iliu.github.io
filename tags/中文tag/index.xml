@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>中文tag on 老刘博客</title>
+    <link>https://iliu.org/tags/%E4%B8%AD%E6%96%87tag/</link>
+    <description>Recent content in 中文tag on 老刘博客</description>
+    <image>
+      <title>老刘博客</title>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.151.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 09 Jan 2010 02:19:28 +0000</lastBuildDate>
+    <atom:link href="https://iliu.org/tags/%E4%B8%AD%E6%96%87tag/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>wordpress中文tag、中文分类找不到文章的解决方法</title>
+      <link>https://iliu.org/407.html</link>
+      <pubDate>Sat, 09 Jan 2010 02:19:28 +0000</pubDate>
+      <guid>https://iliu.org/407.html</guid>
+      <description>&lt;p&gt;原来用的linux的主机，在设定固定连接后不存在中文tag、中文分类找不到文章，但自从换了godaddy的windows主机以后，由于iis7对php支持不够好的原因，中文的tag，中文的分类等，就会找不到文章，比如：&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>原来用的linux的主机，在设定固定连接后不存在中文tag、中文分类找不到文章，但自从换了godaddy的windows主机以后，由于iis7对php支持不够好的原因，中文的tag，中文的分类等，就会找不到文章，比如：</p>
+<p>正常，能访问日志：www.example.com/?tag=中文</p>
+<p>不正常，不能访问日志：www.example.com/tag/中文 ；这是系统的原因，没有办法，但我们为了seo还必须启用固定链接，怎么办呢？整了上午，总算找到了解决的方案，而且支持目前的2.9.1版本！<figure class="content-img-box " id=""></p>
+<p><img decoding="async" alt="wordpress中文tag、中文分类找不到文章的解决方法" src="https://tunan.org/wp-content/uploads/2019/07/129c3de904bde5.jpg" id="0" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
+<p>网上有各种版本的解决方法：第一种是修改wp-includes/classes.php文件，这个方法可能在中文系统下有用，但是我在godaddy的主机上用这个方法，直接显示错误。所以这个方法是由局限性的。</p>
+<p>第二种方法：修改wp-includes/rewrite.php</p>
+<blockquote>
+<p>function get_tag_permastruct() {</p></blockquote>
+<blockquote>
+<p>if (isset($this-&gt;tag_structure)) {</p></blockquote>
+<blockquote>
+<p>return $this-&gt;tag_structure;</p></blockquote>
+<blockquote>
+<p>}</p></blockquote>
+<blockquote>
+<p>if (empty($this-&gt;permalink_structure)) { //—–this line need change——</p></blockquote>
+<blockquote>
+<p>$this-&gt;tag_structure = ”;</p></blockquote>
+<blockquote>
+<p>return false;</p></blockquote>
+<blockquote>
+<p>}</p></blockquote>
+<blockquote>
+<p>把第5行改为</p></blockquote>
+<pre class="ql-syntax" spellcheck="false"><span class="hljs-keyword">if</span> (!<span class="hljs-keyword">empty</span>(<span class="hljs-keyword">$this</span>-&gt;permalink_structure)) {
+</pre>
+<p>第三种方法：</p>
+<p>一个一劳永逸的解决方法，还不用修改源代码，去你的WordPress后台，到“设置”-“固定链接”里，在“标签前缀”</p>
+<p>里填上“?tag=”，这样，你点击文章中的中文tag时，自动打开了“www.example.com/?tag=中文”格式的页面，这样一来，你的tag就正常了。</p>
+<p>经过验证，后面两种方法可以完美解决这个问题。</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

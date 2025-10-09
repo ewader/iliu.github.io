@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>博客 on 老刘博客</title>
+    <link>https://iliu.org/tags/%E5%8D%9A%E5%AE%A2/</link>
+    <description>Recent content in 博客 on 老刘博客</description>
+    <image>
+      <title>老刘博客</title>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.151.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 28 Aug 2024 09:48:57 +0800</lastBuildDate>
+    <atom:link href="https://iliu.org/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>重新启航</title>
+      <link>https://iliu.org/posts/set-sail-again/</link>
+      <pubDate>Wed, 28 Aug 2024 09:48:57 +0800</pubDate>
+      <guid>https://iliu.org/posts/set-sail-again/</guid>
+      <description>既然缘法如此，就重新开始吧</description>
+      <content:encoded><![CDATA[<p>朋友们，老刘换新博客了，事情的原因是这样子的：</p>
+<p>在某年某月的某一天，老刘发现电脑有点不好用了，于是，就重置了一下电脑，并且没有保留软件和文档。所以，等老刘意识到还没有备份网站数据的时候，事情已经发生了，有看官要问了，你的网站数据难道是放在C盘了吗？这个说来就有点话长了。</p>
+<p>最初换成Hugo的时候，电脑是比较旧的一台电脑，装的是endeavouros，而且在Linux下，配置Hugo那不是一般的方便。后来把电脑进行了升级，就没有在装双系统。看了下Windows下配置git和Hugo的复杂性，老刘选择了启动Windows里带的子系统Ubuntu，所以，网站数据都存在那个Ubuntu这个子系统内。</p>
+<p>当老刘重置系统后，子系统也被重置了，我的数据也就随风飘散了。Hugo的好处在于本地和网络是两个不同的世界，所以我的网站是没有任何的问题，但是无法再进行更新了。也正是这个原因，换了Hugo后，对备份少了一丝敬畏之心。一个疏忽，就这样了。</p>
+<p>本来吧，有HTML的文件在，把这些文件重新转成md文件也是可以的，但是这样一来，网站的目录势必发生变化，后来想想，天下没有不散之宴席，任何事物都不开永远的存在，网站博客也是如此，这可能也是图南博客的缘法。所以，最后老刘的决定是把图南博客就放在那里好了，不再进行更新。</p>
+<p>新博客还是沿用流金岁月的名字吧，寓意博主对过去时光的珍视，表达了平淡的生活也自有记录的意义这个含义。</p>
+<p>枯木前头万木春，靠别老博客冗长的数据，也许是一件好事。新博客将以记录生活为主，折腾和一些私货为辅吧。</p>
+<p>最后的最后，希望大家都勤备份，格局大一些，昨天老刘仔细研究了一下Windows下安装git和Hugo也没有想象的那么复杂，所以，有时候告别自己的舒适圈还是有必要的。目前网站数据放在其他的盘了，并同步到群晖，由群晖加密同步到百度网盘，应该是有一些保证了。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Hugo-papermod主题的优化记录</title>
+      <link>https://iliu.org/posts/hugo-papermod-modification/</link>
+      <pubDate>Sat, 04 Nov 2023 21:30:05 +0800</pubDate>
+      <guid>https://iliu.org/posts/hugo-papermod-modification/</guid>
+      <description>&lt;p&gt;在上一篇文章中曾经说到把博客从WordPress转到了Hugo，经过这几天的使用，发现还是很不错的，用起来也比较方便。但是，在使用PaperMod主题的时候，也是遇到了一些问题，本文就遇到的问题作一个记录。目前，主题的代码高亮功能还是没有搞定，不过也是影响不大，先放一放也无所谓。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>在上一篇文章中曾经说到把博客从WordPress转到了Hugo，经过这几天的使用，发现还是很不错的，用起来也比较方便。但是，在使用PaperMod主题的时候，也是遇到了一些问题，本文就遇到的问题作一个记录。目前，主题的代码高亮功能还是没有搞定，不过也是影响不大，先放一放也无所谓。</p>
+<h3 id="首页不显示文章">首页不显示文章</h3>
+<p>把WordPress导出的md文件导入的Hugo的psots目录后，在使用代码创建新文件时候</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hugo new posts/***.md
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>发现新建的md文件，生成网页后不会在首页显示。但是在栏目里是会有的。后来的在@<a href="https://www.sharpgan.com/">阿甘博客</a>博客的提醒下，使用导出的md文件的文档属性标头，成功的显示了。但是，每次在生成文章md的时候，都需要手动的更改，不是太方便。后来，在看某篇文章的时候得到启发，修改archetypes/default.md,把默认的代码删除，改成：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">---
+</span></span><span class="line"><span class="cl">title: &#34;{{ replace .Name &#34;-&#34; &#34; &#34; | title }}&#34; 
+</span></span><span class="line"><span class="cl">author: 老刘
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">date: {{ .Date }}
+</span></span><span class="line"><span class="cl">url: /optics-weekly-issue-8/
+</span></span><span class="line"><span class="cl">categories:
+</span></span><span class="line"><span class="cl">  - 齐物
+</span></span><span class="line"><span class="cl">---
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>然后，再创建md文件后，只需要修改一下url里的值就OK了。</p>
+<h3 id="增加评论功能">增加评论功能</h3>
+<p>这个主要是copy了阿甘博客的方法。 在artalk的官方文档中找到<code>Artalk.css</code>和<code>Artalk.js</code>文件的cdn地址然后下载到本地，在hugo项目根目录的/static文件夹下面新建一个叫 artalk的文件夹，然后把前述两个静态文件放进这个文件夹</p>
+<p>创建模板文件 /主题目录/layouts/partials/comment/artalk.html，文件内容如下：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;link href=&#34;https://iliu.org/artalk/Artalk.css&#34; rel=&#34;stylesheet&#34;&gt;
+</span></span><span class="line"><span class="cl">&lt;script src=&#34;https://iliu.org/artalk/Artalk.js&#34;&gt;&lt;/script&gt;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">&lt;!-- Artalk --&gt;
+</span></span><span class="line"><span class="cl">&lt;div id=&#34;Comments&#34;&gt;&lt;/div&gt;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">&lt;script&gt;
+</span></span><span class="line"><span class="cl">  Artalk.init({
+</span></span><span class="line"><span class="cl">    el:        &#39;#Comments&#39;,
+</span></span><span class="line"><span class="cl">    pageKey:   &#39;{{ .Permalink }}&#39;,
+</span></span><span class="line"><span class="cl">    pageTitle: &#39;{{ .Title }}&#39;,
+</span></span><span class="line"><span class="cl">    server:    &#39;{{ $.Site.Params.artalk.server }}&#39;,
+</span></span><span class="line"><span class="cl">    site:      &#39;{{ $.Site.Params.artalk.site }}&#39;,
+</span></span><span class="line"><span class="cl">    // ...你的其他配置
+</span></span><span class="line"><span class="cl">  })
+</span></span><span class="line"><span class="cl">&lt;/script&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>文章页模板 /主题目录/layouts/_default/single.html 合适的位置添加：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;div class=&#34;article-comments&#34;&gt;
+</span></span><span class="line"><span class="cl">  {{- partial &#34;comment/artalk&#34; . -}}
+</span></span><span class="line"><span class="cl">&lt;/div&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>具体位置为<code>single.html</code>文件的{{- if (.Param “comments”) }}判断体中，完整的代码如下：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">{{- if (.Param &#34;comments&#34;) }}
+</span></span><span class="line"><span class="cl">  &lt;div class=&#34;article-comments&#34;&gt;
+</span></span><span class="line"><span class="cl">  {{- partial &#34;comment/artalk&#34; . -}}
+</span></span><span class="line"><span class="cl">&lt;/div&gt;
+</span></span><span class="line"><span class="cl">  {{- end }}
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>然后在 Hugo 配置文件中添加如下内容：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">params:
+</span></span><span class="line"><span class="cl">  artalk:
+</span></span><span class="line"><span class="cl">    server: &#39;https://artalk.sharpgan.com&#39;
+</span></span><span class="line"><span class="cl">    site: &#39;图南博客&#39;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>至于artalk的部署方法，可以用docker来部署，官方有详细的方法</p>
+<h3 id="不加载css和js">不加载CSS和JS</h3>
+<p>这个问题有点玄学，很多教程给出的答案都是去Cloudflare里修改，使优化不压缩js和CSS，但是在我这里没有效果。看了错误的提示好像是SHA-256完整性的检查不通过，浏览器阻塞了。 一般的解决办法是： 是要么关闭 SRI，要么取消 Cloudflare 的「Auto Minify」。 Cloudflare 关闭的方法：速度 - 优化 - Auto Minify。 在 Hugo 中关闭的方法：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">params:
+</span></span><span class="line"><span class="cl">  assets:
+</span></span><span class="line"><span class="cl">    disableFingerprinting: true
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>但是，在我这里怎么搞都没有用。 后来看到一个哥们的博客，网址我忘掉了，通过修改一个值，搞定了。 在 themes\PaperMod\layouts\partials 文件夹下找到一个 head.html 文件，发现里面确实有 integrity=&quot;{{ $stylesheet.Data.Integrity }}&quot; 这么一句代码，把它改为 integrity=&quot;&quot; 然后重新发布</p>
+<h3 id="代码高亮">代码高亮</h3>
+<p>这个我参考了阿甘和其他的一些文章，但是都没有成功，有时候有一点颜色，有时候一丢丢颜色也没有。我感觉可能是和物品修改了上面的那个head.html有关系。 然而，我的猜测是错误❌的，加上那个代码也没有用。然后我回复用官方的一个dome，发现是可以显示代码高亮的，仔细查看了我的配置文件和官方的配置文件的差别，发现是在设置代码高亮的那个地方，有一个选项不能是true，不然就不显示，太玄学了。 具体代码：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">highlight:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># anchorLineNos: true
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">noClasses: false
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># anchorLineNos: true
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">#codeFences: true
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">#guessSyntax: true
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">lineNos: true
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">style: monokai
+</span></span></code></pre></td></tr></table>
+</div>
+</div>]]></content:encoded>
+    </item>
+    <item>
+      <title>朋友们，博客改名加换域名了！</title>
+      <link>https://iliu.org/4399.html</link>
+      <pubDate>Sun, 21 May 2023 09:18:15 +0000</pubDate>
+      <guid>https://iliu.org/4399.html</guid>
+      <description>&lt;p&gt;流金岁月换域名，换博客名了 最近读《庄子》，对&lt;strong&gt;绝云气、负青天、然后图南&lt;/strong&gt;的大鹏很是羡慕，遂改博客名为图南博客，域名为https://tunan.org&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>流金岁月换域名，换博客名了 最近读《庄子》，对<strong>绝云气、负青天、然后图南</strong>的大鹏很是羡慕，遂改博客名为图南博客，域名为https://tunan.org</p>
+<p>有订阅老刘的同志们，麻烦改改链接哈</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>重新弄了下博客环境</title>
+      <link>https://iliu.org/3746.html</link>
+      <pubDate>Thu, 20 May 2021 09:30:37 +0000</pubDate>
+      <guid>https://iliu.org/3746.html</guid>
+      <description>&lt;p&gt;最近一段时间发现博客回复的时候一直显示提交中，不会跳转到评论成功的页面，以前也遇到过这种问题，基本上重启vps解决，但是这次貌似重启了也作用不大。&lt;figure class=&#34;wp-block-image size-large&#34;&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>最近一段时间发现博客回复的时候一直显示提交中，不会跳转到评论成功的页面，以前也遇到过这种问题，基本上重启vps解决，但是这次貌似重启了也作用不大。<figure class="wp-block-image size-large"></p>
+<p><a href="https://tunan.org/wp-content/uploads/2021/05/709ac9ab754c1c0.jpg"><img loading="lazy" decoding="async" width="800" height="320" src="https://tunan.org/wp-content/uploads/2021/05/709ac9ab754c1c0.jpg" alt="" class="wp-image-3747" srcset="https://tunan.org/wp-content/uploads/2021/05/709ac9ab754c1c0.jpg 800w, https://tunan.org/wp-content/uploads/2021/05/709ac9ab754c1c0-300x120.jpg 300w, https://tunan.org/wp-content/uploads/2021/05/709ac9ab754c1c0-768x307.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" /></a></figure></p>
+<p>以前还以为是我浏览器的问题，所以也就没有太在意，而且吧，这个问题时有时无。前两天，有博友也问道老刘这个问题，是否评论成功，才意识到可能不是我的问题。</p>
+<p>研究了一下也没有什么头绪，只能说明自己太菜。后来想到当初偷懒加瞅便宜，趁着双11活动的时候的时候买了个urlos的授权。当时装上这个面板后，懒得再改别的，就一直用了下去，还写过一篇《<a href="https://tunan.org/3597.html">试用urlos</a>》的文章，要说这个面板的理念很超前，但是使用起来还是有一丢丢的不方便。只是懒得改了，就一直用到现在。现在看来是时候弃用了。</p>
+<p>本来还想试用一下小皮面板，但是装上后直接打不开，也懒得再付出时间来找问题的所在了。直接还是用自己最熟悉的oneinstack好了。</p>
+<p>用了差不多两个来小时编译环境，重新部署博客后，也不知道是不是错觉，感觉速度有了那么一丢丢的快。难道php8.0这么牛叉？</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>博客改名字了</title>
+      <link>https://iliu.org/3018.html</link>
+      <pubDate>Sat, 18 Jan 2020 08:20:51 +0000</pubDate>
+      <guid>https://iliu.org/3018.html</guid>
+      <description>&lt;p&gt;全年5月份左右开始把个人博客独立出来，当时也不知道起个什么名字好，就姑且叫做跋涉者了，半年过去了，发现也没有什么好跋涉的。所记录的也仅仅是如流水的匆匆岁月。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>全年5月份左右开始把个人博客独立出来，当时也不知道起个什么名字好，就姑且叫做跋涉者了，半年过去了，发现也没有什么好跋涉的。所记录的也仅仅是如流水的匆匆岁月。</p>
+<p>因此，决定把博客的名字改成流金岁月了，流通刘，意思是记录老刘经历的那些事。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>做博客比做网站难</title>
+      <link>https://iliu.org/851.html</link>
+      <pubDate>Mon, 23 Aug 2010 04:14:49 +0000</pubDate>
+      <guid>https://iliu.org/851.html</guid>
+      <description>&lt;p&gt;华彩亲子博客从建站到现在也有8个月了吧，发现做博客比做网站要难很多。&lt;br&gt;
+首先，搜索引擎收录的慢，到现在百度收录的还大部分都是垃圾的东西，并没有形成有效的流量，Google倒是收录的挺快，而且目前的流量也大部分是从GOOGLE来的，但是毕竟在中国不是主流，做了8个月，IP每天突破不了100，是做这么长时间的网站从来没有遇到过的，以前随便做个网站，一个月内IP达到200多是很正常的，以前自己做的公文网，4个月IP都已经是3000了，和现在比起来真是不能同日而语啊。虽然这个博客不是为了流量而建立的。&lt;br&gt;
+第二、关注度不够，可能是和自己的选的主题有关系，毕竟是为自己的女儿做的博客，孩子还是自己的好，所以别人不会怎么关注俺的小贝吧。&lt;br&gt;
+第三，可能也是和免费空间有关系吧，无所谓了。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>华彩亲子博客从建站到现在也有8个月了吧，发现做博客比做网站要难很多。<br>
+首先，搜索引擎收录的慢，到现在百度收录的还大部分都是垃圾的东西，并没有形成有效的流量，Google倒是收录的挺快，而且目前的流量也大部分是从GOOGLE来的，但是毕竟在中国不是主流，做了8个月，IP每天突破不了100，是做这么长时间的网站从来没有遇到过的，以前随便做个网站，一个月内IP达到200多是很正常的，以前自己做的公文网，4个月IP都已经是3000了，和现在比起来真是不能同日而语啊。虽然这个博客不是为了流量而建立的。<br>
+第二、关注度不够，可能是和自己的选的主题有关系，毕竟是为自己的女儿做的博客，孩子还是自己的好，所以别人不会怎么关注俺的小贝吧。<br>
+第三，可能也是和免费空间有关系吧，无所谓了。</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

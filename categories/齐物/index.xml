@@ -1,0 +1,1760 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>齐物 on 老刘博客</title>
+    <link>https://iliu.org/categories/%E9%BD%90%E7%89%A9/</link>
+    <description>Recent content in 齐物 on 老刘博客</description>
+    <image>
+      <title>老刘博客</title>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.151.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 02 Oct 2025 10:33:29 +0800</lastBuildDate>
+    <atom:link href="https://iliu.org/categories/%E9%BD%90%E7%89%A9/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu24.04安装Windterm</title>
+      <link>https://iliu.org/ubuntu-24-04-install-windterm/</link>
+      <pubDate>Thu, 02 Oct 2025 10:33:29 +0800</pubDate>
+      <guid>https://iliu.org/ubuntu-24-04-install-windterm/</guid>
+      <description>&lt;p&gt;经过这一段时间的使用Linux，我发现确实是可以满足我日常的使用。系统也流畅，再没有了之前使用Windows 11的时候偶尔的卡顿，决定长期使用了。既然要长期使用那么EndeavourOS就不是太适合了，毕竟这个以Archlinux为基础的系统，追求的是新而不是稳定。所以我决定换成Ubuntu，而之前科学软件换了一款之后，影响我使用的因素也不存在了。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>经过这一段时间的使用Linux，我发现确实是可以满足我日常的使用。系统也流畅，再没有了之前使用Windows 11的时候偶尔的卡顿，决定长期使用了。既然要长期使用那么EndeavourOS就不是太适合了，毕竟这个以Archlinux为基础的系统，追求的是新而不是稳定。所以我决定换成Ubuntu，而之前科学软件换了一款之后，影响我使用的因素也不存在了。</p>
+<p>换了Ubuntu之后，我常用的微信，wps，anytype等软件都有deb的安装包，只有windterm是源码的形式。没法直接点击安装，当然，可以在终端中用命令直接打开，但是不是很方便。找了一下网上的方法，也没有能很好的解决，最终还是借助ai,才安装成功。如下：</p>
+<h2 id="下载">下载</h2>
+<p>在这里下载最新的源码：<a href="https://github.com/kingToolbox/WindTerm?ref=iliu.org">https://github.com/kingToolbox/WindTerm</a></p>
+<h2 id="安装">安装</h2>
+<p>首先在opt下建立一个叫windterm的文件夹，把刚才下载的源代码解压复制过去。然后按下列步骤进行：</p>
+<h3 id="1-给可执行权限">1. 给可执行权限</h3>
+<p>进入目录，确保主程序能运行：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> /opt/windterm 
+</span></span><span class="line"><span class="cl">sudo chmod +x WindTerm
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">/opt/windterm/WindTerm
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>如果能启动，就说明没有问题</p>
+<h3 id="建立软链接让你直接用-windterm-启动可选">建立软链接（让你直接用 windterm 启动）（可选）</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo ln -s /opt/windterm/WindTerm /usr/local/bin/windterm
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">windterm
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>之后在终端输入这个命令，就能直接用了</p>
+<h3 id="创建桌面图标应用菜单里显示">创建桌面图标（应用菜单里显示）</h3>
+<p>新建一个 .desktop 文件：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo nano /usr/share/applications/windterm.desktop
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>输入以下内容：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ini" data-lang="ini"><span class="line"><span class="cl"><span class="k">[Desktop Entry]</span>
+</span></span><span class="line"><span class="cl"><span class="na">Name</span><span class="o">=</span><span class="s">WindTerm</span>
+</span></span><span class="line"><span class="cl"><span class="na">Exec</span><span class="o">=</span><span class="s">/opt/windterm/WindTerm</span>
+</span></span><span class="line"><span class="cl"><span class="na">Icon</span><span class="o">=</span><span class="s">/opt/windterm/windterm.png</span>
+</span></span><span class="line"><span class="cl"><span class="na">Type</span><span class="o">=</span><span class="s">Application</span>
+</span></span><span class="line"><span class="cl"><span class="na">Categories</span><span class="o">=</span><span class="s">Utility;TerminalEmulator;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>保存并退出。然后刷新数据库：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo update-desktop-database
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>现在你就可以在应用菜单里找到 <strong>WindTerm</strong> 了。</p>
+<p>ubuntu-24-04-install-windterm</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>从 Windows 到 Linux：重新体验的过程与心得</title>
+      <link>https://iliu.org/from-windows-to-linux-the-process-and-insights-of-re-experiencing/</link>
+      <pubDate>Tue, 23 Sep 2025 10:13:07 +0800</pubDate>
+      <guid>https://iliu.org/from-windows-to-linux-the-process-and-insights-of-re-experiencing/</guid>
+      <description>&lt;p&gt;几年前，我使用过一段时间Linux，后来因为没有官方的微信客户端，并且每三个月需要报税的软件只能在Windows上使用，所以我放弃了Linux，转而使用了Windows 11，过了几年，便懒得再折腾。最近，电脑偶尔会出现卡顿的情况，每次都需要重启才能解决。我曾经重置过系统，但问题依然没有得到彻底解决。恰好，我看到某位博友写的主力使用Ubuntu24的博客，因此，我决定重新尝试使用Linux，毕竟我的电脑使用场景非常简单，除了偶尔报税，其它基本需求都能在Linux下实现。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>几年前，我使用过一段时间Linux，后来因为没有官方的微信客户端，并且每三个月需要报税的软件只能在Windows上使用，所以我放弃了Linux，转而使用了Windows 11，过了几年，便懒得再折腾。最近，电脑偶尔会出现卡顿的情况，每次都需要重启才能解决。我曾经重置过系统，但问题依然没有得到彻底解决。恰好，我看到某位博友写的主力使用Ubuntu24的博客，因此，我决定重新尝试使用Linux，毕竟我的电脑使用场景非常简单，除了偶尔报税，其它基本需求都能在Linux下实现。</p>
+<h3 id="我的需求">我的需求</h3>
+<ol>
+<li>写博客：主要使用思源笔记。</li>
+<li>上网：浏览网页，查找资料。</li>
+<li>微信：官方已经出了客户端，体验基本上和Windows上一致</li>
+<li>偶尔结合AI写点小程序：一些简单的开发任务。</li>
+<li>每三个月报税一次：这一点只能在Windows下实现。</li>
+</ol>
+<p>对于我来说，Linux完全可以满足上述需求，除了报税以外，其他都可以在Linux上顺利完成。</p>
+<h3 id="选择发行版">选择发行版</h3>
+<p>我尝试过几个Linux发行版，分别是：</p>
+<ul>
+<li>Deepin：虽然其界面精美，但安装过程中出现了问题——将系统烧录到U盘后，安装时屏幕闪烁，无法正常安装，因此我放弃了。</li>
+<li>Ubuntu：安装没有问题，系统也非常流畅。不过，由于Snap源中有些软件版本过低，且GitHub上没有直接的deb包，我在使用“科学”时遇到了些许麻烦。同时，安装WPS时，还需要去Windows系统中搞字体，非常繁琐。</li>
+<li>EndeavourOS：最终我选择了EndeavourOS，使用GNOME桌面环境。这个发行版的软件更新较为及时，且桌面体验与Ubuntu非常相似。安装和使用都非常顺利，整体性能也非常好。</li>
+</ul>
+<h3 id="安装过程">安装过程</h3>
+<p>现在Linux的安装已经变得非常简单。回想起1999年左右的那段日子，记得我有个室友想尝试安装Linux，结果不但没有成功，还把硬盘搞得无法识别，最后不得不花钱请人来重新分区。现在的安装过程就简单得多了。</p>
+<p>我的分区方案如下：</p>
+<ul>
+<li>Snap分区：8GB</li>
+<li>EFI分区：4GB（其实EFI不需要这么大，分区时手滑多了个0，结果就这样了）</li>
+<li>系统分区：80GB</li>
+<li>Home分区：剩余的全部分配给了Home</li>
+</ul>
+<p>安装过程也非常简便，选择在线安装后，可以根据需要选择桌面环境。分区完后，只需要按照提示操作就能完成安装。</p>
+<h3 id="安装后的使用">安装后的使用</h3>
+<p>安装完成后，我就开始配置常用软件了。以下是我目前使用的一些软件：</p>
+<ol>
+<li>微信：archlinux安装软件现在是非常的方便了，直接用yay命令，省去了到处找软件的步骤，这也是很多人使用Arch Linux的原因。</li>
+<li>思源笔记：写博客、做笔记时使用，功能强大且稳定。</li>
+<li>SSH客户端（WindTerm）：这是我在Windows下也常用的工具，功能全面，非常推荐。</li>
+<li>小狼毫输入法（RIM）：为Linux提供了中文输入支持，配合雾凇拼音方案，和Windows下体验一致</li>
+<li>Edge、Chrome浏览器：Microsoft的浏览器在Linux下也运行流畅。</li>
+<li>WPS：在Linux上安装WPS办公套件，安装时需要同时安装相关字体，方便使用。</li>
+</ol>
+<p>例如，如果要安装微信，只需要在终端输入以下命令：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">yay wechat
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>然后按照提示选择你要安装的软件即可，比macOS和Windows上的软件安装要简单得多。这是我安装完成后的截图：</p>
+<p><img loading="lazy" src="https://s2.l22.org/%E6%88%AA%E5%9B%BE%202025-09-23%2009-12-41.png"></p>
+<h3 id="总结">总结</h3>
+<p>Linux的安装和使用已经变得越来越方便，尤其是对于像我这样需求简单的用户。通过选择EndeavourOS和GNOME桌面，我可以顺利完成日常的写作、上网、使用微信、开发小程序等任务。虽然报税这一场景仍然需要依赖Windows，但除此之外，Linux已经足够满足我的工作和生活需求。</p>
+<p>如果你也是个需求简单的用户，或许可以考虑尝试Linux系统。无论是安装过程的简便，还是软件的丰富性，都能给你带来不小的惊喜。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>解决腾讯 EdgeOne 域名解析与 SSL 证书申请失败问题</title>
+      <link>https://iliu.org/troubleshooting-tencent-edgeone-a-dnssec-odyssey/</link>
+      <pubDate>Tue, 16 Sep 2025 10:37:19 +0800</pubDate>
+      <guid>https://iliu.org/troubleshooting-tencent-edgeone-a-dnssec-odyssey/</guid>
+      <description>&lt;hr&gt;
+&lt;p&gt;前几个月，我关注到腾讯新推出的 &lt;strong&gt;EdgeOne&lt;/strong&gt; 服务。这款产品无需备案和实名，而且提供免费额度，对于个人网站来说非常友好。刚发布时兑换码一码难求，我并没有太多关注。后来，腾讯推出了一个活动，只要在 X（原 Twitter）上转发推文，就能获得两个兑换码。我成功领取并兑换了一个，并将其用于我的“镜缘轩”网站。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<hr>
+<p>前几个月，我关注到腾讯新推出的 <strong>EdgeOne</strong> 服务。这款产品无需备案和实名，而且提供免费额度，对于个人网站来说非常友好。刚发布时兑换码一码难求，我并没有太多关注。后来，腾讯推出了一个活动，只要在 X（原 Twitter）上转发推文，就能获得两个兑换码。我成功领取并兑换了一个，并将其用于我的“镜缘轩”网站。</p>
+<p>我的“镜缘轩”网站部署在 CloudCone 的 VPS 上，访问速度一直不尽如人意。接入 EdgeOne 后，网站速度有了显著提升，这让我决定将我的博客也套上这个服务。</p>
+<h3 id="域名解析遇到的第一个问题cname-扁平化">域名解析遇到的第一个问题：CNAME 扁平化</h3>
+<p>在将博客主域名 <code>iliu.org</code> 通过 <strong>CNAME</strong> 解析到 EdgeOne 提供的地址后，我发现 EdgeOne 无法识别解析成功。奇怪的是，“镜缘轩”网站的解析过程却非常顺利。</p>
+<p>经过一番排查，我发现问题出在 Cloudflare 的 **CNAME 扁平化（CNAME Flattening）**功能上。由于我的博客使用的是主域名，而 Cloudflare 的免费套餐又不支持自定义 NS 地址，它的 CNAME 扁平化技术导致 EdgeOne 无法正确识别解析。我决定将域名从 Cloudflare 转移出去。</p>
+<h3 id="域名转移与-dnssec-冲突">域名转移与 DNSSEC 冲突</h3>
+<p>我选择了之前用过的 <strong>Name.com</strong> 作为新的域名注册商。虽然转移费用比 Cloudflare 略贵，但我也能接受。现在想来，当时没有做更多功课，如果选择了 <strong>Spaceship</strong>，或许会是更好的选择。</p>
+<p>域名转移到 Name.com 后，EdgeOne 成功识别了 CNAME 解析。然而，我又遇到了新的问题：<strong>SSL 证书申请一直失败</strong>。</p>
+<p>我仔细研究了失败原因，发现一些海外的 <strong>DNS 服务器</strong>无法正常解析我的域名。我以为是 DNS 记录同步需要时间，便没有多想。但等了一周后，美国和欧洲的一些 DNS 服务器依然无法解析我的域名。</p>
+<h3 id="问题根源dnssec-签名记录冲突">问题根源：DNSSEC 签名记录冲突</h3>
+<p>为了找到问题的根源，我向 Gemini 寻求帮助。它建议我使用 <code>dig</code> 命令进行分析。我在终端输入了以下命令：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">dig iliu.org A @8.8.8.8
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>获得的查询结果显示 <code>status: SERVFAIL</code>，并在 <code>EDE</code> 部分提示：<code>10 (RRSIGs Missing)</code>。Gemini 根据这个结果判断，问题出在我的域名 <code>iliu.org</code> 的 <strong>DNSSEC 签名记录配置</strong>上。</p>
+<p>原来，我在 Cloudflare 启用过 DNSSEC，这在 <code>.org</code> 域名注册局（如 Afilias）留下了一个 <strong>DS (Delegation Signer)</strong>  记录。这个记录告诉解析器：“这个域名启用了 DNSSEC，请去其权威 DNS 服务器（也就是 Name.com 的服务器）验证签名。”</p>
+<p>然而，Name.com 本身<strong>不支持 DNSSEC</strong>。这就导致了矛盾：注册局要求用 DNSSEC 验证，但 Name.com 却无法提供。因此，当海外的 DNS 服务器尝试进行验证时，就会导致解析失败。与此同时，中国大陆和亚洲的一些 DNS 服务器可能由于配置更宽松，所以可以正常解析。</p>
+<p>找到问题根源后，我立即登录 Name.com 的后台，找到了 <strong>DNSSEC 设置</strong>并删除了 <strong>DS 记录</strong>。几分钟后，EdgeOne 成功申请了 SSL 证书，困扰我多日的难题也迎刃而解。</p>
+<p>希望我的这段经历能帮助遇到类似问题的朋友们少走弯路！</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>折腾杀毒软件的一点感想</title>
+      <link>https://iliu.org/thoughts-on-struggling-with-antivirus-software/</link>
+      <pubDate>Wed, 27 Aug 2025 09:09:49 +0800</pubDate>
+      <guid>https://iliu.org/thoughts-on-struggling-with-antivirus-software/</guid>
+      <description>&lt;p&gt;前几天，我一直在折腾各种杀毒软件。事情的起因，是一个熟人单位里发生的一起网络诈骗。单位里一位员工因为点击了不明链接，不小心中毒，黑客随即接管了他的钉钉账号。接下来就是老套路：建群、拉人、冒充发工资补贴，让大家输入银行卡号。可别小看这招，受害的人不少，听说损失最大的一位，损失相当的严重。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>前几天，我一直在折腾各种杀毒软件。事情的起因，是一个熟人单位里发生的一起网络诈骗。单位里一位员工因为点击了不明链接，不小心中毒，黑客随即接管了他的钉钉账号。接下来就是老套路：建群、拉人、冒充发工资补贴，让大家输入银行卡号。可别小看这招，受害的人不少，听说损失最大的一位，损失相当的严重。</p>
+<p>这件事让我再次意识到，网络安全并不是一个遥远的概念，而是真实发生在身边的风险。尤其最近“银狐木马”在网上泛滥，更让我觉得杀毒软件的重要性不容忽视。</p>
+<h3 id="为什么折腾杀毒软件">为什么折腾杀毒软件？</h3>
+<p>很多人都说现在病毒少了，而且Windows自带的杀毒软件也足够了，说实话，现在很多新型木马的第一步，就是要绕过 Windows Defender，所以单纯依赖 WD，并不能让人放心。这几天，我几乎把主流的杀毒软件都试了一遍：</p>
+<ul>
+<li><strong>腾讯 IOA 基础版</strong>：资源占用少，系统流畅；智能弹窗过滤很安静；没有广告；还能后台一键部署到家里的几台电脑；关键是免费（能免费部署500台），而且是腾讯重点发展的项目，检测能力还行，其出身让人感觉不如360等专业的杀毒软件让人心安。</li>
+<li><strong>360 企业安全云</strong>：基础功能免费，也没有广告，功能不少，检测能力强，但卸载体验实在糟糕。卸载麻烦不说，卸载后，还会帮你装回 360 卫士，让人心生反感，我都卸载没有广告的了，你自动再帮我装个有广告的，我图啥？而且是强制安装，就这一点，PASS掉。</li>
+<li><strong>Avast 免费版</strong>：国外口碑不错，优势是带有免费防火墙，但更新速度不算快，误报率也有点高。其实也不能太怪它，因为国内的一些软件，或多或少的都有一些小动作，被拦截也很正常。这个杀毒软件是免费杀毒里唯一带防火墙的，缺点是有广告，虽然可以去除，但是也有点不爽。</li>
+<li><strong>ESET Internet Security</strong>：老牌杀软，轻巧干净，但价格摆在那儿。具卡饭的网友反馈，监控有漏毒的可能，这里是指，扫描可以扫描出来病毒，但是双击文件，可能不会报毒。</li>
+<li><strong>卡巴斯基</strong>：检测能力全面，没有短板，但资源占用相对大些。另外就是收费。</li>
+<li><strong>火绒</strong>：国产小而美，流畅度极佳，但缺少云查杀和主动防御方面的深度。</li>
+<li><strong>McAfee</strong>：流畅，但是不要做全盘扫描，这会卡的怀疑人生。但是缺点是基本上依赖云，但是国内可能连接不畅，导致防护不足。</li>
+</ul>
+<p>比较下来，我最后还是选择了 IOA。它虽然不是最强的，但综合体验最符合我自己的需求：安静、省心、流畅。</p>
+<h3 id="simplewall一个小而美的补充">Simplewall：一个小而美的补充</h3>
+<p>除了杀毒软件，我还加装了 <strong>Simplewall</strong>。它是一个体积很小的开源防火墙工具。Windows 自带的防火墙其实功能不少，但问题在于：</p>
+<ul>
+<li>界面不够直观，普通用户很难看懂规则；</li>
+<li>程序联网时，默认不会给出提示，需要手动配置，体验不友好。</li>
+</ul>
+<p>Simplewall 就很好地弥补了这些弱点：</p>
+<ul>
+<li>程序要联网时会有明确提示，让你自己决定放行还是阻止；</li>
+<li>界面简洁清晰，不复杂；</li>
+<li>开源、轻量，不拖慢系统。</li>
+</ul>
+<p>它和 IOA 这样的杀毒软件搭配起来，就能形成一个比较完整的防护：杀毒软件负责查杀和行为监控，防火墙负责把好“出入口”。</p>
+<h3 id="杀毒软件不是万能的">杀毒软件不是万能的</h3>
+<p>不过话要说回来，<strong>杀毒软件和防火墙再好，也不是万能的</strong>。很多病毒、木马、诈骗，并不是靠技术，而是靠人性的弱点来得手。那位点击不明链接的员工，如果当时多想一步，也许就不会上当。换句话说，安全软件只能帮你“兜底”，真正的安全，还是靠我们每个人自己的习惯：</p>
+<ol>
+<li><strong>软件下载要谨慎</strong>：只去官网下载，不要随便在搜索引擎里点广告链接下载。最好检查安装包的数字签名，确认来源可靠。</li>
+<li><strong>不要轻信陌生链接</strong>：尤其是在聊天软件、邮件里出现的所谓“补贴”“通知”“优惠”，先验证，再点击。</li>
+<li><strong>双重验证很重要</strong>：能开二次验证（手机短信、动态验证码）的账号，都要打开。即便密码泄露，也能挡住一部分攻击。</li>
+<li><strong>定期更新系统和软件</strong>：很多漏洞攻击就是利用过时的系统和程序，及时更新比装十个杀毒软件都管用。</li>
+<li><strong>保持怀疑</strong>：网络世界里，凡是听起来“好得不真实”的信息，十有八九是陷阱。</li>
+</ol>
+<h3 id="写在最后">写在最后</h3>
+<p>就在写这篇文章之前，博客圈里一位群友分享了他的经历：他在搜索引擎里搜“钉钉下载”，结果下载了一个带病毒的安装包，安装后直接中招。其实，这样的坑很多人都踩过。这也再次提醒我们，除了谨慎之外，装一款靠谱的安全软件，配合合适的防火墙，依然是必要的。</p>
+<p>没有哪一款软件能保证“绝对安全”，但我们至少能通过选择合适的工具，加上良好的上网习惯，把风险降到最低。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>开箱｜媳妇的华为 Watch Fit 4</title>
+      <link>https://iliu.org/wifes-huawei-watch-fit-4/</link>
+      <pubDate>Sun, 24 Aug 2025 09:06:43 +0800</pubDate>
+      <guid>https://iliu.org/wifes-huawei-watch-fit-4/</guid>
+      <description>&lt;p&gt;妇前段时间去南京学习，回来跟我说起一件事：她的同学戴的手表居然能直接接打电话。她说起的时候眼神里有点心动。她平常其实不太喜欢戴这些东西，更结婚没多久的时候，说想要一块手表，也就戴了一段时间，就收藏了起来了。前几年给她买了一只荣耀手环 7，她戴过一阵子，后来也不戴了。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>妇前段时间去南京学习，回来跟我说起一件事：她的同学戴的手表居然能直接接打电话。她说起的时候眼神里有点心动。她平常其实不太喜欢戴这些东西，更结婚没多久的时候，说想要一块手表，也就戴了一段时间，就收藏了起来了。前几年给她买了一只荣耀手环 7，她戴过一阵子，后来也不戴了。</p>
+<p>之所以现在又提出来，大概是和她最近工作有关，最近她们科新开了中医护理门诊，有不少患者是冲着她的刮痧来的，所以有时候满手都是刮痧油的情况下，有电话进来的时候，再取手机确实也不太方便。</p>
+<p>于是我在京东上搜了一下。没想到就发现了华为 <strong>Watch Fit 4</strong> ——白色的表带，颜值简洁大方，价格也不算离谱，不到 800 块钱（如果有国补的情况下，还能便宜不少）。几乎一下就戳中了她的需求，于是毫不犹豫下单。</p>
+<hr>
+<h2 id="开箱过程">开箱过程</h2>
+<p>快递很快，盒子不大，正面是手表的渲染图。拆开之后，里面的东西也很简单：</p>
+<ul>
+<li>手表本体</li>
+<li>白色硅胶表带（已经装好）</li>
+<li><strong>充电线</strong></li>
+<li>使用说明书</li>
+</ul>
+<p><img loading="lazy" src="https://iliu.org/content/images/2025/08/huawei16_15_50.png"></p>
+<p>说实话，这条 <strong>充电线</strong>还挺让我惊艳的。磁吸式的圆形接口，简洁又顺滑，质感比之前那些“夹子式”的手环充电器好太多。小细节里能看出这款手表的精致感。</p>
+<hr>
+<h2 id="上手体验">上手体验</h2>
+<p>手表拿在手里的第一感觉是：比想象中要轻。媳妇戴在手腕上，明显比之前那只黑色的荣耀手环要亮眼许多（钱花到哪，哪就好看，😅），白色的表带很衬肤色，整个人气质一下就柔和了。</p>
+<p>开机之后，和她的华为手机一连，就能马上同步信息。最让她开心的，是终于能<strong>直接接打电话</strong>了。对她来说，这可能才是最重要的。</p>
+<hr>
+<h2 id="功能亮点">功能亮点</h2>
+<p>除了接打电话，Watch Fit 4 还有不少实用功能：</p>
+<ul>
+<li><strong>健康监测</strong>：心率、血氧、睡眠监测都很完整，数据在手机上能直观查看。</li>
+<li><strong>运动模式</strong>：支持多种运动追踪，跑步、骑行、健身都有，还能记录消耗和心率区间。</li>
+<li><strong>表盘多样化</strong>：媳妇换了几个表盘，发现风格很多，既能走简约路线，也能搞点可爱的元素。</li>
+<li><strong>消息提醒</strong>：微信、短信通知都能第一时间看到，不再担心错过重要消息。</li>
+<li><strong>快充电池</strong>：充电效率很快，哪怕临时出门前充十几分钟，也能用上一整天。</li>
+<li><strong>情绪管理：</strong> 据说可以监控情绪，我和她开玩笑，以后我都要先看一下你的手表再决定如何和你说话，要是情绪不好，我就离你远点😄。</li>
+</ul>
+<p>这些功能未必每一个都用得上，但有总比没有强。而且手表操作顺畅，界面清晰，没有多余复杂的东西。</p>
+<hr>
+<h2 id="我的感受">我的感受</h2>
+<p>智能手表这种东西，其实功能大同小异。之前那只黑色的手环，除了不能进行通话之外，其实也基本能满足她的要求。只不过一是颜值不好看了，另外就是和手机不是同一品牌还需要另外安装APP，会出现后台杀死App,导致来信息后手环不显示显示的问题。现在这只 Watch Fit 4，颜值到位，功能正好击中需求，我估计她能坚持戴一段时间。</p>
+<p>对我来说，800 块买一个媳妇真正喜欢、愿意戴的手表，也能提供不错的情绪价值。</p>
+<hr>
+<h2 id="小结">小结</h2>
+<p>这次开箱算不上什么大件，但对媳妇来说，却是生活里一个小惊喜。她戴上手表的时候笑了笑，说“比手环好看多了”。</p>
+<p>我想，这就是所谓的“刚刚好”。</p>
+<p>wifes-huawei-watch-fit-4</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Ghost 博客与 Mailgun 邮件服务申请全流程</title>
+      <link>https://iliu.org/complete-setup-process-for-ghost-blog-and-mailgun-email-service/</link>
+      <pubDate>Sun, 10 Aug 2025 08:34:35 +0800</pubDate>
+      <guid>https://iliu.org/complete-setup-process-for-ghost-blog-and-mailgun-email-service/</guid>
+      <description>&lt;p&gt;Ghost 的邮件系统与 Mailgun 深度集成，如果想要在 Ghost 上实现邮件订阅、密码找回、通知等功能，申请一个 Mailgun 账户几乎是必选项。好消息是——Mailgun 已经恢复免费套餐，每天可发送 100 封邮件，对个人博客来说完全够用，而且现在&lt;strong&gt;验证信用卡不再是必需&lt;/strong&gt;。坏消息是——Mailgun 的风控依然非常严格，尤其是中国大陆用户，注册和解封过程可能会比较“曲折”。下面是我亲身踩坑并最终申请成功的全过程，希望能帮到你。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Ghost 的邮件系统与 Mailgun 深度集成，如果想要在 Ghost 上实现邮件订阅、密码找回、通知等功能，申请一个 Mailgun 账户几乎是必选项。好消息是——Mailgun 已经恢复免费套餐，每天可发送 100 封邮件，对个人博客来说完全够用，而且现在<strong>验证信用卡不再是必需</strong>。坏消息是——Mailgun 的风控依然非常严格，尤其是中国大陆用户，注册和解封过程可能会比较“曲折”。下面是我亲身踩坑并最终申请成功的全过程，希望能帮到你。</p>
+<hr>
+<h2 id="1-中国大陆能正常访问但注册有坑">1. 中国大陆能正常访问，但注册有坑</h2>
+<p>Mailgun 官网在中国大陆是可以直接打开的，但注册过程中会遇到两个大坑：</p>
+<ol>
+<li><strong>不挂梯子 → 验证码加载不出来</strong>注册页的验证根本就不显示，导致注册按钮点不动。</li>
+<li><strong>挂了梯子 → 手机号与 IP 不匹配触发风控</strong>注册时需要验证手机号，如果你的 IP 地址（梯子出口）与手机号所在地区不一致，就很容易被判定为风险账号，触发临时封禁。</li>
+</ol>
+<hr>
+<h2 id="2-常见问题与解决方法">2. 常见问题与解决方法</h2>
+<h3 id="收不到验证码">收不到验证码</h3>
+<ul>
+<li>
+<p>进入 <a href="https://help.mailgun.com/hc/en-us/requests/new?ref=iliu.org">Mailgun 工单系统</a></p>
+</li>
+<li>
+<p>类别选择 <strong>Account Management</strong></p>
+</li>
+<li>
+<p>标题示例：I can&rsquo;t verify my email</p>
+</li>
+<li>
+<p>内容示例：I can&rsquo;t verify my email because I clicked the link to enter my mobile phone number, and when I sent the verification code, it reminded me that I sent too many times and other reminders.
+This is my phone number: +86 XXX XXXX XXXX</p>
+<p>把 XXX XXXX XXXX 换成你自己的手机号即可。（英文机翻没关系，客服看得懂，实测有效）</p>
+</li>
+</ul>
+<hr>
+<h3 id="账号被临时锁定">账号被临时锁定</h3>
+<p>错误提示：Your account is temporarily disabled. (Account disabled)
+Please contact support to resolve.</p>
+<p>可以给客服发一封说明邮件（或直接在工单提交），核心是解释你是正常用途、愿意配合验证、并说明中国大陆网络环境的特殊性。<strong>参考邮件模板：</strong> Request for Account Review and Reactivation</p>
+<p>Hello Mailgun Support Team,</p>
+<p>My account was disabled shortly after registration with the message:
+&ldquo;Your account is temporarily disabled. (Account disabled) Please contact support to resolve.&rdquo;
+I believe this may have been triggered by the automated fraud prevention system.</p>
+<p>I am located in mainland China, where network routing and IP geolocation may sometimes cause unusual patterns in automated checks.</p>
+<p>My intended usage is legitimate:</p>
+<ul>
+<li>Purpose: Sending transactional emails (password resets, notifications) and newsletters for my Ghost-based personal website/blog.</li>
+<li>Domain: [yourdomain.com]</li>
+<li>Website: <a href="https://yourdomain.com">https://yourdomain.com</a></li>
+<li>Recipients: 100% opt-in subscribers, no purchased or scraped mailing lists.</li>
+<li>Sending volume: Low to moderate.</li>
+</ul>
+<p>I am happy to:</p>
+<ul>
+<li>Provide ID or domain ownership proof.</li>
+<li>Bind a valid credit card for verification.</li>
+<li>Comply fully with Mailgun’s Acceptable Use Policy and anti-spam requirements.</li>
+</ul>
+<p>Could you please review and reactivate my account?</p>
+<p>Thank you for your understanding and assistance.</p>
+<p>Best regards,
+[Your Name]
+[Your Email Address]
+[Your Website Name]</p>
+<hr>
+<h2 id="3-客服的最终回复与养号期">3. 客服的最终回复与“养号期”</h2>
+<p>客服审核后给我的反馈是：账号已恢复，但由于缺少已验证域名和对应的发送历史，暂时保留发送限制(根据ghost论坛的信息，应该是同时只能发送9封邮件)。请先添加并验证域名，然后在 3-5 天内正常发送邮件（收件人必须是有机收集的双重确认用户）。之后可以更新工单申请解除限制。换句话说，即使解封了，也要经历 3-5 天的“养号期”：</p>
+<ol>
+<li><strong>绑定并验证域名</strong>（添加 DNS 记录）</li>
+<li><strong>正常发送邮件</strong>（不要群发垃圾内容）</li>
+<li><strong>积累发送历史</strong>（每天发一点）</li>
+<li><strong>再次联系支持</strong>，申请解除限制</li>
+</ol>
+<hr>
+<h2 id="4-总结与建议">4. 总结与建议</h2>
+<ul>
+<li>
+<p><strong>注册前准备好：</strong></p>
+<ul>
+<li>一个稳定的域名（用于验证）</li>
+<li>一个能接收验证码的手机号</li>
+<li>一个相对干净的 IP</li>
+</ul>
+</li>
+<li>
+<p><strong>遇到问题，直接开工单</strong>，说明用途与网络环境。</p>
+</li>
+<li>
+<p><strong>解封后不要急着大批量发信</strong>，先养号几天再申请完全解限。</p>
+</li>
+</ul>
+<hr>
+<p>Mailgun 的免费额度每天 100 封邮件，对个人博客来说绰绰有余。虽然注册过程麻烦，但一旦稳定下来，Ghost 邮件功能就能顺畅使用了。如果你正打算为 Ghost 配置邮件服务，不妨先参考这篇经验，少走一些弯路。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Ubuntu部署ghost博客所踩的小坑</title>
+      <link>https://iliu.org/minor-pitfalls-enc-untered-when-deploying-ghost-blog-on-ubuntu/</link>
+      <pubDate>Wed, 06 Aug 2025 08:26:28 +0800</pubDate>
+      <guid>https://iliu.org/minor-pitfalls-enc-untered-when-deploying-ghost-blog-on-ubuntu/</guid>
+      <description>&lt;p&gt;Ghost 6.0 发布后，我就被它宣传的“联邦宇宙（Activitypub）”和“内置 Web 分析”功能狠狠吸引了。可惜一直用的 1Panel 面板并没有 Ghost 的升级选项，考虑到 Ghost 6 改动幅度较大，盲猜1Panel里的Docker需要重建，再加上想要尽快体验ghost的联邦宇宙等功能，所以打算用官方推荐的方式“一劳永逸”。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Ghost 6.0 发布后，我就被它宣传的“联邦宇宙（Activitypub）”和“内置 Web 分析”功能狠狠吸引了。可惜一直用的 1Panel 面板并没有 Ghost 的升级选项，考虑到 Ghost 6 改动幅度较大，盲猜1Panel里的Docker需要重建，再加上想要尽快体验ghost的联邦宇宙等功能，所以打算用官方推荐的方式“一劳永逸”。</p>
+<hr>
+<h2 id="换系统换方式">换系统，换方式</h2>
+<p>我挑了个快要过期的 VPS 练手，把系统换成了 <strong>Ubuntu 24.04</strong>。结果部署异常顺利，Ghost 6.0 安装一气呵成。于是果断把主 VPS 也重装，迁移博客数据，正式切换新架构。</p>
+<p>Ghost 官方推荐部署环境如下：</p>
+<ul>
+<li>✅ Ubuntu 22.04 或 24.04</li>
+<li>✅ MySQL 8+</li>
+<li>✅ Node.js v22（<strong>仅支持这个版本</strong>）</li>
+<li>✅ Nginx</li>
+<li>✅ Ghost-CLI 工具</li>
+<li>✅ 一个非 root 的 sudo 用户</li>
+</ul>
+<hr>
+<h2 id="安装步骤ubuntu-2404">安装步骤（Ubuntu 24.04）</h2>
+<h3 id="创建非-root-用户">创建非 root 用户</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">adduser ghostuser
+</span></span><span class="line"><span class="cl">usermod -aG sudo ghostuser
+</span></span><span class="line"><span class="cl">su - ghostuser
+</span></span></code></pre></td></tr></table>
+</div>
+</div><hr>
+<h3 id="安装系统依赖">安装系统依赖</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt update <span class="o">&amp;&amp;</span> sudo apt upgrade -y
+</span></span><span class="line"><span class="cl">sudo apt install nginx mysql-server -y
+</span></span><span class="line"><span class="cl">sudo ufw allow <span class="s1">&#39;Nginx Full&#39;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><hr>
+<h3 id="配置-mysql-密码认证">配置 MySQL 密码认证</h3>
+<p>Ghost 不支持 <code>auth_socket</code> 模式，需要切换为 <code>mysql_native_password</code>：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo mysql
+</span></span><span class="line"><span class="cl">ALTER USER <span class="s1">&#39;root&#39;</span>@<span class="s1">&#39;localhost&#39;</span> IDENTIFIED WITH mysql_native_password BY <span class="s1">&#39;your-password&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">FLUSH PRIVILEGES<span class="p">;</span>
+</span></span><span class="line"><span class="cl">EXIT<span class="p">;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>建议运行：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo mysql_secure_installation
+</span></span></code></pre></td></tr></table>
+</div>
+</div><hr>
+<h3 id="安装-nodejs-v22">安装 Node.js v22</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt install -y ca-certificates curl gnupg
+</span></span><span class="line"><span class="cl">sudo mkdir -p /etc/apt/keyrings
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key <span class="p">|</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  sudo gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nv">NODE_MAJOR</span><span class="o">=</span><span class="m">22</span>
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_</span><span class="nv">$NODE_MAJOR</span><span class="s2">.x nodistro main&#34;</span> <span class="p">|</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  sudo tee /etc/apt/sources.list.d/nodesource.list
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">sudo apt update
+</span></span><span class="line"><span class="cl">sudo apt install -y nodejs
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">node -v <span class="o">&amp;&amp;</span> npm -v
+</span></span></code></pre></td></tr></table>
+</div>
+</div><hr>
+<h3 id="-安装-ghost-cli">👻 安装 Ghost-CLI</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo npm install -g ghost-cli
+</span></span></code></pre></td></tr></table>
+</div>
+</div><hr>
+<h3 id="创建网站目录并设置权限">创建网站目录并设置权限</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo mkdir -p /var/www/ghost
+</span></span><span class="line"><span class="cl">sudo chown ghostuser:ghostuser /var/www/ghost
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> /var/www/ghost
+</span></span></code></pre></td></tr></table>
+</div>
+</div><hr>
+<h2 id="正式安装-ghost">正式安装 Ghost</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ghost install
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>安装过程会提示：</p>
+<ul>
+<li>博客域名（输入完整的 <code>https://xxx.com</code>）</li>
+<li>数据库配置</li>
+<li>是否自动配置 nginx / SSL / systemd 服务</li>
+</ul>
+<hr>
+<h2 id="踩坑记lets-encrypt-安装失败">踩坑记：Let’s Encrypt 安装失败</h2>
+<p>安装 SSL 证书这一步卡住了，错误信息如下：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="n">Message</span><span class="p">:</span> <span class="n">Command</span> <span class="n">failed</span><span class="p">:</span> <span class="p">/</span><span class="n">bin</span><span class="p">/</span><span class="n">sh</span> <span class="p">-</span><span class="n">c</span> <span class="n">sudo</span> <span class="p">-</span><span class="n">S</span> <span class="p">-</span><span class="n">p</span> <span class="err">&#39;#</span><span class="n">node</span><span class="p">-</span><span class="n">sudo</span><span class="p">-</span><span class="n">passwd</span><span class="err">#&#39;</span>  <span class="p">./</span><span class="n">acme</span><span class="p">.</span><span class="n">sh</span> <span class="p">--</span><span class="n">install</span> <span class="p">...</span>
+</span></span><span class="line"><span class="cl"><span class="na">[Wed Aug 6 04:16:11 UTC 2025]</span> <span class="n">It</span> <span class="k">is</span> <span class="n">recommended</span> <span class="n">to</span> <span class="n">install</span> <span class="n">crontab</span> <span class="n">first</span><span class="p">.</span>
+</span></span><span class="line"><span class="cl"><span class="na">[Wed Aug 6 04:16:11 UTC 2025]</span> <span class="n">Pre</span><span class="p">-</span><span class="n">check</span> <span class="n">failed</span><span class="p">,</span> <span class="n">cannot</span> <span class="n">install</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="原因">原因：</h3>
+<p>系统没装 <code>cron</code>，Ghost-CLI 在安装 Let’s Encrypt 时依赖 <code>acme.sh</code>，它需要用 cron 来自动续签证书。</p>
+<h3 id="解决方法">解决方法：</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt install cron
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>然后重新运行安装：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ghost install ssl
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>或干脆执行：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ghost setup ssl
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>问题顺利解决。</p>
+<hr>
+<h2 id="联邦宇宙--web-分析体验反馈">联邦宇宙 &amp; Web 分析体验反馈</h2>
+<p>原以为 Ghost 6.0 的“联邦宇宙”和“内置分析”是开箱即用的神器，实际用下来有点不如预期：</p>
+<h3 id="-联邦宇宙activitypub">🌐 联邦宇宙（ActivityPub）</h3>
+<ul>
+<li>✅ 博主可以被 Mastodon 等联邦平台关注，也可以关注他人</li>
+<li>❌ 目前<strong>不支持客户端功能</strong></li>
+<li>⚠️ 功能还稍微有点粗糙</li>
+</ul>
+<p>如果你指望 Ghost 成为一个真正“联邦社交平台”，目前还差点火候。</p>
+<hr>
+<h3 id="-web-analytics">📊 Web Analytics</h3>
+<ul>
+<li>✅ 轻量级内置分析功能（无需 GA）</li>
+<li>❌ <strong>并不是完全“内建”</strong> ，依赖第三方的统计分析</li>
+<li>⚠️ 需要额外配置</li>
+</ul>
+<p>期待的“零配置可视化分析面板”暂时没有出现。</p>
+<hr>
+<h2 id="-日常维护命令">🧾 日常维护命令</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ghost status       <span class="c1"># 查看服务状态</span>
+</span></span><span class="line"><span class="cl">ghost restart      <span class="c1"># 重启 Ghost</span>
+</span></span><span class="line"><span class="cl">ghost upgrade      <span class="c1"># 升级 Ghost 和依赖</span>
+</span></span><span class="line"><span class="cl">ghost doctor       <span class="c1"># 健康检查</span>
+</span></span><span class="line"><span class="cl">ghost setup ssl    <span class="c1"># 重新配置 SSL</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>后台管理地址默认是：<code>https://yourdomain.com/ghost</code></p>
+<hr>
+<h2 id="总结与建议">总结与建议</h2>
+<ul>
+<li><strong>Node.js v22 是硬要求</strong>，Ghost 6 只支持它</li>
+<li>安装 cron 是配置 SSL 的必要步骤</li>
+<li>联邦宇宙 和 Web 分析 功能目前还有较大改进空间</li>
+<li>Ghost 依然是一款优秀的写作平台，但不要期望太多“即插即用”社交功能</li>
+</ul>
+<hr>
+<h2 id="最后的话">最后的话</h2>
+<p>这次从 1Panel 回归 Ghost 官方部署，虽然中间踩了个 SSL 的坑，整体过程依然算顺利。对我这种写作者来说，Ghost 的速度和极简风格依旧无可替代。</p>
+<p>如果你也打算部署 Ghost 6，不妨按照这篇流程一步步来，踩的坑我已经帮你趟过了 😄。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>当GitHub二次验证丢失：我的完整恢复经历</title>
+      <link>https://iliu.org/posts/when-the-2fa-of-github-is-lost/</link>
+      <pubDate>Sat, 29 Mar 2025 18:47:24 +0800</pubDate>
+      <guid>https://iliu.org/posts/when-the-2fa-of-github-is-lost/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;数字时代的噩梦&lt;/strong&gt;：当你精心设置的安全措施反而将你锁在自己的账户之外时，该怎么办？这是一次关于数字资产管理、备份策略和安全实践的深刻教训。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;一灾难降临完美的安全闭环变成死循环&#34;&gt;一、灾难降临：完美的安全闭环变成死循环&lt;/h2&gt;
+&lt;h3 id=&#34;11-强制2fa时代的困境&#34;&gt;1.1 强制2FA时代的困境&lt;/h3&gt;
+&lt;p&gt;随着GitHub强制实施双重认证，像大多数开发者一样，我选择了自托管的Vaultwarden（Bitwarden开源替代方案）管理TOTP验证码。这个方案看似完美——完全自主控制，既方便又安全。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<blockquote>
+<p><strong>数字时代的噩梦</strong>：当你精心设置的安全措施反而将你锁在自己的账户之外时，该怎么办？这是一次关于数字资产管理、备份策略和安全实践的深刻教训。</p></blockquote>
+<h2 id="一灾难降临完美的安全闭环变成死循环">一、灾难降临：完美的安全闭环变成死循环</h2>
+<h3 id="11-强制2fa时代的困境">1.1 强制2FA时代的困境</h3>
+<p>随着GitHub强制实施双重认证，像大多数开发者一样，我选择了自托管的Vaultwarden（Bitwarden开源替代方案）管理TOTP验证码。这个方案看似完美——完全自主控制，既方便又安全。</p>
+<h3 id="12-单点故障的代价">1.2 单点故障的代价</h3>
+<p>直到那天，我的NAS存储池突然降级为只读模式，所有Docker服务（包括Vaultwarden）瘫痪。更糟的是：</p>
+<ul>
+<li>没有备份TOTP种子码</li>
+<li>忽略了GitHub的16位恢复码</li>
+<li>所有数字资产访问权限被切断</li>
+</ul>
+<p>&ldquo;安全措施反而成为最大的安全隐患&rdquo;——这一刻我深刻体会到了这句话的含义。</p>
+<h2 id="二绝境求生没有恢复码的账户恢复之路">二、绝境求生：没有恢复码的账户恢复之路</h2>
+<h3 id="21-常规方案全部失效">2.1 常规方案全部失效</h3>
+<table>
+  <thead>
+      <tr>
+          <th>恢复方式</th>
+          <th>可用性</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>恢复码</td>
+          <td>❌ 未备份</td>
+      </tr>
+      <tr>
+          <td>备用设备</td>
+          <td>❌ 单设备配置</td>
+      </tr>
+      <tr>
+          <td>短信验证</td>
+          <td>❌ 不支持</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="22-意外发现的救命稻草">2.2 意外发现的救命稻草</h3>
+<p>通过深入研究GitHub恢复策略，发现三种替代验证方式：</p>
+<ol>
+<li><strong>设备验证</strong>（需浏览器保留Cookie）</li>
+<li><strong>SSH密钥验证</strong>（开发者专属通道）</li>
+<li><strong>个人访问令牌</strong>（PAT）</li>
+</ol>
+<blockquote>
+<p>幸运的是，我部署博客时设置的SSH密钥成为了突破口。</p></blockquote>
+<h3 id="23-详细恢复流程实测有效">2.3 详细恢复流程（实测有效）</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 关键步骤：SSH密钥验证</span>
+</span></span><span class="line"><span class="cl">ssh -T git@github.com verify
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol>
+<li>访问GitHub恢复页面 → 选择&quot;Try 2FA account recovery&quot;</li>
+<li>通过注册邮箱接收一次性密码</li>
+<li>选择&quot;SSH Key&quot;验证方式</li>
+<li>执行上述命令获取验证码</li>
+<li>提交审核（实际处理时间：36小时）</li>
+</ol>
+<h2 id="三重建更健壮的安全体系">三、重建更健壮的安全体系</h2>
+<h3 id="31-立即实施的应急措施">3.1 立即实施的应急措施</h3>
+<p>✅ 重新生成TOTP种子码<br>
+✅ 多介质备份恢复码（电子+纸质+加密USB）</p>
+<h3 id="32-全新的备份架构">3.2 全新的备份架构</h3>
+<p><img loading="lazy" src="https://s2.l22.org/20250329185329.png"></p>
+<h3 id="33-血泪换来的安全原则">3.3 血泪换来的安全原则</h3>
+<ol>
+<li><strong>3-2-1备份法则</strong>：3份副本，2种介质，1份离线</li>
+<li><strong>关键凭证隔离存储</strong>：TOTP种子不与密码管理器共存</li>
+<li><strong>定期恢复演练</strong>：每季度测试备份有效性</li>
+</ol>
+<h2 id="四前瞻思考安全与便利的永恒博弈">四、前瞻思考：安全与便利的永恒博弈</h2>
+<h3 id="41-自托管服务的风险矩阵">4.1 自托管服务的风险矩阵</h3>
+<table>
+  <thead>
+      <tr>
+          <th>风险类型</th>
+          <th>自托管方案</th>
+          <th>云服务方案</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>可用性</td>
+          <td>❌ 单点故障</td>
+          <td>✅ 高可用</td>
+      </tr>
+      <tr>
+          <td>控制权</td>
+          <td>✅ 完全自主</td>
+          <td>❌ 依赖厂商</td>
+      </tr>
+      <tr>
+          <td>维护成本</td>
+          <td>❌ 需专业知识</td>
+          <td>✅ 免维护</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="42-web3时代的认证演进">4.2 Web3时代的认证演进</h3>
+<ul>
+<li>硬件安全密钥（FIDO2/WebAuthn）</li>
+<li>生物识别集成认证</li>
+<li>去中心化身份系统</li>
+</ul>
+<h2 id="五终极建议每个开发者都该做的5件事">五、终极建议：每个开发者都该做的5件事</h2>
+<ol>
+<li><strong>立即打印恢复码</strong>：存放于保险箱或可信亲友处</li>
+<li><strong>配置多因素冗余</strong>：如Authy+硬件密钥组合</li>
+<li><strong>建立逃生通道</strong>：至少设置两种恢复方式</li>
+<li><strong>实施分级保护</strong>：关键账户使用独立安全方案</li>
+<li><strong>定期安全审计</strong>：每半年检查一次认证体系</li>
+</ol>
+<blockquote>
+<p><strong>最后提醒</strong>：最危险的安全错觉就是&quot;这种事不会发生在我身上&quot;。请今天就开始行动，别等灾难降临</p></blockquote>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>在群晖里安装简单的笔记软件flatnotes</title>
+      <link>https://iliu.org/posts/install-the-simple-note-taking-software-flatnotes-on-synology/</link>
+      <pubDate>Wed, 30 Oct 2024 03:48:47 -0400</pubDate>
+      <guid>https://iliu.org/posts/install-the-simple-note-taking-software-flatnotes-on-synology/</guid>
+      <description>&lt;p&gt;老刘这一段时间以来都是使用&lt;code&gt;VSCode&lt;/code&gt;来写博客，主要是因为&lt;code&gt;anytype&lt;/code&gt;对长文的支持一般，另外对&lt;code&gt;markdown&lt;/code&gt;语法支持的也不够，比如表格功能就没法用&lt;code&gt;markdown&lt;/code&gt;语法。但是&lt;code&gt;VSCode&lt;/code&gt;有一个缺点是同步不方便，而我也想要能随时随地的写博客，直到看到&lt;code&gt;flatnotes&lt;/code&gt;这个笔记软件，说它是笔记软件有点抬举它了，因为它太简洁，不过用来写博客文章是刚刚好，并且支持docker部署使用，这样只要有网络，有浏览器，就可以随时随地的写博客了。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>老刘这一段时间以来都是使用<code>VSCode</code>来写博客，主要是因为<code>anytype</code>对长文的支持一般，另外对<code>markdown</code>语法支持的也不够，比如表格功能就没法用<code>markdown</code>语法。但是<code>VSCode</code>有一个缺点是同步不方便，而我也想要能随时随地的写博客，直到看到<code>flatnotes</code>这个笔记软件，说它是笔记软件有点抬举它了，因为它太简洁，不过用来写博客文章是刚刚好，并且支持docker部署使用，这样只要有网络，有浏览器，就可以随时随地的写博客了。</p>
+<p>既然合适使用，当然就要把他部署在<code>NAS</code>里，网上群晖部署的教程比较麻烦，还需要进命令行操作，其实根本不用那么麻烦，直接使用群晖默认的<code>docker</code>管理套件<code>container manager</code>来部署就行了。步骤如下：</p>
+<h2 id="首先找到flatnotes">首先找到flatnotes</h2>
+<p>在注册表里搜索flatnotes，选择第一个，下载
+<img alt="image" loading="lazy" src="https://s2.l22.org/flatnotes/flatnote1.png"></p>
+<h2 id="安装过程">安装过程</h2>
+<p>下载完成后，点击安装，在端口设置，环境，存储空间设置，根据实际情况设置一下就行，其他一路下一步。
+<img alt="image" loading="lazy" src="https://s2.l22.org/flatnotes/flatenote2.png">
+<img alt="image" loading="lazy" src="https://s2.l22.org/flatnotes/flatenote3.png"></p>
+<p>重点说一下环境变量设置，
+增加如下几个字段：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">FLATNOTES_AUTH_TYPE: password
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">FLATNOTES_USERNAME: user
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">FLATNOTES_PASSWORD: panda # 密码可自行修改
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">FLATNOTES_SECRET_KEY: aLongRandomSeriesOfCharacters
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>另外一个需要说明的地方是8080端口不要改成其他的，改了虽然docker不会报错，但是网页是打不开的。</p>
+<h2 id="代理设置">代理设置</h2>
+<p>如果不出意外的，在浏览器里输入你NAS的ip加上你设置的端口号就应该可以打开应用了，但是我们需要的是随时随地的使用，所以还需要在NAS里设置一下代理。</p>
+<h3 id="反向代理设置方法">反向代理设置方法</h3>
+<p>点击控制面板，点击登录门户，点击高级，点击反向代理服务器。
+<img alt="image" loading="lazy" src="https://s2.l22.org/flatnotes/flatnotes4.png">
+点击新增，如下：
+<img alt="image" loading="lazy" src="https://s2.l22.org/flatnotes/flatnotes5.png">
+至此 ，就可以愉快的使用flatnotes来写文章了，本文就是使用这个软件写的，体验非常的不错！~
+<img alt="image" loading="lazy" src="https://s2.l22.org/flatnotes/flatnotes6.png">
+唯一的一点，这个软件好像不是实时保存，写完文章后记得保存一下</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>手机上有好用的输入法吗？</title>
+      <link>https://iliu.org/posts/good-input-method-on-mobile-phones/</link>
+      <pubDate>Fri, 06 Sep 2024 11:03:02 +0800</pubDate>
+      <guid>https://iliu.org/posts/good-input-method-on-mobile-phones/</guid>
+      <description>&lt;p&gt;老刘在以前的文章里也曾提过选择输入法的过程，目前在电脑上的方案是使用&lt;code&gt;小狼毫输入法&lt;/code&gt;加&lt;code&gt;雾凇拼音&lt;/code&gt;的词库。并通过&lt;code&gt;群晖drive&lt;/code&gt;实现几个PC之间个人词库的同步，使用起来还算方便。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>老刘在以前的文章里也曾提过选择输入法的过程，目前在电脑上的方案是使用<code>小狼毫输入法</code>加<code>雾凇拼音</code>的词库。并通过<code>群晖drive</code>实现几个PC之间个人词库的同步，使用起来还算方便。</p>
+<p><img loading="lazy" src="https://ewader.s3.bitiful.net/blog/2024-09-06-10-44-13.png?no-wait\\=on"></p>
+<p>但是在手机上一直找不到好用的输入法，老刘目前使用的是荣耀的一款手机，荣耀现在和百度走的很近，所以输入法当然也是<code>百度输入法荣耀版</code>。众所周知的是，国内的软件，都写的有隐私保护，但是也都没有做到过隐私保护，都是拿着用户的隐私来牟取利益。最近老刘家在装修，每当和装修负责人谈论一些东西后，再打开购物软件，谈论的东西妥妥的都会出现，不懂的人还觉得现在手机真智能（我老婆就是），殊不知，智能的代价就是你隐私的泄露。</p>
+<p>于是老刘开始重视起来手机上的输入法。</p>
+<p>由于电脑上使用的是小狼毫输入法，使用的还算是满意，所以手机上首先想到的也是这个输入法，在手机上名字叫作<code>同文输入法</code>，本身<code>小狼毫输入法</code>就以难配置而著称，想不到<code>同文输入法</code>是更难配置，安装后根本没法用，按照网上找的配置方法设置了一圈还是没有搞定，所以只好删除作罢。</p>
+<p>然后就看到<code>1900博客</code>上说的<code>Fcitx5</code>输入法的<code>Android</code>版，支持安装<code>rime</code>插件，并且支持<code>雾凇拼音</code>词库，只需把电脑里的配置拷贝过去就行了。详细请参考：<a href="https://1900.live/last-puzzle-android-rime-input/">最后一块拼图：在 Android 手机上使用 Rime 输入法</a>。按照1900的方法，成果的把rime输入法在手机上跑了起来。使用起来也很流畅，但是遇到了连个问题：</p>
+<p>首先，就是同步的问题，由于<code>Fcitx5</code>安装在<code>Android</code>的系统文件夹内，所以生成的同步文件也在系统文件夹呢，而目前大多数的软件都已经无法访问系统文件夹，而手机版又不支持把同步文件生成到其他文件夹内，这就造成了同步非常的不方便，需要把手机插到电脑上，在手动把别的端的同步文件复制过去，就很麻烦。</p>
+<p>第二，是<code>Fcitx5</code>不支持九宫格，对于习惯了用九宫格输入的人来说，全键盘是真的不好用。网上也有很多讨论到底是九宫格还是全键盘输入更高效，其实如果在以前，输入法不智能的情况下，那肯定是全键盘更高效，当年第一次使用黑莓手机的时候，惊艳到了，对于现在输入法也智能的情况下，九宫格的按键比较大，不容易误碰到别的键，而且这么多年形成的机械记忆，个人感觉九宫格更方便一些，毕竟不是物理键盘。</p>
+<p>在吐槽的当间，1900说有一个名字叫<code>雨燕输入法</code>的rime，内置的就是雾凇的方案，也支持九宫格，试用了一下，键盘比较丑，这本没有什么，就是输入不流畅，有卡顿受不了。</p>
+<p>使用了几天，实在是不习惯全键盘的输入，主要是总会有误碰。也有那么几天，有了破罐子破摔的心理，觉得反正微信也离开不了，干脆就使用<code>微信输入法</code>得了，也装了，用着确实舒服，让老刘不禁感慨，腾讯是真了解国人使用输入法的习惯。</p>
+<p>破罐子破摔的心理也就那么几天，对微信真的是不怎么放心，本着能少一点泄露就少一点的想法，试用了一下<code>Google</code>的<code>Gboard</code>。</p>
+<p><code>Gboard</code>有很多不足的地方，比如键盘布局不习惯，不科学语音不能用，词库小等。网上有一篇文章，是通过<code>Gboard</code>的自定义词库的功能，把百度的词库还有搜狗的词库都导入进去。下载导入了一下，确实好用多了。</p>
+<p>当然，<code>Gboard</code>的优点也很多，老刘比较喜欢的是输入纠错的功能，全键盘的时候不是容易误碰到周边的键吗，<code>Gboard</code>就很贴心的给你纠错过来了，比如你要打“老刘”正常的拼音是“laoliu”，如果你打成了“lasliu”那也是能打出老刘这个词的。</p>
+<p>所以，现在的方案是用Gboard来熟悉全键盘的键位，将来有一天熟悉了之后，可能还会用回<code>Fcitx5</code>，或者期待一下<code>Fcitx5</code>能出九宫格就完美了。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>再次使用 KeepassXC进行密码管理</title>
+      <link>https://iliu.org/posts/use-keepassxc-again-for-password-management/</link>
+      <pubDate>Tue, 03 Sep 2024 13:46:02 +0800</pubDate>
+      <guid>https://iliu.org/posts/use-keepassxc-again-for-password-management/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://memos.1169f1b9dbf57062d00029d30c7fde9e.r2.cloudflarestorage.com/assets/1725262863_2024-09-02-15-23-54.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=67756f7e669d24ac11ea5c24ecfdb150%2F20240902%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20240902T074103Z&amp;X-Amz-Expires=432000&amp;X-Amz-SignedHeaders=host&amp;x-id=GetObject&amp;X-Amz-Signature=f948507f71602f764fa24695ce3823930013949acc00d88a388e6b6d825ee8dd&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;前因&#34;&gt;前因&lt;/h2&gt;
+&lt;p&gt;几年前，老刘最开始用软件进行密码管理的时候，用的就是keepassxc，只是后来有一段时间使用deepin，系统的内核比较低，不支持keepassxc的最新版，取舍之后，使用了Bitwarden，并部署在我nas里。这一用就是几年的时间过去了，只到最近遇到了问题。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><img loading="lazy" src="https://memos.1169f1b9dbf57062d00029d30c7fde9e.r2.cloudflarestorage.com/assets/1725262863_2024-09-02-15-23-54.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=67756f7e669d24ac11ea5c24ecfdb150%2F20240902%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20240902T074103Z&X-Amz-Expires=432000&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=f948507f71602f764fa24695ce3823930013949acc00d88a388e6b6d825ee8dd"></p>
+<h2 id="前因">前因</h2>
+<p>几年前，老刘最开始用软件进行密码管理的时候，用的就是keepassxc，只是后来有一段时间使用deepin，系统的内核比较低，不支持keepassxc的最新版，取舍之后，使用了Bitwarden，并部署在我nas里。这一用就是几年的时间过去了，只到最近遇到了问题。</p>
+<p>这个问题就是docker镜像被墙了以后，部署在NAS里的bitwarden就没法更新了。作为一个安全软件，没法更新后的漏洞带来的风险很大，老刘也层想过让NAS智能在局域网里使用，家里和店里的电脑用tailscale相连，这样Docker更新与否都不重要了，后来发现也行不通，bitwarden需要使用ssl证书才能链接，不然就会报错，所以使用IP的方案也就搁浅了。</p>
+<h2 id="解决方案">解决方案</h2>
+<p>解决方案有一下几种，第一种是前置的路由器科学一下。用的是openwrt，遇到的新问题是，如果把opw路由作为主路由来使用，ipv6就会受到影响，科学后，很大的概率用ipv6无法连接NAS了，后来我把opw改成旁路有使用，这个倒是不影响ipv6了，但是把网关设置成旁路由后，电脑上网的速度又受到了影响，访问国内网站总有卡顿。设置摆弄了一下，还搞得干脆网页也打不开了。看来带套确实是影响体验。</p>
+<p>另外一种方法就是舍弃放在NAS里的方案，把bitwarden放到VPS里，但是我又不愿意把自己的密码保存在第三方的电脑里，无论是不是加密的存储。最后，老刘思来想去，决定放弃bitwarden而改用keepassxc。</p>
+<p>也就是第三种方法，换软件！</p>
+<h2 id="目前用的方案">目前用的方案</h2>
+<p>从bitwarden把密码导出，安装keepassxc后，进行导入，有很多导入格式，比如1password等，当然也有bitwarden的。按照bitwarden的格式导入。就这么简单就可以使用了，至于软件的设置，都是中文，一看就明白，没有什么要说的了。</p>
+<p>keepassxc也是支持浏览器插件的，方便程度和bitwarden差不多，其实密码管理器目前也比较成熟了，挑一款自己用着舒服的使用就行，当然不花钱的最好。</p>
+<h3 id="各设备之间的同步">各设备之间的同步</h3>
+<p>以前老刘用一个很简单的方案，就是用synalogy drive在各个终端进行同步密码文件，有一点不方便的是，在手机上由于drive程序后台被杀之后，keepass获取的只是以前的缓存，每次使用前都要打开一次drive，很不方便。好在keepass支持webdav的同步方式。NAS开通webdav，设置好文件夹，各个端就能愉快的使用了。妈妈再也不用担心我的密码了。</p>
+<h2 id="后记">后记</h2>
+<p>目前使用了keepass一个星期，相比bitwarden来说，需要在电脑里多打开一个软件，占了电脑里的一些资源，减少了一些NAS里的资源，体验的话就是从B无缝衔接到了K，两个软件在网站输入密码的时候，没有什么不同。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>解决Windows11打开安全中心空白的方法</title>
+      <link>https://iliu.org/posts/solution-to-the-blank-screen-windows-11s-security-center/</link>
+      <pubDate>Thu, 29 Aug 2024 07:56:45 +0800</pubDate>
+      <guid>https://iliu.org/posts/solution-to-the-blank-screen-windows-11s-security-center/</guid>
+      <description>&lt;p&gt;老刘在前面一篇文章中说，某年某月的某一天，老刘重置了电脑，不但丢失了存在本地的博客数据，而且发现安全中心打开是一个空白的窗口。老刘使用了重启大法的手段，但是发现并没有什么卵用。文心一言里给出了很多的建议，满满的一大页，照着做了下，问题还是没有解决。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>老刘在前面一篇文章中说，某年某月的某一天，老刘重置了电脑，不但丢失了存在本地的博客数据，而且发现安全中心打开是一个空白的窗口。老刘使用了重启大法的手段，但是发现并没有什么卵用。文心一言里给出了很多的建议，满满的一大页，照着做了下，问题还是没有解决。</p>
+<p>不得以，老刘还是去搜索引擎上找方法吧，有一些方法大同小异，只到看到了一篇文章，说把一段代码保存成reg的格式，双击导入注册表即可。老刘试用了一下，完美解决了问题。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">Windows Registry Editor Version 5.00
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">　　［HKEY_LOCAL_MACHINE<span class="se">\S</span>OFTWARE<span class="se">\P</span>olicies<span class="se">\M</span>icrosoft<span class="se">\W</span>indows Defender］
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">　　“DisableAntiSpyware”<span class="o">=</span>dword:00000000
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">　　［HKEY_LOCAL_MACHINE<span class="se">\S</span>OFTWARE<span class="se">\P</span>olicies<span class="se">\M</span>icrosoft<span class="se">\W</span>indows Defender<span class="se">\R</span>eal-Time Protection］
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">　　“DisableBehaviorMonitoring”<span class="o">=</span>dword:00000000
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">　　“DisableIOAVProtection”<span class="o">=</span>dword:00000000
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">　　“DisableOnAccessProtection”<span class="o">=</span>dword:00000000
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">　　“DisableRealtimeMonitoring”<span class="o">=</span>dword:00000000
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">　　［HKEY_LOCAL_MACHINE<span class="se">\S</span>YSTEM<span class="se">\C</span>urrentControlSet<span class="se">\S</span>ervices<span class="se">\S</span>ecurityHealthService］
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">　　“Start”<span class="o">=</span>dword:00000002
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="使用方法">使用方法</h2>
+<ul>
+<li>桌面新建一个文本文件，把上述代码拷贝进去。然后另存为，类型选择所有文件，名称设置为aaa.reg。</li>
+<li>双击aaa.reg文件，导入注册表即可</li>
+</ul>
+<h2 id="这是一个bug">这是一个bug</h2>
+<p>老刘有一次重置电脑，发现这个方法不能用了，其实这个Windows11的一个bug，不知道为什么一直没有修复，重新安装一下md即可。</p>
+<p>文件老刘放在下面了：
+<a href="https://pan.baidu.com/s/111uBACLN3HExSuUFd3Mzqw?pwd=9a78">点击下载</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>修汽车空调</title>
+      <link>https://iliu.org/posts/repair-the-car-air-conditioning/</link>
+      <pubDate>Mon, 24 Jun 2024 14:17:20 +0800</pubDate>
+      <guid>https://iliu.org/posts/repair-the-car-air-conditioning/</guid>
+      <description>&lt;p&gt;前年的时候，曾经写过一篇&lt;a href=&#34;https://tunan.org/4242&#34;&gt;修汽车空调&lt;/a&gt;的文章。当时加过氟利昂之后，制冷效果是立马起来了。不过过了半个多月的时间，开车回老家，再次出现空调制冷效果不好的情况，也不是制冷效果不好，而是有时候能空调能启动，有时候又启动不了。甚至在堵车的时候还发生了，水箱温度过高的提示。之后又去店里修了一次，氟利昂压力是正常的，说可能是水箱比较脏了，拆下来冲洗一下就好了。结果拆冲洗后当时是可以了，但是我看到水箱也不是很脏的样子。&lt;/p&gt;
+&lt;p&gt;后来这两年，空调基本上也能凑合着用，但是效果不是太好，本身用车的时候也少，就觉得可能是缺氟利昂了。&lt;/p&gt;
+&lt;p&gt;21号，送女儿去参加中考，不想去的时候，再次出现空调不能运行的情况，好在当天阴天还有点小雨，气温不是太高，开车车窗勉强能用车，不过行车过程中外面的噪音太大。很不舒适。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>前年的时候，曾经写过一篇<a href="https://tunan.org/4242">修汽车空调</a>的文章。当时加过氟利昂之后，制冷效果是立马起来了。不过过了半个多月的时间，开车回老家，再次出现空调制冷效果不好的情况，也不是制冷效果不好，而是有时候能空调能启动，有时候又启动不了。甚至在堵车的时候还发生了，水箱温度过高的提示。之后又去店里修了一次，氟利昂压力是正常的，说可能是水箱比较脏了，拆下来冲洗一下就好了。结果拆冲洗后当时是可以了，但是我看到水箱也不是很脏的样子。</p>
+<p>后来这两年，空调基本上也能凑合着用，但是效果不是太好，本身用车的时候也少，就觉得可能是缺氟利昂了。</p>
+<p>21号，送女儿去参加中考，不想去的时候，再次出现空调不能运行的情况，好在当天阴天还有点小雨，气温不是太高，开车车窗勉强能用车，不过行车过程中外面的噪音太大。很不舒适。</p>
+<p>送完女儿后，直接开去了修理店，令人哭笑不得的是，回去的时候空调又能用了。到店说明情况后，具体检查了一下，氟利昂压力正常，老板检查了半天，发现压缩机那块的风扇不转圈，判断是控制风扇开启的模块出现了故障。<img alt="汽车空调风扇控制器" loading="lazy" src="https://ewader.s3.bitiful.net/blog/%e5%be%ae%e4%bf%a1%e5%9b%be%e7%89%87_20240624155035.jpg"></p>
+<p>这是这个玩意，老板从汽配城发货，跑腿很快送过来了，安装之后，终于是恢复正常了，又把车保养了一下。一共收了450元。应该是比在4S店要便宜一些。</p>
+<p>后来在4S店的群里问了一下这玩意的价格是225一个，不包括工时费。算下来确实是要便宜一些。刚问了，群里的一个哥们就问道，你这是空调出问题了吗？然后我的车和你这同一个毛病。看来不是个例了。<img loading="lazy" src="https://ewader.s3.bitiful.net/blog/20240624155254.png"></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>给Hugo PaperMod增加giscus评论系统</title>
+      <link>https://iliu.org/posts/add-comment-system-to-hugopapermo/</link>
+      <pubDate>Mon, 26 Feb 2024 14:39:25 +0800</pubDate>
+      <guid>https://iliu.org/posts/add-comment-system-to-hugopapermo/</guid>
+      <description>&lt;p&gt;自从把博客程序从&lt;code&gt;WordPress&lt;/code&gt;换成&lt;code&gt;Hugo&lt;/code&gt;以来，我把评论也给取消了，原因在我看来，评论有时候变成了我的负担。很多时候是为了评论而评论，或者为了获取评论而写一些迎合读者的文章，这样以来，我感觉偏离了我的初心，所以，干脆就不在布置评论。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>自从把博客程序从<code>WordPress</code>换成<code>Hugo</code>以来，我把评论也给取消了，原因在我看来，评论有时候变成了我的负担。很多时候是为了评论而评论，或者为了获取评论而写一些迎合读者的文章，这样以来，我感觉偏离了我的初心，所以，干脆就不在布置评论。</p>
+<p>放弃评论后，我是爽了，但是也不断的有博友反馈，希望有评论的功能，考虑再三，觉得还是加上为好。</p>
+<p>阿甘博客里说了一个使用<code>artalk</code>的方法，之前我也部署过，不过使用这个需要VPS，维护起来也有点麻烦，后来也就不了了之了。</p>
+<h2 id="giscus介绍">giscus介绍</h2>
+<p>前几天我发现了<code>giscus</code> 这个评论系统。他有诸多的优点：</p>
+<ul>
+<li>开源。🌏</li>
+<li>无跟踪，无广告，永久免费。📡 🚫</li>
+<li>无需数据库。所有数据均储存在 GitHub Discussions 中。</li>
+<li>支持自定义主题！🌗</li>
+<li>支持多种语言。🌐</li>
+<li>高可配置性。🔧</li>
+<li>自动从 GitHub 拉取新评论与编辑。🔃</li>
+<li>可自建服务！🤳</li>
+</ul>
+<p>唯一的缺点是评论者需要有GitHub的账户，登录后才能评论。</p>
+<h2 id="部署方法">部署方法：</h2>
+<p>使用<code>Hugo PaperMod</code>部署<code>giscus</code>非常的简单</p>
+<ul>
+<li>在你GitHub项目的开通GitHub Discussions。具体的开通方法点击<a href="https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/enabling-or-disabling-github-discussions-for-a-repository">这里</a>！</li>
+<li>登录<a href="https://giscus.app/zh-CN">giscus</a>官网，往下拉，在<code>配置</code>那个地方，输入你的GitHub项目名称</li>
+<li>复制生成的代码</li>
+<li>在文件夹<code>layouts/partials/</code>下新建一个名字叫<code>comments.html</code>的文件。然后把上一步复制的代码粘贴进去，保存。</li>
+<li>在<code>hugo.yml</code>中，设置<code>comments: true</code>.</li>
+</ul>
+<p>至此，部署完成，需要说明的是，项目一定要设置成public，不然评论可能不会显示。</p>
+<p>PS：</p>
+<p>系统上线后，小胡同学和老张同志都说，这个评论系统不方便。其实还好吧，主要的是部署简单。虽然能挡着一部分正常评论，但是也不会有垃圾评论了不是。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>2024年，高德地图和百度地图选哪个？</title>
+      <link>https://iliu.org/posts/comparison-between-autonavi-map-and-baidu-map/</link>
+      <pubDate>Sat, 24 Feb 2024 14:42:58 +0800</pubDate>
+      <guid>https://iliu.org/posts/comparison-between-autonavi-map-and-baidu-map/</guid>
+      <description>&lt;p&gt;在网上经常看到网友询问百度地图和高德地图如何选择，网上的文章要么太老，要么太老，要么太老，没有什么参考价值。为什么这么说呢，因为现在导航技术加上北斗的支持，已经远远不是文章的那个年代所用的技术了。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>在网上经常看到网友询问百度地图和高德地图如何选择，网上的文章要么太老，要么太老，要么太老，没有什么参考价值。为什么这么说呢，因为现在导航技术加上北斗的支持，已经远远不是文章的那个年代所用的技术了。</p>
+<p>我之前也在博客群里问相关的问题，得到的答案一般都是推荐高德导航，理由是高德更纯粹，他是靠导航来吃饭的，如果导航做不好，他就无法很好的生存；相反百度是一个大杂烩，什么都搞，什么都搞不好。我也是一直在用高德导航。不过，前几天的一次试用百度导航，让我对百度地图的看法有些不少的改变。下面就详细的说一说：</p>
+<h2 id="两个导航的相同点">两个导航的相同点</h2>
+<p>目前两个导航都支持车道级的导航。都不单单是纯粹的地图软件，上面商家广告等等，如果把名字互相换一下，你根本就分辨不出来谁是谁。另外就是导航语音的选择、什么拥堵的算法等等，也都非常的相似。没有什么好比较的。</p>
+<h2 id="高德地图的亮点与不足">高德地图的亮点与不足</h2>
+<p>高德的亮点在于如果你和别的司机都装有高德地图，在会车的时候会提示你注意安全，你的后方有车辆快速驶近的时候，高德也会提醒。</p>
+<p>不足之处在于，高德也是号称车道级导航，但是很不明显，从地图上根本看不到你在哪个车道行驶。</p>
+<h2 id="百度地图的亮点和不足">百度地图的亮点和不足</h2>
+<p>高德的不足就是百度的亮点，百度地图的车道级导航就很明确，你的车在哪个车道行驶，在地图上一目了然。而且百度还通过大数据算法，给你推荐最优的车道。这点的好处很多，比如前方有事故，百度就会很明确的给你提示事故在哪个车道，并推荐最优的车道给你，另外一个很贴心的功能是临近高速的出口的时候，其他的车道在地图上都会有个红叉叉，提示你不要从那边走，这对新手司机来说尤其友好。我媳妇最怕的就是不知道从哪个出口下高速……</p>
+<p>当然，百度地图的不足就是高德的亮点，百度地图目前还没有诸如会车提醒这样的功能。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>电视和投影仪，哪个对孩子的眼睛更好？</title>
+      <link>https://iliu.org/posts/which-better-for-children/</link>
+      <pubDate>Thu, 22 Feb 2024 14:46:14 +0800</pubDate>
+      <guid>https://iliu.org/posts/which-better-for-children/</guid>
+      <description>&lt;p&gt;昨天博友@DemoChen问我能不能拉一个群，他的一个朋友有眼睛相关的问题需要咨询。当时我在外面陪孩子在金水河公园的雪地里漫步，回到家里后，专门拉了一个群，demochen也拉了他的朋友进来。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>昨天博友@DemoChen问我能不能拉一个群，他的一个朋友有眼睛相关的问题需要咨询。当时我在外面陪孩子在金水河公园的雪地里漫步，回到家里后，专门拉了一个群，demochen也拉了他的朋友进来。</p>
+<p>他的朋友问了一个很多家长都非常关系的问题————孩子的视力，如何预防近视：</p>
+<blockquote>
+<p>@镜缘轩 大佬您好，我有个预防近视的问题想请教下，我家有个2岁零的宝宝，因为现在孩子总是难免看手机电视，而且孩子看电视一会会时不时揉眼睛，眨巴眼，我担心孩子会近视。想问下：如果是投影仪，是不是对孩子的眼睛伤害小一些，我理解的是投影仪是二次反射出来的光线。</p></blockquote>
+<p>下面我们就具体聊聊：</p>
+<h2 id="投影仪相比较电视对眼睛的伤害小吗">投影仪相比较电视对眼睛的伤害小吗？</h2>
+<p>这里的伤害可以分两个层面来理解，一个是引起近视，另外一个是对眼睛器官的伤害。</p>
+<p>电视是自发光光源，特别是现在的液晶电视，发的光种包含一些高能蓝光的有害射线，但是由于电视相对人的眼睛较远，这些光线到达人眼后的能量已经比较小了，所以来说，电视对眼睛器官的伤害不会很大。对视力的影响也会比看手机要小的多。</p>
+<p>那么投影仪和电视机到底哪个对眼睛更友好呢？理论上来说，当然是投影仪，因为投影仪的光线是漫反射光线，人眼看起来会更舒适一些。</p>
+<h2 id="宝宝看手机的最长世间">宝宝看手机的最长世间？</h2>
+<blockquote>
+<p>比如说现在2岁的宝宝 如果看手机 有什么最多时长建议吗？ 我发现现在的小孩 让他们不看手机好难</p></blockquote>
+<p>其实，不建议给这么小的宝宝看手机等电子产品，百害而无一利。但是，很多时候都要想现实让步。非要给出一个时长建议的话，那么不要超过20分钟。甚至更短的世间。有研究表明，看10分钟的手机引起的视力疲劳和看50分钟电视的疲劳程度差不多。所以，在条件允许的情况下，尽量不要让孩子看手机。</p>
+<h2 id="近视防控的方法">近视防控的方法</h2>
+<p>其实近视防控很简单，一是严格控制近距离的用眼，包括手机、绘本、弹琴、甚至大尺寸的电视等等。二是保证每天至少要保证2个小时的户外活动。另外，这位朋友还提到，<strong>如果出门少，多往往窗外是不是可以代替</strong>？这个是不行的，真的条件不允许，可以在阳台上玩。</p>
+<p>户外活动的意义并不只是看远，而是户外的光线的亮度。所以，只是在室内望远，是替代不了户外活动的。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>使用Fcitx5 for Android，读《万历十五年》</title>
+      <link>https://iliu.org/posts/use-fcitx5-andriod-input/</link>
+      <pubDate>Wed, 07 Feb 2024 20:28:26 +0800</pubDate>
+      <guid>https://iliu.org/posts/use-fcitx5-andriod-input/</guid>
+      <description>&lt;p&gt;最近女儿放假了，忙着辅导她的功课，毕竟初三了，加上期末考试的成绩不是很理想，所以寒假是要努力的时候了。在这期间读书也少了，只读了《万历十五年》这本历史书，另外就是在看了1900的博客后，把手机的输入法改成了Fcitx5 for Android，并且安装rime插件，使用雾凇拼音词库；这样手机就和电脑使用同一个词库了。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>最近女儿放假了，忙着辅导她的功课，毕竟初三了，加上期末考试的成绩不是很理想，所以寒假是要努力的时候了。在这期间读书也少了，只读了《万历十五年》这本历史书，另外就是在看了1900的博客后，把手机的输入法改成了Fcitx5 for Android，并且安装rime插件，使用雾凇拼音词库；这样手机就和电脑使用同一个词库了。</p>
+<h2 id="手机安装并fcitx5-for-android">手机安装并Fcitx5 for Android</h2>
+<p>在电脑上从去年开始就一直使用小狼毫输入法加雾凇拼音的词库，这个输入法开源，对隐私的保护好，并且词库很大，使用起来很准确，但是手机上的输入法一直不能让我满意。</p>
+<p>使用过一段微信键盘，恶心与微信无孔不入的推广，所以弃用；后来又使用了一段时间Gboard。一是词库小，输入不准确，选词困难，二是一些表情颜文字之类的需要网络的支持，想舒服的使用手机就要时刻处于科学的状态。所以使用一段时间后也不是很满意，就弃用了。也曾经使用过一段时间Fcitx5 for Android，那时候刚开发出来不久，还没有rime插件，加上没有九宫格，也不得不放弃了。最后选择使用了华为的小艺输入法。这个输入法各方面中规中矩吧，也比较顺手，就一直在使用下去。</p>
+<p>看<a href="https://1900.live/last-puzzle-android-rime-input/">1900</a>的博客后,发现Fcitx5 for Android更新很多版本了，加上可以安装rime插件并使用雾凇拼音，就又产生了使用的念头。按照他博客的教程，很容易就安装使用了。</p>
+<p>试用了几天，发现总体而言还算可以。优点就是雾凇拼音了，和电脑一样的输入体验。缺点依然是不支持九宫格。目前在努力适应全键盘的模式中。</p>
+<h2 id="读万历十五年">读《万历十五年》</h2>
+<p>这本书以前看电视剧《人民的名义》的时候，就被@到。正好微信读书给推了这本，可以免费看，所以就读了。书名虽然是万历十五年，但并不是仅仅讲万历十五年发生的事情。记录了张居正、申时行、海瑞、戚继光等几位典型的人物事迹。</p>
+<p>从这本书可以看到首辅不同的性格导致的历史，明朝特殊的文官集团、大明皇帝的无奈、武将和军人的悲哀等。</p>
+<p>你能相信一个看似芝麻大的和稀泥事件，竟然就是导致大明被清朝覆灭的根源。五六十的海盗从浙江登陆，辗转上千公里，杀死4000多人；皇帝想干什么事只要不合文官集团的意，你就干不成，只要心灰气冷，得过且过。</p>
+<p>当然这只是书中的观点，不一定正确和全面，但是对了解那个封建社会里的奇葩王朝还是挺有帮助的。</p>
+<p>PS：</p>
+<p>和稀泥事件是这样的，当时镇守东北的巡抚发现有一个部落在不断的兼并周边的部落，于是派总兵去剿灭，结果总兵不听话而且打了败仗（以明朝那个奇葩的制度，打败仗也正常），于是巡抚就告总兵的黑状，总兵一看，我也是有后台的人，也告巡抚的黑状，当时的内阁首辅是申时行，一个善于和稀泥的人，一看说，你们两个相互告了就完事了，翻篇了。于是就不了了之了。这个部落的首领叫努尔哈赤！</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>利用cloudflare页面规则设置301永久跳转</title>
+      <link>https://iliu.org/posts/use-cloudflare-page-rules-setup-301-permanent-redirect/</link>
+      <pubDate>Fri, 01 Dec 2023 21:04:03 +0800</pubDate>
+      <guid>https://iliu.org/posts/use-cloudflare-page-rules-setup-301-permanent-redirect/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;细心的读者可能已经发现，图南博客的域名已经由&lt;code&gt;iliu.org&lt;/code&gt; 更换到&lt;code&gt;tunan.org&lt;/code&gt;。这个域名是之前在&lt;code&gt;Google&lt;/code&gt;注册的，可惜的80端口被墙了，也不知道是怎么实现强域名80端口的。于是在暂时使用一段时间后又使用了原域名。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h2 id="前言">前言</h2>
+<p>细心的读者可能已经发现，图南博客的域名已经由<code>iliu.org</code> 更换到<code>tunan.org</code>。这个域名是之前在<code>Google</code>注册的，可惜的80端口被墙了，也不知道是怎么实现强域名80端口的。于是在暂时使用一段时间后又使用了原域名。</p>
+<p>前两天的时候，感觉还是需要用tunan这个域名，和博客的名字比较搭配，而且用了ssl之后，网站走的443端口，基本上也不会影响什么，所以就切换了过来。</p>
+<p>换域名之后另一个需要的解决的事情是要把<code>iliu.org</code>的网址301跳转到新网站，以前用VPS的时候，直接在<code>nginx</code>里设置，现在不用vps了，有没有别的方法呢？答案是肯定的，而且比vps更方便。那就是使用<code>Cloudflare</code>的页面规则进行跳转。</p>
+<h2 id="方法">方法</h2>
+<p>进入到<code>cloudflare</code>的个人中心，点击需要跳转的网站域名，点击DNS。 把域名解析到8.8.8.8，当然你解析到1.1.1.1也是可以的。然后点击规则，再点击页面规则。具体的设置如下图：<img alt="规则" loading="lazy" src="https://ewader.s3.bitiful.net/blog/guize.png"></p>
+<p>这样，就把<code>iliu.org</code>这个网站的网址，按照同样的规则，跳转到了<code>tunan.org</code>这个网站。</p>
+<p>使用免费的<code>cloudflare</code>一个域名只有3个免费的页面规则，因此还有另外一个方法也可以实现，那就是利用<code>cloudflare</code>的<code>workers</code>。</p>
+<p>进入到<code>cloudflare</code>的后台后，点击<code>Workers 和 Pages</code>。</p>
+<p>点击<code>创建应用程序</code>,再点击<code>创建workers</code>：把下面的代码修改一下，复制到代码区保存。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="o">/**</span>
+</span></span><span class="line"><span class="cl"> <span class="o">*</span> <span class="n">Welcome</span> <span class="n">to</span> <span class="n">Cloudflare</span> <span class="n">Workers</span><span class="o">!</span> <span class="n">This</span> <span class="n">is</span> <span class="n">your</span> <span class="n">first</span> <span class="n">worker</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl"> <span class="o">*</span>
+</span></span><span class="line"><span class="cl"> <span class="o">*</span> <span class="o">-</span> <span class="n">Run</span> <span class="s2">&#34;npm run dev&#34;</span> <span class="ow">in</span> <span class="n">your</span> <span class="n">terminal</span> <span class="n">to</span> <span class="n">start</span> <span class="n">a</span> <span class="n">development</span> <span class="n">server</span>
+</span></span><span class="line"><span class="cl"> <span class="o">*</span> <span class="o">-</span> <span class="n">Open</span> <span class="n">a</span> <span class="n">browser</span> <span class="n">tab</span> <span class="n">at</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">localhost</span><span class="p">:</span><span class="mi">8787</span><span class="o">/</span> <span class="n">to</span> <span class="n">see</span> <span class="n">your</span> <span class="n">worker</span> <span class="ow">in</span> <span class="n">action</span>
+</span></span><span class="line"><span class="cl"> <span class="o">*</span> <span class="o">-</span> <span class="n">Run</span> <span class="s2">&#34;npm run deploy&#34;</span> <span class="n">to</span> <span class="n">publish</span> <span class="n">your</span> <span class="n">worker</span>
+</span></span><span class="line"><span class="cl"> <span class="o">*</span>
+</span></span><span class="line"><span class="cl"> <span class="o">*</span> <span class="n">Learn</span> <span class="n">more</span> <span class="n">at</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">developers</span><span class="o">.</span><span class="n">cloudflare</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">workers</span><span class="o">/</span>
+</span></span><span class="line"><span class="cl"> <span class="o">*/</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">//</span> <span class="n">Redirect</span> <span class="n">requests</span> <span class="n">from</span> <span class="n">one</span> <span class="n">domain</span> <span class="n">to</span> <span class="n">another</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">const</span> <span class="n">base</span> <span class="o">=</span> <span class="s2">&#34;https://tunan.org&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="k">const</span> <span class="n">statusCode</span> <span class="o">=</span> <span class="mi">301</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">async</span> <span class="n">function</span> <span class="n">handleRequest</span><span class="p">(</span><span class="n">request</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="k">const</span> <span class="n">url</span> <span class="o">=</span> <span class="n">new</span> <span class="n">URL</span><span class="p">(</span><span class="n">request</span><span class="o">.</span><span class="n">url</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="k">const</span> <span class="p">{</span> <span class="n">pathname</span><span class="p">,</span> <span class="n">search</span> <span class="p">}</span> <span class="o">=</span> <span class="n">url</span>
+</span></span><span class="line"><span class="cl">  <span class="k">const</span> <span class="n">destinationURL</span> <span class="o">=</span> <span class="n">base</span> <span class="o">+</span> <span class="n">pathname</span> <span class="o">+</span> <span class="n">search</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="n">Response</span><span class="o">.</span><span class="n">redirect</span><span class="p">(</span><span class="n">destinationURL</span><span class="p">,</span> <span class="n">statusCode</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">addEventListener</span><span class="p">(</span><span class="s2">&#34;fetch&#34;</span><span class="p">,</span> <span class="n">async</span> <span class="n">event</span> <span class="o">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="n">event</span><span class="o">.</span><span class="n">respondWith</span><span class="p">(</span><span class="n">handleRequest</span><span class="p">(</span><span class="n">event</span><span class="o">.</span><span class="n">request</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="p">})</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>上面秩序把域名化成你的域名，然后设置workers的域名是你要转出的域名即可。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>初冬时节话镜片防雾</title>
+      <link>https://iliu.org/posts/talk-about-lens-anti-fog-in-early-winter/</link>
+      <pubDate>Mon, 13 Nov 2023 21:16:41 +0800</pubDate>
+      <guid>https://iliu.org/posts/talk-about-lens-anti-fog-in-early-winter/</guid>
+      <description>&lt;p&gt;又到了冬天了，你那里飘雪花了吗？来暖气了吗？&lt;/p&gt;
+&lt;p&gt;冬天对眼镜佩戴者来说，最烦人的莫过于镜片起雾了。特别是从外面回到家，或者戴口罩的时候。其实现在树脂镜片已经好很多了，以前的玻璃镜片，那才能让你雾的怀疑人生。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>又到了冬天了，你那里飘雪花了吗？来暖气了吗？</p>
+<p>冬天对眼镜佩戴者来说，最烦人的莫过于镜片起雾了。特别是从外面回到家，或者戴口罩的时候。其实现在树脂镜片已经好很多了，以前的玻璃镜片，那才能让你雾的怀疑人生。</p>
+<p>那么，有什么办法能防止镜片起雾吗？老刘很负责任的告诉大家，除非消除温度差，否则这个问题很难彻底解决，但是目前也有一些缓解的方案，你可以从中选择适合自己的。</p>
+<h2 id="防雾镜片">防雾镜片</h2>
+<p>算是目前效果最好的防雾方案了，但是依然不完美。防雾镜片的原理是：<strong>镜片的镀膜采用亲水膜，通俗的讲，能吸水</strong>。这样，产生的雾气，就被膜层吸收掉了。所以，防雾镜片在环境温度变化，比如从外面回家，或者吃火锅等场景的使用效果是很好的。</p>
+<p>但是，毕竟膜很薄，吸水的能力有限，当蒸发量大于雾气的的产生量的时候，效果是好的，但是如果持续的产生雾气从而大于蒸发量的时候，防雾的效果就不好了。比如，佩戴口罩。</p>
+<p>虽然，防雾镜片的缺点有一些，但是，经过技术改进的防雾镜片依然是目前最优化的防雾方案了。</p>
+<h2 id="防雾镜布喷雾">防雾镜布、喷雾</h2>
+<p>这类的方案是在镜片的表面涂上一层高分子材料，<strong>增加水分子的张力，使水分子不容易聚合在一起形成水滴</strong>。</p>
+<p>优点是，价格便宜、不用换镜片。缺点是，因为是<strong>涂在镜片的表面，很容易被水冲掉，所以，刚开始的效果不错，时间长了就不行了，需要经常擦拭镜片</strong>。</p>
+<p>另外一个就是，虽然厂家说这种涂层对人体和镜片的膜层都是无害的。但是到底情况如何也不得而知。因为老刘也没有查到具体用了什么材质的相关文献。自己判断吧。</p>
+<h2 id="diy">DIY</h2>
+<p>这是老刘我实验很久的独家秘方，这次分享给大家，既然镜片上的雾气是呼吸出来的水蒸气产生的，那么一个办法就是想办法减少到达镜片的水蒸气。我试验过不少的东西，最后发现，<strong>在口罩内放一片面巾纸，效果还是不错的</strong>。</p>
+<p>我曾经把这个方法告诉我的顾客，据反馈，大部分人的效果也不错。反正也没有什么成本，你不妨试试咯。</p>
+<p>最后，友情提示一下，防雾镜片加面巾纸的做法，效果会更好。😄</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>在群晖中使用tailscale实现内网穿透</title>
+      <link>https://iliu.org/posts/using-tailscale-to-achieve-intranet-penetration-in-synology/</link>
+      <pubDate>Sun, 12 Nov 2023 21:19:15 +0800</pubDate>
+      <guid>https://iliu.org/posts/using-tailscale-to-achieve-intranet-penetration-in-synology/</guid>
+      <description>&lt;p&gt;在远程连接群晖的实践中，老刘一切介绍过&lt;a href=&#34;https://tunan.org/3356.html&#34;&gt;zerotier&lt;/a&gt;和&lt;a href=&#34;https://tunan.org/3997.html&#34;&gt;IPv6&lt;/a&gt;。但是实际的使用过程中，zerotier有时候握手的速度很慢，而且配置起来比较麻烦，IPv6很好，速度也快，但是有些环境中还只有IPv4，直到我听别人介绍到tailscale这个软件。它的工作原理其实和zerotier差不多，但是不需要什么复杂的设置，直接注册、登录，同一个账号的所有设备都连接到一起了。&lt;/p&gt;
+&lt;h2 id=&#34;注册tailscale&#34;&gt;注册tailscale&lt;/h2&gt;
+&lt;p&gt;百度直接搜，或者打看&lt;a href=&#34;https://www.tailscale.com/&#34;&gt;tailscale&lt;/a&gt;官方网站。注册就行，不过它不支持自由注册，需要用Google、apple、或者微软的outlook账号注册。&lt;/p&gt;
+&lt;h2 id=&#34;下载tailscale&#34;&gt;下载tailscale&lt;/h2&gt;
+&lt;p&gt;网页的右上角，有个downloads，点击就可以了。里面有常用的Windows、Linux等的客户端，直接点击下载相应的客户端，并安装。安装后登录，然后在个人中心里，系统自动给你分配了一个ip地址，如果你要了解某个设备，直接在浏览器里打开那个ip地址就好了。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>在远程连接群晖的实践中，老刘一切介绍过<a href="https://tunan.org/3356.html">zerotier</a>和<a href="https://tunan.org/3997.html">IPv6</a>。但是实际的使用过程中，zerotier有时候握手的速度很慢，而且配置起来比较麻烦，IPv6很好，速度也快，但是有些环境中还只有IPv4，直到我听别人介绍到tailscale这个软件。它的工作原理其实和zerotier差不多，但是不需要什么复杂的设置，直接注册、登录，同一个账号的所有设备都连接到一起了。</p>
+<h2 id="注册tailscale">注册tailscale</h2>
+<p>百度直接搜，或者打看<a href="https://www.tailscale.com/">tailscale</a>官方网站。注册就行，不过它不支持自由注册，需要用Google、apple、或者微软的outlook账号注册。</p>
+<h2 id="下载tailscale">下载tailscale</h2>
+<p>网页的右上角，有个downloads，点击就可以了。里面有常用的Windows、Linux等的客户端，直接点击下载相应的客户端，并安装。安装后登录，然后在个人中心里，系统自动给你分配了一个ip地址，如果你要了解某个设备，直接在浏览器里打开那个ip地址就好了。</p>
+<p>如果你的系统没有在常用的客户端页面，可以点击<a href="https://pkgs.tailscale.com/stable/#spks">这里</a>，会进入一个所有的客户端的页面，找到你的系统下载即可。</p>
+<h3 id="群晖中安装">群晖中安装</h3>
+<p>点击我上面说的那个连接，然后找到群晖的客户端。根据你群晖的系统选。如果你群晖是DSM6就选6，DSM7就选7，不要选错了。下载之后进入群晖的后台，进入套件中心，点击手动安装。<img loading="lazy" src="https://tunan.org/tupian/qunhui-1.jpg"></p>
+<p>安装的时候DSM会有一些权限的提示，选择允许就行了。安装后打开套件，点==connect==那个黑色的按钮，登录你的账号就可以了。</p>
+<h3 id="linux里安装与使用">Linux里安装与使用</h3>
+<p>也是选择合适系统的客户端，下载安装，如果你用的Arch Linux系列，可以直接用命令安装：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">yay tailscale
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>安装完之后，和windows下不同的是，它没有一个UI，需要你在命令里进行登录。 首先，运行tailscale：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo systemctl start tailscaled
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>然后登录：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo tailscale login
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>会给你网址，点击这个网址，用你的账号登录即可。</p>
+<p>登录后使用命令查看目前在线的设备：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">tailscale status
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>找到群晖的ip地址，选中复制，粘贴到浏览器里，打开，是不是熟悉的群晖后台出现了？</p>
+<h2 id="后续的一些优化">后续的一些优化</h2>
+<p>如果是你经常用的设备，你不想让这个设备的ip地址发生变化，可以进行一点小小的设置，如下图：<img loading="lazy" src="https://tunan.org/tupian/qunhui-3.png"></p>
+<p>但让，tailscale还有一些高级的用法，比如在路由器里安装后，其他设备不用安装也能相互访问，这个有点折腾了，不在本文的范围，有兴趣的朋友可以去官方看相关教程。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>EndeavourOS安装之后的几件事</title>
+      <link>https://iliu.org/A-few-things-after-installing-EndeavourOS/</link>
+      <pubDate>Wed, 08 Nov 2023 21:22:44 +0800</pubDate>
+      <guid>https://iliu.org/A-few-things-after-installing-EndeavourOS/</guid>
+      <description>&lt;p&gt;很多追求新，追求精简的Linux系统的使用者，往往都会推荐Arch Linux，这个系统特点是精简，精简到什么都需要你来搞定，所以也让很多人望而却步。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>很多追求新，追求精简的Linux系统的使用者，往往都会推荐Arch Linux，这个系统特点是精简，精简到什么都需要你来搞定，所以也让很多人望而却步。</p>
+<p><img alt="最终效果" loading="lazy" src="https://tunan.org/tupian/2023-11-08.png"></p>
+<p>后来有人根据Arch Linux开发出manjaro这个系统，一问世就获得了用户的好评，但是，后来manjaro的发展也偏离了初心，EndeavourOs可以简便了Arch Linux的安装，但是又不多添加零碎，是最接近Arch Linux的系统了。老刘原来用Ubuntu，但是又不想到处去找想要安装的软件，所以换成了EndeavourOs，为了打造更好用的系统，老刘安装后做了如下的优化，文章小白可以参考，大佬请路过。</p>
+<h2 id="安装输入法">安装输入法</h2>
+<p>老刘比较喜欢用的小狼毫的输入法，这个在Linux平台下，叫rime输入法，aur里什么都用，直接命令安装就行：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">yay ibus ibus-rime <span class="c1">#安装输入法框架及输入法</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#安装雾凇拼音</span>
+</span></span><span class="line"><span class="cl">git clone --depth<span class="o">=</span><span class="m">1</span> https://github.com/rime/plum 
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> plum
+</span></span><span class="line"><span class="cl">bash rime-install iDvel/rime-ice:others/recipes/full
+</span></span><span class="line"><span class="cl"><span class="c1">#以后更新词库这样</span>
+</span></span><span class="line"><span class="cl">bash rime-install iDvel/rime-ice:others/recipes/all_dicts
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="安装各种需要的软件">安装各种需要的软件</h2>
+<h3 id="微信和qq">微信和QQ</h3>
+<p>不得不说，腾讯真的阻碍了中国国产系统的发展，之前QQ死活不弄Linux的，后来出了一个不能用的Linux版本，直到今年才算出了真正意义上的QQ，但是现在微信Linux版依然是基本没法用，不过好在有wine，偶尔凑合的用一下还是可以的。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">yay linuxqq
+</span></span><span class="line"><span class="cl">yay wechat deepin
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>选择你喜欢的版本即可。</p>
+<h3 id="visual-studio-code">Visual Studio Code</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">yay visual studio code
+</span></span><span class="line"><span class="cl"><span class="c1">#这里不建议使用code那个版本，虽然是开源的，但是我觉得没有官方版本好用</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="笔记软件obsidian">笔记软件obsidian</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">yay obsidian
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="hugo">Hugo</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">yay hugo
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="zsh">zsh</h3>
+<p>系统自带的是bash，我比较喜欢用的是zsh，因为功能更强大。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo pacman -S zsh
+</span></span><span class="line"><span class="cl">sudo pacman -S zsh-autosuggestions
+</span></span><span class="line"><span class="cl">sudo pacman -S zsh-syntax-highlighting
+</span></span><span class="line"><span class="cl">sudo pacman -S zsh-theme-powerlevel10k
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>然后，设置默认shell位zsh</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">chsh -s /usr/bin/zsh
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>开始配置，我使用了一个脚本</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">yay -S oh-my-zsh-git
+</span></span><span class="line"><span class="cl">cp /usr/share/oh-my-zsh/zshrc ~/.zshrc
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>重新打开终端，应该就是zsh了，不过现在还不是很好用，我们需要在配置一下。</p>
+<p>编辑~/.zshrc文件，找到ZSH_THEME=“robbyrussell&quot;在这里改成自己想要的主题名字就行了，打开新的终端就能看到效果，我用的是agnoste。找到<code>plugins=(git)</code>这个位置，加上几个我们之前安装的插件。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nv">plugins</span><span class="o">=(</span>
+</span></span><span class="line"><span class="cl">git
+</span></span><span class="line"><span class="cl">autojump
+</span></span><span class="line"><span class="cl">zsh-syntax-highlighting
+</span></span><span class="line"><span class="cl">zsh-autosuggestions
+</span></span><span class="line"><span class="cl"><span class="o">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>注意，不要用逗号之类的标点符号。重新打开终端试试吧，比默认的bash好用的多了。</p>
+<h3 id="microsoft-edge">Microsoft edge</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">yay microsoft edge <span class="c1">#版本比较多，选你喜欢的安装即可</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>总而言之，用Arch Linux系，想要什么软件，直接yay即可。在这方面，要比Windows安装软件方便的多😄。</p>
+<h2 id="对系统进行一点优化">对系统进行一点优化</h2>
+<h3 id="安装插件">安装插件</h3>
+<p>gnome做的是实在太精简了，所以还要搞一点点的优化才用好。这个就需要用到插件了。Chrome和Firefox浏览器都用gnome的插件。在浏览器里搜gnome然后，安装上就行。不过这里有个坑，浏览器显示缺少一个叫chrome-gnome-shell软件，你的第一反应一定是</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">yay chrome gnome shell
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>但是很不幸，这个已经没有了，改名了，正确的做法是：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">yay -S gnome-browser-connector
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>现在你可以在浏览器上安装你要的插件了，目前用了以下三个</p>
+<h4 id="dash-to-dock">dash to dock</h4>
+<p>这个玩意不装的话，鼠标移动到dock栏不会自动出来，装上就方便很多</p>
+<h4 id="农历插件">农历插件</h4>
+<p>这个插件可以显示农历，但是节气有时候不太对。装之前需要装另外一个软件</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">yay -Sy lunar-date
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h4 id="天气插件">天气插件</h4>
+<p>这个插件可以在时间的那个位置显示天气信息，用的是挪威的天气源，能看个大概</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Hugo-papermod主题的优化记录</title>
+      <link>https://iliu.org/posts/hugo-papermod-modification/</link>
+      <pubDate>Sat, 04 Nov 2023 21:30:05 +0800</pubDate>
+      <guid>https://iliu.org/posts/hugo-papermod-modification/</guid>
+      <description>&lt;p&gt;在上一篇文章中曾经说到把博客从WordPress转到了Hugo，经过这几天的使用，发现还是很不错的，用起来也比较方便。但是，在使用PaperMod主题的时候，也是遇到了一些问题，本文就遇到的问题作一个记录。目前，主题的代码高亮功能还是没有搞定，不过也是影响不大，先放一放也无所谓。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>在上一篇文章中曾经说到把博客从WordPress转到了Hugo，经过这几天的使用，发现还是很不错的，用起来也比较方便。但是，在使用PaperMod主题的时候，也是遇到了一些问题，本文就遇到的问题作一个记录。目前，主题的代码高亮功能还是没有搞定，不过也是影响不大，先放一放也无所谓。</p>
+<h3 id="首页不显示文章">首页不显示文章</h3>
+<p>把WordPress导出的md文件导入的Hugo的psots目录后，在使用代码创建新文件时候</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hugo new posts/***.md
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>发现新建的md文件，生成网页后不会在首页显示。但是在栏目里是会有的。后来的在@<a href="https://www.sharpgan.com/">阿甘博客</a>博客的提醒下，使用导出的md文件的文档属性标头，成功的显示了。但是，每次在生成文章md的时候，都需要手动的更改，不是太方便。后来，在看某篇文章的时候得到启发，修改archetypes/default.md,把默认的代码删除，改成：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">---
+</span></span><span class="line"><span class="cl">title: &#34;{{ replace .Name &#34;-&#34; &#34; &#34; | title }}&#34; 
+</span></span><span class="line"><span class="cl">author: 老刘
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">date: {{ .Date }}
+</span></span><span class="line"><span class="cl">url: /optics-weekly-issue-8/
+</span></span><span class="line"><span class="cl">categories:
+</span></span><span class="line"><span class="cl">  - 齐物
+</span></span><span class="line"><span class="cl">---
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>然后，再创建md文件后，只需要修改一下url里的值就OK了。</p>
+<h3 id="增加评论功能">增加评论功能</h3>
+<p>这个主要是copy了阿甘博客的方法。 在artalk的官方文档中找到<code>Artalk.css</code>和<code>Artalk.js</code>文件的cdn地址然后下载到本地，在hugo项目根目录的/static文件夹下面新建一个叫 artalk的文件夹，然后把前述两个静态文件放进这个文件夹</p>
+<p>创建模板文件 /主题目录/layouts/partials/comment/artalk.html，文件内容如下：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;link href=&#34;https://iliu.org/artalk/Artalk.css&#34; rel=&#34;stylesheet&#34;&gt;
+</span></span><span class="line"><span class="cl">&lt;script src=&#34;https://iliu.org/artalk/Artalk.js&#34;&gt;&lt;/script&gt;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">&lt;!-- Artalk --&gt;
+</span></span><span class="line"><span class="cl">&lt;div id=&#34;Comments&#34;&gt;&lt;/div&gt;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">&lt;script&gt;
+</span></span><span class="line"><span class="cl">  Artalk.init({
+</span></span><span class="line"><span class="cl">    el:        &#39;#Comments&#39;,
+</span></span><span class="line"><span class="cl">    pageKey:   &#39;{{ .Permalink }}&#39;,
+</span></span><span class="line"><span class="cl">    pageTitle: &#39;{{ .Title }}&#39;,
+</span></span><span class="line"><span class="cl">    server:    &#39;{{ $.Site.Params.artalk.server }}&#39;,
+</span></span><span class="line"><span class="cl">    site:      &#39;{{ $.Site.Params.artalk.site }}&#39;,
+</span></span><span class="line"><span class="cl">    // ...你的其他配置
+</span></span><span class="line"><span class="cl">  })
+</span></span><span class="line"><span class="cl">&lt;/script&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>文章页模板 /主题目录/layouts/_default/single.html 合适的位置添加：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;div class=&#34;article-comments&#34;&gt;
+</span></span><span class="line"><span class="cl">  {{- partial &#34;comment/artalk&#34; . -}}
+</span></span><span class="line"><span class="cl">&lt;/div&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>具体位置为<code>single.html</code>文件的{{- if (.Param “comments”) }}判断体中，完整的代码如下：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">{{- if (.Param &#34;comments&#34;) }}
+</span></span><span class="line"><span class="cl">  &lt;div class=&#34;article-comments&#34;&gt;
+</span></span><span class="line"><span class="cl">  {{- partial &#34;comment/artalk&#34; . -}}
+</span></span><span class="line"><span class="cl">&lt;/div&gt;
+</span></span><span class="line"><span class="cl">  {{- end }}
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>然后在 Hugo 配置文件中添加如下内容：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">params:
+</span></span><span class="line"><span class="cl">  artalk:
+</span></span><span class="line"><span class="cl">    server: &#39;https://artalk.sharpgan.com&#39;
+</span></span><span class="line"><span class="cl">    site: &#39;图南博客&#39;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>至于artalk的部署方法，可以用docker来部署，官方有详细的方法</p>
+<h3 id="不加载css和js">不加载CSS和JS</h3>
+<p>这个问题有点玄学，很多教程给出的答案都是去Cloudflare里修改，使优化不压缩js和CSS，但是在我这里没有效果。看了错误的提示好像是SHA-256完整性的检查不通过，浏览器阻塞了。 一般的解决办法是： 是要么关闭 SRI，要么取消 Cloudflare 的「Auto Minify」。 Cloudflare 关闭的方法：速度 - 优化 - Auto Minify。 在 Hugo 中关闭的方法：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">params:
+</span></span><span class="line"><span class="cl">  assets:
+</span></span><span class="line"><span class="cl">    disableFingerprinting: true
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>但是，在我这里怎么搞都没有用。 后来看到一个哥们的博客，网址我忘掉了，通过修改一个值，搞定了。 在 themes\PaperMod\layouts\partials 文件夹下找到一个 head.html 文件，发现里面确实有 integrity=&quot;{{ $stylesheet.Data.Integrity }}&quot; 这么一句代码，把它改为 integrity=&quot;&quot; 然后重新发布</p>
+<h3 id="代码高亮">代码高亮</h3>
+<p>这个我参考了阿甘和其他的一些文章，但是都没有成功，有时候有一点颜色，有时候一丢丢颜色也没有。我感觉可能是和物品修改了上面的那个head.html有关系。 然而，我的猜测是错误❌的，加上那个代码也没有用。然后我回复用官方的一个dome，发现是可以显示代码高亮的，仔细查看了我的配置文件和官方的配置文件的差别，发现是在设置代码高亮的那个地方，有一个选项不能是true，不然就不显示，太玄学了。 具体代码：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">highlight:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># anchorLineNos: true
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">noClasses: false
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># anchorLineNos: true
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">#codeFences: true
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">#guessSyntax: true
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">lineNos: true
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">style: monokai
+</span></span></code></pre></td></tr></table>
+</div>
+</div>]]></content:encoded>
+    </item>
+    <item>
+      <title>视光周刊（第9期）：年轻的时候近视，年老不花眼？</title>
+      <link>https://iliu.org/posts/optics-weekly-issue-9/</link>
+      <pubDate>Fri, 03 Nov 2023 21:33:27 +0800</pubDate>
+      <guid>https://iliu.org/posts/optics-weekly-issue-9/</guid>
+      <description>&lt;p&gt;这里记录每周值得分享的视光内容。周五在&lt;strong&gt;光学视界&lt;/strong&gt;公众号和&lt;strong&gt;图南博客&lt;/strong&gt;发布。本周的主要内容包括：&lt;strong&gt;角膜塑形镜的安全性，近视人年老了会不会老花，高度近视人的选框技巧&lt;/strong&gt;等。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>这里记录每周值得分享的视光内容。周五在<strong>光学视界</strong>公众号和<strong>图南博客</strong>发布。本周的主要内容包括：<strong>角膜塑形镜的安全性，近视人年老了会不会老花，高度近视人的选框技巧</strong>等。</p>
+<p>投稿请发邮件至：ewader@qq.com。</p>
+<h2 id="封面图-防紫外线的重要性">封面图-防紫外线的重要性</h2>
+<p><img alt="严重的白内障患者的眼睛" loading="lazy" src="https://iliu.org/zhoukan/9-1.jpg"></p>
+<p>这是一只患有严重白内障患者的眼睛，可以看到整个眼球都类似一个玉石一样的颜色了。可想而知，该患者的视力情况。 预防白内障要从防紫外线着手，比如外出佩戴防紫外线的太阳镜，一定要用合格的，UV400以上的才有效果。 另外常带眼镜的人可以选择佩戴变色的镜片，也是可以达到非常好的防护眼睛的效果。</p>
+<h2 id="本周视光内容">本周视光内容</h2>
+<h3 id="角膜塑形镜的安全性">角膜塑形镜的安全性</h3>
+<p>中国的研究人员系统地评估了关于控制近视发展的现有文献，发现角膜塑形术是一种安全的方法来预防和控制近视。在14项涉及2058名儿童的研究中，角膜塑形术在控制近视进展方面表现出优于框架眼镜的效果。<img alt="佩戴角膜塑形镜后的图像" loading="lazy" src="https://iliu.org/zhoukan/9-2.jpg"></p>
+<p>角膜塑形术通过改善视觉质量、减少角膜刺激、改善泪液循环和泪膜稳定性来发挥作用。研究人员强调，这不仅改变了近视患者的角膜曲率，还改善了他们的裸眼视力、减少近视度数和眼轴长度，从而控制近视的发展。</p>
+<p>但是研究人员也表示：对于不同种族儿童使用ok镜的长期疗效和安全性是否存在差异，以及不同ok镜对不同类型近视和不同年龄患者的疗效，研究小组仍心存疑虑。他们总结说，这些问题仍需要通过大量高质量的随机对照研究来进一步验证。</p>
+<p>本文详见：<a href="https://www.reviewofoptometry.com/article/orthok-safe-with-room-for-improvement">Ortho-K Safe, With Room for Improvement</a></p>
+<h3 id="年轻时近视老了之后不会老花眼">年轻时近视，老了之后不会老花眼？</h3>
+<p>不知道从什么时候，流行这么一个说法：</p>
+<blockquote>
+<p>年轻的时候近视了，年纪大了就不花眼了！年轻的时候戴眼镜，年纪大了就不用戴了。</p></blockquote>
+<p>这个说法不知道从何而其，我小时候刚近视的时候，大家都这么说，一直到现在30多年了，还有顾客给我这么说，那么这个说法正确吗？</p>
+<p>当然，不正确！近视是近视，老花是老花，这是两个不同的概念，近视是👀轴变长引起的，老花是睫状肌老化引起的！所以，近视的人该老花还是要老花。</p>
+<p>这篇文章就这个问题，做了详细的说明，<a href="https://mp.weixin.qq.com/s?__biz=MzI0NTAwNDg4OQ==&amp;mid=2651110413&amp;idx=1&amp;sn=ab7e6cecdf6f4878a74d534ffb17fffd&amp;chksm=f2a5333bc5d2ba2d16339faf88b5ad2ec2496cde5aca1c69222d64c9520dbb7ec9e789f15b30&amp;mpshare=1&amp;scene=24&amp;srcid=1030jbgVOy734MB1XR6Spowa&amp;sharer_shareinfo=524bc412aa10f5036d2f33eb1d0f3966&amp;sharer_shareinfo_first=524bc412aa10f5036d2f33eb1d0f3966#rd">感兴趣的可以看看到底是什么原理</a>。</p>
+<h3 id="高度近视的选框技巧">高度近视的选框技巧</h3>
+<p>随着电脑手机的普及，人们近距离用眼的增加，很多不近视的人近视了，而原来轻微近视的发展成高度了，那么高度近视在选择镜架的时候要注意什么呢？一般应该注意如下几点：</p>
+<ul>
+<li>应尽可能<strong>选用稳定性高的高度近视镜框</strong>，避免使用无框镜架，一般推荐金属框。</li>
+<li><strong>镜眼距要确保在11~12mm</strong>，宁愿稍大一点，也不能太小（镜眼距是指的眼睛到镜片的距离）</li>
+<li><strong>不要采用前倾角过大或面弯过大的镜架</strong>。</li>
+<li><strong>高度近视尽量选择全框或半框镜架</strong></li>
+<li><strong>高度近视一定要测量瞳高，确保装配的准确</strong></li>
+</ul>
+<p>具体内容，可以<a href="https://mp.weixin.qq.com/s?__biz=MzI0NTAwNDg4OQ==&amp;mid=2651109179&amp;idx=1&amp;sn=a2cd0124c18e67f5c723be08edf584b0&amp;chksm=f2a5380dc5d2b11b59ea905631bd41b19dc93b0e57e021ccebbb165777458d304c981818babe&amp;mpshare=1&amp;scene=24&amp;srcid=1027dORNtWr2MMBlSLmWY66V&amp;sharer_shareinfo=1e5721950bd17a3bc98cffce5565d1c9&amp;sharer_shareinfo_first=1e5721950bd17a3bc98cffce5565d1c9#rd">点击</a>查看。</p>
+<h2 id="关于视光周刊">关于视光周刊</h2>
+<p><img alt="周刊" loading="lazy" src="https://iliu.org/zhoukan/foot.jpeg"></p>
+<p>我是一名爱读书的验光师，受佛道两家的思想影响颇深。有感于目前很多视光号发布的文章质量参差不齐，甚至打着科普的旗号在制造焦虑，遂产生了把看到的优质的视光内容聚合起来的想法。 如果你还喜欢我的内容的话，==不妨点个赞，转发一下或者关注一下我们的公众号==。这是对我最大的支持，您对我们的周刊有任何意见或者建议，欢迎留言给我们。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>从WordPress转到Hugo</title>
+      <link>https://iliu.org/frome-wordpress-to-hugo/</link>
+      <pubDate>Wed, 01 Nov 2023 21:35:36 +0800</pubDate>
+      <guid>https://iliu.org/frome-wordpress-to-hugo/</guid>
+      <description>&lt;p&gt;在cloudcone上买的VPS马上就要到期了，由于去年买的是黑五预售，比正经黑五的机子要贵20来块钱，而且配置还要低一些。所以，续费是不能续费的了。原本打算在荷兰的liteserver这个上面暂时放一段时间。这是一台2c2g的机子，装完php、MySQL、和Nginx之后，只要运行一段时间，内存就基本上爆了。再加上最近lnmp和oneinstack都被收购而且被挂恶意代码，也不想用宝塔之类的面板，自己编译环境又很麻烦。于是，就产生了转成静态博客的想法。在这里也要感谢阿甘和韩宇的帮助。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>在cloudcone上买的VPS马上就要到期了，由于去年买的是黑五预售，比正经黑五的机子要贵20来块钱，而且配置还要低一些。所以，续费是不能续费的了。原本打算在荷兰的liteserver这个上面暂时放一段时间。这是一台2c2g的机子，装完php、MySQL、和Nginx之后，只要运行一段时间，内存就基本上爆了。再加上最近lnmp和oneinstack都被收购而且被挂恶意代码，也不想用宝塔之类的面板，自己编译环境又很麻烦。于是，就产生了转成静态博客的想法。在这里也要感谢阿甘和韩宇的帮助。</p>
+<p>原本以为很复杂，其实操作下来发现也是挺简单的。</p>
+<h2 id="首先wordpress的文章转换成md文件">首先，WordPress的文章转换成md文件</h2>
+<p>这里有大佬已经整好了，我是使用的插件的形式。 在WordPress的插件目录<code>wp-content/plugins/</code>下，直接克隆<code>WordPress to Hugo Exporter</code>的源码。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="o">$</span> <span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">SchumacherFM</span><span class="o">/</span><span class="n">wordpress</span><span class="o">-</span><span class="n">to</span><span class="o">-</span><span class="n">hugo</span><span class="o">-</span><span class="n">exporter</span><span class="o">.</span><span class="n">git</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>然后进到网站的后台，在插件里启用这个插件。在工具里，点<code>Export to Hugo</code>。会下载一个压缩包，这个压缩包就是你网站的文章转换成的md文件。 这个插件很好用，能保留网站原来的目录，换成Hugo后，搜索引擎的收录不会受到影响。</p>
+<h2 id="第二步安装hugo">第二步，安装Hugo</h2>
+<p>我是用的系统是Ubuntu22.04，所以直接安装就好了。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo snap install hugo
+</span></span><span class="line"><span class="cl">hugo new site youweb
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>然后进入到你的网站文件夹，找一个喜欢的主题。一般主题都会有使用的方法，按照使用方法安装即可。 另外主题里面也都会有网站设置的样板，把样板文件<code>hugo.yml</code>放到网站的根目录，按照自己网站的域名啥的设置一下。</p>
+<p>安装设置完成后，把你下载的文件，md文件copy到content这个文件夹，图片之类的放到static。然后</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hugo server
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>打开浏览器，localhost：1313，文章是不是显示出来了？</p>
+<h2 id="第三生成html文件并上传">第三，生成HTML文件，并上传</h2>
+<p>使用代码</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hugo
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>然后把public这个文件夹的内容传到你的虚拟主机、VPS或者GitHub，Cloudflare page等，再绑定域名就可以了。 至于如何操作，网上的教程大把的，直接参考就行了。</p>
+<h2 id="测试一下代码高亮">测试一下代码高亮</h2>
+<p>代码：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;link href=&#34;https://iliu.org/artalk/Artalk.css&#34; rel=&#34;stylesheet&#34;&gt;
+</span></span><span class="line"><span class="cl">&lt;script src=&#34;https://iliu.org/artalk/Artalk.js&#34;&gt;&lt;/script&gt;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">&lt;!-- Artalk --&gt;
+</span></span><span class="line"><span class="cl">&lt;div id=&#34;Comments&#34;&gt;&lt;/div&gt;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">&lt;script&gt;
+</span></span><span class="line"><span class="cl">  Artalk.init({
+</span></span><span class="line"><span class="cl">    el:        &#39;#Comments&#39;,
+</span></span><span class="line"><span class="cl">    pageKey:   &#39;{{ .Permalink }}&#39;,
+</span></span><span class="line"><span class="cl">    pageTitle: &#39;{{ .Title }}&#39;,
+</span></span><span class="line"><span class="cl">    server:    &#39;{{ $.Site.Params.artalk.server }}&#39;,
+</span></span><span class="line"><span class="cl">    site:      &#39;{{ $.Site.Params.artalk.site }}&#39;,
+</span></span><span class="line"><span class="cl">    // ...你的其他配置
+</span></span><span class="line"><span class="cl">  })
+</span></span><span class="line"><span class="cl">&lt;/script&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div>]]></content:encoded>
+    </item>
+    <item>
+      <title>思源笔记群晖正确的部署方法</title>
+      <link>https://iliu.org/posts/4418/</link>
+      <pubDate>Sat, 01 Jul 2023 03:10:30 -0400</pubDate>
+      <guid>https://iliu.org/posts/4418/</guid>
+      <description>&lt;p&gt;最近一直在选择一款适合自己的笔记软件，最后确定在思源笔记和 Joplin 这两个上面，打算都长期试用一下，比较一下哪个更适合自己。&lt;/p&gt;
+&lt;h2 id=&#34;事情的起因&#34;&gt;事情的起因&lt;a href=&#34;#%E4%BA%8B%E6%83%85%E7%9A%84%E8%B5%B7%E5%9B%A0&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;思源笔记的升级是相当频繁，可是我却发现，每次 docker 升级后，数据都没有保存下来，只能从备份的数据里重新导入，找了一下原因，发现是映射的文件夹里面没有数据，于是就重新安装，发现按照网上的教程，安装后 跑不起来。经过一番摸索，总算是搞定了！&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>最近一直在选择一款适合自己的笔记软件，最后确定在思源笔记和 Joplin 这两个上面，打算都长期试用一下，比较一下哪个更适合自己。</p>
+<h2 id="事情的起因">事情的起因<a href="#%E4%BA%8B%E6%83%85%E7%9A%84%E8%B5%B7%E5%9B%A0">#</a></h2>
+<p>思源笔记的升级是相当频繁，可是我却发现，每次 docker 升级后，数据都没有保存下来，只能从备份的数据里重新导入，找了一下原因，发现是映射的文件夹里面没有数据，于是就重新安装，发现按照网上的教程，安装后 跑不起来。经过一番摸索，总算是搞定了！</p>
+<h2 id="成功部署的方法">成功部署的方法<a href="#%E6%88%90%E5%8A%9F%E9%83%A8%E7%BD%B2%E7%9A%84%E6%96%B9%E6%B3%95">#</a></h2>
+<p>关于如何在群晖上设置Docker等基础的教程，老刘就不再重复制造数据垃圾了，既然你能找到我这里，说明你也已经查了很多的资料了，部署的方法都大同小异，只需要注意以下两点就可以了。</p>
+<p>经过博友@<a href="https://laomai.org">老麦</a>的反馈，直接在Container Manager上操作的话，第一步可以不做，直接用第二步即可。详细看下面老麦的评论。</p>
+<h3 id="第一在运行命令那处填写">第一，在运行命令那处填写：<a href="#%E7%AC%AC%E4%B8%80-%E5%9C%A8%E8%BF%90%E8%A1%8C%E5%91%BD%E4%BB%A4%E9%82%A3%E5%A4%84%E5%A1%AB%E5%86%99--">#</a></h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"> &lt;s&gt;-workspace /siyuan/workspace/&lt;/s&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>经过老刘的测试，最新版的思源，只能用上面的这句命令，用别的任何命令，群晖的Docker都会重复重启。</p>
+<h3 id="第二储存空间设置">第二，储存空间设置</h3>
+<p><a href="#%E7%AC%AC%E4%BA%8C%E5%82%A8%E5%AD%98%E7%A9%BA%E9%97%B4%E8%AE%BE%E7%BD%AE-%E7%AC%AC%E4%BA%8C%E5%82%A8%E5%AD%98%E7%A9%BA%E9%97%B4%E8%AE%BE%E7%BD%AEfigure-classwp-block-image">#</a></p>
+<p><img loading="lazy" src="https://cdn.staticaly.com/gh/ewader/img@master/20230701/xxx.6lnukqsan6c0.webp"></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;span class=&#34;hljs-regexp&#34;&gt;/Home/&lt;/span&gt;siyuan
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>以前的教程都是把群晖本地的文件夹映射到Docker的siyuan目录，现在看了是不正确的，这个目录如果填写不正确，思源的Docker可以正常启动，但是升级后，数据都会全部删除，因为没有正确的映射到本地文件夹。<br />这样就可以运行起来了。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>近视人群夏季佩戴太阳镜的几种方案</title>
+      <link>https://iliu.org/4408.html</link>
+      <pubDate>Wed, 24 May 2023 02:55:30 -0400</pubDate>
+      <guid>https://iliu.org/4408.html</guid>
+      <description>&lt;p&gt;夏天到了，阳光明媚，很多人都想佩戴太阳镜保护眼睛。但是对于近视人群来说，普通的太阳镜无法满足需求，那么应该怎样选择和佩戴太阳镜呢？下面为大家介绍几种方案。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>夏天到了，阳光明媚，很多人都想佩戴太阳镜保护眼睛。但是对于近视人群来说，普通的太阳镜无法满足需求，那么应该怎样选择和佩戴太阳镜呢？下面为大家介绍几种方案。</p>
+<h2 id="隐形眼镜非处方太阳镜">隐形眼镜+非处方太阳镜<a href="#%E9%9A%90%E5%BD%A2%E7%9C%BC%E9%95%9C%E9%9D%9E%E5%A4%84%E6%96%B9%E5%A4%AA%E9%98%B3%E9%95%9C">#</a></h2>
+<p>对于已经佩戴隐形眼镜的近视人群来说，可以直接选择佩戴非处方太阳镜。老刘上大学的时候就曾动过这个念头，不过一直到现在也没有实施，原因是<strong>佩戴隐形眼镜比较麻烦，虽然现在有日抛型的隐形，但是使用的成本较高</strong>。</p>
+<h2 id="定制近视太阳镜">定制近视太阳镜<a href="#%E5%AE%9A%E5%88%B6%E8%BF%91%E8%A7%86%E5%A4%AA%E9%98%B3%E9%95%9C">#</a></h2>
+<p>对于需要矫正近视的人群来说，虽然不能佩戴普通的太阳镜，但是目前可以选择定制近视太阳镜，在验光后由专业的配镜人员根据具体的近视情况以及太阳镜材质、颜色进行定制。定制近视太阳镜不仅能够满足夏天佩戴太阳镜的需求，还能够矫正视力，对眼健康有很好的保护作用。<br />但是这个方案对<strong>高度近视的朋友不是很友好。做出来的眼镜很重。所以，推荐给中低度近视人群使用</strong>。</p>
+<h2 id="变色镜片">变色镜片<a href="#%E5%8F%98%E8%89%B2%E9%95%9C%E7%89%87">#</a></h2>
+<p>变色镜片可以根据环境光线强度自动调节镜片颜色，能够有效地抵挡眩光和强光的刺激，使得视线更加舒适，同时具有紫外线防护作用。好的变色镜片可是实现秒变色，褪色速度也很快。对于，重高度近视的人群来说，是一个非常理想的选择。<br />但是变色镜片收到环境的影响比较大，比如说温度和紫外线的强度，在同等的条件下，<strong>温度越高，变色的效果会越差</strong>。同时也会收到紫外线的影响，有时候虽然光学很亮，但是紫外线很少的情况下，镜片的变色效果也不好，比如车内。好在目前也开发出来了车内变色镜片，但是价格较贵。</p>
+<p>总之，选择合适的太阳镜对于近视人群的眼健康至关重要。尽管现在市面上有很多太阳镜可以选择，但是一定要根据自身的近视情况、角膜曲率等因素进行选择。建议大家带领着验光单，到专业的配镜机构进行购买和定制。</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

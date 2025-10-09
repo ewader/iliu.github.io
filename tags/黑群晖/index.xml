@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>黑群晖 on 老刘博客</title>
+    <link>https://iliu.org/tags/%E9%BB%91%E7%BE%A4%E6%99%96/</link>
+    <description>Recent content in 黑群晖 on 老刘博客</description>
+    <image>
+      <title>老刘博客</title>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.151.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 04 Jun 2020 10:02:22 +0000</lastBuildDate>
+    <atom:link href="https://iliu.org/tags/%E9%BB%91%E7%BE%A4%E6%99%96/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NAS算是有点用处了</title>
+      <link>https://iliu.org/3179.html</link>
+      <pubDate>Thu, 04 Jun 2020 10:02:22 +0000</pubDate>
+      <guid>https://iliu.org/3179.html</guid>
+      <description>&lt;p&gt;去年的看老张弄NAS，也跟风弄了一个黑群晖，不过弄来之后就基本上处于闲置的状态。想不到用来做什么。存个图片，备份个文件，完事之后就关机，不然开着也是开着，净浪费电。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>去年的看老张弄NAS，也跟风弄了一个黑群晖，不过弄来之后就基本上处于闲置的状态。想不到用来做什么。存个图片，备份个文件，完事之后就关机，不然开着也是开着，净浪费电。</p>
+<p>后来，把打印机和NAS连在一起，算是有了一个打印的功能，笔记本不用再插打印机的线了。但是还是感觉有些鸡肋。前两天阿里云OSS到期了，不准备再续费了，因为这个oss也是一个天坑啊，阿里云离有300来块钱的余额，都被这玩意给吃了。有苦说不出，谁让自己发现的晚了呢。</p>
+<p>另一个主做视光的网站，提供一些培训视频，培训资料的下载，一直没有合适的地方放置这些资源，灵机一动，发现NAS其实提供了分享文件的功能，这样，自己的这些资料只需存到nas了，对外提供下载就可以了。嗯嗯嗯，</p>
+<p>发现nas很多的功能自己都没有用到，另外，哪位知道不知道，黑群晖里的视频，能不能再网站上播放？</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>再次折腾黑群晖系统</title>
+      <link>https://iliu.org/2860.html</link>
+      <pubDate>Sat, 23 Nov 2019 02:51:56 +0000</pubDate>
+      <guid>https://iliu.org/2860.html</guid>
+      <description>&lt;p&gt;昨天拍了一些眼镜架的图片，可以却同步不到群晖的monents里面，有了群晖之后有些事情确实特别的方便，比如我拍的镜架的图片，想传到在线商城里面，以前的做法是，选择图片，再微信里用文件传输助手传给自己，然后再在桌面的微信里下载下来，很不方便，有了群晖之后，就可以直接在客户端里同步到群晖里，我直接在里面修图，上传到网站即可。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>昨天拍了一些眼镜架的图片，可以却同步不到群晖的monents里面，有了群晖之后有些事情确实特别的方便，比如我拍的镜架的图片，想传到在线商城里面，以前的做法是，选择图片，再微信里用文件传输助手传给自己，然后再在桌面的微信里下载下来，很不方便，有了群晖之后，就可以直接在客户端里同步到群晖里，我直接在里面修图，上传到网站即可。</p>
+<p><a href="https://tunan.org/wp-content/uploads/2019/11/b030f7d30297555.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2863" src="https://tunan.org/wp-content/uploads/2019/11/b030f7d30297555.jpg" alt="" width="900" height="575" srcset="https://tunan.org/wp-content/uploads/2019/11/b030f7d30297555.jpg 900w, https://tunan.org/wp-content/uploads/2019/11/b030f7d30297555-300x192.jpg 300w, https://tunan.org/wp-content/uploads/2019/11/b030f7d30297555-768x491.jpg 768w" sizes="(max-width: 900px) 100vw, 900px" /></a></p>
+<p>但是今天却同步出错了，用重启大法重启后，竟然显示数据损坏，让重新安装系统，但是下载了3617的pat后上传，却显示13错误，从网上查了一下，应该是和引导不匹配造成的。那就重新安装吧，听张波老师说，二合一的系统不稳定，这次打算直接把引导程序装到U盘里，暴风自带的ssd专门装套件，西数的那块2T的硬盘作为数据盘。</p>
+<p>由于没有弄过非2合一的，在网上找教程的时候看到有人说万由的U-NAS也不错，简单高效，并且暴风可以说是万由的亲儿子。由于觉得自己使用也就是备份下数据什么的，用万由也就够了，于是，打算装万由的系统试试。万由的系统安装很简单，用Win32DiskImager把固件写入U盘，安装到ssd里即可。</p>
+<p>暴风接上显示器，大爷，又进不去bios了，轻车熟路，拆机箱，扣主板电池放电，装上电池。接上显示器，电源等，开机进入bios。可是却识别不出来U盘，后来查到是因为万由不支持uefi启动，于是更改主板的引导方式，安装很顺利，可惜安装后，又不能进BIOS了，不过进入系统正常，登录了一下万由的系统，感觉摸不到头脑，系统和群晖一比就如windows98和win10的差别一样，易用性太差了，没办法，还是换成群晖吧。不过，u-NAS启动等都能甩群晖一条街。。。。可惜不是我的菜。</p>
+<p>由于还是进不去BIOS，于是继续抠电池。看到主板的版本是1.4的，怀疑是不是版本的问题，看官方的最新是1.8的，于是升级主板的版本到1.8,重启了几次，开机进bIOS正常，于是为了兼容性，于是打开了打开CSM选项，保存重启，大爷的，又进不去BIOS了，不过也终于知道是什么原因导致进不去BIOS了。再次抠电池，设置的是，不打开CSM选项就是了。现在回想起来，应该都是设置了这个造成的。也不知道是我这块主板的个例还是全都是这样。</p>
+<p><a href="https://tunan.org/wp-content/uploads/2019/11/48d97b422372f66.jpg"><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-2861" src="https://tunan.org/wp-content/uploads/2019/11/48d97b422372f66-1024x394.jpg" alt="" width="1024" height="394" srcset="https://tunan.org/wp-content/uploads/2019/11/48d97b422372f66-1024x394.jpg 1024w, https://tunan.org/wp-content/uploads/2019/11/48d97b422372f66-300x115.jpg 300w, https://tunan.org/wp-content/uploads/2019/11/48d97b422372f66-768x295.jpg 768w, https://tunan.org/wp-content/uploads/2019/11/48d97b422372f66-1536x591.jpg 1536w, https://tunan.org/wp-content/uploads/2019/11/48d97b422372f66-2048x787.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p>如上图，这是正常启动的时候，显示的当开启CSM后，上面这些文字显示的是乱码，就进不去BIOS了，不过进系统正常。</p>
+<p>这次安装决定把引导程序装到U盘里，暴风自带的ssd专门装套件，西数的那块2T的硬盘作为数据盘。网上一堆的教程让人头大，其实理顺了也很简单。过两天抽空写个教程。安装顺利，由于没有改CSM，启动也正常。又可以方便的使用群晖带来的服务了。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>记暴风酷播云2期折腾黑群晖</title>
+      <link>https://iliu.org/2855.html</link>
+      <pubDate>Mon, 18 Nov 2019 07:28:30 +0000</pubDate>
+      <guid>https://iliu.org/2855.html</guid>
+      <description>&lt;p&gt;双11前后，张波老师弄了个zhang.gg和zhang.bo的两个域名，看gg不贵，而且有www.liuday.com这个域名还没有被注册，于是也跟风注册了个个性域名。后来不知道怎么聊的聊到了NAS上面，本来觉得我对这个需求不是很大，后来张波老师说，他淘汰了他的蜗牛弄了个暴风，于是我就想用张老师淘汰下来的蜗牛玩一玩。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>双11前后，张波老师弄了个zhang.gg和zhang.bo的两个域名，看gg不贵，而且有www.liuday.com这个域名还没有被注册，于是也跟风注册了个个性域名。后来不知道怎么聊的聊到了NAS上面，本来觉得我对这个需求不是很大，后来张波老师说，他淘汰了他的蜗牛弄了个暴风，于是我就想用张老师淘汰下来的蜗牛玩一玩。</p>
+<p><a href="https://tunan.org/wp-content/uploads/2019/11/9b81db5da85a49e.png"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2856" src="https://tunan.org/wp-content/uploads/2019/11/9b81db5da85a49e.png" alt="" width="640" height="296" srcset="https://tunan.org/wp-content/uploads/2019/11/9b81db5da85a49e.png 640w, https://tunan.org/wp-content/uploads/2019/11/9b81db5da85a49e-300x139.png 300w" sizes="(max-width: 640px) 100vw, 640px" /></a></p>
+<p>张波老师要送给我，我不同意，后来半卖半送的给了我，不巧的是，张老师再发货的时候，蜗牛的系统出问题了，于是也就不了了之了。在这期间也了解了下NAS这个玩意，觉得还是不错的，自己还是有一定的需求的，再加上媳妇手机的照片满了，特别是她备份到华为云，只有5g的免费空间，早就超了，现在50g的也超了，下一个就要买200g的，一年也不少钱，于是决定淘个这种垃圾玩，张老师建议直接上暴风，但是当时我已经下单买了蜗牛，当时想着弄个NAS加上个软路由，所以还买的卖家改的双网口版的。</p>
+<p>发过来后，卖家虽然号称的是99新，但是明显是重新喷过漆的，不过清理的很干净。慢慢的山寨感，使用了一下黑群晖的系统，觉得也还行。为了保险起见还是上暴风吧，于是和卖家联系，好说歹说，把这蜗牛给退了。</p>
+<p>正再闲鱼找呢，一个哥们说他淘汰了一台，他上铁威马了。于是把这台暴风发给了我。唉，到哪都能遇到好人，哈哈。发过来后，发现整个比蜗牛强多了，不是一个档次的东西。朋友装的是918+的6.2.2，开机慢的要死，基本上要5分钟还多，关机也慢，最重要的是相册套件moments总出问题，不是卡再转换那，就是象掉线了一样，及不能上传图片，也删除不了图片。</p>
+<p>本来以为这个问题是远程不稳的原因，后来发现，局域网里也不行。昨天张波老师说暴风用3617比较合适，于是今天上午没事就开搞。百度云盘这次比较给力，下载固件竟然给了1M的速度。固件什么弄完了，给暴风装上显示器，键盘 鼠标等，结果按网上说的按F11开机，屏幕上显示几行字母，一闪黑屏了。大爷的，以为是不支持无线键盘造成的，于是又找了个USB接口的键盘，还是一个鸟样。问了那个哥们和张波老师，说按F2试试看能不能进bois，网上找了一圈都是说按del。开机，F2，还是不行。</p>
+<p><a href="https://tunan.org/wp-content/uploads/2019/11/fda13334174751b.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2857" src="https://tunan.org/wp-content/uploads/2019/11/fda13334174751b.jpg" alt="" width="1024" height="613" srcset="https://tunan.org/wp-content/uploads/2019/11/fda13334174751b.jpg 1024w, https://tunan.org/wp-content/uploads/2019/11/fda13334174751b-300x180.jpg 300w, https://tunan.org/wp-content/uploads/2019/11/fda13334174751b-768x460.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p>于是，觉得死马当做活马医，拆机，把主板电池扣掉，然后要把线紧紧。重新装上后，开机F2,进bois了。并且分辨率也调整了。现在想想是不是以前主板记录的屏幕分辨率比较低导致菜单出不来？关机重启，按F11也顺利的弹出选择U盘的启动的菜单了，于是按照3617二合一的教程，顺利的安装完毕。</p>
+<p>重启机器，一切正常，没有乱码，也没有了原来那个提示什么VGA错误的提示了，进系统很快，不到1分钟的时间，下午测试了下moment套件的情况，也一切正常了。</p>
+<p>所以，建议折腾暴风酷播云的朋友，尽量安装6.1.7的版本，非常稳定，非常流畅，用FRP做的内网穿透也好用的不得了。。。。</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

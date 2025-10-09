@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Fail2Ban on 老刘博客</title>
+    <link>https://iliu.org/tags/fail2ban/</link>
+    <description>Recent content in Fail2Ban on 老刘博客</description>
+    <image>
+      <title>老刘博客</title>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.151.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 28 Jul 2019 09:07:40 +0000</lastBuildDate>
+    <atom:link href="https://iliu.org/tags/fail2ban/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>lnmp一键开启waf及使用 Fail2Ban防护</title>
+      <link>https://iliu.org/2556.html</link>
+      <pubDate>Sun, 28 Jul 2019 09:07:40 +0000</pubDate>
+      <guid>https://iliu.org/2556.html</guid>
+      <description>&lt;p&gt;试用了阿里云香港的轻量服务器之后，赶紧确实是一个不错的选择，因此，决定把网站给迁移过来。以前都是用的oneinstack安装包，这是因为军哥的lnmp如果使用mysql5.6以上的话就必须要内存2G衣裳，这次用的就是2G的，所以还是使用lnmp一键安装包比较舒心。和one的区别是，one很多的事项在编译环境的时候已经弄好了，而lnmp需要西西的打磨，这也是一个好事，毕竟服务器不同，弄的规则也不尽一样。闲言少续，开始正体。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>试用了阿里云香港的轻量服务器之后，赶紧确实是一个不错的选择，因此，决定把网站给迁移过来。以前都是用的oneinstack安装包，这是因为军哥的lnmp如果使用mysql5.6以上的话就必须要内存2G衣裳，这次用的就是2G的，所以还是使用lnmp一键安装包比较舒心。和one的区别是，one很多的事项在编译环境的时候已经弄好了，而lnmp需要西西的打磨，这也是一个好事，毕竟服务器不同，弄的规则也不尽一样。闲言少续，开始正体。</p>
+<h2 id="lnmp开启waf的方法">lnmp开启waf的方法</h2>
+<p><span style="background-color: #ffffff; color: #404040;">LNMP一键安装包从1.5开始增加了lua支持的选项，可以通过修改lnmp.conf中Enable_Nginx_Lua后的参数为 y 来启用lua，如果没安装lnmp，修改lnmp.conf后保存，安装完lnmp就是支持lua的，如果已经安装好lnmp，也是按前面修改lnmp.conf，然后lnmp安装包目录下 </span><strong style="background-color: #ffffff; color: #000000;">./upgrade.sh nginx</strong><span style="background-color: #ffffff; color: #404040;"> 升级nginx，输入当前 </span><a style="background-color: #ffffff; color: #404040;" href="http://www.codercto.com/category/nginx.html" target="_blank" rel="noopener noreferrer">nginx</a><span style="background-color: #ffffff; color: #404040;"> 版本号或更新的nginx版本号，升级完成就是支持lua的了。</span></p>
+<h4 id="下载安装ngx_lua_waf"><strong>下载安装ngx_lua_waf：</strong></h4>
+<p>wget <a href="https://github.com/loveshell/ngx">https://github.com/loveshell/ngx</a>_lua_waf/archive/master.zip -O ngx_lua_waf.zip</p>
+<p>unzip ngx_lua_waf.zip</p>
+<p>mv ngx_lua_waf-master /usr/local/nginx/conf/waf</p>
+<h4 id="nginx上设置并启用ngx_lua_waf"><strong>nginx上设置并启用ngx_lua_waf</strong></h4>
+<p>编辑 /usr/local/nginx/conf/nginx.conf 在 server_tokens off; 下面添加如下代码：</p>
+<p>lua_package_path “/usr/local/nginx/conf/waf/?.lua”;</p>
+<p>lua_shared_dict limit 10m;</p>
+<p>init_by_lua_file /usr/local/nginx/conf/waf/init.lua;</p>
+<p>修改完成保存</p>
+<p>如果要想在某个虚拟主机启用ngx_lua_waf可以修改对应虚拟主机的server段，在该server段中 root 网站目录行下面添加如下代码：</p>
+<p>access_by_lua_file /usr/local/nginx/conf/waf/waf.lua;</p>
+<p>修改完成保存</p>
+<p>测试nginx配置文件： <strong style="color: #000000;">/usr/local/nginx/sbin/nginx -t</strong></p>
+<p>重载nginx配置生效： <strong style="color: #000000;">/usr/local/nginx/sbin/nginx -s reload</strong></p>
+<p>如果测试和重载都没报错就已经生效。</p>
+<p>可以通过访问 http://域名/test.php?id=../etc/passwd 来测试<figure id="2559" class="content-img-box "></p>
+<p><img decoding="async" id="412D35F8" class="po-img-big" src="https://tunan.org/wp-content/uploads/2019/07/1d3c90a5a17d65.JPG" alt="lnmp一键开启waf及使用 Fail2Ban防护" /> <figcaption class="addDesn"></figcaption></figure></p>
+<p>提示：您的请求带有&gt;不合法参数，已被网站管理员设置拦截！说明已经正确设置</p>
+<p>ngx_lua_waf配置文件位置：/usr/local/nginx/conf/waf/config.lua</p>
+<h2 id="使用-fail2ban防护网站及服务器">使用 Fail2Ban防护网站及服务器</h2>
+<p><span style="background-color: #ffffff; color: #333333;">Fail2Ban 是一种入侵防御软件框架，可以保护计算机服务器免受暴力攻击。它以 Python 编程语言编写，能够在 POSIX 系统上运行，该系统具有本地安装的数据包控制系统或防火墙的接口，例如 iptables 或 TCP Wrapper。</span></p>
+<p><span style="background-color: #ffffff; color: #333333;">所以要想使用Fail2Ban，就必须让服务器识别来源的真实IP地址，而不是套的cdn的地址。</span></p>
+<p><strong style="background-color: #ffffff; color: #333333;">套用CDN后获取来源的真实IP的方法</strong></p>
+<p>在nginx.conf内的http下增加：</p>
+<p>#自定义一个日志格式</p>
+<p><code>log_format main '$http_x_forwarded_for - $remote_user [$time_local] '</code></p>
+<p>‘”<span style="color: blue;">$request</span>” <span style="color: blue;">$status</span> $body_bytes_sent ‘</p>
+<p>‘”$http_referer” “$http_user_agent”‘;</p>
+<p>然后<span style="background-color: #ffffff; color: #333333;">修改access_log /home/wwwlogs/xxxx.log; 为access_log /home/wwwlogs/xxxx.log main;</span></p>
+<p><span style="background-color: #ffffff; color: #333333;">nginx-t 检查无误后，service nginx restart,现在在看日志文件，里面的地址就是真正的来源地址了。</span></p>
+<p><strong>使用 Fail2Ban 保护 Nginx、WordPress</strong></p>
+<pre class="ql-syntax" spellcheck="false"><span class="hljs-attribute">cp</span> /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
+</pre>
+<p>Fail2Ban 会自动读取 .local 文件的配置，然后再<strong>增量</strong>地读取 conf 配置，这样就避免了更新它时你辛辛苦苦写好的配置被覆盖掉了。</p>
+<p>然后我们就来编辑 Fail2Ban 的配置</p>
+<pre class="ql-syntax" spellcheck="false"><span class="hljs-attribute">vim</span> /etc/fail2ban/jail.local
+</pre>
+<p>首先是在 [DEFAULT] 字段下，我们可以改变一些行为参数，比如这样修改（多余的没有提到的配置就保留默认，不要理会即可）：</p>
+<pre class="ql-syntax" spellcheck="false">bantime = 3600 <span class="hljs-comment">#默认是 10 分钟，这个是说要 ban 多久，我们改长一点</span>
+<span class="hljs-comment">#下面这两个是说在多长时间内失败多少次就被屏蔽，</span>
+<span class="hljs-comment">#比如这个是在 3600 秒内失败 6 次就被屏蔽</span>
+findtime = 3600
+maxretry = 6  
+</pre>
+<p>接下来就是添加我们的监狱配置了，默认配置信息中并没有内置 Nginx ，只有 Apache：</p>
+<pre class="ql-syntax" spellcheck="false"><span class="hljs-section">[nginx-http-auth]</span>
+<span class="hljs-comment"># HTTP 验证防暴力破解</span>
+<span class="hljs-attr">enabled</span>  = <span class="hljs-literal">true</span>
+<span class="hljs-attr">filter</span>  = nginx-http-auth
+<span class="hljs-attr">port</span>    = http,https
+<span class="hljs-attr">logpath</span>  = /var/log/nginx/error.log
+<span class="hljs-section"> 
+[nginx-badbots]</span>
+<span class="hljs-comment">#屏蔽恶意爬虫</span>
+<span class="hljs-attr">enabled</span>  = <span class="hljs-literal">true</span>
+<span class="hljs-attr">port</span>    = http,https
+<span class="hljs-attr">filter</span>  = nginx-badbots
+<span class="hljs-attr">logpath</span>  = /var/log/nginx/access.log
+<span class="hljs-attr">maxretry</span> = <span class="hljs-number">2</span>
+<span class="hljs-section"> 
+[nginx-nohome]</span>
+<span class="hljs-comment">#避免恶意请求网站目录结构</span>
+<span class="hljs-attr">enabled</span>  = <span class="hljs-literal">true</span>
+<span class="hljs-attr">port</span>    = http,https
+<span class="hljs-attr">filter</span>  = nginx-nohome
+<span class="hljs-attr">logpath</span>  = /var/log/nginx/access.log
+<span class="hljs-attr">maxretry</span> = <span class="hljs-number">2</span>
+<span class="hljs-section"> 
+[nginx-noproxy]</span>
+<span class="hljs-comment">#避免 nginx 被他人用于反向代理</span>
+<span class="hljs-attr">enabled</span>  = <span class="hljs-literal">true</span>
+<span class="hljs-attr">port</span>    = http,https
+<span class="hljs-attr">filter</span>  = nginx-noproxy
+<span class="hljs-attr">logpath</span>  = /var/log/nginx/access.log
+<span class="hljs-attr">maxretry</span> = <span class="hljs-number">2</span>
+<span class="hljs-section">
+[wp-login]</span>
+<span class="hljs-comment">#防范 WordPress 暴力破解登录请求</span>
+<span class="hljs-attr">enabled</span> = <span class="hljs-literal">true</span>
+<span class="hljs-attr">port</span> = http,https
+<span class="hljs-attr">filter</span> = wp-login
+<span class="hljs-attr">maxretry</span> = <span class="hljs-number">10</span>
+<span class="hljs-attr">findtime</span> = <span class="hljs-number">60</span>
+<span class="hljs-attr">bantime</span> = <span class="hljs-number">43600</span>
+<span class="hljs-attr">logpath</span>  = /var/log/nginx/access.log
+<span class="hljs-section">
+[xmlrpc]</span>
+<span class="hljs-comment">#防止 WordPress 受到 xmlrpc.php CC 攻击</span>
+<span class="hljs-attr">enabled</span> = <span class="hljs-literal">true</span>
+<span class="hljs-attr">port</span> = http,https
+<span class="hljs-attr">filter</span> = xmlrpc
+<span class="hljs-attr">logpath</span>  = /var/log/nginx/access.log
+<span class="hljs-attr">bantime</span> = <span class="hljs-number">43600</span>
+<span class="hljs-attr">maxretry</span> = <span class="hljs-number">1</span>
+<span class="hljs-attr">findtime</span>  = <span class="hljs-number">5</span>
+</pre>
+<p>注意这里的配置都是基于 Nginx 的日志的，所以你必须要允许 Nginx 记录日志，有些管理员为了性能考量会关闭日志，这样我们这篇文章也就失去了意义。</p>
+<p>上述配置中 logpath 是指日志文件的路径的（如：/var/log/nginx/access.log），需要注意的是这里可以指定多个日志文件的，具体格式如下：</p>
+<pre class="ql-syntax" spellcheck="false">logpath  = /home/wwwlogs/access.<span class="hljs-built_in">log</span>
+           /home/wwwlogs/www<span class="hljs-number">.1111</span>.com.<span class="hljs-built_in">log</span>
+           /home/wwwlogs/www<span class="hljs-number">.2222</span>.tech.<span class="hljs-built_in">log</span>
+           /home/wwwlogs/service<span class="hljs-number">.3333</span>.com.<span class="hljs-built_in">log</span>
+           /home/wwwlogs/eat<span class="hljs-number">.4444</span>.com.<span class="hljs-built_in">log</span>
+</pre>
+<p><strong>每个日志文件需要回车换行（空格直接去掉了，所以可以放心用空格对齐）才能识别到哦！</strong></p>
+<blockquote>
+<p>另，在配置 Fail2Ban 之前，你就应该先安装好 Nginx，否则 Fail2Ban 读不到 Nginx 的日志，会报错。</p></blockquote>
+<p>设置好了要启用的监狱，接下来就是给监狱创建规则了：</p>
+<pre class="ql-syntax" spellcheck="false"><span class="hljs-built_in">cd</span> /etc/fail2ban/filter.d
+</pre>
+<p>在这个目录下，存放这所有规则文件，一个配置名一个文件，有多少个文件就有多少个规则，这些规则被上文中监狱配置里 filter 字段调用。</p>
+<pre class="ql-syntax" spellcheck="false">vim nginx-http-auth.conf
+</pre>
+<p>这个规则是存在的，我们在规则中加一行配置，来过滤除了账号密码错误外，空白账号或者密码的错误：</p>
+<p><span style="color: #333333;">[</span><span style="color: #5c2699;">Definition</span><span style="color: #333333;">]</span></p>
+<p><span style="color: #5c2699;">failregex</span> <span style="color: #2e0d6e;">=</span> <span style="color: #2e0d6e;">^</span> <span style="color: #333333;">[</span><span style="color: #5c2699;">error</span><span style="color: #333333;">]</span> <span style="color: #333333;">&lt;/span&gt;<span style="color: #5c2699;">d</span><span style="color: #2e0d6e;">+#</span><span style="color: #333333;">&lt;/span&gt;<span style="color: #5c2699;">d</span><span style="color: #2e0d6e;">+:</span> <span style="color: #333333;">&lt;/span&gt;<span style="color: #2e0d6e;"><em></span><span style="color: #333333;">&lt;/span&gt;<span style="color: #5c2699;">d</span><span style="color: #2e0d6e;">+</span> <span style="color: #aa0d91;">user</span> <span style="color: #c41a16;">“\S+”</span><span style="color: #2e0d6e;">:</span><span style="color: #333333;">?</span> <span style="color: #333333;">(</span><span style="color: #2e0d6e;">password </span><span style="color: #5c2699;">mismatch</span><span style="color: #2e0d6e;">|was </span><span style="color: #aa0d91;">not</span> <span style="color: #2e0d6e;">found </span><span style="color: #aa0d91;">in</span> <span style="color: #c41a16;">“.</em>”</span><span style="color: #333333;">),</span> <span style="color: #5c2699;">client</span><span style="color: #2e0d6e;">:</span> <span style="color: #2e0d6e;">&laquo;/span&gt;<span style="color: #5c2699;">HOST</span><span style="color: #2e0d6e;">&gt;</span><span style="color: #333333;">,</span> <span style="color: #5c2699;">server</span><span style="color: #2e0d6e;">:</span> <span style="color: #333333;">&lt;/span&gt;<span style="color: #5c2699;">S</span><span style="color: #2e0d6e;">+</span><span style="color: #333333;">,</span> <span style="color: #5c2699;">request</span><span style="color: #2e0d6e;">:</span> <span style="color: #c41a16;">“\S+ \S+ HTTP/\d+.\d+”</span><span style="color: #333333;">,</span> <span style="color: #5c2699;">host</span><span style="color: #2e0d6e;">:</span> <span style="color: #c41a16;">“\S+”</span><span style="color: #333333;">&lt;/span&gt;<span style="color: #5c2699;">s</span><span style="color: #2e0d6e;">*</span><span style="color: #333333;">$</span></p>
+<p><strong style="color: #2e0d6e; background-color: #cce0f5;">^</strong> <strong style="color: #333333; background-color: #cce0f5;">[</strong><strong style="color: #5c2699; background-color: #cce0f5;">error</strong><strong style="color: #333333; background-color: #cce0f5;">]</strong> <strong style="color: #333333; background-color: #cce0f5;">&lt;/strong&gt;<strong style="color: #5c2699; background-color: #cce0f5;">d</strong><strong style="color: #2e0d6e; background-color: #cce0f5;">+#</strong><strong style="color: #333333; background-color: #cce0f5;">&lt;/strong&gt;<strong style="color: #5c2699; background-color: #cce0f5;">d</strong><strong style="color: #2e0d6e; background-color: #cce0f5;">+:</strong> <strong style="color: #333333; background-color: #cce0f5;">&lt;/strong&gt;<strong style="color: #2e0d6e; background-color: #cce0f5;"><em></strong><strong style="color: #333333; background-color: #cce0f5;">&lt;/strong&gt;<strong style="color: #5c2699; background-color: #cce0f5;">d</strong><strong style="color: #2e0d6e; background-color: #cce0f5;">+</strong> <strong style="color: #2e0d6e; background-color: #cce0f5;">no </strong><strong style="color: #5c2699; background-color: #cce0f5;">user</strong><strong style="color: #2e0d6e; background-color: #cce0f5;">/password was provided </strong><strong style="color: #aa0d91; background-color: #cce0f5;">for</strong> <strong style="color: #2e0d6e; background-color: #cce0f5;">basic </strong><strong style="color: #5c2699; background-color: #cce0f5;">authentication</strong><strong style="color: #333333; background-color: #cce0f5;">,</strong> <strong style="color: #5c2699; background-color: #cce0f5;">client</strong><strong style="color: #2e0d6e; background-color: #cce0f5;">:</strong> <strong style="color: #2e0d6e; background-color: #cce0f5;">&laquo;/strong&gt;<strong style="color: #5c2699; background-color: #cce0f5;">HOST</strong><strong style="color: #2e0d6e; background-color: #cce0f5;">&gt;</strong><strong style="color: #333333; background-color: #cce0f5;">,</strong> <strong style="color: #5c2699; background-color: #cce0f5;">server</strong><strong style="color: #2e0d6e; background-color: #cce0f5;">:</strong> <strong style="color: #333333; background-color: #cce0f5;">&lt;/strong&gt;<strong style="color: #5c2699; background-color: #cce0f5;">S</strong><strong style="color: #2e0d6e; background-color: #cce0f5;">+</strong><strong style="color: #333333; background-color: #cce0f5;">,</strong> <strong style="color: #5c2699; background-color: #cce0f5;">request</strong><strong style="color: #2e0d6e; background-color: #cce0f5;">:</strong> <strong style="color: #c41a16; background-color: #cce0f5;">“\S+ \S+ HTTP/\d+.\d+”</strong><strong style="color: #333333; background-color: #cce0f5;">,</strong> <strong style="color: #5c2699; background-color: #cce0f5;">host</strong><strong style="color: #2e0d6e; background-color: #cce0f5;">:</strong> <strong style="color: #c41a16; background-color: #cce0f5;">“\S+”</strong><strong style="color: #333333; background-color: #cce0f5;">&lt;/strong&gt;<strong style="color: #5c2699; background-color: #cce0f5;">s</strong><strong style="color: #2e0d6e; background-color: #cce0f5;"></em></strong><strong style="color: #333333; background-color: #cce0f5;">$</strong></p>
+<p><span style="color: #5c2699;">ignoreregex</span> <span style="color: #2e0d6e;">=</span></p>
+<p>添加的是加粗的那一行。</p>
+<pre class="ql-syntax" spellcheck="false">cp apache-badbots.conf nginx-badbots.conf
+</pre>
+<p>过滤爬虫的规则是有现成的，所以我们只需要改个名就可以了；</p>
+<h2 id="vim-nginx-nohomeconf">vim nginx-nohome.conf</h2>
+<p>这是过滤获取目录的：</p>
+<p><em style="color: #007400;">[Definition]</em></p>
+<p><em style="color: #007400;">failregex = ^</em><span style="color: #2e0d6e; background-color: #ffffff;">&laquo;/span&gt;<span style="color: #5c2699; background-color: #ffffff;">HOST</span><span style="color: #2e0d6e; background-color: #ffffff;">&gt;</span> <em style="color: #007400;">-.<em>GET .</em>/</em><span style="color: #2e0d6e;">~</span><span style="color: #333333;">.</span><span style="color: #2e0d6e;">*</span></p>
+<p><span style="color: #5c2699;">ignoreregex</span> <span style="color: #2e0d6e;">=</span></p>
+<h2 id="vim-nginx-noproxyconf">vim nginx-noproxy.conf</h2>
+<p>这是过滤反代的：</p>
+<p><span style="color: #333333;">[</span><span style="color: #5c2699;">Definition</span><span style="color: #333333;">]</span></p>
+<p><span style="color: #5c2699;">failregex</span> <span style="color: #2e0d6e;">=</span> <span style="color: #2e0d6e;">^&laquo;/span&gt;<span style="color: #5c2699;">HOST</span><span style="color: #2e0d6e;">&gt;</span> <span style="color: #2e0d6e;">–</span><span style="color: #333333;">.</span><span style="color: #2e0d6e;"><em></span><span style="color: #800080;">GET</span> <span style="color: #5c2699;">http</span><span style="color: #333333;">.</span><span style="color: #2e0d6e;"></em></span></p>
+<p><span style="color: #5c2699;">ignoreregex</span> <span style="color: #2e0d6e;">=</span></p>
+<h2 id="vim-wp-loginconf"><strong>vim wp-login.conf</strong></h2>
+<p>这是防止 WordPress 受到 xmlrpc.php 请求的 CC 攻击：</p>
+<p><span style="background-color: #f8f8f8; color: #333333;">[Definition]</span></p>
+<p><span style="background-color: #f8f8f8; color: #333333;">failregex = ^</span><span style="background-color: #ffffff; color: #2e0d6e;">&laquo;/span&gt;<span style="background-color: #ffffff; color: #5c2699;">HOST</span><span style="background-color: #ffffff; color: #2e0d6e;">&gt;</span> <span style="background-color: #f8f8f8; color: #333333;">-.* /wp-login.php.* HTTP/1..</span><span class="hljs-string" style="color: #dd1144;">“</span></p>
+<p><span class="hljs-string" style="color: #dd1144;">ignoreregex =</span></p>
+<h2 id="vim-xmlrpcconf"><strong>vim xmlrpc.conf</strong></h2>
+<p>防范 WordPress 暴力破解登录请求</p>
+<p>[Definition]</p>
+<p>failregex = ^<span style="background-color: #ffffff; color: #2e0d6e;">&laquo;/span&gt;<span style="background-color: #ffffff; color: #5c2699;">HOST</span><span style="background-color: #ffffff; color: #2e0d6e;">&gt;</span> -.*POST .*xmlrpc.php.*</p>
+<p>ignoreregex =</p>
+<h2 id="跋涉者提示"><span style="color: #ff9900;">跋涉者提示</span></h2>
+<p><span style="color: #ff9900;">很多网站上面的代码都不正确，是因为，高亮代码不知道怎么会屏蔽</span><span style="color: #ff9900; background-color: #ffffff;">这个语法，造成错误，本文已经更正，放心的使用。</span></p>
+<p>做完上述配置之后，就可以重启</p>
+<pre class="ql-syntax" spellcheck="false"> <span class="hljs-attribute">service</span> fail2ban restart
+</pre>
+<p>这时你可以通过命令 fail2ban-client status 来查看，不出意外，应该类似这样：</p>
+<pre class="ql-syntax" spellcheck="false">fail2ban-client status
+或者：/usr/local/python/bin/fail2ban-client status</pre>
+<p>Status</p>
+<p>|- Number of jail: 7</p>
+<p>`- Jail list: nginx-badbots, nginx-http-auth, nginx-nohome, nginx-noproxy, sshd, wp-login, xmlrpc</p>
+<p>至此，Fail2Ban 保护 Nginx、WordPress 基本算是完成了，至少跋涉者目前需要的安全策略都完成了，平时可以观察一下 Fail2Ban 的日志文件来观察 Fail2Ban 的防御效果，如：</p>
+<pre class="ql-syntax" spellcheck="false">tail -f /var/<span class="hljs-built_in">log</span>/fail2ban.<span class="hljs-built_in">log</span>
+iptables --<span class="hljs-built_in">list</span> -n
+</pre>
+<h2 id="用fail2ban屏蔽无效的404请求">用 Fail2Ban屏蔽无效的404请求</h2>
+<p>借助 Fail2Ban 可以筛选出发送这些请求的 IP 地址来进行拦截屏蔽处理，根据日志中返回 404 的记录制定 Fail2Ban 监狱规则命名为 nginx-not-found.conf，具体内容如下：</p>
+<pre class="ql-syntax" spellcheck="false">vim /etc/fail2ban/filter.d/nginx-<span class="hljs-keyword">not</span>-found.conf
+</pre>
+<p>打开编辑 nginx-not-found.conf 监狱规则文件，注意一定要在<span style="color: #333333; background-color: #ffffff;">/etc/fail2ban/filter.d/目录内哦</span>。</p>
+<pre class="ql-syntax" spellcheck="false">[Definition]
+failregex = ^&lt;HOST&gt;.*"(GET|POST).*" (404|444|403|400) .*$
+ignoreregex =
+</pre>
+<p>保存退出。</p>
+<p>再打开编辑 jail.local 启用这个监狱规则。</p>
+<pre class="ql-syntax" spellcheck="false"><span class="hljs-attribute">vim</span> /etc/fail2ban/jail.local
+</pre>
+<p>添加下面的代码到 jail.local 里即可。同样的，注意 jail.local 文件的目录哦。</p>
+<pre class="ql-syntax" spellcheck="false"><span class="hljs-section">[nginxno404]</span>
+<span class="hljs-comment">#处理 nginx 下的恶意 404 结果扫描</span>
+<span class="hljs-attr">enabled</span> = <span class="hljs-literal">true</span>
+<span class="hljs-attr">port</span> = http,https
+<span class="hljs-attr">filter</span> = nginx-not-found
+<span class="hljs-attr">action</span> = iptables[name=nginxno404, port=http, protocol=tcp]
+<span class="hljs-comment">#Fail2Ban 要监控的站点日志文件，大家可以根据自己站点来灵活调整。</span>
+<span class="hljs-attr">logpath</span>  = /home/wwwlogs/access.log
+           
+<span class="hljs-attr">bantime</span> = <span class="hljs-number">3600</span> #默认是屏蔽 IP 地址 <span class="hljs-number">10</span> 分钟
+<span class="hljs-comment">#下面这两个是说 60 秒内 5 次 404 失败请求就开始屏蔽这个 IP 地址</span>
+<span class="hljs-attr">findtime</span> = <span class="hljs-number">60</span>
+<span class="hljs-attr">maxretry</span> = <span class="hljs-number">5</span>
+</pre>
+<p>保存退出。</p>
+<p>重新启动 Fail2Ban：</p>
+<pre class="ql-syntax" spellcheck="false">systemctl restart fail2ban.service
+</pre>
+<p>看下日志：<figure id="2561" class="content-img-box "></p>
+<p><img decoding="async" id="23B1CECF" class="po-img-big" src="https://tunan.org/wp-content/uploads/2019/07/136d1bd3715987.JPG" alt="lnmp一键开启waf及使用 Fail2Ban防护" /> <figcaption class="addDesn"></figcaption></figure></p>
+<p>nginxno404已经开始生效，并且Ban了一个ip，14.204.69.48<figure id="2560" class="content-img-box "></p>
+<p><img decoding="async" id="8BDD51AF" class="po-img-big" src="https://tunan.org/wp-content/uploads/2019/07/16ce4571631d8d.JPG" alt="lnmp一键开启waf及使用 Fail2Ban防护" /> <figcaption class="addDesn"></figcaption></figure></p>
+<p>看一下iptables的记录，如上图，已经拒绝这个IP的访问了</p>
+<p>本文参考了<a href="https://www.logcg.com/archives/2998.html" target="_blank" rel="noopener noreferrer">落格部落</a>及<a href="https://www.imydl.com" target="_blank" rel="noopener noreferrer">明月登楼博客</a>里的一些文章，在此表示感谢</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

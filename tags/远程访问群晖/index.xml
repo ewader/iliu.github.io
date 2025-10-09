@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>远程访问群晖 on 老刘博客</title>
+    <link>https://iliu.org/tags/%E8%BF%9C%E7%A8%8B%E8%AE%BF%E9%97%AE%E7%BE%A4%E6%99%96/</link>
+    <description>Recent content in 远程访问群晖 on 老刘博客</description>
+    <image>
+      <title>老刘博客</title>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.151.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 07 Dec 2019 03:28:28 +0000</lastBuildDate>
+    <atom:link href="https://iliu.org/tags/%E8%BF%9C%E7%A8%8B%E8%AE%BF%E9%97%AE%E7%BE%A4%E6%99%96/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>宝塔面板安装FRP内网穿透控制群晖</title>
+      <link>https://iliu.org/2918.html</link>
+      <pubDate>Sat, 07 Dec 2019 03:28:28 +0000</pubDate>
+      <guid>https://iliu.org/2918.html</guid>
+      <description>&lt;p&gt;前两天给大家介绍了利用zerotier来进行内网穿透控制群晖的方法，详见：&lt;a href=&#34;https://tunan.org/2872.html&#34;&gt;黑群晖的福音，利用zerotier进行内网穿透&lt;/a&gt;。但是，zerotier使用的时候有时候不太稳定，而且记一堆的数字比较麻烦，今天，给大家介绍另一个神器，frp。直接用命令行的方式在服务器里部署比较繁琐，而且一不留神就会出错，不过好在有大神在宝塔里开发出了插件，一键安装就行。好了，言归正传，开始正题。&lt;/p&gt;
+&lt;p&gt;首先，你得有一个自己的vps，这里把设置强烈推荐&lt;a href=&#34;https://my.liluohost.com/aff.php?aff=148&#34;&gt;篱落主机&lt;/a&gt;。本站就运行在这个主机上，特别是香港的VPS，速度快，服务器也稳定。关键是价格不贵，最便宜的也就100多块一年吧。给小张报我的名字应该还能有些许优惠，毕竟我10年前就是他的客户了。这次，本来买的1h2g的，结果人家二话没说就给升级到了4g。貌似，又跑题了额。&lt;/p&gt;
+&lt;p&gt;有了vps后，安装宝塔面板。安装的方法很简单，官网一看就会，我就不啰嗦了。不出意外的话，2分钟，面板安装完毕。登录到面板的后台。点击软件商店，搜索frp。我们用的是如下这款，因为这款是免费的。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>前两天给大家介绍了利用zerotier来进行内网穿透控制群晖的方法，详见：<a href="https://tunan.org/2872.html">黑群晖的福音，利用zerotier进行内网穿透</a>。但是，zerotier使用的时候有时候不太稳定，而且记一堆的数字比较麻烦，今天，给大家介绍另一个神器，frp。直接用命令行的方式在服务器里部署比较繁琐，而且一不留神就会出错，不过好在有大神在宝塔里开发出了插件，一键安装就行。好了，言归正传，开始正题。</p>
+<p>首先，你得有一个自己的vps，这里把设置强烈推荐<a href="https://my.liluohost.com/aff.php?aff=148">篱落主机</a>。本站就运行在这个主机上，特别是香港的VPS，速度快，服务器也稳定。关键是价格不贵，最便宜的也就100多块一年吧。给小张报我的名字应该还能有些许优惠，毕竟我10年前就是他的客户了。这次，本来买的1h2g的，结果人家二话没说就给升级到了4g。貌似，又跑题了额。</p>
+<p>有了vps后，安装宝塔面板。安装的方法很简单，官网一看就会，我就不啰嗦了。不出意外的话，2分钟，面板安装完毕。登录到面板的后台。点击软件商店，搜索frp。我们用的是如下这款，因为这款是免费的。</p>
+<h2 id="补充说明">补充说明：</h2>
+<p>最近发现这个插件在宝塔里已经找不到了，需要设置服务器端的可以参考本人的<a href="https://tunan.org/3340.html">纯代码设置frp服务器</a>这篇文章，来进行手动设置，也不复杂！<figure class="wp-block-image size-large"></p>
+<p><img loading="lazy" decoding="async" width="1024" height="302" src="https://tunan.org/wp-content/uploads/2019/12/frp-120191207-1-1024x302.png" alt="" class="wp-image-2919" srcset="https://tunan.org/wp-content/uploads/2019/12/frp-120191207-1-1024x302.png 1024w, https://tunan.org/wp-content/uploads/2019/12/frp-120191207-1-300x89.png 300w, https://tunan.org/wp-content/uploads/2019/12/frp-120191207-1-768x227.png 768w, https://tunan.org/wp-content/uploads/2019/12/frp-120191207-1.png 1071w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure></p>
+<p>先点击购买，因为是免费的，不要钱，直接购买后，点击安装，安装后，点击设置。<figure class="wp-block-image size-large"></p>
+<p><img loading="lazy" decoding="async" width="709" height="599" src="https://tunan.org/wp-content/uploads/2019/12/frp-120191207-2.png" alt="" class="wp-image-2920" srcset="https://tunan.org/wp-content/uploads/2019/12/frp-120191207-2.png 709w, https://tunan.org/wp-content/uploads/2019/12/frp-120191207-2-300x253.png 300w" sizes="(max-width: 709px) 100vw, 709px" /> </figure></p>
+<p>这里，我们只需要在通用设置这里进行设置就可以了，其他的可以不用设置，不影响使用。端口号之类的可以改也可以不改，主要的是设置验证密钥，设置成你自己的。</p>
+<p>设置完这个之后，一定要在宝塔面板——安全选项里，把你设置的这些端口号放行。不然是用不了的。</p>
+<p>至此，frp服务器端已经设置完毕。下面我们来设置客户端，由于我们是要远程控制群晖，所以这里就以群晖为例。</p>
+<h3 class="wp-block-heading" id="设置域名解析">设置域名解析</h3>
+<p>登录你的域名服务商<br>
+域名解析<br>
+设置域名解析到frp服务器地址</p>
+<h3 class="wp-block-heading" id="安装frpc文件">安装frpc文件</h3>
+<p>开启群晖SSH功能<br>
+控制面板-终端机和SNMP<br>
+启动SSH功能-应用<figure class="wp-block-image size-large"></p>
+<p><img loading="lazy" decoding="async" width="1024" height="645" src="https://tunan.org/wp-content/uploads/2019/12/1609524974-1024x645.jpg" alt="" class="wp-image-2921" srcset="https://tunan.org/wp-content/uploads/2019/12/1609524974-1024x645.jpg 1024w, https://tunan.org/wp-content/uploads/2019/12/1609524974-300x189.jpg 300w, https://tunan.org/wp-content/uploads/2019/12/1609524974-768x483.jpg 768w, https://tunan.org/wp-content/uploads/2019/12/1609524974-1536x967.jpg 1536w, https://tunan.org/wp-content/uploads/2019/12/1609524974-2048x1289.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure></p>
+<p>使用xshell等登录到群晖</p>
+<p>sudo -i //获得root权限 输入密码-回车</p>
+<p>进入安装目录(本文以/usr/local/为例) cd /usr/local/</p>
+<p>因为我们服务器端用的是最新30版的，所以我们也要下载最新版本的。可以到如下的网址查询最新版本：</p>
+<p><a href="https://github.com/fatedier/frp/releases/">https://github.com/fatedier/frp/releases/</a></p>
+<h3 class="wp-block-heading" id="配置frpc">配置frpc</h3>
+<pre>编辑frpc.ini文件<br />cd /usr/local/frpc<br />vi frpc.ini</pre>
+<pre>[common] server_addr = x.x.x.x<br /><br /> server_port = 7000<br /><br /> token = 你在宝塔里设置的 <br /><br />[rdp] type = tcp <br /><br />local_ip = 127.0.0.1 <br /><br />local_port = 3389 <br /><br />remote_port = 7001<br /><br /> [smb] type = tcp <br /><br />local_ip = 127.0.0.1<br /><br /> local_port = 445 <br /><br />remote_port = 7002</pre>
+<ul class="wp-block-list">
+  <li>
+    “server_addr”为服务端IP地址，填入即可。
+  </li>
+  <li>
+    “server_port”为服务器端口，填入你设置的端口号即可，如果未改变就是7000
+  </li>
+  <li>
+    “token”是你在服务器上设置的连接口令，原样填入即可。
+  </li>
+</ul>
+<p>ESC退出编辑<br>
+输入:wq回车即可保存</p>
+<h3 class="wp-block-heading" id="启动frpc">启动frpc</h3>
+<p>启动frpc命令： ./frpc -c ./frpc.ini</p>
+<p>保持后台运行frpc命令 ： nohup ./frpc -c ./frpc.ini &amp;</p>
+<h2 class="wp-block-heading" id="设置群晖nas重启开机自动运行frpc">设置群晖NAS重启开机自动运行frpc</h2>
+<p>控制面板——任务计划<figure class="wp-block-image size-large"></p>
+<p><img loading="lazy" decoding="async" width="1024" height="649" src="https://tunan.org/wp-content/uploads/2019/12/280926576-1024x649.jpg" alt="" class="wp-image-2922" srcset="https://tunan.org/wp-content/uploads/2019/12/280926576-1024x649.jpg 1024w, https://tunan.org/wp-content/uploads/2019/12/280926576-300x190.jpg 300w, https://tunan.org/wp-content/uploads/2019/12/280926576-768x487.jpg 768w, https://tunan.org/wp-content/uploads/2019/12/280926576-1536x974.jpg 1536w, https://tunan.org/wp-content/uploads/2019/12/280926576-2048x1298.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure></p>
+<p>新增<br>
+触发的任务<br>
+用户自定义脚本<br>
+常规<br>
+填写任务名称<br>
+用户账号和事件保持默认<br>
+任务设置<br>
+用户自定义脚本<br>
+填写你的frpc安装路径： /usr/local/frpc/frpc -c /usr/local/frpc/frpc.ini<br>
+确定<figure class="wp-block-image size-large"></p>
+<p><img loading="lazy" decoding="async" width="1024" height="647" src="https://tunan.org/wp-content/uploads/2019/12/602279552-1024x647.jpg" alt="" class="wp-image-2923" srcset="https://tunan.org/wp-content/uploads/2019/12/602279552-1024x647.jpg 1024w, https://tunan.org/wp-content/uploads/2019/12/602279552-300x190.jpg 300w, https://tunan.org/wp-content/uploads/2019/12/602279552-768x486.jpg 768w, https://tunan.org/wp-content/uploads/2019/12/602279552-1536x971.jpg 1536w, https://tunan.org/wp-content/uploads/2019/12/602279552-2048x1295.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure></p>
+<p>配置完成<br>
+现在可以使用域名无端口访问群晖NAS了</p>
+<p>本文frpc设置部分参考了：群晖NAS安装配置免费frp内网穿透教程 一并表示感谢</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>使用zerotier进行内网穿透</title>
+      <link>https://iliu.org/2872.html</link>
+      <pubDate>Wed, 27 Nov 2019 07:33:08 +0000</pubDate>
+      <guid>https://iliu.org/2872.html</guid>
+      <description>&lt;p&gt;自从到手了暴风酷播之后，抽空就折腾了下NAS，目前来说系统方面已经没有什么问题了，自己需要使用的套件也基本上弄好了，唯一一个需要搞定的问题就是如何远程访问群晖，同步群晖这个问题。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>自从到手了暴风酷播之后，抽空就折腾了下NAS，目前来说系统方面已经没有什么问题了，自己需要使用的套件也基本上弄好了，唯一一个需要搞定的问题就是如何远程访问群晖，同步群晖这个问题。</p>
+<p>关于远程访问群晖，有很多的方法，比如如果你有公网IP，那就很好办，只需要一个域名就可以搞定的事情。但是如果你使用了大局域网的移动宽带，那么上述的方法是没法用的，因为移动宽带就不提供公网IP的。（至于公网IP的方法，不在本文讨论的范围内）。而跋涉者就刚好用的是移动的宽带，而且当初贪图便宜把家里的联通宽带也换成了移动的宽带，所以利用公网IP来远程访问群晖的方法是行不通了。</p>
+<p>那是不是内网就没法进行远程访问群晖了呢，当然不是，我们可以利用内网穿透的方法来绕过这一难题。</p>
+<p>第一个方法是利用FRP这个软件来进行内网穿透。</p>
+<p>这个方法需要你有一台VPS或者服务器，然后在服务器上安装FRP的服务器端，在群晖上安装FRP的客户端，这样，运行起来之后，群晖上的客户端就和VPS上的服务器端进行握手，你就可以用服务器上的ip来远程访问群晖了。</p>
+<p>这种方法需要你有一台服务器，还需要你有较强的动手能力，最重要的一点是服务器还不能差了，否则联网的速度很慢，达不到快速备份的目的。跋涉者首先选择的方案就是这个，也完成了相关的设置，但是由于速度不稳定而放弃。如果你有一台比较好的服务器，这种方法不失为一种好的解决方案。</p>
+<p>第二种方式，买内网穿透的设备</p>
+<p>目前网上有卖这方面的设备的，但是这玩意，一是要花钱，二也是受限于带宽和用户数。所以对这种方法也不是很推荐。</p>
+<p>第三种方法，最简单的一种方法，利用zerotier这个国外的网站进行内网穿透。</p>
+<p>ZeroTier原理：</p>
+<p>ZeroTier虚拟了一个网段，网段为多个网段可选，跋涉者选择的是10.244.150.*这个网段，公司和家里分别安装ZeroTier客户端，客户端会虚拟出一个网络并加入这个网段，在家即可访问10.244.150.1地址，反之同理。</p>
+<p>ZeroTier设备支持：</p>
+<p>免费用户可以支持100个设备，支持Windows、macOS、Linux、IOS、Android、Synology、QNAP、Western Digital MyCloud NAS等等。</p>
+<p>所以，对于我们大多数的人来说，100台设备已经是足够用了，另外就是ZeroTier两台设备握手以后，就采用的是P2P的方式传输数据。因此，不会受到其他因素的干扰，传输数据的速度相当的快，跋涉者这里就达到了3m/s的速度，当然这是因为受限于宽带运营商的上行带宽。</p>
+<p>使用方法：</p>
+<p>打开网站 <a href="https://www.zerotier.com/">ZEROTIER</a></p>
+<p>网站是英文的，不过不影响，点击右上角的login，在打开的页面中点击 **Log in to ZeroTier **最下方点击 Register 。来注册一个新用户。<a href="https://tunan.org/wp-content/uploads/2019/11/37fc35e0fc32e9d.png"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2873" src="https://tunan.org/wp-content/uploads/2019/11/37fc35e0fc32e9d.png" alt="" width="634" height="513" srcset="https://tunan.org/wp-content/uploads/2019/11/37fc35e0fc32e9d.png 634w, https://tunan.org/wp-content/uploads/2019/11/37fc35e0fc32e9d-300x243.png 300w" sizes="(max-width: 634px) 100vw, 634px" /></a></p>
+<p>注册后，进入网站，点击最上面那一行的  Networks  然后点击 create a  Networks。系统会给你一个网络的编号。然后点击页面最上面的那一行 downloads,这个页面里有各种系统的客户端。下载，安装。然后把你刚创建的网络号码填进去。运行之后，</p>
+<p>点击进入已创建的网络</p>
+<p>此时可以看到Network ID，后续添加设备都会需要这个ID。</p>
+<p>默认是Certificate (Private Network)，选择此模式表示每次在添加新的主机时，需要手动勾选是否允许连接，如果选择None (Public Network)模式，表示加入网络后自动分配IP并允许连接，从安全性来说建议使用默认选项Certificate (Private Network)，方便性来看None (Public Network)更方便，不用每次加入网络后手动勾选。</p>
+<p><a href="https://tunan.org/wp-content/uploads/2019/11/d1bcac1984700e2.png"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2874" src="https://tunan.org/wp-content/uploads/2019/11/d1bcac1984700e2.png" alt="" width="1024" height="478" srcset="https://tunan.org/wp-content/uploads/2019/11/d1bcac1984700e2.png 1024w, https://tunan.org/wp-content/uploads/2019/11/d1bcac1984700e2-300x140.png 300w, https://tunan.org/wp-content/uploads/2019/11/d1bcac1984700e2-768x359.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p>如下图所示，</p>
+<p><a href="https://tunan.org/wp-content/uploads/2019/11/c74c9a9e0c41d06.png"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2875" src="https://tunan.org/wp-content/uploads/2019/11/c74c9a9e0c41d06.png" alt="" width="995" height="390" srcset="https://tunan.org/wp-content/uploads/2019/11/c74c9a9e0c41d06.png 995w, https://tunan.org/wp-content/uploads/2019/11/c74c9a9e0c41d06-300x118.png 300w, https://tunan.org/wp-content/uploads/2019/11/c74c9a9e0c41d06-768x301.png 768w" sizes="(max-width: 995px) 100vw, 995px" /></a><br>
+每次链接上一个新设备之后，都要在设备的前面那个框里的√打上，这样就表示允许接入网络。</p>
+<p>群晖里的安装也是同样的原理，下载群晖的套件，然后再群晖里选择手动安装套件，接入网络后，就可以用系统分配给你的IP地址加上你群晖的端口号一般是5000，来远程访问你的群晖了。各个群晖的套件也是一样的原来，IP地址加套件的端口号。</p>
+<p>最后，由于安卓客户端众所周知的原因，是没法直接下载的，所以，如果你有使用monents套件的需求，是必须要用安卓客户端的，点击文后的链接，直接下载吧。</p>
+<p><a href="https://tunan.org/wp-content/uploads/2019/11/cd5dfa5f7cf472d.zip">安卓客户端下载</a></p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

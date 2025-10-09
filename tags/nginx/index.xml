@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Nginx on 老刘博客</title>
+    <link>https://iliu.org/tags/nginx/</link>
+    <description>Recent content in Nginx on 老刘博客</description>
+    <image>
+      <title>老刘博客</title>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.151.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 30 Dec 2020 07:35:59 +0000</lastBuildDate>
+    <atom:link href="https://iliu.org/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>博客web端改用apache</title>
+      <link>https://iliu.org/3520.html</link>
+      <pubDate>Wed, 30 Dec 2020 07:35:59 +0000</pubDate>
+      <guid>https://iliu.org/3520.html</guid>
+      <description>&lt;p&gt;试用了几天Cloudflare加racknerd的2h2g的小鸡，感觉还算差强人意。所以干脆就先把博客放这里算了，然后又突发奇想，其他的网站一直用的lnmp，为啥博客就不能用用lamp呢？况且apache在稳定性以及对php的支持等方面都比nginx要好，nginx的优势是轻便和并发能力强。其实对小博客来说，基本没有啥区别。&lt;figure class=&#34;wp-block-image size-large&#34;&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>试用了几天Cloudflare加racknerd的2h2g的小鸡，感觉还算差强人意。所以干脆就先把博客放这里算了，然后又突发奇想，其他的网站一直用的lnmp，为啥博客就不能用用lamp呢？况且apache在稳定性以及对php的支持等方面都比nginx要好，nginx的优势是轻便和并发能力强。其实对小博客来说，基本没有啥区别。<figure class="wp-block-image size-large"></p>
+<p><a href="https://tunan.org/wp-content/uploads/2021/01/ac6793f3e79aaa6.jpg"><img loading="lazy" decoding="async" width="855" height="585" src="https://tunan.org/wp-content/uploads/2021/01/ac6793f3e79aaa6.jpg" alt="" class="wp-image-3589" srcset="https://tunan.org/wp-content/uploads/2021/01/ac6793f3e79aaa6.jpg 855w, https://tunan.org/wp-content/uploads/2021/01/ac6793f3e79aaa6-300x205.jpg 300w, https://tunan.org/wp-content/uploads/2021/01/ac6793f3e79aaa6-768x525.jpg 768w, https://tunan.org/wp-content/uploads/2021/01/ac6793f3e79aaa6-220x150.jpg 220w" sizes="(max-width: 855px) 100vw, 855px" /></a></figure></p>
+<p>说折腾就折腾，编译安装apache，发现需要重新设置虚拟主机，设置的时候发现，不像nginx的时候，脚本提示把http301到https，什么www域名301到一级域名等，这些提示都没有。也没有设置伪静态的选项。网上查了一下，发现是几行代码就可以搞定的事情。</p>
+<h2 class="wp-block-heading" id="设置301跳转">设置301跳转</h2>
+<p>在apache里设置301跳转很简单，只需要在.htaccess里添加代码就好了，老刘主要用到两个，一个是http跳到https，一个是www跳到一级域名。感觉比nginx要简洁一些，代码如下：</p>
+<pre class="wp-block-code"><code>RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://tunan.org/$1 &#91;R,L]
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^iliu.org$ &#91;NC]
+RewriteRule ^(.*)$ http://iliu.org/$1 &#91;L,R=301]
+</code></pre>
+<p>设置后才发现，设置和不设置没有啥区别，老刘用的cf，应该是在cf里设置了301到443接口了，至于wordpress伪静态的问题，也是很容易，直接到wordpress的后台，保存一下固定链接样式就行了，保存后在根目录里自动生成了.htaccess。代码如下：</p>
+<pre class="wp-block-code"><code># BEGIN WordPress
+# 在“BEGIN WordPress”与“END WordPress”之间的指令（行）是
+# 动态生成的，只应被WordPress过滤器修改。
+# 任何对标记之间的指令的修改都会被覆盖。
+&lt;IfModule mod_rewrite.c&gt;
+RewriteEngine On
+RewriteRule .* - &#91;E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - &#91;L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php &#91;L]
+&lt;/IfModule&gt;
+
+# END WordPress
+</code></pre>
+<h2 class="wp-block-heading" id="使用cloudflare后获取用户真实ip">使用cloudflare后获取用户真实IP</h2>
+<p>由于apache已经自带mod_remoteip模块，所以只需按如下操作即可</p>
+<pre class="wp-block-code"><code>#启用模块
+vim /usr/local/apache/conf/httpd.conf
+Include conf/extra/httpd-remoteip.conf
+#添加如下内容
+vim /usr/local/apache/conf/extra/httpd-remoteip.conf
+LoadModule remoteip_module modules/mod_remoteip.so
+RemoteIPHeader X-Forwarded-For
+RemoteIPInternalProxy 127.0.0.1/24
+#CloudFlare IP Ranges
+RemoteIPInternalProxy 103.21.244.0/22
+RemoteIPInternalProxy 103.22.200.0/22
+RemoteIPInternalProxy 103.31.4.0/22
+RemoteIPInternalProxy 104.16.0.0/12
+RemoteIPInternalProxy 108.162.192.0/18
+RemoteIPInternalProxy 131.0.72.0/22
+RemoteIPInternalProxy 141.101.64.0/18
+RemoteIPInternalProxy 162.158.0.0/15
+RemoteIPInternalProxy 172.64.0.0/13
+RemoteIPInternalProxy 173.245.48.0/20
+RemoteIPInternalProxy 188.114.96.0/20
+RemoteIPInternalProxy 190.93.240.0/20
+RemoteIPInternalProxy 197.234.240.0/22
+RemoteIPInternalProxy 198.41.128.0/17 #你的CDN的IP，可以重复添加
+#在httpd.conf中修改日志格式，在日志格式中加上%a，然后重启apache即可
+LogFormat "%h %a %l %u %t \"%r\" %&gt;s %b \"%{Referer}i\" \"%{User-Agent}i\"" combined
+LogFormat "%h %a %l %u %t \"%r\" %&gt;s %b" common
+LogFormat "%h %l %u %t \"%r\" %&gt;s %b \"%{Referer}i\" \"%{User-Agent}i\" %I %O" combined</code></pre>
+<p>service httpd restar重启apache，然后去日志里看看，已经获得了真实IP。前连天灰常记忆博友说在cloudflare里设置一下也能显示真实IP，但是老刘没有找到这个设置，只好继续在网站上改了，网站上改还有一个好处是，这个方法不仅限于cloudflare，别的CDN也是适用的</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>nginx使用CDN后获取用户真实IP的方法</title>
+      <link>https://iliu.org/3486.html</link>
+      <pubDate>Mon, 21 Dec 2020 07:15:11 +0000</pubDate>
+      <guid>https://iliu.org/3486.html</guid>
+      <description>&lt;p&gt;老刘前两天弄了个racknerd的便宜的vps，准备把一个网站放到这个vps上，再顺便把篱落的这台VPS好好的整理一下，当时装系统的时候装的是centos8，可惜这个系统明年官方就不再支持了，所以，长痛不如短痛，早晚都要换系统，不如早换。于是先把博客也迁到了这个rn的空间里。顺便又给加了个CF的套，加上之后，加的时候是扫了几个本地延迟最低的IP，直接分联通、移动、电信把这几个ip分别解析了。经过这么几天的试用，老刘觉得加了CF的速度还算差强人意。准备一直用下去。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>老刘前两天弄了个racknerd的便宜的vps，准备把一个网站放到这个vps上，再顺便把篱落的这台VPS好好的整理一下，当时装系统的时候装的是centos8，可惜这个系统明年官方就不再支持了，所以，长痛不如短痛，早晚都要换系统，不如早换。于是先把博客也迁到了这个rn的空间里。顺便又给加了个CF的套，加上之后，加的时候是扫了几个本地延迟最低的IP，直接分联通、移动、电信把这几个ip分别解析了。经过这么几天的试用，老刘觉得加了CF的速度还算差强人意。准备一直用下去。</p>
+<p>但是加了CDN后，有一个问题，那就是不管日志里还是wordpress后台的评论里的IP都是cf的IP，无法获取用户的真实IP，这对管理网站有点麻烦，比如受到攻击或者想封一些发垃圾邮件IP的地址的时候，就没有办法。老刘记得以前看过这方面的文章。于是找了一下，把经过记录下来。</p>
+<p>阿帕奇老刘好久没有用过了，这里只说nginx的方面，从网上的教程来看，可以分成两种。老刘把两种方法的说说</p>
+<h2 class="wp-block-heading" id="一利用ngx_http_realip_module模块获取用户真实ip">一、利用ngx_http_realip_module模块获取用户真实IP</h2>
+<p>由于老刘用的是oneinstack一键安装包，所以之说这个方法，lnmp一键安装包也可以用类似的方面来搞定。宝塔面板的话，就很简单，装那款免费的防火墙，里面就是cdn的设置，设置完了之后就OK了，不得不说还是可视化面板方便。好了，闲话少说，正式开始。</p>
+<p>首先通过nginx -V我们发现默认编译的nginx并不会安装ngx_http_realip_module模块，我们需要重新编译nginx使其载入这个功能模块。</p>
+<p>这里我们直接利用oneinstack的升级脚本来完成，这样做，一是很简单，二是一般不会出错，很适合初学者使用，第三，就是以后你升级nginx的话，也能一劳永逸。</p>
+<pre class="wp-block-code"><code>#增量添加参数到${nginx_configure_args}后面
+vim /root/oneinstack/include/upgrade_web.sh
+#在${nginx_configure_args}后面增加--with-http_realip_module即可
+#大致位于升级脚本的第57行</code></pre><figure class="wp-block-image size-large">
+<p><a href="https://tunan.org/wp-content/uploads/2021/01/3c4e83f775536ad.jpg"><img loading="lazy" decoding="async" width="500" height="301" src="https://tunan.org/wp-content/uploads/2021/01/3c4e83f775536ad.jpg" alt="" class="wp-image-3593" srcset="https://tunan.org/wp-content/uploads/2021/01/3c4e83f775536ad.jpg 500w, https://tunan.org/wp-content/uploads/2021/01/3c4e83f775536ad-300x181.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" /></a></figure></p>
+<p>保存并退出，执行oneinstack的升级脚本/root/oneinstack/upgrade.sh进行nginx升级编译即可。</p>
+<p>最后执行nginx -V查看最终编译后的结果。<figure class="wp-block-image size-large"></p>
+<p><a href="https://tunan.org/wp-content/uploads/2020/12/43904aa51d7dce2.png"><img decoding="async" src="https://tunan.org/wp-content/uploads/2020/12/43904aa51d7dce2-1024x109.png" alt="" class="wp-image-3488" /></a></figure></p>
+<h3 class="wp-block-heading" id="nginx设置set_real_ip_from">Nginx设置set_real_ip_from</h3>
+<p>编译好了ngx_http_realip_module，现在我们只需要在Nginx配置文件中添加set_real_ip_from代码到nginx.conf文件的http段落里面，老刘用的cf的，用期待的CDN类似，只有知道IP段可以了。示例如下：</p>
+<pre class="wp-block-code"><code>set_real_ip_from 103.21.244.0/22;
+ set_real_ip_from 103.22.200.0/22;
+ set_real_ip_from 103.31.4.0/22;
+ set_real_ip_from 104.16.0.0/12;
+ set_real_ip_from 108.162.192.0/18;
+ set_real_ip_from 131.0.72.0/22;
+ set_real_ip_from 141.101.64.0/18;
+ set_real_ip_from 162.158.0.0/15;
+ set_real_ip_from 172.64.0.0/13;
+ set_real_ip_from 173.245.48.0/20;
+ set_real_ip_from 188.114.96.0/20;
+ set_real_ip_from 190.93.240.0/20;
+ set_real_ip_from 197.234.240.0/22;
+ set_real_ip_from 198.41.128.0/17;
+ set_real_ip_from 199.27.128.0/21;
+ set_real_ip_from 2400:cb00::/32;
+ set_real_ip_from 2606:4700::/32;
+ set_real_ip_from 2803:f800::/32;
+ set_real_ip_from 2405:b500::/32;
+ set_real_ip_from 2405:8100::/32;
+ set_real_ip_from 2c0f:f248::/32;
+ set_real_ip_from 2a06:98c0::/29;
+ real_ip_header  X-Forwarded-For;
+ real_ip_recursive on;</code></pre>
+<p>配置完成后，使用nginx -t检查配置文件是否存在格式问题。如果没有报错执行service nginx reload重载nginx服务即可。</p>
+<p>然后访问网站，再次查看nginx日志，就可以正常获取到用户真实IP了。</p>
+<h2 class="wp-block-heading" id="二利用nginx的日期格式来达到目的">二、利用nginx的日期格式来达到目的</h2>
+<p>首先，将下面的代码添加到nginx.conf文件的http{后面让日志重置化：</p>
+<pre class="wp-block-code"><code>#自定义一个日志格式
+log_format cdn '$http_x_forwarded_for - $remote_user &#91;$time_local] '
+                    '"$request" $status $body_bytes_sent '
+                    '"$http_referer" "$http_user_agent"';</code></pre>
+<p>然后，我们修改nginx站点原来的日志输出格式，修改access_log /home/wwwlogs/xxxx.log; 为access_log /home/wwwlogs/xxxx.log cdn;全部保存之后不要急着重启nginx，再次强调一个命令nginx -t，用于检查nginx配置文件是否存在错误。这是一个非常实用的命令，可以让你在业务运行的同时从起nginx服务，不至于造成业务中断或者业务停止。</p>
+<p>这个方法的有点是不需要编译nginx，设置完了之后也是一劳永逸。但是对于oneinstack一键安装包来说，因为它已经重置了日志的格式，所以就不适用了。</p>
+<h2 class="wp-block-heading" id="小结">小结</h2>
+<p>以上就是两种在使用CDN后可以获取用户真实IP的方法，可以根据自己的情况来使用。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>WordPress开启Nginx fastcgi_cache缓存加速</title>
+      <link>https://iliu.org/2700.html</link>
+      <pubDate>Sun, 08 Sep 2019 01:51:11 +0000</pubDate>
+      <guid>https://iliu.org/2700.html</guid>
+      <description>&lt;p&gt;昨天下午没有太多事情，想起来一直想弄的nginx fastcgi_cache还没有弄，于是趁着重装景安服务器的功夫，顺便把这个玩意也搞搞，弄到晚上7点多，走了不少弯路，不过最后总算是搞定了。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>昨天下午没有太多事情，想起来一直想弄的nginx fastcgi_cache还没有弄，于是趁着重装景安服务器的功夫，顺便把这个玩意也搞搞，弄到晚上7点多，走了不少弯路，不过最后总算是搞定了。</p>
+<p> </p>
+<p>方法步骤如下：</p>
+<p><a href="https://tunan.org/wp-content/uploads/2019/08/1824c863dd7459.jpg"><img loading="lazy" decoding="async" width="900" height="900" class="aligncenter size-full wp-image-2631" src="https://tunan.org/wp-content/uploads/2019/08/1824c863dd7459.jpg" alt="" srcset="https://tunan.org/wp-content/uploads/2019/08/1824c863dd7459.jpg 900w, https://tunan.org/wp-content/uploads/2019/08/1824c863dd7459-768x768.jpg 768w" sizes="(max-width: 900px) 100vw, 900px" /></a></p>
+<h2 id="一安装nginx-ngx_cache_purge模块">一、安装Nginx ngx_cache_purge模块</h2>
+<p>由于我使用的是oneinstack面板，所以以下的步骤都以此为基础，其他比如lnmp没有试过，可能需要微调一下。</p>
+<pre class="ql-syntax" spellcheck="false"><span class="hljs-comment"># nginx -V 2&gt;&1 | grep -o ngx_cache_purge 查看ngx_cache_purge是否安装,没有数据表示未安装</span>
+ cd /root/oneinstack/src
+ wget http://labs.frickle.com/files/ngx_cache_purge<span class="hljs-number">-2.3</span>.tar.gz
+ tar xzf ngx_cache_purge<span class="hljs-number">-2.3</span>.tar.gz
+ <span class="hljs-comment">#以下几个安装包都是Oneinstack自带的，不同的版本可能会不同，请根据情况调整</span>
+ tar xzf nginx<span class="hljs-number">-1.16.1</span>.tar.gz
+ tar xzf pcre<span class="hljs-number">-8.43</span>.tar.gz
+ tar xzf openssl<span class="hljs-number">-1.1.1</span>c.tar.gz
+ cd /root/oneinstack/src/nginx<span class="hljs-number">-1.16.1</span>
+ nginx -V <span class="hljs-comment">#查看nginx编译参数，最后加上--add-module=../ngx_cache_purge-2.3</span>
+ ./configure --prefix=/usr/local/nginx --user=www --group=www --<span class="hljs-keyword">with</span>-http_stub_status_module --<span class="hljs-keyword">with</span>-http_v2_module --<span class="hljs-keyword">with</span>-http_ssl_module --<span class="hljs-keyword">with</span>-http_gzip_static_module --<span class="hljs-keyword">with</span>-http_realip_module --<span class="hljs-keyword">with</span>-http_flv_module --<span class="hljs-keyword">with</span>-http_mp4_module --<span class="hljs-keyword">with</span>-openssl=../openssl<span class="hljs-number">-1.0.2</span>o --<span class="hljs-keyword">with</span>-pcre=../pcre<span class="hljs-number">-8.42</span> --<span class="hljs-keyword">with</span>-pcre-jit --<span class="hljs-keyword">with</span>-ld-opt=-ljemalloc --add-module=../ngx_cache_purge<span class="hljs-number">-2.3</span>
+ make <span class="hljs-comment">#编译</span>
+ mv /usr/local/nginx/sbin/nginx{,_`date +%F`} <span class="hljs-comment">#备份nginx</span>
+ cp objs/nginx /usr/local/nginx/sbin
+ nginx -V <span class="hljs-number">2</span>&gt;&<span class="hljs-number">1</span> | grep -o ngx_cache_purge
+ <span class="hljs-comment"># 显示ngx_cache_purge表示已经安装成功、</span>
+</pre>
+<p>使用<code>Nginx -V</code>查看编译参数添加add-module时，一定要根据你自己的Nginx的编译参数来操作，也就是说保留原来的Nginx参数再加上add-module。例如我的：</p>
+<h2 id="二nginx开启fastcgi_cache缓存-配置实例">二、Nginx开启fastcgi_cache缓存-配置实例</h2>
+<p>这里我直接贴出我的www.yanjingweb.cn的配置实例</p>
+<pre class="ql-syntax" spellcheck="false"><span class="hljs-attribute">fastcgi_cache_path</span> /tmp/wpcache levels=<span class="hljs-number">1</span>:<span class="hljs-number">2</span> keys_zone=WORDPRESS:<span class="hljs-number">250m</span> inactive=<span class="hljs-number">1d</span> max_size=<span class="hljs-number">1G</span>;
+ <span class="hljs-attribute">fastcgi_temp_path</span> /tmp/wpcache/temp;
+ <span class="hljs-attribute">fastcgi_cache_key</span> <span class="hljs-string">"<span class="hljs-variable">$scheme$request_method$host$request_uri</span>"</span>;
+ <span class="hljs-attribute">fastcgi_cache_use_stale</span> <span class="hljs-literal">error</span> timeout invalid_header http_500;
+ <span class="hljs-comment">#忽略一切nocache申明，避免不缓存伪静态等fastcgi_ignore_headers Cache-Control Expires Set-Cookie;</span>
+<span class="hljs-section">server</span> {
+ <span class="hljs-attribute">listen</span> <span class="hljs-number">80</span>;
+ <span class="hljs-attribute">listen</span> <span class="hljs-number">443</span> ssl http2
+此处略
+set <span class="hljs-variable">$skip_cache</span> <span class="hljs-number"></span>;
+ <span class="hljs-comment">#post访问不缓存if ($request_method = POST) {</span>
+ <span class="hljs-attribute">set</span> <span class="hljs-variable">$skip_cache</span> <span class="hljs-number">1</span>;
+ }
+ <span class="hljs-comment">#动态查询不缓存if ($query_string != "") {</span>
+ <span class="hljs-attribute">set</span> <span class="hljs-variable">$skip_cache</span> <span class="hljs-number">1</span>;
+ }
+ <span class="hljs-comment">#后台等特定页面不缓存（其他需求请自行添加即可）if ($request_uri ~* "/wp-admin/|/xmlrpc.php|wp-.*.php|/feed/|index.php|sitemap(_index)?.xml") {</span>
+ <span class="hljs-attribute">set</span> <span class="hljs-variable">$skip_cache</span> <span class="hljs-number">1</span>;
+ }
+ <span class="hljs-comment">#对登录用户、评论过的用户不展示缓存if ($http_cookie ~* "comment_author|wordpress_[a-f0-9]+|wp-postpass|wordpress_no_cache|wordpress_logged_in") {</span>
+ <span class="hljs-attribute">set</span> <span class="hljs-variable">$skip_cache</span> <span class="hljs-number">1</span>;
+ }
+ <span class="hljs-comment">#这里请参考你网站之前的配置，特别是sock的路径，弄错了就502了！location ~ [^/]\.php(/|$) {</span>
+ <span class="hljs-comment">#fastcgi_pass remote_php_ip:9000;fastcgi_pass unix:/dev/shm/php-cgi.sock;</span>
+ <span class="hljs-attribute">fastcgi_index</span> index.php;
+ <span class="hljs-attribute">include</span> fastcgi.conf;
+ <span class="hljs-attribute">add_header</span> Strict-Transport-Security <span class="hljs-string">"max-age=63072000; includeSubdomains; preload"</span>;
+ <span class="hljs-comment">#新增的缓存规则fastcgi_cache_bypass $skip_cache;</span>
+ <span class="hljs-attribute">fastcgi_no_cache</span> <span class="hljs-variable">$skip_cache</span>;
+ <span class="hljs-attribute">add_header</span> X-Cache <span class="hljs-string">"<span class="hljs-variable">$upstream_cache_status</span> From <span class="hljs-variable">$host</span>"</span>;
+ <span class="hljs-attribute">add_header</span> Cache-Control max-age=<span class="hljs-number"></span>;
+ <span class="hljs-attribute">add_header</span> Nginx-Cache <span class="hljs-string">"<span class="hljs-variable">$upstream_cache_status</span>"</span>;
+ <span class="hljs-attribute">add_header</span> Last-Modified <span class="hljs-variable">$date_gmt</span>;
+ <span class="hljs-attribute">add_header</span> X-Frame-Options SAMEORIGIN; <span class="hljs-comment"># 只允许本站用 frame 来嵌套add_header X-Content-Type-Options nosniff; # 禁止嗅探文件类型add_header X-XSS-Protection "1; mode=block"; # XSS 保护etag on;</span>
+ <span class="hljs-attribute">fastcgi_cache</span> WORDPRESS;
+ <span class="hljs-attribute">fastcgi_cache_valid</span> <span class="hljs-number">200</span> <span class="hljs-number">301</span> <span class="hljs-number">302</span> <span class="hljs-number">1d</span>;
+ }
+<span class="hljs-comment">#缓存清理配置（可选）location ~ /purge( /.*) { #为防止转义，请去掉{ /之间的空格allow 127.0.0.1;</span>
+ <span class="hljs-comment">#此处填写你的服务器IPallow 122.115.122.111;</span>
+ <span class="hljs-attribute">deny</span> all;
+ <span class="hljs-comment">#请注意此处的WORDPRESS要与上面的keys_zone保持一致fastcgi_cache_purge WORDPRESS "$scheme$request_method$host$1";</span>
+ }
+</pre>
+<p>以下略</p>
+<p>至此，全部设置结束，nginx -t 检查以下nginx。然后重新启动一下nginx。service nginx restart</p>
+<p>用浏览器打开一个网页，F5刷新几下，看看浏览器的head，就能看到nginx_cache hit字样，说明缓存成功了。然后看缓存文件夹了，也有了一堆的文件。</p>
+<p><a href="https://tunan.org/wp-content/uploads/2019/09/1111111.png" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" src="https://tunan.org/wp-content/uploads/2019/09/1111111.png" width="748" height="363" /></a></p>
+<p>最后，说一下</p>
+<p>开通这个之后，确实打开网页的速度快了不少，在不用CDN的前提下，网页也能秒开了，有动手能力的同学不妨一试。</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

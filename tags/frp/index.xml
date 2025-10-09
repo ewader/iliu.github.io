@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Frp on 老刘博客</title>
+    <link>https://iliu.org/tags/frp/</link>
+    <description>Recent content in Frp on 老刘博客</description>
+    <image>
+      <title>老刘博客</title>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.151.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 18 Oct 2020 07:27:04 +0000</lastBuildDate>
+    <atom:link href="https://iliu.org/tags/frp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>纯代码设置frp服务器</title>
+      <link>https://iliu.org/3340.html</link>
+      <pubDate>Sun, 18 Oct 2020 07:27:04 +0000</pubDate>
+      <guid>https://iliu.org/3340.html</guid>
+      <description>&lt;p&gt;以前老刘写过《&lt;a href=&#34;https://tunan.org/2918.html&#34;&gt;宝塔面板安装FRP内网穿透控制群晖&lt;/a&gt;》的文章，最近发现不知道是这个插件的作者不再开发了还是其他的原因，xeath开发的这个frp服务器插件已经在商店里找不到了。其实，这也没什么，直接用代码的方式部署也是可以的。&lt;/p&gt;
+&lt;p&gt;SSH连接到VPS之后运行如下命令查看处理器架构，根据架构下载不同版本的frp&lt;/p&gt;
+&lt;pre class=&#34;wp-block-preformatted&#34;&gt;arch&lt;/pre&gt;
+&lt;p&gt;查看结果，如果是“X86_64“即可选择”amd64”，&lt;br&gt;
+运行如下命令，根据架构不同，选择相应版本并进行下载，然后登陆frp的官网地址，现在最新的应该是0.34.1，所以，运行如下的命令：&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>以前老刘写过《<a href="https://tunan.org/2918.html">宝塔面板安装FRP内网穿透控制群晖</a>》的文章，最近发现不知道是这个插件的作者不再开发了还是其他的原因，xeath开发的这个frp服务器插件已经在商店里找不到了。其实，这也没什么，直接用代码的方式部署也是可以的。</p>
+<p>SSH连接到VPS之后运行如下命令查看处理器架构，根据架构下载不同版本的frp</p>
+<pre class="wp-block-preformatted">arch</pre>
+<p>查看结果，如果是“X86_64“即可选择”amd64”，<br>
+运行如下命令，根据架构不同，选择相应版本并进行下载，然后登陆frp的官网地址，现在最新的应该是0.34.1，所以，运行如下的命令：</p>
+<pre class="wp-block-preformatted">wget https://github.com/fatedier/frp/releases/download/v0.34.1/frp_0.34.1_linux_amd64.tar.gz</pre>
+<p>然后解压，给文件换一个名字，进入frp目录</p>
+<pre class="wp-block-preformatted">tar -zxvf frp_0.34.1_linux_amd64.tar.gz
+cp -r frp_0.34.1_linux_amd64 frp
+cd frp</pre>
+<p>修改frps.ini文件</p>
+<pre class="wp-block-preformatted">vim frps.ini</pre>
+<p>格式如下：</p>
+<pre class="wp-block-preformatted">[common]
+bind_port = 7000
+dashboard_port = 7500
+token = *******（根据情况自己设置）
+dashboard_user = 自己设置
+dashboard_pwd = 自己设置
+vhost_http_port = 10080
+vhost_https_port = 10443</pre>
+<p>编辑完成后保存（vim保存如果不会请自行搜索）。<br>
+之后我们就可以运行frps的服务端了。</p>
+<p>使用命令：</p>
+<pre class="wp-block-preformatted">./frps -c frps.ini</pre>
+<p>如果输出如下文字，说明服务器配置成功</p>
+<pre class="wp-block-preformatted">2019/01/12 15:22:39 [I] [service.go:130] frps tcp listen on 0.0.0.0:7000 
+
+2019/01/12 15:22:39 [I] [service.go:172] http service listen on 0.0.0.0:10080 
+
+2019/01/12 15:22:39 [I] [service.go:193] https service listen on 0.0.0.0:10443
+
+2019/01/12 15:22:39 [I] [service.go:216] Dashboard listen on 0.0.0.0:7500
+
+2019/01/12 15:22:39 [I] [root.go:210] Start frps success</pre>
+<p>通过你的服务器IP：7500,然后输入刚才你设置的用户名密码，应该可以看到如下的画面：<figure class="wp-block-image aligncenter"></p>
+<p><a href="https://tunan.org/wp-content/uploads/2020/10/574e8aabbd9f2ca.png"><img loading="lazy" decoding="async" width="1024" height="598" src="https://tunan.org/wp-content/uploads/2020/10/574e8aabbd9f2ca-1024x598.png" alt="" class="wp-image-3341" srcset="https://tunan.org/wp-content/uploads/2020/10/574e8aabbd9f2ca-1024x598.png 1024w, https://tunan.org/wp-content/uploads/2020/10/574e8aabbd9f2ca-300x175.png 300w, https://tunan.org/wp-content/uploads/2020/10/574e8aabbd9f2ca-768x449.png 768w, https://tunan.org/wp-content/uploads/2020/10/574e8aabbd9f2ca.png 1196w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure></p>
+<h2 class="wp-block-heading" id="让frp服务在后台运行">让FRP服务在后台运行</h2>
+<p>这时候你会发现，如果你关闭了xshell等的窗口，frp的服务也即可停止了，所以，为了让FRP在后台运行，我们还输入如下的命令：</p>
+<pre class="wp-block-preformatted">nohup ./frps -c frps.ini &</pre>
+<p>如果出来的如下的文字，说明配置成功</p>
+<pre class="wp-block-preformatted">nohup: ignoring input and appending output to 'nohup.out'</pre>
+<p>至此，服务器端设置完毕，群晖的设置在上一篇文章内已经说过，这次就不再啰嗦了。</p>
+<h2 class="wp-block-heading" id="可能遇到的坑">可能遇到的坑：</h2>
+<p>如果你按照这个方法设置后，最后的输出总不正确，那么很大的可能是你的服务器的相应的端口没有开放，如果使用的是腾讯云或者阿里云的话，服务器的端口打开之后，还需要在这些云的控制端设置开放端口。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>宝塔面板安装FRP内网穿透控制群晖</title>
+      <link>https://iliu.org/2918.html</link>
+      <pubDate>Sat, 07 Dec 2019 03:28:28 +0000</pubDate>
+      <guid>https://iliu.org/2918.html</guid>
+      <description>&lt;p&gt;前两天给大家介绍了利用zerotier来进行内网穿透控制群晖的方法，详见：&lt;a href=&#34;https://tunan.org/2872.html&#34;&gt;黑群晖的福音，利用zerotier进行内网穿透&lt;/a&gt;。但是，zerotier使用的时候有时候不太稳定，而且记一堆的数字比较麻烦，今天，给大家介绍另一个神器，frp。直接用命令行的方式在服务器里部署比较繁琐，而且一不留神就会出错，不过好在有大神在宝塔里开发出了插件，一键安装就行。好了，言归正传，开始正题。&lt;/p&gt;
+&lt;p&gt;首先，你得有一个自己的vps，这里把设置强烈推荐&lt;a href=&#34;https://my.liluohost.com/aff.php?aff=148&#34;&gt;篱落主机&lt;/a&gt;。本站就运行在这个主机上，特别是香港的VPS，速度快，服务器也稳定。关键是价格不贵，最便宜的也就100多块一年吧。给小张报我的名字应该还能有些许优惠，毕竟我10年前就是他的客户了。这次，本来买的1h2g的，结果人家二话没说就给升级到了4g。貌似，又跑题了额。&lt;/p&gt;
+&lt;p&gt;有了vps后，安装宝塔面板。安装的方法很简单，官网一看就会，我就不啰嗦了。不出意外的话，2分钟，面板安装完毕。登录到面板的后台。点击软件商店，搜索frp。我们用的是如下这款，因为这款是免费的。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>前两天给大家介绍了利用zerotier来进行内网穿透控制群晖的方法，详见：<a href="https://tunan.org/2872.html">黑群晖的福音，利用zerotier进行内网穿透</a>。但是，zerotier使用的时候有时候不太稳定，而且记一堆的数字比较麻烦，今天，给大家介绍另一个神器，frp。直接用命令行的方式在服务器里部署比较繁琐，而且一不留神就会出错，不过好在有大神在宝塔里开发出了插件，一键安装就行。好了，言归正传，开始正题。</p>
+<p>首先，你得有一个自己的vps，这里把设置强烈推荐<a href="https://my.liluohost.com/aff.php?aff=148">篱落主机</a>。本站就运行在这个主机上，特别是香港的VPS，速度快，服务器也稳定。关键是价格不贵，最便宜的也就100多块一年吧。给小张报我的名字应该还能有些许优惠，毕竟我10年前就是他的客户了。这次，本来买的1h2g的，结果人家二话没说就给升级到了4g。貌似，又跑题了额。</p>
+<p>有了vps后，安装宝塔面板。安装的方法很简单，官网一看就会，我就不啰嗦了。不出意外的话，2分钟，面板安装完毕。登录到面板的后台。点击软件商店，搜索frp。我们用的是如下这款，因为这款是免费的。</p>
+<h2 id="补充说明">补充说明：</h2>
+<p>最近发现这个插件在宝塔里已经找不到了，需要设置服务器端的可以参考本人的<a href="https://tunan.org/3340.html">纯代码设置frp服务器</a>这篇文章，来进行手动设置，也不复杂！<figure class="wp-block-image size-large"></p>
+<p><img loading="lazy" decoding="async" width="1024" height="302" src="https://tunan.org/wp-content/uploads/2019/12/frp-120191207-1-1024x302.png" alt="" class="wp-image-2919" srcset="https://tunan.org/wp-content/uploads/2019/12/frp-120191207-1-1024x302.png 1024w, https://tunan.org/wp-content/uploads/2019/12/frp-120191207-1-300x89.png 300w, https://tunan.org/wp-content/uploads/2019/12/frp-120191207-1-768x227.png 768w, https://tunan.org/wp-content/uploads/2019/12/frp-120191207-1.png 1071w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure></p>
+<p>先点击购买，因为是免费的，不要钱，直接购买后，点击安装，安装后，点击设置。<figure class="wp-block-image size-large"></p>
+<p><img loading="lazy" decoding="async" width="709" height="599" src="https://tunan.org/wp-content/uploads/2019/12/frp-120191207-2.png" alt="" class="wp-image-2920" srcset="https://tunan.org/wp-content/uploads/2019/12/frp-120191207-2.png 709w, https://tunan.org/wp-content/uploads/2019/12/frp-120191207-2-300x253.png 300w" sizes="(max-width: 709px) 100vw, 709px" /> </figure></p>
+<p>这里，我们只需要在通用设置这里进行设置就可以了，其他的可以不用设置，不影响使用。端口号之类的可以改也可以不改，主要的是设置验证密钥，设置成你自己的。</p>
+<p>设置完这个之后，一定要在宝塔面板——安全选项里，把你设置的这些端口号放行。不然是用不了的。</p>
+<p>至此，frp服务器端已经设置完毕。下面我们来设置客户端，由于我们是要远程控制群晖，所以这里就以群晖为例。</p>
+<h3 class="wp-block-heading" id="设置域名解析">设置域名解析</h3>
+<p>登录你的域名服务商<br>
+域名解析<br>
+设置域名解析到frp服务器地址</p>
+<h3 class="wp-block-heading" id="安装frpc文件">安装frpc文件</h3>
+<p>开启群晖SSH功能<br>
+控制面板-终端机和SNMP<br>
+启动SSH功能-应用<figure class="wp-block-image size-large"></p>
+<p><img loading="lazy" decoding="async" width="1024" height="645" src="https://tunan.org/wp-content/uploads/2019/12/1609524974-1024x645.jpg" alt="" class="wp-image-2921" srcset="https://tunan.org/wp-content/uploads/2019/12/1609524974-1024x645.jpg 1024w, https://tunan.org/wp-content/uploads/2019/12/1609524974-300x189.jpg 300w, https://tunan.org/wp-content/uploads/2019/12/1609524974-768x483.jpg 768w, https://tunan.org/wp-content/uploads/2019/12/1609524974-1536x967.jpg 1536w, https://tunan.org/wp-content/uploads/2019/12/1609524974-2048x1289.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure></p>
+<p>使用xshell等登录到群晖</p>
+<p>sudo -i //获得root权限 输入密码-回车</p>
+<p>进入安装目录(本文以/usr/local/为例) cd /usr/local/</p>
+<p>因为我们服务器端用的是最新30版的，所以我们也要下载最新版本的。可以到如下的网址查询最新版本：</p>
+<p><a href="https://github.com/fatedier/frp/releases/">https://github.com/fatedier/frp/releases/</a></p>
+<h3 class="wp-block-heading" id="配置frpc">配置frpc</h3>
+<pre>编辑frpc.ini文件<br />cd /usr/local/frpc<br />vi frpc.ini</pre>
+<pre>[common] server_addr = x.x.x.x<br /><br /> server_port = 7000<br /><br /> token = 你在宝塔里设置的 <br /><br />[rdp] type = tcp <br /><br />local_ip = 127.0.0.1 <br /><br />local_port = 3389 <br /><br />remote_port = 7001<br /><br /> [smb] type = tcp <br /><br />local_ip = 127.0.0.1<br /><br /> local_port = 445 <br /><br />remote_port = 7002</pre>
+<ul class="wp-block-list">
+  <li>
+    “server_addr”为服务端IP地址，填入即可。
+  </li>
+  <li>
+    “server_port”为服务器端口，填入你设置的端口号即可，如果未改变就是7000
+  </li>
+  <li>
+    “token”是你在服务器上设置的连接口令，原样填入即可。
+  </li>
+</ul>
+<p>ESC退出编辑<br>
+输入:wq回车即可保存</p>
+<h3 class="wp-block-heading" id="启动frpc">启动frpc</h3>
+<p>启动frpc命令： ./frpc -c ./frpc.ini</p>
+<p>保持后台运行frpc命令 ： nohup ./frpc -c ./frpc.ini &amp;</p>
+<h2 class="wp-block-heading" id="设置群晖nas重启开机自动运行frpc">设置群晖NAS重启开机自动运行frpc</h2>
+<p>控制面板——任务计划<figure class="wp-block-image size-large"></p>
+<p><img loading="lazy" decoding="async" width="1024" height="649" src="https://tunan.org/wp-content/uploads/2019/12/280926576-1024x649.jpg" alt="" class="wp-image-2922" srcset="https://tunan.org/wp-content/uploads/2019/12/280926576-1024x649.jpg 1024w, https://tunan.org/wp-content/uploads/2019/12/280926576-300x190.jpg 300w, https://tunan.org/wp-content/uploads/2019/12/280926576-768x487.jpg 768w, https://tunan.org/wp-content/uploads/2019/12/280926576-1536x974.jpg 1536w, https://tunan.org/wp-content/uploads/2019/12/280926576-2048x1298.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure></p>
+<p>新增<br>
+触发的任务<br>
+用户自定义脚本<br>
+常规<br>
+填写任务名称<br>
+用户账号和事件保持默认<br>
+任务设置<br>
+用户自定义脚本<br>
+填写你的frpc安装路径： /usr/local/frpc/frpc -c /usr/local/frpc/frpc.ini<br>
+确定<figure class="wp-block-image size-large"></p>
+<p><img loading="lazy" decoding="async" width="1024" height="647" src="https://tunan.org/wp-content/uploads/2019/12/602279552-1024x647.jpg" alt="" class="wp-image-2923" srcset="https://tunan.org/wp-content/uploads/2019/12/602279552-1024x647.jpg 1024w, https://tunan.org/wp-content/uploads/2019/12/602279552-300x190.jpg 300w, https://tunan.org/wp-content/uploads/2019/12/602279552-768x486.jpg 768w, https://tunan.org/wp-content/uploads/2019/12/602279552-1536x971.jpg 1536w, https://tunan.org/wp-content/uploads/2019/12/602279552-2048x1295.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure></p>
+<p>配置完成<br>
+现在可以使用域名无端口访问群晖NAS了</p>
+<p>本文frpc设置部分参考了：群晖NAS安装配置免费frp内网穿透教程 一并表示感谢</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

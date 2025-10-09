@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Openwrt on 老刘博客</title>
+    <link>https://iliu.org/tags/openwrt/</link>
+    <description>Recent content in Openwrt on 老刘博客</description>
+    <image>
+      <title>老刘博客</title>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.151.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 05 Dec 2019 07:02:08 +0000</lastBuildDate>
+    <atom:link href="https://iliu.org/tags/openwrt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>竞斗云2.0初步使用记</title>
+      <link>https://iliu.org/2909.html</link>
+      <pubDate>Thu, 05 Dec 2019 07:02:08 +0000</pubDate>
+      <guid>https://iliu.org/2909.html</guid>
+      <description>&lt;p&gt;前几天&lt;a href=&#34;https://zhang.bo&#34;&gt;张波&lt;/a&gt;老师送了一台竞斗云2.0，这也是一款矿难的产物。原价好像将近2000块钱，现在矿难，矿贩子便宜处理，100多块钱就能买一台。&lt;/p&gt;
+&lt;p&gt;收到后给我的第一感觉就是大，比传统的路由器大多了，第二个就是重，外壳是铁质的，加上4个天线，还是比较霸气的。&lt;/p&gt;
+&lt;p&gt;迫不及待的接上网线，以前用的路由器都是普通的路由器，几十块钱一个，最贵的要算是家里的那台荣耀路由器了，花了200多块钱，使用起来倒是没有毛病，唯一的一点缺憾是不能使用酸酸乳，可能国内的路由器厂商都不敢弄这个功能吧。&lt;figure class=&#34;wp-block-image size-large&#34;&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>前几天<a href="https://zhang.bo">张波</a>老师送了一台竞斗云2.0，这也是一款矿难的产物。原价好像将近2000块钱，现在矿难，矿贩子便宜处理，100多块钱就能买一台。</p>
+<p>收到后给我的第一感觉就是大，比传统的路由器大多了，第二个就是重，外壳是铁质的，加上4个天线，还是比较霸气的。</p>
+<p>迫不及待的接上网线，以前用的路由器都是普通的路由器，几十块钱一个，最贵的要算是家里的那台荣耀路由器了，花了200多块钱，使用起来倒是没有毛病，唯一的一点缺憾是不能使用酸酸乳，可能国内的路由器厂商都不敢弄这个功能吧。<figure class="wp-block-image size-large"></p>
+<p><img loading="lazy" decoding="async" width="820" height="493" src="https://tunan.org/wp-content/uploads/2019/12/jingdouyun-01.png" alt="" class="wp-image-2911" srcset="https://tunan.org/wp-content/uploads/2019/12/jingdouyun-01.png 820w, https://tunan.org/wp-content/uploads/2019/12/jingdouyun-01-300x180.png 300w, https://tunan.org/wp-content/uploads/2019/12/jingdouyun-01-768x462.png 768w" sizes="(max-width: 820px) 100vw, 820px" /> </figure></p>
+<p>这台路由器张老师已经刷了openwrt系统，这是一个基于Linux开发的开源路由器系统，功能还是比较强大的，除了普通路由器的功能外，还具有，酸酸乳，广告过滤，zerotier，甚至迅雷，远程下载等等的功能，基本上也算是一台微型计算机了。</p>
+<p>需要说明的一点是，openwrt系统配置起来没有普通路由器那么方便，比如拨号的设置竟然是再端口里，然后修改wan这个选项，才能田间pppoe的各项参数。<figure class="wp-block-image size-large"></p>
+<p><img loading="lazy" decoding="async" width="982" height="532" src="https://tunan.org/wp-content/uploads/2019/12/jingdouyun-02.png" alt="" class="wp-image-2910" srcset="https://tunan.org/wp-content/uploads/2019/12/jingdouyun-02.png 982w, https://tunan.org/wp-content/uploads/2019/12/jingdouyun-02-300x163.png 300w, https://tunan.org/wp-content/uploads/2019/12/jingdouyun-02-768x416.png 768w" sizes="(max-width: 982px) 100vw, 982px" /> </figure></p>
+<p>里面的的广告大师这个功能说是用的ablock plus的数据库，但是感觉过滤的效果没有adp效果好，打开网页的话，还是会有广告的出现，用浏览器的插件就没有<figure class="wp-block-image size-large"></p>
+<p><img loading="lazy" decoding="async" width="848" height="316" src="https://tunan.org/wp-content/uploads/2019/12/jingdouyun-03.png" alt="" class="wp-image-2912" srcset="https://tunan.org/wp-content/uploads/2019/12/jingdouyun-03.png 848w, https://tunan.org/wp-content/uploads/2019/12/jingdouyun-03-300x112.png 300w, https://tunan.org/wp-content/uploads/2019/12/jingdouyun-03-768x286.png 768w" sizes="(max-width: 848px) 100vw, 848px" /> </figure></p>
+<p>使用了3 4天了，网上说的无线容易掉线等的问题没有遇到，测了一下速度，基本上能达到宽带限定的速度，无线的速递也蛮快的，可以做为一款主力路由器来使用，所以，今天又再闲鱼上下单买了一台放在家里使用。现在貌似比以前贵了，找了一个卖家说是全新的，代刷好不死系统，包邮价120元。</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
