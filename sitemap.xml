@@ -2,22 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://iliu.org/posts/</loc>
+    <lastmod>2025-10-09T16:22:16+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/</loc>
+    <lastmod>2025-10-09T16:22:16+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/posts/rainy-holiday-a-small-story-about-tires-and-the-journey-home/</loc>
+    <lastmod>2025-10-09T16:22:16+08:00</lastmod>
+  </url><url>
     <loc>https://iliu.org/categories/</loc>
     <lastmod>2025-10-02T10:33:29+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/tags/linux/</loc>
     <lastmod>2025-10-02T10:33:29+08:00</lastmod>
   </url><url>
-    <loc>https://iliu.org/posts/</loc>
-    <lastmod>2025-10-02T10:33:29+08:00</lastmod>
-  </url><url>
     <loc>https://iliu.org/tags/</loc>
     <lastmod>2025-10-02T10:33:29+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/ubuntu-24-04-install-windterm/</loc>
-    <lastmod>2025-10-02T10:33:29+08:00</lastmod>
-  </url><url>
-    <loc>https://iliu.org/</loc>
     <lastmod>2025-10-02T10:33:29+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/categories/%E9%BD%90%E7%89%A9/</loc>
