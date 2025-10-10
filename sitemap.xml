@@ -2,22 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://iliu.org/categories/</loc>
+    <lastmod>2025-10-10T09:39:08+08:00</lastmod>
+  </url><url>
     <loc>https://iliu.org/posts/</loc>
-    <lastmod>2025-10-09T16:22:16+08:00</lastmod>
+    <lastmod>2025-10-10T09:39:08+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/tags/</loc>
+    <lastmod>2025-10-10T09:39:08+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/tags/%E5%81%A5%E5%BA%B7/</loc>
+    <lastmod>2025-10-10T09:39:08+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/</loc>
-    <lastmod>2025-10-09T16:22:16+08:00</lastmod>
+    <lastmod>2025-10-10T09:39:08+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/categories/%E4%BA%BA%E9%97%B4%E4%B8%96/</loc>
+    <lastmod>2025-10-10T09:39:08+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/posts/almost-blind-from-late-night-phone-use-a-loyal-customers-glaucoma-scare/</loc>
+    <lastmod>2025-10-10T09:39:08+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/posts/rainy-holiday-a-small-story-about-tires-and-the-journey-home/</loc>
     <lastmod>2025-10-09T16:22:16+08:00</lastmod>
   </url><url>
-    <loc>https://iliu.org/categories/</loc>
-    <lastmod>2025-10-02T10:33:29+08:00</lastmod>
-  </url><url>
     <loc>https://iliu.org/tags/linux/</loc>
-    <lastmod>2025-10-02T10:33:29+08:00</lastmod>
-  </url><url>
-    <loc>https://iliu.org/tags/</loc>
     <lastmod>2025-10-02T10:33:29+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/ubuntu-24-04-install-windterm/</loc>
@@ -27,9 +36,6 @@
     <lastmod>2025-10-02T10:33:29+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/posts/autumn-gossipy-talks/</loc>
-    <lastmod>2025-09-29T10:31:36+08:00</lastmod>
-  </url><url>
-    <loc>https://iliu.org/categories/%E4%BA%BA%E9%97%B4%E4%B8%96/</loc>
     <lastmod>2025-09-29T10:31:36+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/tags/%E9%9A%8F%E7%AC%94/</loc>
