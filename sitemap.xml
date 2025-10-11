@@ -3,18 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://iliu.org/categories/</loc>
-    <lastmod>2025-10-10T09:39:08+08:00</lastmod>
+    <lastmod>2025-10-11T08:12:42+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/posts/</loc>
-    <lastmod>2025-10-10T09:39:08+08:00</lastmod>
+    <lastmod>2025-10-11T08:12:42+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/tags/</loc>
-    <lastmod>2025-10-10T09:39:08+08:00</lastmod>
-  </url><url>
-    <loc>https://iliu.org/tags/%E5%81%A5%E5%BA%B7/</loc>
-    <lastmod>2025-10-10T09:39:08+08:00</lastmod>
+    <lastmod>2025-10-11T08:12:42+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/</loc>
+    <lastmod>2025-10-11T08:12:42+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/categories/%E9%BD%90%E7%89%A9/</loc>
+    <lastmod>2025-10-11T08:12:42+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/tags/%E7%BE%A4%E6%99%96/</loc>
+    <lastmod>2025-10-11T08:12:42+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/posts/install-frpc-on-synology-nas-without-docker/</loc>
+    <lastmod>2025-10-11T08:12:42+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/tags/%E5%81%A5%E5%BA%B7/</loc>
     <lastmod>2025-10-10T09:39:08+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/categories/%E4%BA%BA%E9%97%B4%E4%B8%96/</loc>
@@ -30,9 +39,6 @@
     <lastmod>2025-10-02T10:33:29+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/ubuntu-24-04-install-windterm/</loc>
-    <lastmod>2025-10-02T10:33:29+08:00</lastmod>
-  </url><url>
-    <loc>https://iliu.org/categories/%E9%BD%90%E7%89%A9/</loc>
     <lastmod>2025-10-02T10:33:29+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/posts/autumn-gossipy-talks/</loc>
@@ -265,9 +271,6 @@
   </url><url>
     <loc>https://iliu.org/posts/forgot-my-mom-birthday/</loc>
     <lastmod>2024-11-06T23:54:42-05:00</lastmod>
-  </url><url>
-    <loc>https://iliu.org/tags/%E7%BE%A4%E6%99%96/</loc>
-    <lastmod>2024-10-30T03:48:47-04:00</lastmod>
   </url><url>
     <loc>https://iliu.org/posts/install-the-simple-note-taking-software-flatnotes-on-synology/</loc>
     <lastmod>2024-10-30T03:48:47-04:00</lastmod>

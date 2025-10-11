@@ -11,8 +11,215 @@
     </image>
     <generator>Hugo -- 0.151.0</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 10 Oct 2025 09:39:08 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 11 Oct 2025 08:12:42 +0800</lastBuildDate>
     <atom:link href="https://iliu.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>群晖NAS安装FRP客户端（frpc）</title>
+      <link>https://iliu.org/posts/install-frpc-on-synology-nas-without-docker/</link>
+      <pubDate>Sat, 11 Oct 2025 08:12:42 +0800</pubDate>
+      <guid>https://iliu.org/posts/install-frpc-on-synology-nas-without-docker/</guid>
+      <description>&lt;p&gt;今年5月份的时候，购买了一款搬瓦工的VPS，当时是想用来做博客的VPS，用的是美西的优化线路，速度非常的理想，前几天我又把博客系统转回到了&lt;code&gt;Hugo&lt;/code&gt;，这样这台VPS就空出来了，加上最近群晖的&lt;code&gt;QC&lt;/code&gt;以及&lt;code&gt;tailscale&lt;/code&gt;这些都不太理想，所以我决定使用FRP的方式来穿透群晖。搜了一下网上的教程都是采用的&lt;code&gt;docker&lt;/code&gt;，但是我安装后总是报错，所以研究了一下，采用直接安装的方式，省资源还不容易出错。本文详细介绍如何在用户目录下部署frpc，并实现开机自启。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>今年5月份的时候，购买了一款搬瓦工的VPS，当时是想用来做博客的VPS，用的是美西的优化线路，速度非常的理想，前几天我又把博客系统转回到了<code>Hugo</code>，这样这台VPS就空出来了，加上最近群晖的<code>QC</code>以及<code>tailscale</code>这些都不太理想，所以我决定使用FRP的方式来穿透群晖。搜了一下网上的教程都是采用的<code>docker</code>，但是我安装后总是报错，所以研究了一下，采用直接安装的方式，省资源还不容易出错。本文详细介绍如何在用户目录下部署frpc，并实现开机自启。</p>
+<h3 id="一frp-简介">一、FRP 简介</h3>
+<p><code>FRP（Fast Reverse Proxy）</code>是一款高性能反向代理应用，可实现 内网穿透。
+通过在公网服务器上运行 <code>frps（服务端）</code>，在内网设备上运行 <code>frpc（客户端）</code>，你就可以从外网直接访问局域网中的群晖 DSM、SSH 等服务。</p>
+<h3 id="二准备条件">二、准备条件</h3>
+<p>一台有公网IP的服务器，这里老刘推荐<a href="https://bandwagonhost.com/aff.php?aff=78194"><code>搬瓦工</code></a>的美西优化线路，速度非常的理想。购买服务器后，安装1panel面板，然后在应用里搜索FRP，安装frps。到这里，你所需要的条件如下：</p>
+<ul>
+<li>公网服务器 IP（frps）：104.***&hellip;.</li>
+<li>认证 token：xxxxx</li>
+<li>群晖局域网 IP：192.168.3.19</li>
+<li>群晖登录用户：xxxxx</li>
+</ul>
+<p>token、端口号这些可以在你安装的frps应用里查找。</p>
+<h3 id="三在群晖上安装-frpc">三、在群晖上安装 frpc</h3>
+<h4 id="1-进入用户目录">1. 进入用户目录</h4>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> /var/services/homes/xxxxx
+</span></span></code></pre></td></tr></table>
+</div>
+</div><blockquote>
+<p>放在用户目录无需 root 权限，最安全。</p></blockquote>
+<h4 id="2-下载-frpc">2. 下载 frpc</h4>
+<h4 id="x86_64-群晖intelamd-平台">x86_64 群晖（Intel/AMD 平台）</h4>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="n">wget</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">ghproxy</span><span class="o">.</span><span class="n">net</span><span class="o">/</span><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">fatedier</span><span class="o">/</span><span class="n">frp</span><span class="o">/</span><span class="n">releases</span><span class="o">/</span><span class="n">download</span><span class="o">/</span><span class="n">v0</span><span class="o">.</span><span class="mf">61.1</span><span class="o">/</span><span class="n">frp_0</span><span class="o">.</span><span class="mf">61.1</span><span class="n">_linux_amd64</span><span class="o">.</span><span class="n">tar</span><span class="o">.</span><span class="n">gz</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h4 id="arm64-群晖j-系列或低功耗-nas">ARM64 群晖（J 系列或低功耗 NAS）</h4>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="n">wget</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">ghproxy</span><span class="o">.</span><span class="n">net</span><span class="o">/</span><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">fatedier</span><span class="o">/</span><span class="n">frp</span><span class="o">/</span><span class="n">releases</span><span class="o">/</span><span class="n">download</span><span class="o">/</span><span class="n">v0</span><span class="o">.</span><span class="mf">61.1</span><span class="o">/</span><span class="n">frp_0</span><span class="o">.</span><span class="mf">61.1</span><span class="n">_linux_arm64</span><span class="o">.</span><span class="n">tar</span><span class="o">.</span><span class="n">gz</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>解压并重命名：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">tar -zxvf frp_0.61.1_linux_amd64.tar.gz
+</span></span><span class="line"><span class="cl">mv frp_0.61.1_linux_amd64 frp
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> frp
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="四创建配置文件">四、创建配置文件</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">nano frpc.toml
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>写入内容：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="nx">serverAddr</span> <span class="p">=</span> <span class="s2">&#34;104.***.***.***&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">serverPort</span> <span class="p">=</span> <span class="mi">7000</span>
+</span></span><span class="line"><span class="cl"><span class="nx">auth</span><span class="p">.</span><span class="nx">token</span> <span class="p">=</span> <span class="s2">&#34;xxxxx&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">[[</span><span class="nx">proxies</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl"><span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;synology_web&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">type</span> <span class="p">=</span> <span class="s2">&#34;tcp&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">localIP</span> <span class="p">=</span> <span class="s2">&#34;192.168.3.19&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">localPort</span> <span class="p">=</span> <span class="mi">5000</span>
+</span></span><span class="line"><span class="cl"><span class="nx">remotePort</span> <span class="p">=</span> <span class="mi">5000</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">[[</span><span class="nx">proxies</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl"><span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;synology_ssh&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">type</span> <span class="p">=</span> <span class="s2">&#34;tcp&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">localIP</span> <span class="p">=</span> <span class="s2">&#34;192.168.3.19&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">localPort</span> <span class="p">=</span> <span class="mi">22</span>
+</span></span><span class="line"><span class="cl"><span class="nx">remotePort</span> <span class="p">=</span> <span class="mi">6000</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>保存退出。</p>
+<h3 id="五测试运行">五、测试运行</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">./frpc -c ./frpc.toml
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>若看到：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">start proxy success
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>说明连接成功。</p>
+<h3 id="六后台运行可选">六、后台运行（可选）</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">nohup ./frpc -c ./frpc.toml &gt; frpc.log 2&gt;<span class="p">&amp;</span><span class="m">1</span> <span class="p">&amp;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>查看日志：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">tail -f frpc.log
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>停止运行：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ps aux <span class="p">|</span> grep frpc
+</span></span><span class="line"><span class="cl"><span class="nb">kill</span> <span class="o">[</span>进程号<span class="o">]</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="七开机自启可选">七、开机自启（可选）</h3>
+<ol>
+<li>DSM → 控制面板 → 计划任务 → 创建 → “触发的任务” → “用户定义的脚本”</li>
+<li>用户选择 xxxxx或者root</li>
+<li>脚本内容：</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="o">/</span><span class="k">var</span><span class="o">/</span><span class="n">services</span><span class="o">/</span><span class="n">homes</span><span class="o">/</span><span class="n">xxxxx</span><span class="o">/</span><span class="n">frp</span><span class="o">/</span><span class="n">frpc</span> <span class="o">-</span><span class="n">c</span> <span class="o">/</span><span class="k">var</span><span class="o">/</span><span class="n">services</span><span class="o">/</span><span class="n">homes</span><span class="o">/</span><span class="n">xxxxx</span><span class="o">/</span><span class="n">frp</span><span class="o">/</span><span class="n">frpc</span><span class="o">.</span><span class="n">toml</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol>
+<li>保存并勾选“启动时运行”</li>
+</ol>
+<h3 id="八验证连接">八、验证连接</h3>
+<p>在外网访问：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">http://公网服务器IP:5000
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>如果配置了 SSH 通道：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">ssh xxxxx@公网服务器IP -p 6000
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>即可远程登录群晖。</p>
+<h3 id="-总结">✅ 总结</h3>
+<ul>
+<li>所有文件都放在 用户目录下，无需 root 权限</li>
+<li>支持 DSM 重启后自动运行</li>
+<li>安装简单、权限安全、长期稳定</li>
+</ul>
+]]></content:encoded>
+    </item>
     <item>
       <title>夜里玩手机差点失明：一位老顾客的青光眼惊魂记</title>
       <link>https://iliu.org/posts/almost-blind-from-late-night-phone-use-a-loyal-customers-glaucoma-scare/</link>
