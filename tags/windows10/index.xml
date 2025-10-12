@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Windows10 on 老刘博客</title>
+    <link>http://localhost:1313/tags/windows10/</link>
+    <description>Recent content in Windows10 on 老刘博客</description>
+    <image>
+      <title>老刘博客</title>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.151.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 16 May 2019 00:12:35 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/windows10/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>安装Windows 10 LTSC2019并自建kms服务器激活</title>
+      <link>http://localhost:1313/40.html</link>
+      <pubDate>Thu, 16 May 2019 00:12:35 +0000</pubDate>
+      <guid>http://localhost:1313/40.html</guid>
+      <description>&lt;p&gt;昨天终于忍无可忍了，把家里的电脑的系统换成了Windows 10 LTSC2019，事情的由来是这样的，家里的这台电脑基本上是媳妇用来写写论文，保存一些她的科研资料之类的。我基本上不咋用，一般都是在店里，回到家有手机基本上也不咋开电脑，这段时间在家休养，用这台电脑的几率多了，才发现这台电脑有个毛病是容忍不了的，那就是网络不定时的掉线。脾气好的时候，用一天也不会掉线，脾气不好的时候3分钟能掉2次。试遍了网上所有的号称能解决这个问题的方法，全她妹的没有用。以前也怀疑过是无线网卡的问题，换了一个tp-link的还是问题依旧。昨天下午又开始抽风了，于是，一不做二不休，换系统。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>昨天终于忍无可忍了，把家里的电脑的系统换成了Windows 10 LTSC2019，事情的由来是这样的，家里的这台电脑基本上是媳妇用来写写论文，保存一些她的科研资料之类的。我基本上不咋用，一般都是在店里，回到家有手机基本上也不咋开电脑，这段时间在家休养，用这台电脑的几率多了，才发现这台电脑有个毛病是容忍不了的，那就是网络不定时的掉线。脾气好的时候，用一天也不会掉线，脾气不好的时候3分钟能掉2次。试遍了网上所有的号称能解决这个问题的方法，全她妹的没有用。以前也怀疑过是无线网卡的问题，换了一个tp-link的还是问题依旧。昨天下午又开始抽风了，于是，一不做二不休，换系统。</p>
+<p>张波老师曾经推荐过<a href="https://www.zhangbo.org/archives/1691.html" target="_blank" rel="noopener noreferrer">windows10 ltsc</a>,问过他也好激活，于是决定就用这个系统，毕竟企业版的还是稳定一些吧，于是下载了原版的系统镜像。使用pe进行安装。pe的选择也很有讲究，因为这玩意如果里面夹带私货的话，你系统镜像在纯净也没有，好在手头的这个pe是业界最干净的之一，也是经过跋涉者验证过的。以下系统的安装过程省略***字。</p>
+<p>下一步就是激活这个系统了，从网上找了一些方法，基本上都是kms的激活方式，甚至有些说ltsc已经不支持数字激活。问了下张波老师，他当时正在跑步，他说是数字激活什么的，然后我突发奇想，为啥不自己弄个kms服务器呢，如果方法简单的话，既规避使用一些破解补丁有后门的危险，又能成功的激活，何乐而不为呢，Google了一下，方法简单的超乎想象。由于本人用的是centos，这里只记录了centos的设置方法。</p>
+<img loading="lazy" decoding="async" src="https://tunan.org/wp-content/uploads/2019/05/kms190516-1.png" height="305" width="925" /> 
+<p>1、下载脚本并运行，根据提示键入y开始安装</p>
+<pre class="ql-syntax" spellcheck="false">wget&nbsp;<span class="hljs-symbol">https:</span>/<span class="hljs-regexp">/raw.githubusercontent.com/dakkidaze/one-key-kms/master/one-key-kms-centos.sh&nbsp;&&&nbsp;chmod&nbsp;+x&nbsp;one-key-kms-centos.sh&nbsp;&&./one</span>-key-kms-centos.sh
+</pre>
+<p>2、下载这个作者写的配套脚本来控制启动/停止/重启等</p>
+<pre class="ql-syntax" spellcheck="false"><span class="hljs-attribute">wget</span>&nbsp;https://raw.githubusercontent.com/dakkidaze/one-key-kms/master/kms.sh&nbsp;&&&nbsp;chmod&nbsp;+x&nbsp;kms.sh
+</pre>
+<p>3、如果你的防火墙默认 DROP，那么需要手动放行1688端口</p>
+<pre class="ql-syntax" spellcheck="false"><span class="hljs-attribute">iptables</span>&nbsp;-I&nbsp;INPUT&nbsp;-p&nbsp;tcp&nbsp;--dport&nbsp;<span class="hljs-number">1688</span>&nbsp;-j&nbsp;ACCEPT
+</pre>
+<p>至此整个安装过程完成。</p>
+<p>温馨提示</p>
+<p>如果你使用的是阿里云的vps的话，请在安全组里开放1688端口。</p>
+<p>激活 Windows的方法</p>
+<p>搜索cmd，右键以管理员的方式运行：</p>
+<pre class="ql-syntax" spellcheck="false"><span class="hljs-attribute">slmgr</span>&nbsp;/skms&nbsp;你的KMS服务端主机的IP或者域名
+slmgr&nbsp;/ato
+slmgr&nbsp;/xpr
+</pre>
+<img loading="lazy" decoding="async" src="https://tunan.org/wp-content/uploads/2019/05/kms190516-2.png" height="272" width="962" /> 
+<p>至此，你的系统已经不用再管了，180天后，系统会自动联系kms服务器，只要你的网站没有挂，其他的一切都没有问题。当然，这个服务器自己用用就可以，如果传出去的话，微软会向你的服务器方进行投诉的，你的服务器可能就会被关了。</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
