@@ -3,19 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://iliu.org/categories/</loc>
-    <lastmod>2025-10-11T08:12:42+08:00</lastmod>
+    <lastmod>2025-10-13T15:45:49+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/tags/hugo/</loc>
+    <lastmod>2025-10-13T15:45:49+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/tags/papermod/</loc>
+    <lastmod>2025-10-13T15:45:49+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/posts/</loc>
-    <lastmod>2025-10-11T08:12:42+08:00</lastmod>
+    <lastmod>2025-10-13T15:45:49+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/tags/</loc>
-    <lastmod>2025-10-11T08:12:42+08:00</lastmod>
+    <lastmod>2025-10-13T15:45:49+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/tags/%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2025-10-13T15:45:49+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/posts/add-a-beautiful-and-simple-links-page-to-the-hugo-papermod-theme/</loc>
+    <lastmod>2025-10-13T15:45:49+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/</loc>
-    <lastmod>2025-10-11T08:12:42+08:00</lastmod>
+    <lastmod>2025-10-13T15:45:49+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/categories/%E9%BD%90%E7%89%A9/</loc>
-    <lastmod>2025-10-11T08:12:42+08:00</lastmod>
+    <lastmod>2025-10-13T15:45:49+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/tags/%E7%BE%A4%E6%99%96/</loc>
     <lastmod>2025-10-11T08:12:42+08:00</lastmod>
@@ -347,9 +359,6 @@
     <loc>https://iliu.org/friends1234444/</loc>
     <lastmod>2024-08-28T17:33:12+08:00</lastmod>
   </url><url>
-    <loc>https://iliu.org/tags/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2024-08-28T09:48:57+08:00</lastmod>
-  </url><url>
     <loc>https://iliu.org/posts/set-sail-again/</loc>
     <lastmod>2024-08-28T09:48:57+08:00</lastmod>
   </url><url>
@@ -553,9 +562,6 @@
   </url><url>
     <loc>https://iliu.org/posts/optics-weekly-issue-9/</loc>
     <lastmod>2023-11-03T21:33:27+08:00</lastmod>
-  </url><url>
-    <loc>https://iliu.org/tags/hugo/</loc>
-    <lastmod>2023-11-01T21:35:36+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/frome-wordpress-to-hugo/</loc>
     <lastmod>2023-11-01T21:35:36+08:00</lastmod>

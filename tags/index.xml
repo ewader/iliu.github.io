@@ -11,8 +11,29 @@
     </image>
     <generator>Hugo -- 0.151.0</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 11 Oct 2025 08:12:42 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 13 Oct 2025 15:45:49 +0800</lastBuildDate>
     <atom:link href="https://iliu.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo</title>
+      <link>https://iliu.org/tags/hugo/</link>
+      <pubDate>Mon, 13 Oct 2025 15:45:49 +0800</pubDate>
+      <guid>https://iliu.org/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Papermod</title>
+      <link>https://iliu.org/tags/papermod/</link>
+      <pubDate>Mon, 13 Oct 2025 15:45:49 +0800</pubDate>
+      <guid>https://iliu.org/tags/papermod/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>博客</title>
+      <link>https://iliu.org/tags/%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Mon, 13 Oct 2025 15:45:49 +0800</pubDate>
+      <guid>https://iliu.org/tags/%E5%8D%9A%E5%AE%A2/</guid>
+      <description></description>
+    </item>
     <item>
       <title>群晖</title>
       <link>https://iliu.org/tags/%E7%BE%A4%E6%99%96/</link>
@@ -158,13 +179,6 @@
       <link>https://iliu.org/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</link>
       <pubDate>Thu, 29 Aug 2024 07:56:45 +0800</pubDate>
       <guid>https://iliu.org/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>博客</title>
-      <link>https://iliu.org/tags/%E5%8D%9A%E5%AE%A2/</link>
-      <pubDate>Wed, 28 Aug 2024 09:48:57 +0800</pubDate>
-      <guid>https://iliu.org/tags/%E5%8D%9A%E5%AE%A2/</guid>
       <description></description>
     </item>
     <item>
@@ -368,13 +382,6 @@
       <link>https://iliu.org/tags/%E7%B3%BB%E7%BB%9F/</link>
       <pubDate>Wed, 08 Nov 2023 21:22:44 +0800</pubDate>
       <guid>https://iliu.org/tags/%E7%B3%BB%E7%BB%9F/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hugo</title>
-      <link>https://iliu.org/tags/hugo/</link>
-      <pubDate>Wed, 01 Nov 2023 21:35:36 +0800</pubDate>
-      <guid>https://iliu.org/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
