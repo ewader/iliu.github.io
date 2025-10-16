@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>空间 on 老刘博客</title>
-    <link>http://localhost:1313/tags/%E7%A9%BA%E9%97%B4/</link>
+    <link>https://iliu.org/tags/%E7%A9%BA%E9%97%B4/</link>
     <description>Recent content in 空间 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
-      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.151.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 14 Oct 2020 07:03:04 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E7%A9%BA%E9%97%B4/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://iliu.org/tags/%E7%A9%BA%E9%97%B4/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>网站换了一台服务器</title>
-      <link>http://localhost:1313/3309.html</link>
+      <link>https://iliu.org/3309.html</link>
       <pubDate>Wed, 14 Oct 2020 07:03:04 +0000</pubDate>
-      <guid>http://localhost:1313/3309.html</guid>
+      <guid>https://iliu.org/3309.html</guid>
       <description>&lt;p&gt;前几天发现网站有点卡，特别是回复评论的时候，速度很慢。然后后台看了一下进程，发现WWW进程占用的CPU会一下一下的飙升，最高的时候达到了100%。但是根据流量的话，不可能是这样一个占用。这个博客也就日流量30IP左右，另外一个网站，日流量就是400-500之间。作为一台2核4g内存的vps,不可能达到这个资源占用水平。所以，打算重新整下生产环境。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>前几天发现网站有点卡，特别是回复评论的时候，速度很慢。然后后台看了一下进程，发现WWW进程占用的CPU会一下一下的飙升，最高的时候达到了100%。但是根据流量的话，不可能是这样一个占用。这个博客也就日流量30IP左右，另外一个网站，日流量就是400-500之间。作为一台2核4g内存的vps,不可能达到这个资源占用水平。所以，打算重新整下生产环境。</p>
 <p><a href="https://tunan.org/wp-content/uploads/2020/10/194686deba817bf.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3311" src="https://tunan.org/wp-content/uploads/2020/10/194686deba817bf.jpg" alt="" width="750" height="950" srcset="https://tunan.org/wp-content/uploads/2020/10/194686deba817bf.jpg 750w, https://tunan.org/wp-content/uploads/2020/10/194686deba817bf-237x300.jpg 237w" sizes="(max-width: 750px) 100vw, 750px" /></a></p>
@@ -32,9 +32,9 @@
     </item>
     <item>
       <title>网站又搬家了—这次选的衡天小张的服务器</title>
-      <link>http://localhost:1313/845.html</link>
+      <link>https://iliu.org/845.html</link>
       <pubDate>Sun, 22 Aug 2010 09:50:38 +0000</pubDate>
-      <guid>http://localhost:1313/845.html</guid>
+      <guid>https://iliu.org/845.html</guid>
       <description>&lt;p&gt;上次把博客放到了PIPNI的空间上，可惜的是速度较慢，而godaddy的windows空间使用起来又不太理想，刚好逛论坛的时候看到了衡天小张的信息，GOOGLE了一下，信誉各方面也不错，直接就去付款买了一个，价格很便宜。不过使用的结果可是一波三折！&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>上次把博客放到了PIPNI的空间上，可惜的是速度较慢，而godaddy的windows空间使用起来又不太理想，刚好逛论坛的时候看到了衡天小张的信息，GOOGLE了一下，信誉各方面也不错，直接就去付款买了一个，价格很便宜。不过使用的结果可是一波三折！</p>
 <p>刚开始给分配的机房是“EGI机房“宋”服务器”，PINGl了一下，我的天那，500多，觉得小张的空间也不过如此，只不过是炒作的厉害罢了。联系小张和蓝冰，两个人都不在线。ftp传的那个慢啊，觉得真的是不值。<br>

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>公交 on 老刘博客</title>
-    <link>http://localhost:1313/tags/%E5%85%AC%E4%BA%A4/</link>
+    <link>https://iliu.org/tags/%E5%85%AC%E4%BA%A4/</link>
     <description>Recent content in 公交 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
-      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.151.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 29 Oct 2010 01:34:58 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E5%85%AC%E4%BA%A4/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://iliu.org/tags/%E5%85%AC%E4%BA%A4/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>用黑莓手机查询郑州公交车到站gps信息</title>
-      <link>http://localhost:1313/959.html</link>
+      <link>https://iliu.org/959.html</link>
       <pubDate>Fri, 29 Oct 2010 01:34:58 +0000</pubDate>
-      <guid>http://localhost:1313/959.html</guid>
+      <guid>https://iliu.org/959.html</guid>
       <description>&lt;p&gt;以前觉得手机上网就是个鸡肋，食之无味、弃之可惜，最近发现，原来的观点是错误的，其实手机上网还是能做很多很多的事情的，相信很多朋友都和我一样有这样的经历，在公交站等公交车，辛苦等半天，座上后，挤得要死，忽然一扭头发现后来跟来了一个空车，这个感觉郁闷吧，今天华彩就交你用手机来查询公交车的GPS信息，当然这个公交车仅限郑州，别的地方不适用哦。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>以前觉得手机上网就是个鸡肋，食之无味、弃之可惜，最近发现，原来的观点是错误的，其实手机上网还是能做很多很多的事情的，相信很多朋友都和我一样有这样的经历，在公交站等公交车，辛苦等半天，座上后，挤得要死，忽然一扭头发现后来跟来了一个空车，这个感觉郁闷吧，今天华彩就交你用手机来查询公交车的GPS信息，当然这个公交车仅限郑州，别的地方不适用哦。</p>
 <p>其实这是利用郑州公交公司最新推出的GPS查询候车系统来实现的，首先，用手机登陆http://wap.zhengzhoubus.com ，见图。</p>
@@ -29,9 +29,9 @@
     </item>
     <item>
       <title>今天的幸运看公交公司服务的缺失</title>
-      <link>http://localhost:1313/778.html</link>
+      <link>https://iliu.org/778.html</link>
       <pubDate>Thu, 22 Jul 2010 08:16:05 +0000</pubDate>
-      <guid>http://localhost:1313/778.html</guid>
+      <guid>https://iliu.org/778.html</guid>
       <description>&lt;p&gt;早上上班，照例还是让老婆把我送到秦岭路口，从那里转128路上班，今天真幸运，走到路口的时候发现，一辆128路车正从西向东呼啸而来，我诧异的看了下，难道我看错了，128路不是从这里走的啊，你要是恢复原来的线路你总要通知一下的吧，例外例外！&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>早上上班，照例还是让老婆把我送到秦岭路口，从那里转128路上班，今天真幸运，走到路口的时候发现，一辆128路车正从西向东呼啸而来，我诧异的看了下，难道我看错了，128路不是从这里走的啊，你要是恢复原来的线路你总要通知一下的吧，例外例外！</p>
 <p>过了建设路口，到了往常128停车的地方，发现有很多人在等，这个站牌由于修地铁的原因就两路公交车还在这里停车，从常理来说肯定都是在等128的，而且站牌上没有任何提示说128恢复原来的线路了，看到这么多的人，起码也要有半小时或者40分钟以上没有来车的情况才能发生，于是步行道国棉六厂那，一会就来了个128。坐上，到很顺利到公司了，所以我是幸运的，尽管我多走了1站路。<br>

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>齐物 on 老刘博客</title>
-    <link>http://localhost:1313/categories/%E9%BD%90%E7%89%A9/</link>
+    <link>https://iliu.org/categories/%E9%BD%90%E7%89%A9/</link>
     <description>Recent content in 齐物 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
-      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.151.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 13 Oct 2025 15:45:49 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/%E9%BD%90%E7%89%A9/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://iliu.org/categories/%E9%BD%90%E7%89%A9/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>给Hugo PaperMod主题添加一个漂亮又简洁的友情链接页面</title>
-      <link>http://localhost:1313/posts/add-a-beautiful-and-simple-links-page-to-the-hugo-papermod-theme/</link>
+      <link>https://iliu.org/posts/add-a-beautiful-and-simple-links-page-to-the-hugo-papermod-theme/</link>
       <pubDate>Mon, 13 Oct 2025 15:45:49 +0800</pubDate>
-      <guid>http://localhost:1313/posts/add-a-beautiful-and-simple-links-page-to-the-hugo-papermod-theme/</guid>
+      <guid>https://iliu.org/posts/add-a-beautiful-and-simple-links-page-to-the-hugo-papermod-theme/</guid>
       <description>&lt;p&gt;PaperMod 默认是极简风格，没有自带“友情链接（Friends / Links）”页，但是我们博主也不是互联网的孤岛，总有一些自己喜欢的左邻右舍，最简单的方法是用生成一个页面来作为友情链接页面，但是太丑了。老刘结合chatgpt，自己添加一个漂亮的友情链接页面，下面是 详细教程（以 Hugo + PaperMod 为例）：&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>PaperMod 默认是极简风格，没有自带“友情链接（Friends / Links）”页，但是我们博主也不是互联网的孤岛，总有一些自己喜欢的左邻右舍，最简单的方法是用生成一个页面来作为友情链接页面，但是太丑了。老刘结合chatgpt，自己添加一个漂亮的友情链接页面，下面是 详细教程（以 Hugo + PaperMod 为例）：</p>
 <h3 id="一创建友情链接页面">一、创建友情链接页面</h3>
@@ -297,9 +297,9 @@
     </item>
     <item>
       <title>群晖NAS安装FRP客户端（frpc）</title>
-      <link>http://localhost:1313/posts/install-frpc-on-synology-nas-without-docker/</link>
+      <link>https://iliu.org/posts/install-frpc-on-synology-nas-without-docker/</link>
       <pubDate>Sat, 11 Oct 2025 08:12:42 +0800</pubDate>
-      <guid>http://localhost:1313/posts/install-frpc-on-synology-nas-without-docker/</guid>
+      <guid>https://iliu.org/posts/install-frpc-on-synology-nas-without-docker/</guid>
       <description>&lt;p&gt;今年5月份的时候，购买了一款搬瓦工的VPS，当时是想用来做博客的VPS，用的是美西的优化线路，速度非常的理想，前几天我又把博客系统转回到了&lt;code&gt;Hugo&lt;/code&gt;，这样这台VPS就空出来了，加上最近群晖的&lt;code&gt;QC&lt;/code&gt;以及&lt;code&gt;tailscale&lt;/code&gt;这些都不太理想，所以我决定使用FRP的方式来穿透群晖。搜了一下网上的教程都是采用的&lt;code&gt;docker&lt;/code&gt;，但是我安装后总是报错，所以研究了一下，采用直接安装的方式，省资源还不容易出错。本文详细介绍如何在用户目录下部署frpc，并实现开机自启。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>今年5月份的时候，购买了一款搬瓦工的VPS，当时是想用来做博客的VPS，用的是美西的优化线路，速度非常的理想，前几天我又把博客系统转回到了<code>Hugo</code>，这样这台VPS就空出来了，加上最近群晖的<code>QC</code>以及<code>tailscale</code>这些都不太理想，所以我决定使用FRP的方式来穿透群晖。搜了一下网上的教程都是采用的<code>docker</code>，但是我安装后总是报错，所以研究了一下，采用直接安装的方式，省资源还不容易出错。本文详细介绍如何在用户目录下部署frpc，并实现开机自启。</p>
 <h3 id="一frp-简介">一、FRP 简介</h3>
@@ -505,9 +505,9 @@
     </item>
     <item>
       <title>Ubuntu24.04安装Windterm</title>
-      <link>http://localhost:1313/ubuntu-24-04-install-windterm/</link>
+      <link>https://iliu.org/ubuntu-24-04-install-windterm/</link>
       <pubDate>Thu, 02 Oct 2025 10:33:29 +0800</pubDate>
-      <guid>http://localhost:1313/ubuntu-24-04-install-windterm/</guid>
+      <guid>https://iliu.org/ubuntu-24-04-install-windterm/</guid>
       <description>&lt;p&gt;经过这一段时间的使用Linux，我发现确实是可以满足我日常的使用。系统也流畅，再没有了之前使用Windows 11的时候偶尔的卡顿，决定长期使用了。既然要长期使用那么EndeavourOS就不是太适合了，毕竟这个以Archlinux为基础的系统，追求的是新而不是稳定。所以我决定换成Ubuntu，而之前科学软件换了一款之后，影响我使用的因素也不存在了。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>经过这一段时间的使用Linux，我发现确实是可以满足我日常的使用。系统也流畅，再没有了之前使用Windows 11的时候偶尔的卡顿，决定长期使用了。既然要长期使用那么EndeavourOS就不是太适合了，毕竟这个以Archlinux为基础的系统，追求的是新而不是稳定。所以我决定换成Ubuntu，而之前科学软件换了一款之后，影响我使用的因素也不存在了。</p>
 <p>换了Ubuntu之后，我常用的微信，wps，anytype等软件都有deb的安装包，只有windterm是源码的形式。没法直接点击安装，当然，可以在终端中用命令直接打开，但是不是很方便。找了一下网上的方法，也没有能很好的解决，最终还是借助ai,才安装成功。如下：</p>
@@ -598,9 +598,9 @@
     </item>
     <item>
       <title>从 Windows 到 Linux：重新体验的过程与心得</title>
-      <link>http://localhost:1313/from-windows-to-linux-the-process-and-insights-of-re-experiencing/</link>
+      <link>https://iliu.org/from-windows-to-linux-the-process-and-insights-of-re-experiencing/</link>
       <pubDate>Tue, 23 Sep 2025 10:13:07 +0800</pubDate>
-      <guid>http://localhost:1313/from-windows-to-linux-the-process-and-insights-of-re-experiencing/</guid>
+      <guid>https://iliu.org/from-windows-to-linux-the-process-and-insights-of-re-experiencing/</guid>
       <description>&lt;p&gt;几年前，我使用过一段时间Linux，后来因为没有官方的微信客户端，并且每三个月需要报税的软件只能在Windows上使用，所以我放弃了Linux，转而使用了Windows 11，过了几年，便懒得再折腾。最近，电脑偶尔会出现卡顿的情况，每次都需要重启才能解决。我曾经重置过系统，但问题依然没有得到彻底解决。恰好，我看到某位博友写的主力使用Ubuntu24的博客，因此，我决定重新尝试使用Linux，毕竟我的电脑使用场景非常简单，除了偶尔报税，其它基本需求都能在Linux下实现。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>几年前，我使用过一段时间Linux，后来因为没有官方的微信客户端，并且每三个月需要报税的软件只能在Windows上使用，所以我放弃了Linux，转而使用了Windows 11，过了几年，便懒得再折腾。最近，电脑偶尔会出现卡顿的情况，每次都需要重启才能解决。我曾经重置过系统，但问题依然没有得到彻底解决。恰好，我看到某位博友写的主力使用Ubuntu24的博客，因此，我决定重新尝试使用Linux，毕竟我的电脑使用场景非常简单，除了偶尔报税，其它基本需求都能在Linux下实现。</p>
 <h3 id="我的需求">我的需求</h3>
@@ -657,9 +657,9 @@
     </item>
     <item>
       <title>解决腾讯 EdgeOne 域名解析与 SSL 证书申请失败问题</title>
-      <link>http://localhost:1313/troubleshooting-tencent-edgeone-a-dnssec-odyssey/</link>
+      <link>https://iliu.org/troubleshooting-tencent-edgeone-a-dnssec-odyssey/</link>
       <pubDate>Tue, 16 Sep 2025 10:37:19 +0800</pubDate>
-      <guid>http://localhost:1313/troubleshooting-tencent-edgeone-a-dnssec-odyssey/</guid>
+      <guid>https://iliu.org/troubleshooting-tencent-edgeone-a-dnssec-odyssey/</guid>
       <description>&lt;hr&gt;
 &lt;p&gt;前几个月，我关注到腾讯新推出的 &lt;strong&gt;EdgeOne&lt;/strong&gt; 服务。这款产品无需备案和实名，而且提供免费额度，对于个人网站来说非常友好。刚发布时兑换码一码难求，我并没有太多关注。后来，腾讯推出了一个活动，只要在 X（原 Twitter）上转发推文，就能获得两个兑换码。我成功领取并兑换了一个，并将其用于我的“镜缘轩”网站。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<hr>
@@ -691,9 +691,9 @@
     </item>
     <item>
       <title>折腾杀毒软件的一点感想</title>
-      <link>http://localhost:1313/thoughts-on-struggling-with-antivirus-software/</link>
+      <link>https://iliu.org/thoughts-on-struggling-with-antivirus-software/</link>
       <pubDate>Wed, 27 Aug 2025 09:09:49 +0800</pubDate>
-      <guid>http://localhost:1313/thoughts-on-struggling-with-antivirus-software/</guid>
+      <guid>https://iliu.org/thoughts-on-struggling-with-antivirus-software/</guid>
       <description>&lt;p&gt;前几天，我一直在折腾各种杀毒软件。事情的起因，是一个熟人单位里发生的一起网络诈骗。单位里一位员工因为点击了不明链接，不小心中毒，黑客随即接管了他的钉钉账号。接下来就是老套路：建群、拉人、冒充发工资补贴，让大家输入银行卡号。可别小看这招，受害的人不少，听说损失最大的一位，损失相当的严重。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>前几天，我一直在折腾各种杀毒软件。事情的起因，是一个熟人单位里发生的一起网络诈骗。单位里一位员工因为点击了不明链接，不小心中毒，黑客随即接管了他的钉钉账号。接下来就是老套路：建群、拉人、冒充发工资补贴，让大家输入银行卡号。可别小看这招，受害的人不少，听说损失最大的一位，损失相当的严重。</p>
 <p>这件事让我再次意识到，网络安全并不是一个遥远的概念，而是真实发生在身边的风险。尤其最近“银狐木马”在网上泛滥，更让我觉得杀毒软件的重要性不容忽视。</p>
@@ -738,9 +738,9 @@
     </item>
     <item>
       <title>开箱｜媳妇的华为 Watch Fit 4</title>
-      <link>http://localhost:1313/wifes-huawei-watch-fit-4/</link>
+      <link>https://iliu.org/wifes-huawei-watch-fit-4/</link>
       <pubDate>Sun, 24 Aug 2025 09:06:43 +0800</pubDate>
-      <guid>http://localhost:1313/wifes-huawei-watch-fit-4/</guid>
+      <guid>https://iliu.org/wifes-huawei-watch-fit-4/</guid>
       <description>&lt;p&gt;妇前段时间去南京学习，回来跟我说起一件事：她的同学戴的手表居然能直接接打电话。她说起的时候眼神里有点心动。她平常其实不太喜欢戴这些东西，更结婚没多久的时候，说想要一块手表，也就戴了一段时间，就收藏了起来了。前几年给她买了一只荣耀手环 7，她戴过一阵子，后来也不戴了。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>妇前段时间去南京学习，回来跟我说起一件事：她的同学戴的手表居然能直接接打电话。她说起的时候眼神里有点心动。她平常其实不太喜欢戴这些东西，更结婚没多久的时候，说想要一块手表，也就戴了一段时间，就收藏了起来了。前几年给她买了一只荣耀手环 7，她戴过一阵子，后来也不戴了。</p>
 <p>之所以现在又提出来，大概是和她最近工作有关，最近她们科新开了中医护理门诊，有不少患者是冲着她的刮痧来的，所以有时候满手都是刮痧油的情况下，有电话进来的时候，再取手机确实也不太方便。</p>
@@ -785,9 +785,9 @@
     </item>
     <item>
       <title>Ghost 博客与 Mailgun 邮件服务申请全流程</title>
-      <link>http://localhost:1313/complete-setup-process-for-ghost-blog-and-mailgun-email-service/</link>
+      <link>https://iliu.org/complete-setup-process-for-ghost-blog-and-mailgun-email-service/</link>
       <pubDate>Sun, 10 Aug 2025 08:34:35 +0800</pubDate>
-      <guid>http://localhost:1313/complete-setup-process-for-ghost-blog-and-mailgun-email-service/</guid>
+      <guid>https://iliu.org/complete-setup-process-for-ghost-blog-and-mailgun-email-service/</guid>
       <description>&lt;p&gt;Ghost 的邮件系统与 Mailgun 深度集成，如果想要在 Ghost 上实现邮件订阅、密码找回、通知等功能，申请一个 Mailgun 账户几乎是必选项。好消息是——Mailgun 已经恢复免费套餐，每天可发送 100 封邮件，对个人博客来说完全够用，而且现在&lt;strong&gt;验证信用卡不再是必需&lt;/strong&gt;。坏消息是——Mailgun 的风控依然非常严格，尤其是中国大陆用户，注册和解封过程可能会比较“曲折”。下面是我亲身踩坑并最终申请成功的全过程，希望能帮到你。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Ghost 的邮件系统与 Mailgun 深度集成，如果想要在 Ghost 上实现邮件订阅、密码找回、通知等功能，申请一个 Mailgun 账户几乎是必选项。好消息是——Mailgun 已经恢复免费套餐，每天可发送 100 封邮件，对个人博客来说完全够用，而且现在<strong>验证信用卡不再是必需</strong>。坏消息是——Mailgun 的风控依然非常严格，尤其是中国大陆用户，注册和解封过程可能会比较“曲折”。下面是我亲身踩坑并最终申请成功的全过程，希望能帮到你。</p>
 <hr>
@@ -879,9 +879,9 @@ I believe this may have been triggered by the automated fraud prevention system.
     </item>
     <item>
       <title>Ubuntu部署ghost博客所踩的小坑</title>
-      <link>http://localhost:1313/minor-pitfalls-enc-untered-when-deploying-ghost-blog-on-ubuntu/</link>
+      <link>https://iliu.org/minor-pitfalls-enc-untered-when-deploying-ghost-blog-on-ubuntu/</link>
       <pubDate>Wed, 06 Aug 2025 08:26:28 +0800</pubDate>
-      <guid>http://localhost:1313/minor-pitfalls-enc-untered-when-deploying-ghost-blog-on-ubuntu/</guid>
+      <guid>https://iliu.org/minor-pitfalls-enc-untered-when-deploying-ghost-blog-on-ubuntu/</guid>
       <description>&lt;p&gt;Ghost 6.0 发布后，我就被它宣传的“联邦宇宙（Activitypub）”和“内置 Web 分析”功能狠狠吸引了。可惜一直用的 1Panel 面板并没有 Ghost 的升级选项，考虑到 Ghost 6 改动幅度较大，盲猜1Panel里的Docker需要重建，再加上想要尽快体验ghost的联邦宇宙等功能，所以打算用官方推荐的方式“一劳永逸”。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Ghost 6.0 发布后，我就被它宣传的“联邦宇宙（Activitypub）”和“内置 Web 分析”功能狠狠吸引了。可惜一直用的 1Panel 面板并没有 Ghost 的升级选项，考虑到 Ghost 6 改动幅度较大，盲猜1Panel里的Docker需要重建，再加上想要尽快体验ghost的联邦宇宙等功能，所以打算用官方推荐的方式“一劳永逸”。</p>
 <hr>
@@ -1125,9 +1125,9 @@ I believe this may have been triggered by the automated fraud prevention system.
     </item>
     <item>
       <title>当GitHub二次验证丢失：我的完整恢复经历</title>
-      <link>http://localhost:1313/posts/when-the-2fa-of-github-is-lost/</link>
+      <link>https://iliu.org/posts/when-the-2fa-of-github-is-lost/</link>
       <pubDate>Sat, 29 Mar 2025 18:47:24 +0800</pubDate>
-      <guid>http://localhost:1313/posts/when-the-2fa-of-github-is-lost/</guid>
+      <guid>https://iliu.org/posts/when-the-2fa-of-github-is-lost/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;数字时代的噩梦&lt;/strong&gt;：当你精心设置的安全措施反而将你锁在自己的账户之外时，该怎么办？这是一次关于数字资产管理、备份策略和安全实践的深刻教训。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1261,9 +1261,9 @@ I believe this may have been triggered by the automated fraud prevention system.
     </item>
     <item>
       <title>在群晖里安装简单的笔记软件flatnotes</title>
-      <link>http://localhost:1313/posts/install-the-simple-note-taking-software-flatnotes-on-synology/</link>
+      <link>https://iliu.org/posts/install-the-simple-note-taking-software-flatnotes-on-synology/</link>
       <pubDate>Wed, 30 Oct 2024 03:48:47 -0400</pubDate>
-      <guid>http://localhost:1313/posts/install-the-simple-note-taking-software-flatnotes-on-synology/</guid>
+      <guid>https://iliu.org/posts/install-the-simple-note-taking-software-flatnotes-on-synology/</guid>
       <description>&lt;p&gt;老刘这一段时间以来都是使用&lt;code&gt;VSCode&lt;/code&gt;来写博客，主要是因为&lt;code&gt;anytype&lt;/code&gt;对长文的支持一般，另外对&lt;code&gt;markdown&lt;/code&gt;语法支持的也不够，比如表格功能就没法用&lt;code&gt;markdown&lt;/code&gt;语法。但是&lt;code&gt;VSCode&lt;/code&gt;有一个缺点是同步不方便，而我也想要能随时随地的写博客，直到看到&lt;code&gt;flatnotes&lt;/code&gt;这个笔记软件，说它是笔记软件有点抬举它了，因为它太简洁，不过用来写博客文章是刚刚好，并且支持docker部署使用，这样只要有网络，有浏览器，就可以随时随地的写博客了。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>老刘这一段时间以来都是使用<code>VSCode</code>来写博客，主要是因为<code>anytype</code>对长文的支持一般，另外对<code>markdown</code>语法支持的也不够，比如表格功能就没法用<code>markdown</code>语法。但是<code>VSCode</code>有一个缺点是同步不方便，而我也想要能随时随地的写博客，直到看到<code>flatnotes</code>这个笔记软件，说它是笔记软件有点抬举它了，因为它太简洁，不过用来写博客文章是刚刚好，并且支持docker部署使用，这样只要有网络，有浏览器，就可以随时随地的写博客了。</p>
 <p>既然合适使用，当然就要把他部署在<code>NAS</code>里，网上群晖部署的教程比较麻烦，还需要进命令行操作，其实根本不用那么麻烦，直接使用群晖默认的<code>docker</code>管理套件<code>container manager</code>来部署就行了。步骤如下：</p>
@@ -1311,9 +1311,9 @@ I believe this may have been triggered by the automated fraud prevention system.
     </item>
     <item>
       <title>手机上有好用的输入法吗？</title>
-      <link>http://localhost:1313/posts/good-input-method-on-mobile-phones/</link>
+      <link>https://iliu.org/posts/good-input-method-on-mobile-phones/</link>
       <pubDate>Fri, 06 Sep 2024 11:03:02 +0800</pubDate>
-      <guid>http://localhost:1313/posts/good-input-method-on-mobile-phones/</guid>
+      <guid>https://iliu.org/posts/good-input-method-on-mobile-phones/</guid>
       <description>&lt;p&gt;老刘在以前的文章里也曾提过选择输入法的过程，目前在电脑上的方案是使用&lt;code&gt;小狼毫输入法&lt;/code&gt;加&lt;code&gt;雾凇拼音&lt;/code&gt;的词库。并通过&lt;code&gt;群晖drive&lt;/code&gt;实现几个PC之间个人词库的同步，使用起来还算方便。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>老刘在以前的文章里也曾提过选择输入法的过程，目前在电脑上的方案是使用<code>小狼毫输入法</code>加<code>雾凇拼音</code>的词库。并通过<code>群晖drive</code>实现几个PC之间个人词库的同步，使用起来还算方便。</p>
 <p><img loading="lazy" src="https://ewader.s3.bitiful.net/blog/2024-09-06-10-44-13.png?no-wait\\=on"></p>
@@ -1333,9 +1333,9 @@ I believe this may have been triggered by the automated fraud prevention system.
     </item>
     <item>
       <title>再次使用 KeepassXC进行密码管理</title>
-      <link>http://localhost:1313/posts/use-keepassxc-again-for-password-management/</link>
+      <link>https://iliu.org/posts/use-keepassxc-again-for-password-management/</link>
       <pubDate>Tue, 03 Sep 2024 13:46:02 +0800</pubDate>
-      <guid>http://localhost:1313/posts/use-keepassxc-again-for-password-management/</guid>
+      <guid>https://iliu.org/posts/use-keepassxc-again-for-password-management/</guid>
       <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://memos.1169f1b9dbf57062d00029d30c7fde9e.r2.cloudflarestorage.com/assets/1725262863_2024-09-02-15-23-54.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=67756f7e669d24ac11ea5c24ecfdb150%2F20240902%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20240902T074103Z&amp;X-Amz-Expires=432000&amp;X-Amz-SignedHeaders=host&amp;x-id=GetObject&amp;X-Amz-Signature=f948507f71602f764fa24695ce3823930013949acc00d88a388e6b6d825ee8dd&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;前因&#34;&gt;前因&lt;/h2&gt;
 &lt;p&gt;几年前，老刘最开始用软件进行密码管理的时候，用的就是keepassxc，只是后来有一段时间使用deepin，系统的内核比较低，不支持keepassxc的最新版，取舍之后，使用了Bitwarden，并部署在我nas里。这一用就是几年的时间过去了，只到最近遇到了问题。&lt;/p&gt;</description>
@@ -1358,9 +1358,9 @@ I believe this may have been triggered by the automated fraud prevention system.
     </item>
     <item>
       <title>解决Windows11打开安全中心空白的方法</title>
-      <link>http://localhost:1313/posts/solution-to-the-blank-screen-windows-11s-security-center/</link>
+      <link>https://iliu.org/posts/solution-to-the-blank-screen-windows-11s-security-center/</link>
       <pubDate>Thu, 29 Aug 2024 07:56:45 +0800</pubDate>
-      <guid>http://localhost:1313/posts/solution-to-the-blank-screen-windows-11s-security-center/</guid>
+      <guid>https://iliu.org/posts/solution-to-the-blank-screen-windows-11s-security-center/</guid>
       <description>&lt;p&gt;老刘在前面一篇文章中说，某年某月的某一天，老刘重置了电脑，不但丢失了存在本地的博客数据，而且发现安全中心打开是一个空白的窗口。老刘使用了重启大法的手段，但是发现并没有什么卵用。文心一言里给出了很多的建议，满满的一大页，照着做了下，问题还是没有解决。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>老刘在前面一篇文章中说，某年某月的某一天，老刘重置了电脑，不但丢失了存在本地的博客数据，而且发现安全中心打开是一个空白的窗口。老刘使用了重启大法的手段，但是发现并没有什么卵用。文心一言里给出了很多的建议，满满的一大页，照着做了下，问题还是没有解决。</p>
 <p>不得以，老刘还是去搜索引擎上找方法吧，有一些方法大同小异，只到看到了一篇文章，说把一段代码保存成reg的格式，双击导入注册表即可。老刘试用了一下，完美解决了问题。</p>
@@ -1421,9 +1421,9 @@ I believe this may have been triggered by the automated fraud prevention system.
     </item>
     <item>
       <title>修汽车空调</title>
-      <link>http://localhost:1313/posts/repair-the-car-air-conditioning/</link>
+      <link>https://iliu.org/posts/repair-the-car-air-conditioning/</link>
       <pubDate>Mon, 24 Jun 2024 14:17:20 +0800</pubDate>
-      <guid>http://localhost:1313/posts/repair-the-car-air-conditioning/</guid>
+      <guid>https://iliu.org/posts/repair-the-car-air-conditioning/</guid>
       <description>&lt;p&gt;前年的时候，曾经写过一篇&lt;a href=&#34;https://tunan.org/4242&#34;&gt;修汽车空调&lt;/a&gt;的文章。当时加过氟利昂之后，制冷效果是立马起来了。不过过了半个多月的时间，开车回老家，再次出现空调制冷效果不好的情况，也不是制冷效果不好，而是有时候能空调能启动，有时候又启动不了。甚至在堵车的时候还发生了，水箱温度过高的提示。之后又去店里修了一次，氟利昂压力是正常的，说可能是水箱比较脏了，拆下来冲洗一下就好了。结果拆冲洗后当时是可以了，但是我看到水箱也不是很脏的样子。&lt;/p&gt;
 &lt;p&gt;后来这两年，空调基本上也能凑合着用，但是效果不是太好，本身用车的时候也少，就觉得可能是缺氟利昂了。&lt;/p&gt;
 &lt;p&gt;21号，送女儿去参加中考，不想去的时候，再次出现空调不能运行的情况，好在当天阴天还有点小雨，气温不是太高，开车车窗勉强能用车，不过行车过程中外面的噪音太大。很不舒适。&lt;/p&gt;</description>
@@ -1437,9 +1437,9 @@ I believe this may have been triggered by the automated fraud prevention system.
     </item>
     <item>
       <title>给Hugo PaperMod增加giscus评论系统</title>
-      <link>http://localhost:1313/posts/add-comment-system-to-hugopapermo/</link>
+      <link>https://iliu.org/posts/add-comment-system-to-hugopapermo/</link>
       <pubDate>Mon, 26 Feb 2024 14:39:25 +0800</pubDate>
-      <guid>http://localhost:1313/posts/add-comment-system-to-hugopapermo/</guid>
+      <guid>https://iliu.org/posts/add-comment-system-to-hugopapermo/</guid>
       <description>&lt;p&gt;自从把博客程序从&lt;code&gt;WordPress&lt;/code&gt;换成&lt;code&gt;Hugo&lt;/code&gt;以来，我把评论也给取消了，原因在我看来，评论有时候变成了我的负担。很多时候是为了评论而评论，或者为了获取评论而写一些迎合读者的文章，这样以来，我感觉偏离了我的初心，所以，干脆就不在布置评论。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>自从把博客程序从<code>WordPress</code>换成<code>Hugo</code>以来，我把评论也给取消了，原因在我看来，评论有时候变成了我的负担。很多时候是为了评论而评论，或者为了获取评论而写一些迎合读者的文章，这样以来，我感觉偏离了我的初心，所以，干脆就不在布置评论。</p>
 <p>放弃评论后，我是爽了，但是也不断的有博友反馈，希望有评论的功能，考虑再三，觉得还是加上为好。</p>
@@ -1473,9 +1473,9 @@ I believe this may have been triggered by the automated fraud prevention system.
     </item>
     <item>
       <title>2024年，高德地图和百度地图选哪个？</title>
-      <link>http://localhost:1313/posts/comparison-between-autonavi-map-and-baidu-map/</link>
+      <link>https://iliu.org/posts/comparison-between-autonavi-map-and-baidu-map/</link>
       <pubDate>Sat, 24 Feb 2024 14:42:58 +0800</pubDate>
-      <guid>http://localhost:1313/posts/comparison-between-autonavi-map-and-baidu-map/</guid>
+      <guid>https://iliu.org/posts/comparison-between-autonavi-map-and-baidu-map/</guid>
       <description>&lt;p&gt;在网上经常看到网友询问百度地图和高德地图如何选择，网上的文章要么太老，要么太老，要么太老，没有什么参考价值。为什么这么说呢，因为现在导航技术加上北斗的支持，已经远远不是文章的那个年代所用的技术了。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>在网上经常看到网友询问百度地图和高德地图如何选择，网上的文章要么太老，要么太老，要么太老，没有什么参考价值。为什么这么说呢，因为现在导航技术加上北斗的支持，已经远远不是文章的那个年代所用的技术了。</p>
 <p>我之前也在博客群里问相关的问题，得到的答案一般都是推荐高德导航，理由是高德更纯粹，他是靠导航来吃饭的，如果导航做不好，他就无法很好的生存；相反百度是一个大杂烩，什么都搞，什么都搞不好。我也是一直在用高德导航。不过，前几天的一次试用百度导航，让我对百度地图的看法有些不少的改变。下面就详细的说一说：</p>
@@ -1491,9 +1491,9 @@ I believe this may have been triggered by the automated fraud prevention system.
     </item>
     <item>
       <title>电视和投影仪，哪个对孩子的眼睛更好？</title>
-      <link>http://localhost:1313/posts/which-better-for-children/</link>
+      <link>https://iliu.org/posts/which-better-for-children/</link>
       <pubDate>Thu, 22 Feb 2024 14:46:14 +0800</pubDate>
-      <guid>http://localhost:1313/posts/which-better-for-children/</guid>
+      <guid>https://iliu.org/posts/which-better-for-children/</guid>
       <description>&lt;p&gt;昨天博友@DemoChen问我能不能拉一个群，他的一个朋友有眼睛相关的问题需要咨询。当时我在外面陪孩子在金水河公园的雪地里漫步，回到家里后，专门拉了一个群，demochen也拉了他的朋友进来。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>昨天博友@DemoChen问我能不能拉一个群，他的一个朋友有眼睛相关的问题需要咨询。当时我在外面陪孩子在金水河公园的雪地里漫步，回到家里后，专门拉了一个群，demochen也拉了他的朋友进来。</p>
 <p>他的朋友问了一个很多家长都非常关系的问题————孩子的视力，如何预防近视：</p>
@@ -1517,9 +1517,9 @@ I believe this may have been triggered by the automated fraud prevention system.
     </item>
     <item>
       <title>使用Fcitx5 for Android，读《万历十五年》</title>
-      <link>http://localhost:1313/posts/use-fcitx5-andriod-input/</link>
+      <link>https://iliu.org/posts/use-fcitx5-andriod-input/</link>
       <pubDate>Wed, 07 Feb 2024 20:28:26 +0800</pubDate>
-      <guid>http://localhost:1313/posts/use-fcitx5-andriod-input/</guid>
+      <guid>https://iliu.org/posts/use-fcitx5-andriod-input/</guid>
       <description>&lt;p&gt;最近女儿放假了，忙着辅导她的功课，毕竟初三了，加上期末考试的成绩不是很理想，所以寒假是要努力的时候了。在这期间读书也少了，只读了《万历十五年》这本历史书，另外就是在看了1900的博客后，把手机的输入法改成了Fcitx5 for Android，并且安装rime插件，使用雾凇拼音词库；这样手机就和电脑使用同一个词库了。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>最近女儿放假了，忙着辅导她的功课，毕竟初三了，加上期末考试的成绩不是很理想，所以寒假是要努力的时候了。在这期间读书也少了，只读了《万历十五年》这本历史书，另外就是在看了1900的博客后，把手机的输入法改成了Fcitx5 for Android，并且安装rime插件，使用雾凇拼音词库；这样手机就和电脑使用同一个词库了。</p>
 <h2 id="手机安装并fcitx5-for-android">手机安装并Fcitx5 for Android</h2>
@@ -1538,9 +1538,9 @@ I believe this may have been triggered by the automated fraud prevention system.
     </item>
     <item>
       <title>利用cloudflare页面规则设置301永久跳转</title>
-      <link>http://localhost:1313/posts/use-cloudflare-page-rules-setup-301-permanent-redirect/</link>
+      <link>https://iliu.org/posts/use-cloudflare-page-rules-setup-301-permanent-redirect/</link>
       <pubDate>Fri, 01 Dec 2023 21:04:03 +0800</pubDate>
-      <guid>http://localhost:1313/posts/use-cloudflare-page-rules-setup-301-permanent-redirect/</guid>
+      <guid>https://iliu.org/posts/use-cloudflare-page-rules-setup-301-permanent-redirect/</guid>
       <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;细心的读者可能已经发现，图南博客的域名已经由&lt;code&gt;iliu.org&lt;/code&gt; 更换到&lt;code&gt;tunan.org&lt;/code&gt;。这个域名是之前在&lt;code&gt;Google&lt;/code&gt;注册的，可惜的80端口被墙了，也不知道是怎么实现强域名80端口的。于是在暂时使用一段时间后又使用了原域名。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h2 id="前言">前言</h2>
@@ -1616,9 +1616,9 @@ I believe this may have been triggered by the automated fraud prevention system.
     </item>
     <item>
       <title>初冬时节话镜片防雾</title>
-      <link>http://localhost:1313/posts/talk-about-lens-anti-fog-in-early-winter/</link>
+      <link>https://iliu.org/posts/talk-about-lens-anti-fog-in-early-winter/</link>
       <pubDate>Mon, 13 Nov 2023 21:16:41 +0800</pubDate>
-      <guid>http://localhost:1313/posts/talk-about-lens-anti-fog-in-early-winter/</guid>
+      <guid>https://iliu.org/posts/talk-about-lens-anti-fog-in-early-winter/</guid>
       <description>&lt;p&gt;又到了冬天了，你那里飘雪花了吗？来暖气了吗？&lt;/p&gt;
 &lt;p&gt;冬天对眼镜佩戴者来说，最烦人的莫过于镜片起雾了。特别是从外面回到家，或者戴口罩的时候。其实现在树脂镜片已经好很多了，以前的玻璃镜片，那才能让你雾的怀疑人生。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>又到了冬天了，你那里飘雪花了吗？来暖气了吗？</p>
@@ -1640,9 +1640,9 @@ I believe this may have been triggered by the automated fraud prevention system.
     </item>
     <item>
       <title>在群晖中使用tailscale实现内网穿透</title>
-      <link>http://localhost:1313/posts/using-tailscale-to-achieve-intranet-penetration-in-synology/</link>
+      <link>https://iliu.org/posts/using-tailscale-to-achieve-intranet-penetration-in-synology/</link>
       <pubDate>Sun, 12 Nov 2023 21:19:15 +0800</pubDate>
-      <guid>http://localhost:1313/posts/using-tailscale-to-achieve-intranet-penetration-in-synology/</guid>
+      <guid>https://iliu.org/posts/using-tailscale-to-achieve-intranet-penetration-in-synology/</guid>
       <description>&lt;p&gt;在远程连接群晖的实践中，老刘一切介绍过&lt;a href=&#34;https://tunan.org/3356.html&#34;&gt;zerotier&lt;/a&gt;和&lt;a href=&#34;https://tunan.org/3997.html&#34;&gt;IPv6&lt;/a&gt;。但是实际的使用过程中，zerotier有时候握手的速度很慢，而且配置起来比较麻烦，IPv6很好，速度也快，但是有些环境中还只有IPv4，直到我听别人介绍到tailscale这个软件。它的工作原理其实和zerotier差不多，但是不需要什么复杂的设置，直接注册、登录，同一个账号的所有设备都连接到一起了。&lt;/p&gt;
 &lt;h2 id=&#34;注册tailscale&#34;&gt;注册tailscale&lt;/h2&gt;
 &lt;p&gt;百度直接搜，或者打看&lt;a href=&#34;https://www.tailscale.com/&#34;&gt;tailscale&lt;/a&gt;官方网站。注册就行，不过它不支持自由注册，需要用Google、apple、或者微软的outlook账号注册。&lt;/p&gt;
@@ -1703,9 +1703,9 @@ I believe this may have been triggered by the automated fraud prevention system.
     </item>
     <item>
       <title>EndeavourOS安装之后的几件事</title>
-      <link>http://localhost:1313/A-few-things-after-installing-EndeavourOS/</link>
+      <link>https://iliu.org/A-few-things-after-installing-EndeavourOS/</link>
       <pubDate>Wed, 08 Nov 2023 21:22:44 +0800</pubDate>
-      <guid>http://localhost:1313/A-few-things-after-installing-EndeavourOS/</guid>
+      <guid>https://iliu.org/A-few-things-after-installing-EndeavourOS/</guid>
       <description>&lt;p&gt;很多追求新，追求精简的Linux系统的使用者，往往都会推荐Arch Linux，这个系统特点是精简，精简到什么都需要你来搞定，所以也让很多人望而却步。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>很多追求新，追求精简的Linux系统的使用者，往往都会推荐Arch Linux，这个系统特点是精简，精简到什么都需要你来搞定，所以也让很多人望而却步。</p>
 <p><img alt="最终效果" loading="lazy" src="https://tunan.org/tupian/2023-11-08.png"></p>
@@ -1881,9 +1881,9 @@ I believe this may have been triggered by the automated fraud prevention system.
     </item>
     <item>
       <title>Hugo-papermod主题的优化记录</title>
-      <link>http://localhost:1313/posts/hugo-papermod-modification/</link>
+      <link>https://iliu.org/posts/hugo-papermod-modification/</link>
       <pubDate>Sat, 04 Nov 2023 21:30:05 +0800</pubDate>
-      <guid>http://localhost:1313/posts/hugo-papermod-modification/</guid>
+      <guid>https://iliu.org/posts/hugo-papermod-modification/</guid>
       <description>&lt;p&gt;在上一篇文章中曾经说到把博客从WordPress转到了Hugo，经过这几天的使用，发现还是很不错的，用起来也比较方便。但是，在使用PaperMod主题的时候，也是遇到了一些问题，本文就遇到的问题作一个记录。目前，主题的代码高亮功能还是没有搞定，不过也是影响不大，先放一放也无所谓。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>在上一篇文章中曾经说到把博客从WordPress转到了Hugo，经过这几天的使用，发现还是很不错的，用起来也比较方便。但是，在使用PaperMod主题的时候，也是遇到了一些问题，本文就遇到的问题作一个记录。目前，主题的代码高亮功能还是没有搞定，不过也是影响不大，先放一放也无所谓。</p>
 <h3 id="首页不显示文章">首页不显示文章</h3>
@@ -1945,8 +1945,8 @@ I believe this may have been triggered by the automated fraud prevention system.
 </span><span class="lnt">16
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;link href=&#34;http://localhost:1313/artalk/Artalk.css&#34; rel=&#34;stylesheet&#34;&gt;
-</span></span><span class="line"><span class="cl">&lt;script src=&#34;http://localhost:1313/artalk/Artalk.js&#34;&gt;&lt;/script&gt;
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;link href=&#34;https://iliu.org/artalk/Artalk.css&#34; rel=&#34;stylesheet&#34;&gt;
+</span></span><span class="line"><span class="cl">&lt;script src=&#34;https://iliu.org/artalk/Artalk.js&#34;&gt;&lt;/script&gt;
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">&lt;!-- Artalk --&gt;
 </span></span><span class="line"><span class="cl">&lt;div id=&#34;Comments&#34;&gt;&lt;/div&gt;
@@ -2066,9 +2066,9 @@ I believe this may have been triggered by the automated fraud prevention system.
     </item>
     <item>
       <title>视光周刊（第9期）：年轻的时候近视，年老不花眼？</title>
-      <link>http://localhost:1313/posts/optics-weekly-issue-9/</link>
+      <link>https://iliu.org/posts/optics-weekly-issue-9/</link>
       <pubDate>Fri, 03 Nov 2023 21:33:27 +0800</pubDate>
-      <guid>http://localhost:1313/posts/optics-weekly-issue-9/</guid>
+      <guid>https://iliu.org/posts/optics-weekly-issue-9/</guid>
       <description>&lt;p&gt;这里记录每周值得分享的视光内容。周五在&lt;strong&gt;光学视界&lt;/strong&gt;公众号和&lt;strong&gt;图南博客&lt;/strong&gt;发布。本周的主要内容包括：&lt;strong&gt;角膜塑形镜的安全性，近视人年老了会不会老花，高度近视人的选框技巧&lt;/strong&gt;等。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>这里记录每周值得分享的视光内容。周五在<strong>光学视界</strong>公众号和<strong>图南博客</strong>发布。本周的主要内容包括：<strong>角膜塑形镜的安全性，近视人年老了会不会老花，高度近视人的选框技巧</strong>等。</p>
 <p>投稿请发邮件至：ewader@qq.com。</p>
@@ -2106,9 +2106,9 @@ I believe this may have been triggered by the automated fraud prevention system.
     </item>
     <item>
       <title>从WordPress转到Hugo</title>
-      <link>http://localhost:1313/frome-wordpress-to-hugo/</link>
+      <link>https://iliu.org/frome-wordpress-to-hugo/</link>
       <pubDate>Wed, 01 Nov 2023 21:35:36 +0800</pubDate>
-      <guid>http://localhost:1313/frome-wordpress-to-hugo/</guid>
+      <guid>https://iliu.org/frome-wordpress-to-hugo/</guid>
       <description>&lt;p&gt;在cloudcone上买的VPS马上就要到期了，由于去年买的是黑五预售，比正经黑五的机子要贵20来块钱，而且配置还要低一些。所以，续费是不能续费的了。原本打算在荷兰的liteserver这个上面暂时放一段时间。这是一台2c2g的机子，装完php、MySQL、和Nginx之后，只要运行一段时间，内存就基本上爆了。再加上最近lnmp和oneinstack都被收购而且被挂恶意代码，也不想用宝塔之类的面板，自己编译环境又很麻烦。于是，就产生了转成静态博客的想法。在这里也要感谢阿甘和韩宇的帮助。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>在cloudcone上买的VPS马上就要到期了，由于去年买的是黑五预售，比正经黑五的机子要贵20来块钱，而且配置还要低一些。所以，续费是不能续费的了。原本打算在荷兰的liteserver这个上面暂时放一段时间。这是一台2c2g的机子，装完php、MySQL、和Nginx之后，只要运行一段时间，内存就基本上爆了。再加上最近lnmp和oneinstack都被收购而且被挂恶意代码，也不想用宝塔之类的面板，自己编译环境又很麻烦。于是，就产生了转成静态博客的想法。在这里也要感谢阿甘和韩宇的帮助。</p>
 <p>原本以为很复杂，其实操作下来发现也是挺简单的。</p>
@@ -2179,8 +2179,8 @@ I believe this may have been triggered by the automated fraud prevention system.
 </span><span class="lnt">16
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;link href=&#34;http://localhost:1313/artalk/Artalk.css&#34; rel=&#34;stylesheet&#34;&gt;
-</span></span><span class="line"><span class="cl">&lt;script src=&#34;http://localhost:1313/artalk/Artalk.js&#34;&gt;&lt;/script&gt;
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;link href=&#34;https://iliu.org/artalk/Artalk.css&#34; rel=&#34;stylesheet&#34;&gt;
+</span></span><span class="line"><span class="cl">&lt;script src=&#34;https://iliu.org/artalk/Artalk.js&#34;&gt;&lt;/script&gt;
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">&lt;!-- Artalk --&gt;
 </span></span><span class="line"><span class="cl">&lt;div id=&#34;Comments&#34;&gt;&lt;/div&gt;
@@ -2201,9 +2201,9 @@ I believe this may have been triggered by the automated fraud prevention system.
     </item>
     <item>
       <title>思源笔记群晖正确的部署方法</title>
-      <link>http://localhost:1313/posts/4418/</link>
+      <link>https://iliu.org/posts/4418/</link>
       <pubDate>Sat, 01 Jul 2023 03:10:30 -0400</pubDate>
-      <guid>http://localhost:1313/posts/4418/</guid>
+      <guid>https://iliu.org/posts/4418/</guid>
       <description>&lt;p&gt;最近一直在选择一款适合自己的笔记软件，最后确定在思源笔记和 Joplin 这两个上面，打算都长期试用一下，比较一下哪个更适合自己。&lt;/p&gt;
 &lt;h2 id=&#34;事情的起因&#34;&gt;事情的起因&lt;a href=&#34;#%E4%BA%8B%E6%83%85%E7%9A%84%E8%B5%B7%E5%9B%A0&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;思源笔记的升级是相当频繁，可是我却发现，每次 docker 升级后，数据都没有保存下来，只能从备份的数据里重新导入，找了一下原因，发现是映射的文件夹里面没有数据，于是就重新安装，发现按照网上的教程，安装后 跑不起来。经过一番摸索，总算是搞定了！&lt;/p&gt;</description>
@@ -2239,9 +2239,9 @@ I believe this may have been triggered by the automated fraud prevention system.
     </item>
     <item>
       <title>近视人群夏季佩戴太阳镜的几种方案</title>
-      <link>http://localhost:1313/4408.html</link>
+      <link>https://iliu.org/4408.html</link>
       <pubDate>Wed, 24 May 2023 02:55:30 -0400</pubDate>
-      <guid>http://localhost:1313/4408.html</guid>
+      <guid>https://iliu.org/4408.html</guid>
       <description>&lt;p&gt;夏天到了，阳光明媚，很多人都想佩戴太阳镜保护眼睛。但是对于近视人群来说，普通的太阳镜无法满足需求，那么应该怎样选择和佩戴太阳镜呢？下面为大家介绍几种方案。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>夏天到了，阳光明媚，很多人都想佩戴太阳镜保护眼睛。但是对于近视人群来说，普通的太阳镜无法满足需求，那么应该怎样选择和佩戴太阳镜呢？下面为大家介绍几种方案。</p>
 <h2 id="隐形眼镜非处方太阳镜">隐形眼镜+非处方太阳镜<a href="#%E9%9A%90%E5%BD%A2%E7%9C%BC%E9%95%9C%E9%9D%9E%E5%A4%84%E6%96%B9%E5%A4%AA%E9%98%B3%E9%95%9C">#</a></h2>

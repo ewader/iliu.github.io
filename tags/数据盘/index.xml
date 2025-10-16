@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>数据盘 on 老刘博客</title>
-    <link>http://localhost:1313/tags/%E6%95%B0%E6%8D%AE%E7%9B%98/</link>
+    <link>https://iliu.org/tags/%E6%95%B0%E6%8D%AE%E7%9B%98/</link>
     <description>Recent content in 数据盘 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
-      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.151.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 04 Aug 2019 09:37:21 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E6%95%B0%E6%8D%AE%E7%9B%98/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://iliu.org/tags/%E6%95%B0%E6%8D%AE%E7%9B%98/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>景安服务器（vps)挂载数据盘</title>
-      <link>http://localhost:1313/2585.html</link>
+      <link>https://iliu.org/2585.html</link>
       <pubDate>Sun, 04 Aug 2019 09:37:21 +0000</pubDate>
-      <guid>http://localhost:1313/2585.html</guid>
+      <guid>https://iliu.org/2585.html</guid>
       <description>&lt;p&gt;以前没有注意，后来在做快照的时候发现服务器还有个数据盘的快照，和系统盘是分开的。查了一下，数据盘是送的一块专门用来放数据的另一个盘，就象我们电脑里的系统盘（c:),其他盘（d:)一样，把一些数据放在数据盘里，等系统出现问题需要重置的时候，数据盘的的数据不会收到任何的影响。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>以前没有注意，后来在做快照的时候发现服务器还有个数据盘的快照，和系统盘是分开的。查了一下，数据盘是送的一块专门用来放数据的另一个盘，就象我们电脑里的系统盘（c:),其他盘（d:)一样，把一些数据放在数据盘里，等系统出现问题需要重置的时候，数据盘的的数据不会收到任何的影响。</p>
 <p>景安的服务器虽然没有比如阿里云oss这种物美价廉的储存空间（也有，就是价格比较贵），送了一块数据盘也是很方便的，平常把备份的数据就放在这里，万一系统有问题了，重装系统后可以很方便的从数据盘里把数据还原，并且景安的快照是系统盘和数据盘分开的，这点还是不错的。</p>

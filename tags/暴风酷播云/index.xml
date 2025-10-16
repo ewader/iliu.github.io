@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>暴风酷播云 on 老刘博客</title>
-    <link>http://localhost:1313/tags/%E6%9A%B4%E9%A3%8E%E9%85%B7%E6%92%AD%E4%BA%91/</link>
+    <link>https://iliu.org/tags/%E6%9A%B4%E9%A3%8E%E9%85%B7%E6%92%AD%E4%BA%91/</link>
     <description>Recent content in 暴风酷播云 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
-      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.151.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 23 Nov 2019 02:51:56 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E6%9A%B4%E9%A3%8E%E9%85%B7%E6%92%AD%E4%BA%91/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://iliu.org/tags/%E6%9A%B4%E9%A3%8E%E9%85%B7%E6%92%AD%E4%BA%91/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>再次折腾黑群晖系统</title>
-      <link>http://localhost:1313/2860.html</link>
+      <link>https://iliu.org/2860.html</link>
       <pubDate>Sat, 23 Nov 2019 02:51:56 +0000</pubDate>
-      <guid>http://localhost:1313/2860.html</guid>
+      <guid>https://iliu.org/2860.html</guid>
       <description>&lt;p&gt;昨天拍了一些眼镜架的图片，可以却同步不到群晖的monents里面，有了群晖之后有些事情确实特别的方便，比如我拍的镜架的图片，想传到在线商城里面，以前的做法是，选择图片，再微信里用文件传输助手传给自己，然后再在桌面的微信里下载下来，很不方便，有了群晖之后，就可以直接在客户端里同步到群晖里，我直接在里面修图，上传到网站即可。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>昨天拍了一些眼镜架的图片，可以却同步不到群晖的monents里面，有了群晖之后有些事情确实特别的方便，比如我拍的镜架的图片，想传到在线商城里面，以前的做法是，选择图片，再微信里用文件传输助手传给自己，然后再在桌面的微信里下载下来，很不方便，有了群晖之后，就可以直接在客户端里同步到群晖里，我直接在里面修图，上传到网站即可。</p>
 <p><a href="https://tunan.org/wp-content/uploads/2019/11/b030f7d30297555.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2863" src="https://tunan.org/wp-content/uploads/2019/11/b030f7d30297555.jpg" alt="" width="900" height="575" srcset="https://tunan.org/wp-content/uploads/2019/11/b030f7d30297555.jpg 900w, https://tunan.org/wp-content/uploads/2019/11/b030f7d30297555-300x192.jpg 300w, https://tunan.org/wp-content/uploads/2019/11/b030f7d30297555-768x491.jpg 768w" sizes="(max-width: 900px) 100vw, 900px" /></a></p>
@@ -32,9 +32,9 @@
     </item>
     <item>
       <title>记暴风酷播云2期折腾黑群晖</title>
-      <link>http://localhost:1313/2855.html</link>
+      <link>https://iliu.org/2855.html</link>
       <pubDate>Mon, 18 Nov 2019 07:28:30 +0000</pubDate>
-      <guid>http://localhost:1313/2855.html</guid>
+      <guid>https://iliu.org/2855.html</guid>
       <description>&lt;p&gt;双11前后，张波老师弄了个zhang.gg和zhang.bo的两个域名，看gg不贵，而且有www.liuday.com这个域名还没有被注册，于是也跟风注册了个个性域名。后来不知道怎么聊的聊到了NAS上面，本来觉得我对这个需求不是很大，后来张波老师说，他淘汰了他的蜗牛弄了个暴风，于是我就想用张老师淘汰下来的蜗牛玩一玩。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>双11前后，张波老师弄了个zhang.gg和zhang.bo的两个域名，看gg不贵，而且有www.liuday.com这个域名还没有被注册，于是也跟风注册了个个性域名。后来不知道怎么聊的聊到了NAS上面，本来觉得我对这个需求不是很大，后来张波老师说，他淘汰了他的蜗牛弄了个暴风，于是我就想用张老师淘汰下来的蜗牛玩一玩。</p>
 <p><a href="https://tunan.org/wp-content/uploads/2019/11/9b81db5da85a49e.png"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2856" src="https://tunan.org/wp-content/uploads/2019/11/9b81db5da85a49e.png" alt="" width="640" height="296" srcset="https://tunan.org/wp-content/uploads/2019/11/9b81db5da85a49e.png 640w, https://tunan.org/wp-content/uploads/2019/11/9b81db5da85a49e-300x139.png 300w" sizes="(max-width: 640px) 100vw, 640px" /></a></p>
