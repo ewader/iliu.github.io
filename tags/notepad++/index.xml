@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Notepad&#43;&#43; on 老刘博客</title>
-    <link>https://iliu.org/tags/notepad&#43;&#43;/</link>
+    <link>http://localhost:1313/tags/notepad&#43;&#43;/</link>
     <description>Recent content in Notepad&#43;&#43; on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.151.0</generator>
+    <generator>Hugo -- 0.151.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 23 Dec 2009 08:51:55 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/notepad++/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/notepad++/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>博客整体细节基本完成</title>
-      <link>https://iliu.org/257.html</link>
+      <link>http://localhost:1313/257.html</link>
       <pubDate>Wed, 23 Dec 2009 08:51:55 +0000</pubDate>
-      <guid>https://iliu.org/257.html</guid>
+      <guid>http://localhost:1313/257.html</guid>
       <description>&lt;p&gt;上午的时候在那边的办公室忙，而那边的网速慢的要死，连个新浪都打不开，所以基本上上午都白白浪费了，郁闷的是QQ农场的菜也被偷了很多，说到这里不得不说几句，原本对QQ弄成的圣诞树报有很大的希望，想不到种出来的是一堆垃圾，就是不知道这堆垃圾在圣诞节的那天是不是能变成金子。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>上午的时候在那边的办公室忙，而那边的网速慢的要死，连个新浪都打不开，所以基本上上午都白白浪费了，郁闷的是QQ农场的菜也被偷了很多，说到这里不得不说几句，原本对QQ弄成的圣诞树报有很大的希望，想不到种出来的是一堆垃圾，就是不知道这堆垃圾在圣诞节的那天是不是能变成金子。</p>
 <p>下午回到这边，基本上都在整理这个博客，用的这个模板原来好好的，不过自从空间商升级了空间后就出现了很多的乱码，知道乱码是用于编码不对造成的，但是总是解决不了，就算是你保存成了utf-8的编码依然是出错，后来发现，从我家里的电脑上传的几个文件编码竟然没有错误，细想了一下原因，很简单了，家里的文本默认是用Notepad++编辑的，而在办公室由于没有重视用了Windows xp自带的记事本，看来微软就喜欢搞与众不同，就算保存成utf8的格式，依然还是不同的，既然找到了源头就好在解决了，下载Notepad++，编辑。终于正常了。<br>

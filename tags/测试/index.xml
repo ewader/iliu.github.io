@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>测试 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E6%B5%8B%E8%AF%95/</link>
+    <link>http://localhost:1313/tags/%E6%B5%8B%E8%AF%95/</link>
     <description>Recent content in 测试 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.151.0</generator>
+    <generator>Hugo -- 0.151.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 29 Mar 2023 09:56:46 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E6%B5%8B%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E6%B5%8B%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>关于初中体育考试</title>
-      <link>https://iliu.org/4342.html</link>
+      <link>http://localhost:1313/4342.html</link>
       <pubDate>Wed, 29 Mar 2023 09:56:46 +0000</pubDate>
-      <guid>https://iliu.org/4342.html</guid>
+      <guid>http://localhost:1313/4342.html</guid>
       <description>&lt;p&gt;初中教育改革的重头戏一是划片，二就是体育在中招中的分值比重加大。也是可以理解的，现在孩子的身体素质是一代不如一代了，不光视力不好，体质也不行，长久下来肯定对国家的各个方面都会产生不好的影响。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>初中教育改革的重头戏一是划片，二就是体育在中招中的分值比重加大。也是可以理解的，现在孩子的身体素质是一代不如一代了，不光视力不好，体质也不行，长久下来肯定对国家的各个方面都会产生不好的影响。</p>
 <p>由于疫情的原因，去年中招和今年中招，郑州市这边的政策都是参与即合格，合格即满分，也就是说在体育这个项目，孩子们都是一样的。很多家长都为这个政策叫好。有些家长甚至呼吁取消中招体育测试，加大初中体育课的比重，增加早操等内容。理由是，考试会加重孩子们的负担，让本来不足的文化课学习时间更雪上加霜。<figure class="wp-block-image"></p>

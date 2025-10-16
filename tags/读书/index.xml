@@ -2,28 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>读书 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E8%AF%BB%E4%B9%A6/</link>
+    <link>http://localhost:1313/tags/%E8%AF%BB%E4%B9%A6/</link>
     <description>Recent content in 读书 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.151.0</generator>
+    <generator>Hugo -- 0.151.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 25 Sep 2025 10:15:38 +0800</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E8%AF%BB%E4%B9%A6/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E8%AF%BB%E4%B9%A6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>浅谈阿Q精神</title>
-      <link>https://iliu.org/a-brief-discussion-on-the-ah-q-spirit/</link>
+      <link>http://localhost:1313/a-brief-discussion-on-the-ah-q-spirit/</link>
       <pubDate>Thu, 25 Sep 2025 10:15:38 +0800</pubDate>
-      <guid>https://iliu.org/a-brief-discussion-on-the-ah-q-spirit/</guid>
+      <guid>http://localhost:1313/a-brief-discussion-on-the-ah-q-spirit/</guid>
       <description>&lt;p&gt;最近看释万行法师的《降伏其心》，看到一段很有意思的话：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;“比如今天我俩打了一架，我输给了你。表面上看是你赢了，我输了。实际上我内心的承受力增强了，甚至增强了许多倍。而你的我执、虚荣心、好胜心也增加了，甚至也增加了许多倍。”&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>最近看释万行法师的《降伏其心》，看到一段很有意思的话：</p>
 <blockquote>
-<p>“比如今天我俩打了一架，我输给了你。表面上看是你赢了，我输了。实际上我内心的承受力增强了，甚至增强了许多倍。而你的我执、虚荣心、好胜心也增加了，甚至也增加了许多倍。”</p></blockquote>
+<p>“比如今天我俩打了一架，我输给了你。表面上看是你赢了，我输了。实际上我内心的承受力增强了，甚至增强了许多倍。而你的我执、虚荣心、好胜心也增加了，甚至也增加了许多倍。”</p>
+</blockquote>
 <p>读到这里，我忍不住笑了，这不就是鲁迅先生笔下的阿Q吗？然后，翻了一下评论区，果然也有读者说这是阿Q，但笑过之后再仔细一琢磨，又觉得法师所说的和阿Q的“精神胜利法”还是有着本质的区别。</p>
 <p>鲁迅笔下的阿Q，是在压迫和逆境中挣扎求生的一个可怜人。他没有能力去反抗，于是只能发展出一套扭曲的心理机制来维持生存。这种机制的核心，就是<strong>通过自我欺骗、自我麻醉的方式来面对失败和屈辱，达到自我安慰的目的</strong>。阿Q精神的具体表现，可以总结为以下几点：</p>
 <ul>
@@ -41,15 +42,16 @@
     </item>
     <item>
       <title>风动，幡动还是心动</title>
-      <link>https://iliu.org/wind-moves-flags-flutter-or-heart-moves/</link>
+      <link>http://localhost:1313/wind-moves-flags-flutter-or-heart-moves/</link>
       <pubDate>Fri, 19 Sep 2025 10:35:24 +0800</pubDate>
-      <guid>https://iliu.org/wind-moves-flags-flutter-or-heart-moves/</guid>
+      <guid>http://localhost:1313/wind-moves-flags-flutter-or-heart-moves/</guid>
       <description>&lt;p&gt;读南怀瑾先生的《禅宗和道家》，读到“风动、幡动、心动”这个典故（佛家称为公案）时，我的思绪回到了过去。&lt;/p&gt;
 &lt;p&gt;记得第一次读到这个公案，大概是在初中的政治课本上。故事是这样的：&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>读南怀瑾先生的《禅宗和道家》，读到“风动、幡动、心动”这个典故（佛家称为公案）时，我的思绪回到了过去。</p>
 <p>记得第一次读到这个公案，大概是在初中的政治课本上。故事是这样的：</p>
 <blockquote>
-<p>唐代仪凤元年（676年），慧能大师在广州法性寺（今光孝寺）听印宗法师讲《涅槃经》。一阵风吹来，寺中的幡旗随风摇曳，引发了两位僧人的争论。一位僧人说：“是风在动。”另一位坚持：“是幡在动。”两人争执不下，慧能大师便上前说道：“不是风动，也不是幡动，是仁者的心在动。”</p></blockquote>
+<p>唐代仪凤元年（676年），慧能大师在广州法性寺（今光孝寺）听印宗法师讲《涅槃经》。一阵风吹来，寺中的幡旗随风摇曳，引发了两位僧人的争论。一位僧人说：“是风在动。”另一位坚持：“是幡在动。”两人争执不下，慧能大师便上前说道：“不是风动，也不是幡动，是仁者的心在动。”</p>
+</blockquote>
 <p>当时读到这里，我心想古人真傻，这看似很有哲理，实则是对自然现象缺乏了解，根本就是一种空气流动罢了，和风、幡、心都毫无关系。甚至到了大学，我和信奉佛教的父母聊起这个公案时，依旧是以嘲弄的口吻，当时还试图用这个典故让他们“回头”。</p>
 <p>随着年龄增长，读书和见识也多了，才发现当初的小丑恰恰是我自己。</p>
 <p>这哪是古人没有见识，分明是我的认知高度不够，没有达到那个层次，所以才会去嘲笑古人。这正如庄子所说的“<strong>小知不及大知，小年不及大年</strong>”；我就是那只嘲笑大鹏的蜩与学鸠。</p>
@@ -61,9 +63,9 @@
     </item>
     <item>
       <title>金钱心理学：财富、人性和幸福的永恒真相</title>
-      <link>https://iliu.org/money-psychology-the-eternal-truths-of-wealth-humanity-and-happiness/</link>
+      <link>http://localhost:1313/money-psychology-the-eternal-truths-of-wealth-humanity-and-happiness/</link>
       <pubDate>Thu, 18 Sep 2025 10:10:39 +0800</pubDate>
-      <guid>https://iliu.org/money-psychology-the-eternal-truths-of-wealth-humanity-and-happiness/</guid>
+      <guid>http://localhost:1313/money-psychology-the-eternal-truths-of-wealth-humanity-and-happiness/</guid>
       <description>&lt;p&gt;我曾以为，理财是一个很复杂的东西，股票、基金、保险等等，充满了复杂的公式和博弈。所以，对理财这方面一直抱着敬而远之的态度，只会挑选一些风险小的项目。也曾在股市上投入了一些，但每次都赶不上节奏，所以慢慢的这方面的心思也就淡了。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>我曾以为，理财是一个很复杂的东西，股票、基金、保险等等，充满了复杂的公式和博弈。所以，对理财这方面一直抱着敬而远之的态度，只会挑选一些风险小的项目。也曾在股市上投入了一些，但每次都赶不上节奏，所以慢慢的这方面的心思也就淡了。</p>
 <p>前几天偶尔在微信读书上看到了<strong>摩根·豪泽尔</strong>的《金钱心理学：财富、人性和幸福的永恒真相》这本书，才发现原来理财也可以是这么简单的一件事情，但简单的事情，往往也是最不容易做到的事情。</p>
@@ -78,14 +80,16 @@
     </item>
     <item>
       <title>七个月读《易经》的碎片与感悟</title>
-      <link>https://iliu.org/seven-months-with-the-i-ching-notes-and-insights/</link>
+      <link>http://localhost:1313/seven-months-with-the-i-ching-notes-and-insights/</link>
       <pubDate>Mon, 15 Sep 2025 09:30:22 +0800</pubDate>
-      <guid>https://iliu.org/seven-months-with-the-i-ching-notes-and-insights/</guid>
+      <guid>http://localhost:1313/seven-months-with-the-i-ching-notes-and-insights/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;闲坐小窗读周易，不知春去几多时。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;闲坐小窗读周易，不知春去几多时。&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;从2025年2月翻开南怀瑾先生的《易经杂说》和《易经系列别讲》，到今天，整整七个月过去了。说“读完了”，其实只是一个时间节点——真正的学习远没有结束。中华传统文化厚重而深远，每一次翻阅，都会带来不同的感触。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<blockquote>
-<p>闲坐小窗读周易，不知春去几多时。</p></blockquote>
+<p>闲坐小窗读周易，不知春去几多时。</p>
+</blockquote>
 <p>从2025年2月翻开南怀瑾先生的《易经杂说》和《易经系列别讲》，到今天，整整七个月过去了。说“读完了”，其实只是一个时间节点——真正的学习远没有结束。中华传统文化厚重而深远，每一次翻阅，都会带来不同的感触。</p>
 <hr>
 <h3 id="一读书与写作的碎片记录">一、读书与写作的碎片记录</h3>
@@ -125,9 +129,9 @@
     </item>
     <item>
       <title>蟋蟀：童趣、文化与智慧的映照</title>
-      <link>https://iliu.org/crickets-reflections-of-childhood-culture-and-wisdom/</link>
+      <link>http://localhost:1313/crickets-reflections-of-childhood-culture-and-wisdom/</link>
       <pubDate>Mon, 08 Sep 2025 10:39:08 +0800</pubDate>
-      <guid>https://iliu.org/crickets-reflections-of-childhood-culture-and-wisdom/</guid>
+      <guid>http://localhost:1313/crickets-reflections-of-childhood-culture-and-wisdom/</guid>
       <description>&lt;p&gt;这几天读修・莱佛士的《昆虫志》，深感其远非一部单纯的博物学著作。更多的是借助昆虫这一微观载体，折射出人性、社会与历史的复杂光谱。书中各章后附的大量参考文献，恰恰彰显了其跨学科视野与严谨的学术根基。作者穿梭于自然科学与人文社科之间，将昆虫与人类世界的千丝万缕娓娓道来，让我们在观察自然之妙时，也窥见了文化的深邃映射。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>这几天读修・莱佛士的《昆虫志》，深感其远非一部单纯的博物学著作。更多的是借助昆虫这一微观载体，折射出人性、社会与历史的复杂光谱。书中各章后附的大量参考文献，恰恰彰显了其跨学科视野与严谨的学术根基。作者穿梭于自然科学与人文社科之间，将昆虫与人类世界的千丝万缕娓娓道来，让我们在观察自然之妙时，也窥见了文化的深邃映射。</p>
 <p>当我翻至“蟋蟀”章节，许多回忆与感触油然而生。</p>
@@ -159,17 +163,19 @@
     </item>
     <item>
       <title>上天保佑，并非无条件</title>
-      <link>https://iliu.org/god-bless-not-unconditionally/</link>
+      <link>http://localhost:1313/god-bless-not-unconditionally/</link>
       <pubDate>Thu, 14 Aug 2025 08:49:47 +0800</pubDate>
-      <guid>https://iliu.org/god-bless-not-unconditionally/</guid>
+      <guid>http://localhost:1313/god-bless-not-unconditionally/</guid>
       <description>&lt;p&gt;《易经·大有卦》上九爻有一句爻辞：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;“自天佑之，吉无不利。”&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;“自天佑之，吉无不利。”&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;这句话字面看起来非常美好：上天主动来庇佑你，于是无往不利，大吉大利。&lt;/p&gt;
 &lt;p&gt;如果只停留在表面理解，就很容易和很多人的日常愿望接轨——谁不希望自己好运降临、平安顺遂呢？于是，求天佑、求神明保庇，就成了人类千百年来的习惯。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>《易经·大有卦》上九爻有一句爻辞：</p>
 <blockquote>
-<p>“自天佑之，吉无不利。”</p></blockquote>
+<p>“自天佑之，吉无不利。”</p>
+</blockquote>
 <p>这句话字面看起来非常美好：上天主动来庇佑你，于是无往不利，大吉大利。</p>
 <p>如果只停留在表面理解，就很容易和很多人的日常愿望接轨——谁不希望自己好运降临、平安顺遂呢？于是，求天佑、求神明保庇，就成了人类千百年来的习惯。</p>
 <p>但是孔子并不这么看。他在《系辞传》里对这句话做了说明：“佑者助也。天之所助者，顺也；人之所助者，信也。”</p>
@@ -186,7 +192,8 @@
 <p>南怀瑾先生在讲到这段经文时，举了一个生动的例子：</p>
 <p>西藏是佛教圣地，当地信佛之虔诚，世人皆知。照理说，那里应该是清净之地，不会有恶事发生。可是在历史上，西藏依然有土匪。土匪抢了人，就去佛前忏悔，说以后不抢了；过不了多久，又照样去抢，事后继续跪一跪——这种循环，除了安慰自己之外，根本得不到真正的“天佑”。</p>
 <blockquote>
-<p><strong>如果行为没有改变，再多的祈求都只是表演。</strong></p></blockquote>
+<p><strong>如果行为没有改变，再多的祈求都只是表演。</strong></p>
+</blockquote>
 <hr>
 <h3 id="天助与人助的双向条件"><strong>天助与人助的双向条件</strong></h3>
 <p>孔子将“佑”解释为“助”，其实是在把神圣的“保佑”拉回到现实的因果逻辑里。</p>
@@ -213,9 +220,9 @@
     </item>
     <item>
       <title>心斋，不只是吃素</title>
-      <link>https://iliu.org/fasting-of-the-heart-is-not-merely-about-eating-vegetarian/</link>
+      <link>http://localhost:1313/fasting-of-the-heart-is-not-merely-about-eating-vegetarian/</link>
       <pubDate>Wed, 13 Aug 2025 08:45:11 +0800</pubDate>
-      <guid>https://iliu.org/fasting-of-the-heart-is-not-merely-about-eating-vegetarian/</guid>
+      <guid>http://localhost:1313/fasting-of-the-heart-is-not-merely-about-eating-vegetarian/</guid>
       <description>&lt;p&gt;们常说“吃斋”，往往把它理解成不吃肉，甚至干脆把它等同于素食主义。久而久之，“斋”在日常语言里，就变成了餐桌上的事。可是实际上完全不是这么回事。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>们常说“吃斋”，往往把它理解成不吃肉，甚至干脆把它等同于素食主义。久而久之，“斋”在日常语言里，就变成了餐桌上的事。可是实际上完全不是这么回事。</p>
 <h3 id="荤与肉并非一回事">荤与肉，并非一回事</h3>
@@ -240,9 +247,9 @@
     </item>
     <item>
       <title>陪女儿读《复活》</title>
-      <link>https://iliu.org/reading-resurrection-with-my-daughter/</link>
+      <link>http://localhost:1313/reading-resurrection-with-my-daughter/</link>
       <pubDate>Mon, 28 Jul 2025 21:24:33 +0800</pubDate>
-      <guid>https://iliu.org/reading-resurrection-with-my-daughter/</guid>
+      <guid>http://localhost:1313/reading-resurrection-with-my-daughter/</guid>
       <description>&lt;p&gt;暑假刚开始，我给女儿买了一堆高中语文推荐阅读的名著：狄更斯的《大卫·科波菲尔》、夏洛蒂的《简·爱》、还有列夫·托尔斯泰的《复活》。&lt;/p&gt;
 &lt;p&gt;这些书的名字对我来说都不陌生，但也仅仅知道名字罢了，因为那时候的教育认为这些都是闲书，是耽误学习的存在。小的时候想读，而长大了之后没心情去读，如今换了一个身份，成了陪女儿一起走这段路的人，我觉得我应该也读一下这些书，最起码能和孩子一起聊聊，培养一下她的阅读兴趣，毕竟，对于现代孩子来说，手机以及现代风格的文学作品要比一个俄国贵族的忏悔、一个农家女的命运有趣的多。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>暑假刚开始，我给女儿买了一堆高中语文推荐阅读的名著：狄更斯的《大卫·科波菲尔》、夏洛蒂的《简·爱》、还有列夫·托尔斯泰的《复活》。</p>
@@ -259,9 +266,9 @@
     </item>
     <item>
       <title>大宋朝的那些奇葩事</title>
-      <link>https://iliu.org/posts/the-quirky-incidents-of-the-song-dynasty/</link>
+      <link>http://localhost:1313/posts/the-quirky-incidents-of-the-song-dynasty/</link>
       <pubDate>Wed, 27 Nov 2024 07:25:18 -0500</pubDate>
-      <guid>https://iliu.org/posts/the-quirky-incidents-of-the-song-dynasty/</guid>
+      <guid>http://localhost:1313/posts/the-quirky-incidents-of-the-song-dynasty/</guid>
       <description>&lt;p&gt;曾经和一个同学讨论如果穿越的话最想穿越到哪个朝代的话题，那个同学说，最希望能穿越到宋朝。我问他原因，他说，宋朝可以说是一个对文人最友好的朝代了。
 &lt;img alt=&#34;宋朝&#34; loading=&#34;lazy&#34; src=&#34;https://ewader.s3.bitiful.net/blog/songchao.png&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>曾经和一个同学讨论如果穿越的话最想穿越到哪个朝代的话题，那个同学说，最希望能穿越到宋朝。我问他原因，他说，宋朝可以说是一个对文人最友好的朝代了。
@@ -279,9 +286,9 @@
     </item>
     <item>
       <title>关二爷大意失荆州，冤枉吗？</title>
-      <link>https://iliu.org/posts/guan-yu-lost-jingzhou-due-to-carelessness/</link>
+      <link>http://localhost:1313/posts/guan-yu-lost-jingzhou-due-to-carelessness/</link>
       <pubDate>Thu, 14 Nov 2024 20:17:52 -0500</pubDate>
-      <guid>https://iliu.org/posts/guan-yu-lost-jingzhou-due-to-carelessness/</guid>
+      <guid>http://localhost:1313/posts/guan-yu-lost-jingzhou-due-to-carelessness/</guid>
       <description>&lt;p&gt;我们经常听到这么一句话，“关羽大意失荆州”，那么荆州的丢失真的是关羽的锅吗？或者说蜀汉集团就没有一点责任吗？&lt;/p&gt;
 &lt;p&gt;关羽在出征之前其实也防备着孙权的偷袭，所以留下麋芳、傅士仁来看家，并且沿江还设置了很多烽火台，只要有一点风吹草动，他就可以回兵增援，在他看来这是万无一失的，糜芳是他大哥的大舅子，怎么也不会胳膊肘往外拐啊，但吃亏就吃亏到这。
 &lt;img alt=&#34;关羽大意失荆州&#34; loading=&#34;lazy&#34; src=&#34;https://ewader.s3.bitiful.net/blog/764dad389e644b11804d6442430847d1_1084853753.png&#34;&gt;&lt;/p&gt;</description>
@@ -306,9 +313,9 @@
     </item>
     <item>
       <title>小城与不确定性墙</title>
-      <link>https://iliu.org/posts/the-small-town-and-the-wall-of-uncertainty/</link>
+      <link>http://localhost:1313/posts/the-small-town-and-the-wall-of-uncertainty/</link>
       <pubDate>Tue, 29 Oct 2024 08:12:30 -0400</pubDate>
-      <guid>https://iliu.org/posts/the-small-town-and-the-wall-of-uncertainty/</guid>
+      <guid>http://localhost:1313/posts/the-small-town-and-the-wall-of-uncertainty/</guid>
       <description>&lt;p&gt;村上春树的最新作品，微信读书里推荐的。老刘本身也不是村上的粉丝，以前也没有看过他的作品，只是听说名气很大，抱着试试看的想法打开了这本书。&lt;/p&gt;
 &lt;p&gt;这是一个简单的故事，简单的主人公，简单的女主，简单的故事情节，简单的人际关系，总之一切都很简单，整本小说，出场的人物屈指可数，就算出场的人物也没有什么复杂的心理活动，大概类似于游戏中的NPC吧。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>村上春树的最新作品，微信读书里推荐的。老刘本身也不是村上的粉丝，以前也没有看过他的作品，只是听说名气很大，抱着试试看的想法打开了这本书。</p>
@@ -319,9 +326,9 @@
     </item>
     <item>
       <title>浅评《长安十二时辰》书</title>
-      <link>https://iliu.org/2227.html</link>
+      <link>http://localhost:1313/2227.html</link>
       <pubDate>Mon, 01 Jul 2019 02:37:41 +0000</pubDate>
-      <guid>https://iliu.org/2227.html</guid>
+      <guid>http://localhost:1313/2227.html</guid>
       <description>&lt;p&gt;偶尔在电视上看到《长安十二时辰》的宣传海报，看评论的分数很高，电视剧看了半集，感觉还行，因为电视被放假的女儿霸占，所以不得不看小说来了解这部作品。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>偶尔在电视上看到《长安十二时辰》的宣传海报，看评论的分数很高，电视剧看了半集，感觉还行，因为电视被放假的女儿霸占，所以不得不看小说来了解这部作品。</p>
 <p>这部作品是<span style="color: rgb(17, 17, 17); background-color: rgb(255, 255, 255);">马伯庸所著，情节跌宕起伏，剧情是 上元节前夕，长安城混入可疑人员，身陷囹圄的张小敬临危受命，与少年天才李必携手在十二时辰内破除隐患。全篇运用了创新的探案剧集结构与人物关系设定，把故事嵌套在当时的世界文化中心城市长安这样一个完美的切入点。在展现跌宕紧凑的故事架构、反脸谱化的英雄人物、脑洞大开的细节设计同时，也带给观众丰富的文化价值。</span></p>
@@ -333,7 +340,8 @@
 <p>回乡的那个等到回家后，发现当 地的官员为了霸占他姐姐，残忍的杀了他们一家，他去官府上告，不到告不赢，反而被官府以马贼的名义把自己搭了进去，在问斩的时候杀死了刽子手，一路逃亡后创建了“<span style="color: rgb(17, 17, 17); background-color: rgb(255, 255, 255);">蚍蜉”组织，他们组织的宗旨是蚍蜉虽小，多了也能撼动大树。</span></p>
 <p><span style="color: rgb(17, 17, 17); background-color: rgb(255, 255, 255);">张和那个人相认，知道了蚍蜉的目的不是为了毁灭长安，而是为了杀死那些贪赃枉法的贵族高官，他们认为他们守护的大唐生病了，要给大唐治病。</span></p>
 <blockquote>
-<p><span style="color: rgb(17, 17, 17); background-color: rgb(255, 255, 255);">萧规的眼神在黑暗中变得灼灼有神：“一个人有这样的遭遇，也许是时运不济；五个人有这样的遭遇，可以说只是奸人作祟；但一百个、五百个人都有类似的遭遇，这说明这个朝廷已经病了！病入膏肓！放眼望去，一片盛世的景象，歌舞升平，其实它的根子已经烂了。需要用火和血来洗刷，让所有人警醒</span></p></blockquote>
+<p><span style="color: rgb(17, 17, 17); background-color: rgb(255, 255, 255);">萧规的眼神在黑暗中变得灼灼有神：“一个人有这样的遭遇，也许是时运不济；五个人有这样的遭遇，可以说只是奸人作祟；但一百个、五百个人都有类似的遭遇，这说明这个朝廷已经病了！病入膏肓！放眼望去，一片盛世的景象，歌舞升平，其实它的根子已经烂了。需要用火和血来洗刷，让所有人警醒</span></p>
+</blockquote>
 <p><span style="color: rgb(17, 17, 17); background-color: rgb(255, 255, 255);">到了这里，按理说张和蚍蜉现在有了共同的敌人，而张为之奔波的理由，——为了保护长安的人民的理由已经不存在了，</span><strong style="color: rgb(17, 17, 17); background-color: rgb(255, 255, 255);">但是张为了保护这些自己的仇人竟然又一次的出卖了自己的朋友。。。。。然后覆灭了</strong><span style="color: rgb(17, 17, 17); background-color: rgb(255, 255, 255);">蚍蜉组织。</span></p>
 <h2 id="关于幕后黑手"><span style="color: rgb(17, 17, 17); background-color: rgb(255, 255, 255);">关于幕后黑手</span></h2>
 <p>书中幕后的黑手，一直指向太子李亨，但是可能作者为了反转吧，生硬的把黑手转移成贺知章，又为了反转，又转译成贺知章的养子。</p>

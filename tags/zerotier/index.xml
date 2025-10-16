@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Zerotier on 老刘博客</title>
-    <link>https://iliu.org/tags/zerotier/</link>
+    <link>http://localhost:1313/tags/zerotier/</link>
     <description>Recent content in Zerotier on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.151.0</generator>
+    <generator>Hugo -- 0.151.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 24 Oct 2020 07:49:34 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/zerotier/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/zerotier/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>zerotier加openwrt路由实现内网穿透控制群晖</title>
-      <link>https://iliu.org/3356.html</link>
+      <link>http://localhost:1313/3356.html</link>
       <pubDate>Sat, 24 Oct 2020 07:49:34 +0000</pubDate>
-      <guid>https://iliu.org/3356.html</guid>
+      <guid>http://localhost:1313/3356.html</guid>
       <description>&lt;p&gt;刚开始完群晖的时候，写过一片使用zerotier进行内网穿透实现连接群晖的功能。详情《&lt;a href=&#34;https://tunan.org/2872.html&#34;&gt;使用zerotier进行内网穿透&lt;/a&gt; 》但是后来升级移动宽带，带了一个光猫的路由，导致群晖成为了内网中的内网，使用zerotier总链接不上。因此，改用了frp进行内网穿透。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>刚开始完群晖的时候，写过一片使用zerotier进行内网穿透实现连接群晖的功能。详情《<a href="https://tunan.org/2872.html">使用zerotier进行内网穿透</a> 》但是后来升级移动宽带，带了一个光猫的路由，导致群晖成为了内网中的内网，使用zerotier总链接不上。因此，改用了frp进行内网穿透。</p>
 <p>FRP和zerotier各有千秋，本站也一些文章来结束这些，有兴趣可以利用搜索来查询。昨天，发现路由器里带的又zerotier的插件。其实以前也见到过，只是觉得只是控制路由器，用处不大，所以也没有过多的理会。昨天，突发奇想，是不是在两台路由器都设置zerotier的情况下，能实现各自路由下的设备能访问另一台路由下的设备。网上查了一下，发现是可行的。而且，设置起来也要简单的多。</p>
@@ -35,9 +35,9 @@
     </item>
     <item>
       <title>使用zerotier进行内网穿透</title>
-      <link>https://iliu.org/2872.html</link>
+      <link>http://localhost:1313/2872.html</link>
       <pubDate>Wed, 27 Nov 2019 07:33:08 +0000</pubDate>
-      <guid>https://iliu.org/2872.html</guid>
+      <guid>http://localhost:1313/2872.html</guid>
       <description>&lt;p&gt;自从到手了暴风酷播之后，抽空就折腾了下NAS，目前来说系统方面已经没有什么问题了，自己需要使用的套件也基本上弄好了，唯一一个需要搞定的问题就是如何远程访问群晖，同步群晖这个问题。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>自从到手了暴风酷播之后，抽空就折腾了下NAS，目前来说系统方面已经没有什么问题了，自己需要使用的套件也基本上弄好了，唯一一个需要搞定的问题就是如何远程访问群晖，同步群晖这个问题。</p>
 <p>关于远程访问群晖，有很多的方法，比如如果你有公网IP，那就很好办，只需要一个域名就可以搞定的事情。但是如果你使用了大局域网的移动宽带，那么上述的方法是没法用的，因为移动宽带就不提供公网IP的。（至于公网IP的方法，不在本文讨论的范围内）。而跋涉者就刚好用的是移动的宽带，而且当初贪图便宜把家里的联通宽带也换成了移动的宽带，所以利用公网IP来远程访问群晖的方法是行不通了。</p>

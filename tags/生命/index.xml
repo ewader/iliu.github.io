@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>生命 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E7%94%9F%E5%91%BD/</link>
+    <link>http://localhost:1313/tags/%E7%94%9F%E5%91%BD/</link>
     <description>Recent content in 生命 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.151.0</generator>
+    <generator>Hugo -- 0.151.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 28 Jun 2019 00:04:20 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E7%94%9F%E5%91%BD/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E7%94%9F%E5%91%BD/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>生命</title>
-      <link>https://iliu.org/2220.html</link>
+      <link>http://localhost:1313/2220.html</link>
       <pubDate>Fri, 28 Jun 2019 00:04:20 +0000</pubDate>
-      <guid>https://iliu.org/2220.html</guid>
+      <guid>http://localhost:1313/2220.html</guid>
       <description>&lt;p&gt;生命是有限的，在我们身边，有许多热爱生命的人，他们用劳动创造着美好的生活，也使自己的生命充满光彩。&lt;/p&gt;
 &lt;p&gt;中国达人秀里的刘伟就是一个很好的例子。刘伟是一名残疾人，不幸被电击断了双臂，但他并没有放弃对生命的热爱。继续创造与众不同的缤纷世界。&lt;figure class=&#34;content-img-box&#34; id=&#34;2219&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>生命是有限的，在我们身边，有许多热爱生命的人，他们用劳动创造着美好的生活，也使自己的生命充满光彩。</p>

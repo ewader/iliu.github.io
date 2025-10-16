@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>生活 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E7%94%9F%E6%B4%BB/</link>
+    <link>http://localhost:1313/tags/%E7%94%9F%E6%B4%BB/</link>
     <description>Recent content in 生活 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.151.0</generator>
+    <generator>Hugo -- 0.151.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 27 Mar 2023 01:16:38 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>生活处处有惊喜</title>
-      <link>https://iliu.org/4340.html</link>
+      <link>http://localhost:1313/4340.html</link>
       <pubDate>Mon, 27 Mar 2023 01:16:38 +0000</pubDate>
-      <guid>https://iliu.org/4340.html</guid>
+      <guid>http://localhost:1313/4340.html</guid>
       <description>&lt;p&gt;记不清在哪里看到的，说生活不缺少美，只是缺少发现美的眼光。前一篇文章还说到万物皆可做蒸菜的构树花，就被我们给邂逅了。&lt;/p&gt;
 &lt;p&gt;构，别名构树，也称楮树，后者是民间常用的称呼。“构树”的名字来源于《酉阳杂俎》：“叶有瓣日楮，即叶之缺刻，叶有无缺刻是单株间的变异，今均称为构树。李时珍亦云：按许慎《说文》言楮、榖乃一种也，不必分别，惟辨雌雄耳。&lt;mark style=&#34;background-color:rgba(0, 0, 0, 0)&#34; class=&#34;has-inline-color has-luminous-vivid-orange-color&#34;&gt;雄者皮斑而叶无桠叉，三月开花成长穗，如柳花状，不结实，歉年人采花食之&lt;/mark&gt;；雌者皮白而叶有桠叉，亦开碎花，结实如杨梅，半熟时水澡去子，蜜煎作果食。二种树并易生，叶多涩毛。南人剥皮捣煮造纸，亦缉练为布，不坚易朽。&lt;figure class=&#34;wp-block-image&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>记不清在哪里看到的，说生活不缺少美，只是缺少发现美的眼光。前一篇文章还说到万物皆可做蒸菜的构树花，就被我们给邂逅了。</p>
@@ -35,9 +35,9 @@
     </item>
     <item>
       <title>白牦牛肉炖萝卜</title>
-      <link>https://iliu.org/4264.html</link>
+      <link>http://localhost:1313/4264.html</link>
       <pubDate>Mon, 03 Oct 2022 01:11:37 +0000</pubDate>
-      <guid>https://iliu.org/4264.html</guid>
+      <guid>http://localhost:1313/4264.html</guid>
       <description>&lt;p&gt;前几天，老田大爷的儿子给快递过来一些白牦牛肉，正宗的甘肃武威天祝县的白牦牛。他媳妇娘家自己弄的。挑了最好的排骨部分给发过来的。&lt;figure class=&#34;wp-block-image size-full&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;700&#34; height=&#34;456&#34; src=&#34;https://tunan.org/wp-content/uploads/2022/10/bffdd5b20756805.jpeg&#34; alt=&#34;&#34; class=&#34;wp-image-4265&#34; /&gt; &lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;要说牛肉不稀罕，豫东黄牛肉也是比较出名的，不过现在都买不到正宗的了，去菜市场买过几次牛肉自己卤，味道也还行，只不过还是感觉没有小时候的牛肉好吃，也不知道是小时候实在嘴馋还是现在肉真的变差了。&lt;/p&gt;</description>
@@ -52,9 +52,9 @@
     </item>
     <item>
       <title>疫情下的管控区的生活（二）</title>
-      <link>https://iliu.org/4023.html</link>
+      <link>http://localhost:1313/4023.html</link>
       <pubDate>Mon, 10 Jan 2022 02:30:56 +0000</pubDate>
-      <guid>https://iliu.org/4023.html</guid>
+      <guid>http://localhost:1313/4023.html</guid>
       <description>&lt;figure class=&#34;wp-block-image size-full&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;450&#34; height=&#34;192&#34; src=&#34;https://tunan.org/wp-content/uploads/2022/01/294b8b386f60c70.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-4021&#34; /&gt;&lt;/figure&gt; 
 &lt;h2 class=&#34;wp-block-heading&#34; id=&#34;封控区管控区防范区&#34;&gt;封控区、管控区、防范区&lt;/h2&gt;
 &lt;p&gt;今天又更新了关于各个区的范围，中原区增加了好几个封控区，包括我之前工作的地方，中原万达广场。感觉还是速度慢了，旁边小区的病例都已经出来三天了，才划封控区。&lt;/p&gt;</description>
@@ -73,9 +73,9 @@
     </item>
     <item>
       <title>疫情下的管控区的生活（一）</title>
-      <link>https://iliu.org/4020.html</link>
+      <link>http://localhost:1313/4020.html</link>
       <pubDate>Sun, 09 Jan 2022 00:52:26 +0000</pubDate>
-      <guid>https://iliu.org/4020.html</guid>
+      <guid>http://localhost:1313/4020.html</guid>
       <description>&lt;p&gt;每次的疫情都是突如其来，带来的除了初始的混乱之外，还有诸多的不便，特别是在管控区。&lt;figure class=&#34;wp-block-image size-full&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;450&#34; height=&#34;192&#34; src=&#34;https://tunan.org/wp-content/uploads/2022/01/294b8b386f60c70.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-4021&#34; /&gt; &lt;/figure&gt;&lt;/p&gt;
 &lt;h2 class=&#34;wp-block-heading&#34; id=&#34;快递&#34;&gt;快递&lt;/h2&gt;
@@ -94,9 +94,9 @@
     </item>
     <item>
       <title>生活因关爱而温暖</title>
-      <link>https://iliu.org/3495.html</link>
+      <link>http://localhost:1313/3495.html</link>
       <pubDate>Fri, 25 Dec 2020 09:58:36 +0000</pubDate>
-      <guid>https://iliu.org/3495.html</guid>
+      <guid>http://localhost:1313/3495.html</guid>
       <description>&lt;pre class=&#34;wp-block-verse&#34;&gt;爱是秋天里的一杯奶茶
 爱是你生病时候的一声问候
 爱是失落是一句温暖的话语
@@ -128,9 +128,9 @@
     </item>
     <item>
       <title>今冬麦盖三层被，来年枕着馒头睡</title>
-      <link>https://iliu.org/3426.html</link>
+      <link>http://localhost:1313/3426.html</link>
       <pubDate>Sat, 28 Nov 2020 02:45:00 +0000</pubDate>
-      <guid>https://iliu.org/3426.html</guid>
+      <guid>http://localhost:1313/3426.html</guid>
       <description>&lt;p&gt;“今冬麦盖三层被，来年枕着馒头睡”是流传在很多地方的一句谚语，那么这句话是说，冬天要给小麦盖被子吗？还是小麦需要大棚来防寒？这种认识可能是很多人都有的，甚至一些给小朋友科普的绘本，就这么堂而皇之的写着，“冬天给小麦盖上被子，以免小麦冻伤，来年就丰收了。！&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>“今冬麦盖三层被，来年枕着馒头睡”是流传在很多地方的一句谚语，那么这句话是说，冬天要给小麦盖被子吗？还是小麦需要大棚来防寒？这种认识可能是很多人都有的，甚至一些给小朋友科普的绘本，就这么堂而皇之的写着，“冬天给小麦盖上被子，以免小麦冻伤，来年就丰收了。！</p>
 <p><a href="https://tunan.org/wp-content/uploads/2020/11/914e92c64a59ac1.jpg"><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-3427" src="https://tunan.org/wp-content/uploads/2020/11/914e92c64a59ac1-807x1024.jpg" alt="" width="807" height="1024" srcset="https://tunan.org/wp-content/uploads/2020/11/914e92c64a59ac1-807x1024.jpg 807w, https://tunan.org/wp-content/uploads/2020/11/914e92c64a59ac1-236x300.jpg 236w, https://tunan.org/wp-content/uploads/2020/11/914e92c64a59ac1-768x974.jpg 768w, https://tunan.org/wp-content/uploads/2020/11/914e92c64a59ac1.jpg 1080w" sizes="(max-width: 807px) 100vw, 807px" /></a></p>
@@ -147,9 +147,9 @@
     </item>
     <item>
       <title>儿时遇到的几件无法解释的事情</title>
-      <link>https://iliu.org/3353.html</link>
+      <link>http://localhost:1313/3353.html</link>
       <pubDate>Fri, 23 Oct 2020 09:39:23 +0000</pubDate>
-      <guid>https://iliu.org/3353.html</guid>
+      <guid>http://localhost:1313/3353.html</guid>
       <description>&lt;p&gt;这几天晚上睡前给女儿一起读书,最近给她读的是二混子的半小时漫话系列。最近读的是漫话科学的发展。书中说地心是最早的科学——有理论，有实践，还能通过理论来解释一些问题。那也就是说，被认为科学的东西不一定就是对的，目前主流的大宇宙，力学以及量子学说等等只不过是发展到了今天，人类对大自然的认识而已，目前来说是正确的，也许未来，这些也不一定就是真理。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>这几天晚上睡前给女儿一起读书,最近给她读的是二混子的半小时漫话系列。最近读的是漫话科学的发展。书中说地心是最早的科学——有理论，有实践，还能通过理论来解释一些问题。那也就是说，被认为科学的东西不一定就是对的，目前主流的大宇宙，力学以及量子学说等等只不过是发展到了今天，人类对大自然的认识而已，目前来说是正确的，也许未来，这些也不一定就是真理。</p>
 <p><a href="https://tunan.org/wp-content/uploads/2020/10/cfcd208495d565e.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3354" src="https://tunan.org/wp-content/uploads/2020/10/cfcd208495d565e.jpg" alt="" width="606" height="393" srcset="https://tunan.org/wp-content/uploads/2020/10/cfcd208495d565e.jpg 606w, https://tunan.org/wp-content/uploads/2020/10/cfcd208495d565e-300x195.jpg 300w" sizes="(max-width: 606px) 100vw, 606px" /></a></p>
@@ -168,9 +168,9 @@
     </item>
     <item>
       <title>郑州市植物园半日游</title>
-      <link>https://iliu.org/2643.html</link>
+      <link>http://localhost:1313/2643.html</link>
       <pubDate>Mon, 02 Sep 2019 01:49:35 +0000</pubDate>
-      <guid>https://iliu.org/2643.html</guid>
+      <guid>http://localhost:1313/2643.html</guid>
       <description>&lt;p&gt;自从春节生病以来，就很少出去转了，女儿去玩一般也是由媳妇来陪同。9月1日适逢周日，由于郑州要召开民族运动会，调休了一下，本周也就周日放一天假。刚好民族运动会比赛地——奥体中心就在植物园旁边，既可以看看新建成的体院馆，又能去植物园小小的溜达一下，也是一件很不错的事情。&lt;figure class=&#34;content-img-box&#34; id=&#34;2636&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>自从春节生病以来，就很少出去转了，女儿去玩一般也是由媳妇来陪同。9月1日适逢周日，由于郑州要召开民族运动会，调休了一下，本周也就周日放一天假。刚好民族运动会比赛地——奥体中心就在植物园旁边，既可以看看新建成的体院馆，又能去植物园小小的溜达一下，也是一件很不错的事情。<figure class="content-img-box" id="2636"></p>
 <p><img decoding="async" alt="郑州市植物园半日游" src="https://tunan.org/wp-content/uploads/2019/09/1c477d652e609d.jpg" id="77BC1577" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>

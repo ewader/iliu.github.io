@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>考试成绩 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E8%80%83%E8%AF%95%E6%88%90%E7%BB%A9/</link>
+    <link>http://localhost:1313/tags/%E8%80%83%E8%AF%95%E6%88%90%E7%BB%A9/</link>
     <description>Recent content in 考试成绩 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.151.0</generator>
+    <generator>Hugo -- 0.151.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 15 Jan 2020 09:44:26 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E8%80%83%E8%AF%95%E6%88%90%E7%BB%A9/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E8%80%83%E8%AF%95%E6%88%90%E7%BB%A9/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>女儿正式放假了</title>
-      <link>https://iliu.org/3010.html</link>
+      <link>http://localhost:1313/3010.html</link>
       <pubDate>Wed, 15 Jan 2020 09:44:26 +0000</pubDate>
-      <guid>https://iliu.org/3010.html</guid>
+      <guid>http://localhost:1313/3010.html</guid>
       <description>&lt;p&gt;今天女儿返校，老师讲评卷子加散学典礼。总体来说这次考试还算可以，语文96，数学86，英语99.5。美中不足的就是数学有点不理想了。这丫头平常写作业就粗枝大叶惯了，草纸上算好的东西，往正式本上抄的时候不是点错小数点就是少抄一个数字，唉。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>今天女儿返校，老师讲评卷子加散学典礼。总体来说这次考试还算可以，语文96，数学86，英语99.5。美中不足的就是数学有点不理想了。这丫头平常写作业就粗枝大叶惯了，草纸上算好的东西，往正式本上抄的时候不是点错小数点就是少抄一个数字，唉。</p>
 <p>考前一再强调要加括号，括号前是除号或者减号的一定要变号，还算挺进脑子里了。为啥都挤破头要进名校，全班83个人，数学80分以上的就能有60来个，语文96分才排到班级第5名，90分以上的50多个。不是名校的80多分就能班级排第一了。</p>

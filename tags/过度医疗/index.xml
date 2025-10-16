@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>过度医疗 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E8%BF%87%E5%BA%A6%E5%8C%BB%E7%96%97/</link>
+    <link>http://localhost:1313/tags/%E8%BF%87%E5%BA%A6%E5%8C%BB%E7%96%97/</link>
     <description>Recent content in 过度医疗 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.151.0</generator>
+    <generator>Hugo -- 0.151.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 04 Jul 2019 01:55:29 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E8%BF%87%E5%BA%A6%E5%8C%BB%E7%96%97/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E8%BF%87%E5%BA%A6%E5%8C%BB%E7%96%97/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>关于青岛某医院大夫事件的一些感想</title>
-      <link>https://iliu.org/2236.html</link>
+      <link>http://localhost:1313/2236.html</link>
       <pubDate>Thu, 04 Jul 2019 01:55:29 +0000</pubDate>
-      <guid>https://iliu.org/2236.html</guid>
+      <guid>http://localhost:1313/2236.html</guid>
       <description>&lt;p&gt;早上，头条上看到了青岛某医院大夫收病人水果，家属看病插队以及过度医疗等问题，看网上的评论是一边倒的黑医院及医生，然后就想说说我的感想。&lt;/p&gt;
 &lt;p&gt;事情的起因是这位大夫有个坑夫的老婆，可能是处于炫耀的心理（看孩子才出生，应该是个90后的），把丈夫收病人水果，她们去看病插队以及给出租车司机过度医疗等等都写到博客里，貌似这个女的还是个卖水果的网红，好像是卖给别人腐烂的水果还不愿意售后，结果被人扒出来了，我对这样的人一点也不表示同情，只能说不作不死。但是对于医疗行业的这些现象想说道说道。&lt;figure class=&#34;content-img-box&#34; id=&#34;2235&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>早上，头条上看到了青岛某医院大夫收病人水果，家属看病插队以及过度医疗等问题，看网上的评论是一边倒的黑医院及医生，然后就想说说我的感想。</p>

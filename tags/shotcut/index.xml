@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Shotcut on 老刘博客</title>
-    <link>https://iliu.org/tags/shotcut/</link>
+    <link>http://localhost:1313/tags/shotcut/</link>
     <description>Recent content in Shotcut on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.151.0</generator>
+    <generator>Hugo -- 0.151.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 06 Dec 2019 02:37:53 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/shotcut/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/shotcut/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>推荐一款免费的视频剪辑软件shotcut</title>
-      <link>https://iliu.org/2914.html</link>
+      <link>http://localhost:1313/2914.html</link>
       <pubDate>Fri, 06 Dec 2019 02:37:53 +0000</pubDate>
-      <guid>https://iliu.org/2914.html</guid>
+      <guid>http://localhost:1313/2914.html</guid>
       <description>&lt;p&gt;跋涉者最近在弄另一个网站的时候，需要把一些长的视频剪辑成一个短的预览视频，这样没有权限看的人，只能看到短视频，而支付积分后则可以看完整的视频。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>跋涉者最近在弄另一个网站的时候，需要把一些长的视频剪辑成一个短的预览视频，这样没有权限看的人，只能看到短视频，而支付积分后则可以看完整的视频。</p>
 <p>由于以前一只没有用过此类的软件，因此要求这类软件越简单越好，越容易上手，学习成本越低最理想，可是找了不少，要不是收费的，价格很贵，要不软件很大，功能多的不知道如何下手，要不打开都是广告，一直没有找到理想的，最后，寻寻觅觅终于找到了这款比较满意的——shotcut。<figure class="wp-block-image size-large"></p>

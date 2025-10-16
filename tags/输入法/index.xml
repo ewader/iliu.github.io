@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>输入法 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E8%BE%93%E5%85%A5%E6%B3%95/</link>
+    <link>http://localhost:1313/tags/%E8%BE%93%E5%85%A5%E6%B3%95/</link>
     <description>Recent content in 输入法 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.151.0</generator>
+    <generator>Hugo -- 0.151.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 07 Feb 2024 20:28:26 +0800</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E8%BE%93%E5%85%A5%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E8%BE%93%E5%85%A5%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>使用Fcitx5 for Android，读《万历十五年》</title>
-      <link>https://iliu.org/posts/use-fcitx5-andriod-input/</link>
+      <link>http://localhost:1313/posts/use-fcitx5-andriod-input/</link>
       <pubDate>Wed, 07 Feb 2024 20:28:26 +0800</pubDate>
-      <guid>https://iliu.org/posts/use-fcitx5-andriod-input/</guid>
+      <guid>http://localhost:1313/posts/use-fcitx5-andriod-input/</guid>
       <description>&lt;p&gt;最近女儿放假了，忙着辅导她的功课，毕竟初三了，加上期末考试的成绩不是很理想，所以寒假是要努力的时候了。在这期间读书也少了，只读了《万历十五年》这本历史书，另外就是在看了1900的博客后，把手机的输入法改成了Fcitx5 for Android，并且安装rime插件，使用雾凇拼音词库；这样手机就和电脑使用同一个词库了。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>最近女儿放假了，忙着辅导她的功课，毕竟初三了，加上期末考试的成绩不是很理想，所以寒假是要努力的时候了。在这期间读书也少了，只读了《万历十五年》这本历史书，另外就是在看了1900的博客后，把手机的输入法改成了Fcitx5 for Android，并且安装rime插件，使用雾凇拼音词库；这样手机就和电脑使用同一个词库了。</p>
 <h2 id="手机安装并fcitx5-for-android">手机安装并Fcitx5 for Android</h2>
@@ -36,9 +36,9 @@
     </item>
     <item>
       <title>开始试用小狼毫输入法</title>
-      <link>https://iliu.org/4357.html</link>
+      <link>http://localhost:1313/4357.html</link>
       <pubDate>Fri, 14 Apr 2023 04:24:52 +0000</pubDate>
-      <guid>https://iliu.org/4357.html</guid>
+      <guid>http://localhost:1313/4357.html</guid>
       <description>&lt;p&gt;自从用到win10以来，就开始懒得安装输入法了，毕竟微软拼音已经可以胜任很多的输入了。不过微软输入法有一点不太能容忍的bug是，偶尔会卡系统，不过也没有太放在心上。&lt;figure class=&#34;wp-block-image&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>自从用到win10以来，就开始懒得安装输入法了，毕竟微软拼音已经可以胜任很多的输入了。不过微软输入法有一点不太能容忍的bug是，偶尔会卡系统，不过也没有太放在心上。<figure class="wp-block-image"></p>
 <p><img decoding="async" src="https://cdn.staticaly.com/gh/ewader/img@master/20230414/xxx.3rkz4ingrpg0.webp" alt="xxx" /> </figure></p>
@@ -53,9 +53,9 @@
     </item>
     <item>
       <title>manjaro安装配置fcitx5输入法</title>
-      <link>https://iliu.org/4016.html</link>
+      <link>http://localhost:1313/4016.html</link>
       <pubDate>Thu, 06 Jan 2022 09:38:19 +0000</pubDate>
-      <guid>https://iliu.org/4016.html</guid>
+      <guid>http://localhost:1313/4016.html</guid>
       <description>&lt;p&gt;网上很多文章都说manjaro多么的牛叉，软件如何的多，如何的稳定，滚动更新如何的方便等等等等。下午没事，在一台不怎么用的电脑上试用了一下这个系统。&lt;figure class=&#34;wp-block-image size-full&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>网上很多文章都说manjaro多么的牛叉，软件如何的多，如何的稳定，滚动更新如何的方便等等等等。下午没事，在一台不怎么用的电脑上试用了一下这个系统。<figure class="wp-block-image size-full"></p>
 <p><img loading="lazy" decoding="async" width="1920" height="1080" src="https://tunan.org/wp-content/uploads/2022/01/c6945447f0fce29.jpeg" alt="" class="wp-image-4017" srcset="https://tunan.org/wp-content/uploads/2022/01/c6945447f0fce29.jpeg 1920w, https://tunan.org/wp-content/uploads/2022/01/c6945447f0fce29-768x432.jpeg 768w, https://tunan.org/wp-content/uploads/2022/01/c6945447f0fce29-1536x864.jpeg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /> </figure></p>
@@ -86,9 +86,9 @@ sudo pacman -S fcitx5-pinyin-moegirl
     </item>
     <item>
       <title>ubuntu20.04开机亮度最大的解决方法及输入法设置</title>
-      <link>https://iliu.org/3951.html</link>
+      <link>http://localhost:1313/3951.html</link>
       <pubDate>Mon, 20 Dec 2021 09:20:38 +0000</pubDate>
-      <guid>https://iliu.org/3951.html</guid>
+      <guid>http://localhost:1313/3951.html</guid>
       <description>&lt;p&gt;从很久以前UBUNTU就有一个毛病，有些电脑安装后，开机后屏幕的亮度会是最大。据说从很低的一个版本都有这样bug存在，但是不知道为啥官方一直都没有修复。不过网上也有很多的教程，试用了一下，有些有用，有些没用，直到扒到了一个很老的文章，上面记载的一个很简单的方法，却解决了这样一个问题。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>从很久以前UBUNTU就有一个毛病，有些电脑安装后，开机后屏幕的亮度会是最大。据说从很低的一个版本都有这样bug存在，但是不知道为啥官方一直都没有修复。不过网上也有很多的教程，试用了一下，有些有用，有些没用，直到扒到了一个很老的文章，上面记载的一个很简单的方法，却解决了这样一个问题。</p>
 <p>别的不说，直接上代码，照着做就行了：</p>
@@ -113,9 +113,9 @@ sudo update-grub</code> 最后一步一定要做。另外<code class="language-b
     </item>
     <item>
       <title>百度输入法小测</title>
-      <link>https://iliu.org/943.html</link>
+      <link>http://localhost:1313/943.html</link>
       <pubDate>Wed, 27 Oct 2010 01:43:35 +0000</pubDate>
-      <guid>https://iliu.org/943.html</guid>
+      <guid>http://localhost:1313/943.html</guid>
       <description>&lt;p&gt;由于黑莓手机上使用的是百度输入法，感觉还不错。（不错的原因是没有比较）所以再百度电脑版的输入法出来伊始，就装上体验了一番&lt;/p&gt;
 &lt;p&gt;百度输入法的优点是：占用的资源比较下，占用的磁盘空间只有30多M，比搜狗的要小的多了，不过和google的差不多。其他方面可能是测试版的原因，没有发现更具有的优势。所具有的功能比的也都有了，而且最重要的是，不太稳定，有时候会出现白屏的现象以及找不到词库。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>由于黑莓手机上使用的是百度输入法，感觉还不错。（不错的原因是没有比较）所以再百度电脑版的输入法出来伊始，就装上体验了一番</p>

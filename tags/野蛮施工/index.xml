@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>野蛮施工 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E9%87%8E%E8%9B%AE%E6%96%BD%E5%B7%A5/</link>
+    <link>http://localhost:1313/tags/%E9%87%8E%E8%9B%AE%E6%96%BD%E5%B7%A5/</link>
     <description>Recent content in 野蛮施工 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.151.0</generator>
+    <generator>Hugo -- 0.151.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 06 Jan 2021 06:39:31 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E9%87%8E%E8%9B%AE%E6%96%BD%E5%B7%A5/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E9%87%8E%E8%9B%AE%E6%96%BD%E5%B7%A5/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>水管被挖断了</title>
-      <link>https://iliu.org/3551.html</link>
+      <link>http://localhost:1313/3551.html</link>
       <pubDate>Wed, 06 Jan 2021 06:39:31 +0000</pubDate>
-      <guid>https://iliu.org/3551.html</guid>
+      <guid>http://localhost:1313/3551.html</guid>
       <description>&lt;p&gt;早上起床，照例拿着杯子来到水龙头前接水刷牙，可是水龙头拧开了，水却没有流出来。事先也没有收到任何停水得通知，心想可能天气太冷，把某个地方得水管冻裂了。当然，早餐也就牛奶加面包草草得对付了两口。&lt;figure class=&#34;wp-block-image size-large&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>早上起床，照例拿着杯子来到水龙头前接水刷牙，可是水龙头拧开了，水却没有流出来。事先也没有收到任何停水得通知，心想可能天气太冷，把某个地方得水管冻裂了。当然，早餐也就牛奶加面包草草得对付了两口。<figure class="wp-block-image size-large"></p>
 <p><a href="https://tunan.org/wp-content/uploads/2021/01/1b2c8bda506b76a.jpg"><img loading="lazy" decoding="async" width="768" height="1024" src="https://tunan.org/wp-content/uploads/2021/01/1b2c8bda506b76a.jpg" alt="" class="wp-image-3581" srcset="https://tunan.org/wp-content/uploads/2021/01/1b2c8bda506b76a.jpg 768w, https://tunan.org/wp-content/uploads/2021/01/1b2c8bda506b76a-225x300.jpg 225w" sizes="(max-width: 768px) 100vw, 768px" /></a></figure></p>

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>古诗 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E5%8F%A4%E8%AF%97/</link>
+    <link>http://localhost:1313/tags/%E5%8F%A4%E8%AF%97/</link>
     <description>Recent content in 古诗 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.151.0</generator>
+    <generator>Hugo -- 0.151.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 07 Sep 2021 00:14:28 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E5%8F%A4%E8%AF%97/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E5%8F%A4%E8%AF%97/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>蒹葭这首诗是一首爱情诗吗？</title>
-      <link>https://iliu.org/3890.html</link>
+      <link>http://localhost:1313/3890.html</link>
       <pubDate>Tue, 07 Sep 2021 00:14:28 +0000</pubDate>
-      <guid>https://iliu.org/3890.html</guid>
+      <guid>http://localhost:1313/3890.html</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;蒹葭苍苍，白露为霜。所谓伊人，在水一方。&lt;/p&gt;
 &lt;p&gt;溯洄从之，道阻且长。溯游从之，宛在水中央。&lt;/p&gt;
@@ -30,7 +30,8 @@
 <p>溯洄从之，道阻且跻。溯游从之，宛在水中坻。</p>
 <p>蒹葭采采，白露未已。所谓伊人，在水之涘。</p>
 <p>溯洄从之，道阻且右。溯游从之，宛在水中沚。</p>
-<p>——《秦风·蒹葭》</p></blockquote>
+<p>——《秦风·蒹葭》</p>
+</blockquote>
 <p>昨天晚上和女儿玩古诗飞花令的接龙游戏，飞的是一个“白”字。话说随着女儿古诗词背诵量的增多，我脑子里的这点诗的储备是捉襟见肘。以前玩这个游戏赢她是很轻松的，现在很多时候，我已经不是对手了。</p>
 <p>在玩的时候，脑海里忽然出现了这首“蒹葭”，于是立刻对了一句“蒹葭苍苍，白露为霜”。女儿说，你也知道这首诗啊。</p>
 <figure id="attachment_3891" aria-describedby="caption-attachment-3891" style="width: 552px" class="wp-caption alignnone"><img loading="lazy" decoding="async" class="size-full wp-image-3891" src="https://tunan.org/wp-content/uploads/2021/09/11341S423-0.jpg" alt="" width="552" height="364" /><figcaption id="caption-attachment-3891" class="wp-caption-text">图片来源：网络 侵删</figcaption></figure>

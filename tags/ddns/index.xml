@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Ddns on 老刘博客</title>
-    <link>https://iliu.org/tags/ddns/</link>
+    <link>http://localhost:1313/tags/ddns/</link>
     <description>Recent content in Ddns on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.151.0</generator>
+    <generator>Hugo -- 0.151.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 30 Dec 2021 02:47:58 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/ddns/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/ddns/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>没有公网IP也能玩转群晖DDNS</title>
-      <link>https://iliu.org/3997.html</link>
+      <link>http://localhost:1313/3997.html</link>
       <pubDate>Thu, 30 Dec 2021 02:47:58 +0000</pubDate>
-      <guid>https://iliu.org/3997.html</guid>
+      <guid>http://localhost:1313/3997.html</guid>
       <description>&lt;p&gt;我们知道，玩群晖，没有公网IP，可玩性就下降很多，虽然可以用QuickConnect，但是速度还是不太理想。其他的&lt;a href=&#34;https://tunan.org/?s=%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F&#34;&gt;内网穿透&lt;/a&gt;啊，&lt;a href=&#34;https://tunan.org/?s=zero&#34;&gt;zerotier&lt;/a&gt;等等都有不方便之处。老刘也曾记下折腾这些东西的过程。有兴趣的可以参考。&lt;/p&gt;
 &lt;p&gt;今天老刘说的是DDNS，这个是需要公网IP的，而我们一说公网IP，其实都是说的IPV4的ip地址，这个目前全球都稀缺，移动是不用想了，联通和电信个别地方还能申请到。老刘一直用的是移动的宽带，以前用zerotier，后来就用qc来凑合着用。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>我们知道，玩群晖，没有公网IP，可玩性就下降很多，虽然可以用QuickConnect，但是速度还是不太理想。其他的<a href="https://tunan.org/?s=%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F">内网穿透</a>啊，<a href="https://tunan.org/?s=zero">zerotier</a>等等都有不方便之处。老刘也曾记下折腾这些东西的过程。有兴趣的可以参考。</p>

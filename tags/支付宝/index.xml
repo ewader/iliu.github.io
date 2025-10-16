@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>支付宝 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E6%94%AF%E4%BB%98%E5%AE%9D/</link>
+    <link>http://localhost:1313/tags/%E6%94%AF%E4%BB%98%E5%AE%9D/</link>
     <description>Recent content in 支付宝 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.151.0</generator>
+    <generator>Hugo -- 0.151.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 10 Aug 2022 00:49:32 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E6%94%AF%E4%BB%98%E5%AE%9D/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E6%94%AF%E4%BB%98%E5%AE%9D/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>关闭支付宝蚂蚁新村</title>
-      <link>https://iliu.org/4222.html</link>
+      <link>http://localhost:1313/4222.html</link>
       <pubDate>Wed, 10 Aug 2022 00:49:32 +0000</pubDate>
-      <guid>https://iliu.org/4222.html</guid>
+      <guid>http://localhost:1313/4222.html</guid>
       <description>&lt;p&gt;支付宝有个小游戏，叫蚂蚁新村，里面是一个农家小院，刚开始是茅草房，后来随着收入的增多，慢慢扩建，变成小别墅。期间可以把收入捐赠出去，每捐助一次，可以帮助一个人学习一样技能致富。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>支付宝有个小游戏，叫蚂蚁新村，里面是一个农家小院，刚开始是茅草房，后来随着收入的增多，慢慢扩建，变成小别墅。期间可以把收入捐赠出去，每捐助一次，可以帮助一个人学习一样技能致富。</p>
 <p>支付宝从蚂蚁森林开始，把小游戏和公益结合起来，做的是有声有色。至于为什么要把蚂蚁新村关闭，是因为最近升级了。</p>
@@ -27,9 +27,9 @@
     </item>
     <item>
       <title>支付宝申请ETC的体验</title>
-      <link>https://iliu.org/2825.html</link>
+      <link>http://localhost:1313/2825.html</link>
       <pubDate>Thu, 24 Oct 2019 04:58:08 +0000</pubDate>
-      <guid>https://iliu.org/2825.html</guid>
+      <guid>http://localhost:1313/2825.html</guid>
       <description>&lt;p&gt;这段时间本来处于很尴尬地位的ETC在国家相关政策的指引下，成功的变成了各路的宠儿，各个机构都上杆子的免费送。甚至，国家的政策还被很多别有用心的媒体、自媒体解读为不申请ETC，逢年过节的高速费都不免了。虽然，后来也有媒体出来辟谣，但也从中可以看到，今年ECT的势头。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>这段时间本来处于很尴尬地位的ETC在国家相关政策的指引下，成功的变成了各路的宠儿，各个机构都上杆子的免费送。甚至，国家的政策还被很多别有用心的媒体、自媒体解读为不申请ETC，逢年过节的高速费都不免了。虽然，后来也有媒体出来辟谣，但也从中可以看到，今年ECT的势头。</p>
 <p><a href="https://tunan.org/wp-content/uploads/2019/10/9904edd1f469443.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2827" src="https://tunan.org/wp-content/uploads/2019/10/9904edd1f469443.jpg" alt="" width="300" height="225" /></a>国庆的时候上高速，看到收费站，看到ETC的口已经是大多数了，车辆通行的也很流畅，于是和老婆提了一句，回头也装个ETC，后来又觉得要去银行弄，比较麻烦，也就不了了之了。</p>
@@ -43,9 +43,9 @@
     </item>
     <item>
       <title>郑州市灵活就业人员医保欠费后处理</title>
-      <link>https://iliu.org/2231.html</link>
+      <link>http://localhost:1313/2231.html</link>
       <pubDate>Tue, 02 Jul 2019 08:30:08 +0000</pubDate>
-      <guid>https://iliu.org/2231.html</guid>
+      <guid>http://localhost:1313/2231.html</guid>
       <description>&lt;p&gt;昨天，媳妇在给我办理出院的时候发现医保卡被停掉了。才意识到由于地税部门和支付宝之间不知道出现了什么问题导致支付宝不能按时缴纳社保及医保费用，已经欠费两个月了。之前的时候也想去社保局问问怎么回事，后来由于身体及其他原因（其实就是懒）没有去成，这才导致没法办理出院。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>昨天，媳妇在给我办理出院的时候发现医保卡被停掉了。才意识到由于地税部门和支付宝之间不知道出现了什么问题导致支付宝不能按时缴纳社保及医保费用，已经欠费两个月了。之前的时候也想去社保局问问怎么回事，后来由于身体及其他原因（其实就是懒）没有去成，这才导致没法办理出院。</p>
 <p>从网上查了一下，网上众说纷纭，有说停保后不给报销的，有说第二个月给报销的，还有说要再缴费半年后才能报销的，其实这些说法都不对，根据郑州市职工医疗保险最新的规定，欠费3个月内，只要足额补缴医保费，是不影响报销的，如果欠费3个月以上的话，就按自动退保处理了，再次参保，就要到下个月才能生效了。<figure class="content-img-box" id="2230"></p>

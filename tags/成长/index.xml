@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>成长 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E6%88%90%E9%95%BF/</link>
+    <link>http://localhost:1313/tags/%E6%88%90%E9%95%BF/</link>
     <description>Recent content in 成长 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.151.0</generator>
+    <generator>Hugo -- 0.151.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 22 Dec 2021 09:06:06 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E6%88%90%E9%95%BF/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E6%88%90%E9%95%BF/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>每次的经历，都是一种成长</title>
-      <link>https://iliu.org/3956.html</link>
+      <link>http://localhost:1313/3956.html</link>
       <pubDate>Wed, 22 Dec 2021 09:06:06 +0000</pubDate>
-      <guid>https://iliu.org/3956.html</guid>
+      <guid>http://localhost:1313/3956.html</guid>
       <description>&lt;p&gt;昨天女儿中午放学回来，感觉不太开心，问了下原因，还是因为排座位的事情，说着说着，甚至委屈的哭了起来，这是因为座位的问题，第二次流泪了。&lt;/p&gt;
 &lt;p&gt;目前女儿班里排座位的规则是按照小组内计分牌的数量多少来挑选座位，两周重新调整座位。数量多的优先选。计分牌根据优秀作业，课堂表现等获得，被批评或者作业不合格要扣计分牌。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>昨天女儿中午放学回来，感觉不太开心，问了下原因，还是因为排座位的事情，说着说着，甚至委屈的哭了起来，这是因为座位的问题，第二次流泪了。</p>
@@ -32,9 +32,9 @@
     </item>
     <item>
       <title>书香伴我成长</title>
-      <link>https://iliu.org/3273.html</link>
+      <link>http://localhost:1313/3273.html</link>
       <pubDate>Sun, 20 Sep 2020 12:18:23 +0000</pubDate>
-      <guid>https://iliu.org/3273.html</guid>
+      <guid>http://localhost:1313/3273.html</guid>
       <description>&lt;p&gt;书，是一把钥匙，开启智慧的大门；&lt;/p&gt;
 &lt;p&gt;书，是一盏路灯，照亮前行的道路；&lt;/p&gt;
 &lt;p&gt;书，是一颗牵牛花，驱散心中的阴霾；&lt;/p&gt;

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>女儿 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E5%A5%B3%E5%84%BF/</link>
+    <link>http://localhost:1313/tags/%E5%A5%B3%E5%84%BF/</link>
     <description>Recent content in 女儿 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.151.0</generator>
+    <generator>Hugo -- 0.151.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 11 Aug 2024 14:05:03 +0800</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E5%A5%B3%E5%84%BF/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E5%A5%B3%E5%84%BF/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>可怜天下父母心</title>
-      <link>https://iliu.org/posts/parents-hearts-full-love-children/</link>
+      <link>http://localhost:1313/posts/parents-hearts-full-love-children/</link>
       <pubDate>Sun, 11 Aug 2024 14:05:03 +0800</pubDate>
-      <guid>https://iliu.org/posts/parents-hearts-full-love-children/</guid>
+      <guid>http://localhost:1313/posts/parents-hearts-full-love-children/</guid>
       <description>&lt;p&gt;女儿昨天开始了一周的军训，时间安排的挺紧。通知要求早上8：00-9：00学生报到，家离学校将近50公里，开车走高架加高速也要50分钟的时间，所以，一家人6点就起床了，小区门口的早餐店买了胡辣汤豆腐脑以及菜角糖糕茶叶蛋，简单的一顿早餐后就出发了。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>女儿昨天开始了一周的军训，时间安排的挺紧。通知要求早上8：00-9：00学生报到，家离学校将近50公里，开车走高架加高速也要50分钟的时间，所以，一家人6点就起床了，小区门口的早餐店买了胡辣汤豆腐脑以及菜角糖糕茶叶蛋，简单的一顿早餐后就出发了。</p>
 <p>7点40到达学校门口，发现已经排了挺长的队了。等取行李的时候发现给女儿准备的凉席没有带，这个时候也没法回去取了，好在不影响什么，带的有褥子，唯一不好的地方是没有凉席在下面，床单不容易铺平。原来通知的是男家长不能进女生宿舍，后来看也没有人管，另外带的东西也确实多，就一起进去了，说实话，这是长这么大第一次进女生宿舍。学校有点不地道，宣传的时候是宿舍4人间，上铺下桌，但是不声不响的，改成了6人间。高二高三的还是4人间，不过根据学校安排的作息时间（5：50起床，中午1小时的午休，下午时间一直到晚上10点20放学），课桌也确实没有啥用，还不如柜子来的实在。也就是不和学校计较了，关键是计较也没用。</p>
@@ -29,9 +29,9 @@
     </item>
     <item>
       <title>To My Daughter</title>
-      <link>https://iliu.org/posts/to-my-daughter/</link>
+      <link>http://localhost:1313/posts/to-my-daughter/</link>
       <pubDate>Fri, 21 Jun 2024 21:20:24 +0800</pubDate>
-      <guid>https://iliu.org/posts/to-my-daughter/</guid>
+      <guid>http://localhost:1313/posts/to-my-daughter/</guid>
       <description>&lt;p&gt;亲爱的女儿：&lt;/p&gt;
 &lt;p&gt;明天，你将走进中考的考场，迎接人生的一次重要挑战。作为父母，我们为你感到无比自豪，也深知你为了这一刻付出了多少努力。今天，爸爸想借这篇文章，向你表达爸妈对你的鼓励和支持，也希望你能永远铭记这段经历，让它成为你成长路上宝贵的财富。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>亲爱的女儿：</p>
@@ -46,9 +46,9 @@
     </item>
     <item>
       <title>每次的经历，都是一种成长</title>
-      <link>https://iliu.org/3956.html</link>
+      <link>http://localhost:1313/3956.html</link>
       <pubDate>Wed, 22 Dec 2021 09:06:06 +0000</pubDate>
-      <guid>https://iliu.org/3956.html</guid>
+      <guid>http://localhost:1313/3956.html</guid>
       <description>&lt;p&gt;昨天女儿中午放学回来，感觉不太开心，问了下原因，还是因为排座位的事情，说着说着，甚至委屈的哭了起来，这是因为座位的问题，第二次流泪了。&lt;/p&gt;
 &lt;p&gt;目前女儿班里排座位的规则是按照小组内计分牌的数量多少来挑选座位，两周重新调整座位。数量多的优先选。计分牌根据优秀作业，课堂表现等获得，被批评或者作业不合格要扣计分牌。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>昨天女儿中午放学回来，感觉不太开心，问了下原因，还是因为排座位的事情，说着说着，甚至委屈的哭了起来，这是因为座位的问题，第二次流泪了。</p>
@@ -63,9 +63,9 @@
     </item>
     <item>
       <title>女儿也是初中生了</title>
-      <link>https://iliu.org/3853.html</link>
+      <link>http://localhost:1313/3853.html</link>
       <pubDate>Sat, 28 Aug 2021 13:30:28 +0000</pubDate>
-      <guid>https://iliu.org/3853.html</guid>
+      <guid>http://localhost:1313/3853.html</guid>
       <description>&lt;p&gt;流光容易把人抛，红了樱桃，绿了芭蕉。&lt;/p&gt;
 &lt;p&gt;感觉还没有做好准备了，已经是一位初中生的爸爸了。&lt;/p&gt;
 &lt;p&gt;现在孩子上个学，真不容易。每个阶段都想给孩子弄最好的学校。好在女儿的成绩还不错，6月底的时候，多家学校打电话，甚至有一个学校还开出了免食宿，给分配生（后来又变成尽量协调），校长亲自抓的卓越班的条件，不过后来权衡了一下，还是选择了另外一所初中。&lt;/p&gt;</description>
@@ -86,9 +86,9 @@
     </item>
     <item>
       <title>祝女儿生日快乐</title>
-      <link>https://iliu.org/3182.html</link>
+      <link>http://localhost:1313/3182.html</link>
       <pubDate>Thu, 11 Jun 2020 02:43:42 +0000</pubDate>
-      <guid>https://iliu.org/3182.html</guid>
+      <guid>http://localhost:1313/3182.html</guid>
       <description>&lt;p&gt;今天是6月11日，女儿在11年前的今天呱呱坠地。当时的情景仿佛就在昨日，转眼间，你已经长大，爸爸妈妈也已经慢慢的变老。心中有千言万语，可一时又不知道从何说起。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>今天是6月11日，女儿在11年前的今天呱呱坠地。当时的情景仿佛就在昨日，转眼间，你已经长大，爸爸妈妈也已经慢慢的变老。心中有千言万语，可一时又不知道从何说起。</p>
 <p>你一向是一个乖巧懂事的孩子。从小也基本上没有让爸爸妈妈费太多的心。上学后，虽然成绩在班里不是很拔尖，但也算是第一梯队的。这就够了，希望你能一直保持住这个成绩。</p>
@@ -100,9 +100,9 @@
     </item>
     <item>
       <title>女儿正式放假了</title>
-      <link>https://iliu.org/3010.html</link>
+      <link>http://localhost:1313/3010.html</link>
       <pubDate>Wed, 15 Jan 2020 09:44:26 +0000</pubDate>
-      <guid>https://iliu.org/3010.html</guid>
+      <guid>http://localhost:1313/3010.html</guid>
       <description>&lt;p&gt;今天女儿返校，老师讲评卷子加散学典礼。总体来说这次考试还算可以，语文96，数学86，英语99.5。美中不足的就是数学有点不理想了。这丫头平常写作业就粗枝大叶惯了，草纸上算好的东西，往正式本上抄的时候不是点错小数点就是少抄一个数字，唉。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>今天女儿返校，老师讲评卷子加散学典礼。总体来说这次考试还算可以，语文96，数学86，英语99.5。美中不足的就是数学有点不理想了。这丫头平常写作业就粗枝大叶惯了，草纸上算好的东西，往正式本上抄的时候不是点错小数点就是少抄一个数字，唉。</p>
 <p>考前一再强调要加括号，括号前是除号或者减号的一定要变号，还算挺进脑子里了。为啥都挤破头要进名校，全班83个人，数学80分以上的就能有60来个，语文96分才排到班级第5名，90分以上的50多个。不是名校的80多分就能班级排第一了。</p>
@@ -110,9 +110,9 @@
     </item>
     <item>
       <title>孩子确实董事了</title>
-      <link>https://iliu.org/1279.html</link>
+      <link>http://localhost:1313/1279.html</link>
       <pubDate>Sun, 04 Sep 2011 03:19:51 +0000</pubDate>
-      <guid>https://iliu.org/1279.html</guid>
+      <guid>http://localhost:1313/1279.html</guid>
       <description>&lt;p&gt;昨天，老婆回娘家了，毕竟中秋节就要到了，再加上丈母娘有点不舒服，因此，老婆回去看看！考虑到颖颖坐车晕车的现状，决定不让她回去了，只老婆一人回去！&lt;br&gt;
 &lt;a href=&#34;https://tunan.org/wp-content/uploads/2019/08/1452db79e47695.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;900&#34; height=&#34;454&#34; src=&#34;https://tunan.org/wp-content/uploads/2019/08/1452db79e47695.jpg&#34; alt=&#34;&#34; class=&#34;aligncenter size-full wp-image-2591&#34; srcset=&#34;https://tunan.org/wp-content/uploads/2019/08/1452db79e47695.jpg 900w, https://tunan.org/wp-content/uploads/2019/08/1452db79e47695-768x387.jpg 768w&#34; sizes=&#34;(max-width: 900px) 100vw, 900px&#34; /&gt;&lt;/a&gt;&lt;br&gt;
 晚上回到家的时候，小妮子还没有睡觉，等我吃完饭后，小家伙闹着要和奶奶一起睡，商量了半天，还是不愿意，甚至闭上眼睛，假装睡觉！最后只好用杀手锏，陪她一起看电脑上的动画片，看了有20多分钟的样子，小家伙满意了，愿意去睡觉了，扔到床上没有半分钟，酣然入梦，嘎嘎！&lt;br&gt;
@@ -125,18 +125,18 @@
     </item>
     <item>
       <title>女儿1岁半的成长数据</title>
-      <link>https://iliu.org/1035.html</link>
+      <link>http://localhost:1313/1035.html</link>
       <pubDate>Wed, 15 Dec 2010 13:57:03 +0000</pubDate>
-      <guid>https://iliu.org/1035.html</guid>
+      <guid>http://localhost:1313/1035.html</guid>
       <description>&lt;p&gt;今天严冬，狂风大作，带着女儿去医院看她的成长数据，经过一系列的检查，结论如下，体重20斤，身高82cm，有点缺钙的症状，其他正常。看来要增加妞的体重了。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>今天严冬，狂风大作，带着女儿去医院看她的成长数据，经过一系列的检查，结论如下，体重20斤，身高82cm，有点缺钙的症状，其他正常。看来要增加妞的体重了。</p>
 ]]></content:encoded>
     </item>
     <item>
       <title>老爸老妈回天水了</title>
-      <link>https://iliu.org/968.html</link>
+      <link>http://localhost:1313/968.html</link>
       <pubDate>Mon, 01 Nov 2010 13:29:45 +0000</pubDate>
-      <guid>https://iliu.org/968.html</guid>
+      <guid>http://localhost:1313/968.html</guid>
       <description>&lt;p&gt;上周五，老爸老妈回天水了，主要是前年我买房子的时候欠了一些账，现在老爸的单位要集资建房，到了该还给人家的时候了。&lt;br&gt;
 他们走了，女儿由谁来看就是一个很急需要解决的问题，所幸的是女儿的姥姥来家里了，来了以后女儿表现的很好，也和姥姥玩，所以老爸他们很放心的走了，可惜的是好景不长，女儿由于和她姥姥还不熟吧，每天下午就开始闹，找爷爷找奶奶找爸爸找妈妈，唉！头疼！&lt;br&gt;
 我该怎么办？&lt;/p&gt;</description>
@@ -147,9 +147,9 @@
     </item>
     <item>
       <title>眼 不带 病 药 苦  盖盖</title>
-      <link>https://iliu.org/942.html</link>
+      <link>http://localhost:1313/942.html</link>
       <pubDate>Tue, 26 Oct 2010 13:19:12 +0000</pubDate>
-      <guid>https://iliu.org/942.html</guid>
+      <guid>http://localhost:1313/942.html</guid>
       <description>&lt;p&gt;这句话是女儿每次被我抱在怀里指着我的眼镜所说的一句话。现在我就给翻译一下。&lt;br&gt;
 这句话的意思是什么呢？注意了，意思是爸爸戴着眼镜 颖颖没有戴，爸爸生病了，要吃药，爸爸吃的药很苦，爸爸吃的药瓶上有个盖盖。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>这句话是女儿每次被我抱在怀里指着我的眼镜所说的一句话。现在我就给翻译一下。<br>
@@ -158,27 +158,27 @@
     </item>
     <item>
       <title>女儿长大了</title>
-      <link>https://iliu.org/899.html</link>
+      <link>http://localhost:1313/899.html</link>
       <pubDate>Tue, 21 Sep 2010 05:34:46 +0000</pubDate>
-      <guid>https://iliu.org/899.html</guid>
+      <guid>http://localhost:1313/899.html</guid>
       <description>&lt;p&gt;女儿真的长大了，明白了不少的道理，就是有点任性和脾气大&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>女儿真的长大了，明白了不少的道理，就是有点任性和脾气大</p>
 ]]></content:encoded>
     </item>
     <item>
       <title>女儿打针回来后的对话</title>
-      <link>https://iliu.org/882.html</link>
+      <link>http://localhost:1313/882.html</link>
       <pubDate>Sat, 04 Sep 2010 06:29:49 +0000</pubDate>
-      <guid>https://iliu.org/882.html</guid>
+      <guid>http://localhost:1313/882.html</guid>
       <description>&lt;p&gt;宝贝，昨天阿姨给你打针了没有？ 女儿：“嗯嗯”并指指小胳膊。我又问：那你哭了没有？女儿：“嗯” 那你是怎么哭的啊？女儿：“哇~~~~~~~~”…&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>宝贝，昨天阿姨给你打针了没有？ 女儿：“嗯嗯”并指指小胳膊。我又问：那你哭了没有？女儿：“嗯” 那你是怎么哭的啊？女儿：“哇~~~~~~~~”…</p>
 ]]></content:encoded>
     </item>
     <item>
       <title>女儿一岁的时候生长数据</title>
-      <link>https://iliu.org/751.html</link>
+      <link>http://localhost:1313/751.html</link>
       <pubDate>Wed, 30 Jun 2010 07:00:07 +0000</pubDate>
-      <guid>https://iliu.org/751.html</guid>
+      <guid>http://localhost:1313/751.html</guid>
       <description>&lt;p&gt;身高：80多cm&lt;br&gt;
 体重：8.9kg&lt;br&gt;
 囟门：1*1cm&lt;/p&gt;
@@ -197,9 +197,9 @@
     </item>
     <item>
       <title>女儿接种乙脑疫苗</title>
-      <link>https://iliu.org/671.html</link>
+      <link>http://localhost:1313/671.html</link>
       <pubDate>Thu, 22 Apr 2010 12:53:46 +0000</pubDate>
-      <guid>https://iliu.org/671.html</guid>
+      <guid>http://localhost:1313/671.html</guid>
       <description>&lt;p&gt;         前天，趁着没有下雨，给女儿把乙脑疫苗给接种上了，其实半月前都应该打的，不过不知道为什么医院不给打，借口说没有疫苗了，后来根据LP的了解，疫苗是有的，可以出了什么问题，给暂时停止了，不由让人想起江苏的疫苗事件，不知道和这个有关联没有。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>         前天，趁着没有下雨，给女儿把乙脑疫苗给接种上了，其实半月前都应该打的，不过不知道为什么医院不给打，借口说没有疫苗了，后来根据LP的了解，疫苗是有的，可以出了什么问题，给暂时停止了，不由让人想起江苏的疫苗事件，不知道和这个有关联没有。</p>
 <p>        丫头的记忆力越来越好了，知道袖子一脱准没好事，扯着嗓子就豪了起来。可能还有些受惊，这两天晚上睡觉总闹人。昨晚上给她吃了些王氏保赤丸，结果睡的还比较香甜，一觉给睡到了凌晨4点，醒了吃了150ML的奶，又睡了过去。<figure class="content-img-box " id=""></p>
@@ -208,9 +208,9 @@
     </item>
     <item>
       <title>女儿10个月，终于会爬了</title>
-      <link>https://iliu.org/653.html</link>
+      <link>http://localhost:1313/653.html</link>
       <pubDate>Mon, 12 Apr 2010 12:32:24 +0000</pubDate>
-      <guid>https://iliu.org/653.html</guid>
+      <guid>http://localhost:1313/653.html</guid>
       <description>&lt;p&gt;不知不觉间女儿已经10个月了，真是岁月匆匆似飞刀，白驹过隙一般啊。下面就盘点盘点我们家亲爱的宝贝10个月后具有的能力。&lt;/p&gt;
 &lt;p&gt;1、语言能力：能喊爸爸、妈妈、爷爷、奶奶，姐姐，会依依呀呀，会大喊大叫。还能发出其他一些单音节词，双音节词能发出”理路”声。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>不知不觉间女儿已经10个月了，真是岁月匆匆似飞刀，白驹过隙一般啊。下面就盘点盘点我们家亲爱的宝贝10个月后具有的能力。</p>
@@ -223,9 +223,9 @@
     </item>
     <item>
       <title>父亲在养育女孩中起到的作用</title>
-      <link>https://iliu.org/645.html</link>
+      <link>http://localhost:1313/645.html</link>
       <pubDate>Thu, 01 Apr 2010 12:46:48 +0000</pubDate>
-      <guid>https://iliu.org/645.html</guid>
+      <guid>http://localhost:1313/645.html</guid>
       <description>&lt;p&gt;来自父亲的爱是无私的，是博大的，它能够撑起女儿的一片天。因此，”富养女孩”，就要父亲对女儿付出更多的关注和支持，让女儿在尊重疼爱中找到幸福的方向，找到温馨的感觉。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>来自父亲的爱是无私的，是博大的，它能够撑起女儿的一片天。因此，”富养女孩”，就要父亲对女儿付出更多的关注和支持，让女儿在尊重疼爱中找到幸福的方向，找到温馨的感觉。</p>
 <p>对于女儿来说，父亲就是她的靠山，父亲就是整个家庭的支柱，有了父亲，她就有了安全感。因此，与母爱相同，父爱也是女孩子成长必不可少的养料。在女儿认识世界的过程中，有了充足的父爱，女孩将发展出一种刚柔并济的性格。</p>
@@ -258,9 +258,9 @@
     </item>
     <item>
       <title>终于让女儿坐到小车内了</title>
-      <link>https://iliu.org/540.html</link>
+      <link>http://localhost:1313/540.html</link>
       <pubDate>Sun, 07 Feb 2010 13:34:00 +0000</pubDate>
-      <guid>https://iliu.org/540.html</guid>
+      <guid>http://localhost:1313/540.html</guid>
       <description>&lt;p&gt;前几天老婆给女儿买了辆小车，因为她越来越大，也越来越重了，她奶奶都快报不动她了，所以给她买个小车，平时放小车内推着，是比较省力的一种方式。不过这丫头一直没有坐个这东西，加上胆子特别的小，刚开始愿意坐在里面，但是小车一动，把她吓的哇哇直叫，说什么也不愿意再坐进去了，甚至你都不能离小车近一些。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>前几天老婆给女儿买了辆小车，因为她越来越大，也越来越重了，她奶奶都快报不动她了，所以给她买个小车，平时放小车内推着，是比较省力的一种方式。不过这丫头一直没有坐个这东西，加上胆子特别的小，刚开始愿意坐在里面，但是小车一动，把她吓的哇哇直叫，说什么也不愿意再坐进去了，甚至你都不能离小车近一些。</p>
 <p>得知了这个情况后，经过分析认为主要还是她对小车比较陌生造成的，当务之急就是让她明白小车是没有危险的是安全的。我先给她做示范，把脚放进去，人家根本就不看，我又用扎马步的方式，坐在小车上，把她抱在怀里，结果人家到是愿意，但是几个回合下来，把她老爹我累的不轻。方法都是人想到，我决定稳扎稳打，一定要攻克这个难题。</p>
@@ -271,9 +271,9 @@
     </item>
     <item>
       <title>女儿具有的新本事</title>
-      <link>https://iliu.org/384.html</link>
+      <link>http://localhost:1313/384.html</link>
       <pubDate>Sun, 03 Jan 2010 13:02:02 +0000</pubDate>
-      <guid>https://iliu.org/384.html</guid>
+      <guid>http://localhost:1313/384.html</guid>
       <description>&lt;p&gt;今天是2010年的1月1日，就是人们通常说的元旦，在这里再次祝愿的大家新年快乐！&lt;/p&gt;
 &lt;p&gt;再过10天女儿就7个月了，今天在说说新发现的本事。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>今天是2010年的1月1日，就是人们通常说的元旦，在这里再次祝愿的大家新年快乐！</p>
@@ -286,9 +286,9 @@
     </item>
     <item>
       <title>女儿会藏猫猫了</title>
-      <link>https://iliu.org/218.html</link>
+      <link>http://localhost:1313/218.html</link>
       <pubDate>Sat, 19 Dec 2009 11:53:02 +0000</pubDate>
-      <guid>https://iliu.org/218.html</guid>
+      <guid>http://localhost:1313/218.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://www.lghcx.com/wp-content/uploads/2009/12/f96ad20d2c5d87c0aa6457ff.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; src=&#34;http://www.lghcx.com/wp-content/uploads/2009/12/f96ad20d2c5d87c0aa6457ff-150x150.jpg&#34; alt=&#34;f96ad20d2c5d87c0aa6457ff&#34; title=&#34;f96ad20d2c5d87c0aa6457ff&#34; width=&#34;150&#34; height=&#34;150&#34; class=&#34;alignright size-thumbnail wp-image-219&#34; /&gt;&lt;/a&gt; 今天休息，上午把厨房收拾了一下，然后陪老婆去买了件大衣和鞋子，大衣是艾莲达的，鞋子是意尔康的，还不错，穿上看起来像那么回事了。&lt;br&gt;
 下午和女儿玩了一下午，发现女儿比上周长了不少的本事，第一，她会寻找贴在墙上画的边缘，然后把手指插进去，把那画给撕下来；第二，学会藏猫猫了。并且知道该去哪个地方去找，老婆抱着她，我站在老婆的背后，先按部就班的左一下右一下的，她会提前到下一个地方去找，然后变化方式，不往那边去，训练了几下之后，就明白了，会先等你到那边以后才会去找。婴儿的学习能力真强。&lt;br&gt;
 昨天下班的时候发现美赞臣送的奶粉给邮寄过来了，收了8块钱的快递费，本来不想要，美赞臣公司给老婆打了好几次电话，终于要了，是第二阶段的，刚好女儿也该吃第二阶段的奶粉了，女儿刚出生的时候给她喝过几次美赞臣的，当时是老婆医院的保健科的同事送的，不过女儿不是很爱喝。4个月后给她喂过多美滋的，现在一直都是雅培的，明天给她喂的时候用雅培和美赞臣的先掺着喂喂，看看她愿意吃不！&lt;/p&gt;</description>
@@ -299,9 +299,9 @@
     </item>
     <item>
       <title>女儿半岁了</title>
-      <link>https://iliu.org/212.html</link>
+      <link>http://localhost:1313/212.html</link>
       <pubDate>Fri, 18 Dec 2009 08:59:38 +0000</pubDate>
-      <guid>https://iliu.org/212.html</guid>
+      <guid>http://localhost:1313/212.html</guid>
       <description>&lt;p&gt;忽然发现上周的今天也就是12月11号是女儿半岁的日子，竟然都忙的忘记了。不过还好，还不算晚，明天周末，带着宝贝出去照几张照片来。&lt;br&gt;
 现在的女儿已经有了强烈的喜欢谁与不喜欢谁，在家里排号的话可以这样排，最喜欢的是她妈，第二喜欢的是我妈也就是她奶奶，第三喜欢的是我，最后才是老爸。这可能是和爸爸接触最少有关系吧，平常老爸负责家里的饮食、卫生啊什么的，所以和她玩的时间就少了些，平时都是老妈给她喂奶抱着她，自然和老妈较亲切，老婆就不用说了，我是每天都陪她睡觉，晚上把她尿尿。偶尔还给他喂些吃的，所以我排在了第三。&lt;br&gt;
 妮子的脾气很坏，对于她不想要抱她的人抱她，她会抗议，如果把她从老妈或者老婆那里抱走，马上脸色就会变得难看，嘴里面还会吹起，在急的话就会哼鼻子了。等慢慢长大会就会有改善的。&lt;br&gt;
@@ -314,9 +314,9 @@
     </item>
     <item>
       <title>相当想念女儿</title>
-      <link>https://iliu.org/95.html</link>
+      <link>http://localhost:1313/95.html</link>
       <pubDate>Mon, 09 Nov 2009 23:39:09 +0000</pubDate>
-      <guid>https://iliu.org/95.html</guid>
+      <guid>http://localhost:1313/95.html</guid>
       <description>&lt;p&gt;记得一个同事曾经说过，出差在外，最思念的不是别人，是自己的女儿！当初的时候体会不到，现在真的体会到了这话的含义。&lt;br&gt;
 女儿岛11月11号就满5个月了，我也离开女儿有12天的时间了，想必女儿已经忘记了还有我这么一个老爸了吧。因为上次去赤峰出差了5天，回来的时候女儿就不认识我了。可是老爸却是每一天都把你放在心上。&lt;br&gt;
 早上醒来，会想女儿该醒了，该起床了吧，吃了多少蛋黄，看到满桌的饭菜是不是又流下了哈喇子呢。中午会想女儿今天吃的牛奶多不多，精神好不？晚上会想，小家伙该睡着了吧。有没有蹬被子？别人这丫头小，蹬被子的功夫却是一流的，两条腿向上一翘，等落下来的时候，被子也跑了。&lt;br&gt;
@@ -329,9 +329,9 @@
     </item>
     <item>
       <title>致女儿</title>
-      <link>https://iliu.org/528.html</link>
+      <link>http://localhost:1313/528.html</link>
       <pubDate>Wed, 03 Jun 2009 07:02:00 +0000</pubDate>
-      <guid>https://iliu.org/528.html</guid>
+      <guid>http://localhost:1313/528.html</guid>
       <description>&lt;div style=&#34;FONT-SIZE: 16px&#34;&gt;
   &amp;#8211;写给即将出生的女儿 &lt;br /&gt;亲爱的宝贝丫头，今天是&lt;span style=&#34;LINE-HEIGHT: 1.8em; FONT-FAMILY: &#39;Times&#39;&#34;&gt;6&lt;/span&gt;&lt;wbr/&gt;&lt;span style=&#34;LINE-HEIGHT: 1.8em; FONT-FAMILY: &#39;宋体&#39;&#34;&gt;月&lt;/span&gt;&lt;wbr/&gt;&lt;span style=&#34;LINE-HEIGHT: 1.8em; FONT-FAMILY: &#39;Times&#39;&#34;&gt;2&lt;/span&gt;&lt;wbr/&gt;&lt;span style=&#34;LINE-HEIGHT: 1.8em; FONT-FAMILY: &#39;宋体&#39;&#34;&gt;日，再过&lt;/span&gt;&lt;wbr/&gt;&lt;span style=&#34;LINE-HEIGHT: 1.8em; FONT-FAMILY: &#39;Times&#39;&#34;&gt;3&lt;/span&gt;&lt;wbr/&gt;&lt;span style=&#34;LINE-HEIGHT: 1.8em; FONT-FAMILY: &#39;宋体&#39;&#34;&gt;天就是医生预言你来到这个人间的日子，在你还没有来到这个世界之前，爸爸有些话要给你说。&lt;/span&gt;&lt;wbr/&gt; &lt;br /&gt;你是爸爸妈妈爱的结晶，我们两个刚结婚的时候，只有租的一间小屋，你妈妈怀你的时候，为了能让你有一个好的环境，爸妈决定为了你而买一套房子。买房子的时候，由于钱凑不够，你妈妈哭了好几次；不过这一切都过去了，虽然咱们家现在还是负债，但相信你的爸妈，现在房子也有了，家里该有的大件也有了，在你出生后就能生活的舒舒服服的，是我们最大的心愿，希望你能健健康康、快快乐乐的成长。</description>
       <content:encoded><![CDATA[<div style="FONT-SIZE: 16px">

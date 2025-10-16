@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>老师 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E8%80%81%E5%B8%88/</link>
+    <link>http://localhost:1313/tags/%E8%80%81%E5%B8%88/</link>
     <description>Recent content in 老师 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.151.0</generator>
+    <generator>Hugo -- 0.151.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 29 Dec 2021 09:11:22 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E8%80%81%E5%B8%88/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E8%80%81%E5%B8%88/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>生活中的二三事</title>
-      <link>https://iliu.org/3995.html</link>
+      <link>http://localhost:1313/3995.html</link>
       <pubDate>Wed, 29 Dec 2021 09:11:22 +0000</pubDate>
-      <guid>https://iliu.org/3995.html</guid>
+      <guid>http://localhost:1313/3995.html</guid>
       <description>&lt;h2 class=&#34;wp-block-heading&#34; id=&#34;奇葩的历史老师&#34;&gt;奇葩的历史老师&lt;/h2&gt;
 &lt;p&gt;昨天接女儿放学，她很不高兴的说，历史作业不合格。问，为啥啊，错的太多了吗？回答：不是，是错的太少了。&lt;/p&gt;
 &lt;p&gt;原来历史老师怕学生直接抄答案，于是规定，凡是没有错误的作业一律不合格。?。女儿为了避免踩坑，还故意选了一个错误的答案，结果就错了一题，不合格。而错了3-4题的，获得了优秀作业，?。&lt;/p&gt;</description>

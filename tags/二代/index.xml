@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>二代 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E4%BA%8C%E4%BB%A3/</link>
+    <link>http://localhost:1313/tags/%E4%BA%8C%E4%BB%A3/</link>
     <description>Recent content in 二代 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.151.0</generator>
+    <generator>Hugo -- 0.151.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 24 Jun 2021 10:28:53 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E4%BA%8C%E4%BB%A3/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E4%BA%8C%E4%BB%A3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>奇葩的京东无线宝</title>
-      <link>https://iliu.org/3791.html</link>
+      <link>http://localhost:1313/3791.html</link>
       <pubDate>Thu, 24 Jun 2021 10:28:53 +0000</pubDate>
-      <guid>https://iliu.org/3791.html</guid>
+      <guid>http://localhost:1313/3791.html</guid>
       <description>&lt;p&gt;最近天热起来了，店里的那台竞斗云可能是放到柜子离散热不良的原因，偶尔掉线的情况。于是决定换一款路由器。&lt;/p&gt;
 &lt;p&gt;选了一圈，后来决定入手京东无线宝2代的128G的版本，主要是这个版本秒杀的价格比原价低了200块钱，也不知道是先提价后降价还是怎么着的，上面标的是最近90多天最低价。但是本着降价越多，占的便宜越大的原则，最终选的这个，估计又上了狗东的当，原价699，秒杀降了200，然后又领了乱七八糟的优惠卷还有减金额白条优惠什么的，最后的价格是400零几。&lt;figure class=&#34;wp-block-image size-large&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>最近天热起来了，店里的那台竞斗云可能是放到柜子离散热不良的原因，偶尔掉线的情况。于是决定换一款路由器。</p>

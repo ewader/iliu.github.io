@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Fail2Ban on 老刘博客</title>
-    <link>https://iliu.org/tags/fail2ban/</link>
+    <link>http://localhost:1313/tags/fail2ban/</link>
     <description>Recent content in Fail2Ban on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.151.0</generator>
+    <generator>Hugo -- 0.151.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 28 Jul 2019 09:07:40 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/fail2ban/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/fail2ban/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>lnmp一键开启waf及使用 Fail2Ban防护</title>
-      <link>https://iliu.org/2556.html</link>
+      <link>http://localhost:1313/2556.html</link>
       <pubDate>Sun, 28 Jul 2019 09:07:40 +0000</pubDate>
-      <guid>https://iliu.org/2556.html</guid>
+      <guid>http://localhost:1313/2556.html</guid>
       <description>&lt;p&gt;试用了阿里云香港的轻量服务器之后，赶紧确实是一个不错的选择，因此，决定把网站给迁移过来。以前都是用的oneinstack安装包，这是因为军哥的lnmp如果使用mysql5.6以上的话就必须要内存2G衣裳，这次用的就是2G的，所以还是使用lnmp一键安装包比较舒心。和one的区别是，one很多的事项在编译环境的时候已经弄好了，而lnmp需要西西的打磨，这也是一个好事，毕竟服务器不同，弄的规则也不尽一样。闲言少续，开始正体。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>试用了阿里云香港的轻量服务器之后，赶紧确实是一个不错的选择，因此，决定把网站给迁移过来。以前都是用的oneinstack安装包，这是因为军哥的lnmp如果使用mysql5.6以上的话就必须要内存2G衣裳，这次用的就是2G的，所以还是使用lnmp一键安装包比较舒心。和one的区别是，one很多的事项在编译环境的时候已经弄好了，而lnmp需要西西的打磨，这也是一个好事，毕竟服务器不同，弄的规则也不尽一样。闲言少续，开始正体。</p>
 <h2 id="lnmp开启waf的方法">lnmp开启waf的方法</h2>
@@ -129,7 +129,8 @@ maxretry = 6
 </pre>
 <p><strong>每个日志文件需要回车换行（空格直接去掉了，所以可以放心用空格对齐）才能识别到哦！</strong></p>
 <blockquote>
-<p>另，在配置 Fail2Ban 之前，你就应该先安装好 Nginx，否则 Fail2Ban 读不到 Nginx 的日志，会报错。</p></blockquote>
+<p>另，在配置 Fail2Ban 之前，你就应该先安装好 Nginx，否则 Fail2Ban 读不到 Nginx 的日志，会报错。</p>
+</blockquote>
 <p>设置好了要启用的监狱，接下来就是给监狱创建规则了：</p>
 <pre class="ql-syntax" spellcheck="false"><span class="hljs-built_in">cd</span> /etc/fail2ban/filter.d
 </pre>

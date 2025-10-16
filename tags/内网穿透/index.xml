@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>内网穿透 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/</link>
+    <link>http://localhost:1313/tags/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/</link>
     <description>Recent content in 内网穿透 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.151.0</generator>
+    <generator>Hugo -- 0.151.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 12 Nov 2023 21:19:15 +0800</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>在群晖中使用tailscale实现内网穿透</title>
-      <link>https://iliu.org/posts/using-tailscale-to-achieve-intranet-penetration-in-synology/</link>
+      <link>http://localhost:1313/posts/using-tailscale-to-achieve-intranet-penetration-in-synology/</link>
       <pubDate>Sun, 12 Nov 2023 21:19:15 +0800</pubDate>
-      <guid>https://iliu.org/posts/using-tailscale-to-achieve-intranet-penetration-in-synology/</guid>
+      <guid>http://localhost:1313/posts/using-tailscale-to-achieve-intranet-penetration-in-synology/</guid>
       <description>&lt;p&gt;在远程连接群晖的实践中，老刘一切介绍过&lt;a href=&#34;https://tunan.org/3356.html&#34;&gt;zerotier&lt;/a&gt;和&lt;a href=&#34;https://tunan.org/3997.html&#34;&gt;IPv6&lt;/a&gt;。但是实际的使用过程中，zerotier有时候握手的速度很慢，而且配置起来比较麻烦，IPv6很好，速度也快，但是有些环境中还只有IPv4，直到我听别人介绍到tailscale这个软件。它的工作原理其实和zerotier差不多，但是不需要什么复杂的设置，直接注册、登录，同一个账号的所有设备都连接到一起了。&lt;/p&gt;
 &lt;h2 id=&#34;注册tailscale&#34;&gt;注册tailscale&lt;/h2&gt;
 &lt;p&gt;百度直接搜，或者打看&lt;a href=&#34;https://www.tailscale.com/&#34;&gt;tailscale&lt;/a&gt;官方网站。注册就行，不过它不支持自由注册，需要用Google、apple、或者微软的outlook账号注册。&lt;/p&gt;
@@ -78,9 +78,9 @@
     </item>
     <item>
       <title>zerotier加openwrt路由实现内网穿透控制群晖</title>
-      <link>https://iliu.org/3356.html</link>
+      <link>http://localhost:1313/3356.html</link>
       <pubDate>Sat, 24 Oct 2020 07:49:34 +0000</pubDate>
-      <guid>https://iliu.org/3356.html</guid>
+      <guid>http://localhost:1313/3356.html</guid>
       <description>&lt;p&gt;刚开始完群晖的时候，写过一片使用zerotier进行内网穿透实现连接群晖的功能。详情《&lt;a href=&#34;https://tunan.org/2872.html&#34;&gt;使用zerotier进行内网穿透&lt;/a&gt; 》但是后来升级移动宽带，带了一个光猫的路由，导致群晖成为了内网中的内网，使用zerotier总链接不上。因此，改用了frp进行内网穿透。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>刚开始完群晖的时候，写过一片使用zerotier进行内网穿透实现连接群晖的功能。详情《<a href="https://tunan.org/2872.html">使用zerotier进行内网穿透</a> 》但是后来升级移动宽带，带了一个光猫的路由，导致群晖成为了内网中的内网，使用zerotier总链接不上。因此，改用了frp进行内网穿透。</p>
 <p>FRP和zerotier各有千秋，本站也一些文章来结束这些，有兴趣可以利用搜索来查询。昨天，发现路由器里带的又zerotier的插件。其实以前也见到过，只是觉得只是控制路由器，用处不大，所以也没有过多的理会。昨天，突发奇想，是不是在两台路由器都设置zerotier的情况下，能实现各自路由下的设备能访问另一台路由下的设备。网上查了一下，发现是可行的。而且，设置起来也要简单的多。</p>
@@ -98,9 +98,9 @@
     </item>
     <item>
       <title>纯代码设置frp服务器</title>
-      <link>https://iliu.org/3340.html</link>
+      <link>http://localhost:1313/3340.html</link>
       <pubDate>Sun, 18 Oct 2020 07:27:04 +0000</pubDate>
-      <guid>https://iliu.org/3340.html</guid>
+      <guid>http://localhost:1313/3340.html</guid>
       <description>&lt;p&gt;以前老刘写过《&lt;a href=&#34;https://tunan.org/2918.html&#34;&gt;宝塔面板安装FRP内网穿透控制群晖&lt;/a&gt;》的文章，最近发现不知道是这个插件的作者不再开发了还是其他的原因，xeath开发的这个frp服务器插件已经在商店里找不到了。其实，这也没什么，直接用代码的方式部署也是可以的。&lt;/p&gt;
 &lt;p&gt;SSH连接到VPS之后运行如下命令查看处理器架构，根据架构下载不同版本的frp&lt;/p&gt;
 &lt;pre class=&#34;wp-block-preformatted&#34;&gt;arch&lt;/pre&gt;
@@ -155,9 +155,9 @@ vhost_https_port = 10443</pre>
     </item>
     <item>
       <title>宝塔面板安装FRP内网穿透控制群晖</title>
-      <link>https://iliu.org/2918.html</link>
+      <link>http://localhost:1313/2918.html</link>
       <pubDate>Sat, 07 Dec 2019 03:28:28 +0000</pubDate>
-      <guid>https://iliu.org/2918.html</guid>
+      <guid>http://localhost:1313/2918.html</guid>
       <description>&lt;p&gt;前两天给大家介绍了利用zerotier来进行内网穿透控制群晖的方法，详见：&lt;a href=&#34;https://tunan.org/2872.html&#34;&gt;黑群晖的福音，利用zerotier进行内网穿透&lt;/a&gt;。但是，zerotier使用的时候有时候不太稳定，而且记一堆的数字比较麻烦，今天，给大家介绍另一个神器，frp。直接用命令行的方式在服务器里部署比较繁琐，而且一不留神就会出错，不过好在有大神在宝塔里开发出了插件，一键安装就行。好了，言归正传，开始正题。&lt;/p&gt;
 &lt;p&gt;首先，你得有一个自己的vps，这里把设置强烈推荐&lt;a href=&#34;https://my.liluohost.com/aff.php?aff=148&#34;&gt;篱落主机&lt;/a&gt;。本站就运行在这个主机上，特别是香港的VPS，速度快，服务器也稳定。关键是价格不贵，最便宜的也就100多块一年吧。给小张报我的名字应该还能有些许优惠，毕竟我10年前就是他的客户了。这次，本来买的1h2g的，结果人家二话没说就给升级到了4g。貌似，又跑题了额。&lt;/p&gt;
 &lt;p&gt;有了vps后，安装宝塔面板。安装的方法很简单，官网一看就会，我就不啰嗦了。不出意外的话，2分钟，面板安装完毕。登录到面板的后台。点击软件商店，搜索frp。我们用的是如下这款，因为这款是免费的。&lt;/p&gt;</description>
@@ -226,9 +226,9 @@ vhost_https_port = 10443</pre>
     </item>
     <item>
       <title>使用zerotier进行内网穿透</title>
-      <link>https://iliu.org/2872.html</link>
+      <link>http://localhost:1313/2872.html</link>
       <pubDate>Wed, 27 Nov 2019 07:33:08 +0000</pubDate>
-      <guid>https://iliu.org/2872.html</guid>
+      <guid>http://localhost:1313/2872.html</guid>
       <description>&lt;p&gt;自从到手了暴风酷播之后，抽空就折腾了下NAS，目前来说系统方面已经没有什么问题了，自己需要使用的套件也基本上弄好了，唯一一个需要搞定的问题就是如何远程访问群晖，同步群晖这个问题。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>自从到手了暴风酷播之后，抽空就折腾了下NAS，目前来说系统方面已经没有什么问题了，自己需要使用的套件也基本上弄好了，唯一一个需要搞定的问题就是如何远程访问群晖，同步群晖这个问题。</p>
 <p>关于远程访问群晖，有很多的方法，比如如果你有公网IP，那就很好办，只需要一个域名就可以搞定的事情。但是如果你使用了大局域网的移动宽带，那么上述的方法是没法用的，因为移动宽带就不提供公网IP的。（至于公网IP的方法，不在本文讨论的范围内）。而跋涉者就刚好用的是移动的宽带，而且当初贪图便宜把家里的联通宽带也换成了移动的宽带，所以利用公网IP来远程访问群晖的方法是行不通了。</p>

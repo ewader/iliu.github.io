@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Zoundry Raven on 老刘博客</title>
-    <link>https://iliu.org/tags/zoundry-raven/</link>
+    <link>http://localhost:1313/tags/zoundry-raven/</link>
     <description>Recent content in Zoundry Raven on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.151.0</generator>
+    <generator>Hugo -- 0.151.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 24 Jan 2010 13:50:01 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/zoundry-raven/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/zoundry-raven/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>小测三款博客离线编辑软件</title>
-      <link>https://iliu.org/500.html</link>
+      <link>http://localhost:1313/500.html</link>
       <pubDate>Sun, 24 Jan 2010 13:50:01 +0000</pubDate>
-      <guid>https://iliu.org/500.html</guid>
+      <guid>http://localhost:1313/500.html</guid>
       <description>&lt;p&gt;现在window下主要的离线博客主要有windows live write，zoundry raven以及国内一家公司开发的菊子曰。下面本人就对这三个软件做个点评。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>现在window下主要的离线博客主要有windows live write，zoundry raven以及国内一家公司开发的菊子曰。下面本人就对这三个软件做个点评。</p>
 <p>之所以这么关系离线博客编辑软件是因为本人所用的空间是godaddy的免费空间，上面的那个大大的广告条让博客的后台有些功能无法使用，正好可以用这类离线编辑的软件来替代。首先让我们来说说windows live writer，因为我本机用的window 2003，而这个软件不支持在服务器系统上的安装，所以兼容性就比其他两个软件要差。另外live writer要安装.net所以安装下来要占用100多M的空间，虽然现在的空间动辄成T，但live writer的冗肿是无容置疑的，live writer支持分类、标签、离线模板，支持上传图片、并可以给图片加上特效和水印。加水印是window live writer的一个独特的地方，其他两个没有这样的功能。</p>
