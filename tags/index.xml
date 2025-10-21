@@ -11,8 +11,29 @@
     </image>
     <generator>Hugo -- 0.151.1</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 16 Oct 2025 16:15:55 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 21 Oct 2025 11:10:32 +0800</lastBuildDate>
     <atom:link href="https://iliu.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo</title>
+      <link>https://iliu.org/tags/hugo/</link>
+      <pubDate>Tue, 21 Oct 2025 11:10:32 +0800</pubDate>
+      <guid>https://iliu.org/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>博客</title>
+      <link>https://iliu.org/tags/%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Tue, 21 Oct 2025 11:10:32 +0800</pubDate>
+      <guid>https://iliu.org/tags/%E5%8D%9A%E5%AE%A2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>联邦宇宙</title>
+      <link>https://iliu.org/tags/%E8%81%94%E9%82%A6%E5%AE%87%E5%AE%99/</link>
+      <pubDate>Tue, 21 Oct 2025 11:10:32 +0800</pubDate>
+      <guid>https://iliu.org/tags/%E8%81%94%E9%82%A6%E5%AE%87%E5%AE%99/</guid>
+      <description></description>
+    </item>
     <item>
       <title>禅让</title>
       <link>https://iliu.org/tags/%E7%A6%85%E8%AE%A9/</link>
@@ -35,24 +56,10 @@
       <description></description>
     </item>
     <item>
-      <title>Hugo</title>
-      <link>https://iliu.org/tags/hugo/</link>
-      <pubDate>Mon, 13 Oct 2025 15:45:49 +0800</pubDate>
-      <guid>https://iliu.org/tags/hugo/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Papermod</title>
       <link>https://iliu.org/tags/papermod/</link>
       <pubDate>Mon, 13 Oct 2025 15:45:49 +0800</pubDate>
       <guid>https://iliu.org/tags/papermod/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>博客</title>
-      <link>https://iliu.org/tags/%E5%8D%9A%E5%AE%A2/</link>
-      <pubDate>Mon, 13 Oct 2025 15:45:49 +0800</pubDate>
-      <guid>https://iliu.org/tags/%E5%8D%9A%E5%AE%A2/</guid>
       <description></description>
     </item>
     <item>

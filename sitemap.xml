@@ -3,13 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://iliu.org/categories/</loc>
-    <lastmod>2025-10-16T16:15:55+08:00</lastmod>
+    <lastmod>2025-10-21T11:10:32+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/tags/hugo/</loc>
+    <lastmod>2025-10-21T11:10:32+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/posts/</loc>
-    <lastmod>2025-10-16T16:15:55+08:00</lastmod>
+    <lastmod>2025-10-21T11:10:32+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/tags/</loc>
-    <lastmod>2025-10-16T16:15:55+08:00</lastmod>
+    <lastmod>2025-10-21T11:10:32+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/posts/embedding-gotosocial-in-a-hugo-blog/</loc>
+    <lastmod>2025-10-21T11:10:32+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/tags/%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2025-10-21T11:10:32+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/</loc>
+    <lastmod>2025-10-21T11:10:32+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/tags/%E8%81%94%E9%82%A6%E5%AE%87%E5%AE%99/</loc>
+    <lastmod>2025-10-21T11:10:32+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/categories/%E9%BD%90%E7%89%A9/</loc>
+    <lastmod>2025-10-21T11:10:32+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/tags/%E7%A6%85%E8%AE%A9/</loc>
     <lastmod>2025-10-16T16:15:55+08:00</lastmod>
@@ -20,28 +38,16 @@
     <loc>https://iliu.org/categories/%E5%BE%B7%E5%85%85%E7%AC%A6/</loc>
     <lastmod>2025-10-16T16:15:55+08:00</lastmod>
   </url><url>
-    <loc>https://iliu.org/</loc>
-    <lastmod>2025-10-16T16:15:55+08:00</lastmod>
-  </url><url>
     <loc>https://iliu.org/tags/%E5%8D%97%E6%80%80%E7%91%BE/</loc>
     <lastmod>2025-10-16T16:15:55+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/tags/%E6%97%A0%E4%B8%BA/</loc>
     <lastmod>2025-10-16T16:15:55+08:00</lastmod>
   </url><url>
-    <loc>https://iliu.org/tags/hugo/</loc>
-    <lastmod>2025-10-13T15:45:49+08:00</lastmod>
-  </url><url>
     <loc>https://iliu.org/tags/papermod/</loc>
     <lastmod>2025-10-13T15:45:49+08:00</lastmod>
   </url><url>
-    <loc>https://iliu.org/tags/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2025-10-13T15:45:49+08:00</lastmod>
-  </url><url>
     <loc>https://iliu.org/posts/add-a-beautiful-and-simple-links-page-to-the-hugo-papermod-theme/</loc>
-    <lastmod>2025-10-13T15:45:49+08:00</lastmod>
-  </url><url>
-    <loc>https://iliu.org/categories/%E9%BD%90%E7%89%A9/</loc>
     <lastmod>2025-10-13T15:45:49+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/tags/%E7%BE%A4%E6%99%96/</loc>
