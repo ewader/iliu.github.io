@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shotcut on 老刘博客</title>
+    <link>http://localhost:1313/shotcut/</link>
+    <description>Recent content in Shotcut on 老刘博客</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    
+    
+      <webMaster>ewader@qq.com (老刘)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, 老刘博客.</copyright>
+    
+    
+    <lastBuildDate>Fri, 06 Dec 2019 02:37:53 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/shotcut/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>推荐一款免费的视频剪辑软件shotcut</title>
+      <link>http://localhost:1313/2914.html</link>
+      <pubDate>Fri, 06 Dec 2019 02:37:53 +0000</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>http://localhost:1313/2914.html</guid>
+      <description>&lt;p&gt;跋涉者最近在弄另一个网站的时候，需要把一些长的视频剪辑成一个短的预览视频，这样没有权限看的人，只能看到短视频，而支付积分后则可以看完整的视频。&lt;/p&gt;&#xA;&lt;p&gt;由于以前一只没有用过此类的软件，因此要求这类软件越简单越好，越容易上手，学习成本越低最理想，可是找了不少，要不是收费的，价格很贵，要不软件很大，功能多的不知道如何下手，要不打开都是广告，一直没有找到理想的，最后，寻寻觅觅终于找到了这款比较满意的——shotcut。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;软件的官方网站： &lt;a href=&#34;https://www.shotcut.org/&#34;&gt;https://www.shotcut.org/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;软件不大，只有不到100M，但是该有的功能都有了。想要剪辑视频只要鼠标简单的点上几下，就能把视频剪辑到你想要的位置和时间。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;如上图，想要简介一个视频，只需四步：&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;然后，系统会编译一会，时间和你电脑的配置以及你剪辑的视频长短有关。&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ConfigureDefender on 老刘博客</title>
+    <link>http://localhost:1313/configuredefender/</link>
+    <description>Recent content in ConfigureDefender on 老刘博客</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    
+    
+      <webMaster>ewader@qq.com (老刘)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, 老刘博客.</copyright>
+    
+    
+    <lastBuildDate>Sat, 10 Oct 2020 07:53:31 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/configuredefender/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>一款可以设置Microsoft Defender的辅助软件</title>
+      <link>http://localhost:1313/3279.html</link>
+      <pubDate>Sat, 10 Oct 2020 07:53:31 +0000</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>http://localhost:1313/3279.html</guid>
+      <description>&lt;p&gt;自从Windows 10推出以来，微软的Microsoft Defender已经可以作为一款合格的杀毒软件来使用了，但是微软为了平衡误杀和安全之间的关系，默认情况西安Microsoft Defender很多先进的技术都没有开启，比如对流氓软件pup的查杀等。要想开启高级功能就必须去组策略里进行调整，这一步对软件小白来说是真的费事。好消息来了，有大神开发出来了一款可以设置Microsoft Defender的辅助软件，不需要进组策略即可对Microsoft Defender进行调整。目前已经更新到了3.0.0.1版，坏消息是没有中文版。不过软件的设置很简单。看着本文的图片进行设置就行。或者设置成“HIGH”即可。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/10/964c67f993d670e.png&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;用于配置windows-10内置defender防病毒设置的实用程序它是一个便携式实用程序&#34;&gt;用于配置Windows 10内置Defender防病毒设置的实用程序.它是一个便携式实用程序&lt;/h2&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Version 3.0.0.0&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Corrected a bug related to the error when “Defender Security” Log is empty.&lt;/li&gt;&#xA;&lt;li&gt;Removed events Id=1117 and Id=5007 from Defender Security Log.&lt;/li&gt;&#xA;&lt;li&gt;Extended the maximal number of entries in the Log to 300.&lt;/li&gt;&#xA;&lt;li&gt;Extended the “Cloud Time Check Limit” in HIGH Protection Level from 10s to 20s.&lt;/li&gt;&#xA;&lt;li&gt;Added DLL hijacking protection – 64-bit and 32-bit installers are wrapped into one installer by NSISS.&lt;/li&gt;&#xA;&lt;li&gt;Corrected some minor bugs.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 class=&#34;quote&#34; id=&#34;下载地址&#34;&gt;下载地址：&lt;/h2&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

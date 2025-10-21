@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>气候 on Hugo Bear Neo</title>
+    <link>http://localhost:1313/blog/%E6%B0%94%E5%80%99/</link>
+    <description>Recent content in 气候 on Hugo Bear Neo</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>example@example.com (Rokcso)</managingEditor>
+    
+    
+      <webMaster>example@example.com (Rokcso)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, Rokcso.</copyright>
+    
+    
+    <lastBuildDate>Sat, 06 Aug 2022 02:24:58 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/blog/%E6%B0%94%E5%80%99/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>这几天是真热</title>
+      <link>http://localhost:1313/4217.html</link>
+      <pubDate>Sat, 06 Aug 2022 02:24:58 +0000</pubDate><author>example@example.com (Rokcso)</author>
+      <guid>http://localhost:1313/4217.html</guid>
+      <description>&lt;p&gt;明天立秋，算是夏天的尾巴了，但是这天是真热啊。连着一周，高温38℃，低温30℃左右，难道这就是传说中的秋老虎？&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;今年这天气，连北极都穿短袖了，真是太不正常了。感觉很多从前传下来的关于气候的谚语也都不准了。记得小时母亲常说：&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;交了7月节，夜冷白天热；交了8月节，中午热一会，交了9月节，一天都不热；交了10月节，下雨就下雪&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;当然都是按阴历算的&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;但是现在的气候明显是不同了，从天气预报上来看，感觉要往后拖半个月的时间才能差不多相符。&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>流感 on Hugo Bear Neo</title>
+    <link>http://localhost:1313/blog/%E6%B5%81%E6%84%9F/</link>
+    <description>Recent content in 流感 on Hugo Bear Neo</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>example@example.com (Rokcso)</managingEditor>
+    
+    
+      <webMaster>example@example.com (Rokcso)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, Rokcso.</copyright>
+    
+    
+    <lastBuildDate>Sun, 29 Dec 2019 03:08:03 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/blog/%E6%B5%81%E6%84%9F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>感冒终于好了</title>
+      <link>http://localhost:1313/2962.html</link>
+      <pubDate>Sun, 29 Dec 2019 03:08:03 +0000</pubDate><author>example@example.com (Rokcso)</author>
+      <guid>http://localhost:1313/2962.html</guid>
+      <description>&lt;p&gt;周三开始发烧，一直到周五，这个烧也没有退下去，一直维持在38.2度左右。不得已，再次去了一趟医院。先抽血检查了一下血象，除了血小板有点低，别的都正常，说明不是细菌造成的感染，不过大夫也说了不能排除是支原体的感染，建议把阿莫西林改成阿奇霉素。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2019/12/0bdc293132db0e0.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;找的这个大夫是媳妇的同事，刚好媳妇这时候也开完会过来了，说要不不检查流感了，毕竟那个检查一下也特别贵。不如直接给吃上奥司他韦算了，这个药如果是甲流的话能治疗，不是甲流的话能预防。于是就开了一盒这个药。如果吃了这个药，还发烧的话，就把阿莫西林改成阿奇霉素。&lt;/p&gt;&#xA;&lt;p&gt;一盒药10片，135元。药虽然贵，效果还是很明显的，周五下午在吃过退烧药的情况了，体温一度达到了了38.6度，到了晚上体温就已经开始在下降了，昨天体温在37.2度上下。今天早上量了下体温，已经是正常的了。&lt;/p&gt;&#xA;&lt;p&gt;想要告诉大家的是，一定要注意保暖防寒，一旦感冒了，不要硬挺。可以先吃点对症的药，如果3日还没有好转，就要到医院找大夫，有些药虽然确实贵了点。但是效果还是不错的，和身体相比，又不算啥了。&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

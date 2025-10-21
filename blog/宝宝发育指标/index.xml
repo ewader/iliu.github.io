@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>宝宝发育指标 on Hugo Bear Neo</title>
+    <link>http://localhost:1313/blog/%E5%AE%9D%E5%AE%9D%E5%8F%91%E8%82%B2%E6%8C%87%E6%A0%87/</link>
+    <description>Recent content in 宝宝发育指标 on Hugo Bear Neo</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>example@example.com (Rokcso)</managingEditor>
+    
+    
+      <webMaster>example@example.com (Rokcso)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, Rokcso.</copyright>
+    
+    
+    <lastBuildDate>Thu, 04 Aug 2011 07:09:04 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/blog/%E5%AE%9D%E5%AE%9D%E5%8F%91%E8%82%B2%E6%8C%87%E6%A0%87/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>0-10岁宝宝发育指标</title>
+      <link>http://localhost:1313/1147.html</link>
+      <pubDate>Thu, 04 Aug 2011 07:09:04 +0000</pubDate><author>example@example.com (Rokcso)</author>
+      <guid>http://localhost:1313/1147.html</guid>
+      <description>&lt;p&gt;宝宝身体发育的是不是达标啊，很多的父母都很担心，现在好了，看看下面的表格，你完全就清楚了，希望每个父母都能人手一份！&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;体重推算公式：&lt;/p&gt;&#xA;&lt;p&gt;1-6个月体重(克)=出生体重+(月龄×600克)&lt;/p&gt;&#xA;&lt;p&gt;7-12个月体重(克)=出生体重+(月龄×500克)&lt;/p&gt;&#xA;&lt;p&gt;2-14岁体重(公斤)=(年龄×2)+8公斤&lt;br&gt;&#xA;身高推算公式：&lt;/p&gt;&#xA;&lt;p&gt;出生3个月增长3-3.5厘米/每月&lt;/p&gt;&#xA;&lt;p&gt;4-6个月增长2厘米/每月&lt;/p&gt;&#xA;&lt;p&gt;7-12个月增长1-1.5厘米/每月&lt;/p&gt;&#xA;&lt;p&gt;1周岁后身高=(年龄×5)+80厘米&lt;br&gt;&#xA;增长速度参考表：&lt;/p&gt;&#xA;&lt;p&gt;年龄//增长速度（单位：厘米/年）&lt;/p&gt;&#xA;&lt;p&gt;婴幼儿期（3岁以下）　 &amp;gt;7厘米/每年&lt;/p&gt;&#xA;&lt;p&gt;儿童期（3-10岁） ＜4-5厘米/每年&lt;/p&gt;&#xA;&lt;p&gt;青春期（10-14岁） ＜5-6厘米/每年&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

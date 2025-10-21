@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>微博 on 老刘博客</title>
+    <link>http://localhost:1313/%E5%BE%AE%E5%8D%9A/</link>
+    <description>Recent content in 微博 on 老刘博客</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    
+    
+      <webMaster>ewader@qq.com (老刘)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, 老刘博客.</copyright>
+    
+    
+    <lastBuildDate>Sun, 05 Jan 2020 03:47:15 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/%E5%BE%AE%E5%8D%9A/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>加了个微语的栏目</title>
+      <link>http://localhost:1313/2973.html</link>
+      <pubDate>Sun, 05 Jan 2020 03:47:15 +0000</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>http://localhost:1313/2973.html</guid>
+      <description>&lt;p&gt;加了个微语的栏目，记录下日常发生的琐碎的事情。本来想和张波老师他们一样，专门搞一个网站，后来想想自己的精力还是很有限，再运营一个网站那也是很头大的事情，后来看到这个主题上的微分类其实很适合说一些琐碎的事情。那么就多开一个栏目吧。&lt;/p&gt;&#xA;&lt;p&gt;记录生活的琐碎，一般不超过200字&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

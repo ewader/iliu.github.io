@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EDGE on Hugo Bear Neo</title>
+    <link>http://localhost:1313/blog/edge/</link>
+    <description>Recent content in EDGE on Hugo Bear Neo</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>example@example.com (Rokcso)</managingEditor>
+    
+    
+      <webMaster>example@example.com (Rokcso)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, Rokcso.</copyright>
+    
+    
+    <lastBuildDate>Thu, 26 May 2022 01:55:15 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/blog/edge/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Windows11 如何使用ie浏览器</title>
+      <link>http://localhost:1313/4120.html</link>
+      <pubDate>Thu, 26 May 2022 01:55:15 +0000</pubDate><author>example@example.com (Rokcso)</author>
+      <guid>http://localhost:1313/4120.html</guid>
+      <description>&lt;p&gt;windows11已经抛弃了ie浏览器，但是有一些场合必须要使用，比如现在各大银行的u盾还不支持edge，有很多同学到处找IE这个软件，其实大可不必。windows11目前只是暂时屏蔽了IE而已。点击“查找”，搜索“控制面板”&lt;/p&gt;&#xA;&lt;p&gt;在“控制面板”中点击“Internet选项”&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;在弹出的页面，点击右上角的“？”&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;奇迹是不是发生了？？&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

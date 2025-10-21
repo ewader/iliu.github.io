@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>景安服务器 on Hugo Bear Neo</title>
+    <link>http://localhost:1313/blog/%E6%99%AF%E5%AE%89%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
+    <description>Recent content in 景安服务器 on Hugo Bear Neo</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>example@example.com (Rokcso)</managingEditor>
+    
+    
+      <webMaster>example@example.com (Rokcso)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, Rokcso.</copyright>
+    
+    
+    <lastBuildDate>Sat, 07 Sep 2019 03:35:21 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/blog/%E6%99%AF%E5%AE%89%E6%9C%8D%E5%8A%A1%E5%99%A8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>再说说景安的服务</title>
+      <link>http://localhost:1313/2697.html</link>
+      <pubDate>Sat, 07 Sep 2019 03:35:21 +0000</pubDate><author>example@example.com (Rokcso)</author>
+      <guid>http://localhost:1313/2697.html</guid>
+      <description>&lt;p&gt;自从上次看到景安欠薪的消息以后，虽然觉得很惋惜，但是也没有太放在心上，毕竟作为河南最大的IDC，还是再新三板上市的企业，不可能马上就挂的，况且里面还有周鸿祎的股份，所以还是照旧使用原来的服务器。&lt;br&gt;&#xA;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2019/07/129c3de904bde5.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;br&gt;&#xA;不过最近以来发生的事情让我对景安的后续有了疑虑，姑且不说欠薪的事情，最近总感觉网站是不是的卡一下。前一段时间出现数据库链接不上的问题，查了额下是内存有点小了，毕竟是1g的内存，既然小了那就再加上1g，花了300来块钱，数据库掉线的问题倒是解决了，但是网站还是时不时的卡一下下。表现为，网站能正常打开，在打开某一个页面的时候，一直加载，然后就加载不了啦，换个浏览器在打开，就可以打开了。次数出现的多了之后，我就想是不是服务器的问题。然后就切换到前年买的的一个111配置的香港阿里云上来试试。&lt;br&gt;&#xA;结果，我去，网页卡一下的问题没有了。&lt;br&gt;&#xA;用一个缙哥哥网站上一个测试服务器的代码测试了一下，景安的这台服务器不管是I/O还是在CPU跑分等方面都完爆阿里云的这台，但是却没有阿里云的香港的流畅，感觉景安的网络是没有人精心维护了。。。。&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>景安服务器（vps)挂载数据盘</title>
+      <link>http://localhost:1313/2585.html</link>
+      <pubDate>Sun, 04 Aug 2019 09:37:21 +0000</pubDate><author>example@example.com (Rokcso)</author>
+      <guid>http://localhost:1313/2585.html</guid>
+      <description>&lt;p&gt;以前没有注意，后来在做快照的时候发现服务器还有个数据盘的快照，和系统盘是分开的。查了一下，数据盘是送的一块专门用来放数据的另一个盘，就象我们电脑里的系统盘（c:),其他盘（d:)一样，把一些数据放在数据盘里，等系统出现问题需要重置的时候，数据盘的的数据不会收到任何的影响。&lt;/p&gt;&#xA;&lt;p&gt;景安的服务器虽然没有比如阿里云oss这种物美价廉的储存空间（也有，就是价格比较贵），送了一块数据盘也是很方便的，平常把备份的数据就放在这里，万一系统有问题了，重装系统后可以很方便的从数据盘里把数据还原，并且景安的快照是系统盘和数据盘分开的，这点还是不错的。&lt;/p&gt;&#xA;&lt;h2 id=&#34;第一检查磁盘情况&#34;&gt;第一、检查磁盘情况&lt;/h2&gt;&#xA;&lt;p&gt;使用&lt;!-- raw HTML omitted --&gt;fdisk -l命令来检查磁盘，如下图&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;由于我这里已经挂载过了，所以显示的是磁盘的大小等信息，如果数据盘没有挂载的话，是没有这些信息的。&lt;/p&gt;&#xA;&lt;h2 id=&#34;第二对数据盘进行分区&#34;&gt;第二、对数据盘进行分区&lt;/h2&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;输入命令：&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;fdisk /dev/vdb1 这里要说明一下，vdb1这个需要看你磁盘的具体的情况，可以是vdb1,也可以是vdb,等等，千万不要输错了。否则就可以重装系统了。然后，&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;然后依次执行 n p 1 回车 回车 wq，这样就完成分区。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;这里跋涉者因为已经分了区了，没有截图，就不上图了。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;第三格式化数据盘&#34;&gt;第三、格式化数据盘&lt;/h2&gt;&#xA;&lt;p&gt;我们先使用df -T这个命令来查看下文件系统，&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;这里，跋涉者采用的xfs的文件格式，这个格式目前在centos7上基本是标配了，据说比ext4要好，所以咱们就用这个格式了。&lt;/p&gt;&#xA;&lt;p&gt;输入命令：mkfs.xfs /dev/vdb1&lt;/p&gt;&#xA;&lt;p&gt;进行格式化。&lt;/p&gt;&#xA;&lt;h2 id=&#34;第四进行挂载&#34;&gt;第四、进行挂载&lt;/h2&gt;&#xA;&lt;p&gt;输入命令：&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;至此已经全部搞定了。&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;景安的服务器虽然没有比如阿里云oss这种物美价廉的储存空间（也有，就是价格比较贵），送了一块数据盘也是很方便的，平常把备份的数据就放在这里，万一系统有问题了，重装系统后可以很方便的从数据盘里把数据还原，并且景安的快照是系统盘和数据盘分开的，这点还是不错的。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

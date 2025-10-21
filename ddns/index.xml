@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ddns on 老刘博客</title>
+    <link>http://localhost:1313/ddns/</link>
+    <description>Recent content in Ddns on 老刘博客</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    
+    
+      <webMaster>ewader@qq.com (老刘)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, 老刘博客.</copyright>
+    
+    
+    <lastBuildDate>Thu, 30 Dec 2021 02:47:58 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/ddns/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>没有公网IP也能玩转群晖DDNS</title>
+      <link>http://localhost:1313/3997.html</link>
+      <pubDate>Thu, 30 Dec 2021 02:47:58 +0000</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>http://localhost:1313/3997.html</guid>
+      <description>&lt;p&gt;我们知道，玩群晖，没有公网IP，可玩性就下降很多，虽然可以用QuickConnect，但是速度还是不太理想。其他的&lt;a href=&#34;https://tunan.org/?s=%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F&#34;&gt;内网穿透&lt;/a&gt;啊，&lt;a href=&#34;https://tunan.org/?s=zero&#34;&gt;zerotier&lt;/a&gt;等等都有不方便之处。老刘也曾记下折腾这些东西的过程。有兴趣的可以参考。&lt;/p&gt;&#xA;&lt;p&gt;今天老刘说的是DDNS，这个是需要公网IP的，而我们一说公网IP，其实都是说的IPV4的ip地址，这个目前全球都稀缺，移动是不用想了，联通和电信个别地方还能申请到。老刘一直用的是移动的宽带，以前用zerotier，后来就用qc来凑合着用。&lt;/p&gt;&#xA;&lt;p&gt;这两天由于keepassxc的版本在uos非常的低，由于环境的原因也更新不到最新的版本，想在群晖上部署&lt;strong&gt;Bitwarden&lt;/strong&gt;。所以，又动了ddns的心思，想到目前各大运营商IPV6已经普及了，而这个都是公网的IP，所以，理论上用ddns加IPV6是完全没有问题的。网上查了一下，也有很多的教程。正准备按教程操作的时候，发现根本就不必那么麻烦。&lt;/p&gt;&#xA;&lt;h2 class=&#34;wp-block-heading&#34; id=&#34;下面正文&#34;&gt;下面正文&lt;/h2&gt;&#xA;&lt;p&gt;进入群晖，打开控制面板，点击外部访问，点击DDNS。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;选择使用SYNOLOGY的服务，主机名称填写一个你心意的名称，IPV4选择手动，如果你有公网的ip也可以选择自动。IPV6点击自动设置，最后点击确定。&lt;/p&gt;&#xA;&lt;p&gt;用你申请的这个域名，浏览器打开试试吧。进入到熟悉的页面了吧！&lt;/p&gt;&#xA;&lt;h2 class=&#34;wp-block-heading&#34; id=&#34;一个坑&#34;&gt;一个坑&lt;/h2&gt;&#xA;&lt;p&gt;老刘由于一直没有找的心仪的路有，店里一直用一个廉价的小米4a千兆版的路由。设置完上面的一切后，本地打开域名是能正常访问的，但是用手机使用流量却访问不了这个域名，显示连接被拒绝。感觉应该是路由器的防火墙的问题。可是在小米路由器里找不到设置防火墙的地方。可能这个防火墙默认的是拒绝入站的访问吧&lt;/p&gt;&#xA;&lt;p&gt;从家里拿来竞斗云的那个路由器，设置的一下防火墙，顺利搞定。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

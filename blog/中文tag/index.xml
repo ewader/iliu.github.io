@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>中文tag on Hugo Bear Neo</title>
+    <link>http://localhost:1313/blog/%E4%B8%AD%E6%96%87tag/</link>
+    <description>Recent content in 中文tag on Hugo Bear Neo</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>example@example.com (Rokcso)</managingEditor>
+    
+    
+      <webMaster>example@example.com (Rokcso)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, Rokcso.</copyright>
+    
+    
+    <lastBuildDate>Sat, 09 Jan 2010 02:19:28 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/blog/%E4%B8%AD%E6%96%87tag/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>wordpress中文tag、中文分类找不到文章的解决方法</title>
+      <link>http://localhost:1313/407.html</link>
+      <pubDate>Sat, 09 Jan 2010 02:19:28 +0000</pubDate><author>example@example.com (Rokcso)</author>
+      <guid>http://localhost:1313/407.html</guid>
+      <description>&lt;p&gt;原来用的linux的主机，在设定固定连接后不存在中文tag、中文分类找不到文章，但自从换了godaddy的windows主机以后，由于iis7对php支持不够好的原因，中文的tag，中文的分类等，就会找不到文章，比如：&lt;/p&gt;&#xA;&lt;p&gt;正常，能访问日志：www.example.com/?tag=中文&lt;/p&gt;&#xA;&lt;p&gt;不正常，不能访问日志：www.example.com/tag/中文 ；这是系统的原因，没有办法，但我们为了seo还必须启用固定链接，怎么办呢？整了上午，总算找到了解决的方案，而且支持目前的2.9.1版本！&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;网上有各种版本的解决方法：第一种是修改wp-includes/classes.php文件，这个方法可能在中文系统下有用，但是我在godaddy的主机上用这个方法，直接显示错误。所以这个方法是由局限性的。&lt;/p&gt;&#xA;&lt;p&gt;第二种方法：修改wp-includes/rewrite.php&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;function get_tag_permastruct() {&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;if (isset($this-&amp;gt;tag_structure)) {&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;return $this-&amp;gt;tag_structure;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;}&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;if (empty($this-&amp;gt;permalink_structure)) { //—–this line need change——&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;$this-&amp;gt;tag_structure = ”;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;return false;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;}&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;把第5行改为&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;第三种方法：&lt;/p&gt;&#xA;&lt;p&gt;一个一劳永逸的解决方法，还不用修改源代码，去你的WordPress后台，到“设置”-“固定链接”里，在“标签前缀”&lt;/p&gt;&#xA;&lt;p&gt;里填上“?tag=”，这样，你点击文章中的中文tag时，自动打开了“www.example.com/?tag=中文”格式的页面，这样一来，你的tag就正常了。&lt;/p&gt;&#xA;&lt;p&gt;经过验证，后面两种方法可以完美解决这个问题。&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

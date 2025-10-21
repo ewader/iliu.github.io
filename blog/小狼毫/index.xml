@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>小狼毫 on Hugo Bear Neo</title>
+    <link>http://localhost:1313/blog/%E5%B0%8F%E7%8B%BC%E6%AF%AB/</link>
+    <description>Recent content in 小狼毫 on Hugo Bear Neo</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>example@example.com (Rokcso)</managingEditor>
+    
+    
+      <webMaster>example@example.com (Rokcso)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, Rokcso.</copyright>
+    
+    
+    <lastBuildDate>Fri, 14 Apr 2023 04:24:52 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/blog/%E5%B0%8F%E7%8B%BC%E6%AF%AB/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>开始试用小狼毫输入法</title>
+      <link>http://localhost:1313/4357.html</link>
+      <pubDate>Fri, 14 Apr 2023 04:24:52 +0000</pubDate><author>example@example.com (Rokcso)</author>
+      <guid>http://localhost:1313/4357.html</guid>
+      <description>&lt;p&gt;自从用到win10以来，就开始懒得安装输入法了，毕竟微软拼音已经可以胜任很多的输入了。不过微软输入法有一点不太能容忍的bug是，偶尔会卡系统，不过也没有太放在心上。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;今天漂了一眼博客群，然后就看到博友推荐小狼毫输入法，我就不声不响的安装了一下，目前来看，基本是可以满足我的需求。直接安装使用了，高级的使用方法也没有去可以的学习。&lt;/p&gt;&#xA;&lt;h2 class=&#34;wp-block-heading&#34; id=&#34;启用雾凇拼音的方法&#34;&gt;启用雾凇拼音的方法&lt;/h2&gt;&#xA;&lt;p&gt;雾凇拼音是小狼毫框架下优化的一个词库吧，听群里大佬介绍说很不错，打算用上，可是对如何使用真是一头的雾水，最初把下载来的文件放进了&lt;strong&gt;小狼毫的data文件夹&lt;/strong&gt;下，结果选择雾凇拼音之后，中文输入是空白的。&lt;/p&gt;&#xA;&lt;p&gt;后来研究了半天，发现实现的方法是如此简单，右键点击输入法的图标，选择用户文件夹，然后在GitHub的仓库地址：&lt;a href=&#34;https://github.com/iDvel/rime-ice&#34;&gt;GitHub – iDvel/rime-ice: Rime 配置：雾凇拼音 | 长期维护的简体词库&lt;/a&gt;下载词库，下载后解压到刚才那个用户文件夹中。&lt;/p&gt;&#xA;&lt;p&gt;还是右键点输入法图标，选择输入法设定，选择雾凇拼音即可&lt;/p&gt;&#xA;&lt;p&gt;顺便吐槽一下相关部门开发的软件，真的堪比病毒。上午收到短信，意思是该申报下一年的工资了，于是抽屉里翻出了社保用的UKEY，到官网下载驱动程序，只见卡巴斯基是一连串的报警，而且还删除了好几个和驱动无关的程序。&lt;/p&gt;&#xA;&lt;p&gt;以为驱动就这么废了，结果重启后，驱动是正常了，原来是软件里夹带了很多的私活，这就是现状！想想河南有多少企业，每个企业至少一个电脑要安装这个破玩意。&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

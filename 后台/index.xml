@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>后台 on 老刘博客</title>
+    <link>http://localhost:1313/%E5%90%8E%E5%8F%B0/</link>
+    <description>Recent content in 后台 on 老刘博客</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    
+    
+      <webMaster>ewader@qq.com (老刘)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, 老刘博客.</copyright>
+    
+    
+    <lastBuildDate>Tue, 22 Jun 2021 07:45:38 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/%E5%90%8E%E5%8F%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>crmeb商城后台标题修改方法</title>
+      <link>http://localhost:1313/3785.html</link>
+      <pubDate>Tue, 22 Jun 2021 07:45:38 +0000</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>http://localhost:1313/3785.html</guid>
+      <description>&lt;p&gt;crmeb这款商城程序怎么说呢，价格便宜（当年），ui还行，功能基本完备。但是最让人诟病的就是crmeb这个字样到处都是，修改完了，等下次一升级，这些玩意又出来了。特别是网页标题的部分，真是让人烦不胜烦。前台使用的uni-app很多人都比较熟悉，标题在哪修改还好说，后台标题虽然问题不大，但是看着怎么都不舒服。&lt;/p&gt;&#xA;&lt;p&gt;今天下午没事，又看到了这摊臭狗屎，于是就想把它搞掉。最后终于找出来了方法。&lt;/p&gt;&#xA;&lt;p&gt;首先，修改两处文件&lt;/p&gt;&#xA;&lt;p&gt;一处在view/admin/src/config/index.js&lt;/p&gt;&#xA;&lt;p&gt;另一处在/view/admin/src/router/routes.js&lt;/p&gt;&#xA;&lt;p&gt;使用notepad++打开，把里面的CRMEB字样替换成你商城的标题，比如老刘的是镜缘轩眼镜商城。&lt;/p&gt;&#xA;&lt;p&gt;第二步，打包&lt;/p&gt;&#xA;&lt;p&gt;因为用的是H5，所以需要用Nodejs。&lt;/p&gt;&#xA;&lt;p&gt;安装Nodejs，&lt;!-- raw HTML omitted --&gt;官方地址&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;文件目录：&lt;br&gt;&#xA;后台文件目录： view / admin/&lt;/p&gt;&#xA;&lt;p&gt;打包教程：&lt;br&gt;&#xA;1.本地安装 Nodejs（已安装可以跳过）&lt;br&gt;&#xA;2.进入 命令行，具体方法如下&lt;br&gt;&#xA;windows 系统用户进入 view/admin文件夹后，按住shift + 鼠标右击，点击[在此处打开 Powershell窗口]&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2021/06/722a55eb92da648.png&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;命令行输入&lt;code&gt;npm install&lt;/code&gt;或者 &lt;code&gt;npm i&lt;/code&gt;&lt;br&gt;&#xA;回车。&lt;br&gt;&#xA;等待安装完成。&lt;/p&gt;&#xA;&lt;p&gt;然后&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;打包完成后，把&lt;strong&gt;dist 文件夹&lt;/strong&gt;里的文件覆盖后台里的文件即可。&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

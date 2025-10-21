@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ETC on Hugo Bear Neo</title>
+    <link>http://localhost:1313/blog/etc/</link>
+    <description>Recent content in ETC on Hugo Bear Neo</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>example@example.com (Rokcso)</managingEditor>
+    
+    
+      <webMaster>example@example.com (Rokcso)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, Rokcso.</copyright>
+    
+    
+    <lastBuildDate>Thu, 24 Oct 2019 04:58:08 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/blog/etc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>支付宝申请ETC的体验</title>
+      <link>http://localhost:1313/2825.html</link>
+      <pubDate>Thu, 24 Oct 2019 04:58:08 +0000</pubDate><author>example@example.com (Rokcso)</author>
+      <guid>http://localhost:1313/2825.html</guid>
+      <description>&lt;p&gt;这段时间本来处于很尴尬地位的ETC在国家相关政策的指引下，成功的变成了各路的宠儿，各个机构都上杆子的免费送。甚至，国家的政策还被很多别有用心的媒体、自媒体解读为不申请ETC，逢年过节的高速费都不免了。虽然，后来也有媒体出来辟谣，但也从中可以看到，今年ECT的势头。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2019/10/9904edd1f469443.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;国庆的时候上高速，看到收费站，看到ETC的口已经是大多数了，车辆通行的也很流畅，于是和老婆提了一句，回头也装个ETC，后来又觉得要去银行弄，比较麻烦，也就不了了之了。&lt;/p&gt;&#xA;&lt;p&gt;前两天在摆弄支付宝的时候，发现支付宝官方也开始接入办理ETC的业务了，而且只要有一定的蚂蚁信用分，就可以免押金的获得一部ETC设备，蚂蚁信用分不够的也没关系，不过要先交些押金，收到ETC激活后，押金秒退。&lt;/p&gt;&#xA;&lt;p&gt;于是，就申请之。支付宝的这个ETC，需要绑定银行卡，目前支持建行、工行、农行、邮政。其中农行和邮政如果卡上的余额不足的话，可以通过花呗付款，目前建行和工行还仅支持从银行卡上扣款。&lt;br&gt;&#xA;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2019/10/4db908f9963b0bf.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;绑定银行卡，上传车主身份证及行车证，审核的很快，基本上10几分钟就审核完了。值得说明的是，在支付宝上为他人申请ETC。这一点还是比较人性化的。很多银行必须要车主本人才能申请。&lt;/p&gt;&#xA;&lt;p&gt;ETC发过来的速度也很快，从申请到收到大概3-4天的时间，激活也很简单。给我发过来的是鲁通卡。先把ETC粘到前窗，然后打开支付宝，用支付宝扫描随货发的安装指南，按提示打开手机蓝牙，把高速卡插进ETC，然后快速插拔两次，打开etc的蓝牙，然后再手机里点击激活，等待一会就激活了。整个过程不超过5分钟。还是相当的方便。&lt;/p&gt;&#xA;&lt;p&gt;现在就等上高速试试了！&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

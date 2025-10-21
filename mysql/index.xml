@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mysql on 老刘博客</title>
+    <link>http://localhost:1313/mysql/</link>
+    <description>Recent content in Mysql on 老刘博客</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    
+    
+      <webMaster>ewader@qq.com (老刘)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, 老刘博客.</copyright>
+    
+    
+    <lastBuildDate>Fri, 18 Nov 2022 00:17:14 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/mysql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Django设置使用MySql的时候遇到的一些坑</title>
+      <link>http://localhost:1313/4298.html</link>
+      <pubDate>Fri, 18 Nov 2022 00:17:14 +0000</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>http://localhost:1313/4298.html</guid>
+      <description>&lt;p&gt;Django默认使用的数据库是sqllit,如果是一个小项目的话是完全够用的，但是如果考虑到这个项目未来的话，一般都会换成Mysql或者其他更专业的数据库。本文，就来说说，在设置使用mysql的时候，遇到的一些问题及解决的方法。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;h2 class=&#34;wp-block-heading&#34; id=&#34;项目里设置引用mysql&#34;&gt;项目里设置引用Mysql&lt;/h2&gt;&#xA;&lt;p&gt;在setting.py里,把原来使用sqllit的语句删除或者注释掉，添加如下代码&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;&lt;strong&gt;安装Python访问MySQL的模块&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Django官方已经不建议使用pymysql库了，而是改用mysqlclient，直接pip安装即可。&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;在debian11上安装的时候，显示OSError: mysql_config not found的错误，查询得知，需要安装libmysqlclient-dev，但是用apt install libmysqlclient-dev的时候，安装不成功，提示是另一个分支，建议安装libmariadb-dev。所以安装这个即可。&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;出错：error: command ‘x86_64-linux-gnu-gcc’ failed: No such file or directory&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

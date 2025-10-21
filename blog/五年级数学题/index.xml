@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>五年级数学题 on Hugo Bear Neo</title>
+    <link>http://localhost:1313/blog/%E4%BA%94%E5%B9%B4%E7%BA%A7%E6%95%B0%E5%AD%A6%E9%A2%98/</link>
+    <description>Recent content in 五年级数学题 on Hugo Bear Neo</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>example@example.com (Rokcso)</managingEditor>
+    
+    
+      <webMaster>example@example.com (Rokcso)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, Rokcso.</copyright>
+    
+    
+    <lastBuildDate>Wed, 06 Nov 2019 03:01:19 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/blog/%E4%BA%94%E5%B9%B4%E7%BA%A7%E6%95%B0%E5%AD%A6%E9%A2%98/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>一道比较难懂的五年级数学题</title>
+      <link>http://localhost:1313/2842.html</link>
+      <pubDate>Wed, 06 Nov 2019 03:01:19 +0000</pubDate><author>example@example.com (Rokcso)</author>
+      <guid>http://localhost:1313/2842.html</guid>
+      <description>&lt;p&gt;昨天女儿的数学其中考试卷子发下来了，还算可以，其实如果她再细心一点的话，分数还能有一些提高，甚至百分也不是不可能，总是在细节处丢分。无语了。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2019/11/224dda9b8159949.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;卷子的难度也中规中矩，不过最后一个附加题，对于没有学方程的孩子来说，做起来还是蛮难的。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;甲乙同时走一段路，甲的速度是4.5km/h，乙的速度比甲慢1.5km/小时。乙比加多用了2.5小时才走完了这段路，问，这段路是多少千米？&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;这道题用方程来算很简单：&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;设甲用的时间是x,乙的时间为x+2.5。&lt;/p&gt;&#xA;&lt;p&gt;那么：4.5x=(4.5-1.5)×（x+2.5)&lt;/p&gt;&#xA;&lt;p&gt;1.5x=7.5&lt;/p&gt;&#xA;&lt;p&gt;x=5&lt;/p&gt;&#xA;&lt;p&gt;4.5*5=22.5&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;但是对于还没有学到方程的孩子来说，理解起来就比较困难。这到底难点是要求甲走这段路的时间。但是，根据题意给女儿讲了几遍女儿都不是很理解，后来灵机一动，设置了丙这个虚拟的人物来便于女儿理解。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2019/11/1cb4db3f9b19f38.png&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;由上图，我们看到：&lt;/p&gt;&#xA;&lt;p&gt;由于乙比甲的速读慢1.5km/h，所以当甲走到终点c的时候，乙才走到B点，由题目给出来的条件可以得知，BC这段路的长度为（4.5-1.5）*2.5=7.5km。&lt;/p&gt;&#xA;&lt;p&gt;如果乙把自己的速度提高1.5km的话，那么甲乙将会同时到达终点，但是事实上乙走的慢，那么只需在B点加上一个虚拟的人物丙,让丙以1.5km/h的度数往前走，那么当甲从A点走到C点的时候，乙走到B点，丙则从B点走到了C点。&lt;/p&gt;&#xA;&lt;p&gt;丙的速度我们知道了是1.5km/h,走的路程我们也知道了是7.5km，那么，很简单的就求出来丙走的时间为7.5/1.5=5小时。而丙走的时间是和甲的时间一致的（同时出发，同时到达）。也就是说甲从A到C的时间也是5小时。&lt;/p&gt;&#xA;&lt;p&gt;至此，这段路程的长度就为：4.5*5=22.5km&lt;/p&gt;&#xA;&lt;p&gt;经过这样的讲解，女儿恍然大悟状，屁颠屁颠的去给她妈妈讲课去了。&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

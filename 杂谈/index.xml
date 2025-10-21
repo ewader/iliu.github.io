@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>杂谈 on 老刘博客</title>
+    <link>http://localhost:1313/%E6%9D%82%E8%B0%88/</link>
+    <description>Recent content in 杂谈 on 老刘博客</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    
+    
+      <webMaster>ewader@qq.com (老刘)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, 老刘博客.</copyright>
+    
+    
+    <lastBuildDate>Tue, 30 Jul 2019 03:28:14 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/%E6%9D%82%E8%B0%88/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>尽信书不如无书</title>
+      <link>http://localhost:1313/2574.html</link>
+      <pubDate>Tue, 30 Jul 2019 03:28:14 +0000</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>http://localhost:1313/2574.html</guid>
+      <description>&lt;p&gt;最近在折腾阿里云的这台轻量应用服务器，给它增加一些防护的措施，经过这几天的折腾，明白了一个道理，那就是老祖宗曾经总结出的来话：&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;尽信书不如无书&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;尤其是一些个所谓大佬发布的代码，还是要仔细的审查一下才能再用，因为有些代码是错的，还有少语句的，缺单词的，等等都不罕见。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;为什么所谓大佬的代码不正确呢&#34;&gt;为什么所谓大佬的代码不正确呢？&lt;/h2&gt;&#xA;&lt;p&gt;这并不是大佬故意的，因为这些代码并不是这些所谓大佬的原创，也是从别的地方搬过来的，但是在搬的过程中，由于疏忽大意，或者是因为编辑器的原因（跋涉者就遇到过，由于设置代码高亮，发布后总会少一些单词），导致会少一些关键的词语，但是大佬对自己有很自信，不会检查自己发布的东西，别人又从大佬这里转抄，于是，错的越来越多。如果有幸找到原版还可以，找不到原版只能自认倒霉吧。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;发现代码错误应该怎么办&#34;&gt;发现代码错误应该怎么办&lt;/h2&gt;&#xA;&lt;p&gt;发现代码错误后不要着急，因为很多不是出在你的原因，勤查日志，看出错的是什么原因，然后再搜索出现这个错误的解决办法，一般就能解决，跋涉者再折腾fail2ban的时候，从网上大佬那直接抄的代码，运行后直接报错，错误类型是no host….，于是搜索这个错误，终于找到了这个代码的原版出处，于是才把这个问题解决。&lt;/p&gt;&#xA;&lt;p&gt;所以，遇到问题不要怕，不要否定自己，问题总会能找到答案的。&lt;/p&gt;&#xA;&lt;p&gt;真找不到答案的话，可以直接在作者的文章后留言询问，但是这个方法是不得已而为之的方法，因为毕竟大佬对自己很自信的，你留言后他们会说是你的原因，看看是不是抄错了，我用的没问题啊，巴拉巴拉，却不知他用的和他发的根本就不是一样的代码了。&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

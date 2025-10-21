@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cdn on 老刘博客</title>
+    <link>http://localhost:1313/cdn/</link>
+    <description>Recent content in Cdn on 老刘博客</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    
+    
+      <webMaster>ewader@qq.com (老刘)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, 老刘博客.</copyright>
+    
+    
+    <lastBuildDate>Mon, 21 Dec 2020 07:15:11 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/cdn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>nginx使用CDN后获取用户真实IP的方法</title>
+      <link>http://localhost:1313/3486.html</link>
+      <pubDate>Mon, 21 Dec 2020 07:15:11 +0000</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>http://localhost:1313/3486.html</guid>
+      <description>&lt;p&gt;老刘前两天弄了个racknerd的便宜的vps，准备把一个网站放到这个vps上，再顺便把篱落的这台VPS好好的整理一下，当时装系统的时候装的是centos8，可惜这个系统明年官方就不再支持了，所以，长痛不如短痛，早晚都要换系统，不如早换。于是先把博客也迁到了这个rn的空间里。顺便又给加了个CF的套，加上之后，加的时候是扫了几个本地延迟最低的IP，直接分联通、移动、电信把这几个ip分别解析了。经过这么几天的试用，老刘觉得加了CF的速度还算差强人意。准备一直用下去。&lt;/p&gt;&#xA;&lt;p&gt;但是加了CDN后，有一个问题，那就是不管日志里还是wordpress后台的评论里的IP都是cf的IP，无法获取用户的真实IP，这对管理网站有点麻烦，比如受到攻击或者想封一些发垃圾邮件IP的地址的时候，就没有办法。老刘记得以前看过这方面的文章。于是找了一下，把经过记录下来。&lt;/p&gt;&#xA;&lt;p&gt;阿帕奇老刘好久没有用过了，这里只说nginx的方面，从网上的教程来看，可以分成两种。老刘把两种方法的说说&lt;/p&gt;&#xA;&lt;h2 class=&#34;wp-block-heading&#34; id=&#34;一利用ngx_http_realip_module模块获取用户真实ip&#34;&gt;一、利用ngx_http_realip_module模块获取用户真实IP&lt;/h2&gt;&#xA;&lt;p&gt;由于老刘用的是oneinstack一键安装包，所以之说这个方法，lnmp一键安装包也可以用类似的方面来搞定。宝塔面板的话，就很简单，装那款免费的防火墙，里面就是cdn的设置，设置完了之后就OK了，不得不说还是可视化面板方便。好了，闲话少说，正式开始。&lt;/p&gt;&#xA;&lt;p&gt;首先通过nginx -V我们发现默认编译的nginx并不会安装ngx_http_realip_module模块，我们需要重新编译nginx使其载入这个功能模块。&lt;/p&gt;&#xA;&lt;p&gt;这里我们直接利用oneinstack的升级脚本来完成，这样做，一是很简单，二是一般不会出错，很适合初学者使用，第三，就是以后你升级nginx的话，也能一劳永逸。&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2021/01/3c4e83f775536ad.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;保存并退出，执行oneinstack的升级脚本/root/oneinstack/upgrade.sh进行nginx升级编译即可。&lt;/p&gt;&#xA;&lt;p&gt;最后执行nginx -V查看最终编译后的结果。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/12/43904aa51d7dce2.png&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;h3 class=&#34;wp-block-heading&#34; id=&#34;nginx设置set_real_ip_from&#34;&gt;Nginx设置set_real_ip_from&lt;/h3&gt;&#xA;&lt;p&gt;编译好了ngx_http_realip_module，现在我们只需要在Nginx配置文件中添加set_real_ip_from代码到nginx.conf文件的http段落里面，老刘用的cf的，用期待的CDN类似，只有知道IP段可以了。示例如下：&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;配置完成后，使用nginx -t检查配置文件是否存在格式问题。如果没有报错执行service nginx reload重载nginx服务即可。&lt;/p&gt;&#xA;&lt;p&gt;然后访问网站，再次查看nginx日志，就可以正常获取到用户真实IP了。&lt;/p&gt;&#xA;&lt;h2 class=&#34;wp-block-heading&#34; id=&#34;二利用nginx的日期格式来达到目的&#34;&gt;二、利用nginx的日期格式来达到目的&lt;/h2&gt;&#xA;&lt;p&gt;首先，将下面的代码添加到nginx.conf文件的http{后面让日志重置化：&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;然后，我们修改nginx站点原来的日志输出格式，修改access_log /home/wwwlogs/xxxx.log; 为access_log /home/wwwlogs/xxxx.log cdn;全部保存之后不要急着重启nginx，再次强调一个命令nginx -t，用于检查nginx配置文件是否存在错误。这是一个非常实用的命令，可以让你在业务运行的同时从起nginx服务，不至于造成业务中断或者业务停止。&lt;/p&gt;&#xA;&lt;p&gt;这个方法的有点是不需要编译nginx，设置完了之后也是一劳永逸。但是对于oneinstack一键安装包来说，因为它已经重置了日志的格式，所以就不适用了。&lt;/p&gt;&#xA;&lt;h2 class=&#34;wp-block-heading&#34; id=&#34;小结&#34;&gt;小结&lt;/h2&gt;&#xA;&lt;p&gt;以上就是两种在使用CDN后可以获取用户真实IP的方法，可以根据自己的情况来使用。&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>nodecache开通了中国直连线路</title>
+      <link>http://localhost:1313/3283.html</link>
+      <pubDate>Sun, 11 Oct 2020 02:29:24 +0000</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>http://localhost:1313/3283.html</guid>
+      <description>&lt;p&gt;在以前的文章（&lt;a href=&#34;https://tunan.org/1679.html&#34;&gt;推荐一款国外CDN——Nodecache，注册即送1T流量&lt;/a&gt;）中介绍过nodecache这个CDN服务商，当时是注册送1T的流量，后来由于觉得其速度有点慢，有时候又不稳定，所以就一直没有，后来通过这篇文字，陆续有了写aff送的流量，差不多一个月9G的样子，要说用在我这个小博客上市绰绰有余了，但是由于怕跑路就一直也没有用。&lt;/p&gt;&#xA;&lt;p&gt;今天闲着没事，翻看自己以前的文字，发现了自己的这篇文章，于是，怀旧的登录上去看看，结果这个CDN服务商居然还没有跑路，哈哈！看了一下，里面的设置基本上和上海云盾的类似，有些还借鉴了又拍云的设置方式。又看了一下发现居然增加了中国直连线路。于是，我可耻的心动了。设置了一番，发现没有想想的那么美好，中国直连线路不是中国线路。&lt;/p&gt;&#xA;&lt;h2 id=&#34;设置成中国直连线路后的ping值&#34;&gt;设置成中国直连线路后的ping值&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/10/6213ab646eb588c.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;大概170左右，查了一下这个IP，是美国加利福尼亚的IP。不过实际用起来感觉还是挺流畅的。除了ping的值有点高以外。&lt;/p&gt;&#xA;&lt;h2 id=&#34;于是切换成亚太ip后&#34;&gt;于是切换成亚太IP后&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/10/be32cbd25dd47e4.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;ping值降到了60，但是不稳定，有超时的现象。&lt;/p&gt;&#xA;&lt;h2 id=&#34;里面的设置还是挺丰富的支持防护cc以及waf防火墙&#34;&gt;里面的设置还是挺丰富的，支持防护CC以及waf防火墙&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/10/fca569fbd8b732d.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;有兴趣的朋友可以试试看&#34;&gt;有兴趣的朋友可以试试看&lt;/h2&gt;&#xA;&lt;p&gt;目前也运行了一年多的时间了吧，估计不会跑路了，作为日常使用一下下还是可以的，谁让没有备案不能用国内的CDN呢！凑合着用吧，比裸奔心理安慰一些些！&lt;/p&gt;&#xA;&lt;h2 id=&#34;注册地址&#34;&gt;注册地址：&lt;/h2&gt;&#xA;&lt;p&gt;可以走一下我的AFF,让我多一些些流量。?&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://console-api.nodecache.com/f?aff=4BLOd3&#34;&gt;https://console-api.nodecache.com/f?aff=4BLOd3&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;貌似不再送流量了…..&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>nodecache的服务条款很霸王啊</title>
+      <link>http://localhost:1313/2250.html</link>
+      <pubDate>Tue, 09 Jul 2019 08:47:39 +0000</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>http://localhost:1313/2250.html</guid>
+      <description>&lt;p&gt;nodecache是一款新出的cdn服务商，搜索引擎上关于它的资料很少，今天搜了半天也只是找到一个快照，是和某个国外主机论坛合作推广送50美元的文章，这篇文章是2019年1月左右。不过这个活动也早就停了。&lt;/p&gt;&#xA;&lt;p&gt;知道这个公司是看到缙哥哥分享的，说实话，目前用着来说还算可以，毕竟人数可能比较少，加速的节点是香港的，而且种种迹象表明，这是一个国人开办的公司，对中文支持那也就相当的好了。当时用着很满意，不过它的流量就送一个月，由于满意就想在试用一段时间，于是充了1美元，因为目前这个博客的流量很小，1美元也可以用好久了。&lt;/p&gt;&#xA;&lt;p&gt;充完了之后才发现推广链接还能送流量，首个用户是送5g，以后的用户送1g，跋涉者成功的推广了两个用户，所以账户中每个月是有6g的流量的，对于跋涉者来说，这个流量已经是足够了。于是就想把这个钱给退回来，虽然少，蚊子多了也是肉嘛。&lt;/p&gt;&#xA;&lt;p&gt;结果，网站里没有发现任何的退款链接，于是发工单询问。客服很快就有了回复。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;您好，根据服务条款，定价一项的规定：所有款项预付，不予退还。针对您账户的余额我们会为您保存12个月。在12个月内您可以随时登录账号使用本公司产品服务。以下是服务条款 链接https://www.nodecache.com/serviceTerm 请您知悉！&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;意思是，只管交钱，不管退钱，钱到了我手就是我的了。在后，跋涉者看了下这个服务条款，价值是霸王加流氓啊。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Nodecache的服务成本和定价可以不时地由Nodecache自行决定。所有款项预付，不予退还。我们所说的所有价格都可能变化，并且可能会不时地由Nodecache自行决定。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;意思是，我想什么时候涨价什么时候涨价，款是不退的，这算了，毕竟你家的东西价格你做主，市场经济嘛，但是下一条就有点流氓了。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;为了给用户提供优质的服务，未使用的账户余额将在12个月后到期。逾期付款不退款，将从您的帐户中删除。现有余额可以在到期日之前通过额外支付来延长，在这种情况下，新旧余额都将再延长12个月。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;意思是你有余额不用，12个月后就彻底是我家的了，想不作废的话 你再充钱啊，充完了再给你延长一年。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;所以，这个cdn目前也就是一个玩意，玩玩可以，千万不要当真，跑路的可能性比较大，而且从本月开始，感觉它的节点越来越慢了…….&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>利用cloudFlare的边缘计算workers实现外链转内链跳转</title>
+      <link>http://localhost:1313/2248.html</link>
+      <pubDate>Tue, 09 Jul 2019 01:20:11 +0000</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>http://localhost:1313/2248.html</guid>
+      <description>&lt;p&gt;跋涉者曾经分享过一篇7b2主题外链跳转的文章，那篇文章实现的原理是在自己服务器里增加一个跳转的页面代码。&lt;/p&gt;&#xA;&lt;p&gt;[zrz_insert_post id=1656]&lt;/p&gt;&#xA;&lt;p&gt;不过今天看张戈大神的一篇文章&lt;!-- raw HTML omitted --&gt;CloudFlare边缘计算Workers尝鲜初探：博客跳转中间页&lt;!-- raw HTML omitted --&gt;。这篇文章谈到可以把这个跳转代码保存到cloudFlare的边缘计算workers中，从而让跳转可以在CDN里实现，显然，这样会减轻服务器计算的压力。对小水管的博客来说有一定的使用价值。&lt;/p&gt;&#xA;&lt;h2 id=&#34;首先你的网站要使用cloudflare这个cdn加速&#34;&gt;首先，你的网站要使用cloudFlare这个cdn加速。&lt;/h2&gt;&#xA;&lt;p&gt;由于国内的网络情况，直接使用往往比较卡，不过好在张戈大神折腾出了另外一个套路，使用后感觉还不错。有兴趣的朋友可以去他的网站上参考。本文不做详细的叙述。&lt;/p&gt;&#xA;&lt;h2 id=&#34;第二把代码添加到cloudflare的边缘计算workers中&#34;&gt;第二，把代码添加到cloudFlare的边缘计算workers中&lt;/h2&gt;&#xA;&lt;p&gt;步骤如下：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;!-- raw HTML omitted --&gt;打开CF域名控制面板，如图1点击切换到Workers选项卡；&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;!-- raw HTML omitted --&gt;点击【Launch Editor】按钮进入Workers编辑界面后，点击【Add script】输入脚本名称并保存，如图：&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;把如下代码放入代码编辑框中，此代码来自&lt;!-- raw HTML omitted --&gt;张戈博客&lt;!-- raw HTML omitted --&gt;.并点击save。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;!-- raw HTML omitted --&gt;点击【routers】按钮切到路由编辑界面，点击【Add router】后如图添加路由：点击save&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;至此，已经大功告成，想看效果的可以点击上面的外链，值得说明的一点是，cloudFlare的边缘计算workers是收费服务，不过每天有免费10w的请求数量，对我们这个小博客来说，是非常非常的够用了。&lt;/p&gt;&#xA;&lt;p&gt;如果，你也在使用&lt;!-- raw HTML omitted --&gt;cloudFlare，不妨也可以用用这个玩意，毕竟充分利用外部资源是我等小博主追求的目标哈。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>推荐一款国外CDN——Nodecache，注册即送1T流量</title>
+      <link>http://localhost:1313/1679.html</link>
+      <pubDate>Mon, 03 Jun 2019 02:09:27 +0000</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>http://localhost:1313/1679.html</guid>
+      <description>&lt;p&gt;最新消息，只要邀请一个人，就能永久每月5G的流量，还是不错的&lt;/p&gt;&#xA;&lt;p&gt;国内没有备案的站长最头疼的无非是不能使用国内诸多的cdn加速以及隐藏真实IP地址，能用的也就国外的cloudflare,但是这个cdn服务商有不少ip被封了，没有被封的有时候抽风起来，速度又特别的慢，现在国外又新出了一款Nodecache的cdn，由于是新出的，加速的速度不错，本站目前就是用这个加速的，现在做活动，点击如下地址注册，即送1T的流量，如果非邀请注册，也就是自己注册的话，直送500G的流量。地址如下：&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Nodecache注册&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;注册后进入后台，慢慢的熟悉感，这个cdn的界面和又拍云的非常的相似&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;我们可以点击CDN服务，按照表格的内容进行填写就可以了，和国内的需要审核不同，这个提交后直接生效&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;只需把系统分配给你的cname解析到你的域名即可。&lt;/p&gt;&#xA;&lt;p&gt;至于流量用完后的价格，跋涉者看了一下，也不是很贵，对于小博客来说完全能承担得起。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;是不是心动了，心动不如赶紧行动了，点击如下地址注册了即送1T的流量了。&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Nodecache注册送1T流量&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>上海云盾CDN简要设置指南</title>
+      <link>http://localhost:1313/1653.html</link>
+      <pubDate>Sun, 26 May 2019 02:29:32 +0000</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>http://localhost:1313/1653.html</guid>
+      <description>&lt;p&gt;在免费cdn市场上，广大站长所使用的一般是又拍云cdn，360网站加速，上海云盾cdn以及腾讯云cdn，笔者以前也是使用的又拍云cdn,可能是和又拍云犯冲又或者是自己设置的不对，网站总出现这样那样的问题，后来把cdn转移到了上海云顿，网站之前的问题就没有再出现，于是就一直用了下去，当时觉得上海云盾的设置很简单，昨天，青山绿水博客的的博主小朋友问我上海云盾的设置小技巧，说实话真没有啥技巧，就把自己的一些设置弄出来，可能还有更多优化的地方，欢迎指正。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;云盾的cdn登录后的界面，我们一般也就用到cdn功能，可以在性能优化里面设置。上海云盾每月送50g的流量，对于小博客来说是够用了，不过送的流量并没有显示出来，和官方人员也有过沟通，他说你用就行了，反正每月50g。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;点击性能优化后，就进入了CDN设置的地方，首先要添加网站，添加后系统会给你一个cname地址，在你的域名解析的地方，把你的网站解析到这个地址上，添加后就要等云盾的审核了，一般情况下需要1-2小时的时间。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;回源配置&#34;&gt;回源配置&lt;/h2&gt;&#xA;&lt;p&gt;域名审核通过后，域名后面的控制台，就进入了cdn的设置项，设置项很简单，有三个方面，第一个方面是回源配置，在这里你需要设置你的http协议，回源的地址以及端口，http的话是80端口，https的话一般是443端口。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;性能优化&#34;&gt;性能优化&lt;/h2&gt;&#xA;&lt;p&gt;这里是设置缓存的地方，根据自己网站的情况具体设置即可，镜缘轩这个网站的设置情况如上图，笔者把js和css以及图片视频等都设置的缓存15天，其他目录设置的是半小时。可以根据自己的实际情况来设置。&lt;/p&gt;&#xA;&lt;p&gt;另外这里还有一个是不缓存的设置，一般把你网站的后台目录设置成不缓存即可。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;高级配置&#34;&gt;高级配置&lt;/h2&gt;&#xA;&lt;p&gt;这个配置项有搜索引擎优化，这里把你源站的ip地址输入里面即可，还有一些https的设置，值得说明的是上海云盾的ssl证书是在公共组件里上传和修改的。，高级配置本人就做了这两项，其他的都默认配置即可。&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

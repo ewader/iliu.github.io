@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Godaddy免费空间 on 老刘博客</title>
+    <link>http://localhost:1313/godaddy%E5%85%8D%E8%B4%B9%E7%A9%BA%E9%97%B4/</link>
+    <description>Recent content in Godaddy免费空间 on 老刘博客</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    
+    
+      <webMaster>ewader@qq.com (老刘)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, 老刘博客.</copyright>
+    
+    
+    <lastBuildDate>Thu, 28 Oct 2010 06:03:38 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/godaddy%E5%85%8D%E8%B4%B9%E7%A9%BA%E9%97%B4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>只需三步，让你的wordpress在godaddy免费空间上完美呈现</title>
+      <link>http://localhost:1313/950.html</link>
+      <pubDate>Thu, 28 Oct 2010 06:03:38 +0000</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>http://localhost:1313/950.html</guid>
+      <description>&lt;p&gt;以前本站有一篇文章，说是解决godaddy免费空间广告条对wordpress后台的影响，当时是采用第三方软件来实现的，但是到底有没有一种方法，能让不借用第三方软件来实现呢，答案是肯定的。而且很简单，只需要三步。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;1.隐藏前台页面广告&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;打开主题文件中的“style.css”文件，在文件最后加上如下这段代码：&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;#conash3D0 {height:0px; top:-1px;}&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;原理：使用css样式把广告上移，移到显示页面以外，谁都看不到了，实际上并没有去掉广告代码，只是“隐藏”而已**，K号的可能性比较小，但是有一定的危险，到底用不用再你。**&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2.恢复后台页面样式&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;godaddy的广告代码破坏了wordpress后台的css样式表及js，导致后台显示不正常，在wordpresswp-includesscript-loader.php中修改：&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;找到print_admin_styles()及_print_scripts()函数，&lt;/p&gt;&#xA;&lt;p&gt;将print_admin_styles()中的&lt;/p&gt;&#xA;&lt;p&gt;echo “n”;&lt;/p&gt;&#xA;&lt;p&gt;更改为&lt;/p&gt;&#xA;&lt;p&gt;$css = @file_get_contents($href);&lt;/p&gt;&#xA;&lt;p&gt;echo “”;&lt;/p&gt;&#xA;&lt;p&gt;将_print_scripts()中的&lt;/p&gt;&#xA;&lt;p&gt;echo “n”;&lt;/p&gt;&#xA;&lt;p&gt;替换为&lt;/p&gt;&#xA;&lt;p&gt;$js = @file_get_contents($src);&lt;/p&gt;&#xA;&lt;p&gt;echo “n”.substr($js,0,-184).”n”;&lt;/p&gt;&#xA;&lt;p&gt;之前有一个加上不少代码的修改方法，在3.01版本无效，但是我这个方法绝对是有效果的。&lt;/p&gt;&#xA;&lt;p&gt;3、搞掉后台广告&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;打开“wp-adminadmin- footer.php”文件，在末尾部分&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;的前面加上如下代码：&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;至此，修改完毕，一切都很完美！后台可以用 用户名：test 密码：test来测试。 关于采用第三方软件的方法，见 &lt;!-- raw HTML omitted --&gt;完美解决godaddy免费空间广告条对wordpress后台的影响 | 华彩生活&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>开发出godaddy免费空间的另外一个用途</title>
+      <link>http://localhost:1313/485.html</link>
+      <pubDate>Sat, 23 Jan 2010 07:04:06 +0000</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>http://localhost:1313/485.html</guid>
+      <description>&lt;p&gt;      godaddy免费空间确实太大了，用这也比较爽，虽然有个很大的广告，但是看在免费的份上也就别较真了。这么稳定又快速的空间，就将就用吧。有很多同学说了，这么大的空间，只装一个博客有点浪费了，那么下面我就给大家说说这个空间可以装的另外的程序。达到全面利用这个大空间的目的。&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;     国内开发的程序就部要考虑了，有人反映phpwind无法安装，所以我也就不费那份心了，如果装discuz，不戴uc的版本可以 装上，但是不能登录，不能注册。都是打不开了，所以我刚说了国内的程序就别考虑了，另外dedecms等没有实验，有兴趣的可以试试。想起了另外一个论坛程序phpbb，装上后，很完美。不管是后台还是前台一样的完美！想装论坛的可以考虑！但是千万不要开通启用GZip压缩功能，否则你会很后悔的。写到这里觉得安装phpwind不显示的原因很可能就是开通了这个功能。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>解决godaddy免费空间广告带来影响的方法</title>
+      <link>http://localhost:1313/476.html</link>
+      <pubDate>Tue, 19 Jan 2010 01:39:32 +0000</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>http://localhost:1313/476.html</guid>
+      <description>&lt;p&gt;        众所周知，godaddy免费空间带有一个很大的广告条，有广告也就罢了，不厚道的是通过增加的广告代码，使得很多源代码发生了错误，这是因为它的广告代码用了一连串的闭合标签，使你的程序人为的关闭，因此会出错，通过这一个月的摸索，现在把我的经验给大家说说，能让用这个空间的人多一些了解。我在上一篇&lt;!-- raw HTML omitted --&gt;完美解决godaddy免费空间广告条对WordPress后台的影响&lt;!-- raw HTML omitted --&gt;也说了一些，现在把其他的在给大家分享一下。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;    首先，最完美的解决方案，把你的主机切换到windows主机，选择iis7和php5，这样安装WordPress后不会显示任何广告，据网友反映，装zblog也没有问题，貌似动态的网页不会显示广告，但是html的静态网页会显示广告。windows主机也支持伪静态化，通过web.config来实现。缺点是1、对中文tag支持的不好，2、安全性没有保证，不知道是不是会因为没有广告而被K账户。有网友表示向godaddy的客服询问，但是没有看到结果，有一个网友现在用了4个月的时间，现在还一直在用，所以用这个的话记得经常备份数据。&lt;/p&gt;&#xA;&lt;p&gt;  第二，用linux的主机，要装WordPress2.9.1，这样后台基本上是完整的，可以加tag，发文章，传图片，但是插入图片的话要到媒体库内找到这个图片的地址后，然后在添加，可以回复评论，因此WordPress2.9.1还是不错的选择。缺点：１.有广告，2， feed无法输出。&lt;/p&gt;&#xA;&lt;p&gt;广告的可以在css内隐藏，但是建议大家不要这么做，毕竟要遵守合同的，feed问题目前还没有好的解决方法。&lt;/p&gt;&#xA;&lt;p&gt;第三、不管是windows主机还是linux主机都可以用离线发布的形式来发布，另外发现windows live writer也是不错的选择，还支持给图片加水印！&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>完美解决godaddy免费空间广告条对wordpress后台的影响</title>
+      <link>http://localhost:1313/388.html</link>
+      <pubDate>Sun, 03 Jan 2010 13:09:22 +0000</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>http://localhost:1313/388.html</guid>
+      <description>&lt;p&gt;自从从godaddy搞了域名之后，一直对它提供的免费空间耿耿于怀，用也不是，不用又觉得可惜，难怪网上都说此空间是一个鸡肋。很多童鞋都把此空间做为图床来使用，只是我觉得，这么好的一个空间，10g，300g的流量，仅仅用做图床未免有些浪费，加之目前手里也没有什么像样的空间，先前一直在有pipni的空间，各方面还比较满意，就是速度差了些，后来又觉得byethost的空间也不错，可惜IP老被封，加上本次的整顿事件，越发不敢用了，毕竟被墙以后，再找空间也麻烦。所以想来想去，还是就用godaddy提供的这个免费的空间吧。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;要说用你的免费空间给你做做广告也不是不可以，但是加载的代码对网页有影响。对wordpress而言，主要的问题是在后台，发文章，传文件等都受到很大的影响。目前迫切需要的是，1、把后台的广告给去掉，这个网上有很多的方法。我这里就不一一介绍了，只是说我的做法是&lt;code&gt;：在admin-footer.php加上&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;&amp;lt;br /&amp;gt; function hideGoDaddy(){&amp;lt;br /&amp;gt; if( ! ( null === document.getElementById( &amp;quot;conash3D0&amp;quot; ) ) ) {&amp;lt;br /&amp;gt; gDaddy = document.getElementById( &amp;quot;conash3D0&amp;quot; );&amp;lt;br /&amp;gt; if( &#39;none&#39; === gDaddy.style.display ) {}&amp;lt;br /&amp;gt; else { gDaddy.style.display = &#39;none&#39;; }&amp;lt;br /&amp;gt; }&amp;lt;br /&amp;gt; }&amp;lt;br /&amp;gt; setInterval(&amp;quot;hideGoDaddy()&amp;quot;, 1500);&amp;lt;br /&amp;gt;&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;这样，在后台就不会在显示广告了，但是代码造成的影响依然存在。那么就用第二步：&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;下载一个离线编辑器，通过比较我用的是zoundry raven，用这个基本上和用wordpress的后台没有什么区别，刚好是后台受到影响部分的补充。&lt;/code&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Webqq Mini on 老刘博客</title>
+    <link>http://localhost:1313/webqq-mini/</link>
+    <description>Recent content in Webqq Mini on 老刘博客</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    
+    
+      <webMaster>ewader@qq.com (老刘)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, 老刘博客.</copyright>
+    
+    
+    <lastBuildDate>Mon, 11 Jan 2010 08:46:00 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/webqq-mini/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>小测QQ刚推出的webqq mini</title>
+      <link>http://localhost:1313/422.html</link>
+      <pubDate>Mon, 11 Jan 2010 08:46:00 +0000</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>http://localhost:1313/422.html</guid>
+      <description>&lt;p&gt;昨天登录webqq的时候发现，功能又出新的了，推出了简易版的webqq mini，目前还在内测时时候，要求申请，并经过24小时的审核后，就可使用。今天打开邮箱发现已经通过审核了，马上体验了一下，把结果给大家说说。&lt;/p&gt;&#xA;&lt;p&gt;首先打开w.qq.com，出现如下界面：&lt;/p&gt;&#xA;&lt;p&gt;如果没有开通，可以先点链接进行申请，审核后即可使用，下图是登录后的界面：&lt;/p&gt;&#xA;&lt;p&gt;按钮分别是从左到右讨论信息、好友信息、群信息、设置，界面非常的简洁，但是不知道是我网速的问题，还是别的原因，打开的速度非常的慢，打开后点那几个按钮，反映的时间也很长，大概还不成熟吧，和webqq还是不能同日而语，不过简洁的界面还是挺令人期待的。不喜欢广告的可以关注这个东东。&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

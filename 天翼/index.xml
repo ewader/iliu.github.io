@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>天翼 on 老刘博客</title>
+    <link>http://localhost:1313/%E5%A4%A9%E7%BF%BC/</link>
+    <description>Recent content in 天翼 on 老刘博客</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    
+    
+      <webMaster>ewader@qq.com (老刘)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, 老刘博客.</copyright>
+    
+    
+    <lastBuildDate>Wed, 16 Dec 2009 08:25:15 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/%E5%A4%A9%E7%BF%BC/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>推荐一个免费发短信的软件——天翼live</title>
+      <link>http://localhost:1313/190.html</link>
+      <pubDate>Wed, 16 Dec 2009 08:25:15 +0000</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>http://localhost:1313/190.html</guid>
+      <description>&lt;p&gt;由于用的是电信的手机，昨天收到了一条短信，大意是电信也推出了可以像QQ、msn等一样可以免费发送短信的客户端，并且每个月可以免费发送300条短信。经过确认证明不是所谓的骗子，就下载来使用。还算不错，每天可以发50条，每月发300条，都是免费的，可以同时给20个人发送。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;华彩建议您使用这软件，但是必须是电信的用户，不管是宽带或者手机用户都可以，并且送一个189的邮箱，推荐中。&lt;/p&gt;&#xA;&lt;p&gt;官方网址为：&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;http://elive.vnet.cn/&#34;&gt;http://elive.vnet.cn/&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>丢东西 on Hugo Bear Neo</title>
+    <link>http://localhost:1313/blog/%E4%B8%A2%E4%B8%9C%E8%A5%BF/</link>
+    <description>Recent content in 丢东西 on Hugo Bear Neo</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>example@example.com (Rokcso)</managingEditor>
+    
+    
+      <webMaster>example@example.com (Rokcso)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, Rokcso.</copyright>
+    
+    
+    <lastBuildDate>Sat, 07 Nov 2009 16:33:31 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/blog/%E4%B8%A2%E4%B8%9C%E8%A5%BF/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>目前在唐河</title>
+      <link>http://localhost:1313/93.html</link>
+      <pubDate>Sat, 07 Nov 2009 16:33:31 +0000</pubDate><author>example@example.com (Rokcso)</author>
+      <guid>http://localhost:1313/93.html</guid>
+      <description>&lt;p&gt;在前天来到了唐河，中间路过平顶山、叶县、方城，方城以前也去过，只不过没有这次在那里待得时间久，在方城的时候发生了一件不是很让人愉快的事情，在天快亮的时候，我们住在旅店竟然被盗了@@￥#%#！#%，&lt;/p&gt;&#xA;&lt;p&gt;虽然我的损失不是很大，但是同事把他新买的多普达的手机给丢了，先是报警，然后派出所立案调查，不得不说的是我们的人名警察办事效率真的很“高”，雷声大，雨点小罢了。找回来的机会不是很大了。&lt;br&gt;&#xA;还有就是这么长时间以来一直没有更新博客，是因为原来使用门户通的空间，人家说被攻击了，封IP了，中国总有这么多无聊的人做这些歌无聊的事情，也可能是商业利益吧？！反正是这么几天网站是没法访问的，就连百度也很干脆，直接就把俺给咔嚓了，天地良心，俺的博客可全都是原创的内容，就算那个IP地址有很多的垃圾，也不至于就两天没有能访问你就给咔嚓的一个不剩吧，该咔嚓的不咔嚓。而门户通却又搞了个什么鸟的新通道计划，要求日IP要达到100以上，虽然我的网站已经通过了验证，然而心里还是不保险，于是想到了还有一个叫PIPNI的空间，试了一下还行，重要的是人家稳定啊。就先用它吧&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>检测厅 on Hugo Bear Neo</title>
+    <link>http://localhost:1313/blog/%E6%A3%80%E6%B5%8B%E5%8E%85/</link>
+    <description>Recent content in 检测厅 on Hugo Bear Neo</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>example@example.com (Rokcso)</managingEditor>
+    
+    
+      <webMaster>example@example.com (Rokcso)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, Rokcso.</copyright>
+    
+    
+    <lastBuildDate>Fri, 03 Jun 2022 06:47:01 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/blog/%E6%A3%80%E6%B5%8B%E5%8E%85/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>到处充满着无奈</title>
+      <link>http://localhost:1313/4138.html</link>
+      <pubDate>Fri, 03 Jun 2022 06:47:01 +0000</pubDate><author>example@example.com (Rokcso)</author>
+      <guid>http://localhost:1313/4138.html</guid>
+      <description>&lt;p&gt;无奈处处不在，&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

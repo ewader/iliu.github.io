@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>体检报告 on 老刘博客</title>
+    <link>http://localhost:1313/%E4%BD%93%E6%A3%80%E6%8A%A5%E5%91%8A/</link>
+    <description>Recent content in 体检报告 on 老刘博客</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    
+    
+      <webMaster>ewader@qq.com (老刘)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, 老刘博客.</copyright>
+    
+    
+    <lastBuildDate>Thu, 18 Mar 2010 12:06:00 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/%E4%BD%93%E6%A3%80%E6%8A%A5%E5%91%8A/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>9个月体检报告</title>
+      <link>http://localhost:1313/632.html</link>
+      <pubDate>Thu, 18 Mar 2010 12:06:00 +0000</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>http://localhost:1313/632.html</guid>
+      <description>&lt;p&gt;体重：8.5kg，身长：72厘米，头围44.2 厘米，前囟：1.6*1.0&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

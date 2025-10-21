@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>考试 on Hugo Bear Neo</title>
+    <link>http://localhost:1313/blog/%E8%80%83%E8%AF%95/</link>
+    <description>Recent content in 考试 on Hugo Bear Neo</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>example@example.com (Rokcso)</managingEditor>
+    
+    
+      <webMaster>example@example.com (Rokcso)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, Rokcso.</copyright>
+    
+    
+    <lastBuildDate>Tue, 07 Jan 2020 07:07:23 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/blog/%E8%80%83%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>祝女儿考出好成绩</title>
+      <link>http://localhost:1313/2988.html</link>
+      <pubDate>Tue, 07 Jan 2020 07:07:23 +0000</pubDate><author>example@example.com (Rokcso)</author>
+      <guid>http://localhost:1313/2988.html</guid>
+      <description>&lt;p&gt;女儿今明两天开始期末考试了，两天考完后就算是放假了，不过还不能轻松下来，从9号开始，所报的语文班和英语班就开课了。&lt;/p&gt;&#xA;&lt;p&gt;课外班总是见缝插针，恨不得一天能把1年的课都给上完了。特别是语文班，寒假1个星期的课，就千把块钱，一本书就100块钱，简直是抢钱的节凑。不过好不容易遇到个女儿喜欢的班，贵点就贵点吧。貌似给女儿报的这俩班就没有一个便宜的。&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

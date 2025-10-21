@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>输入法 on 老刘博客</title>
+    <link>http://localhost:1313/%E8%BE%93%E5%85%A5%E6%B3%95/</link>
+    <description>Recent content in 输入法 on 老刘博客</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    
+    
+      <webMaster>ewader@qq.com (老刘)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, 老刘博客.</copyright>
+    
+    
+    <lastBuildDate>Wed, 07 Feb 2024 20:28:26 +0800</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/%E8%BE%93%E5%85%A5%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用Fcitx5 for Android，读《万历十五年》</title>
+      <link>http://localhost:1313/posts/use-fcitx5-andriod-input/</link>
+      <pubDate>Wed, 07 Feb 2024 20:28:26 +0800</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>http://localhost:1313/posts/use-fcitx5-andriod-input/</guid>
+      <description>&lt;p&gt;最近女儿放假了，忙着辅导她的功课，毕竟初三了，加上期末考试的成绩不是很理想，所以寒假是要努力的时候了。在这期间读书也少了，只读了《万历十五年》这本历史书，另外就是在看了1900的博客后，把手机的输入法改成了Fcitx5 for Android，并且安装rime插件，使用雾凇拼音词库；这样手机就和电脑使用同一个词库了。&lt;/p&gt;&#xA;&lt;h2 id=&#34;手机安装并fcitx5-for-android&#34;&gt;手机安装并Fcitx5 for Android&lt;/h2&gt;&#xA;&lt;p&gt;在电脑上从去年开始就一直使用小狼毫输入法加雾凇拼音的词库，这个输入法开源，对隐私的保护好，并且词库很大，使用起来很准确，但是手机上的输入法一直不能让我满意。&lt;/p&gt;&#xA;&lt;p&gt;使用过一段微信键盘，恶心与微信无孔不入的推广，所以弃用；后来又使用了一段时间Gboard。一是词库小，输入不准确，选词困难，二是一些表情颜文字之类的需要网络的支持，想舒服的使用手机就要时刻处于科学的状态。所以使用一段时间后也不是很满意，就弃用了。也曾经使用过一段时间Fcitx5 for Android，那时候刚开发出来不久，还没有rime插件，加上没有九宫格，也不得不放弃了。最后选择使用了华为的小艺输入法。这个输入法各方面中规中矩吧，也比较顺手，就一直在使用下去。&lt;/p&gt;&#xA;&lt;p&gt;看&lt;a href=&#34;https://1900.live/last-puzzle-android-rime-input/&#34;&gt;1900&lt;/a&gt;的博客后,发现Fcitx5 for Android更新很多版本了，加上可以安装rime插件并使用雾凇拼音，就又产生了使用的念头。按照他博客的教程，很容易就安装使用了。&lt;/p&gt;&#xA;&lt;p&gt;试用了几天，发现总体而言还算可以。优点就是雾凇拼音了，和电脑一样的输入体验。缺点依然是不支持九宫格。目前在努力适应全键盘的模式中。&lt;/p&gt;&#xA;&lt;h2 id=&#34;读万历十五年&#34;&gt;读《万历十五年》&lt;/h2&gt;&#xA;&lt;p&gt;这本书以前看电视剧《人民的名义》的时候，就被@到。正好微信读书给推了这本，可以免费看，所以就读了。书名虽然是万历十五年，但并不是仅仅讲万历十五年发生的事情。记录了张居正、申时行、海瑞、戚继光等几位典型的人物事迹。&lt;/p&gt;&#xA;&lt;p&gt;从这本书可以看到首辅不同的性格导致的历史，明朝特殊的文官集团、大明皇帝的无奈、武将和军人的悲哀等。&lt;/p&gt;&#xA;&lt;p&gt;你能相信一个看似芝麻大的和稀泥事件，竟然就是导致大明被清朝覆灭的根源。五六十的海盗从浙江登陆，辗转上千公里，杀死4000多人；皇帝想干什么事只要不合文官集团的意，你就干不成，只要心灰气冷，得过且过。&lt;/p&gt;&#xA;&lt;p&gt;当然这只是书中的观点，不一定正确和全面，但是对了解那个封建社会里的奇葩王朝还是挺有帮助的。&lt;/p&gt;&#xA;&lt;p&gt;PS：&lt;/p&gt;&#xA;&lt;p&gt;和稀泥事件是这样的，当时镇守东北的巡抚发现有一个部落在不断的兼并周边的部落，于是派总兵去剿灭，结果总兵不听话而且打了败仗（以明朝那个奇葩的制度，打败仗也正常），于是巡抚就告总兵的黑状，总兵一看，我也是有后台的人，也告巡抚的黑状，当时的内阁首辅是申时行，一个善于和稀泥的人，一看说，你们两个相互告了就完事了，翻篇了。于是就不了了之了。这个部落的首领叫努尔哈赤！&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>开始试用小狼毫输入法</title>
+      <link>http://localhost:1313/4357.html</link>
+      <pubDate>Fri, 14 Apr 2023 04:24:52 +0000</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>http://localhost:1313/4357.html</guid>
+      <description>&lt;p&gt;自从用到win10以来，就开始懒得安装输入法了，毕竟微软拼音已经可以胜任很多的输入了。不过微软输入法有一点不太能容忍的bug是，偶尔会卡系统，不过也没有太放在心上。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;今天漂了一眼博客群，然后就看到博友推荐小狼毫输入法，我就不声不响的安装了一下，目前来看，基本是可以满足我的需求。直接安装使用了，高级的使用方法也没有去可以的学习。&lt;/p&gt;&#xA;&lt;h2 class=&#34;wp-block-heading&#34; id=&#34;启用雾凇拼音的方法&#34;&gt;启用雾凇拼音的方法&lt;/h2&gt;&#xA;&lt;p&gt;雾凇拼音是小狼毫框架下优化的一个词库吧，听群里大佬介绍说很不错，打算用上，可是对如何使用真是一头的雾水，最初把下载来的文件放进了&lt;strong&gt;小狼毫的data文件夹&lt;/strong&gt;下，结果选择雾凇拼音之后，中文输入是空白的。&lt;/p&gt;&#xA;&lt;p&gt;后来研究了半天，发现实现的方法是如此简单，右键点击输入法的图标，选择用户文件夹，然后在GitHub的仓库地址：&lt;a href=&#34;https://github.com/iDvel/rime-ice&#34;&gt;GitHub – iDvel/rime-ice: Rime 配置：雾凇拼音 | 长期维护的简体词库&lt;/a&gt;下载词库，下载后解压到刚才那个用户文件夹中。&lt;/p&gt;&#xA;&lt;p&gt;还是右键点输入法图标，选择输入法设定，选择雾凇拼音即可&lt;/p&gt;&#xA;&lt;p&gt;顺便吐槽一下相关部门开发的软件，真的堪比病毒。上午收到短信，意思是该申报下一年的工资了，于是抽屉里翻出了社保用的UKEY，到官网下载驱动程序，只见卡巴斯基是一连串的报警，而且还删除了好几个和驱动无关的程序。&lt;/p&gt;&#xA;&lt;p&gt;以为驱动就这么废了，结果重启后，驱动是正常了，原来是软件里夹带了很多的私活，这就是现状！想想河南有多少企业，每个企业至少一个电脑要安装这个破玩意。&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>manjaro安装配置fcitx5输入法</title>
+      <link>http://localhost:1313/4016.html</link>
+      <pubDate>Thu, 06 Jan 2022 09:38:19 +0000</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>http://localhost:1313/4016.html</guid>
+      <description>&lt;p&gt;网上很多文章都说manjaro多么的牛叉，软件如何的多，如何的稳定，滚动更新如何的方便等等等等。下午没事，在一台不怎么用的电脑上试用了一下这个系统。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;kde的界面很漂亮，运行也流畅，但就是没使用习惯，总体来说不如debian系的方便。也可能是我用习惯了的缘故吧。记得张波老师在群里问过manjaro如何安装输入法的问题，特意安装了最新的fcitx5输入法。&lt;/p&gt;&#xA;&lt;h2 class=&#34;wp-block-heading&#34; id=&#34;以下是安装流程&#34;&gt;以下是安装流程&lt;/h2&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;然后注销一下系统，输入法的图标就已经出来了。&lt;/p&gt;&#xA;&lt;h2 class=&#34;wp-block-heading&#34; id=&#34;然后安装词库&#34;&gt;然后安装词库&lt;/h2&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;h2 class=&#34;wp-block-heading&#34; id=&#34;一点坑&#34;&gt;一点坑&lt;/h2&gt;&#xA;&lt;p&gt;安装完成后，切换到中文输入法状态，显示拼音不可用，老刘找了很多教程也没有发现有用的，后来更新了一下系统，输入法正常使用了。如果，你也正受到这个问题的影响，不妨更新一下系统试试。&lt;/p&gt;&#xA;&lt;h2 class=&#34;wp-block-heading&#34; id=&#34;最后说一下&#34;&gt;最后说一下&lt;/h2&gt;&#xA;&lt;p&gt;这个系统真的使用不习惯，新手不建议使用，目前强烈推荐使用uos家庭版。经过最近一段时间的试用，最新版电脑死机的问题已经修复了，安装简单，并且软件丰富，连原生的Linux版本的微信都是绑定了uos系统。可见国家对这个系统的支持。&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>ubuntu20.04开机亮度最大的解决方法及输入法设置</title>
+      <link>http://localhost:1313/3951.html</link>
+      <pubDate>Mon, 20 Dec 2021 09:20:38 +0000</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>http://localhost:1313/3951.html</guid>
+      <description>&lt;p&gt;从很久以前UBUNTU就有一个毛病，有些电脑安装后，开机后屏幕的亮度会是最大。据说从很低的一个版本都有这样bug存在，但是不知道为啥官方一直都没有修复。不过网上也有很多的教程，试用了一下，有些有用，有些没用，直到扒到了一个很老的文章，上面记载的一个很简单的方法，却解决了这样一个问题。&lt;/p&gt;&#xA;&lt;p&gt;别的不说，直接上代码，照着做就行了：&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;然后说说ubunut的输入法&lt;/p&gt;&#xA;&lt;p&gt;以前（十年前吧）的时候，linux下的输入法很难用，现在主流的输入法也都有了，比如搜狗，百度，讯飞等等。最近看了一下，发现已经不需要额外在安装其他的输入法了，用系统自带的中文输入法已经很好用了。&lt;/p&gt;&#xA;&lt;p&gt;系统自带的输入法是ibuslibpinyin，只需要简单的设置一下，就非常好用了。&lt;/p&gt;&#xA;&lt;p&gt;第一步：常规设置，如下图，根据个人的习惯来吧，老刘喜欢候选词以词频方式展示。&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;第二步：拼音模式，勾选“启用云输入”&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;第三步：用户词典，勾选全部&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;第四步：重启&lt;/p&gt;&#xA;&lt;p&gt;至此，输入法使用起来基本上和在win10的微软拼音方便程度差不多了。&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>百度输入法小测</title>
+      <link>http://localhost:1313/943.html</link>
+      <pubDate>Wed, 27 Oct 2010 01:43:35 +0000</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>http://localhost:1313/943.html</guid>
+      <description>&lt;p&gt;由于黑莓手机上使用的是百度输入法，感觉还不错。（不错的原因是没有比较）所以再百度电脑版的输入法出来伊始，就装上体验了一番&lt;/p&gt;&#xA;&lt;p&gt;百度输入法的优点是：占用的资源比较下，占用的磁盘空间只有30多M，比搜狗的要小的多了，不过和google的差不多。其他方面可能是测试版的原因，没有发现更具有的优势。所具有的功能比的也都有了，而且最重要的是，不太稳定，有时候会出现白屏的现象以及找不到词库。&lt;/p&gt;&#xA;&lt;p&gt;百度输入法的介绍写的是，“基于百度搜索技术，最强大的中文输入引擎”，不过目前除了云查找之外，还真的没有见到其他的优势，不过有一点还是比较看好百度的，其所说的基于搜索技术，可能使得拼音的结果更智能化，我的理解是，输入拼音之后，最优先出现的词是搜索引擎中使用频率最高的，这样可以让拼音的重复率降低的最小。基于此，对于输入法，还是比较看好百度和google的。&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

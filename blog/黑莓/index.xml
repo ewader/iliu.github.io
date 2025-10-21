@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>黑莓 on Hugo Bear Neo</title>
+    <link>http://localhost:1313/blog/%E9%BB%91%E8%8E%93/</link>
+    <description>Recent content in 黑莓 on Hugo Bear Neo</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>example@example.com (Rokcso)</managingEditor>
+    
+    
+      <webMaster>example@example.com (Rokcso)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, Rokcso.</copyright>
+    
+    
+    <lastBuildDate>Wed, 03 Nov 2010 13:15:12 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/blog/%E9%BB%91%E8%8E%93/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>黑莓blackberry 刷机过程&#43;方法</title>
+      <link>http://localhost:1313/973.html</link>
+      <pubDate>Wed, 03 Nov 2010 13:15:12 +0000</pubDate><author>example@example.com (Rokcso)</author>
+      <guid>http://localhost:1313/973.html</guid>
+      <description>&lt;p&gt;其实可以说，黑莓手机的刷机是所有智能手机里面最简单的，而且一般情况下，黑莓手机是刷不死的，不像别的操作系统的手机，有很大的可能性被刷死。但是随着黑莓在中国的用户群体越来越大，很多黑莓爱好者都会遇到刷机的经历，不过可能是太简单了，各大黑莓论坛都没有详细讲解黑莓的刷价过程及方法，本文就是从个人的刷机经历给大家分享。&lt;br&gt;&#xA;首先是准备工作，要下几个必须的软件，一个是黑莓的桌面软件，BlackBerry Desktop Software，一个是黑莓机型对应的ROM，BlackBerry Desktop Software建议大家用5.0的，4系列虽然很简单，但是由于比较陈旧了，功能受到很大的限制，至于黑莓机型对应的ROM大家可以去官网或者各黑莓论坛搜索，最后一个是一个名字叫做wipe的批处理文件，wipe的应用方法后面的步骤会说到。这个本站就不提供下载的地址和链接了。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;接下来就是安装这两个软件，和在电脑上安装别的软件没有什么不同，本文就不在做详细的说明，唯一要告诉大家的是，5.0的的BlackBerry Desktop Software需要.net2.0的支持，所以安装可能较慢，请耐心等待。&lt;/p&gt;&#xA;&lt;p&gt;第三步，一定要进入下面的目录：C:Program FilesCommon FilesResearch In MotionAppLoader，删除其中的Vendor.xml，或者改成其他的名字，因为有Vendor.xml存在就不会刷机，不存在的话就会进入刷机状态，进入刷机状态后， 通过桌面管理器加载程序的时候 就会把通过javaloder加载的删除了，所以很多朋友在刷机时出现加载应用程序出现错误，都是因为这一步没有做，所以切记一定要将这最重要的一步完成啊！&lt;/p&gt;&#xA;&lt;p&gt;第四步，打开桌面管理器，插上usb数据线，等待一会，显示已经连接。备份你的手机信息，然后就会用到wipe这个东东了，里面一共是两个文件，先点击里面的JavaLoader，会弹出一个dos窗口，不用管它，自己就关闭了，然后点wipe，依然是一个dos窗口，稍等一会，wipe完成，wipe其实就是格式化的意思，这时候手机会重启，启动后，屏幕显示507错误，这说明你的wipe成功了。&lt;/p&gt;&#xA;&lt;p&gt;第四步：进入C:Program FilesCommon FilesResearch In MotionAppLoader，点击Loader.exe，会出现一个让你选择需要安装程序的页面，仔细看里面的英文，不是很难理解的，就是可以选择简体中文的以及对应的拼音、五笔画和仓颉输入法，还可以选择繁体中文及其输入法，当然了还可以选择日文字符的显示支持，总之，可以根据自己的需要，不想要的就不选择，想要的就选中即可选择好后，点下一步，软件会自动给BB安装你选择的东西，安装完毕点确定就完成的刷机的过程。&lt;/p&gt;&#xA;&lt;p&gt;特别提醒的是：1、刷完机后，请耐心等待手机重新启动，此时屏幕上的漏斗会一直在转，但是不要以为出了问题，不要乱动BB，甚至不要去拔电池，只需要等待大约10几分钟左右，就会进入系统界面了。2、刷机前最好把sim取出来，因为在漏斗转的时候，如果有人打电话进来，是会显示正常的，而你却不知道有人给你打电话，容易造成电话的漏接。&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>黑莓8830上网利器之浏览器</title>
+      <link>http://localhost:1313/894.html</link>
+      <pubDate>Tue, 14 Sep 2010 05:48:30 +0000</pubDate><author>example@example.com (Rokcso)</author>
+      <guid>http://localhost:1313/894.html</guid>
+      <description>&lt;p&gt;给我的黑莓8830装的浏览器是Opera mini，之前商家也给装了一个UC，可惜的是每次打开都卡在了网络链接的环节上，所以毫不犹豫的卸载，装上了Opera mini，话说这个浏览器真的不错哦。网上的测评大家可能也看了，这里都不额外的说了，就说说使用这个浏览器的一点小技巧。&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;一、Opera mini 的快捷键&lt;/p&gt;&#xA;&lt;p&gt;快速拨号：依次按*键和数字键可以打开相应数字的快速拨号页面&lt;/p&gt;&#xA;&lt;p&gt;RSS：依次按*键和数字0可以查看RSS新闻推送&lt;/p&gt;&#xA;&lt;p&gt;缩放：浏览比较大的Web页面时，按5可以放大缩小页面&lt;/p&gt;&#xA;&lt;p&gt;光标移动：浏览页面时，按I、J、L、M可以四向移动光标&lt;/p&gt;&#xA;&lt;p&gt;滚屏：浏览页面时，按2、4、6、8可以四向滚屏&lt;/p&gt;&#xA;&lt;p&gt;右键菜单：浏览页面时，按数字1可以打开右键菜单，包括刷新、链接地址等项目（不同于按下BlackBerry Menu键的菜单）&lt;/p&gt;&#xA;&lt;p&gt;输入地址：依次按下#键和数字1可以输入地址&lt;/p&gt;&#xA;&lt;p&gt;书签：依次按下#键和数字2可以查看书签&lt;/p&gt;&#xA;&lt;p&gt;转到页面顶部/底部：依次按下#键和数字3可以转到该页面的顶部或底部&lt;/p&gt;&#xA;&lt;p&gt;前进：按两下#键和#键可以前进&lt;/p&gt;&#xA;&lt;p&gt;更多基于*和#的快捷键请按*/#键稍等2秒钟即可查看相应的快捷键列表&lt;/p&gt;&#xA;&lt;p&gt;二、&lt;strong&gt;搜索功能：&lt;/strong&gt;  搜索功能中，Opera mini 5 提供了Google搜索、博客搜索、有道在线字典和易查图片四种上搜索引擎，像小编这样英语半吊子水平的，当然还是最关注其有道字典搜索功能。在选择有道搜索之后，输入中文或英文单词，浏览器都能直接找到它对应的翻译意思，这点还是比较实用的，省了我们再去切换一些翻译软件了。有了这个功能搜索东西的时候就不用在登录baidu等搜索引擎了，节约不少流量哦。&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Hugo Bear Neo</title>
+    <link>http://localhost:1313/blog/blog/</link>
+    <description>Recent content in Blog on Hugo Bear Neo</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>example@example.com (Rokcso)</managingEditor>
+    
+    
+      <webMaster>example@example.com (Rokcso)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, Rokcso.</copyright>
+    
+    
+    <lastBuildDate>Sun, 10 Aug 2025 08:34:35 +0800</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/blog/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ghost 博客与 Mailgun 邮件服务申请全流程</title>
+      <link>http://localhost:1313/complete-setup-process-for-ghost-blog-and-mailgun-email-service/</link>
+      <pubDate>Sun, 10 Aug 2025 08:34:35 +0800</pubDate><author>example@example.com (Rokcso)</author>
+      <guid>http://localhost:1313/complete-setup-process-for-ghost-blog-and-mailgun-email-service/</guid>
+      <description>&lt;p&gt;Ghost 的邮件系统与 Mailgun 深度集成，如果想要在 Ghost 上实现邮件订阅、密码找回、通知等功能，申请一个 Mailgun 账户几乎是必选项。好消息是——Mailgun 已经恢复免费套餐，每天可发送 100 封邮件，对个人博客来说完全够用，而且现在&lt;strong&gt;验证信用卡不再是必需&lt;/strong&gt;。坏消息是——Mailgun 的风控依然非常严格，尤其是中国大陆用户，注册和解封过程可能会比较“曲折”。下面是我亲身踩坑并最终申请成功的全过程，希望能帮到你。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-中国大陆能正常访问但注册有坑&#34;&gt;1. 中国大陆能正常访问，但注册有坑&lt;/h2&gt;&#xA;&lt;p&gt;Mailgun 官网在中国大陆是可以直接打开的，但注册过程中会遇到两个大坑：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;不挂梯子 → 验证码加载不出来&lt;/strong&gt;注册页的验证根本就不显示，导致注册按钮点不动。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;挂了梯子 → 手机号与 IP 不匹配触发风控&lt;/strong&gt;注册时需要验证手机号，如果你的 IP 地址（梯子出口）与手机号所在地区不一致，就很容易被判定为风险账号，触发临时封禁。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;2-常见问题与解决方法&#34;&gt;2. 常见问题与解决方法&lt;/h2&gt;&#xA;&lt;h3 id=&#34;收不到验证码&#34;&gt;收不到验证码&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;进入 &lt;a href=&#34;https://help.mailgun.com/hc/en-us/requests/new?ref=iliu.org&#34;&gt;Mailgun 工单系统&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;类别选择 &lt;strong&gt;Account Management&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;标题示例：I can&amp;rsquo;t verify my email&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;内容示例：I can&amp;rsquo;t verify my email because I clicked the link to enter my mobile phone number, and when I sent the verification code, it reminded me that I sent too many times and other reminders.&#xA;This is my phone number: +86 XXX XXXX XXXX&lt;/p&gt;&#xA;&lt;p&gt;把 XXX XXXX XXXX 换成你自己的手机号即可。（英文机翻没关系，客服看得懂，实测有效）&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;账号被临时锁定&#34;&gt;账号被临时锁定&lt;/h3&gt;&#xA;&lt;p&gt;错误提示：Your account is temporarily disabled. (Account disabled)&#xA;Please contact support to resolve.&lt;/p&gt;&#xA;&lt;p&gt;可以给客服发一封说明邮件（或直接在工单提交），核心是解释你是正常用途、愿意配合验证、并说明中国大陆网络环境的特殊性。&lt;strong&gt;参考邮件模板：&lt;/strong&gt; Request for Account Review and Reactivation&lt;/p&gt;&#xA;&lt;p&gt;Hello Mailgun Support Team,&lt;/p&gt;&#xA;&lt;p&gt;My account was disabled shortly after registration with the message:&#xA;&amp;ldquo;Your account is temporarily disabled. (Account disabled) Please contact support to resolve.&amp;rdquo;&#xA;I believe this may have been triggered by the automated fraud prevention system.&lt;/p&gt;&#xA;&lt;p&gt;I am located in mainland China, where network routing and IP geolocation may sometimes cause unusual patterns in automated checks.&lt;/p&gt;&#xA;&lt;p&gt;My intended usage is legitimate:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Purpose: Sending transactional emails (password resets, notifications) and newsletters for my Ghost-based personal website/blog.&lt;/li&gt;&#xA;&lt;li&gt;Domain: [yourdomain.com]&lt;/li&gt;&#xA;&lt;li&gt;Website: &lt;a href=&#34;https://yourdomain.com&#34;&gt;https://yourdomain.com&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Recipients: 100% opt-in subscribers, no purchased or scraped mailing lists.&lt;/li&gt;&#xA;&lt;li&gt;Sending volume: Low to moderate.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;I am happy to:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Provide ID or domain ownership proof.&lt;/li&gt;&#xA;&lt;li&gt;Bind a valid credit card for verification.&lt;/li&gt;&#xA;&lt;li&gt;Comply fully with Mailgun’s Acceptable Use Policy and anti-spam requirements.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Could you please review and reactivate my account?&lt;/p&gt;&#xA;&lt;p&gt;Thank you for your understanding and assistance.&lt;/p&gt;&#xA;&lt;p&gt;Best regards,&#xA;[Your Name]&#xA;[Your Email Address]&#xA;[Your Website Name]&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;3-客服的最终回复与养号期&#34;&gt;3. 客服的最终回复与“养号期”&lt;/h2&gt;&#xA;&lt;p&gt;客服审核后给我的反馈是：账号已恢复，但由于缺少已验证域名和对应的发送历史，暂时保留发送限制(根据ghost论坛的信息，应该是同时只能发送9封邮件)。请先添加并验证域名，然后在 3-5 天内正常发送邮件（收件人必须是有机收集的双重确认用户）。之后可以更新工单申请解除限制。换句话说，即使解封了，也要经历 3-5 天的“养号期”：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;绑定并验证域名&lt;/strong&gt;（添加 DNS 记录）&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;正常发送邮件&lt;/strong&gt;（不要群发垃圾内容）&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;积累发送历史&lt;/strong&gt;（每天发一点）&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;再次联系支持&lt;/strong&gt;，申请解除限制&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;4-总结与建议&#34;&gt;4. 总结与建议&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;注册前准备好：&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;一个稳定的域名（用于验证）&lt;/li&gt;&#xA;&lt;li&gt;一个能接收验证码的手机号&lt;/li&gt;&#xA;&lt;li&gt;一个相对干净的 IP&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;遇到问题，直接开工单&lt;/strong&gt;，说明用途与网络环境。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;解封后不要急着大批量发信&lt;/strong&gt;，先养号几天再申请完全解限。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Mailgun 的免费额度每天 100 封邮件，对个人博客来说绰绰有余。虽然注册过程麻烦，但一旦稳定下来，Ghost 邮件功能就能顺畅使用了。如果你正打算为 Ghost 配置邮件服务，不妨先参考这篇经验，少走一些弯路。&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

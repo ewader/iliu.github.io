@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux命令 on Hugo Bear Neo</title>
+    <link>http://localhost:1313/blog/linux%E5%91%BD%E4%BB%A4/</link>
+    <description>Recent content in Linux命令 on Hugo Bear Neo</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>example@example.com (Rokcso)</managingEditor>
+    
+    
+      <webMaster>example@example.com (Rokcso)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, Rokcso.</copyright>
+    
+    
+    <lastBuildDate>Sat, 20 Jul 2019 08:49:47 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/blog/linux%E5%91%BD%E4%BB%A4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>常用的几个Linux的命令</title>
+      <link>http://localhost:1313/2535.html</link>
+      <pubDate>Sat, 20 Jul 2019 08:49:47 +0000</pubDate><author>example@example.com (Rokcso)</author>
+      <guid>http://localhost:1313/2535.html</guid>
+      <description>&lt;p&gt;作为一个命令记不全的人，每次都要跋山涉水的找命令，这次把一些经常用到的命令综合到一起，省的再去翻找别人的文章。&lt;/p&gt;&#xA;&lt;h2 id=&#34;linux-删除文件夹和文件的命令&#34;&gt;Linux 删除文件夹和文件的命令&lt;/h2&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;删除文件夹实例：&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;rm -rf /var/log/httpd/access&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;将会删除/var/log/httpd/access目录以及其下所有文件、文件夹&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;删除文件使用实例：&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;rm -f /var/log/httpd/access.log&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;将会强制删除/var/log/httpd/access.log这个文件&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;更改网站目录权限&#34;&gt;更改网站目录权限&lt;/h2&gt;&#xA;&lt;p&gt;网站根目录权限遵循：&lt;/p&gt;&#xA;&lt;p&gt;文件644 文件夹755  权限用户和用户组www，其余文档777权限是不正常的&lt;/p&gt;&#xA;&lt;p&gt;如出现文件权限问题时，请执行下面3条命令：&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;h2 id=&#34;管理服务器命令&#34;&gt;管理服务器命令&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Nginx/Tengine/OpenResty:&lt;br&gt;&#xA;service nginx {start|stop|status|restart|reload|configtest}&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;MySQL/MariaDB/Percona:&#xA;service mysqld {start|stop|restart|reload|status}&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;PostgreSQL:&#xA;service postgresql {start|stop|restart|status}&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;MongoDB:&#xA;service mongod {start|stop|status|restart|reload}&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;PHP:&#xA;service php-fpm {start|stop|restart|reload|status}&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;linux-中-cp-命令文件复制&#34;&gt;Linux 中 cp 命令（文件复制）&lt;/h2&gt;&#xA;&lt;p&gt;1、cp fileOne fileTwo 或者 cp -i fileOne fileTwo ——–将文档One复制并命名成Two&lt;/p&gt;&#xA;&lt;p&gt;2、cp -i fileOne dirOne 或者 cp fileOne dirOne  —————将文档One复制到DirOne目录下&lt;/p&gt;&#xA;&lt;p&gt;3、cp -r dirOne dirTwo   ———–将目录dirOne复制到dirTwo下&lt;/p&gt;&#xA;&lt;p&gt;4、cp -r dirOne/*.* dirTwo   ———-将dirOne下所有文件包括文件夹复制到dirTwo&lt;/p&gt;&#xA;&lt;p&gt;待续…….&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

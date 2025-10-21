@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Window Live Writer on 老刘博客</title>
+    <link>http://localhost:1313/window-live-writer/</link>
+    <description>Recent content in Window Live Writer on 老刘博客</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    
+    
+      <webMaster>ewader@qq.com (老刘)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, 老刘博客.</copyright>
+    
+    
+    <lastBuildDate>Sun, 24 Jan 2010 13:50:01 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/window-live-writer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>小测三款博客离线编辑软件</title>
+      <link>http://localhost:1313/500.html</link>
+      <pubDate>Sun, 24 Jan 2010 13:50:01 +0000</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>http://localhost:1313/500.html</guid>
+      <description>&lt;p&gt;现在window下主要的离线博客主要有windows live write，zoundry raven以及国内一家公司开发的菊子曰。下面本人就对这三个软件做个点评。&lt;/p&gt;&#xA;&lt;p&gt;之所以这么关系离线博客编辑软件是因为本人所用的空间是godaddy的免费空间，上面的那个大大的广告条让博客的后台有些功能无法使用，正好可以用这类离线编辑的软件来替代。首先让我们来说说windows live writer，因为我本机用的window 2003，而这个软件不支持在服务器系统上的安装，所以兼容性就比其他两个软件要差。另外live writer要安装.net所以安装下来要占用100多M的空间，虽然现在的空间动辄成T，但live writer的冗肿是无容置疑的，live writer支持分类、标签、离线模板，支持上传图片、并可以给图片加上特效和水印。加水印是window live writer的一个独特的地方，其他两个没有这样的功能。&lt;/p&gt;&#xA;&lt;p&gt;第二个软件就是我前面《&lt;!-- raw HTML omitted --&gt;完美解决godaddy免费空间广告条对WordPress后台的影响&lt;!-- raw HTML omitted --&gt; 》说的zoundry raven 这个软件的界面如下：&lt;/p&gt;&#xA;&lt;p&gt;下面是文章的编辑窗口&lt;/p&gt;&#xA;&lt;p&gt;很简介的界面，但是功能一点也不比其他两个软件差，支持分类、图片编辑、标签，并能把标签发送到著名的一些标签网站。是我所用到的感觉最好的一款编辑器，占用资源也小。功能强大，值得使用。&lt;/p&gt;&#xA;&lt;p&gt;菊子曰，是国内新开发的一个离线博客编辑软件。功能很全面，但是感觉很多的都是在模仿zoundry ，并且资源占用不小。可能是测试版有关系吧。比其他两个多了个评论的功能。其他没有什么亮点，与它的资源占用相比，性价比不高。另外要用这个软件必须要注册菊子曰的用户，否则是不能登录的，最重要的是有个广告条，尽管目前是公益的广告，难免以后会是怎么样，自从金山加广告后，对国内的软件基本上失去了信心，最反对的就是谁在我的软件上加上广告，同样上图：&lt;/p&gt;&#xA;&lt;p&gt;文章编辑界面，这篇文章就是用菊子曰写的：&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

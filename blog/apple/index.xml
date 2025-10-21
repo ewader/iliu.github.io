@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Apple on Hugo Bear Neo</title>
+    <link>http://localhost:1313/blog/apple/</link>
+    <description>Recent content in Apple on Hugo Bear Neo</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>example@example.com (Rokcso)</managingEditor>
+    
+    
+      <webMaster>example@example.com (Rokcso)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, Rokcso.</copyright>
+    
+    
+    <lastBuildDate>Tue, 20 Oct 2020 07:24:11 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/blog/apple/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>apple id重置密码极其不人性化</title>
+      <link>http://localhost:1313/3350.html</link>
+      <pubDate>Tue, 20 Oct 2020 07:24:11 +0000</pubDate><author>example@example.com (Rokcso)</author>
+      <guid>http://localhost:1313/3350.html</guid>
+      <description>&lt;p&gt;都说苹果的系统很人性化，安全性好，巴拉巴拉的。但是今天的一件小事让我觉得有点言过其实了。&lt;/p&gt;&#xA;&lt;p&gt;事情是这样子的，女儿的IPAD登录的是我的id号，由于云空间满了，天天冒出来一个红疙瘩，于是我就打算取消登录。但是呢，我忘记密码了。于是想重设密码，结果在ipad上重设，需要输入开机密码，这个密码是我女儿设的，我登录都是用指纹。而现在她处于上课的时间，没法联系她，于是，我就打算在网页上重新设置密码。&lt;/p&gt;&#xA;&lt;p&gt;结果网页上手机号验证之后，还是要在IPAD上设置，转了一圈又回来了。倒是有一个不在本机设置的选择，选择了之后也24小时的验证时间。我算是服了！~&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>Apple iPad第七代使用小计</title>
+      <link>http://localhost:1313/3103.html</link>
+      <pubDate>Sun, 22 Mar 2020 08:48:36 +0000</pubDate><author>example@example.com (Rokcso)</author>
+      <guid>http://localhost:1313/3103.html</guid>
+      <description>&lt;p&gt;眼看着已经到了3月份，疫情防控吃紧，孩子开学遥遥无期，网络直播课如火如荼。很多网络课没法用电脑看，用手机吧，屏幕太小。所以，决定入手一台平板来让孩子进行网课的学习。按我的秉性来说，作为一个荣耀全家桶的使用者，最优的选择肯定是华为或者荣耀的。但是我家大领导和小领导都钟意iPad。没办法，选择这个吧。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://liuday.com/wp-content/uploads/2020/03/c1d1468271a40ad.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;京东上转了一圈，竟然缺货，然后又跑苏宁易购看看，发现就数码产品来说，苏宁易购比京东有优势，价格比京东便宜不说，货源也足。于是，苏宁买之。&lt;/p&gt;&#xA;&lt;p&gt;买的是ipad的第七代产品，看上的就是它的屏幕，一个字，非常大。这也是家里唯一的一款ios的产品了。使用体验没的说。使用流畅，屏幕也清晰，孩子的网课用起来也不错。唯一不满意的地方在于没有学生模式。&lt;/p&gt;&#xA;&lt;p&gt;谁知道如何设置IOS的系统，限制某些程序不能用？&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

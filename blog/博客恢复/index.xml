@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>博客恢复 on Hugo Bear Neo</title>
+    <link>http://localhost:1313/blog/%E5%8D%9A%E5%AE%A2%E6%81%A2%E5%A4%8D/</link>
+    <description>Recent content in 博客恢复 on Hugo Bear Neo</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>example@example.com (Rokcso)</managingEditor>
+    
+    
+      <webMaster>example@example.com (Rokcso)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, Rokcso.</copyright>
+    
+    
+    <lastBuildDate>Sun, 08 Mar 2020 02:23:15 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/blog/%E5%8D%9A%E5%AE%A2%E6%81%A2%E5%A4%8D/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>博客从灾难中恢复</title>
+      <link>http://localhost:1313/3080.html</link>
+      <pubDate>Sun, 08 Mar 2020 02:23:15 +0000</pubDate><author>example@example.com (Rokcso)</author>
+      <guid>http://localhost:1313/3080.html</guid>
+      <description>&lt;p&gt;昨天服务器有点不正常，考虑到是前两天折腾一些东西的时候造成的，所以打算重新搞一下系统。搞之前备份了一下，结果，生成环境弄好之后，恢复数据库的时候显示出错，我去。由于过年这段时间有点懒，没有搞备份，最近的备份还是2月9日的了。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/03/20200308-101839.png&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;血淋淋的教训啊，以后一定要天天备份！！！&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

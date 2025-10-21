@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>外链跳转 on Hugo Bear Neo</title>
+    <link>http://localhost:1313/blog/%E5%A4%96%E9%93%BE%E8%B7%B3%E8%BD%AC/</link>
+    <description>Recent content in 外链跳转 on Hugo Bear Neo</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>example@example.com (Rokcso)</managingEditor>
+    
+    
+      <webMaster>example@example.com (Rokcso)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, Rokcso.</copyright>
+    
+    
+    <lastBuildDate>Tue, 09 Jul 2019 01:20:11 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/blog/%E5%A4%96%E9%93%BE%E8%B7%B3%E8%BD%AC/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>利用cloudFlare的边缘计算workers实现外链转内链跳转</title>
+      <link>http://localhost:1313/2248.html</link>
+      <pubDate>Tue, 09 Jul 2019 01:20:11 +0000</pubDate><author>example@example.com (Rokcso)</author>
+      <guid>http://localhost:1313/2248.html</guid>
+      <description>&lt;p&gt;跋涉者曾经分享过一篇7b2主题外链跳转的文章，那篇文章实现的原理是在自己服务器里增加一个跳转的页面代码。&lt;/p&gt;&#xA;&lt;p&gt;[zrz_insert_post id=1656]&lt;/p&gt;&#xA;&lt;p&gt;不过今天看张戈大神的一篇文章&lt;!-- raw HTML omitted --&gt;CloudFlare边缘计算Workers尝鲜初探：博客跳转中间页&lt;!-- raw HTML omitted --&gt;。这篇文章谈到可以把这个跳转代码保存到cloudFlare的边缘计算workers中，从而让跳转可以在CDN里实现，显然，这样会减轻服务器计算的压力。对小水管的博客来说有一定的使用价值。&lt;/p&gt;&#xA;&lt;h2 id=&#34;首先你的网站要使用cloudflare这个cdn加速&#34;&gt;首先，你的网站要使用cloudFlare这个cdn加速。&lt;/h2&gt;&#xA;&lt;p&gt;由于国内的网络情况，直接使用往往比较卡，不过好在张戈大神折腾出了另外一个套路，使用后感觉还不错。有兴趣的朋友可以去他的网站上参考。本文不做详细的叙述。&lt;/p&gt;&#xA;&lt;h2 id=&#34;第二把代码添加到cloudflare的边缘计算workers中&#34;&gt;第二，把代码添加到cloudFlare的边缘计算workers中&lt;/h2&gt;&#xA;&lt;p&gt;步骤如下：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;!-- raw HTML omitted --&gt;打开CF域名控制面板，如图1点击切换到Workers选项卡；&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;!-- raw HTML omitted --&gt;点击【Launch Editor】按钮进入Workers编辑界面后，点击【Add script】输入脚本名称并保存，如图：&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;把如下代码放入代码编辑框中，此代码来自&lt;!-- raw HTML omitted --&gt;张戈博客&lt;!-- raw HTML omitted --&gt;.并点击save。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;!-- raw HTML omitted --&gt;点击【routers】按钮切到路由编辑界面，点击【Add router】后如图添加路由：点击save&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;至此，已经大功告成，想看效果的可以点击上面的外链，值得说明的一点是，cloudFlare的边缘计算workers是收费服务，不过每天有免费10w的请求数量，对我们这个小博客来说，是非常非常的够用了。&lt;/p&gt;&#xA;&lt;p&gt;如果，你也在使用&lt;!-- raw HTML omitted --&gt;cloudFlare，不妨也可以用用这个玩意，毕竟充分利用外部资源是我等小博主追求的目标哈。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>给7B2主题加上外链自动跳转功能</title>
+      <link>http://localhost:1313/1656.html</link>
+      <pubDate>Mon, 27 May 2019 07:08:40 +0000</pubDate><author>example@example.com (Rokcso)</author>
+      <guid>http://localhost:1313/1656.html</guid>
+      <description>&lt;p&gt;7B2主题默认是没有外链自动跳转功能的，这玩意要说有用吧，作用不大，要说没用吧，大家都这么加，所以跋涉者也给外链增加一个自动跳转。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;是不是很漂亮的的，感谢&lt;!-- raw HTML omitted --&gt;缙哥哥&lt;!-- raw HTML omitted --&gt;分享的源码&lt;/p&gt;&#xA;&lt;h2 id=&#34;第一步建立一个go跳转文件&#34;&gt;第一步，建立一个go跳转文件&lt;/h2&gt;&#xA;&lt;p&gt;把下面的代码保存成index.php,在网站的根目录里新建一个go文件夹，然后把这个index.php上传到这个文件夹里&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;h2&gt;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;第二步在functionsphp里添加如下代码&#34;&gt;第二步，在functions.php里添加如下代码&lt;/h2&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;h2 id=&#34;第三步添加新窗口自动打开并添加nofollow属性&#34;&gt;第三步，添加新窗口自动打开并添加nofollow属性&lt;/h2&gt;&#xA;&lt;p&gt;现在打开文章里的链接是在原有窗口上打开的，我们一般要求是在新窗口打开，为了不让权重的流逝，我们还要加上nofollow标签，继续在functions.php添加如下代码：&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;至此，所有的工作都已经完成了，是不是很简单。&lt;/p&gt;&#xA;&lt;h2 class=&#34;ql-align-justify&#34; id=&#34;参考资料&#34;&gt;&lt;strong&gt;参考资料&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;缙哥哥博客-https://www.dujin.org/12762.html&lt;/p&gt;&#xA;&lt;p&gt;缙哥哥博客-https://www.dujin.org/12336.html&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

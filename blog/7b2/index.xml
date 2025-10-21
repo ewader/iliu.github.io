@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>7b2 on Hugo Bear Neo</title>
+    <link>http://localhost:1313/blog/7b2/</link>
+    <description>Recent content in 7b2 on Hugo Bear Neo</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>example@example.com (Rokcso)</managingEditor>
+    
+    
+      <webMaster>example@example.com (Rokcso)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, Rokcso.</copyright>
+    
+    
+    <lastBuildDate>Thu, 25 Jul 2019 00:54:22 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/blog/7b2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>给7b2的主题加上评论回复功能</title>
+      <link>http://localhost:1313/2552.html</link>
+      <pubDate>Thu, 25 Jul 2019 00:54:22 +0000</pubDate><author>example@example.com (Rokcso)</author>
+      <guid>http://localhost:1313/2552.html</guid>
+      <description>&lt;p&gt;7b2主题默认是不会给评论者回复邮件的。也曾经问过作者，作者说如果实现这个的话，没几天邮箱就被封掉了，可能作者有作者的理由吧，但是不加的话，你回复了评论者，他也不知道你给他回复了，没有个反馈，十分的不方便。&lt;/p&gt;&#xA;&lt;p&gt;要想实现给评论者发邮件现在有两种方法，一种是代码实现，一种是插件实现。&lt;/p&gt;&#xA;&lt;h2 id=&#34;代码实现回复评论给评论者发送邮件&#34;&gt;代码实现回复评论给评论者发送邮件&lt;/h2&gt;&#xA;&lt;p&gt;修改&lt;!-- raw HTML omitted --&gt;functions.php，在文件的最后加上如下代码&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;﻿现在﻿，在回复评论者就会有邮件通知了。&lt;/p&gt;&#xA;&lt;h2 id=&#34;第二种插件的方式来实现&#34;&gt;第二种，插件的方式来实现&lt;/h2&gt;&#xA;&lt;p&gt;这里跋涉者推荐国人开发的&lt;!-- raw HTML omitted --&gt;Wenprise Better Emails插件。美化的不错，符合国人的使用习惯，最重要是的中文的，哈哈&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;wordpress后台点击添加插件，搜索&lt;!-- raw HTML omitted --&gt;Wenprise Better Emails，安装启用即可。&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;跋涉者使用的是第一种方式来实现，因为跋涉者不喜欢插件。&lt;/p&gt;&#xA;&lt;p&gt;本文参考奶爸笔记的文章&lt;!-- raw HTML omitted --&gt;2019新版给WordPress添加评论邮件回复通知的方法&lt;!-- raw HTML omitted --&gt;，只为给自己备忘，感谢奶爸&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

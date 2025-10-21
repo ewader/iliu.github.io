@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>个人博客 on Hugo Bear Neo</title>
+    <link>http://localhost:1313/blog/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+    <description>Recent content in 个人博客 on Hugo Bear Neo</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>example@example.com (Rokcso)</managingEditor>
+    
+    
+      <webMaster>example@example.com (Rokcso)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, Rokcso.</copyright>
+    
+    
+    <lastBuildDate>Tue, 10 Aug 2021 01:43:50 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/blog/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>个人博客会不会消亡？</title>
+      <link>http://localhost:1313/3834.html</link>
+      <pubDate>Tue, 10 Aug 2021 01:43:50 +0000</pubDate><author>example@example.com (Rokcso)</author>
+      <guid>http://localhost:1313/3834.html</guid>
+      <description>&lt;p&gt;这段时间看到不少博友都在发个人博客会不会消亡，看起来很悲观的样子？&lt;/p&gt;&#xA;&lt;p&gt;其实，让老刘来说&lt;/p&gt;&#xA;&lt;p&gt;只要你的博客不消失&lt;/p&gt;&#xA;&lt;p&gt;个人博客就不会消亡&lt;/p&gt;&#xA;&lt;p&gt;何必在意别人的浮躁与消亡与否&lt;/p&gt;&#xA;&lt;p&gt;做好自己不就行了&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

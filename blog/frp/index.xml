@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Frp on Hugo Bear Neo</title>
+    <link>http://localhost:1313/blog/frp/</link>
+    <description>Recent content in Frp on Hugo Bear Neo</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>example@example.com (Rokcso)</managingEditor>
+    
+    
+      <webMaster>example@example.com (Rokcso)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, Rokcso.</copyright>
+    
+    
+    <lastBuildDate>Sun, 18 Oct 2020 07:27:04 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/blog/frp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>纯代码设置frp服务器</title>
+      <link>http://localhost:1313/3340.html</link>
+      <pubDate>Sun, 18 Oct 2020 07:27:04 +0000</pubDate><author>example@example.com (Rokcso)</author>
+      <guid>http://localhost:1313/3340.html</guid>
+      <description>&lt;p&gt;以前老刘写过《&lt;a href=&#34;https://tunan.org/2918.html&#34;&gt;宝塔面板安装FRP内网穿透控制群晖&lt;/a&gt;》的文章，最近发现不知道是这个插件的作者不再开发了还是其他的原因，xeath开发的这个frp服务器插件已经在商店里找不到了。其实，这也没什么，直接用代码的方式部署也是可以的。&lt;/p&gt;&#xA;&lt;p&gt;SSH连接到VPS之后运行如下命令查看处理器架构，根据架构下载不同版本的frp&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;查看结果，如果是“X86_64“即可选择”amd64”，&lt;br&gt;&#xA;运行如下命令，根据架构不同，选择相应版本并进行下载，然后登陆frp的官网地址，现在最新的应该是0.34.1，所以，运行如下的命令：&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;然后解压，给文件换一个名字，进入frp目录&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;修改frps.ini文件&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;格式如下：&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;编辑完成后保存（vim保存如果不会请自行搜索）。&lt;br&gt;&#xA;之后我们就可以运行frps的服务端了。&lt;/p&gt;&#xA;&lt;p&gt;使用命令：&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;如果输出如下文字，说明服务器配置成功&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;通过你的服务器IP：7500,然后输入刚才你设置的用户名密码，应该可以看到如下的画面：&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/10/574e8aabbd9f2ca.png&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;h2 class=&#34;wp-block-heading&#34; id=&#34;让frp服务在后台运行&#34;&gt;让FRP服务在后台运行&lt;/h2&gt;&#xA;&lt;p&gt;这时候你会发现，如果你关闭了xshell等的窗口，frp的服务也即可停止了，所以，为了让FRP在后台运行，我们还输入如下的命令：&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;如果出来的如下的文字，说明配置成功&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;至此，服务器端设置完毕，群晖的设置在上一篇文章内已经说过，这次就不再啰嗦了。&lt;/p&gt;&#xA;&lt;h2 class=&#34;wp-block-heading&#34; id=&#34;可能遇到的坑&#34;&gt;可能遇到的坑：&lt;/h2&gt;&#xA;&lt;p&gt;如果你按照这个方法设置后，最后的输出总不正确，那么很大的可能是你的服务器的相应的端口没有开放，如果使用的是腾讯云或者阿里云的话，服务器的端口打开之后，还需要在这些云的控制端设置开放端口。&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>宝塔面板安装FRP内网穿透控制群晖</title>
+      <link>http://localhost:1313/2918.html</link>
+      <pubDate>Sat, 07 Dec 2019 03:28:28 +0000</pubDate><author>example@example.com (Rokcso)</author>
+      <guid>http://localhost:1313/2918.html</guid>
+      <description>&lt;p&gt;前两天给大家介绍了利用zerotier来进行内网穿透控制群晖的方法，详见：&lt;a href=&#34;https://tunan.org/2872.html&#34;&gt;黑群晖的福音，利用zerotier进行内网穿透&lt;/a&gt;。但是，zerotier使用的时候有时候不太稳定，而且记一堆的数字比较麻烦，今天，给大家介绍另一个神器，frp。直接用命令行的方式在服务器里部署比较繁琐，而且一不留神就会出错，不过好在有大神在宝塔里开发出了插件，一键安装就行。好了，言归正传，开始正题。&lt;/p&gt;&#xA;&lt;p&gt;首先，你得有一个自己的vps，这里把设置强烈推荐&lt;a href=&#34;https://my.liluohost.com/aff.php?aff=148&#34;&gt;篱落主机&lt;/a&gt;。本站就运行在这个主机上，特别是香港的VPS，速度快，服务器也稳定。关键是价格不贵，最便宜的也就100多块一年吧。给小张报我的名字应该还能有些许优惠，毕竟我10年前就是他的客户了。这次，本来买的1h2g的，结果人家二话没说就给升级到了4g。貌似，又跑题了额。&lt;/p&gt;&#xA;&lt;p&gt;有了vps后，安装宝塔面板。安装的方法很简单，官网一看就会，我就不啰嗦了。不出意外的话，2分钟，面板安装完毕。登录到面板的后台。点击软件商店，搜索frp。我们用的是如下这款，因为这款是免费的。&lt;/p&gt;&#xA;&lt;h2 id=&#34;补充说明&#34;&gt;补充说明：&lt;/h2&gt;&#xA;&lt;p&gt;最近发现这个插件在宝塔里已经找不到了，需要设置服务器端的可以参考本人的&lt;a href=&#34;https://tunan.org/3340.html&#34;&gt;纯代码设置frp服务器&lt;/a&gt;这篇文章，来进行手动设置，也不复杂！&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;先点击购买，因为是免费的，不要钱，直接购买后，点击安装，安装后，点击设置。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;这里，我们只需要在通用设置这里进行设置就可以了，其他的可以不用设置，不影响使用。端口号之类的可以改也可以不改，主要的是设置验证密钥，设置成你自己的。&lt;/p&gt;&#xA;&lt;p&gt;设置完这个之后，一定要在宝塔面板——安全选项里，把你设置的这些端口号放行。不然是用不了的。&lt;/p&gt;&#xA;&lt;p&gt;至此，frp服务器端已经设置完毕。下面我们来设置客户端，由于我们是要远程控制群晖，所以这里就以群晖为例。&lt;/p&gt;&#xA;&lt;h3 class=&#34;wp-block-heading&#34; id=&#34;设置域名解析&#34;&gt;设置域名解析&lt;/h3&gt;&#xA;&lt;p&gt;登录你的域名服务商&lt;br&gt;&#xA;域名解析&lt;br&gt;&#xA;设置域名解析到frp服务器地址&lt;/p&gt;&#xA;&lt;h3 class=&#34;wp-block-heading&#34; id=&#34;安装frpc文件&#34;&gt;安装frpc文件&lt;/h3&gt;&#xA;&lt;p&gt;开启群晖SSH功能&lt;br&gt;&#xA;控制面板-终端机和SNMP&lt;br&gt;&#xA;启动SSH功能-应用&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;使用xshell等登录到群晖&lt;/p&gt;&#xA;&lt;p&gt;sudo -i //获得root权限 输入密码-回车&lt;/p&gt;&#xA;&lt;p&gt;进入安装目录(本文以/usr/local/为例) cd /usr/local/&lt;/p&gt;&#xA;&lt;p&gt;因为我们服务器端用的是最新30版的，所以我们也要下载最新版本的。可以到如下的网址查询最新版本：&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/fatedier/frp/releases/&#34;&gt;https://github.com/fatedier/frp/releases/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 class=&#34;wp-block-heading&#34; id=&#34;配置frpc&#34;&gt;配置frpc&lt;/h3&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;ESC退出编辑&lt;br&gt;&#xA;输入:wq回车即可保存&lt;/p&gt;&#xA;&lt;h3 class=&#34;wp-block-heading&#34; id=&#34;启动frpc&#34;&gt;启动frpc&lt;/h3&gt;&#xA;&lt;p&gt;启动frpc命令： ./frpc -c ./frpc.ini&lt;/p&gt;&#xA;&lt;p&gt;保持后台运行frpc命令 ： nohup ./frpc -c ./frpc.ini &amp;amp;&lt;/p&gt;&#xA;&lt;h2 class=&#34;wp-block-heading&#34; id=&#34;设置群晖nas重启开机自动运行frpc&#34;&gt;设置群晖NAS重启开机自动运行frpc&lt;/h2&gt;&#xA;&lt;p&gt;控制面板——任务计划&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;新增&lt;br&gt;&#xA;触发的任务&lt;br&gt;&#xA;用户自定义脚本&lt;br&gt;&#xA;常规&lt;br&gt;&#xA;填写任务名称&lt;br&gt;&#xA;用户账号和事件保持默认&lt;br&gt;&#xA;任务设置&lt;br&gt;&#xA;用户自定义脚本&lt;br&gt;&#xA;填写你的frpc安装路径： /usr/local/frpc/frpc -c /usr/local/frpc/frpc.ini&lt;br&gt;&#xA;确定&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;配置完成&lt;br&gt;&#xA;现在可以使用域名无端口访问群晖NAS了&lt;/p&gt;&#xA;&lt;p&gt;本文frpc设置部分参考了：群晖NAS安装配置免费frp内网穿透教程 一并表示感谢&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xshell on Hugo Bear Neo</title>
+    <link>http://localhost:1313/blog/xshell/</link>
+    <description>Recent content in Xshell on Hugo Bear Neo</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>example@example.com (Rokcso)</managingEditor>
+    
+    
+      <webMaster>example@example.com (Rokcso)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, Rokcso.</copyright>
+    
+    
+    <lastBuildDate>Sat, 15 Jun 2019 07:35:45 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/blog/xshell/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>xshell6更新至0125</title>
+      <link>http://localhost:1313/1712.html</link>
+      <pubDate>Sat, 15 Jun 2019 07:35:45 +0000</pubDate><author>example@example.com (Rokcso)</author>
+      <guid>http://localhost:1313/1712.html</guid>
+      <description>&lt;p&gt;xshell这个货更新额速度真快，隔不了几天就发布一个新版本，这不，跋涉者刚打开邮箱，就看到又有更新了。&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Software Release Notes&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt; &lt;/p&gt;&#xA;&lt;p&gt;Release Date: June 05, 2019&lt;/p&gt;&#xA;&lt;p&gt;With last week’s update, we’ve introduced Experimental Features into our software. Experimental Features allow you to test and provide feedback on features that have not officially been implemented. &lt;!-- raw HTML omitted --&gt;Read more about Experimental Features and how to opt in here.&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you haven’t already, make sure to update your clients. Your clients should have already prompted you for an update. If not, you can manually check for updates through the Help menu. Release notes are as follows:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Xshell 6 &lt;/strong&gt;(Build 0125)&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;ADD: Ability to use XFTP as the protocol for drag/dropping of files.&lt;/li&gt;&#xA;&lt;li&gt;ADD: Experimental Features&lt;/li&gt;&#xA;&lt;li&gt;&lt;!-- raw HTML omitted --&gt;ADD: OpenSSH CA Support (Experimental Feature)&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;&#xA;&lt;li&gt;ADD: Real Windows CMD Support (Experimental Feature)&lt;/li&gt;&#xA;&lt;li&gt;ADD: Recent Sessions List (Experimental Feature)&lt;/li&gt;&#xA;&lt;li&gt;ADD: Remote command of the SSH protocol&lt;/li&gt;&#xA;&lt;li&gt;MOD: Improvements to the Local Shell’s ssh command’s parameter values (help ssh)&lt;/li&gt;&#xA;&lt;li&gt;MOD: Removed character limit for Keyboard Interactive fields&lt;/li&gt;&#xA;&lt;li&gt;MOD: Xshell checks for write permissions when changing data folder path&lt;/li&gt;&#xA;&lt;li&gt;FIX: Added Ctrl+U(=Ctrl+Home) key values as kill signals&lt;/li&gt;&#xA;&lt;li&gt;FIX: Highlights of regular expressions no applying to certain strings&lt;/li&gt;&#xA;&lt;li&gt;FIX: Host name not recognized when connecting from the Local Shell&lt;/li&gt;&#xA;&lt;li&gt;FIX: Quick commands are mistakenly shown in simple view mode&lt;/li&gt;&#xA;&lt;li&gt;FIX: Reconnect feature not functioning after disconnecting from a SERIAL connection&lt;/li&gt;&#xA;&lt;li&gt;FIX: The Tab Menu’s Show Status Icon option does not remain checked&lt;/li&gt;&#xA;&lt;li&gt;FIX: The user key option (-i) is only applied when opening a new window&lt;/li&gt;&#xA;&lt;li&gt;FIX: Unable to re-add forwarding rules that were once removed from the Tunneling Pane &lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;For a complete Xshell update history, check out our &lt;!-- raw HTML omitted --&gt;website&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;&#xA;&lt;p&gt;翻译了一下：&lt;/p&gt;&#xA;&lt;p&gt;在上周的更新中，我们在软件中引入了一些实验性的特性。实验性特性允许您对尚未正式实现的特性进行测试并提供反馈。阅读更多关于实验功能和如何选择在这里。&lt;br&gt;&#xA;如果还没有，请确保更新您的客户端。您的客户应该已经提示您更新了。如果没有，您可以通过帮助菜单手动检查更新。发布说明如下:&lt;/p&gt;&#xA;&lt;p&gt;Xshell 6(构建0125)&lt;/p&gt;&#xA;&lt;p&gt;添加:能够使用XFTP作为拖放文件的协议。&lt;/p&gt;&#xA;&lt;p&gt;添加:实验功能&lt;/p&gt;&#xA;&lt;p&gt;添加:OpenSSH CA支持(实验特性)&lt;/p&gt;&#xA;&lt;p&gt;添加:真正的Windows CMD支持(实验特性)&lt;/p&gt;&#xA;&lt;p&gt;添加:最近的会话列表(实验特性)&lt;/p&gt;&#xA;&lt;p&gt;添加:SSH协议的远程命令&lt;/p&gt;&#xA;&lt;p&gt;MOD:改进本地Shell的ssh命令的参数值(帮助ssh)&lt;/p&gt;&#xA;&lt;p&gt;MOD:删除键盘交互字段的字符限制&lt;/p&gt;&#xA;&lt;p&gt;MOD: Xshell在更改数据文件夹路径时检查写权限&lt;/p&gt;&#xA;&lt;p&gt;修正:添加Ctrl+U(=Ctrl+Home)键值作为终止信号&lt;/p&gt;&#xA;&lt;p&gt;修正:正则表达式的高亮显示不适用于某些字符串&lt;/p&gt;&#xA;&lt;p&gt;修复:从本地Shell连接时无法识别主机名&lt;/p&gt;&#xA;&lt;p&gt;修正:快速命令错误地显示在简单视图模式&lt;/p&gt;&#xA;&lt;p&gt;修复:从串行连接断开后重新连接功能不正常&lt;/p&gt;&#xA;&lt;p&gt;修复:选项卡菜单的显示状态图标选项没有保持选中状态&lt;/p&gt;&#xA;&lt;p&gt;修正:user key选项(-i)只在打开新窗口时应用&lt;/p&gt;&#xA;&lt;p&gt;修复:无法重新添加从隧道窗格中删除的转发规则&lt;/p&gt;&#xA;&lt;p&gt;要了解完整的Xshell更新历史，请访问我们的网站。&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

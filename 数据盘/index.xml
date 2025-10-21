@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>数据盘 on 老刘博客</title>
+    <link>http://localhost:1313/%E6%95%B0%E6%8D%AE%E7%9B%98/</link>
+    <description>Recent content in 数据盘 on 老刘博客</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    
+    
+      <webMaster>ewader@qq.com (老刘)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, 老刘博客.</copyright>
+    
+    
+    <lastBuildDate>Sun, 04 Aug 2019 09:37:21 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/%E6%95%B0%E6%8D%AE%E7%9B%98/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>景安服务器（vps)挂载数据盘</title>
+      <link>http://localhost:1313/2585.html</link>
+      <pubDate>Sun, 04 Aug 2019 09:37:21 +0000</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>http://localhost:1313/2585.html</guid>
+      <description>&lt;p&gt;以前没有注意，后来在做快照的时候发现服务器还有个数据盘的快照，和系统盘是分开的。查了一下，数据盘是送的一块专门用来放数据的另一个盘，就象我们电脑里的系统盘（c:),其他盘（d:)一样，把一些数据放在数据盘里，等系统出现问题需要重置的时候，数据盘的的数据不会收到任何的影响。&lt;/p&gt;&#xA;&lt;p&gt;景安的服务器虽然没有比如阿里云oss这种物美价廉的储存空间（也有，就是价格比较贵），送了一块数据盘也是很方便的，平常把备份的数据就放在这里，万一系统有问题了，重装系统后可以很方便的从数据盘里把数据还原，并且景安的快照是系统盘和数据盘分开的，这点还是不错的。&lt;/p&gt;&#xA;&lt;h2 id=&#34;第一检查磁盘情况&#34;&gt;第一、检查磁盘情况&lt;/h2&gt;&#xA;&lt;p&gt;使用&lt;!-- raw HTML omitted --&gt;fdisk -l命令来检查磁盘，如下图&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;由于我这里已经挂载过了，所以显示的是磁盘的大小等信息，如果数据盘没有挂载的话，是没有这些信息的。&lt;/p&gt;&#xA;&lt;h2 id=&#34;第二对数据盘进行分区&#34;&gt;第二、对数据盘进行分区&lt;/h2&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;输入命令：&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;fdisk /dev/vdb1 这里要说明一下，vdb1这个需要看你磁盘的具体的情况，可以是vdb1,也可以是vdb,等等，千万不要输错了。否则就可以重装系统了。然后，&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;然后依次执行 n p 1 回车 回车 wq，这样就完成分区。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;这里跋涉者因为已经分了区了，没有截图，就不上图了。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;第三格式化数据盘&#34;&gt;第三、格式化数据盘&lt;/h2&gt;&#xA;&lt;p&gt;我们先使用df -T这个命令来查看下文件系统，&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;这里，跋涉者采用的xfs的文件格式，这个格式目前在centos7上基本是标配了，据说比ext4要好，所以咱们就用这个格式了。&lt;/p&gt;&#xA;&lt;p&gt;输入命令：mkfs.xfs /dev/vdb1&lt;/p&gt;&#xA;&lt;p&gt;进行格式化。&lt;/p&gt;&#xA;&lt;h2 id=&#34;第四进行挂载&#34;&gt;第四、进行挂载&lt;/h2&gt;&#xA;&lt;p&gt;输入命令：&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;至此已经全部搞定了。&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;景安的服务器虽然没有比如阿里云oss这种物美价廉的储存空间（也有，就是价格比较贵），送了一块数据盘也是很方便的，平常把备份的数据就放在这里，万一系统有问题了，重装系统后可以很方便的从数据盘里把数据还原，并且景安的快照是系统盘和数据盘分开的，这点还是不错的。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

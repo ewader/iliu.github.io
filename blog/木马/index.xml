@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>木马 on Hugo Bear Neo</title>
+    <link>http://localhost:1313/blog/%E6%9C%A8%E9%A9%AC/</link>
+    <description>Recent content in 木马 on Hugo Bear Neo</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>example@example.com (Rokcso)</managingEditor>
+    
+    
+      <webMaster>example@example.com (Rokcso)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, Rokcso.</copyright>
+    
+    
+    <lastBuildDate>Fri, 03 Sep 2021 03:05:41 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/blog/%E6%9C%A8%E9%A9%AC/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>记录一次疑似被入侵</title>
+      <link>http://localhost:1313/3856.html</link>
+      <pubDate>Fri, 03 Sep 2021 03:05:41 +0000</pubDate><author>example@example.com (Rokcso)</author>
+      <guid>http://localhost:1313/3856.html</guid>
+      <description>&lt;p&gt;九月一日凌晨0点30分左右，手机收到腾讯云发来的短信：&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;【腾讯云】尊敬的腾讯云用户，您好！您的腾讯云账号（账号 ID：***&lt;em&gt;&lt;em&gt;*\&lt;/em&gt;*，昵称：镜缘轩） 下的服务器： [jooj]，实例ID：**&lt;/em&gt;，地域：华北地区（北京），时间：2021-09-01 00:30:08，检测到存在未处理的木马文件：/tmp/php9a0u7f，您的服务器疑似被黑客入侵，可能造成严重损失，请即刻前往主机安全控制台（ ）查看详细信息。&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2021/09/1a8c276e8df392d.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;由于当时已经熟睡，早上起床后才发现有了这个短信。&lt;/p&gt;&#xA;&lt;p&gt;赶紧登录上服务器，到tmp目录查找，并没有发现腾讯短信里提到的文件。然后又查看各种系统的日志，发现确实有不少扫描器之类的在扫描，但是都没有登录成功。&lt;/p&gt;&#xA;&lt;p&gt;网上查了一下相关的内容，发现也有不少用户收到过这个短信，但人家确实在报告的目录里找到木马文件了。所以也搞不懂具体的情况了。&lt;/p&gt;&#xA;&lt;p&gt;网站运行也良好，网站标题等也没有被修改，系统后台也没有可疑的进程。但是为了保险起见，还是备份了数据库，以及网站文件。&lt;/p&gt;&#xA;&lt;p&gt;重置系统，重新编译生产环境，从官网下载最新的程序包，把备份的网站文件只要里面的图片，其他的一概都不要了，希望是虚惊一场吧。&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

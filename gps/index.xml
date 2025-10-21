@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gps on 老刘博客</title>
+    <link>http://localhost:1313/gps/</link>
+    <description>Recent content in Gps on 老刘博客</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    
+    
+      <webMaster>ewader@qq.com (老刘)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, 老刘博客.</copyright>
+    
+    
+    <lastBuildDate>Fri, 29 Oct 2010 01:34:58 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/gps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>用黑莓手机查询郑州公交车到站gps信息</title>
+      <link>http://localhost:1313/959.html</link>
+      <pubDate>Fri, 29 Oct 2010 01:34:58 +0000</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>http://localhost:1313/959.html</guid>
+      <description>&lt;p&gt;以前觉得手机上网就是个鸡肋，食之无味、弃之可惜，最近发现，原来的观点是错误的，其实手机上网还是能做很多很多的事情的，相信很多朋友都和我一样有这样的经历，在公交站等公交车，辛苦等半天，座上后，挤得要死，忽然一扭头发现后来跟来了一个空车，这个感觉郁闷吧，今天华彩就交你用手机来查询公交车的GPS信息，当然这个公交车仅限郑州，别的地方不适用哦。&lt;/p&gt;&#xA;&lt;p&gt;其实这是利用郑州公交公司最新推出的GPS查询候车系统来实现的，首先，用手机登陆http://wap.zhengzhoubus.com ，见图。&lt;/p&gt;&#xA;&lt;p&gt;然后选择GPS候车查询&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;然后输入你要等候的公交车，比如215&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;然后选择你在哪个站等待&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;等待一下，就出来公交车距离你有多远，下一趟车在什么地方，这样就有有目的的乘车了！&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

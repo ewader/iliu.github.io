@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>管控 on Hugo Bear Neo</title>
+    <link>http://localhost:1313/blog/%E7%AE%A1%E6%8E%A7/</link>
+    <description>Recent content in 管控 on Hugo Bear Neo</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>example@example.com (Rokcso)</managingEditor>
+    
+    
+      <webMaster>example@example.com (Rokcso)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, Rokcso.</copyright>
+    
+    
+    <lastBuildDate>Thu, 20 Jan 2022 03:54:58 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/blog/%E7%AE%A1%E6%8E%A7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>解除管控</title>
+      <link>http://localhost:1313/4040.html</link>
+      <pubDate>Thu, 20 Jan 2022 03:54:58 +0000</pubDate><author>example@example.com (Rokcso)</author>
+      <guid>http://localhost:1313/4040.html</guid>
+      <description>&lt;p&gt;盼望着，盼望着，东风来了，春天的脚步近了，一切都象刚睡醒的样子……&lt;/p&gt;&#xA;&lt;p&gt;历经半个月，终于解除了管控。&lt;/p&gt;&#xA;&lt;p&gt;总感觉是被误伤了。&lt;/p&gt;&#xA;&lt;p&gt;就第一次画了一块大大的地方作为管控区，后来出现病例都是小区管控。&lt;/p&gt;&#xA;&lt;p&gt;赶紧出来看看（其实是去医院开药，半个月没有吃了）&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;已经可以正常出行了&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;小区门口没人把门了，可以随便出入了，感觉旁边的小区管理的更好，大喇叭一直喊，我们是防范区，进入扫码。我们小区的保安就是个吃干饭了，啥都不相管。以前封闭的时候还是外面的志愿者在管理。老小区就是这毛病。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;还有些路口的没有拆除的路障&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;半个月没怎么动，走了差不多6000步就有点累了，尽管每天还蹬半个小时的单车。&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>迅雷 on Hugo Bear Neo</title>
+    <link>http://localhost:1313/blog/%E8%BF%85%E9%9B%B7/</link>
+    <description>Recent content in 迅雷 on Hugo Bear Neo</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>example@example.com (Rokcso)</managingEditor>
+    
+    
+      <webMaster>example@example.com (Rokcso)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, Rokcso.</copyright>
+    
+    
+    <lastBuildDate>Thu, 09 Jan 2020 15:05:44 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/blog/%E8%BF%85%E9%9B%B7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我擦，迅雷真的挺流氓的</title>
+      <link>http://localhost:1313/2993.html</link>
+      <pubDate>Thu, 09 Jan 2020 15:05:44 +0000</pubDate><author>example@example.com (Rokcso)</author>
+      <guid>http://localhost:1313/2993.html</guid>
+      <description>&lt;p&gt;今天不得不从msdn i tell you上下载个系统，由于是磁力链的原因，不得不用一下迅雷，结果发现，迅雷是真流氓。&lt;/p&gt;&#xA;&lt;p&gt;安装上之后，不声不响的给你安装了4个软件，猎豹浏览器、迅雷影音、鲁大师、还有一个是啥忘记了。根本就不问你要不要，而且装上猎豹后，自动把默认浏览器设置成猎豹。&lt;/p&gt;&#xA;&lt;p&gt;系统下载完，把所有的有关软件都删了，看着都心烦！&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

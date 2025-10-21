@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wordpress on 老刘博客</title>
+    <link>http://localhost:1313/wordpress/</link>
+    <description>Recent content in Wordpress on 老刘博客</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    
+    
+      <webMaster>ewader@qq.com (老刘)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, 老刘博客.</copyright>
+    
+    
+    <lastBuildDate>Wed, 30 Dec 2020 07:35:59 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>博客web端改用apache</title>
+      <link>http://localhost:1313/3520.html</link>
+      <pubDate>Wed, 30 Dec 2020 07:35:59 +0000</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>http://localhost:1313/3520.html</guid>
+      <description>&lt;p&gt;试用了几天Cloudflare加racknerd的2h2g的小鸡，感觉还算差强人意。所以干脆就先把博客放这里算了，然后又突发奇想，其他的网站一直用的lnmp，为啥博客就不能用用lamp呢？况且apache在稳定性以及对php的支持等方面都比nginx要好，nginx的优势是轻便和并发能力强。其实对小博客来说，基本没有啥区别。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2021/01/ac6793f3e79aaa6.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;说折腾就折腾，编译安装apache，发现需要重新设置虚拟主机，设置的时候发现，不像nginx的时候，脚本提示把http301到https，什么www域名301到一级域名等，这些提示都没有。也没有设置伪静态的选项。网上查了一下，发现是几行代码就可以搞定的事情。&lt;/p&gt;&#xA;&lt;h2 class=&#34;wp-block-heading&#34; id=&#34;设置301跳转&#34;&gt;设置301跳转&lt;/h2&gt;&#xA;&lt;p&gt;在apache里设置301跳转很简单，只需要在.htaccess里添加代码就好了，老刘主要用到两个，一个是http跳到https，一个是www跳到一级域名。感觉比nginx要简洁一些，代码如下：&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;设置后才发现，设置和不设置没有啥区别，老刘用的cf，应该是在cf里设置了301到443接口了，至于wordpress伪静态的问题，也是很容易，直接到wordpress的后台，保存一下固定链接样式就行了，保存后在根目录里自动生成了.htaccess。代码如下：&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;h2 class=&#34;wp-block-heading&#34; id=&#34;使用cloudflare后获取用户真实ip&#34;&gt;使用cloudflare后获取用户真实IP&lt;/h2&gt;&#xA;&lt;p&gt;由于apache已经自带mod_remoteip模块，所以只需按如下操作即可&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;service httpd restar重启apache，然后去日志里看看，已经获得了真实IP。前连天灰常记忆博友说在cloudflare里设置一下也能显示真实IP，但是老刘没有找到这个设置，只好继续在网站上改了，网站上改还有一个好处是，这个方法不仅限于cloudflare，别的CDN也是适用的&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>给7b2的主题加上评论回复功能</title>
+      <link>http://localhost:1313/2552.html</link>
+      <pubDate>Thu, 25 Jul 2019 00:54:22 +0000</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>http://localhost:1313/2552.html</guid>
+      <description>&lt;p&gt;7b2主题默认是不会给评论者回复邮件的。也曾经问过作者，作者说如果实现这个的话，没几天邮箱就被封掉了，可能作者有作者的理由吧，但是不加的话，你回复了评论者，他也不知道你给他回复了，没有个反馈，十分的不方便。&lt;/p&gt;&#xA;&lt;p&gt;要想实现给评论者发邮件现在有两种方法，一种是代码实现，一种是插件实现。&lt;/p&gt;&#xA;&lt;h2 id=&#34;代码实现回复评论给评论者发送邮件&#34;&gt;代码实现回复评论给评论者发送邮件&lt;/h2&gt;&#xA;&lt;p&gt;修改&lt;!-- raw HTML omitted --&gt;functions.php，在文件的最后加上如下代码&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;﻿现在﻿，在回复评论者就会有邮件通知了。&lt;/p&gt;&#xA;&lt;h2 id=&#34;第二种插件的方式来实现&#34;&gt;第二种，插件的方式来实现&lt;/h2&gt;&#xA;&lt;p&gt;这里跋涉者推荐国人开发的&lt;!-- raw HTML omitted --&gt;Wenprise Better Emails插件。美化的不错，符合国人的使用习惯，最重要是的中文的，哈哈&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;wordpress后台点击添加插件，搜索&lt;!-- raw HTML omitted --&gt;Wenprise Better Emails，安装启用即可。&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;跋涉者使用的是第一种方式来实现，因为跋涉者不喜欢插件。&lt;/p&gt;&#xA;&lt;p&gt;本文参考奶爸笔记的文章&lt;!-- raw HTML omitted --&gt;2019新版给WordPress添加评论邮件回复通知的方法&lt;!-- raw HTML omitted --&gt;，只为给自己备忘，感谢奶爸&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>wordpress自动升级到5.2.2</title>
+      <link>http://localhost:1313/1787.html</link>
+      <pubDate>Wed, 19 Jun 2019 02:15:39 +0000</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>http://localhost:1313/1787.html</guid>
+      <description>&lt;p&gt;今天打开邮箱，发现系统发的邮件。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;嗨！您位于 &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;https://tunan.org&#34;&gt;https://tunan.org&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; 的站点已被成功升级到WordPress 5.2.2。 您不需要再做什么。 要获取更多关于5.2.2版本的信息，请参阅“关于WordPress”屏幕： &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;https://tunan.org/wp-admin/about.php&#34;&gt;https://tunan.org/wp-admin/about.php&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; 如果您遇到了任何问题或需要帮助，WordPress.org支持论坛的志愿者或许能帮到您。 &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;http://zh-cn.forums.wordpress.org/&#34;&gt;http://zh-cn.forums.wordpress.org/&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; WordPress小组&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;维护和安全更新&#34;&gt;维护和安全更新&lt;/h2&gt;&#xA;&lt;p&gt;5.2.2版本修复了13个问题。 欲了解更多，参见发行注记。&lt;/p&gt;&#xA;&lt;p&gt;确保网站安全＃45094：仪表板元素并不总是具有清晰的焦点状态，Tab键顺序&lt;/p&gt;&#xA;&lt;p&gt;＃46289：RTL Bug – 媒体模式中的错误导航箭头&lt;/p&gt;&#xA;&lt;p&gt;＃46749：Firefox中帮助部分底部显示额外边框（响应：778 * 841）&lt;/p&gt;&#xA;&lt;p&gt;＃46881：站点健康：改进标题元素水平居中&lt;/p&gt;&#xA;&lt;p&gt;＃46957：站点运行状况：使站点运行状况页面访问可以过滤&lt;/p&gt;&#xA;&lt;p&gt;＃46960：站点健康：小型设备（iphone 5 / SE）中的表设计问题。&lt;/p&gt;&#xA;&lt;p&gt;＃46997：主题更新链接显示在Customizer中，但不起作用&lt;/p&gt;&#xA;&lt;p&gt;＃47070：恢复模式退出按钮在响应视图中不可见&lt;/p&gt;&#xA;&lt;p&gt;＃47158：合并WP 5.2中引入的类似字符串&lt;/p&gt;&#xA;&lt;p&gt;＃47227：I18n：合并类似的翻译字符串 – 网站健康标签&lt;/p&gt;&#xA;&lt;p&gt;＃47475：I18n：合并相似的字符串并修复拼写错误&lt;/p&gt;&#xA;&lt;p&gt;＃47429：编辑：更新WordPress 5.2.2的软件包&lt;/p&gt;&#xA;&lt;p&gt;＃47457：修复mediaelements播放器控件栏大小调整&lt;/p&gt;&#xA;&lt;p&gt;WordPress 5.2为您提供了更健壮的工具来识别和修复配置问题和致命错误。无论您是帮助客户的开发人员，还是独自管理站点，这些工具都可以在您需要时帮助您获得正确的信息。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;网站健康检查&#34;&gt;网站健康检查&lt;/h2&gt;&#xA;&lt;p&gt;基于5.1中引入的站点健康特性，该版本增加了两个新页面来帮助调试常见的配置问题。它还增加了空间，开发人员可以在其中包含站点维护人员的调试信息。检查站点状态，并学习如何调试问题。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;php错误保护&#34;&gt;PHP错误保护&lt;/h2&gt;&#xA;&lt;p&gt;这个以管理员为中心的更新将允许您安全地修复或管理致命错误，而不需要开发人员花费时间。它具有更好地处理所谓的“死亡白屏幕”，以及进入恢复模式的方法，该模式暂停导致错误的插件或主题。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>7b2主题添加百度是否收录及禁止非管理员访问后台</title>
+      <link>http://localhost:1313/1636.html</link>
+      <pubDate>Sat, 25 May 2019 07:00:29 +0000</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>http://localhost:1313/1636.html</guid>
+      <description>&lt;p&gt;原来使用的是知更鸟的begin主题，和7b2的主题可以说是侧重点不同，不可否认的是7b2主题 在展示网页的方面和begin有一定的差距，比如begin里的一些小功能，其中百度是否收录就是其中的一项，让让人只管的文章用不要再次提交，不过要实现这个也不是一件很难的事情，之间在functions.php里添加一些代码就可以了。&lt;/p&gt;&#xA;&lt;h2 id=&#34;添加百度是否收录的代码管理员可见&#34;&gt;添加百度是否收录的代码（管理员可见）&lt;/h2&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;第二就是7b2主题提供了强大的前台及用户中心功能，对于普通用户来说，没有必要让他们进入网站的后台。因此，我们可以添加一些代码来禁止普通的用户进入后台。&lt;/p&gt;&#xA;&lt;h2 id=&#34;禁止非管理员访问后台&#34;&gt;禁止非管理员访问后台&lt;/h2&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>只需三步，让你的wordpress在godaddy免费空间上完美呈现</title>
+      <link>http://localhost:1313/950.html</link>
+      <pubDate>Thu, 28 Oct 2010 06:03:38 +0000</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>http://localhost:1313/950.html</guid>
+      <description>&lt;p&gt;以前本站有一篇文章，说是解决godaddy免费空间广告条对wordpress后台的影响，当时是采用第三方软件来实现的，但是到底有没有一种方法，能让不借用第三方软件来实现呢，答案是肯定的。而且很简单，只需要三步。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;1.隐藏前台页面广告&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;打开主题文件中的“style.css”文件，在文件最后加上如下这段代码：&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;#conash3D0 {height:0px; top:-1px;}&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;原理：使用css样式把广告上移，移到显示页面以外，谁都看不到了，实际上并没有去掉广告代码，只是“隐藏”而已**，K号的可能性比较小，但是有一定的危险，到底用不用再你。**&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2.恢复后台页面样式&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;godaddy的广告代码破坏了wordpress后台的css样式表及js，导致后台显示不正常，在wordpresswp-includesscript-loader.php中修改：&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;找到print_admin_styles()及_print_scripts()函数，&lt;/p&gt;&#xA;&lt;p&gt;将print_admin_styles()中的&lt;/p&gt;&#xA;&lt;p&gt;echo “n”;&lt;/p&gt;&#xA;&lt;p&gt;更改为&lt;/p&gt;&#xA;&lt;p&gt;$css = @file_get_contents($href);&lt;/p&gt;&#xA;&lt;p&gt;echo “”;&lt;/p&gt;&#xA;&lt;p&gt;将_print_scripts()中的&lt;/p&gt;&#xA;&lt;p&gt;echo “n”;&lt;/p&gt;&#xA;&lt;p&gt;替换为&lt;/p&gt;&#xA;&lt;p&gt;$js = @file_get_contents($src);&lt;/p&gt;&#xA;&lt;p&gt;echo “n”.substr($js,0,-184).”n”;&lt;/p&gt;&#xA;&lt;p&gt;之前有一个加上不少代码的修改方法，在3.01版本无效，但是我这个方法绝对是有效果的。&lt;/p&gt;&#xA;&lt;p&gt;3、搞掉后台广告&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;打开“wp-adminadmin- footer.php”文件，在末尾部分&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;的前面加上如下代码：&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;至此，修改完毕，一切都很完美！后台可以用 用户名：test 密码：test来测试。 关于采用第三方软件的方法，见 &lt;!-- raw HTML omitted --&gt;完美解决godaddy免费空间广告条对wordpress后台的影响 | 华彩生活&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>解决godaddy免费空间广告带来影响的方法</title>
+      <link>http://localhost:1313/476.html</link>
+      <pubDate>Tue, 19 Jan 2010 01:39:32 +0000</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>http://localhost:1313/476.html</guid>
+      <description>&lt;p&gt;        众所周知，godaddy免费空间带有一个很大的广告条，有广告也就罢了，不厚道的是通过增加的广告代码，使得很多源代码发生了错误，这是因为它的广告代码用了一连串的闭合标签，使你的程序人为的关闭，因此会出错，通过这一个月的摸索，现在把我的经验给大家说说，能让用这个空间的人多一些了解。我在上一篇&lt;!-- raw HTML omitted --&gt;完美解决godaddy免费空间广告条对WordPress后台的影响&lt;!-- raw HTML omitted --&gt;也说了一些，现在把其他的在给大家分享一下。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;    首先，最完美的解决方案，把你的主机切换到windows主机，选择iis7和php5，这样安装WordPress后不会显示任何广告，据网友反映，装zblog也没有问题，貌似动态的网页不会显示广告，但是html的静态网页会显示广告。windows主机也支持伪静态化，通过web.config来实现。缺点是1、对中文tag支持的不好，2、安全性没有保证，不知道是不是会因为没有广告而被K账户。有网友表示向godaddy的客服询问，但是没有看到结果，有一个网友现在用了4个月的时间，现在还一直在用，所以用这个的话记得经常备份数据。&lt;/p&gt;&#xA;&lt;p&gt;  第二，用linux的主机，要装WordPress2.9.1，这样后台基本上是完整的，可以加tag，发文章，传图片，但是插入图片的话要到媒体库内找到这个图片的地址后，然后在添加，可以回复评论，因此WordPress2.9.1还是不错的选择。缺点：１.有广告，2， feed无法输出。&lt;/p&gt;&#xA;&lt;p&gt;广告的可以在css内隐藏，但是建议大家不要这么做，毕竟要遵守合同的，feed问题目前还没有好的解决方法。&lt;/p&gt;&#xA;&lt;p&gt;第三、不管是windows主机还是linux主机都可以用离线发布的形式来发布，另外发现windows live writer也是不错的选择，还支持给图片加水印！&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>wordpress中文tag、中文分类找不到文章的解决方法</title>
+      <link>http://localhost:1313/407.html</link>
+      <pubDate>Sat, 09 Jan 2010 02:19:28 +0000</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>http://localhost:1313/407.html</guid>
+      <description>&lt;p&gt;原来用的linux的主机，在设定固定连接后不存在中文tag、中文分类找不到文章，但自从换了godaddy的windows主机以后，由于iis7对php支持不够好的原因，中文的tag，中文的分类等，就会找不到文章，比如：&lt;/p&gt;&#xA;&lt;p&gt;正常，能访问日志：www.example.com/?tag=中文&lt;/p&gt;&#xA;&lt;p&gt;不正常，不能访问日志：www.example.com/tag/中文 ；这是系统的原因，没有办法，但我们为了seo还必须启用固定链接，怎么办呢？整了上午，总算找到了解决的方案，而且支持目前的2.9.1版本！&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;网上有各种版本的解决方法：第一种是修改wp-includes/classes.php文件，这个方法可能在中文系统下有用，但是我在godaddy的主机上用这个方法，直接显示错误。所以这个方法是由局限性的。&lt;/p&gt;&#xA;&lt;p&gt;第二种方法：修改wp-includes/rewrite.php&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;function get_tag_permastruct() {&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;if (isset($this-&amp;gt;tag_structure)) {&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;return $this-&amp;gt;tag_structure;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;}&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;if (empty($this-&amp;gt;permalink_structure)) { //—–this line need change——&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;$this-&amp;gt;tag_structure = ”;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;return false;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;}&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;把第5行改为&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;第三种方法：&lt;/p&gt;&#xA;&lt;p&gt;一个一劳永逸的解决方法，还不用修改源代码，去你的WordPress后台，到“设置”-“固定链接”里，在“标签前缀”&lt;/p&gt;&#xA;&lt;p&gt;里填上“?tag=”，这样，你点击文章中的中文tag时，自动打开了“www.example.com/?tag=中文”格式的页面，这样一来，你的tag就正常了。&lt;/p&gt;&#xA;&lt;p&gt;经过验证，后面两种方法可以完美解决这个问题。&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>完美解决godaddy免费空间广告条对wordpress后台的影响</title>
+      <link>http://localhost:1313/388.html</link>
+      <pubDate>Sun, 03 Jan 2010 13:09:22 +0000</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>http://localhost:1313/388.html</guid>
+      <description>&lt;p&gt;自从从godaddy搞了域名之后，一直对它提供的免费空间耿耿于怀，用也不是，不用又觉得可惜，难怪网上都说此空间是一个鸡肋。很多童鞋都把此空间做为图床来使用，只是我觉得，这么好的一个空间，10g，300g的流量，仅仅用做图床未免有些浪费，加之目前手里也没有什么像样的空间，先前一直在有pipni的空间，各方面还比较满意，就是速度差了些，后来又觉得byethost的空间也不错，可惜IP老被封，加上本次的整顿事件，越发不敢用了，毕竟被墙以后，再找空间也麻烦。所以想来想去，还是就用godaddy提供的这个免费的空间吧。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;要说用你的免费空间给你做做广告也不是不可以，但是加载的代码对网页有影响。对wordpress而言，主要的问题是在后台，发文章，传文件等都受到很大的影响。目前迫切需要的是，1、把后台的广告给去掉，这个网上有很多的方法。我这里就不一一介绍了，只是说我的做法是&lt;code&gt;：在admin-footer.php加上&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;&amp;lt;br /&amp;gt; function hideGoDaddy(){&amp;lt;br /&amp;gt; if( ! ( null === document.getElementById( &amp;quot;conash3D0&amp;quot; ) ) ) {&amp;lt;br /&amp;gt; gDaddy = document.getElementById( &amp;quot;conash3D0&amp;quot; );&amp;lt;br /&amp;gt; if( &#39;none&#39; === gDaddy.style.display ) {}&amp;lt;br /&amp;gt; else { gDaddy.style.display = &#39;none&#39;; }&amp;lt;br /&amp;gt; }&amp;lt;br /&amp;gt; }&amp;lt;br /&amp;gt; setInterval(&amp;quot;hideGoDaddy()&amp;quot;, 1500);&amp;lt;br /&amp;gt;&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;这样，在后台就不会在显示广告了，但是代码造成的影响依然存在。那么就用第二步：&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;下载一个离线编辑器，通过比较我用的是zoundry raven，用这个基本上和用wordpress的后台没有什么区别，刚好是后台受到影响部分的补充。&lt;/code&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>提供WordPress 主题 Marcelle的汉化版本</title>
+      <link>http://localhost:1313/304.html</link>
+      <pubDate>Sat, 26 Dec 2009 08:05:16 +0000</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>http://localhost:1313/304.html</guid>
+      <description>&lt;p&gt;昨天发掘出 Marcelle这个主题，很快为他的那种简约而清爽的界面而吸引，打算使用这个主题，简单的汉化以后，觉得还不错，不过今天就又发现了个更适合的，也就是目前所用的这个主题，所以就把昨天汉化的这个给分享出来吧，有喜欢的可以下载用用。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;这款名叫Marcelle的Wordpress 主题整体配色采用了柔和的城砖青，简单又不失大气，稳重而宁静。&lt;/p&gt;&#xA;&lt;p&gt;版本要求：Wordpress 2.7+&lt;/p&gt;&#xA;&lt;p&gt;主题特点：&lt;/p&gt;&#xA;&lt;p&gt;1、支持 Gallery（自适应尺寸）；&lt;/p&gt;&#xA;&lt;p&gt;2、兼容Opera、 Netscape、Safari、Firefox以及 IE6+等主流浏览器，通过XHTML测试；&lt;/p&gt;&#xA;&lt;p&gt;3、支持嵌套回复，支持Gravatar；&lt;/p&gt;&#xA;&lt;p&gt;4、页眉预留广告位，支持Google ADsense ；&lt;/p&gt;&#xA;&lt;p&gt;5、SEO优选；&lt;/p&gt;&#xA;&lt;p&gt;汉化修改后，在seo方面做了加强，并且在内容页增加了两个广告位，支持Google ADsense和阿里妈妈。&lt;/p&gt;&#xA;&lt;p&gt;下载后需要把我原来的广告给替换。&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;下载地址&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>如何增加WordPress上传文件类型</title>
+      <link>http://localhost:1313/196.html</link>
+      <pubDate>Thu, 17 Dec 2009 02:20:09 +0000</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>http://localhost:1313/196.html</guid>
+      <description>&lt;p&gt;WordPress默认的上传文件类型只有图片、视频、音频、其他媒体。但是如果我们想分享一些其他的文件比如文档等怎么办呢？其实Wordpress其充满魅力的所在就在于开源，开源的好处是随时可以增加你想要的东西。下面就以增加一个.rar类型为例来说明如何增加Wordpress上传文件类型！&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;修改 wp-includes/functions.php&lt;/p&gt;&#xA;&lt;p&gt;查找：&lt;/p&gt;&#xA;&lt;p&gt;function wp_check_filetype($filename, $mimes = null) {&lt;/p&gt;&#xA;&lt;p&gt;在底下的$mimes里加入要添加的文件类型，例如 rar ：&lt;/p&gt;&#xA;&lt;p&gt;‘rar’ =&amp;gt; ‘application/rar’,&lt;/p&gt;&#xA;&lt;p&gt;保存，重新上传服务器，一切就OK了，很简单吧！&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

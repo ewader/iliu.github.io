@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>三个和尚没水喝 on Hugo Bear Neo</title>
+    <link>http://localhost:1313/blog/%E4%B8%89%E4%B8%AA%E5%92%8C%E5%B0%9A%E6%B2%A1%E6%B0%B4%E5%96%9D/</link>
+    <description>Recent content in 三个和尚没水喝 on Hugo Bear Neo</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>example@example.com (Rokcso)</managingEditor>
+    
+    
+      <webMaster>example@example.com (Rokcso)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, Rokcso.</copyright>
+    
+    
+    <lastBuildDate>Fri, 05 Aug 2011 02:15:32 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/blog/%E4%B8%89%E4%B8%AA%E5%92%8C%E5%B0%9A%E6%B2%A1%E6%B0%B4%E5%96%9D/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>女儿最喜欢的动画片-三个和尚没水喝</title>
+      <link>http://localhost:1313/1149.html</link>
+      <pubDate>Fri, 05 Aug 2011 02:15:32 +0000</pubDate><author>example@example.com (Rokcso)</author>
+      <guid>http://localhost:1313/1149.html</guid>
+      <description>&lt;p&gt;每次都要登录优酷看，转发到博客上来，就没那么麻烦了，呵呵&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://v.youku.com/v&#34;&gt;http://v.youku.com/v&lt;/a&gt;_show/id_XMzE5NDgwMA==.html&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DNS设置 on 老刘博客</title>
+    <link>http://localhost:1313/dns%E8%AE%BE%E7%BD%AE/</link>
+    <description>Recent content in DNS设置 on 老刘博客</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    
+    
+      <webMaster>ewader@qq.com (老刘)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, 老刘博客.</copyright>
+    
+    
+    <lastBuildDate>Fri, 12 Jul 2019 09:29:00 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/dns%E8%AE%BE%E7%BD%AE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>centos7.6更改dns的方法</title>
+      <link>http://localhost:1313/2260.html</link>
+      <pubDate>Fri, 12 Jul 2019 09:29:00 +0000</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>http://localhost:1313/2260.html</guid>
+      <description>&lt;p&gt;今天在重新安装服务器的生产环境的时候发现无法申请&lt;!-- raw HTML omitted --&gt;Let’s Encrypt的证书，根据我的经验，一般把服务器上的dns设置成Google的8.8.8.8就可以顺利的进行申请，可能是国内的dns解析&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;Let’s Encrypt域名不通畅所导致。所以，第一时间，笔者就想到把服务器的dns设置成Google的。搜索引擎查了一下，很多都是千篇一律的。根据他们的经验，总结了一下，以备以后使用。&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;首先重新启动一下networkmanager&#34;&gt;首先，重新启动一下&lt;!-- raw HTML omitted --&gt;NetworkManager&lt;!-- raw HTML omitted --&gt;&lt;/h2&gt;&#xA;&lt;p&gt;有时候服务器的这个进程并没有启动，所以后面用的代码方法就不管用，输入代码后，显示Error: NetworkManager is not running.，笔者就是吃了这个的亏，搞了半天才稿定。&lt;/p&gt;&#xA;&lt;p&gt;使用命令：&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;h2 id=&#34;第二使用命令行工具-nmcli-来设置&#34;&gt;第二，使用命令行工具 nmcli 来设置&lt;/h2&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;注意：eth0可能这个参数每台机器都不同，所以，根据你自己的服务器的网关参数来进行修改。&lt;/p&gt;&#xA;&lt;h2 id=&#34;第三重复第一步&#34;&gt;第三：重复第一步&lt;/h2&gt;&#xA;&lt;p&gt;重新启动NetworkManager，使这个服务生效即可。&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

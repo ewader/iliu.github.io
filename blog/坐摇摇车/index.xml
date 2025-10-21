@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>坐摇摇车 on Hugo Bear Neo</title>
+    <link>http://localhost:1313/blog/%E5%9D%90%E6%91%87%E6%91%87%E8%BD%A6/</link>
+    <description>Recent content in 坐摇摇车 on Hugo Bear Neo</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>example@example.com (Rokcso)</managingEditor>
+    
+    
+      <webMaster>example@example.com (Rokcso)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, Rokcso.</copyright>
+    
+    
+    <lastBuildDate>Tue, 25 Oct 2011 10:47:32 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/blog/%E5%9D%90%E6%91%87%E6%91%87%E8%BD%A6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>女儿坐汽车（摇摇车）</title>
+      <link>http://localhost:1313/1515.html</link>
+      <pubDate>Tue, 25 Oct 2011 10:47:32 +0000</pubDate><author>example@example.com (Rokcso)</author>
+      <guid>http://localhost:1313/1515.html</guid>
+      <description>&lt;p&gt;小美女做汽车了，歌曲有春天在哪里等等，天天要坐，每次坐都开心的不得了，每天早上一定要去绿都城坐一次，唉，这可怎么办？？？？？？&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;小美女做汽车了，歌曲有春天在哪里等等，天天要坐，每次坐都开心的不得了，每天早上一定要去绿都城坐一次，唉，这可怎么办？？？？？？&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;摇摇车，摇摇车，摇摇车，摇摇车，摇摇车，&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

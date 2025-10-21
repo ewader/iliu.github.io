@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>端午安康 on 老刘博客</title>
+    <link>http://localhost:1313/%E7%AB%AF%E5%8D%88%E5%AE%89%E5%BA%B7/</link>
+    <description>Recent content in 端午安康 on 老刘博客</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    
+    
+      <webMaster>ewader@qq.com (老刘)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, 老刘博客.</copyright>
+    
+    
+    <lastBuildDate>Thu, 25 Jun 2020 00:03:36 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/%E7%AB%AF%E5%8D%88%E5%AE%89%E5%BA%B7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>恭祝大家端午安康</title>
+      <link>http://localhost:1313/3193.html</link>
+      <pubDate>Thu, 25 Jun 2020 00:03:36 +0000</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>http://localhost:1313/3193.html</guid>
+      <description>&lt;p&gt;一年一度的端午节来了，恭祝大家端午安康！！！&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/06/962f0e380c84ce6.png&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

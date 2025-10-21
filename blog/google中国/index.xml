@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Google中国 on Hugo Bear Neo</title>
+    <link>http://localhost:1313/blog/google%E4%B8%AD%E5%9B%BD/</link>
+    <description>Recent content in Google中国 on Hugo Bear Neo</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>example@example.com (Rokcso)</managingEditor>
+    
+    
+      <webMaster>example@example.com (Rokcso)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, Rokcso.</copyright>
+    
+    
+    <lastBuildDate>Wed, 13 Jan 2010 09:42:43 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/blog/google%E4%B8%AD%E5%9B%BD/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>写在google中国退出大陆市场之前</title>
+      <link>http://localhost:1313/448.html</link>
+      <pubDate>Wed, 13 Jan 2010 09:42:43 +0000</pubDate><author>example@example.com (Rokcso)</author>
+      <guid>http://localhost:1313/448.html</guid>
+      <description>&lt;p&gt;这两天互联网搜索界很是热闹，先是百度被黑，然后传出google高层在其博客中说要退出大陆，真是一波还未平息，一波又来浸起。&lt;br&gt;&#xA;看其在博客中写的东西，充满了逼供的口气，原本对google还是比较有好感的，毕竟搜索出来的东西更专业而且被屏蔽的东西更少。所以在大多数的时候会选择google作为我的默认搜索，不过这次事件对google的做法很是不以为然。&lt;/p&gt;&#xA;&lt;p&gt;在一个口口声声称保护知识产权的国家，却公然侵犯我们国家作家的知识产权，一个不愿意中国提供过滤低俗信息的引擎，我们要之有何用，退吧，你就退吧，少你一个不多，多你一个不少。&lt;/p&gt;&#xA;&lt;p&gt;不过不知道Google AdSense还能不能用？一张图，留念&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+  </channel>
+</rss>

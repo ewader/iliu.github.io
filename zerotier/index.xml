@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zerotier on 老刘博客</title>
+    <link>http://localhost:1313/zerotier/</link>
+    <description>Recent content in Zerotier on 老刘博客</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    
+    
+      <webMaster>ewader@qq.com (老刘)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, 老刘博客.</copyright>
+    
+    
+    <lastBuildDate>Sat, 24 Oct 2020 07:49:34 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/zerotier/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>zerotier加openwrt路由实现内网穿透控制群晖</title>
+      <link>http://localhost:1313/3356.html</link>
+      <pubDate>Sat, 24 Oct 2020 07:49:34 +0000</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>http://localhost:1313/3356.html</guid>
+      <description>&lt;p&gt;刚开始完群晖的时候，写过一片使用zerotier进行内网穿透实现连接群晖的功能。详情《&lt;a href=&#34;https://tunan.org/2872.html&#34;&gt;使用zerotier进行内网穿透&lt;/a&gt; 》但是后来升级移动宽带，带了一个光猫的路由，导致群晖成为了内网中的内网，使用zerotier总链接不上。因此，改用了frp进行内网穿透。&lt;/p&gt;&#xA;&lt;p&gt;FRP和zerotier各有千秋，本站也一些文章来结束这些，有兴趣可以利用搜索来查询。昨天，发现路由器里带的又zerotier的插件。其实以前也见到过，只是觉得只是控制路由器，用处不大，所以也没有过多的理会。昨天，突发奇想，是不是在两台路由器都设置zerotier的情况下，能实现各自路由下的设备能访问另一台路由下的设备。网上查了一下，发现是可行的。而且，设置起来也要简单的多。&lt;/p&gt;&#xA;&lt;h2 id=&#34;首先注册zerotier&#34;&gt;首先，注册zerotier&lt;/h2&gt;&#xA;&lt;p&gt;这里就不在多说了，上面那篇文章有说明如何注册。&lt;/p&gt;&#xA;&lt;h2 id=&#34;在公司和家中的两台路由内都设置zerotier&#34;&gt;在公司和家中的两台路由内都设置zerotier。&lt;/h2&gt;&#xA;&lt;p&gt;这个网上有一堆的教程，又是设置端口的，又是设置防火墙的。其实那都已经很老了，目前的的插件简单不能再简单了。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/10/bae175604f2b130.png&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;如果上图，填入zero的 id 勾选下面的运行客户端NAT。不需要在设置别的了。&lt;/p&gt;&#xA;&lt;h2 id=&#34;进入zero控制台设置路由&#34;&gt;进入zero控制台，设置路由&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/10/f7e0b956540676a.png&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;在下面add-routes里进行添加&#34;&gt;在下面add routes里进行添加&lt;/h2&gt;&#xA;&lt;p&gt;前面是你路由器的IP段，后面是zero给你分配的ip，千万不要填反了。在设置的时候要注意，家里和办公司的IP不能一致。其他的就没有关系了。设置完之后，就可以在办公室输入家里设备的IP或者在家里输入办公室设备的IP进行控制了。&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>使用zerotier进行内网穿透</title>
+      <link>http://localhost:1313/2872.html</link>
+      <pubDate>Wed, 27 Nov 2019 07:33:08 +0000</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>http://localhost:1313/2872.html</guid>
+      <description>&lt;p&gt;自从到手了暴风酷播之后，抽空就折腾了下NAS，目前来说系统方面已经没有什么问题了，自己需要使用的套件也基本上弄好了，唯一一个需要搞定的问题就是如何远程访问群晖，同步群晖这个问题。&lt;/p&gt;&#xA;&lt;p&gt;关于远程访问群晖，有很多的方法，比如如果你有公网IP，那就很好办，只需要一个域名就可以搞定的事情。但是如果你使用了大局域网的移动宽带，那么上述的方法是没法用的，因为移动宽带就不提供公网IP的。（至于公网IP的方法，不在本文讨论的范围内）。而跋涉者就刚好用的是移动的宽带，而且当初贪图便宜把家里的联通宽带也换成了移动的宽带，所以利用公网IP来远程访问群晖的方法是行不通了。&lt;/p&gt;&#xA;&lt;p&gt;那是不是内网就没法进行远程访问群晖了呢，当然不是，我们可以利用内网穿透的方法来绕过这一难题。&lt;/p&gt;&#xA;&lt;p&gt;第一个方法是利用FRP这个软件来进行内网穿透。&lt;/p&gt;&#xA;&lt;p&gt;这个方法需要你有一台VPS或者服务器，然后在服务器上安装FRP的服务器端，在群晖上安装FRP的客户端，这样，运行起来之后，群晖上的客户端就和VPS上的服务器端进行握手，你就可以用服务器上的ip来远程访问群晖了。&lt;/p&gt;&#xA;&lt;p&gt;这种方法需要你有一台服务器，还需要你有较强的动手能力，最重要的一点是服务器还不能差了，否则联网的速度很慢，达不到快速备份的目的。跋涉者首先选择的方案就是这个，也完成了相关的设置，但是由于速度不稳定而放弃。如果你有一台比较好的服务器，这种方法不失为一种好的解决方案。&lt;/p&gt;&#xA;&lt;p&gt;第二种方式，买内网穿透的设备&lt;/p&gt;&#xA;&lt;p&gt;目前网上有卖这方面的设备的，但是这玩意，一是要花钱，二也是受限于带宽和用户数。所以对这种方法也不是很推荐。&lt;/p&gt;&#xA;&lt;p&gt;第三种方法，最简单的一种方法，利用zerotier这个国外的网站进行内网穿透。&lt;/p&gt;&#xA;&lt;p&gt;ZeroTier原理：&lt;/p&gt;&#xA;&lt;p&gt;ZeroTier虚拟了一个网段，网段为多个网段可选，跋涉者选择的是10.244.150.*这个网段，公司和家里分别安装ZeroTier客户端，客户端会虚拟出一个网络并加入这个网段，在家即可访问10.244.150.1地址，反之同理。&lt;/p&gt;&#xA;&lt;p&gt;ZeroTier设备支持：&lt;/p&gt;&#xA;&lt;p&gt;免费用户可以支持100个设备，支持Windows、macOS、Linux、IOS、Android、Synology、QNAP、Western Digital MyCloud NAS等等。&lt;/p&gt;&#xA;&lt;p&gt;所以，对于我们大多数的人来说，100台设备已经是足够用了，另外就是ZeroTier两台设备握手以后，就采用的是P2P的方式传输数据。因此，不会受到其他因素的干扰，传输数据的速度相当的快，跋涉者这里就达到了3m/s的速度，当然这是因为受限于宽带运营商的上行带宽。&lt;/p&gt;&#xA;&lt;p&gt;使用方法：&lt;/p&gt;&#xA;&lt;p&gt;打开网站 &lt;a href=&#34;https://www.zerotier.com/&#34;&gt;ZEROTIER&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;网站是英文的，不过不影响，点击右上角的login，在打开的页面中点击 **Log in to ZeroTier **最下方点击 Register 。来注册一个新用户。&lt;a href=&#34;https://tunan.org/wp-content/uploads/2019/11/37fc35e0fc32e9d.png&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;注册后，进入网站，点击最上面那一行的  Networks  然后点击 create a  Networks。系统会给你一个网络的编号。然后点击页面最上面的那一行 downloads,这个页面里有各种系统的客户端。下载，安装。然后把你刚创建的网络号码填进去。运行之后，&lt;/p&gt;&#xA;&lt;p&gt;点击进入已创建的网络&lt;/p&gt;&#xA;&lt;p&gt;此时可以看到Network ID，后续添加设备都会需要这个ID。&lt;/p&gt;&#xA;&lt;p&gt;默认是Certificate (Private Network)，选择此模式表示每次在添加新的主机时，需要手动勾选是否允许连接，如果选择None (Public Network)模式，表示加入网络后自动分配IP并允许连接，从安全性来说建议使用默认选项Certificate (Private Network)，方便性来看None (Public Network)更方便，不用每次加入网络后手动勾选。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2019/11/d1bcac1984700e2.png&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;如下图所示，&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2019/11/c74c9a9e0c41d06.png&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;br&gt;&#xA;每次链接上一个新设备之后，都要在设备的前面那个框里的√打上，这样就表示允许接入网络。&lt;/p&gt;&#xA;&lt;p&gt;群晖里的安装也是同样的原理，下载群晖的套件，然后再群晖里选择手动安装套件，接入网络后，就可以用系统分配给你的IP地址加上你群晖的端口号一般是5000，来远程访问你的群晖了。各个群晖的套件也是一样的原来，IP地址加套件的端口号。&lt;/p&gt;&#xA;&lt;p&gt;最后，由于安卓客户端众所周知的原因，是没法直接下载的，所以，如果你有使用monents套件的需求，是必须要用安卓客户端的，点击文后的链接，直接下载吧。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2019/11/cd5dfa5f7cf472d.zip&#34;&gt;安卓客户端下载&lt;/a&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

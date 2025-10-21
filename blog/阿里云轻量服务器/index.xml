@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>阿里云轻量服务器 on Hugo Bear Neo</title>
+    <link>http://localhost:1313/blog/%E9%98%BF%E9%87%8C%E4%BA%91%E8%BD%BB%E9%87%8F%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
+    <description>Recent content in 阿里云轻量服务器 on Hugo Bear Neo</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>example@example.com (Rokcso)</managingEditor>
+    
+    
+      <webMaster>example@example.com (Rokcso)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, Rokcso.</copyright>
+    
+    
+    <lastBuildDate>Thu, 14 Nov 2019 23:53:20 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/blog/%E9%98%BF%E9%87%8C%E4%BA%91%E8%BD%BB%E9%87%8F%E6%9C%8D%E5%8A%A1%E5%99%A8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>博客更换到阿里云香港轻量，并升级到wordpress5.3.0</title>
+      <link>http://localhost:1313/2851.html</link>
+      <pubDate>Thu, 14 Nov 2019 23:53:20 +0000</pubDate><author>example@example.com (Rokcso)</author>
+      <guid>http://localhost:1313/2851.html</guid>
+      <description>&lt;p&gt;昨天在折腾FRP的时候，怕影响到现有的环境，所以，买了一个阿里云轻量1H1G的主机，因为我知道，一个月24元，其实我不是打算用一个月而是打算就用一天练练手，摆治了一天，FRP也没有实现与黑群晖进行联手，下午在退款的时候，惊奇的发现，我2年多前买的这个800元3年的1H1G1M的小鸡也能退款，大概能退200左右，毕竟还有8个来月的时间就到期了。&lt;/p&gt;&#xA;&lt;p&gt;说起来，我早就不想用这个主机了，主要是带宽只有1m,只不过心疼剩余的时间，就一直凑合着用。以前也咨询过客服能不能退款，说是活动价买的不能退云云。所以，立马吧网站备份到oss里，退款，并购买了一台，1H2g30m的香港轻量云。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2019/11/25b2916b5c49db6.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;说起这个阿里云轻量，网上有两种声音，一种是爱死，一种是恨死。我曾经试用过半个多月的时间，给我的感觉，拿来做博客，绰绰有余了。关键带宽足，晚上是有点慢，不过也在可接受的范围呢。这次不想再用lnmp等了，于是直接刷了宝塔面板，主要是因为宝塔上有个frp的管理端，想看看是不是好用一些。&lt;/p&gt;&#xA;&lt;p&gt;刷宝塔很容易，但是在安装环境的时候，又TM出问题了，宝塔的后台一只显示等待安装，CPU也不动，从网上查了一下说，重启一下面板就可以了，可是，重启了几遍也没乱用。索性放那不管了，然后直接ssh里reboot。然后就给女儿做饭去了。吃过晚饭，惊奇的发现，环境竟然装好了。哈&lt;/p&gt;&#xA;&lt;p&gt;把备份的网站从oss里导出来，这点阿里云真方便。都是内网传输，非常的快。解压，网站终于可以访问了。登录后台，发现WordPress已经更新到5.3.0了，不过，最近不知道怎么回事，登录WordPress官网很费劲，更新也是提示太多连接。不过，多刷新两下，就更新成功了。&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>又犯了人云亦云的毛病</title>
+      <link>http://localhost:1313/2526.html</link>
+      <pubDate>Fri, 19 Jul 2019 09:12:00 +0000</pubDate><author>example@example.com (Rokcso)</author>
+      <guid>http://localhost:1313/2526.html</guid>
+      <description>&lt;p&gt;从小接受的教育就是要实践出真知，别人的意见可以参考，但是不能完全照搬。不能像小马过河里的小马一样。&lt;/p&gt;&#xA;&lt;h2 id=&#34;这不今天差点又犯了人云亦云的毛病&#34;&gt;这不，今天差点又犯了人云亦云的毛病。&lt;/h2&gt;&#xA;&lt;p&gt;事情的经过是这样的，先前想给这个域名备个案，由于国内的服务器使用的是景安的，所以，就把这个域名在景安提交了，结果过了两三天还是没有任何动静，联系客服以备案人数过多被打发了，后来才发现原来这家公司除了问题，已经半年多没有发工资了，所以果断的撤了备案，详情可以看以前的文章：&lt;/p&gt;&#xA;&lt;p&gt;[zrz_insert_post id=2522]&lt;/p&gt;&#xA;&lt;p&gt;由于香港的一台服务器快到期了，续费吧，太贵，1核1g1m的配置，续费要1000多每年，性价比太低了，所以根本不可能考虑续费的事情，买别的服务器吧，现在做活动的都是阿里云的T5,这个cpu有限制，想买个轻量服务器吧，网上一堆人说不好。刚好群里有人问相关的内容，于是说了我自己这台续费的问题，缙哥哥博客的博主和热心的推荐了阿里云的轻量服务器，我说好多人都说这服务器垃圾啊，但是缙哥哥说还是可以的。于是先买了一个月的试用一下，试用后的结果是，轻量服务器还是值得试用的。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;选择了34/月的，1核心2g30m的香港轻量服务器，月流量为2T，现阶段我是用不完了。试用后，感觉整个网站打开的速度什么的都快了，基本上是秒开了吧，而且轻量服务器也是可以从内网链接oss，这样备份也非常的简单。&lt;/p&gt;&#xA;&lt;h2 id=&#34;至于为什么网上那么多人说轻量服务垃圾呢&#34;&gt;至于为什么网上那么多人说轻量服务垃圾呢？&lt;/h2&gt;&#xA;&lt;p&gt;跋涉者认为，每种服务器都有适用的人群，轻量服务器可能更适合建立网站博客等轻量的应用，你要是拿去做别的事情，可能是不合适的。&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;轻量应用服务器有轻量两个字，意味着其无法持续进行高负载运行（即 CPU 长时间高负载占用），如果我们要利用 轻量应用服务器 来进行持续的渲染、转码、机器学习等持续高负载操作那么就不可以了，也不支持 Nvme 这样的超高性能的 SSD，这对于读写敏感的操作就不好了。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;如果你只是轻度使用云计算产品例如搭建一个博客、官网，如果你需要一个更快启动的轻量服务器，如果你需要一个纯粹的虚拟专用机，如果你并没有阿里云内网的需求，那么 轻量应用服务器 绝对是你最好的选择。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;至于网上有人说10%的cpu限制，这个还没有感觉出来，但是我在安装生产环境的差不多半个小时的时间内，cpu的利用率都是100%的，从这方面来说，应该是没有限制的。&lt;/p&gt;&#xA;&lt;p&gt;至于有人说晚上速度很慢，也是有可能的，海外服务器的通病吧&lt;/p&gt;&#xA;&lt;h2 id=&#34;写在最后&#34;&gt;写在最后&lt;/h2&gt;&#xA;&lt;p&gt;这次经验教训还是告诉自己，网上的很多意见建议都是一家之言，大家试用的目的不同，环境不同，得出的结论也不一样，因此，想要深入了解某样东西到底适合不适合自己，有条件的情况下还是自己试用一下才能确定。&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>拜年 on Hugo Bear Neo</title>
+    <link>http://localhost:1313/blog/%E6%8B%9C%E5%B9%B4/</link>
+    <description>Recent content in 拜年 on Hugo Bear Neo</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+      <managingEditor>example@example.com (Rokcso)</managingEditor>
+    
+    
+      <webMaster>example@example.com (Rokcso)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, Rokcso.</copyright>
+    
+    
+    <lastBuildDate>Tue, 01 Feb 2022 12:28:51 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="http://localhost:1313/blog/%E6%8B%9C%E5%B9%B4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>年初一，大拜年</title>
+      <link>http://localhost:1313/4054.html</link>
+      <pubDate>Tue, 01 Feb 2022 12:28:51 +0000</pubDate><author>example@example.com (Rokcso)</author>
+      <guid>http://localhost:1313/4054.html</guid>
+      <description>&lt;p&gt;大年初一，是一个拜年的日子。&lt;/p&gt;&#xA;&lt;p&gt;农村过年的今天，基本的流程是，凌晨2-3点起床，然后三个开门炮，洗漱完毕之后，在一大盘鞭炮的炮声中，吃完早饭，开始守岁，一直到天蒙蒙亮，开始跟着哥哥们一起，到老祖宗的坟地里拜年，之后就全村给长辈们拜年。&lt;/p&gt;&#xA;&lt;p&gt;后来，很少回到老家，于是在这一天基本上都是给亲戚朋友打个电话拜年，只是电话拜年有时候就会感觉很尴尬，大多数的时候都是尬聊。但是又不得不走一遍这个程序。&lt;/p&gt;&#xA;&lt;p&gt;其实最想要就是发一个微信，把祝福送过去就好，不过又显得诚意不足，唉&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>
