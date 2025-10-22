@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>疫情 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E7%96%AB%E6%83%85/</link>
+    <link>http://localhost:1313/tags/%E7%96%AB%E6%83%85/</link>
     <description>Recent content in 疫情 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.151.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 01 Dec 2022 10:46:07 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E7%96%AB%E6%83%85/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E7%96%AB%E6%83%85/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>清零还是躺平</title>
-      <link>https://iliu.org/4310.html</link>
+      <link>http://localhost:1313/4310.html</link>
       <pubDate>Thu, 01 Dec 2022 10:46:07 +0000</pubDate>
-      <guid>https://iliu.org/4310.html</guid>
+      <guid>http://localhost:1313/4310.html</guid>
       <description>&lt;p&gt;最近全国的疫情形式很糟糕，而很多人也从刚开始的积极配合到疲惫再到如今的强烈不满，其实人们不满的不是清零的政策，而是对于这个政策的层层加码一刀切，不满的是没有计划的长期封控，不满的是整个城市都暂停了，可是该出的钱一分都不能少，甚至更多，但是却没有进项，坐吃山空。最不满的是某些利益团体打着疫情的旗号来发国难财。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>最近全国的疫情形式很糟糕，而很多人也从刚开始的积极配合到疲惫再到如今的强烈不满，其实人们不满的不是清零的政策，而是对于这个政策的层层加码一刀切，不满的是没有计划的长期封控，不满的是整个城市都暂停了，可是该出的钱一分都不能少，甚至更多，但是却没有进项，坐吃山空。最不满的是某些利益团体打着疫情的旗号来发国难财。</p>
 <p>冷静下来想想，真的全面放开了就一定好吗？真的全面放开了就能回到2019年欣欣尚荣的一片大好形势吗？</p>
@@ -25,9 +25,9 @@
     </item>
     <item>
       <title>这波疫情应该是到了尾声了</title>
-      <link>https://iliu.org/4282.html</link>
+      <link>http://localhost:1313/4282.html</link>
       <pubDate>Wed, 02 Nov 2022 02:53:46 +0000</pubDate>
-      <guid>https://iliu.org/4282.html</guid>
+      <guid>http://localhost:1313/4282.html</guid>
       <description>&lt;p&gt;从10月11日开始，到13日正式静默，到今天大部分小区解封，这波疫情算是到了尾声了。这20多天里发生的很多的事情，在自媒体发达的今天，事情的真假愈发扑朔迷离，而最好的对待的方法也就是静而观之，看看就行，心里一定要有自己的主见，不然很容易就被带了节奏。至于，为什么从五一的模范生到今天这个地步，老刘认为，主要是以下方面。&lt;figure class=&#34;wp-block-image&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>从10月11日开始，到13日正式静默，到今天大部分小区解封，这波疫情算是到了尾声了。这20多天里发生的很多的事情，在自媒体发达的今天，事情的真假愈发扑朔迷离，而最好的对待的方法也就是静而观之，看看就行，心里一定要有自己的主见，不然很容易就被带了节奏。至于，为什么从五一的模范生到今天这个地步，老刘认为，主要是以下方面。<figure class="wp-block-image"></p>
 <p><img decoding="async" src="https://cdn.staticaly.com/gh/ewader/img@master/20221102/bruce-40cXKbIj3n8-unsplash.6pgwsoxq4wc0.webp" alt="bruce-40cXKbIj3n8-unsplash" /> </figure></p>
@@ -42,9 +42,9 @@
     </item>
     <item>
       <title>关于这论疫情</title>
-      <link>https://iliu.org/4276.html</link>
+      <link>http://localhost:1313/4276.html</link>
       <pubDate>Wed, 19 Oct 2022 00:41:17 +0000</pubDate>
-      <guid>https://iliu.org/4276.html</guid>
+      <guid>http://localhost:1313/4276.html</guid>
       <description>&lt;p&gt;国庆节后，一场突如其来的疫情，席卷而来。之前没有征兆，人们都还沉浸在国庆节后的综合症中，就这么悄无声息的来临了。如果用一个词概括的话，那就是静。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>国庆节后，一场突如其来的疫情，席卷而来。之前没有征兆，人们都还沉浸在国庆节后的综合症中，就这么悄无声息的来临了。如果用一个词概括的话，那就是静。</p>
 <p>静是安静的静，是静悄悄的静，也是静默的静。</p>
@@ -57,9 +57,9 @@
     </item>
     <item>
       <title>又来一轮</title>
-      <link>https://iliu.org/4270.html</link>
+      <link>http://localhost:1313/4270.html</link>
       <pubDate>Wed, 12 Oct 2022 01:21:27 +0000</pubDate>
-      <guid>https://iliu.org/4270.html</guid>
+      <guid>http://localhost:1313/4270.html</guid>
       <description>&lt;p&gt;网上流传一个段子：&lt;/p&gt;
 &lt;p&gt;大意是：全国人民都知道郑州是风险大，只有郑州人民不知道。&lt;/p&gt;
 &lt;p&gt;公园里，到处可见晨练的人们，商场里熙熙攘攘的人群，甚至去菜市场买菜，以前要求的扫码，很多菜市场都形同虚设了。让人感觉春天就要来了。&lt;/p&gt;</description>
@@ -76,9 +76,9 @@
     </item>
     <item>
       <title>论工作方法的重要性</title>
-      <link>https://iliu.org/4137.html</link>
+      <link>http://localhost:1313/4137.html</link>
       <pubDate>Thu, 02 Jun 2022 00:10:53 +0000</pubDate>
-      <guid>https://iliu.org/4137.html</guid>
+      <guid>http://localhost:1313/4137.html</guid>
       <description>&lt;p&gt;这几天发生的一件事，让我愈加觉得工作方法的重要，其实，很多时候，很多事情，都有很多的误解在里面，方法不对，往往造成两败俱伤的局面。&lt;/p&gt;
 &lt;p&gt;24号，我们结束了集中隔离，开始了7天的居家健康检测的生活。按照规定是从25号到31日结束。社区里负责这块的人可能也想让我们尽早的恢复自由，和上级沟通了一下，说从24号开始算第一天，到30号结束。在第一天，第四天，第七天的时候，要做三次核酸，全都是阴性后，找社区的人转绿码。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>这几天发生的一件事，让我愈加觉得工作方法的重要，其实，很多时候，很多事情，都有很多的误解在里面，方法不对，往往造成两败俱伤的局面。</p>
@@ -92,9 +92,9 @@
     </item>
     <item>
       <title>隔离日志第一天</title>
-      <link>https://iliu.org/4096.html</link>
+      <link>http://localhost:1313/4096.html</link>
       <pubDate>Wed, 11 May 2022 08:38:19 +0000</pubDate>
-      <guid>https://iliu.org/4096.html</guid>
+      <guid>http://localhost:1313/4096.html</guid>
       <description>&lt;p&gt;5月1日，劳动节，郑州爆发了一波新冠疫情。看着别的区时有病例发生，而我们所在区一直一枝独秀，还沾沾自喜的以为，马上就没事了，很快就能愉快的玩耍了。时间很快来到了5月10号，政府承诺的封城的最后一天。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>5月1日，劳动节，郑州爆发了一波新冠疫情。看着别的区时有病例发生，而我们所在区一直一枝独秀，还沾沾自喜的以为，马上就没事了，很快就能愉快的玩耍了。时间很快来到了5月10号，政府承诺的封城的最后一天。</p>
 <p>前一天晚上，社区通知的是第二天早7点开始做核酸，12点结束，和闺女商量了一下，打算7点就下去做，不耽误后面的网课。出门发现电梯已经关了。给物业打电话，物业说，因为我们这栋楼有一个疑似的病例，社区通知居家隔离。（后来发现是我们的邻居）。新冠病毒仿佛在和我们斗地主，一直本本分分的出着小牌，眼看着地主就要投降了，结果他掀桌子了，直接来了一个王炸。</p>
@@ -107,9 +107,9 @@
     </item>
     <item>
       <title>解除管控</title>
-      <link>https://iliu.org/4040.html</link>
+      <link>http://localhost:1313/4040.html</link>
       <pubDate>Thu, 20 Jan 2022 03:54:58 +0000</pubDate>
-      <guid>https://iliu.org/4040.html</guid>
+      <guid>http://localhost:1313/4040.html</guid>
       <description>&lt;p&gt;盼望着，盼望着，东风来了，春天的脚步近了，一切都象刚睡醒的样子……&lt;/p&gt;
 &lt;p&gt;历经半个月，终于解除了管控。&lt;/p&gt;
 &lt;p&gt;总感觉是被误伤了。&lt;/p&gt;
@@ -127,9 +127,9 @@
     </item>
     <item>
       <title>疫情下的管控区生活（三）</title>
-      <link>https://iliu.org/4025.html</link>
+      <link>http://localhost:1313/4025.html</link>
       <pubDate>Tue, 11 Jan 2022 00:25:52 +0000</pubDate>
-      <guid>https://iliu.org/4025.html</guid>
+      <guid>http://localhost:1313/4025.html</guid>
       <description>&lt;p&gt;这个系列感觉更像吐槽一些，就算是记录一下不自由的生活吧&lt;/p&gt;
 &lt;h2 class=&#34;wp-block-heading&#34; id=&#34;再说核酸检测&#34;&gt;再说核酸检测&lt;/h2&gt;
 &lt;p&gt;昨天院里检测结束的挺早，尽管大喇叭一遍又一遍的吆喝着催促下来做核酸，尽管志愿者挨着楼通知，但是还是有人错过了，基本上是家里孩子上网课的。等上完课一出来，发现已经人去楼空了。只能跑到别的地方去做。&lt;/p&gt;</description>
@@ -148,9 +148,9 @@
     </item>
     <item>
       <title>疫情下的管控区的生活（二）</title>
-      <link>https://iliu.org/4023.html</link>
+      <link>http://localhost:1313/4023.html</link>
       <pubDate>Mon, 10 Jan 2022 02:30:56 +0000</pubDate>
-      <guid>https://iliu.org/4023.html</guid>
+      <guid>http://localhost:1313/4023.html</guid>
       <description>&lt;figure class=&#34;wp-block-image size-full&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;450&#34; height=&#34;192&#34; src=&#34;https://tunan.org/wp-content/uploads/2022/01/294b8b386f60c70.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-4021&#34; /&gt;&lt;/figure&gt; 
 &lt;h2 class=&#34;wp-block-heading&#34; id=&#34;封控区管控区防范区&#34;&gt;封控区、管控区、防范区&lt;/h2&gt;
 &lt;p&gt;今天又更新了关于各个区的范围，中原区增加了好几个封控区，包括我之前工作的地方，中原万达广场。感觉还是速度慢了，旁边小区的病例都已经出来三天了，才划封控区。&lt;/p&gt;</description>
@@ -169,9 +169,9 @@
     </item>
     <item>
       <title>疫情下的管控区的生活（一）</title>
-      <link>https://iliu.org/4020.html</link>
+      <link>http://localhost:1313/4020.html</link>
       <pubDate>Sun, 09 Jan 2022 00:52:26 +0000</pubDate>
-      <guid>https://iliu.org/4020.html</guid>
+      <guid>http://localhost:1313/4020.html</guid>
       <description>&lt;p&gt;每次的疫情都是突如其来，带来的除了初始的混乱之外，还有诸多的不便，特别是在管控区。&lt;figure class=&#34;wp-block-image size-full&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;450&#34; height=&#34;192&#34; src=&#34;https://tunan.org/wp-content/uploads/2022/01/294b8b386f60c70.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-4021&#34; /&gt; &lt;/figure&gt;&lt;/p&gt;
 &lt;h2 class=&#34;wp-block-heading&#34; id=&#34;快递&#34;&gt;快递&lt;/h2&gt;
@@ -190,9 +190,9 @@
     </item>
     <item>
       <title>新的一波新冠疫情来临</title>
-      <link>https://iliu.org/4008.html</link>
+      <link>http://localhost:1313/4008.html</link>
       <pubDate>Tue, 04 Jan 2022 07:15:32 +0000</pubDate>
-      <guid>https://iliu.org/4008.html</guid>
+      <guid>http://localhost:1313/4008.html</guid>
       <description>&lt;p&gt;昨天下午，在群里看到说郑州市2院有了一个本土阳性。后来又有消息说是假阳性，在后来又说是确诊了2例子。今天早上收到了1号令，划出了几个封控区，管控区等，感觉离我还很远。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>昨天下午，在群里看到说郑州市2院有了一个本土阳性。后来又有消息说是假阳性，在后来又说是确诊了2例子。今天早上收到了1号令，划出了几个封控区，管控区等，感觉离我还很远。</p>
 <p>早上媳妇送女儿正常上学，我八点多也去上班，刚到工作室不久，在群里看到社区的人员发的通知：</p>
@@ -203,9 +203,9 @@
     </item>
     <item>
       <title>医务人员禁止入内，你良心不会痛吗？</title>
-      <link>https://iliu.org/3069.html</link>
+      <link>http://localhost:1313/3069.html</link>
       <pubDate>Fri, 07 Feb 2020 01:30:37 +0000</pubDate>
-      <guid>https://iliu.org/3069.html</guid>
+      <guid>http://localhost:1313/3069.html</guid>
       <description>&lt;p&gt;病毒疫情的初期，随着一批逆行者的出现，社会一片的赞扬声，甚至有人说，以后再也别发生打医、辱医，医闹等行为了，貌似医患关系一下到了解放前，整个环境一片和谐。但是，该来的还是回来的，疫情就是一面照妖镜，各路牛鬼蛇神是轮番上演。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>病毒疫情的初期，随着一批逆行者的出现，社会一片的赞扬声，甚至有人说，以后再也别发生打医、辱医，医闹等行为了，貌似医患关系一下到了解放前，整个环境一片和谐。但是，该来的还是回来的，疫情就是一面照妖镜，各路牛鬼蛇神是轮番上演。</p>
 <p><a href="https://tunan.org/wp-content/uploads/2020/02/f18ce7b07adc165.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3070" src="https://tunan.org/wp-content/uploads/2020/02/f18ce7b07adc165.jpg" alt="" width="700" height="350" srcset="https://tunan.org/wp-content/uploads/2020/02/f18ce7b07adc165.jpg 700w, https://tunan.org/wp-content/uploads/2020/02/f18ce7b07adc165-300x150.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></p>
@@ -225,9 +225,9 @@
     </item>
     <item>
       <title>任何打着疫情的旗号行私利都是耍流氓</title>
-      <link>https://iliu.org/3066.html</link>
+      <link>http://localhost:1313/3066.html</link>
       <pubDate>Wed, 05 Feb 2020 07:58:44 +0000</pubDate>
-      <guid>https://iliu.org/3066.html</guid>
+      <guid>http://localhost:1313/3066.html</guid>
       <description>&lt;p&gt;昨天一个做蔬菜的在群里刷屏，刷了一遍又一遍，无非是她家的蔬菜多新鲜，配送过程防护的多好，配送的时候多不会沾上病毒。看的我心烦，说了她几句，她还有理了。说她没有刷屏，是为让更多的人知道，在国难时刻让大家能吃到安全菜！&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>昨天一个做蔬菜的在群里刷屏，刷了一遍又一遍，无非是她家的蔬菜多新鲜，配送过程防护的多好，配送的时候多不会沾上病毒。看的我心烦，说了她几句，她还有理了。说她没有刷屏，是为让更多的人知道，在国难时刻让大家能吃到安全菜！</p>
 <p>我就直接问她，是不是超市里的菜都有冠状病毒，是不是不吃你家的菜都会得肺炎。她倒不吭声了，一会万年不说话的群主冒出来了，说了一大堆，怎么买不到水果，怎么买不到蔬菜，什么人家是为人民服务。</p>
@@ -236,9 +236,9 @@
     </item>
     <item>
       <title>其实就这么宅着也不错</title>
-      <link>https://iliu.org/3062.html</link>
+      <link>http://localhost:1313/3062.html</link>
       <pubDate>Mon, 03 Feb 2020 11:49:31 +0000</pubDate>
-      <guid>https://iliu.org/3062.html</guid>
+      <guid>http://localhost:1313/3062.html</guid>
       <description>&lt;p&gt;从春节到现在也差不多宅了十天了，前两天感觉宅的都快发霉了，趁着有人要眼镜的功夫就步行去店里，可以稍微锻炼一下下。这两天新增的病人明显多了起来，又是一个小高峰到来。还是不要出去了。其实就这么宅着也不错。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>从春节到现在也差不多宅了十天了，前两天感觉宅的都快发霉了，趁着有人要眼镜的功夫就步行去店里，可以稍微锻炼一下下。这两天新增的病人明显多了起来，又是一个小高峰到来。还是不要出去了。其实就这么宅着也不错。</p>
 <p>这几天在家翻着花样的弄些吃的玩的。尝试了做手擀面、炸油条、炸麻叶。都是小时候老妈过年的时候做的，居然也算是成功了。又抽空把家里原来旧的荷包装上新的草药，是媳妇她们科的主任弄的方子，闻起来挺好的。另外就是想买个跑步机。</p>

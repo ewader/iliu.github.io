@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>安全 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E5%AE%89%E5%85%A8/</link>
+    <link>http://localhost:1313/tags/%E5%AE%89%E5%85%A8/</link>
     <description>Recent content in 安全 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.151.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 17 Oct 2020 03:50:44 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E5%AE%89%E5%85%A8/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E5%AE%89%E5%85%A8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>打造一个安全的宝塔面板服务器环境</title>
-      <link>https://iliu.org/3326.html</link>
+      <link>http://localhost:1313/3326.html</link>
       <pubDate>Sat, 17 Oct 2020 03:50:44 +0000</pubDate>
-      <guid>https://iliu.org/3326.html</guid>
+      <guid>http://localhost:1313/3326.html</guid>
       <description>&lt;p&gt;很多人都戏称宝塔面板为bug塔面板，特别是前几天出现的phpmyadmin事件，似乎更进一步的坐实了bug塔bug的地位，但是平信而论，经过这么多年的发展，宝塔面板在配置服务器方面还是很方便的，而里面一些小插件也是非常的好用，所以，对于这个面板老刘是非常的纠结，喜欢他的简单和好用的插件，纠结它的稳定性。毕竟老刘是吃过这方面的亏的，早点5.x的时代，有一次，什么都没动，网站也正常打开，面板却挂了….&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>很多人都戏称宝塔面板为bug塔面板，特别是前几天出现的phpmyadmin事件，似乎更进一步的坐实了bug塔bug的地位，但是平信而论，经过这么多年的发展，宝塔面板在配置服务器方面还是很方便的，而里面一些小插件也是非常的好用，所以，对于这个面板老刘是非常的纠结，喜欢他的简单和好用的插件，纠结它的稳定性。毕竟老刘是吃过这方面的亏的，早点5.x的时代，有一次，什么都没动，网站也正常打开，面板却挂了….</p>
 <p>闲话少说了，思前想后，还是决定用它吧，多备份，万一挂了，恢复起来也快。既然决定要用这个一个有着安全漏洞前科的面板，把它打造的相对安全一些是一件迫在眉睫的事情了。老刘是在以下几个方面做的，有需要的朋友可以参考。</p>

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>竞斗云 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E7%AB%9E%E6%96%97%E4%BA%91/</link>
+    <link>http://localhost:1313/tags/%E7%AB%9E%E6%96%97%E4%BA%91/</link>
     <description>Recent content in 竞斗云 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.151.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 05 Dec 2019 07:02:08 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E7%AB%9E%E6%96%97%E4%BA%91/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E7%AB%9E%E6%96%97%E4%BA%91/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>竞斗云2.0初步使用记</title>
-      <link>https://iliu.org/2909.html</link>
+      <link>http://localhost:1313/2909.html</link>
       <pubDate>Thu, 05 Dec 2019 07:02:08 +0000</pubDate>
-      <guid>https://iliu.org/2909.html</guid>
+      <guid>http://localhost:1313/2909.html</guid>
       <description>&lt;p&gt;前几天&lt;a href=&#34;https://zhang.bo&#34;&gt;张波&lt;/a&gt;老师送了一台竞斗云2.0，这也是一款矿难的产物。原价好像将近2000块钱，现在矿难，矿贩子便宜处理，100多块钱就能买一台。&lt;/p&gt;
 &lt;p&gt;收到后给我的第一感觉就是大，比传统的路由器大多了，第二个就是重，外壳是铁质的，加上4个天线，还是比较霸气的。&lt;/p&gt;
 &lt;p&gt;迫不及待的接上网线，以前用的路由器都是普通的路由器，几十块钱一个，最贵的要算是家里的那台荣耀路由器了，花了200多块钱，使用起来倒是没有毛病，唯一的一点缺憾是不能使用酸酸乳，可能国内的路由器厂商都不敢弄这个功能吧。&lt;figure class=&#34;wp-block-image size-large&#34;&gt;&lt;/p&gt;</description>

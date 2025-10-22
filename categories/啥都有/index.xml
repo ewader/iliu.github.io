@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>啥都有 on 老刘博客</title>
-    <link>https://iliu.org/categories/%E5%95%A5%E9%83%BD%E6%9C%89/</link>
+    <link>http://localhost:1313/categories/%E5%95%A5%E9%83%BD%E6%9C%89/</link>
     <description>Recent content in 啥都有 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.151.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 17 Aug 2022 09:58:10 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/categories/%E5%95%A5%E9%83%BD%E6%9C%89/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/%E5%95%A5%E9%83%BD%E6%9C%89/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>河南为什么简称豫？</title>
-      <link>https://iliu.org/4229.html</link>
+      <link>http://localhost:1313/4229.html</link>
       <pubDate>Wed, 17 Aug 2022 09:58:10 +0000</pubDate>
-      <guid>https://iliu.org/4229.html</guid>
+      <guid>http://localhost:1313/4229.html</guid>
       <description>&lt;p&gt;昨天送闺女去课外班，路上闺女问我，为啥河南简称豫？&lt;/p&gt;
 &lt;p&gt;我听了有点抓瞎，忽然想起小时候，学过一篇课文，叫《黄河像》，于是给闺女说，可能是以前在黄河中下游这个区域有众多的大象吧，其实黄河象这个化石出土在甘肃。但是河南这个区域，古时候有象也是真的，在洛阳，也出土过大象的化石。但是是不是很多，就不清楚了，就算很多，别的地方应该也有象，为啥不叫豫呢？&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>昨天送闺女去课外班，路上闺女问我，为啥河南简称豫？</p>
@@ -29,9 +29,9 @@
     </item>
     <item>
       <title>一次维修万和热水器的经历</title>
-      <link>https://iliu.org/3817.html</link>
+      <link>http://localhost:1313/3817.html</link>
       <pubDate>Thu, 22 Jul 2021 07:42:22 +0000</pubDate>
-      <guid>https://iliu.org/3817.html</guid>
+      <guid>http://localhost:1313/3817.html</guid>
       <description>&lt;p&gt;说来可笑，我家的热水器因为本次郑州的暴雨而出现了故障。&lt;/p&gt;
 &lt;p&gt;事情是这样发生的。19日晚，女儿洗澡的时候，我听到热水器的排气扇有声响，没有太注意。10几分钟后，媳妇洗澡，发现已经打不着火了，显示E4错误。我到网上查了一下资料，发现E4就是排气故障，以为是排气扇坏了。由于是晚上，就打算等第二天白天再进行处理。&lt;figure class=&#34;wp-block-image size-full&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>说来可笑，我家的热水器因为本次郑州的暴雨而出现了故障。</p>
@@ -49,9 +49,9 @@
     </item>
     <item>
       <title>体验鸿蒙HarmonyOS</title>
-      <link>https://iliu.org/3794.html</link>
+      <link>http://localhost:1313/3794.html</link>
       <pubDate>Wed, 30 Jun 2021 07:49:01 +0000</pubDate>
-      <guid>https://iliu.org/3794.html</guid>
+      <guid>http://localhost:1313/3794.html</guid>
       <description>&lt;p&gt;最早的时候，应该是看到了响石潭主任发的升级鸿蒙HarmonyOS的文章。并且响石潭也说，使用起来和原来的系统没有什么区别，就是更流畅了一些。然后，就一直关注着鸿蒙os更新的消息，希望自己的荣耀V20也能早日用上。&lt;figure class=&#34;wp-block-image size-large&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>最早的时候，应该是看到了响石潭主任发的升级鸿蒙HarmonyOS的文章。并且响石潭也说，使用起来和原来的系统没有什么区别，就是更流畅了一些。然后，就一直关注着鸿蒙os更新的消息，希望自己的荣耀V20也能早日用上。<figure class="wp-block-image size-large"></p>
 <p><a href="https://tunan.org/wp-content/uploads/2021/06/aabe363cd2f11bd.jpg"><img loading="lazy" decoding="async" width="640" height="452" src="https://tunan.org/wp-content/uploads/2021/06/aabe363cd2f11bd.jpg" alt="" class="wp-image-3795" srcset="https://tunan.org/wp-content/uploads/2021/06/aabe363cd2f11bd.jpg 640w, https://tunan.org/wp-content/uploads/2021/06/aabe363cd2f11bd-300x212.jpg 300w" sizes="(max-width: 640px) 100vw, 640px" /></a></figure></p>
@@ -67,9 +67,9 @@
     </item>
     <item>
       <title>奇葩的京东无线宝</title>
-      <link>https://iliu.org/3791.html</link>
+      <link>http://localhost:1313/3791.html</link>
       <pubDate>Thu, 24 Jun 2021 10:28:53 +0000</pubDate>
-      <guid>https://iliu.org/3791.html</guid>
+      <guid>http://localhost:1313/3791.html</guid>
       <description>&lt;p&gt;最近天热起来了，店里的那台竞斗云可能是放到柜子离散热不良的原因，偶尔掉线的情况。于是决定换一款路由器。&lt;/p&gt;
 &lt;p&gt;选了一圈，后来决定入手京东无线宝2代的128G的版本，主要是这个版本秒杀的价格比原价低了200块钱，也不知道是先提价后降价还是怎么着的，上面标的是最近90多天最低价。但是本着降价越多，占的便宜越大的原则，最终选的这个，估计又上了狗东的当，原价699，秒杀降了200，然后又领了乱七八糟的优惠卷还有减金额白条优惠什么的，最后的价格是400零几。&lt;figure class=&#34;wp-block-image size-large&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>最近天热起来了，店里的那台竞斗云可能是放到柜子离散热不良的原因，偶尔掉线的情况。于是决定换一款路由器。</p>
@@ -85,9 +85,9 @@
     </item>
     <item>
       <title>深度deepin os 20.2.1初体验</title>
-      <link>https://iliu.org/3757.html</link>
+      <link>http://localhost:1313/3757.html</link>
       <pubDate>Wed, 26 May 2021 07:30:38 +0000</pubDate>
-      <guid>https://iliu.org/3757.html</guid>
+      <guid>http://localhost:1313/3757.html</guid>
       <description>&lt;p&gt;昨天用一副康耐特防蓝光镜片换了一台2012年的联想Z475 ，AMD A6的四核CPU，他自己又给加了4G的内存。也就是说4H8G，说实话电脑是有点老了，咸鱼挂的一般也就是卖个300来块钱，但是也没人买，毕竟10年前的东西了。我哥说收货价基本上200左右，虽然他加了一个4G的内存，但是拿来换一副镜片还是挺划算的，毕竟我那副镜片可是卖660元一副的。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>昨天用一副康耐特防蓝光镜片换了一台2012年的联想Z475 ，AMD A6的四核CPU，他自己又给加了4G的内存。也就是说4H8G，说实话电脑是有点老了，咸鱼挂的一般也就是卖个300来块钱，但是也没人买，毕竟10年前的东西了。我哥说收货价基本上200左右，虽然他加了一个4G的内存，但是拿来换一副镜片还是挺划算的，毕竟我那副镜片可是卖660元一副的。</p>
 <p>但是比我手里的另一台华硕的笔记本配置还是要高那么一丢丢的，那台基本上是给女儿玩呢，所以收上来这台后觉得可以改造一下给女儿玩，女儿最近迷上了写小说，据说已经创作了差不多1万来字了。给她弄一台配置“更好”一点的电脑也好，哈哈。</p>
@@ -102,9 +102,9 @@
     </item>
     <item>
       <title>如何禁止浏览器读取手机号码？</title>
-      <link>https://iliu.org/3714.html</link>
+      <link>http://localhost:1313/3714.html</link>
       <pubDate>Wed, 24 Mar 2021 01:46:06 +0000</pubDate>
-      <guid>https://iliu.org/3714.html</guid>
+      <guid>http://localhost:1313/3714.html</guid>
       <description>&lt;p&gt;昨天一位朋友问老刘，如何才能禁止浏览器读取手机号码的问题，据朋友所说，遇到了一个细思极恐的事情。原来，朋友前两天在网上查找过关于***的产品，然后昨天收到一个甜妹纸的电话：&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>昨天一位朋友问老刘，如何才能禁止浏览器读取手机号码的问题，据朋友所说，遇到了一个细思极恐的事情。原来，朋友前两天在网上查找过关于***的产品，然后昨天收到一个甜妹纸的电话：</p>
 <p>甜姐儿问朋友是不是需要×××？<br>
@@ -122,9 +122,9 @@
     </item>
     <item>
       <title>饮水机隔段还是要彻底清洗一遍的</title>
-      <link>https://iliu.org/3645.html</link>
+      <link>http://localhost:1313/3645.html</link>
       <pubDate>Fri, 05 Feb 2021 02:43:34 +0000</pubDate>
-      <guid>https://iliu.org/3645.html</guid>
+      <guid>http://localhost:1313/3645.html</guid>
       <description>&lt;p&gt;早上吃过饭，由于女儿有一节线上的数学课，自己待在家里也没事，就寻思找点事做。发现饮水机该清洗一下了，也幸亏清洗了一下，彻底清洗还是蛮脏的，尽管是一些不太影响的水垢。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>早上吃过饭，由于女儿有一节线上的数学课，自己待在家里也没事，就寻思找点事做。发现饮水机该清洗一下了，也幸亏清洗了一下，彻底清洗还是蛮脏的，尽管是一些不太影响的水垢。</p>
 <p>以前清洗都是把外面和和盛水的那个容器刷一下，这次我发现，清洗后，烧热水的那个胆里还是有点水的，找来找去，发现饮水机的底部有一个套着盖子的管子，把盖子拔掉后，有水滴了出来，找了根牙签在管子口往里捅了捅，水一下大了起来，并且冲出来不少的水垢。<figure class="wp-block-image size-large"></p>
@@ -135,9 +135,9 @@
     </item>
     <item>
       <title>试用了一下火雨壁纸</title>
-      <link>https://iliu.org/3456.html</link>
+      <link>http://localhost:1313/3456.html</link>
       <pubDate>Mon, 07 Dec 2020 03:41:01 +0000</pubDate>
-      <guid>https://iliu.org/3456.html</guid>
+      <guid>http://localhost:1313/3456.html</guid>
       <description>&lt;p&gt;年纪大了，想改变下一成不变的桌面。以前一直用bing官方出的一个小工具。直接对接bing的每日一图，不知道是不是因为时差的原因，和每天发布的图差不多有10个小时的时差。直到看到了火雨壁纸&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>年纪大了，想改变下一成不变的桌面。以前一直用bing官方出的一个小工具。直接对接bing的每日一图，不知道是不是因为时差的原因，和每天发布的图差不多有10个小时的时差。直到看到了火雨壁纸</p>
 <p>火雨壁纸是个啥？</p>
@@ -155,9 +155,9 @@
     </item>
     <item>
       <title>捋一捋中国邮电发展过程</title>
-      <link>https://iliu.org/3395.html</link>
+      <link>http://localhost:1313/3395.html</link>
       <pubDate>Sun, 22 Nov 2020 03:18:49 +0000</pubDate>
-      <guid>https://iliu.org/3395.html</guid>
+      <guid>http://localhost:1313/3395.html</guid>
       <description>&lt;p&gt;前几天看到一个“新闻”，说中国电信业的三大运营商的一把手是轮流坐庄，可谓肥水不落外人田。其实捋清中国电信业的发展历程，人家还真的就是一家人。&lt;/p&gt;
 &lt;p&gt;以下是根据本人的记忆描述，可能时间的节点不是那么精确。也懒得去查相关的资料了&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>前几天看到一个“新闻”，说中国电信业的三大运营商的一把手是轮流坐庄，可谓肥水不落外人田。其实捋清中国电信业的发展历程，人家还真的就是一家人。</p>
@@ -172,9 +172,9 @@
     </item>
     <item>
       <title>网易词典笔2.0简单开箱</title>
-      <link>https://iliu.org/3268.html</link>
+      <link>http://localhost:1313/3268.html</link>
       <pubDate>Sun, 20 Sep 2020 02:19:37 +0000</pubDate>
-      <guid>https://iliu.org/3268.html</guid>
+      <guid>http://localhost:1313/3268.html</guid>
       <description>&lt;p&gt;前端时间给女儿买了一套《书虫》系列和《疯狂校园》系列的英语读本。书虫还好，句子比较简单，有些单词就算不认识，根据上下文的关系以及后面的生词表，阅读起来不算太费事。可是疯狂校园系列读起来就有点难度了。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>前端时间给女儿买了一套《书虫》系列和《疯狂校园》系列的英语读本。书虫还好，句子比较简单，有些单词就算不认识，根据上下文的关系以及后面的生词表，阅读起来不算太费事。可是疯狂校园系列读起来就有点难度了。</p>
 <p>来回的翻字典耽误时间不说，还打断了阅读的连续性。那时候就有给女儿买一支词典笔的打算，但是看了一下基本上2代的要800大洋左右，又有些犹豫。前天，意外的把liu.gg的域名给卖了，小赚了一点意外之财，干脆把这个笔给女儿买了算了。</p>
@@ -190,9 +190,9 @@
     </item>
     <item>
       <title>给鱼缸上了沼泽过滤</title>
-      <link>https://iliu.org/3167.html</link>
+      <link>http://localhost:1313/3167.html</link>
       <pubDate>Wed, 27 May 2020 02:13:32 +0000</pubDate>
-      <guid>https://iliu.org/3167.html</guid>
+      <guid>http://localhost:1313/3167.html</guid>
       <description>&lt;p&gt;一个多月前，买了几条草金，&lt;a href=&#34;https://tunan.org/3129.html&#34;&gt;pdd上买的&lt;/a&gt;。由于原来的那个玻璃鱼缸有点小，而且我是一个很懒的人，对清理鱼缸壁上的绿苔深恶痛绝。所以，决定换一个陶缸，一是陶缸大，放的水多。当时想的是可以不用过滤。二是，陶缸不透明，有绿苔了也不影响。所以，买了一个小陶缸。&lt;/p&gt;
 &lt;p&gt;把小鱼放进陶缸后，感觉还是不错的。鱼儿活动的地方大了，正好自己还有几颗碗莲的种子，索性就把碗莲也放进了鱼缸，当时想的是，碗莲生长的养分由鱼的粪便来提供，碗莲分解鱼粪，生长后还能释放氧气，真是一举两得的事情。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>一个多月前，买了几条草金，<a href="https://tunan.org/3129.html">pdd上买的</a>。由于原来的那个玻璃鱼缸有点小，而且我是一个很懒的人，对清理鱼缸壁上的绿苔深恶痛绝。所以，决定换一个陶缸，一是陶缸大，放的水多。当时想的是可以不用过滤。二是，陶缸不透明，有绿苔了也不影响。所以，买了一个小陶缸。</p>
@@ -207,9 +207,9 @@
     </item>
     <item>
       <title>肺炎时刻话病毒</title>
-      <link>https://iliu.org/3055.html</link>
+      <link>http://localhost:1313/3055.html</link>
       <pubDate>Sun, 02 Feb 2020 03:33:12 +0000</pubDate>
-      <guid>https://iliu.org/3055.html</guid>
+      <guid>http://localhost:1313/3055.html</guid>
       <description>&lt;p&gt;最近由于新型冠状病毒的影响，从初一开始就一直宅在家里，期间除了陪女儿游戏意外，最多的时候还是看看书。正好kindle包月的书里就有几本关于病毒传染之类的书，于是就研读了一下。前几天看到一位博友写的文章，说病毒是一个坏东西，消灭病毒云云。其实这种看法是片面的，任何事物都是有两面的，病毒对人类也有好的一面。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>最近由于新型冠状病毒的影响，从初一开始就一直宅在家里，期间除了陪女儿游戏意外，最多的时候还是看看书。正好kindle包月的书里就有几本关于病毒传染之类的书，于是就研读了一下。前几天看到一位博友写的文章，说病毒是一个坏东西，消灭病毒云云。其实这种看法是片面的，任何事物都是有两面的，病毒对人类也有好的一面。</p>
 <p><a href="https://tunan.org/wp-content/uploads/2020/02/a9b7ba70783b617.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3056" src="https://tunan.org/wp-content/uploads/2020/02/a9b7ba70783b617.jpg" alt="" width="626" height="496" srcset="https://tunan.org/wp-content/uploads/2020/02/a9b7ba70783b617.jpg 626w, https://tunan.org/wp-content/uploads/2020/02/a9b7ba70783b617-300x238.jpg 300w" sizes="(max-width: 626px) 100vw, 626px" /></a></p>
@@ -235,9 +235,9 @@
     </item>
     <item>
       <title>使用群晖，配置打印机，实现无线打印机的功能</title>
-      <link>https://iliu.org/3005.html</link>
+      <link>http://localhost:1313/3005.html</link>
       <pubDate>Sun, 12 Jan 2020 03:05:02 +0000</pubDate>
-      <guid>https://iliu.org/3005.html</guid>
+      <guid>http://localhost:1313/3005.html</guid>
       <description>&lt;p&gt;换成荣耀的这台笔记本之后，由于接口比较少，再加上一个笔记本插上usb数据线连上打印机，也不够方便，因为有时候笔记本还要拿回家用用。恰好再群晖的网站上看到群晖也支持市面上大多数的打印机。于是动了把打印机和群晖相联的念头。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>换成荣耀的这台笔记本之后，由于接口比较少，再加上一个笔记本插上usb数据线连上打印机，也不够方便，因为有时候笔记本还要拿回家用用。恰好再群晖的网站上看到群晖也支持市面上大多数的打印机。于是动了把打印机和群晖相联的念头。</p>
 <p>实际上操作还是挺简单的，只要注意一些基本的坑不要踩就行。</p>
@@ -258,9 +258,9 @@
     </item>
     <item>
       <title>Kindle Previewer v3.27  亚马逊官方电子书模拟器</title>
-      <link>https://iliu.org/2999.html</link>
+      <link>http://localhost:1313/2999.html</link>
       <pubDate>Fri, 10 Jan 2020 07:12:58 +0000</pubDate>
-      <guid>https://iliu.org/2999.html</guid>
+      <guid>http://localhost:1313/2999.html</guid>
       <description>&lt;p&gt;Kindle Previewer 是一个模拟 Kindle 设备和应用程序显示书籍内容的使用界面工具。是亚马逊官方开发的一款kindle系列产品模拟器，可以模拟出kindle系列产品的功能。当然也可以用来阅读.mobi等专有格式的电子书，还可以对部分电子书格式进行格式的转换。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Kindle Previewer 是一个模拟 Kindle 设备和应用程序显示书籍内容的使用界面工具。是亚马逊官方开发的一款kindle系列产品模拟器，可以模拟出kindle系列产品的功能。当然也可以用来阅读.mobi等专有格式的电子书，还可以对部分电子书格式进行格式的转换。</p>
 <p><a href="https://tunan.org/wp-content/uploads/2020/01/70a4716b0941990.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3000" src="https://tunan.org/wp-content/uploads/2020/01/70a4716b0941990.jpg" alt="" width="500" height="336" srcset="https://tunan.org/wp-content/uploads/2020/01/70a4716b0941990.jpg 500w, https://tunan.org/wp-content/uploads/2020/01/70a4716b0941990-300x202.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
@@ -273,9 +273,9 @@
     </item>
     <item>
       <title>宝塔面板安装FRP内网穿透控制群晖</title>
-      <link>https://iliu.org/2918.html</link>
+      <link>http://localhost:1313/2918.html</link>
       <pubDate>Sat, 07 Dec 2019 03:28:28 +0000</pubDate>
-      <guid>https://iliu.org/2918.html</guid>
+      <guid>http://localhost:1313/2918.html</guid>
       <description>&lt;p&gt;前两天给大家介绍了利用zerotier来进行内网穿透控制群晖的方法，详见：&lt;a href=&#34;https://tunan.org/2872.html&#34;&gt;黑群晖的福音，利用zerotier进行内网穿透&lt;/a&gt;。但是，zerotier使用的时候有时候不太稳定，而且记一堆的数字比较麻烦，今天，给大家介绍另一个神器，frp。直接用命令行的方式在服务器里部署比较繁琐，而且一不留神就会出错，不过好在有大神在宝塔里开发出了插件，一键安装就行。好了，言归正传，开始正题。&lt;/p&gt;
 &lt;p&gt;首先，你得有一个自己的vps，这里把设置强烈推荐&lt;a href=&#34;https://my.liluohost.com/aff.php?aff=148&#34;&gt;篱落主机&lt;/a&gt;。本站就运行在这个主机上，特别是香港的VPS，速度快，服务器也稳定。关键是价格不贵，最便宜的也就100多块一年吧。给小张报我的名字应该还能有些许优惠，毕竟我10年前就是他的客户了。这次，本来买的1h2g的，结果人家二话没说就给升级到了4g。貌似，又跑题了额。&lt;/p&gt;
 &lt;p&gt;有了vps后，安装宝塔面板。安装的方法很简单，官网一看就会，我就不啰嗦了。不出意外的话，2分钟，面板安装完毕。登录到面板的后台。点击软件商店，搜索frp。我们用的是如下这款，因为这款是免费的。&lt;/p&gt;</description>
@@ -344,9 +344,9 @@
     </item>
     <item>
       <title>推荐一款免费的视频剪辑软件shotcut</title>
-      <link>https://iliu.org/2914.html</link>
+      <link>http://localhost:1313/2914.html</link>
       <pubDate>Fri, 06 Dec 2019 02:37:53 +0000</pubDate>
-      <guid>https://iliu.org/2914.html</guid>
+      <guid>http://localhost:1313/2914.html</guid>
       <description>&lt;p&gt;跋涉者最近在弄另一个网站的时候，需要把一些长的视频剪辑成一个短的预览视频，这样没有权限看的人，只能看到短视频，而支付积分后则可以看完整的视频。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>跋涉者最近在弄另一个网站的时候，需要把一些长的视频剪辑成一个短的预览视频，这样没有权限看的人，只能看到短视频，而支付积分后则可以看完整的视频。</p>
 <p>由于以前一只没有用过此类的软件，因此要求这类软件越简单越好，越容易上手，学习成本越低最理想，可是找了不少，要不是收费的，价格很贵，要不软件很大，功能多的不知道如何下手，要不打开都是广告，一直没有找到理想的，最后，寻寻觅觅终于找到了这款比较满意的——shotcut。<figure class="wp-block-image size-large"></p>
@@ -381,9 +381,9 @@
     </item>
     <item>
       <title>竞斗云2.0初步使用记</title>
-      <link>https://iliu.org/2909.html</link>
+      <link>http://localhost:1313/2909.html</link>
       <pubDate>Thu, 05 Dec 2019 07:02:08 +0000</pubDate>
-      <guid>https://iliu.org/2909.html</guid>
+      <guid>http://localhost:1313/2909.html</guid>
       <description>&lt;p&gt;前几天&lt;a href=&#34;https://zhang.bo&#34;&gt;张波&lt;/a&gt;老师送了一台竞斗云2.0，这也是一款矿难的产物。原价好像将近2000块钱，现在矿难，矿贩子便宜处理，100多块钱就能买一台。&lt;/p&gt;
 &lt;p&gt;收到后给我的第一感觉就是大，比传统的路由器大多了，第二个就是重，外壳是铁质的，加上4个天线，还是比较霸气的。&lt;/p&gt;
 &lt;p&gt;迫不及待的接上网线，以前用的路由器都是普通的路由器，几十块钱一个，最贵的要算是家里的那台荣耀路由器了，花了200多块钱，使用起来倒是没有毛病，唯一的一点缺憾是不能使用酸酸乳，可能国内的路由器厂商都不敢弄这个功能吧。&lt;figure class=&#34;wp-block-image size-large&#34;&gt;&lt;/p&gt;</description>
@@ -401,9 +401,9 @@
     </item>
     <item>
       <title>35元的电动牙刷怎么样？</title>
-      <link>https://iliu.org/2882.html</link>
+      <link>http://localhost:1313/2882.html</link>
       <pubDate>Thu, 28 Nov 2019 02:04:30 +0000</pubDate>
-      <guid>https://iliu.org/2882.html</guid>
+      <guid>http://localhost:1313/2882.html</guid>
       <description>&lt;p&gt;最近朋友知道我上线了在线商城后说他有一款性价比非常高的电动牙刷，可以在我的在线商城里代卖一下。具体是&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;可以充电&lt;/li&gt;
@@ -435,9 +435,9 @@
     </item>
     <item>
       <title>使用zerotier进行内网穿透</title>
-      <link>https://iliu.org/2872.html</link>
+      <link>http://localhost:1313/2872.html</link>
       <pubDate>Wed, 27 Nov 2019 07:33:08 +0000</pubDate>
-      <guid>https://iliu.org/2872.html</guid>
+      <guid>http://localhost:1313/2872.html</guid>
       <description>&lt;p&gt;自从到手了暴风酷播之后，抽空就折腾了下NAS，目前来说系统方面已经没有什么问题了，自己需要使用的套件也基本上弄好了，唯一一个需要搞定的问题就是如何远程访问群晖，同步群晖这个问题。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>自从到手了暴风酷播之后，抽空就折腾了下NAS，目前来说系统方面已经没有什么问题了，自己需要使用的套件也基本上弄好了，唯一一个需要搞定的问题就是如何远程访问群晖，同步群晖这个问题。</p>
 <p>关于远程访问群晖，有很多的方法，比如如果你有公网IP，那就很好办，只需要一个域名就可以搞定的事情。但是如果你使用了大局域网的移动宽带，那么上述的方法是没法用的，因为移动宽带就不提供公网IP的。（至于公网IP的方法，不在本文讨论的范围内）。而跋涉者就刚好用的是移动的宽带，而且当初贪图便宜把家里的联通宽带也换成了移动的宽带，所以利用公网IP来远程访问群晖的方法是行不通了。</p>
@@ -471,9 +471,9 @@
     </item>
     <item>
       <title>再次折腾黑群晖系统</title>
-      <link>https://iliu.org/2860.html</link>
+      <link>http://localhost:1313/2860.html</link>
       <pubDate>Sat, 23 Nov 2019 02:51:56 +0000</pubDate>
-      <guid>https://iliu.org/2860.html</guid>
+      <guid>http://localhost:1313/2860.html</guid>
       <description>&lt;p&gt;昨天拍了一些眼镜架的图片，可以却同步不到群晖的monents里面，有了群晖之后有些事情确实特别的方便，比如我拍的镜架的图片，想传到在线商城里面，以前的做法是，选择图片，再微信里用文件传输助手传给自己，然后再在桌面的微信里下载下来，很不方便，有了群晖之后，就可以直接在客户端里同步到群晖里，我直接在里面修图，上传到网站即可。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>昨天拍了一些眼镜架的图片，可以却同步不到群晖的monents里面，有了群晖之后有些事情确实特别的方便，比如我拍的镜架的图片，想传到在线商城里面，以前的做法是，选择图片，再微信里用文件传输助手传给自己，然后再在桌面的微信里下载下来，很不方便，有了群晖之后，就可以直接在客户端里同步到群晖里，我直接在里面修图，上传到网站即可。</p>
 <p><a href="https://tunan.org/wp-content/uploads/2019/11/b030f7d30297555.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2863" src="https://tunan.org/wp-content/uploads/2019/11/b030f7d30297555.jpg" alt="" width="900" height="575" srcset="https://tunan.org/wp-content/uploads/2019/11/b030f7d30297555.jpg 900w, https://tunan.org/wp-content/uploads/2019/11/b030f7d30297555-300x192.jpg 300w, https://tunan.org/wp-content/uploads/2019/11/b030f7d30297555-768x491.jpg 768w" sizes="(max-width: 900px) 100vw, 900px" /></a></p>
@@ -488,9 +488,9 @@
     </item>
     <item>
       <title>记暴风酷播云2期折腾黑群晖</title>
-      <link>https://iliu.org/2855.html</link>
+      <link>http://localhost:1313/2855.html</link>
       <pubDate>Mon, 18 Nov 2019 07:28:30 +0000</pubDate>
-      <guid>https://iliu.org/2855.html</guid>
+      <guid>http://localhost:1313/2855.html</guid>
       <description>&lt;p&gt;双11前后，张波老师弄了个zhang.gg和zhang.bo的两个域名，看gg不贵，而且有www.liuday.com这个域名还没有被注册，于是也跟风注册了个个性域名。后来不知道怎么聊的聊到了NAS上面，本来觉得我对这个需求不是很大，后来张波老师说，他淘汰了他的蜗牛弄了个暴风，于是我就想用张老师淘汰下来的蜗牛玩一玩。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>双11前后，张波老师弄了个zhang.gg和zhang.bo的两个域名，看gg不贵，而且有www.liuday.com这个域名还没有被注册，于是也跟风注册了个个性域名。后来不知道怎么聊的聊到了NAS上面，本来觉得我对这个需求不是很大，后来张波老师说，他淘汰了他的蜗牛弄了个暴风，于是我就想用张老师淘汰下来的蜗牛玩一玩。</p>
 <p><a href="https://tunan.org/wp-content/uploads/2019/11/9b81db5da85a49e.png"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2856" src="https://tunan.org/wp-content/uploads/2019/11/9b81db5da85a49e.png" alt="" width="640" height="296" srcset="https://tunan.org/wp-content/uploads/2019/11/9b81db5da85a49e.png 640w, https://tunan.org/wp-content/uploads/2019/11/9b81db5da85a49e-300x139.png 300w" sizes="(max-width: 640px) 100vw, 640px" /></a></p>
@@ -506,9 +506,9 @@
     </item>
     <item>
       <title>一道比较难懂的五年级数学题</title>
-      <link>https://iliu.org/2842.html</link>
+      <link>http://localhost:1313/2842.html</link>
       <pubDate>Wed, 06 Nov 2019 03:01:19 +0000</pubDate>
-      <guid>https://iliu.org/2842.html</guid>
+      <guid>http://localhost:1313/2842.html</guid>
       <description>&lt;p&gt;昨天女儿的数学其中考试卷子发下来了，还算可以，其实如果她再细心一点的话，分数还能有一些提高，甚至百分也不是不可能，总是在细节处丢分。无语了。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2019/11/224dda9b8159949.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;aligncenter size-full wp-image-2844&#34; src=&#34;https://tunan.org/wp-content/uploads/2019/11/224dda9b8159949.jpg&#34; alt=&#34;&#34; width=&#34;1024&#34; height=&#34;768&#34; srcset=&#34;https://tunan.org/wp-content/uploads/2019/11/224dda9b8159949.jpg 1024w, https://tunan.org/wp-content/uploads/2019/11/224dda9b8159949-300x225.jpg 300w, https://tunan.org/wp-content/uploads/2019/11/224dda9b8159949-768x576.jpg 768w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>昨天女儿的数学其中考试卷子发下来了，还算可以，其实如果她再细心一点的话，分数还能有一些提高，甚至百分也不是不可能，总是在细节处丢分。无语了。</p>
@@ -538,9 +538,9 @@
     </item>
     <item>
       <title>支付宝申请ETC的体验</title>
-      <link>https://iliu.org/2825.html</link>
+      <link>http://localhost:1313/2825.html</link>
       <pubDate>Thu, 24 Oct 2019 04:58:08 +0000</pubDate>
-      <guid>https://iliu.org/2825.html</guid>
+      <guid>http://localhost:1313/2825.html</guid>
       <description>&lt;p&gt;这段时间本来处于很尴尬地位的ETC在国家相关政策的指引下，成功的变成了各路的宠儿，各个机构都上杆子的免费送。甚至，国家的政策还被很多别有用心的媒体、自媒体解读为不申请ETC，逢年过节的高速费都不免了。虽然，后来也有媒体出来辟谣，但也从中可以看到，今年ECT的势头。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>这段时间本来处于很尴尬地位的ETC在国家相关政策的指引下，成功的变成了各路的宠儿，各个机构都上杆子的免费送。甚至，国家的政策还被很多别有用心的媒体、自媒体解读为不申请ETC，逢年过节的高速费都不免了。虽然，后来也有媒体出来辟谣，但也从中可以看到，今年ECT的势头。</p>
 <p><a href="https://tunan.org/wp-content/uploads/2019/10/9904edd1f469443.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2827" src="https://tunan.org/wp-content/uploads/2019/10/9904edd1f469443.jpg" alt="" width="300" height="225" /></a>国庆的时候上高速，看到收费站，看到ETC的口已经是大多数了，车辆通行的也很流畅，于是和老婆提了一句，回头也装个ETC，后来又觉得要去银行弄，比较麻烦，也就不了了之了。</p>
@@ -554,9 +554,9 @@
     </item>
     <item>
       <title>蚂蚁为什么会搬家？</title>
-      <link>https://iliu.org/2786.html</link>
+      <link>http://localhost:1313/2786.html</link>
       <pubDate>Mon, 30 Sep 2019 06:30:48 +0000</pubDate>
-      <guid>https://iliu.org/2786.html</guid>
+      <guid>http://localhost:1313/2786.html</guid>
       <description>&lt;p&gt;大家都知道一句谚语：“蚂蚁搬家，大雨哗哗”。但是蚂蚁搬家就一定会下雨吗？今天接女儿回家的路上，适逢一窝的蚂蚁正在井然有序的搬家，之所以确定是在搬家，是因为带着食物的蚂蚁都是行走在同一个方向，没有带食物的蚂蚁都是在回程。两个蚂蚁窝相距大概1米元的距离，老蚂蚁窝是在一颗大树下。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>大家都知道一句谚语：“蚂蚁搬家，大雨哗哗”。但是蚂蚁搬家就一定会下雨吗？今天接女儿回家的路上，适逢一窝的蚂蚁正在井然有序的搬家，之所以确定是在搬家，是因为带着食物的蚂蚁都是行走在同一个方向，没有带食物的蚂蚁都是在回程。两个蚂蚁窝相距大概1米元的距离，老蚂蚁窝是在一颗大树下。</p>
 <p>女儿问我，爸爸，是不是天要下雨了？但是天看起来很晴朗啊，不像下雨的样子呀！问的我竟然无言以对，想了一下，为了维护在女儿心目中无所不知，无所不能的形象，只好硬着头皮给女儿说，老蚂蚁窝可能不适合他们居住了，所以找个新家。女儿深以为然，并且还说，有可能是别的蚂蚁入侵他们了吧，估计是他们没有打过入侵的蚂蚁，所以为了保护自己，不得不搬离家园。</p>
@@ -616,9 +616,9 @@
     </item>
     <item>
       <title>MBO导向的绩效管理</title>
-      <link>https://iliu.org/361.html</link>
+      <link>http://localhost:1313/361.html</link>
       <pubDate>Sat, 04 Apr 2009 04:48:00 +0000</pubDate>
-      <guid>https://iliu.org/361.html</guid>
+      <guid>http://localhost:1313/361.html</guid>
       <description>&lt;p&gt;MBO导向绩效管理的成功实施，需要企业从理念、制度、组织环境的营造到员工努力各方面的保证。&lt;/p&gt;
 &lt;p&gt;经营与管理是企业发展过程中相互影响、相互作用、对立而统一的两个方面。经营是面向企业外部，以对外扩张为手段和以提高经济效益为目的的，它往往只是由企业内的一部分人承担，如营销人员；管理则是面向企业内部，以控制为手段和以提高运行效率为目的的，它是对企业内所有人的要求。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>MBO导向绩效管理的成功实施，需要企业从理念、制度、组织环境的营造到员工努力各方面的保证。</p>
@@ -650,9 +650,9 @@
     </item>
     <item>
       <title>人力资源管理者的思辨和创新</title>
-      <link>https://iliu.org/360.html</link>
+      <link>http://localhost:1313/360.html</link>
       <pubDate>Sat, 04 Apr 2009 04:43:00 +0000</pubDate>
-      <guid>https://iliu.org/360.html</guid>
+      <guid>http://localhost:1313/360.html</guid>
       <description>&lt;p&gt;中国的人力资源管理者相比于其他职位来说,真的是压力很大的一群人！原因很多，比如大环境不尽如人意，人力资源理念进中国的时间不长，老板不重视人力资源…..小环境是没有一些成熟的理论和实践等等。所以，在现时的条件下，需要HR朋友一起分享自己的经验和心得，一起去探讨适合中国企业的人力资源管理模式，这个需要我们有很强的思辨和创新意识。&lt;figure class=&#34;content-img-box&#34; id=&#34;2501&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>中国的人力资源管理者相比于其他职位来说,真的是压力很大的一群人！原因很多，比如大环境不尽如人意，人力资源理念进中国的时间不长，老板不重视人力资源…..小环境是没有一些成熟的理论和实践等等。所以，在现时的条件下，需要HR朋友一起分享自己的经验和心得，一起去探讨适合中国企业的人力资源管理模式，这个需要我们有很强的思辨和创新意识。<figure class="content-img-box" id="2501"></p>
 <p><img decoding="async" alt="人力资源管理者的思辨和创新" src="https://tunan.org/wp-content/uploads/2019/07/1d204d45b6accc.png" id="AD589681" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
@@ -666,9 +666,9 @@
     </item>
     <item>
       <title>人力资源管理各模块之间逻辑关系浅析</title>
-      <link>https://iliu.org/359.html</link>
+      <link>http://localhost:1313/359.html</link>
       <pubDate>Thu, 02 Apr 2009 06:37:00 +0000</pubDate>
-      <guid>https://iliu.org/359.html</guid>
+      <guid>http://localhost:1313/359.html</guid>
       <description>&lt;p&gt;日前笔者在准备人力资源咨询项目交流课件时，对人力资源各个模块进行了梳理。在梳理过程中，笔者对人力资源管理各个模块之间的逻辑关系有了以下认识：&lt;/p&gt;
 &lt;p&gt;一、人力资源管理的核心是让“人”做正确的“事”并把“事”做好&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>日前笔者在准备人力资源咨询项目交流课件时，对人力资源各个模块进行了梳理。在梳理过程中，笔者对人力资源管理各个模块之间的逻辑关系有了以下认识：</p>
@@ -689,9 +689,9 @@
     </item>
     <item>
       <title>[团队游戏]红与黑</title>
-      <link>https://iliu.org/348.html</link>
+      <link>http://localhost:1313/348.html</link>
       <pubDate>Sun, 22 Feb 2009 02:42:00 +0000</pubDate>
-      <guid>https://iliu.org/348.html</guid>
+      <guid>http://localhost:1313/348.html</guid>
       <description>&lt;p&gt;游戏规则&lt;/p&gt;
 &lt;p&gt;1、目的：你队与另一队分别为队A、队B，各自争取取得高分。&lt;/p&gt;
 &lt;p&gt;2、程序：每轮你队有两种选择——-红或黑，由工作人员了解你队每轮的选择并告知你们的得分，你队可根据上轮得分确定下轮选择。&lt;/p&gt;</description>
@@ -715,9 +715,9 @@
     </item>
     <item>
       <title>几种常用薪酬制度的优劣比较</title>
-      <link>https://iliu.org/345.html</link>
+      <link>http://localhost:1313/345.html</link>
       <pubDate>Wed, 18 Feb 2009 12:12:00 +0000</pubDate>
-      <guid>https://iliu.org/345.html</guid>
+      <guid>http://localhost:1313/345.html</guid>
       <description>&lt;p&gt;科学有效的激励机制能够让员工发挥出最佳的潜能，为企业创造更大的价值。激励的方法很多，但是薪酬可以说是一种最重要的、最易使用的方法。它是企业对员工给企业所做的贡献(包括他们实现的绩效，付出的努力、时间、学识、技能、经验和创造)所付给的相应的回报和答谢。&lt;figure class=&#34;content-img-box &#34; id=&#34;2471&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>科学有效的激励机制能够让员工发挥出最佳的潜能，为企业创造更大的价值。激励的方法很多，但是薪酬可以说是一种最重要的、最易使用的方法。它是企业对员工给企业所做的贡献(包括他们实现的绩效，付出的努力、时间、学识、技能、经验和创造)所付给的相应的回报和答谢。<figure class="content-img-box " id="2471"></p>
 <p><img decoding="async" alt="几种常用薪酬制度的优劣比较" src="https://tunan.org/wp-content/uploads/2019/07/144b10cde22a75.jpg" id="8CAFA6DF" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
@@ -740,9 +740,9 @@
     </item>
     <item>
       <title>绩效考核流程的九个环节</title>
-      <link>https://iliu.org/336.html</link>
+      <link>http://localhost:1313/336.html</link>
       <pubDate>Wed, 04 Feb 2009 00:16:00 +0000</pubDate>
-      <guid>https://iliu.org/336.html</guid>
+      <guid>http://localhost:1313/336.html</guid>
       <description>&lt;p&gt;通过在实际工作中摸索，本人设计了一套行之有效的绩效考核流程（见图一），它包括九个环节。&lt;/p&gt;
 &lt;p&gt;在介绍这个绩效考核流程前必须先介绍在流程中的四个角色：考核人、被考核人、审核人、评审委员会。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>通过在实际工作中摸索，本人设计了一套行之有效的绩效考核流程（见图一），它包括九个环节。</p>

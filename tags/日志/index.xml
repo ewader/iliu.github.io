@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>日志 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E6%97%A5%E5%BF%97/</link>
+    <link>http://localhost:1313/tags/%E6%97%A5%E5%BF%97/</link>
     <description>Recent content in 日志 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.151.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 12 May 2022 01:32:54 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E6%97%A5%E5%BF%97/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E6%97%A5%E5%BF%97/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>隔离第二天</title>
-      <link>https://iliu.org/4099.html</link>
+      <link>http://localhost:1313/4099.html</link>
       <pubDate>Thu, 12 May 2022 01:32:54 +0000</pubDate>
-      <guid>https://iliu.org/4099.html</guid>
+      <guid>http://localhost:1313/4099.html</guid>
       <description>&lt;p&gt;隔离的第一个晚上没有睡好，一直到凌晨1点半迷迷糊糊的睡了一会，断断续续的到5点，再也睡不着了。&lt;/p&gt;
 &lt;p&gt;半夜起来还蹲了一次大号，早上起来，又去了一次，有点拉肚子，新冠的症状之一就有拉肚子，我去，整个人都有点感觉不好了，顿时感觉身上那都不得劲。测了一下体温是正常的。也没有头疼、咳嗽、食欲不振等。心理就是疑神疑鬼的。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>隔离的第一个晚上没有睡好，一直到凌晨1点半迷迷糊糊的睡了一会，断断续续的到5点，再也睡不着了。</p>

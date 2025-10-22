@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>E4 on 老刘博客</title>
-    <link>https://iliu.org/tags/e4/</link>
+    <link>http://localhost:1313/tags/e4/</link>
     <description>Recent content in E4 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.151.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 22 Jul 2021 07:42:22 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/e4/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/e4/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>一次维修万和热水器的经历</title>
-      <link>https://iliu.org/3817.html</link>
+      <link>http://localhost:1313/3817.html</link>
       <pubDate>Thu, 22 Jul 2021 07:42:22 +0000</pubDate>
-      <guid>https://iliu.org/3817.html</guid>
+      <guid>http://localhost:1313/3817.html</guid>
       <description>&lt;p&gt;说来可笑，我家的热水器因为本次郑州的暴雨而出现了故障。&lt;/p&gt;
 &lt;p&gt;事情是这样发生的。19日晚，女儿洗澡的时候，我听到热水器的排气扇有声响，没有太注意。10几分钟后，媳妇洗澡，发现已经打不着火了，显示E4错误。我到网上查了一下资料，发现E4就是排气故障，以为是排气扇坏了。由于是晚上，就打算等第二天白天再进行处理。&lt;figure class=&#34;wp-block-image size-full&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>说来可笑，我家的热水器因为本次郑州的暴雨而出现了故障。</p>

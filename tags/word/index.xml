@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Word on 老刘博客</title>
-    <link>https://iliu.org/tags/word/</link>
+    <link>http://localhost:1313/tags/word/</link>
     <description>Recent content in Word on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.151.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 14 Jan 2010 13:09:10 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/word/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/word/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>介绍本人所用的软件——办公软件篇</title>
-      <link>https://iliu.org/462.html</link>
+      <link>http://localhost:1313/462.html</link>
       <pubDate>Thu, 14 Jan 2010 13:09:10 +0000</pubDate>
-      <guid>https://iliu.org/462.html</guid>
+      <guid>http://localhost:1313/462.html</guid>
       <description>&lt;p&gt;在前面&lt;a href=&#34;http://www.lghcx.info/2010/01/428.html&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;《介绍本人所用的软件–安全软件篇》&lt;/a&gt;给大家介绍了本人对安全软的理解，以及这么多年来使用电脑安全软件的心得体会，今天就给大家聊聊我所用的办公软件。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>在前面<a href="http://www.lghcx.info/2010/01/428.html" target="_blank" rel="noopener noreferrer">《介绍本人所用的软件–安全软件篇》</a>给大家介绍了本人对安全软的理解，以及这么多年来使用电脑安全软件的心得体会，今天就给大家聊聊我所用的办公软件。</p>
 <p>第一次接触文字处理软件是在大一的时候，当时有计算机课，当然那时候的条件远远没有达到现在视窗的水平，还是处于dos的时代，要运行中文的软件必须先进入到ucdos下，然后执行wps的命令，出来的就是一个字处理的软件。当时调出来这个软件的目的是为了学习打字。因此，wps是我接触最早的文字软件了。</p>

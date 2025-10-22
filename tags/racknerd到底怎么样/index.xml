@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>RackNerd到底怎么样 on 老刘博客</title>
-    <link>https://iliu.org/tags/racknerd%E5%88%B0%E5%BA%95%E6%80%8E%E4%B9%88%E6%A0%B7/</link>
+    <link>http://localhost:1313/tags/racknerd%E5%88%B0%E5%BA%95%E6%80%8E%E4%B9%88%E6%A0%B7/</link>
     <description>Recent content in RackNerd到底怎么样 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.151.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 21 May 2021 06:51:01 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/racknerd%E5%88%B0%E5%BA%95%E6%80%8E%E4%B9%88%E6%A0%B7/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/racknerd%E5%88%B0%E5%BA%95%E6%80%8E%E4%B9%88%E6%A0%B7/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RackNerd使用情况小结</title>
-      <link>https://iliu.org/3749.html</link>
+      <link>http://localhost:1313/3749.html</link>
       <pubDate>Fri, 21 May 2021 06:51:01 +0000</pubDate>
-      <guid>https://iliu.org/3749.html</guid>
+      <guid>http://localhost:1313/3749.html</guid>
       <description>&lt;p&gt;&lt;strong&gt;RackNerd&lt;/strong&gt;的vps相当的便宜，像老刘这款2h2g的一年不到20美元。有很多人说&lt;strong&gt;RackNerd&lt;/strong&gt;是跑路的四大金刚创办的，到底是不是也没有人有确切的证据。当时买的时候也是心有忐忑，从这半年的使用情况来看，这个&lt;strong&gt;RackNerd&lt;/strong&gt;的VPS如果不跑路的情况下，还是非常稳定的，是一款很不错的便宜VPS。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><strong>RackNerd</strong>的vps相当的便宜，像老刘这款2h2g的一年不到20美元。有很多人说<strong>RackNerd</strong>是跑路的四大金刚创办的，到底是不是也没有人有确切的证据。当时买的时候也是心有忐忑，从这半年的使用情况来看，这个<strong>RackNerd</strong>的VPS如果不跑路的情况下，还是非常稳定的，是一款很不错的便宜VPS。</p>
 <p>买了这个VPS后，由于不能确定到底是不是稳定，所以，并没有花太多的心思再这个空间上，只是把自己的RSS订阅放在了这个VPS上，也就是rss.iliu.org这个网站。半年来，这个网站从来没有掉过链子。<figure class="wp-block-image size-large"></p>

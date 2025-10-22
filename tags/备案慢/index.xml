@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>备案慢 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E5%A4%87%E6%A1%88%E6%85%A2/</link>
+    <link>http://localhost:1313/tags/%E5%A4%87%E6%A1%88%E6%85%A2/</link>
     <description>Recent content in 备案慢 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.151.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 18 Jul 2019 08:13:37 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E5%A4%87%E6%A1%88%E6%85%A2/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E5%A4%87%E6%A1%88%E6%85%A2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>景安备案太慢，原来是真出问题了</title>
-      <link>https://iliu.org/2522.html</link>
+      <link>http://localhost:1313/2522.html</link>
       <pubDate>Thu, 18 Jul 2019 08:13:37 +0000</pubDate>
-      <guid>https://iliu.org/2522.html</guid>
+      <guid>http://localhost:1313/2522.html</guid>
       <description>&lt;p&gt;前天突发奇想，想要把这个网站也给备案了。于是关站，在景安提交了备案申请，结果让我很不开心，现在景安备案给人的体验是太糟糕了。于是果断删除备案申请了。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>前天突发奇想，想要把这个网站也给备案了。于是关站，在景安提交了备案申请，结果让我很不开心，现在景安备案给人的体验是太糟糕了。于是果断删除备案申请了。</p>
 <p>其实当初对景安的影响还可以，毕竟也是老牌子了。去年9月底买了他们的服务器，备案很快，当天提交，当天就能审核并提交给管局，想着这次也是很快的，结果等了两天竟然还是没有动静。问客服人员，说现在备案的人太多，排队。你人再多有腾讯、阿里云的人多吗，人家都能做到至少第二天审核提交。于是想着这个服务商是不是出现了什么问题，结果还真出事了。</p>

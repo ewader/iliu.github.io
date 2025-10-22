@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>保险 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E4%BF%9D%E9%99%A9/</link>
+    <link>http://localhost:1313/tags/%E4%BF%9D%E9%99%A9/</link>
     <description>Recent content in 保险 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.151.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 06 Aug 2011 01:28:36 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E4%BF%9D%E9%99%A9/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E4%BF%9D%E9%99%A9/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>昨天给妞买了人生中的第二份保险</title>
-      <link>https://iliu.org/1155.html</link>
+      <link>http://localhost:1313/1155.html</link>
       <pubDate>Sat, 06 Aug 2011 01:28:36 +0000</pubDate>
-      <guid>https://iliu.org/1155.html</guid>
+      <guid>http://localhost:1313/1155.html</guid>
       <description>&lt;p&gt;昨天给妞买了人生中的第二份保险，是中荷人寿的，中荷人寿原来应该叫首创安泰人寿保险，现在改名字了。&lt;/p&gt;
 &lt;p&gt;险种主要选择的是重大疾病以及住院保险，包含一部分教育基金，其实也就是把分红累计起来而已，每年2168元，感觉还是可以的。起码重大疾病方面包含的项目要比平安 人寿等保险公司要多，好像有45种吧。比平安的15种多多了。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>昨天给妞买了人生中的第二份保险，是中荷人寿的，中荷人寿原来应该叫首创安泰人寿保险，现在改名字了。</p>

@@ -9,7 +9,7 @@
       <url>https://iliu.org/img/liujinsuiyue.jpg</url>
       <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.151.1</generator>
+    <generator>Hugo -- 0.151.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 21 Oct 2025 11:10:32 +0800</lastBuildDate>
     <atom:link href="https://iliu.org/categories/%E9%BD%90%E7%89%A9/index.xml" rel="self" type="application/rss+xml" />
@@ -1766,10 +1766,8 @@ Worker 代码示例如下 👇：</p>
       <link>https://iliu.org/troubleshooting-tencent-edgeone-a-dnssec-odyssey/</link>
       <pubDate>Tue, 16 Sep 2025 10:37:19 +0800</pubDate>
       <guid>https://iliu.org/troubleshooting-tencent-edgeone-a-dnssec-odyssey/</guid>
-      <description>&lt;hr&gt;
-&lt;p&gt;前几个月，我关注到腾讯新推出的 &lt;strong&gt;EdgeOne&lt;/strong&gt; 服务。这款产品无需备案和实名，而且提供免费额度，对于个人网站来说非常友好。刚发布时兑换码一码难求，我并没有太多关注。后来，腾讯推出了一个活动，只要在 X（原 Twitter）上转发推文，就能获得两个兑换码。我成功领取并兑换了一个，并将其用于我的“镜缘轩”网站。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<hr>
-<p>前几个月，我关注到腾讯新推出的 <strong>EdgeOne</strong> 服务。这款产品无需备案和实名，而且提供免费额度，对于个人网站来说非常友好。刚发布时兑换码一码难求，我并没有太多关注。后来，腾讯推出了一个活动，只要在 X（原 Twitter）上转发推文，就能获得两个兑换码。我成功领取并兑换了一个，并将其用于我的“镜缘轩”网站。</p>
+      <description>&lt;p&gt;前几个月，我关注到腾讯新推出的 &lt;strong&gt;EdgeOne&lt;/strong&gt; 服务。这款产品无需备案和实名，而且提供免费额度，对于个人网站来说非常友好。刚发布时兑换码一码难求，我并没有太多关注。后来，腾讯推出了一个活动，只要在 X（原 Twitter）上转发推文，就能获得两个兑换码。我成功领取并兑换了一个，并将其用于我的“镜缘轩”网站。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>前几个月，我关注到腾讯新推出的 <strong>EdgeOne</strong> 服务。这款产品无需备案和实名，而且提供免费额度，对于个人网站来说非常友好。刚发布时兑换码一码难求，我并没有太多关注。后来，腾讯推出了一个活动，只要在 X（原 Twitter）上转发推文，就能获得两个兑换码。我成功领取并兑换了一个，并将其用于我的“镜缘轩”网站。</p>
 <p>我的“镜缘轩”网站部署在 CloudCone 的 VPS 上，访问速度一直不尽如人意。接入 EdgeOne 后，网站速度有了显著提升，这让我决定将我的博客也套上这个服务。</p>
 <h3 id="域名解析遇到的第一个问题cname-扁平化">域名解析遇到的第一个问题：CNAME 扁平化</h3>
 <p>在将博客主域名 <code>iliu.org</code> 通过 <strong>CNAME</strong> 解析到 EdgeOne 提供的地址后，我发现 EdgeOne 无法识别解析成功。奇怪的是，“镜缘轩”网站的解析过程却非常顺利。</p>
@@ -2530,10 +2528,10 @@ I believe this may have been triggered by the automated fraud prevention system.
       <link>https://iliu.org/posts/repair-the-car-air-conditioning/</link>
       <pubDate>Mon, 24 Jun 2024 14:17:20 +0800</pubDate>
       <guid>https://iliu.org/posts/repair-the-car-air-conditioning/</guid>
-      <description>&lt;p&gt;前年的时候，曾经写过一篇&lt;a href=&#34;https://tunan.org/4242&#34;&gt;修汽车空调&lt;/a&gt;的文章。当时加过氟利昂之后，制冷效果是立马起来了。不过过了半个多月的时间，开车回老家，再次出现空调制冷效果不好的情况，也不是制冷效果不好，而是有时候能空调能启动，有时候又启动不了。甚至在堵车的时候还发生了，水箱温度过高的提示。之后又去店里修了一次，氟利昂压力是正常的，说可能是水箱比较脏了，拆下来冲洗一下就好了。结果拆冲洗后当时是可以了，但是我看到水箱也不是很脏的样子。&lt;/p&gt;
+      <description>&lt;p&gt;前年的时候，曾经写过一篇&lt;a href=&#34;https://iliu.org/4242&#34;&gt;修汽车空调&lt;/a&gt;的文章。当时加过氟利昂之后，制冷效果是立马起来了。不过过了半个多月的时间，开车回老家，再次出现空调制冷效果不好的情况，也不是制冷效果不好，而是有时候能空调能启动，有时候又启动不了。甚至在堵车的时候还发生了，水箱温度过高的提示。之后又去店里修了一次，氟利昂压力是正常的，说可能是水箱比较脏了，拆下来冲洗一下就好了。结果拆冲洗后当时是可以了，但是我看到水箱也不是很脏的样子。&lt;/p&gt;
 &lt;p&gt;后来这两年，空调基本上也能凑合着用，但是效果不是太好，本身用车的时候也少，就觉得可能是缺氟利昂了。&lt;/p&gt;
 &lt;p&gt;21号，送女儿去参加中考，不想去的时候，再次出现空调不能运行的情况，好在当天阴天还有点小雨，气温不是太高，开车车窗勉强能用车，不过行车过程中外面的噪音太大。很不舒适。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>前年的时候，曾经写过一篇<a href="https://tunan.org/4242">修汽车空调</a>的文章。当时加过氟利昂之后，制冷效果是立马起来了。不过过了半个多月的时间，开车回老家，再次出现空调制冷效果不好的情况，也不是制冷效果不好，而是有时候能空调能启动，有时候又启动不了。甚至在堵车的时候还发生了，水箱温度过高的提示。之后又去店里修了一次，氟利昂压力是正常的，说可能是水箱比较脏了，拆下来冲洗一下就好了。结果拆冲洗后当时是可以了，但是我看到水箱也不是很脏的样子。</p>
+      <content:encoded><![CDATA[<p>前年的时候，曾经写过一篇<a href="https://iliu.org/4242">修汽车空调</a>的文章。当时加过氟利昂之后，制冷效果是立马起来了。不过过了半个多月的时间，开车回老家，再次出现空调制冷效果不好的情况，也不是制冷效果不好，而是有时候能空调能启动，有时候又启动不了。甚至在堵车的时候还发生了，水箱温度过高的提示。之后又去店里修了一次，氟利昂压力是正常的，说可能是水箱比较脏了，拆下来冲洗一下就好了。结果拆冲洗后当时是可以了，但是我看到水箱也不是很脏的样子。</p>
 <p>后来这两年，空调基本上也能凑合着用，但是效果不是太好，本身用车的时候也少，就觉得可能是缺氟利昂了。</p>
 <p>21号，送女儿去参加中考，不想去的时候，再次出现空调不能运行的情况，好在当天阴天还有点小雨，气温不是太高，开车车窗勉强能用车，不过行车过程中外面的噪音太大。很不舒适。</p>
 <p>送完女儿后，直接开去了修理店，令人哭笑不得的是，回去的时候空调又能用了。到店说明情况后，具体检查了一下，氟利昂压力正常，老板检查了半天，发现压缩机那块的风扇不转圈，判断是控制风扇开启的模块出现了故障。<img alt="汽车空调风扇控制器" loading="lazy" src="https://ewader.s3.bitiful.net/blog/%e5%be%ae%e4%bf%a1%e5%9b%be%e7%89%87_20240624155035.jpg"></p>
@@ -2648,14 +2646,14 @@ I believe this may have been triggered by the automated fraud prevention system.
       <pubDate>Fri, 01 Dec 2023 21:04:03 +0800</pubDate>
       <guid>https://iliu.org/posts/use-cloudflare-page-rules-setup-301-permanent-redirect/</guid>
       <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
-&lt;p&gt;细心的读者可能已经发现，图南博客的域名已经由&lt;code&gt;iliu.org&lt;/code&gt; 更换到&lt;code&gt;tunan.org&lt;/code&gt;。这个域名是之前在&lt;code&gt;Google&lt;/code&gt;注册的，可惜的80端口被墙了，也不知道是怎么实现强域名80端口的。于是在暂时使用一段时间后又使用了原域名。&lt;/p&gt;</description>
+&lt;p&gt;细心的读者可能已经发现，图南博客的域名已经由&lt;code&gt;iliu.org&lt;/code&gt; 更换到&lt;code&gt;iliu.org&lt;/code&gt;。这个域名是之前在&lt;code&gt;Google&lt;/code&gt;注册的，可惜的80端口被墙了，也不知道是怎么实现强域名80端口的。于是在暂时使用一段时间后又使用了原域名。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h2 id="前言">前言</h2>
-<p>细心的读者可能已经发现，图南博客的域名已经由<code>iliu.org</code> 更换到<code>tunan.org</code>。这个域名是之前在<code>Google</code>注册的，可惜的80端口被墙了，也不知道是怎么实现强域名80端口的。于是在暂时使用一段时间后又使用了原域名。</p>
-<p>前两天的时候，感觉还是需要用tunan这个域名，和博客的名字比较搭配，而且用了ssl之后，网站走的443端口，基本上也不会影响什么，所以就切换了过来。</p>
+<p>细心的读者可能已经发现，图南博客的域名已经由<code>iliu.org</code> 更换到<code>iliu.org</code>。这个域名是之前在<code>Google</code>注册的，可惜的80端口被墙了，也不知道是怎么实现强域名80端口的。于是在暂时使用一段时间后又使用了原域名。</p>
+<p>前两天的时候，感觉还是需要用iliu这个域名，和博客的名字比较搭配，而且用了ssl之后，网站走的443端口，基本上也不会影响什么，所以就切换了过来。</p>
 <p>换域名之后另一个需要的解决的事情是要把<code>iliu.org</code>的网址301跳转到新网站，以前用VPS的时候，直接在<code>nginx</code>里设置，现在不用vps了，有没有别的方法呢？答案是肯定的，而且比vps更方便。那就是使用<code>Cloudflare</code>的页面规则进行跳转。</p>
 <h2 id="方法">方法</h2>
 <p>进入到<code>cloudflare</code>的个人中心，点击需要跳转的网站域名，点击DNS。 把域名解析到8.8.8.8，当然你解析到1.1.1.1也是可以的。然后点击规则，再点击页面规则。具体的设置如下图：<img alt="规则" loading="lazy" src="https://ewader.s3.bitiful.net/blog/guize.png"></p>
-<p>这样，就把<code>iliu.org</code>这个网站的网址，按照同样的规则，跳转到了<code>tunan.org</code>这个网站。</p>
+<p>这样，就把<code>iliu.org</code>这个网站的网址，按照同样的规则，跳转到了<code>iliu.org</code>这个网站。</p>
 <p>使用免费的<code>cloudflare</code>一个域名只有3个免费的页面规则，因此还有另外一个方法也可以实现，那就是利用<code>cloudflare</code>的<code>workers</code>。</p>
 <p>进入到<code>cloudflare</code>的后台后，点击<code>Workers 和 Pages</code>。</p>
 <p>点击<code>创建应用程序</code>,再点击<code>创建workers</code>：把下面的代码修改一下，复制到代码区保存。</p>
@@ -2701,7 +2699,7 @@ I believe this may have been triggered by the automated fraud prevention system.
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="o">//</span> <span class="n">Redirect</span> <span class="n">requests</span> <span class="n">from</span> <span class="n">one</span> <span class="n">domain</span> <span class="n">to</span> <span class="n">another</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">const</span> <span class="n">base</span> <span class="o">=</span> <span class="s2">&#34;https://tunan.org&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="k">const</span> <span class="n">base</span> <span class="o">=</span> <span class="s2">&#34;https://iliu.org&#34;</span>
 </span></span><span class="line"><span class="cl"><span class="k">const</span> <span class="n">statusCode</span> <span class="o">=</span> <span class="mi">301</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="n">async</span> <span class="n">function</span> <span class="n">handleRequest</span><span class="p">(</span><span class="n">request</span><span class="p">)</span> <span class="p">{</span>
@@ -2749,19 +2747,19 @@ I believe this may have been triggered by the automated fraud prevention system.
       <link>https://iliu.org/posts/using-tailscale-to-achieve-intranet-penetration-in-synology/</link>
       <pubDate>Sun, 12 Nov 2023 21:19:15 +0800</pubDate>
       <guid>https://iliu.org/posts/using-tailscale-to-achieve-intranet-penetration-in-synology/</guid>
-      <description>&lt;p&gt;在远程连接群晖的实践中，老刘一切介绍过&lt;a href=&#34;https://tunan.org/3356.html&#34;&gt;zerotier&lt;/a&gt;和&lt;a href=&#34;https://tunan.org/3997.html&#34;&gt;IPv6&lt;/a&gt;。但是实际的使用过程中，zerotier有时候握手的速度很慢，而且配置起来比较麻烦，IPv6很好，速度也快，但是有些环境中还只有IPv4，直到我听别人介绍到tailscale这个软件。它的工作原理其实和zerotier差不多，但是不需要什么复杂的设置，直接注册、登录，同一个账号的所有设备都连接到一起了。&lt;/p&gt;
+      <description>&lt;p&gt;在远程连接群晖的实践中，老刘一切介绍过&lt;a href=&#34;https://iliu.org/3356.html&#34;&gt;zerotier&lt;/a&gt;和&lt;a href=&#34;https://iliu.org/3997.html&#34;&gt;IPv6&lt;/a&gt;。但是实际的使用过程中，zerotier有时候握手的速度很慢，而且配置起来比较麻烦，IPv6很好，速度也快，但是有些环境中还只有IPv4，直到我听别人介绍到tailscale这个软件。它的工作原理其实和zerotier差不多，但是不需要什么复杂的设置，直接注册、登录，同一个账号的所有设备都连接到一起了。&lt;/p&gt;
 &lt;h2 id=&#34;注册tailscale&#34;&gt;注册tailscale&lt;/h2&gt;
 &lt;p&gt;百度直接搜，或者打看&lt;a href=&#34;https://www.tailscale.com/&#34;&gt;tailscale&lt;/a&gt;官方网站。注册就行，不过它不支持自由注册，需要用Google、apple、或者微软的outlook账号注册。&lt;/p&gt;
 &lt;h2 id=&#34;下载tailscale&#34;&gt;下载tailscale&lt;/h2&gt;
 &lt;p&gt;网页的右上角，有个downloads，点击就可以了。里面有常用的Windows、Linux等的客户端，直接点击下载相应的客户端，并安装。安装后登录，然后在个人中心里，系统自动给你分配了一个ip地址，如果你要了解某个设备，直接在浏览器里打开那个ip地址就好了。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>在远程连接群晖的实践中，老刘一切介绍过<a href="https://tunan.org/3356.html">zerotier</a>和<a href="https://tunan.org/3997.html">IPv6</a>。但是实际的使用过程中，zerotier有时候握手的速度很慢，而且配置起来比较麻烦，IPv6很好，速度也快，但是有些环境中还只有IPv4，直到我听别人介绍到tailscale这个软件。它的工作原理其实和zerotier差不多，但是不需要什么复杂的设置，直接注册、登录，同一个账号的所有设备都连接到一起了。</p>
+      <content:encoded><![CDATA[<p>在远程连接群晖的实践中，老刘一切介绍过<a href="https://iliu.org/3356.html">zerotier</a>和<a href="https://iliu.org/3997.html">IPv6</a>。但是实际的使用过程中，zerotier有时候握手的速度很慢，而且配置起来比较麻烦，IPv6很好，速度也快，但是有些环境中还只有IPv4，直到我听别人介绍到tailscale这个软件。它的工作原理其实和zerotier差不多，但是不需要什么复杂的设置，直接注册、登录，同一个账号的所有设备都连接到一起了。</p>
 <h2 id="注册tailscale">注册tailscale</h2>
 <p>百度直接搜，或者打看<a href="https://www.tailscale.com/">tailscale</a>官方网站。注册就行，不过它不支持自由注册，需要用Google、apple、或者微软的outlook账号注册。</p>
 <h2 id="下载tailscale">下载tailscale</h2>
 <p>网页的右上角，有个downloads，点击就可以了。里面有常用的Windows、Linux等的客户端，直接点击下载相应的客户端，并安装。安装后登录，然后在个人中心里，系统自动给你分配了一个ip地址，如果你要了解某个设备，直接在浏览器里打开那个ip地址就好了。</p>
 <p>如果你的系统没有在常用的客户端页面，可以点击<a href="https://pkgs.tailscale.com/stable/#spks">这里</a>，会进入一个所有的客户端的页面，找到你的系统下载即可。</p>
 <h3 id="群晖中安装">群晖中安装</h3>
-<p>点击我上面说的那个连接，然后找到群晖的客户端。根据你群晖的系统选。如果你群晖是DSM6就选6，DSM7就选7，不要选错了。下载之后进入群晖的后台，进入套件中心，点击手动安装。<img loading="lazy" src="https://tunan.org/tupian/qunhui-1.jpg"></p>
+<p>点击我上面说的那个连接，然后找到群晖的客户端。根据你群晖的系统选。如果你群晖是DSM6就选6，DSM7就选7，不要选错了。下载之后进入群晖的后台，进入套件中心，点击手动安装。<img loading="lazy" src="https://iliu.org/tupian/qunhui-1.jpg"></p>
 <p>安装的时候DSM会有一些权限的提示，选择允许就行了。安装后打开套件，点==connect==那个黑色的按钮，登录你的账号就可以了。</p>
 <h3 id="linux里安装与使用">Linux里安装与使用</h3>
 <p>也是选择合适系统的客户端，下载安装，如果你用的Arch Linux系列，可以直接用命令安装：</p>
@@ -2803,7 +2801,7 @@ I believe this may have been triggered by the automated fraud prevention system.
 </div>
 </div><p>找到群晖的ip地址，选中复制，粘贴到浏览器里，打开，是不是熟悉的群晖后台出现了？</p>
 <h2 id="后续的一些优化">后续的一些优化</h2>
-<p>如果是你经常用的设备，你不想让这个设备的ip地址发生变化，可以进行一点小小的设置，如下图：<img loading="lazy" src="https://tunan.org/tupian/qunhui-3.png"></p>
+<p>如果是你经常用的设备，你不想让这个设备的ip地址发生变化，可以进行一点小小的设置，如下图：<img loading="lazy" src="https://iliu.org/tupian/qunhui-3.png"></p>
 <p>但让，tailscale还有一些高级的用法，比如在路由器里安装后，其他设备不用安装也能相互访问，这个有点折腾了，不在本文的范围，有兴趣的朋友可以去官方看相关教程。</p>
 ]]></content:encoded>
     </item>
@@ -2814,7 +2812,7 @@ I believe this may have been triggered by the automated fraud prevention system.
       <guid>https://iliu.org/A-few-things-after-installing-EndeavourOS/</guid>
       <description>&lt;p&gt;很多追求新，追求精简的Linux系统的使用者，往往都会推荐Arch Linux，这个系统特点是精简，精简到什么都需要你来搞定，所以也让很多人望而却步。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>很多追求新，追求精简的Linux系统的使用者，往往都会推荐Arch Linux，这个系统特点是精简，精简到什么都需要你来搞定，所以也让很多人望而却步。</p>
-<p><img alt="最终效果" loading="lazy" src="https://tunan.org/tupian/2023-11-08.png"></p>
+<p><img alt="最终效果" loading="lazy" src="https://iliu.org/tupian/2023-11-08.png"></p>
 <p>后来有人根据Arch Linux开发出manjaro这个系统，一问世就获得了用户的好评，但是，后来manjaro的发展也偏离了初心，EndeavourOs可以简便了Arch Linux的安装，但是又不多添加零碎，是最接近Arch Linux的系统了。老刘原来用Ubuntu，但是又不想到处去找想要安装的软件，所以换成了EndeavourOs，为了打造更好用的系统，老刘安装后做了如下的优化，文章小白可以参考，大佬请路过。</p>
 <h2 id="安装输入法">安装输入法</h2>
 <p>老刘比较喜欢用的小狼毫的输入法，这个在Linux平台下，叫rime输入法，aur里什么都用，直接命令安装就行：</p>

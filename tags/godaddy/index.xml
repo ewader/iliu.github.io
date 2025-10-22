@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Godaddy on 老刘博客</title>
-    <link>https://iliu.org/tags/godaddy/</link>
+    <link>http://localhost:1313/tags/godaddy/</link>
     <description>Recent content in Godaddy on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.151.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 26 Jun 2019 00:38:56 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/godaddy/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/godaddy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Godaddy可以用微信管理域名</title>
-      <link>https://iliu.org/2207.html</link>
+      <link>http://localhost:1313/2207.html</link>
       <pubDate>Wed, 26 Jun 2019 00:38:56 +0000</pubDate>
-      <guid>https://iliu.org/2207.html</guid>
+      <guid>http://localhost:1313/2207.html</guid>
       <description>&lt;p&gt;不得不说微信现在的影响力是越来越大了，就连当年蹭退出中国风的godaddy现在也开始使用微信来管理域名了，今天打开邮箱就收到了如下的邮件。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;用微信管理域名，接收通知并获取优惠。&lt;/strong&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>不得不说微信现在的影响力是越来越大了，就连当年蹭退出中国风的godaddy现在也开始使用微信来管理域名了，今天打开邮箱就收到了如下的邮件。</p>
@@ -39,9 +39,9 @@
     </item>
     <item>
       <title>杯具，原来上传的图片等都没有能转过来</title>
-      <link>https://iliu.org/515.html</link>
+      <link>http://localhost:1313/515.html</link>
       <pubDate>Sun, 31 Jan 2010 08:01:10 +0000</pubDate>
-      <guid>https://iliu.org/515.html</guid>
+      <guid>http://localhost:1313/515.html</guid>
       <description>&lt;p&gt;   杯具啊，1月29日的时候发现ip被和谐了，于是毫不犹豫的转系统。可能godaddy方面出现了问题，文件没有能转过来。神那！&lt;/p&gt;
 &lt;p&gt;  洗具的是，数据库内容还在，顺便bs下百度，也就1天不能访问，就给我拔毛了。郁闷死！&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>   杯具啊，1月29日的时候发现ip被和谐了，于是毫不犹豫的转系统。可能godaddy方面出现了问题，文件没有能转过来。神那！</p>
@@ -50,9 +50,9 @@
     </item>
     <item>
       <title>开发出godaddy免费空间的另外一个用途</title>
-      <link>https://iliu.org/485.html</link>
+      <link>http://localhost:1313/485.html</link>
       <pubDate>Sat, 23 Jan 2010 07:04:06 +0000</pubDate>
-      <guid>https://iliu.org/485.html</guid>
+      <guid>http://localhost:1313/485.html</guid>
       <description>&lt;p&gt;      godaddy免费空间确实太大了，用这也比较爽，虽然有个很大的广告，但是看在免费的份上也就别较真了。这么稳定又快速的空间，就将就用吧。有很多同学说了，这么大的空间，只装一个博客有点浪费了，那么下面我就给大家说说这个空间可以装的另外的程序。达到全面利用这个大空间的目的。&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>      godaddy免费空间确实太大了，用这也比较爽，虽然有个很大的广告，但是看在免费的份上也就别较真了。这么稳定又快速的空间，就将就用吧。有很多同学说了，这么大的空间，只装一个博客有点浪费了，那么下面我就给大家说说这个空间可以装的另外的程序。达到全面利用这个大空间的目的。</p>
@@ -61,9 +61,9 @@
     </item>
     <item>
       <title>解决godaddy免费空间广告带来影响的方法</title>
-      <link>https://iliu.org/476.html</link>
+      <link>http://localhost:1313/476.html</link>
       <pubDate>Tue, 19 Jan 2010 01:39:32 +0000</pubDate>
-      <guid>https://iliu.org/476.html</guid>
+      <guid>http://localhost:1313/476.html</guid>
       <description>&lt;p&gt;        众所周知，godaddy免费空间带有一个很大的广告条，有广告也就罢了，不厚道的是通过增加的广告代码，使得很多源代码发生了错误，这是因为它的广告代码用了一连串的闭合标签，使你的程序人为的关闭，因此会出错，通过这一个月的摸索，现在把我的经验给大家说说，能让用这个空间的人多一些了解。我在上一篇&lt;a href=&#34;http://www.lghcx.info/2010/01/388.html&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;完美解决godaddy免费空间广告条对WordPress后台的影响&lt;/a&gt;也说了一些，现在把其他的在给大家分享一下。&lt;figure class=&#34;content-img-box&#34; id=&#34;2302&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>        众所周知，godaddy免费空间带有一个很大的广告条，有广告也就罢了，不厚道的是通过增加的广告代码，使得很多源代码发生了错误，这是因为它的广告代码用了一连串的闭合标签，使你的程序人为的关闭，因此会出错，通过这一个月的摸索，现在把我的经验给大家说说，能让用这个空间的人多一些了解。我在上一篇<a href="http://www.lghcx.info/2010/01/388.html" target="_blank" rel="noopener noreferrer">完美解决godaddy免费空间广告条对WordPress后台的影响</a>也说了一些，现在把其他的在给大家分享一下。<figure class="content-img-box" id="2302"></p>
 <p><img decoding="async" alt="解决godaddy免费空间广告带来影响的方法" src="https://tunan.org/wp-content/uploads/2019/07/105e294cb73d32.png" id="A1745766" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>

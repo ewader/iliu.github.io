@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>父女 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E7%88%B6%E5%A5%B3/</link>
+    <link>http://localhost:1313/tags/%E7%88%B6%E5%A5%B3/</link>
     <description>Recent content in 父女 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.151.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 04 Aug 2011 06:59:55 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E7%88%B6%E5%A5%B3/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E7%88%B6%E5%A5%B3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>今天坐小老虎吧？</title>
-      <link>https://iliu.org/1146.html</link>
+      <link>http://localhost:1313/1146.html</link>
       <pubDate>Thu, 04 Aug 2011 06:59:55 +0000</pubDate>
-      <guid>https://iliu.org/1146.html</guid>
+      <guid>http://localhost:1313/1146.html</guid>
       <description>&lt;p&gt;早上吃完早饭后 带女儿出去转圈，这妮子现在喜欢上了坐摇摇车，下面就是我们两个的对话：&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>早上吃完早饭后 带女儿出去转圈，这妮子现在喜欢上了坐摇摇车，下面就是我们两个的对话：</p>
 <p>女儿：爸爸，出去玩坐小兔子乖乖吧？</p>

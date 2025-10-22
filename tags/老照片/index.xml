@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>老照片 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E8%80%81%E7%85%A7%E7%89%87/</link>
+    <link>http://localhost:1313/tags/%E8%80%81%E7%85%A7%E7%89%87/</link>
     <description>Recent content in 老照片 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.151.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 09 Apr 2023 02:23:23 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E8%80%81%E7%85%A7%E7%89%87/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E8%80%81%E7%85%A7%E7%89%87/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>一组16年前的老照片</title>
-      <link>https://iliu.org/4347.html</link>
+      <link>http://localhost:1313/4347.html</link>
       <pubDate>Sun, 09 Apr 2023 02:23:23 +0000</pubDate>
-      <guid>https://iliu.org/4347.html</guid>
+      <guid>http://localhost:1313/4347.html</guid>
       <description>&lt;p&gt;闲暇在群晖里翻图片看，就看到了2007年春节前后排的一组照片，照片是用佳能卡片机拍的 ，记得当时买这个相机的时候，省吃俭用了一个月。不过，能留下这么美好的回忆，也是值了。&lt;figure class=&#34;wp-block-image&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>闲暇在群晖里翻图片看，就看到了2007年春节前后排的一组照片，照片是用佳能卡片机拍的 ，记得当时买这个相机的时候，省吃俭用了一个月。不过，能留下这么美好的回忆，也是值了。<figure class="wp-block-image"></p>
 <p><img decoding="async" src="https://cdn.staticaly.com/gh/ewader/img@master/20230409/IMG_0040.46pdslst5hq0.webp" alt="IMG_0040" /> </figure></p>

@@ -9,7 +9,7 @@
       <url>https://iliu.org/img/liujinsuiyue.jpg</url>
       <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.151.1</generator>
+    <generator>Hugo -- 0.151.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 07 Feb 2024 20:28:26 +0800</lastBuildDate>
     <atom:link href="https://iliu.org/tags/%E8%BE%93%E5%85%A5%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
@@ -32,95 +32,6 @@
 <p>当然这只是书中的观点，不一定正确和全面，但是对了解那个封建社会里的奇葩王朝还是挺有帮助的。</p>
 <p>PS：</p>
 <p>和稀泥事件是这样的，当时镇守东北的巡抚发现有一个部落在不断的兼并周边的部落，于是派总兵去剿灭，结果总兵不听话而且打了败仗（以明朝那个奇葩的制度，打败仗也正常），于是巡抚就告总兵的黑状，总兵一看，我也是有后台的人，也告巡抚的黑状，当时的内阁首辅是申时行，一个善于和稀泥的人，一看说，你们两个相互告了就完事了，翻篇了。于是就不了了之了。这个部落的首领叫努尔哈赤！</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>开始试用小狼毫输入法</title>
-      <link>https://iliu.org/4357.html</link>
-      <pubDate>Fri, 14 Apr 2023 04:24:52 +0000</pubDate>
-      <guid>https://iliu.org/4357.html</guid>
-      <description>&lt;p&gt;自从用到win10以来，就开始懒得安装输入法了，毕竟微软拼音已经可以胜任很多的输入了。不过微软输入法有一点不太能容忍的bug是，偶尔会卡系统，不过也没有太放在心上。&lt;figure class=&#34;wp-block-image&#34;&gt;&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>自从用到win10以来，就开始懒得安装输入法了，毕竟微软拼音已经可以胜任很多的输入了。不过微软输入法有一点不太能容忍的bug是，偶尔会卡系统，不过也没有太放在心上。<figure class="wp-block-image"></p>
-<p><img decoding="async" src="https://cdn.staticaly.com/gh/ewader/img@master/20230414/xxx.3rkz4ingrpg0.webp" alt="xxx" /> </figure></p>
-<p>今天漂了一眼博客群，然后就看到博友推荐小狼毫输入法，我就不声不响的安装了一下，目前来看，基本是可以满足我的需求。直接安装使用了，高级的使用方法也没有去可以的学习。</p>
-<h2 class="wp-block-heading" id="启用雾凇拼音的方法">启用雾凇拼音的方法</h2>
-<p>雾凇拼音是小狼毫框架下优化的一个词库吧，听群里大佬介绍说很不错，打算用上，可是对如何使用真是一头的雾水，最初把下载来的文件放进了<strong>小狼毫的data文件夹</strong>下，结果选择雾凇拼音之后，中文输入是空白的。</p>
-<p>后来研究了半天，发现实现的方法是如此简单，右键点击输入法的图标，选择用户文件夹，然后在GitHub的仓库地址：<a href="https://github.com/iDvel/rime-ice">GitHub – iDvel/rime-ice: Rime 配置：雾凇拼音 | 长期维护的简体词库</a>下载词库，下载后解压到刚才那个用户文件夹中。</p>
-<p>还是右键点输入法图标，选择输入法设定，选择雾凇拼音即可</p>
-<p>顺便吐槽一下相关部门开发的软件，真的堪比病毒。上午收到短信，意思是该申报下一年的工资了，于是抽屉里翻出了社保用的UKEY，到官网下载驱动程序，只见卡巴斯基是一连串的报警，而且还删除了好几个和驱动无关的程序。</p>
-<p>以为驱动就这么废了，结果重启后，驱动是正常了，原来是软件里夹带了很多的私活，这就是现状！想想河南有多少企业，每个企业至少一个电脑要安装这个破玩意。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>manjaro安装配置fcitx5输入法</title>
-      <link>https://iliu.org/4016.html</link>
-      <pubDate>Thu, 06 Jan 2022 09:38:19 +0000</pubDate>
-      <guid>https://iliu.org/4016.html</guid>
-      <description>&lt;p&gt;网上很多文章都说manjaro多么的牛叉，软件如何的多，如何的稳定，滚动更新如何的方便等等等等。下午没事，在一台不怎么用的电脑上试用了一下这个系统。&lt;figure class=&#34;wp-block-image size-full&#34;&gt;&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>网上很多文章都说manjaro多么的牛叉，软件如何的多，如何的稳定，滚动更新如何的方便等等等等。下午没事，在一台不怎么用的电脑上试用了一下这个系统。<figure class="wp-block-image size-full"></p>
-<p><img loading="lazy" decoding="async" width="1920" height="1080" src="https://tunan.org/wp-content/uploads/2022/01/c6945447f0fce29.jpeg" alt="" class="wp-image-4017" srcset="https://tunan.org/wp-content/uploads/2022/01/c6945447f0fce29.jpeg 1920w, https://tunan.org/wp-content/uploads/2022/01/c6945447f0fce29-768x432.jpeg 768w, https://tunan.org/wp-content/uploads/2022/01/c6945447f0fce29-1536x864.jpeg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /> </figure></p>
-<p>kde的界面很漂亮，运行也流畅，但就是没使用习惯，总体来说不如debian系的方便。也可能是我用习惯了的缘故吧。记得张波老师在群里问过manjaro如何安装输入法的问题，特意安装了最新的fcitx5输入法。</p>
-<h2 class="wp-block-heading" id="以下是安装流程">以下是安装流程</h2>
-<pre class="wp-block-code"><code>sudo pacman -S fcitx5-im fcitx5-chinese-addons fcitx5-qt fcitx5-gtk
-#安装 Fcitx5主体、配置工具、输入法引擎及中文输入法模块
-sudo nano  /etc/environment
-
-GTK_IM_MODULE=fcitx
-QT_IM_MODULE=fcitx
-XMODIFIERS=@im=fcitx
-SDL_IM_MODULE=fcitx
-GLFW_IM_MODULE=ibus
-</code></pre>
-<p>然后注销一下系统，输入法的图标就已经出来了。</p>
-<h2 class="wp-block-heading" id="然后安装词库">然后安装词库</h2>
-<pre class="wp-block-code"><code>sudo pacman -S fcitx5-pinyin-zhwiki
-#安装中文维基百科词库
-sudo pacman -S fcitx5-pinyin-moegirl
-#安装二刺螈萌娘百科词库 
-</code></pre>
-<h2 class="wp-block-heading" id="一点坑">一点坑</h2>
-<p>安装完成后，切换到中文输入法状态，显示拼音不可用，老刘找了很多教程也没有发现有用的，后来更新了一下系统，输入法正常使用了。如果，你也正受到这个问题的影响，不妨更新一下系统试试。</p>
-<h2 class="wp-block-heading" id="最后说一下">最后说一下</h2>
-<p>这个系统真的使用不习惯，新手不建议使用，目前强烈推荐使用uos家庭版。经过最近一段时间的试用，最新版电脑死机的问题已经修复了，安装简单，并且软件丰富，连原生的Linux版本的微信都是绑定了uos系统。可见国家对这个系统的支持。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>ubuntu20.04开机亮度最大的解决方法及输入法设置</title>
-      <link>https://iliu.org/3951.html</link>
-      <pubDate>Mon, 20 Dec 2021 09:20:38 +0000</pubDate>
-      <guid>https://iliu.org/3951.html</guid>
-      <description>&lt;p&gt;从很久以前UBUNTU就有一个毛病，有些电脑安装后，开机后屏幕的亮度会是最大。据说从很低的一个版本都有这样bug存在，但是不知道为啥官方一直都没有修复。不过网上也有很多的教程，试用了一下，有些有用，有些没用，直到扒到了一个很老的文章，上面记载的一个很简单的方法，却解决了这样一个问题。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>从很久以前UBUNTU就有一个毛病，有些电脑安装后，开机后屏幕的亮度会是最大。据说从很低的一个版本都有这样bug存在，但是不知道为啥官方一直都没有修复。不过网上也有很多的教程，试用了一下，有些有用，有些没用，直到扒到了一个很老的文章，上面记载的一个很简单的方法，却解决了这样一个问题。</p>
-<p>别的不说，直接上代码，照着做就行了：</p>
-<pre class="language-bash line-numbers"><code class="language-bash">sudo gedit /etc/default/grub
- 
-#将GRUB_CMDLINE_LINUX_DEFAULT="quiet"，替换为以下
-GRUB_CMDLINE_LINUX_DEFAULT="quiet acpi_osi=Linux cpi_backlight=vendor"
- 
-sudo update-grub</code> 最后一步一定要做。另外<code class="language-bash">GRUB_CMDLINE_LINUX_DEFAULT="quiet"可能是会多出几个单词，不影响不影响，就是这一行。</code></pre>
-<p>然后说说ubunut的输入法</p>
-<p>以前（十年前吧）的时候，linux下的输入法很难用，现在主流的输入法也都有了，比如搜狗，百度，讯飞等等。最近看了一下，发现已经不需要额外在安装其他的输入法了，用系统自带的中文输入法已经很好用了。</p>
-<p>系统自带的输入法是ibuslibpinyin，只需要简单的设置一下，就非常好用了。</p>
-<p>第一步：常规设置，如下图，根据个人的习惯来吧，老刘喜欢候选词以词频方式展示。</p>
-<img loading="lazy" decoding="async" class="alignnone size-full wp-image-3952" src="https://tunan.org/wp-content/uploads/2021/12/2021-12-20-17-15-27.png" alt="" width="607" height="755" /> 
-<p>第二步：拼音模式，勾选“启用云输入”</p>
-<img loading="lazy" decoding="async" class="alignnone size-full wp-image-3953" src="https://tunan.org/wp-content/uploads/2021/12/2021-12-20-17-19-08.png" alt="" width="600" height="759" /> 
-<p>第三步：用户词典，勾选全部</p>
-<img loading="lazy" decoding="async" class="alignnone size-full wp-image-3954" src="https://tunan.org/wp-content/uploads/2021/12/2021-12-20-17-19-30.png" alt="" width="609" height="764" /> 
-<p>第四步：重启</p>
-<p>至此，输入法使用起来基本上和在win10的微软拼音方便程度差不多了。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>百度输入法小测</title>
-      <link>https://iliu.org/943.html</link>
-      <pubDate>Wed, 27 Oct 2010 01:43:35 +0000</pubDate>
-      <guid>https://iliu.org/943.html</guid>
-      <description>&lt;p&gt;由于黑莓手机上使用的是百度输入法，感觉还不错。（不错的原因是没有比较）所以再百度电脑版的输入法出来伊始，就装上体验了一番&lt;/p&gt;
-&lt;p&gt;百度输入法的优点是：占用的资源比较下，占用的磁盘空间只有30多M，比搜狗的要小的多了，不过和google的差不多。其他方面可能是测试版的原因，没有发现更具有的优势。所具有的功能比的也都有了，而且最重要的是，不太稳定，有时候会出现白屏的现象以及找不到词库。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>由于黑莓手机上使用的是百度输入法，感觉还不错。（不错的原因是没有比较）所以再百度电脑版的输入法出来伊始，就装上体验了一番</p>
-<p>百度输入法的优点是：占用的资源比较下，占用的磁盘空间只有30多M，比搜狗的要小的多了，不过和google的差不多。其他方面可能是测试版的原因，没有发现更具有的优势。所具有的功能比的也都有了，而且最重要的是，不太稳定，有时候会出现白屏的现象以及找不到词库。</p>
-<p>百度输入法的介绍写的是，“基于百度搜索技术，最强大的中文输入引擎”，不过目前除了云查找之外，还真的没有见到其他的优势，不过有一点还是比较看好百度的，其所说的基于搜索技术，可能使得拼音的结果更智能化，我的理解是，输入拼音之后，最优先出现的词是搜索引擎中使用频率最高的，这样可以让拼音的重复率降低的最小。基于此，对于输入法，还是比较看好百度和google的。</p>
 ]]></content:encoded>
     </item>
   </channel>

@@ -9,7 +9,6 @@ author: "老刘"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 
-
 cover:
     image: "<image path/url>" # image path/url
     alt: "<alt text>" # alt text
