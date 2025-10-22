@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>免费资源 on 老刘博客</title>
-    <link>https://iliu.org/categories/%E5%85%8D%E8%B4%B9%E8%B5%84%E6%BA%90/</link>
+    <link>http://localhost:1313/categories/%E5%85%8D%E8%B4%B9%E8%B5%84%E6%BA%90/</link>
     <description>Recent content in 免费资源 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.152.0</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 03 Jan 2010 13:09:22 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/categories/%E5%85%8D%E8%B4%B9%E8%B5%84%E6%BA%90/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/%E5%85%8D%E8%B4%B9%E8%B5%84%E6%BA%90/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>完美解决godaddy免费空间广告条对wordpress后台的影响</title>
-      <link>https://iliu.org/388.html</link>
+      <link>http://localhost:1313/388.html</link>
       <pubDate>Sun, 03 Jan 2010 13:09:22 +0000</pubDate>
-      <guid>https://iliu.org/388.html</guid>
+      <guid>http://localhost:1313/388.html</guid>
       <description>&lt;p&gt;自从在 GoDaddy 搞了域名之后，一直对它提供的免费空间耿耿于怀——用吧，觉得不太好；不用，又觉得可惜。
 难怪网上都说这个空间是“鸡肋”。&lt;/p&gt;
 &lt;p&gt;很多朋友都把这个免费空间当作图床来使用，但我总觉得，10G 的容量、300G 的流量，仅仅做图床有点浪费。
@@ -45,45 +45,6 @@
 我用的是 Zoundry Raven，这个软件的编辑体验和 WordPress 后台几乎一模一样，
 刚好弥补了后台受广告影响的那一部分功能。</p>
 <p>这样一来，就能在继续使用 GoDaddy 免费空间的同时，基本绕过它广告代码带来的麻烦。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>给大家再推荐一个杀毒软件——mcafee8.7i</title>
-      <link>https://iliu.org/71.html</link>
-      <pubDate>Mon, 26 Oct 2009 13:04:31 +0000</pubDate>
-      <guid>https://iliu.org/71.html</guid>
-      <description>&lt;p&gt;当然可以，下面是去掉所有 HTML 代码、重新整理分段后的纯文本版内容，格式清晰、阅读顺畅：&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;记得上次给大家推荐过 &lt;strong&gt;360杀毒正式版1.0&lt;/strong&gt;，不知道大家有没有用？是不是感觉到不管是资源占用也好，还是查杀率也好都是挺不错的。
-这次华彩再给大家推荐一款杀毒软件，可以说与360相比，有过之而无不及。因为360毕竟是半路出家，它的引擎和病毒库都不是自己的。而我要推荐的这款软件，就是大名鼎鼎的 &lt;strong&gt;McAfee（迈克菲）杀毒软件&lt;/strong&gt;。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>当然可以，下面是去掉所有 HTML 代码、重新整理分段后的纯文本版内容，格式清晰、阅读顺畅：</p>
-<hr>
-<p>记得上次给大家推荐过 <strong>360杀毒正式版1.0</strong>，不知道大家有没有用？是不是感觉到不管是资源占用也好，还是查杀率也好都是挺不错的。
-这次华彩再给大家推荐一款杀毒软件，可以说与360相比，有过之而无不及。因为360毕竟是半路出家，它的引擎和病毒库都不是自己的。而我要推荐的这款软件，就是大名鼎鼎的 <strong>McAfee（迈克菲）杀毒软件</strong>。</p>
-<hr>
-<h3 id="mcafee简介">McAfee简介</h3>
-<p>作为全球最畅销的杀毒软件之一，McAfee 防毒软件在新版中除了更新操作界面外，还整合了公司的 WebScanX 功能，增加了许多新特性。
-除了能帮你侦测和清除病毒，它还有 <strong>VShield 自动监视系统</strong>，会常驻在系统托盘中。当你从磁盘、网络或电子邮件中打开文件时，它会自动检测文件的安全性。若文件中含有病毒，McAfee 会立即警告并作出相应处理。</p>
-<p>此外，它还支持鼠标右键的快速菜单功能，并且可以使用密码锁定个人设置，防止他人随意更改。</p>
-<hr>
-<h3 id="mcafee-企业版下载">McAfee 企业版下载</h3>
-<p><strong>直接官方下载地址：</strong></p>
-<ul>
-<li>
-<p>中文版：
-<a href="https://secure.nai.com/apps/downloads/my_products/login.asp?region=cn&amp;segment=enterprise">https://secure.nai.com/apps/downloads/my_products/login.asp?region=cn&amp;segment=enterprise</a></p>
-</li>
-<li>
-<p>英文版：
-<a href="https://secure.nai.com/apps/downloads/my_products/login.asp">https://secure.nai.com/apps/downloads/my_products/login.asp</a></p>
-</li>
-</ul>
-<hr>
-<p>进入页面后，在 <strong>Grant Number</strong> 一栏输入相应的授权号即可下载。
-这些授权号可以通过百度或 Google 搜索到。这样下载的版本是官方原装的产品，理论上可以免费、长期使用。
-因为这些授权号多为大型企业购买产品后泄露出来的，因此可以放心使用。</p>
-<hr>
-<p>是否希望我帮你改写成更现代、合法且安全的推荐文案？（比如去掉“泄露授权号”部分，改成介绍正版途径和体验版下载方式。）</p>
 ]]></content:encoded>
     </item>
   </channel>

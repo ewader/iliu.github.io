@@ -3357,5 +3357,1806 @@ I believe this may have been triggered by the automated fraud prevention system.
 <p>总之，选择合适的太阳镜对于近视人群的眼健康至关重要。尽管现在市面上有很多太阳镜可以选择，但是一定要根据自身的近视情况、角膜曲率等因素进行选择。建议大家带领着验光单，到专业的配镜机构进行购买和定制。</p>
 ]]></content:encoded>
     </item>
+    <item>
+      <title>在manjaro中安装使用Rime并启用雾凇输入法</title>
+      <link>https://iliu.org/4367.html</link>
+      <pubDate>Sun, 23 Apr 2023 09:47:27 +0000</pubDate>
+      <guid>https://iliu.org/4367.html</guid>
+      <description>&lt;p&gt;前几天，在朋友的推荐下，使用了小狼毫rime输入法，不过那是在Windows11里使用的，装的另外一个系统是manjaro，偶尔想搞几下Python代码的时候会使用，在这个系统里一直使用的Fcitx5，这个输入法也是挺成熟的了，用起来也很不错，不过既然在Windows里使用了rime就想在manjaro里也使用。## 安装方法&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>前几天，在朋友的推荐下，使用了小狼毫rime输入法，不过那是在Windows11里使用的，装的另外一个系统是manjaro，偶尔想搞几下Python代码的时候会使用，在这个系统里一直使用的Fcitx5，这个输入法也是挺成熟的了，用起来也很不错，不过既然在Windows里使用了rime就想在manjaro里也使用。## 安装方法</p>
+<p>首先要安装Fcitx5输入法框架，由于老刘已经在使用了，所以这一步就省略了，如果你还没有安装Fcitx5输入法，请参考老刘的另一篇文章，《<a href="https://iliu.org/4016.html">manjaro安装配置Fcitx5输入法</a>》。</p>
+<pre class="wp-block-code"><code>sudo pacman -S fcitx5-rime 
+</code></pre>
+<p>就这么一行简单的代码就可以，然后在输入法的配置里，把rime加入进来，这时候，rime已经是可以使用的了，选择明月输入法即可。</p>
+<p>由于我们是要用雾凇的词库，因此还需要把雾凇的词库设置一下。在manjaro下配置雾凇词库其实和Windows下类似，老刘从网上找的一些教程，包括官方写Arch的安装方法是：</p>
+<pre class="wp-block-code"><code># paru 默认会每次重新评估 pkgver，所以有新的提交时 paru 会自动更新，
+# yay 默认未开启此功能，可以通过此命令开启
+# yay -Y --devel --save
+
+paru -S rime-ice-git
+# yay -S rime-ice-git
+</code></pre>
+<p>实际这么安装之后，输入法里并没有出现雾凇拼音。于是，老刘参考之前写的《<a href="https://iliu.org/4357.html">开始试用小狼毫输入法</a>》里设置雾凇拼音的方法，直接在https://github.com/iDvel/rime-ice下载代码，解压后把解压出来的文件放在$HOME/.local/share/fcitx5/rime/里，输入法里已经出现了雾凇拼音，至此已经可以使用了。</p>
+<p>在manjaro里使用rime体验和Windows下一致，非常的丝滑，并且词库很全，包括颜文字，推荐大家使用。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>开始试用小狼毫输入法</title>
+      <link>https://iliu.org/4357.html</link>
+      <pubDate>Fri, 14 Apr 2023 04:24:52 +0000</pubDate>
+      <guid>https://iliu.org/4357.html</guid>
+      <description>&lt;p&gt;自从用到win10以来，就开始懒得安装输入法了，毕竟微软拼音已经可以胜任很多的输入了。不过微软输入法有一点不太能容忍的bug是，偶尔会卡系统，不过也没有太放在心上。今天漂了一眼博客群，然后就看到博友推荐小狼毫输入法，我就不声不响的安装了一下，目前来看，基本是可以满足我的需求。直接安装使用了，高级的使用方法也没有去可以的学习。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>自从用到win10以来，就开始懒得安装输入法了，毕竟微软拼音已经可以胜任很多的输入了。不过微软输入法有一点不太能容忍的bug是，偶尔会卡系统，不过也没有太放在心上。今天漂了一眼博客群，然后就看到博友推荐小狼毫输入法，我就不声不响的安装了一下，目前来看，基本是可以满足我的需求。直接安装使用了，高级的使用方法也没有去可以的学习。</p>
+<h2 id="启用雾凇拼音的方法">启用雾凇拼音的方法</h2>
+<p>雾凇拼音是小狼毫框架下优化的一个词库吧，听群里大佬介绍说很不错，打算用上，可是对如何使用真是一头的雾水，最初把下载来的文件放进了<strong>小狼毫的data文件夹</strong>下，结果选择雾凇拼音之后，中文输入是空白的。</p>
+<p>后来研究了半天，发现实现的方法是如此简单，右键点击输入法的图标，选择用户文件夹，然后在GitHub的仓库地址：<a href="https://github.com/iDvel/rime-ice">GitHub – iDvel/rime-ice: Rime 配置：雾凇拼音 | 长期维护的简体词库</a>下载词库，下载后解压到刚才那个用户文件夹中。</p>
+<p>还是右键点输入法图标，选择输入法设定，选择雾凇拼音即可</p>
+<p>顺便吐槽一下相关部门开发的软件，真的堪比病毒。上午收到短信，意思是该申报下一年的工资了，于是抽屉里翻出了社保用的UKEY，到官网下载驱动程序，只见卡巴斯基是一连串的报警，而且还删除了好几个和驱动无关的程序。</p>
+<p>以为驱动就这么废了，结果重启后，驱动是正常了，原来是软件里夹带了很多的私活，这就是现状！想想河南有多少企业，每个企业至少一个电脑要安装这个破玩意。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>使用群晖自动备份网站</title>
+      <link>https://iliu.org/4131.html</link>
+      <pubDate>Sat, 28 May 2022 08:23:06 +0000</pubDate>
+      <guid>https://iliu.org/4131.html</guid>
+      <description>&lt;p&gt;不管是做网站也好，写独立博客也好，最重要的事情之一就是备份。几乎每一个站长都经历过一不小心，多年的心血付之东流的经历。不过好在现在备份的方法很多，可以备份到本地，可以备份的腾讯cos，阿里云等等。云储存也不贵，几十块钱甚至十几块可以用一年，唯一的缺点是这些云储存都收取上行流量费。也就是说，一旦你用到你的数据，想把数据下载到本地，是还要付出一些费用的。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>不管是做网站也好，写独立博客也好，最重要的事情之一就是备份。几乎每一个站长都经历过一不小心，多年的心血付之东流的经历。不过好在现在备份的方法很多，可以备份到本地，可以备份的腾讯cos，阿里云等等。云储存也不贵，几十块钱甚至十几块可以用一年，唯一的缺点是这些云储存都收取上行流量费。也就是说，一旦你用到你的数据，想把数据下载到本地，是还要付出一些费用的。</p>
+<p>折腾群晖的时候，发现群晖的Active Back for Business这个套件可以自动的同步服务器上的文件，非常的方便，于是拿来备份网站，还是非常的方便的。</p>
+<h2 id="安装active-back-for-business">安装Active Back for Business</h2>
+<p>群晖套件中心里，找到Active Back for Business，并安装。不多说。</p>
+<h2 id="使用active-back-for-business备份网站">使用Active Back for Business备份网站</h2>
+<p>一、打开Active Back for Business套件，点击文件服务器。二、点击添加服务器。这里我们选择rsync服务器。然后下一步。三、填写服务器信息，并点击完成。四、选择备份模式，这里老刘选择的是增量备份，也可以选择多版本备份，这样就可以自动备份你设定的几个版本。五、选择你网站文件所在的文件夹，选择备份时间，即可。</p>
+<h2 id="可能会遇到的问题">可能会遇到的问题</h2>
+<p>在填写服务器的时候，可能会提示服务器没有安装rsync，只需在服务器中安装这个服务即可。</p>
+<pre class="wp-block-code"><code>#Debian或者Ubuntu
+apt install rsync
+CentOs
+yum install rsync</code></pre>]]></content:encoded>
+    </item>
+    <item>
+      <title>manjaro安装配置fcitx5输入法</title>
+      <link>https://iliu.org/4016.html</link>
+      <pubDate>Thu, 06 Jan 2022 09:38:19 +0000</pubDate>
+      <guid>https://iliu.org/4016.html</guid>
+      <description>&lt;p&gt;网上很多文章都说manjaro多么的牛叉，软件如何的多，如何的稳定，滚动更新如何的方便等等等等。下午没事，在一台不怎么用的电脑上试用了一下这个系统。kde的界面很漂亮，运行也流畅，但就是没使用习惯，总体来说不如debian系的方便。也可能是我用习惯了的缘故吧。记得张波老师在群里问过manjaro如何安装输入法的问题，特意安装了最新的fcitx5输入法。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>网上很多文章都说manjaro多么的牛叉，软件如何的多，如何的稳定，滚动更新如何的方便等等等等。下午没事，在一台不怎么用的电脑上试用了一下这个系统。kde的界面很漂亮，运行也流畅，但就是没使用习惯，总体来说不如debian系的方便。也可能是我用习惯了的缘故吧。记得张波老师在群里问过manjaro如何安装输入法的问题，特意安装了最新的fcitx5输入法。</p>
+<h2 id="以下是安装流程">以下是安装流程</h2>
+<pre class="wp-block-code"><code>sudo pacman -S fcitx5-im fcitx5-chinese-addons fcitx5-qt fcitx5-gtk
+#安装 Fcitx5主体、配置工具、输入法引擎及中文输入法模块
+sudo nano  /etc/environment
+
+GTK_IM_MODULE=fcitx
+QT_IM_MODULE=fcitx
+XMODIFIERS=@im=fcitx
+SDL_IM_MODULE=fcitx
+GLFW_IM_MODULE=ibus
+</code></pre>
+<p>然后注销一下系统，输入法的图标就已经出来了。</p>
+<h2 id="然后安装词库">然后安装词库</h2>
+<pre class="wp-block-code"><code>sudo pacman -S fcitx5-pinyin-zhwiki
+#安装中文维基百科词库
+sudo pacman -S fcitx5-pinyin-moegirl
+#安装二刺螈萌娘百科词库 
+</code></pre>
+<h2 id="一点坑">一点坑</h2>
+<p>安装完成后，切换到中文输入法状态，显示拼音不可用，老刘找了很多教程也没有发现有用的，后来更新了一下系统，输入法正常使用了。如果，你也正受到这个问题的影响，不妨更新一下系统试试。</p>
+<h2 id="最后说一下">最后说一下</h2>
+<p>这个系统真的使用不习惯，新手不建议使用，目前强烈推荐使用uos家庭版。经过最近一段时间的试用，最新版电脑死机的问题已经修复了，安装简单，并且软件丰富，连原生的Linux版本的微信都是绑定了uos系统。可见国家对这个系统的支持。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>没有公网IP也能玩转群晖DDNS</title>
+      <link>https://iliu.org/3997.html</link>
+      <pubDate>Thu, 30 Dec 2021 02:47:58 +0000</pubDate>
+      <guid>https://iliu.org/3997.html</guid>
+      <description>&lt;hr&gt;
+&lt;p&gt;tags:
+我们知道，玩群晖，没有公网IP，可玩性就下降很多，虽然可以用QuickConnect，但是速度还是不太理想。其他的[内网穿透][1]啊，[zerotier][2]等等都有不方便之处。老刘也曾记下折腾这些东西的过程。有兴趣的可以参考。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<hr>
+<p>tags:
+我们知道，玩群晖，没有公网IP，可玩性就下降很多，虽然可以用QuickConnect，但是速度还是不太理想。其他的[内网穿透][1]啊，[zerotier][2]等等都有不方便之处。老刘也曾记下折腾这些东西的过程。有兴趣的可以参考。</p>
+<p>今天老刘说的是DDNS，这个是需要公网IP的，而我们一说公网IP，其实都是说的IPV4的ip地址，这个目前全球都稀缺，移动是不用想了，联通和电信个别地方还能申请到。老刘一直用的是移动的宽带，以前用zerotier，后来就用qc来凑合着用。</p>
+<p>这两天由于keepassxc的版本在uos非常的低，由于环境的原因也更新不到最新的版本，想在群晖上部署<strong>Bitwarden</strong>。所以，又动了ddns的心思，想到目前各大运营商IPV6已经普及了，而这个都是公网的IP，所以，理论上用ddns加IPV6是完全没有问题的。网上查了一下，也有很多的教程。正准备按教程操作的时候，发现根本就不必那么麻烦。</p>
+<h2 id="下面正文">下面正文</h2>
+<p>进入群晖，打开控制面板，点击外部访问，点击DDNS。选择使用SYNOLOGY的服务，主机名称填写一个你心意的名称，IPV4选择手动，如果你有公网的ip也可以选择自动。IPV6点击自动设置，最后点击确定。</p>
+<p>用你申请的这个域名，浏览器打开试试吧。进入到熟悉的页面了吧！</p>
+<h2 id="一个坑">一个坑</h2>
+<p>老刘由于一直没有找的心仪的路有，店里一直用一个廉价的小米4a千兆版的路由。设置完上面的一切后，本地打开域名是能正常访问的，但是用手机使用流量却访问不了这个域名，显示连接被拒绝。感觉应该是路由器的防火墙的问题。可是在小米路由器里找不到设置防火墙的地方。可能这个防火墙默认的是拒绝入站的访问吧</p>
+<p>从家里拿来竞斗云的那个路由器，设置的一下防火墙，顺利搞定。[1]: <a href="https://iliu.org/?s=%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F">https://iliu.org/?s=%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F</a>
+[2]: <a href="https://iliu.org/?s=zero">https://iliu.org/?s=zero</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>ubuntu20.10升级编译安装ibus-libpinyin输入法</title>
+      <link>https://iliu.org/3976.html</link>
+      <pubDate>Sat, 25 Dec 2021 05:47:41 +0000</pubDate>
+      <guid>https://iliu.org/3976.html</guid>
+      <description>&lt;p&gt;以前无论是使用Uos还是linuxmint或者是ubtuntu，都是直接安装搜狗输入法。可以和ubuntu兼容最好的还是自带的ibus-libpinyin，开始的时候觉得这个输入法的词库比较小，用起来很不方便，但是后来发现这个输入法加入新的云输入引擎后，使用体验大幅上升，并且再加上额外的词库的话，用起来已经是非常方便了。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>以前无论是使用Uos还是linuxmint或者是ubtuntu，都是直接安装搜狗输入法。可以和ubuntu兼容最好的还是自带的ibus-libpinyin，开始的时候觉得这个输入法的词库比较小，用起来很不方便，但是后来发现这个输入法加入新的云输入引擎后，使用体验大幅上升，并且再加上额外的词库的话，用起来已经是非常方便了。</p>
+<p>ubuntu20.10自带的是1.20.0的版本，这个版本已经有了云输入引擎，但是不能把云输入引擎里的词自动添加到用户的本地词库里，而最新版已经解决了这个问题。要升级输入法，只能编译安装，Linux的不方便之处就在于此。## 首先，下载ibus-libpinyin输入法源码</p>
+<p>源码地址是：<a href="https://github.com/libpinyin/ibus-libpinyin">https://github.com/libpinyin/ibus-libpinyin</a></p>
+<h2 id="第二步安装编译环境">第二步，安装编译环境</h2>
+<pre class="wp-block-code"><code>sudo apt install libibus-1.0-dev
+sudo apt install sqlite3
+sudo apt install libsqlite3-dev
+sudo apt install libpinyin13-dev
+sudo apt install libgtk-3-dev
+sudo apt install libjson-glib-dev
+sudo apt install libsoup2.4-dev
+sudo apt install gnome-common checkinstall
+</code></pre>
+<h2 id="第三步编译输入法">第三步，编译输入法</h2>
+<pre class="wp-block-code"><code>./autogen.sh --prefix=/usr/  --enable-cloud-input-mode
+make
+sudo make install</code></pre>
+<p>至此，安装结束。在编译的第一步骤中，如果编译成功的化，应该出现以下的文字：</p>
+<p>Build options:<br>
+Version 1.20.2<br>
+Install prefix /usr<br>
+Use boost no<br>
+Use opencc no<br>
+Use libpinyin yes<br>
+Build lua extension no<br>
+Build stroke input mode yes<br>
+Build cloud input mode ye<br>
+Build english input mode yes</p>
+<p>一般出错的化都是编译环境缺少一些组件，按照提示安装即可。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>电波表如何接收日本电波对时塔的信号</title>
+      <link>https://iliu.org/3841.html</link>
+      <pubDate>Wed, 18 Aug 2021 01:52:23 +0000</pubDate>
+      <guid>https://iliu.org/3841.html</guid>
+      <description>&lt;p&gt;最近一段时间以来，除了8月7日左右，位于中国商丘的BPC电波发射塔，短暂的几天有信号以外，其他时间都是处于无信号状态，可能是在检修，也可能是由于商丘新冠疫情的影响，反正是电波塔关闭了。因为这个塔是民用的，当年是一个企业和中国授时中心联合弄的，今年2月份合同到期，由中国授时中心自己维护。所以，不稳地也很正常吧，你啥时候看到位于陕西蒲城的的塔出现过问题？## 收不到邱波那就收日本的波吧&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>最近一段时间以来，除了8月7日左右，位于中国商丘的BPC电波发射塔，短暂的几天有信号以外，其他时间都是处于无信号状态，可能是在检修，也可能是由于商丘新冠疫情的影响，反正是电波塔关闭了。因为这个塔是民用的，当年是一个企业和中国授时中心联合弄的，今年2月份合同到期，由中国授时中心自己维护。所以，不稳地也很正常吧，你啥时候看到位于陕西蒲城的的塔出现过问题？## 收不到邱波那就收日本的波吧</p>
+<p>网上查了以下资料，发现位于日本九州的一个授时信号塔，覆盖半径是2000km，天波的话，气候条件适合的情况下，3000km 内都有可能收到。</p>
+<p>把表上的时区从BJS改成TPE，因为台北也是用的北京时间，所以收波后，表上的时间不会快一个小时。在室内窗户边手动收了一下，发现信号是L1，基本上是失败的。于是到院子里试了一下，发现在院子里信号是L3，俗话说的信号满格，收到收波差不多1分钟成功。</p>
+<p>凭着印象觉得日本在中国的东北部，于是晚上把表放在北面的窗口，看能不能自动收波，结果是失败的。后来查了一下地图，发现日本的九洲原来是在郑州的东南方向。</p>
+<p>于是晚上把表放在房间靠南边的窗户边，连续几天晚上自动收波都成功。</p>
+<h2 id="总结一下方法">总结一下方法</h2>
+<p>首先要把城市改成收日波的城市，最好是台北，因为台北是用的北京时间。然后，从地图上查看九州在你城市的方位，然后晚上把表放在窗口边，如果这样都收不到，那就只能等待商丘的信号塔修好，或者下载APP对时。</p>
+<p>不过有网友在贵州都能收到，应该来说能收到的几率还是挺大的</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>奇葩的京东无线宝</title>
+      <link>https://iliu.org/3791.html</link>
+      <pubDate>Thu, 24 Jun 2021 10:28:53 +0000</pubDate>
+      <guid>https://iliu.org/3791.html</guid>
+      <description>&lt;hr&gt;
+&lt;p&gt;tags:
+最近天热起来了，店里的那台竞斗云可能是放到柜子离散热不良的原因，偶尔掉线的情况。于是决定换一款路由器。&lt;/p&gt;
+&lt;p&gt;选了一圈，后来决定入手京东无线宝2代的128G的版本，主要是这个版本秒杀的价格比原价低了200块钱，也不知道是先提价后降价还是怎么着的，上面标的是最近90多天最低价。但是本着降价越多，占的便宜越大的原则，最终选的这个，估计又上了狗东的当，原价699，秒杀降了200，然后又领了乱七八糟的优惠卷还有减金额白条优惠什么的，最后的价格是400零几。要说狗东的优势也就是快了，今天早上下的单，下午可给送过来了。插网线，设置WIFI等等之后。我去，为啥很多网站打不开？&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<hr>
+<p>tags:
+最近天热起来了，店里的那台竞斗云可能是放到柜子离散热不良的原因，偶尔掉线的情况。于是决定换一款路由器。</p>
+<p>选了一圈，后来决定入手京东无线宝2代的128G的版本，主要是这个版本秒杀的价格比原价低了200块钱，也不知道是先提价后降价还是怎么着的，上面标的是最近90多天最低价。但是本着降价越多，占的便宜越大的原则，最终选的这个，估计又上了狗东的当，原价699，秒杀降了200，然后又领了乱七八糟的优惠卷还有减金额白条优惠什么的，最后的价格是400零几。要说狗东的优势也就是快了，今天早上下的单，下午可给送过来了。插网线，设置WIFI等等之后。我去，为啥很多网站打不开？</p>
+<p>基本国外的都能打开，我的博客也可以，但是个视频网站，新浪等等都连不上。刚开始还以为是因为设置了积分有限导致的网络被占用，还想着这也占用的太大了吧。后来发现，无论如何设置，网速还是渣渣，换上原来的路由器，立马正常了，看来是这台路由器的问题了。</p>
+<p>立刻对这台路由器失望了，打开京东，准备退货。可是无理由退货是要运费的，但是这是质量问题啊，于是联系客服。</p>
+<p>今天群里还说京东的人工客服连接不上，其实说的有点夸张了，我就发了一个人工客服，就立马出现人工客服的连接了。</p>
+<p>客服听完我说的，很有经验的样子说，你恢复一下出厂设置，然后再设置网络。如果还是不行就按退货处理。结果这么一弄，立马问题解决了。</p>
+<p>我去，玩了这么多的路由器，第一次遇到需要先恢复出厂才能用的。目前，经过一下午的试用，各方面也挺满意，也不知道一天能给多少个积分，也不知道多久能回本;</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>keepass加群辉实现数据同步及浏览器自动填充密码（二）</title>
+      <link>https://iliu.org/3430.html</link>
+      <pubDate>Sun, 29 Nov 2020 00:53:36 +0000</pubDate>
+      <guid>https://iliu.org/3430.html</guid>
+      <description>&lt;p&gt;自从前两天体验了keepass的方便后，真的是对这个软件爱不释手了。但是在上一篇中，总体设置较为复杂，而且使用当中发现了诸多不方便之处。虽然对于老刘来说，因为只是店和家同步，路由器里设置好zerotier就行了，但是后来想想，这个方案还有有点依赖硬件，没有普遍性，而且如果老刘不在局域网范围内的话，手机上使用也很不方便。熟悉这个软件之后发现，根本不需要如此复杂的设置，就能很容易的同步数据，如果是使用的白群晖的话，利用quickconnet,可以做到无论在何地，都能方便的使用群辉和keepass的便利之处。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>自从前两天体验了keepass的方便后，真的是对这个软件爱不释手了。但是在上一篇中，总体设置较为复杂，而且使用当中发现了诸多不方便之处。虽然对于老刘来说，因为只是店和家同步，路由器里设置好zerotier就行了，但是后来想想，这个方案还有有点依赖硬件，没有普遍性，而且如果老刘不在局域网范围内的话，手机上使用也很不方便。熟悉这个软件之后发现，根本不需要如此复杂的设置，就能很容易的同步数据，如果是使用的白群晖的话，利用quickconnet,可以做到无论在何地，都能方便的使用群辉和keepass的便利之处。</p>
+<h2 id="软件介绍">软件介绍</h2>
+<p>这次老刘介绍的软件叫KeePassXC,也是开源的作品，和keepass是一脉相承，可以说是keepass的分支吧，但是和前者相比，使用起来更方便。系统自带中文，不需要在装语言插件了，软件自带有对浏览器的支持，也不需要再装keepasshttp插件了，要知道，http这个插件作者已经好多年没有更新了，用起来确实没有keepassxc方便了。</p>
+<p><a href="https://iliu.org/wp-content/uploads/2020/11/b85c78625ed6336.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3431" src="https://iliu.org/wp-content/uploads/2020/11/b85c78625ed6336.jpg" alt="" width="796" height="658" srcset="https://iliu.org/wp-content/uploads/2020/11/b85c78625ed6336.jpg 796w, https://iliu.org/wp-content/uploads/2020/11/b85c78625ed6336-300x248.jpg 300w, https://iliu.org/wp-content/uploads/2020/11/b85c78625ed6336-768x635.jpg 768w" sizes="(max-width: 796px) 100vw, 796px" /></a></p>
+<p>软件下载地址：<a href="https://keepassxc.org/">KeePassXC Password Manager</a></p>
+<p>也可以通过老刘提供的链接下载：<a href="http://gofile.me/5x2t4/Ka94pwgIw">keepassxc</a></p>
+<p>老刘这个应该下载速度会快那么一丢丢！~</p>
+<h2 id="使用方法介绍">使用方法介绍</h2>
+<p>软件和keepass大同小异，会用那个，这个是没有问题的。浏览器配合里面设置如上图，由于老刘没有用firefox，所以没有选择。</p>
+<p>重点说说同步</p>
+<p>电脑和手机上都安装安装synology drive 。安装设置完毕后，把keepass/keepassxc的数据kdbx文件保存在drive的同步文件夹了，这样，无论那个终端更新了数据，都会同步至其他的终端。妈妈再也不用担心我密码的问题了。</p>
+<p>有同学担心把数据存到NAS硬盘挂了，数据丢了怎么办，其实这真的不是一个需要担心的事情，NAS早就想到了这一点，两块或者更多额硬盘设置成raid模式就行。再怎么着，两块硬盘不会同时坏吧，就算同时坏了，keepass还支持同步到云盘，比如Google，DropBox等等都支持。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>zerotier加openwrt路由实现内网穿透控制群晖</title>
+      <link>https://iliu.org/3356.html</link>
+      <pubDate>Sat, 24 Oct 2020 07:49:34 +0000</pubDate>
+      <guid>https://iliu.org/3356.html</guid>
+      <description>&lt;p&gt;刚开始完群晖的时候，写过一片使用zerotier进行内网穿透实现连接群晖的功能。详情《&lt;a href=&#34;https://iliu.org/2872.html&#34;&gt;使用zerotier进行内网穿透&lt;/a&gt; 》但是后来升级移动宽带，带了一个光猫的路由，导致群晖成为了内网中的内网，使用zerotier总链接不上。因此，改用了frp进行内网穿透。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>刚开始完群晖的时候，写过一片使用zerotier进行内网穿透实现连接群晖的功能。详情《<a href="https://iliu.org/2872.html">使用zerotier进行内网穿透</a> 》但是后来升级移动宽带，带了一个光猫的路由，导致群晖成为了内网中的内网，使用zerotier总链接不上。因此，改用了frp进行内网穿透。</p>
+<p>FRP和zerotier各有千秋，本站也一些文章来结束这些，有兴趣可以利用搜索来查询。昨天，发现路由器里带的又zerotier的插件。其实以前也见到过，只是觉得只是控制路由器，用处不大，所以也没有过多的理会。昨天，突发奇想，是不是在两台路由器都设置zerotier的情况下，能实现各自路由下的设备能访问另一台路由下的设备。网上查了一下，发现是可行的。而且，设置起来也要简单的多。</p>
+<h2 id="首先注册zerotier">首先，注册zerotier</h2>
+<p>这里就不在多说了，上面那篇文章有说明如何注册。</p>
+<h2 id="在公司和家中的两台路由内都设置zerotier">在公司和家中的两台路由内都设置zerotier。</h2>
+<p>这个网上有一堆的教程，又是设置端口的，又是设置防火墙的。其实那都已经很老了，目前的的插件简单不能再简单了。</p>
+<p><a href="https://iliu.org/wp-content/uploads/2020/10/bae175604f2b130.png"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3357" src="https://iliu.org/wp-content/uploads/2020/10/bae175604f2b130.png" alt="" width="641" height="429" srcset="https://iliu.org/wp-content/uploads/2020/10/bae175604f2b130.png 641w, https://iliu.org/wp-content/uploads/2020/10/bae175604f2b130-300x201.png 300w" sizes="(max-width: 641px) 100vw, 641px" /></a></p>
+<p>如果上图，填入zero的 id 勾选下面的运行客户端NAT。不需要在设置别的了。</p>
+<h2 id="进入zero控制台设置路由">进入zero控制台，设置路由</h2>
+<p><a href="https://iliu.org/wp-content/uploads/2020/10/f7e0b956540676a.png"><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-3359" src="https://iliu.org/wp-content/uploads/2020/10/f7e0b956540676a-1024x456.png" alt="" width="1024" height="456" srcset="https://iliu.org/wp-content/uploads/2020/10/f7e0b956540676a-1024x456.png 1024w, https://iliu.org/wp-content/uploads/2020/10/f7e0b956540676a-300x134.png 300w, https://iliu.org/wp-content/uploads/2020/10/f7e0b956540676a-768x342.png 768w, https://iliu.org/wp-content/uploads/2020/10/f7e0b956540676a.png 1236w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<h2 id="在下面add-routes里进行添加">在下面add routes里进行添加</h2>
+<p>前面是你路由器的IP段，后面是zero给你分配的ip，千万不要填反了。在设置的时候要注意，家里和办公司的IP不能一致。其他的就没有关系了。设置完之后，就可以在办公室输入家里设备的IP或者在家里输入办公室设备的IP进行控制了。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>打造一个安全的宝塔面板服务器环境</title>
+      <link>https://iliu.org/3326.html</link>
+      <pubDate>Sat, 17 Oct 2020 03:50:44 +0000</pubDate>
+      <guid>https://iliu.org/3326.html</guid>
+      <description>&lt;p&gt;很多人都戏称宝塔面板为bug塔面板，特别是前几天出现的phpmyadmin事件，似乎更进一步的坐实了bug塔bug的地位，但是平信而论，经过这么多年的发展，宝塔面板在配置服务器方面还是很方便的，而里面一些小插件也是非常的好用，所以，对于这个面板老刘是非常的纠结，喜欢他的简单和好用的插件，纠结它的稳定性。毕竟老刘是吃过这方面的亏的，早点5.x的时代，有一次，什么都没动，网站也正常打开，面板却挂了….&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>很多人都戏称宝塔面板为bug塔面板，特别是前几天出现的phpmyadmin事件，似乎更进一步的坐实了bug塔bug的地位，但是平信而论，经过这么多年的发展，宝塔面板在配置服务器方面还是很方便的，而里面一些小插件也是非常的好用，所以，对于这个面板老刘是非常的纠结，喜欢他的简单和好用的插件，纠结它的稳定性。毕竟老刘是吃过这方面的亏的，早点5.x的时代，有一次，什么都没动，网站也正常打开，面板却挂了….</p>
+<p>闲话少说了，思前想后，还是决定用它吧，多备份，万一挂了，恢复起来也快。既然决定要用这个一个有着安全漏洞前科的面板，把它打造的相对安全一些是一件迫在眉睫的事情了。老刘是在以下几个方面做的，有需要的朋友可以参考。</p>
+<h2 id="第一面板的设置">第一，面板的设置</h2>
+<p><a href="https://iliu.org/wp-content/uploads/2020/10/c9fb8fb098ecc77.png"><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-3329" src="https://iliu.org/wp-content/uploads/2020/10/c9fb8fb098ecc77-1024x868.png" alt="" width="1024" height="868" srcset="https://iliu.org/wp-content/uploads/2020/10/c9fb8fb098ecc77-1024x868.png 1024w, https://iliu.org/wp-content/uploads/2020/10/c9fb8fb098ecc77-300x254.png 300w, https://iliu.org/wp-content/uploads/2020/10/c9fb8fb098ecc77-768x651.png 768w, https://iliu.org/wp-content/uploads/2020/10/c9fb8fb098ecc77.png 1067w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p>这个好多的教程都有提到，比如别名，安全入口名字、默认目录，默认端口 面板用户及密码，都需要一一更改，由于比较简单，这里就不一一进行说明了。</p>
+<h2 id="第二步加装防火墙">第二步，加装防火墙</h2>
+<p>宝塔官方有waf的防火墙，但是是收费的。所有，这里老刘强烈建议搭建使用nginx作为网站服务器的web框架而不是使用阿帕奇。这是因为使用nginx后，有个叫叫明国三年一场雨大佬开发的Nginx免费防火墙，目前已经更新到了4.5的版本，由于没有用过官方的防火墙，老刘认为这个免费的对一般的网站已经完全够用了。</p>
+<p><a href="https://iliu.org/wp-content/uploads/2020/10/9423090b4ba355c.png"><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-3330" src="https://iliu.org/wp-content/uploads/2020/10/9423090b4ba355c-1024x763.png" alt="" width="1024" height="763" srcset="https://iliu.org/wp-content/uploads/2020/10/9423090b4ba355c-1024x763.png 1024w, https://iliu.org/wp-content/uploads/2020/10/9423090b4ba355c-300x224.png 300w, https://iliu.org/wp-content/uploads/2020/10/9423090b4ba355c-768x572.png 768w, https://iliu.org/wp-content/uploads/2020/10/9423090b4ba355c.png 1154w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p>使用防火墙的默认设置已经足矣，当然你也可以打开里面的设置项，把所有的开关都打开，但是这样会造成一些正常的动作被误报，因此建议直接使用默认设置即可。如果网站使用了CDN加速，可以在网站设置里选择开启CDN选项，这样就不会误报你的CDN的IP了。</p>
+<h2 id="第三步对常见挂马的实时查杀">第三步，对常见挂马的实时查杀</h2>
+<p>这个也是老刘纠结宝塔的原因之一，就是因为宝塔里的这款插件，openrasp管理器插件，OpenRASP 是百度安全推出的一款 免费、开源 的应用运行时自我保护产品，对一句话木马的查杀相当不错。项目的介绍可以在<a href="https://rasp.baidu.com/#section-intro" target="_blank" rel="noopener noreferrer">这里</a>了解。</p>
+<p><a href="https://iliu.org/wp-content/uploads/2020/10/92c45413dd04494.png"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3331" src="https://iliu.org/wp-content/uploads/2020/10/92c45413dd04494.png" alt="" width="628" height="251" srcset="https://iliu.org/wp-content/uploads/2020/10/92c45413dd04494.png 628w, https://iliu.org/wp-content/uploads/2020/10/92c45413dd04494-300x120.png 300w" sizes="(max-width: 628px) 100vw, 628px" /></a></p>
+<p>宝塔软件列表里搜索openrasp，点击安装，安装后开启即可，目前支持到php7.3,首次安装的时间可能有点长，耐心等待即可。</p>
+<h2 id="第四步-安装fail2ban">第四步 安装fail2ban</h2>
+<p>这个是放爆破扫描端口的的，宝塔的这个设置的比较简单，安装后可以参考老刘的另一篇文章进行详细的设置《<a href="https://iliu.org/2556.html">lnmp一键开启waf及使用 Fail2Ban防护</a>》。然后，把所有用不到的端口删除。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>网易词典笔2.0简单开箱</title>
+      <link>https://iliu.org/3268.html</link>
+      <pubDate>Sun, 20 Sep 2020 02:19:37 +0000</pubDate>
+      <guid>https://iliu.org/3268.html</guid>
+      <description>&lt;p&gt;前端时间给女儿买了一套《书虫》系列和《疯狂校园》系列的英语读本。书虫还好，句子比较简单，有些单词就算不认识，根据上下文的关系以及后面的生词表，阅读起来不算太费事。可是疯狂校园系列读起来就有点难度了。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>前端时间给女儿买了一套《书虫》系列和《疯狂校园》系列的英语读本。书虫还好，句子比较简单，有些单词就算不认识，根据上下文的关系以及后面的生词表，阅读起来不算太费事。可是疯狂校园系列读起来就有点难度了。</p>
+<p>来回的翻字典耽误时间不说，还打断了阅读的连续性。那时候就有给女儿买一支词典笔的打算，但是看了一下基本上2代的要800大洋左右，又有些犹豫。前天，意外的把liu.gg的域名给卖了，小赚了一点意外之财，干脆把这个笔给女儿买了算了。</p>
+<p><a href="https://iliu.org/wp-content/uploads/2020/09/2db205c8580bc03.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3269" src="https://iliu.org/wp-content/uploads/2020/09/2db205c8580bc03.jpg" alt="" width="800" height="800" srcset="https://iliu.org/wp-content/uploads/2020/09/2db205c8580bc03.jpg 800w, https://iliu.org/wp-content/uploads/2020/09/2db205c8580bc03-300x300.jpg 300w, https://iliu.org/wp-content/uploads/2020/09/2db205c8580bc03-150x150.jpg 150w, https://iliu.org/wp-content/uploads/2020/09/2db205c8580bc03-768x768.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p>天猫上查了一下，找了一个销量比较高的，价格相对优惠的下了单。随笔还给送了一个网易精品课的优惠码，不过注册了后看课程一般般，也就没有给女儿学。</p>
+<p>选了一个粉色的。我没有拍图片，网上找了几张图来替代</p>
+<p><a href="https://iliu.org/wp-content/uploads/2020/09/4e8cfa295ddf836.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3270" src="https://iliu.org/wp-content/uploads/2020/09/4e8cfa295ddf836.jpg" alt="" width="680" height="907" srcset="https://iliu.org/wp-content/uploads/2020/09/4e8cfa295ddf836.jpg 680w, https://iliu.org/wp-content/uploads/2020/09/4e8cfa295ddf836-225x300.jpg 225w" sizes="(max-width: 680px) 100vw, 680px" /></a></p>
+<p>包装是一个白色的盒子，上面是网易有道词典笔，设计的非常的简洁。</p>
+<p><a href="https://iliu.org/wp-content/uploads/2020/09/96eb39afd3ddd6d.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3271" src="https://iliu.org/wp-content/uploads/2020/09/96eb39afd3ddd6d.jpg" alt="" width="748" height="400" srcset="https://iliu.org/wp-content/uploads/2020/09/96eb39afd3ddd6d.jpg 748w, https://iliu.org/wp-content/uploads/2020/09/96eb39afd3ddd6d-300x160.jpg 300w" sizes="(max-width: 748px) 100vw, 748px" /></a></p>
+<p>嗯就是这样的一支笔。放在手里也不沉。刚发过来的时候系统的版本是1.22。然后提示升级，先升级到了1.33，然后再次提示升级，升级到了1.52，增加了一个和网易有道词典相互关联的设置。</p>
+<p>笔的外形就这样，关键是要看识别单词的能力。官方说的又230万的词量，实际使用起来识别率还是挺高的。特别是还支持整句扫描识别和跨行扫描。总体来说还是挺满意的！</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>给鱼缸上了沼泽过滤</title>
+      <link>https://iliu.org/3167.html</link>
+      <pubDate>Wed, 27 May 2020 02:13:32 +0000</pubDate>
+      <guid>https://iliu.org/3167.html</guid>
+      <description>&lt;p&gt;一个多月前，买了几条草金，&lt;a href=&#34;https://iliu.org/3129.html&#34;&gt;pdd上买的&lt;/a&gt;。由于原来的那个玻璃鱼缸有点小，而且我是一个很懒的人，对清理鱼缸壁上的绿苔深恶痛绝。所以，决定换一个陶缸，一是陶缸大，放的水多。当时想的是可以不用过滤。二是，陶缸不透明，有绿苔了也不影响。所以，买了一个小陶缸。&lt;/p&gt;
+&lt;p&gt;把小鱼放进陶缸后，感觉还是不错的。鱼儿活动的地方大了，正好自己还有几颗碗莲的种子，索性就把碗莲也放进了鱼缸，当时想的是，碗莲生长的养分由鱼的粪便来提供，碗莲分解鱼粪，生长后还能释放氧气，真是一举两得的事情。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>一个多月前，买了几条草金，<a href="https://iliu.org/3129.html">pdd上买的</a>。由于原来的那个玻璃鱼缸有点小，而且我是一个很懒的人，对清理鱼缸壁上的绿苔深恶痛绝。所以，决定换一个陶缸，一是陶缸大，放的水多。当时想的是可以不用过滤。二是，陶缸不透明，有绿苔了也不影响。所以，买了一个小陶缸。</p>
+<p>把小鱼放进陶缸后，感觉还是不错的。鱼儿活动的地方大了，正好自己还有几颗碗莲的种子，索性就把碗莲也放进了鱼缸，当时想的是，碗莲生长的养分由鱼的粪便来提供，碗莲分解鱼粪，生长后还能释放氧气，真是一举两得的事情。</p>
+<p>可是事与愿违，碗莲在鱼缸里只长茎不长叶，茎长长了，可能被鱼咬的，还断掉了，所以，干脆把碗莲给捞出来扔掉了。每周给鱼缸换一些水，感觉也没问题，可是前两天，接二连三的死去了2条鱼，而且发现鱼平时很喜欢把头伸出水面。可能是水里的氧气有点少吧，而且鱼吃的有点多，每次换水，鱼缸里都好多的鱼便便，看着也难受。所以，就决定买一个沼泽过滤箱。</p>
+<p>沼泽过滤，听起来很高大上，其实很简单，就是弄一个箱子，入水口在下面，出水口在上面，箱子里放满小石子，这样，原来鱼缸里的脏东西在重力和小石子过滤下就留在了箱子的底部，上面留下来的就是清水，再在箱子里种一些植物，这些可以以这些脏东西为养料。就形成了一个生态系统。</p>
+<p>某宝上买了一个沼泽过滤箱，几十块钱，水泵原来就有，又买了几十斤小石子，这东西一般6块钱5斤包邮，对于卖家来说基本是没啥成本，河里挖就行了。话说，这东西真费石子，我买的是小型的箱子，40*30*18的，竟然用了35斤的石子。</p>
+<p>再在箱子里中上几颗吊兰（现在手里没有别的，只有吊兰了），回头有机会了买一盆金钱草什么的放进去。</p>
+<p><a href="https://iliu.org/wp-content/uploads/2020/05/c7ddd8144698b79.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3168" src="https://iliu.org/wp-content/uploads/2020/05/c7ddd8144698b79.jpg" alt="" width="850" height="993" srcset="https://iliu.org/wp-content/uploads/2020/05/c7ddd8144698b79.jpg 850w, https://iliu.org/wp-content/uploads/2020/05/c7ddd8144698b79-257x300.jpg 257w, https://iliu.org/wp-content/uploads/2020/05/c7ddd8144698b79-768x897.jpg 768w" sizes="(max-width: 850px) 100vw, 850px" /></a></p>
+<p>实际效果还是很不错的，一晚上的过滤，水清澈见底了。以后，就可以偷懒一下了。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>破磨边机，早晚换了你</title>
+      <link>https://iliu.org/3122.html</link>
+      <pubDate>Wed, 08 Apr 2020 08:00:44 +0000</pubDate>
+      <guid>https://iliu.org/3122.html</guid>
+      <description>&lt;p&gt;店搬完之后照例调试一下磨边机，装上镜片，正在打磨的时候，只听“咔咔”两声，镜片磨不动了。于是，拆开看了一下，发现是电机连接砂轮的皮带断了，一共是3条，一下断了两条。说来这台磨边机也用了8年了，尽管8年磨得镜片可能赶不上某些大店一年磨得镜片得数量，但是里面得东西还是会老化的。断了也正常。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>店搬完之后照例调试一下磨边机，装上镜片，正在打磨的时候，只听“咔咔”两声，镜片磨不动了。于是，拆开看了一下，发现是电机连接砂轮的皮带断了，一共是3条，一下断了两条。说来这台磨边机也用了8年了，尽管8年磨得镜片可能赶不上某些大店一年磨得镜片得数量，但是里面得东西还是会老化的。断了也正常。</p>
+<p>由于已经联系不到经销商了，所以去万能的某宝去找，第一次，发来的皮带太大了，然后退了，又找了一家说是专门卖这个牌子磨边机配件的，于是又买了两条，我去，太小了，装不上，联系客服，客服说，用螺丝刀使劲的拉，套上去就行。确实要使劲，费了九牛二虎之力，终于是把皮带给装上了。</p>
+<p><a href="https://iliu.org/wp-content/uploads/2020/04/a8eeba89609cf61d1edd8ef3087a5e02.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3123" src="https://iliu.org/wp-content/uploads/2020/04/a8eeba89609cf61d1edd8ef3087a5e02.jpg" alt="" width="549" height="628" srcset="https://iliu.org/wp-content/uploads/2020/04/a8eeba89609cf61d1edd8ef3087a5e02.jpg 549w, https://iliu.org/wp-content/uploads/2020/04/a8eeba89609cf61d1edd8ef3087a5e02-262x300.jpg 262w" sizes="(max-width: 549px) 100vw, 549px" /></a></p>
+<p>整个手臂都是酸的！</p>
+<p>皮带装上后，顺利的开机，测试了一下，磨边机又欢快的响起来了。试磨了一副眼镜，发现还是有点问题，主要是在磨全框的镜片的时候，磨不出来那个卡在镜架里的凸起。必须要人工操作才行。</p>
+<p>其实是有想要换掉的想法，比如下图的这种：</p>
+<p><a href="https://iliu.org/wp-content/uploads/2020/04/mmexport15863326080491.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3124" src="https://iliu.org/wp-content/uploads/2020/04/mmexport15863326080491.jpg" alt="" width="790" height="612" srcset="https://iliu.org/wp-content/uploads/2020/04/mmexport15863326080491.jpg 790w, https://iliu.org/wp-content/uploads/2020/04/mmexport15863326080491-300x232.jpg 300w, https://iliu.org/wp-content/uploads/2020/04/mmexport15863326080491-768x595.jpg 768w" sizes="(max-width: 790px) 100vw, 790px" /></a></p>
+<p>免模板，直接数码扫码，高大上的很，可惜每台要好几万，对于我这小店来说，真的是用不起啊！！！</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Apple iPad第七代使用小计</title>
+      <link>https://iliu.org/3103.html</link>
+      <pubDate>Sun, 22 Mar 2020 08:48:36 +0000</pubDate>
+      <guid>https://iliu.org/3103.html</guid>
+      <description>&lt;p&gt;tags:
+眼看着已经到了3月份，疫情防控吃紧，孩子开学遥遥无期，网络直播课如火如荼。很多网络课没法用电脑看，用手机吧，屏幕太小。所以，决定入手一台平板来让孩子进行网课的学习。按我的秉性来说，作为一个荣耀全家桶的使用者，最优的选择肯定是华为或者荣耀的。但是我家大领导和小领导都钟意iPad。没办法，选择这个吧。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>tags:
+眼看着已经到了3月份，疫情防控吃紧，孩子开学遥遥无期，网络直播课如火如荼。很多网络课没法用电脑看，用手机吧，屏幕太小。所以，决定入手一台平板来让孩子进行网课的学习。按我的秉性来说，作为一个荣耀全家桶的使用者，最优的选择肯定是华为或者荣耀的。但是我家大领导和小领导都钟意iPad。没办法，选择这个吧。</p>
+<p><a href="https://liuday.com/wp-content/uploads/2020/03/c1d1468271a40ad.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3104" src="https://liuday.com/wp-content/uploads/2020/03/c1d1468271a40ad.jpg" alt="" width="640" height="640" srcset="https://iliu.org/wp-content/uploads/2020/03/c1d1468271a40ad.jpg 640w, https://iliu.org/wp-content/uploads/2020/03/c1d1468271a40ad-300x300.jpg 300w, https://iliu.org/wp-content/uploads/2020/03/c1d1468271a40ad-150x150.jpg 150w" sizes="(max-width: 640px) 100vw, 640px" /></a></p>
+<p>京东上转了一圈，竟然缺货，然后又跑苏宁易购看看，发现就数码产品来说，苏宁易购比京东有优势，价格比京东便宜不说，货源也足。于是，苏宁买之。</p>
+<p>买的是ipad的第七代产品，看上的就是它的屏幕，一个字，非常大。这也是家里唯一的一款ios的产品了。使用体验没的说。使用流畅，屏幕也清晰，孩子的网课用起来也不错。唯一不满意的地方在于没有学生模式。</p>
+<p>谁知道如何设置IOS的系统，限制某些程序不能用？</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>使用群晖，配置打印机，实现无线打印机的功能</title>
+      <link>https://iliu.org/3005.html</link>
+      <pubDate>Sun, 12 Jan 2020 03:05:02 +0000</pubDate>
+      <guid>https://iliu.org/3005.html</guid>
+      <description>&lt;p&gt;换成荣耀的这台笔记本之后，由于接口比较少，再加上一个笔记本插上usb数据线连上打印机，也不够方便，因为有时候笔记本还要拿回家用用。恰好再群晖的网站上看到群晖也支持市面上大多数的打印机。于是动了把打印机和群晖相联的念头。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>换成荣耀的这台笔记本之后，由于接口比较少，再加上一个笔记本插上usb数据线连上打印机，也不够方便，因为有时候笔记本还要拿回家用用。恰好再群晖的网站上看到群晖也支持市面上大多数的打印机。于是动了把打印机和群晖相联的念头。</p>
+<p>实际上操作还是挺简单的，只要注意一些基本的坑不要踩就行。</p>
+<h2 id="首先把打印机和群晖相联">首先，把打印机和群晖相联</h2>
+<p>把打印机的数据线插在群晖的usb端口上,打开群晖的管理页面。点击控制面板——点击外接设备——选择打印机标签</p>
+<p><a href="https://iliu.org/wp-content/uploads/2020/01/64f4b98d52cdd2c.png"><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-3006" src="https://iliu.org/wp-content/uploads/2020/01/64f4b98d52cdd2c-1024x586.png" alt="" width="1024" height="586" srcset="https://iliu.org/wp-content/uploads/2020/01/64f4b98d52cdd2c-1024x586.png 1024w, https://iliu.org/wp-content/uploads/2020/01/64f4b98d52cdd2c-300x172.png 300w, https://iliu.org/wp-content/uploads/2020/01/64f4b98d52cdd2c-768x439.png 768w, https://iliu.org/wp-content/uploads/2020/01/64f4b98d52cdd2c.png 1250w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p>点击打印机管理，点击设置打印机。</p>
+<p><a href="https://iliu.org/wp-content/uploads/2020/01/9f19250c710cc82.png"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3007" src="https://iliu.org/wp-content/uploads/2020/01/9f19250c710cc82.png" alt="" width="729" height="722" srcset="https://iliu.org/wp-content/uploads/2020/01/9f19250c710cc82.png 729w, https://iliu.org/wp-content/uploads/2020/01/9f19250c710cc82-300x297.png 300w, https://iliu.org/wp-content/uploads/2020/01/9f19250c710cc82-150x150.png 150w" sizes="(max-width: 729px) 100vw, 729px" /></a></p>
+<p>由于跋涉者的打印机是兄弟 hl-1208系列，没有复印 传真等功能，所以，只是选中网络打印机的模式。当然你也可以选择羡慕的Apple无线打印和Google云端打印，这些都是支持的。选择完了，点击保存即可。</p>
+<h2 id="电脑端设置">电脑端设置</h2>
+<p>打开群晖助手，识别出群晖的IP地址后，点击打印机设备。点击新增</p>
+<p><a href="https://iliu.org/wp-content/uploads/2020/01/88c00cba56f68ca.png">下<img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3008" src="https://iliu.org/wp-content/uploads/2020/01/88c00cba56f68ca.png" alt="" width="668" height="617" srcset="https://iliu.org/wp-content/uploads/2020/01/88c00cba56f68ca.png 668w, https://iliu.org/wp-content/uploads/2020/01/88c00cba56f68ca-300x277.png 300w" sizes="(max-width: 668px) 100vw, 668px" /></a></p>
+<p>选择识别出来的打印机，点击下一步，然后装上打印机的驱动。整个工作宣告结束。</p>
+<p>据说，通过群晖还可以实现，手机直接打印的功能，由于不是很需要这个功能，没有研究，有需要这方面的功能的，不妨研究一下。其实也不复杂，都是局域网打印而已。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>宝塔面板安装FRP内网穿透控制群晖</title>
+      <link>https://iliu.org/2918.html</link>
+      <pubDate>Sat, 07 Dec 2019 03:28:28 +0000</pubDate>
+      <guid>https://iliu.org/2918.html</guid>
+      <description>&lt;p&gt;前两天给大家介绍了利用zerotier来进行内网穿透控制群晖的方法，详见：&lt;a href=&#34;https://iliu.org/2872.html&#34;&gt;黑群晖的福音，利用zerotier进行内网穿透&lt;/a&gt;。但是，zerotier使用的时候有时候不太稳定，而且记一堆的数字比较麻烦，今天，给大家介绍另一个神器，frp。直接用命令行的方式在服务器里部署比较繁琐，而且一不留神就会出错，不过好在有大神在宝塔里开发出了插件，一键安装就行。好了，言归正传，开始正题。&lt;/p&gt;
+&lt;p&gt;首先，你得有一个自己的vps，这里把设置强烈推荐&lt;a href=&#34;https://my.liluohost.com/aff.php?aff=148&#34;&gt;篱落主机&lt;/a&gt;。本站就运行在这个主机上，特别是香港的VPS，速度快，服务器也稳定。关键是价格不贵，最便宜的也就100多块一年吧。给小张报我的名字应该还能有些许优惠，毕竟我10年前就是他的客户了。这次，本来买的1h2g的，结果人家二话没说就给升级到了4g。貌似，又跑题了额。&lt;/p&gt;
+&lt;p&gt;有了vps后，安装宝塔面板。安装的方法很简单，官网一看就会，我就不啰嗦了。不出意外的话，2分钟，面板安装完毕。登录到面板的后台。点击软件商店，搜索frp。我们用的是如下这款，因为这款是免费的。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>前两天给大家介绍了利用zerotier来进行内网穿透控制群晖的方法，详见：<a href="https://iliu.org/2872.html">黑群晖的福音，利用zerotier进行内网穿透</a>。但是，zerotier使用的时候有时候不太稳定，而且记一堆的数字比较麻烦，今天，给大家介绍另一个神器，frp。直接用命令行的方式在服务器里部署比较繁琐，而且一不留神就会出错，不过好在有大神在宝塔里开发出了插件，一键安装就行。好了，言归正传，开始正题。</p>
+<p>首先，你得有一个自己的vps，这里把设置强烈推荐<a href="https://my.liluohost.com/aff.php?aff=148">篱落主机</a>。本站就运行在这个主机上，特别是香港的VPS，速度快，服务器也稳定。关键是价格不贵，最便宜的也就100多块一年吧。给小张报我的名字应该还能有些许优惠，毕竟我10年前就是他的客户了。这次，本来买的1h2g的，结果人家二话没说就给升级到了4g。貌似，又跑题了额。</p>
+<p>有了vps后，安装宝塔面板。安装的方法很简单，官网一看就会，我就不啰嗦了。不出意外的话，2分钟，面板安装完毕。登录到面板的后台。点击软件商店，搜索frp。我们用的是如下这款，因为这款是免费的。</p>
+<h2 id="补充说明">补充说明：</h2>
+<p>最近发现这个插件在宝塔里已经找不到了，需要设置服务器端的可以参考本人的<a href="https://iliu.org/3340.html">纯代码设置frp服务器</a>这篇文章，来进行手动设置，也不复杂！先点击购买，因为是免费的，不要钱，直接购买后，点击安装，安装后，点击设置。这里，我们只需要在通用设置这里进行设置就可以了，其他的可以不用设置，不影响使用。端口号之类的可以改也可以不改，主要的是设置验证密钥，设置成你自己的。</p>
+<p>设置完这个之后，一定要在宝塔面板——安全选项里，把你设置的这些端口号放行。不然是用不了的。</p>
+<p>至此，frp服务器端已经设置完毕。下面我们来设置客户端，由于我们是要远程控制群晖，所以这里就以群晖为例。</p>
+<h3 id="设置域名解析">设置域名解析</h3>
+<p>登录你的域名服务商<br>
+域名解析<br>
+设置域名解析到frp服务器地址</p>
+<h3 id="安装frpc文件">安装frpc文件</h3>
+<p>开启群晖SSH功能<br>
+控制面板-终端机和SNMP<br>
+启动SSH功能-应用使用xshell等登录到群晖</p>
+<p>sudo -i //获得root权限 输入密码-回车</p>
+<p>进入安装目录(本文以/usr/local/为例) cd /usr/local/</p>
+<p>因为我们服务器端用的是最新30版的，所以我们也要下载最新版本的。可以到如下的网址查询最新版本：</p>
+<p><a href="https://github.com/fatedier/frp/releases/">https://github.com/fatedier/frp/releases/</a></p>
+<h3 id="配置frpc">配置frpc</h3>
+<pre>编辑frpc.ini文件<br />cd /usr/local/frpc<br />vi frpc.ini</pre>
+<pre>[common] server_addr = x.x.x.x<br /><br /> server_port = 7000<br /><br /> token = 你在宝塔里设置的 <br /><br />[rdp] type = tcp <br /><br />local_ip = 127.0.0.1 <br /><br />local_port = 3389 <br /><br />remote_port = 7001<br /><br /> [smb] type = tcp <br /><br />local_ip = 127.0.0.1<br /><br /> local_port = 445 <br /><br />remote_port = 7002</pre>
+<ul class="wp-block-list">
+  <li>
+    “server_addr”为服务端IP地址，填入即可。
+  </li>
+  <li>
+    “server_port”为服务器端口，填入你设置的端口号即可，如果未改变就是7000
+  </li>
+  <li>
+    “token”是你在服务器上设置的连接口令，原样填入即可。
+  </li>
+</ul>
+<p>ESC退出编辑<br>
+输入:wq回车即可保存</p>
+<h3 id="启动frpc">启动frpc</h3>
+<p>启动frpc命令： ./frpc -c ./frpc.ini</p>
+<p>保持后台运行frpc命令 ： nohup ./frpc -c ./frpc.ini &amp;</p>
+<h2 id="设置群晖nas重启开机自动运行frpc">设置群晖NAS重启开机自动运行frpc</h2>
+<p>控制面板——任务计划新增<br>
+触发的任务<br>
+用户自定义脚本<br>
+常规<br>
+填写任务名称<br>
+用户账号和事件保持默认<br>
+任务设置<br>
+用户自定义脚本<br>
+填写你的frpc安装路径： /usr/local/frpc/frpc -c /usr/local/frpc/frpc.ini<br>
+确定配置完成<br>
+现在可以使用域名无端口访问群晖NAS了</p>
+<p>本文frpc设置部分参考了：群晖NAS安装配置免费frp内网穿透教程 一并表示感谢</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>推荐一款免费的视频剪辑软件shotcut</title>
+      <link>https://iliu.org/2914.html</link>
+      <pubDate>Fri, 06 Dec 2019 02:37:53 +0000</pubDate>
+      <guid>https://iliu.org/2914.html</guid>
+      <description>&lt;hr&gt;
+&lt;p&gt;tags:
+跋涉者最近在弄另一个网站的时候，需要把一些长的视频剪辑成一个短的预览视频，这样没有权限看的人，只能看到短视频，而支付积分后则可以看完整的视频。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<hr>
+<p>tags:
+跋涉者最近在弄另一个网站的时候，需要把一些长的视频剪辑成一个短的预览视频，这样没有权限看的人，只能看到短视频，而支付积分后则可以看完整的视频。</p>
+<p>由于以前一只没有用过此类的软件，因此要求这类软件越简单越好，越容易上手，学习成本越低最理想，可是找了不少，要不是收费的，价格很贵，要不软件很大，功能多的不知道如何下手，要不打开都是广告，一直没有找到理想的，最后，寻寻觅觅终于找到了这款比较满意的——shotcut。<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"></p>
+  <p>
+    Shotcut是一个免费的、开源的、跨平台的视频编辑器，适用于Windows、Mac和Linux。主要功能包括支持多种格式;不需要导入本地时间轴编辑;Blackmagic设计支持输入和预览监控;支持4k分辨率。
+  </p>
+  <p>
+  </p>
+</blockquote>
+<p>软件的官方网站： <a href="https://www.shotcut.org/">https://www.shotcut.org/</a></p>
+<p>软件不大，只有不到100M，但是该有的功能都有了。想要剪辑视频只要鼠标简单的点上几下，就能把视频剪辑到你想要的位置和时间。如上图，想要简介一个视频，只需四步：</p>
+<ul class="wp-block-list">
+  <li>
+    第一步：点击打开文件，选择你要剪辑的视频
+  </li>
+  <li>
+    第二步：在时间轴哪里选择你要剪辑的位置。
+  </li>
+  <li>
+    第三步：点击输出。
+  </li>
+  <li>
+    第四步：点击输出文件
+  </li>
+</ul>
+<p>然后，系统会编译一会，时间和你电脑的配置以及你剪辑的视频长短有关。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>使用zerotier进行内网穿透</title>
+      <link>https://iliu.org/2872.html</link>
+      <pubDate>Wed, 27 Nov 2019 07:33:08 +0000</pubDate>
+      <guid>https://iliu.org/2872.html</guid>
+      <description>&lt;p&gt;tags:
+自从到手了暴风酷播之后，抽空就折腾了下NAS，目前来说系统方面已经没有什么问题了，自己需要使用的套件也基本上弄好了，唯一一个需要搞定的问题就是如何远程访问群晖，同步群晖这个问题。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>tags:
+自从到手了暴风酷播之后，抽空就折腾了下NAS，目前来说系统方面已经没有什么问题了，自己需要使用的套件也基本上弄好了，唯一一个需要搞定的问题就是如何远程访问群晖，同步群晖这个问题。</p>
+<p>关于远程访问群晖，有很多的方法，比如如果你有公网IP，那就很好办，只需要一个域名就可以搞定的事情。但是如果你使用了大局域网的移动宽带，那么上述的方法是没法用的，因为移动宽带就不提供公网IP的。（至于公网IP的方法，不在本文讨论的范围内）。而跋涉者就刚好用的是移动的宽带，而且当初贪图便宜把家里的联通宽带也换成了移动的宽带，所以利用公网IP来远程访问群晖的方法是行不通了。</p>
+<p>那是不是内网就没法进行远程访问群晖了呢，当然不是，我们可以利用内网穿透的方法来绕过这一难题。</p>
+<p>第一个方法是利用FRP这个软件来进行内网穿透。</p>
+<p>这个方法需要你有一台VPS或者服务器，然后在服务器上安装FRP的服务器端，在群晖上安装FRP的客户端，这样，运行起来之后，群晖上的客户端就和VPS上的服务器端进行握手，你就可以用服务器上的ip来远程访问群晖了。</p>
+<p>这种方法需要你有一台服务器，还需要你有较强的动手能力，最重要的一点是服务器还不能差了，否则联网的速度很慢，达不到快速备份的目的。跋涉者首先选择的方案就是这个，也完成了相关的设置，但是由于速度不稳定而放弃。如果你有一台比较好的服务器，这种方法不失为一种好的解决方案。</p>
+<p>第二种方式，买内网穿透的设备</p>
+<p>目前网上有卖这方面的设备的，但是这玩意，一是要花钱，二也是受限于带宽和用户数。所以对这种方法也不是很推荐。</p>
+<p>第三种方法，最简单的一种方法，利用zerotier这个国外的网站进行内网穿透。</p>
+<p>ZeroTier原理：</p>
+<p>ZeroTier虚拟了一个网段，网段为多个网段可选，跋涉者选择的是10.244.150.*这个网段，公司和家里分别安装ZeroTier客户端，客户端会虚拟出一个网络并加入这个网段，在家即可访问10.244.150.1地址，反之同理。</p>
+<p>ZeroTier设备支持：</p>
+<p>免费用户可以支持100个设备，支持Windows、macOS、Linux、IOS、Android、Synology、QNAP、Western Digital MyCloud NAS等等。</p>
+<p>所以，对于我们大多数的人来说，100台设备已经是足够用了，另外就是ZeroTier两台设备握手以后，就采用的是P2P的方式传输数据。因此，不会受到其他因素的干扰，传输数据的速度相当的快，跋涉者这里就达到了3m/s的速度，当然这是因为受限于宽带运营商的上行带宽。</p>
+<p>使用方法：</p>
+<p>打开网站 <a href="https://www.zerotier.com/">ZEROTIER</a></p>
+<p>网站是英文的，不过不影响，点击右上角的login，在打开的页面中点击 <strong>Log in to ZeroTier</strong>最下方点击 Register 。来注册一个新用户。<a href="https://iliu.org/wp-content/uploads/2019/11/37fc35e0fc32e9d.png"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2873" src="https://iliu.org/wp-content/uploads/2019/11/37fc35e0fc32e9d.png" alt="" width="634" height="513" srcset="https://iliu.org/wp-content/uploads/2019/11/37fc35e0fc32e9d.png 634w, https://iliu.org/wp-content/uploads/2019/11/37fc35e0fc32e9d-300x243.png 300w" sizes="(max-width: 634px) 100vw, 634px" /></a></p>
+<p>注册后，进入网站，点击最上面那一行的 Networks 然后点击 create a Networks。系统会给你一个网络的编号。然后点击页面最上面的那一行 downloads,这个页面里有各种系统的客户端。下载，安装。然后把你刚创建的网络号码填进去。运行之后，</p>
+<p>点击进入已创建的网络</p>
+<p>此时可以看到Network ID，后续添加设备都会需要这个ID。</p>
+<p>默认是Certificate (Private Network)，选择此模式表示每次在添加新的主机时，需要手动勾选是否允许连接，如果选择None (Public Network)模式，表示加入网络后自动分配IP并允许连接，从安全性来说建议使用默认选项Certificate (Private Network)，方便性来看None (Public Network)更方便，不用每次加入网络后手动勾选。</p>
+<p><a href="https://iliu.org/wp-content/uploads/2019/11/d1bcac1984700e2.png"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2874" src="https://iliu.org/wp-content/uploads/2019/11/d1bcac1984700e2.png" alt="" width="1024" height="478" srcset="https://iliu.org/wp-content/uploads/2019/11/d1bcac1984700e2.png 1024w, https://iliu.org/wp-content/uploads/2019/11/d1bcac1984700e2-300x140.png 300w, https://iliu.org/wp-content/uploads/2019/11/d1bcac1984700e2-768x359.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p>如下图所示，</p>
+<p><a href="https://iliu.org/wp-content/uploads/2019/11/c74c9a9e0c41d06.png"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2875" src="https://iliu.org/wp-content/uploads/2019/11/c74c9a9e0c41d06.png" alt="" width="995" height="390" srcset="https://iliu.org/wp-content/uploads/2019/11/c74c9a9e0c41d06.png 995w, https://iliu.org/wp-content/uploads/2019/11/c74c9a9e0c41d06-300x118.png 300w, https://iliu.org/wp-content/uploads/2019/11/c74c9a9e0c41d06-768x301.png 768w" sizes="(max-width: 995px) 100vw, 995px" /></a><br>
+每次链接上一个新设备之后，都要在设备的前面那个框里的√打上，这样就表示允许接入网络。</p>
+<p>群晖里的安装也是同样的原理，下载群晖的套件，然后再群晖里选择手动安装套件，接入网络后，就可以用系统分配给你的IP地址加上你群晖的端口号一般是5000，来远程访问你的群晖了。各个群晖的套件也是一样的原来，IP地址加套件的端口号。</p>
+<p>最后，由于安卓客户端众所周知的原因，是没法直接下载的，所以，如果你有使用monents套件的需求，是必须要用安卓客户端的，点击文后的链接，直接下载吧。</p>
+<p><a href="https://iliu.org/wp-content/uploads/2019/11/cd5dfa5f7cf472d.zip">安卓客户端下载</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>再次折腾黑群晖系统</title>
+      <link>https://iliu.org/2860.html</link>
+      <pubDate>Sat, 23 Nov 2019 02:51:56 +0000</pubDate>
+      <guid>https://iliu.org/2860.html</guid>
+      <description>&lt;p&gt;昨天拍了一些眼镜架的图片，可以却同步不到群晖的monents里面，有了群晖之后有些事情确实特别的方便，比如我拍的镜架的图片，想传到在线商城里面，以前的做法是，选择图片，再微信里用文件传输助手传给自己，然后再在桌面的微信里下载下来，很不方便，有了群晖之后，就可以直接在客户端里同步到群晖里，我直接在里面修图，上传到网站即可。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>昨天拍了一些眼镜架的图片，可以却同步不到群晖的monents里面，有了群晖之后有些事情确实特别的方便，比如我拍的镜架的图片，想传到在线商城里面，以前的做法是，选择图片，再微信里用文件传输助手传给自己，然后再在桌面的微信里下载下来，很不方便，有了群晖之后，就可以直接在客户端里同步到群晖里，我直接在里面修图，上传到网站即可。</p>
+<p><a href="https://iliu.org/wp-content/uploads/2019/11/b030f7d30297555.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2863" src="https://iliu.org/wp-content/uploads/2019/11/b030f7d30297555.jpg" alt="" width="900" height="575" srcset="https://iliu.org/wp-content/uploads/2019/11/b030f7d30297555.jpg 900w, https://iliu.org/wp-content/uploads/2019/11/b030f7d30297555-300x192.jpg 300w, https://iliu.org/wp-content/uploads/2019/11/b030f7d30297555-768x491.jpg 768w" sizes="(max-width: 900px) 100vw, 900px" /></a></p>
+<p>但是今天却同步出错了，用重启大法重启后，竟然显示数据损坏，让重新安装系统，但是下载了3617的pat后上传，却显示13错误，从网上查了一下，应该是和引导不匹配造成的。那就重新安装吧，听张波老师说，二合一的系统不稳定，这次打算直接把引导程序装到U盘里，暴风自带的ssd专门装套件，西数的那块2T的硬盘作为数据盘。</p>
+<p>由于没有弄过非2合一的，在网上找教程的时候看到有人说万由的U-NAS也不错，简单高效，并且暴风可以说是万由的亲儿子。由于觉得自己使用也就是备份下数据什么的，用万由也就够了，于是，打算装万由的系统试试。万由的系统安装很简单，用Win32DiskImager把固件写入U盘，安装到ssd里即可。</p>
+<p>暴风接上显示器，大爷，又进不去bios了，轻车熟路，拆机箱，扣主板电池放电，装上电池。接上显示器，电源等，开机进入bios。可是却识别不出来U盘，后来查到是因为万由不支持uefi启动，于是更改主板的引导方式，安装很顺利，可惜安装后，又不能进BIOS了，不过进入系统正常，登录了一下万由的系统，感觉摸不到头脑，系统和群晖一比就如windows98和win10的差别一样，易用性太差了，没办法，还是换成群晖吧。不过，u-NAS启动等都能甩群晖一条街。。。。可惜不是我的菜。</p>
+<p>由于还是进不去BIOS，于是继续抠电池。看到主板的版本是1.4的，怀疑是不是版本的问题，看官方的最新是1.8的，于是升级主板的版本到1.8,重启了几次，开机进bIOS正常，于是为了兼容性，于是打开了打开CSM选项，保存重启，大爷的，又进不去BIOS了，不过也终于知道是什么原因导致进不去BIOS了。再次抠电池，设置的是，不打开CSM选项就是了。现在回想起来，应该都是设置了这个造成的。也不知道是我这块主板的个例还是全都是这样。</p>
+<p><a href="https://iliu.org/wp-content/uploads/2019/11/48d97b422372f66.jpg"><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-2861" src="https://iliu.org/wp-content/uploads/2019/11/48d97b422372f66-1024x394.jpg" alt="" width="1024" height="394" srcset="https://iliu.org/wp-content/uploads/2019/11/48d97b422372f66-1024x394.jpg 1024w, https://iliu.org/wp-content/uploads/2019/11/48d97b422372f66-300x115.jpg 300w, https://iliu.org/wp-content/uploads/2019/11/48d97b422372f66-768x295.jpg 768w, https://iliu.org/wp-content/uploads/2019/11/48d97b422372f66-1536x591.jpg 1536w, https://iliu.org/wp-content/uploads/2019/11/48d97b422372f66-2048x787.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p>如上图，这是正常启动的时候，显示的当开启CSM后，上面这些文字显示的是乱码，就进不去BIOS了，不过进系统正常。</p>
+<p>这次安装决定把引导程序装到U盘里，暴风自带的ssd专门装套件，西数的那块2T的硬盘作为数据盘。网上一堆的教程让人头大，其实理顺了也很简单。过两天抽空写个教程。安装顺利，由于没有改CSM，启动也正常。又可以方便的使用群晖带来的服务了。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>记暴风酷播云2期折腾黑群晖</title>
+      <link>https://iliu.org/2855.html</link>
+      <pubDate>Mon, 18 Nov 2019 07:28:30 +0000</pubDate>
+      <guid>https://iliu.org/2855.html</guid>
+      <description>&lt;p&gt;双11前后，张波老师弄了个zhang.gg和zhang.bo的两个域名，看gg不贵，而且有www.liuday.com这个域名还没有被注册，于是也跟风注册了个个性域名。后来不知道怎么聊的聊到了NAS上面，本来觉得我对这个需求不是很大，后来张波老师说，他淘汰了他的蜗牛弄了个暴风，于是我就想用张老师淘汰下来的蜗牛玩一玩。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>双11前后，张波老师弄了个zhang.gg和zhang.bo的两个域名，看gg不贵，而且有www.liuday.com这个域名还没有被注册，于是也跟风注册了个个性域名。后来不知道怎么聊的聊到了NAS上面，本来觉得我对这个需求不是很大，后来张波老师说，他淘汰了他的蜗牛弄了个暴风，于是我就想用张老师淘汰下来的蜗牛玩一玩。</p>
+<p><a href="https://iliu.org/wp-content/uploads/2019/11/9b81db5da85a49e.png"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2856" src="https://iliu.org/wp-content/uploads/2019/11/9b81db5da85a49e.png" alt="" width="640" height="296" srcset="https://iliu.org/wp-content/uploads/2019/11/9b81db5da85a49e.png 640w, https://iliu.org/wp-content/uploads/2019/11/9b81db5da85a49e-300x139.png 300w" sizes="(max-width: 640px) 100vw, 640px" /></a></p>
+<p>张波老师要送给我，我不同意，后来半卖半送的给了我，不巧的是，张老师再发货的时候，蜗牛的系统出问题了，于是也就不了了之了。在这期间也了解了下NAS这个玩意，觉得还是不错的，自己还是有一定的需求的，再加上媳妇手机的照片满了，特别是她备份到华为云，只有5g的免费空间，早就超了，现在50g的也超了，下一个就要买200g的，一年也不少钱，于是决定淘个这种垃圾玩，张老师建议直接上暴风，但是当时我已经下单买了蜗牛，当时想着弄个NAS加上个软路由，所以还买的卖家改的双网口版的。</p>
+<p>发过来后，卖家虽然号称的是99新，但是明显是重新喷过漆的，不过清理的很干净。慢慢的山寨感，使用了一下黑群晖的系统，觉得也还行。为了保险起见还是上暴风吧，于是和卖家联系，好说歹说，把这蜗牛给退了。</p>
+<p>正再闲鱼找呢，一个哥们说他淘汰了一台，他上铁威马了。于是把这台暴风发给了我。唉，到哪都能遇到好人，哈哈。发过来后，发现整个比蜗牛强多了，不是一个档次的东西。朋友装的是918+的6.2.2，开机慢的要死，基本上要5分钟还多，关机也慢，最重要的是相册套件moments总出问题，不是卡再转换那，就是象掉线了一样，及不能上传图片，也删除不了图片。</p>
+<p>本来以为这个问题是远程不稳的原因，后来发现，局域网里也不行。昨天张波老师说暴风用3617比较合适，于是今天上午没事就开搞。百度云盘这次比较给力，下载固件竟然给了1M的速度。固件什么弄完了，给暴风装上显示器，键盘 鼠标等，结果按网上说的按F11开机，屏幕上显示几行字母，一闪黑屏了。大爷的，以为是不支持无线键盘造成的，于是又找了个USB接口的键盘，还是一个鸟样。问了那个哥们和张波老师，说按F2试试看能不能进bois，网上找了一圈都是说按del。开机，F2，还是不行。</p>
+<p><a href="https://iliu.org/wp-content/uploads/2019/11/fda13334174751b.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2857" src="https://iliu.org/wp-content/uploads/2019/11/fda13334174751b.jpg" alt="" width="1024" height="613" srcset="https://iliu.org/wp-content/uploads/2019/11/fda13334174751b.jpg 1024w, https://iliu.org/wp-content/uploads/2019/11/fda13334174751b-300x180.jpg 300w, https://iliu.org/wp-content/uploads/2019/11/fda13334174751b-768x460.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p>于是，觉得死马当做活马医，拆机，把主板电池扣掉，然后要把线紧紧。重新装上后，开机F2,进bois了。并且分辨率也调整了。现在想想是不是以前主板记录的屏幕分辨率比较低导致菜单出不来？关机重启，按F11也顺利的弹出选择U盘的启动的菜单了，于是按照3617二合一的教程，顺利的安装完毕。</p>
+<p>重启机器，一切正常，没有乱码，也没有了原来那个提示什么VGA错误的提示了，进系统很快，不到1分钟的时间，下午测试了下moment套件的情况，也一切正常了。</p>
+<p>所以，建议折腾暴风酷播云的朋友，尽量安装6.1.7的版本，非常稳定，非常流畅，用FRP做的内网穿透也好用的不得了。。。。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>WordPress开启Nginx fastcgi_cache缓存加速</title>
+      <link>https://iliu.org/2700.html</link>
+      <pubDate>Sun, 08 Sep 2019 01:51:11 +0000</pubDate>
+      <guid>https://iliu.org/2700.html</guid>
+      <description>&lt;p&gt;昨天趁着重装景安服务器，把一直想弄的 &lt;code&gt;nginx fastcgi_cache&lt;/code&gt; 配置好了，虽然走了不少弯路，但最终成功了，网页打开速度明显提升。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;一安装-nginx-ngx_cache_purge-模块&#34;&gt;一、安装 Nginx ngx_cache_purge 模块&lt;/h2&gt;
+&lt;p&gt;由于使用的是 OneinStack 面板，以下步骤基于 OneinStack。其他面板如 LNMP 可能需要微调。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>昨天趁着重装景安服务器，把一直想弄的 <code>nginx fastcgi_cache</code> 配置好了，虽然走了不少弯路，但最终成功了，网页打开速度明显提升。</p>
+<hr>
+<h2 id="一安装-nginx-ngx_cache_purge-模块">一、安装 Nginx ngx_cache_purge 模块</h2>
+<p>由于使用的是 OneinStack 面板，以下步骤基于 OneinStack。其他面板如 LNMP 可能需要微调。</p>
+<ol>
+<li><strong>检查 ngx_cache_purge 是否安装</strong></li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">nginx -V 2&gt;<span class="p">&amp;</span><span class="m">1</span> <span class="p">|</span> grep -o ngx_cache_purge
+</span></span></code></pre></td></tr></table>
+</div>
+</div><blockquote>
+<p>如果没有输出，表示未安装。</p>
+</blockquote>
+<ol start="2">
+<li><strong>下载并解压 ngx_cache_purge 模块</strong></li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> /root/oneinstack/src
+</span></span><span class="line"><span class="cl">wget http://labs.frickle.com/files/ngx_cache_purge-2.3.tar.gz
+</span></span><span class="line"><span class="cl">tar xzf ngx_cache_purge-2.3.tar.gz
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="3">
+<li><strong>解压 Nginx 及依赖包</strong></li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">tar xzf nginx-1.16.1.tar.gz
+</span></span><span class="line"><span class="cl">tar xzf pcre-8.43.tar.gz
+</span></span><span class="line"><span class="cl">tar xzf openssl-1.1.1c.tar.gz
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> /root/oneinstack/src/nginx-1.16.1
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="4">
+<li><strong>查看 Nginx 编译参数</strong></li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">nginx -V
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="5">
+<li><strong>编译并安装 ngx_cache_purge</strong></li>
+</ol>
+<p>注意：添加模块时必须保留原有编译参数，只在末尾加上 <code>--add-module=../ngx_cache_purge-2.3</code></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">./configure --prefix<span class="o">=</span>/usr/local/nginx --user<span class="o">=</span>www --group<span class="o">=</span>www <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>--with-http_stub_status_module --with-http_v2_module --with-http_ssl_module <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>--with-http_gzip_static_module --with-http_realip_module --with-http_flv_module <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>--with-http_mp4_module --with-openssl<span class="o">=</span>../openssl-1.0.2o --with-pcre<span class="o">=</span>../pcre-8.42 <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>--with-pcre-jit --with-ld-opt<span class="o">=</span>-ljemalloc --add-module<span class="o">=</span>../ngx_cache_purge-2.3
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">make
+</span></span><span class="line"><span class="cl">mv /usr/local/nginx/sbin/nginx<span class="o">{</span>,_<span class="sb">`</span>date +%F<span class="sb">`</span><span class="o">}</span> <span class="c1"># 备份旧版本</span>
+</span></span><span class="line"><span class="cl">cp objs/nginx /usr/local/nginx/sbin
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="6">
+<li><strong>验证安装成功</strong></li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">nginx -V 2&gt;<span class="p">&amp;</span><span class="m">1</span> <span class="p">|</span> grep -o ngx_cache_purge
+</span></span></code></pre></td></tr></table>
+</div>
+</div><blockquote>
+<p>输出 <code>ngx_cache_purge</code> 表示安装成功。</p>
+</blockquote>
+<hr>
+<h2 id="二nginx-开启-fastcgi-cache-配置实例">二、Nginx 开启 FastCGI Cache 配置实例</h2>
+<p>以下为我的 WordPress 网站配置示例（<code>www.yanjingweb.cn</code>）：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-nginx" data-lang="nginx"><span class="line"><span class="cl"><span class="k">fastcgi_cache_path</span> <span class="s">/tmp/wpcache</span> <span class="s">levels=1:2</span> <span class="s">keys_zone=WORDPRESS:250m</span> <span class="s">inactive=1d</span> <span class="s">max_size=1G</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">fastcgi_temp_path</span> <span class="s">/tmp/wpcache/temp</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">fastcgi_cache_key</span> <span class="s">&#34;</span><span class="nv">$scheme$request_method$host$request_uri&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">fastcgi_cache_use_stale</span> <span class="s">error</span> <span class="s">timeout</span> <span class="s">invalid_header</span> <span class="s">http_500</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">server</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kn">listen</span> <span class="mi">80</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kn">listen</span> <span class="mi">443</span> <span class="s">ssl</span> <span class="s">http2</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="kn">set</span> <span class="nv">$skip_cache</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1"># POST 请求不缓存
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="kn">if</span> <span class="s">(</span><span class="nv">$request_method</span> <span class="p">=</span> <span class="s">POST)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kn">set</span> <span class="nv">$skip_cache</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1"># 带查询字符串的请求不缓存
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="kn">if</span> <span class="s">(</span><span class="nv">$query_string</span> <span class="s">!=</span> <span class="s">&#34;&#34;)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kn">set</span> <span class="nv">$skip_cache</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1"># 后台及特定页面不缓存
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="kn">if</span> <span class="s">(</span><span class="nv">$request_uri</span> <span class="p">~</span><span class="sr">*</span> <span class="s">&#34;/wp-admin/|/xmlrpc.php|wp-.*.php|/feed/|index.php|sitemap(_index)?.xml&#34;)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kn">set</span> <span class="nv">$skip_cache</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1"># 登录用户或评论用户不缓存
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="kn">if</span> <span class="s">(</span><span class="nv">$http_cookie</span> <span class="p">~</span><span class="sr">*</span> <span class="s">&#34;comment_author|wordpress_[a-f0-9]+|wp-postpass|wordpress_no_cache|wordpress_logged_in&#34;)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kn">set</span> <span class="nv">$skip_cache</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kn">location</span> <span class="p">~</span> <span class="sr">[^/]\.php(/|$)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kn">fastcgi_index</span> <span class="s">index.php</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="kn">include</span> <span class="s">fastcgi.conf</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="kn">fastcgi_cache_bypass</span> <span class="nv">$skip_cache</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="kn">fastcgi_no_cache</span> <span class="nv">$skip_cache</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="kn">fastcgi_cache</span> <span class="s">WORDPRESS</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="kn">fastcgi_cache_valid</span> <span class="mi">200</span> <span class="mi">301</span> <span class="mi">302</span> <span class="s">1d</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="kn">add_header</span> <span class="s">X-Cache</span> <span class="s">&#34;</span><span class="nv">$upstream_cache_status</span> <span class="s">From</span> <span class="nv">$host&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="kn">add_header</span> <span class="s">Nginx-Cache</span> <span class="s">&#34;</span><span class="nv">$upstream_cache_status&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1"># 缓存清理配置（可选）
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="kn">location</span> <span class="p">~</span> <span class="sr">/purge(/.*)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kn">allow</span> <span class="n">127.0.0.1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="kn">allow</span> <span class="n">122.115.122.111</span><span class="p">;</span> <span class="c1"># 请改为你服务器 IP
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="kn">deny</span> <span class="s">all</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="kn">fastcgi_cache_purge</span> <span class="s">WORDPRESS</span> <span class="s">&#34;</span><span class="nv">$scheme$request_method$host$1&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><hr>
+<h2 id="三测试与验证">三、测试与验证</h2>
+<ol>
+<li>检查 Nginx 配置是否正确：</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">nginx -t
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="2">
+<li>重启 Nginx：</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">service nginx restart
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="3">
+<li>打开网页，F5 刷新几次，查看浏览器响应头：</li>
+</ol>
+<blockquote>
+<p>如果看到 <code>X-Cache: HIT</code> 字样，表示缓存生效。</p>
+</blockquote>
+<ol start="4">
+<li>查看缓存文件夹 <code>/tmp/wpcache</code>，可以看到缓存文件生成。</li>
+</ol>
+<hr>
+<h2 id="四效果总结">四、效果总结</h2>
+<p>开启 <code>fastcgi_cache</code> 后，即使不使用 CDN，网页打开速度明显提升，实现了秒开体验。</p>
+<blockquote>
+<p>有动手能力的同学可以尝试，操作难度中等，但效果非常明显。</p>
+</blockquote>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>lnmp一键开启waf及使用 Fail2Ban防护</title>
+      <link>https://iliu.org/2556.html</link>
+      <pubDate>Sun, 28 Jul 2019 09:07:40 +0000</pubDate>
+      <guid>https://iliu.org/2556.html</guid>
+      <description>&lt;p&gt;本文主要介绍如何在 &lt;strong&gt;LNMP 一键安装包&lt;/strong&gt; 环境下，启用 &lt;strong&gt;ngx_lua_waf&lt;/strong&gt; Web 防火墙，并使用 &lt;strong&gt;Fail2Ban&lt;/strong&gt; 防护 Nginx 与 WordPress。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;一lnmp-开启-lua-支持&#34;&gt;一、LNMP 开启 Lua 支持&lt;/h2&gt;
+&lt;p&gt;LNMP 一键安装包从 &lt;strong&gt;1.5 版本&lt;/strong&gt;开始支持 Lua，可用于启用 ngx_lua_waf。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;修改 &lt;code&gt;lnmp.conf&lt;/code&gt;：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;Enable_Nginx_Lua&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;y
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;若 LNMP 已安装，执行：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;./upgrade.sh nginx
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;输入当前 Nginx 版本号或需要升级的版本号，即可启用 Lua 支持。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>本文主要介绍如何在 <strong>LNMP 一键安装包</strong> 环境下，启用 <strong>ngx_lua_waf</strong> Web 防火墙，并使用 <strong>Fail2Ban</strong> 防护 Nginx 与 WordPress。</p>
+<hr>
+<h2 id="一lnmp-开启-lua-支持">一、LNMP 开启 Lua 支持</h2>
+<p>LNMP 一键安装包从 <strong>1.5 版本</strong>开始支持 Lua，可用于启用 ngx_lua_waf。</p>
+<ol>
+<li>修改 <code>lnmp.conf</code>：</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nv">Enable_Nginx_Lua</span><span class="o">=</span>y
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="2">
+<li>若 LNMP 已安装，执行：</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">./upgrade.sh nginx
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>输入当前 Nginx 版本号或需要升级的版本号，即可启用 Lua 支持。</p>
+<hr>
+<h2 id="二安装-ngx_lua_waf">二、安装 ngx_lua_waf</h2>
+<ol>
+<li>下载并解压：</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">wget https://github.com/loveshell/ngx_lua_waf/archive/master.zip -O ngx_lua_waf.zip
+</span></span><span class="line"><span class="cl">unzip ngx_lua_waf.zip
+</span></span><span class="line"><span class="cl">mv ngx_lua_waf-master /usr/local/nginx/conf/waf
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="2">
+<li>修改 Nginx 配置 <code>/usr/local/nginx/conf/nginx.conf</code>：</li>
+</ol>
+<p>在 <code>server_tokens off;</code> 下添加：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-nginx" data-lang="nginx"><span class="line"><span class="cl"><span class="k">lua_package_path</span> <span class="s">&#34;/usr/local/nginx/conf/waf/?.lua</span><span class="p">;</span>;<span class="k">&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">lua_shared_dict</span> <span class="s">limit</span> <span class="mi">10m</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">init_by_lua_file</span> <span class="s">/usr/local/nginx/conf/waf/init.lua</span><span class="p">;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="3">
+<li>在虚拟主机中启用 WAF：</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-nginx" data-lang="nginx"><span class="line"><span class="cl"><span class="k">server</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kn">root</span> <span class="s">/网站目录</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kn">access_by_lua_file</span> <span class="s">/usr/local/nginx/conf/waf/waf.lua</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="4">
+<li>测试 Nginx 配置并重载：</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">/usr/local/nginx/sbin/nginx -t
+</span></span><span class="line"><span class="cl">/usr/local/nginx/sbin/nginx -s reload
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="5">
+<li>测试防护：</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-http" data-lang="http"><span class="line"><span class="cl"><span class="err">http://你的域名/test.php?id=../etc/passwd
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>提示“您的请求带有不合法参数，已被网站管理员设置拦截”表示生效。</p>
+<ul>
+<li>WAF 配置文件路径：<code>/usr/local/nginx/conf/waf/config.lua</code></li>
+</ul>
+<hr>
+<h2 id="三fail2ban-防护网站与服务器">三、Fail2Ban 防护网站与服务器</h2>
+<h3 id="1-获取真实访问-ip">1. 获取真实访问 IP</h3>
+<p>套用 CDN 后，需要在 Nginx 中获取真实 IP：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-nginx" data-lang="nginx"><span class="line"><span class="cl"><span class="k">http</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kn">log_format</span> <span class="s">main</span> <span class="s">&#39;</span><span class="nv">$http_x_forwarded_for-$remote_user[$time_local]</span> <span class="s">&#34;</span><span class="nv">$request&#34;</span> <span class="nv">$status</span> <span class="nv">$body_bytes_sent</span> <span class="s">&#34;</span><span class="nv">$http_referer&#34;</span> <span class="s">&#34;</span><span class="nv">$http_user_agent&#34;&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kn">access_log</span> <span class="s">/home/wwwlogs/xxxx.log</span> <span class="s">main</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>重载 Nginx 后，日志中显示的即为真实来源 IP。</p>
+<hr>
+<h3 id="2-配置-fail2ban">2. 配置 Fail2Ban</h3>
+<ol>
+<li>复制配置文件：</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="2">
+<li>编辑 <code>/etc/fail2ban/jail.local</code>：</li>
+</ol>
+<p>在 <code>[DEFAULT]</code> 下设置：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ini" data-lang="ini"><span class="line"><span class="cl"><span class="na">bantime</span> <span class="o">=</span> <span class="s">3600     # 封禁时长</span>
+</span></span><span class="line"><span class="cl"><span class="na">findtime</span> <span class="o">=</span> <span class="s">3600    # 统计时间</span>
+</span></span><span class="line"><span class="cl"><span class="na">maxretry</span> <span class="o">=</span> <span class="s">6       # 最大失败次数</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="3">
+<li>启用监狱（示例 Nginx 与 WordPress 防护）：</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ini" data-lang="ini"><span class="line"><span class="cl"><span class="k">[nginx-http-auth]</span>
+</span></span><span class="line"><span class="cl"><span class="na">enabled</span> <span class="o">=</span> <span class="s">true</span>
+</span></span><span class="line"><span class="cl"><span class="na">filter</span> <span class="o">=</span> <span class="s">nginx-http-auth</span>
+</span></span><span class="line"><span class="cl"><span class="na">port</span> <span class="o">=</span> <span class="s">http,https</span>
+</span></span><span class="line"><span class="cl"><span class="na">logpath</span> <span class="o">=</span> <span class="s">/var/log/nginx/error.log</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">[nginx-badbots]</span>
+</span></span><span class="line"><span class="cl"><span class="na">enabled</span> <span class="o">=</span> <span class="s">true</span>
+</span></span><span class="line"><span class="cl"><span class="na">filter</span> <span class="o">=</span> <span class="s">nginx-badbots</span>
+</span></span><span class="line"><span class="cl"><span class="na">port</span> <span class="o">=</span> <span class="s">http,https</span>
+</span></span><span class="line"><span class="cl"><span class="na">logpath</span> <span class="o">=</span> <span class="s">/var/log/nginx/access.log</span>
+</span></span><span class="line"><span class="cl"><span class="na">maxretry</span> <span class="o">=</span> <span class="s">2</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">[nginx-nohome]</span>
+</span></span><span class="line"><span class="cl"><span class="na">enabled</span> <span class="o">=</span> <span class="s">true</span>
+</span></span><span class="line"><span class="cl"><span class="na">filter</span> <span class="o">=</span> <span class="s">nginx-nohome</span>
+</span></span><span class="line"><span class="cl"><span class="na">port</span> <span class="o">=</span> <span class="s">http,https</span>
+</span></span><span class="line"><span class="cl"><span class="na">logpath</span> <span class="o">=</span> <span class="s">/var/log/nginx/access.log</span>
+</span></span><span class="line"><span class="cl"><span class="na">maxretry</span> <span class="o">=</span> <span class="s">2</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">[nginx-noproxy]</span>
+</span></span><span class="line"><span class="cl"><span class="na">enabled</span> <span class="o">=</span> <span class="s">true</span>
+</span></span><span class="line"><span class="cl"><span class="na">filter</span> <span class="o">=</span> <span class="s">nginx-noproxy</span>
+</span></span><span class="line"><span class="cl"><span class="na">port</span> <span class="o">=</span> <span class="s">http,https</span>
+</span></span><span class="line"><span class="cl"><span class="na">logpath</span> <span class="o">=</span> <span class="s">/var/log/nginx/access.log</span>
+</span></span><span class="line"><span class="cl"><span class="na">maxretry</span> <span class="o">=</span> <span class="s">2</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">[wp-login]</span>
+</span></span><span class="line"><span class="cl"><span class="na">enabled</span> <span class="o">=</span> <span class="s">true</span>
+</span></span><span class="line"><span class="cl"><span class="na">filter</span> <span class="o">=</span> <span class="s">wp-login</span>
+</span></span><span class="line"><span class="cl"><span class="na">port</span> <span class="o">=</span> <span class="s">http,https</span>
+</span></span><span class="line"><span class="cl"><span class="na">maxretry</span> <span class="o">=</span> <span class="s">10</span>
+</span></span><span class="line"><span class="cl"><span class="na">findtime</span> <span class="o">=</span> <span class="s">60</span>
+</span></span><span class="line"><span class="cl"><span class="na">bantime</span> <span class="o">=</span> <span class="s">43600</span>
+</span></span><span class="line"><span class="cl"><span class="na">logpath</span> <span class="o">=</span> <span class="s">/var/log/nginx/access.log</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">[xmlrpc]</span>
+</span></span><span class="line"><span class="cl"><span class="na">enabled</span> <span class="o">=</span> <span class="s">true</span>
+</span></span><span class="line"><span class="cl"><span class="na">filter</span> <span class="o">=</span> <span class="s">xmlrpc</span>
+</span></span><span class="line"><span class="cl"><span class="na">port</span> <span class="o">=</span> <span class="s">http,https</span>
+</span></span><span class="line"><span class="cl"><span class="na">logpath</span> <span class="o">=</span> <span class="s">/var/log/nginx/access.log</span>
+</span></span><span class="line"><span class="cl"><span class="na">bantime</span> <span class="o">=</span> <span class="s">43600</span>
+</span></span><span class="line"><span class="cl"><span class="na">maxretry</span> <span class="o">=</span> <span class="s">1</span>
+</span></span><span class="line"><span class="cl"><span class="na">findtime</span> <span class="o">=</span> <span class="s">5</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><hr>
+<h3 id="3-创建-fail2ban-规则">3. 创建 Fail2Ban 规则</h3>
+<p>在 <code>/etc/fail2ban/filter.d/</code> 中添加规则文件：</p>
+<ul>
+<li><strong>nginx-http-auth.conf</strong>：过滤 HTTP 验证失败</li>
+<li><strong>nginx-badbots.conf</strong>：过滤恶意爬虫（可复制 apache-badbots.conf）</li>
+<li><strong>nginx-nohome.conf</strong>：过滤目录扫描</li>
+<li><strong>nginx-noproxy.conf</strong>：防止反代</li>
+<li><strong>wp-login.conf</strong>：防止 WordPress 登录暴力破解</li>
+<li><strong>xmlrpc.conf</strong>：防止 WordPress xmlrpc 攻击</li>
+</ul>
+<hr>
+<h3 id="4-防护无效-404-请求">4. 防护无效 404 请求</h3>
+<ol>
+<li>创建过滤规则 <code>/etc/fail2ban/filter.d/nginx-not-found.conf</code>：</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ini" data-lang="ini"><span class="line"><span class="cl"><span class="k">[Definition]</span>
+</span></span><span class="line"><span class="cl"><span class="na">failregex</span> <span class="o">=</span> <span class="s">^&lt;HOST&gt;.*&#34;(GET|POST).*&#34; (404|444|403|400) .*$</span>
+</span></span><span class="line"><span class="cl"><span class="na">ignoreregex</span> <span class="o">=</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="2">
+<li>启用监狱：</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ini" data-lang="ini"><span class="line"><span class="cl"><span class="k">[nginxno404]</span>
+</span></span><span class="line"><span class="cl"><span class="na">enabled</span> <span class="o">=</span> <span class="s">true</span>
+</span></span><span class="line"><span class="cl"><span class="na">port</span> <span class="o">=</span> <span class="s">http,https</span>
+</span></span><span class="line"><span class="cl"><span class="na">filter</span> <span class="o">=</span> <span class="s">nginx-not-found</span>
+</span></span><span class="line"><span class="cl"><span class="na">action</span> <span class="o">=</span> <span class="s">iptables[name=nginxno404, port=http, protocol=tcp]</span>
+</span></span><span class="line"><span class="cl"><span class="na">logpath</span> <span class="o">=</span> <span class="s">/home/wwwlogs/access.log</span>
+</span></span><span class="line"><span class="cl"><span class="na">bantime</span> <span class="o">=</span> <span class="s">3600</span>
+</span></span><span class="line"><span class="cl"><span class="na">findtime</span> <span class="o">=</span> <span class="s">60</span>
+</span></span><span class="line"><span class="cl"><span class="na">maxretry</span> <span class="o">=</span> <span class="s">5</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="3">
+<li>重启 Fail2Ban：</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">systemctl restart fail2ban.service
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="4">
+<li>查看状态：</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">fail2ban-client status
+</span></span><span class="line"><span class="cl">tail -f /var/log/fail2ban.log
+</span></span><span class="line"><span class="cl">iptables --list -n
+</span></span></code></pre></td></tr></table>
+</div>
+</div><hr>
+<h2 id="四总结">四、总结</h2>
+<ul>
+<li>LNMP + Lua + ngx_lua_waf 可提供基本 Web 防火墙保护。</li>
+<li>Fail2Ban 可防暴力破解、恶意爬虫、目录扫描、WordPress xmlrpc 攻击及无效请求。</li>
+<li>结合日志监控与定期规则更新，可有效提升网站安全性。</li>
+</ul>
+<blockquote>
+<p>注：本文参考了 <a href="https://www.logcg.com/archives/2998.html">落格部落</a> 及 <a href="https://www.imydl.com">明月登楼博客</a> 的相关内容。</p>
+</blockquote>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>给7B2主题加上外链自动跳转功能</title>
+      <link>https://iliu.org/1656.html</link>
+      <pubDate>Mon, 27 May 2019 07:08:40 +0000</pubDate>
+      <guid>https://iliu.org/1656.html</guid>
+      <description>&lt;p&gt;7B2 主题默认没有外链自动跳转功能。虽然说作用不大，但大多数站长都会给外链增加自动跳转功能，所以这里介绍一种实现方法，源码来自缙哥哥。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;第一步建立跳转文件&#34;&gt;第一步：建立跳转文件&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;在网站根目录下新建一个名为 &lt;code&gt;go&lt;/code&gt; 的文件夹。&lt;/li&gt;
+&lt;li&gt;在 &lt;code&gt;go&lt;/code&gt; 文件夹里创建 &lt;code&gt;index.php&lt;/code&gt; 文件。&lt;/li&gt;
+&lt;li&gt;上传 PHP 代码到该文件。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这个 PHP 页面主要功能：&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>7B2 主题默认没有外链自动跳转功能。虽然说作用不大，但大多数站长都会给外链增加自动跳转功能，所以这里介绍一种实现方法，源码来自缙哥哥。</p>
+<hr>
+<h2 id="第一步建立跳转文件">第一步：建立跳转文件</h2>
+<ol>
+<li>在网站根目录下新建一个名为 <code>go</code> 的文件夹。</li>
+<li>在 <code>go</code> 文件夹里创建 <code>index.php</code> 文件。</li>
+<li>上传 PHP 代码到该文件。</li>
+</ol>
+<blockquote>
+<p>这个 PHP 页面主要功能：</p>
+<ul>
+<li>接收传入的外链 URL。</li>
+<li>对特定外链进行自定义跳转（可自行添加或删除）。</li>
+<li>支持 URL 的 base64 编码和解码。</li>
+<li>对非法或缺失的参数进行默认处理，返回首页。</li>
+</ul>
+</blockquote>
+<hr>
+<h2 id="第二步自定义跳转规则">第二步：自定义跳转规则</h2>
+<ol>
+<li>在 PHP 文件中可以定义一个数组，用于存储常用的跳转目标和标识。</li>
+<li>PHP 会遍历数组，如果传入的 URL 与数组匹配，则使用数组中定义的实际 URL 进行跳转。</li>
+</ol>
+<blockquote>
+<p>示例用途：</p>
+<ul>
+<li>联盟推广链接</li>
+<li>合作网站跳转</li>
+<li>安全验证外链</li>
+</ul>
+</blockquote>
+<hr>
+<h2 id="第三步跳转处理逻辑">第三步：跳转处理逻辑</h2>
+<ol>
+<li>判断 URL 是否为空或是否经过加密。</li>
+<li>检查 URL 是否以 <code>http://</code>、<code>https://</code> 等协议开头。</li>
+<li>如果 URL 格式合法，则显示一个跳转页面，并倒计时几秒后自动跳转。</li>
+<li>如果 URL 不合法或缺失，则返回网站首页，并提示“参数错误”或“参数缺失”。</li>
+</ol>
+<hr>
+<h2 id="第四步前端跳转页面">第四步：前端跳转页面</h2>
+<ol>
+<li>
+<p>HTML 页面显示：</p>
+<ul>
+<li>跳转标题，如“页面加载中，请稍候……”</li>
+<li>倒计时圆形动画</li>
+<li>跳转按钮：用户可点击立即跳转</li>
+<li>页脚提示：安全加密标识</li>
+</ul>
+</li>
+<li>
+<p>倒计时逻辑使用 JavaScript 控制，倒计时结束后自动跳转。</p>
+</li>
+</ol>
+<hr>
+<h2 id="第五步安全与兼容性">第五步：安全与兼容性</h2>
+<ol>
+<li>防止恶意 URL 或脚本注入。</li>
+<li>支持多种浏览器，包括 IE8。</li>
+<li>可禁用外部网站引用此跳转页面（可选注释代码）。</li>
+</ol>
+<hr>
+<p>整体效果：<strong>美观、带倒计时、兼容性好，并且可以自定义跳转规则</strong>。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>这次发现百度收录的挺快的</title>
+      <link>https://iliu.org/53.html</link>
+      <pubDate>Sat, 18 May 2019 09:02:18 +0000</pubDate>
+      <guid>https://iliu.org/53.html</guid>
+      <description>&lt;hr&gt;
+&lt;p&gt;tags:
+前天，无疑中在百度中输入site:ewader.com，发现首页被收录了。感觉这次收录的倒是挺快的，不过也就仅仅收录了一个首页而已，我甚至统计代码什么的都没有加。期待收录的更多。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<hr>
+<p>tags:
+前天，无疑中在百度中输入site:ewader.com，发现首页被收录了。感觉这次收录的倒是挺快的，不过也就仅仅收录了一个首页而已，我甚至统计代码什么的都没有加。期待收录的更多。</p>
+<p>今天发现360也收录了，记得以前360收录的也很慢，这次怎么都这么积极了？？</p>
+<p>上午一个大学同系不同班的同学来配眼镜，先交代下这个同学的背景，应该78年或者79年生人，我们那一届基本上都是这个年龄，至今未婚，个子不到170cm，体重150多斤，长得不丑也不帅。都这个岁数了还没有结婚，我们同学都很着急，恰好在一个家长群里有人发了一个女孩的信息，80年生人，身高1.60米左右，工作单位不错，未婚。看有没合适的。</p>
+<p>然后我就觉得可以让他们两个试试，给他说了女孩的情况，发生了如下对话：</p>
+<p>我：有个女孩，身高大概1米6，80年的，你要不认识认识？</p>
+<p>他：年纪太大了！</p>
+<p>我：@#￥￥%%%</p>
+<p>我能说活该你单身吗？</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>百度输入法小测</title>
+      <link>https://iliu.org/943.html</link>
+      <pubDate>Wed, 27 Oct 2010 01:43:35 +0000</pubDate>
+      <guid>https://iliu.org/943.html</guid>
+      <description>&lt;hr&gt;
+&lt;p&gt;tags:
+由于黑莓手机上使用的是百度输入法，感觉还不错。（不错的原因是没有比较）所以再百度电脑版的输入法出来伊始，就装上体验了一番&lt;/p&gt;
+&lt;p&gt;百度输入法的优点是：占用的资源比较下，占用的磁盘空间只有30多M，比搜狗的要小的多了，不过和google的差不多。其他方面可能是测试版的原因，没有发现更具有的优势。所具有的功能比的也都有了，而且最重要的是，不太稳定，有时候会出现白屏的现象以及找不到词库。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<hr>
+<p>tags:
+由于黑莓手机上使用的是百度输入法，感觉还不错。（不错的原因是没有比较）所以再百度电脑版的输入法出来伊始，就装上体验了一番</p>
+<p>百度输入法的优点是：占用的资源比较下，占用的磁盘空间只有30多M，比搜狗的要小的多了，不过和google的差不多。其他方面可能是测试版的原因，没有发现更具有的优势。所具有的功能比的也都有了，而且最重要的是，不太稳定，有时候会出现白屏的现象以及找不到词库。</p>
+<p>百度输入法的介绍写的是，“基于百度搜索技术，最强大的中文输入引擎”，不过目前除了云查找之外，还真的没有见到其他的优势，不过有一点还是比较看好百度的，其所说的基于搜索技术，可能使得拼音的结果更智能化，我的理解是，输入拼音之后，最优先出现的词是搜索引擎中使用频率最高的，这样可以让拼音的重复率降低的最小。基于此，对于输入法，还是比较看好百度和google的。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>黑莓8830上网利器之浏览器</title>
+      <link>https://iliu.org/894.html</link>
+      <pubDate>Tue, 14 Sep 2010 05:48:30 +0000</pubDate>
+      <guid>https://iliu.org/894.html</guid>
+      <description>&lt;p&gt;黑莓8830使用Opera Mini浏览器的小技巧&lt;/p&gt;
+&lt;p&gt;一、Opera Mini 的快捷键&lt;/p&gt;
+&lt;p&gt;Opera Mini 在黑莓8830上提供了丰富的快捷键操作，可以大幅提升浏览效率：&lt;/p&gt;
+&lt;p&gt;• 快速拨号：按 * + 数字键 打开对应的快速拨号页面&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>黑莓8830使用Opera Mini浏览器的小技巧</p>
+<p>一、Opera Mini 的快捷键</p>
+<p>Opera Mini 在黑莓8830上提供了丰富的快捷键操作，可以大幅提升浏览效率：</p>
+<p>• 快速拨号：按 * + 数字键 打开对应的快速拨号页面</p>
+<p>• RSS订阅：按 * + 0 查看RSS新闻推送</p>
+<p>• 页面缩放：按 5 放大或缩小页面</p>
+<p>• 光标移动：</p>
+<p>• I（上）、J（左）、L（右）、M（下）</p>
+<p>• 滚屏：</p>
+<p>• 2（上）、4（左）、6（右）、8（下）</p>
+<p>• 右键菜单：按 1 打开右键菜单（不同于黑莓菜单键）</p>
+<p>• 输入地址：按 # + 1 直接输入网址</p>
+<p>• 书签：按 # + 2 查看书签</p>
+<p>• 跳转页面顶部/底部：按 # + 3</p>
+<p>• 前进：按 ##（快速按两次 #）</p>
+<p>• 查看所有快捷键：按住 * 或 # 2秒，即可显示完整快捷键列表</p>
+<p>二、搜索功能</p>
+<p>Opera Mini 5 内置了多种搜索引擎，方便不同需求：<br>
+• Google搜索：常规网页搜索</p>
+<p>• 博客搜索：查找博客内容</p>
+<p>• 有道在线字典：输入中英文单词直接翻译，适合英语学习</p>
+<p>• 易查图片：图片搜索</p>
+<p>优点：<br>
+• 无需额外打开翻译软件，直接使用有道字典查询单词</p>
+<p>• 减少切换搜索引擎（如百度）的步骤，节省流量</p>
+<p>总结</p>
+<p>Opera Mini 在黑莓8830上表现优秀，相比UC浏览器更流畅，且快捷键和搜索功能实用，适合日常浏览和学习使用。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>做博客比做网站难</title>
+      <link>https://iliu.org/851.html</link>
+      <pubDate>Mon, 23 Aug 2010 04:14:49 +0000</pubDate>
+      <guid>https://iliu.org/851.html</guid>
+      <description>&lt;hr&gt;
+&lt;p&gt;tags:
+华彩亲子博客从建站到现在也有8个月了吧，发现做博客比做网站要难很多。&lt;br&gt;
+首先，搜索引擎收录的慢，到现在百度收录的还大部分都是垃圾的东西，并没有形成有效的流量，Google倒是收录的挺快，而且目前的流量也大部分是从GOOGLE来的，但是毕竟在中国不是主流，做了8个月，IP每天突破不了100，是做这么长时间的网站从来没有遇到过的，以前随便做个网站，一个月内IP达到200多是很正常的，以前自己做的公文网，4个月IP都已经是3000了，和现在比起来真是不能同日而语啊。虽然这个博客不是为了流量而建立的。&lt;br&gt;
+第二、关注度不够，可能是和自己的选的主题有关系，毕竟是为自己的女儿做的博客，孩子还是自己的好，所以别人不会怎么关注俺的小贝吧。&lt;br&gt;
+第三，可能也是和免费空间有关系吧，无所谓了。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<hr>
+<p>tags:
+华彩亲子博客从建站到现在也有8个月了吧，发现做博客比做网站要难很多。<br>
+首先，搜索引擎收录的慢，到现在百度收录的还大部分都是垃圾的东西，并没有形成有效的流量，Google倒是收录的挺快，而且目前的流量也大部分是从GOOGLE来的，但是毕竟在中国不是主流，做了8个月，IP每天突破不了100，是做这么长时间的网站从来没有遇到过的，以前随便做个网站，一个月内IP达到200多是很正常的，以前自己做的公文网，4个月IP都已经是3000了，和现在比起来真是不能同日而语啊。虽然这个博客不是为了流量而建立的。<br>
+第二、关注度不够，可能是和自己的选的主题有关系，毕竟是为自己的女儿做的博客，孩子还是自己的好，所以别人不会怎么关注俺的小贝吧。<br>
+第三，可能也是和免费空间有关系吧，无所谓了。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>网站又搬家了—这次选的衡天小张的服务器</title>
+      <link>https://iliu.org/845.html</link>
+      <pubDate>Sun, 22 Aug 2010 09:50:38 +0000</pubDate>
+      <guid>https://iliu.org/845.html</guid>
+      <description>&lt;p&gt;tags:
+上次把博客放到了PIPNI的空间上，可惜的是速度较慢，而godaddy的windows空间使用起来又不太理想，刚好逛论坛的时候看到了衡天小张的信息，GOOGLE了一下，信誉各方面也不错，直接就去付款买了一个，价格很便宜。不过使用的结果可是一波三折！&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>tags:
+上次把博客放到了PIPNI的空间上，可惜的是速度较慢，而godaddy的windows空间使用起来又不太理想，刚好逛论坛的时候看到了衡天小张的信息，GOOGLE了一下，信誉各方面也不错，直接就去付款买了一个，价格很便宜。不过使用的结果可是一波三折！</p>
+<p>刚开始给分配的机房是“EGI机房“宋”服务器”，PINGl了一下，我的天那，500多，觉得小张的空间也不过如此，只不过是炒作的厉害罢了。联系小张和蓝冰，两个人都不在线。ftp传的那个慢啊，觉得真的是不值。<br>
+下午的时候联系到了蓝冰，这姑娘不错，很热心。比一般的IDC的客服要强的不是半点，给调了一个机房，ping值210左右，而且还是和这个姑娘的博客同一个服务器。目前正在试用中，详细的报告等过几天在说！</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>换到pipni的空间了</title>
+      <link>https://iliu.org/804.html</link>
+      <pubDate>Mon, 09 Aug 2010 09:02:49 +0000</pubDate>
+      <guid>https://iliu.org/804.html</guid>
+      <description>&lt;hr&gt;
+&lt;p&gt;以前用的godaddy的空间，是申请域名的时候送的，不过可惜的是Linux空间有个很大很大的广告，广告业不怕，但是却影响到页面的显示，显而易见的是，godaddy的本意就是不是让你好好用他这个空间，否则谁还用收费的空间啊。windows空间对WordPress的支持又很一般，重要的是PING虽然是200多点，但访问起来却不是很快。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<hr>
+<p>以前用的godaddy的空间，是申请域名的时候送的，不过可惜的是Linux空间有个很大很大的广告，广告业不怕，但是却影响到页面的显示，显而易见的是，godaddy的本意就是不是让你好好用他这个空间，否则谁还用收费的空间啊。windows空间对WordPress的支持又很一般，重要的是PING虽然是200多点，但访问起来却不是很快。</p>
+<p>以前用过pipni的空间，除了稍慢一点的其他没有什么毛病，晚上花费了2个多小时的时间，把博客给搬到这个空间了，后来看下这个空间竟然也支持在线解压缩。白白浪费了2个小时的时间。<br>
+现在看来速度还不错，另外也换两个皮肤，就用官方默认的吧，听好看的。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>杯具，原来上传的图片等都没有能转过来</title>
+      <link>https://iliu.org/515.html</link>
+      <pubDate>Sun, 31 Jan 2010 08:01:10 +0000</pubDate>
+      <guid>https://iliu.org/515.html</guid>
+      <description>&lt;p&gt;杯具啊，1月29日的时候发现ip被和谐了，于是毫不犹豫的转系统。可能godaddy方面出现了问题，文件没有能转过来。神那！&lt;/p&gt;
+&lt;p&gt;洗具的是，数据库内容还在，顺便bs下百度，也就1天不能访问，就给我拔毛了。郁闷死！&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>杯具啊，1月29日的时候发现ip被和谐了，于是毫不犹豫的转系统。可能godaddy方面出现了问题，文件没有能转过来。神那！</p>
+<p>洗具的是，数据库内容还在，顺便bs下百度，也就1天不能访问，就给我拔毛了。郁闷死！</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>换了个模板</title>
+      <link>https://iliu.org/510.html</link>
+      <pubDate>Wed, 27 Jan 2010 13:12:24 +0000</pubDate>
+      <guid>https://iliu.org/510.html</guid>
+      <description>&lt;p&gt;上午把工作整完了以后照例去到网上寻觅，一直想要找到一个自己比较满意的模板，原来用的那个也是比较喜欢的，而且非常的清爽，但毕竟与我博客的主题不太相符。先前一直寻找baby的主题，但是一直都没有找到，今天偶尔想到是不是可以找找家庭方面的主题，别说，还真的找到了，就是目前我所用的这个。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>上午把工作整完了以后照例去到网上寻觅，一直想要找到一个自己比较满意的模板，原来用的那个也是比较喜欢的，而且非常的清爽，但毕竟与我博客的主题不太相符。先前一直寻找baby的主题，但是一直都没有找到，今天偶尔想到是不是可以找找家庭方面的主题，别说，还真的找到了，就是目前我所用的这个。</p>
+<p>修改几个关键的地方，替换了原来的title，以及关键字及描述。模板里面有没有涉及，可能是觉得对seo没有什么帮助吧，其实还是有帮助的，有总聊胜与无。另外这个主题还是要慢慢的打造的，需要把图片换成自己的，可能不太容易换，谁让咱ps水平一般呢。</p>
+<p>目前打算的修改方案是，第一增加广告位，但不会太多。毕竟用的这个空间已经有了一个大大的广告，采取的方案依然还是放在tag显示的地方，正文部分就把广告取消吧。侧边栏考虑增加一个广告。并加上产权的代码。第二，就是头部的图片了，换成自己的。第三，尾部的图片考虑换成喜洋洋或灰太狼的图片。第四，还没有想好！</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>小测三款博客离线编辑软件</title>
+      <link>https://iliu.org/500.html</link>
+      <pubDate>Sun, 24 Jan 2010 13:50:01 +0000</pubDate>
+      <guid>https://iliu.org/500.html</guid>
+      <description>&lt;hr&gt;
+&lt;p&gt;tags:
+现在window下主要的离线博客主要有windows live write，zoundry raven以及国内一家公司开发的菊子曰。下面本人就对这三个软件做个点评。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<hr>
+<p>tags:
+现在window下主要的离线博客主要有windows live write，zoundry raven以及国内一家公司开发的菊子曰。下面本人就对这三个软件做个点评。</p>
+<p>之所以这么关系离线博客编辑软件是因为本人所用的空间是godaddy的免费空间，上面的那个大大的广告条让博客的后台有些功能无法使用，正好可以用这类离线编辑的软件来替代。首先让我们来说说windows live writer，因为我本机用的window 2003，而这个软件不支持在服务器系统上的安装，所以兼容性就比其他两个软件要差。另外live writer要安装.net所以安装下来要占用100多M的空间，虽然现在的空间动辄成T，但live writer的冗肿是无容置疑的，live writer支持分类、标签、离线模板，支持上传图片、并可以给图片加上特效和水印。加水印是window live writer的一个独特的地方，其他两个没有这样的功能。</p>
+<p>n 这个软件的界面如下：</p>
+<p>下面是文章的编辑窗口</p>
+<p>很简介的界面，但是功能一点也不比其他两个软件差，支持分类、图片编辑、标签，并能把标签发送到著名的一些标签网站。是我所用到的感觉最好的一款编辑器，占用资源也小。功能强大，值得使用。</p>
+<p>菊子曰，是国内新开发的一个离线博客编辑软件。功能很全面，但是感觉很多的都是在模仿zoundry ，并且资源占用不小。可能是测试版有关系吧。比其他两个多了个评论的功能。其他没有什么亮点，与它的资源占用相比，性价比不高。另外要用这个软件必须要注册菊子曰的用户，否则是不能登录的，最重要的是有个广告条，尽管目前是公益的广告，难免以后会是怎么样，自从金山加广告后，对国内的软件基本上失去了信心，最反对的就是谁在我的软件上加上广告，同样上图：</p>
+<p>文章编辑界面，这篇文章就是用菊子曰写的：</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>开发出godaddy免费空间的另外一个用途</title>
+      <link>https://iliu.org/485.html</link>
+      <pubDate>Sat, 23 Jan 2010 07:04:06 +0000</pubDate>
+      <guid>https://iliu.org/485.html</guid>
+      <description>&lt;p&gt;tags:
+godaddy免费空间确实太大了，用这也比较爽，虽然有个很大的广告，但是看在免费的份上也就别较真了。这么稳定又快速的空间，就将就用吧。有很多同学说了，这么大的空间，只装一个博客有点浪费了，那么下面我就给大家说说这个空间可以装的另外的程序。达到全面利用这个大空间的目的。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>tags:
+godaddy免费空间确实太大了，用这也比较爽，虽然有个很大的广告，但是看在免费的份上也就别较真了。这么稳定又快速的空间，就将就用吧。有很多同学说了，这么大的空间，只装一个博客有点浪费了，那么下面我就给大家说说这个空间可以装的另外的程序。达到全面利用这个大空间的目的。</p>
+<p>国内开发的程序就部要考虑了，有人反映phpwind无法安装，所以我也就不费那份心了，如果装discuz，不戴uc的版本可以 装上，但是不能登录，不能注册。都是打不开了，所以我刚说了国内的程序就别考虑了，另外dedecms等没有实验，有兴趣的可以试试。想起了另外一个论坛程序phpbb，装上后，很完美。不管是后台还是前台一样的完美！想装论坛的可以考虑！但是千万不要开通启用GZip压缩功能，否则你会很后悔的。写到这里觉得安装phpwind不显示的原因很可能就是开通了这个功能。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>体验了下失而复得</title>
+      <link>https://iliu.org/477.html</link>
+      <pubDate>Wed, 20 Jan 2010 12:17:03 +0000</pubDate>
+      <guid>https://iliu.org/477.html</guid>
+      <description>&lt;p&gt;昨天下午4点多的时候，忽然发现网站打不开了，显示404错误，发现ftp也不能用，进到godaddy的后台，文件管理也进不去了，不过数据库没有影响。给godaddy的客服发了封邮件，给他们说网站不能访问的问题，然后就是等待。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>昨天下午4点多的时候，忽然发现网站打不开了，显示404错误，发现ftp也不能用，进到godaddy的后台，文件管理也进不去了，不过数据库没有影响。给godaddy的客服发了封邮件，给他们说网站不能访问的问题，然后就是等待。</p>
+<p>下班回到家后，发现问题还是没有能解决，但是ping都是可以的，从网上搜这个ip发现有这个网址的ip，而且人家的网站也是能访问的，说明问题不具有普遍性。所以自己就开始想办法，把linux的主机换成windows的，然后等能访问了再给换回来。点了确定之后就有些后悔，毕竟是不能访问，说不定就转不过来，但是已经转了，也就不多想了，然后把数据库备份了一下。关机睡觉。</p>
+<p>第二天，果然不出所料，空间已经换成了windows的，但是数据没有能转过去，数据库还在，上传网站程序，然后转Linux，出乎意料的是原来的文件什么的都又回来了，非常高兴，看来godaddy还是可以信赖的。</p>
+<p>另外，发的邮件回复的比较慢，下午5点发的邮件，一直到半夜1：30收到第一封的邮件：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Due to its complex nature, your issue has been relayed to our Advanced Technical Support TeamThank you for contacting Hosting Support and bringing this to our attention. 意思是他们解决不了，要转到高级技术支持，然后在上午8点终于收到了第二封高级技术支持的邮件：The issue regarding account status for lghcx.info has been addressed and should be resolved at this time. If you continue to experience delivery or access problems please let us know and we would be happy to assist you further. We appreciate your patience and understanding in this matter.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Please contact us if you have any further issues.. Our most skilled technicians will be working to resolve your issue quickly and completely. You will be notified promptly upon resolution.
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>除了回复不及时以外，godaddy的空间还是值得信赖的</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>解决godaddy免费空间广告带来影响的方法</title>
+      <link>https://iliu.org/476.html</link>
+      <pubDate>Tue, 19 Jan 2010 01:39:32 +0000</pubDate>
+      <guid>https://iliu.org/476.html</guid>
+      <description>&lt;p&gt;众所周知，Godaddy 免费空间带有一个很大的广告条。有广告本身也就罢了，但不厚道的是，这些广告通过增加的代码，使得很多源代码发生错误。这是因为广告代码中包含了一连串的闭合标签，会人为地关闭你的程序，从而导致出错。经过一个月的摸索，我把经验整理如下，方便使用该空间的人参考。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>众所周知，Godaddy 免费空间带有一个很大的广告条。有广告本身也就罢了，但不厚道的是，这些广告通过增加的代码，使得很多源代码发生错误。这是因为广告代码中包含了一连串的闭合标签，会人为地关闭你的程序，从而导致出错。经过一个月的摸索，我把经验整理如下，方便使用该空间的人参考。</p>
+<p>我在上一篇文章<a href="http://www.lghcx.info/2010/01/388.html">完美解决 Godaddy 免费空间广告条对 WordPress 后台的影响</a>也提到过一些方法，现在补充其他方案。</p>
+<hr>
+<h3 id="方案一切换到-windows-主机"><strong>方案一：切换到 Windows 主机</strong></h3>
+<ul>
+<li>
+<p>选择 IIS7 + PHP5，安装 WordPress 后不会显示任何广告。网友反馈，安装 Z-Blog 也没有问题。动态网页不会显示广告，但 HTML 静态网页可能会显示。</p>
+</li>
+<li>
+<p>Windows 主机支持伪静态化，可通过 <code>web.config</code> 实现。</p>
+</li>
+<li>
+<p>缺点：</p>
+<ol>
+<li>对中文 tag 支持不好。</li>
+<li>安全性未知，不确定是否会因没有广告而被封账户。</li>
+</ol>
+</li>
+<li>
+<p>有网友向 Godaddy 客服询问，但没有明确结果。有网友表示使用 4 个月仍然正常，因此如果选择此方案，建议<strong>定期备份数据</strong>。</p>
+</li>
+</ul>
+<hr>
+<h3 id="方案二使用-linux-主机"><strong>方案二：使用 Linux 主机</strong></h3>
+<ul>
+<li>
+<p>安装 WordPress 2.9.1，后台功能基本完整：</p>
+<ul>
+<li>可添加 tag</li>
+<li>可发文章</li>
+<li>可上传图片（需在媒体库中获取图片地址后插入）</li>
+<li>可回复评论</li>
+</ul>
+</li>
+<li>
+<p>优点：WordPress 2.9.1 后台完整，可用性较好</p>
+</li>
+<li>
+<p>缺点：</p>
+<ol>
+<li>会显示广告</li>
+<li>Feed 输出有问题</li>
+</ol>
+</li>
+</ul>
+<blockquote>
+<p>广告可通过 CSS 隐藏，但建议不要违约。Feed 问题目前还没有好的解决方案。</p>
+</blockquote>
+<hr>
+<h3 id="方案三使用离线发布工具"><strong>方案三：使用离线发布工具</strong></h3>
+<ul>
+<li>无论是 Windows 主机还是 Linux 主机，都可用离线发布的形式来发布文章。</li>
+<li>推荐工具：Windows Live Writer，也支持给图片加水印，操作方便。</li>
+</ul>
+<hr>
+<p>这三种方案可以根据你对<strong>广告显示、中文 tag 支持和安全性</strong>的需求来选择。</p>
+<hr>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>小测QQ刚推出的webqq mini</title>
+      <link>https://iliu.org/422.html</link>
+      <pubDate>Mon, 11 Jan 2010 08:46:00 +0000</pubDate>
+      <guid>https://iliu.org/422.html</guid>
+      <description>&lt;p&gt;tags:
+昨天登录webqq的时候发现，功能又出新的了，推出了简易版的webqq mini，目前还在内测时时候，要求申请，并经过24小时的审核后，就可使用。今天打开邮箱发现已经通过审核了，马上体验了一下，把结果给大家说说。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>tags:
+昨天登录webqq的时候发现，功能又出新的了，推出了简易版的webqq mini，目前还在内测时时候，要求申请，并经过24小时的审核后，就可使用。今天打开邮箱发现已经通过审核了，马上体验了一下，把结果给大家说说。</p>
+<p>首先打开w.qq.com，出现如下界面：</p>
+<p>如果没有开通，可以先点链接进行申请，审核后即可使用，下图是登录后的界面：</p>
+<p>按钮分别是从左到右讨论信息、好友信息、群信息、设置，界面非常的简洁，但是不知道是我网速的问题，还是别的原因，打开的速度非常的慢，打开后点那几个按钮，反映的时间也很长，大概还不成熟吧，和webqq还是不能同日而语，不过简洁的界面还是挺令人期待的。不喜欢广告的可以关注这个东东。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>wordpress中文tag、中文分类找不到文章的解决方法</title>
+      <link>https://iliu.org/407.html</link>
+      <pubDate>Sat, 09 Jan 2010 02:19:28 +0000</pubDate>
+      <guid>https://iliu.org/407.html</guid>
+      <description>&lt;p&gt;原来用的是 Linux 主机，在设定固定链接后，中文 tag、中文分类都能正常访问。
+但自从换到 GoDaddy 的 Windows 主机后，由于 IIS7 对 PHP 支持不太好，中文 tag 和中文分类的文章就会出现找不到的情况。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>原来用的是 Linux 主机，在设定固定链接后，中文 tag、中文分类都能正常访问。
+但自从换到 GoDaddy 的 Windows 主机后，由于 IIS7 对 PHP 支持不太好，中文 tag 和中文分类的文章就会出现找不到的情况。</p>
+<p>比如：</p>
+<ul>
+<li><strong>正常情况（能访问）</strong>：<code>www.example.com/?tag=中文</code></li>
+<li><strong>不正常情况（不能访问）</strong>：<code>www.example.com/tag/中文</code></li>
+</ul>
+<p>这是系统的兼容问题，没办法直接解决。
+但为了 SEO，我们又必须启用固定链接，怎么办呢？
+折腾了一个上午，总算找到了解决方案，而且支持目前的 <strong>WordPress 2.9.1</strong> 版本。</p>
+<hr>
+<p>网上有几种解决办法：</p>
+<p><strong>第一种方法</strong>：修改 <code>wp-includes/classes.php</code> 文件。
+这个方法在中文系统下可能有效，但我在 GoDaddy 主机上试的时候，直接报错，所以局限性比较大。</p>
+<hr>
+<p><strong>第二种方法</strong>：修改 <code>wp-includes/rewrite.php</code> 文件。</p>
+<p>找到以下代码：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl"><span class="k">function</span> <span class="nf">get_tag_permastruct</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nx">isset</span><span class="p">(</span><span class="nv">$this</span><span class="o">-&gt;</span><span class="na">tag_structure</span><span class="p">))</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">tag_structure</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="k">empty</span><span class="p">(</span><span class="nv">$this</span><span class="o">-&gt;</span><span class="na">permalink_structure</span><span class="p">))</span> <span class="p">{</span> <span class="c1">//——这行需要修改——
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">tag_structure</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="k">false</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>把第五行改成：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="k">empty</span><span class="p">(</span><span class="nv">$this</span><span class="o">-&gt;</span><span class="na">permalink_structure</span><span class="p">))</span> <span class="p">{</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><hr>
+<p><strong>第三种方法（推荐）</strong>：
+一个一劳永逸、不用改源代码的方法。</p>
+<p>进入 WordPress 后台 → “设置” → “固定链接”，
+在“标签前缀”一栏中填入：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">?tag=
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>这样，当你点击文章中的中文 tag 时，系统会自动跳转到：
+<code>www.example.com/?tag=中文</code>
+页面就能正常显示了。</p>
+<hr>
+<p>经过验证，<strong>第二种和第三种方法</strong>都能完美解决这个问题。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>提供WordPress 主题 Marcelle的汉化版本</title>
+      <link>https://iliu.org/304.html</link>
+      <pubDate>Sat, 26 Dec 2009 08:05:16 +0000</pubDate>
+      <guid>https://iliu.org/304.html</guid>
+      <description>&lt;p&gt;昨天发掘出 Marcelle这个主题，很快为他的那种简约而清爽的界面而吸引，打算使用这个主题，简单的汉化以后，觉得还不错，不过今天就又发现了个更适合的，也就是目前所用的这个主题，所以就把昨天汉化的这个给分享出来吧，有喜欢的可以下载用用。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>昨天发掘出 Marcelle这个主题，很快为他的那种简约而清爽的界面而吸引，打算使用这个主题，简单的汉化以后，觉得还不错，不过今天就又发现了个更适合的，也就是目前所用的这个主题，所以就把昨天汉化的这个给分享出来吧，有喜欢的可以下载用用。</p>
+<p>这款名叫Marcelle的Wordpress 主题整体配色采用了柔和的城砖青，简单又不失大气，稳重而宁静。</p>
+<p>版本要求：Wordpress 2.7+</p>
+<p>主题特点：</p>
+<p>1、支持 Gallery（自适应尺寸）；</p>
+<p>2、兼容Opera、 Netscape、Safari、Firefox以及 IE6+等主流浏览器，通过XHTML测试；</p>
+<p>3、支持嵌套回复，支持Gravatar；</p>
+<p>4、页眉预留广告位，支持Google ADsense ；</p>
+<p>5、SEO优选；</p>
+<p>汉化修改后，在seo方面做了加强，并且在内容页增加了两个广告位，支持Google ADsense和阿里妈妈。</p>
+<p>下载后需要把我原来的广告给替换。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>博客整体细节基本完成</title>
+      <link>https://iliu.org/257.html</link>
+      <pubDate>Wed, 23 Dec 2009 08:51:55 +0000</pubDate>
+      <guid>https://iliu.org/257.html</guid>
+      <description>&lt;p&gt;tags:
+上午的时候在那边的办公室忙，而那边的网速慢的要死，连个新浪都打不开，所以基本上上午都白白浪费了，郁闷的是QQ农场的菜也被偷了很多，说到这里不得不说几句，原本对QQ弄成的圣诞树报有很大的希望，想不到种出来的是一堆垃圾，就是不知道这堆垃圾在圣诞节的那天是不是能变成金子。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>tags:
+上午的时候在那边的办公室忙，而那边的网速慢的要死，连个新浪都打不开，所以基本上上午都白白浪费了，郁闷的是QQ农场的菜也被偷了很多，说到这里不得不说几句，原本对QQ弄成的圣诞树报有很大的希望，想不到种出来的是一堆垃圾，就是不知道这堆垃圾在圣诞节的那天是不是能变成金子。</p>
+<p>下午回到这边，基本上都在整理这个博客，用的这个模板原来好好的，不过自从空间商升级了空间后就出现了很多的乱码，知道乱码是用于编码不对造成的，但是总是解决不了，就算是你保存成了utf-8的编码依然是出错，后来发现，从我家里的电脑上传的几个文件编码竟然没有错误，细想了一下原因，很简单了，家里的文本默认是用Notepad++编辑的，而在办公室由于没有重视用了Windows xp自带的记事本，看来微软就喜欢搞与众不同，就算保存成utf8的格式，依然还是不同的，既然找到了源头就好在解决了，下载Notepad++，编辑。终于正常了。<br>
+更改下了原来的模板，主要是1、把banner默认的google的广告去掉了，不想在首页就出来那么多的广告，等以后流量上来后，如果想要再加的话，也不加那个地方，一直认为banner那个地方不适合放点击的广告。2、在首页加上了最新评论，本来想用插件呢，但是可能wordpress是最新的版本，那个插件还不支持，没有用成，只能用代码带实现，顺便说下，wordpress自带的最新评论的功能也不怎么好用。3、在文章的页面加了些广告。就这些吧，原来一直觉得wordpress的模板比较复杂，现在看来也没啥。修修补补还是很好弄的！～～</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>虚惊一场</title>
+      <link>https://iliu.org/206.html</link>
+      <pubDate>Fri, 18 Dec 2009 02:04:39 +0000</pubDate>
+      <guid>https://iliu.org/206.html</guid>
+      <description>&lt;p&gt;用的是国外的空间，昨天下午下班的时候出现了504错误，还以为是被和谐了呢！下班回到家后，再打开发现已经好了，不过有一点不爽的是，在IE下网站的有些图片无法打开，而在firefox下却正常，不知道是怎么回事，正在郁闷，等下下个Google的浏览器试试.&lt;br&gt;
+ps&lt;br&gt;
+Google的浏览器浏览也没有问题，这事情是怪了，难道是我rpwt还是发生了灵异事件？再次郁闷一下！看来说ie是垃圾是有根据的！&lt;br&gt;
+再次PS&lt;br&gt;
+重新安装了一下主题，问题解决了，到现在也没有明白到底是为什么！！！！&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>用的是国外的空间，昨天下午下班的时候出现了504错误，还以为是被和谐了呢！下班回到家后，再打开发现已经好了，不过有一点不爽的是，在IE下网站的有些图片无法打开，而在firefox下却正常，不知道是怎么回事，正在郁闷，等下下个Google的浏览器试试.<br>
+ps<br>
+Google的浏览器浏览也没有问题，这事情是怪了，难道是我rpwt还是发生了灵异事件？再次郁闷一下！看来说ie是垃圾是有根据的！<br>
+再次PS<br>
+重新安装了一下主题，问题解决了，到现在也没有明白到底是为什么！！！！</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>如何增加WordPress上传文件类型</title>
+      <link>https://iliu.org/196.html</link>
+      <pubDate>Thu, 17 Dec 2009 02:20:09 +0000</pubDate>
+      <guid>https://iliu.org/196.html</guid>
+      <description>&lt;p&gt;WordPress默认的上传文件类型只有图片、视频、音频、其他媒体。但是如果我们想分享一些其他的文件比如文档等怎么办呢？其实Wordpress其充满魅力的所在就在于开源，开源的好处是随时可以增加你想要的东西。下面就以增加一个.rar类型为例来说明如何增加Wordpress上传文件类型！&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>WordPress默认的上传文件类型只有图片、视频、音频、其他媒体。但是如果我们想分享一些其他的文件比如文档等怎么办呢？其实Wordpress其充满魅力的所在就在于开源，开源的好处是随时可以增加你想要的东西。下面就以增加一个.rar类型为例来说明如何增加Wordpress上传文件类型！</p>
+<p>修改 wp-includes/functions.php</p>
+<p>查找：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl"><span class="k">function</span> <span class="nf">wp\_check\_filetype</span><span class="p">(</span><span class="nv">$filename</span><span class="p">,</span> <span class="nv">$mimes</span> <span class="o">=</span> <span class="k">null</span><span class="p">)</span> <span class="p">{</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>在底下的$mimes里加入要添加的文件类型，例如 rar ：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nx">‘rar’</span> <span class="o">=&gt;</span> <span class="nx">‘application</span><span class="o">/</span><span class="nx">rar’</span><span class="p">,</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>保存，重新上传服务器，一切就OK了，很简单吧！</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>ubuntu9.10 sis显卡驱动程序</title>
+      <link>https://iliu.org/158.html</link>
+      <pubDate>Fri, 11 Dec 2009 06:48:00 +0000</pubDate>
+      <guid>https://iliu.org/158.html</guid>
+      <description>&lt;p&gt;今天从上午把ubuntu9.10装上后就一直为系统的分辨率的问题而寻找，真的让人很郁闷的是SIS的显卡，UBUNTU竟然不支持，其实这也不能怨UBUNTU，只能说SIS的人都是一帮SB，为什么不开发支持linux的驱动程序呢，没办法，到网上寻找，总算找到了解决的方案，我就纳闷了，为什么官方就不更新下这驱动呢。&lt;br&gt;
+其实，解决的方法也很简单，热心的linux爱好者已经开发出来了相关的驱动程序。而且是deb包的形式，直接双击安装就可以了，真是不明白不管新立得还是ubuntu的官方的源里面都没有这样的程序！&lt;br&gt;
+驱动程序我已经放在我的网盘里了，有需要的朋友可以点击下面的地址下载下载&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>今天从上午把ubuntu9.10装上后就一直为系统的分辨率的问题而寻找，真的让人很郁闷的是SIS的显卡，UBUNTU竟然不支持，其实这也不能怨UBUNTU，只能说SIS的人都是一帮SB，为什么不开发支持linux的驱动程序呢，没办法，到网上寻找，总算找到了解决的方案，我就纳闷了，为什么官方就不更新下这驱动呢。<br>
+其实，解决的方法也很简单，热心的linux爱好者已经开发出来了相关的驱动程序。而且是deb包的形式，直接双击安装就可以了，真是不明白不管新立得还是ubuntu的官方的源里面都没有这样的程序！<br>
+驱动程序我已经放在我的网盘里了，有需要的朋友可以点击下面的地址下载下载</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>聪明的宝宝</title>
+      <link>https://iliu.org/349.html</link>
+      <pubDate>Wed, 25 Feb 2009 13:37:00 +0000</pubDate>
+      <guid>https://iliu.org/349.html</guid>
+      <description>&lt;p&gt;宝宝是聪明的，尽管才6个月，晚上睡觉的时候她如果不老实，在老婆肚子里打拳，这时候如果我把手放在老婆的肚子上，她马上就会先停下来，然后会轻踹一下我的手，我如果用手指轻轻敲打老婆的肚子的话，她还会用踢来回应，真是聪明的宝宝啊&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>宝宝是聪明的，尽管才6个月，晚上睡觉的时候她如果不老实，在老婆肚子里打拳，这时候如果我把手放在老婆的肚子上，她马上就会先停下来，然后会轻踹一下我的手，我如果用手指轻轻敲打老婆的肚子的话，她还会用踢来回应，真是聪明的宝宝啊</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>lnkillprocess.exe – DLL 初始化失败终极解决方案</title>
+      <link>https://iliu.org/325.html</link>
+      <pubDate>Wed, 28 Jan 2009 07:03:00 +0000</pubDate>
+      <guid>https://iliu.org/325.html</guid>
+      <description>&lt;p&gt;在昨天的帖子里我说到，把禁止的com打开以后，就不会再出现这个弹窗，不想再今天就给了我当头一棒子，这个讨厌的弹窗再次出现了，看了一下系统日志是这样描述的“弹出应用程序: lnkillprocess.exe – DLL 初始化失败: 因为窗口站已关闭，应用程序初始化失败。 ”然后我一遍一遍的测试我的电脑上的开机程序，目前发现和郑州广电的那个上网客户端有关，只要在关闭电脑以前把这个客户端先行关闭，问题就解决了，貌似这个玩意有冲突？&lt;br&gt;
+不解中v。。。。。。。。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>在昨天的帖子里我说到，把禁止的com打开以后，就不会再出现这个弹窗，不想再今天就给了我当头一棒子，这个讨厌的弹窗再次出现了，看了一下系统日志是这样描述的“弹出应用程序: lnkillprocess.exe – DLL 初始化失败: 因为窗口站已关闭，应用程序初始化失败。 ”然后我一遍一遍的测试我的电脑上的开机程序，目前发现和郑州广电的那个上网客户端有关，只要在关闭电脑以前把这个客户端先行关闭，问题就解决了，貌似这个玩意有冲突？<br>
+不解中v。。。。。。。。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>lnkillprocess.exe-dll初始化失败的原因终于找到了</title>
+      <link>https://iliu.org/324.html</link>
+      <pubDate>Tue, 27 Jan 2009 01:36:00 +0000</pubDate>
+      <guid>https://iliu.org/324.html</guid>
+      <description>&lt;p&gt;这几天电脑一关机，总是出现一个红叉叉，显示lnkillprocess.exe-dll初始化失败。虽然并不影响使用，但是感觉就像是吃了一只苍蝇一样的不开心。&lt;br&gt;
+原本以为是趋势科技的无忧电子眼搞得鬼，然而卸载电子眼，清理注册表，不管用何种方法都无法把这个烦人的东西整掉，郁闷之下重新装了系统，哈哈，终于清静了;…&lt;br&gt;
+且慢，真的清静了吗？打补丁，关机，嗯~~~~~~~~,怎么又出来了，郁闷。然后我去看系统的日志，发现是一个叫COM的东西异常，因为是用360打的补丁，所以就怀疑是这个东西搞得鬼，仔细查看了一下，果真，360禁止了com的运行，我晕，你禁止了也不给我说一声！气大了，删无赦。。。。&lt;br&gt;
+现在，真的是清静了。。。。。。。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>这几天电脑一关机，总是出现一个红叉叉，显示lnkillprocess.exe-dll初始化失败。虽然并不影响使用，但是感觉就像是吃了一只苍蝇一样的不开心。<br>
+原本以为是趋势科技的无忧电子眼搞得鬼，然而卸载电子眼，清理注册表，不管用何种方法都无法把这个烦人的东西整掉，郁闷之下重新装了系统，哈哈，终于清静了;…<br>
+且慢，真的清静了吗？打补丁，关机，嗯~~~~~~~~,怎么又出来了，郁闷。然后我去看系统的日志，发现是一个叫COM的东西异常，因为是用360打的补丁，所以就怀疑是这个东西搞得鬼，仔细查看了一下，果真，360禁止了com的运行，我晕，你禁止了也不给我说一声！气大了，删无赦。。。。<br>
+现在，真的是清静了。。。。。。。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>如何安全使用计算机4</title>
+      <link>https://iliu.org/320.html</link>
+      <pubDate>Sun, 25 Jan 2009 04:57:00 +0000</pubDate>
+      <guid>https://iliu.org/320.html</guid>
+      <description>&lt;p&gt;《 安全使用计算机 》 是我们免费提供的计算机安全技术资料,希望您能得到一些启发和帮助，保障自己计算机的安全。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;九、用错密码&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这也是使得我们暴露在入侵者面前的又一个常见错误：用错密码。即使您的网络环境中没有管理员强迫您选择强大的密码并定期更换，您也应该这样做。不要选用容易被猜中的密 码，如您的生日，爱人的名字，社会保险号码等。密码越长越不容易被破解，因此您的密码至少为8位，14位就更好。常用的密码破解方法采用字典破解法，因此不要使用字典 中能查到的单词做为密码。为安全起见，密码应该由字母、数字以及符号组合而成。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>《 安全使用计算机 》 是我们免费提供的计算机安全技术资料,希望您能得到一些启发和帮助，保障自己计算机的安全。</p>
+<p><strong>九、用错密码</strong></p>
+<p>这也是使得我们暴露在入侵者面前的又一个常见错误：用错密码。即使您的网络环境中没有管理员强迫您选择强大的密码并定期更换，您也应该这样做。不要选用容易被猜中的密 码，如您的生日，爱人的名字，社会保险号码等。密码越长越不容易被破解，因此您的密码至少为8位，14位就更好。常用的密码破解方法采用字典破解法，因此不要使用字典 中能查到的单词做为密码。为安全起见，密码应该由字母、数字以及符号组合而成。</p>
+<p>很长的无意义的字符串密码很难被破解，但是如果你因为记不住密码而不得不将密码写下来的话，就违背了设置密码的初衷，因为入侵者可能会找到密码。可以造一个容易记住的 短语，并使用每个单词的第一个字母，以及数字和符号生成一个密码。例如，使用My cat ate a mouse on the 5th day of June;可以得到密码</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>如何安全使用计算机 3</title>
+      <link>https://iliu.org/319.html</link>
+      <pubDate>Sun, 25 Jan 2009 01:59:00 +0000</pubDate>
+      <guid>https://iliu.org/319.html</guid>
+      <description>&lt;p&gt;《 安全使用计算机 》 是我们免费提供的计算机安全技术资料,希望您能得到一些启发和帮助，保护自己计算机的安全。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3、避免磁盘总是满满的并且非常凌乱&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;频繁安装和卸载程序（或增加和删除任何类型的数据）都会使磁盘变得零散。信息在磁盘上的保存方式导致了磁盘碎片的产生：在新的空磁盘中保存文件时，文件被保存在连续的 簇上。如果您删除的文件占用了5个簇，然后保存了一个占用8个簇的文件，那么头5个簇的数值会保存在删除产生的5个空簇中，剩余的3个则保存在下三个空的簇中。这样就使得文 件变得零散或者分裂。然后在访问文件时，磁头不会同时找到文件的所有部分，而是到磁盘的不同地址上找回全部文件。这样使得访问速度变慢。如果文件是程序的一部分，程序 的运行速度就会变慢。过于零散的磁盘运行速度极慢就象在爬行一样。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>《 安全使用计算机 》 是我们免费提供的计算机安全技术资料,希望您能得到一些启发和帮助，保护自己计算机的安全。</p>
+<p><strong>3、避免磁盘总是满满的并且非常凌乱</strong></p>
+<p>频繁安装和卸载程序（或增加和删除任何类型的数据）都会使磁盘变得零散。信息在磁盘上的保存方式导致了磁盘碎片的产生：在新的空磁盘中保存文件时，文件被保存在连续的 簇上。如果您删除的文件占用了5个簇，然后保存了一个占用8个簇的文件，那么头5个簇的数值会保存在删除产生的5个空簇中，剩余的3个则保存在下三个空的簇中。这样就使得文 件变得零散或者分裂。然后在访问文件时，磁头不会同时找到文件的所有部分，而是到磁盘的不同地址上找回全部文件。这样使得访问速度变慢。如果文件是程序的一部分，程序 的运行速度就会变慢。过于零散的磁盘运行速度极慢就象在爬行一样。</p>
+<p>Liu,你可以使用Windows里带有的磁盘碎片整理工具（程序 附件 系统工具） 或者第三方磁盘碎片整理工具defrag来重新安排文件的各个部分，以使文件在磁盘上能够连续存放。</p>
+<p>另外一个常见的能够导致性能问题和应用行为不当的原因是磁盘过满。许多程序都会生成临时文件，运行时需要磁盘提供额外空间。你可以使用Windows XP的磁盘清理工具或者第三方程序查找和删除很少用到的文件，或者你也可以手动删除文件来释放磁盘空间。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>如何安全使用计算机 2</title>
+      <link>https://iliu.org/318.html</link>
+      <pubDate>Sun, 25 Jan 2009 01:57:00 +0000</pubDate>
+      <guid>https://iliu.org/318.html</guid>
+      <description>&lt;p&gt;《 安全使用计算机 》 是我们免费提供的计算机安全技术资料,希望您能得到一些启发和帮助，保护自己计算机的安全。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2：不要安装和卸载大量程序，特别是测试版程序&lt;/strong&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>《 安全使用计算机 》 是我们免费提供的计算机安全技术资料,希望您能得到一些启发和帮助，保护自己计算机的安全。</p>
+<p><strong>2：不要安装和卸载大量程序，特别是测试版程序</strong></p>
+<p>由于用户对最新技术的渴望，经常安装和尝试新软件。免费提供的测试版程序能够使您有机会抢先体验新的功能。另外还有许多可以从网上下载的免费软件和共享软件。我们知道 有些用户还曾经安装盗版软件或者。</p>
+<p>您安装的软件数量越多，您使用含有恶意代码的软件，或者使用编写不合理能够导致系统工作不正常或者崩溃的软件的几率就更高。这样的风险远高于使用盗版软件。</p>
+<p>即使您只会安装经过授权的最终版本的的商业软件，过多的安装和卸载也会弄乱注册表。不是所有的卸载步骤都能将程序剩余部分清理干净，这样的行为会导致系统逐渐变慢。</p>
+<p>您应该只安装您真正需要使用的软件，只使用合法软件，并且尽量减少安装和卸载软件的数量。</p>
+<p>您还将收到其他技巧：</p>
+<p>.磁盘总是满满的并且非常凌乱</p>
+<p>.打开所有的附件</p>
+<p>.点击所有链接</p>
+<p>.共享或类似共享的行为</p>
+<p>.用错密码</p>
+<p>.忽视对备份和恢复计划的需要</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>如何安全使用计算机 1</title>
+      <link>https://iliu.org/317.html</link>
+      <pubDate>Sun, 25 Jan 2009 01:51:00 +0000</pubDate>
+      <guid>https://iliu.org/317.html</guid>
+      <description>&lt;p&gt;《 安全使用计算机 》 是我们免费提供的计算机安全技术资料,希望您能得到一些启发和帮助，保护自己计算机的安全。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;不要点击所有链接&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;打开附件不是鼠标所能带给您的唯一麻烦。点击电子邮件或者网页上的超级链接能将您带入植入ActiveX控制或者脚本的网页，利用这些就可能进行各种类型的恶意行为，如清除硬 盘，或者在计算机上安装后门软件，这样黑客就可以潜入并夺取控制权。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>《 安全使用计算机 》 是我们免费提供的计算机安全技术资料,希望您能得到一些启发和帮助，保护自己计算机的安全。</p>
+<p><strong>不要点击所有链接</strong></p>
+<p>打开附件不是鼠标所能带给您的唯一麻烦。点击电子邮件或者网页上的超级链接能将您带入植入ActiveX控制或者脚本的网页，利用这些就可能进行各种类型的恶意行为，如清除硬 盘，或者在计算机上安装后门软件，这样黑客就可以潜入并夺取控制权。</p>
+<p>点错链接也可能会带您进入具有色情图片，盗版音乐或软件等不良内容的网站。如果您使用的是工作电脑可能会因此麻烦缠身，甚至惹上官司。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>KPI考评——企业绩效管理的基础</title>
+      <link>https://iliu.org/311.html</link>
+      <pubDate>Wed, 21 Jan 2009 13:37:00 +0000</pubDate>
+      <guid>https://iliu.org/311.html</guid>
+      <description>&lt;p&gt;企业绩效评估经常遇到的一个很实际的问题就是，很难确定客观、量化的绩效指标。其实，对所有的绩效指标进行量化并不现实，也没有必要这么做。通过行为性的指标体系，也同样可以衡量企业绩效。　　企业关键业绩指标(KPI：Key Process Indication)是通过对组织内部流程的输入端、输出端的关键参数进行设置、取样、计算、分析，衡量流程绩效的一种目标式量化管理指标，是把企业的战略目标分解为可操作的工作目标的工具，是企业绩效管理的基础。KPI可以使部门主管明确部门的主要责任，并以此为基础，明确部门人员的业绩衡量指标。建立明确的切实可行的KPI体系，是做好绩效管理的关键。　&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>企业绩效评估经常遇到的一个很实际的问题就是，很难确定客观、量化的绩效指标。其实，对所有的绩效指标进行量化并不现实，也没有必要这么做。通过行为性的指标体系，也同样可以衡量企业绩效。　　企业关键业绩指标(KPI：Key Process Indication)是通过对组织内部流程的输入端、输出端的关键参数进行设置、取样、计算、分析，衡量流程绩效的一种目标式量化管理指标，是把企业的战略目标分解为可操作的工作目标的工具，是企业绩效管理的基础。KPI可以使部门主管明确部门的主要责任，并以此为基础，明确部门人员的业绩衡量指标。建立明确的切实可行的KPI体系，是做好绩效管理的关键。　</p>
+<p>　确定关键绩效指标有一个重要的SMART原则。SMART是5个英文单词首字母的缩写：S代表具体(Specific)，指绩效考核要切中特定的工作指标，不能笼统；M代表可度量(Measurable)，指绩效指标是数量化或者行为化的，验证这些绩效指标的数据或者信息是可以获得的；A代表可实现(Attainable)，指绩效指标在付出努力的情况下可以实现，避免设立过高或过低的目标；R代表现实性(Realistic)，指绩效指标是实实在在的，可以证明和观察；T代表有时限(Time bound)，注重完成绩效指标的特定期限。
+　　
+建立KPI指标的要点在于流程性、计划性和系统性。首先明确企业的战略目标，并在企业会议上利用头脑风暴法和鱼骨分析法找出企业的业务重点，也就是企业价值评估的重点。然后，再用头脑风暴法找出这些关键业务领域的关键业绩指标(KPI)，即企业级KPI。　　</p>
+<p>接下来，各部门的主管需要依据企业级KPI建立部门级KPI，并对相应部门的KPI进行分解，确定相关的要素目标，分析绩效驱动因数(技术、组织、人)，确定实现目标的工作流程，分解出各部门级的KPI，以便确定评价指标体系。　　然后，各部门的主管和部门的KPI人员一起再将KPI进一步细分，分解为更细的KPI及各职位的业绩衡量指标。这些业绩衡量指标就是员工考核的要素和依据。这种对KPI体系的建立和测评过程本身，就是统一全体员工朝着企业战略目标努力的过程，也必将对各部门管理者的绩效管理工作起到很大的促进作用。　　</p>
+<p>指标体系确立之后，还需要设定评价标准。一般来说，指标指的是从哪些方面衡量或评价工作，解决“评价什么”的问题；而标准指的是在各个指标上分别应该达到什么样的水平，解决“被评价者怎样做，做多少”的问题。　　最后，必须对关键绩效指标进行审核。比如，审核这样的一些问题：多个评价者对同一个绩效指标进行评价，结果是否能取得一致？这些指标的总和是否可以解释被评估者80%以上的工作目标？跟踪和监控这些关键绩效指标是否可以操作？等等。审核主要是为了确保这些关键绩效指标能够全面、客观地反映被评价对象的绩效，而且易于操作。　　</p>
+<p>每一个职位都影响某项业务流程的一个过程，或影响过程中的某个点。在订立目标及进行绩效考核时，应考虑职位的任职者是否能控制该指标的结果，如果任职者不能控制，则该项指标就不能作为任职者的业绩衡量指标。比如，跨部门的指标就不能作为基层员工的考核指标，而应作为部门主管或更高层主管的考核指标。　　绩效管理是管理双方就目标及如何实现目标达成共识的过程，以及增强员工成功地达到目标的管理方法。管理者给下属订立工作目标的依据来自部门的KPI，部门的KPI来自上级部门的KPI，上级部门的KPI来自企业级KPI。只有这样，才能保证每个职位都是按照企业要求的方向去努力。　　善用KPI考评企业，将有助于企业组织结构集成化，提高企业的效率，精简不必要的机构、不必要的流程和不必要的系统。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>推荐大家使用Symantec Endpoint Protection 11.0.4000_MR4简体中文正式版</title>
+      <link>https://iliu.org/310.html</link>
+      <pubDate>Wed, 21 Jan 2009 13:35:00 +0000</pubDate>
+      <guid>https://iliu.org/310.html</guid>
+      <description>&lt;p&gt;这个可以理解为SCS的升级新一代版本，试用后感觉响应速度和PF占用都有了很大进步，使用symantec SAV或者SCS的朋友可以考虑更新到这个版本了。中文名称：赛门铁克端点防护Symantec Endpoint Protection V11.0.4000 MR4简体中文版 英文名称：Symantec_Endpoint_Protection 11.0.4000 MR4版本：官方最新发布发行时间：2009年1月制作发行：Symantec地区：中国大陆语言：简体中文[安装测试] 在WindowsXP SP2 SP3中文版安装测试通过,VISTA未测试,因我没有该系统[版权声明]资源版权归原作者及其公司所有，如果你喜欢，请购买正版。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>这个可以理解为SCS的升级新一代版本，试用后感觉响应速度和PF占用都有了很大进步，使用symantec SAV或者SCS的朋友可以考虑更新到这个版本了。中文名称：赛门铁克端点防护Symantec Endpoint Protection V11.0.4000 MR4简体中文版 英文名称：Symantec_Endpoint_Protection 11.0.4000 MR4版本：官方最新发布发行时间：2009年1月制作发行：Symantec地区：中国大陆语言：简体中文[安装测试] 在WindowsXP SP2 SP3中文版安装测试通过,VISTA未测试,因我没有该系统[版权声明]资源版权归原作者及其公司所有，如果你喜欢，请购买正版。</p>
+<p>简介：Symantec Endpoint Protection将Symantec AntiVirus与高级威胁防御功能相结合，可以为笔记本、台式机和服务器提供无与伦比的恶意软件防护能力。 它在一个代理和管理控制台中无缝集成了基本安全技术，从而不仅提高了防护能力，而且还有助于降低总拥有成本。主要功能* 无缝集成一些基本技术，如防病毒、反间谍软件、防火墙、入侵防御和设备控制。* 只需要一个代理，通过一个管理控制台即可进行管理。* 由端点安全领域的市场领导者提供无可匹敌的端点防护。* 无需对每个端点额外部署软件即可立即进行 NAC 升级。主要优势* 阻截恶意软件，如病毒、蠕虫、特洛伊木马、间谍软件、恶意软件、bot、零日威胁和 rootkit。</p>
+<p>* 防止安全违规事件的发生，从而降低管理开销。* 降低保障端点安全的总拥有成本。新功能单个代理和单个控制台为所有 Symantec Endpoint Protection 技术和 Symantec Network Access Control 提供一个代理。 为管理所有 Symantec Endpoint Protection 技术和 Symantec Network Access Control 提供一个集成的界面。 允许对所有技术采用一种通信方法和一个内容交付系统。* 提供了出色的操作效能，如单个软件更新、单个策略更新等。* 提供了统一的集中报告。* 提供了统一的授权许可和维护。* 添加 Symantec Network Access Control 实施功能时不需要对客户端进行更改。* 降低保障端点安全的总拥有成本。* 降低了管理工作量。主动威胁扫描基于行为的防护，可以防御零日威胁和前所未见的威胁。 与其它启发式技术不同，主动威胁扫描可以对未知应用程序的行为好坏进行分类，从而提供了更精确的恶意软件检测。* 无需设置基于规则的配置即可准确检测恶意软件。</p>
+<p>* 有助于降低误报数量。高级 Rootkit 检测和删除功能通过集成 VxMS（Veritas 映射服务，Veritas 的一种技术）提供了出色的 rootkit 检测和删除功能，从而可以访问操作系统底层，进行全面分析和修复。* 检测并删除最难以处理的 rootkit。* 无需对受感染的计算机重新制作映像，因此节省了时间和金钱，同时防止工作效率下降。应用程序控制允许管理员控制用户和其它应用程序访问特定进程、文件和文件夹。 它提供了应用程序分析、进程控制、文集和注册表访问控制，以及模块和 DLL 控制。 它使管理员能够限制某些被视为可疑或高风险类型的活动。</p>
+<p>* 防止恶意软件传播或破坏端点。* 锁定端点，防止数据泄漏。设备控制控制可以连接到计算机的外设以及这些外设的使用方式。 它可以锁定一个端点，阻止其与拇指驱动器、CD 刻录机、打印机和其它 USB 设备相连。* 防止敏感的机密信息从端点被提取或窃取（数据泄漏）。</p>
+<ul>
+<li>防止端点被通过外设传播的病毒感染。</li>
+</ul>
+<p>系统要求Symantec Endpoint Protection 客户端（32 位）最低要求</p>
+<p>官方网站，请大家放心下载！ 最近有网友反映无法正常下载所提供的CD镜像链接，经检查是因为 Symantec 官方进行了限制，请各位网友用迅雷或快车下载，如果还是无法下载请大家，多尝试几次！</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>

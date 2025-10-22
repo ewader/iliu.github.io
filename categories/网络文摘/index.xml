@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>网络文摘 on 老刘博客</title>
-    <link>https://iliu.org/categories/%E7%BD%91%E7%BB%9C%E6%96%87%E6%91%98/</link>
+    <link>http://localhost:1313/categories/%E7%BD%91%E7%BB%9C%E6%96%87%E6%91%98/</link>
     <description>Recent content in 网络文摘 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.152.0</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 04 Apr 2010 08:57:05 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/categories/%E7%BD%91%E7%BB%9C%E6%96%87%E6%91%98/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/%E7%BD%91%E7%BB%9C%E6%96%87%E6%91%98/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>看看河南人有啥牛的</title>
-      <link>https://iliu.org/646.html</link>
+      <link>http://localhost:1313/646.html</link>
       <pubDate>Sun, 04 Apr 2010 08:57:05 +0000</pubDate>
-      <guid>https://iliu.org/646.html</guid>
+      <guid>http://localhost:1313/646.html</guid>
       <description>&lt;p&gt;&lt;strong&gt;河南没啥&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;—-;一部河南史半部中国史;的;解嘲;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;一、河南没啥历史&lt;/strong&gt;&lt;/p&gt;
@@ -154,9 +154,9 @@
     </item>
     <item>
       <title>父亲在养育女孩中起到的作用</title>
-      <link>https://iliu.org/645.html</link>
+      <link>http://localhost:1313/645.html</link>
       <pubDate>Thu, 01 Apr 2010 12:46:48 +0000</pubDate>
-      <guid>https://iliu.org/645.html</guid>
+      <guid>http://localhost:1313/645.html</guid>
       <description>&lt;p&gt;来自父亲的爱是无私的，是博大的，它能够撑起女儿的一片天。因此，;富养女孩;，就要父亲对女儿付出更多的关注和支持，让女儿在尊重疼爱中找到幸福的方向，找到温馨的感觉。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>来自父亲的爱是无私的，是博大的，它能够撑起女儿的一片天。因此，;富养女孩;，就要父亲对女儿付出更多的关注和支持，让女儿在尊重疼爱中找到幸福的方向，找到温馨的感觉。</p>
 <p>　　对于女儿来说，父亲就是她的靠山，父亲就是整个家庭的支柱，有了父亲，她就有了安全感。因此，与母爱相同，父爱也是女孩子成长必不可少的养料。在女儿认识世界的过程中，有了充足的父爱，女孩将发展出一种刚柔并济的性格。</p>
@@ -190,9 +190,9 @@
     </item>
     <item>
       <title>为预测地震的网友喊冤</title>
-      <link>https://iliu.org/600.html</link>
+      <link>http://localhost:1313/600.html</link>
       <pubDate>Sat, 27 Feb 2010 02:27:23 +0000</pubDate>
-      <guid>https://iliu.org/600.html</guid>
+      <guid>http://localhost:1313/600.html</guid>
       <description>&lt;p&gt;2月20日下午至21日凌晨，山西的晋中、太原、吕梁、长治、阳泉等地出现大面积地震传言，造成百万名以上群众情绪紧张，夜间通宵露宿于广场;被等地震;，事后，山西省地震局等在21日上午出面辟谣，社会情绪渐趋平静。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>2月20日下午至21日凌晨，山西的晋中、太原、吕梁、长治、阳泉等地出现大面积地震传言，造成百万名以上群众情绪紧张，夜间通宵露宿于广场;被等地震;，事后，山西省地震局等在21日上午出面辟谣，社会情绪渐趋平静。</p>
 <p>　　这一切都源于一个;预测;。有人说是;谣言;，其实之前他们都相信这个预测并非是谣言。据山西警方透露，目前在百度贴吧发布预测地震信息帖的一太原人已被刑拘。据悉正是该网友前几天最先在网上发贴称山西多地将在21日零时至6时发生特大地震，提醒大家注意。</p>
