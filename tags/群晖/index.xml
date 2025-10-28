@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>群晖 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E7%BE%A4%E6%99%96/</link>
+    <link>http://localhost:1313/tags/%E7%BE%A4%E6%99%96/</link>
     <description>Recent content in 群晖 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.152.0</generator>
+    <generator>Hugo -- 0.152.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 11 Oct 2025 08:12:42 +0800</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E7%BE%A4%E6%99%96/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E7%BE%A4%E6%99%96/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>群晖NAS安装FRP客户端（frpc）</title>
-      <link>https://iliu.org/posts/install-frpc-on-synology-nas-without-docker/</link>
+      <link>http://localhost:1313/posts/install-frpc-on-synology-nas-without-docker/</link>
       <pubDate>Sat, 11 Oct 2025 08:12:42 +0800</pubDate>
-      <guid>https://iliu.org/posts/install-frpc-on-synology-nas-without-docker/</guid>
+      <guid>http://localhost:1313/posts/install-frpc-on-synology-nas-without-docker/</guid>
       <description>&lt;p&gt;今年5月份的时候，购买了一款搬瓦工的VPS，当时是想用来做博客的VPS，用的是美西的优化线路，速度非常的理想，前几天我又把博客系统转回到了&lt;code&gt;Hugo&lt;/code&gt;，这样这台VPS就空出来了，加上最近群晖的&lt;code&gt;QC&lt;/code&gt;以及&lt;code&gt;tailscale&lt;/code&gt;这些都不太理想，所以我决定使用FRP的方式来穿透群晖。搜了一下网上的教程都是采用的&lt;code&gt;docker&lt;/code&gt;，但是我安装后总是报错，所以研究了一下，采用直接安装的方式，省资源还不容易出错。本文详细介绍如何在用户目录下部署frpc，并实现开机自启。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>今年5月份的时候，购买了一款搬瓦工的VPS，当时是想用来做博客的VPS，用的是美西的优化线路，速度非常的理想，前几天我又把博客系统转回到了<code>Hugo</code>，这样这台VPS就空出来了，加上最近群晖的<code>QC</code>以及<code>tailscale</code>这些都不太理想，所以我决定使用FRP的方式来穿透群晖。搜了一下网上的教程都是采用的<code>docker</code>，但是我安装后总是报错，所以研究了一下，采用直接安装的方式，省资源还不容易出错。本文详细介绍如何在用户目录下部署frpc，并实现开机自启。</p>
 <h3 id="一frp-简介">一、FRP 简介</h3>
@@ -223,9 +223,9 @@
     </item>
     <item>
       <title>在群晖里安装简单的笔记软件flatnotes</title>
-      <link>https://iliu.org/posts/install-the-simple-note-taking-software-flatnotes-on-synology/</link>
+      <link>http://localhost:1313/posts/install-the-simple-note-taking-software-flatnotes-on-synology/</link>
       <pubDate>Wed, 30 Oct 2024 03:48:47 -0400</pubDate>
-      <guid>https://iliu.org/posts/install-the-simple-note-taking-software-flatnotes-on-synology/</guid>
+      <guid>http://localhost:1313/posts/install-the-simple-note-taking-software-flatnotes-on-synology/</guid>
       <description>&lt;p&gt;老刘这一段时间以来都是使用&lt;code&gt;VSCode&lt;/code&gt;来写博客，主要是因为&lt;code&gt;anytype&lt;/code&gt;对长文的支持一般，另外对&lt;code&gt;markdown&lt;/code&gt;语法支持的也不够，比如表格功能就没法用&lt;code&gt;markdown&lt;/code&gt;语法。但是&lt;code&gt;VSCode&lt;/code&gt;有一个缺点是同步不方便，而我也想要能随时随地的写博客，直到看到&lt;code&gt;flatnotes&lt;/code&gt;这个笔记软件，说它是笔记软件有点抬举它了，因为它太简洁，不过用来写博客文章是刚刚好，并且支持docker部署使用，这样只要有网络，有浏览器，就可以随时随地的写博客了。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>老刘这一段时间以来都是使用<code>VSCode</code>来写博客，主要是因为<code>anytype</code>对长文的支持一般，另外对<code>markdown</code>语法支持的也不够，比如表格功能就没法用<code>markdown</code>语法。但是<code>VSCode</code>有一个缺点是同步不方便，而我也想要能随时随地的写博客，直到看到<code>flatnotes</code>这个笔记软件，说它是笔记软件有点抬举它了，因为它太简洁，不过用来写博客文章是刚刚好，并且支持docker部署使用，这样只要有网络，有浏览器，就可以随时随地的写博客了。</p>
 <p>既然合适使用，当然就要把他部署在<code>NAS</code>里，网上群晖部署的教程比较麻烦，还需要进命令行操作，其实根本不用那么麻烦，直接使用群晖默认的<code>docker</code>管理套件<code>container manager</code>来部署就行了。步骤如下：</p>
@@ -273,9 +273,9 @@
     </item>
     <item>
       <title>思源笔记群晖正确的部署方法</title>
-      <link>https://iliu.org/posts/4418/</link>
+      <link>http://localhost:1313/posts/4418/</link>
       <pubDate>Sat, 01 Jul 2023 03:10:30 -0400</pubDate>
-      <guid>https://iliu.org/posts/4418/</guid>
+      <guid>http://localhost:1313/posts/4418/</guid>
       <description>&lt;p&gt;最近一直在选择一款适合自己的笔记软件，最后确定在思源笔记和 Joplin 这两个上面，打算都长期试用一下，比较一下哪个更适合自己。&lt;/p&gt;
 &lt;h2 id=&#34;事情的起因&#34;&gt;事情的起因&lt;a href=&#34;#%E4%BA%8B%E6%83%85%E7%9A%84%E8%B5%B7%E5%9B%A0&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;思源笔记的升级是相当频繁，可是我却发现，每次 docker 升级后，数据都没有保存下来，只能从备份的数据里重新导入，找了一下原因，发现是映射的文件夹里面没有数据，于是就重新安装，发现按照网上的教程，安装后 跑不起来。经过一番摸索，总算是搞定了！&lt;/p&gt;</description>

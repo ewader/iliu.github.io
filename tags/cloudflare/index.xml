@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Cloudflare on 老刘博客</title>
-    <link>https://iliu.org/tags/cloudflare/</link>
+    <link>http://localhost:1313/tags/cloudflare/</link>
     <description>Recent content in Cloudflare on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.152.0</generator>
+    <generator>Hugo -- 0.152.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 01 Dec 2023 21:04:03 +0800</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/cloudflare/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/cloudflare/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>利用cloudflare页面规则设置301永久跳转</title>
-      <link>https://iliu.org/posts/use-cloudflare-page-rules-setup-301-permanent-redirect/</link>
+      <link>http://localhost:1313/posts/use-cloudflare-page-rules-setup-301-permanent-redirect/</link>
       <pubDate>Fri, 01 Dec 2023 21:04:03 +0800</pubDate>
-      <guid>https://iliu.org/posts/use-cloudflare-page-rules-setup-301-permanent-redirect/</guid>
+      <guid>http://localhost:1313/posts/use-cloudflare-page-rules-setup-301-permanent-redirect/</guid>
       <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;细心的读者可能已经发现，图南博客的域名已经由&lt;code&gt;iliu.org&lt;/code&gt; 更换到&lt;code&gt;iliu.org&lt;/code&gt;。这个域名是之前在&lt;code&gt;Google&lt;/code&gt;注册的，可惜的80端口被墙了，也不知道是怎么实现强域名80端口的。于是在暂时使用一段时间后又使用了原域名。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h2 id="前言">前言</h2>

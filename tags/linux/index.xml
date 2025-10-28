@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Linux on 老刘博客</title>
-    <link>https://iliu.org/tags/linux/</link>
+    <link>http://localhost:1313/tags/linux/</link>
     <description>Recent content in Linux on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.152.0</generator>
+    <generator>Hugo -- 0.152.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 02 Oct 2025 10:33:29 +0800</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ubuntu24.04安装Windterm</title>
-      <link>https://iliu.org/ubuntu-24-04-install-windterm/</link>
+      <link>http://localhost:1313/ubuntu-24-04-install-windterm/</link>
       <pubDate>Thu, 02 Oct 2025 10:33:29 +0800</pubDate>
-      <guid>https://iliu.org/ubuntu-24-04-install-windterm/</guid>
+      <guid>http://localhost:1313/ubuntu-24-04-install-windterm/</guid>
       <description>&lt;p&gt;经过这一段时间的使用Linux，我发现确实是可以满足我日常的使用。系统也流畅，再没有了之前使用Windows 11的时候偶尔的卡顿，决定长期使用了。既然要长期使用那么EndeavourOS就不是太适合了，毕竟这个以Archlinux为基础的系统，追求的是新而不是稳定。所以我决定换成Ubuntu，而之前科学软件换了一款之后，影响我使用的因素也不存在了。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>经过这一段时间的使用Linux，我发现确实是可以满足我日常的使用。系统也流畅，再没有了之前使用Windows 11的时候偶尔的卡顿，决定长期使用了。既然要长期使用那么EndeavourOS就不是太适合了，毕竟这个以Archlinux为基础的系统，追求的是新而不是稳定。所以我决定换成Ubuntu，而之前科学软件换了一款之后，影响我使用的因素也不存在了。</p>
 <p>换了Ubuntu之后，我常用的微信，wps，anytype等软件都有deb的安装包，只有windterm是源码的形式。没法直接点击安装，当然，可以在终端中用命令直接打开，但是不是很方便。找了一下网上的方法，也没有能很好的解决，最终还是借助ai,才安装成功。如下：</p>
@@ -108,9 +108,9 @@
     </item>
     <item>
       <title>从 Windows 到 Linux：重新体验的过程与心得</title>
-      <link>https://iliu.org/from-windows-to-linux-the-process-and-insights-of-re-experiencing/</link>
+      <link>http://localhost:1313/from-windows-to-linux-the-process-and-insights-of-re-experiencing/</link>
       <pubDate>Tue, 23 Sep 2025 10:13:07 +0800</pubDate>
-      <guid>https://iliu.org/from-windows-to-linux-the-process-and-insights-of-re-experiencing/</guid>
+      <guid>http://localhost:1313/from-windows-to-linux-the-process-and-insights-of-re-experiencing/</guid>
       <description>&lt;p&gt;几年前，我使用过一段时间Linux，后来因为没有官方的微信客户端，并且每三个月需要报税的软件只能在Windows上使用，所以我放弃了Linux，转而使用了Windows 11，过了几年，便懒得再折腾。最近，电脑偶尔会出现卡顿的情况，每次都需要重启才能解决。我曾经重置过系统，但问题依然没有得到彻底解决。恰好，我看到某位博友写的主力使用Ubuntu24的博客，因此，我决定重新尝试使用Linux，毕竟我的电脑使用场景非常简单，除了偶尔报税，其它基本需求都能在Linux下实现。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>几年前，我使用过一段时间Linux，后来因为没有官方的微信客户端，并且每三个月需要报税的软件只能在Windows上使用，所以我放弃了Linux，转而使用了Windows 11，过了几年，便懒得再折腾。最近，电脑偶尔会出现卡顿的情况，每次都需要重启才能解决。我曾经重置过系统，但问题依然没有得到彻底解决。恰好，我看到某位博友写的主力使用Ubuntu24的博客，因此，我决定重新尝试使用Linux，毕竟我的电脑使用场景非常简单，除了偶尔报税，其它基本需求都能在Linux下实现。</p>
 <h3 id="我的需求">我的需求</h3>
@@ -167,9 +167,9 @@
     </item>
     <item>
       <title>Ubuntu部署ghost博客所踩的小坑</title>
-      <link>https://iliu.org/minor-pitfalls-enc-untered-when-deploying-ghost-blog-on-ubuntu/</link>
+      <link>http://localhost:1313/minor-pitfalls-enc-untered-when-deploying-ghost-blog-on-ubuntu/</link>
       <pubDate>Wed, 06 Aug 2025 08:26:28 +0800</pubDate>
-      <guid>https://iliu.org/minor-pitfalls-enc-untered-when-deploying-ghost-blog-on-ubuntu/</guid>
+      <guid>http://localhost:1313/minor-pitfalls-enc-untered-when-deploying-ghost-blog-on-ubuntu/</guid>
       <description>&lt;p&gt;Ghost 6.0 发布后，我就被它宣传的“联邦宇宙（Activitypub）”和“内置 Web 分析”功能狠狠吸引了。可惜一直用的 1Panel 面板并没有 Ghost 的升级选项，考虑到 Ghost 6 改动幅度较大，盲猜1Panel里的Docker需要重建，再加上想要尽快体验ghost的联邦宇宙等功能，所以打算用官方推荐的方式“一劳永逸”。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Ghost 6.0 发布后，我就被它宣传的“联邦宇宙（Activitypub）”和“内置 Web 分析”功能狠狠吸引了。可惜一直用的 1Panel 面板并没有 Ghost 的升级选项，考虑到 Ghost 6 改动幅度较大，盲猜1Panel里的Docker需要重建，再加上想要尽快体验ghost的联邦宇宙等功能，所以打算用官方推荐的方式“一劳永逸”。</p>
 <hr>

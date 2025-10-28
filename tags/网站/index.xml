@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>网站 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E7%BD%91%E7%AB%99/</link>
+    <link>http://localhost:1313/tags/%E7%BD%91%E7%AB%99/</link>
     <description>Recent content in 网站 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.152.0</generator>
+    <generator>Hugo -- 0.152.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 16 Sep 2025 10:37:19 +0800</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E7%BD%91%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E7%BD%91%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>解决腾讯 EdgeOne 域名解析与 SSL 证书申请失败问题</title>
-      <link>https://iliu.org/troubleshooting-tencent-edgeone-a-dnssec-odyssey/</link>
+      <link>http://localhost:1313/troubleshooting-tencent-edgeone-a-dnssec-odyssey/</link>
       <pubDate>Tue, 16 Sep 2025 10:37:19 +0800</pubDate>
-      <guid>https://iliu.org/troubleshooting-tencent-edgeone-a-dnssec-odyssey/</guid>
+      <guid>http://localhost:1313/troubleshooting-tencent-edgeone-a-dnssec-odyssey/</guid>
       <description>&lt;p&gt;前几个月，我关注到腾讯新推出的 &lt;strong&gt;EdgeOne&lt;/strong&gt; 服务。这款产品无需备案和实名，而且提供免费额度，对于个人网站来说非常友好。刚发布时兑换码一码难求，我并没有太多关注。后来，腾讯推出了一个活动，只要在 X（原 Twitter）上转发推文，就能获得两个兑换码。我成功领取并兑换了一个，并将其用于我的“镜缘轩”网站。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>前几个月，我关注到腾讯新推出的 <strong>EdgeOne</strong> 服务。这款产品无需备案和实名，而且提供免费额度，对于个人网站来说非常友好。刚发布时兑换码一码难求，我并没有太多关注。后来，腾讯推出了一个活动，只要在 X（原 Twitter）上转发推文，就能获得两个兑换码。我成功领取并兑换了一个，并将其用于我的“镜缘轩”网站。</p>
 <p>我的“镜缘轩”网站部署在 CloudCone 的 VPS 上，访问速度一直不尽如人意。接入 EdgeOne 后，网站速度有了显著提升，这让我决定将我的博客也套上这个服务。</p>
@@ -47,9 +47,9 @@
     </item>
     <item>
       <title>文字是最好的时间容器</title>
-      <link>https://iliu.org/writing-the-ultimate-time-capsule/</link>
+      <link>http://localhost:1313/writing-the-ultimate-time-capsule/</link>
       <pubDate>Sat, 13 Sep 2025 10:41:42 +0800</pubDate>
-      <guid>https://iliu.org/writing-the-ultimate-time-capsule/</guid>
+      <guid>http://localhost:1313/writing-the-ultimate-time-capsule/</guid>
       <description>&lt;p&gt;前几天，加入多年的“&lt;a href=&#34;https://foreverblog.cn/&#34;&gt;十年之约&lt;/a&gt;”QQ群被腾讯封了。这事儿引发了一系列风波，项目负责人也换了，还有人冷嘲热讽：“十年之约自己都没坚持十年”。&lt;/p&gt;
 &lt;p&gt;说实话，我当初加入这个项目，就是给自己一个写博客的提醒，没想太多别的。可人多的地方是非多，这是没办法的事。博客能不能坚持下去，其实和加不加入什么组织没有太大关系。这取决于你的&lt;strong&gt;初心&lt;/strong&gt;。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>前几天，加入多年的“<a href="https://foreverblog.cn/">十年之约</a>”QQ群被腾讯封了。这事儿引发了一系列风波，项目负责人也换了，还有人冷嘲热讽：“十年之约自己都没坚持十年”。</p>
