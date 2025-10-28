@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>外链 on 老刘博客</title>
-    <link>http://localhost:1313/tags/%E5%A4%96%E9%93%BE/</link>
+    <link>https://iliu.org/tags/%E5%A4%96%E9%93%BE/</link>
     <description>Recent content in 外链 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
-      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.151.1</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 09 Jul 2019 01:20:11 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E5%A4%96%E9%93%BE/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://iliu.org/tags/%E5%A4%96%E9%93%BE/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>利用cloudFlare的边缘计算workers实现外链转内链跳转</title>
-      <link>http://localhost:1313/2248.html</link>
+      <link>https://iliu.org/2248.html</link>
       <pubDate>Tue, 09 Jul 2019 01:20:11 +0000</pubDate>
-      <guid>http://localhost:1313/2248.html</guid>
+      <guid>https://iliu.org/2248.html</guid>
       <description>&lt;p&gt;跋涉者曾经分享过一篇7b2主题外链跳转的文章，那篇文章实现的原理是在自己服务器里增加一个跳转的页面代码。&lt;/p&gt;
 &lt;p&gt;[zrz_insert_post id=1656]&lt;/p&gt;
 &lt;p&gt;不过今天看张戈大神的一篇文章&lt;a href=&#34;https://zhang.ge/5151.html&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;CloudFlare边缘计算Workers尝鲜初探：博客跳转中间页&lt;/a&gt;。这篇文章谈到可以把这个跳转代码保存到cloudFlare的边缘计算workers中，从而让跳转可以在CDN里实现，显然，这样会减轻服务器计算的压力。对小水管的博客来说有一定的使用价值。&lt;/p&gt;</description>
@@ -125,210 +125,6 @@ async function handleRequest(request) {
 <p><img decoding="async" alt="利用cloudFlare的边缘计算workers实现外链转内链跳转" src="https://tunan.org/wp-content/uploads/2019/07/145ebbde81352c.jpg" id="6AC9949F" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
 <p>至此，已经大功告成，想看效果的可以点击上面的外链，值得说明的一点是，cloudFlare的边缘计算workers是收费服务，不过每天有免费10w的请求数量，对我们这个小博客来说，是非常非常的够用了。</p>
 <p>如果，你也在使用<span style="background-color: rgb(255, 255, 255); color: rgb(51, 51, 51);">cloudFlare，不妨也可以用用这个玩意，毕竟充分利用外部资源是我等小博主追求的目标哈。</span></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>给7B2主题加上外链自动跳转功能</title>
-      <link>http://localhost:1313/1656.html</link>
-      <pubDate>Mon, 27 May 2019 07:08:40 +0000</pubDate>
-      <guid>http://localhost:1313/1656.html</guid>
-      <description>&lt;p&gt;7B2主题默认是没有外链自动跳转功能的，这玩意要说有用吧，作用不大，要说没用吧，大家都这么加，所以跋涉者也给外链增加一个自动跳转。&lt;figure id=&#34;1655&#34; class=&#34;content-img-box &#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img decoding=&#34;async&#34; id=&#34;957DA32A&#34; class=&#34;po-img-big&#34; src=&#34;https://tunan.org/wp-content/uploads/2019/05/1978be5d8cc0fb.png&#34; alt=&#34;给7B2主题加上外链自动跳转功能&#34; /&gt; &lt;figcaption class=&#34;addDesn&#34;&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;是不是很漂亮的的，感谢&lt;a href=&#34;https://www.dujin.org&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;缙哥哥&lt;/a&gt;分享的源码&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>7B2主题默认是没有外链自动跳转功能的，这玩意要说有用吧，作用不大，要说没用吧，大家都这么加，所以跋涉者也给外链增加一个自动跳转。<figure id="1655" class="content-img-box "></p>
-<p><img decoding="async" id="957DA32A" class="po-img-big" src="https://tunan.org/wp-content/uploads/2019/05/1978be5d8cc0fb.png" alt="给7B2主题加上外链自动跳转功能" /> <figcaption class="addDesn"></figcaption></figure></p>
-<p>是不是很漂亮的的，感谢<a href="https://www.dujin.org" target="_blank" rel="noopener noreferrer">缙哥哥</a>分享的源码</p>
-<h2 id="第一步建立一个go跳转文件">第一步，建立一个go跳转文件</h2>
-<p>把下面的代码保存成index.php,在网站的根目录里新建一个go文件夹，然后把这个index.php上传到这个文件夹里</p>
-<pre class="prettyprint"><span class="pun">&lt;?</span><span class="pln">php
-</span><span class="com">/**
-* WordPress外链go跳转页面 - https://www.dujin.org/12762.html
-* @copyright (c) Emlog All Rights Reserved
-*/</span>
-<span class="com">//自定义跳转地址</span><span class="pln">
-$cars </span><span class="pun">=</span><span class="pln"> array</span><span class="pun">(</span><span class="pln">
-array</span><span class="pun">(</span><span class="str">"qcloud"</span><span class="pun">,</span><span class="str">'http://www.qcloud.com/redirect.php?redirect=1001&cps_key=8558139aea55e95d71f488081ba44577'</span><span class="pun">),</span><span class="pln">
-array</span><span class="pun">(</span><span class="str">"upyun"</span><span class="pun">,</span><span class="str">'https://www.upyun.com/league'</span><span class="pun">),</span><span class="pln">
-array</span><span class="pun">(</span><span class="str">"trustutn"</span><span class="pun">,</span><span class="str">'http://c.trustutn.org/s/aeink.com'</span><span class="pun">),</span><span class="pln">
-array</span><span class="pun">(</span><span class="str">"gfvps"</span><span class="pun">,</span><span class="str">'https://www.gfvps.cn/page.aspx?c=referral&u=9023'</span><span class="pun">),</span><span class="pln">
-array</span><span class="pun">(</span><span class="str">"360scan"</span><span class="pun">,</span><span class="str">'http://webscan.360.cn/index/checkwebsite/url/www.aeink.com'</span><span class="pun">)</span>
-<span class="pun">);</span>
-
-<span class="kwd">if</span><span class="pun">(</span><span class="pln">strlen</span><span class="pun">(</span><span class="pln">$_SERVER</span><span class="pun">[</span><span class="str">'REQUEST_URI'</span><span class="pun">])</span> <span class="pun">&gt;</span> <span class="lit">384</span> <span class="pun">||</span><span class="pln"> strpos</span><span class="pun">(</span><span class="pln">$_SERVER</span><span class="pun">[</span><span class="str">'REQUEST_URI'</span><span class="pun">],</span> <span class="str">"eval("</span><span class="pun">)</span> <span class="pun">||</span><span class="pln"> strpos</span><span class="pun">(</span><span class="pln">$_SERVER</span><span class="pun">[</span><span class="str">'REQUEST_URI'</span><span class="pun">],</span> <span class="str">"base64"</span><span class="pun">))</span> <span class="pun">{</span>
-<span class="lit">@header</span><span class="pun">(</span><span class="str">"HTTP/1.1 414 Request-URI Too Long"</span><span class="pun">);</span>
-<span class="lit">@header</span><span class="pun">(</span><span class="str">"Status: 414 Request-URI Too Long"</span><span class="pun">);</span>
-<span class="lit">@header</span><span class="pun">(</span><span class="str">"Connection: Close"</span><span class="pun">);</span>
-<span class="lit">@exit</span><span class="pun">;</span>
-<span class="pun">}</span>
-<span class="com">//通过QUERY_STRING取得完整的传入数据，然后取得url=之后的所有值，兼容性更好</span><span class="pln">
-$t_url </span><span class="pun">=</span><span class="pln"> htmlspecialchars</span><span class="pun">(</span><span class="pln">preg_replace</span><span class="pun">(</span><span class="str">'/^url=(.*)$/i'</span><span class="pun">,</span><span class="str">'$1'</span><span class="pun">,</span><span class="pln">$_SERVER</span><span class="pun">[</span><span class="str">"QUERY_STRING"</span><span class="pun">]));</span>
-
-<span class="com">//此处可以自定义一些特别的外链，不需要可以删除以下5行</span>
-<span class="kwd">foreach</span><span class="pun">(</span><span class="pln">$cars </span><span class="kwd">as</span><span class="pln"> $k</span><span class="pun">=&gt;</span><span class="pln">$val</span><span class="pun">){</span>
-<span class="kwd">if</span><span class="pun">(</span><span class="pln">$t_url</span><span class="pun">==</span><span class="pln">$val</span><span class="pun">[</span><span class="lit"></span><span class="pun">]</span> <span class="pun">)</span> <span class="pun">{</span><span class="pln">
-$t_url </span><span class="pun">=</span><span class="pln"> $val</span><span class="pun">[</span><span class="lit">1</span><span class="pun">];</span><span class="pln">
-$t_vip </span><span class="pun">=</span> <span class="lit">1</span><span class="pun">;</span>
-<span class="pun">}</span>
-<span class="pun">}</span>
-
-<span class="com">//数据处理</span>
-<span class="kwd">if</span><span class="pun">(!</span><span class="pln">empty</span><span class="pun">(</span><span class="pln">$t_url</span><span class="pun">))</span> <span class="pun">{</span>
-<span class="com">//判断取值是否加密</span>
-<span class="kwd">if</span> <span class="pun">(</span><span class="pln">$t_url </span><span class="pun">==</span><span class="pln"> base64_encode</span><span class="pun">(</span><span class="pln">base64_decode</span><span class="pun">(</span><span class="pln">$t_url</span><span class="pun">)))</span> <span class="pun">{</span><span class="pln">
-$t_url </span><span class="pun">=</span><span class="pln"> base64_decode</span><span class="pun">(</span><span class="pln">$t_url</span><span class="pun">);</span>
-<span class="pun">}</span>
-<span class="com">//对取值进行网址校验和判断</span><span class="pln">
-preg_match</span><span class="pun">(</span><span class="str">'/^(http|https|thunder|qqdl|ed2k|Flashget|qbrowser):\/\//i'</span><span class="pun">,</span><span class="pln">$t_url</span><span class="pun">,</span><span class="pln">$matches</span><span class="pun">);</span>
-<span class="kwd">if</span><span class="pun">(</span><span class="pln">$matches</span><span class="pun">){</span><span class="pln">
-$url</span><span class="pun">=</span><span class="pln">$t_url</span><span class="pun">;</span><span class="pln">
-$title</span><span class="pun">=</span><span class="str">'页面加载中,请稍候...'</span><span class="pun">;</span>
-<span class="pun">}</span> <span class="kwd">else</span> <span class="pun">{</span><span class="pln">
-preg_match</span><span class="pun">(</span><span class="str">'/\./i'</span><span class="pun">,</span><span class="pln">$t_url</span><span class="pun">,</span><span class="pln">$matche</span><span class="pun">);</span>
-<span class="kwd">if</span><span class="pun">(</span><span class="pln">$matche</span><span class="pun">){</span><span class="pln">
-$url</span><span class="pun">=</span><span class="str">'http://'</span><span class="pun">.</span><span class="pln">$t_url</span><span class="pun">;</span><span class="pln">
-$title</span><span class="pun">=</span><span class="str">'页面加载中,请稍候...'</span><span class="pun">;</span>
-<span class="pun">}</span> <span class="kwd">else</span> <span class="pun">{</span><span class="pln">
-$url </span><span class="pun">=</span> <span class="str">'http://'</span><span class="pun">.</span><span class="pln">$_SERVER</span><span class="pun">[</span><span class="str">'HTTP_HOST'</span><span class="pun">];</span><span class="pln">
-$title</span><span class="pun">=</span><span class="str">'参数错误，正在返回首页...'</span><span class="pun">;</span>
-<span class="pun">}</span>
-<span class="pun">}</span>
-<span class="pun">}</span> <span class="kwd">else</span> <span class="pun">{</span><span class="pln">
-$title </span><span class="pun">=</span> <span class="str">'参数缺失，正在返回首页...'</span><span class="pun">;</span><span class="pln">
-$url </span><span class="pun">=</span> <span class="str">'http://'</span><span class="pun">.</span><span class="pln">$_SERVER</span><span class="pun">[</span><span class="str">'HTTP_HOST'</span><span class="pun">];</span>
-<span class="pun">}</span>
-<span class="pun">?&gt;</span>
-<span class="tag">&lt;html&gt;</span>
-<span class="com">&lt;!--
-@name:aeink goto
-@description:AE博客跳转页面
-@author:墨渊
-@time:2017-09-22
-@copyright:AE博客&墨渊
-@author url:http://www.aeink.com/791.html
-@ps:你想删我也拦不住看你自觉性吧！！
---&gt;</span>
-<span class="tag">&lt;head&gt;</span>
-<span class="tag">&lt;meta</span> <span class="atn">http-equiv</span><span class="pun">=</span><span class="atv">"Content-Type"</span> <span class="atn">content</span><span class="pun">=</span><span class="atv">"text/html; charset=UTF-8"</span><span class="tag">&gt;</span>
-<span class="tag">&lt;meta</span> <span class="atn">name</span><span class="pun">=</span><span class="atv">"viewport"</span> <span class="atn">content</span><span class="pun">=</span><span class="atv">"width=device-width"</span><span class="tag">&gt;</span>
-<span class="tag">&lt;meta</span> <span class="atn">name</span><span class="pun">=</span><span class="atv">"robots"</span> <span class="atn">content</span><span class="pun">=</span><span class="atv">"noindex, nofollow"</span> <span class="tag">/&gt;</span>
-<span class="tag">&lt;noscript&gt;</span><span class="pln">&lt;meta http-equiv="refresh" content="1;url='</span><span class="pun">&lt;?</span><span class="pln">php echo $url</span><span class="pun">;?&gt;</span><span class="pln">';"&gt;</span><span class="tag">&lt;/noscript&gt;</span>
-<span class="tag">&lt;meta</span> <span class="atn">charset</span><span class="pun">=</span><span class="atv">"UTF-8"</span><span class="tag">&gt;</span>
-<span class="com">&lt;!--[if IE 8]&gt;
-&lt;style&gt;
-.ie8 .alert-circle,.ie8 .alert-footer{display:none}.ie8 .alert-box{padding-top:75px}.ie8 .alert-sec-text{top:45px}
-&lt;/style&gt;
-&lt;![endif]--&gt;</span>
-
-<span class="tag">&lt;title&gt;</span><span class="pun">&lt;?</span><span class="pln">php echo $title</span><span class="pun">;?&gt;</span><span class="tag">&lt;/title&gt;</span>
-<span class="tag">&lt;style&gt;</span><span class="pln">
-body</span><span class="pun">{</span><span class="pln">margin</span><span class="pun">:</span><span class="lit"></span><span class="pun">;</span><span class="pln">padding</span><span class="pun">:</span><span class="lit"></span><span class="pun">;</span><span class="pln">background</span><span class="pun">:</span><span class="com">#E6EAEB;font-family:Arial,'微软雅黑','宋体',sans-serif}.main{position:absolute;left:calc(50% - 200px);top:calc(50% - 13em)}.alert-box{display:none;position:relative;margin:auto;padding:180px 85px 22px;border-radius:10px 10px 0 0;background:#FFF;box-shadow:5px 9px 17px rgba(102,102,102,.75);width:286px;color:#FFF;text-align:center}.alert-box p{margin:0}.alert-circle{position:absolute;top:-50px;left:111px}.alert-sec-circle{stroke-dashoffset:0;stroke-dasharray:735;transition:stroke-dashoffset 1s linear}.alert-sec-text{position:absolute;top:11px;left:190px;width:76px;color:#000;font-size:68px}.alert-sec-unit{font-size:34px}.alert-body{margin:35px 0}.alert-head{color:#242424;font-size:28px}.alert-concent{margin:25px 0 14px;color:#7B7B7B;font-size:18px}.alert-concent p{line-height:27px}.alert-btn{display:block;border-radius:10px;background-color:#4AB0F7;height:55px;line-height:55px;width:286px;color:#FFF;font-size:20px;text-decoration:none;letter-spacing:2px}.alert-btn:hover{background-color:#6BC2FF}.alert-footer{margin:0 auto;height:42px;width:120px}.alert-footer-icon{float:left}.alert-footer-text{float:left;border-left:2px solid #EEE;padding:3px 0 0 5px;height:40px;color:#0B85CC;font-size:12px;text-align:left}.alert-footer-text p{color:#7A7A7A;font-size:22px;line-height:18px}</span>
-<span class="tag">&lt;/style&gt;</span>
-<span class="tag">&lt;/head&gt;</span>
-<span class="tag">&lt;body</span> <span class="atn">class</span><span class="pun">=</span><span class="atv">"ie8"</span> <span class="atn">style</span><span class="pun">=</span><span class="atv">""</span><span class="tag">&gt;</span>
-<span class="tag">&lt;div</span> <span class="atn">class</span><span class="pun">=</span><span class="atv">"main"</span><span class="tag">&gt;</span>
-<span class="tag">&lt;div</span> <span class="atn">id</span><span class="pun">=</span><span class="atv">"js-alert-box"</span> <span class="atn">class</span><span class="pun">=</span><span class="atv">"alert-box"</span> <span class="atn">style</span><span class="pun">=</span><span class="atv">"</span><span class="pln">display</span><span class="pun">:</span><span class="pln">block</span><span class="atv">"</span><span class="tag">&gt;</span>
-<span class="tag">&lt;svg</span> <span class="atn">class</span><span class="pun">=</span><span class="atv">"alert-circle"</span> <span class="atn">width</span><span class="pun">=</span><span class="atv">"234"</span> <span class="atn">height</span><span class="pun">=</span><span class="atv">"234"</span><span class="tag">&gt;&lt;circle</span> <span class="atn">cx</span><span class="pun">=</span><span class="atv">"117"</span> <span class="atn">cy</span><span class="pun">=</span><span class="atv">"117"</span> <span class="atn">r</span><span class="pun">=</span><span class="atv">"108"</span> <span class="atn">fill</span><span class="pun">=</span><span class="atv">"#FFF"</span> <span class="atn">stroke</span><span class="pun">=</span><span class="atv">"#43AEFA"</span> <span class="atn">stroke-width</span><span class="pun">=</span><span class="atv">"17"</span><span class="tag">&gt;&lt;/circle&gt;&lt;circle</span> <span class="atn">id</span><span class="pun">=</span><span class="atv">"js-sec-circle"</span> <span class="atn">class</span><span class="pun">=</span><span class="atv">"alert-sec-circle"</span> <span class="atn">cx</span><span class="pun">=</span><span class="atv">"117"</span> <span class="atn">cy</span><span class="pun">=</span><span class="atv">"117"</span> <span class="atn">r</span><span class="pun">=</span><span class="atv">"108"</span> <span class="atn">fill</span><span class="pun">=</span><span class="atv">"transparent"</span> <span class="atn">stroke</span><span class="pun">=</span><span class="atv">"#F4F1F1"</span> <span class="atn">stroke-width</span><span class="pun">=</span><span class="atv">"18"</span> <span class="atn">transform</span><span class="pun">=</span><span class="atv">"rotate(-90 117 117)"</span> <span class="atn">style</span><span class="pun">=</span><span class="atv">"</span><span class="pln">stroke</span><span class="pun">-</span><span class="pln">dashoffset</span><span class="pun">:-</span><span class="lit">514px</span><span class="atv">"</span><span class="tag">&gt;&lt;/circle&gt;&lt;text</span> <span class="atn">class</span><span class="pun">=</span><span class="atv">"alert-sec-unit"</span> <span class="atn">x</span><span class="pun">=</span><span class="atv">"100"</span> <span class="atn">y</span><span class="pun">=</span><span class="atv">"172"</span> <span class="atn">fill</span><span class="pun">=</span><span class="atv">"#BDBDBD"</span><span class="tag">&gt;</span><span class="pln">秒</span><span class="tag">&lt;/text&gt;&lt;/svg&gt;</span>
-<span class="tag">&lt;div</span> <span class="atn">id</span><span class="pun">=</span><span class="atv">"js-sec-text"</span> <span class="atn">class</span><span class="pun">=</span><span class="atv">"alert-sec-text"</span><span class="tag">&gt;</span><span class="pln">
-3
-</span><span class="tag">&lt;/div&gt;</span>
-<span class="tag">&lt;div</span> <span class="atn">class</span><span class="pun">=</span><span class="atv">"alert-body"</span><span class="tag">&gt;</span>
-<span class="tag">&lt;div</span> <span class="atn">id</span><span class="pun">=</span><span class="atv">"js-alert-head"</span> <span class="atn">class</span><span class="pun">=</span><span class="atv">"alert-head"</span><span class="tag">&gt;</span>
-<span class="pun">&lt;?</span><span class="pln">php echo $title</span><span class="pun">;?&gt;</span>
-<span class="tag">&lt;/div&gt;</span>
-<span class="tag">&lt;div</span> <span class="atn">class</span><span class="pun">=</span><span class="atv">"alert-concent"</span><span class="tag">&gt;</span>
-<span class="tag">&lt;p&gt;</span><span class="pln">一万年太久，只争朝夕</span><span class="tag">&lt;/p&gt;</span>
-<span class="tag">&lt;/div&gt;</span><span class="pln">
-&lt;a id="js-alert-btn" class="alert-btn" href="</span><span class="pun">&lt;?</span><span class="pln">php echo $url</span><span class="pun">;?&gt;</span><span class="pln">"&gt;立即前往</span><span class="tag">&lt;/a&gt;</span>
-<span class="tag">&lt;/div&gt;</span>
-<span class="tag">&lt;div</span> <span class="atn">class</span><span class="pun">=</span><span class="atv">"alert-footer clearfix"</span><span class="tag">&gt;</span>
-<span class="tag">&lt;svg</span> <span class="atn">width</span><span class="pun">=</span><span class="atv">"46px"</span> <span class="atn">height</span><span class="pun">=</span><span class="atv">"42px"</span> <span class="atn">class</span><span class="pun">=</span><span class="atv">"alert-footer-icon"</span><span class="tag">&gt;&lt;circle</span> <span class="atn">fill-rule</span><span class="pun">=</span><span class="atv">"evenodd"</span> <span class="atn">clip-rule</span><span class="pun">=</span><span class="atv">"evenodd"</span> <span class="atn">fill</span><span class="pun">=</span><span class="atv">"#7B7B7B"</span> <span class="atn">stroke</span><span class="pun">=</span><span class="atv">"#DEDFE0"</span> <span class="atn">stroke-width</span><span class="pun">=</span><span class="atv">"2"</span> <span class="atn">stroke-miterlimit</span><span class="pun">=</span><span class="atv">"10"</span> <span class="atn">cx</span><span class="pun">=</span><span class="atv">"21.917"</span> <span class="atn">cy</span><span class="pun">=</span><span class="atv">"21.25"</span> <span class="atn">r</span><span class="pun">=</span><span class="atv">"17"</span><span class="tag">&gt;&lt;/circle&gt;&lt;path</span> <span class="atn">fill</span><span class="pun">=</span><span class="atv">"#FFF"</span> <span class="atn">d</span><span class="pun">=</span><span class="atv">"M22.907,27.83h-1.98l0.3-2.92c-0.37-0.22-0.61-0.63-0.61-1.1c0-0.71,0.58-1.29,1.3-1.29s1.3,0.58,1.3,1.29 c0,0.47-0.24,0.88-0.61,1.1L22.907,27.83z M18.327,17.51c0-1.98,1.61-3.59,3.59-3.59s3.59,1.61,3.59,3.59v2.59h-7.18V17.51z M27.687,20.1v-2.59c0-3.18-2.59-5.76-5.77-5.76s-5.76,2.58-5.76,5.76v2.59h-1.24v10.65h14V20.1H27.687z"</span><span class="tag">&gt;&lt;/path&gt;&lt;circle</span> <span class="atn">fill-rule</span><span class="pun">=</span><span class="atv">"evenodd"</span> <span class="atn">clip-rule</span><span class="pun">=</span><span class="atv">"evenodd"</span> <span class="atn">fill</span><span class="pun">=</span><span class="atv">"#FEFEFE"</span> <span class="atn">cx</span><span class="pun">=</span><span class="atv">"35.417"</span> <span class="atn">cy</span><span class="pun">=</span><span class="atv">"10.75"</span> <span class="atn">r</span><span class="pun">=</span><span class="atv">"6.5"</span><span class="tag">&gt;&lt;/circle&gt;&lt;polygon</span> <span class="atn">fill</span><span class="pun">=</span><span class="atv">"#7B7B7B"</span> <span class="atn">stroke</span><span class="pun">=</span><span class="atv">"#7B7B7B"</span> <span class="atn">stroke-linecap</span><span class="pun">=</span><span class="atv">"round"</span> <span class="atn">stroke-linejoin</span><span class="pun">=</span><span class="atv">"round"</span> <span class="atn">stroke-miterlimit</span><span class="pun">=</span><span class="atv">"10"</span> <span class="atn">points</span><span class="pun">=</span><span class="atv">"35.417,12.16 32.797,9.03 31.917,10.07 35.417,14.25 42.917,5.29 42.037,4.25 "</span><span class="tag">&gt;&lt;/polygon&gt;&lt;/svg&gt;</span>
-<span class="tag">&lt;div</span> <span class="atn">class</span><span class="pun">=</span><span class="atv">"alert-footer-text"</span><span class="tag">&gt;</span>
-<span class="tag">&lt;p&gt;</span><span class="pln">secure</span><span class="tag">&lt;/p&gt;</span><span class="pln">安全加密
-</span><span class="tag">&lt;/div&gt;</span>
-<span class="tag">&lt;/div&gt;</span>
-<span class="tag">&lt;/div&gt;</span>
-<span class="tag">&lt;/div&gt;</span>
-<span class="tag">&lt;script</span> <span class="atn">type</span><span class="pun">=</span><span class="atv">"text/javascript"</span><span class="tag">&gt;</span>
-<span class="kwd">function</span><span class="pln"> alertSet</span><span class="pun">(</span><span class="pln">e</span><span class="pun">)</span> <span class="pun">{</span><span class="pln">
-document</span><span class="pun">.</span><span class="pln">getElementById</span><span class="pun">(</span><span class="str">"js-alert-box"</span><span class="pun">).</span><span class="pln">style</span><span class="pun">.</span><span class="pln">display </span><span class="pun">=</span> <span class="str">"block"</span><span class="pun">,</span><span class="pln"> document</span><span class="pun">.</span><span class="pln">getElementById</span><span class="pun">(</span><span class="str">"js-alert-head"</span><span class="pun">).</span><span class="pln">innerHTML </span><span class="pun">=</span><span class="pln"> e</span><span class="pun">;</span>
-<span class="kwd">var</span><span class="pln"> t </span><span class="pun">=</span> <span class="lit">5</span><span class="pun">,</span><span class="pln">
-n </span><span class="pun">=</span><span class="pln"> document</span><span class="pun">.</span><span class="pln">getElementById</span><span class="pun">(</span><span class="str">"js-sec-circle"</span><span class="pun">);</span><span class="pln">
-document</span><span class="pun">.</span><span class="pln">getElementById</span><span class="pun">(</span><span class="str">"js-sec-text"</span><span class="pun">).</span><span class="pln">innerHTML </span><span class="pun">=</span><span class="pln"> t</span><span class="pun">,</span><span class="pln"> setInterval</span><span class="pun">(</span><span class="kwd">function</span><span class="pun">()</span> <span class="pun">{</span>
-<span class="com">//禁止其他网站调用此跳转</span>
-<span class="com">//var MyHOST = new RegExp("&lt;?php echo $_SERVER['HTTP_HOST']; ?&gt;");</span>
-<span class="com">//if (!MyHOST.test(document.referrer)) {</span>
-<span class="com">// location.href="http://" + MyHOST;</span>
-<span class="com">//}</span>
-<span class="kwd">if</span> <span class="pun">(</span><span class="lit"></span> <span class="pun">==</span><span class="pln"> t</span><span class="pun">)</span><span class="pln"> location</span><span class="pun">.</span><span class="pln">href </span><span class="pun">=</span> <span class="str">"&lt;?php echo $url;?&gt;"</span><span class="pun">;</span>
-<span class="kwd">else</span> <span class="pun">{</span><span class="pln">
-t </span><span class="pun">-=</span> <span class="lit">1</span><span class="pun">,</span><span class="pln"> document</span><span class="pun">.</span><span class="pln">getElementById</span><span class="pun">(</span><span class="str">"js-sec-text"</span><span class="pun">).</span><span class="pln">innerHTML </span><span class="pun">=</span><span class="pln"> t</span><span class="pun">;</span>
-<span class="kwd">var</span><span class="pln"> e </span><span class="pun">=</span> <span class="typ">Math</span><span class="pun">.</span><span class="pln">round</span><span class="pun">(</span><span class="pln">t </span><span class="pun">/</span> <span class="lit">5</span> <span class="pun">*</span> <span class="lit">735</span><span class="pun">);</span><span class="pln">
-n</span><span class="pun">.</span><span class="pln">style</span><span class="pun">.</span><span class="pln">strokeDashoffset </span><span class="pun">=</span><span class="pln"> e </span><span class="pun">-</span> <span class="lit">735</span>
-<span class="pun">}</span>
-<span class="pun">},</span> <span class="lit">970</span><span class="pun">)</span>
-<span class="pun">}</span>
-<span class="tag">&lt;/script&gt;</span>
-<span class="tag">&lt;script&gt;</span><span class="pln">alertSet</span><span class="pun">(</span><span class="str">"&lt;?php echo $title;?&gt;"</span><span class="pun">);</span><span class="tag">&lt;/script&gt;</span>
-<span class="tag">&lt;/body&gt;</span>
-<span class="tag">&lt;/html&gt;</span></pre>
-<h2></h2>
-<h2 id="第二步在functionsphp里添加如下代码">第二步，在functions.php里添加如下代码</h2>
-<pre class="ql-syntax" spellcheck="false"><span class="hljs-comment">/**
-* WordPress外链新窗口打开并使用php页面go跳转
-* https://www.dujin.org/12762.html
-*/</span>
-<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">the_content_nofollow</span><span class="hljs-params">($content)</span></span>{
-preg_match_all(<span class="hljs-string">'//'</span>,$content,$matches);
-<span class="hljs-keyword">if</span>($matches){
-<span class="hljs-keyword">foreach</span>($matches[<span class="hljs-number">2</span>] <span class="hljs-keyword">as</span> $val){
-<span class="hljs-keyword">if</span>(strpos($val,<span class="hljs-string">'://'</span>)!==<span class="hljs-keyword">false</span> && strpos($val,home_url())===<span class="hljs-keyword">false</span> && !preg_match(<span class="hljs-string">'/\.(jpg|jepg|png|ico|bmp|gif|tiff)/i'</span>,$val)){
-$content=str_replace(<span class="hljs-string">"href=\"$val\""</span>, <span class="hljs-string">"href=\""</span>.home_url().<span class="hljs-string">"/go/?url=$val\" "</span>,$content);
-}
-}
-}
-<span class="hljs-keyword">return</span> $content;
-}
-add_filter(<span class="hljs-string">'the_content'</span>,<span class="hljs-string">'the_content_nofollow'</span>,<span class="hljs-number">999</span>);
-</pre>
-<h2 id="第三步添加新窗口自动打开并添加nofollow属性">第三步，添加新窗口自动打开并添加nofollow属性</h2>
-<p>现在打开文章里的链接是在原有窗口上打开的，我们一般要求是在新窗口打开，为了不让权重的流逝，我们还要加上nofollow标签，继续在functions.php添加如下代码：</p>
-<pre class="ql-syntax" spellcheck="false"><span class="hljs-comment">/**
- * WordPress外链自动新窗口打开并添加nofollow属性 - 方法二
- * https://www.dujin.org/12336.html
- */</span>
-add_filter( <span class="hljs-string">'the_content'</span>, <span class="hljs-string">'cn_nf_url_parse'</span>);
-<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">cn_nf_url_parse</span><span class="hljs-params">( $content )</span> </span>{
-	$regexp = <span class="hljs-string">"]*href=(\"??)([^\" &gt;]*?)\\1[^&gt;]*&gt;"</span>;
-	<span class="hljs-keyword">if</span>(preg_match_all(<span class="hljs-string">"/$regexp/siU"</span>, $content, $matches, PREG_SET_ORDER)) {
-		<span class="hljs-keyword">if</span>( !<span class="hljs-keyword">empty</span>($matches) ) {
-			$srcUrl = get_option(<span class="hljs-string">'siteurl'</span>);
-			<span class="hljs-keyword">for</span> ($i=<span class="hljs-number"></span>; $i &lt; count($matches); $i++)
-			{
-				$tag = $matches[$i][<span class="hljs-number"></span>];
-				$tag2 = $matches[$i][<span class="hljs-number"></span>];
-				$url = $matches[$i][<span class="hljs-number"></span>];
-				$noFollow = <span class="hljs-string">''</span>;
-				$pattern = <span class="hljs-string">'/target\s*=\s*"\s*_blank\s*"/'</span>;
-				preg_match($pattern, $tag2, $match, PREG_OFFSET_CAPTURE);
-				<span class="hljs-keyword">if</span>( count($match) &lt; <span class="hljs-number">1</span> )
-					$noFollow .= <span class="hljs-string">' target="_blank" '</span>;
-				$pattern = <span class="hljs-string">'/rel\s*=\s*"\s*[n|d]ofollow\s*"/'</span>;
-				preg_match($pattern, $tag2, $match, PREG_OFFSET_CAPTURE);
-				<span class="hljs-keyword">if</span>( count($match) &lt; <span class="hljs-number">1</span> ) $noFollow .= <span class="hljs-string">' rel="nofollow" '</span>; $pos = strpos($url,$srcUrl); <span class="hljs-keyword">if</span> ($pos === <span class="hljs-keyword">false</span>) { $tag = rtrim ($tag,<span class="hljs-string">'&gt;'</span>);
-					$tag .= $noFollow.<span class="hljs-string">'&gt;'</span>;
-					$content = str_replace($tag2,$tag,$content);
-				}
-			}
-		}
-	}
-	$content = str_replace(<span class="hljs-string">']]&gt;'</span>, <span class="hljs-string">']]&gt;'</span>, $content);
-	<span class="hljs-keyword">return</span> $content;
-}
-</pre>
-<p>至此，所有的工作都已经完成了，是不是很简单。</p>
-<h2 class="ql-align-justify" id="参考资料"><strong>参考资料</strong></h2>
-<p>缙哥哥博客-https://www.dujin.org/12762.html</p>
-<p>缙哥哥博客-https://www.dujin.org/12336.html</p>
 ]]></content:encoded>
     </item>
   </channel>

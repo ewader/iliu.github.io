@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>啥都有 on 老刘博客</title>
-    <link>http://localhost:1313/categories/%E5%95%A5%E9%83%BD%E6%9C%89/</link>
+    <link>https://iliu.org/categories/%E5%95%A5%E9%83%BD%E6%9C%89/</link>
     <description>Recent content in 啥都有 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
-      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.151.1</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 17 Aug 2022 09:58:10 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/%E5%95%A5%E9%83%BD%E6%9C%89/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://iliu.org/categories/%E5%95%A5%E9%83%BD%E6%9C%89/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>河南为什么简称豫？</title>
-      <link>http://localhost:1313/4229.html</link>
+      <link>https://iliu.org/4229.html</link>
       <pubDate>Wed, 17 Aug 2022 09:58:10 +0000</pubDate>
-      <guid>http://localhost:1313/4229.html</guid>
+      <guid>https://iliu.org/4229.html</guid>
       <description>&lt;p&gt;昨天送闺女去课外班，路上闺女问我，为啥河南简称豫？&lt;/p&gt;
 &lt;p&gt;我听了有点抓瞎，忽然想起小时候，学过一篇课文，叫《黄河像》，于是给闺女说，可能是以前在黄河中下游这个区域有众多的大象吧，其实黄河象这个化石出土在甘肃。但是河南这个区域，古时候有象也是真的，在洛阳，也出土过大象的化石。但是是不是很多，就不清楚了，就算很多，别的地方应该也有象，为啥不叫豫呢？&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>昨天送闺女去课外班，路上闺女问我，为啥河南简称豫？</p>
@@ -28,66 +28,10 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>一次维修万和热水器的经历</title>
-      <link>http://localhost:1313/3817.html</link>
-      <pubDate>Thu, 22 Jul 2021 07:42:22 +0000</pubDate>
-      <guid>http://localhost:1313/3817.html</guid>
-      <description>&lt;p&gt;说来可笑，我家的热水器因为本次郑州的暴雨而出现了故障。&lt;/p&gt;
-&lt;p&gt;事情是这样发生的。19日晚，女儿洗澡的时候，我听到热水器的排气扇有声响，没有太注意。10几分钟后，媳妇洗澡，发现已经打不着火了，显示E4错误。我到网上查了一下资料，发现E4就是排气故障，以为是排气扇坏了。由于是晚上，就打算等第二天白天再进行处理。&lt;figure class=&#34;wp-block-image size-full&#34;&gt;&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>说来可笑，我家的热水器因为本次郑州的暴雨而出现了故障。</p>
-<p>事情是这样发生的。19日晚，女儿洗澡的时候，我听到热水器的排气扇有声响，没有太注意。10几分钟后，媳妇洗澡，发现已经打不着火了，显示E4错误。我到网上查了一下资料，发现E4就是排气故障，以为是排气扇坏了。由于是晚上，就打算等第二天白天再进行处理。<figure class="wp-block-image size-full"></p>
-<p><a href="https://tunan.org/wp-content/uploads/2021/07/4c18bb4110f6380.jpg"><img loading="lazy" decoding="async" width="600" height="400" src="https://tunan.org/wp-content/uploads/2021/07/4c18bb4110f6380.jpg" alt="" class="wp-image-3821" srcset="https://tunan.org/wp-content/uploads/2021/07/4c18bb4110f6380.jpg 600w, https://tunan.org/wp-content/uploads/2021/07/4c18bb4110f6380-300x200.jpg 300w" sizes="(max-width: 600px) 100vw, 600px" /></a></figure></p>
-<p>20日发现不但打不着火，显示E1错误。而且，热水器有点漏水，然后关了上水管，在万和公众号报修。看万和的承诺是24小时给派师傅联系。晚上我发现有点不对，热水器依然在漏水。经过细致的观察，我发现应该是排气管的问题。</p>
-<p>排气管弹出窗户的高度比热水器这端的高度要高一些，这样雨水顺着排气管逆流到了热水器里。以前没事是因为雨下的不大，时间也短，这次太大的雨就出现了水逆流问题。于是，把排气管拿下，果然，过了一会就热水器就不再滴水了。</p>
-<p>21日，趁着雨停的时间，把排气管装上，试着打火。发现打不着火，显示E1错误，并且打火的时候还会漏水，让我一度怀疑自己的判断，是不是热水器真的漏水了。但是，不打火就不漏水。</p>
-<p>再仔细的观察了一下，发现热水器的进气管位置较低，应该有一部分水流进到了进气管内，这样打火的时候，天然气就会把一部分水给冲出来。找到了原因，就关气，找到螺丝刀把进气的皮管拆下来。果然，里面是有点水的。</p>
-<p>看到进气管有点老化了，索性门口的商店再去买上一截。换个新的。打火，发现依然出现E1的错误，但是水是有温度的，说明打火着了，但是不能持续的燃烧，应该是受潮了的影响。</p>
-<p>我就想，是不是可以通过不断的重复打火的动作，用火焰使热水器内部干燥。事实表明，我的判断是正确的，连续几次后，顺利的持续燃烧了。为了让热水器彻底的干燥，干脆去洗了个澡。</p>
-<p>至此，热水器完美重生。</p>
-<p>不得不感慨以前老万和的热水器，质量是真的不错。另外，不知道是不是由于暴雨的影响，我着已经报修超过了48小时了，但是还没有人联系我。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>体验鸿蒙HarmonyOS</title>
-      <link>http://localhost:1313/3794.html</link>
-      <pubDate>Wed, 30 Jun 2021 07:49:01 +0000</pubDate>
-      <guid>http://localhost:1313/3794.html</guid>
-      <description>&lt;p&gt;最早的时候，应该是看到了响石潭主任发的升级鸿蒙HarmonyOS的文章。并且响石潭也说，使用起来和原来的系统没有什么区别，就是更流畅了一些。然后，就一直关注着鸿蒙os更新的消息，希望自己的荣耀V20也能早日用上。&lt;figure class=&#34;wp-block-image size-large&#34;&gt;&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>最早的时候，应该是看到了响石潭主任发的升级鸿蒙HarmonyOS的文章。并且响石潭也说，使用起来和原来的系统没有什么区别，就是更流畅了一些。然后，就一直关注着鸿蒙os更新的消息，希望自己的荣耀V20也能早日用上。<figure class="wp-block-image size-large"></p>
-<p><a href="https://tunan.org/wp-content/uploads/2021/06/aabe363cd2f11bd.jpg"><img loading="lazy" decoding="async" width="640" height="452" src="https://tunan.org/wp-content/uploads/2021/06/aabe363cd2f11bd.jpg" alt="" class="wp-image-3795" srcset="https://tunan.org/wp-content/uploads/2021/06/aabe363cd2f11bd.jpg 640w, https://tunan.org/wp-content/uploads/2021/06/aabe363cd2f11bd-300x212.jpg 300w" sizes="(max-width: 640px) 100vw, 640px" /></a></figure></p>
-<p>前几天，群里青山说鸿蒙第二批内测的消息，于是就报了名。后来看到报名的达到了40多万人，不得不说，华为的影响力还是蛮大的。而我的这款荣耀V20只有1800的名额，感觉最近使用上的希望还是比较渺茫的。不曾想今天中午收到了华为发来的短信，意思是已经给推送了鸿蒙os。心里还是蛮高兴的。</p>
-<p>感觉到系统更新里去更新了一下。不到3g的包。尽管官方提示升级前备份下数据啥的，其实不备份也没关系，就像正常的升级系统一样，前后不到半个小时，手机系统已经更换成鸿蒙的了。</p>
-<h2 class="wp-block-heading" id="说说体验">说说体验</h2>
-<p>真的很流畅，丝般顺滑。尽管以前的magic4.0也流畅，但是两个流畅的感觉是不一样的。另外就是鸿蒙系统的色彩更靓丽一些。字体的颜色也更深一些。其他就是界面上的一些小调整。和以前也差别不大。另外就是重新启动手机的时候，原来开机界面下的power by 安卓字样取消了。</p>
-<p>用了一上午，除了流畅之外，待机感觉也提升了</p>
-<h2 class="wp-block-heading" id="说到最后">说到最后</h2>
-<p>很多人都说鸿蒙HarmonyOS是安卓的套壳。作为使用者，管他是套还是不套，只要好用就行。真要是套的话，Google早就不干了，参考以前阿里云os。目前来看，鸿蒙HarmonyOS确实还不错，好用！</p>
-<p>ps，真的还有点期待能在PC里也能用上鸿蒙HarmonyOS。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>奇葩的京东无线宝</title>
-      <link>http://localhost:1313/3791.html</link>
-      <pubDate>Thu, 24 Jun 2021 10:28:53 +0000</pubDate>
-      <guid>http://localhost:1313/3791.html</guid>
-      <description>&lt;p&gt;最近天热起来了，店里的那台竞斗云可能是放到柜子离散热不良的原因，偶尔掉线的情况。于是决定换一款路由器。&lt;/p&gt;
-&lt;p&gt;选了一圈，后来决定入手京东无线宝2代的128G的版本，主要是这个版本秒杀的价格比原价低了200块钱，也不知道是先提价后降价还是怎么着的，上面标的是最近90多天最低价。但是本着降价越多，占的便宜越大的原则，最终选的这个，估计又上了狗东的当，原价699，秒杀降了200，然后又领了乱七八糟的优惠卷还有减金额白条优惠什么的，最后的价格是400零几。&lt;figure class=&#34;wp-block-image size-large&#34;&gt;&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>最近天热起来了，店里的那台竞斗云可能是放到柜子离散热不良的原因，偶尔掉线的情况。于是决定换一款路由器。</p>
-<p>选了一圈，后来决定入手京东无线宝2代的128G的版本，主要是这个版本秒杀的价格比原价低了200块钱，也不知道是先提价后降价还是怎么着的，上面标的是最近90多天最低价。但是本着降价越多，占的便宜越大的原则，最终选的这个，估计又上了狗东的当，原价699，秒杀降了200，然后又领了乱七八糟的优惠卷还有减金额白条优惠什么的，最后的价格是400零几。<figure class="wp-block-image size-large"></p>
-<p><a href="https://tunan.org/wp-content/uploads/2021/06/389946b1c797e5b.jpg"><img loading="lazy" decoding="async" width="1024" height="682" src="https://tunan.org/wp-content/uploads/2021/06/389946b1c797e5b-1024x682.jpg" alt="" class="wp-image-3792" srcset="https://tunan.org/wp-content/uploads/2021/06/389946b1c797e5b-1024x682.jpg 1024w, https://tunan.org/wp-content/uploads/2021/06/389946b1c797e5b-300x200.jpg 300w, https://tunan.org/wp-content/uploads/2021/06/389946b1c797e5b-768x512.jpg 768w, https://tunan.org/wp-content/uploads/2021/06/389946b1c797e5b.jpg 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></a><figcaption>不拍图了，网上找个充下数</figcaption></figure></p>
-<p>要说狗东的优势也就是快了，今天早上下的单，下午可给送过来了。插网线，设置WIFI等等之后。我去，为啥很多网站打不开？</p>
-<p>基本国外的都能打开，我的博客也可以，但是个视频网站，新浪等等都连不上。刚开始还以为是因为设置了积分有限导致的网络被占用，还想着这也占用的太大了吧。后来发现，无论如何设置，网速还是渣渣，换上原来的路由器，立马正常了，看来是这台路由器的问题了。</p>
-<p>立刻对这台路由器失望了，打开京东，准备退货。可是无理由退货是要运费的，但是这是质量问题啊，于是联系客服。</p>
-<p>今天群里还说京东的人工客服连接不上，其实说的有点夸张了，我就发了一个人工客服，就立马出现人工客服的连接了。</p>
-<p>客服听完我说的，很有经验的样子说，你恢复一下出厂设置，然后再设置网络。如果还是不行就按退货处理。结果这么一弄，立马问题解决了。</p>
-<p>我去，玩了这么多的路由器，第一次遇到需要先恢复出厂才能用的。目前，经过一下午的试用，各方面也挺满意，也不知道一天能给多少个积分，也不知道多久能回本……</p>
-]]></content:encoded>
-    </item>
-    <item>
       <title>深度deepin os 20.2.1初体验</title>
-      <link>http://localhost:1313/3757.html</link>
+      <link>https://iliu.org/3757.html</link>
       <pubDate>Wed, 26 May 2021 07:30:38 +0000</pubDate>
-      <guid>http://localhost:1313/3757.html</guid>
+      <guid>https://iliu.org/3757.html</guid>
       <description>&lt;p&gt;昨天用一副康耐特防蓝光镜片换了一台2012年的联想Z475 ，AMD A6的四核CPU，他自己又给加了4G的内存。也就是说4H8G，说实话电脑是有点老了，咸鱼挂的一般也就是卖个300来块钱，但是也没人买，毕竟10年前的东西了。我哥说收货价基本上200左右，虽然他加了一个4G的内存，但是拿来换一副镜片还是挺划算的，毕竟我那副镜片可是卖660元一副的。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>昨天用一副康耐特防蓝光镜片换了一台2012年的联想Z475 ，AMD A6的四核CPU，他自己又给加了4G的内存。也就是说4H8G，说实话电脑是有点老了，咸鱼挂的一般也就是卖个300来块钱，但是也没人买，毕竟10年前的东西了。我哥说收货价基本上200左右，虽然他加了一个4G的内存，但是拿来换一副镜片还是挺划算的，毕竟我那副镜片可是卖660元一副的。</p>
 <p>但是比我手里的另一台华硕的笔记本配置还是要高那么一丢丢的，那台基本上是给女儿玩呢，所以收上来这台后觉得可以改造一下给女儿玩，女儿最近迷上了写小说，据说已经创作了差不多1万来字了。给她弄一台配置“更好”一点的电脑也好，哈哈。</p>
@@ -102,9 +46,9 @@
     </item>
     <item>
       <title>如何禁止浏览器读取手机号码？</title>
-      <link>http://localhost:1313/3714.html</link>
+      <link>https://iliu.org/3714.html</link>
       <pubDate>Wed, 24 Mar 2021 01:46:06 +0000</pubDate>
-      <guid>http://localhost:1313/3714.html</guid>
+      <guid>https://iliu.org/3714.html</guid>
       <description>&lt;p&gt;昨天一位朋友问老刘，如何才能禁止浏览器读取手机号码的问题，据朋友所说，遇到了一个细思极恐的事情。原来，朋友前两天在网上查找过关于***的产品，然后昨天收到一个甜妹纸的电话：&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>昨天一位朋友问老刘，如何才能禁止浏览器读取手机号码的问题，据朋友所说，遇到了一个细思极恐的事情。原来，朋友前两天在网上查找过关于***的产品，然后昨天收到一个甜妹纸的电话：</p>
 <p>甜姐儿问朋友是不是需要×××？<br>
@@ -122,9 +66,9 @@
     </item>
     <item>
       <title>饮水机隔段还是要彻底清洗一遍的</title>
-      <link>http://localhost:1313/3645.html</link>
+      <link>https://iliu.org/3645.html</link>
       <pubDate>Fri, 05 Feb 2021 02:43:34 +0000</pubDate>
-      <guid>http://localhost:1313/3645.html</guid>
+      <guid>https://iliu.org/3645.html</guid>
       <description>&lt;p&gt;早上吃过饭，由于女儿有一节线上的数学课，自己待在家里也没事，就寻思找点事做。发现饮水机该清洗一下了，也幸亏清洗了一下，彻底清洗还是蛮脏的，尽管是一些不太影响的水垢。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>早上吃过饭，由于女儿有一节线上的数学课，自己待在家里也没事，就寻思找点事做。发现饮水机该清洗一下了，也幸亏清洗了一下，彻底清洗还是蛮脏的，尽管是一些不太影响的水垢。</p>
 <p>以前清洗都是把外面和和盛水的那个容器刷一下，这次我发现，清洗后，烧热水的那个胆里还是有点水的，找来找去，发现饮水机的底部有一个套着盖子的管子，把盖子拔掉后，有水滴了出来，找了根牙签在管子口往里捅了捅，水一下大了起来，并且冲出来不少的水垢。<figure class="wp-block-image size-large"></p>
@@ -135,9 +79,9 @@
     </item>
     <item>
       <title>试用了一下火雨壁纸</title>
-      <link>http://localhost:1313/3456.html</link>
+      <link>https://iliu.org/3456.html</link>
       <pubDate>Mon, 07 Dec 2020 03:41:01 +0000</pubDate>
-      <guid>http://localhost:1313/3456.html</guid>
+      <guid>https://iliu.org/3456.html</guid>
       <description>&lt;p&gt;年纪大了，想改变下一成不变的桌面。以前一直用bing官方出的一个小工具。直接对接bing的每日一图，不知道是不是因为时差的原因，和每天发布的图差不多有10个小时的时差。直到看到了火雨壁纸&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>年纪大了，想改变下一成不变的桌面。以前一直用bing官方出的一个小工具。直接对接bing的每日一图，不知道是不是因为时差的原因，和每天发布的图差不多有10个小时的时差。直到看到了火雨壁纸</p>
 <p>火雨壁纸是个啥？</p>
@@ -154,113 +98,10 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>捋一捋中国邮电发展过程</title>
-      <link>http://localhost:1313/3395.html</link>
-      <pubDate>Sun, 22 Nov 2020 03:18:49 +0000</pubDate>
-      <guid>http://localhost:1313/3395.html</guid>
-      <description>&lt;p&gt;前几天看到一个“新闻”，说中国电信业的三大运营商的一把手是轮流坐庄，可谓肥水不落外人田。其实捋清中国电信业的发展历程，人家还真的就是一家人。&lt;/p&gt;
-&lt;p&gt;以下是根据本人的记忆描述，可能时间的节点不是那么精确。也懒得去查相关的资料了&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>前几天看到一个“新闻”，说中国电信业的三大运营商的一把手是轮流坐庄，可谓肥水不落外人田。其实捋清中国电信业的发展历程，人家还真的就是一家人。</p>
-<p>以下是根据本人的记忆描述，可能时间的节点不是那么精确。也懒得去查相关的资料了</p>
-<p>最初的时候，中国的邮电是一家，国家层面应该有邮电部，下面是邮电局，乡镇一般都是邮电所。那时候，邮电以邮为主，记忆里最深的就是邮递员骑上一个绿色的自行车，自行车的后座上搭着个绿色的包包，里面装的信件和电报之类的。电一般电报较多，那时候电话一个县都没有几部，还都是那种需要接线员手工接线的，电话机都是手摇的。那时候，一般的通信都是信件，怕信丢失就发挂号信，想在快点就是特快信，价格不一样。有急事的话就是发电报，按字收费。记得老刘最后一次发电报是1994年的暑假结束，一个人乘火车去甘肃天水上学，给老爸发了一封电报让他第二天去火车站接我。</p>
-<p><a href="https://tunan.org/wp-content/uploads/2020/11/8e75a6d4e4b737f.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3400" src="https://tunan.org/wp-content/uploads/2020/11/8e75a6d4e4b737f.jpg" alt="" width="474" height="730" srcset="https://tunan.org/wp-content/uploads/2020/11/8e75a6d4e4b737f.jpg 474w, https://tunan.org/wp-content/uploads/2020/11/8e75a6d4e4b737f-195x300.jpg 195w" sizes="(max-width: 474px) 100vw, 474px" /></a></p>
-<p>邮电一家的情况一直持续到98年左右，邮电局分成了邮政局和电信局。后来发展成中国邮政和中国电信。中间又成立了几家公司，比如联通、网通、铁通、卫通等等。2000年左右，中国电信把移动端的业务分离出来，成了了中国移动。</p>
-<p><a href="https://tunan.org/wp-content/uploads/2020/11/448e53f9341f5a9.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3397" src="https://tunan.org/wp-content/uploads/2020/11/448e53f9341f5a9.jpg" alt="" width="288" height="216" /></a></p>
-<p>2002年，中国电信南北分家，北方10个省的电信和原来的网通还有几个小公司合并成为了新的中国网通，南方还是中国电信。这也就为后来的宽带互联不互通埋下了隐患。至此，中国的大电信运营商有中国电信，网通、移动、铁通、联通。对了，联通还收了电信下的传呼业务。其中，天上的主要是移动和联通；地下的是电信和网通。</p>
-<p>再后来，08年底或者09年初的时候，网通并入联通，联通把CDMA业务卖给了电信，铁通并入中国移动。这样，中国就形成了三个全拍照的电信运营商，这种局面一直延续到今天。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>网易词典笔2.0简单开箱</title>
-      <link>http://localhost:1313/3268.html</link>
-      <pubDate>Sun, 20 Sep 2020 02:19:37 +0000</pubDate>
-      <guid>http://localhost:1313/3268.html</guid>
-      <description>&lt;p&gt;前端时间给女儿买了一套《书虫》系列和《疯狂校园》系列的英语读本。书虫还好，句子比较简单，有些单词就算不认识，根据上下文的关系以及后面的生词表，阅读起来不算太费事。可是疯狂校园系列读起来就有点难度了。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>前端时间给女儿买了一套《书虫》系列和《疯狂校园》系列的英语读本。书虫还好，句子比较简单，有些单词就算不认识，根据上下文的关系以及后面的生词表，阅读起来不算太费事。可是疯狂校园系列读起来就有点难度了。</p>
-<p>来回的翻字典耽误时间不说，还打断了阅读的连续性。那时候就有给女儿买一支词典笔的打算，但是看了一下基本上2代的要800大洋左右，又有些犹豫。前天，意外的把liu.gg的域名给卖了，小赚了一点意外之财，干脆把这个笔给女儿买了算了。</p>
-<p><a href="https://tunan.org/wp-content/uploads/2020/09/2db205c8580bc03.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3269" src="https://tunan.org/wp-content/uploads/2020/09/2db205c8580bc03.jpg" alt="" width="800" height="800" srcset="https://tunan.org/wp-content/uploads/2020/09/2db205c8580bc03.jpg 800w, https://tunan.org/wp-content/uploads/2020/09/2db205c8580bc03-300x300.jpg 300w, https://tunan.org/wp-content/uploads/2020/09/2db205c8580bc03-150x150.jpg 150w, https://tunan.org/wp-content/uploads/2020/09/2db205c8580bc03-768x768.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
-<p>天猫上查了一下，找了一个销量比较高的，价格相对优惠的下了单。随笔还给送了一个网易精品课的优惠码，不过注册了后看课程一般般，也就没有给女儿学。</p>
-<p>选了一个粉色的。我没有拍图片，网上找了几张图来替代</p>
-<p><a href="https://tunan.org/wp-content/uploads/2020/09/4e8cfa295ddf836.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3270" src="https://tunan.org/wp-content/uploads/2020/09/4e8cfa295ddf836.jpg" alt="" width="680" height="907" srcset="https://tunan.org/wp-content/uploads/2020/09/4e8cfa295ddf836.jpg 680w, https://tunan.org/wp-content/uploads/2020/09/4e8cfa295ddf836-225x300.jpg 225w" sizes="(max-width: 680px) 100vw, 680px" /></a></p>
-<p>包装是一个白色的盒子，上面是网易有道词典笔，设计的非常的简洁。</p>
-<p><a href="https://tunan.org/wp-content/uploads/2020/09/96eb39afd3ddd6d.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3271" src="https://tunan.org/wp-content/uploads/2020/09/96eb39afd3ddd6d.jpg" alt="" width="748" height="400" srcset="https://tunan.org/wp-content/uploads/2020/09/96eb39afd3ddd6d.jpg 748w, https://tunan.org/wp-content/uploads/2020/09/96eb39afd3ddd6d-300x160.jpg 300w" sizes="(max-width: 748px) 100vw, 748px" /></a></p>
-<p>嗯就是这样的一支笔。放在手里也不沉。刚发过来的时候系统的版本是1.22。然后提示升级，先升级到了1.33，然后再次提示升级，升级到了1.52，增加了一个和网易有道词典相互关联的设置。</p>
-<p>笔的外形就这样，关键是要看识别单词的能力。官方说的又230万的词量，实际使用起来识别率还是挺高的。特别是还支持整句扫描识别和跨行扫描。总体来说还是挺满意的！</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>给鱼缸上了沼泽过滤</title>
-      <link>http://localhost:1313/3167.html</link>
-      <pubDate>Wed, 27 May 2020 02:13:32 +0000</pubDate>
-      <guid>http://localhost:1313/3167.html</guid>
-      <description>&lt;p&gt;一个多月前，买了几条草金，&lt;a href=&#34;https://tunan.org/3129.html&#34;&gt;pdd上买的&lt;/a&gt;。由于原来的那个玻璃鱼缸有点小，而且我是一个很懒的人，对清理鱼缸壁上的绿苔深恶痛绝。所以，决定换一个陶缸，一是陶缸大，放的水多。当时想的是可以不用过滤。二是，陶缸不透明，有绿苔了也不影响。所以，买了一个小陶缸。&lt;/p&gt;
-&lt;p&gt;把小鱼放进陶缸后，感觉还是不错的。鱼儿活动的地方大了，正好自己还有几颗碗莲的种子，索性就把碗莲也放进了鱼缸，当时想的是，碗莲生长的养分由鱼的粪便来提供，碗莲分解鱼粪，生长后还能释放氧气，真是一举两得的事情。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>一个多月前，买了几条草金，<a href="https://tunan.org/3129.html">pdd上买的</a>。由于原来的那个玻璃鱼缸有点小，而且我是一个很懒的人，对清理鱼缸壁上的绿苔深恶痛绝。所以，决定换一个陶缸，一是陶缸大，放的水多。当时想的是可以不用过滤。二是，陶缸不透明，有绿苔了也不影响。所以，买了一个小陶缸。</p>
-<p>把小鱼放进陶缸后，感觉还是不错的。鱼儿活动的地方大了，正好自己还有几颗碗莲的种子，索性就把碗莲也放进了鱼缸，当时想的是，碗莲生长的养分由鱼的粪便来提供，碗莲分解鱼粪，生长后还能释放氧气，真是一举两得的事情。</p>
-<p>可是事与愿违，碗莲在鱼缸里只长茎不长叶，茎长长了，可能被鱼咬的，还断掉了，所以，干脆把碗莲给捞出来扔掉了。每周给鱼缸换一些水，感觉也没问题，可是前两天，接二连三的死去了2条鱼，而且发现鱼平时很喜欢把头伸出水面。可能是水里的氧气有点少吧，而且鱼吃的有点多，每次换水，鱼缸里都好多的鱼便便，看着也难受。所以，就决定买一个沼泽过滤箱。</p>
-<p>沼泽过滤，听起来很高大上，其实很简单，就是弄一个箱子，入水口在下面，出水口在上面，箱子里放满小石子，这样，原来鱼缸里的脏东西在重力和小石子过滤下就留在了箱子的底部，上面留下来的就是清水，再在箱子里种一些植物，这些可以以这些脏东西为养料。就形成了一个生态系统。</p>
-<p>某宝上买了一个沼泽过滤箱，几十块钱，水泵原来就有，又买了几十斤小石子，这东西一般6块钱5斤包邮，对于卖家来说基本是没啥成本，河里挖就行了。话说，这东西真费石子，我买的是小型的箱子，40*30*18的，竟然用了35斤的石子。</p>
-<p>再在箱子里中上几颗吊兰（现在手里没有别的，只有吊兰了），回头有机会了买一盆金钱草什么的放进去。</p>
-<p><a href="https://tunan.org/wp-content/uploads/2020/05/c7ddd8144698b79.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3168" src="https://tunan.org/wp-content/uploads/2020/05/c7ddd8144698b79.jpg" alt="" width="850" height="993" srcset="https://tunan.org/wp-content/uploads/2020/05/c7ddd8144698b79.jpg 850w, https://tunan.org/wp-content/uploads/2020/05/c7ddd8144698b79-257x300.jpg 257w, https://tunan.org/wp-content/uploads/2020/05/c7ddd8144698b79-768x897.jpg 768w" sizes="(max-width: 850px) 100vw, 850px" /></a></p>
-<p>实际效果还是很不错的，一晚上的过滤，水清澈见底了。以后，就可以偷懒一下了。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>肺炎时刻话病毒</title>
-      <link>http://localhost:1313/3055.html</link>
-      <pubDate>Sun, 02 Feb 2020 03:33:12 +0000</pubDate>
-      <guid>http://localhost:1313/3055.html</guid>
-      <description>&lt;p&gt;最近由于新型冠状病毒的影响，从初一开始就一直宅在家里，期间除了陪女儿游戏意外，最多的时候还是看看书。正好kindle包月的书里就有几本关于病毒传染之类的书，于是就研读了一下。前几天看到一位博友写的文章，说病毒是一个坏东西，消灭病毒云云。其实这种看法是片面的，任何事物都是有两面的，病毒对人类也有好的一面。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>最近由于新型冠状病毒的影响，从初一开始就一直宅在家里，期间除了陪女儿游戏意外，最多的时候还是看看书。正好kindle包月的书里就有几本关于病毒传染之类的书，于是就研读了一下。前几天看到一位博友写的文章，说病毒是一个坏东西，消灭病毒云云。其实这种看法是片面的，任何事物都是有两面的，病毒对人类也有好的一面。</p>
-<p><a href="https://tunan.org/wp-content/uploads/2020/02/a9b7ba70783b617.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3056" src="https://tunan.org/wp-content/uploads/2020/02/a9b7ba70783b617.jpg" alt="" width="626" height="496" srcset="https://tunan.org/wp-content/uploads/2020/02/a9b7ba70783b617.jpg 626w, https://tunan.org/wp-content/uploads/2020/02/a9b7ba70783b617-300x238.jpg 300w" sizes="(max-width: 626px) 100vw, 626px" /></a></p>
-<h2 id="什么是病毒">什么是病毒</h2>
-<p>病毒这个词在中文里是完全有害的，而事实上“病毒”这个词是自相矛盾的，承自罗马帝国，当时的意思是蛇的毒液或者人的精液。它原本就包含了两面性，一面是能给予生命的物质，另一面则代表致命的毒液。病毒在某种意义上的确是致命的，但它们也赋予了这个世界必不可少的创造力。创造和毁灭又一次完美地结合在一起。</p>
-<p>早在人类出现之前，病毒就占领了这颗星球，历经高温、酷寒或干旱等极端条件，到现在病毒仍然无处不在，抗生素或感冒糖浆等最近用来对付它们的小玩意，更是无法伤及病毒毫发。<br>
-病毒在我们的DNA里留下了丰富的信息，人类DNA片段中8%来自病毒，说它们是我们亲缘有点远的祖先也不为过。但是要小心，这些休眠在人类DNA中的片段在特定条件下可以复苏，重新组织成活跃的病毒。<br>
-病毒并不总是面目可憎，人类吸入的氧气里，有1/10是病毒惠予的。被视为宫颈癌罪魁祸首的HPV，其实男女通吃且分布广泛，但绝大多数情况下它们都与人类和平共处。病毒在不同宿主间穿梭，有一定几率携带上一部分宿主的基因片段，然后插入到下一位宿主的基因里，在你感叹人类或其他物种多样性的时候，别忘了其中也有病毒的一份功劳。<br>
-不可否认，病毒也是自然创造的冷血杀手。甲流、埃博拉、SARS，这些病毒让人类措手不及，它们本来只攻击蝙蝠、老鼠或鸟类等，怎料自然演化无意之间将人类写进了病毒的黑名单。尽管疫苗不断更新，但演化的力量让病毒一次次地突破我们的防线。</p>
-<h2 id="病毒是如何传染到人类的">病毒是如何传染到人类的</h2>
-<p>这个世界上具有如此多的病毒，为啥没有都能感染到人类，就比如目前新的冠状病毒，原来是在蝙蝠身上的，可能这种病毒在蝙蝠的身上都有几千年的历史了，以前对人类是无害的，为什么突然就对人类有害了呢？这是因为我们人类是有防疫系统的，我们的防疫系统的DNA就好比是一把锁，没有对应钥匙的DNA是无法感染到我们的，而病毒在从蝙蝠传到别的动物后，或者病毒本身的DNA产生了突变，然后就有了打开人类DNA的钥匙，这样病毒就光明正大的感染到人类了。</p>
-<h2 id="病毒也是一种很聪明的生物">病毒也是一种很聪明的生物</h2>
-<p>病毒也是很聪明的，比如弓虫病，这种病毒必须通过猫之后才具有传染性，但是病毒如何进入猫的体内呢，科学家曾经做过研究，就是这种病毒感染老鼠之后，会对老鼠的中枢神经就行干扰和控制，让老鼠觉得猫是令他们很亲近的动物，这样，病毒就顺理成章的进入到了猫的体内。</p>
-<h2 id="病毒对人类的好处">病毒对人类的好处</h2>
-<p>病毒肉眼不可见，却在地球生态系统中非常活跃。它们把DNA从一个物种搬运到另一个物种，为生物演化提供了新的遗传材料。病毒也对大量生命体的生存进行了调节，从微生物到大型哺乳动物，无一不受到它们的影响。病毒的作用不仅限于生物，它们还会影响地球的气候、土壤、海洋和淡水。放眼演化的历程，不管哪一种动物、植物或微生物，它们的演化都离不开这些微小却威力无边的病毒。这些病毒和我们共同拥有这个星球。</p>
-<p>前面说了，人类在本质上不过是一堆不断混合、闪转腾挪的DNA，8%的片段还是来自病毒。这不是我说的，这是写《病毒星球》这本书的卡尔齐默说的。因此，病毒从一开始就和我们人类相爱相杀，人的肺里平均驻扎了 174 种之多的病毒，其中只有 10% 是已发现病毒的近亲，另外 90% 就和水晶洞里躲藏的病毒一样陌生。</p>
-<p><a href="https://tunan.org/wp-content/uploads/2020/02/59bff5f9f29d584.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3057" src="https://tunan.org/wp-content/uploads/2020/02/59bff5f9f29d584.jpg" alt="" width="323" height="500" srcset="https://tunan.org/wp-content/uploads/2020/02/59bff5f9f29d584.jpg 323w, https://tunan.org/wp-content/uploads/2020/02/59bff5f9f29d584-194x300.jpg 194w" sizes="(max-width: 323px) 100vw, 323px" /></a></p>
-<p>世界上之所以有这么多氧气，也可能和基因通过病毒的传递有关。海洋聚球藻（ Synechococcus）是种在海洋中含量非常丰富的细菌，它们包揽了全球约1/4的光合作用。科学家仔细分析了海洋聚球藻样本中的DNA，从中发现了捕捉光子的蛋白编码基因，而这种蛋白基因正来自病毒。科学家甚至也在海里找到了携带光合作用基因的自由漂浮病毒，这些病毒正在等待遇到新的宿主。粗略估算，地球上10%的光合作用都是病毒基因开展的。也就是说，你每呼吸十次就有一口氧气是病毒惠予的。</p>
-<p>最后强烈推荐病毒星球这书。有时间的不妨去看看。</p>
-<p>下载地址：</p>
-<p>百度网盘：https://pan.baidu.com/s/1NesJxZlbOIiXqbB0LL9g0g 验证码：gbui</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>使用群晖，配置打印机，实现无线打印机的功能</title>
-      <link>http://localhost:1313/3005.html</link>
-      <pubDate>Sun, 12 Jan 2020 03:05:02 +0000</pubDate>
-      <guid>http://localhost:1313/3005.html</guid>
-      <description>&lt;p&gt;换成荣耀的这台笔记本之后，由于接口比较少，再加上一个笔记本插上usb数据线连上打印机，也不够方便，因为有时候笔记本还要拿回家用用。恰好再群晖的网站上看到群晖也支持市面上大多数的打印机。于是动了把打印机和群晖相联的念头。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>换成荣耀的这台笔记本之后，由于接口比较少，再加上一个笔记本插上usb数据线连上打印机，也不够方便，因为有时候笔记本还要拿回家用用。恰好再群晖的网站上看到群晖也支持市面上大多数的打印机。于是动了把打印机和群晖相联的念头。</p>
-<p>实际上操作还是挺简单的，只要注意一些基本的坑不要踩就行。</p>
-<h2 id="首先把打印机和群晖相联">首先，把打印机和群晖相联</h2>
-<p>把打印机的数据线插在群晖的usb端口上,打开群晖的管理页面。点击控制面板——点击外接设备——选择打印机标签</p>
-<p><a href="https://tunan.org/wp-content/uploads/2020/01/64f4b98d52cdd2c.png"><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-3006" src="https://tunan.org/wp-content/uploads/2020/01/64f4b98d52cdd2c-1024x586.png" alt="" width="1024" height="586" srcset="https://tunan.org/wp-content/uploads/2020/01/64f4b98d52cdd2c-1024x586.png 1024w, https://tunan.org/wp-content/uploads/2020/01/64f4b98d52cdd2c-300x172.png 300w, https://tunan.org/wp-content/uploads/2020/01/64f4b98d52cdd2c-768x439.png 768w, https://tunan.org/wp-content/uploads/2020/01/64f4b98d52cdd2c.png 1250w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
-<p>点击打印机管理，点击设置打印机。</p>
-<p><a href="https://tunan.org/wp-content/uploads/2020/01/9f19250c710cc82.png"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3007" src="https://tunan.org/wp-content/uploads/2020/01/9f19250c710cc82.png" alt="" width="729" height="722" srcset="https://tunan.org/wp-content/uploads/2020/01/9f19250c710cc82.png 729w, https://tunan.org/wp-content/uploads/2020/01/9f19250c710cc82-300x297.png 300w, https://tunan.org/wp-content/uploads/2020/01/9f19250c710cc82-150x150.png 150w" sizes="(max-width: 729px) 100vw, 729px" /></a></p>
-<p>由于跋涉者的打印机是兄弟 hl-1208系列，没有复印 传真等功能，所以，只是选中网络打印机的模式。当然你也可以选择羡慕的Apple无线打印和Google云端打印，这些都是支持的。选择完了，点击保存即可。</p>
-<h2 id="电脑端设置">电脑端设置</h2>
-<p>打开群晖助手，识别出群晖的IP地址后，点击打印机设备。点击新增</p>
-<p><a href="https://tunan.org/wp-content/uploads/2020/01/88c00cba56f68ca.png">下<img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3008" src="https://tunan.org/wp-content/uploads/2020/01/88c00cba56f68ca.png" alt="" width="668" height="617" srcset="https://tunan.org/wp-content/uploads/2020/01/88c00cba56f68ca.png 668w, https://tunan.org/wp-content/uploads/2020/01/88c00cba56f68ca-300x277.png 300w" sizes="(max-width: 668px) 100vw, 668px" /></a></p>
-<p>选择识别出来的打印机，点击下一步，然后装上打印机的驱动。整个工作宣告结束。</p>
-<p>据说，通过群晖还可以实现，手机直接打印的功能，由于不是很需要这个功能，没有研究，有需要这方面的功能的，不妨研究一下。其实也不复杂，都是局域网打印而已。</p>
-<p> </p>
-<p> </p>
-]]></content:encoded>
-    </item>
-    <item>
       <title>Kindle Previewer v3.27  亚马逊官方电子书模拟器</title>
-      <link>http://localhost:1313/2999.html</link>
+      <link>https://iliu.org/2999.html</link>
       <pubDate>Fri, 10 Jan 2020 07:12:58 +0000</pubDate>
-      <guid>http://localhost:1313/2999.html</guid>
+      <guid>https://iliu.org/2999.html</guid>
       <description>&lt;p&gt;Kindle Previewer 是一个模拟 Kindle 设备和应用程序显示书籍内容的使用界面工具。是亚马逊官方开发的一款kindle系列产品模拟器，可以模拟出kindle系列产品的功能。当然也可以用来阅读.mobi等专有格式的电子书，还可以对部分电子书格式进行格式的转换。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Kindle Previewer 是一个模拟 Kindle 设备和应用程序显示书籍内容的使用界面工具。是亚马逊官方开发的一款kindle系列产品模拟器，可以模拟出kindle系列产品的功能。当然也可以用来阅读.mobi等专有格式的电子书，还可以对部分电子书格式进行格式的转换。</p>
 <p><a href="https://tunan.org/wp-content/uploads/2020/01/70a4716b0941990.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3000" src="https://tunan.org/wp-content/uploads/2020/01/70a4716b0941990.jpg" alt="" width="500" height="336" srcset="https://tunan.org/wp-content/uploads/2020/01/70a4716b0941990.jpg 500w, https://tunan.org/wp-content/uploads/2020/01/70a4716b0941990-300x202.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
@@ -272,138 +113,10 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>宝塔面板安装FRP内网穿透控制群晖</title>
-      <link>http://localhost:1313/2918.html</link>
-      <pubDate>Sat, 07 Dec 2019 03:28:28 +0000</pubDate>
-      <guid>http://localhost:1313/2918.html</guid>
-      <description>&lt;p&gt;前两天给大家介绍了利用zerotier来进行内网穿透控制群晖的方法，详见：&lt;a href=&#34;https://tunan.org/2872.html&#34;&gt;黑群晖的福音，利用zerotier进行内网穿透&lt;/a&gt;。但是，zerotier使用的时候有时候不太稳定，而且记一堆的数字比较麻烦，今天，给大家介绍另一个神器，frp。直接用命令行的方式在服务器里部署比较繁琐，而且一不留神就会出错，不过好在有大神在宝塔里开发出了插件，一键安装就行。好了，言归正传，开始正题。&lt;/p&gt;
-&lt;p&gt;首先，你得有一个自己的vps，这里把设置强烈推荐&lt;a href=&#34;https://my.liluohost.com/aff.php?aff=148&#34;&gt;篱落主机&lt;/a&gt;。本站就运行在这个主机上，特别是香港的VPS，速度快，服务器也稳定。关键是价格不贵，最便宜的也就100多块一年吧。给小张报我的名字应该还能有些许优惠，毕竟我10年前就是他的客户了。这次，本来买的1h2g的，结果人家二话没说就给升级到了4g。貌似，又跑题了额。&lt;/p&gt;
-&lt;p&gt;有了vps后，安装宝塔面板。安装的方法很简单，官网一看就会，我就不啰嗦了。不出意外的话，2分钟，面板安装完毕。登录到面板的后台。点击软件商店，搜索frp。我们用的是如下这款，因为这款是免费的。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>前两天给大家介绍了利用zerotier来进行内网穿透控制群晖的方法，详见：<a href="https://tunan.org/2872.html">黑群晖的福音，利用zerotier进行内网穿透</a>。但是，zerotier使用的时候有时候不太稳定，而且记一堆的数字比较麻烦，今天，给大家介绍另一个神器，frp。直接用命令行的方式在服务器里部署比较繁琐，而且一不留神就会出错，不过好在有大神在宝塔里开发出了插件，一键安装就行。好了，言归正传，开始正题。</p>
-<p>首先，你得有一个自己的vps，这里把设置强烈推荐<a href="https://my.liluohost.com/aff.php?aff=148">篱落主机</a>。本站就运行在这个主机上，特别是香港的VPS，速度快，服务器也稳定。关键是价格不贵，最便宜的也就100多块一年吧。给小张报我的名字应该还能有些许优惠，毕竟我10年前就是他的客户了。这次，本来买的1h2g的，结果人家二话没说就给升级到了4g。貌似，又跑题了额。</p>
-<p>有了vps后，安装宝塔面板。安装的方法很简单，官网一看就会，我就不啰嗦了。不出意外的话，2分钟，面板安装完毕。登录到面板的后台。点击软件商店，搜索frp。我们用的是如下这款，因为这款是免费的。</p>
-<h2 id="补充说明">补充说明：</h2>
-<p>最近发现这个插件在宝塔里已经找不到了，需要设置服务器端的可以参考本人的<a href="https://tunan.org/3340.html">纯代码设置frp服务器</a>这篇文章，来进行手动设置，也不复杂！<figure class="wp-block-image size-large"></p>
-<p><img loading="lazy" decoding="async" width="1024" height="302" src="https://tunan.org/wp-content/uploads/2019/12/frp-120191207-1-1024x302.png" alt="" class="wp-image-2919" srcset="https://tunan.org/wp-content/uploads/2019/12/frp-120191207-1-1024x302.png 1024w, https://tunan.org/wp-content/uploads/2019/12/frp-120191207-1-300x89.png 300w, https://tunan.org/wp-content/uploads/2019/12/frp-120191207-1-768x227.png 768w, https://tunan.org/wp-content/uploads/2019/12/frp-120191207-1.png 1071w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure></p>
-<p>先点击购买，因为是免费的，不要钱，直接购买后，点击安装，安装后，点击设置。<figure class="wp-block-image size-large"></p>
-<p><img loading="lazy" decoding="async" width="709" height="599" src="https://tunan.org/wp-content/uploads/2019/12/frp-120191207-2.png" alt="" class="wp-image-2920" srcset="https://tunan.org/wp-content/uploads/2019/12/frp-120191207-2.png 709w, https://tunan.org/wp-content/uploads/2019/12/frp-120191207-2-300x253.png 300w" sizes="(max-width: 709px) 100vw, 709px" /> </figure></p>
-<p>这里，我们只需要在通用设置这里进行设置就可以了，其他的可以不用设置，不影响使用。端口号之类的可以改也可以不改，主要的是设置验证密钥，设置成你自己的。</p>
-<p>设置完这个之后，一定要在宝塔面板——安全选项里，把你设置的这些端口号放行。不然是用不了的。</p>
-<p>至此，frp服务器端已经设置完毕。下面我们来设置客户端，由于我们是要远程控制群晖，所以这里就以群晖为例。</p>
-<h3 class="wp-block-heading" id="设置域名解析">设置域名解析</h3>
-<p>登录你的域名服务商<br>
-域名解析<br>
-设置域名解析到frp服务器地址</p>
-<h3 class="wp-block-heading" id="安装frpc文件">安装frpc文件</h3>
-<p>开启群晖SSH功能<br>
-控制面板-终端机和SNMP<br>
-启动SSH功能-应用<figure class="wp-block-image size-large"></p>
-<p><img loading="lazy" decoding="async" width="1024" height="645" src="https://tunan.org/wp-content/uploads/2019/12/1609524974-1024x645.jpg" alt="" class="wp-image-2921" srcset="https://tunan.org/wp-content/uploads/2019/12/1609524974-1024x645.jpg 1024w, https://tunan.org/wp-content/uploads/2019/12/1609524974-300x189.jpg 300w, https://tunan.org/wp-content/uploads/2019/12/1609524974-768x483.jpg 768w, https://tunan.org/wp-content/uploads/2019/12/1609524974-1536x967.jpg 1536w, https://tunan.org/wp-content/uploads/2019/12/1609524974-2048x1289.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure></p>
-<p>使用xshell等登录到群晖</p>
-<p>sudo -i //获得root权限 输入密码-回车</p>
-<p>进入安装目录(本文以/usr/local/为例) cd /usr/local/</p>
-<p>因为我们服务器端用的是最新30版的，所以我们也要下载最新版本的。可以到如下的网址查询最新版本：</p>
-<p><a href="https://github.com/fatedier/frp/releases/">https://github.com/fatedier/frp/releases/</a></p>
-<h3 class="wp-block-heading" id="配置frpc">配置frpc</h3>
-<pre>编辑frpc.ini文件<br />cd /usr/local/frpc<br />vi frpc.ini</pre>
-<pre>[common] server_addr = x.x.x.x<br /><br /> server_port = 7000<br /><br /> token = 你在宝塔里设置的 <br /><br />[rdp] type = tcp <br /><br />local_ip = 127.0.0.1 <br /><br />local_port = 3389 <br /><br />remote_port = 7001<br /><br /> [smb] type = tcp <br /><br />local_ip = 127.0.0.1<br /><br /> local_port = 445 <br /><br />remote_port = 7002</pre>
-<ul class="wp-block-list">
-  <li>
-    “server_addr”为服务端IP地址，填入即可。
-  </li>
-  <li>
-    “server_port”为服务器端口，填入你设置的端口号即可，如果未改变就是7000
-  </li>
-  <li>
-    “token”是你在服务器上设置的连接口令，原样填入即可。
-  </li>
-</ul>
-<p>ESC退出编辑<br>
-输入:wq回车即可保存</p>
-<h3 class="wp-block-heading" id="启动frpc">启动frpc</h3>
-<p>启动frpc命令： ./frpc -c ./frpc.ini</p>
-<p>保持后台运行frpc命令 ： nohup ./frpc -c ./frpc.ini &amp;</p>
-<h2 class="wp-block-heading" id="设置群晖nas重启开机自动运行frpc">设置群晖NAS重启开机自动运行frpc</h2>
-<p>控制面板——任务计划<figure class="wp-block-image size-large"></p>
-<p><img loading="lazy" decoding="async" width="1024" height="649" src="https://tunan.org/wp-content/uploads/2019/12/280926576-1024x649.jpg" alt="" class="wp-image-2922" srcset="https://tunan.org/wp-content/uploads/2019/12/280926576-1024x649.jpg 1024w, https://tunan.org/wp-content/uploads/2019/12/280926576-300x190.jpg 300w, https://tunan.org/wp-content/uploads/2019/12/280926576-768x487.jpg 768w, https://tunan.org/wp-content/uploads/2019/12/280926576-1536x974.jpg 1536w, https://tunan.org/wp-content/uploads/2019/12/280926576-2048x1298.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure></p>
-<p>新增<br>
-触发的任务<br>
-用户自定义脚本<br>
-常规<br>
-填写任务名称<br>
-用户账号和事件保持默认<br>
-任务设置<br>
-用户自定义脚本<br>
-填写你的frpc安装路径： /usr/local/frpc/frpc -c /usr/local/frpc/frpc.ini<br>
-确定<figure class="wp-block-image size-large"></p>
-<p><img loading="lazy" decoding="async" width="1024" height="647" src="https://tunan.org/wp-content/uploads/2019/12/602279552-1024x647.jpg" alt="" class="wp-image-2923" srcset="https://tunan.org/wp-content/uploads/2019/12/602279552-1024x647.jpg 1024w, https://tunan.org/wp-content/uploads/2019/12/602279552-300x190.jpg 300w, https://tunan.org/wp-content/uploads/2019/12/602279552-768x486.jpg 768w, https://tunan.org/wp-content/uploads/2019/12/602279552-1536x971.jpg 1536w, https://tunan.org/wp-content/uploads/2019/12/602279552-2048x1295.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure></p>
-<p>配置完成<br>
-现在可以使用域名无端口访问群晖NAS了</p>
-<p>本文frpc设置部分参考了：群晖NAS安装配置免费frp内网穿透教程 一并表示感谢</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>推荐一款免费的视频剪辑软件shotcut</title>
-      <link>http://localhost:1313/2914.html</link>
-      <pubDate>Fri, 06 Dec 2019 02:37:53 +0000</pubDate>
-      <guid>http://localhost:1313/2914.html</guid>
-      <description>&lt;p&gt;跋涉者最近在弄另一个网站的时候，需要把一些长的视频剪辑成一个短的预览视频，这样没有权限看的人，只能看到短视频，而支付积分后则可以看完整的视频。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>跋涉者最近在弄另一个网站的时候，需要把一些长的视频剪辑成一个短的预览视频，这样没有权限看的人，只能看到短视频，而支付积分后则可以看完整的视频。</p>
-<p>由于以前一只没有用过此类的软件，因此要求这类软件越简单越好，越容易上手，学习成本越低最理想，可是找了不少，要不是收费的，价格很贵，要不软件很大，功能多的不知道如何下手，要不打开都是广告，一直没有找到理想的，最后，寻寻觅觅终于找到了这款比较满意的——shotcut。<figure class="wp-block-image size-large"></p>
-<p><img loading="lazy" decoding="async" width="1024" height="576" src="https://tunan.org/wp-content/uploads/2019/12/Shotcut-18.11.18-1024x576.png" alt="" class="wp-image-2915" srcset="https://tunan.org/wp-content/uploads/2019/12/Shotcut-18.11.18-1024x576.png 1024w, https://tunan.org/wp-content/uploads/2019/12/Shotcut-18.11.18-300x169.png 300w, https://tunan.org/wp-content/uploads/2019/12/Shotcut-18.11.18-768x432.png 768w, https://tunan.org/wp-content/uploads/2019/12/Shotcut-18.11.18-1536x865.png 1536w, https://tunan.org/wp-content/uploads/2019/12/Shotcut-18.11.18.png 1906w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure></p>
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-  <p>
-    Shotcut是一个免费的、开源的、跨平台的视频编辑器，适用于Windows、Mac和Linux。主要功能包括支持多种格式;不需要导入本地时间轴编辑;Blackmagic设计支持输入和预览监控;支持4k分辨率。
-  </p>
-  <p>
-  </p>
-</blockquote>
-<p>软件的官方网站： <a href="https://www.shotcut.org/">https://www.shotcut.org/</a></p>
-<p>软件不大，只有不到100M，但是该有的功能都有了。想要剪辑视频只要鼠标简单的点上几下，就能把视频剪辑到你想要的位置和时间。<figure class="wp-block-image size-large"></p>
-<p><img loading="lazy" decoding="async" width="1024" height="581" src="https://tunan.org/wp-content/uploads/2019/12/20191206090445-1024x581.png" alt="" class="wp-image-2916" srcset="https://tunan.org/wp-content/uploads/2019/12/20191206090445-1024x581.png 1024w, https://tunan.org/wp-content/uploads/2019/12/20191206090445-300x170.png 300w, https://tunan.org/wp-content/uploads/2019/12/20191206090445-768x436.png 768w, https://tunan.org/wp-content/uploads/2019/12/20191206090445.png 1269w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure></p>
-<p>如上图，想要简介一个视频，只需四步：</p>
-<ul class="wp-block-list">
-  <li>
-    第一步：点击打开文件，选择你要剪辑的视频
-  </li>
-  <li>
-    第二步：在时间轴哪里选择你要剪辑的位置。
-  </li>
-  <li>
-    第三步：点击输出。
-  </li>
-  <li>
-    第四步：点击输出文件
-  </li>
-</ul>
-<p>然后，系统会编译一会，时间和你电脑的配置以及你剪辑的视频长短有关。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>竞斗云2.0初步使用记</title>
-      <link>http://localhost:1313/2909.html</link>
-      <pubDate>Thu, 05 Dec 2019 07:02:08 +0000</pubDate>
-      <guid>http://localhost:1313/2909.html</guid>
-      <description>&lt;p&gt;前几天&lt;a href=&#34;https://zhang.bo&#34;&gt;张波&lt;/a&gt;老师送了一台竞斗云2.0，这也是一款矿难的产物。原价好像将近2000块钱，现在矿难，矿贩子便宜处理，100多块钱就能买一台。&lt;/p&gt;
-&lt;p&gt;收到后给我的第一感觉就是大，比传统的路由器大多了，第二个就是重，外壳是铁质的，加上4个天线，还是比较霸气的。&lt;/p&gt;
-&lt;p&gt;迫不及待的接上网线，以前用的路由器都是普通的路由器，几十块钱一个，最贵的要算是家里的那台荣耀路由器了，花了200多块钱，使用起来倒是没有毛病，唯一的一点缺憾是不能使用酸酸乳，可能国内的路由器厂商都不敢弄这个功能吧。&lt;figure class=&#34;wp-block-image size-large&#34;&gt;&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>前几天<a href="https://zhang.bo">张波</a>老师送了一台竞斗云2.0，这也是一款矿难的产物。原价好像将近2000块钱，现在矿难，矿贩子便宜处理，100多块钱就能买一台。</p>
-<p>收到后给我的第一感觉就是大，比传统的路由器大多了，第二个就是重，外壳是铁质的，加上4个天线，还是比较霸气的。</p>
-<p>迫不及待的接上网线，以前用的路由器都是普通的路由器，几十块钱一个，最贵的要算是家里的那台荣耀路由器了，花了200多块钱，使用起来倒是没有毛病，唯一的一点缺憾是不能使用酸酸乳，可能国内的路由器厂商都不敢弄这个功能吧。<figure class="wp-block-image size-large"></p>
-<p><img loading="lazy" decoding="async" width="820" height="493" src="https://tunan.org/wp-content/uploads/2019/12/jingdouyun-01.png" alt="" class="wp-image-2911" srcset="https://tunan.org/wp-content/uploads/2019/12/jingdouyun-01.png 820w, https://tunan.org/wp-content/uploads/2019/12/jingdouyun-01-300x180.png 300w, https://tunan.org/wp-content/uploads/2019/12/jingdouyun-01-768x462.png 768w" sizes="(max-width: 820px) 100vw, 820px" /> </figure></p>
-<p>这台路由器张老师已经刷了openwrt系统，这是一个基于Linux开发的开源路由器系统，功能还是比较强大的，除了普通路由器的功能外，还具有，酸酸乳，广告过滤，zerotier，甚至迅雷，远程下载等等的功能，基本上也算是一台微型计算机了。</p>
-<p>需要说明的一点是，openwrt系统配置起来没有普通路由器那么方便，比如拨号的设置竟然是再端口里，然后修改wan这个选项，才能田间pppoe的各项参数。<figure class="wp-block-image size-large"></p>
-<p><img loading="lazy" decoding="async" width="982" height="532" src="https://tunan.org/wp-content/uploads/2019/12/jingdouyun-02.png" alt="" class="wp-image-2910" srcset="https://tunan.org/wp-content/uploads/2019/12/jingdouyun-02.png 982w, https://tunan.org/wp-content/uploads/2019/12/jingdouyun-02-300x163.png 300w, https://tunan.org/wp-content/uploads/2019/12/jingdouyun-02-768x416.png 768w" sizes="(max-width: 982px) 100vw, 982px" /> </figure></p>
-<p>里面的的广告大师这个功能说是用的ablock plus的数据库，但是感觉过滤的效果没有adp效果好，打开网页的话，还是会有广告的出现，用浏览器的插件就没有<figure class="wp-block-image size-large"></p>
-<p><img loading="lazy" decoding="async" width="848" height="316" src="https://tunan.org/wp-content/uploads/2019/12/jingdouyun-03.png" alt="" class="wp-image-2912" srcset="https://tunan.org/wp-content/uploads/2019/12/jingdouyun-03.png 848w, https://tunan.org/wp-content/uploads/2019/12/jingdouyun-03-300x112.png 300w, https://tunan.org/wp-content/uploads/2019/12/jingdouyun-03-768x286.png 768w" sizes="(max-width: 848px) 100vw, 848px" /> </figure></p>
-<p>使用了3 4天了，网上说的无线容易掉线等的问题没有遇到，测了一下速度，基本上能达到宽带限定的速度，无线的速递也蛮快的，可以做为一款主力路由器来使用，所以，今天又再闲鱼上下单买了一台放在家里使用。现在貌似比以前贵了，找了一个卖家说是全新的，代刷好不死系统，包邮价120元。</p>
-]]></content:encoded>
-    </item>
-    <item>
       <title>35元的电动牙刷怎么样？</title>
-      <link>http://localhost:1313/2882.html</link>
+      <link>https://iliu.org/2882.html</link>
       <pubDate>Thu, 28 Nov 2019 02:04:30 +0000</pubDate>
-      <guid>http://localhost:1313/2882.html</guid>
+      <guid>https://iliu.org/2882.html</guid>
       <description>&lt;p&gt;最近朋友知道我上线了在线商城后说他有一款性价比非常高的电动牙刷，可以在我的在线商城里代卖一下。具体是&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;可以充电&lt;/li&gt;
@@ -434,191 +147,10 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>使用zerotier进行内网穿透</title>
-      <link>http://localhost:1313/2872.html</link>
-      <pubDate>Wed, 27 Nov 2019 07:33:08 +0000</pubDate>
-      <guid>http://localhost:1313/2872.html</guid>
-      <description>&lt;p&gt;自从到手了暴风酷播之后，抽空就折腾了下NAS，目前来说系统方面已经没有什么问题了，自己需要使用的套件也基本上弄好了，唯一一个需要搞定的问题就是如何远程访问群晖，同步群晖这个问题。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>自从到手了暴风酷播之后，抽空就折腾了下NAS，目前来说系统方面已经没有什么问题了，自己需要使用的套件也基本上弄好了，唯一一个需要搞定的问题就是如何远程访问群晖，同步群晖这个问题。</p>
-<p>关于远程访问群晖，有很多的方法，比如如果你有公网IP，那就很好办，只需要一个域名就可以搞定的事情。但是如果你使用了大局域网的移动宽带，那么上述的方法是没法用的，因为移动宽带就不提供公网IP的。（至于公网IP的方法，不在本文讨论的范围内）。而跋涉者就刚好用的是移动的宽带，而且当初贪图便宜把家里的联通宽带也换成了移动的宽带，所以利用公网IP来远程访问群晖的方法是行不通了。</p>
-<p>那是不是内网就没法进行远程访问群晖了呢，当然不是，我们可以利用内网穿透的方法来绕过这一难题。</p>
-<p>第一个方法是利用FRP这个软件来进行内网穿透。</p>
-<p>这个方法需要你有一台VPS或者服务器，然后在服务器上安装FRP的服务器端，在群晖上安装FRP的客户端，这样，运行起来之后，群晖上的客户端就和VPS上的服务器端进行握手，你就可以用服务器上的ip来远程访问群晖了。</p>
-<p>这种方法需要你有一台服务器，还需要你有较强的动手能力，最重要的一点是服务器还不能差了，否则联网的速度很慢，达不到快速备份的目的。跋涉者首先选择的方案就是这个，也完成了相关的设置，但是由于速度不稳定而放弃。如果你有一台比较好的服务器，这种方法不失为一种好的解决方案。</p>
-<p>第二种方式，买内网穿透的设备</p>
-<p>目前网上有卖这方面的设备的，但是这玩意，一是要花钱，二也是受限于带宽和用户数。所以对这种方法也不是很推荐。</p>
-<p>第三种方法，最简单的一种方法，利用zerotier这个国外的网站进行内网穿透。</p>
-<p>ZeroTier原理：</p>
-<p>ZeroTier虚拟了一个网段，网段为多个网段可选，跋涉者选择的是10.244.150.*这个网段，公司和家里分别安装ZeroTier客户端，客户端会虚拟出一个网络并加入这个网段，在家即可访问10.244.150.1地址，反之同理。</p>
-<p>ZeroTier设备支持：</p>
-<p>免费用户可以支持100个设备，支持Windows、macOS、Linux、IOS、Android、Synology、QNAP、Western Digital MyCloud NAS等等。</p>
-<p>所以，对于我们大多数的人来说，100台设备已经是足够用了，另外就是ZeroTier两台设备握手以后，就采用的是P2P的方式传输数据。因此，不会受到其他因素的干扰，传输数据的速度相当的快，跋涉者这里就达到了3m/s的速度，当然这是因为受限于宽带运营商的上行带宽。</p>
-<p>使用方法：</p>
-<p>打开网站 <a href="https://www.zerotier.com/">ZEROTIER</a></p>
-<p>网站是英文的，不过不影响，点击右上角的login，在打开的页面中点击 **Log in to ZeroTier **最下方点击 Register 。来注册一个新用户。<a href="https://tunan.org/wp-content/uploads/2019/11/37fc35e0fc32e9d.png"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2873" src="https://tunan.org/wp-content/uploads/2019/11/37fc35e0fc32e9d.png" alt="" width="634" height="513" srcset="https://tunan.org/wp-content/uploads/2019/11/37fc35e0fc32e9d.png 634w, https://tunan.org/wp-content/uploads/2019/11/37fc35e0fc32e9d-300x243.png 300w" sizes="(max-width: 634px) 100vw, 634px" /></a></p>
-<p>注册后，进入网站，点击最上面那一行的  Networks  然后点击 create a  Networks。系统会给你一个网络的编号。然后点击页面最上面的那一行 downloads,这个页面里有各种系统的客户端。下载，安装。然后把你刚创建的网络号码填进去。运行之后，</p>
-<p>点击进入已创建的网络</p>
-<p>此时可以看到Network ID，后续添加设备都会需要这个ID。</p>
-<p>默认是Certificate (Private Network)，选择此模式表示每次在添加新的主机时，需要手动勾选是否允许连接，如果选择None (Public Network)模式，表示加入网络后自动分配IP并允许连接，从安全性来说建议使用默认选项Certificate (Private Network)，方便性来看None (Public Network)更方便，不用每次加入网络后手动勾选。</p>
-<p><a href="https://tunan.org/wp-content/uploads/2019/11/d1bcac1984700e2.png"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2874" src="https://tunan.org/wp-content/uploads/2019/11/d1bcac1984700e2.png" alt="" width="1024" height="478" srcset="https://tunan.org/wp-content/uploads/2019/11/d1bcac1984700e2.png 1024w, https://tunan.org/wp-content/uploads/2019/11/d1bcac1984700e2-300x140.png 300w, https://tunan.org/wp-content/uploads/2019/11/d1bcac1984700e2-768x359.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
-<p>如下图所示，</p>
-<p><a href="https://tunan.org/wp-content/uploads/2019/11/c74c9a9e0c41d06.png"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2875" src="https://tunan.org/wp-content/uploads/2019/11/c74c9a9e0c41d06.png" alt="" width="995" height="390" srcset="https://tunan.org/wp-content/uploads/2019/11/c74c9a9e0c41d06.png 995w, https://tunan.org/wp-content/uploads/2019/11/c74c9a9e0c41d06-300x118.png 300w, https://tunan.org/wp-content/uploads/2019/11/c74c9a9e0c41d06-768x301.png 768w" sizes="(max-width: 995px) 100vw, 995px" /></a><br>
-每次链接上一个新设备之后，都要在设备的前面那个框里的√打上，这样就表示允许接入网络。</p>
-<p>群晖里的安装也是同样的原理，下载群晖的套件，然后再群晖里选择手动安装套件，接入网络后，就可以用系统分配给你的IP地址加上你群晖的端口号一般是5000，来远程访问你的群晖了。各个群晖的套件也是一样的原来，IP地址加套件的端口号。</p>
-<p>最后，由于安卓客户端众所周知的原因，是没法直接下载的，所以，如果你有使用monents套件的需求，是必须要用安卓客户端的，点击文后的链接，直接下载吧。</p>
-<p><a href="https://tunan.org/wp-content/uploads/2019/11/cd5dfa5f7cf472d.zip">安卓客户端下载</a></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>再次折腾黑群晖系统</title>
-      <link>http://localhost:1313/2860.html</link>
-      <pubDate>Sat, 23 Nov 2019 02:51:56 +0000</pubDate>
-      <guid>http://localhost:1313/2860.html</guid>
-      <description>&lt;p&gt;昨天拍了一些眼镜架的图片，可以却同步不到群晖的monents里面，有了群晖之后有些事情确实特别的方便，比如我拍的镜架的图片，想传到在线商城里面，以前的做法是，选择图片，再微信里用文件传输助手传给自己，然后再在桌面的微信里下载下来，很不方便，有了群晖之后，就可以直接在客户端里同步到群晖里，我直接在里面修图，上传到网站即可。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>昨天拍了一些眼镜架的图片，可以却同步不到群晖的monents里面，有了群晖之后有些事情确实特别的方便，比如我拍的镜架的图片，想传到在线商城里面，以前的做法是，选择图片，再微信里用文件传输助手传给自己，然后再在桌面的微信里下载下来，很不方便，有了群晖之后，就可以直接在客户端里同步到群晖里，我直接在里面修图，上传到网站即可。</p>
-<p><a href="https://tunan.org/wp-content/uploads/2019/11/b030f7d30297555.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2863" src="https://tunan.org/wp-content/uploads/2019/11/b030f7d30297555.jpg" alt="" width="900" height="575" srcset="https://tunan.org/wp-content/uploads/2019/11/b030f7d30297555.jpg 900w, https://tunan.org/wp-content/uploads/2019/11/b030f7d30297555-300x192.jpg 300w, https://tunan.org/wp-content/uploads/2019/11/b030f7d30297555-768x491.jpg 768w" sizes="(max-width: 900px) 100vw, 900px" /></a></p>
-<p>但是今天却同步出错了，用重启大法重启后，竟然显示数据损坏，让重新安装系统，但是下载了3617的pat后上传，却显示13错误，从网上查了一下，应该是和引导不匹配造成的。那就重新安装吧，听张波老师说，二合一的系统不稳定，这次打算直接把引导程序装到U盘里，暴风自带的ssd专门装套件，西数的那块2T的硬盘作为数据盘。</p>
-<p>由于没有弄过非2合一的，在网上找教程的时候看到有人说万由的U-NAS也不错，简单高效，并且暴风可以说是万由的亲儿子。由于觉得自己使用也就是备份下数据什么的，用万由也就够了，于是，打算装万由的系统试试。万由的系统安装很简单，用Win32DiskImager把固件写入U盘，安装到ssd里即可。</p>
-<p>暴风接上显示器，大爷，又进不去bios了，轻车熟路，拆机箱，扣主板电池放电，装上电池。接上显示器，电源等，开机进入bios。可是却识别不出来U盘，后来查到是因为万由不支持uefi启动，于是更改主板的引导方式，安装很顺利，可惜安装后，又不能进BIOS了，不过进入系统正常，登录了一下万由的系统，感觉摸不到头脑，系统和群晖一比就如windows98和win10的差别一样，易用性太差了，没办法，还是换成群晖吧。不过，u-NAS启动等都能甩群晖一条街。。。。可惜不是我的菜。</p>
-<p>由于还是进不去BIOS，于是继续抠电池。看到主板的版本是1.4的，怀疑是不是版本的问题，看官方的最新是1.8的，于是升级主板的版本到1.8,重启了几次，开机进bIOS正常，于是为了兼容性，于是打开了打开CSM选项，保存重启，大爷的，又进不去BIOS了，不过也终于知道是什么原因导致进不去BIOS了。再次抠电池，设置的是，不打开CSM选项就是了。现在回想起来，应该都是设置了这个造成的。也不知道是我这块主板的个例还是全都是这样。</p>
-<p><a href="https://tunan.org/wp-content/uploads/2019/11/48d97b422372f66.jpg"><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-2861" src="https://tunan.org/wp-content/uploads/2019/11/48d97b422372f66-1024x394.jpg" alt="" width="1024" height="394" srcset="https://tunan.org/wp-content/uploads/2019/11/48d97b422372f66-1024x394.jpg 1024w, https://tunan.org/wp-content/uploads/2019/11/48d97b422372f66-300x115.jpg 300w, https://tunan.org/wp-content/uploads/2019/11/48d97b422372f66-768x295.jpg 768w, https://tunan.org/wp-content/uploads/2019/11/48d97b422372f66-1536x591.jpg 1536w, https://tunan.org/wp-content/uploads/2019/11/48d97b422372f66-2048x787.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
-<p>如上图，这是正常启动的时候，显示的当开启CSM后，上面这些文字显示的是乱码，就进不去BIOS了，不过进系统正常。</p>
-<p>这次安装决定把引导程序装到U盘里，暴风自带的ssd专门装套件，西数的那块2T的硬盘作为数据盘。网上一堆的教程让人头大，其实理顺了也很简单。过两天抽空写个教程。安装顺利，由于没有改CSM，启动也正常。又可以方便的使用群晖带来的服务了。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>记暴风酷播云2期折腾黑群晖</title>
-      <link>http://localhost:1313/2855.html</link>
-      <pubDate>Mon, 18 Nov 2019 07:28:30 +0000</pubDate>
-      <guid>http://localhost:1313/2855.html</guid>
-      <description>&lt;p&gt;双11前后，张波老师弄了个zhang.gg和zhang.bo的两个域名，看gg不贵，而且有www.liuday.com这个域名还没有被注册，于是也跟风注册了个个性域名。后来不知道怎么聊的聊到了NAS上面，本来觉得我对这个需求不是很大，后来张波老师说，他淘汰了他的蜗牛弄了个暴风，于是我就想用张老师淘汰下来的蜗牛玩一玩。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>双11前后，张波老师弄了个zhang.gg和zhang.bo的两个域名，看gg不贵，而且有www.liuday.com这个域名还没有被注册，于是也跟风注册了个个性域名。后来不知道怎么聊的聊到了NAS上面，本来觉得我对这个需求不是很大，后来张波老师说，他淘汰了他的蜗牛弄了个暴风，于是我就想用张老师淘汰下来的蜗牛玩一玩。</p>
-<p><a href="https://tunan.org/wp-content/uploads/2019/11/9b81db5da85a49e.png"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2856" src="https://tunan.org/wp-content/uploads/2019/11/9b81db5da85a49e.png" alt="" width="640" height="296" srcset="https://tunan.org/wp-content/uploads/2019/11/9b81db5da85a49e.png 640w, https://tunan.org/wp-content/uploads/2019/11/9b81db5da85a49e-300x139.png 300w" sizes="(max-width: 640px) 100vw, 640px" /></a></p>
-<p>张波老师要送给我，我不同意，后来半卖半送的给了我，不巧的是，张老师再发货的时候，蜗牛的系统出问题了，于是也就不了了之了。在这期间也了解了下NAS这个玩意，觉得还是不错的，自己还是有一定的需求的，再加上媳妇手机的照片满了，特别是她备份到华为云，只有5g的免费空间，早就超了，现在50g的也超了，下一个就要买200g的，一年也不少钱，于是决定淘个这种垃圾玩，张老师建议直接上暴风，但是当时我已经下单买了蜗牛，当时想着弄个NAS加上个软路由，所以还买的卖家改的双网口版的。</p>
-<p>发过来后，卖家虽然号称的是99新，但是明显是重新喷过漆的，不过清理的很干净。慢慢的山寨感，使用了一下黑群晖的系统，觉得也还行。为了保险起见还是上暴风吧，于是和卖家联系，好说歹说，把这蜗牛给退了。</p>
-<p>正再闲鱼找呢，一个哥们说他淘汰了一台，他上铁威马了。于是把这台暴风发给了我。唉，到哪都能遇到好人，哈哈。发过来后，发现整个比蜗牛强多了，不是一个档次的东西。朋友装的是918+的6.2.2，开机慢的要死，基本上要5分钟还多，关机也慢，最重要的是相册套件moments总出问题，不是卡再转换那，就是象掉线了一样，及不能上传图片，也删除不了图片。</p>
-<p>本来以为这个问题是远程不稳的原因，后来发现，局域网里也不行。昨天张波老师说暴风用3617比较合适，于是今天上午没事就开搞。百度云盘这次比较给力，下载固件竟然给了1M的速度。固件什么弄完了，给暴风装上显示器，键盘 鼠标等，结果按网上说的按F11开机，屏幕上显示几行字母，一闪黑屏了。大爷的，以为是不支持无线键盘造成的，于是又找了个USB接口的键盘，还是一个鸟样。问了那个哥们和张波老师，说按F2试试看能不能进bois，网上找了一圈都是说按del。开机，F2，还是不行。</p>
-<p><a href="https://tunan.org/wp-content/uploads/2019/11/fda13334174751b.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2857" src="https://tunan.org/wp-content/uploads/2019/11/fda13334174751b.jpg" alt="" width="1024" height="613" srcset="https://tunan.org/wp-content/uploads/2019/11/fda13334174751b.jpg 1024w, https://tunan.org/wp-content/uploads/2019/11/fda13334174751b-300x180.jpg 300w, https://tunan.org/wp-content/uploads/2019/11/fda13334174751b-768x460.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
-<p>于是，觉得死马当做活马医，拆机，把主板电池扣掉，然后要把线紧紧。重新装上后，开机F2,进bois了。并且分辨率也调整了。现在想想是不是以前主板记录的屏幕分辨率比较低导致菜单出不来？关机重启，按F11也顺利的弹出选择U盘的启动的菜单了，于是按照3617二合一的教程，顺利的安装完毕。</p>
-<p>重启机器，一切正常，没有乱码，也没有了原来那个提示什么VGA错误的提示了，进系统很快，不到1分钟的时间，下午测试了下moment套件的情况，也一切正常了。</p>
-<p>所以，建议折腾暴风酷播云的朋友，尽量安装6.1.7的版本，非常稳定，非常流畅，用FRP做的内网穿透也好用的不得了。。。。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>一道比较难懂的五年级数学题</title>
-      <link>http://localhost:1313/2842.html</link>
-      <pubDate>Wed, 06 Nov 2019 03:01:19 +0000</pubDate>
-      <guid>http://localhost:1313/2842.html</guid>
-      <description>&lt;p&gt;昨天女儿的数学其中考试卷子发下来了，还算可以，其实如果她再细心一点的话，分数还能有一些提高，甚至百分也不是不可能，总是在细节处丢分。无语了。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2019/11/224dda9b8159949.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; class=&#34;aligncenter size-full wp-image-2844&#34; src=&#34;https://tunan.org/wp-content/uploads/2019/11/224dda9b8159949.jpg&#34; alt=&#34;&#34; width=&#34;1024&#34; height=&#34;768&#34; srcset=&#34;https://tunan.org/wp-content/uploads/2019/11/224dda9b8159949.jpg 1024w, https://tunan.org/wp-content/uploads/2019/11/224dda9b8159949-300x225.jpg 300w, https://tunan.org/wp-content/uploads/2019/11/224dda9b8159949-768x576.jpg 768w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>昨天女儿的数学其中考试卷子发下来了，还算可以，其实如果她再细心一点的话，分数还能有一些提高，甚至百分也不是不可能，总是在细节处丢分。无语了。</p>
-<p><a href="https://tunan.org/wp-content/uploads/2019/11/224dda9b8159949.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2844" src="https://tunan.org/wp-content/uploads/2019/11/224dda9b8159949.jpg" alt="" width="1024" height="768" srcset="https://tunan.org/wp-content/uploads/2019/11/224dda9b8159949.jpg 1024w, https://tunan.org/wp-content/uploads/2019/11/224dda9b8159949-300x225.jpg 300w, https://tunan.org/wp-content/uploads/2019/11/224dda9b8159949-768x576.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
-<p>卷子的难度也中规中矩，不过最后一个附加题，对于没有学方程的孩子来说，做起来还是蛮难的。</p>
-<blockquote>
-<p>甲乙同时走一段路，甲的速度是4.5km/h，乙的速度比甲慢1.5km/小时。乙比加多用了2.5小时才走完了这段路，问，这段路是多少千米？</p>
-</blockquote>
-<p>这道题用方程来算很简单：</p>
-<blockquote>
-<p>设甲用的时间是x,乙的时间为x+2.5。</p>
-<p>那么：4.5x=(4.5-1.5)×（x+2.5)</p>
-<p>1.5x=7.5</p>
-<p>x=5</p>
-<p>4.5*5=22.5</p>
-</blockquote>
-<p>但是对于还没有学到方程的孩子来说，理解起来就比较困难。这到底难点是要求甲走这段路的时间。但是，根据题意给女儿讲了几遍女儿都不是很理解，后来灵机一动，设置了丙这个虚拟的人物来便于女儿理解。</p>
-<p><a href="https://tunan.org/wp-content/uploads/2019/11/1cb4db3f9b19f38.png"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2843" src="https://tunan.org/wp-content/uploads/2019/11/1cb4db3f9b19f38.png" alt="" width="864" height="540" srcset="https://tunan.org/wp-content/uploads/2019/11/1cb4db3f9b19f38.png 864w, https://tunan.org/wp-content/uploads/2019/11/1cb4db3f9b19f38-300x188.png 300w, https://tunan.org/wp-content/uploads/2019/11/1cb4db3f9b19f38-768x480.png 768w" sizes="(max-width: 864px) 100vw, 864px" /></a></p>
-<p>由上图，我们看到：</p>
-<p>由于乙比甲的速读慢1.5km/h，所以当甲走到终点c的时候，乙才走到B点，由题目给出来的条件可以得知，BC这段路的长度为（4.5-1.5）*2.5=7.5km。</p>
-<p>如果乙把自己的速度提高1.5km的话，那么甲乙将会同时到达终点，但是事实上乙走的慢，那么只需在B点加上一个虚拟的人物丙,让丙以1.5km/h的度数往前走，那么当甲从A点走到C点的时候，乙走到B点，丙则从B点走到了C点。</p>
-<p>丙的速度我们知道了是1.5km/h,走的路程我们也知道了是7.5km，那么，很简单的就求出来丙走的时间为7.5/1.5=5小时。而丙走的时间是和甲的时间一致的（同时出发，同时到达）。也就是说甲从A到C的时间也是5小时。</p>
-<p>至此，这段路程的长度就为：4.5*5=22.5km</p>
-<p>经过这样的讲解，女儿恍然大悟状，屁颠屁颠的去给她妈妈讲课去了。</p>
-<p> </p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>支付宝申请ETC的体验</title>
-      <link>http://localhost:1313/2825.html</link>
-      <pubDate>Thu, 24 Oct 2019 04:58:08 +0000</pubDate>
-      <guid>http://localhost:1313/2825.html</guid>
-      <description>&lt;p&gt;这段时间本来处于很尴尬地位的ETC在国家相关政策的指引下，成功的变成了各路的宠儿，各个机构都上杆子的免费送。甚至，国家的政策还被很多别有用心的媒体、自媒体解读为不申请ETC，逢年过节的高速费都不免了。虽然，后来也有媒体出来辟谣，但也从中可以看到，今年ECT的势头。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>这段时间本来处于很尴尬地位的ETC在国家相关政策的指引下，成功的变成了各路的宠儿，各个机构都上杆子的免费送。甚至，国家的政策还被很多别有用心的媒体、自媒体解读为不申请ETC，逢年过节的高速费都不免了。虽然，后来也有媒体出来辟谣，但也从中可以看到，今年ECT的势头。</p>
-<p><a href="https://tunan.org/wp-content/uploads/2019/10/9904edd1f469443.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2827" src="https://tunan.org/wp-content/uploads/2019/10/9904edd1f469443.jpg" alt="" width="300" height="225" /></a>国庆的时候上高速，看到收费站，看到ETC的口已经是大多数了，车辆通行的也很流畅，于是和老婆提了一句，回头也装个ETC，后来又觉得要去银行弄，比较麻烦，也就不了了之了。</p>
-<p>前两天在摆弄支付宝的时候，发现支付宝官方也开始接入办理ETC的业务了，而且只要有一定的蚂蚁信用分，就可以免押金的获得一部ETC设备，蚂蚁信用分不够的也没关系，不过要先交些押金，收到ETC激活后，押金秒退。</p>
-<p>于是，就申请之。支付宝的这个ETC，需要绑定银行卡，目前支持建行、工行、农行、邮政。其中农行和邮政如果卡上的余额不足的话，可以通过花呗付款，目前建行和工行还仅支持从银行卡上扣款。<br>
-<a href="https://tunan.org/wp-content/uploads/2019/10/4db908f9963b0bf.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2826" src="https://tunan.org/wp-content/uploads/2019/10/4db908f9963b0bf.jpg" alt="" width="550" height="633" srcset="https://tunan.org/wp-content/uploads/2019/10/4db908f9963b0bf.jpg 550w, https://tunan.org/wp-content/uploads/2019/10/4db908f9963b0bf-261x300.jpg 261w" sizes="(max-width: 550px) 100vw, 550px" /></a></p>
-<p>绑定银行卡，上传车主身份证及行车证，审核的很快，基本上10几分钟就审核完了。值得说明的是，在支付宝上为他人申请ETC。这一点还是比较人性化的。很多银行必须要车主本人才能申请。</p>
-<p>ETC发过来的速度也很快，从申请到收到大概3-4天的时间，激活也很简单。给我发过来的是鲁通卡。先把ETC粘到前窗，然后打开支付宝，用支付宝扫描随货发的安装指南，按提示打开手机蓝牙，把高速卡插进ETC，然后快速插拔两次，打开etc的蓝牙，然后再手机里点击激活，等待一会就激活了。整个过程不超过5分钟。还是相当的方便。</p>
-<p>现在就等上高速试试了！</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>蚂蚁为什么会搬家？</title>
-      <link>http://localhost:1313/2786.html</link>
-      <pubDate>Mon, 30 Sep 2019 06:30:48 +0000</pubDate>
-      <guid>http://localhost:1313/2786.html</guid>
-      <description>&lt;p&gt;大家都知道一句谚语：“蚂蚁搬家，大雨哗哗”。但是蚂蚁搬家就一定会下雨吗？今天接女儿回家的路上，适逢一窝的蚂蚁正在井然有序的搬家，之所以确定是在搬家，是因为带着食物的蚂蚁都是行走在同一个方向，没有带食物的蚂蚁都是在回程。两个蚂蚁窝相距大概1米元的距离，老蚂蚁窝是在一颗大树下。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>大家都知道一句谚语：“蚂蚁搬家，大雨哗哗”。但是蚂蚁搬家就一定会下雨吗？今天接女儿回家的路上，适逢一窝的蚂蚁正在井然有序的搬家，之所以确定是在搬家，是因为带着食物的蚂蚁都是行走在同一个方向，没有带食物的蚂蚁都是在回程。两个蚂蚁窝相距大概1米元的距离，老蚂蚁窝是在一颗大树下。</p>
-<p>女儿问我，爸爸，是不是天要下雨了？但是天看起来很晴朗啊，不像下雨的样子呀！问的我竟然无言以对，想了一下，为了维护在女儿心目中无所不知，无所不能的形象，只好硬着头皮给女儿说，老蚂蚁窝可能不适合他们居住了，所以找个新家。女儿深以为然，并且还说，有可能是别的蚂蚁入侵他们了吧，估计是他们没有打过入侵的蚂蚁，所以为了保护自己，不得不搬离家园。</p>
-<p><a href="https://tunan.org/wp-content/uploads/2019/09/768c7ccf305a683.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2787" src="https://tunan.org/wp-content/uploads/2019/09/768c7ccf305a683.jpg" alt="" width="600" height="400" srcset="https://tunan.org/wp-content/uploads/2019/09/768c7ccf305a683.jpg 600w, https://tunan.org/wp-content/uploads/2019/09/768c7ccf305a683-300x200.jpg 300w" sizes="(max-width: 600px) 100vw, 600px" /></a></p>
-<p>然后我查了一下资料，表明，蚂蚁搬家和下雨没有必然的关系，下雨只是蚂蚁搬家的一个原因。</p>
-<h2 id="蚂蚁搬家不一定就代表着下雨">蚂蚁搬家不一定就代表着下雨</h2>
-<div>
-  <p>
-    首先一个合格的蚁穴，非常的复杂，不是一朝一夕就能够建立起来的。而且蚁穴一般又深又广，下雨的时候大多数的蚂蚁都会在蚁穴的最下边带着，即使靠近地面的部分被雨水淹了，也没有关系。一个是因为土壤的疏水性本身非常的好，另一个是因为工蚁会及时将被水淹了的部分用土封堵起来，然后会重新挖一个或数个新的蚁洞。
-  </p>
-  <p>
-    其次，蚂蚁搬家的时候，它们会把蚁后和蚁卵以及蛹全部搬出来，所以如果看到很长的一溜蚂蚁上边有很多白色的东西就很有可能是蚂蚁在搬家了。另外蚂蚁搬家的时候一般在晚上或者阴天的时候，因为卵和蛹都是比较怕晒的。
-  </p>
-  <p>
-    还有一种可能，是因为在原本的蚁穴里受到各种各样的限制（比如：食物、敌人、蚁穴因位置原因无法继续扩大等），整个蚁群发展不下去了，这个时候会有一些工蚁首先去寻找合适的位置，然后回来报信，这个时候根据我的理解就是，会根据搬家情况是否紧急，来决定是一边搬家一边挖新的蚁穴；还是先将新的蚁穴挖好一部分，然后边搬家边挖掘；或者是先将新的蚁穴基本挖好，然后将卵、蛹和一部分的食物搬到新的蚁穴里。
-  </p>
-  <p>
-    <a href="https://tunan.org/wp-content/uploads/2019/09/a5a903277f37a7e.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2788" src="https://tunan.org/wp-content/uploads/2019/09/a5a903277f37a7e.jpg" alt="" width="600" height="400" srcset="https://tunan.org/wp-content/uploads/2019/09/a5a903277f37a7e.jpg 600w, https://tunan.org/wp-content/uploads/2019/09/a5a903277f37a7e-300x200.jpg 300w" sizes="(max-width: 600px) 100vw, 600px" /></a>
-  </p>
-  <h2>
-    <strong>蚂蚁是怎样搬家的</strong>
-  </h2>
-  <p>
-    蚂蚁搬家是一道非常动人的风景线，在路旁，在操场、在空地，弯弯曲曲的一个长长队伍，成几路纵队行进，近看，众多蚂蚁走得密密麻麻，并不整齐，但远望却也并不散乱，一条粗细均匀的黑线从这一点连到那一点。
-  </p>
-  <div>
-    <div>
-      蚂蚁搬家路线是由一开始的特定小群体去确定的，在搬家过程中除非遇到中断、敌袭等情况，否则路线不会做出更改。周围的蚂蚁有两种情况，一种是不小心走出队伍了，这个很正常，还有一种就是你想的，是一种外延的防御手段，搬家路线越细就越容易被打断，越粗就越容易走丢，所以他们采用了这样一种两全其美的办法。我曾经观察到过一只马陆企图强行穿过蚂蚁搬家的队伍，结果被外围的蚂蚁死死拖住的情况，不过最后胳膊拗不过大腿，马陆依旧强行穿过了搬家路线，但是并没有对蚁群产生太大的影响，在短暂的骚动过后，蚁群继续有秩序的前进了。
-    </div>
-<pre><code>&lt;p&gt;
-  总结来说，蚂蚁的搬家程序是这样的：
-&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    蚂蚁在搬家前，会提前派出工蚁寻找新的巢穴，找到后才会搬家。
-  &lt;/li&gt;
-  &lt;li&gt;
-    工蚁们携带卵幼虫按照路线前往新巢。蚁后通常在后面才会在大量工蚁簇拥下出动。
-  &lt;/li&gt;
-  &lt;li&gt;
-    有兵蚁的特异化品种，沿途会有兵蚁保护。
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;
-  &lt;strong&gt;蚂蚁的药用价值&lt;/strong&gt;
-&lt;/h2&gt;
-
-&lt;p&gt;
-  经各大医疗研究机构实验证明；蚂蚁具有抗炎、镇痛、镇静、解痉、护旰、平喘、抗惊厥、抗癫痫、增强红细胞变形性、抑制胃酸分泌和阻止急性溃疡等广泛的保护作用。
-&lt;/p&gt;
-</code></pre>
-  </div>
-</div>
-]]></content:encoded>
-    </item>
-    <item>
       <title>MBO导向的绩效管理</title>
-      <link>http://localhost:1313/361.html</link>
+      <link>https://iliu.org/361.html</link>
       <pubDate>Sat, 04 Apr 2009 04:48:00 +0000</pubDate>
-      <guid>http://localhost:1313/361.html</guid>
+      <guid>https://iliu.org/361.html</guid>
       <description>&lt;p&gt;MBO导向绩效管理的成功实施，需要企业从理念、制度、组织环境的营造到员工努力各方面的保证。&lt;/p&gt;
 &lt;p&gt;经营与管理是企业发展过程中相互影响、相互作用、对立而统一的两个方面。经营是面向企业外部，以对外扩张为手段和以提高经济效益为目的的，它往往只是由企业内的一部分人承担，如营销人员；管理则是面向企业内部，以控制为手段和以提高运行效率为目的的，它是对企业内所有人的要求。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>MBO导向绩效管理的成功实施，需要企业从理念、制度、组织环境的营造到员工努力各方面的保证。</p>
@@ -650,9 +182,9 @@
     </item>
     <item>
       <title>人力资源管理者的思辨和创新</title>
-      <link>http://localhost:1313/360.html</link>
+      <link>https://iliu.org/360.html</link>
       <pubDate>Sat, 04 Apr 2009 04:43:00 +0000</pubDate>
-      <guid>http://localhost:1313/360.html</guid>
+      <guid>https://iliu.org/360.html</guid>
       <description>&lt;p&gt;中国的人力资源管理者相比于其他职位来说,真的是压力很大的一群人！原因很多，比如大环境不尽如人意，人力资源理念进中国的时间不长，老板不重视人力资源…..小环境是没有一些成熟的理论和实践等等。所以，在现时的条件下，需要HR朋友一起分享自己的经验和心得，一起去探讨适合中国企业的人力资源管理模式，这个需要我们有很强的思辨和创新意识。&lt;figure class=&#34;content-img-box&#34; id=&#34;2501&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>中国的人力资源管理者相比于其他职位来说,真的是压力很大的一群人！原因很多，比如大环境不尽如人意，人力资源理念进中国的时间不长，老板不重视人力资源…..小环境是没有一些成熟的理论和实践等等。所以，在现时的条件下，需要HR朋友一起分享自己的经验和心得，一起去探讨适合中国企业的人力资源管理模式，这个需要我们有很强的思辨和创新意识。<figure class="content-img-box" id="2501"></p>
 <p><img decoding="async" alt="人力资源管理者的思辨和创新" src="https://tunan.org/wp-content/uploads/2019/07/1d204d45b6accc.png" id="AD589681" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
@@ -666,9 +198,9 @@
     </item>
     <item>
       <title>人力资源管理各模块之间逻辑关系浅析</title>
-      <link>http://localhost:1313/359.html</link>
+      <link>https://iliu.org/359.html</link>
       <pubDate>Thu, 02 Apr 2009 06:37:00 +0000</pubDate>
-      <guid>http://localhost:1313/359.html</guid>
+      <guid>https://iliu.org/359.html</guid>
       <description>&lt;p&gt;日前笔者在准备人力资源咨询项目交流课件时，对人力资源各个模块进行了梳理。在梳理过程中，笔者对人力资源管理各个模块之间的逻辑关系有了以下认识：&lt;/p&gt;
 &lt;p&gt;一、人力资源管理的核心是让“人”做正确的“事”并把“事”做好&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>日前笔者在准备人力资源咨询项目交流课件时，对人力资源各个模块进行了梳理。在梳理过程中，笔者对人力资源管理各个模块之间的逻辑关系有了以下认识：</p>
@@ -689,9 +221,9 @@
     </item>
     <item>
       <title>[团队游戏]红与黑</title>
-      <link>http://localhost:1313/348.html</link>
+      <link>https://iliu.org/348.html</link>
       <pubDate>Sun, 22 Feb 2009 02:42:00 +0000</pubDate>
-      <guid>http://localhost:1313/348.html</guid>
+      <guid>https://iliu.org/348.html</guid>
       <description>&lt;p&gt;游戏规则&lt;/p&gt;
 &lt;p&gt;1、目的：你队与另一队分别为队A、队B，各自争取取得高分。&lt;/p&gt;
 &lt;p&gt;2、程序：每轮你队有两种选择——-红或黑，由工作人员了解你队每轮的选择并告知你们的得分，你队可根据上轮得分确定下轮选择。&lt;/p&gt;</description>
@@ -715,9 +247,9 @@
     </item>
     <item>
       <title>几种常用薪酬制度的优劣比较</title>
-      <link>http://localhost:1313/345.html</link>
+      <link>https://iliu.org/345.html</link>
       <pubDate>Wed, 18 Feb 2009 12:12:00 +0000</pubDate>
-      <guid>http://localhost:1313/345.html</guid>
+      <guid>https://iliu.org/345.html</guid>
       <description>&lt;p&gt;科学有效的激励机制能够让员工发挥出最佳的潜能，为企业创造更大的价值。激励的方法很多，但是薪酬可以说是一种最重要的、最易使用的方法。它是企业对员工给企业所做的贡献(包括他们实现的绩效，付出的努力、时间、学识、技能、经验和创造)所付给的相应的回报和答谢。&lt;figure class=&#34;content-img-box &#34; id=&#34;2471&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>科学有效的激励机制能够让员工发挥出最佳的潜能，为企业创造更大的价值。激励的方法很多，但是薪酬可以说是一种最重要的、最易使用的方法。它是企业对员工给企业所做的贡献(包括他们实现的绩效，付出的努力、时间、学识、技能、经验和创造)所付给的相应的回报和答谢。<figure class="content-img-box " id="2471"></p>
 <p><img decoding="async" alt="几种常用薪酬制度的优劣比较" src="https://tunan.org/wp-content/uploads/2019/07/144b10cde22a75.jpg" id="8CAFA6DF" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
@@ -740,9 +272,9 @@
     </item>
     <item>
       <title>绩效考核流程的九个环节</title>
-      <link>http://localhost:1313/336.html</link>
+      <link>https://iliu.org/336.html</link>
       <pubDate>Wed, 04 Feb 2009 00:16:00 +0000</pubDate>
-      <guid>http://localhost:1313/336.html</guid>
+      <guid>https://iliu.org/336.html</guid>
       <description>&lt;p&gt;通过在实际工作中摸索，本人设计了一套行之有效的绩效考核流程（见图一），它包括九个环节。&lt;/p&gt;
 &lt;p&gt;在介绍这个绩效考核流程前必须先介绍在流程中的四个角色：考核人、被考核人、审核人、评审委员会。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>通过在实际工作中摸索，本人设计了一套行之有效的绩效考核流程（见图一），它包括九个环节。</p>
