@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://iliu.org/posts/blog-address-change-notice/</loc>
-    <lastmod>2025-06-02T08:44:00+08:00</lastmod>
-  </url><url>
     <loc>https://iliu.org/categories/</loc>
     <lastmod>2025-10-28T14:36:08+08:00</lastmod>
   </url><url>
@@ -247,9 +244,6 @@
   </url><url>
     <loc>https://iliu.org/gen-zhao-nan-huai-jin-xian-sheng-du-yi-jing-san-gan-gua/</loc>
     <lastmod>2025-06-02T20:47:20+08:00</lastmod>
-  </url><url>
-    <loc>https://iliu.org/categories/%E4%BA%BA%E4%B8%96%E9%97%B4/</loc>
-    <lastmod>2025-06-02T08:44:00+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/blog-frome-hugo-to-ghost/</loc>
     <lastmod>2025-06-01T20:41:52+08:00</lastmod>

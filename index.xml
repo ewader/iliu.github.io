@@ -14,67 +14,6 @@
     <lastBuildDate>Tue, 28 Oct 2025 14:36:08 +0800</lastBuildDate>
     <atom:link href="https://iliu.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>博客地址变更通知</title>
-      <link>https://iliu.org/posts/blog-address-change-notice/</link>
-      <pubDate>Mon, 02 Jun 2025 08:44:00 +0800</pubDate>
-      <guid>https://iliu.org/posts/blog-address-change-notice/</guid>
-      <description>&lt;p&gt;亲爱的读者与合作伙伴：
-感谢您长期以来对博客的支持与关注！为提升服务体验，&lt;strong&gt;自2025年6月1日起&lt;/strong&gt;，博客域名将由 &lt;strong&gt;&lt;code&gt;https://tunan.org&lt;/code&gt;&lt;/strong&gt; 变更为 &lt;strong&gt;&lt;code&gt;https://iliu.org&lt;/code&gt;&lt;/strong&gt;。此次调整涉及所有页面链接、订阅服务及外部引用，请您及时更新相关信息。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>亲爱的读者与合作伙伴：
-感谢您长期以来对博客的支持与关注！为提升服务体验，<strong>自2025年6月1日起</strong>，博客域名将由 <strong><code>https://tunan.org</code></strong> 变更为 <strong><code>https://iliu.org</code></strong>。此次调整涉及所有页面链接、订阅服务及外部引用，请您及时更新相关信息。</p>
-<hr>
-<h3 id="-变更详情">🔍 变更详情</h3>
-<ol>
-<li>
-<p><strong>新/旧地址对照</strong></p>
-<ul>
-<li><strong>原域名</strong>：<code>https://tunan.org</code></li>
-<li><strong>新域名</strong>：<code>https://iliu.org</code></li>
-<li><strong>生效日期</strong>：2025年6月1日。</li>
-</ul>
-</li>
-<li>
-<p><strong>需您配合的操作</strong></p>
-<ul>
-<li><strong>RSS订阅更新</strong>：
-请将订阅源中的旧域名替换为新域名（如原订阅链接为 <code>https://tunan.org/rss</code>，需改为 <code>https://iliu.org/rss</code>），以确保内容正常推送。</li>
-<li><strong>友情链接修正</strong>：
-若您的网站、博客或导航页中收录了本站链接，恳请将 <code>tunan.org</code> 替换为 <code>iliu.org</code>。此举将避免用户访问失效页面，同时维护SEO权重传递。</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h3 id="-注意事项">⚠️ 注意事项</h3>
-<ul>
-<li><strong>订阅用户</strong>：部分阅读器可能因缓存延迟显示更新内容，手动更新订阅源可加速同步。</li>
-<li><strong>合作伙伴</strong>：合同、协议等法律文件中的地址将自动更新效力，无需重新签署。</li>
-<li><strong>旧域名保留期</strong>：旧域名将继续保留，但博客将不再进行更新。</li>
-</ul>
-<hr>
-<h3 id="-致歉与承诺">🙏 致歉与承诺</h3>
-<p>此次变更可能短暂影响您的访问体验，我们深表歉意！为减少不便，团队已提前完成以下保障：
-✅ 全站数据迁移与完整性校验
-✅ SSL证书部署（新域名支持HTTPS加密）
-✅ 搜索引擎主动提交（加速新域名收录）
-我们将持续优化新站点的访问速度与稳定性，您的反馈是改进的关键动力！</p>
-<hr>
-<h3 id="-联系我们">📬 联系我们</h3>
-<p>如有疑问或需协助，请通过以下方式联络：</p>
-<ul>
-<li>
-<p><strong>邮箱</strong>：ewader@gmail.com</p>
-<ul>
-<li><strong>Twitter</strong>：@tunanblog</li>
-</ul>
-</li>
-<li>
-<p><strong>长毛象:@laoliu@l22.org</strong></p>
-</li>
-</ul>
-<p>再次感谢您的理解与支持！期待在新家园与您继续分享知识、碰撞灵感✨。</p>
-]]></content:encoded>
-    </item>
-    <item>
       <title>以直报怨，怨未尽而心已定</title>
       <link>https://iliu.org/posts/straightforwardness-heart-at-peace/</link>
       <pubDate>Tue, 28 Oct 2025 14:36:08 +0800</pubDate>
