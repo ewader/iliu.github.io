@@ -14,6 +14,67 @@
     <lastBuildDate>Tue, 28 Oct 2025 14:36:08 +0800</lastBuildDate>
     <atom:link href="https://iliu.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>博客地址变更通知</title>
+      <link>https://iliu.org/posts/blog-address-change-notice/</link>
+      <pubDate>Mon, 02 Jun 2025 08:44:00 +0800</pubDate>
+      <guid>https://iliu.org/posts/blog-address-change-notice/</guid>
+      <description>&lt;p&gt;亲爱的读者与合作伙伴：
+感谢您长期以来对博客的支持与关注！为提升服务体验，&lt;strong&gt;自2025年6月1日起&lt;/strong&gt;，博客域名将由 &lt;strong&gt;&lt;code&gt;https://tunan.org&lt;/code&gt;&lt;/strong&gt; 变更为 &lt;strong&gt;&lt;code&gt;https://iliu.org&lt;/code&gt;&lt;/strong&gt;。此次调整涉及所有页面链接、订阅服务及外部引用，请您及时更新相关信息。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>亲爱的读者与合作伙伴：
+感谢您长期以来对博客的支持与关注！为提升服务体验，<strong>自2025年6月1日起</strong>，博客域名将由 <strong><code>https://tunan.org</code></strong> 变更为 <strong><code>https://iliu.org</code></strong>。此次调整涉及所有页面链接、订阅服务及外部引用，请您及时更新相关信息。</p>
+<hr>
+<h3 id="-变更详情">🔍 变更详情</h3>
+<ol>
+<li>
+<p><strong>新/旧地址对照</strong></p>
+<ul>
+<li><strong>原域名</strong>：<code>https://tunan.org</code></li>
+<li><strong>新域名</strong>：<code>https://iliu.org</code></li>
+<li><strong>生效日期</strong>：2025年6月1日。</li>
+</ul>
+</li>
+<li>
+<p><strong>需您配合的操作</strong></p>
+<ul>
+<li><strong>RSS订阅更新</strong>：
+请将订阅源中的旧域名替换为新域名（如原订阅链接为 <code>https://tunan.org/rss</code>，需改为 <code>https://iliu.org/rss</code>），以确保内容正常推送。</li>
+<li><strong>友情链接修正</strong>：
+若您的网站、博客或导航页中收录了本站链接，恳请将 <code>tunan.org</code> 替换为 <code>iliu.org</code>。此举将避免用户访问失效页面，同时维护SEO权重传递。</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3 id="-注意事项">⚠️ 注意事项</h3>
+<ul>
+<li><strong>订阅用户</strong>：部分阅读器可能因缓存延迟显示更新内容，手动更新订阅源可加速同步。</li>
+<li><strong>合作伙伴</strong>：合同、协议等法律文件中的地址将自动更新效力，无需重新签署。</li>
+<li><strong>旧域名保留期</strong>：旧域名将继续保留，但博客将不再进行更新。</li>
+</ul>
+<hr>
+<h3 id="-致歉与承诺">🙏 致歉与承诺</h3>
+<p>此次变更可能短暂影响您的访问体验，我们深表歉意！为减少不便，团队已提前完成以下保障：
+✅ 全站数据迁移与完整性校验
+✅ SSL证书部署（新域名支持HTTPS加密）
+✅ 搜索引擎主动提交（加速新域名收录）
+我们将持续优化新站点的访问速度与稳定性，您的反馈是改进的关键动力！</p>
+<hr>
+<h3 id="-联系我们">📬 联系我们</h3>
+<p>如有疑问或需协助，请通过以下方式联络：</p>
+<ul>
+<li>
+<p><strong>邮箱</strong>：ewader@gmail.com</p>
+<ul>
+<li><strong>Twitter</strong>：@tunanblog</li>
+</ul>
+</li>
+<li>
+<p><strong>长毛象:@laoliu@l22.org</strong></p>
+</li>
+</ul>
+<p>再次感谢您的理解与支持！期待在新家园与您继续分享知识、碰撞灵感✨。</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>以直报怨，怨未尽而心已定</title>
       <link>https://iliu.org/posts/straightforwardness-heart-at-peace/</link>
       <pubDate>Tue, 28 Oct 2025 14:36:08 +0800</pubDate>
@@ -6105,6 +6166,111 @@ AI的训练依赖互联网数据，而互联网数据就是无数人说过的话
 <p>另外，如果感觉口味有点单调，可以加牛羊肉、炒鸡蛋等调味，都是可以的，吃饭嘛，没有什么太精确的要求。</p>
 <p>当然如果条件允许的话，也可以吃一些蛋白粉、倍力健等补充身体的元素，效果会更好一些。使用蛋白粉作为早餐，也有一个营养早餐的配方，不过不在老刘今天推荐的范围内。需要的话单独联系。</p>
 ]]></content:encoded>
+    </item>
+    <item>
+      <title>如何使用git并把代码提交到GitHub</title>
+      <link>https://iliu.org/posts/how-to-use-git/</link>
+      <pubDate>Wed, 15 Nov 2023 21:28:20 +0800</pubDate>
+      <guid>https://iliu.org/posts/how-to-use-git/</guid>
+      <description>&lt;p&gt;这篇文章纯粹给初学者看的，大佬请无视。使用Hugo之后，为了方便推送方便，一般要用到git这个软件。今天就来谈谈git具体的用法。&lt;/p&gt;
+&lt;h1 id=&#34;git的用法&#34;&gt;git的用法&lt;/h1&gt;
+&lt;h3 id=&#34;设置用户名&#34;&gt;设置用户名&lt;/h3&gt;
+&lt;p&gt;因为git可以用来团队协助方面，设置用户名的目的是为了让别人知道，你是谁，这个程序的bug是谁提交的😰。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>这篇文章纯粹给初学者看的，大佬请无视。使用Hugo之后，为了方便推送方便，一般要用到git这个软件。今天就来谈谈git具体的用法。</p>
+<h1 id="git的用法">git的用法</h1>
+<h3 id="设置用户名">设置用户名</h3>
+<p>因为git可以用来团队协助方面，设置用户名的目的是为了让别人知道，你是谁，这个程序的bug是谁提交的😰。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git config --global user.name <span class="s2">&#34;xxxx&#34;</span>
+</span></span><span class="line"><span class="cl">git config --global user.email <span class="s2">&#34;xxxx@qq.com&#34;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="设置本地仓库">设置本地仓库</h3>
+<p>选择你项目的文件夹，在里面打开终端，运行如下命令：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git init
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>在每次修改完程序后，运行如下命令提交：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git add .
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;简短的说明，本次提交了什么&#34;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="设置远程仓库">设置远程仓库</h2>
+<p>很多时候我们还要把代码提交到GitHub上去，当然你也可以创建自己的远程git服务器，这里不涉及。</p>
+<h3 id="首先用ssh生成公钥"><strong>首先，用ssh生成公钥</strong></h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ssh-keygen -t rsa -C <span class="s2">&#34;****@qq.com&#34;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>一般会在~/.ssh/这个文件夹里，生成两个文件，打开后缀为pub的那个文件。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCh9zv7aD0IQAen8wC5slQPlE9H2Jjh6Z8v7YShZGXaFxq2Hd/e5v0KTLDHuL0DSItsbQGVMiLuJhPE3f1ypxAruj14Frak4+U5WZhV6xTSeQVwIWd8QyMBaYNjv7s49nb+tz9NAYrzu8ZNT8+2s1vUXCI5K6vPNMTax0KrAjmqOZ0sbcSzmz57LVpJqadc9Svuh84X65LH2XuzfNudzmrMIK3uu5GoFosqY4Y+tu3ssvmeUKWfFRM14Gab0I6funZZh5EdRv2/ltkEdzIRl01FQTAyo5rnzaY4jPhCR5ANd1smzo+h4KvqIK3uux96Hs= ****@qq.com
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>然后把copy这个文件的内容，打开GitHub网站，登录自己的账户，在设置里找到ssh那个选项，提交进去可以了。</p>
+<h3 id="连接远程代码仓库提交代码">连接远程代码仓库提交代码</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git remote add origin git@github.com:GitHub用户名/我的项目.git 
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>然后，提交代码到自己的项目里：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git push -u origin main
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>以后的提交可以不用-u这个参数了。</p>
+<h2 id="把远程仓库的代码下载到本地">把远程仓库的代码下载到本地</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git pull
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="远程pull的时候出现错误">远程Pull的时候出现错误</h2>
+<p>这是我的另一个项目在pull的时候催化下的错误。在从远程pull的时候出现了，error: Your local changes to the following files would be overwritten by merge:这个错误提示，提示的是数据库文件，是因为因为网站访问的原因，导致本地数据库和远程的数据库文件不一致。其实后期是不会用到这个数据库文件的。因此，丢弃本地的修改</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git checkout .
+</span></span></code></pre></td></tr></table>
+</div>
+</div>]]></content:encoded>
     </item>
     <item>
       <title>金刚萨埵心咒</title>
