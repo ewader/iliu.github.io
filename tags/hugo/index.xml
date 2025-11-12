@@ -186,6 +186,8 @@ Cloudflare Workers 可以完美胜任代理转发的功能，作用是：</p>
 </div>
 </div><p>保存。
 Worker 代码示例如下 👇：</p>
+<details>
+<summary>点击展开查看完整的配置代码（大约 160 行）</summary>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">  1
@@ -346,9 +348,12 @@ Worker 代码示例如下 👇：</p>
 </span><span class="lnt">156
 </span><span class="lnt">157
 </span><span class="lnt">158
+</span><span class="lnt">159
+</span><span class="lnt">160
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="kr">export</span> <span class="k">default</span> <span class="p">{</span>
+<pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">export</span> <span class="k">default</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">  <span class="kr">async</span> <span class="nx">fetch</span><span class="p">(</span><span class="nx">request</span><span class="p">,</span> <span class="nx">env</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">url</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">URL</span><span class="p">(</span><span class="nx">request</span><span class="p">.</span><span class="nx">url</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">headers</span> <span class="o">=</span> <span class="p">{</span>
@@ -390,7 +395,8 @@ Worker 代码示例如下 👇：</p>
 </span></span><span class="line"><span class="cl">          <span class="nx">replies</span> <span class="o">=</span> <span class="nx">contextData</span><span class="o">?</span><span class="p">.</span><span class="nx">descendants</span><span class="o">?</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="nx">r</span> <span class="p">=&gt;</span> <span class="p">({</span>
 </span></span><span class="line"><span class="cl">            <span class="nx">id</span><span class="o">:</span> <span class="nx">r</span><span class="p">.</span><span class="nx">id</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">            <span class="nx">content</span><span class="o">:</span> <span class="nx">r</span><span class="p">.</span><span class="nx">content</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">            <span class="nx">account</span><span class="o">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">account</span><span class="o">:</span> <span class="p">{</span><span class="o">&lt;</span><span class="nx">details</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="nx">summary</span><span class="o">&gt;</span><span class="nx">点击展开查看完整的配置代码</span><span class="err">（</span><span class="nx">大约</span> <span class="mi">100</span> <span class="nx">行</span><span class="err">）</span><span class="o">&lt;</span><span class="err">/summary&gt;</span>
 </span></span><span class="line"><span class="cl">              <span class="nx">username</span><span class="o">:</span> <span class="nx">r</span><span class="p">.</span><span class="nx">account</span><span class="o">?</span><span class="p">.</span><span class="nx">username</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">              <span class="nx">display_name</span><span class="o">:</span> <span class="nx">r</span><span class="p">.</span><span class="nx">account</span><span class="o">?</span><span class="p">.</span><span class="nx">display_name</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">              <span class="nx">avatar完全正确</span> <span class="err">✅</span><span class="o">:</span> <span class="nx">r</span><span class="p">.</span><span class="nx">account</span><span class="o">?</span><span class="p">.</span><span class="nx">avatar</span><span class="p">,</span>
@@ -486,7 +492,7 @@ Worker 代码示例如下 👇：</p>
 </span></span><span class="line"><span class="cl">      <span class="nx">headers</span><span class="o">:</span> <span class="p">{</span> <span class="p">...</span><span class="nx">headers</span><span class="p">,</span> <span class="s2">&#34;Content-Type&#34;</span><span class="o">:</span> <span class="s2">&#34;application/json&#34;</span> <span class="p">},</span>
 </span></span><span class="line"><span class="cl">    <span class="p">});</span>
 </span></span><span class="line"><span class="cl">  <span class="p">},</span>
-</span></span><span class="line"><span class="cl"><span class="p">};</span>
+</span></span><span class="line"><span class="cl"><span class="p">};</span><span class="o">&lt;</span><span class="err">/details&gt;</span>
 </span></span><span class="line"><span class="cl"><span class="nx">s</span><span class="p">.</span><span class="nx">account</span><span class="o">?</span><span class="p">.</span><span class="nx">display_name</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">          <span class="nx">avatar</span><span class="o">:</span> <span class="nx">status</span><span class="p">.</span><span class="nx">account</span><span class="o">?</span><span class="p">.</span><span class="nx">avatar</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">        <span class="p">},</span>
@@ -508,7 +514,8 @@ Worker 代码示例如下 👇：</p>
 </span></span><span class="line"><span class="cl"><span class="p">};</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="hugo模板设置">Hugo模板设置</h3>
+</div></details>
+<h3 id="hugo模板设置">Hugo模板设置</h3>
 <p>在 Hugo 博客根目录下，新建：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -536,6 +543,8 @@ Worker 代码示例如下 👇：</p>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h4 id="-layouts_defaulttootshtml">🧩 layouts/_default/toots.html</h4>
+<details>
+<summary>点击展开查看完整的配置代码（大约 280 行）</summary>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">  1
@@ -1102,7 +1111,8 @@ Worker 代码示例如下 👇：</p>
 </span></span><span class="line"><span class="cl">{{ end }}
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="生成页面">生成页面</h3>
+</div></details>
+<h3 id="生成页面">生成页面</h3>
 <p>运行：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
