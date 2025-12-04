@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>豆瓣书单 on 老刘博客</title>
-    <link>http://localhost:1313/tags/%E8%B1%86%E7%93%A3%E4%B9%A6%E5%8D%95/</link>
+    <link>https://iliu.org/tags/%E8%B1%86%E7%93%A3%E4%B9%A6%E5%8D%95/</link>
     <description>Recent content in 豆瓣书单 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
-      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.147.8</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 26 Dec 2019 04:36:36 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E8%B1%86%E7%93%A3%E4%B9%A6%E5%8D%95/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://iliu.org/tags/%E8%B1%86%E7%93%A3%E4%B9%A6%E5%8D%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>豆瓣2019年度读书榜单逐本下载</title>
-      <link>http://localhost:1313/2958.html</link>
+      <link>https://iliu.org/2958.html</link>
       <pubDate>Thu, 26 Dec 2019 04:36:36 +0000</pubDate>
-      <guid>http://localhost:1313/2958.html</guid>
+      <guid>https://iliu.org/2958.html</guid>
       <description>&lt;p&gt;岁末年终，【豆瓣2019年度读书榜单】如约而至。&lt;/p&gt;
 &lt;p&gt;今年的年度榜单分为年度高分、最受关注、文学、社科、影视、绘本、再版好书、冷门好书等20个类别，共有177种图书上榜。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>岁末年终，【豆瓣2019年度读书榜单】如约而至。</p>

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Kpi on 老刘博客</title>
-    <link>http://localhost:1313/tags/kpi/</link>
+    <link>https://iliu.org/tags/kpi/</link>
     <description>Recent content in Kpi on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
-      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.147.8</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 04 Feb 2009 00:16:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/kpi/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://iliu.org/tags/kpi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>绩效考核流程的九个环节</title>
-      <link>http://localhost:1313/336.html</link>
+      <link>https://iliu.org/336.html</link>
       <pubDate>Wed, 04 Feb 2009 00:16:00 +0000</pubDate>
-      <guid>http://localhost:1313/336.html</guid>
+      <guid>https://iliu.org/336.html</guid>
       <description>&lt;p&gt;通过在实际工作中摸索，本人设计了一套行之有效的绩效考核流程（见图一），它包括九个环节。&lt;/p&gt;
 &lt;p&gt;在介绍这个绩效考核流程前必须先介绍在流程中的四个角色：考核人、被考核人、审核人、评审委员会。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>通过在实际工作中摸索，本人设计了一套行之有效的绩效考核流程（见图一），它包括九个环节。</p>

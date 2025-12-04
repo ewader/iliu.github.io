@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>易经 on 老刘博客</title>
-    <link>http://localhost:1313/tags/%E6%98%93%E7%BB%8F/</link>
+    <link>https://iliu.org/tags/%E6%98%93%E7%BB%8F/</link>
     <description>Recent content in 易经 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
-      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.147.8</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 15 Sep 2025 09:30:22 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E6%98%93%E7%BB%8F/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://iliu.org/tags/%E6%98%93%E7%BB%8F/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>七个月读《易经》的碎片与感悟</title>
-      <link>http://localhost:1313/seven-months-with-the-i-ching-notes-and-insights/</link>
+      <link>https://iliu.org/seven-months-with-the-i-ching-notes-and-insights/</link>
       <pubDate>Mon, 15 Sep 2025 09:30:22 +0800</pubDate>
-      <guid>http://localhost:1313/seven-months-with-the-i-ching-notes-and-insights/</guid>
+      <guid>https://iliu.org/seven-months-with-the-i-ching-notes-and-insights/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;闲坐小窗读周易，不知春去几多时。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;从2025年2月翻开南怀瑾先生的《易经杂说》和《易经系列别讲》，到今天，整整七个月过去了。说“读完了”，其实只是一个时间节点——真正的学习远没有结束。中华传统文化厚重而深远，每一次翻阅，都会带来不同的感触。&lt;/p&gt;</description>
@@ -62,9 +62,9 @@
     </item>
     <item>
       <title>上天保佑，并非无条件</title>
-      <link>http://localhost:1313/god-bless-not-unconditionally/</link>
+      <link>https://iliu.org/god-bless-not-unconditionally/</link>
       <pubDate>Thu, 14 Aug 2025 08:49:47 +0800</pubDate>
-      <guid>http://localhost:1313/god-bless-not-unconditionally/</guid>
+      <guid>https://iliu.org/god-bless-not-unconditionally/</guid>
       <description>&lt;p&gt;《易经·大有卦》上九爻有一句爻辞：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;“自天佑之，吉无不利。”&lt;/p&gt;&lt;/blockquote&gt;
@@ -116,9 +116,9 @@
     </item>
     <item>
       <title>天上有雨，未落人间——说说《需卦》</title>
-      <link>http://localhost:1313/tian-shang-you-yu-wei-luo-ren-jian-shuo-shuo-xu-gua/</link>
+      <link>https://iliu.org/tian-shang-you-yu-wei-luo-ren-jian-shuo-shuo-xu-gua/</link>
       <pubDate>Fri, 13 Jun 2025 10:57:01 +0800</pubDate>
-      <guid>http://localhost:1313/tian-shang-you-yu-wei-luo-ren-jian-shuo-shuo-xu-gua/</guid>
+      <guid>https://iliu.org/tian-shang-you-yu-wei-luo-ren-jian-shuo-shuo-xu-gua/</guid>
       <description>&lt;p&gt;《易经》六十四卦中，《需卦》排在第五。&lt;/p&gt;
 &lt;p&gt;前面几卦，乾坤是天地之本，屯是起步之难，蒙是启蒙之初，到了第五卦——《需》——天地间万象已动，人也有所思、有所欲，但偏偏，这一步&lt;strong&gt;还不能迈出去&lt;/strong&gt;。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>《易经》六十四卦中，《需卦》排在第五。</p>
@@ -172,9 +172,9 @@
     </item>
     <item>
       <title>蒙卦：从困中启，向光而行</title>
-      <link>http://localhost:1313/meng-gua-cong-kun-zhong-qi-xiang-guang-er-xing/</link>
+      <link>https://iliu.org/meng-gua-cong-kun-zhong-qi-xiang-guang-er-xing/</link>
       <pubDate>Mon, 09 Jun 2025 11:03:17 +0800</pubDate>
-      <guid>http://localhost:1313/meng-gua-cong-kun-zhong-qi-xiang-guang-er-xing/</guid>
+      <guid>https://iliu.org/meng-gua-cong-kun-zhong-qi-xiang-guang-er-xing/</guid>
       <description>&lt;p&gt;如果你在街头做一个采访，问：“《易经》是什么？”
 十有八九会有人回答：“算卦的书呗。”
 这个答案，其实对，也不全对。&lt;/p&gt;
@@ -230,9 +230,9 @@
     </item>
     <item>
       <title>荔枝路远，道在人心——从《易经》看李善德的一生</title>
-      <link>http://localhost:1313/li-zhi-lu-yuan-dao-zai-ren-xin-cong-yi-jing-kan-li-shan-de-de-yi-sheng/</link>
+      <link>https://iliu.org/li-zhi-lu-yuan-dao-zai-ren-xin-cong-yi-jing-kan-li-shan-de-de-yi-sheng/</link>
       <pubDate>Sun, 08 Jun 2025 11:01:08 +0800</pubDate>
-      <guid>http://localhost:1313/li-zhi-lu-yuan-dao-zai-ren-xin-cong-yi-jing-kan-li-shan-de-de-yi-sheng/</guid>
+      <guid>https://iliu.org/li-zhi-lu-yuan-dao-zai-ren-xin-cong-yi-jing-kan-li-shan-de-de-yi-sheng/</guid>
       <description>&lt;p&gt;马伯庸的小说《长安的荔枝》及其改编剧集，看似讲述一场跨越千里的荔枝运输奇旅，实则以小人物的遭遇折射盛唐末期政治、社会、文化的真实图景。主人公李善德，这位从九品小吏，在完成“运荔枝”这一看似荒诞实则关乎权力的任务中，演绎出一部小人物在大时代中如何“知命”、“尽性”、“归真”的命运史。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>马伯庸的小说《长安的荔枝》及其改编剧集，看似讲述一场跨越千里的荔枝运输奇旅，实则以小人物的遭遇折射盛唐末期政治、社会、文化的真实图景。主人公李善德，这位从九品小吏，在完成“运荔枝”这一看似荒诞实则关乎权力的任务中，演绎出一部小人物在大时代中如何“知命”、“尽性”、“归真”的命运史。</p>
 <p>本文尝试以《易经》的视角，借其卦象与哲思，还原李善德的命运轨迹与精神转化。</p>
@@ -268,16 +268,16 @@
     </item>
     <item>
       <title>坤卦：柔而不弱，厚德载物</title>
-      <link>http://localhost:1313/kun-gua-rou-er-bu-ruo-hou-de-zai-wu/</link>
+      <link>https://iliu.org/kun-gua-rou-er-bu-ruo-hou-de-zai-wu/</link>
       <pubDate>Thu, 05 Jun 2025 11:06:10 +0800</pubDate>
-      <guid>http://localhost:1313/kun-gua-rou-er-bu-ruo-hou-de-zai-wu/</guid>
+      <guid>https://iliu.org/kun-gua-rou-er-bu-ruo-hou-de-zai-wu/</guid>
       <description></description>
     </item>
     <item>
       <title>屯：起步的困难，是值得尊重的时刻</title>
-      <link>http://localhost:1313/tun-qi-bu-de-kun-nan-shi-zhi-de-zun-zhong-de-shi-ke/</link>
+      <link>https://iliu.org/tun-qi-bu-de-kun-nan-shi-zhi-de-zun-zhong-de-shi-ke/</link>
       <pubDate>Wed, 04 Jun 2025 11:04:41 +0800</pubDate>
-      <guid>http://localhost:1313/tun-qi-bu-de-kun-nan-shi-zhi-de-zun-zhong-de-shi-ke/</guid>
+      <guid>https://iliu.org/tun-qi-bu-de-kun-nan-shi-zhi-de-zun-zhong-de-shi-ke/</guid>
       <description>&lt;p&gt;昨天继续读《易经杂说》，读到第三卦——屯卦。卦辞写道：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;屯，元亨，利贞。勿用有攸往，利建侯。&lt;/p&gt;&lt;/blockquote&gt;
@@ -299,9 +299,9 @@
     </item>
     <item>
       <title>《易经》乾卦中的“大人”</title>
-      <link>http://localhost:1313/yi-jing-qian-gua-zhong-de-da-ren/</link>
+      <link>https://iliu.org/yi-jing-qian-gua-zhong-de-da-ren/</link>
       <pubDate>Tue, 03 Jun 2025 11:10:34 +0800</pubDate>
-      <guid>http://localhost:1313/yi-jing-qian-gua-zhong-de-da-ren/</guid>
+      <guid>https://iliu.org/yi-jing-qian-gua-zhong-de-da-ren/</guid>
       <description>&lt;p&gt;在《易经》六十四卦中，乾卦被誉为“诸卦之首”，象征阳刚、天道、君子之德。其中有两处爻辞提到“利见大人”：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;九二：见龙在田，利见大人。&lt;/strong&gt;&lt;/li&gt;
@@ -354,9 +354,9 @@
     </item>
     <item>
       <title>跟着南怀瑾先生读易经（三）-乾卦</title>
-      <link>http://localhost:1313/gen-zhao-nan-huai-jin-xian-sheng-du-yi-jing-san-gan-gua/</link>
+      <link>https://iliu.org/gen-zhao-nan-huai-jin-xian-sheng-du-yi-jing-san-gan-gua/</link>
       <pubDate>Mon, 02 Jun 2025 20:47:20 +0800</pubDate>
-      <guid>http://localhost:1313/gen-zhao-nan-huai-jin-xian-sheng-du-yi-jing-san-gan-gua/</guid>
+      <guid>https://iliu.org/gen-zhao-nan-huai-jin-xian-sheng-du-yi-jing-san-gan-gua/</guid>
       <description>&lt;p&gt;《易经》六十四卦中，&lt;strong&gt;乾卦&lt;/strong&gt;排第一，六个阳爻组成，纯阳之象，代表着“天”。《易经》说：“&lt;strong&gt;天行健，君子以自强不息&lt;/strong&gt;。”南怀瑾先生说，乾卦讲的不是强硬，而是&lt;strong&gt;刚中有柔、知进知退的修行哲学&lt;/strong&gt;。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>《易经》六十四卦中，<strong>乾卦</strong>排第一，六个阳爻组成，纯阳之象，代表着“天”。《易经》说：“<strong>天行健，君子以自强不息</strong>。”南怀瑾先生说，乾卦讲的不是强硬，而是<strong>刚中有柔、知进知退的修行哲学</strong>。</p>
 <p>如果你愿意，我们可以把这六爻看作是<strong>一个人从默默无闻到巅峰，再到退场的全过程</strong>，像一条龙在云天之间起伏——人生，其实就是一场“龙的修行”。</p>
@@ -410,9 +410,9 @@
     </item>
     <item>
       <title>跟着南怀瑾先生学易经（一）</title>
-      <link>http://localhost:1313/posts/following-master-nan-huai-chin-to-study-the-i-ching1/</link>
+      <link>https://iliu.org/posts/following-master-nan-huai-chin-to-study-the-i-ching1/</link>
       <pubDate>Wed, 26 Feb 2025 10:38:45 +0800</pubDate>
-      <guid>http://localhost:1313/posts/following-master-nan-huai-chin-to-study-the-i-ching1/</guid>
+      <guid>https://iliu.org/posts/following-master-nan-huai-chin-to-study-the-i-ching1/</guid>
       <description>&lt;p&gt;最近开始看南怀瑾先生的《易经杂说》，最早接触易经里的文字大概是初一学鲁迅的《朝花夕拾》里面有：“上九，潜龙勿用”，后来才知道这是易经里的文字。学易经，首先要了解“易“这个字在易经中代表了什么。南怀瑾先生包含如下三个方面：&lt;strong&gt;不易、变易、简易&lt;/strong&gt;。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>最近开始看南怀瑾先生的《易经杂说》，最早接触易经里的文字大概是初一学鲁迅的《朝花夕拾》里面有：“上九，潜龙勿用”，后来才知道这是易经里的文字。学易经，首先要了解“易“这个字在易经中代表了什么。南怀瑾先生包含如下三个方面：<strong>不易、变易、简易</strong>。</p>
 <hr>

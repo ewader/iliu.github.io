@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Linux on 老刘博客</title>
-    <link>http://localhost:1313/tags/linux/</link>
+    <link>https://iliu.org/tags/linux/</link>
     <description>Recent content in Linux on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
-      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.147.8</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 30 Nov 2025 10:00:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://iliu.org/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>EndeavourOS &#43; Btrfs &#43; Snapper &#43; GRUB：完整的快照回滚系统配置指南</title>
-      <link>http://localhost:1313/endeavouros-snapper-grub-snapshot-rollback-guide/</link>
+      <link>https://iliu.org/endeavouros-snapper-grub-snapshot-rollback-guide/</link>
       <pubDate>Sun, 30 Nov 2025 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/endeavouros-snapper-grub-snapshot-rollback-guide/</guid>
+      <guid>https://iliu.org/endeavouros-snapper-grub-snapshot-rollback-guide/</guid>
       <description>&lt;p&gt;EndeavourOS由于使用的是滚动更新，系统存在着滚挂的可能性（尽管我已经使用了1个多月也没有问题），所以快照回滚是一个必须的选项。本文将详细介绍如何在 EndeavourOS 系统中配置完整的快照回滚系统，让您在系统出现问题时能够轻松恢复到之前的状态。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>EndeavourOS由于使用的是滚动更新，系统存在着滚挂的可能性（尽管我已经使用了1个多月也没有问题），所以快照回滚是一个必须的选项。本文将详细介绍如何在 EndeavourOS 系统中配置完整的快照回滚系统，让您在系统出现问题时能够轻松恢复到之前的状态。</p>
 <p><img loading="lazy" src="https://s2.l22.org/images/1764499404_endeavour-os-logo-on-a-purple-background-1.jpg"></p>
@@ -358,9 +358,9 @@
     </item>
     <item>
       <title>Ubuntu24.04安装Windterm</title>
-      <link>http://localhost:1313/ubuntu-24-04-install-windterm/</link>
+      <link>https://iliu.org/ubuntu-24-04-install-windterm/</link>
       <pubDate>Thu, 02 Oct 2025 10:33:29 +0800</pubDate>
-      <guid>http://localhost:1313/ubuntu-24-04-install-windterm/</guid>
+      <guid>https://iliu.org/ubuntu-24-04-install-windterm/</guid>
       <description>&lt;p&gt;经过这一段时间的使用Linux，我发现确实是可以满足我日常的使用。系统也流畅，再没有了之前使用Windows 11的时候偶尔的卡顿，决定长期使用了。既然要长期使用那么EndeavourOS就不是太适合了，毕竟这个以Archlinux为基础的系统，追求的是新而不是稳定。所以我决定换成Ubuntu，而之前科学软件换了一款之后，影响我使用的因素也不存在了。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>经过这一段时间的使用Linux，我发现确实是可以满足我日常的使用。系统也流畅，再没有了之前使用Windows 11的时候偶尔的卡顿，决定长期使用了。既然要长期使用那么EndeavourOS就不是太适合了，毕竟这个以Archlinux为基础的系统，追求的是新而不是稳定。所以我决定换成Ubuntu，而之前科学软件换了一款之后，影响我使用的因素也不存在了。</p>
 <p>换了Ubuntu之后，我常用的微信，wps，anytype等软件都有deb的安装包，只有windterm是源码的形式。没法直接点击安装，当然，可以在终端中用命令直接打开，但是不是很方便。找了一下网上的方法，也没有能很好的解决，最终还是借助ai,才安装成功。如下：</p>
@@ -451,9 +451,9 @@
     </item>
     <item>
       <title>从 Windows 到 Linux：重新体验的过程与心得</title>
-      <link>http://localhost:1313/from-windows-to-linux-the-process-and-insights-of-re-experiencing/</link>
+      <link>https://iliu.org/from-windows-to-linux-the-process-and-insights-of-re-experiencing/</link>
       <pubDate>Tue, 23 Sep 2025 10:13:07 +0800</pubDate>
-      <guid>http://localhost:1313/from-windows-to-linux-the-process-and-insights-of-re-experiencing/</guid>
+      <guid>https://iliu.org/from-windows-to-linux-the-process-and-insights-of-re-experiencing/</guid>
       <description>&lt;p&gt;几年前，我使用过一段时间Linux，后来因为没有官方的微信客户端，并且每三个月需要报税的软件只能在Windows上使用，所以我放弃了Linux，转而使用了Windows 11，过了几年，便懒得再折腾。最近，电脑偶尔会出现卡顿的情况，每次都需要重启才能解决。我曾经重置过系统，但问题依然没有得到彻底解决。恰好，我看到某位博友写的主力使用Ubuntu24的博客，因此，我决定重新尝试使用Linux，毕竟我的电脑使用场景非常简单，除了偶尔报税，其它基本需求都能在Linux下实现。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>几年前，我使用过一段时间Linux，后来因为没有官方的微信客户端，并且每三个月需要报税的软件只能在Windows上使用，所以我放弃了Linux，转而使用了Windows 11，过了几年，便懒得再折腾。最近，电脑偶尔会出现卡顿的情况，每次都需要重启才能解决。我曾经重置过系统，但问题依然没有得到彻底解决。恰好，我看到某位博友写的主力使用Ubuntu24的博客，因此，我决定重新尝试使用Linux，毕竟我的电脑使用场景非常简单，除了偶尔报税，其它基本需求都能在Linux下实现。</p>
 <h3 id="我的需求">我的需求</h3>
@@ -510,9 +510,9 @@
     </item>
     <item>
       <title>Ubuntu部署ghost博客所踩的小坑</title>
-      <link>http://localhost:1313/minor-pitfalls-enc-untered-when-deploying-ghost-blog-on-ubuntu/</link>
+      <link>https://iliu.org/minor-pitfalls-enc-untered-when-deploying-ghost-blog-on-ubuntu/</link>
       <pubDate>Wed, 06 Aug 2025 08:26:28 +0800</pubDate>
-      <guid>http://localhost:1313/minor-pitfalls-enc-untered-when-deploying-ghost-blog-on-ubuntu/</guid>
+      <guid>https://iliu.org/minor-pitfalls-enc-untered-when-deploying-ghost-blog-on-ubuntu/</guid>
       <description>&lt;p&gt;Ghost 6.0 发布后，我就被它宣传的“联邦宇宙（Activitypub）”和“内置 Web 分析”功能狠狠吸引了。可惜一直用的 1Panel 面板并没有 Ghost 的升级选项，考虑到 Ghost 6 改动幅度较大，盲猜1Panel里的Docker需要重建，再加上想要尽快体验ghost的联邦宇宙等功能，所以打算用官方推荐的方式“一劳永逸”。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Ghost 6.0 发布后，我就被它宣传的“联邦宇宙（Activitypub）”和“内置 Web 分析”功能狠狠吸引了。可惜一直用的 1Panel 面板并没有 Ghost 的升级选项，考虑到 Ghost 6 改动幅度较大，盲猜1Panel里的Docker需要重建，再加上想要尽快体验ghost的联邦宇宙等功能，所以打算用官方推荐的方式“一劳永逸”。</p>
 <hr>
@@ -756,9 +756,9 @@
     </item>
     <item>
       <title>正式使用Manjaro系统</title>
-      <link>http://localhost:1313/4036.html</link>
+      <link>https://iliu.org/4036.html</link>
       <pubDate>Mon, 17 Jan 2022 00:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/4036.html</guid>
+      <guid>https://iliu.org/4036.html</guid>
       <description>&lt;p&gt;昨天把开发python 的这个电脑也更换成manjaro这个系统了。经过一段时间的试用，感觉这个系统确实是一个使用起来舒服有稳定的系统。&lt;figure class=&#34;wp-block-image size-full&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>昨天把开发python 的这个电脑也更换成manjaro这个系统了。经过一段时间的试用，感觉这个系统确实是一个使用起来舒服有稳定的系统。<figure class="wp-block-image size-full"></p>
 <p><img loading="lazy" decoding="async" width="1920" height="1080" src="https://tunan.org/wp-content/uploads/2022/01/87269d5350708c3.png" alt="" class="wp-image-4038" srcset="https://tunan.org/wp-content/uploads/2022/01/87269d5350708c3.png 1920w, https://tunan.org/wp-content/uploads/2022/01/87269d5350708c3-768x432.png 768w, https://tunan.org/wp-content/uploads/2022/01/87269d5350708c3-1536x864.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /> </figure></p>
@@ -775,9 +775,9 @@
     </item>
     <item>
       <title>python开发web程序，最好还是在Linux下</title>
-      <link>http://localhost:1313/3947.html</link>
+      <link>https://iliu.org/3947.html</link>
       <pubDate>Tue, 14 Dec 2021 12:57:17 +0000</pubDate>
-      <guid>http://localhost:1313/3947.html</guid>
+      <guid>https://iliu.org/3947.html</guid>
       <description>&lt;p&gt;看了一些python教程，很多都是在windows下进行的开发，由于老刘对linux还算是有一丢丢的了解，所以从开始就在ubuntu下进行。前两天由于要在windows下用电脑，用完之后懒得重启，由于win10里也配置好了python的开发环境，所以就在win下写了一些代码。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>看了一些python教程，很多都是在windows下进行的开发，由于老刘对linux还算是有一丢丢的了解，所以从开始就在ubuntu下进行。前两天由于要在windows下用电脑，用完之后懒得重启，由于win10里也配置好了python的开发环境，所以就在win下写了一些代码。</p>
 <img loading="lazy" decoding="async" class="alignnone size-full wp-image-3948" src="https://tunan.org/wp-content/uploads/2021/12/OIP.jpeg" alt="" width="474" height="296" /> 
@@ -788,9 +788,9 @@
     </item>
     <item>
       <title>最终还是用回了Linux mint</title>
-      <link>http://localhost:1313/3932.html</link>
+      <link>https://iliu.org/3932.html</link>
       <pubDate>Mon, 01 Nov 2021 01:56:20 +0000</pubDate>
-      <guid>http://localhost:1313/3932.html</guid>
+      <guid>https://iliu.org/3932.html</guid>
       <description>&lt;p&gt;安装统信uos后，一度用着挺不的，各方面都很满意，于是花了9.9激活了，结果激活后没多久就感觉不好了。原因是和deepin的毛病一样，莫名其妙的，桌面卡死，闪屏，或者直接黑屏了。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>安装统信uos后，一度用着挺不的，各方面都很满意，于是花了9.9激活了，结果激活后没多久就感觉不好了。原因是和deepin的毛病一样，莫名其妙的，桌面卡死，闪屏，或者直接黑屏了。</p>
 <p>幸亏遇到的时候，都是在用浏览器看一些网页的时候，真要是我在写程序的时候给我来这么一出，不得郁闷死。</p>
@@ -799,9 +799,9 @@
     </item>
     <item>
       <title>试用统信uos家庭版</title>
-      <link>http://localhost:1313/3927.html</link>
+      <link>https://iliu.org/3927.html</link>
       <pubDate>Fri, 29 Oct 2021 01:22:00 +0000</pubDate>
-      <guid>http://localhost:1313/3927.html</guid>
+      <guid>https://iliu.org/3927.html</guid>
       <description>&lt;p&gt;之前上篇文章说了折腾Linux的因由，最后确定使用原版的ubuntu。不过在使用的过程中发现。还是有些许的小毛病。主要是安装了搜狗输入法之后，关机需要90秒的倒计时。从网上查了一下相关的信息，发现这个小毛病还是挺多人遇到的。虽然可以更改时间来较少，但是又可能造成系统的崩溃。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>之前上篇文章说了折腾Linux的因由，最后确定使用原版的ubuntu。不过在使用的过程中发现。还是有些许的小毛病。主要是安装了搜狗输入法之后，关机需要90秒的倒计时。从网上查了一下相关的信息，发现这个小毛病还是挺多人遇到的。虽然可以更改时间来较少，但是又可能造成系统的崩溃。</p>
 <p>Linuxmint倒是很流畅，一切都很满意。但是用了两天后发现了一个问题，不能使用微信，虽然在windows上，老刘也很少用微信，但是偶尔会用吧。加上近期媳妇申报副高要处理不少的文档，她都是用微信直接给我发过来，我要处理的话还得重启更换系统，非常的不方便。deepin吧，又时有卡桌面。后来想到了这个统信uos。批了一层皮的deepin os。本来没有报太大的希望，不过安装后却给了我不少的惊喜。</p>
@@ -819,9 +819,9 @@
     </item>
     <item>
       <title>几种Linux系统安装之后的体验</title>
-      <link>http://localhost:1313/3925.html</link>
+      <link>https://iliu.org/3925.html</link>
       <pubDate>Mon, 25 Oct 2021 01:18:46 +0000</pubDate>
-      <guid>http://localhost:1313/3925.html</guid>
+      <guid>https://iliu.org/3925.html</guid>
       <description>&lt;p&gt;前一段张波老师说打算学习Python。正好老刘也有这么一个心思。之所以要学这个，是因为老刘一直以来都想弄一个客户查询系统。这个系统也很简单，只要几个页面就能完成。实现的功能是，1、后台可以添加客户资料。2、前台通过用户名和手机号码可以查询各自的详情。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>前一段张波老师说打算学习Python。正好老刘也有这么一个心思。之所以要学这个，是因为老刘一直以来都想弄一个客户查询系统。这个系统也很简单，只要几个页面就能完成。实现的功能是，1、后台可以添加客户资料。2、前台通过用户名和手机号码可以查询各自的详情。</p>
 <p>曾经和一个搞开发的朋友聊起过这个玩意，他嫌太简单，让我自己弄。可惜我一直静不下心来做。</p>
@@ -843,9 +843,9 @@
     </item>
     <item>
       <title>常用的几个Linux的命令</title>
-      <link>http://localhost:1313/2535.html</link>
+      <link>https://iliu.org/2535.html</link>
       <pubDate>Sat, 20 Jul 2019 08:49:47 +0000</pubDate>
-      <guid>http://localhost:1313/2535.html</guid>
+      <guid>https://iliu.org/2535.html</guid>
       <description>&lt;p&gt;作为一个命令记不全的人，每次都要跋山涉水的找命令，这次把一些经常用到的命令综合到一起，省的再去翻找别人的文章。&lt;/p&gt;
 &lt;h2 id=&#34;linux-删除文件夹和文件的命令&#34;&gt;Linux 删除文件夹和文件的命令&lt;/h2&gt;
 &lt;p&gt;&lt;span style=&#34;color: rgb(0, 0, 0);&#34;&gt;删除文件夹实例：&lt;/span&gt;&lt;/p&gt;</description>
@@ -904,9 +904,9 @@ service php-fpm {start|stop|restart|reload|status}</li> </ul></p>
     </item>
     <item>
       <title>centos7.6更改dns的方法</title>
-      <link>http://localhost:1313/2260.html</link>
+      <link>https://iliu.org/2260.html</link>
       <pubDate>Fri, 12 Jul 2019 09:29:00 +0000</pubDate>
-      <guid>http://localhost:1313/2260.html</guid>
+      <guid>https://iliu.org/2260.html</guid>
       <description>&lt;p&gt;今天在重新安装服务器的生产环境的时候发现无法申请&lt;span style=&#34;background-color: rgb(255, 255, 255);&#34;&gt;Let’s Encrypt的证书，根据我的经验，一般把服务器上的dns设置成Google的8.8.8.8就可以顺利的进行申请，可能是国内的dns解析&lt;/span&gt;&lt;span style=&#34;background-color: rgb(255, 255, 255); color: rgb(51, 51, 51);&#34;&gt;Let’s Encrypt域名不通畅所导致。所以，第一时间，笔者就想到把服务器的dns设置成Google的。搜索引擎查了一下，很多都是千篇一律的。根据他们的经验，总结了一下，以备以后使用。&lt;/span&gt;&lt;figure class=&#34;content-img-box&#34; id=&#34;2259&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>今天在重新安装服务器的生产环境的时候发现无法申请<span style="background-color: rgb(255, 255, 255);">Let’s Encrypt的证书，根据我的经验，一般把服务器上的dns设置成Google的8.8.8.8就可以顺利的进行申请，可能是国内的dns解析</span><span style="background-color: rgb(255, 255, 255); color: rgb(51, 51, 51);">Let’s Encrypt域名不通畅所导致。所以，第一时间，笔者就想到把服务器的dns设置成Google的。搜索引擎查了一下，很多都是千篇一律的。根据他们的经验，总结了一下，以备以后使用。</span><figure class="content-img-box" id="2259"></p>
 <p><img decoding="async" alt="centos7.6更改dns的方法" src="https://tunan.org/wp-content/uploads/2019/07/15cddce5c2528e.png" id="3D4EBBEF" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>

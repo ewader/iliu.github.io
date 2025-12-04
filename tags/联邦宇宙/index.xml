@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>联邦宇宙 on 老刘博客</title>
-    <link>http://localhost:1313/tags/%E8%81%94%E9%82%A6%E5%AE%87%E5%AE%99/</link>
+    <link>https://iliu.org/tags/%E8%81%94%E9%82%A6%E5%AE%87%E5%AE%99/</link>
     <description>Recent content in 联邦宇宙 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
-      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.147.8</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 21 Oct 2025 11:10:32 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E8%81%94%E9%82%A6%E5%AE%87%E5%AE%99/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://iliu.org/tags/%E8%81%94%E9%82%A6%E5%AE%87%E5%AE%99/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>把GotoSocial嵌入到Hugo</title>
-      <link>http://localhost:1313/posts/embedding-gotosocial-in-a-hugo-blog/</link>
+      <link>https://iliu.org/posts/embedding-gotosocial-in-a-hugo-blog/</link>
       <pubDate>Tue, 21 Oct 2025 11:10:32 +0800</pubDate>
-      <guid>http://localhost:1313/posts/embedding-gotosocial-in-a-hugo-blog/</guid>
+      <guid>https://iliu.org/posts/embedding-gotosocial-in-a-hugo-blog/</guid>
       <description>&lt;p&gt;把博客重新换成Hugo后，我又把GotoSocial安装了起来，就是想发布自己有一些碎语之类的东西，在memos和GotoSocial中纠结了一会，最终选择了GotoSocial，主要原因还是看到memeos的作者随意改动API，为了以后不再有不必要的麻烦，还是选择一个更稳定的最好。整体完成后的效果可以参考：&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>把博客重新换成Hugo后，我又把GotoSocial安装了起来，就是想发布自己有一些碎语之类的东西，在memos和GotoSocial中纠结了一会，最终选择了GotoSocial，主要原因还是看到memeos的作者随意改动API，为了以后不再有不必要的麻烦，还是选择一个更稳定的最好。整体完成后的效果可以参考：</p>
 <p><a href="http://iliu.org/toots">我的微博</a></p>

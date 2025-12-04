@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>阿里云轻量服务器 on 老刘博客</title>
-    <link>http://localhost:1313/tags/%E9%98%BF%E9%87%8C%E4%BA%91%E8%BD%BB%E9%87%8F%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
+    <link>https://iliu.org/tags/%E9%98%BF%E9%87%8C%E4%BA%91%E8%BD%BB%E9%87%8F%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
     <description>Recent content in 阿里云轻量服务器 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
-      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.147.8</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 14 Nov 2019 23:53:20 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E9%98%BF%E9%87%8C%E4%BA%91%E8%BD%BB%E9%87%8F%E6%9C%8D%E5%8A%A1%E5%99%A8/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://iliu.org/tags/%E9%98%BF%E9%87%8C%E4%BA%91%E8%BD%BB%E9%87%8F%E6%9C%8D%E5%8A%A1%E5%99%A8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>博客更换到阿里云香港轻量，并升级到wordpress5.3.0</title>
-      <link>http://localhost:1313/2851.html</link>
+      <link>https://iliu.org/2851.html</link>
       <pubDate>Thu, 14 Nov 2019 23:53:20 +0000</pubDate>
-      <guid>http://localhost:1313/2851.html</guid>
+      <guid>https://iliu.org/2851.html</guid>
       <description>&lt;p&gt;昨天在折腾FRP的时候，怕影响到现有的环境，所以，买了一个阿里云轻量1H1G的主机，因为我知道，一个月24元，其实我不是打算用一个月而是打算就用一天练练手，摆治了一天，FRP也没有实现与黑群晖进行联手，下午在退款的时候，惊奇的发现，我2年多前买的这个800元3年的1H1G1M的小鸡也能退款，大概能退200左右，毕竟还有8个来月的时间就到期了。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>昨天在折腾FRP的时候，怕影响到现有的环境，所以，买了一个阿里云轻量1H1G的主机，因为我知道，一个月24元，其实我不是打算用一个月而是打算就用一天练练手，摆治了一天，FRP也没有实现与黑群晖进行联手，下午在退款的时候，惊奇的发现，我2年多前买的这个800元3年的1H1G1M的小鸡也能退款，大概能退200左右，毕竟还有8个来月的时间就到期了。</p>
 <p>说起来，我早就不想用这个主机了，主要是带宽只有1m,只不过心疼剩余的时间，就一直凑合着用。以前也咨询过客服能不能退款，说是活动价买的不能退云云。所以，立马吧网站备份到oss里，退款，并购买了一台，1H2g30m的香港轻量云。</p>
