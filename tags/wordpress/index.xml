@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Wordpress on 老刘博客</title>
+    <link>http://localhost:1313/tags/wordpress/</link>
+    <description>Recent content in Wordpress on 老刘博客</description>
+    <image>
+      <title>老刘博客</title>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 30 Dec 2020 07:35:59 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>博客web端改用apache</title>
+      <link>http://localhost:1313/3520.html</link>
+      <pubDate>Wed, 30 Dec 2020 07:35:59 +0000</pubDate>
+      <guid>http://localhost:1313/3520.html</guid>
+      <description>&lt;p&gt;试用了几天Cloudflare加racknerd的2h2g的小鸡，感觉还算差强人意。所以干脆就先把博客放这里算了，然后又突发奇想，其他的网站一直用的lnmp，为啥博客就不能用用lamp呢？况且apache在稳定性以及对php的支持等方面都比nginx要好，nginx的优势是轻便和并发能力强。其实对小博客来说，基本没有啥区别。&lt;figure class=&#34;wp-block-image size-large&#34;&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>试用了几天Cloudflare加racknerd的2h2g的小鸡，感觉还算差强人意。所以干脆就先把博客放这里算了，然后又突发奇想，其他的网站一直用的lnmp，为啥博客就不能用用lamp呢？况且apache在稳定性以及对php的支持等方面都比nginx要好，nginx的优势是轻便和并发能力强。其实对小博客来说，基本没有啥区别。<figure class="wp-block-image size-large"></p>
+<p><a href="https://tunan.org/wp-content/uploads/2021/01/ac6793f3e79aaa6.jpg"><img loading="lazy" decoding="async" width="855" height="585" src="https://tunan.org/wp-content/uploads/2021/01/ac6793f3e79aaa6.jpg" alt="" class="wp-image-3589" srcset="https://tunan.org/wp-content/uploads/2021/01/ac6793f3e79aaa6.jpg 855w, https://tunan.org/wp-content/uploads/2021/01/ac6793f3e79aaa6-300x205.jpg 300w, https://tunan.org/wp-content/uploads/2021/01/ac6793f3e79aaa6-768x525.jpg 768w, https://tunan.org/wp-content/uploads/2021/01/ac6793f3e79aaa6-220x150.jpg 220w" sizes="(max-width: 855px) 100vw, 855px" /></a></figure></p>
+<p>说折腾就折腾，编译安装apache，发现需要重新设置虚拟主机，设置的时候发现，不像nginx的时候，脚本提示把http301到https，什么www域名301到一级域名等，这些提示都没有。也没有设置伪静态的选项。网上查了一下，发现是几行代码就可以搞定的事情。</p>
+<h2 class="wp-block-heading" id="设置301跳转">设置301跳转</h2>
+<p>在apache里设置301跳转很简单，只需要在.htaccess里添加代码就好了，老刘主要用到两个，一个是http跳到https，一个是www跳到一级域名。感觉比nginx要简洁一些，代码如下：</p>
+<pre class="wp-block-code"><code>RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://tunan.org/$1 &#91;R,L]
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^iliu.org$ &#91;NC]
+RewriteRule ^(.*)$ http://iliu.org/$1 &#91;L,R=301]
+</code></pre>
+<p>设置后才发现，设置和不设置没有啥区别，老刘用的cf，应该是在cf里设置了301到443接口了，至于wordpress伪静态的问题，也是很容易，直接到wordpress的后台，保存一下固定链接样式就行了，保存后在根目录里自动生成了.htaccess。代码如下：</p>
+<pre class="wp-block-code"><code># BEGIN WordPress
+# 在“BEGIN WordPress”与“END WordPress”之间的指令（行）是
+# 动态生成的，只应被WordPress过滤器修改。
+# 任何对标记之间的指令的修改都会被覆盖。
+&lt;IfModule mod_rewrite.c&gt;
+RewriteEngine On
+RewriteRule .* - &#91;E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - &#91;L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php &#91;L]
+&lt;/IfModule&gt;
+
+# END WordPress
+</code></pre>
+<h2 class="wp-block-heading" id="使用cloudflare后获取用户真实ip">使用cloudflare后获取用户真实IP</h2>
+<p>由于apache已经自带mod_remoteip模块，所以只需按如下操作即可</p>
+<pre class="wp-block-code"><code>#启用模块
+vim /usr/local/apache/conf/httpd.conf
+Include conf/extra/httpd-remoteip.conf
+#添加如下内容
+vim /usr/local/apache/conf/extra/httpd-remoteip.conf
+LoadModule remoteip_module modules/mod_remoteip.so
+RemoteIPHeader X-Forwarded-For
+RemoteIPInternalProxy 127.0.0.1/24
+#CloudFlare IP Ranges
+RemoteIPInternalProxy 103.21.244.0/22
+RemoteIPInternalProxy 103.22.200.0/22
+RemoteIPInternalProxy 103.31.4.0/22
+RemoteIPInternalProxy 104.16.0.0/12
+RemoteIPInternalProxy 108.162.192.0/18
+RemoteIPInternalProxy 131.0.72.0/22
+RemoteIPInternalProxy 141.101.64.0/18
+RemoteIPInternalProxy 162.158.0.0/15
+RemoteIPInternalProxy 172.64.0.0/13
+RemoteIPInternalProxy 173.245.48.0/20
+RemoteIPInternalProxy 188.114.96.0/20
+RemoteIPInternalProxy 190.93.240.0/20
+RemoteIPInternalProxy 197.234.240.0/22
+RemoteIPInternalProxy 198.41.128.0/17 #你的CDN的IP，可以重复添加
+#在httpd.conf中修改日志格式，在日志格式中加上%a，然后重启apache即可
+LogFormat "%h %a %l %u %t \"%r\" %&gt;s %b \"%{Referer}i\" \"%{User-Agent}i\"" combined
+LogFormat "%h %a %l %u %t \"%r\" %&gt;s %b" common
+LogFormat "%h %l %u %t \"%r\" %&gt;s %b \"%{Referer}i\" \"%{User-Agent}i\" %I %O" combined</code></pre>
+<p>service httpd restar重启apache，然后去日志里看看，已经获得了真实IP。前连天灰常记忆博友说在cloudflare里设置一下也能显示真实IP，但是老刘没有找到这个设置，只好继续在网站上改了，网站上改还有一个好处是，这个方法不仅限于cloudflare，别的CDN也是适用的</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>给7b2的主题加上评论回复功能</title>
+      <link>http://localhost:1313/2552.html</link>
+      <pubDate>Thu, 25 Jul 2019 00:54:22 +0000</pubDate>
+      <guid>http://localhost:1313/2552.html</guid>
+      <description>&lt;p&gt;7b2主题默认是不会给评论者回复邮件的。也曾经问过作者，作者说如果实现这个的话，没几天邮箱就被封掉了，可能作者有作者的理由吧，但是不加的话，你回复了评论者，他也不知道你给他回复了，没有个反馈，十分的不方便。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>7b2主题默认是不会给评论者回复邮件的。也曾经问过作者，作者说如果实现这个的话，没几天邮箱就被封掉了，可能作者有作者的理由吧，但是不加的话，你回复了评论者，他也不知道你给他回复了，没有个反馈，十分的不方便。</p>
+<p>要想实现给评论者发邮件现在有两种方法，一种是代码实现，一种是插件实现。</p>
+<h2 id="代码实现回复评论给评论者发送邮件">代码实现回复评论给评论者发送邮件</h2>
+<p>修改<span style="background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);">functions.php，在文件的最后加上如下代码</span><figure class="content-img-box" id="2549"></p>
+<p><img decoding="async" alt="给7b2的主题加上评论回复功能" src="https://tunan.org/wp-content/uploads/2019/07/18d4fc58dd4436.JPG" id="EB7107FF" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
+<pre class="ql-syntax" spellcheck="false"><span class="hljs-comment">/* comment_mail_notify v1.0 by willin kan. (所有回复都发邮件) */</span>
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">comment_mail_notify</span><span class="hljs-params">($comment_id)</span> </span>{
+  $comment = get_comment($comment_id);
+  $parent_id = $comment-&gt;comment_parent ? $comment-&gt;comment_parent : <span class="hljs-string">''</span>;
+  $spam_confirmed = $comment-&gt;comment_approved;
+  <span class="hljs-keyword">if</span> (($parent_id != <span class="hljs-string">''</span>) && ($spam_confirmed != <span class="hljs-string">'spam'</span>)) {
+    $wp_email = <span class="hljs-string">'no-reply@'</span> . preg_replace(<span class="hljs-string">'#^www\.#'</span>, <span class="hljs-string">''</span>, strtolower($_SERVER[<span class="hljs-string">'SERVER_NAME'</span>])); <span class="hljs-comment">//e-mail 发出点, no-reply 可改为可用的 e-mail.</span>
+    $to = trim(get_comment($parent_id)-&gt;comment_author_email);
+    $subject = <span class="hljs-string">'您在 ['</span> . get_option(<span class="hljs-string">"blogname"</span>) . <span class="hljs-string">'] 的留言有了回复'</span>;
+    $message = <span class="hljs-string">'
+    &lt;div style=" border:1px solid #d8e3e8; color:#111; padding:0 15px; -moz-border-radius:5px; -webkit-border-radius:5px; -khtml-border-radius:5px;"&gt;
+      &lt;p&gt;'</span> . trim(get_comment($parent_id)-&gt;comment_author) . <span class="hljs-string">', 您好!&lt;/p&gt;
+      &lt;p&gt;您曾在《'</span> . get_the_title($comment-&gt;comment_post_ID) . <span class="hljs-string">'》的留言:&lt;br /&gt;'</span>
+       . trim(get_comment($parent_id)-&gt;comment_content) . <span class="hljs-string">'&lt;/p&gt;
+      &lt;p&gt;'</span> . trim($comment-&gt;comment_author) . <span class="hljs-string">' 给您的回复:&lt;br /&gt;'</span>
+       . trim($comment-&gt;comment_content) . <span class="hljs-string">'&lt;br /&gt;&lt;/p&gt;
+      &lt;p&gt;您可以点击 查看回复完整內容&lt;/p&gt;
+      &lt;p&gt;欢迎再度光临 '</span> . get_option(<span class="hljs-string">'blogname'</span>) . <span class="hljs-string">'&lt;/p&gt;
+      &lt;p&gt;(此邮件由系统自动发送，请勿回复.)&lt;/p&gt;
+    &lt;/div&gt;'</span>;
+    $from = <span class="hljs-string">"From: \""</span> . get_option(<span class="hljs-string">'blogname'</span>) . <span class="hljs-string">"\" &lt;$wp_email&gt;"</span>;
+    $headers = <span class="hljs-string">"$from\nContent-Type: text/html; charset="</span> . get_option(<span class="hljs-string">'blog_charset'</span>) . <span class="hljs-string">"\n"</span>;
+    wp_mail( $to, $subject, $message, $headers );
+    <span class="hljs-comment">//echo 'mail to ', $to, '&lt;br/&gt; ' , $subject, $message; // for testing</span>
+  }
+}
+add_action(<span class="hljs-string">'comment_post'</span>, <span class="hljs-string">'comment_mail_notify'</span>);
+<span class="hljs-comment">// -- END ----------------------------------------</span>
+</pre>
+<p>﻿现在﻿，在回复评论者就会有邮件通知了。</p>
+<h2 id="第二种插件的方式来实现">第二种，插件的方式来实现</h2>
+<p>这里跋涉者推荐国人开发的<span style="background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);">Wenprise Better Emails插件。美化的不错，符合国人的使用习惯，最重要是的中文的，哈哈</span></p>
+<p>wordpress后台点击添加插件，搜索<span style="background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);">Wenprise Better Emails，安装启用即可。</span><figure class="content-img-box" id="2550"></p>
+<p><img decoding="async" alt="给7b2的主题加上评论回复功能" src="https://tunan.org/wp-content/uploads/2019/07/1503dcdd869fcc.JPG" id="F92A9BC6" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
+<p>跋涉者使用的是第一种方式来实现，因为跋涉者不喜欢插件。</p>
+<p>本文参考奶爸笔记的文章<a href="https://blog.naibabiji.com/archives/339" target="_blank" rel="noopener noreferrer">2019新版给WordPress添加评论邮件回复通知的方法</a>，只为给自己备忘，感谢奶爸</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>wordpress自动升级到5.2.2</title>
+      <link>http://localhost:1313/1787.html</link>
+      <pubDate>Wed, 19 Jun 2019 02:15:39 +0000</pubDate>
+      <guid>http://localhost:1313/1787.html</guid>
+      <description>&lt;p&gt;今天打开邮箱，发现系统发的邮件。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;span style=&#34;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&#34;&gt;嗨！您位于 &lt;/span&gt;&lt;a href=&#34;https://tunan.org/&#34; target=&#34;_blank&#34; style=&#34;color: rgb(24, 43, 74); background-color: rgb(255, 255, 255);&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;a href=&#34;https://tunan.org&#34;&gt;https://tunan.org&lt;/a&gt;&lt;/a&gt;&lt;span style=&#34;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&#34;&gt; 的站点已被成功升级到WordPress 5.2.2。 您不需要再做什么。 要获取更多关于5.2.2版本的信息，请参阅“关于WordPress”屏幕： &lt;/span&gt;&lt;a href=&#34;https://tunan.org/wp-admin/about.php&#34; target=&#34;_blank&#34; style=&#34;color: rgb(24, 43, 74); background-color: rgb(255, 255, 255);&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;a href=&#34;https://tunan.org/wp-admin/about.php&#34;&gt;https://tunan.org/wp-admin/about.php&lt;/a&gt;&lt;/a&gt;&lt;span style=&#34;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&#34;&gt; 如果您遇到了任何问题或需要帮助，WordPress.org支持论坛的志愿者或许能帮到您。 &lt;/span&gt;&lt;a href=&#34;http://zh-cn.forums.wordpress.org/&#34; target=&#34;_blank&#34; style=&#34;color: rgb(24, 43, 74); background-color: rgb(255, 255, 255);&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;a href=&#34;http://zh-cn.forums.wordpress.org/&#34;&gt;http://zh-cn.forums.wordpress.org/&lt;/a&gt;&lt;/a&gt;&lt;span style=&#34;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&#34;&gt; WordPress小组&lt;/span&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>今天打开邮箱，发现系统发的邮件。</p>
+<blockquote>
+<p><span style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">嗨！您位于 </span><a href="https://tunan.org/" target="_blank" style="color: rgb(24, 43, 74); background-color: rgb(255, 255, 255);" rel="noopener noreferrer"><a href="https://tunan.org">https://tunan.org</a></a><span style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);"> 的站点已被成功升级到WordPress 5.2.2。 您不需要再做什么。 要获取更多关于5.2.2版本的信息，请参阅“关于WordPress”屏幕： </span><a href="https://tunan.org/wp-admin/about.php" target="_blank" style="color: rgb(24, 43, 74); background-color: rgb(255, 255, 255);" rel="noopener noreferrer"><a href="https://tunan.org/wp-admin/about.php">https://tunan.org/wp-admin/about.php</a></a><span style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);"> 如果您遇到了任何问题或需要帮助，WordPress.org支持论坛的志愿者或许能帮到您。 </span><a href="http://zh-cn.forums.wordpress.org/" target="_blank" style="color: rgb(24, 43, 74); background-color: rgb(255, 255, 255);" rel="noopener noreferrer"><a href="http://zh-cn.forums.wordpress.org/">http://zh-cn.forums.wordpress.org/</a></a><span style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);"> WordPress小组</span></p></blockquote>
+<h2 id="维护和安全更新">维护和安全更新</h2>
+<p>5.2.2版本修复了13个问题。 欲了解更多，参见发行注记。</p>
+<p>确保网站安全＃45094：仪表板元素并不总是具有清晰的焦点状态，Tab键顺序</p>
+<p>＃46289：RTL Bug – 媒体模式中的错误导航箭头</p>
+<p>＃46749：Firefox中帮助部分底部显示额外边框（响应：778 * 841）</p>
+<p>＃46881：站点健康：改进标题元素水平居中</p>
+<p>＃46957：站点运行状况：使站点运行状况页面访问可以过滤</p>
+<p>＃46960：站点健康：小型设备（iphone 5 / SE）中的表设计问题。</p>
+<p>＃46997：主题更新链接显示在Customizer中，但不起作用</p>
+<p>＃47070：恢复模式退出按钮在响应视图中不可见</p>
+<p>＃47158：合并WP 5.2中引入的类似字符串</p>
+<p>＃47227：I18n：合并类似的翻译字符串 – 网站健康标签</p>
+<p>＃47475：I18n：合并相似的字符串并修复拼写错误</p>
+<p>＃47429：编辑：更新WordPress 5.2.2的软件包</p>
+<p>＃47457：修复mediaelements播放器控件栏大小调整</p>
+<p>WordPress 5.2为您提供了更健壮的工具来识别和修复配置问题和致命错误。无论您是帮助客户的开发人员，还是独自管理站点，这些工具都可以在您需要时帮助您获得正确的信息。<figure class="content-img-box " id="1785"></p>
+<p><img decoding="async" alt="wordpress自动升级到5.2.2" src="https://tunan.org/wp-content/uploads/2019/06/15ccad909cb76f.png" id="8FA67946" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
+<h2 id="网站健康检查">网站健康检查</h2>
+<p>基于5.1中引入的站点健康特性，该版本增加了两个新页面来帮助调试常见的配置问题。它还增加了空间，开发人员可以在其中包含站点维护人员的调试信息。检查站点状态，并学习如何调试问题。<figure class="content-img-box " id="1786"></p>
+<p><img decoding="async" alt="wordpress自动升级到5.2.2" src="https://tunan.org/wp-content/uploads/2019/06/1aaa9545b190da.png" id="E92C4813" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
+<h2 id="php错误保护">PHP错误保护</h2>
+<p>这个以管理员为中心的更新将允许您安全地修复或管理致命错误，而不需要开发人员花费时间。它具有更好地处理所谓的“死亡白屏幕”，以及进入恢复模式的方法，该模式暂停导致错误的插件或主题。<figure class="content-img-box " id=""></p>
+<p><img decoding="async" alt="wordpress自动升级到5.2.2" src="https://tunan.org/wp-content/uploads/2019/06/16db5a09fbe930.png" id="ACAFABC4" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>7b2主题添加百度是否收录及禁止非管理员访问后台</title>
+      <link>http://localhost:1313/1636.html</link>
+      <pubDate>Sat, 25 May 2019 07:00:29 +0000</pubDate>
+      <guid>http://localhost:1313/1636.html</guid>
+      <description>&lt;p&gt;原来使用的是知更鸟的begin主题，和7b2的主题可以说是侧重点不同，不可否认的是7b2主题 在展示网页的方面和begin有一定的差距，比如begin里的一些小功能，其中百度是否收录就是其中的一项，让让人只管的文章用不要再次提交，不过要实现这个也不是一件很难的事情，之间在functions.php里添加一些代码就可以了。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>原来使用的是知更鸟的begin主题，和7b2的主题可以说是侧重点不同，不可否认的是7b2主题 在展示网页的方面和begin有一定的差距，比如begin里的一些小功能，其中百度是否收录就是其中的一项，让让人只管的文章用不要再次提交，不过要实现这个也不是一件很难的事情，之间在functions.php里添加一些代码就可以了。</p>
+<h2 id="添加百度是否收录的代码管理员可见">添加百度是否收录的代码（管理员可见）</h2>
+<pre class="ql-syntax" spellcheck="false"><span class="hljs-comment">/*
+判断当前文章是否被百度收录，若没有被收录则可点击提交至百度，加速收录！(此插件在文章页面仅管理员可见) 
+*/</span>
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">d4v</span><span class="hljs-params">($url)</span></span>{
+    $url=<span class="hljs-string">'http://www.baidu.com/s?wd='</span>.$url;
+    $curl=curl_init();
+    curl_setopt($curl,CURLOPT_URL,$url);
+    curl_setopt($curl,CURLOPT_RETURNTRANSFER,<span class="hljs-number">1</span>);
+    $rs=curl_exec($curl);
+    curl_close($curl);
+    <span class="hljs-keyword">if</span>(!strpos($rs,<span class="hljs-string">'没有找到'</span>)){
+        <span class="hljs-keyword">return</span> <span class="hljs-number">1</span>;
+    }<span class="hljs-keyword">else</span>{
+        <span class="hljs-keyword">return</span> <span class="hljs-number"></span>;
+    }
+}
+add_filter( <span class="hljs-string">'the_content'</span>,  <span class="hljs-string">'baidu_submit'</span> );
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">baidu_submit</span><span class="hljs-params">( $content )</span> </span>{
+    <span class="hljs-keyword">if</span>( is_single() && current_user_can( <span class="hljs-string">'manage_options'</span>) )
+        <span class="hljs-keyword">if</span>(d4v(get_permalink()) == <span class="hljs-number">1</span>)
+            $content=<span class="hljs-string">"
+百度已收录(仅管理员可见)
+"</span>.$content;
+        <span class="hljs-keyword">else</span>
+            $content=<span class="hljs-string">"
+.get_permalink()."</span>&gt;百度未收录!点击此处提交(仅管理员可见)
+<span class="hljs-string">".$content;
+        return $content;
+    }
+</span></pre>
+<p>第二就是7b2主题提供了强大的前台及用户中心功能，对于普通用户来说，没有必要让他们进入网站的后台。因此，我们可以添加一些代码来禁止普通的用户进入后台。</p>
+<h2 id="禁止非管理员访问后台">禁止非管理员访问后台</h2>
+<pre class="ql-syntax" spellcheck="false"><span class="hljs-comment">/**
+ * 禁止非管理员访问后台并限制访问后台登录注册
+ * <span class="hljs-doctag">@package</span> bertly
+ */</span>
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">redirect_non_admin_users</span><span class="hljs-params">()</span> </span>{
+	<span class="hljs-keyword">if</span> ( ! current_user_can( <span class="hljs-string">'manage_options'</span> ) && <span class="hljs-string">'/wp-admin/admin-ajax.php'</span> != $_SERVER[<span class="hljs-string">'PHP_SELF'</span>] ) {
+		wp_redirect( home_url() );
+		<span class="hljs-keyword">exit</span>;
+	}
+}
+add_action( <span class="hljs-string">'admin_init'</span>, <span class="hljs-string">'redirect_non_admin_users'</span> );
+add_action(<span class="hljs-string">'login_enqueue_scripts'</span>,<span class="hljs-string">'login_protection'</span>);
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">login_protection</span><span class="hljs-params">()</span></span>{
+        header(<span class="hljs-string">'Location: /'</span>);
+    }
+<span class="hljs-comment">/**
+ * End
+ */</span>
+</pre>]]></content:encoded>
+    </item>
+    <item>
+      <title>只需三步，让你的wordpress在godaddy免费空间上完美呈现</title>
+      <link>http://localhost:1313/950.html</link>
+      <pubDate>Thu, 28 Oct 2010 06:03:38 +0000</pubDate>
+      <guid>http://localhost:1313/950.html</guid>
+      <description>&lt;p&gt;以前本站有一篇文章，说是解决godaddy免费空间广告条对wordpress后台的影响，当时是采用第三方软件来实现的，但是到底有没有一种方法，能让不借用第三方软件来实现呢，答案是肯定的。而且很简单，只需要三步。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>以前本站有一篇文章，说是解决godaddy免费空间广告条对wordpress后台的影响，当时是采用第三方软件来实现的，但是到底有没有一种方法，能让不借用第三方软件来实现呢，答案是肯定的。而且很简单，只需要三步。</p>
+<p><strong>1.隐藏前台页面广告</strong></p>
+<p>打开主题文件中的“style.css”文件，在文件最后加上如下这段代码：</p>
+<blockquote>
+<p>#conash3D0 {height:0px; top:-1px;}</p></blockquote>
+<p>原理：使用css样式把广告上移，移到显示页面以外，谁都看不到了，实际上并没有去掉广告代码，只是“隐藏”而已**，K号的可能性比较小，但是有一定的危险，到底用不用再你。**<figure class="content-img-box" id="2306"></p>
+<p><img decoding="async" alt="只需三步，让你的wordpress在godaddy免费空间上完美呈现" src="https://tunan.org/wp-content/uploads/2019/07/1c5077b9935ed2.png" id="DC3A0631" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
+<p><strong>2.恢复后台页面样式</strong></p>
+<hr>
+<p>godaddy的广告代码破坏了wordpress后台的css样式表及js，导致后台显示不正常，在wordpresswp-includesscript-loader.php中修改：</p></p>
+<p>找到print_admin_styles()及_print_scripts()函数，</p>
+<p>将print_admin_styles()中的</p>
+<p>echo “n”;</p>
+<p>更改为</p>
+<p>$css = @file_get_contents($href);</p>
+<p>echo “”;</p>
+<p>将_print_scripts()中的</p>
+<p>echo “n”;</p>
+<p>替换为</p>
+<p>$js = @file_get_contents($src);</p>
+<p>echo “n”.substr($js,0,-184).”n”;</p>
+<p>之前有一个加上不少代码的修改方法，在3.01版本无效，但是我这个方法绝对是有效果的。</p>
+<p>3、搞掉后台广告</p></p>
+<p>打开“wp-adminadmin- footer.php”文件，在末尾部分</p>
+<blockquote>
+</blockquote>
+<p>的前面加上如下代码：</p>
+<blockquote>
+</div> <div id=&#8221;\_mcePaste&#8221;>function hideGoDaddy(){</div> <div id=&#8221;\_mcePaste&#8221;>if( ! ( null === document.getElementById( “conash3D0″ ) ) ) {</div> <div id=&#8221;\_mcePaste&#8221;>gDaddy = document.getElementById( “conash3D0″ );</div> <div id=&#8221;\_mcePaste&#8221;>if( ‘none’ === gDaddy.style.display ) {}</div> <div id=&#8221;\_mcePaste&#8221;>else { gDaddy.style.display = ‘none’; }</div> <div id=&#8221;\_mcePaste&#8221;>}</div> <div id=&#8221;\_mcePaste&#8221;>}</div> <div id=&#8221;\_mcePaste&#8221;>setInterval(“hideGoDaddy()”, 1500);</div> <div id=&#8221;_mcePaste&#8221;></blockquote>
+<p>至此，修改完毕，一切都很完美！后台可以用 用户名：test 密码：test来测试。 关于采用第三方软件的方法，见 <a href="http://www.lghcx.info/2010/01/388.html" target="_blank" rel="noopener noreferrer">完美解决godaddy免费空间广告条对wordpress后台的影响 | 华彩生活</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>完美解决godaddy免费空间广告条对wordpress后台的影响</title>
+      <link>http://localhost:1313/388.html</link>
+      <pubDate>Sun, 03 Jan 2010 13:09:22 +0000</pubDate>
+      <guid>http://localhost:1313/388.html</guid>
+      <description>&lt;p&gt;自从从godaddy搞了域名之后，一直对它提供的免费空间耿耿于怀，用也不是，不用又觉得可惜，难怪网上都说此空间是一个鸡肋。很多童鞋都把此空间做为图床来使用，只是我觉得，这么好的一个空间，10g，300g的流量，仅仅用做图床未免有些浪费，加之目前手里也没有什么像样的空间，先前一直在有pipni的空间，各方面还比较满意，就是速度差了些，后来又觉得byethost的空间也不错，可惜IP老被封，加上本次的整顿事件，越发不敢用了，毕竟被墙以后，再找空间也麻烦。所以想来想去，还是就用godaddy提供的这个免费的空间吧。&lt;figure class=&#34;content-img-box&#34; id=&#34;2304&#34;&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>自从从godaddy搞了域名之后，一直对它提供的免费空间耿耿于怀，用也不是，不用又觉得可惜，难怪网上都说此空间是一个鸡肋。很多童鞋都把此空间做为图床来使用，只是我觉得，这么好的一个空间，10g，300g的流量，仅仅用做图床未免有些浪费，加之目前手里也没有什么像样的空间，先前一直在有pipni的空间，各方面还比较满意，就是速度差了些，后来又觉得byethost的空间也不错，可惜IP老被封，加上本次的整顿事件，越发不敢用了，毕竟被墙以后，再找空间也麻烦。所以想来想去，还是就用godaddy提供的这个免费的空间吧。<figure class="content-img-box" id="2304"></p>
+<p><img decoding="async" alt="完美解决godaddy免费空间广告条对wordpress后台的影响" src="https://tunan.org/wp-content/uploads/2019/07/12594530ebe0d5.png" id="D061A37B" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
+<p>要说用你的免费空间给你做做广告也不是不可以，但是加载的代码对网页有影响。对wordpress而言，主要的问题是在后台，发文章，传文件等都受到很大的影响。目前迫切需要的是，1、把后台的广告给去掉，这个网上有很多的方法。我这里就不一一介绍了，只是说我的做法是<code>：在admin-footer.php加上</code></p>
+<p><code>&lt;br /&gt; function hideGoDaddy(){&lt;br /&gt; if( ! ( null === document.getElementById( &quot;conash3D0&quot; ) ) ) {&lt;br /&gt; gDaddy = document.getElementById( &quot;conash3D0&quot; );&lt;br /&gt; if( 'none' === gDaddy.style.display ) {}&lt;br /&gt; else { gDaddy.style.display = 'none'; }&lt;br /&gt; }&lt;br /&gt; }&lt;br /&gt; setInterval(&quot;hideGoDaddy()&quot;, 1500);&lt;br /&gt;</code></p>
+<p><code>这样，在后台就不会在显示广告了，但是代码造成的影响依然存在。那么就用第二步：</code></p>
+<p><code>下载一个离线编辑器，通过比较我用的是zoundry raven，用这个基本上和用wordpress的后台没有什么区别，刚好是后台受到影响部分的补充。</code></p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

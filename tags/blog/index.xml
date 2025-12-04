@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Blog on 老刘博客</title>
+    <link>http://localhost:1313/tags/blog/</link>
+    <description>Recent content in Blog on 老刘博客</description>
+    <image>
+      <title>老刘博客</title>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 10 Aug 2025 08:34:35 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ghost 博客与 Mailgun 邮件服务申请全流程</title>
+      <link>http://localhost:1313/complete-setup-process-for-ghost-blog-and-mailgun-email-service/</link>
+      <pubDate>Sun, 10 Aug 2025 08:34:35 +0800</pubDate>
+      <guid>http://localhost:1313/complete-setup-process-for-ghost-blog-and-mailgun-email-service/</guid>
+      <description>&lt;p&gt;Ghost 的邮件系统与 Mailgun 深度集成，如果想要在 Ghost 上实现邮件订阅、密码找回、通知等功能，申请一个 Mailgun 账户几乎是必选项。好消息是——Mailgun 已经恢复免费套餐，每天可发送 100 封邮件，对个人博客来说完全够用，而且现在&lt;strong&gt;验证信用卡不再是必需&lt;/strong&gt;。坏消息是——Mailgun 的风控依然非常严格，尤其是中国大陆用户，注册和解封过程可能会比较“曲折”。下面是我亲身踩坑并最终申请成功的全过程，希望能帮到你。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Ghost 的邮件系统与 Mailgun 深度集成，如果想要在 Ghost 上实现邮件订阅、密码找回、通知等功能，申请一个 Mailgun 账户几乎是必选项。好消息是——Mailgun 已经恢复免费套餐，每天可发送 100 封邮件，对个人博客来说完全够用，而且现在<strong>验证信用卡不再是必需</strong>。坏消息是——Mailgun 的风控依然非常严格，尤其是中国大陆用户，注册和解封过程可能会比较“曲折”。下面是我亲身踩坑并最终申请成功的全过程，希望能帮到你。</p>
+<hr>
+<h2 id="1-中国大陆能正常访问但注册有坑">1. 中国大陆能正常访问，但注册有坑</h2>
+<p>Mailgun 官网在中国大陆是可以直接打开的，但注册过程中会遇到两个大坑：</p>
+<ol>
+<li><strong>不挂梯子 → 验证码加载不出来</strong>注册页的验证根本就不显示，导致注册按钮点不动。</li>
+<li><strong>挂了梯子 → 手机号与 IP 不匹配触发风控</strong>注册时需要验证手机号，如果你的 IP 地址（梯子出口）与手机号所在地区不一致，就很容易被判定为风险账号，触发临时封禁。</li>
+</ol>
+<hr>
+<h2 id="2-常见问题与解决方法">2. 常见问题与解决方法</h2>
+<h3 id="收不到验证码">收不到验证码</h3>
+<ul>
+<li>
+<p>进入 <a href="https://help.mailgun.com/hc/en-us/requests/new?ref=iliu.org">Mailgun 工单系统</a></p>
+</li>
+<li>
+<p>类别选择 <strong>Account Management</strong></p>
+</li>
+<li>
+<p>标题示例：I can&rsquo;t verify my email</p>
+</li>
+<li>
+<p>内容示例：I can&rsquo;t verify my email because I clicked the link to enter my mobile phone number, and when I sent the verification code, it reminded me that I sent too many times and other reminders.
+This is my phone number: +86 XXX XXXX XXXX</p>
+<p>把 XXX XXXX XXXX 换成你自己的手机号即可。（英文机翻没关系，客服看得懂，实测有效）</p>
+</li>
+</ul>
+<hr>
+<h3 id="账号被临时锁定">账号被临时锁定</h3>
+<p>错误提示：Your account is temporarily disabled. (Account disabled)
+Please contact support to resolve.</p>
+<p>可以给客服发一封说明邮件（或直接在工单提交），核心是解释你是正常用途、愿意配合验证、并说明中国大陆网络环境的特殊性。<strong>参考邮件模板：</strong> Request for Account Review and Reactivation</p>
+<p>Hello Mailgun Support Team,</p>
+<p>My account was disabled shortly after registration with the message:
+&ldquo;Your account is temporarily disabled. (Account disabled) Please contact support to resolve.&rdquo;
+I believe this may have been triggered by the automated fraud prevention system.</p>
+<p>I am located in mainland China, where network routing and IP geolocation may sometimes cause unusual patterns in automated checks.</p>
+<p>My intended usage is legitimate:</p>
+<ul>
+<li>Purpose: Sending transactional emails (password resets, notifications) and newsletters for my Ghost-based personal website/blog.</li>
+<li>Domain: [yourdomain.com]</li>
+<li>Website: <a href="https://yourdomain.com">https://yourdomain.com</a></li>
+<li>Recipients: 100% opt-in subscribers, no purchased or scraped mailing lists.</li>
+<li>Sending volume: Low to moderate.</li>
+</ul>
+<p>I am happy to:</p>
+<ul>
+<li>Provide ID or domain ownership proof.</li>
+<li>Bind a valid credit card for verification.</li>
+<li>Comply fully with Mailgun’s Acceptable Use Policy and anti-spam requirements.</li>
+</ul>
+<p>Could you please review and reactivate my account?</p>
+<p>Thank you for your understanding and assistance.</p>
+<p>Best regards,
+[Your Name]
+[Your Email Address]
+[Your Website Name]</p>
+<hr>
+<h2 id="3-客服的最终回复与养号期">3. 客服的最终回复与“养号期”</h2>
+<p>客服审核后给我的反馈是：账号已恢复，但由于缺少已验证域名和对应的发送历史，暂时保留发送限制(根据ghost论坛的信息，应该是同时只能发送9封邮件)。请先添加并验证域名，然后在 3-5 天内正常发送邮件（收件人必须是有机收集的双重确认用户）。之后可以更新工单申请解除限制。换句话说，即使解封了，也要经历 3-5 天的“养号期”：</p>
+<ol>
+<li><strong>绑定并验证域名</strong>（添加 DNS 记录）</li>
+<li><strong>正常发送邮件</strong>（不要群发垃圾内容）</li>
+<li><strong>积累发送历史</strong>（每天发一点）</li>
+<li><strong>再次联系支持</strong>，申请解除限制</li>
+</ol>
+<hr>
+<h2 id="4-总结与建议">4. 总结与建议</h2>
+<ul>
+<li>
+<p><strong>注册前准备好：</strong></p>
+<ul>
+<li>一个稳定的域名（用于验证）</li>
+<li>一个能接收验证码的手机号</li>
+<li>一个相对干净的 IP</li>
+</ul>
+</li>
+<li>
+<p><strong>遇到问题，直接开工单</strong>，说明用途与网络环境。</p>
+</li>
+<li>
+<p><strong>解封后不要急着大批量发信</strong>，先养号几天再申请完全解限。</p>
+</li>
+</ul>
+<hr>
+<p>Mailgun 的免费额度每天 100 封邮件，对个人博客来说绰绰有余。虽然注册过程麻烦，但一旦稳定下来，Ghost 邮件功能就能顺畅使用了。如果你正打算为 Ghost 配置邮件服务，不妨先参考这篇经验，少走一些弯路。</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

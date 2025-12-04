@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Godaddy免费空间 on 老刘博客</title>
+    <link>http://localhost:1313/tags/godaddy%E5%85%8D%E8%B4%B9%E7%A9%BA%E9%97%B4/</link>
+    <description>Recent content in Godaddy免费空间 on 老刘博客</description>
+    <image>
+      <title>老刘博客</title>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 28 Oct 2010 06:03:38 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/godaddy%E5%85%8D%E8%B4%B9%E7%A9%BA%E9%97%B4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>只需三步，让你的wordpress在godaddy免费空间上完美呈现</title>
+      <link>http://localhost:1313/950.html</link>
+      <pubDate>Thu, 28 Oct 2010 06:03:38 +0000</pubDate>
+      <guid>http://localhost:1313/950.html</guid>
+      <description>&lt;p&gt;以前本站有一篇文章，说是解决godaddy免费空间广告条对wordpress后台的影响，当时是采用第三方软件来实现的，但是到底有没有一种方法，能让不借用第三方软件来实现呢，答案是肯定的。而且很简单，只需要三步。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>以前本站有一篇文章，说是解决godaddy免费空间广告条对wordpress后台的影响，当时是采用第三方软件来实现的，但是到底有没有一种方法，能让不借用第三方软件来实现呢，答案是肯定的。而且很简单，只需要三步。</p>
+<p><strong>1.隐藏前台页面广告</strong></p>
+<p>打开主题文件中的“style.css”文件，在文件最后加上如下这段代码：</p>
+<blockquote>
+<p>#conash3D0 {height:0px; top:-1px;}</p></blockquote>
+<p>原理：使用css样式把广告上移，移到显示页面以外，谁都看不到了，实际上并没有去掉广告代码，只是“隐藏”而已**，K号的可能性比较小，但是有一定的危险，到底用不用再你。**<figure class="content-img-box" id="2306"></p>
+<p><img decoding="async" alt="只需三步，让你的wordpress在godaddy免费空间上完美呈现" src="https://tunan.org/wp-content/uploads/2019/07/1c5077b9935ed2.png" id="DC3A0631" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
+<p><strong>2.恢复后台页面样式</strong></p>
+<hr>
+<p>godaddy的广告代码破坏了wordpress后台的css样式表及js，导致后台显示不正常，在wordpresswp-includesscript-loader.php中修改：</p></p>
+<p>找到print_admin_styles()及_print_scripts()函数，</p>
+<p>将print_admin_styles()中的</p>
+<p>echo “n”;</p>
+<p>更改为</p>
+<p>$css = @file_get_contents($href);</p>
+<p>echo “”;</p>
+<p>将_print_scripts()中的</p>
+<p>echo “n”;</p>
+<p>替换为</p>
+<p>$js = @file_get_contents($src);</p>
+<p>echo “n”.substr($js,0,-184).”n”;</p>
+<p>之前有一个加上不少代码的修改方法，在3.01版本无效，但是我这个方法绝对是有效果的。</p>
+<p>3、搞掉后台广告</p></p>
+<p>打开“wp-adminadmin- footer.php”文件，在末尾部分</p>
+<blockquote>
+</blockquote>
+<p>的前面加上如下代码：</p>
+<blockquote>
+</div> <div id=&#8221;\_mcePaste&#8221;>function hideGoDaddy(){</div> <div id=&#8221;\_mcePaste&#8221;>if( ! ( null === document.getElementById( “conash3D0″ ) ) ) {</div> <div id=&#8221;\_mcePaste&#8221;>gDaddy = document.getElementById( “conash3D0″ );</div> <div id=&#8221;\_mcePaste&#8221;>if( ‘none’ === gDaddy.style.display ) {}</div> <div id=&#8221;\_mcePaste&#8221;>else { gDaddy.style.display = ‘none’; }</div> <div id=&#8221;\_mcePaste&#8221;>}</div> <div id=&#8221;\_mcePaste&#8221;>}</div> <div id=&#8221;\_mcePaste&#8221;>setInterval(“hideGoDaddy()”, 1500);</div> <div id=&#8221;_mcePaste&#8221;></blockquote>
+<p>至此，修改完毕，一切都很完美！后台可以用 用户名：test 密码：test来测试。 关于采用第三方软件的方法，见 <a href="http://www.lghcx.info/2010/01/388.html" target="_blank" rel="noopener noreferrer">完美解决godaddy免费空间广告条对wordpress后台的影响 | 华彩生活</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>完美解决godaddy免费空间广告条对wordpress后台的影响</title>
+      <link>http://localhost:1313/388.html</link>
+      <pubDate>Sun, 03 Jan 2010 13:09:22 +0000</pubDate>
+      <guid>http://localhost:1313/388.html</guid>
+      <description>&lt;p&gt;自从从godaddy搞了域名之后，一直对它提供的免费空间耿耿于怀，用也不是，不用又觉得可惜，难怪网上都说此空间是一个鸡肋。很多童鞋都把此空间做为图床来使用，只是我觉得，这么好的一个空间，10g，300g的流量，仅仅用做图床未免有些浪费，加之目前手里也没有什么像样的空间，先前一直在有pipni的空间，各方面还比较满意，就是速度差了些，后来又觉得byethost的空间也不错，可惜IP老被封，加上本次的整顿事件，越发不敢用了，毕竟被墙以后，再找空间也麻烦。所以想来想去，还是就用godaddy提供的这个免费的空间吧。&lt;figure class=&#34;content-img-box&#34; id=&#34;2304&#34;&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>自从从godaddy搞了域名之后，一直对它提供的免费空间耿耿于怀，用也不是，不用又觉得可惜，难怪网上都说此空间是一个鸡肋。很多童鞋都把此空间做为图床来使用，只是我觉得，这么好的一个空间，10g，300g的流量，仅仅用做图床未免有些浪费，加之目前手里也没有什么像样的空间，先前一直在有pipni的空间，各方面还比较满意，就是速度差了些，后来又觉得byethost的空间也不错，可惜IP老被封，加上本次的整顿事件，越发不敢用了，毕竟被墙以后，再找空间也麻烦。所以想来想去，还是就用godaddy提供的这个免费的空间吧。<figure class="content-img-box" id="2304"></p>
+<p><img decoding="async" alt="完美解决godaddy免费空间广告条对wordpress后台的影响" src="https://tunan.org/wp-content/uploads/2019/07/12594530ebe0d5.png" id="D061A37B" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
+<p>要说用你的免费空间给你做做广告也不是不可以，但是加载的代码对网页有影响。对wordpress而言，主要的问题是在后台，发文章，传文件等都受到很大的影响。目前迫切需要的是，1、把后台的广告给去掉，这个网上有很多的方法。我这里就不一一介绍了，只是说我的做法是<code>：在admin-footer.php加上</code></p>
+<p><code>&lt;br /&gt; function hideGoDaddy(){&lt;br /&gt; if( ! ( null === document.getElementById( &quot;conash3D0&quot; ) ) ) {&lt;br /&gt; gDaddy = document.getElementById( &quot;conash3D0&quot; );&lt;br /&gt; if( 'none' === gDaddy.style.display ) {}&lt;br /&gt; else { gDaddy.style.display = 'none'; }&lt;br /&gt; }&lt;br /&gt; }&lt;br /&gt; setInterval(&quot;hideGoDaddy()&quot;, 1500);&lt;br /&gt;</code></p>
+<p><code>这样，在后台就不会在显示广告了，但是代码造成的影响依然存在。那么就用第二步：</code></p>
+<p><code>下载一个离线编辑器，通过比较我用的是zoundry raven，用这个基本上和用wordpress的后台没有什么区别，刚好是后台受到影响部分的补充。</code></p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

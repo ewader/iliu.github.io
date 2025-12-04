@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>荣耀V9 on 老刘博客</title>
+    <link>http://localhost:1313/tags/%E8%8D%A3%E8%80%80v9/</link>
+    <description>Recent content in 荣耀V9 on 老刘博客</description>
+    <image>
+      <title>老刘博客</title>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 16 Jul 2019 01:18:46 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E8%8D%A3%E8%80%80v9/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>给自己的荣耀V9升级到emui9.1</title>
+      <link>http://localhost:1313/2520.html</link>
+      <pubDate>Tue, 16 Jul 2019 01:18:46 +0000</pubDate>
+      <guid>http://localhost:1313/2520.html</guid>
+      <description>&lt;p&gt;跋涉者的这部荣耀v9手机已经使用两年了，由于华为官方一直在升级系统，所以，感觉还能再用两年，哈哈。华为再升级系统这点做的确实不错。&lt;/p&gt;
+&lt;h2 id=&#34;首先我们看看emui91的特点&#34;&gt;首先我们看看emui9.1的特点&lt;/h2&gt;
+&lt;p&gt;emui9.1最最主要的更新有三点，一是&lt;strong&gt;GPU Turbo3.0&lt;/strong&gt;，二是&lt;strong style=&#34;background-color: rgb(255, 255, 255); color: rgb(25, 25, 25);&#34;&gt;超级文件系统(EROFS)，&lt;/strong&gt;&lt;span style=&#34;background-color: rgb(255, 255, 255); color: rgb(25, 25, 25);&#34;&gt;三是&lt;/span&gt;&lt;strong style=&#34;background-color: rgb(255, 255, 255); color: rgb(25, 25, 25);&#34;&gt;方舟编译器。&lt;/strong&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>跋涉者的这部荣耀v9手机已经使用两年了，由于华为官方一直在升级系统，所以，感觉还能再用两年，哈哈。华为再升级系统这点做的确实不错。</p>
+<h2 id="首先我们看看emui91的特点">首先我们看看emui9.1的特点</h2>
+<p>emui9.1最最主要的更新有三点，一是<strong>GPU Turbo3.0</strong>，二是<strong style="background-color: rgb(255, 255, 255); color: rgb(25, 25, 25);">超级文件系统(EROFS)，</strong><span style="background-color: rgb(255, 255, 255); color: rgb(25, 25, 25);">三是</span><strong style="background-color: rgb(255, 255, 255); color: rgb(25, 25, 25);">方舟编译器。</strong></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(25, 25, 25);">其中最让人期待的就是方舟编译器，官方公布的数据为：</span><strong style="background-color: rgb(255, 255, 255); color: rgb(25, 25, 25);">EMUI 9.1在仅仅对系统组件System Server应用了华为方舟编译器后，就带来了系统操作流畅度提升24%，系统响应性能提升44%的收益。比如，新浪微博极速版利用华为方舟编译器之后，其操作流畅度提升了60%！</strong><figure class="content-img-box" id="2519"></p>
+<p><img decoding="async" alt="给自己的荣耀V9升级到emui9.1" src="https://tunan.org/wp-content/uploads/2019/07/151cc622cd8d56.jpg" id="87F2B3C5" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
+<h2 id="如何升级">如何升级</h2>
+<p>目前，荣耀V9正在进行系统的公测，因此，向提前体验emui9.1需要再花粉俱乐部申请。具体的申请流程是：</p>
+<ul>
+<li>1、电脑端：“花粉俱乐部”&gt;“版块”&gt;“EMUI专区”&gt;“升级尝鲜”&gt; 《【招募公告】Mate9、P10、荣耀9等8款产品EMUI9.1公测招募开启！》</li>
+<li>2、手机端：“花粉俱乐部”&gt;“论坛”&gt;“板块分类”&gt;“全部板块“&gt;“EMUI专区”&gt;“升级尝鲜”&gt; 《【招募公告】Mate9、P10、荣耀9等8款产品EMUI9.1公测招募开启！》</li>
+</ul>
+<p>报名申请之后，7月15日开始，每周一、周三、周五（工作日）15:00陆续推送当天9:00及之前已报名用户。</p>
+<h2 id="升级后的系统">升级后的系统</h2>
+<p>跋涉者昨天已经收到升级包，直接升级后，发现目前方舟编译器和超级文件系统还都没有加入，目前加入的功能只有<strong style="background-color: rgb(255, 255, 255); color: rgb(51, 51, 51);">GPU Turbo3.0。</strong><span style="background-color: rgb(255, 255, 255); color: rgb(51, 51, 51);">不过和升级前相比，流畅性也提升了不少。</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(51, 51, 51);">据说，方舟编译器和超级文件系统将在下个版本的更新中出现，还是令人期待的。</span></p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

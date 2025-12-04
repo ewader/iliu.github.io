@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Categories on 老刘博客</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on 老刘博客</description>
+    <image>
+      <title>老刘博客</title>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 03 Dec 2025 17:07:25 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>人世间</title>
+      <link>http://localhost:1313/categories/%E4%BA%BA%E4%B8%96%E9%97%B4/</link>
+      <pubDate>Wed, 03 Dec 2025 17:07:25 +0800</pubDate>
+      <guid>http://localhost:1313/categories/%E4%BA%BA%E4%B8%96%E9%97%B4/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>齐物</title>
+      <link>http://localhost:1313/categories/%E9%BD%90%E7%89%A9/</link>
+      <pubDate>Sun, 30 Nov 2025 10:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/categories/%E9%BD%90%E7%89%A9/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>人间世</title>
+      <link>http://localhost:1313/categories/%E4%BA%BA%E9%97%B4%E4%B8%96/</link>
+      <pubDate>Sat, 29 Nov 2025 08:30:00 +0800</pubDate>
+      <guid>http://localhost:1313/categories/%E4%BA%BA%E9%97%B4%E4%B8%96/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>德充符</title>
+      <link>http://localhost:1313/categories/%E5%BE%B7%E5%85%85%E7%AC%A6/</link>
+      <pubDate>Tue, 11 Nov 2025 11:36:47 +0800</pubDate>
+      <guid>http://localhost:1313/categories/%E5%BE%B7%E5%85%85%E7%AC%A6/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>齐物论</title>
+      <link>http://localhost:1313/categories/%E9%BD%90%E7%89%A9%E8%AE%BA/</link>
+      <pubDate>Wed, 15 Nov 2023 21:28:20 +0800</pubDate>
+      <guid>http://localhost:1313/categories/%E9%BD%90%E7%89%A9%E8%AE%BA/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>工作相关</title>
+      <link>http://localhost:1313/categories/%E5%B7%A5%E4%BD%9C%E7%9B%B8%E5%85%B3/</link>
+      <pubDate>Wed, 24 May 2023 00:27:27 +0000</pubDate>
+      <guid>http://localhost:1313/categories/%E5%B7%A5%E4%BD%9C%E7%9B%B8%E5%85%B3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>养生保健</title>
+      <link>http://localhost:1313/categories/%E5%85%BB%E7%94%9F%E4%BF%9D%E5%81%A5/</link>
+      <pubDate>Wed, 24 May 2023 00:27:27 +0000</pubDate>
+      <guid>http://localhost:1313/categories/%E5%85%BB%E7%94%9F%E4%BF%9D%E5%81%A5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>公告</title>
+      <link>http://localhost:1313/categories/%E5%85%AC%E5%91%8A/</link>
+      <pubDate>Sun, 21 May 2023 09:18:15 +0000</pubDate>
+      <guid>http://localhost:1313/categories/%E5%85%AC%E5%91%8A/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>家长里短</title>
+      <link>http://localhost:1313/categories/%E5%AE%B6%E9%95%BF%E9%87%8C%E7%9F%AD/</link>
+      <pubDate>Fri, 19 May 2023 00:53:28 +0000</pubDate>
+      <guid>http://localhost:1313/categories/%E5%AE%B6%E9%95%BF%E9%87%8C%E7%9F%AD/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>电脑网络</title>
+      <link>http://localhost:1313/categories/%E7%94%B5%E8%84%91%E7%BD%91%E7%BB%9C/</link>
+      <pubDate>Mon, 15 May 2023 07:11:31 +0000</pubDate>
+      <guid>http://localhost:1313/categories/%E7%94%B5%E8%84%91%E7%BD%91%E7%BB%9C/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>网站相关</title>
+      <link>http://localhost:1313/categories/%E7%BD%91%E7%AB%99%E7%9B%B8%E5%85%B3/</link>
+      <pubDate>Thu, 06 Apr 2023 09:42:54 +0000</pubDate>
+      <guid>http://localhost:1313/categories/%E7%BD%91%E7%AB%99%E7%9B%B8%E5%85%B3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>生活记</title>
+      <link>http://localhost:1313/categories/%E7%94%9F%E6%B4%BB%E8%AE%B0/</link>
+      <pubDate>Thu, 01 Dec 2022 10:46:07 +0000</pubDate>
+      <guid>http://localhost:1313/categories/%E7%94%9F%E6%B4%BB%E8%AE%B0/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>啥都有</title>
+      <link>http://localhost:1313/categories/%E5%95%A5%E9%83%BD%E6%9C%89/</link>
+      <pubDate>Wed, 17 Aug 2022 09:58:10 +0000</pubDate>
+      <guid>http://localhost:1313/categories/%E5%95%A5%E9%83%BD%E6%9C%89/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>读书</title>
+      <link>http://localhost:1313/categories/%E8%AF%BB%E4%B9%A6/</link>
+      <pubDate>Mon, 27 Dec 2021 13:23:01 +0000</pubDate>
+      <guid>http://localhost:1313/categories/%E8%AF%BB%E4%B9%A6/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>免费资源</title>
+      <link>http://localhost:1313/categories/%E5%85%8D%E8%B4%B9%E8%B5%84%E6%BA%90/</link>
+      <pubDate>Thu, 26 Nov 2020 09:10:34 +0000</pubDate>
+      <guid>http://localhost:1313/categories/%E5%85%8D%E8%B4%B9%E8%B5%84%E6%BA%90/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>网络文摘</title>
+      <link>http://localhost:1313/categories/%E7%BD%91%E7%BB%9C%E6%96%87%E6%91%98/</link>
+      <pubDate>Mon, 02 Dec 2019 01:10:14 +0000</pubDate>
+      <guid>http://localhost:1313/categories/%E7%BD%91%E7%BB%9C%E6%96%87%E6%91%98/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>小女儿</title>
+      <link>http://localhost:1313/categories/%E5%B0%8F%E5%A5%B3%E5%84%BF/</link>
+      <pubDate>Mon, 24 Oct 2011 10:13:08 +0000</pubDate>
+      <guid>http://localhost:1313/categories/%E5%B0%8F%E5%A5%B3%E5%84%BF/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

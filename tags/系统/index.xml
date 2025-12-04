@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>系统 on 老刘博客</title>
+    <link>http://localhost:1313/tags/%E7%B3%BB%E7%BB%9F/</link>
+    <description>Recent content in 系统 on 老刘博客</description>
+    <image>
+      <title>老刘博客</title>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 08 Nov 2023 21:22:44 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E7%B3%BB%E7%BB%9F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EndeavourOS安装之后的几件事</title>
+      <link>http://localhost:1313/A-few-things-after-installing-EndeavourOS/</link>
+      <pubDate>Wed, 08 Nov 2023 21:22:44 +0800</pubDate>
+      <guid>http://localhost:1313/A-few-things-after-installing-EndeavourOS/</guid>
+      <description>&lt;p&gt;很多追求新，追求精简的Linux系统的使用者，往往都会推荐Arch Linux，这个系统特点是精简，精简到什么都需要你来搞定，所以也让很多人望而却步。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>很多追求新，追求精简的Linux系统的使用者，往往都会推荐Arch Linux，这个系统特点是精简，精简到什么都需要你来搞定，所以也让很多人望而却步。</p>
+<p><img alt="最终效果" loading="lazy" src="https://iliu.org/tupian/2023-11-08.png"></p>
+<p>后来有人根据Arch Linux开发出manjaro这个系统，一问世就获得了用户的好评，但是，后来manjaro的发展也偏离了初心，EndeavourOs可以简便了Arch Linux的安装，但是又不多添加零碎，是最接近Arch Linux的系统了。老刘原来用Ubuntu，但是又不想到处去找想要安装的软件，所以换成了EndeavourOs，为了打造更好用的系统，老刘安装后做了如下的优化，文章小白可以参考，大佬请路过。</p>
+<h2 id="安装输入法">安装输入法</h2>
+<p>老刘比较喜欢用的小狼毫的输入法，这个在Linux平台下，叫rime输入法，aur里什么都用，直接命令安装就行：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">yay ibus ibus-rime <span class="c1">#安装输入法框架及输入法</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#安装雾凇拼音</span>
+</span></span><span class="line"><span class="cl">git clone --depth<span class="o">=</span><span class="m">1</span> https://github.com/rime/plum 
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> plum
+</span></span><span class="line"><span class="cl">bash rime-install iDvel/rime-ice:others/recipes/full
+</span></span><span class="line"><span class="cl"><span class="c1">#以后更新词库这样</span>
+</span></span><span class="line"><span class="cl">bash rime-install iDvel/rime-ice:others/recipes/all_dicts
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="安装各种需要的软件">安装各种需要的软件</h2>
+<h3 id="微信和qq">微信和QQ</h3>
+<p>不得不说，腾讯真的阻碍了中国国产系统的发展，之前QQ死活不弄Linux的，后来出了一个不能用的Linux版本，直到今年才算出了真正意义上的QQ，但是现在微信Linux版依然是基本没法用，不过好在有wine，偶尔凑合的用一下还是可以的。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">yay linuxqq
+</span></span><span class="line"><span class="cl">yay wechat deepin
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>选择你喜欢的版本即可。</p>
+<h3 id="visual-studio-code">Visual Studio Code</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">yay visual studio code
+</span></span><span class="line"><span class="cl"><span class="c1">#这里不建议使用code那个版本，虽然是开源的，但是我觉得没有官方版本好用</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="笔记软件obsidian">笔记软件obsidian</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">yay obsidian
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="hugo">Hugo</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">yay hugo
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="zsh">zsh</h3>
+<p>系统自带的是bash，我比较喜欢用的是zsh，因为功能更强大。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo pacman -S zsh
+</span></span><span class="line"><span class="cl">sudo pacman -S zsh-autosuggestions
+</span></span><span class="line"><span class="cl">sudo pacman -S zsh-syntax-highlighting
+</span></span><span class="line"><span class="cl">sudo pacman -S zsh-theme-powerlevel10k
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>然后，设置默认shell位zsh</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">chsh -s /usr/bin/zsh
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>开始配置，我使用了一个脚本</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">yay -S oh-my-zsh-git
+</span></span><span class="line"><span class="cl">cp /usr/share/oh-my-zsh/zshrc ~/.zshrc
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>重新打开终端，应该就是zsh了，不过现在还不是很好用，我们需要在配置一下。</p>
+<p>编辑~/.zshrc文件，找到ZSH_THEME=“robbyrussell&quot;在这里改成自己想要的主题名字就行了，打开新的终端就能看到效果，我用的是agnoste。找到<code>plugins=(git)</code>这个位置，加上几个我们之前安装的插件。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nv">plugins</span><span class="o">=(</span>
+</span></span><span class="line"><span class="cl">git
+</span></span><span class="line"><span class="cl">autojump
+</span></span><span class="line"><span class="cl">zsh-syntax-highlighting
+</span></span><span class="line"><span class="cl">zsh-autosuggestions
+</span></span><span class="line"><span class="cl"><span class="o">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>注意，不要用逗号之类的标点符号。重新打开终端试试吧，比默认的bash好用的多了。</p>
+<h3 id="microsoft-edge">Microsoft edge</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">yay microsoft edge <span class="c1">#版本比较多，选你喜欢的安装即可</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>总而言之，用Arch Linux系，想要什么软件，直接yay即可。在这方面，要比Windows安装软件方便的多😄。</p>
+<h2 id="对系统进行一点优化">对系统进行一点优化</h2>
+<h3 id="安装插件">安装插件</h3>
+<p>gnome做的是实在太精简了，所以还要搞一点点的优化才用好。这个就需要用到插件了。Chrome和Firefox浏览器都用gnome的插件。在浏览器里搜gnome然后，安装上就行。不过这里有个坑，浏览器显示缺少一个叫chrome-gnome-shell软件，你的第一反应一定是</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">yay chrome gnome shell
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>但是很不幸，这个已经没有了，改名了，正确的做法是：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">yay -S gnome-browser-connector
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>现在你可以在浏览器上安装你要的插件了，目前用了以下三个</p>
+<h4 id="dash-to-dock">dash to dock</h4>
+<p>这个玩意不装的话，鼠标移动到dock栏不会自动出来，装上就方便很多</p>
+<h4 id="农历插件">农历插件</h4>
+<p>这个插件可以显示农历，但是节气有时候不太对。装之前需要装另外一个软件</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">yay -Sy lunar-date
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h4 id="天气插件">天气插件</h4>
+<p>这个插件可以在时间的那个位置显示天气信息，用的是挪威的天气源，能看个大概</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>VPS服务器系统的选择</title>
+      <link>http://localhost:1313/4126.html</link>
+      <pubDate>Fri, 27 May 2022 07:29:40 +0000</pubDate>
+      <guid>http://localhost:1313/4126.html</guid>
+      <description>&lt;p&gt;随着云业务的蓬勃发展，很多独立博客的博主，个人网站站长都抛弃了曾经的虚拟主机而选择VPS，vps相对于虚拟主机来说，容量更大，可玩性更高；同时，要对个人的要求也随之更高。玩VPS首先遇到的就是系统的选择问题。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>随着云业务的蓬勃发展，很多独立博客的博主，个人网站站长都抛弃了曾经的虚拟主机而选择VPS，vps相对于虚拟主机来说，容量更大，可玩性更高；同时，要对个人的要求也随之更高。玩VPS首先遇到的就是系统的选择问题。</p>
+<h2 class="wp-block-heading" id="windows系统">Windows系统</h2>
+<p>大多数的站长第一次选择系统的时候都是喜欢用windows系统，毕竟熟悉，上手快。但是Windows服务器系统先天上占用资源比较大，系统不稳定，导致获得不了良好的用户体验。同样1H1G配置的vps，运行最新版本的debian11，然后装个博客系统，是一点问题都没有，但是你要是想要运行Windows服务器，只能选择低版本的了。所以，用了一段时间后，自然就淘汰不用了。</p>
+<h2 class="wp-block-heading" id="linux系统">Linux系统</h2>
+<p>Linux系统是开源系统，受到所有开发者的共同监督，已经是非常成熟的服务器系统，并且拥有着一套完整的权限机制，安全性与稳定性都很高。只是上手有点门槛。不过，随着各种面板技术的发展，目前这个已经不是什么问题。那么Linux系统那么多，到底选择哪种呢？<figure class="wp-block-image size-full"></p>
+<p><img loading="lazy" decoding="async" width="800" height="320" src="https://tunan.org/wp-content/uploads/2022/05/2288ffcb6a9ebbe26f1bc0cc09130f5b.png" alt="" class="wp-image-4128" /> </figure></p>
+<h3 class="wp-block-heading" id="centos">centos</h3>
+<p>这个系统在国内可以说是服务器的首选。可惜去年官方已经不在继续维护这个系统了，目前最高的版本是centos8.0，目前官方已经不再维护，centos7.6由于用的人更多，目前还在过度的时间内，但是也时日无多了。所以，用这个系统的童鞋，还是换成别的系统吧。老刘曾用过腾讯云里腾讯自己以centos8为蓝本开发的系统，体验起来还是可以的。如果真是centos的铁粉，不妨可以试试腾讯的这个系统。<figure class="wp-block-image size-full"></p>
+<p><img loading="lazy" decoding="async" width="554" height="369" src="https://tunan.org/wp-content/uploads/2022/05/2a3092a9b86bc6425fbaa9ff49f79a36.png" alt="" class="wp-image-4129" /> </figure></p>
+<h3 class="wp-block-heading" id="debain">debain</h3>
+<p>这个也是老牌的服务器系统了。作为一个具有悠久历史的社区维护的操作系统。生命力还是没有问题的。据王志勇大佬的测试，使用Debian系统的php要比其他的系统来说，速度更快。老刘感觉，这个快可能更多的是测试的结果，实际体验下来，感觉相差不大。Debian系统稳定，软件丰富。自从centos宣布停止维护后，老刘已经把所有的VPS的系统都换成Debian了。<figure class="wp-block-image size-full"></p>
+<p><img loading="lazy" decoding="async" width="641" height="480" src="https://tunan.org/wp-content/uploads/2022/05/bd8b867419bc6c482857a4b0e04fb5bd.jpeg" alt="" class="wp-image-4130" /> </figure></p>
+<p>另外一个让老刘喜欢用Debian的原因是，Debian11的防火墙使用起来非常的简单，而别的系统大多是用的iptables。比如我们要放行一个端口，Debian只需用如下的命令：</p>
+<pre class="wp-block-code"><code>ufw allow 666</code></pre>
+<p>而iptables写法就很复杂了：</p>
+<pre class="wp-block-code"><code>iptables -I INPUT -p tcp --dport 8000 -j ACCEPT</code></pre>
+<h3 class="wp-block-heading" id="ubuntu">Ubuntu</h3>
+<p>是基于Debian二次开发的产物，在Linux桌面操作系统中，Ubuntu绝对是老大的存在。很多公司开发的软件，都是基于Ubuntu来开发的。服务器版也还可以，不过老刘还是习惯了使用Debian。</p>
+<p>至于其他的小众操作系统，使用的人少，遇到问题找答案都不容易，不用也罢</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>最终还是用回了Linux mint</title>
+      <link>http://localhost:1313/3932.html</link>
+      <pubDate>Mon, 01 Nov 2021 01:56:20 +0000</pubDate>
+      <guid>http://localhost:1313/3932.html</guid>
+      <description>&lt;p&gt;安装统信uos后，一度用着挺不的，各方面都很满意，于是花了9.9激活了，结果激活后没多久就感觉不好了。原因是和deepin的毛病一样，莫名其妙的，桌面卡死，闪屏，或者直接黑屏了。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>安装统信uos后，一度用着挺不的，各方面都很满意，于是花了9.9激活了，结果激活后没多久就感觉不好了。原因是和deepin的毛病一样，莫名其妙的，桌面卡死，闪屏，或者直接黑屏了。</p>
+<p>幸亏遇到的时候，都是在用浏览器看一些网页的时候，真要是我在写程序的时候给我来这么一出，不得郁闷死。</p>
+<p>说实话，uos真的挺满意的，各方面做的真都不错，可惜稳定性是个硬伤。</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

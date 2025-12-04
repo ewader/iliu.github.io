@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Mysql on 老刘博客</title>
+    <link>http://localhost:1313/tags/mysql/</link>
+    <description>Recent content in Mysql on 老刘博客</description>
+    <image>
+      <title>老刘博客</title>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 18 Nov 2022 00:17:14 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Django设置使用MySql的时候遇到的一些坑</title>
+      <link>http://localhost:1313/4298.html</link>
+      <pubDate>Fri, 18 Nov 2022 00:17:14 +0000</pubDate>
+      <guid>http://localhost:1313/4298.html</guid>
+      <description>&lt;p&gt;Django默认使用的数据库是sqllit,如果是一个小项目的话是完全够用的，但是如果考虑到这个项目未来的话，一般都会换成Mysql或者其他更专业的数据库。本文，就来说说，在设置使用mysql的时候，遇到的一些问题及解决的方法。&lt;figure class=&#34;wp-block-image&#34;&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Django默认使用的数据库是sqllit,如果是一个小项目的话是完全够用的，但是如果考虑到这个项目未来的话，一般都会换成Mysql或者其他更专业的数据库。本文，就来说说，在设置使用mysql的时候，遇到的一些问题及解决的方法。<figure class="wp-block-image"></p>
+<p><img decoding="async" src="https://cdn.staticaly.com/gh/ewader/img@master/20221118/OIP-C.3x9vnetzw6m0.webp" alt="OIP-C" /> </figure></p>
+<h2 class="wp-block-heading" id="项目里设置引用mysql">项目里设置引用Mysql</h2>
+<p>在setting.py里,把原来使用sqllit的语句删除或者注释掉，添加如下代码</p>
+<pre class="wp-block-code"><code>DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',   # 数据库引擎
+        'NAME': '',  # 数据库名，先前创建的
+        'USER': '',     # 用户名，可以自己创建用户
+        'PASSWORD': '',  # 密码
+        'HOST': '127.0.0.1',  # mysql服务所在的主机ip
+        'PORT': '3306',         # mysql服务端口
+    }
+}</code></pre>
+<p><strong>安装Python访问MySQL的模块</strong></p>
+<p>Django官方已经不建议使用pymysql库了，而是改用mysqlclient，直接pip安装即可。</p>
+<pre class="wp-block-code"><code>pip install mysqlclient</code></pre>
+<p>在debian11上安装的时候，显示OSError: mysql_config not found的错误，查询得知，需要安装libmysqlclient-dev，但是用apt install libmysqlclient-dev的时候，安装不成功，提示是另一个分支，建议安装libmariadb-dev。所以安装这个即可。</p>
+<pre class="wp-block-code"><code>apt install libmariadb-dev</code></pre>
+<p>出错：error: command ‘x86_64-linux-gnu-gcc’ failed: No such file or directory</p>
+<pre class="wp-block-code"><code>sudo apt-get install build-essential python3-dev libssl-dev libffi-dev libxml2 libxml2-dev libxslt1-dev zlib1g-dev
+</code></pre>]]></content:encoded>
+    </item>
+  </channel>
+</rss>

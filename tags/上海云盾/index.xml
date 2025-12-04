@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>上海云盾 on 老刘博客</title>
+    <link>http://localhost:1313/tags/%E4%B8%8A%E6%B5%B7%E4%BA%91%E7%9B%BE/</link>
+    <description>Recent content in 上海云盾 on 老刘博客</description>
+    <image>
+      <title>老刘博客</title>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 26 May 2019 02:29:32 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E4%B8%8A%E6%B5%B7%E4%BA%91%E7%9B%BE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>上海云盾CDN简要设置指南</title>
+      <link>http://localhost:1313/1653.html</link>
+      <pubDate>Sun, 26 May 2019 02:29:32 +0000</pubDate>
+      <guid>http://localhost:1313/1653.html</guid>
+      <description>&lt;p&gt;在免费cdn市场上，广大站长所使用的一般是又拍云cdn，360网站加速，上海云盾cdn以及腾讯云cdn，笔者以前也是使用的又拍云cdn,可能是和又拍云犯冲又或者是自己设置的不对，网站总出现这样那样的问题，后来把cdn转移到了上海云顿，网站之前的问题就没有再出现，于是就一直用了下去，当时觉得上海云盾的设置很简单，昨天，青山绿水博客的的博主小朋友问我上海云盾的设置小技巧，说实话真没有啥技巧，就把自己的一些设置弄出来，可能还有更多优化的地方，欢迎指正。&lt;figure class=&#34;content-img-box&#34; id=&#34;1648&#34;&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>在免费cdn市场上，广大站长所使用的一般是又拍云cdn，360网站加速，上海云盾cdn以及腾讯云cdn，笔者以前也是使用的又拍云cdn,可能是和又拍云犯冲又或者是自己设置的不对，网站总出现这样那样的问题，后来把cdn转移到了上海云顿，网站之前的问题就没有再出现，于是就一直用了下去，当时觉得上海云盾的设置很简单，昨天，青山绿水博客的的博主小朋友问我上海云盾的设置小技巧，说实话真没有啥技巧，就把自己的一些设置弄出来，可能还有更多优化的地方，欢迎指正。<figure class="content-img-box" id="1648"></p>
+<p><img decoding="async" alt="上海云盾CDN简要设置指南" src="https://tunan.org/wp-content/uploads/2019/05/11cf5e35493e7e.PNG" id="FBD648EF" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
+<p>云盾的cdn登录后的界面，我们一般也就用到cdn功能，可以在性能优化里面设置。上海云盾每月送50g的流量，对于小博客来说是够用了，不过送的流量并没有显示出来，和官方人员也有过沟通，他说你用就行了，反正每月50g。<figure class="content-img-box" id="1649"></p>
+<p><img decoding="async" alt="上海云盾CDN简要设置指南" src="https://tunan.org/wp-content/uploads/2019/05/11cef75ca30898.PNG" id="BFF97107" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
+<p>点击性能优化后，就进入了CDN设置的地方，首先要添加网站，添加后系统会给你一个cname地址，在你的域名解析的地方，把你的网站解析到这个地址上，添加后就要等云盾的审核了，一般情况下需要1-2小时的时间。<figure class="content-img-box" id="1650"></p>
+<p><img decoding="async" alt="上海云盾CDN简要设置指南" src="https://tunan.org/wp-content/uploads/2019/05/182c019a5ea59f.PNG" id="0834B9EB" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
+<h2 id="回源配置">回源配置</h2>
+<p>域名审核通过后，域名后面的控制台，就进入了cdn的设置项，设置项很简单，有三个方面，第一个方面是回源配置，在这里你需要设置你的http协议，回源的地址以及端口，http的话是80端口，https的话一般是443端口。<figure class="content-img-box" id="1651"></p>
+<p><img decoding="async" alt="上海云盾CDN简要设置指南" src="https://tunan.org/wp-content/uploads/2019/05/19ed8ef85cfce4.PNG" id="80815A65" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
+<h2 id="性能优化">性能优化</h2>
+<p>这里是设置缓存的地方，根据自己网站的情况具体设置即可，镜缘轩这个网站的设置情况如上图，笔者把js和css以及图片视频等都设置的缓存15天，其他目录设置的是半小时。可以根据自己的实际情况来设置。</p>
+<p>另外这里还有一个是不缓存的设置，一般把你网站的后台目录设置成不缓存即可。<figure class="content-img-box" id="1652"></p>
+<p><img decoding="async" alt="上海云盾CDN简要设置指南" src="https://tunan.org/wp-content/uploads/2019/05/1950d76b6fec97.PNG" id="8EB6FC76" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
+<h2 id="高级配置">高级配置</h2>
+<p>这个配置项有搜索引擎优化，这里把你源站的ip地址输入里面即可，还有一些https的设置，值得说明的是上海云盾的ssl证书是在公共组件里上传和修改的。，高级配置本人就做了这两项，其他的都默认配置即可。</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>服务器重装 on 老刘博客</title>
+    <link>http://localhost:1313/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%87%8D%E8%A3%85/</link>
+    <description>Recent content in 服务器重装 on 老刘博客</description>
+    <image>
+      <title>老刘博客</title>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 12 Jul 2019 08:59:58 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%87%8D%E8%A3%85/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>记一次因为标点符号导致重装服务器的经历</title>
+      <link>http://localhost:1313/2257.html</link>
+      <pubDate>Fri, 12 Jul 2019 08:59:58 +0000</pubDate>
+      <guid>http://localhost:1313/2257.html</guid>
+      <description>&lt;p&gt;前两天的时候，&lt;a href=&#34;https://www.yanjingweb.cn/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;镜缘轩&lt;/a&gt;网站出了点问题，加上那个服务器被我折腾的乱七八糟的，所以就想重新弄一下生产环境。为了不影响网站的访问，就先暂时把网站解析到另外一台阿里云香港的服务器上。转到香港后，其实用起来也不错，和国内的访问确实没有感觉出来，再加上有点忙，就一直拖着没有动手。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>前两天的时候，<a href="https://www.yanjingweb.cn/" target="_blank" rel="noopener noreferrer">镜缘轩</a>网站出了点问题，加上那个服务器被我折腾的乱七八糟的，所以就想重新弄一下生产环境。为了不影响网站的访问，就先暂时把网站解析到另外一台阿里云香港的服务器上。转到香港后，其实用起来也不错，和国内的访问确实没有感觉出来，再加上有点忙，就一直拖着没有动手。</p>
+<p>今天终于抽出时间来弄这个。本来装好系统之后，心血来潮想用用宝塔，毕竟鼠标点比输入代码要方便的多，装上宝塔之后申请<span style="background-color: rgb(255, 255, 255); color: rgb(102, 0, 153);">Let’s Encrypt</span><span style="background-color: rgb(255, 255, 255);">证书的时候总是出错，而且没有提示出错的原因，其实在宝塔那里也是可以申请ssl证书的，不过又是需要实名认证，而且不能续签，因为信不过这类小公司，所以遇到实名认证的这玩意就敬而远之了，所以，就删除了宝塔用自己习惯的oneinstack。</span><figure class="content-img-box" id="2256"></p>
+<p><img decoding="async" alt="记一次因为标点符号导致重装服务器的经历" src="https://tunan.org/wp-content/uploads/2019/07/10945526b82d2e.png" id="F23D4457" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
+<p><span style="background-color: rgb(255, 255, 255);">由于7b2主题的新版要使用phg7.3，而旧版本只能使用php7.2，所以为了以后少折腾就选择安装两个php版本，结果所有的步骤都完成了，Let’s Encrypt也很顺利的申请了泛域名证书。但是，却出现了一个问题,打开网址出现了</span>SWOOLEC Loader ext not installed的提示，但是我明明都是按照要求设置的了。</p>
+<p>于是，我就先怀疑是不是因为多安装了php7.3的原因，于是把7.3卸载掉，还是不行，又把php7.2卸载掉，并重新安装，还是不行。最后，我觉得可能是由于先前安装宝塔面板的影响导致。于是再次重装系统。</p>
+<p>重装后，安装完生产环境，根据7b2的要求设置php.ini的时候，我一下发现了问题的所在。原来第一次，我设置php.ini的时候，为了省事，直接在终端里用vi编辑的，在回车后，在语法的前面多了一个“;”。本来是extension = swoole_loader72.so；变成了;extension = swoole_loader72.so。</p>
+<p>这样的结果就是，系统没有调用 <span style="background-color: rgb(255, 255, 255); color: rgb(51, 51, 51);">swoole_loader72.so，所以，也就不奇怪会出现SWOOLEC Loader ext not installed的提示。这件小事告诉我，以后一定要更细心一些，考虑更全面一下，不要遇到不好解决的事情就推倒重来。</span></p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

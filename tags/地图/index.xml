@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>地图 on 老刘博客</title>
+    <link>http://localhost:1313/tags/%E5%9C%B0%E5%9B%BE/</link>
+    <description>Recent content in 地图 on 老刘博客</description>
+    <image>
+      <title>老刘博客</title>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 24 Feb 2024 14:42:58 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E5%9C%B0%E5%9B%BE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2024年，高德地图和百度地图选哪个？</title>
+      <link>http://localhost:1313/posts/comparison-between-autonavi-map-and-baidu-map/</link>
+      <pubDate>Sat, 24 Feb 2024 14:42:58 +0800</pubDate>
+      <guid>http://localhost:1313/posts/comparison-between-autonavi-map-and-baidu-map/</guid>
+      <description>&lt;p&gt;在网上经常看到网友询问百度地图和高德地图如何选择，网上的文章要么太老，要么太老，要么太老，没有什么参考价值。为什么这么说呢，因为现在导航技术加上北斗的支持，已经远远不是文章的那个年代所用的技术了。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>在网上经常看到网友询问百度地图和高德地图如何选择，网上的文章要么太老，要么太老，要么太老，没有什么参考价值。为什么这么说呢，因为现在导航技术加上北斗的支持，已经远远不是文章的那个年代所用的技术了。</p>
+<p>我之前也在博客群里问相关的问题，得到的答案一般都是推荐高德导航，理由是高德更纯粹，他是靠导航来吃饭的，如果导航做不好，他就无法很好的生存；相反百度是一个大杂烩，什么都搞，什么都搞不好。我也是一直在用高德导航。不过，前几天的一次试用百度导航，让我对百度地图的看法有些不少的改变。下面就详细的说一说：</p>
+<h2 id="两个导航的相同点">两个导航的相同点</h2>
+<p>目前两个导航都支持车道级的导航。都不单单是纯粹的地图软件，上面商家广告等等，如果把名字互相换一下，你根本就分辨不出来谁是谁。另外就是导航语音的选择、什么拥堵的算法等等，也都非常的相似。没有什么好比较的。</p>
+<h2 id="高德地图的亮点与不足">高德地图的亮点与不足</h2>
+<p>高德的亮点在于如果你和别的司机都装有高德地图，在会车的时候会提示你注意安全，你的后方有车辆快速驶近的时候，高德也会提醒。</p>
+<p>不足之处在于，高德也是号称车道级导航，但是很不明显，从地图上根本看不到你在哪个车道行驶。</p>
+<h2 id="百度地图的亮点和不足">百度地图的亮点和不足</h2>
+<p>高德的不足就是百度的亮点，百度地图的车道级导航就很明确，你的车在哪个车道行驶，在地图上一目了然。而且百度还通过大数据算法，给你推荐最优的车道。这点的好处很多，比如前方有事故，百度就会很明确的给你提示事故在哪个车道，并推荐最优的车道给你，另外一个很贴心的功能是临近高速的出口的时候，其他的车道在地图上都会有个红叉叉，提示你不要从那边走，这对新手司机来说尤其友好。我媳妇最怕的就是不知道从哪个出口下高速……</p>
+<p>当然，百度地图的不足就是高德的亮点，百度地图目前还没有诸如会车提醒这样的功能。</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

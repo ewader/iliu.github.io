@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>网站 on 老刘博客</title>
+    <link>http://localhost:1313/tags/%E7%BD%91%E7%AB%99/</link>
+    <description>Recent content in 网站 on 老刘博客</description>
+    <image>
+      <title>老刘博客</title>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 16 Sep 2025 10:37:19 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E7%BD%91%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>解决腾讯 EdgeOne 域名解析与 SSL 证书申请失败问题</title>
+      <link>http://localhost:1313/troubleshooting-tencent-edgeone-a-dnssec-odyssey/</link>
+      <pubDate>Tue, 16 Sep 2025 10:37:19 +0800</pubDate>
+      <guid>http://localhost:1313/troubleshooting-tencent-edgeone-a-dnssec-odyssey/</guid>
+      <description>&lt;p&gt;前几个月，我关注到腾讯新推出的 &lt;strong&gt;EdgeOne&lt;/strong&gt; 服务。这款产品无需备案和实名，而且提供免费额度，对于个人网站来说非常友好。刚发布时兑换码一码难求，我并没有太多关注。后来，腾讯推出了一个活动，只要在 X（原 Twitter）上转发推文，就能获得两个兑换码。我成功领取并兑换了一个，并将其用于我的“镜缘轩”网站。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>前几个月，我关注到腾讯新推出的 <strong>EdgeOne</strong> 服务。这款产品无需备案和实名，而且提供免费额度，对于个人网站来说非常友好。刚发布时兑换码一码难求，我并没有太多关注。后来，腾讯推出了一个活动，只要在 X（原 Twitter）上转发推文，就能获得两个兑换码。我成功领取并兑换了一个，并将其用于我的“镜缘轩”网站。</p>
+<p>我的“镜缘轩”网站部署在 CloudCone 的 VPS 上，访问速度一直不尽如人意。接入 EdgeOne 后，网站速度有了显著提升，这让我决定将我的博客也套上这个服务。</p>
+<h3 id="域名解析遇到的第一个问题cname-扁平化">域名解析遇到的第一个问题：CNAME 扁平化</h3>
+<p>在将博客主域名 <code>iliu.org</code> 通过 <strong>CNAME</strong> 解析到 EdgeOne 提供的地址后，我发现 EdgeOne 无法识别解析成功。奇怪的是，“镜缘轩”网站的解析过程却非常顺利。</p>
+<p>经过一番排查，我发现问题出在 Cloudflare 的 **CNAME 扁平化（CNAME Flattening）**功能上。由于我的博客使用的是主域名，而 Cloudflare 的免费套餐又不支持自定义 NS 地址，它的 CNAME 扁平化技术导致 EdgeOne 无法正确识别解析。我决定将域名从 Cloudflare 转移出去。</p>
+<h3 id="域名转移与-dnssec-冲突">域名转移与 DNSSEC 冲突</h3>
+<p>我选择了之前用过的 <strong>Name.com</strong> 作为新的域名注册商。虽然转移费用比 Cloudflare 略贵，但我也能接受。现在想来，当时没有做更多功课，如果选择了 <strong>Spaceship</strong>，或许会是更好的选择。</p>
+<p>域名转移到 Name.com 后，EdgeOne 成功识别了 CNAME 解析。然而，我又遇到了新的问题：<strong>SSL 证书申请一直失败</strong>。</p>
+<p>我仔细研究了失败原因，发现一些海外的 <strong>DNS 服务器</strong>无法正常解析我的域名。我以为是 DNS 记录同步需要时间，便没有多想。但等了一周后，美国和欧洲的一些 DNS 服务器依然无法解析我的域名。</p>
+<h3 id="问题根源dnssec-签名记录冲突">问题根源：DNSSEC 签名记录冲突</h3>
+<p>为了找到问题的根源，我向 Gemini 寻求帮助。它建议我使用 <code>dig</code> 命令进行分析。我在终端输入了以下命令：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">dig iliu.org A @8.8.8.8
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>获得的查询结果显示 <code>status: SERVFAIL</code>，并在 <code>EDE</code> 部分提示：<code>10 (RRSIGs Missing)</code>。Gemini 根据这个结果判断，问题出在我的域名 <code>iliu.org</code> 的 <strong>DNSSEC 签名记录配置</strong>上。</p>
+<p>原来，我在 Cloudflare 启用过 DNSSEC，这在 <code>.org</code> 域名注册局（如 Afilias）留下了一个 <strong>DS (Delegation Signer)</strong>  记录。这个记录告诉解析器：“这个域名启用了 DNSSEC，请去其权威 DNS 服务器（也就是 Name.com 的服务器）验证签名。”</p>
+<p>然而，Name.com 本身<strong>不支持 DNSSEC</strong>。这就导致了矛盾：注册局要求用 DNSSEC 验证，但 Name.com 却无法提供。因此，当海外的 DNS 服务器尝试进行验证时，就会导致解析失败。与此同时，中国大陆和亚洲的一些 DNS 服务器可能由于配置更宽松，所以可以正常解析。</p>
+<p>找到问题根源后，我立即登录 Name.com 的后台，找到了 <strong>DNSSEC 设置</strong>并删除了 <strong>DS 记录</strong>。几分钟后，EdgeOne 成功申请了 SSL 证书，困扰我多日的难题也迎刃而解。</p>
+<p>希望我的这段经历能帮助遇到类似问题的朋友们少走弯路！</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>文字是最好的时间容器</title>
+      <link>http://localhost:1313/writing-the-ultimate-time-capsule/</link>
+      <pubDate>Sat, 13 Sep 2025 10:41:42 +0800</pubDate>
+      <guid>http://localhost:1313/writing-the-ultimate-time-capsule/</guid>
+      <description>&lt;p&gt;前几天，加入多年的“&lt;a href=&#34;https://foreverblog.cn/&#34;&gt;十年之约&lt;/a&gt;”QQ群被腾讯封了。这事儿引发了一系列风波，项目负责人也换了，还有人冷嘲热讽：“十年之约自己都没坚持十年”。&lt;/p&gt;
+&lt;p&gt;说实话，我当初加入这个项目，就是给自己一个写博客的提醒，没想太多别的。可人多的地方是非多，这是没办法的事。博客能不能坚持下去，其实和加不加入什么组织没有太大关系。这取决于你的&lt;strong&gt;初心&lt;/strong&gt;。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>前几天，加入多年的“<a href="https://foreverblog.cn/">十年之约</a>”QQ群被腾讯封了。这事儿引发了一系列风波，项目负责人也换了，还有人冷嘲热讽：“十年之约自己都没坚持十年”。</p>
+<p>说实话，我当初加入这个项目，就是给自己一个写博客的提醒，没想太多别的。可人多的地方是非多，这是没办法的事。博客能不能坚持下去，其实和加不加入什么组织没有太大关系。这取决于你的<strong>初心</strong>。</p>
+<p>如果你的初心是想靠博客赚钱，我估计很难坚持十年。毕竟，大部分博主都赚不到什么钱，变现之路远比想象中要坎坷。但如果你只是想通过博客留下点东西，并且能从写作中以及日后的重读中找到乐趣，那有没有组织都无所谓，你照样会坚持很久。这种纯粹的乐趣，才是最持久的动力。</p>
+<p>昨天，<a href="https://laozhang.org/">老张</a>问我为什么联邦宇宙里突然出现了好多我2019年甚至更早的文章。</p>
+<p>其实是因为我在整理博客。当初从 <strong>Hugo</strong> 转到 <strong>Ghost</strong> 时，<a href="https://iliu.org/blog-frome-hugo-to-ghost/">我用 </a><strong><a href="https://iliu.org/blog-frome-hugo-to-ghost/">ChatGPT</a></strong><a href="https://iliu.org/blog-frome-hugo-to-ghost/"> 写了个小程序来转换</a>，结果不是很完美，很多文章都没分类。趁着下雨天没事，我就把那些没分类的文章重新分了分。虽然没有重新发布，但不知道怎么的，这些文章就同步到了联邦宇宙里。今天看了看老张的长毛象，好家伙，几千条嘟文了。这一下子，把我的老底都给翻了个遍。</p>
+<p>在给旧文章分类的过程中，我也顺便回顾了过去。虽然那时候的文笔和现在有很大区别，有些句子现在看起来甚至有些幼稚，但从中我看到了这十几年来<strong>互联网的变迁</strong>，也看到了我**<a href="https://iliu.org/tag/qinzi/">女儿从还在襁褓中到蹒跚学步再到慢慢长大</a>**的过程。很多事我早已不记得了，却能从文章中找回从前的记忆。那些曾经的困惑、喜悦、迷茫和坚持，都通过文字被重新激活。</p>
+<p>我想，这或许就是坚持写博客的意义所在。它不仅仅是记录信息，更是在<strong>记录时间</strong>。</p>
+<p>这十多年来，我的博客也曾断更过，博客程序也从 <strong>WordPress</strong> 到<a href="https://iliu.org/blog-frome-hugo-to-ghost/"> </a><strong><a href="https://iliu.org/blog-frome-hugo-to-ghost/">Hugo</a></strong><a href="https://iliu.org/blog-frome-hugo-to-ghost/"> 再到 </a><strong><a href="https://iliu.org/blog-frome-hugo-to-ghost/">Ghost</a></strong>，但数据一直都保存着。<strong>WordPress</strong> 的强大和臃肿，<strong>Hugo</strong> 的轻便和静态，再到 <strong>Ghost</strong> 的简洁和专注，每一次平台的更换，都代表着我对博客形式和内容的不同理解。但无论形式如何变化，内容才是最核心的。反观一些曾经很火的平台，比如 <strong>百度空间</strong>、<strong>新浪博客</strong>、<strong>网易博客</strong>&hellip; 如今都已成为历史。现在大火的公众号、各种号，将来某一天，当有更吸引人眼球的事物出现时，它们或许也会成为过去。</p>
+<p>只有自己的博客，才是真正属于自己的地方，它就像一个<strong>数字化的日记本</strong>，记录着一个人的成长轨迹和思想变迁，不受任何平台的限制，只要你想，就可以永久保存。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>把眼镜商城关了</title>
+      <link>http://localhost:1313/4272.html</link>
+      <pubDate>Fri, 14 Oct 2022 03:26:57 +0000</pubDate>
+      <guid>http://localhost:1313/4272.html</guid>
+      <description>&lt;p&gt;前几天，接到WJ打来的电话，说是网站上有一个漏洞需要处理，问在不在办公室，在的话他到办公室和我详谈。&lt;/p&gt;
+&lt;p&gt;由于疫情被封在家中，如实告诉了他。后来加了微信，发过来了一份他们系统扫描出来的漏洞。好家伙，还真不少嘞。又仔细一看，也就一个所谓的http host头攻击漏洞。百度上搜了一下，基本上都是绿盟科技的软件扫出来的，具体描述如下：&lt;figure class=&#34;wp-block-image size-full&#34;&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>前几天，接到WJ打来的电话，说是网站上有一个漏洞需要处理，问在不在办公室，在的话他到办公室和我详谈。</p>
+<p>由于疫情被封在家中，如实告诉了他。后来加了微信，发过来了一份他们系统扫描出来的漏洞。好家伙，还真不少嘞。又仔细一看，也就一个所谓的http host头攻击漏洞。百度上搜了一下，基本上都是绿盟科技的软件扫出来的，具体描述如下：<figure class="wp-block-image size-full"></p>
+<p><img loading="lazy" decoding="async" width="708" height="469" src="https://tunan.org/wp-content/uploads/2022/10/cb4364d70a67625.webp" alt="" class="wp-image-4273" /> </figure></p>
+<p>按照网上的教程很容易的就把这个漏洞修复了。</p>
+<pre class="wp-block-code"><code>server {
+        listen      8081;
+        server_name  ip1;
+        if ($http_Host !~* ip1|ip1:4433|域名1|域名1:4433)
+        {
+            return 403;
+        }
+...
+}
+</code></pre>
+<p>第二天，他又联系我百度小程序是不是在用，我告知在用，并告知他漏洞已经修复。他又打电话过来，询问如何保证用户信息的安全。我告诉他，首先使用的是腾讯云的云服务器，腾讯方面已经作了诸多的安全防护措施，第二，我们又使用了网络防火墙等技术，防止注入。第三，使用ssl对数据的传输进行加密。</p>
+<p>他不置可否，然后说，你解封之后在联系我吧。见面了详谈，我就很疑惑，漏洞也修复了，还有什么可详谈的呢?咨询了一下，可能是想要让做等保，这个真做不起。反正也没啥流量，最关键的是，不想和他们打交道，直接关站了事。</p>
+<p>我把决定告诉了他，以前回复的很及时，还很客气的用敬语的您来和我对话，这次不理我了……</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>转到virmach</title>
+      <link>http://localhost:1313/3934.html</link>
+      <pubDate>Fri, 05 Nov 2021 04:05:56 +0000</pubDate>
+      <guid>http://localhost:1313/3934.html</guid>
+      <description>&lt;p&gt;看看篱落的VPS月底就到期了，也不打算再续费了。去年在Virmach买了一个便宜的VPS，2h2g才20$,算下来也就是人民币100来块钱，这一年来放了一个小玩艺，也稳定的，王志勇大佬貌似一直都是用的这个。反正就是个博客呗，放那都行，反正也没有几个人看。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>看看篱落的VPS月底就到期了，也不打算再续费了。去年在Virmach买了一个便宜的VPS，2h2g才20$,算下来也就是人民币100来块钱，这一年来放了一个小玩艺，也稳定的，王志勇大佬貌似一直都是用的这个。反正就是个博客呗，放那都行，反正也没有几个人看。</p>
+<p> </p>
+<p>用了10几分钟弄完了，其实感觉速度也还行。</p>
+<img loading="lazy" decoding="async" class="alignnone size-full wp-image-3935" src="https://tunan.org/wp-content/uploads/2021/11/iliu_org_20211105120520505832.png" alt="" width="1480" height="511" srcset="https://tunan.org/wp-content/uploads/2021/11/iliu_org_20211105120520505832.png 1480w, https://tunan.org/wp-content/uploads/2021/11/iliu_org_20211105120520505832-768x265.png 768w" sizes="(max-width: 1480px) 100vw, 1480px" />]]></content:encoded>
+    </item>
+    <item>
+      <title>网站卖不卖？</title>
+      <link>http://localhost:1313/3317.html</link>
+      <pubDate>Thu, 15 Oct 2020 02:43:53 +0000</pubDate>
+      <guid>http://localhost:1313/3317.html</guid>
+      <description>&lt;p&gt;最近好几位博友的博客都卖了，比如叶先生博客，诗梦博客，自然博客。网站能变现是一个好事。但是，如果有人问我，你的网站卖不卖的话，我的网站会不会出售呢？&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>最近好几位博友的博客都卖了，比如叶先生博客，诗梦博客，自然博客。网站能变现是一个好事。但是，如果有人问我，你的网站卖不卖的话，我的网站会不会出售呢？</p>
+<p>如果是那个眼镜网站的话，说实话会考虑一下，价格合适的话，应该是会出手的。但是如果是这个博客的话，真的不会卖的（当然，这个博客就那么三核桃俩枣的流量也没人买），上午又特地去上述的几个博客看了一下，更坚定了这个想法。毕竟博客是自己现在乃至以后能留下的回忆。</p>
+<p>昨天看到<a href="https://www.zhangbo.org">张波</a>老师有想要折腾了，张老师一年不折腾个一次是不会罢休的，?。我默默的给眼镜网装了个<strong>Redis和又拍云的插件。</strong></p>
+<p>貌似速度快了那么一丢丢！~</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>再说说景安的服务</title>
+      <link>http://localhost:1313/2697.html</link>
+      <pubDate>Sat, 07 Sep 2019 03:35:21 +0000</pubDate>
+      <guid>http://localhost:1313/2697.html</guid>
+      <description>&lt;p&gt;自从上次看到景安欠薪的消息以后，虽然觉得很惋惜，但是也没有太放在心上，毕竟作为河南最大的IDC，还是再新三板上市的企业，不可能马上就挂的，况且里面还有周鸿祎的股份，所以还是照旧使用原来的服务器。&lt;br&gt;
+&lt;a href=&#34;https://tunan.org/wp-content/uploads/2019/07/129c3de904bde5.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;810&#34; height=&#34;456&#34; src=&#34;https://tunan.org/wp-content/uploads/2019/07/129c3de904bde5.jpg&#34; alt=&#34;&#34; class=&#34;aligncenter size-full wp-image-2309&#34; srcset=&#34;https://tunan.org/wp-content/uploads/2019/07/129c3de904bde5.jpg 810w, https://tunan.org/wp-content/uploads/2019/07/129c3de904bde5-768x432.jpg 768w&#34; sizes=&#34;(max-width: 810px) 100vw, 810px&#34; /&gt;&lt;/a&gt;&lt;br&gt;
+不过最近以来发生的事情让我对景安的后续有了疑虑，姑且不说欠薪的事情，最近总感觉网站是不是的卡一下。前一段时间出现数据库链接不上的问题，查了额下是内存有点小了，毕竟是1g的内存，既然小了那就再加上1g，花了300来块钱，数据库掉线的问题倒是解决了，但是网站还是时不时的卡一下下。表现为，网站能正常打开，在打开某一个页面的时候，一直加载，然后就加载不了啦，换个浏览器在打开，就可以打开了。次数出现的多了之后，我就想是不是服务器的问题。然后就切换到前年买的的一个111配置的香港阿里云上来试试。&lt;br&gt;
+结果，我去，网页卡一下的问题没有了。&lt;br&gt;
+用一个缙哥哥网站上一个测试服务器的代码测试了一下，景安的这台服务器不管是I/O还是在CPU跑分等方面都完爆阿里云的这台，但是却没有阿里云的香港的流畅，感觉景安的网络是没有人精心维护了。。。。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>自从上次看到景安欠薪的消息以后，虽然觉得很惋惜，但是也没有太放在心上，毕竟作为河南最大的IDC，还是再新三板上市的企业，不可能马上就挂的，况且里面还有周鸿祎的股份，所以还是照旧使用原来的服务器。<br>
+<a href="https://tunan.org/wp-content/uploads/2019/07/129c3de904bde5.jpg"><img loading="lazy" decoding="async" width="810" height="456" src="https://tunan.org/wp-content/uploads/2019/07/129c3de904bde5.jpg" alt="" class="aligncenter size-full wp-image-2309" srcset="https://tunan.org/wp-content/uploads/2019/07/129c3de904bde5.jpg 810w, https://tunan.org/wp-content/uploads/2019/07/129c3de904bde5-768x432.jpg 768w" sizes="(max-width: 810px) 100vw, 810px" /></a><br>
+不过最近以来发生的事情让我对景安的后续有了疑虑，姑且不说欠薪的事情，最近总感觉网站是不是的卡一下。前一段时间出现数据库链接不上的问题，查了额下是内存有点小了，毕竟是1g的内存，既然小了那就再加上1g，花了300来块钱，数据库掉线的问题倒是解决了，但是网站还是时不时的卡一下下。表现为，网站能正常打开，在打开某一个页面的时候，一直加载，然后就加载不了啦，换个浏览器在打开，就可以打开了。次数出现的多了之后，我就想是不是服务器的问题。然后就切换到前年买的的一个111配置的香港阿里云上来试试。<br>
+结果，我去，网页卡一下的问题没有了。<br>
+用一个缙哥哥网站上一个测试服务器的代码测试了一下，景安的这台服务器不管是I/O还是在CPU跑分等方面都完爆阿里云的这台，但是却没有阿里云的香港的流畅，感觉景安的网络是没有人精心维护了。。。。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>关于三个网站以后的定位</title>
+      <link>http://localhost:1313/2634.html</link>
+      <pubDate>Fri, 30 Aug 2019 02:47:22 +0000</pubDate>
+      <guid>http://localhost:1313/2634.html</guid>
+      <description>&lt;p&gt;目前跋涉者共维护了3个网站:&lt;/p&gt;
+&lt;h2 id=&#34;镜缘轩网址httpswwwyanjingwebcn&#34;&gt;镜缘轩：网址：https://www.yanjingweb.cn。&lt;/h2&gt;
+&lt;p&gt;可以说这个网站是一个跑偏了的网站，最开始的时候仅仅是打算做一个自己眼镜店的官网，并且承载一些客户资料方面的内容，方便客户随时在网上查询自己的数据，可惜的是能力有限，没有做出自己想要的网站。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>目前跋涉者共维护了3个网站:</p>
+<h2 id="镜缘轩网址httpswwwyanjingwebcn">镜缘轩：网址：https://www.yanjingweb.cn。</h2>
+<p>可以说这个网站是一个跑偏了的网站，最开始的时候仅仅是打算做一个自己眼镜店的官网，并且承载一些客户资料方面的内容，方便客户随时在网上查询自己的数据，可惜的是能力有限，没有做出自己想要的网站。</p>
+<p>后来想做成一个以视光行业为主体，生活方面补充的博客，这样更新了一段时间后很多朋友都建议把生活内容单独剥离出来，于是镜缘轩就成了一个视光行业的博客，虽然流量在一天天的增加，但是貌似和自己的初衷是越来越远了。对于潜在顾客了解自己的眼镜店的功能也越来越弱，毕竟眼镜店是生存的根本嘛，再加上眼镜工作室也找到了满意的域名，所以，索性把眼镜店也从镜缘轩中剥离出来，单独做成一个网站。</p>
+<p>为了给镜缘轩的目标是，做一个视光行业的综合资讯方面的网站。打算采用老春即将发布的B2主题，以后会逐步随着B2主题的完善增加诸如问答等的功能。（最终还是换成了知更鸟的begin主题）</p>
+<h2 id="跋涉者网址httpstunanorg">跋涉者：网址：https://tunan.org</h2>
+<p>从镜缘轩里独立出来的发布个人博客。定位与自己的日常生活，以及保存女儿写的一些作品。目前是采用的seven主题。主要是没有遇到合适的主题，暂时用这个，由合适的就换，没有的话就一直用这个了，反正也是可以用的。挺喜欢DUX主题的，但是太贵了，开心版又不放心。哪位有多余授权的大佬，如果可以的，可以送给我一个授权吗？？</p>
+<h2 id="中意眼镜工作室网址httpswwweyewearxin">中意眼镜工作室：网址：https//www.eyewear.xin</h2>
+<p>诚信域名，eyewear，眼镜的意思。含意是一家诚信的眼镜店。和自己开店的宗旨吻合。以后，工作中遇到的方面以及产品、店内活动、店内动态等等都在此网站发布。网站将采用seven主题。这个主题的功能很全面，想要的功能基本都能实现了。</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

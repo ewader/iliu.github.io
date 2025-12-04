@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Name.com on 老刘博客</title>
+    <link>http://localhost:1313/tags/name.com/</link>
+    <description>Recent content in Name.com on 老刘博客</description>
+    <image>
+      <title>老刘博客</title>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 03 Jan 2021 08:33:54 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/name.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>把域名从阿里云转出到name.com的方法</title>
+      <link>http://localhost:1313/3545.html</link>
+      <pubDate>Sun, 03 Jan 2021 08:33:54 +0000</pubDate>
+      <guid>http://localhost:1313/3545.html</guid>
+      <description>&lt;p&gt;前两天，老刘想把在阿里云的一个域名转到name.com,后续可能还会把一些不需要备案的都转出去，其实转出的方法也很简单。&lt;/p&gt;
+&lt;p&gt;首先，登录阿里云的后台，选择域名&lt;figure class=&#34;wp-block-image size-large&#34;&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>前两天，老刘想把在阿里云的一个域名转到name.com,后续可能还会把一些不需要备案的都转出去，其实转出的方法也很简单。</p>
+<p>首先，登录阿里云的后台，选择域名<figure class="wp-block-image size-large"></p>
+<p><a href="https://tunan.org/wp-content/uploads/2021/01/c69fea34694a0d9.png"><img loading="lazy" decoding="async" width="553" height="100" src="https://tunan.org/wp-content/uploads/2021/01/c69fea34694a0d9.png" alt="" class="wp-image-3583" srcset="https://tunan.org/wp-content/uploads/2021/01/c69fea34694a0d9.png 553w, https://tunan.org/wp-content/uploads/2021/01/c69fea34694a0d9-300x54.png 300w" sizes="(max-width: 553px) 100vw, 553px" /></a></figure></p>
+<p>找到需要转出的域名，点后面的管理，在出来的页面的右侧，找到“域名转出”并点击，如下图<figure class="wp-block-image size-large"></p>
+<p><a href="https://tunan.org/wp-content/uploads/2021/01/de50d6099546461.png"><img decoding="async" src="https://tunan.org/wp-content/uploads/2021/01/de50d6099546461.png" alt="" class="wp-image-3547" /></a></figure></p>
+<p>阿里云首先会让你核对邮箱，因为转移密码是发到你的这个邮箱里的，如果邮箱正确的话，点下一步。会像你绑定的手机好发送一个验证码，输入验证码，点击下一步。转移密码会发到你的邮箱里。</p>
+<p>然后，注册登陆name.com,目前name已经支持中文了，在页面的左上角点击转移。<figure class="wp-block-image size-large"></p>
+<p><a href="https://tunan.org/wp-content/uploads/2021/01/a4a897e07492f81.png"><img decoding="async" src="https://tunan.org/wp-content/uploads/2021/01/a4a897e07492f81-1024x474.png" alt="" class="wp-image-3548" /></a></figure></p>
+<p>把你需要转移的域名及发到邮箱的转移密码填到相应的位置，点击加入购物车。</p>
+<p>如果没有别的需求了，点击结算就行了。name支持支付宝，paypal以及信用卡支付。这里老刘推荐使用PayPal，而且老刘推荐购买海外的VPS时候也尽量使用paypal。因为PayPal支持交易申诉。特别对于一些国外的无良商家来说，这是一个很好用的功能。商家服务不好，且不退款，直接争议就行了。</p>
+<p>现在转移到name是7美元多一点，还送隐私保护，挺不错的，结算完成后，出现如下的界面说明已经转移成功。<figure class="wp-block-image size-large"></p>
+<p><a href="https://tunan.org/wp-content/uploads/2021/01/93c780631b55b21.png"><img decoding="async" src="https://tunan.org/wp-content/uploads/2021/01/93c780631b55b21-1024x257.png" alt="" class="wp-image-3549" /></a></figure></p>
+<p>整个过程大概要5-7天，记得以前从godaddy转到阿里云的时候，是可以在godaddy确认的，确认后会立刻转移到新的域名商。但是阿里云没有这一个选项，只能等待默认生效为止。也别吐槽它们了，现在让转出的已经是进步了，记得很久以前转出的话还要开一堆的证明。</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

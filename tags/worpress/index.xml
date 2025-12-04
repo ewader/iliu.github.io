@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Worpress on 老刘博客</title>
+    <link>http://localhost:1313/tags/worpress/</link>
+    <description>Recent content in Worpress on 老刘博客</description>
+    <image>
+      <title>老刘博客</title>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 06 Sep 2011 11:08:45 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/worpress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>配置WP-Mail-SMTP的技巧</title>
+      <link>http://localhost:1313/1331.html</link>
+      <pubDate>Tue, 06 Sep 2011 11:08:45 +0000</pubDate>
+      <guid>http://localhost:1313/1331.html</guid>
+      <description>&lt;p&gt;网站搬到新浪SAE之后，由于不支持mail（）函数，所以只好采用WP-MAIL-SMTP这个插件来发送密码评论等，但是这个插件非常的不容易配置，明明都是按要求来填写的，最后的test的却往往是fals，所以，华彩根据配置N次的经验，把成功配置的步骤理一下！&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>网站搬到新浪SAE之后，由于不支持mail（）函数，所以只好采用WP-MAIL-SMTP这个插件来发送密码评论等，但是这个插件非常的不容易配置，明明都是按要求来填写的，最后的test的却往往是fals，所以，华彩根据配置N次的经验，把成功配置的步骤理一下！</p>
+<p>引用网上的翻译</p>
+<blockquote>
+<p>From Email:</p></blockquote>
+<blockquote>
+<p>发送者的邮件地址,也就是对方收到邮件后看到的发件人地址。</p></blockquote>
+<blockquote>
+<p>From Name:</p></blockquote>
+<blockquote>
+<p>发件人姓名。</p></blockquote>
+<blockquote>
+<p>Mailer:</p></blockquote>
+<blockquote>
+<p>Send all WordPress emails via SMTP.</p></blockquote>
+<blockquote>
+<p>Use the PHP mail() function to send emails.</p></blockquote>
+<blockquote>
+<p>这里要注意一下,有的朋友的空间不支持mail()函数,通常是Windows环境的主机。如果不支持此函数,那么就选择上面的那个选项。</p></blockquote>
+<blockquote>
+<p>SMTP Options</p></blockquote>
+<blockquote>
+<p>SMTP服务器设置,也就是邮件发送服务器设置,如果设置错误就不会给留言的人发送邮件,当然,也不会把备份的数据文件发送到你的邮箱中。</p></blockquote>
+<blockquote>
+<p>SMTP Host:</p></blockquote>
+<blockquote>
+<p>QQ邮箱的是:SMTP.QQ.COM 谷歌的SMTP.GMAIL.COM 126邮箱是：SMTP.126.COM （大小写无所谓）sina的smtp.sina.cn或smtp.sina.com</p></blockquote>
+<blockquote>
+<p>SMTP Port:</p></blockquote>
+<blockquote>
+<p>QQ邮箱的是:25</p></blockquote>
+<blockquote>
+<p>谷歌的是587，126是25。sina的是25，QQ帮助里说端口号是465或587，试了没成功，不知道原因。</p></blockquote>
+<blockquote>
+<p>Encryption:</p></blockquote>
+<blockquote>
+<p>是否启用加密连接</p></blockquote>
+<blockquote>
+<p>No encryption.</p></blockquote>
+<blockquote>
+<p>无加密</p></blockquote>
+<blockquote>
+<p>Use SSL encryption.</p></blockquote>
+<blockquote>
+<p>采用SSL方式</p></blockquote>
+<blockquote>
+<p>Use TLS encryption. This is not the same as STARTTLS. For most servers SSL is the recommended option.</p></blockquote>
+<blockquote>
+<p>使用TLS方式.</p></blockquote>
+<blockquote>
+<p>polaris提醒您，此处是关键。一会儿详细讨论这点。</p></blockquote>
+<blockquote>
+<p>Authentication:</p></blockquote>
+<blockquote>
+<p>用户验证</p></blockquote>
+<blockquote>
+<p>No: Do not use SMTP authentication.</p></blockquote>
+<blockquote>
+<p>Yes: Use SMTP authentication.</p></blockquote>
+<blockquote>
+<p>如果你这里用的是免费邮箱,那么都是选择yes,如果不验证的话恐怕垃圾邮件就满天飞了吧.</p></blockquote>
+<blockquote>
+<p>下面的这两项，就是你的用户名和密码。</p></blockquote>
+<blockquote>
+<p>Username: 注意:这个用户名是全名，如我的：lghcx@sina.cn</p></blockquote>
+<blockquote>
+<p>Password: *<strong>*</strong>*</p></blockquote>
+<blockquote>
+<p>update option</p></blockquote>
+<blockquote>
+<p>全部填写后点此更新设置。</p></blockquote>
+<blockquote>
+<p>Send a Test Email</p></blockquote>
+<blockquote>
+<p>发送一个测试邮件</p></blockquote>
+<blockquote>
+<p>To: (这里填写邮件地址)</p></blockquote>
+<p>现在点test，如果</p>
+<blockquote>
+<p>Test Message Sent</p></blockquote>
+<blockquote>
+<p>The result was:</p></blockquote>
+<blockquote>
+<p>bool(true)</p></blockquote>
+<p>说明配置对了，否则就是错的咯，如果出错的话，按网上的教程设置一般都不行，可以在用户验证那里选中第二项，一般都可以成功，如果还不行的话，可以选择 Use SSL encryption.</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

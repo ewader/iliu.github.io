@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Avast! on 老刘博客</title>
+    <link>http://localhost:1313/tags/avast/</link>
+    <description>Recent content in Avast! on 老刘博客</description>
+    <image>
+      <title>老刘博客</title>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 11 Jan 2010 12:35:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/avast/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>介绍本人所用的软件——安全软件篇</title>
+      <link>http://localhost:1313/428.html</link>
+      <pubDate>Mon, 11 Jan 2010 12:35:00 +0000</pubDate>
+      <guid>http://localhost:1313/428.html</guid>
+      <description>&lt;p&gt;接触安全软件是在1999年chi病毒爆发的时候，那时候刚好宿舍的电脑被感染，从一个光盘里安装上了熊猫的杀毒软件，能升级，通过扫描查找出来了大量的病毒，这是和病毒以及杀毒软件的第一次亲密接触，那时候就感觉杀毒软件好神奇啊，特别是对熊猫这个来自西班牙的杀软充满了好感，一直到现在对这个软件的印象都不错。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>接触安全软件是在1999年chi病毒爆发的时候，那时候刚好宿舍的电脑被感染，从一个光盘里安装上了熊猫的杀毒软件，能升级，通过扫描查找出来了大量的病毒，这是和病毒以及杀毒软件的第一次亲密接触，那时候就感觉杀毒软件好神奇啊，特别是对熊猫这个来自西班牙的杀软充满了好感，一直到现在对这个软件的印象都不错。</p>
+<p>再次使用杀毒软件是在2003年的时候，那时候公司的电脑中了一种欢乐时光病毒，当时用瑞星扫描出来的，感觉很兴奋，那时候对瑞星很是崇拜，特别是对它头上的光环，什么公安部认证，什么全球首次截获什么什么病毒等等，那时候已经知道防火墙的重要性，公司的电脑装的就是瑞星加天网，看到天网跳动的窗口，好庆幸自己的电脑没有被攻击到。</p>
+<p>到2004年，终于有了自己的电脑，首先想到给自己的电脑装上熊猫，可惜找不到序列号，想装瑞星，也是没有序列号，最后找到了中天论坛，应该是最早的安全论坛之一，现在早就改行了，在中天上找到了瑞星升级器，但是不满足，又寻觅，找到了霏凡论坛，可以说我的安全知识大部分都在这个论坛所取得，到了这个论坛才知道，世界如此之大，竟然还有Norton，nod32，McAfee，pc-cillin（趋势），金山，江民，avast，avair…….通过比较，最后选择的是mcafee7.0i，防火墙用的是za，后来一直就是mcafee的追随者，一直到8.0，8.5，8.7，防火墙换成了pctools，一直用的很好，期间也换过几个杀软，仅仅是体验了一下。可以说mcafee保护了我的爱机免受病毒的攻击立下了汗马功劳。可惜的是我的电脑老了，老的扛不动8.7了，因此2009年7月份的时候决定，换一个杀软，因为我觉得，杀软就是为人服务的，不能让它卡机。</p>
+<p>现在对安全软件的理解，又高了一个层次，一个电脑用的安全软件必须包括防病毒，防黑客，还有hips，选来选去选中了360杀毒加comodo，360了杀毒引擎毕竟是来自bd，虽然不像官方吹得那么厉害，但也还算不错，comodo包含防火墙和hips，都是经过时间的验证，最重要的是这两个软件都免费，不占用资源，还算智能，因此我给大家推荐的一个组合就是这个。第一个组合360杀毒+comodo。</p></p>
+<p>进入2010年后，偶尔发现avast！5.0要出的消息，现在公司的电脑上实验了一下，5.0占用资源真的很小，系统启动后仅仅只有130m的内存占有量。而且查杀率比360要高，监控也全面，虽然现在还是beta，但是已经开放了注册，离正式版也不远了，所以决定，家里的电脑也用这个，现在的组合avast！5.0+comodo。</p>
+<p>文章的最后给大家推荐几个我个人认为性价比比较高的组合，供大家使用，所推荐的组合全都可以长期使用。</p>
+<p>第一个组合:mcafee+pctools</p>
+<p>第二个组合：360杀毒+comodo</p>
+<p>第三个组合：avast！+comodo</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

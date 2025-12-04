@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>输入法 on 老刘博客</title>
+    <link>http://localhost:1313/tags/%E8%BE%93%E5%85%A5%E6%B3%95/</link>
+    <description>Recent content in 输入法 on 老刘博客</description>
+    <image>
+      <title>老刘博客</title>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 07 Feb 2024 20:28:26 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E8%BE%93%E5%85%A5%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用Fcitx5 for Android，读《万历十五年》</title>
+      <link>http://localhost:1313/posts/use-fcitx5-andriod-input/</link>
+      <pubDate>Wed, 07 Feb 2024 20:28:26 +0800</pubDate>
+      <guid>http://localhost:1313/posts/use-fcitx5-andriod-input/</guid>
+      <description>&lt;p&gt;最近女儿放假了，忙着辅导她的功课，毕竟初三了，加上期末考试的成绩不是很理想，所以寒假是要努力的时候了。在这期间读书也少了，只读了《万历十五年》这本历史书，另外就是在看了1900的博客后，把手机的输入法改成了Fcitx5 for Android，并且安装rime插件，使用雾凇拼音词库；这样手机就和电脑使用同一个词库了。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>最近女儿放假了，忙着辅导她的功课，毕竟初三了，加上期末考试的成绩不是很理想，所以寒假是要努力的时候了。在这期间读书也少了，只读了《万历十五年》这本历史书，另外就是在看了1900的博客后，把手机的输入法改成了Fcitx5 for Android，并且安装rime插件，使用雾凇拼音词库；这样手机就和电脑使用同一个词库了。</p>
+<h2 id="手机安装并fcitx5-for-android">手机安装并Fcitx5 for Android</h2>
+<p>在电脑上从去年开始就一直使用小狼毫输入法加雾凇拼音的词库，这个输入法开源，对隐私的保护好，并且词库很大，使用起来很准确，但是手机上的输入法一直不能让我满意。</p>
+<p>使用过一段微信键盘，恶心与微信无孔不入的推广，所以弃用；后来又使用了一段时间Gboard。一是词库小，输入不准确，选词困难，二是一些表情颜文字之类的需要网络的支持，想舒服的使用手机就要时刻处于科学的状态。所以使用一段时间后也不是很满意，就弃用了。也曾经使用过一段时间Fcitx5 for Android，那时候刚开发出来不久，还没有rime插件，加上没有九宫格，也不得不放弃了。最后选择使用了华为的小艺输入法。这个输入法各方面中规中矩吧，也比较顺手，就一直在使用下去。</p>
+<p>看<a href="https://1900.live/last-puzzle-android-rime-input/">1900</a>的博客后,发现Fcitx5 for Android更新很多版本了，加上可以安装rime插件并使用雾凇拼音，就又产生了使用的念头。按照他博客的教程，很容易就安装使用了。</p>
+<p>试用了几天，发现总体而言还算可以。优点就是雾凇拼音了，和电脑一样的输入体验。缺点依然是不支持九宫格。目前在努力适应全键盘的模式中。</p>
+<h2 id="读万历十五年">读《万历十五年》</h2>
+<p>这本书以前看电视剧《人民的名义》的时候，就被@到。正好微信读书给推了这本，可以免费看，所以就读了。书名虽然是万历十五年，但并不是仅仅讲万历十五年发生的事情。记录了张居正、申时行、海瑞、戚继光等几位典型的人物事迹。</p>
+<p>从这本书可以看到首辅不同的性格导致的历史，明朝特殊的文官集团、大明皇帝的无奈、武将和军人的悲哀等。</p>
+<p>你能相信一个看似芝麻大的和稀泥事件，竟然就是导致大明被清朝覆灭的根源。五六十的海盗从浙江登陆，辗转上千公里，杀死4000多人；皇帝想干什么事只要不合文官集团的意，你就干不成，只要心灰气冷，得过且过。</p>
+<p>当然这只是书中的观点，不一定正确和全面，但是对了解那个封建社会里的奇葩王朝还是挺有帮助的。</p>
+<p>PS：</p>
+<p>和稀泥事件是这样的，当时镇守东北的巡抚发现有一个部落在不断的兼并周边的部落，于是派总兵去剿灭，结果总兵不听话而且打了败仗（以明朝那个奇葩的制度，打败仗也正常），于是巡抚就告总兵的黑状，总兵一看，我也是有后台的人，也告巡抚的黑状，当时的内阁首辅是申时行，一个善于和稀泥的人，一看说，你们两个相互告了就完事了，翻篇了。于是就不了了之了。这个部落的首领叫努尔哈赤！</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>ubuntu20.04开机亮度最大的解决方法及输入法设置</title>
+      <link>http://localhost:1313/3951.html</link>
+      <pubDate>Mon, 20 Dec 2021 09:20:38 +0000</pubDate>
+      <guid>http://localhost:1313/3951.html</guid>
+      <description>&lt;p&gt;从很久以前UBUNTU就有一个毛病，有些电脑安装后，开机后屏幕的亮度会是最大。据说从很低的一个版本都有这样bug存在，但是不知道为啥官方一直都没有修复。不过网上也有很多的教程，试用了一下，有些有用，有些没用，直到扒到了一个很老的文章，上面记载的一个很简单的方法，却解决了这样一个问题。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>从很久以前UBUNTU就有一个毛病，有些电脑安装后，开机后屏幕的亮度会是最大。据说从很低的一个版本都有这样bug存在，但是不知道为啥官方一直都没有修复。不过网上也有很多的教程，试用了一下，有些有用，有些没用，直到扒到了一个很老的文章，上面记载的一个很简单的方法，却解决了这样一个问题。</p>
+<p>别的不说，直接上代码，照着做就行了：</p>
+<pre class="language-bash line-numbers"><code class="language-bash">sudo gedit /etc/default/grub
+ 
+#将GRUB_CMDLINE_LINUX_DEFAULT="quiet"，替换为以下
+GRUB_CMDLINE_LINUX_DEFAULT="quiet acpi_osi=Linux cpi_backlight=vendor"
+ 
+sudo update-grub</code> 最后一步一定要做。另外<code class="language-bash">GRUB_CMDLINE_LINUX_DEFAULT="quiet"可能是会多出几个单词，不影响不影响，就是这一行。</code></pre>
+<p>然后说说ubunut的输入法</p>
+<p>以前（十年前吧）的时候，linux下的输入法很难用，现在主流的输入法也都有了，比如搜狗，百度，讯飞等等。最近看了一下，发现已经不需要额外在安装其他的输入法了，用系统自带的中文输入法已经很好用了。</p>
+<p>系统自带的输入法是ibuslibpinyin，只需要简单的设置一下，就非常好用了。</p>
+<p>第一步：常规设置，如下图，根据个人的习惯来吧，老刘喜欢候选词以词频方式展示。</p>
+<img loading="lazy" decoding="async" class="alignnone size-full wp-image-3952" src="https://tunan.org/wp-content/uploads/2021/12/2021-12-20-17-15-27.png" alt="" width="607" height="755" /> 
+<p>第二步：拼音模式，勾选“启用云输入”</p>
+<img loading="lazy" decoding="async" class="alignnone size-full wp-image-3953" src="https://tunan.org/wp-content/uploads/2021/12/2021-12-20-17-19-08.png" alt="" width="600" height="759" /> 
+<p>第三步：用户词典，勾选全部</p>
+<img loading="lazy" decoding="async" class="alignnone size-full wp-image-3954" src="https://tunan.org/wp-content/uploads/2021/12/2021-12-20-17-19-30.png" alt="" width="609" height="764" /> 
+<p>第四步：重启</p>
+<p>至此，输入法使用起来基本上和在win10的微软拼音方便程度差不多了。</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

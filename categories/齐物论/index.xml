@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>齐物论 on 老刘博客</title>
+    <link>http://localhost:1313/categories/%E9%BD%90%E7%89%A9%E8%AE%BA/</link>
+    <description>Recent content in 齐物论 on 老刘博客</description>
+    <image>
+      <title>老刘博客</title>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 15 Nov 2023 21:28:20 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/%E9%BD%90%E7%89%A9%E8%AE%BA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何使用git并把代码提交到GitHub</title>
+      <link>http://localhost:1313/posts/how-to-use-git/</link>
+      <pubDate>Wed, 15 Nov 2023 21:28:20 +0800</pubDate>
+      <guid>http://localhost:1313/posts/how-to-use-git/</guid>
+      <description>&lt;p&gt;这篇文章纯粹给初学者看的，大佬请无视。使用Hugo之后，为了方便推送方便，一般要用到git这个软件。今天就来谈谈git具体的用法。&lt;/p&gt;
+&lt;h1 id=&#34;git的用法&#34;&gt;git的用法&lt;/h1&gt;
+&lt;h3 id=&#34;设置用户名&#34;&gt;设置用户名&lt;/h3&gt;
+&lt;p&gt;因为git可以用来团队协助方面，设置用户名的目的是为了让别人知道，你是谁，这个程序的bug是谁提交的😰。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>这篇文章纯粹给初学者看的，大佬请无视。使用Hugo之后，为了方便推送方便，一般要用到git这个软件。今天就来谈谈git具体的用法。</p>
+<h1 id="git的用法">git的用法</h1>
+<h3 id="设置用户名">设置用户名</h3>
+<p>因为git可以用来团队协助方面，设置用户名的目的是为了让别人知道，你是谁，这个程序的bug是谁提交的😰。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git config --global user.name <span class="s2">&#34;xxxx&#34;</span>
+</span></span><span class="line"><span class="cl">git config --global user.email <span class="s2">&#34;xxxx@qq.com&#34;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="设置本地仓库">设置本地仓库</h3>
+<p>选择你项目的文件夹，在里面打开终端，运行如下命令：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git init
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>在每次修改完程序后，运行如下命令提交：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git add .
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;简短的说明，本次提交了什么&#34;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="设置远程仓库">设置远程仓库</h2>
+<p>很多时候我们还要把代码提交到GitHub上去，当然你也可以创建自己的远程git服务器，这里不涉及。</p>
+<h3 id="首先用ssh生成公钥"><strong>首先，用ssh生成公钥</strong></h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ssh-keygen -t rsa -C <span class="s2">&#34;****@qq.com&#34;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>一般会在~/.ssh/这个文件夹里，生成两个文件，打开后缀为pub的那个文件。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCh9zv7aD0IQAen8wC5slQPlE9H2Jjh6Z8v7YShZGXaFxq2Hd/e5v0KTLDHuL0DSItsbQGVMiLuJhPE3f1ypxAruj14Frak4+U5WZhV6xTSeQVwIWd8QyMBaYNjv7s49nb+tz9NAYrzu8ZNT8+2s1vUXCI5K6vPNMTax0KrAjmqOZ0sbcSzmz57LVpJqadc9Svuh84X65LH2XuzfNudzmrMIK3uu5GoFosqY4Y+tu3ssvmeUKWfFRM14Gab0I6funZZh5EdRv2/ltkEdzIRl01FQTAyo5rnzaY4jPhCR5ANd1smzo+h4KvqIK3uux96Hs= ****@qq.com
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>然后把copy这个文件的内容，打开GitHub网站，登录自己的账户，在设置里找到ssh那个选项，提交进去可以了。</p>
+<h3 id="连接远程代码仓库提交代码">连接远程代码仓库提交代码</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git remote add origin git@github.com:GitHub用户名/我的项目.git 
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>然后，提交代码到自己的项目里：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git push -u origin main
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>以后的提交可以不用-u这个参数了。</p>
+<h2 id="把远程仓库的代码下载到本地">把远程仓库的代码下载到本地</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git pull
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="远程pull的时候出现错误">远程Pull的时候出现错误</h2>
+<p>这是我的另一个项目在pull的时候催化下的错误。在从远程pull的时候出现了，error: Your local changes to the following files would be overwritten by merge:这个错误提示，提示的是数据库文件，是因为因为网站访问的原因，导致本地数据库和远程的数据库文件不一致。其实后期是不会用到这个数据库文件的。因此，丢弃本地的修改</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git checkout .
+</span></span></code></pre></td></tr></table>
+</div>
+</div>]]></content:encoded>
+    </item>
+  </channel>
+</rss>

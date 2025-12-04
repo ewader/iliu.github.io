@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>2022新年 on 老刘博客</title>
+    <link>http://localhost:1313/tags/2022%E6%96%B0%E5%B9%B4/</link>
+    <description>Recent content in 2022新年 on 老刘博客</description>
+    <image>
+      <title>老刘博客</title>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 01 Jan 2022 02:05:10 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/2022%E6%96%B0%E5%B9%B4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022,新年快乐</title>
+      <link>http://localhost:1313/4002.html</link>
+      <pubDate>Sat, 01 Jan 2022 02:05:10 +0000</pubDate>
+      <guid>http://localhost:1313/4002.html</guid>
+      <description>&lt;p&gt;没有年终总结的日子，也是挺惬意的。&lt;/p&gt;
+&lt;p&gt;2021年没怎么感觉呢，就过完了，希望朋友们一切安好&lt;/p&gt;
+&lt;p&gt;2022年，万象更新，愿亲友们身体健康，一切顺利，祝愿国家国泰民安，繁荣昌盛！&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>没有年终总结的日子，也是挺惬意的。</p>
+<p>2021年没怎么感觉呢，就过完了，希望朋友们一切安好</p>
+<p>2022年，万象更新，愿亲友们身体健康，一切顺利，祝愿国家国泰民安，繁荣昌盛！</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

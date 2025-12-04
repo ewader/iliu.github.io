@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Nginx on 老刘博客</title>
+    <link>http://localhost:1313/tags/nginx/</link>
+    <description>Recent content in Nginx on 老刘博客</description>
+    <image>
+      <title>老刘博客</title>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 30 Dec 2020 07:35:59 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>博客web端改用apache</title>
+      <link>http://localhost:1313/3520.html</link>
+      <pubDate>Wed, 30 Dec 2020 07:35:59 +0000</pubDate>
+      <guid>http://localhost:1313/3520.html</guid>
+      <description>&lt;p&gt;试用了几天Cloudflare加racknerd的2h2g的小鸡，感觉还算差强人意。所以干脆就先把博客放这里算了，然后又突发奇想，其他的网站一直用的lnmp，为啥博客就不能用用lamp呢？况且apache在稳定性以及对php的支持等方面都比nginx要好，nginx的优势是轻便和并发能力强。其实对小博客来说，基本没有啥区别。&lt;figure class=&#34;wp-block-image size-large&#34;&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>试用了几天Cloudflare加racknerd的2h2g的小鸡，感觉还算差强人意。所以干脆就先把博客放这里算了，然后又突发奇想，其他的网站一直用的lnmp，为啥博客就不能用用lamp呢？况且apache在稳定性以及对php的支持等方面都比nginx要好，nginx的优势是轻便和并发能力强。其实对小博客来说，基本没有啥区别。<figure class="wp-block-image size-large"></p>
+<p><a href="https://tunan.org/wp-content/uploads/2021/01/ac6793f3e79aaa6.jpg"><img loading="lazy" decoding="async" width="855" height="585" src="https://tunan.org/wp-content/uploads/2021/01/ac6793f3e79aaa6.jpg" alt="" class="wp-image-3589" srcset="https://tunan.org/wp-content/uploads/2021/01/ac6793f3e79aaa6.jpg 855w, https://tunan.org/wp-content/uploads/2021/01/ac6793f3e79aaa6-300x205.jpg 300w, https://tunan.org/wp-content/uploads/2021/01/ac6793f3e79aaa6-768x525.jpg 768w, https://tunan.org/wp-content/uploads/2021/01/ac6793f3e79aaa6-220x150.jpg 220w" sizes="(max-width: 855px) 100vw, 855px" /></a></figure></p>
+<p>说折腾就折腾，编译安装apache，发现需要重新设置虚拟主机，设置的时候发现，不像nginx的时候，脚本提示把http301到https，什么www域名301到一级域名等，这些提示都没有。也没有设置伪静态的选项。网上查了一下，发现是几行代码就可以搞定的事情。</p>
+<h2 class="wp-block-heading" id="设置301跳转">设置301跳转</h2>
+<p>在apache里设置301跳转很简单，只需要在.htaccess里添加代码就好了，老刘主要用到两个，一个是http跳到https，一个是www跳到一级域名。感觉比nginx要简洁一些，代码如下：</p>
+<pre class="wp-block-code"><code>RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://tunan.org/$1 &#91;R,L]
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^iliu.org$ &#91;NC]
+RewriteRule ^(.*)$ http://iliu.org/$1 &#91;L,R=301]
+</code></pre>
+<p>设置后才发现，设置和不设置没有啥区别，老刘用的cf，应该是在cf里设置了301到443接口了，至于wordpress伪静态的问题，也是很容易，直接到wordpress的后台，保存一下固定链接样式就行了，保存后在根目录里自动生成了.htaccess。代码如下：</p>
+<pre class="wp-block-code"><code># BEGIN WordPress
+# 在“BEGIN WordPress”与“END WordPress”之间的指令（行）是
+# 动态生成的，只应被WordPress过滤器修改。
+# 任何对标记之间的指令的修改都会被覆盖。
+&lt;IfModule mod_rewrite.c&gt;
+RewriteEngine On
+RewriteRule .* - &#91;E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - &#91;L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php &#91;L]
+&lt;/IfModule&gt;
+
+# END WordPress
+</code></pre>
+<h2 class="wp-block-heading" id="使用cloudflare后获取用户真实ip">使用cloudflare后获取用户真实IP</h2>
+<p>由于apache已经自带mod_remoteip模块，所以只需按如下操作即可</p>
+<pre class="wp-block-code"><code>#启用模块
+vim /usr/local/apache/conf/httpd.conf
+Include conf/extra/httpd-remoteip.conf
+#添加如下内容
+vim /usr/local/apache/conf/extra/httpd-remoteip.conf
+LoadModule remoteip_module modules/mod_remoteip.so
+RemoteIPHeader X-Forwarded-For
+RemoteIPInternalProxy 127.0.0.1/24
+#CloudFlare IP Ranges
+RemoteIPInternalProxy 103.21.244.0/22
+RemoteIPInternalProxy 103.22.200.0/22
+RemoteIPInternalProxy 103.31.4.0/22
+RemoteIPInternalProxy 104.16.0.0/12
+RemoteIPInternalProxy 108.162.192.0/18
+RemoteIPInternalProxy 131.0.72.0/22
+RemoteIPInternalProxy 141.101.64.0/18
+RemoteIPInternalProxy 162.158.0.0/15
+RemoteIPInternalProxy 172.64.0.0/13
+RemoteIPInternalProxy 173.245.48.0/20
+RemoteIPInternalProxy 188.114.96.0/20
+RemoteIPInternalProxy 190.93.240.0/20
+RemoteIPInternalProxy 197.234.240.0/22
+RemoteIPInternalProxy 198.41.128.0/17 #你的CDN的IP，可以重复添加
+#在httpd.conf中修改日志格式，在日志格式中加上%a，然后重启apache即可
+LogFormat "%h %a %l %u %t \"%r\" %&gt;s %b \"%{Referer}i\" \"%{User-Agent}i\"" combined
+LogFormat "%h %a %l %u %t \"%r\" %&gt;s %b" common
+LogFormat "%h %l %u %t \"%r\" %&gt;s %b \"%{Referer}i\" \"%{User-Agent}i\" %I %O" combined</code></pre>
+<p>service httpd restar重启apache，然后去日志里看看，已经获得了真实IP。前连天灰常记忆博友说在cloudflare里设置一下也能显示真实IP，但是老刘没有找到这个设置，只好继续在网站上改了，网站上改还有一个好处是，这个方法不仅限于cloudflare，别的CDN也是适用的</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>nginx使用CDN后获取用户真实IP的方法</title>
+      <link>http://localhost:1313/3486.html</link>
+      <pubDate>Mon, 21 Dec 2020 07:15:11 +0000</pubDate>
+      <guid>http://localhost:1313/3486.html</guid>
+      <description>&lt;p&gt;老刘前两天弄了个racknerd的便宜的vps，准备把一个网站放到这个vps上，再顺便把篱落的这台VPS好好的整理一下，当时装系统的时候装的是centos8，可惜这个系统明年官方就不再支持了，所以，长痛不如短痛，早晚都要换系统，不如早换。于是先把博客也迁到了这个rn的空间里。顺便又给加了个CF的套，加上之后，加的时候是扫了几个本地延迟最低的IP，直接分联通、移动、电信把这几个ip分别解析了。经过这么几天的试用，老刘觉得加了CF的速度还算差强人意。准备一直用下去。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>老刘前两天弄了个racknerd的便宜的vps，准备把一个网站放到这个vps上，再顺便把篱落的这台VPS好好的整理一下，当时装系统的时候装的是centos8，可惜这个系统明年官方就不再支持了，所以，长痛不如短痛，早晚都要换系统，不如早换。于是先把博客也迁到了这个rn的空间里。顺便又给加了个CF的套，加上之后，加的时候是扫了几个本地延迟最低的IP，直接分联通、移动、电信把这几个ip分别解析了。经过这么几天的试用，老刘觉得加了CF的速度还算差强人意。准备一直用下去。</p>
+<p>但是加了CDN后，有一个问题，那就是不管日志里还是wordpress后台的评论里的IP都是cf的IP，无法获取用户的真实IP，这对管理网站有点麻烦，比如受到攻击或者想封一些发垃圾邮件IP的地址的时候，就没有办法。老刘记得以前看过这方面的文章。于是找了一下，把经过记录下来。</p>
+<p>阿帕奇老刘好久没有用过了，这里只说nginx的方面，从网上的教程来看，可以分成两种。老刘把两种方法的说说</p>
+<h2 class="wp-block-heading" id="一利用ngx_http_realip_module模块获取用户真实ip">一、利用ngx_http_realip_module模块获取用户真实IP</h2>
+<p>由于老刘用的是oneinstack一键安装包，所以之说这个方法，lnmp一键安装包也可以用类似的方面来搞定。宝塔面板的话，就很简单，装那款免费的防火墙，里面就是cdn的设置，设置完了之后就OK了，不得不说还是可视化面板方便。好了，闲话少说，正式开始。</p>
+<p>首先通过nginx -V我们发现默认编译的nginx并不会安装ngx_http_realip_module模块，我们需要重新编译nginx使其载入这个功能模块。</p>
+<p>这里我们直接利用oneinstack的升级脚本来完成，这样做，一是很简单，二是一般不会出错，很适合初学者使用，第三，就是以后你升级nginx的话，也能一劳永逸。</p>
+<pre class="wp-block-code"><code>#增量添加参数到${nginx_configure_args}后面
+vim /root/oneinstack/include/upgrade_web.sh
+#在${nginx_configure_args}后面增加--with-http_realip_module即可
+#大致位于升级脚本的第57行</code></pre><figure class="wp-block-image size-large">
+<p><a href="https://tunan.org/wp-content/uploads/2021/01/3c4e83f775536ad.jpg"><img loading="lazy" decoding="async" width="500" height="301" src="https://tunan.org/wp-content/uploads/2021/01/3c4e83f775536ad.jpg" alt="" class="wp-image-3593" srcset="https://tunan.org/wp-content/uploads/2021/01/3c4e83f775536ad.jpg 500w, https://tunan.org/wp-content/uploads/2021/01/3c4e83f775536ad-300x181.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" /></a></figure></p>
+<p>保存并退出，执行oneinstack的升级脚本/root/oneinstack/upgrade.sh进行nginx升级编译即可。</p>
+<p>最后执行nginx -V查看最终编译后的结果。<figure class="wp-block-image size-large"></p>
+<p><a href="https://tunan.org/wp-content/uploads/2020/12/43904aa51d7dce2.png"><img decoding="async" src="https://tunan.org/wp-content/uploads/2020/12/43904aa51d7dce2-1024x109.png" alt="" class="wp-image-3488" /></a></figure></p>
+<h3 class="wp-block-heading" id="nginx设置set_real_ip_from">Nginx设置set_real_ip_from</h3>
+<p>编译好了ngx_http_realip_module，现在我们只需要在Nginx配置文件中添加set_real_ip_from代码到nginx.conf文件的http段落里面，老刘用的cf的，用期待的CDN类似，只有知道IP段可以了。示例如下：</p>
+<pre class="wp-block-code"><code>set_real_ip_from 103.21.244.0/22;
+ set_real_ip_from 103.22.200.0/22;
+ set_real_ip_from 103.31.4.0/22;
+ set_real_ip_from 104.16.0.0/12;
+ set_real_ip_from 108.162.192.0/18;
+ set_real_ip_from 131.0.72.0/22;
+ set_real_ip_from 141.101.64.0/18;
+ set_real_ip_from 162.158.0.0/15;
+ set_real_ip_from 172.64.0.0/13;
+ set_real_ip_from 173.245.48.0/20;
+ set_real_ip_from 188.114.96.0/20;
+ set_real_ip_from 190.93.240.0/20;
+ set_real_ip_from 197.234.240.0/22;
+ set_real_ip_from 198.41.128.0/17;
+ set_real_ip_from 199.27.128.0/21;
+ set_real_ip_from 2400:cb00::/32;
+ set_real_ip_from 2606:4700::/32;
+ set_real_ip_from 2803:f800::/32;
+ set_real_ip_from 2405:b500::/32;
+ set_real_ip_from 2405:8100::/32;
+ set_real_ip_from 2c0f:f248::/32;
+ set_real_ip_from 2a06:98c0::/29;
+ real_ip_header  X-Forwarded-For;
+ real_ip_recursive on;</code></pre>
+<p>配置完成后，使用nginx -t检查配置文件是否存在格式问题。如果没有报错执行service nginx reload重载nginx服务即可。</p>
+<p>然后访问网站，再次查看nginx日志，就可以正常获取到用户真实IP了。</p>
+<h2 class="wp-block-heading" id="二利用nginx的日期格式来达到目的">二、利用nginx的日期格式来达到目的</h2>
+<p>首先，将下面的代码添加到nginx.conf文件的http{后面让日志重置化：</p>
+<pre class="wp-block-code"><code>#自定义一个日志格式
+log_format cdn '$http_x_forwarded_for - $remote_user &#91;$time_local] '
+                    '"$request" $status $body_bytes_sent '
+                    '"$http_referer" "$http_user_agent"';</code></pre>
+<p>然后，我们修改nginx站点原来的日志输出格式，修改access_log /home/wwwlogs/xxxx.log; 为access_log /home/wwwlogs/xxxx.log cdn;全部保存之后不要急着重启nginx，再次强调一个命令nginx -t，用于检查nginx配置文件是否存在错误。这是一个非常实用的命令，可以让你在业务运行的同时从起nginx服务，不至于造成业务中断或者业务停止。</p>
+<p>这个方法的有点是不需要编译nginx，设置完了之后也是一劳永逸。但是对于oneinstack一键安装包来说，因为它已经重置了日志的格式，所以就不适用了。</p>
+<h2 class="wp-block-heading" id="小结">小结</h2>
+<p>以上就是两种在使用CDN后可以获取用户真实IP的方法，可以根据自己的情况来使用。</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

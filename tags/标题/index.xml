@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>标题 on 老刘博客</title>
+    <link>http://localhost:1313/tags/%E6%A0%87%E9%A2%98/</link>
+    <description>Recent content in 标题 on 老刘博客</description>
+    <image>
+      <title>老刘博客</title>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 22 Jun 2021 07:45:38 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E6%A0%87%E9%A2%98/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>crmeb商城后台标题修改方法</title>
+      <link>http://localhost:1313/3785.html</link>
+      <pubDate>Tue, 22 Jun 2021 07:45:38 +0000</pubDate>
+      <guid>http://localhost:1313/3785.html</guid>
+      <description>&lt;p&gt;crmeb这款商城程序怎么说呢，价格便宜（当年），ui还行，功能基本完备。但是最让人诟病的就是crmeb这个字样到处都是，修改完了，等下次一升级，这些玩意又出来了。特别是网页标题的部分，真是让人烦不胜烦。前台使用的uni-app很多人都比较熟悉，标题在哪修改还好说，后台标题虽然问题不大，但是看着怎么都不舒服。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>crmeb这款商城程序怎么说呢，价格便宜（当年），ui还行，功能基本完备。但是最让人诟病的就是crmeb这个字样到处都是，修改完了，等下次一升级，这些玩意又出来了。特别是网页标题的部分，真是让人烦不胜烦。前台使用的uni-app很多人都比较熟悉，标题在哪修改还好说，后台标题虽然问题不大，但是看着怎么都不舒服。</p>
+<p>今天下午没事，又看到了这摊臭狗屎，于是就想把它搞掉。最后终于找出来了方法。</p>
+<p>首先，修改两处文件</p>
+<p>一处在view/admin/src/config/index.js</p>
+<p>另一处在/view/admin/src/router/routes.js</p>
+<p>使用notepad++打开，把里面的CRMEB字样替换成你商城的标题，比如老刘的是镜缘轩眼镜商城。</p>
+<p>第二步，打包</p>
+<p>因为用的是H5，所以需要用Nodejs。</p>
+<p>安装Nodejs，<a rel="noreferrer noopener" href="http://nodejs.cn/download/" target="_blank">官方地址</a></p>
+<p>文件目录：<br>
+后台文件目录： view / admin/</p>
+<p>打包教程：<br>
+1.本地安装 Nodejs（已安装可以跳过）<br>
+2.进入 命令行，具体方法如下<br>
+windows 系统用户进入 view/admin文件夹后，按住shift + 鼠标右击，点击[在此处打开 Powershell窗口]<figure class="wp-block-image size-large"></p>
+<p><a href="https://tunan.org/wp-content/uploads/2021/06/722a55eb92da648.png"><img loading="lazy" decoding="async" width="725" height="518" src="https://tunan.org/wp-content/uploads/2021/06/722a55eb92da648.png" alt="" class="wp-image-3786" srcset="https://tunan.org/wp-content/uploads/2021/06/722a55eb92da648.png 725w, https://tunan.org/wp-content/uploads/2021/06/722a55eb92da648-300x214.png 300w" sizes="(max-width: 725px) 100vw, 725px" /></a></figure></p>
+<p>命令行输入<code>npm install</code>或者 <code>npm i</code><br>
+回车。<br>
+等待安装完成。</p>
+<p>然后</p>
+<pre class="wp-block-code"><code>npm run build</code></pre>
+<p>打包完成后，把<strong>dist 文件夹</strong>里的文件覆盖后台里的文件即可。</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

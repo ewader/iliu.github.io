@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>电脑网络 on 老刘博客</title>
+    <link>http://localhost:1313/categories/%E7%94%B5%E8%84%91%E7%BD%91%E7%BB%9C/</link>
+    <description>Recent content in 电脑网络 on 老刘博客</description>
+    <image>
+      <title>老刘博客</title>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 15 May 2023 07:11:31 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/%E7%94%B5%E8%84%91%E7%BD%91%E7%BB%9C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>浅谈群晖安全性方面的设置</title>
+      <link>http://localhost:1313/4375.html</link>
+      <pubDate>Mon, 15 May 2023 07:11:31 +0000</pubDate>
+      <guid>http://localhost:1313/4375.html</guid>
+      <description>&lt;p&gt;我们在玩群晖的时候，往往不会满足于群晖只作为局域网里的一个服务器的存在，还想让它发挥更大的作用，让我们无论身在何地，都可以自由的访问我们群晖里的东西，这就需要我们把群晖暴露在公网之中。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>我们在玩群晖的时候，往往不会满足于群晖只作为局域网里的一个服务器的存在，还想让它发挥更大的作用，让我们无论身在何地，都可以自由的访问我们群晖里的东西，这就需要我们把群晖暴露在公网之中。</p>
+<p>无论你是使用<a href="https://tunan.org/3997.html">ddns</a>，或者<a href="https://tunan.org/2918.html">frp</a>、<a href="https://tunan.org/3356.html">zerotier</a>内网穿透技术，只要是你把群晖暴露在公网上，那就要做好承担被网络上成千上万个扫描器扫描到的风险。扫描到不可怕，重要的扫描到也让它没有办法才行。这样，设置群晖的安全性设置就很必要了。</p>
+<h2 class="wp-block-heading" id="安全性设置">安全性设置</h2>
+<p>如下图，该选择打勾的都给他打上。<figure class="wp-block-image"></p>
+<p><img decoding="async" src="https://cdn.staticaly.com/gh/ewader/img@master/20230515/xxx.280z3g2nkeas.webp" alt="xxx" /> </figure></p>
+<h2 class="wp-block-heading" id="账户的安全性设置">账户的安全性设置</h2>
+<p>建议对管理员账户强制开启双重验证，并下载synology secure signin这个app，选择code验证，这个无论手机是否在线，输入synology secure signin生成的code都是可以验证的。登录的时候在经常使用的电脑上点击记住设备，下次登录就不用再输入code了。为了安全，这一点点的不方便还是值得的。<figure class="wp-block-image"></p>
+<p><img decoding="async" src="https://cdn.staticaly.com/gh/ewader/img@master/20230515/xxx.6gfe0eb5w8g0.webp" alt="xxx" /> </figure></p>
+<h2 class="wp-block-heading" id="群晖防火墙的设置">群晖防火墙的设置</h2>
+<p>开启群晖的防火墙还是很有必要的，开启并编辑规则后，可以把屏蔽国外ip的访问，这样安全性就提高了一大块，毕竟扫描器绝大部分都是国外的ip。<figure class="wp-block-image"></p>
+<p><img decoding="async" src="https://cdn.staticaly.com/gh/ewader/img@master/20230515/xxx.13k03whzr0u8.webp" alt="xxx" /> </figure></p>
+<p>开启防火墙，并启用防火墙通知，这样，有ip被封锁后，群晖会发邮件来提醒你。</p>
+<p>具体的规则如下：<figure class="wp-block-image"></p>
+<p><img decoding="async" src="https://cdn.staticaly.com/gh/ewader/img@master/20230515/xxx.3s3vpjpjnc40.webp" alt="xxx" /> </figure></p>
+<p>上述规则的解读，第一条规则是允许你局域网所在的ip段的访问，包括所有的协议和端口，如果用的有docker的话就加上第二条规则，让docker的ip也能自由的和主机进行通信。第三条是允许国内的ip访问，毕竟你需要在不同的地方来访问你的群晖，这个就不要限制了，第四条是我自己的一台境外的服务器，我用来做frp穿透用，也设置允许了。最后一条是拒绝除了上面的ip之外所有ip的访问。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>那些年,我折腾过的杀毒软件</title>
+      <link>http://localhost:1313/4365.html</link>
+      <pubDate>Wed, 19 Apr 2023 01:29:27 +0000</pubDate>
+      <guid>http://localhost:1313/4365.html</guid>
+      <description>&lt;p&gt;现在电脑虽然普及，但是随着微软系统内置杀毒软件，以及PC的使用率下降等原因，导致杀毒软件的行业也不在如以前繁荣，很多知名的杀毒软件，要么慢慢淡去，要么被实力更大的厂商收购。今天，就来盘点一下，用电脑的这些年，折腾过的杀毒软件。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>现在电脑虽然普及，但是随着微软系统内置杀毒软件，以及PC的使用率下降等原因，导致杀毒软件的行业也不在如以前繁荣，很多知名的杀毒软件，要么慢慢淡去，要么被实力更大的厂商收购。今天，就来盘点一下，用电脑的这些年，折腾过的杀毒软件。</p>
+<p>对电脑病毒初次有印象是1999年，CIH病毒泛滥的那段时间。老师上课的时候，不经意间说他家的电脑中病毒了，从此对电脑病毒有了印象。第一次真正的遇到电脑病毒是2003年的时候，当时单位的电脑运行的很慢，网管给装上了瑞星杀毒软件，更新后，扫出来几千个病毒，当时把我给兴奋的不行。</p>
+<p>也正是如此，对瑞星杀毒软件就有了好印象，于是在买的第一台电脑里，安装的杀毒软件就是瑞星。<figure class="wp-block-image"></p>
+<p><img decoding="async" src="https://cdn.staticaly.com/gh/ewader/img@master/20230419/xxx.3kp8neermue0.webp" alt="xxx" /> </figure></p>
+<h2 class="wp-block-heading" id="国内篇">国内篇 </h2>
+<h3 class="wp-block-heading" id="瑞星杀毒软件">瑞星杀毒软件</h3>
+<p>因为好印象，所以第一选择就是它，当然用的是盗版的。于是满世界的找注册码，当时瑞星防盗版很严，基本上找不到能用的注册码。但是找到了好几个专业的杀毒软件的论坛，包括霏凡论坛，金山论坛杀毒软件专区，在论坛里结识了好几个大神。由于不好找注册码以及其他的原因，后来就不在使用瑞星杀毒软件了。</p>
+<h3 class="wp-block-heading" id="金山杀毒软件">金山杀毒软件</h3>
+<p>之所以用金山，是因为金山杀毒软件当时是可以离线更新病毒库的。虽然麻烦了一些，但是能升级就行了呗，后来从论坛上了解到，当年的金山杀毒软件技术水平还是很高的，杀毒引擎一度是oem俄罗斯的dr.web。后来，就发展出来了自己的杀毒引擎，在当时也是很先进的，不过后来，它啥都想做，啥都没有做出来什么样子。杀毒软件也就慢慢没落了。</p>
+<h3 class="wp-block-heading" id="江民杀毒软件">江民杀毒软件</h3>
+<p>这个我没有用过，当时也是很厉害的，在一些测试中，国产的应该是拍第一，资源占用很小，杀毒率和卡巴斯基不相上下。但是，那时候卡巴斯基是真卡，杀猪的声音是真销魂。之所以不用，是因为它的反盗版真牛B，甚至为了反盗版而出了锁硬盘的逻辑锁。你用我的盗版不给我交钱，我锁你硬盘。</p>
+<h3 class="wp-block-heading" id="微点杀毒软件">微点杀毒软件</h3>
+<p>没咋用过，因为它一直不出正式版，这个杀毒软件，是从瑞星离职的一个老总开发的， 被瑞星告了，老总差点被抓，所以，这个软件当时一直是测试版，据说它的理念很先进，叫作主动式的安全软件。现在已经找不到了</p>
+<h3 class="wp-block-heading" id="费尔杀毒">费尔杀毒</h3>
+<p>2008年左右开发出来的，当时还推出终身版的注册码，可惜刚发展没多久，就遇到了360的免费，然后就没有然后了，前两年还偶尔更新一下，现在估计彻底凉凉了。</p>
+<h3 class="wp-block-heading" id="360杀毒软件">360杀毒软件</h3>
+<p>周鸿祎开发的，并且免费，开启了国内杀毒软件免费的浪潮，360起家是做流氓软件3721的，这也是被广大网友诟病的一件事。免费的杀毒软件香是香，但是广告真的是太多了，而且后来都是ALL IN ONE，啥功能都想带，自己的全家桶拼命的往你电脑里塞，所以，当时用了一段时间，慢慢的不再用了，凭心而论，360积累的技术还是很牛的，中国安全软件界的扛把子。</p>
+<p>可能有人会说还有火绒，这个软件，我没有用过，不做评论了。</p>
+<h2 class="wp-block-heading" id="国外篇">国外篇</h2>
+<h3 class="wp-block-heading" id="卡巴斯基">卡巴斯基</h3>
+<p>俄罗斯的杀毒软件，在国内做的本地化最好，当年是真的卡，杀毒是真不留情，杀猪的声音是很多人的回忆。当然，这都是过去了，现在的卡巴斯基是一点也不卡了 ，整体运行流畅，防护的也很全面，价格也不贵，老用户的续费价是3年108元。相比较国内那些乱七八糟的软件，这个价格还是可以接受的，老刘店里的电脑用的这个，前几天成功的发现小胡的博客，有一个js有问题。</p>
+<h3 class="wp-block-heading" id="drweb">dr.web</h3>
+<p>同样是俄罗斯的，据说是俄罗斯军用的，也不知道真假。但是这个软件带毒杀毒的能力很强，当年熊猫烧香病毒为数不多的没被干掉的杀毒软件之一。缺点是有点卡，之前在国内还做过活动。8块钱一年。现在好像不做了，由于不咋用，没有太关注。</p>
+<h3 class="wp-block-heading" id="eset">ESET</h3>
+<p>斯洛伐克的杀毒软件，但是总部在美国。一出世就很惊艳，资源占用很小，甚至完全感觉不到，但是防护的很好，很全面，关键是注册码很好找，虽然每个注册码都用不太长时间，但是封了再找吗，如果不想这么麻烦，入正也是一个很不错的选择，87元三年。相当有性价比了。目前老刘家里的电脑正在使用，对比系统自带的wd，流畅度不是一个等级的。</p>
+<h3 class="wp-block-heading" id="avast-avira-avg">AVAST AVIRA AVG</h3>
+<p>传说中的3A，都有免费版的杀毒软件，其实，免费杀毒软件并不是360首创的，只不过360是第一家全免费，并且营销力度最大的，这里说的3a都是有免费版的，区别于收费版，有些功能上的缺失，比如没有防火墙等。目前这三者都被norton收购了。</p>
+<h3 class="wp-block-heading" id="norton">norton</h3>
+<p>美国的老牌杀毒软件，防护性能好，如果说卡巴基斯以进攻为主，norton就是以防守为主。在国内也拥有很多的粉丝，分为企业版和个人版，企业版现在卖给高通了。企业版基本对个人来说是免费使用的。效果很好。资源占用也不大。值得使用的杀毒软件。</p>
+<h3 class="wp-block-heading" id="mcafee">McAfee</h3>
+<p>美国的杀毒软件，当年企业版独创的文件夹保护技术，迷倒很多人。设置好规则后，病毒想进来都进不来。个人版略卡，没有太用过。企业版和norton一样，对个人来说基本可以免费使用。不过后来，这个软件有点不思进取了，技术方面没有太大的突破，也就不怎么关注了。</p>
+<h3 class="wp-block-heading" id="microsoft-defendermse">Microsoft Defender(MSE)</h3>
+<p>系统自带的杀毒软件，客观来说，只用MD也基本没啥问题的，主要的问题是，md一是卡系统，二是树大招风，很多病毒都会针对md做免杀。所以，万不得已还是用其他的吧</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>edge浏览器里几个实用的小功能</title>
+      <link>http://localhost:1313/4362.html</link>
+      <pubDate>Sat, 15 Apr 2023 09:55:19 +0000</pubDate>
+      <guid>http://localhost:1313/4362.html</guid>
+      <description>&lt;p&gt;今天从电脑上下载了一个app，一般情况下，传到手机里要么用微信或者QQ，要么用群晖的drive同步，但是今天忽然发现edge浏览器自带的drop小工具就可以轻松的实现，仔细看了一下，发现新版Edge浏览器侧边栏的小工具还是挺实用的。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>今天从电脑上下载了一个app，一般情况下，传到手机里要么用微信或者QQ，要么用群晖的drive同步，但是今天忽然发现edge浏览器自带的drop小工具就可以轻松的实现，仔细看了一下，发现新版Edge浏览器侧边栏的小工具还是挺实用的。</p>
+<h2 class="wp-block-heading" id="drop实现很手机之间的互传">drop实现很手机之间的互传</h2>
+<p>在浏览器右侧的边栏里，有一个小飞机一样的图标，点开来，是一个类似对话框的页面，点击下面的➕号，把需要的文件发送即可。当然手机上也需要安装EDGE浏览器，这个文件应该是保存在了onedrive里，使用起来还是非常好用的。<figure class="wp-block-image"></p>
+<p><img decoding="async" src="https://cdn.staticaly.com/gh/ewader/img@master/20230415/屏幕截图-2023-04-15-174611.azxunhda6bc.webp" alt="屏幕截图-2023-04-15-174611" /> </figure></p>
+<h2 class="wp-block-heading" id="计算器等小工具">计算器等小工具</h2>
+<p>还是在右边栏，有一个红色的工具箱一样的图标，点击开来，里面有计算器、单位换算器，翻译工具等，单位换算器里面长度，质量、频率、角度、压强……等等可以说是应有尽有了。</p>
+<h2 class="wp-block-heading" id="其他的小工具">其他的小工具</h2>
+<p>比如Microsoft365，Outlook等等，这个侧边栏还可以自定义。之前都没有注意到这个侧边栏，发现一些小功能还是挺贴心的。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>manjaro的gnome版本升级到43.1了</title>
+      <link>http://localhost:1313/4295.html</link>
+      <pubDate>Wed, 16 Nov 2022 01:40:50 +0000</pubDate>
+      <guid>http://localhost:1313/4295.html</guid>
+      <description>&lt;p&gt;都说使用manjaro最频繁使用的就是命令是&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;sudo pacman -Syyu&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;这不，照例这么运行了一下，提示有更新，好家伙下载了1g多，不过更新替换后，系统反而小了1m。当时也没有注意更新了啥，直到我点击了这里，发现快速设置菜单变了。&lt;br&gt;
+&lt;img decoding=&#34;async&#34; src=&#34;https://cdn.staticaly.com/gh/ewader/img@master/20221116/截图-2022-11-16-09-12-36.356jzs54ykg0.webp&#34; alt=&#34;截图-2022-11-16-09-12-36&#34; /&gt;&lt;br&gt;
+发现整个改变了，看了一下系统才发现原来是更新了gnome，现在已经是最新版的了，不得不说，如果想用linux的最新版本，还的使用ARCH系的。滚动更新，yyds。&lt;br&gt;
+&lt;strong&gt;&lt;em&gt;gnome43更新了不少东西。别说这些东西win都有。&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>都说使用manjaro最频繁使用的就是命令是</p>
+<pre class="wp-block-code"><code>sudo pacman -Syyu</code></pre>
+<p>这不，照例这么运行了一下，提示有更新，好家伙下载了1g多，不过更新替换后，系统反而小了1m。当时也没有注意更新了啥，直到我点击了这里，发现快速设置菜单变了。<br>
+<img decoding="async" src="https://cdn.staticaly.com/gh/ewader/img@master/20221116/截图-2022-11-16-09-12-36.356jzs54ykg0.webp" alt="截图-2022-11-16-09-12-36" /><br>
+发现整个改变了，看了一下系统才发现原来是更新了gnome，现在已经是最新版的了，不得不说，如果想用linux的最新版本，还的使用ARCH系的。滚动更新，yyds。<br>
+<strong><em>gnome43更新了不少东西。别说这些东西win都有。</em></strong></p>
+<h2 class="wp-block-heading" id="文件管理器自适应侧边栏">文件管理器自适应侧边栏</h2>
+<p>现在的文件管理器可以根据打开窗口的尺寸，自动调整侧边了，当较小尺寸的时候，侧边栏可以自动隐藏。</p>
+<h2 class="wp-block-heading" id="文件夹上带图标了">文件夹上带图标了</h2>
+<p>GNOME 43 中以文件和目录旁边的小图标的形象卷土重来。这些图标代表着类型，如符号链接、只读等。此外，这些图标会根据你的主题改变它们的颜色，而且一个文件也可以有多个图标。<br>
+<img decoding="async" src="https://cdn.staticaly.com/gh/ewader/img@master/20221116/截图-2022-11-16-09-35-48.5yg6ny0lrwk0.webp" alt="截图-2022-11-16-09-35-48" /></p>
+<h2 class="wp-block-heading" id="更新后原来使用的插件没有发现异常">更新后原来使用的插件没有发现异常</h2>
+<p>GNome比较烦人的一点是，桌面的极简化，想实现一些功能必须安装插件，如果GNOME升级了，而插件没有升级，就会出错，现在看来，manjaro的策略还是比较成功的，延缓一些再发布，给开发者时间适配新版本，目前来说使用的几个插件都没有发现什么问题。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>群晖安装trilium笔记web端不刷新的处理方法</title>
+      <link>http://localhost:1313/4154.html</link>
+      <pubDate>Sun, 26 Jun 2022 03:50:24 +0000</pubDate>
+      <guid>http://localhost:1313/4154.html</guid>
+      <description>&lt;p&gt;最初装上trilium上之后，发现web端新建笔记或者删除笔记等都不会刷新。也和中文博客群里的少君等人讨论过，也没有得出过什么结论，毕竟环境不同嘛，当时貌似也就我一个人遇到了这种情况。后来发现是网络有错误，是websocket链接错误。但是作为小白，也没有解决的办法。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>最初装上trilium上之后，发现web端新建笔记或者删除笔记等都不会刷新。也和中文博客群里的少君等人讨论过，也没有得出过什么结论，毕竟环境不同嘛，当时貌似也就我一个人遇到了这种情况。后来发现是网络有错误，是websocket链接错误。但是作为小白，也没有解决的办法。</p>
+<p>后来张波老师也遇到了，原来用域名反代访问就会出现这个问题。群里的大神给出了NGINX下的解决方案，可是我用的群晖啊，没有nginx肿么办？</p>
+<h3 class="wp-block-heading" id="其实用群晖的反代更简单">其实，用群晖的反代更简单</h3>
+<p>打开群晖反代的设置界面，点击自定义标题，点新增，点websocket。保存，即可。<figure class="wp-block-image size-full"></p>
+<p><img loading="lazy" decoding="async" width="732" height="677" src="https://tunan.org/wp-content/uploads/2022/06/a29f701cb0ead1b.png" alt="" class="wp-image-4155" /> </figure></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>关于笔记软件的选择</title>
+      <link>http://localhost:1313/4145.html</link>
+      <pubDate>Thu, 23 Jun 2022 02:35:24 +0000</pubDate>
+      <guid>http://localhost:1313/4145.html</guid>
+      <description>&lt;p&gt;最近，中文博客圈群里兴起了一股笔记软件的热潮，其实也不是最近，而是一直都有断断续续的讨论。只不过老刘一直以来都是用的群晖note，对我来说，网页剪辑一下要用到的网页内容，各种客户端都很齐全，觉得是够用的了。直到….&lt;br&gt;
+上个月隔离的时候，碰到张波老师安装Trilium这个软件，于是我也试用了一下，被这个笔记的功能所吸引，于是再群晖上部署，试用，又折腾了其他的一些笔记软件。最后来说一说这些笔记软件的特点，&lt;strong&gt;&lt;em&gt;只是自己使用的体会，不牵涉到教程，不到之处，敬请海涵&lt;/em&gt;&lt;/strong&gt;。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>最近，中文博客圈群里兴起了一股笔记软件的热潮，其实也不是最近，而是一直都有断断续续的讨论。只不过老刘一直以来都是用的群晖note，对我来说，网页剪辑一下要用到的网页内容，各种客户端都很齐全，觉得是够用的了。直到….<br>
+上个月隔离的时候，碰到张波老师安装Trilium这个软件，于是我也试用了一下，被这个笔记的功能所吸引，于是再群晖上部署，试用，又折腾了其他的一些笔记软件。最后来说一说这些笔记软件的特点，<strong><em>只是自己使用的体会，不牵涉到教程，不到之处，敬请海涵</em></strong>。</p>
+<h2 class="wp-block-heading" id="群晖synology-note">群晖Synology note</h2>
+<p>这款软件是老刘用了好几年的笔记软件了。其有点是，和**<em>群晖NAS无缝结合</em>**（这是废话），客户端齐全，同步方便。日程之类很完善，有网页剪辑的插件，能一键把需要的网页保存到笔记软件中。<br>
+不足之处：</p>
+<ul class="wp-block-list">
+  <li>
+    不支持双链
+  </li>
+  <li>
+    不支持Markdown语法
+  </li>
+  <li>
+    导入导出不方便<br />我觉得这是这个软件目前最大的软肋。如果群晖能把这两个问题解决好，特别是前两个问题，我觉得，我就可以一直把这个软件用下去。
+  </li>
+</ul><figure class="wp-block-image size-full">
+<p><img loading="lazy" decoding="async" width="1410" height="850" src="https://tunan.org/wp-content/uploads/2022/06/b4949d1d99f6229.png" alt="" class="wp-image-4146" srcset="https://tunan.org/wp-content/uploads/2022/06/b4949d1d99f6229.png 1410w, https://tunan.org/wp-content/uploads/2022/06/b4949d1d99f6229-768x463.png 768w" sizes="(max-width: 1410px) 100vw, 1410px" /> </figure></p>
+<h2 class="wp-block-heading" id="trilium">Trilium</h2>
+<p>这是一款很由个人开发的一款笔记软件，功能非常的强大。支持客户端，支持部署在服务器上在线使用。<br>
+因为功能强大，导致使用复杂，简单的记笔记倒是无妨，想用到一些更方便优秀的功能就需要学习成本了，而这一点恰恰是很少的。网上的教程大多都是如何部署的，讲怎么使用的很少很少。老刘折腾了好久，连标签的用法都没有搞定，可能也确实是太小白了。<br>
+另外，Trilium的数据是保存在Sqlite里，正如群里柏均所说，数据库在储存元数据的时候具有天然的优势，特别是数据多的时候,比如ob等以小文件存储的软件可能会卡，但是数据库存储，这方面的担心就会很小。<br>
+另外一点是<strong>Trilium对markdown语法的支持不全</strong>，这让熟悉使用MD语法的人会有点不方便。学习成本高，移动端支持垃圾，可能也正式给予此，使用的人应该都是大牛吧，能自己解决大部分的问题。教程少，导致普通用户少。<figure class="wp-block-image size-full"></p>
+<p><img loading="lazy" decoding="async" width="1477" height="566" src="https://tunan.org/wp-content/uploads/2022/06/212984592a101b9.png" alt="" class="wp-image-4147" srcset="https://tunan.org/wp-content/uploads/2022/06/212984592a101b9.png 1477w, https://tunan.org/wp-content/uploads/2022/06/212984592a101b9-768x294.png 768w" sizes="(max-width: 1477px) 100vw, 1477px" /> </figure></p>
+<h2 class="wp-block-heading" id="思源笔记">思源笔记</h2>
+<p>思源笔记也是用数据库来保存数据，我装上后，体验起来有点卡，另外就是<strong>第三方同步不方便</strong>，如果一定要用第三方同步的话，需要在使用的时候关闭第三方软件的同步，使用完毕后，在同步数据。<br>
+所以，一是卡，二是同步不方便，直接让老刘没有继续用下去的欲望了。</p>
+<h2 class="wp-block-heading" id="obsidian和logseq">Obsidian和logseq</h2>
+<p>我把这两个软件放到了一起说，因为他两个很同类，甚至还可以相互打开对方的数据。只不过有被污染的风险。因为本质上，这两个软件就是一款阅读器编辑器。<figure class="wp-block-image size-full"></p>
+<p><img loading="lazy" decoding="async" width="1898" height="668" src="https://tunan.org/wp-content/uploads/2022/06/99faee4e1a331a7.png" alt="" class="wp-image-4148" srcset="https://tunan.org/wp-content/uploads/2022/06/99faee4e1a331a7.png 1898w, https://tunan.org/wp-content/uploads/2022/06/99faee4e1a331a7-768x270.png 768w, https://tunan.org/wp-content/uploads/2022/06/99faee4e1a331a7-1536x541.png 1536w" sizes="(max-width: 1898px) 100vw, 1898px" /> <figcaption>obsidian</figcaption></figure></p>
+<h3 class="wp-block-heading" id="优点">优点</h3>
+<ul class="wp-block-list">
+  <li>
+    支持mardown
+  </li>
+  <li>
+    支持双链，两个软件，OB应该是把链接放到了各自的文件上，LQ是在此基础上又建立了一套索引。
+  </li>
+  <li>
+    导入导出方便
+  </li>
+  <li>
+    支持第三方的同步
+  </li>
+</ul>
+<h3 class="wp-block-heading" id="缺点">缺点</h3>
+<ul class="wp-block-list">
+  <li>
+    每个笔记都会保存成一个文件，这样就很乱
+  </li>
+  <li>
+    当文件太多的时候，可能会卡，特别是笔记里图片很多的时候，这一点图片用外链来解决应该不错
+  </li>
+  <li>
+    Logseq对文章的输出不友好，它的设计理念是以“块”为单位，写文章的话，每一段文章就是一个“块”，也就是MD里的无序列表，所以这个软件比较适合做笔记使用，不适合写文章。
+  </li>
+</ul>
+<h2 class="wp-block-heading" id="写道最后">写道最后</h2>
+<p>其实个笔记软件发展到现在，功能方面都能满足基本的需求，没有比较追求All in one的模式，毕竟每个软件都用独到的地方。<figure class="wp-block-image size-full"></p>
+<p><img loading="lazy" decoding="async" width="1392" height="786" src="https://tunan.org/wp-content/uploads/2022/06/dc1d71bbb5c4d2a.png" alt="" class="wp-image-4149" srcset="https://tunan.org/wp-content/uploads/2022/06/dc1d71bbb5c4d2a.png 1392w, https://tunan.org/wp-content/uploads/2022/06/dc1d71bbb5c4d2a-768x434.png 768w" sizes="(max-width: 1392px) 100vw, 1392px" /> </figure></p>
+<p>就比如我来说，我目前用群晖note来管理日程，因为这个软件的移动端做的很不错。写文章我用Obsidian,因为它更适合。读书、记笔记，一些零散的想法，我都扔到Logseq里，因为这是它最擅长的。至于Trilium，打算暂时放弃。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>VPS服务器系统的选择</title>
+      <link>http://localhost:1313/4126.html</link>
+      <pubDate>Fri, 27 May 2022 07:29:40 +0000</pubDate>
+      <guid>http://localhost:1313/4126.html</guid>
+      <description>&lt;p&gt;随着云业务的蓬勃发展，很多独立博客的博主，个人网站站长都抛弃了曾经的虚拟主机而选择VPS，vps相对于虚拟主机来说，容量更大，可玩性更高；同时，要对个人的要求也随之更高。玩VPS首先遇到的就是系统的选择问题。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>随着云业务的蓬勃发展，很多独立博客的博主，个人网站站长都抛弃了曾经的虚拟主机而选择VPS，vps相对于虚拟主机来说，容量更大，可玩性更高；同时，要对个人的要求也随之更高。玩VPS首先遇到的就是系统的选择问题。</p>
+<h2 class="wp-block-heading" id="windows系统">Windows系统</h2>
+<p>大多数的站长第一次选择系统的时候都是喜欢用windows系统，毕竟熟悉，上手快。但是Windows服务器系统先天上占用资源比较大，系统不稳定，导致获得不了良好的用户体验。同样1H1G配置的vps，运行最新版本的debian11，然后装个博客系统，是一点问题都没有，但是你要是想要运行Windows服务器，只能选择低版本的了。所以，用了一段时间后，自然就淘汰不用了。</p>
+<h2 class="wp-block-heading" id="linux系统">Linux系统</h2>
+<p>Linux系统是开源系统，受到所有开发者的共同监督，已经是非常成熟的服务器系统，并且拥有着一套完整的权限机制，安全性与稳定性都很高。只是上手有点门槛。不过，随着各种面板技术的发展，目前这个已经不是什么问题。那么Linux系统那么多，到底选择哪种呢？<figure class="wp-block-image size-full"></p>
+<p><img loading="lazy" decoding="async" width="800" height="320" src="https://tunan.org/wp-content/uploads/2022/05/2288ffcb6a9ebbe26f1bc0cc09130f5b.png" alt="" class="wp-image-4128" /> </figure></p>
+<h3 class="wp-block-heading" id="centos">centos</h3>
+<p>这个系统在国内可以说是服务器的首选。可惜去年官方已经不在继续维护这个系统了，目前最高的版本是centos8.0，目前官方已经不再维护，centos7.6由于用的人更多，目前还在过度的时间内，但是也时日无多了。所以，用这个系统的童鞋，还是换成别的系统吧。老刘曾用过腾讯云里腾讯自己以centos8为蓝本开发的系统，体验起来还是可以的。如果真是centos的铁粉，不妨可以试试腾讯的这个系统。<figure class="wp-block-image size-full"></p>
+<p><img loading="lazy" decoding="async" width="554" height="369" src="https://tunan.org/wp-content/uploads/2022/05/2a3092a9b86bc6425fbaa9ff49f79a36.png" alt="" class="wp-image-4129" /> </figure></p>
+<h3 class="wp-block-heading" id="debain">debain</h3>
+<p>这个也是老牌的服务器系统了。作为一个具有悠久历史的社区维护的操作系统。生命力还是没有问题的。据王志勇大佬的测试，使用Debian系统的php要比其他的系统来说，速度更快。老刘感觉，这个快可能更多的是测试的结果，实际体验下来，感觉相差不大。Debian系统稳定，软件丰富。自从centos宣布停止维护后，老刘已经把所有的VPS的系统都换成Debian了。<figure class="wp-block-image size-full"></p>
+<p><img loading="lazy" decoding="async" width="641" height="480" src="https://tunan.org/wp-content/uploads/2022/05/bd8b867419bc6c482857a4b0e04fb5bd.jpeg" alt="" class="wp-image-4130" /> </figure></p>
+<p>另外一个让老刘喜欢用Debian的原因是，Debian11的防火墙使用起来非常的简单，而别的系统大多是用的iptables。比如我们要放行一个端口，Debian只需用如下的命令：</p>
+<pre class="wp-block-code"><code>ufw allow 666</code></pre>
+<p>而iptables写法就很复杂了：</p>
+<pre class="wp-block-code"><code>iptables -I INPUT -p tcp --dport 8000 -j ACCEPT</code></pre>
+<h3 class="wp-block-heading" id="ubuntu">Ubuntu</h3>
+<p>是基于Debian二次开发的产物，在Linux桌面操作系统中，Ubuntu绝对是老大的存在。很多公司开发的软件，都是基于Ubuntu来开发的。服务器版也还可以，不过老刘还是习惯了使用Debian。</p>
+<p>至于其他的小众操作系统，使用的人少，遇到问题找答案都不容易，不用也罢</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Windows11 如何使用ie浏览器</title>
+      <link>http://localhost:1313/4120.html</link>
+      <pubDate>Thu, 26 May 2022 01:55:15 +0000</pubDate>
+      <guid>http://localhost:1313/4120.html</guid>
+      <description>&lt;p&gt;windows11已经抛弃了ie浏览器，但是有一些场合必须要使用，比如现在各大银行的u盾还不支持edge，有很多同学到处找IE这个软件，其实大可不必。windows11目前只是暂时屏蔽了IE而已。点击“查找”，搜索“控制面板”&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>windows11已经抛弃了ie浏览器，但是有一些场合必须要使用，比如现在各大银行的u盾还不支持edge，有很多同学到处找IE这个软件，其实大可不必。windows11目前只是暂时屏蔽了IE而已。点击“查找”，搜索“控制面板”</p>
+<p>在“控制面板”中点击“Internet选项”<figure class="wp-block-image size-full"></p>
+<p><img loading="lazy" decoding="async" width="824" height="456" src="https://tunan.org/wp-content/uploads/2022/05/d848bef3d5b0afe.png" alt="" class="wp-image-4121" srcset="https://tunan.org/wp-content/uploads/2022/05/d848bef3d5b0afe.png 824w, https://tunan.org/wp-content/uploads/2022/05/d848bef3d5b0afe-768x425.png 768w" sizes="(max-width: 824px) 100vw, 824px" /> </figure></p>
+<p>在弹出的页面，点击右上角的“？”<figure class="wp-block-image size-full"></p>
+<p><img loading="lazy" decoding="async" width="607" height="788" src="https://tunan.org/wp-content/uploads/2022/05/6b9167b21121d1a.png" alt="" class="wp-image-4122" /> </figure></p>
+<p>奇迹是不是发生了？？</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>正式使用Manjaro系统</title>
+      <link>http://localhost:1313/4036.html</link>
+      <pubDate>Mon, 17 Jan 2022 00:24:40 +0000</pubDate>
+      <guid>http://localhost:1313/4036.html</guid>
+      <description>&lt;p&gt;昨天把开发python 的这个电脑也更换成manjaro这个系统了。经过一段时间的试用，感觉这个系统确实是一个使用起来舒服有稳定的系统。&lt;figure class=&#34;wp-block-image size-full&#34;&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>昨天把开发python 的这个电脑也更换成manjaro这个系统了。经过一段时间的试用，感觉这个系统确实是一个使用起来舒服有稳定的系统。<figure class="wp-block-image size-full"></p>
+<p><img loading="lazy" decoding="async" width="1920" height="1080" src="https://tunan.org/wp-content/uploads/2022/01/87269d5350708c3.png" alt="" class="wp-image-4038" srcset="https://tunan.org/wp-content/uploads/2022/01/87269d5350708c3.png 1920w, https://tunan.org/wp-content/uploads/2022/01/87269d5350708c3-768x432.png 768w, https://tunan.org/wp-content/uploads/2022/01/87269d5350708c3-1536x864.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /> </figure></p>
+<h2 class="wp-block-heading" id="manjaro之于ubuntu">manjaro之于ubuntu</h2>
+<p>以前在桌面上选择LINUX的时候首选是ubuntu,这个系统的优点是用户多，大的方面比较稳定，运行也比较流畅，很多软件都是以ubuntu的格式来开发的。在我的电脑上有一个很烦人的问题，就是不能保存电脑的亮度，调整完之后，下次一重新启动，亮度又是最大了。虽然通过代码可以改，但是改后还是有一丢小问题的，强迫症有点。另外就是安装软件的时候，软件中心启动的慢，有时候甚至安装的界面都出不来。基于这么几点，优点不太满意。</p>
+<h2 class="wp-block-heading" id="manjaro之于deepinuos">manjaro之于deepin/uos</h2>
+<p>deepin和uos算是国产系统里的佼佼者了，我遇到的问题是，deepin偶会卡死，毫无征兆的那种，忽然桌面一卡，整个都不能用了。UOS刚开始也有这毛病，最新版貌似解决了这个问题。另外就是蓝牙有问题，死活连不上鼠标。</p>
+<p>deepin系我最喜欢的是它的终端，设计的非常人性化，特别是连接远程服务器里面，我用过的终端里，深度终端是最好用的。</p>
+<p>在就是UOS的系统资源占用率有点高，比如你开上一个浏览器，然后什么都不动，基本CPU会在5-8%的占用，要是浏览点网页，还会更高，所以使用的时候，风扇就会呼呼的转。笔记本在不用电源的情况下，充满电只能有3个小时左右（manjaro基本上能用5个多小时），还是挺费电的。<figure class="wp-block-image size-full"></p>
+<p><img loading="lazy" decoding="async" width="999" height="785" src="https://tunan.org/wp-content/uploads/2022/01/58ce6892b8bdff4.png" alt="" class="wp-image-4037" srcset="https://tunan.org/wp-content/uploads/2022/01/58ce6892b8bdff4.png 999w, https://tunan.org/wp-content/uploads/2022/01/58ce6892b8bdff4-768x603.png 768w" sizes="(max-width: 999px) 100vw, 999px" /> <figcaption>manjaro占用，开着edeg还有wine版的微信</figcaption></figure></p>
+<h2 class="wp-block-heading" id="manjaro的缺点">manjaro的缺点</h2>
+<p>默认没有中文输入法，需要自己安装。wps字体非常的模糊。软件商店没有deepin这种的直观。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>推荐一款免费开源的RSS软件-Quiterss</title>
+      <link>http://localhost:1313/3958.html</link>
+      <pubDate>Thu, 23 Dec 2021 01:48:37 +0000</pubDate>
+      <guid>http://localhost:1313/3958.html</guid>
+      <description>&lt;p&gt;RSS对于很多博主来说都不会陌生，很多博友还都有着使用RSS订阅的习惯。有很多朋友还专门在VPS用tiny tinyRSS或者freshrss程序自己设立一个服务器。老刘目前也是在甲骨文的免费小鸡上用着tinyrss。这段时间在折腾PYTHON，在ubuntu上折腾。偶然发现了这个程序，体验了一下，感觉还是很不错的，推荐给大家。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>RSS对于很多博主来说都不会陌生，很多博友还都有着使用RSS订阅的习惯。有很多朋友还专门在VPS用tiny tinyRSS或者freshrss程序自己设立一个服务器。老刘目前也是在甲骨文的免费小鸡上用着tinyrss。这段时间在折腾PYTHON，在ubuntu上折腾。偶然发现了这个程序，体验了一下，感觉还是很不错的，推荐给大家。</p>
+<p><strong>QuiteRSS</strong>。它是一款免费开源且跨平台的 <strong>RSS 阅读器</strong>客户端软件，支持 Windows、Mac、Linux 系统，界面并不算华丽，但是该有的功能都有了，比如：支持 RSS 内容的中文关键字搜索，支持标签归类功能，可以对文章加上星号或标签来收藏整理，标记未读已读，支持 OPML 导入导出、可以文件夹整理 Feed、内置浏览器 (可设置使用外部默认浏览器打开)、支持多标签页等，基本上能满足一切 RSS 的阅读需求。</p>
+<img loading="lazy" decoding="async" class="alignnone size-full wp-image-3959" src="https://tunan.org/wp-content/uploads/2021/12/2021-12-23-09-35-51.png" alt="" width="1174" height="829" srcset="https://tunan.org/wp-content/uploads/2021/12/2021-12-23-09-35-51.png 1174w, https://tunan.org/wp-content/uploads/2021/12/2021-12-23-09-35-51-768x542.png 768w" sizes="(max-width: 1174px) 100vw, 1174px" /> 
+<p>Quiterss支持windows、MACOS、LINUX，在ubuntu、win7、win10等都可以完美的应用，对于windows版本，官方推出的还有绿色版，可以说非常的全面了，唯一让老刘感觉不爽是无法在各个设备之间同步，要是以后通过网盘之类的在不同设备之间同步，那就非常的完美了。</p>
+<h2 id="安装方法">安装方法：</h2>
+<p>win下和mac下都很简单，直接下载安装即可。这里专门说说Linux下的方法</p>
+<h3 id="arch-linux"><strong>Arch Linux</strong></h3>
+<pre class="language-bash line-numbers"><code class="language-bash">pacman -S quiterss</code></pre>
+<h3 id="fedora"><strong>Fedora</strong></h3>
+<pre class="language-bash line-numbers"><code class="language-bash">yum install quiterss</code></pre>
+<h3 id="ubuntu"><strong>Ubuntu</strong></h3>
+<p>可以直接在应用商店里搜索下载，也可以：</p>
+<pre class="language-bash line-numbers"><code class="language-bash">sudo add-apt-repository ppa:quiterss/quiterss
+sudo apt-get update
+sudo apt-get install quiterss</code></pre>
+<p> </p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>ubuntu20.04开机亮度最大的解决方法及输入法设置</title>
+      <link>http://localhost:1313/3951.html</link>
+      <pubDate>Mon, 20 Dec 2021 09:20:38 +0000</pubDate>
+      <guid>http://localhost:1313/3951.html</guid>
+      <description>&lt;p&gt;从很久以前UBUNTU就有一个毛病，有些电脑安装后，开机后屏幕的亮度会是最大。据说从很低的一个版本都有这样bug存在，但是不知道为啥官方一直都没有修复。不过网上也有很多的教程，试用了一下，有些有用，有些没用，直到扒到了一个很老的文章，上面记载的一个很简单的方法，却解决了这样一个问题。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>从很久以前UBUNTU就有一个毛病，有些电脑安装后，开机后屏幕的亮度会是最大。据说从很低的一个版本都有这样bug存在，但是不知道为啥官方一直都没有修复。不过网上也有很多的教程，试用了一下，有些有用，有些没用，直到扒到了一个很老的文章，上面记载的一个很简单的方法，却解决了这样一个问题。</p>
+<p>别的不说，直接上代码，照着做就行了：</p>
+<pre class="language-bash line-numbers"><code class="language-bash">sudo gedit /etc/default/grub
+ 
+#将GRUB_CMDLINE_LINUX_DEFAULT="quiet"，替换为以下
+GRUB_CMDLINE_LINUX_DEFAULT="quiet acpi_osi=Linux cpi_backlight=vendor"
+ 
+sudo update-grub</code> 最后一步一定要做。另外<code class="language-bash">GRUB_CMDLINE_LINUX_DEFAULT="quiet"可能是会多出几个单词，不影响不影响，就是这一行。</code></pre>
+<p>然后说说ubunut的输入法</p>
+<p>以前（十年前吧）的时候，linux下的输入法很难用，现在主流的输入法也都有了，比如搜狗，百度，讯飞等等。最近看了一下，发现已经不需要额外在安装其他的输入法了，用系统自带的中文输入法已经很好用了。</p>
+<p>系统自带的输入法是ibuslibpinyin，只需要简单的设置一下，就非常好用了。</p>
+<p>第一步：常规设置，如下图，根据个人的习惯来吧，老刘喜欢候选词以词频方式展示。</p>
+<img loading="lazy" decoding="async" class="alignnone size-full wp-image-3952" src="https://tunan.org/wp-content/uploads/2021/12/2021-12-20-17-15-27.png" alt="" width="607" height="755" /> 
+<p>第二步：拼音模式，勾选“启用云输入”</p>
+<img loading="lazy" decoding="async" class="alignnone size-full wp-image-3953" src="https://tunan.org/wp-content/uploads/2021/12/2021-12-20-17-19-08.png" alt="" width="600" height="759" /> 
+<p>第三步：用户词典，勾选全部</p>
+<img loading="lazy" decoding="async" class="alignnone size-full wp-image-3954" src="https://tunan.org/wp-content/uploads/2021/12/2021-12-20-17-19-30.png" alt="" width="609" height="764" /> 
+<p>第四步：重启</p>
+<p>至此，输入法使用起来基本上和在win10的微软拼音方便程度差不多了。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>linuxmint高分屏设置</title>
+      <link>http://localhost:1313/3944.html</link>
+      <pubDate>Mon, 13 Dec 2021 06:09:18 +0000</pubDate>
+      <guid>http://localhost:1313/3944.html</guid>
+      <description>&lt;p&gt;最近一直使用Linuxmint，如果不是一些必备的软件在Linux下没有，甚至都可以把Windows10卸载了，不过没有办法，有些软件还必须在win下使用。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>最近一直使用Linuxmint，如果不是一些必备的软件在Linux下没有，甚至都可以把Windows10卸载了，不过没有办法，有些软件还必须在win下使用。</p>
+<p>现在很多笔记本都是1920*1080的分辨率，这就导致字体有些小，在win10下默认是显示125%，Linuxmint下虽然也是可以设置成125%，但是总感觉有些不协调。</p>
+<p>网上还有一些教程是调大字体显示。但是无论怎么调，总感觉有些违和，看网页不舒服。后来发现其实Linuxmint在高分屏的支持方面已经比较完美了，可能是笔记本的屏幕太小导致字体小。</p>
+<p>后来发现只需要在系统设置，辅助功能里把大文本打开，现在的效果就非常棒。感觉字体小的朋友，可以试一试。浏览网页效果是非常的满意。</p>
+<img loading="lazy" decoding="async" class="alignnone size-full wp-image-3945" src="https://tunan.org/wp-content/uploads/2021/12/2021-12-13-14-07-01.png" alt="" width="808" height="632" srcset="https://tunan.org/wp-content/uploads/2021/12/2021-12-13-14-07-01.png 808w, https://tunan.org/wp-content/uploads/2021/12/2021-12-13-14-07-01-768x601.png 768w" sizes="(max-width: 808px) 100vw, 808px" /> 
+<p> </p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>试用统信uos家庭版</title>
+      <link>http://localhost:1313/3927.html</link>
+      <pubDate>Fri, 29 Oct 2021 01:22:00 +0000</pubDate>
+      <guid>http://localhost:1313/3927.html</guid>
+      <description>&lt;p&gt;之前上篇文章说了折腾Linux的因由，最后确定使用原版的ubuntu。不过在使用的过程中发现。还是有些许的小毛病。主要是安装了搜狗输入法之后，关机需要90秒的倒计时。从网上查了一下相关的信息，发现这个小毛病还是挺多人遇到的。虽然可以更改时间来较少，但是又可能造成系统的崩溃。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>之前上篇文章说了折腾Linux的因由，最后确定使用原版的ubuntu。不过在使用的过程中发现。还是有些许的小毛病。主要是安装了搜狗输入法之后，关机需要90秒的倒计时。从网上查了一下相关的信息，发现这个小毛病还是挺多人遇到的。虽然可以更改时间来较少，但是又可能造成系统的崩溃。</p>
+<p>Linuxmint倒是很流畅，一切都很满意。但是用了两天后发现了一个问题，不能使用微信，虽然在windows上，老刘也很少用微信，但是偶尔会用吧。加上近期媳妇申报副高要处理不少的文档，她都是用微信直接给我发过来，我要处理的话还得重启更换系统，非常的不方便。deepin吧，又时有卡桌面。后来想到了这个统信uos。批了一层皮的deepin os。本来没有报太大的希望，不过安装后却给了我不少的惊喜。</p>
+<img loading="lazy" decoding="async" class="alignnone size-full wp-image-3928" src="https://tunan.org/wp-content/uploads/2021/10/iliu_org_20211029092121166684.png" alt="" width="1916" height="1075" srcset="https://tunan.org/wp-content/uploads/2021/10/iliu_org_20211029092121166684.png 1916w, https://tunan.org/wp-content/uploads/2021/10/iliu_org_20211029092121166684-768x431.png 768w, https://tunan.org/wp-content/uploads/2021/10/iliu_org_20211029092121166684-1536x862.png 1536w" sizes="(max-width: 1916px) 100vw, 1916px" /> 
+<p>一、安装方便</p>
+<p>比任何Linux系统安装的都方便，尽管别的现在也不复杂了。真不会安装的话，可以申请官方的一对一服务。甚至安装后，你windows桌面上的文件都给你复制过来了。</p>
+<p>二、系统流畅</p>
+<p>这个在固态硬盘下，估计都流畅，除了那个ubuntukelly吧，优化的真不错。上手也简单。</p>
+<p>三、软件不少</p>
+<p>应用商店里的软件不少，不管是通过wine也好，还是通过使用安卓也好，反正基本上解决了Linux下软件不足的问题，尽管有些是非原生的系统，不过使用频率也低。偶尔应应急还是可以的。</p>
+<p>四、不足之处</p>
+<p>当然系统也还存在不足，主要表现在应用商店里的软件版本大多数都比较低，有的都1年多没有更新了。别如老刘必须要用的keepassxc。官方都已经是2.6.6了，商店里的还是2.3.4。又没法像ubuntu一样可以用ppa安装软件。</p>
+<p>尽管如此，也是瑕不掩瑜，感兴趣的朋友真的可以试试这个系统了。另外，家庭版目前是公测，挺稳定了，可以分享他人使用而免费激活，也可以支付9.9激活，据说以后会涨价，也不知真假。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>更新群晖至DSM7.0</title>
+      <link>http://localhost:1313/3887.html</link>
+      <pubDate>Mon, 06 Sep 2021 10:25:46 +0000</pubDate>
+      <guid>http://localhost:1313/3887.html</guid>
+      <description>&lt;p&gt;今天上午来到店内，不知道是怎么回事，产生了一些惰性，看到群里小胡同学发的白嫖亚马逊12本的电子书，就去搞了一下，看了会书，也不想更新商城的产品了，后来就想不行把群晖的系统升级一下吧。&lt;br&gt;
+&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; src=&#34;https://tunan.org/wp-content/uploads/2021/09/jooj_vip_20210906182618316202.png&#34; alt=&#34;&#34; width=&#34;1377&#34; height=&#34;805&#34; class=&#34;alignnone size-full wp-image-3889&#34; srcset=&#34;https://tunan.org/wp-content/uploads/2021/09/jooj_vip_20210906182618316202.png 1377w, https://tunan.org/wp-content/uploads/2021/09/jooj_vip_20210906182618316202-768x449.png 768w&#34; sizes=&#34;(max-width: 1377px) 100vw, 1377px&#34; /&gt;&lt;br&gt;
+群晖6.0的的系统不能自动升级到7.0，需要进行手动升级。于是到群晖官网下载相应型号的固件，在群晖的管理面板里手动升级即可。升级也很顺利。升级后有点小坑。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>今天上午来到店内，不知道是怎么回事，产生了一些惰性，看到群里小胡同学发的白嫖亚马逊12本的电子书，就去搞了一下，看了会书，也不想更新商城的产品了，后来就想不行把群晖的系统升级一下吧。<br>
+<img loading="lazy" decoding="async" src="https://tunan.org/wp-content/uploads/2021/09/jooj_vip_20210906182618316202.png" alt="" width="1377" height="805" class="alignnone size-full wp-image-3889" srcset="https://tunan.org/wp-content/uploads/2021/09/jooj_vip_20210906182618316202.png 1377w, https://tunan.org/wp-content/uploads/2021/09/jooj_vip_20210906182618316202-768x449.png 768w" sizes="(max-width: 1377px) 100vw, 1377px" /><br>
+群晖6.0的的系统不能自动升级到7.0，需要进行手动升级。于是到群晖官网下载相应型号的固件，在群晖的管理面板里手动升级即可。升级也很顺利。升级后有点小坑。</p>
+<h2 id="dsm60系统里的很多套件不能用了">Dsm6.0系统里的很多套件不能用了</h2>
+<p>具体有哪些不是很清楚，我原来主要用的是moment这个相册的套件，还有synology drive,已经note station这三个套件。至于下载之类的，老刘也没有什么需要一天到晚下载的数据。升级完之后发现moment这个套件不能用了。<br>
+查找了一下发现，群晖dsm7.0的相册套件是synology photos。老刘手机上把Google市场卸载了，安装不上，后来找了一个可以下载Google市场APP的网站，下载了synology photos之后，传到手机上，算是顺利的解决了这一个问题。</p>
+<h2 id="升级后的感觉">升级后的感觉</h2>
+<p>感觉和以前的6.0相差不大，节目好看了那么一丢丢。如果非要比喻的话是xp到win7的感觉吧。更精致了一些。<br>
+不过升级后有些套件不支持了，看你的需求了。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>cccleaner变流氓了</title>
+      <link>http://localhost:1313/3844.html</link>
+      <pubDate>Fri, 20 Aug 2021 09:59:10 +0000</pubDate>
+      <guid>http://localhost:1313/3844.html</guid>
+      <description>&lt;p&gt;老刘的笔记本电脑自从去年1月份买回来之后，一直也没怎么管过它，最近发现C盘的可用空间已经变的非常的小了，当时给分配了80G，现在只剩下不到10g了，所以想清理一下电脑内的垃圾。&lt;figure class=&#34;wp-block-image size-full&#34;&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>老刘的笔记本电脑自从去年1月份买回来之后，一直也没怎么管过它，最近发现C盘的可用空间已经变的非常的小了，当时给分配了80G，现在只剩下不到10g了，所以想清理一下电脑内的垃圾。<figure class="wp-block-image size-full"></p>
+<p><a href="https://tunan.org/wp-content/uploads/2021/08/d7b01207fc8fa67.jpg"><img loading="lazy" decoding="async" width="600" height="338" src="https://tunan.org/wp-content/uploads/2021/08/d7b01207fc8fa67.jpg" alt="" class="wp-image-3845" srcset="https://tunan.org/wp-content/uploads/2021/08/d7b01207fc8fa67.jpg 600w, https://tunan.org/wp-content/uploads/2021/08/d7b01207fc8fa67-300x169.jpg 300w" sizes="(max-width: 600px) 100vw, 600px" /></a></figure></p>
+<p>首先用系统自带的磁盘清理，差不都清理出去3g左右的垃圾。觉得还能有进一步的空间。国产的诸如360之类的本来就敬而远之，想到以前用的cccleaner这个软件还不错，虽然PRO版功能更全，但是清理一下电脑用免费版已经足够了。</p>
+<p>怕下错了软件，还专门去的cccleaner的官网。安装的时候，有一个界面有AVG的广告，但是没有看到说要安装之类的，想着免费版展示一下广告也在所难免，也就没有在意。一路next下去，很顺利的安装好了。</p>
+<p>接下来清理了一下体统，发现可清理的东西也没有多少了。随便清理了一下。也就没在管了。客厅去喝了一杯茶，回来发现给安装上了一个杀毒软件——avg免费版。10几年前也用过这个软件，和AVAST，Avira合称杀毒软件中的3A。但是我用微软自带的软件也就足够用了。所以，准备卸载掉。</p>
+<p>结果，AVG也很流氓了，竟然没法卸载。常规的方法无效。网上搜了一下卸载方法，发现AVG官方在以前有一个卸载工具，但是AVG的官网竟然打不开。</p>
+<p>正在这个时候，老刘又发现浏览器竟然也被搞了，首页换成了一个导航的网站。也不知道是cccleaner搞的还是AVG搞的，反正就是他俩。心中一阵腻歪。</p>
+<p>也不在去网上找方法了，考虑到快用两年了，直接恢复系统好了。</p>
+<p>网上查了一下，这货是有前科的。2017年9月，该软件还被发现感染恶意软件Floxif。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>微软 Mcrosoft Store打不开的处理方法</title>
+      <link>http://localhost:1313/3797.html</link>
+      <pubDate>Thu, 01 Jul 2021 11:51:06 +0000</pubDate>
+      <guid>http://localhost:1313/3797.html</guid>
+      <description>&lt;p&gt;昨天青山在群里说，微软的好几个软件限时免费送，最搞的一个原来卖300多，本着有便宜就占的风格，赶紧去搞去，结果进微软商店，却打不开，提示代码: 0x80131500错误。&lt;figure class=&#34;wp-block-image size-large&#34;&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>昨天青山在群里说，微软的好几个软件限时免费送，最搞的一个原来卖300多，本着有便宜就占的风格，赶紧去搞去，结果进微软商店，却打不开，提示代码: 0x80131500错误。<figure class="wp-block-image size-large"></p>
+<p><a href="https://tunan.org/wp-content/uploads/2021/07/a34f6902df20c81.jpg"><img loading="lazy" decoding="async" width="1000" height="750" src="https://tunan.org/wp-content/uploads/2021/07/a34f6902df20c81.jpg" alt="" class="wp-image-3798" srcset="https://tunan.org/wp-content/uploads/2021/07/a34f6902df20c81.jpg 1000w, https://tunan.org/wp-content/uploads/2021/07/a34f6902df20c81-300x225.jpg 300w, https://tunan.org/wp-content/uploads/2021/07/a34f6902df20c81-768x576.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></figure></p>
+<h2 class="wp-block-heading" id="网上搜了一下答案五花八门的官方的回答如下">网上搜了一下，答案五花八门的。官方的回答如下：</h2>
+<p>建议您先尝试更换网络连接，比如连接个人手机热点，再使用 Microsoft Store 进行尝试。如果您连接了 VPN 或下载了第三方防火墙应用，建议断开 VPN，卸载第三方防火墙应用。</p>
+<p>**如果上述方法无法解决问题，**<strong>您可以尝试清理应用商店的缓存，看看是否可以恢复正常：</strong></p>
+<p>按 “Windows 徽标键+R”，在运行窗口中，键入“WSReset.exe” 并点击 “运行”。</p>
+<p><strong>如果问题依旧</strong>，建议您打开 设置&gt;应用&gt;应用和功能&gt;在左边的列表中找到应用商店选中&gt;高级选项&gt;重置。</p>
+<p><strong>如果重置无效</strong>，请打开 IE 浏览器，点击设置，打开 Internet 选项，点击高级，并勾选 “使用SSL 3.0”、”使用 TLS 1.0“、”使用 TLS 1.1“、”使用 TLS 1.2“，应用后重启电脑，查看能否解决问题。</p>
+<p><strong>如果上述方法均无效，建议您尝试以下方案重新部署您的应用商店：</strong></p>
+<p>在打开的 “Windows Powershell（管理员）” 窗口中输入以下命令（慎用）：</p>
+<p>get-appxpackage *store* | remove-Appxpackage</p>
+<p>再次安装：</p>
+<p>add-appxpackage -register “C:\Program Files\WindowsApps*Store*\AppxManifest.xml” -disabledevelopmentmode</p>
+<h2 class="wp-block-heading" id="经过老刘的实验采用如下的办法可以搞定">经过老刘的实验，采用如下的办法可以搞定：</h2>
+<p>1、打开“运行”输入 inetcpl.cpl （“WINDOWS”+“R”键，输入 inetcpl.cpl亦可）</p>
+<p>2、点开高级往下拉，勾上”使用TLS 1.2″选项，或者点还原高级设置。</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

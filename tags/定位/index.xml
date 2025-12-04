@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>定位 on 老刘博客</title>
+    <link>http://localhost:1313/tags/%E5%AE%9A%E4%BD%8D/</link>
+    <description>Recent content in 定位 on 老刘博客</description>
+    <image>
+      <title>老刘博客</title>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 30 Aug 2019 02:47:22 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E5%AE%9A%E4%BD%8D/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>关于三个网站以后的定位</title>
+      <link>http://localhost:1313/2634.html</link>
+      <pubDate>Fri, 30 Aug 2019 02:47:22 +0000</pubDate>
+      <guid>http://localhost:1313/2634.html</guid>
+      <description>&lt;p&gt;目前跋涉者共维护了3个网站:&lt;/p&gt;
+&lt;h2 id=&#34;镜缘轩网址httpswwwyanjingwebcn&#34;&gt;镜缘轩：网址：https://www.yanjingweb.cn。&lt;/h2&gt;
+&lt;p&gt;可以说这个网站是一个跑偏了的网站，最开始的时候仅仅是打算做一个自己眼镜店的官网，并且承载一些客户资料方面的内容，方便客户随时在网上查询自己的数据，可惜的是能力有限，没有做出自己想要的网站。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>目前跋涉者共维护了3个网站:</p>
+<h2 id="镜缘轩网址httpswwwyanjingwebcn">镜缘轩：网址：https://www.yanjingweb.cn。</h2>
+<p>可以说这个网站是一个跑偏了的网站，最开始的时候仅仅是打算做一个自己眼镜店的官网，并且承载一些客户资料方面的内容，方便客户随时在网上查询自己的数据，可惜的是能力有限，没有做出自己想要的网站。</p>
+<p>后来想做成一个以视光行业为主体，生活方面补充的博客，这样更新了一段时间后很多朋友都建议把生活内容单独剥离出来，于是镜缘轩就成了一个视光行业的博客，虽然流量在一天天的增加，但是貌似和自己的初衷是越来越远了。对于潜在顾客了解自己的眼镜店的功能也越来越弱，毕竟眼镜店是生存的根本嘛，再加上眼镜工作室也找到了满意的域名，所以，索性把眼镜店也从镜缘轩中剥离出来，单独做成一个网站。</p>
+<p>为了给镜缘轩的目标是，做一个视光行业的综合资讯方面的网站。打算采用老春即将发布的B2主题，以后会逐步随着B2主题的完善增加诸如问答等的功能。（最终还是换成了知更鸟的begin主题）</p>
+<h2 id="跋涉者网址httpstunanorg">跋涉者：网址：https://tunan.org</h2>
+<p>从镜缘轩里独立出来的发布个人博客。定位与自己的日常生活，以及保存女儿写的一些作品。目前是采用的seven主题。主要是没有遇到合适的主题，暂时用这个，由合适的就换，没有的话就一直用这个了，反正也是可以用的。挺喜欢DUX主题的，但是太贵了，开心版又不放心。哪位有多余授权的大佬，如果可以的，可以送给我一个授权吗？？</p>
+<h2 id="中意眼镜工作室网址httpswwweyewearxin">中意眼镜工作室：网址：https//www.eyewear.xin</h2>
+<p>诚信域名，eyewear，眼镜的意思。含意是一家诚信的眼镜店。和自己开店的宗旨吻合。以后，工作中遇到的方面以及产品、店内活动、店内动态等等都在此网站发布。网站将采用seven主题。这个主题的功能很全面，想要的功能基本都能实现了。</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

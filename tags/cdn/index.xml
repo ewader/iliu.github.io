@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Cdn on 老刘博客</title>
+    <link>http://localhost:1313/tags/cdn/</link>
+    <description>Recent content in Cdn on 老刘博客</description>
+    <image>
+      <title>老刘博客</title>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 21 Dec 2020 07:15:11 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/cdn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>nginx使用CDN后获取用户真实IP的方法</title>
+      <link>http://localhost:1313/3486.html</link>
+      <pubDate>Mon, 21 Dec 2020 07:15:11 +0000</pubDate>
+      <guid>http://localhost:1313/3486.html</guid>
+      <description>&lt;p&gt;老刘前两天弄了个racknerd的便宜的vps，准备把一个网站放到这个vps上，再顺便把篱落的这台VPS好好的整理一下，当时装系统的时候装的是centos8，可惜这个系统明年官方就不再支持了，所以，长痛不如短痛，早晚都要换系统，不如早换。于是先把博客也迁到了这个rn的空间里。顺便又给加了个CF的套，加上之后，加的时候是扫了几个本地延迟最低的IP，直接分联通、移动、电信把这几个ip分别解析了。经过这么几天的试用，老刘觉得加了CF的速度还算差强人意。准备一直用下去。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>老刘前两天弄了个racknerd的便宜的vps，准备把一个网站放到这个vps上，再顺便把篱落的这台VPS好好的整理一下，当时装系统的时候装的是centos8，可惜这个系统明年官方就不再支持了，所以，长痛不如短痛，早晚都要换系统，不如早换。于是先把博客也迁到了这个rn的空间里。顺便又给加了个CF的套，加上之后，加的时候是扫了几个本地延迟最低的IP，直接分联通、移动、电信把这几个ip分别解析了。经过这么几天的试用，老刘觉得加了CF的速度还算差强人意。准备一直用下去。</p>
+<p>但是加了CDN后，有一个问题，那就是不管日志里还是wordpress后台的评论里的IP都是cf的IP，无法获取用户的真实IP，这对管理网站有点麻烦，比如受到攻击或者想封一些发垃圾邮件IP的地址的时候，就没有办法。老刘记得以前看过这方面的文章。于是找了一下，把经过记录下来。</p>
+<p>阿帕奇老刘好久没有用过了，这里只说nginx的方面，从网上的教程来看，可以分成两种。老刘把两种方法的说说</p>
+<h2 class="wp-block-heading" id="一利用ngx_http_realip_module模块获取用户真实ip">一、利用ngx_http_realip_module模块获取用户真实IP</h2>
+<p>由于老刘用的是oneinstack一键安装包，所以之说这个方法，lnmp一键安装包也可以用类似的方面来搞定。宝塔面板的话，就很简单，装那款免费的防火墙，里面就是cdn的设置，设置完了之后就OK了，不得不说还是可视化面板方便。好了，闲话少说，正式开始。</p>
+<p>首先通过nginx -V我们发现默认编译的nginx并不会安装ngx_http_realip_module模块，我们需要重新编译nginx使其载入这个功能模块。</p>
+<p>这里我们直接利用oneinstack的升级脚本来完成，这样做，一是很简单，二是一般不会出错，很适合初学者使用，第三，就是以后你升级nginx的话，也能一劳永逸。</p>
+<pre class="wp-block-code"><code>#增量添加参数到${nginx_configure_args}后面
+vim /root/oneinstack/include/upgrade_web.sh
+#在${nginx_configure_args}后面增加--with-http_realip_module即可
+#大致位于升级脚本的第57行</code></pre><figure class="wp-block-image size-large">
+<p><a href="https://tunan.org/wp-content/uploads/2021/01/3c4e83f775536ad.jpg"><img loading="lazy" decoding="async" width="500" height="301" src="https://tunan.org/wp-content/uploads/2021/01/3c4e83f775536ad.jpg" alt="" class="wp-image-3593" srcset="https://tunan.org/wp-content/uploads/2021/01/3c4e83f775536ad.jpg 500w, https://tunan.org/wp-content/uploads/2021/01/3c4e83f775536ad-300x181.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" /></a></figure></p>
+<p>保存并退出，执行oneinstack的升级脚本/root/oneinstack/upgrade.sh进行nginx升级编译即可。</p>
+<p>最后执行nginx -V查看最终编译后的结果。<figure class="wp-block-image size-large"></p>
+<p><a href="https://tunan.org/wp-content/uploads/2020/12/43904aa51d7dce2.png"><img decoding="async" src="https://tunan.org/wp-content/uploads/2020/12/43904aa51d7dce2-1024x109.png" alt="" class="wp-image-3488" /></a></figure></p>
+<h3 class="wp-block-heading" id="nginx设置set_real_ip_from">Nginx设置set_real_ip_from</h3>
+<p>编译好了ngx_http_realip_module，现在我们只需要在Nginx配置文件中添加set_real_ip_from代码到nginx.conf文件的http段落里面，老刘用的cf的，用期待的CDN类似，只有知道IP段可以了。示例如下：</p>
+<pre class="wp-block-code"><code>set_real_ip_from 103.21.244.0/22;
+ set_real_ip_from 103.22.200.0/22;
+ set_real_ip_from 103.31.4.0/22;
+ set_real_ip_from 104.16.0.0/12;
+ set_real_ip_from 108.162.192.0/18;
+ set_real_ip_from 131.0.72.0/22;
+ set_real_ip_from 141.101.64.0/18;
+ set_real_ip_from 162.158.0.0/15;
+ set_real_ip_from 172.64.0.0/13;
+ set_real_ip_from 173.245.48.0/20;
+ set_real_ip_from 188.114.96.0/20;
+ set_real_ip_from 190.93.240.0/20;
+ set_real_ip_from 197.234.240.0/22;
+ set_real_ip_from 198.41.128.0/17;
+ set_real_ip_from 199.27.128.0/21;
+ set_real_ip_from 2400:cb00::/32;
+ set_real_ip_from 2606:4700::/32;
+ set_real_ip_from 2803:f800::/32;
+ set_real_ip_from 2405:b500::/32;
+ set_real_ip_from 2405:8100::/32;
+ set_real_ip_from 2c0f:f248::/32;
+ set_real_ip_from 2a06:98c0::/29;
+ real_ip_header  X-Forwarded-For;
+ real_ip_recursive on;</code></pre>
+<p>配置完成后，使用nginx -t检查配置文件是否存在格式问题。如果没有报错执行service nginx reload重载nginx服务即可。</p>
+<p>然后访问网站，再次查看nginx日志，就可以正常获取到用户真实IP了。</p>
+<h2 class="wp-block-heading" id="二利用nginx的日期格式来达到目的">二、利用nginx的日期格式来达到目的</h2>
+<p>首先，将下面的代码添加到nginx.conf文件的http{后面让日志重置化：</p>
+<pre class="wp-block-code"><code>#自定义一个日志格式
+log_format cdn '$http_x_forwarded_for - $remote_user &#91;$time_local] '
+                    '"$request" $status $body_bytes_sent '
+                    '"$http_referer" "$http_user_agent"';</code></pre>
+<p>然后，我们修改nginx站点原来的日志输出格式，修改access_log /home/wwwlogs/xxxx.log; 为access_log /home/wwwlogs/xxxx.log cdn;全部保存之后不要急着重启nginx，再次强调一个命令nginx -t，用于检查nginx配置文件是否存在错误。这是一个非常实用的命令，可以让你在业务运行的同时从起nginx服务，不至于造成业务中断或者业务停止。</p>
+<p>这个方法的有点是不需要编译nginx，设置完了之后也是一劳永逸。但是对于oneinstack一键安装包来说，因为它已经重置了日志的格式，所以就不适用了。</p>
+<h2 class="wp-block-heading" id="小结">小结</h2>
+<p>以上就是两种在使用CDN后可以获取用户真实IP的方法，可以根据自己的情况来使用。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>nodecache开通了中国直连线路</title>
+      <link>http://localhost:1313/3283.html</link>
+      <pubDate>Sun, 11 Oct 2020 02:29:24 +0000</pubDate>
+      <guid>http://localhost:1313/3283.html</guid>
+      <description>&lt;p&gt;在以前的文章（&lt;a href=&#34;https://tunan.org/1679.html&#34;&gt;推荐一款国外CDN——Nodecache，注册即送1T流量&lt;/a&gt;）中介绍过nodecache这个CDN服务商，当时是注册送1T的流量，后来由于觉得其速度有点慢，有时候又不稳定，所以就一直没有，后来通过这篇文字，陆续有了写aff送的流量，差不多一个月9G的样子，要说用在我这个小博客上市绰绰有余了，但是由于怕跑路就一直也没有用。&lt;/p&gt;
+&lt;p&gt;今天闲着没事，翻看自己以前的文字，发现了自己的这篇文章，于是，怀旧的登录上去看看，结果这个CDN服务商居然还没有跑路，哈哈！看了一下，里面的设置基本上和上海云盾的类似，有些还借鉴了又拍云的设置方式。又看了一下发现居然增加了中国直连线路。于是，我可耻的心动了。设置了一番，发现没有想想的那么美好，中国直连线路不是中国线路。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>在以前的文章（<a href="https://tunan.org/1679.html">推荐一款国外CDN——Nodecache，注册即送1T流量</a>）中介绍过nodecache这个CDN服务商，当时是注册送1T的流量，后来由于觉得其速度有点慢，有时候又不稳定，所以就一直没有，后来通过这篇文字，陆续有了写aff送的流量，差不多一个月9G的样子，要说用在我这个小博客上市绰绰有余了，但是由于怕跑路就一直也没有用。</p>
+<p>今天闲着没事，翻看自己以前的文字，发现了自己的这篇文章，于是，怀旧的登录上去看看，结果这个CDN服务商居然还没有跑路，哈哈！看了一下，里面的设置基本上和上海云盾的类似，有些还借鉴了又拍云的设置方式。又看了一下发现居然增加了中国直连线路。于是，我可耻的心动了。设置了一番，发现没有想想的那么美好，中国直连线路不是中国线路。</p>
+<h2 id="设置成中国直连线路后的ping值">设置成中国直连线路后的ping值</h2>
+<p><a href="https://tunan.org/wp-content/uploads/2020/10/6213ab646eb588c.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3284" src="https://tunan.org/wp-content/uploads/2020/10/6213ab646eb588c.jpg" alt="" width="614" height="183" srcset="https://tunan.org/wp-content/uploads/2020/10/6213ab646eb588c.jpg 614w, https://tunan.org/wp-content/uploads/2020/10/6213ab646eb588c-300x89.jpg 300w" sizes="(max-width: 614px) 100vw, 614px" /></a></p>
+<p>大概170左右，查了一下这个IP，是美国加利福尼亚的IP。不过实际用起来感觉还是挺流畅的。除了ping的值有点高以外。</p>
+<h2 id="于是切换成亚太ip后">于是切换成亚太IP后</h2>
+<p><a href="https://tunan.org/wp-content/uploads/2020/10/be32cbd25dd47e4.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3285" src="https://tunan.org/wp-content/uploads/2020/10/be32cbd25dd47e4.jpg" alt="" width="610" height="99" srcset="https://tunan.org/wp-content/uploads/2020/10/be32cbd25dd47e4.jpg 610w, https://tunan.org/wp-content/uploads/2020/10/be32cbd25dd47e4-300x49.jpg 300w" sizes="(max-width: 610px) 100vw, 610px" /></a></p>
+<p>ping值降到了60，但是不稳定，有超时的现象。</p>
+<h2 id="里面的设置还是挺丰富的支持防护cc以及waf防火墙">里面的设置还是挺丰富的，支持防护CC以及waf防火墙</h2>
+<p><a href="https://tunan.org/wp-content/uploads/2020/10/fca569fbd8b732d.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3286" src="https://tunan.org/wp-content/uploads/2020/10/fca569fbd8b732d.jpg" alt="" width="988" height="598" srcset="https://tunan.org/wp-content/uploads/2020/10/fca569fbd8b732d.jpg 988w, https://tunan.org/wp-content/uploads/2020/10/fca569fbd8b732d-300x182.jpg 300w, https://tunan.org/wp-content/uploads/2020/10/fca569fbd8b732d-768x465.jpg 768w" sizes="(max-width: 988px) 100vw, 988px" /></a></p>
+<h2 id="有兴趣的朋友可以试试看">有兴趣的朋友可以试试看</h2>
+<p>目前也运行了一年多的时间了吧，估计不会跑路了，作为日常使用一下下还是可以的，谁让没有备案不能用国内的CDN呢！凑合着用吧，比裸奔心理安慰一些些！</p>
+<h2 id="注册地址">注册地址：</h2>
+<p>可以走一下我的AFF,让我多一些些流量。?</p>
+<p><a href="https://console-api.nodecache.com/f?aff=4BLOd3">https://console-api.nodecache.com/f?aff=4BLOd3</a></p>
+<p> </p>
+<p>貌似不再送流量了…..</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>nodecache的服务条款很霸王啊</title>
+      <link>http://localhost:1313/2250.html</link>
+      <pubDate>Tue, 09 Jul 2019 08:47:39 +0000</pubDate>
+      <guid>http://localhost:1313/2250.html</guid>
+      <description>&lt;p&gt;nodecache是一款新出的cdn服务商，搜索引擎上关于它的资料很少，今天搜了半天也只是找到一个快照，是和某个国外主机论坛合作推广送50美元的文章，这篇文章是2019年1月左右。不过这个活动也早就停了。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>nodecache是一款新出的cdn服务商，搜索引擎上关于它的资料很少，今天搜了半天也只是找到一个快照，是和某个国外主机论坛合作推广送50美元的文章，这篇文章是2019年1月左右。不过这个活动也早就停了。</p>
+<p>知道这个公司是看到缙哥哥分享的，说实话，目前用着来说还算可以，毕竟人数可能比较少，加速的节点是香港的，而且种种迹象表明，这是一个国人开办的公司，对中文支持那也就相当的好了。当时用着很满意，不过它的流量就送一个月，由于满意就想在试用一段时间，于是充了1美元，因为目前这个博客的流量很小，1美元也可以用好久了。</p>
+<p>充完了之后才发现推广链接还能送流量，首个用户是送5g，以后的用户送1g，跋涉者成功的推广了两个用户，所以账户中每个月是有6g的流量的，对于跋涉者来说，这个流量已经是足够了。于是就想把这个钱给退回来，虽然少，蚊子多了也是肉嘛。</p>
+<p>结果，网站里没有发现任何的退款链接，于是发工单询问。客服很快就有了回复。</p>
+<blockquote>
+<p>您好，根据服务条款，定价一项的规定：所有款项预付，不予退还。针对您账户的余额我们会为您保存12个月。在12个月内您可以随时登录账号使用本公司产品服务。以下是服务条款 链接https://www.nodecache.com/serviceTerm 请您知悉！<figure class="content-img-box" id="2249"></p></blockquote>
+<p><img decoding="async" alt="nodecache的服务条款很霸王啊" src="https://tunan.org/wp-content/uploads/2019/07/1d4195245d4c4b.PNG" id="59BF39A1" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
+<p>意思是，只管交钱，不管退钱，钱到了我手就是我的了。在后，跋涉者看了下这个服务条款，价值是霸王加流氓啊。</p>
+<blockquote>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(118, 118, 118);">Nodecache的服务成本和定价可以不时地由Nodecache自行决定。所有款项预付，不予退还。我们所说的所有价格都可能变化，并且可能会不时地由Nodecache自行决定。</span></p></blockquote>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(118, 118, 118);">意思是，我想什么时候涨价什么时候涨价，款是不退的，这算了，毕竟你家的东西价格你做主，市场经济嘛，但是下一条就有点流氓了。</span></p>
+<blockquote>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(118, 118, 118);">为了给用户提供优质的服务，未使用的账户余额将在12个月后到期。逾期付款不退款，将从您的帐户中删除。现有余额可以在到期日之前通过额外支付来延长，在这种情况下，新旧余额都将再延长12个月。</span></p></blockquote>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(118, 118, 118);">意思是你有余额不用，12个月后就彻底是我家的了，想不作废的话 你再充钱啊，充完了再给你延长一年。</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(118, 118, 118);">所以，这个cdn目前也就是一个玩意，玩玩可以，千万不要当真，跑路的可能性比较大，而且从本月开始，感觉它的节点越来越慢了…….</span></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>利用cloudFlare的边缘计算workers实现外链转内链跳转</title>
+      <link>http://localhost:1313/2248.html</link>
+      <pubDate>Tue, 09 Jul 2019 01:20:11 +0000</pubDate>
+      <guid>http://localhost:1313/2248.html</guid>
+      <description>&lt;p&gt;跋涉者曾经分享过一篇7b2主题外链跳转的文章，那篇文章实现的原理是在自己服务器里增加一个跳转的页面代码。&lt;/p&gt;
+&lt;p&gt;[zrz_insert_post id=1656]&lt;/p&gt;
+&lt;p&gt;不过今天看张戈大神的一篇文章&lt;a href=&#34;https://zhang.ge/5151.html&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;CloudFlare边缘计算Workers尝鲜初探：博客跳转中间页&lt;/a&gt;。这篇文章谈到可以把这个跳转代码保存到cloudFlare的边缘计算workers中，从而让跳转可以在CDN里实现，显然，这样会减轻服务器计算的压力。对小水管的博客来说有一定的使用价值。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>跋涉者曾经分享过一篇7b2主题外链跳转的文章，那篇文章实现的原理是在自己服务器里增加一个跳转的页面代码。</p>
+<p>[zrz_insert_post id=1656]</p>
+<p>不过今天看张戈大神的一篇文章<a href="https://zhang.ge/5151.html" target="_blank" rel="noopener noreferrer">CloudFlare边缘计算Workers尝鲜初探：博客跳转中间页</a>。这篇文章谈到可以把这个跳转代码保存到cloudFlare的边缘计算workers中，从而让跳转可以在CDN里实现，显然，这样会减轻服务器计算的压力。对小水管的博客来说有一定的使用价值。</p>
+<h2 id="首先你的网站要使用cloudflare这个cdn加速">首先，你的网站要使用cloudFlare这个cdn加速。</h2>
+<p>由于国内的网络情况，直接使用往往比较卡，不过好在张戈大神折腾出了另外一个套路，使用后感觉还不错。有兴趣的朋友可以去他的网站上参考。本文不做详细的叙述。</p>
+<h2 id="第二把代码添加到cloudflare的边缘计算workers中">第二，把代码添加到cloudFlare的边缘计算workers中</h2>
+<p>步骤如下：</p>
+<ul>
+<li><span style="background-color: rgb(255, 255, 255); color: rgb(101, 116, 135);">打开CF域名控制面板，如图1点击切换到Workers选项卡；</span></li>
+<li><span style="background-color: rgb(255, 255, 255); color: rgb(101, 116, 135);">点击【Launch Editor】按钮进入Workers编辑界面后，点击【Add script】输入脚本名称并保存，如图：</span><figure class="content-img-box" id="2245"></li>
+</ul>
+<p><img decoding="async" alt="利用cloudFlare的边缘计算workers实现外链转内链跳转" src="https://tunan.org/wp-content/uploads/2019/07/10edf85dd62035.jpg" id="36AE1719" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
+<ul>
+<li>把如下代码放入代码编辑框中，此代码来自<a href="https://zhang.ge/5151.html" target="_blank" rel="noopener noreferrer">张戈博客</a>.并点击save。</li>
+</ul>
+<pre class="ql-syntax" spellcheck="false">addEventListener('fetch', event =&gt; {
+  event.respondWith(handleRequest(event.request))
+})
+ 
+/**
+ * Fetch and log a request
+ * @param {Request} request
+ */
+html = `<span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"zh-CN"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">http-equiv</span>=<span class="hljs-string">"Content-Type"</span> <span class="hljs-attr">content</span>=<span class="hljs-string">"text/html; charset=UTF-8"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"viewport"</span> <span class="hljs-attr">content</span>=<span class="hljs-string">"width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"renderer"</span> <span class="hljs-attr">content</span>=<span class="hljs-string">"webkit"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">http-equiv</span>=<span class="hljs-string">"Cache-Control"</span> <span class="hljs-attr">content</span>=<span class="hljs-string">"no-transform"</span> /&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">http-equiv</span>=<span class="hljs-string">"Cache-Control"</span> <span class="hljs-attr">content</span>=<span class="hljs-string">"no-siteapp"</span> /&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"robots"</span> <span class="hljs-attr">content</span>=<span class="hljs-string">"noindex, nofollow"</span> /&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"applicable-device"</span> <span class="hljs-attr">content</span>=<span class="hljs-string">"pc,mobile"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"HandheldFriendly"</span> <span class="hljs-attr">content</span>=<span class="hljs-string">"true"</span> /&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"description"</span> <span class="hljs-attr">content</span>=<span class="hljs-string">"跳转页面"</span> /&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"keywords"</span> <span class="hljs-attr">content</span>=<span class="hljs-string">"跳转页面"</span> /&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span>
+<span class="hljs-keyword">var</span> base64EncodeChars=<span class="hljs-string">"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"</span>;<span class="hljs-keyword">var</span> base64DecodeChars=<span class="hljs-keyword">new</span> <span class="hljs-built_in">Array</span>(<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">62</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">63</span>,<span class="hljs-number">52</span>,<span class="hljs-number">53</span>,<span class="hljs-number">54</span>,<span class="hljs-number">55</span>,<span class="hljs-number">56</span>,<span class="hljs-number">57</span>,<span class="hljs-number">58</span>,<span class="hljs-number">59</span>,<span class="hljs-number">60</span>,<span class="hljs-number">61</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number"></span>,<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">4</span>,<span class="hljs-number">5</span>,<span class="hljs-number">6</span>,<span class="hljs-number">7</span>,<span class="hljs-number">8</span>,<span class="hljs-number">9</span>,<span class="hljs-number">10</span>,<span class="hljs-number">11</span>,<span class="hljs-number">12</span>,<span class="hljs-number">13</span>,<span class="hljs-number">14</span>,<span class="hljs-number">15</span>,<span class="hljs-number">16</span>,<span class="hljs-number">17</span>,<span class="hljs-number">18</span>,<span class="hljs-number">19</span>,<span class="hljs-number">20</span>,<span class="hljs-number">21</span>,<span class="hljs-number">22</span>,<span class="hljs-number">23</span>,<span class="hljs-number">24</span>,<span class="hljs-number">25</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">26</span>,<span class="hljs-number">27</span>,<span class="hljs-number">28</span>,<span class="hljs-number">29</span>,<span class="hljs-number">30</span>,<span class="hljs-number">31</span>,<span class="hljs-number">32</span>,<span class="hljs-number">33</span>,<span class="hljs-number">34</span>,<span class="hljs-number">35</span>,<span class="hljs-number">36</span>,<span class="hljs-number">37</span>,<span class="hljs-number">38</span>,<span class="hljs-number">39</span>,<span class="hljs-number">40</span>,<span class="hljs-number">41</span>,<span class="hljs-number">42</span>,<span class="hljs-number">43</span>,<span class="hljs-number">44</span>,<span class="hljs-number">45</span>,<span class="hljs-number">46</span>,<span class="hljs-number">47</span>,<span class="hljs-number">48</span>,<span class="hljs-number">49</span>,<span class="hljs-number">50</span>,<span class="hljs-number">51</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>,<span class="hljs-number">-1</span>);<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">base64encode</span>(<span class="hljs-params">str</span>)</span>{<span class="hljs-keyword">var</span> out,i,len;<span class="hljs-keyword">var</span> c1,c2,c3;len=str.length;i=<span class="hljs-number"></span>;out=<span class="hljs-string">""</span>;<span class="hljs-keyword">while</span>(i&lt;len){c1=str.charCodeAt(i++)&<span class="hljs-number">255</span>;<span class="hljs-keyword">if</span>(i==len){out+=base64EncodeChars.charAt(c1&gt;&gt;<span class="hljs-number">2</span>);out+=base64EncodeChars.charAt((c1&<span class="hljs-number">3</span>)&lt;&lt;<span class="hljs-number">4</span>);out+=<span class="hljs-string">"=="</span>;<span class="hljs-keyword">break</span>}c2=str.charCodeAt(i++);<span class="hljs-keyword">if</span>(i==len){out+=base64EncodeChars.charAt(c1&gt;&gt;<span class="hljs-number">2</span>);out+=base64EncodeChars.charAt(((c1&<span class="hljs-number">3</span>)&lt;&lt;<span class="hljs-number">4</span>)|((c2&<span class="hljs-number">240</span>)&gt;&gt;<span class="hljs-number">4</span>));out+=base64EncodeChars.charAt((c2&<span class="hljs-number">15</span>)&lt;&lt;<span class="hljs-number">2</span>);out+=<span class="hljs-string">"="</span>;<span class="hljs-keyword">break</span>}c3=str.charCodeAt(i++);out+=base64EncodeChars.charAt(c1&gt;&gt;<span class="hljs-number">2</span>);out+=base64EncodeChars.charAt(((c1&<span class="hljs-number">3</span>)&lt;&lt;<span class="hljs-number">4</span>)|((c2&<span class="hljs-number">240</span>)&gt;&gt;<span class="hljs-number">4</span>));out+=base64EncodeChars.charAt(((c2&<span class="hljs-number">15</span>)&lt;&lt;<span class="hljs-number">2</span>)|((c3&<span class="hljs-number">192</span>)&gt;&gt;<span class="hljs-number">6</span>));out+=base64EncodeChars.charAt(c3&<span class="hljs-number">63</span>)}<span class="hljs-keyword">return</span> out}<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">base64decode</span>(<span class="hljs-params">str</span>)</span>{<span class="hljs-keyword">var</span> c1,c2,c3,c4;<span class="hljs-keyword">var</span> i,len,out;len=str.length;i=<span class="hljs-number"></span>;out=<span class="hljs-string">""</span>;<span class="hljs-keyword">while</span>(i&lt;len){<span class="hljs-keyword">do</span>{c1=base64DecodeChars[str.charCodeAt(i++)&<span class="hljs-number">255</span>]}<span class="hljs-keyword">while</span>(i&lt;len&&c1==<span class="hljs-number">-1</span>);<span class="hljs-keyword">if</span>(c1==<span class="hljs-number">-1</span>){<span class="hljs-keyword">break</span>}<span class="hljs-keyword">do</span>{c2=base64DecodeChars[str.charCodeAt(i++)&<span class="hljs-number">255</span>]}<span class="hljs-keyword">while</span>(i&lt;len&&c2==<span class="hljs-number">-1</span>);<span class="hljs-keyword">if</span>(c2==<span class="hljs-number">-1</span>){<span class="hljs-keyword">break</span>}out+=<span class="hljs-built_in">String</span>.fromCharCode((c1&lt;&lt;<span class="hljs-number">2</span>)|((c2&<span class="hljs-number">48</span>)&gt;&gt;<span class="hljs-number">4</span>));<span class="hljs-keyword">do</span>{c3=str.charCodeAt(i++)&<span class="hljs-number">255</span>;<span class="hljs-keyword">if</span>(c3==<span class="hljs-number">61</span>){<span class="hljs-keyword">return</span> out}c3=base64DecodeChars[c3]}<span class="hljs-keyword">while</span>(i&lt;len&&c3==<span class="hljs-number">-1</span>);<span class="hljs-keyword">if</span>(c3==<span class="hljs-number">-1</span>){<span class="hljs-keyword">break</span>}out+=<span class="hljs-built_in">String</span>.fromCharCode(((c2&<span class="hljs-number">15</span>)&lt;&lt;<span class="hljs-number">4</span>)|((c3&<span class="hljs-number">60</span>)&gt;&gt;<span class="hljs-number">2</span>));<span class="hljs-keyword">do</span>{c4=str.charCodeAt(i++)&<span class="hljs-number">255</span>;<span class="hljs-keyword">if</span>(c4==<span class="hljs-number">61</span>){<span class="hljs-keyword">return</span> out}c4=base64DecodeChars[c4]}<span class="hljs-keyword">while</span>(i&lt;len&&c4==<span class="hljs-number">-1</span>);<span class="hljs-keyword">if</span>(c4==<span class="hljs-number">-1</span>){<span class="hljs-keyword">break</span>}out+=<span class="hljs-built_in">String</span>.fromCharCode(((c3&<span class="hljs-number">3</span>)&lt;&lt;<span class="hljs-number">6</span>)|c4)}<span class="hljs-keyword">return</span> out}<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">utf16to8</span>(<span class="hljs-params">str</span>)</span>{<span class="hljs-keyword">var</span> out,i,len,c;out=<span class="hljs-string">""</span>;len=str.length;<span class="hljs-keyword">for</span>(i=<span class="hljs-number"></span>;i&lt;len;i++){c=str.charCodeAt(i);<span class="hljs-keyword">if</span>((c&gt;=<span class="hljs-number">1</span>)&&(c&lt;=<span class="hljs-number">127</span>)){out+=str.charAt(i)}<span class="hljs-keyword">else</span>{<span class="hljs-keyword">if</span>(c&gt;<span class="hljs-number">2047</span>){out+=<span class="hljs-built_in">String</span>.fromCharCode(<span class="hljs-number">224</span>|((c&gt;&gt;<span class="hljs-number">12</span>)&<span class="hljs-number">15</span>));out+=<span class="hljs-built_in">String</span>.fromCharCode(<span class="hljs-number">128</span>|((c&gt;&gt;<span class="hljs-number">6</span>)&<span class="hljs-number">63</span>));out+=<span class="hljs-built_in">String</span>.fromCharCode(<span class="hljs-number">128</span>|((c&gt;&gt;<span class="hljs-number"></span>)&<span class="hljs-number">63</span>))}<span class="hljs-keyword">else</span>{out+=<span class="hljs-built_in">String</span>.fromCharCode(<span class="hljs-number">192</span>|((c&gt;&gt;<span class="hljs-number">6</span>)&<span class="hljs-number">31</span>));out+=<span class="hljs-built_in">String</span>.fromCharCode(<span class="hljs-number">128</span>|((c&gt;&gt;<span class="hljs-number"></span>)&<span class="hljs-number">63</span>))}}}<span class="hljs-keyword">return</span> out}<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">utf8to16</span>(<span class="hljs-params">str</span>)</span>{<span class="hljs-keyword">var</span> out,i,len,c;<span class="hljs-keyword">var</span> char2,char3;out=<span class="hljs-string">""</span>;len=str.length;i=<span class="hljs-number"></span>;<span class="hljs-keyword">while</span>(i&lt;len){c=str.charCodeAt(i++);<span class="hljs-keyword">switch</span>(c&gt;&gt;<span class="hljs-number">4</span>){<span class="hljs-keyword">case</span> <span class="hljs-number"></span>:<span class="hljs-keyword">case</span> <span class="hljs-number">1</span>:<span class="hljs-keyword">case</span> <span class="hljs-number">2</span>:<span class="hljs-keyword">case</span> <span class="hljs-number">3</span>:<span class="hljs-keyword">case</span> <span class="hljs-number">4</span>:<span class="hljs-keyword">case</span> <span class="hljs-number">5</span>:<span class="hljs-keyword">case</span> <span class="hljs-number">6</span>:<span class="hljs-keyword">case</span> <span class="hljs-number">7</span>:out+=str.charAt(i<span class="hljs-number">-1</span>);<span class="hljs-keyword">break</span>;<span class="hljs-keyword">case</span> <span class="hljs-number">12</span>:<span class="hljs-keyword">case</span> <span class="hljs-number">13</span>:char2=str.charCodeAt(i++);out+=<span class="hljs-built_in">String</span>.fromCharCode(((c&<span class="hljs-number">31</span>)&lt;&lt;<span class="hljs-number">6</span>)|(char2&<span class="hljs-number">63</span>));<span class="hljs-keyword">break</span>;<span class="hljs-keyword">case</span> <span class="hljs-number">14</span>:char2=str.charCodeAt(i++);char3=str.charCodeAt(i++);out+=<span class="hljs-built_in">String</span>.fromCharCode(((c&<span class="hljs-number">15</span>)&lt;&lt;<span class="hljs-number">12</span>)|((char2&<span class="hljs-number">63</span>)&lt;&lt;<span class="hljs-number">6</span>)|((char3&<span class="hljs-number">63</span>)&lt;&lt;<span class="hljs-number"></span>));<span class="hljs-keyword">break</span>}}<span class="hljs-keyword">return</span> out}<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">doit</span>()</span>{<span class="hljs-keyword">var</span> f=<span class="hljs-built_in">document</span>.f;f.output.value=base64encode(utf16to8(f.source.value));f.decode.value=utf8to16(base64decode(f.output.value))};
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">GetQueryString</span>(<span class="hljs-params">name</span>)
+</span>{
+     <span class="hljs-keyword">var</span> reg = <span class="hljs-keyword">new</span> <span class="hljs-built_in">RegExp</span>(<span class="hljs-string">"(^|&)"</span>+ name +<span class="hljs-string">"=(.*)$"</span>);
+     <span class="hljs-keyword">var</span> r = <span class="hljs-built_in">window</span>.location.search.substr(<span class="hljs-number">1</span>).match(reg);
+     <span class="hljs-keyword">if</span>(r!=<span class="hljs-literal">null</span>) { 
+         <span class="hljs-keyword">return</span>  <span class="hljs-built_in">unescape</span>(r[<span class="hljs-number">2</span>]);
+     } <span class="hljs-keyword">else</span> {
+         <span class="hljs-keyword">return</span> <span class="hljs-built_in">window</span>.location.pathname.replace(<span class="hljs-string">"/goto/"</span>,<span class="hljs-string">""</span>); <span class="hljs-comment">//注意代码中的/goto/和跳转地址/goto/保持一致，请记得自行修改！</span>
+     }
+}
+jump_url = GetQueryString(<span class="hljs-string">"url"</span>);
+<span class="hljs-comment">// 若传入的是base加密数据，则进行解密处理</span>
+<span class="hljs-keyword">if</span>( jump_url == base64encode(base64decode(jump_url))) {
+    jump_url = base64decode(jump_url);
+}
+<span class="hljs-comment">// 自定义一些特殊字符串的跳转，请根据实际需求自行发挥，比如：</span>
+<span class="hljs-comment">// 访问 "/goto/baidu" 会跳转到百度首页：</span>
+<span class="hljs-keyword">if</span>(jump_url==<span class="hljs-string">"baidu"</span>) {
+   jump_url=<span class="hljs-string">"https://www.baidu.com/"</span>;
+}
+<span class="hljs-comment">// 访问 "/goto/cf" 会跳转到cloudflare首页：</span>
+<span class="hljs-keyword">if</span>(jump_url==<span class="hljs-string">"cf"</span>) {
+   jump_url=<span class="hljs-string">"https://www.cloudflare.com/"</span>;
+}
+<span class="hljs-comment">// 网址校验</span>
+<span class="hljs-keyword">var</span> UrlReg = <span class="hljs-string">"^((http|https|thunder|qqdl|ed2k|Flashget|qbrowser|ftp|rtsp|mms)://)"</span>;
+<span class="hljs-keyword">if</span>(jump_url == <span class="hljs-literal">null</span> || jump_url.toString().length&lt;<span class="hljs-number">1</span> || !jump_url.match(UrlReg)) {
+    <span class="hljs-built_in">document</span>.title = <span class="hljs-string">"参数错误，正在返回首页..."</span>;
+    jump_url = location.origin;
+}
+<span class="hljs-comment">// 延时执行跳转</span>
+setTimeout(<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">link_jump</span>()
+</span>{   
+<span class="hljs-comment">// 防止盗用，但是微信等客户端无法取得referrer，因此这里允许了referrer为空的访问，请自行修改zhang.ge为自己的域名</span>
+  <span class="hljs-keyword">var</span> MyHOST = <span class="hljs-keyword">new</span> <span class="hljs-built_in">RegExp</span>(<span class="hljs-string">"ewader\.com"</span>);
+  <span class="hljs-keyword">if</span> (!MyHOST.test(<span class="hljs-built_in">document</span>.referrer) && <span class="hljs-built_in">document</span>.referrer.length ) {
+      alert(<span class="hljs-string">"请不要盗用本站跳转页面！"</span>);
+      location.href = <span class="hljs-string">"https://tunan.org/"</span>;
+      <span class="hljs-keyword">return</span>;
+  }
+  location.href = jump_url;
+},<span class="hljs-number">1000</span>);
+setTimeout(<span class="hljs-function"><span class="hljs-keyword">function</span>()</span>{<span class="hljs-built_in">window</span>.opener=<span class="hljs-literal">null</span>;<span class="hljs-built_in">window</span>.close();}, <span class="hljs-number">50000</span>);
+<span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>页面加载中，请稍候...<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">style</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"text/css"</span>&gt;</span>
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{<span class="hljs-attribute">margin</span>:<span class="hljs-number"></span>;<span class="hljs-attribute">padding</span>:<span class="hljs-number"></span>;<span class="hljs-attribute">border</span>:<span class="hljs-number"></span>;<span class="hljs-attribute">font-size</span>:<span class="hljs-number">100%</span>;<span class="hljs-attribute">font</span>:inherit;<span class="hljs-attribute">vertical-align</span>:baseline}body{<span class="hljs-attribute">background</span>:<span class="hljs-number">#3498db</span>}#loader-container{<span class="hljs-attribute">width</span>:<span class="hljs-number">188px</span>;<span class="hljs-attribute">height</span>:<span class="hljs-number">188px</span>;<span class="hljs-attribute">color</span>:<span class="hljs-number">#fff</span>;<span class="hljs-attribute">margin</span>:<span class="hljs-number"></span> auto;<span class="hljs-attribute">position</span>:absolute;<span class="hljs-attribute">top</span>:<span class="hljs-number">50%</span>;<span class="hljs-attribute">left</span>:<span class="hljs-number">50%</span>;<span class="hljs-attribute">margin-right</span>:-<span class="hljs-number">50%</span>;<span class="hljs-attribute">transform</span>:<span class="hljs-built_in">translate</span>(-50%,-50%);<span class="hljs-attribute">border</span>:<span class="hljs-number">5px</span> solid <span class="hljs-number">#3498db</span>;<span class="hljs-attribute">border-radius</span>:<span class="hljs-number">50%</span>;<span class="hljs-attribute">-webkit-animation</span>:borderScale <span class="hljs-number">1s</span> infinite ease-in-out;<span class="hljs-attribute">animation</span>:borderScale <span class="hljs-number">1s</span> infinite ease-in-out}#loadingText{<span class="hljs-attribute">font-family</span>:<span class="hljs-string">"Microsoft YaHei"</span>,Helvetica,Arial,Lucida Grande,Tahoma,sans-serif,Raleway,sans-serif;<span class="hljs-attribute">font-size</span>:<span class="hljs-number">1.4em</span>;<span class="hljs-attribute">position</span>:absolute;<span class="hljs-attribute">top</span>:<span class="hljs-number">50%</span>;<span class="hljs-attribute">left</span>:<span class="hljs-number">50%</span>;<span class="hljs-attribute">margin-right</span>:-<span class="hljs-number">50%</span>;<span class="hljs-attribute">transform</span>:<span class="hljs-built_in">translate</span>(-50%,-50%)}@-<span class="hljs-keyword">webkit</span>-<span class="hljs-keyword">keyframes</span> borderScale{0%{<span class="hljs-attribute">border</span>:<span class="hljs-number">5px</span> solid <span class="hljs-number">#fff</span>}50%{<span class="hljs-attribute">border</span>:<span class="hljs-number">25px</span> solid <span class="hljs-number">#3498db</span>}100%{<span class="hljs-attribute">border</span>:<span class="hljs-number">5px</span> solid <span class="hljs-number">#fff</span>}}@<span class="hljs-keyword">keyframes</span> borderScale{0%{<span class="hljs-attribute">border</span>:<span class="hljs-number">5px</span> solid <span class="hljs-number">#fff</span>}50%{<span class="hljs-attribute">border</span>:<span class="hljs-number">25px</span> solid <span class="hljs-number">#3498db</span>}100%{<span class="hljs-attribute">border</span>:<span class="hljs-number">5px</span> solid <span class="hljs-number">#fff</span>}}
+<span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"loader-container"</span>&gt;&lt;<span class="hljs-name">p</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"loadingText"</span>&gt;</span>页面加载中...<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>`
+//console.log(html)
+async function handleRequest(request) {
+  const newResponse = new Response(html)
+  newResponse.headers.set('Content-Type', 'text/html');
+  return newResponse
+}
+</pre>
+<ul>
+<li><span style="background-color: rgb(255, 255, 255); color: rgb(101, 116, 135);">点击【routers】按钮切到路由编辑界面，点击【Add router】后如图添加路由：点击save</span><figure class="content-img-box" id="2247"></li>
+</ul>
+<p><img decoding="async" alt="利用cloudFlare的边缘计算workers实现外链转内链跳转" src="https://tunan.org/wp-content/uploads/2019/07/145ebbde81352c.jpg" id="6AC9949F" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
+<p>至此，已经大功告成，想看效果的可以点击上面的外链，值得说明的一点是，cloudFlare的边缘计算workers是收费服务，不过每天有免费10w的请求数量，对我们这个小博客来说，是非常非常的够用了。</p>
+<p>如果，你也在使用<span style="background-color: rgb(255, 255, 255); color: rgb(51, 51, 51);">cloudFlare，不妨也可以用用这个玩意，毕竟充分利用外部资源是我等小博主追求的目标哈。</span></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>推荐一款国外CDN——Nodecache，注册即送1T流量</title>
+      <link>http://localhost:1313/1679.html</link>
+      <pubDate>Mon, 03 Jun 2019 02:09:27 +0000</pubDate>
+      <guid>http://localhost:1313/1679.html</guid>
+      <description>&lt;p&gt;最新消息，只要邀请一个人，就能永久每月5G的流量，还是不错的&lt;/p&gt;
+&lt;p&gt;国内没有备案的站长最头疼的无非是不能使用国内诸多的cdn加速以及隐藏真实IP地址，能用的也就国外的cloudflare,但是这个cdn服务商有不少ip被封了，没有被封的有时候抽风起来，速度又特别的慢，现在国外又新出了一款Nodecache的cdn，由于是新出的，加速的速度不错，本站目前就是用这个加速的，现在做活动，点击如下地址注册，即送1T的流量，如果非邀请注册，也就是自己注册的话，直送500G的流量。地址如下：&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>最新消息，只要邀请一个人，就能永久每月5G的流量，还是不错的</p>
+<p>国内没有备案的站长最头疼的无非是不能使用国内诸多的cdn加速以及隐藏真实IP地址，能用的也就国外的cloudflare,但是这个cdn服务商有不少ip被封了，没有被封的有时候抽风起来，速度又特别的慢，现在国外又新出了一款Nodecache的cdn，由于是新出的，加速的速度不错，本站目前就是用这个加速的，现在做活动，点击如下地址注册，即送1T的流量，如果非邀请注册，也就是自己注册的话，直送500G的流量。地址如下：</p>
+<p><a href="https://console-api.nodecache.com/f?aff=4BLOd3" target="_blank" rel="noopener noreferrer">Nodecache注册</a></p>
+<p>注册后进入后台，慢慢的熟悉感，这个cdn的界面和又拍云的非常的相似<figure id="1675" class="content-img-box "></p>
+<p><img decoding="async" id="6344C3EB" class="po-img-big" src="https://tunan.org/wp-content/uploads/2019/06/1b6cbe8f415033.PNG" alt="推荐一款国外CDN——Nodecache，注册即送1T流量" /> <figcaption class="addDesn"></figcaption></figure></p>
+<p>我们可以点击CDN服务，按照表格的内容进行填写就可以了，和国内的需要审核不同，这个提交后直接生效<figure id="1676" class="content-img-box "></p>
+<p><img decoding="async" id="76AF35DD" class="po-img-big" src="https://tunan.org/wp-content/uploads/2019/06/158cbf6385c940.PNG" alt="推荐一款国外CDN——Nodecache，注册即送1T流量" /> <figcaption class="addDesn"></figcaption></figure></p>
+<p>只需把系统分配给你的cname解析到你的域名即可。</p>
+<p>至于流量用完后的价格，跋涉者看了一下，也不是很贵，对于小博客来说完全能承担得起。<figure id="1677" class="content-img-box "></p>
+<p><img decoding="async" id="97853804" class="po-img-big" src="https://tunan.org/wp-content/uploads/2019/06/134f23c46ef058.PNG" alt="推荐一款国外CDN——Nodecache，注册即送1T流量" /> <figcaption class="addDesn"></figcaption></figure></p>
+<p>是不是心动了，心动不如赶紧行动了，点击如下地址注册了即送1T的流量了。</p>
+<p><a href="https://console-api.nodecache.com/f?aff=4BLOd3" target="_blank" rel="noopener noreferrer">Nodecache注册送1T流量</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>上海云盾CDN简要设置指南</title>
+      <link>http://localhost:1313/1653.html</link>
+      <pubDate>Sun, 26 May 2019 02:29:32 +0000</pubDate>
+      <guid>http://localhost:1313/1653.html</guid>
+      <description>&lt;p&gt;在免费cdn市场上，广大站长所使用的一般是又拍云cdn，360网站加速，上海云盾cdn以及腾讯云cdn，笔者以前也是使用的又拍云cdn,可能是和又拍云犯冲又或者是自己设置的不对，网站总出现这样那样的问题，后来把cdn转移到了上海云顿，网站之前的问题就没有再出现，于是就一直用了下去，当时觉得上海云盾的设置很简单，昨天，青山绿水博客的的博主小朋友问我上海云盾的设置小技巧，说实话真没有啥技巧，就把自己的一些设置弄出来，可能还有更多优化的地方，欢迎指正。&lt;figure class=&#34;content-img-box&#34; id=&#34;1648&#34;&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>在免费cdn市场上，广大站长所使用的一般是又拍云cdn，360网站加速，上海云盾cdn以及腾讯云cdn，笔者以前也是使用的又拍云cdn,可能是和又拍云犯冲又或者是自己设置的不对，网站总出现这样那样的问题，后来把cdn转移到了上海云顿，网站之前的问题就没有再出现，于是就一直用了下去，当时觉得上海云盾的设置很简单，昨天，青山绿水博客的的博主小朋友问我上海云盾的设置小技巧，说实话真没有啥技巧，就把自己的一些设置弄出来，可能还有更多优化的地方，欢迎指正。<figure class="content-img-box" id="1648"></p>
+<p><img decoding="async" alt="上海云盾CDN简要设置指南" src="https://tunan.org/wp-content/uploads/2019/05/11cf5e35493e7e.PNG" id="FBD648EF" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
+<p>云盾的cdn登录后的界面，我们一般也就用到cdn功能，可以在性能优化里面设置。上海云盾每月送50g的流量，对于小博客来说是够用了，不过送的流量并没有显示出来，和官方人员也有过沟通，他说你用就行了，反正每月50g。<figure class="content-img-box" id="1649"></p>
+<p><img decoding="async" alt="上海云盾CDN简要设置指南" src="https://tunan.org/wp-content/uploads/2019/05/11cef75ca30898.PNG" id="BFF97107" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
+<p>点击性能优化后，就进入了CDN设置的地方，首先要添加网站，添加后系统会给你一个cname地址，在你的域名解析的地方，把你的网站解析到这个地址上，添加后就要等云盾的审核了，一般情况下需要1-2小时的时间。<figure class="content-img-box" id="1650"></p>
+<p><img decoding="async" alt="上海云盾CDN简要设置指南" src="https://tunan.org/wp-content/uploads/2019/05/182c019a5ea59f.PNG" id="0834B9EB" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
+<h2 id="回源配置">回源配置</h2>
+<p>域名审核通过后，域名后面的控制台，就进入了cdn的设置项，设置项很简单，有三个方面，第一个方面是回源配置，在这里你需要设置你的http协议，回源的地址以及端口，http的话是80端口，https的话一般是443端口。<figure class="content-img-box" id="1651"></p>
+<p><img decoding="async" alt="上海云盾CDN简要设置指南" src="https://tunan.org/wp-content/uploads/2019/05/19ed8ef85cfce4.PNG" id="80815A65" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
+<h2 id="性能优化">性能优化</h2>
+<p>这里是设置缓存的地方，根据自己网站的情况具体设置即可，镜缘轩这个网站的设置情况如上图，笔者把js和css以及图片视频等都设置的缓存15天，其他目录设置的是半小时。可以根据自己的实际情况来设置。</p>
+<p>另外这里还有一个是不缓存的设置，一般把你网站的后台目录设置成不缓存即可。<figure class="content-img-box" id="1652"></p>
+<p><img decoding="async" alt="上海云盾CDN简要设置指南" src="https://tunan.org/wp-content/uploads/2019/05/1950d76b6fec97.PNG" id="8EB6FC76" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
+<h2 id="高级配置">高级配置</h2>
+<p>这个配置项有搜索引擎优化，这里把你源站的ip地址输入里面即可，还有一些https的设置，值得说明的是上海云盾的ssl证书是在公共组件里上传和修改的。，高级配置本人就做了这两项，其他的都默认配置即可。</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
