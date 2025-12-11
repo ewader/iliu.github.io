@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>统计 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E7%BB%9F%E8%AE%A1/</link>
+    <link>http://localhost:1313/tags/%E7%BB%9F%E8%AE%A1/</link>
     <description>Recent content in 统计 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.147.8</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 16 Aug 2022 08:50:32 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E7%BB%9F%E8%AE%A1/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E7%BB%9F%E8%AE%A1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>加入51la的优站计划</title>
-      <link>https://iliu.org/4226.html</link>
+      <link>http://localhost:1313/4226.html</link>
       <pubDate>Tue, 16 Aug 2022 08:50:32 +0000</pubDate>
-      <guid>https://iliu.org/4226.html</guid>
+      <guid>http://localhost:1313/4226.html</guid>
       <description>&lt;p&gt;看到好几个站长都在推这个，正好对百度统计也有点不想用了，就试一试51la的统计吧。目前用了大概有一个月的时间，和百度统计比较了一下：&lt;/p&gt;
 &lt;h2 class=&#34;wp-block-heading&#34; id=&#34;统计出来的流量比百度的多&#34;&gt;统计出来的流量比百度的多&lt;/h2&gt;
 &lt;p&gt;我一个站，百度常年的流量差不多200+左右的IP，到了51la这边，每天基本上在300+左右，并且最近还在增加。看了下昨天的IP，399.也不知道是正好流量增加了，还是百度统计压流量了，还是51la虚报了。反正IP数增加了，也是一件很开心的事情。&lt;/p&gt;</description>

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>2010年终盘点 on 老刘博客</title>
-    <link>https://iliu.org/tags/2010%E5%B9%B4%E7%BB%88%E7%9B%98%E7%82%B9/</link>
+    <link>http://localhost:1313/tags/2010%E5%B9%B4%E7%BB%88%E7%9B%98%E7%82%B9/</link>
     <description>Recent content in 2010年终盘点 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.147.8</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 17 Dec 2010 06:12:13 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/2010%E5%B9%B4%E7%BB%88%E7%9B%98%E7%82%B9/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/2010%E5%B9%B4%E7%BB%88%E7%9B%98%E7%82%B9/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2010年年终盘点（来源于网络）</title>
-      <link>https://iliu.org/1039.html</link>
+      <link>http://localhost:1313/1039.html</link>
       <pubDate>Fri, 17 Dec 2010 06:12:13 +0000</pubDate>
-      <guid>https://iliu.org/1039.html</guid>
+      <guid>http://localhost:1313/1039.html</guid>
       <description>&lt;p&gt;         1.发改委成立至今只做过两件事：1.涨价，2.替涨价辩护！&lt;/p&gt;
 &lt;p&gt; 2.目前中国有效的反腐手段有：1.夫妻反目；2.家中被盗；3.意外事故；4.情人举报；5.网民诅咒！&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>         1.发改委成立至今只做过两件事：1.涨价，2.替涨价辩护！</p>

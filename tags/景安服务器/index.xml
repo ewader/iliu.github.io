@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>景安服务器 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E6%99%AF%E5%AE%89%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
+    <link>http://localhost:1313/tags/%E6%99%AF%E5%AE%89%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
     <description>Recent content in 景安服务器 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.147.8</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 07 Sep 2019 03:35:21 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E6%99%AF%E5%AE%89%E6%9C%8D%E5%8A%A1%E5%99%A8/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E6%99%AF%E5%AE%89%E6%9C%8D%E5%8A%A1%E5%99%A8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>再说说景安的服务</title>
-      <link>https://iliu.org/2697.html</link>
+      <link>http://localhost:1313/2697.html</link>
       <pubDate>Sat, 07 Sep 2019 03:35:21 +0000</pubDate>
-      <guid>https://iliu.org/2697.html</guid>
+      <guid>http://localhost:1313/2697.html</guid>
       <description>&lt;p&gt;自从上次看到景安欠薪的消息以后，虽然觉得很惋惜，但是也没有太放在心上，毕竟作为河南最大的IDC，还是再新三板上市的企业，不可能马上就挂的，况且里面还有周鸿祎的股份，所以还是照旧使用原来的服务器。&lt;br&gt;
 &lt;a href=&#34;https://tunan.org/wp-content/uploads/2019/07/129c3de904bde5.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;810&#34; height=&#34;456&#34; src=&#34;https://tunan.org/wp-content/uploads/2019/07/129c3de904bde5.jpg&#34; alt=&#34;&#34; class=&#34;aligncenter size-full wp-image-2309&#34; srcset=&#34;https://tunan.org/wp-content/uploads/2019/07/129c3de904bde5.jpg 810w, https://tunan.org/wp-content/uploads/2019/07/129c3de904bde5-768x432.jpg 768w&#34; sizes=&#34;(max-width: 810px) 100vw, 810px&#34; /&gt;&lt;/a&gt;&lt;br&gt;
 不过最近以来发生的事情让我对景安的后续有了疑虑，姑且不说欠薪的事情，最近总感觉网站是不是的卡一下。前一段时间出现数据库链接不上的问题，查了额下是内存有点小了，毕竟是1g的内存，既然小了那就再加上1g，花了300来块钱，数据库掉线的问题倒是解决了，但是网站还是时不时的卡一下下。表现为，网站能正常打开，在打开某一个页面的时候，一直加载，然后就加载不了啦，换个浏览器在打开，就可以打开了。次数出现的多了之后，我就想是不是服务器的问题。然后就切换到前年买的的一个111配置的香港阿里云上来试试。&lt;br&gt;

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>啥都有 on 老刘博客</title>
-    <link>https://iliu.org/categories/%E5%95%A5%E9%83%BD%E6%9C%89/</link>
+    <link>http://localhost:1313/categories/%E5%95%A5%E9%83%BD%E6%9C%89/</link>
     <description>Recent content in 啥都有 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.147.8</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 17 Aug 2022 09:58:10 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/categories/%E5%95%A5%E9%83%BD%E6%9C%89/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/%E5%95%A5%E9%83%BD%E6%9C%89/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>河南为什么简称豫？</title>
-      <link>https://iliu.org/4229.html</link>
+      <link>http://localhost:1313/4229.html</link>
       <pubDate>Wed, 17 Aug 2022 09:58:10 +0000</pubDate>
-      <guid>https://iliu.org/4229.html</guid>
+      <guid>http://localhost:1313/4229.html</guid>
       <description>&lt;p&gt;昨天送闺女去课外班，路上闺女问我，为啥河南简称豫？&lt;/p&gt;
 &lt;p&gt;我听了有点抓瞎，忽然想起小时候，学过一篇课文，叫《黄河像》，于是给闺女说，可能是以前在黄河中下游这个区域有众多的大象吧，其实黄河象这个化石出土在甘肃。但是河南这个区域，古时候有象也是真的，在洛阳，也出土过大象的化石。但是是不是很多，就不清楚了，就算很多，别的地方应该也有象，为啥不叫豫呢？&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>昨天送闺女去课外班，路上闺女问我，为啥河南简称豫？</p>
@@ -29,9 +29,9 @@
     </item>
     <item>
       <title>深度deepin os 20.2.1初体验</title>
-      <link>https://iliu.org/3757.html</link>
+      <link>http://localhost:1313/3757.html</link>
       <pubDate>Wed, 26 May 2021 07:30:38 +0000</pubDate>
-      <guid>https://iliu.org/3757.html</guid>
+      <guid>http://localhost:1313/3757.html</guid>
       <description>&lt;p&gt;昨天用一副康耐特防蓝光镜片换了一台2012年的联想Z475 ，AMD A6的四核CPU，他自己又给加了4G的内存。也就是说4H8G，说实话电脑是有点老了，咸鱼挂的一般也就是卖个300来块钱，但是也没人买，毕竟10年前的东西了。我哥说收货价基本上200左右，虽然他加了一个4G的内存，但是拿来换一副镜片还是挺划算的，毕竟我那副镜片可是卖660元一副的。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>昨天用一副康耐特防蓝光镜片换了一台2012年的联想Z475 ，AMD A6的四核CPU，他自己又给加了4G的内存。也就是说4H8G，说实话电脑是有点老了，咸鱼挂的一般也就是卖个300来块钱，但是也没人买，毕竟10年前的东西了。我哥说收货价基本上200左右，虽然他加了一个4G的内存，但是拿来换一副镜片还是挺划算的，毕竟我那副镜片可是卖660元一副的。</p>
 <p>但是比我手里的另一台华硕的笔记本配置还是要高那么一丢丢的，那台基本上是给女儿玩呢，所以收上来这台后觉得可以改造一下给女儿玩，女儿最近迷上了写小说，据说已经创作了差不多1万来字了。给她弄一台配置“更好”一点的电脑也好，哈哈。</p>
@@ -46,9 +46,9 @@
     </item>
     <item>
       <title>如何禁止浏览器读取手机号码？</title>
-      <link>https://iliu.org/3714.html</link>
+      <link>http://localhost:1313/3714.html</link>
       <pubDate>Wed, 24 Mar 2021 01:46:06 +0000</pubDate>
-      <guid>https://iliu.org/3714.html</guid>
+      <guid>http://localhost:1313/3714.html</guid>
       <description>&lt;p&gt;昨天一位朋友问老刘，如何才能禁止浏览器读取手机号码的问题，据朋友所说，遇到了一个细思极恐的事情。原来，朋友前两天在网上查找过关于***的产品，然后昨天收到一个甜妹纸的电话：&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>昨天一位朋友问老刘，如何才能禁止浏览器读取手机号码的问题，据朋友所说，遇到了一个细思极恐的事情。原来，朋友前两天在网上查找过关于***的产品，然后昨天收到一个甜妹纸的电话：</p>
 <p>甜姐儿问朋友是不是需要×××？<br>
@@ -66,9 +66,9 @@
     </item>
     <item>
       <title>饮水机隔段还是要彻底清洗一遍的</title>
-      <link>https://iliu.org/3645.html</link>
+      <link>http://localhost:1313/3645.html</link>
       <pubDate>Fri, 05 Feb 2021 02:43:34 +0000</pubDate>
-      <guid>https://iliu.org/3645.html</guid>
+      <guid>http://localhost:1313/3645.html</guid>
       <description>&lt;p&gt;早上吃过饭，由于女儿有一节线上的数学课，自己待在家里也没事，就寻思找点事做。发现饮水机该清洗一下了，也幸亏清洗了一下，彻底清洗还是蛮脏的，尽管是一些不太影响的水垢。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>早上吃过饭，由于女儿有一节线上的数学课，自己待在家里也没事，就寻思找点事做。发现饮水机该清洗一下了，也幸亏清洗了一下，彻底清洗还是蛮脏的，尽管是一些不太影响的水垢。</p>
 <p>以前清洗都是把外面和和盛水的那个容器刷一下，这次我发现，清洗后，烧热水的那个胆里还是有点水的，找来找去，发现饮水机的底部有一个套着盖子的管子，把盖子拔掉后，有水滴了出来，找了根牙签在管子口往里捅了捅，水一下大了起来，并且冲出来不少的水垢。<figure class="wp-block-image size-large"></p>
@@ -79,9 +79,9 @@
     </item>
     <item>
       <title>试用了一下火雨壁纸</title>
-      <link>https://iliu.org/3456.html</link>
+      <link>http://localhost:1313/3456.html</link>
       <pubDate>Mon, 07 Dec 2020 03:41:01 +0000</pubDate>
-      <guid>https://iliu.org/3456.html</guid>
+      <guid>http://localhost:1313/3456.html</guid>
       <description>&lt;p&gt;年纪大了，想改变下一成不变的桌面。以前一直用bing官方出的一个小工具。直接对接bing的每日一图，不知道是不是因为时差的原因，和每天发布的图差不多有10个小时的时差。直到看到了火雨壁纸&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>年纪大了，想改变下一成不变的桌面。以前一直用bing官方出的一个小工具。直接对接bing的每日一图，不知道是不是因为时差的原因，和每天发布的图差不多有10个小时的时差。直到看到了火雨壁纸</p>
 <p>火雨壁纸是个啥？</p>
@@ -99,9 +99,9 @@
     </item>
     <item>
       <title>Kindle Previewer v3.27  亚马逊官方电子书模拟器</title>
-      <link>https://iliu.org/2999.html</link>
+      <link>http://localhost:1313/2999.html</link>
       <pubDate>Fri, 10 Jan 2020 07:12:58 +0000</pubDate>
-      <guid>https://iliu.org/2999.html</guid>
+      <guid>http://localhost:1313/2999.html</guid>
       <description>&lt;p&gt;Kindle Previewer 是一个模拟 Kindle 设备和应用程序显示书籍内容的使用界面工具。是亚马逊官方开发的一款kindle系列产品模拟器，可以模拟出kindle系列产品的功能。当然也可以用来阅读.mobi等专有格式的电子书，还可以对部分电子书格式进行格式的转换。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Kindle Previewer 是一个模拟 Kindle 设备和应用程序显示书籍内容的使用界面工具。是亚马逊官方开发的一款kindle系列产品模拟器，可以模拟出kindle系列产品的功能。当然也可以用来阅读.mobi等专有格式的电子书，还可以对部分电子书格式进行格式的转换。</p>
 <p><a href="https://tunan.org/wp-content/uploads/2020/01/70a4716b0941990.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3000" src="https://tunan.org/wp-content/uploads/2020/01/70a4716b0941990.jpg" alt="" width="500" height="336" srcset="https://tunan.org/wp-content/uploads/2020/01/70a4716b0941990.jpg 500w, https://tunan.org/wp-content/uploads/2020/01/70a4716b0941990-300x202.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
@@ -114,9 +114,9 @@
     </item>
     <item>
       <title>35元的电动牙刷怎么样？</title>
-      <link>https://iliu.org/2882.html</link>
+      <link>http://localhost:1313/2882.html</link>
       <pubDate>Thu, 28 Nov 2019 02:04:30 +0000</pubDate>
-      <guid>https://iliu.org/2882.html</guid>
+      <guid>http://localhost:1313/2882.html</guid>
       <description>&lt;p&gt;最近朋友知道我上线了在线商城后说他有一款性价比非常高的电动牙刷，可以在我的在线商城里代卖一下。具体是&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;可以充电&lt;/li&gt;
@@ -148,9 +148,9 @@
     </item>
     <item>
       <title>MBO导向的绩效管理</title>
-      <link>https://iliu.org/361.html</link>
+      <link>http://localhost:1313/361.html</link>
       <pubDate>Sat, 04 Apr 2009 04:48:00 +0000</pubDate>
-      <guid>https://iliu.org/361.html</guid>
+      <guid>http://localhost:1313/361.html</guid>
       <description>&lt;p&gt;MBO导向绩效管理的成功实施，需要企业从理念、制度、组织环境的营造到员工努力各方面的保证。&lt;/p&gt;
 &lt;p&gt;经营与管理是企业发展过程中相互影响、相互作用、对立而统一的两个方面。经营是面向企业外部，以对外扩张为手段和以提高经济效益为目的的，它往往只是由企业内的一部分人承担，如营销人员；管理则是面向企业内部，以控制为手段和以提高运行效率为目的的，它是对企业内所有人的要求。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>MBO导向绩效管理的成功实施，需要企业从理念、制度、组织环境的营造到员工努力各方面的保证。</p>
@@ -182,9 +182,9 @@
     </item>
     <item>
       <title>人力资源管理者的思辨和创新</title>
-      <link>https://iliu.org/360.html</link>
+      <link>http://localhost:1313/360.html</link>
       <pubDate>Sat, 04 Apr 2009 04:43:00 +0000</pubDate>
-      <guid>https://iliu.org/360.html</guid>
+      <guid>http://localhost:1313/360.html</guid>
       <description>&lt;p&gt;中国的人力资源管理者相比于其他职位来说,真的是压力很大的一群人！原因很多，比如大环境不尽如人意，人力资源理念进中国的时间不长，老板不重视人力资源…..小环境是没有一些成熟的理论和实践等等。所以，在现时的条件下，需要HR朋友一起分享自己的经验和心得，一起去探讨适合中国企业的人力资源管理模式，这个需要我们有很强的思辨和创新意识。&lt;figure class=&#34;content-img-box&#34; id=&#34;2501&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>中国的人力资源管理者相比于其他职位来说,真的是压力很大的一群人！原因很多，比如大环境不尽如人意，人力资源理念进中国的时间不长，老板不重视人力资源…..小环境是没有一些成熟的理论和实践等等。所以，在现时的条件下，需要HR朋友一起分享自己的经验和心得，一起去探讨适合中国企业的人力资源管理模式，这个需要我们有很强的思辨和创新意识。<figure class="content-img-box" id="2501"></p>
 <p><img decoding="async" alt="人力资源管理者的思辨和创新" src="https://tunan.org/wp-content/uploads/2019/07/1d204d45b6accc.png" id="AD589681" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
@@ -198,9 +198,9 @@
     </item>
     <item>
       <title>人力资源管理各模块之间逻辑关系浅析</title>
-      <link>https://iliu.org/359.html</link>
+      <link>http://localhost:1313/359.html</link>
       <pubDate>Thu, 02 Apr 2009 06:37:00 +0000</pubDate>
-      <guid>https://iliu.org/359.html</guid>
+      <guid>http://localhost:1313/359.html</guid>
       <description>&lt;p&gt;日前笔者在准备人力资源咨询项目交流课件时，对人力资源各个模块进行了梳理。在梳理过程中，笔者对人力资源管理各个模块之间的逻辑关系有了以下认识：&lt;/p&gt;
 &lt;p&gt;一、人力资源管理的核心是让“人”做正确的“事”并把“事”做好&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>日前笔者在准备人力资源咨询项目交流课件时，对人力资源各个模块进行了梳理。在梳理过程中，笔者对人力资源管理各个模块之间的逻辑关系有了以下认识：</p>
@@ -221,9 +221,9 @@
     </item>
     <item>
       <title>[团队游戏]红与黑</title>
-      <link>https://iliu.org/348.html</link>
+      <link>http://localhost:1313/348.html</link>
       <pubDate>Sun, 22 Feb 2009 02:42:00 +0000</pubDate>
-      <guid>https://iliu.org/348.html</guid>
+      <guid>http://localhost:1313/348.html</guid>
       <description>&lt;p&gt;游戏规则&lt;/p&gt;
 &lt;p&gt;1、目的：你队与另一队分别为队A、队B，各自争取取得高分。&lt;/p&gt;
 &lt;p&gt;2、程序：每轮你队有两种选择——-红或黑，由工作人员了解你队每轮的选择并告知你们的得分，你队可根据上轮得分确定下轮选择。&lt;/p&gt;</description>
@@ -247,9 +247,9 @@
     </item>
     <item>
       <title>几种常用薪酬制度的优劣比较</title>
-      <link>https://iliu.org/345.html</link>
+      <link>http://localhost:1313/345.html</link>
       <pubDate>Wed, 18 Feb 2009 12:12:00 +0000</pubDate>
-      <guid>https://iliu.org/345.html</guid>
+      <guid>http://localhost:1313/345.html</guid>
       <description>&lt;p&gt;科学有效的激励机制能够让员工发挥出最佳的潜能，为企业创造更大的价值。激励的方法很多，但是薪酬可以说是一种最重要的、最易使用的方法。它是企业对员工给企业所做的贡献(包括他们实现的绩效，付出的努力、时间、学识、技能、经验和创造)所付给的相应的回报和答谢。&lt;figure class=&#34;content-img-box &#34; id=&#34;2471&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>科学有效的激励机制能够让员工发挥出最佳的潜能，为企业创造更大的价值。激励的方法很多，但是薪酬可以说是一种最重要的、最易使用的方法。它是企业对员工给企业所做的贡献(包括他们实现的绩效，付出的努力、时间、学识、技能、经验和创造)所付给的相应的回报和答谢。<figure class="content-img-box " id="2471"></p>
 <p><img decoding="async" alt="几种常用薪酬制度的优劣比较" src="https://tunan.org/wp-content/uploads/2019/07/144b10cde22a75.jpg" id="8CAFA6DF" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
@@ -272,9 +272,9 @@
     </item>
     <item>
       <title>绩效考核流程的九个环节</title>
-      <link>https://iliu.org/336.html</link>
+      <link>http://localhost:1313/336.html</link>
       <pubDate>Wed, 04 Feb 2009 00:16:00 +0000</pubDate>
-      <guid>https://iliu.org/336.html</guid>
+      <guid>http://localhost:1313/336.html</guid>
       <description>&lt;p&gt;通过在实际工作中摸索，本人设计了一套行之有效的绩效考核流程（见图一），它包括九个环节。&lt;/p&gt;
 &lt;p&gt;在介绍这个绩效考核流程前必须先介绍在流程中的四个角色：考核人、被考核人、审核人、评审委员会。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>通过在实际工作中摸索，本人设计了一套行之有效的绩效考核流程（见图一），它包括九个环节。</p>

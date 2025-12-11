@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>养生保健 on 老刘博客</title>
-    <link>https://iliu.org/categories/%E5%85%BB%E7%94%9F%E4%BF%9D%E5%81%A5/</link>
+    <link>http://localhost:1313/categories/%E5%85%BB%E7%94%9F%E4%BF%9D%E5%81%A5/</link>
     <description>Recent content in 养生保健 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.147.8</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 24 May 2023 00:27:27 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/categories/%E5%85%BB%E7%94%9F%E4%BF%9D%E5%81%A5/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/%E5%85%BB%E7%94%9F%E4%BF%9D%E5%81%A5/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>近视人群夏季佩戴太阳镜的几种方案</title>
-      <link>https://iliu.org/4408.html</link>
+      <link>http://localhost:1313/4408.html</link>
       <pubDate>Wed, 24 May 2023 00:27:27 +0000</pubDate>
-      <guid>https://iliu.org/4408.html</guid>
+      <guid>http://localhost:1313/4408.html</guid>
       <description>&lt;p&gt;夏天到了，阳光明媚，很多人都想佩戴太阳镜保护眼睛。但是对于近视人群来说，普通的太阳镜无法满足需求，那么应该怎样选择和佩戴太阳镜呢？下面为大家介绍几种方案。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>夏天到了，阳光明媚，很多人都想佩戴太阳镜保护眼睛。但是对于近视人群来说，普通的太阳镜无法满足需求，那么应该怎样选择和佩戴太阳镜呢？下面为大家介绍几种方案。</p>
 <h2 id="隐形眼镜非处方太阳镜"> 隐形眼镜+非处方太阳镜</h2>
@@ -33,9 +33,9 @@
     </item>
     <item>
       <title>一个对小孩磨牙比较有效中药方子</title>
-      <link>https://iliu.org/4215.html</link>
+      <link>http://localhost:1313/4215.html</link>
       <pubDate>Thu, 04 Aug 2022 01:05:24 +0000</pubDate>
-      <guid>https://iliu.org/4215.html</guid>
+      <guid>http://localhost:1313/4215.html</guid>
       <description>&lt;p&gt;最近一段时间天热，家里如果开俩个空调的话，那电费噌噌的往上涨，所以，这段时间都让女儿睡我们屋里她小时候睡的小床。就发现女儿睡觉不太安稳，牙齿磨的嘎支支的响。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>最近一段时间天热，家里如果开俩个空调的话，那电费噌噌的往上涨，所以，这段时间都让女儿睡我们屋里她小时候睡的小床。就发现女儿睡觉不太安稳，牙齿磨的嘎支支的响。</p>
 <p>前几天带她去医院看了一下，医生开了点中药，吃了这么几天之后，感觉效果确实不错，磨牙的现象少了很多，虽然偶尔还会磨一下，但是一是时间短，二是也很轻。</p>
@@ -50,9 +50,9 @@
     </item>
     <item>
       <title>饭后四个小时不洗碗筷，会让人中毒？</title>
-      <link>https://iliu.org/2811.html</link>
+      <link>http://localhost:1313/2811.html</link>
       <pubDate>Fri, 18 Oct 2019 01:02:15 +0000</pubDate>
-      <guid>https://iliu.org/2811.html</guid>
+      <guid>http://localhost:1313/2811.html</guid>
       <description>&lt;p&gt;早上照例用天猫精灵来作为闹钟提醒起床，起床后听听天猫精灵里的早间新闻，还是蛮不错的，这个新闻是和当地的媒体合作的，播报都是发生在当地的一些重要的事情。每天了解一下还是很好的。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>早上照例用天猫精灵来作为闹钟提醒起床，起床后听听天猫精灵里的早间新闻，还是蛮不错的，这个新闻是和当地的媒体合作的，播报都是发生在当地的一些重要的事情。每天了解一下还是很好的。</p>
 <p>早间新闻后，有一个生活小知识的栏目，今天说的话题是“<strong>饭后四个小时不洗碗筷，会不会让人中毒</strong>”这个话题，里面说，有很多人认为，饭后四个小时后，没有洗的碗筷会滋生大量的细菌，这时候再洗已经洗不干净了，人用了这样的碗筷就会中毒！</p>
@@ -76,9 +76,9 @@
     </item>
     <item>
       <title>鲫鱼汤小儿不咳嗽</title>
-      <link>https://iliu.org/1547.html</link>
+      <link>http://localhost:1313/1547.html</link>
       <pubDate>Thu, 26 Jul 2012 11:16:33 +0000</pubDate>
-      <guid>https://iliu.org/1547.html</guid>
+      <guid>http://localhost:1313/1547.html</guid>
       <description>&lt;p&gt;小儿脏腑娇嫩，不耐寒热，脾虚肝旺，外感风寒就会影响到肺或导致脾虚而失去正常功能。对久咳不愈的小儿可以用鲫鱼汤治疗。鲫鱼性甘平，入脾、胃、大肠，具 有健脾利润止咳的功效。在医书《本草拾遗》中就有鲫鱼头主咳嗽一说。方法是，取鲜活鲫鱼150克，去肚杂洗净，加适量猪油、盐调味，水煮熟，再加葱白一 根，生姜一片，鲜薄荷20克，水沸即可。汤、肉…&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>小儿脏腑娇嫩，不耐寒热，脾虚肝旺，外感风寒就会影响到肺或导致脾虚而失去正常功能。对久咳不愈的小儿可以用鲫鱼汤治疗。鲫鱼性甘平，入脾、胃、大肠，具 有健脾利润止咳的功效。在医书《本草拾遗》中就有鲫鱼头主咳嗽一说。方法是，取鲜活鲫鱼150克，去肚杂洗净，加适量猪油、盐调味，水煮熟，再加葱白一 根，生姜一片，鲜薄荷20克，水沸即可。汤、肉…</p>
 <p><a href="https://tunan.org/wp-content/uploads/2019/07/1b5adc49399a52.jpg"><img loading="lazy" decoding="async" width="580" height="435" src="https://tunan.org/wp-content/uploads/2019/07/1b5adc49399a52.jpg" alt="" class="aligncenter size-full wp-image-2429" /></a></p>
@@ -86,9 +86,9 @@
     </item>
     <item>
       <title>每天早上先闻闻孩子的口气</title>
-      <link>https://iliu.org/1523.html</link>
+      <link>http://localhost:1313/1523.html</link>
       <pubDate>Thu, 10 Nov 2011 02:39:39 +0000</pubDate>
-      <guid>https://iliu.org/1523.html</guid>
+      <guid>http://localhost:1313/1523.html</guid>
       <description>&lt;p&gt;想在第一时间掌握孩子今天的健康状况吗？中医专家教您：每天早上起床第一件事是，闻闻孩子的口气。&lt;/p&gt;
 &lt;p&gt;河南省中医院治未病中心武月萍博士把自己的经验与读者朋友们分享：“每天早上孩子起来，我都会先闻闻他的口气，如果口臭，就说明胃肠道食物堆积较多，那么早饭就会相对清淡一些，肉、奶、蛋等高蛋白饮食减少，给孩子做点清淡的小米粥喝。如果孩子不想吃饭，也不要勉强他，偶尔饿一顿没关系，不要强求，吃得过多反而可能造成食积，引发其他身体不适症状。”&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>想在第一时间掌握孩子今天的健康状况吗？中医专家教您：每天早上起床第一件事是，闻闻孩子的口气。</p>
@@ -100,9 +100,9 @@
     </item>
     <item>
       <title>12种关于豆腐的药膳</title>
-      <link>https://iliu.org/1497.html</link>
+      <link>http://localhost:1313/1497.html</link>
       <pubDate>Sun, 09 Oct 2011 11:23:32 +0000</pubDate>
-      <guid>https://iliu.org/1497.html</guid>
+      <guid>http://localhost:1313/1497.html</guid>
       <description>&lt;p&gt;&lt;strong&gt;1.治伤风感冒&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;豆腐50克，淡豆豉10-15克，葱白5根，共煮热透，趁热食用并盖被发汗。&lt;/p&gt;
 &lt;p&gt;**　2. 治支气管哮喘**&lt;/p&gt;
@@ -137,9 +137,9 @@
     </item>
     <item>
       <title>豆腐的药用价值—让宝宝每天吃点豆腐吧</title>
-      <link>https://iliu.org/1494.html</link>
+      <link>http://localhost:1313/1494.html</link>
       <pubDate>Sun, 09 Oct 2011 11:20:12 +0000</pubDate>
-      <guid>https://iliu.org/1494.html</guid>
+      <guid>http://localhost:1313/1494.html</guid>
       <description>&lt;p&gt;1999年11月份，美国FDI通过一个豆类的研究报告，证实豆制品对治疗心血管疾病有确实的疗效。&lt;/p&gt;
 &lt;p&gt;早在几年前，我国就实行了大豆计划行动，这项行动的主要内容就是：提议全国的青少年都要多喝豆奶。那么，喝豆奶究竟有什么好处呢？&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>1999年11月份，美国FDI通过一个豆类的研究报告，证实豆制品对治疗心血管疾病有确实的疗效。</p>
@@ -159,9 +159,9 @@
     </item>
     <item>
       <title>过早认字警惕宝宝近视</title>
-      <link>https://iliu.org/1475.html</link>
+      <link>http://localhost:1313/1475.html</link>
       <pubDate>Mon, 26 Sep 2011 22:22:27 +0000</pubDate>
-      <guid>https://iliu.org/1475.html</guid>
+      <guid>http://localhost:1313/1475.html</guid>
       <description>&lt;p&gt;现在3岁不到就开始看电视、画画、看书、认字；三四岁就开始学琴识谱、学英文、认数字、玩电脑，这些近距离用眼活动会让孩子的视力发育提前，过早加入正视眼和近视眼的行列。专家表示，学龄前控制近视最关键。&lt;br&gt;
 相关调查显示，我国约有三成小学生患近视；到了中学，戴眼镜的学生超过一半；到了大学，更高达八成。上海市眼病防治中心医生表示，大部分近视眼是由不良生活方式造成的，而儿童近视低龄化的重要原因是过多近距离的训练。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>现在3岁不到就开始看电视、画画、看书、认字；三四岁就开始学琴识谱、学英文、认数字、玩电脑，这些近距离用眼活动会让孩子的视力发育提前，过早加入正视眼和近视眼的行列。专家表示，学龄前控制近视最关键。<br>
@@ -173,9 +173,9 @@
     </item>
     <item>
       <title>常吃香蕉12种疾病远离你</title>
-      <link>https://iliu.org/1472.html</link>
+      <link>http://localhost:1313/1472.html</link>
       <pubDate>Mon, 26 Sep 2011 11:44:00 +0000</pubDate>
-      <guid>https://iliu.org/1472.html</guid>
+      <guid>http://localhost:1313/1472.html</guid>
       <description>&lt;p&gt;香蕉，芭蕉科(Musaceae)芭蕉属(Musa)植物，又指其果实，热带地区广泛栽培食用。香蕉味香、富于营养，终年可收获，在温带地区也很受重视。植株为大型草本，从根状茎发出，由叶鞘下部形成高3～6公尺(10～20尺)的假杆；叶长圆形至椭圆形，有的长达3～3.5公尺(10～11.5尺)，宽65公分(26寸)，10～20枚簇生茎顶。穗状花序大，由假杆顶端抽出，花多数，淡黄色；果序弯垂，结果10～20串，约50～150个。植株结果后枯死，由根状茎长出的吸根继续繁殖，每一根株可活多年。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>香蕉，芭蕉科(Musaceae)芭蕉属(Musa)植物，又指其果实，热带地区广泛栽培食用。香蕉味香、富于营养，终年可收获，在温带地区也很受重视。植株为大型草本，从根状茎发出，由叶鞘下部形成高3～6公尺(10～20尺)的假杆；叶长圆形至椭圆形，有的长达3～3.5公尺(10～11.5尺)，宽65公分(26寸)，10～20枚簇生茎顶。穗状花序大，由假杆顶端抽出，花多数，淡黄色；果序弯垂，结果10～20串，约50～150个。植株结果后枯死，由根状茎长出的吸根继续繁殖，每一根株可活多年。</p>
 <p>相传，佛祖释迦牟尼正是因为吃了它，才获得了无穷的智慧，因此，香蕉被赋予“智慧之果”的美称。</p>
@@ -206,9 +206,9 @@
     </item>
     <item>
       <title>吃饭也能护齿</title>
-      <link>https://iliu.org/1466.html</link>
+      <link>http://localhost:1313/1466.html</link>
       <pubDate>Tue, 20 Sep 2011 03:32:41 +0000</pubDate>
-      <guid>https://iliu.org/1466.html</guid>
+      <guid>http://localhost:1313/1466.html</guid>
       <description>&lt;p&gt;很多人都没想到，用不同的方法去吃不同的食物也能对牙齿进行保健！“蘑菇皇后”香菇最能预防龋齿；乳酪是最好的口腔酸碱平衡卫士；酸甜的葡萄干也是健齿的好食物，能够有效地防止蛀牙、牙龈炎和牙周炎等；芹菜含有大量的粗纤维，能擦去粘附在牙齿表面的细菌。学学吧！&lt;br&gt;
 &lt;a href=&#34;https://tunan.org/wp-content/uploads/2019/09/110de602ed6065.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;225&#34; height=&#34;225&#34; src=&#34;https://tunan.org/wp-content/uploads/2019/09/110de602ed6065.jpg&#34; alt=&#34;&#34; class=&#34;aligncenter size-full wp-image-2646&#34; srcset=&#34;https://tunan.org/wp-content/uploads/2019/09/110de602ed6065.jpg 225w, https://tunan.org/wp-content/uploads/2019/09/110de602ed6065-150x150.jpg 150w&#34; sizes=&#34;(max-width: 225px) 100vw, 225px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>很多人都没想到，用不同的方法去吃不同的食物也能对牙齿进行保健！“蘑菇皇后”香菇最能预防龋齿；乳酪是最好的口腔酸碱平衡卫士；酸甜的葡萄干也是健齿的好食物，能够有效地防止蛀牙、牙龈炎和牙周炎等；芹菜含有大量的粗纤维，能擦去粘附在牙齿表面的细菌。学学吧！<br>

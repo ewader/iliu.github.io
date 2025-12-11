@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>流金岁月 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E6%B5%81%E9%87%91%E5%B2%81%E6%9C%88/</link>
+    <link>http://localhost:1313/tags/%E6%B5%81%E9%87%91%E5%B2%81%E6%9C%88/</link>
     <description>Recent content in 流金岁月 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.147.8</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 20 May 2021 09:30:37 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E6%B5%81%E9%87%91%E5%B2%81%E6%9C%88/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E6%B5%81%E9%87%91%E5%B2%81%E6%9C%88/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>重新弄了下博客环境</title>
-      <link>https://iliu.org/3746.html</link>
+      <link>http://localhost:1313/3746.html</link>
       <pubDate>Thu, 20 May 2021 09:30:37 +0000</pubDate>
-      <guid>https://iliu.org/3746.html</guid>
+      <guid>http://localhost:1313/3746.html</guid>
       <description>&lt;p&gt;最近一段时间发现博客回复的时候一直显示提交中，不会跳转到评论成功的页面，以前也遇到过这种问题，基本上重启vps解决，但是这次貌似重启了也作用不大。&lt;figure class=&#34;wp-block-image size-large&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>最近一段时间发现博客回复的时候一直显示提交中，不会跳转到评论成功的页面，以前也遇到过这种问题，基本上重启vps解决，但是这次貌似重启了也作用不大。<figure class="wp-block-image size-large"></p>
 <p><a href="https://tunan.org/wp-content/uploads/2021/05/709ac9ab754c1c0.jpg"><img loading="lazy" decoding="async" width="800" height="320" src="https://tunan.org/wp-content/uploads/2021/05/709ac9ab754c1c0.jpg" alt="" class="wp-image-3747" srcset="https://tunan.org/wp-content/uploads/2021/05/709ac9ab754c1c0.jpg 800w, https://tunan.org/wp-content/uploads/2021/05/709ac9ab754c1c0-300x120.jpg 300w, https://tunan.org/wp-content/uploads/2021/05/709ac9ab754c1c0-768x307.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" /></a></figure></p>
@@ -29,9 +29,9 @@
     </item>
     <item>
       <title>博客改名字了</title>
-      <link>https://iliu.org/3018.html</link>
+      <link>http://localhost:1313/3018.html</link>
       <pubDate>Sat, 18 Jan 2020 08:20:51 +0000</pubDate>
-      <guid>https://iliu.org/3018.html</guid>
+      <guid>http://localhost:1313/3018.html</guid>
       <description>&lt;p&gt;全年5月份左右开始把个人博客独立出来，当时也不知道起个什么名字好，就姑且叫做跋涉者了，半年过去了，发现也没有什么好跋涉的。所记录的也仅仅是如流水的匆匆岁月。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>全年5月份左右开始把个人博客独立出来，当时也不知道起个什么名字好，就姑且叫做跋涉者了，半年过去了，发现也没有什么好跋涉的。所记录的也仅仅是如流水的匆匆岁月。</p>
 <p>因此，决定把博客的名字改成流金岁月了，流通刘，意思是记录老刘经历的那些事。</p>

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>无为 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E6%97%A0%E4%B8%BA/</link>
+    <link>http://localhost:1313/tags/%E6%97%A0%E4%B8%BA/</link>
     <description>Recent content in 无为 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.147.8</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 16 Oct 2025 16:15:55 +0800</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E6%97%A0%E4%B8%BA/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E6%97%A0%E4%B8%BA/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>禅让制度以及无为的再思考</title>
-      <link>https://iliu.org/posts/revisiting-the-zen-like-abdication-system-and-the-philosophy-of-wu-wei/</link>
+      <link>http://localhost:1313/posts/revisiting-the-zen-like-abdication-system-and-the-philosophy-of-wu-wei/</link>
       <pubDate>Thu, 16 Oct 2025 16:15:55 +0800</pubDate>
-      <guid>https://iliu.org/posts/revisiting-the-zen-like-abdication-system-and-the-philosophy-of-wu-wei/</guid>
+      <guid>http://localhost:1313/posts/revisiting-the-zen-like-abdication-system-and-the-philosophy-of-wu-wei/</guid>
       <description>&lt;p&gt;最近阅读南怀瑾先生的《禅宗和道家》，书中关于上古史的一些观点引起了我深深的思考。他提到，帝尧是黄帝的曾孙，大禹则是黄帝的玄孙。 禹的儿子子启建立夏朝，开启了中国的“家天下”时代。
 从这个角度来看，夏朝的建立，似乎也承继了黄帝的血脉和基业，在某种意义上，称之为黄帝家族的延续也未尝不可。
 &lt;img loading=&#34;lazy&#34; src=&#34;https://s2.l22.org/Gemini_Generated_Image_xhmviuxhmviuxhmv.png&#34;&gt;&lt;/p&gt;</description>

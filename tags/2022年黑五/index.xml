@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>2022年黑五 on 老刘博客</title>
-    <link>https://iliu.org/tags/2022%E5%B9%B4%E9%BB%91%E4%BA%94/</link>
+    <link>http://localhost:1313/tags/2022%E5%B9%B4%E9%BB%91%E4%BA%94/</link>
     <description>Recent content in 2022年黑五 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.147.8</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 15 Nov 2022 07:47:39 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/2022%E5%B9%B4%E9%BB%91%E4%BA%94/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/2022%E5%B9%B4%E9%BB%91%E4%BA%94/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RackNerd的2022年黑五活动</title>
-      <link>https://iliu.org/4292.html</link>
+      <link>http://localhost:1313/4292.html</link>
       <pubDate>Tue, 15 Nov 2022 07:47:39 +0000</pubDate>
-      <guid>https://iliu.org/4292.html</guid>
+      <guid>http://localhost:1313/4292.html</guid>
       <description>&lt;p&gt;今年各大IDC的活动都不如往年，RackNerd也不例外，作为活动狂魔，双11活动刚结束，这不，又来了黑五的活动。&lt;/p&gt;
 &lt;h2 class=&#34;wp-block-heading&#34; id=&#34;768-mb-kvm-vps&#34;&gt;768 MB KVM VPS&lt;/h2&gt;
 &lt;ul class=&#34;wp-block-list&#34;&gt;

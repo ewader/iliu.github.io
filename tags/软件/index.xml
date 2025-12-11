@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>软件 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E8%BD%AF%E4%BB%B6/</link>
+    <link>http://localhost:1313/tags/%E8%BD%AF%E4%BB%B6/</link>
     <description>Recent content in 软件 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.147.8</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 27 Aug 2025 09:09:49 +0800</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E8%BD%AF%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E8%BD%AF%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>折腾杀毒软件的一点感想</title>
-      <link>https://iliu.org/thoughts-on-struggling-with-antivirus-software/</link>
+      <link>http://localhost:1313/thoughts-on-struggling-with-antivirus-software/</link>
       <pubDate>Wed, 27 Aug 2025 09:09:49 +0800</pubDate>
-      <guid>https://iliu.org/thoughts-on-struggling-with-antivirus-software/</guid>
+      <guid>http://localhost:1313/thoughts-on-struggling-with-antivirus-software/</guid>
       <description>&lt;p&gt;前几天，我一直在折腾各种杀毒软件。事情的起因，是一个熟人单位里发生的一起网络诈骗。单位里一位员工因为点击了不明链接，不小心中毒，黑客随即接管了他的钉钉账号。接下来就是老套路：建群、拉人、冒充发工资补贴，让大家输入银行卡号。可别小看这招，受害的人不少，听说损失最大的一位，损失相当的严重。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>前几天，我一直在折腾各种杀毒软件。事情的起因，是一个熟人单位里发生的一起网络诈骗。单位里一位员工因为点击了不明链接，不小心中毒，黑客随即接管了他的钉钉账号。接下来就是老套路：建群、拉人、冒充发工资补贴，让大家输入银行卡号。可别小看这招，受害的人不少，听说损失最大的一位，损失相当的严重。</p>
 <p>这件事让我再次意识到，网络安全并不是一个遥远的概念，而是真实发生在身边的风险。尤其最近“银狐木马”在网上泛滥，更让我觉得杀毒软件的重要性不容忽视。</p>
@@ -62,9 +62,9 @@
     </item>
     <item>
       <title>在群晖里安装简单的笔记软件flatnotes</title>
-      <link>https://iliu.org/posts/install-the-simple-note-taking-software-flatnotes-on-synology/</link>
+      <link>http://localhost:1313/posts/install-the-simple-note-taking-software-flatnotes-on-synology/</link>
       <pubDate>Wed, 30 Oct 2024 03:48:47 -0400</pubDate>
-      <guid>https://iliu.org/posts/install-the-simple-note-taking-software-flatnotes-on-synology/</guid>
+      <guid>http://localhost:1313/posts/install-the-simple-note-taking-software-flatnotes-on-synology/</guid>
       <description>&lt;p&gt;老刘这一段时间以来都是使用&lt;code&gt;VSCode&lt;/code&gt;来写博客，主要是因为&lt;code&gt;anytype&lt;/code&gt;对长文的支持一般，另外对&lt;code&gt;markdown&lt;/code&gt;语法支持的也不够，比如表格功能就没法用&lt;code&gt;markdown&lt;/code&gt;语法。但是&lt;code&gt;VSCode&lt;/code&gt;有一个缺点是同步不方便，而我也想要能随时随地的写博客，直到看到&lt;code&gt;flatnotes&lt;/code&gt;这个笔记软件，说它是笔记软件有点抬举它了，因为它太简洁，不过用来写博客文章是刚刚好，并且支持docker部署使用，这样只要有网络，有浏览器，就可以随时随地的写博客了。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>老刘这一段时间以来都是使用<code>VSCode</code>来写博客，主要是因为<code>anytype</code>对长文的支持一般，另外对<code>markdown</code>语法支持的也不够，比如表格功能就没法用<code>markdown</code>语法。但是<code>VSCode</code>有一个缺点是同步不方便，而我也想要能随时随地的写博客，直到看到<code>flatnotes</code>这个笔记软件，说它是笔记软件有点抬举它了，因为它太简洁，不过用来写博客文章是刚刚好，并且支持docker部署使用，这样只要有网络，有浏览器，就可以随时随地的写博客了。</p>
 <p>既然合适使用，当然就要把他部署在<code>NAS</code>里，网上群晖部署的教程比较麻烦，还需要进命令行操作，其实根本不用那么麻烦，直接使用群晖默认的<code>docker</code>管理套件<code>container manager</code>来部署就行了。步骤如下：</p>
@@ -112,9 +112,9 @@
     </item>
     <item>
       <title>手机上有好用的输入法吗？</title>
-      <link>https://iliu.org/posts/good-input-method-on-mobile-phones/</link>
+      <link>http://localhost:1313/posts/good-input-method-on-mobile-phones/</link>
       <pubDate>Fri, 06 Sep 2024 11:03:02 +0800</pubDate>
-      <guid>https://iliu.org/posts/good-input-method-on-mobile-phones/</guid>
+      <guid>http://localhost:1313/posts/good-input-method-on-mobile-phones/</guid>
       <description>&lt;p&gt;老刘在以前的文章里也曾提过选择输入法的过程，目前在电脑上的方案是使用&lt;code&gt;小狼毫输入法&lt;/code&gt;加&lt;code&gt;雾凇拼音&lt;/code&gt;的词库。并通过&lt;code&gt;群晖drive&lt;/code&gt;实现几个PC之间个人词库的同步，使用起来还算方便。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>老刘在以前的文章里也曾提过选择输入法的过程，目前在电脑上的方案是使用<code>小狼毫输入法</code>加<code>雾凇拼音</code>的词库。并通过<code>群晖drive</code>实现几个PC之间个人词库的同步，使用起来还算方便。</p>
 <p><img loading="lazy" src="https://ewader.s3.bitiful.net/blog/2024-09-06-10-44-13.png?no-wait\\=on"></p>
@@ -134,9 +134,9 @@
     </item>
     <item>
       <title>再次使用 KeepassXC进行密码管理</title>
-      <link>https://iliu.org/posts/use-keepassxc-again-for-password-management/</link>
+      <link>http://localhost:1313/posts/use-keepassxc-again-for-password-management/</link>
       <pubDate>Tue, 03 Sep 2024 13:46:02 +0800</pubDate>
-      <guid>https://iliu.org/posts/use-keepassxc-again-for-password-management/</guid>
+      <guid>http://localhost:1313/posts/use-keepassxc-again-for-password-management/</guid>
       <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://memos.1169f1b9dbf57062d00029d30c7fde9e.r2.cloudflarestorage.com/assets/1725262863_2024-09-02-15-23-54.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=67756f7e669d24ac11ea5c24ecfdb150%2F20240902%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20240902T074103Z&amp;X-Amz-Expires=432000&amp;X-Amz-SignedHeaders=host&amp;x-id=GetObject&amp;X-Amz-Signature=f948507f71602f764fa24695ce3823930013949acc00d88a388e6b6d825ee8dd&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;前因&#34;&gt;前因&lt;/h2&gt;
 &lt;p&gt;几年前，老刘最开始用软件进行密码管理的时候，用的就是keepassxc，只是后来有一段时间使用deepin，系统的内核比较低，不支持keepassxc的最新版，取舍之后，使用了Bitwarden，并部署在我nas里。这一用就是几年的时间过去了，只到最近遇到了问题。&lt;/p&gt;</description>
@@ -159,9 +159,9 @@
     </item>
     <item>
       <title>2024年，高德地图和百度地图选哪个？</title>
-      <link>https://iliu.org/posts/comparison-between-autonavi-map-and-baidu-map/</link>
+      <link>http://localhost:1313/posts/comparison-between-autonavi-map-and-baidu-map/</link>
       <pubDate>Sat, 24 Feb 2024 14:42:58 +0800</pubDate>
-      <guid>https://iliu.org/posts/comparison-between-autonavi-map-and-baidu-map/</guid>
+      <guid>http://localhost:1313/posts/comparison-between-autonavi-map-and-baidu-map/</guid>
       <description>&lt;p&gt;在网上经常看到网友询问百度地图和高德地图如何选择，网上的文章要么太老，要么太老，要么太老，没有什么参考价值。为什么这么说呢，因为现在导航技术加上北斗的支持，已经远远不是文章的那个年代所用的技术了。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>在网上经常看到网友询问百度地图和高德地图如何选择，网上的文章要么太老，要么太老，要么太老，没有什么参考价值。为什么这么说呢，因为现在导航技术加上北斗的支持，已经远远不是文章的那个年代所用的技术了。</p>
 <p>我之前也在博客群里问相关的问题，得到的答案一般都是推荐高德导航，理由是高德更纯粹，他是靠导航来吃饭的，如果导航做不好，他就无法很好的生存；相反百度是一个大杂烩，什么都搞，什么都搞不好。我也是一直在用高德导航。不过，前几天的一次试用百度导航，让我对百度地图的看法有些不少的改变。下面就详细的说一说：</p>
@@ -177,9 +177,9 @@
     </item>
     <item>
       <title>推荐一款免费开源的RSS软件-Quiterss</title>
-      <link>https://iliu.org/3958.html</link>
+      <link>http://localhost:1313/3958.html</link>
       <pubDate>Thu, 23 Dec 2021 01:48:37 +0000</pubDate>
-      <guid>https://iliu.org/3958.html</guid>
+      <guid>http://localhost:1313/3958.html</guid>
       <description>&lt;p&gt;RSS对于很多博主来说都不会陌生，很多博友还都有着使用RSS订阅的习惯。有很多朋友还专门在VPS用tiny tinyRSS或者freshrss程序自己设立一个服务器。老刘目前也是在甲骨文的免费小鸡上用着tinyrss。这段时间在折腾PYTHON，在ubuntu上折腾。偶然发现了这个程序，体验了一下，感觉还是很不错的，推荐给大家。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>RSS对于很多博主来说都不会陌生，很多博友还都有着使用RSS订阅的习惯。有很多朋友还专门在VPS用tiny tinyRSS或者freshrss程序自己设立一个服务器。老刘目前也是在甲骨文的免费小鸡上用着tinyrss。这段时间在折腾PYTHON，在ubuntu上折腾。偶然发现了这个程序，体验了一下，感觉还是很不错的，推荐给大家。</p>
 <p><strong>QuiteRSS</strong>。它是一款免费开源且跨平台的 <strong>RSS 阅读器</strong>客户端软件，支持 Windows、Mac、Linux 系统，界面并不算华丽，但是该有的功能都有了，比如：支持 RSS 内容的中文关键字搜索，支持标签归类功能，可以对文章加上星号或标签来收藏整理，标记未读已读，支持 OPML 导入导出、可以文件夹整理 Feed、内置浏览器 (可设置使用外部默认浏览器打开)、支持多标签页等，基本上能满足一切 RSS 的阅读需求。</p>

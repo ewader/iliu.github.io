@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>网站相关 on 老刘博客</title>
-    <link>https://iliu.org/categories/%E7%BD%91%E7%AB%99%E7%9B%B8%E5%85%B3/</link>
+    <link>http://localhost:1313/categories/%E7%BD%91%E7%AB%99%E7%9B%B8%E5%85%B3/</link>
     <description>Recent content in 网站相关 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.147.8</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 06 Apr 2023 09:42:54 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/categories/%E7%BD%91%E7%AB%99%E7%9B%B8%E5%85%B3/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/%E7%BD%91%E7%AB%99%E7%9B%B8%E5%85%B3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>用lnmp安装thinkphp类的程序，文件夹没有权限</title>
-      <link>https://iliu.org/4344.html</link>
+      <link>http://localhost:1313/4344.html</link>
       <pubDate>Thu, 06 Apr 2023 09:42:54 +0000</pubDate>
-      <guid>https://iliu.org/4344.html</guid>
+      <guid>http://localhost:1313/4344.html</guid>
       <description>&lt;p&gt;前几天在安装CRMEB商城的时候，由于不想再用宝塔了，先是选择oneinstack,但是会有一些问题，比如，用www用户无法在终端运行php等。后来就使用军哥开发的lnmp。却又碰到了一个问题，那就是所有的文件夹，在设置玩读写权限后，依然之后public这个文件夹有读写的权限。这就很郁闷了，难道最终还必须上宝塔？&lt;figure class=&#34;wp-block-image&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>前几天在安装CRMEB商城的时候，由于不想再用宝塔了，先是选择oneinstack,但是会有一些问题，比如，用www用户无法在终端运行php等。后来就使用军哥开发的lnmp。却又碰到了一个问题，那就是所有的文件夹，在设置玩读写权限后，依然之后public这个文件夹有读写的权限。这就很郁闷了，难道最终还必须上宝塔？<figure class="wp-block-image"></p>
 <p><img decoding="async" src="https://cdn.staticaly.com/gh/ewader/img@master/20230406/xxx.1i7o6d36z55s.webp" alt="xxx" /> </figure></p>
@@ -33,9 +33,9 @@ cd tools
     </item>
     <item>
       <title>Django设置使用MySql的时候遇到的一些坑</title>
-      <link>https://iliu.org/4298.html</link>
+      <link>http://localhost:1313/4298.html</link>
       <pubDate>Fri, 18 Nov 2022 00:17:14 +0000</pubDate>
-      <guid>https://iliu.org/4298.html</guid>
+      <guid>http://localhost:1313/4298.html</guid>
       <description>&lt;p&gt;Django默认使用的数据库是sqllit,如果是一个小项目的话是完全够用的，但是如果考虑到这个项目未来的话，一般都会换成Mysql或者其他更专业的数据库。本文，就来说说，在设置使用mysql的时候，遇到的一些问题及解决的方法。&lt;figure class=&#34;wp-block-image&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Django默认使用的数据库是sqllit,如果是一个小项目的话是完全够用的，但是如果考虑到这个项目未来的话，一般都会换成Mysql或者其他更专业的数据库。本文，就来说说，在设置使用mysql的时候，遇到的一些问题及解决的方法。<figure class="wp-block-image"></p>
 <p><img decoding="async" src="https://cdn.staticaly.com/gh/ewader/img@master/20221118/OIP-C.3x9vnetzw6m0.webp" alt="OIP-C" /> </figure></p>
@@ -62,9 +62,9 @@ cd tools
     </item>
     <item>
       <title>RackNerd的2022年黑五活动</title>
-      <link>https://iliu.org/4292.html</link>
+      <link>http://localhost:1313/4292.html</link>
       <pubDate>Tue, 15 Nov 2022 07:47:39 +0000</pubDate>
-      <guid>https://iliu.org/4292.html</guid>
+      <guid>http://localhost:1313/4292.html</guid>
       <description>&lt;p&gt;今年各大IDC的活动都不如往年，RackNerd也不例外，作为活动狂魔，双11活动刚结束，这不，又来了黑五的活动。&lt;/p&gt;
 &lt;h2 class=&#34;wp-block-heading&#34; id=&#34;768-mb-kvm-vps&#34;&gt;768 MB KVM VPS&lt;/h2&gt;
 &lt;ul class=&#34;wp-block-list&#34;&gt;
@@ -453,9 +453,9 @@ cd tools
     </item>
     <item>
       <title>改用cloudcone的VPS</title>
-      <link>https://iliu.org/4285.html</link>
+      <link>http://localhost:1313/4285.html</link>
       <pubDate>Mon, 07 Nov 2022 06:58:25 +0000</pubDate>
-      <guid>https://iliu.org/4285.html</guid>
+      <guid>http://localhost:1313/4285.html</guid>
       <description>&lt;p&gt;上个月，由于服务器到期加上注销备案，需要找一个便宜、稳定的香港vps，大厂的云又太贵，看双十一也没有打算作活动的意思。后来看老张说起硅云的云服务器，十年之约用户的福利，2C4G一年380块钱，看了一下网上的介绍，说什么的都有。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>上个月，由于服务器到期加上注销备案，需要找一个便宜、稳定的香港vps，大厂的云又太贵，看双十一也没有打算作活动的意思。后来看老张说起硅云的云服务器，十年之约用户的福利，2C4G一年380块钱，看了一下网上的介绍，说什么的都有。</p>
 <p><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-luminous-vivid-orange-color">PS，网上的评论还真不是空穴来风，妈的，我用了一个月，退款的时候扣了我130。说是按原价计费。套路真深！</mark></strong><figure class="wp-block-image"></p>
@@ -656,9 +656,9 @@ cd tools
     </item>
     <item>
       <title>加入51la的优站计划</title>
-      <link>https://iliu.org/4226.html</link>
+      <link>http://localhost:1313/4226.html</link>
       <pubDate>Tue, 16 Aug 2022 08:50:32 +0000</pubDate>
-      <guid>https://iliu.org/4226.html</guid>
+      <guid>http://localhost:1313/4226.html</guid>
       <description>&lt;p&gt;看到好几个站长都在推这个，正好对百度统计也有点不想用了，就试一试51la的统计吧。目前用了大概有一个月的时间，和百度统计比较了一下：&lt;/p&gt;
 &lt;h2 class=&#34;wp-block-heading&#34; id=&#34;统计出来的流量比百度的多&#34;&gt;统计出来的流量比百度的多&lt;/h2&gt;
 &lt;p&gt;我一个站，百度常年的流量差不多200+左右的IP，到了51la这边，每天基本上在300+左右，并且最近还在增加。看了下昨天的IP，399.也不知道是正好流量增加了，还是百度统计压流量了，还是51la虚报了。反正IP数增加了，也是一件很开心的事情。&lt;/p&gt;</description>
@@ -675,9 +675,9 @@ cd tools
     </item>
     <item>
       <title>群晖安装trilium笔记web端不刷新的处理方法</title>
-      <link>https://iliu.org/4154.html</link>
+      <link>http://localhost:1313/4154.html</link>
       <pubDate>Sun, 26 Jun 2022 03:50:24 +0000</pubDate>
-      <guid>https://iliu.org/4154.html</guid>
+      <guid>http://localhost:1313/4154.html</guid>
       <description>&lt;p&gt;最初装上trilium上之后，发现web端新建笔记或者删除笔记等都不会刷新。也和中文博客群里的少君等人讨论过，也没有得出过什么结论，毕竟环境不同嘛，当时貌似也就我一个人遇到了这种情况。后来发现是网络有错误，是websocket链接错误。但是作为小白，也没有解决的办法。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>最初装上trilium上之后，发现web端新建笔记或者删除笔记等都不会刷新。也和中文博客群里的少君等人讨论过，也没有得出过什么结论，毕竟环境不同嘛，当时貌似也就我一个人遇到了这种情况。后来发现是网络有错误，是websocket链接错误。但是作为小白，也没有解决的办法。</p>
 <p>后来张波老师也遇到了，原来用域名反代访问就会出现这个问题。群里的大神给出了NGINX下的解决方案，可是我用的群晖啊，没有nginx肿么办？</p>
@@ -688,9 +688,9 @@ cd tools
     </item>
     <item>
       <title>开始使用Argon主题</title>
-      <link>https://iliu.org/4079.html</link>
+      <link>http://localhost:1313/4079.html</link>
       <pubDate>Wed, 16 Mar 2022 02:38:21 +0000</pubDate>
-      <guid>https://iliu.org/4079.html</guid>
+      <guid>http://localhost:1313/4079.html</guid>
       <description>&lt;p&gt;一个月前更换了&lt;a href=&#34;https://tunan.org/4060.html&#34;&gt;Dragon&lt;/a&gt;主题，当时很多博友都表示有点不适合个人使用，我倒是感觉还行，最起码是把垃圾评论都给屏蔽了，唯一让我不太满意的就是对内存的占用，真的是挺大的。&lt;figure class=&#34;wp-block-image size-full&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1920&#34; height=&#34;1080&#34; src=&#34;https://tunan.org/wp-content/uploads/2022/03/1.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-4082&#34; srcset=&#34;https://tunan.org/wp-content/uploads/2022/03/1.jpg 1920w, https://tunan.org/wp-content/uploads/2022/03/1-768x432.jpg 768w, https://tunan.org/wp-content/uploads/2022/03/1-1536x864.jpg 1536w&#34; sizes=&#34;(max-width: 1920px) 100vw, 1920px&#34; /&gt; &lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;我用的是荷兰Liteserver主机，配置是2h2g，这个主机上只放了两个wordpress网站，内存就已经完全占用了，刚开始没有装缓存插件，内存直接就爆了，又加了2g的虚拟内存也不顶事。目测可能是和两外一个网站的B2主题冲突导致的。后来装了个缓存插件，基本上内存在90%，但是能用了。前几天主题升级了，看了一遍升级的文档，还是蛮复杂的。正在这是看到了南余生在群里推荐的这个主题。&lt;/p&gt;</description>
@@ -705,9 +705,9 @@ cd tools
     </item>
     <item>
       <title>更换为Dragon主题</title>
-      <link>https://iliu.org/4060.html</link>
+      <link>http://localhost:1313/4060.html</link>
       <pubDate>Fri, 11 Feb 2022 00:24:05 +0000</pubDate>
-      <guid>https://iliu.org/4060.html</guid>
+      <guid>http://localhost:1313/4060.html</guid>
       <description>&lt;p&gt;这几天被垃圾评论给盯上了，每天能收到10来个，很烦人。原来的主题虽然也是可以通过增加代码的方式来拦截一些非中文的垃圾评论，但是每次一升级主题又要重新设置，所以干脆用回Dragon主题。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>这几天被垃圾评论给盯上了，每天能收到10来个，很烦人。原来的主题虽然也是可以通过增加代码的方式来拦截一些非中文的垃圾评论，但是每次一升级主题又要重新设置，所以干脆用回Dragon主题。</p>
 <p>这个主题别的都好，就是感觉没有原来的主题流畅。功能很强大，虽然有很多功能目前对我来说用不到。</p>
@@ -716,9 +716,9 @@ cd tools
     </item>
     <item>
       <title>Django部署在debian11服务器</title>
-      <link>https://iliu.org/4029.html</link>
+      <link>http://localhost:1313/4029.html</link>
       <pubDate>Fri, 14 Jan 2022 09:34:09 +0000</pubDate>
-      <guid>https://iliu.org/4029.html</guid>
+      <guid>http://localhost:1313/4029.html</guid>
       <description>&lt;p&gt;Python加Django开发网页程序真的很方便，连我这个菜鸟看看教程之类的也能写出来程序。本地测试完了之后，想在服务器上跑跑看，结果发现，要发布到服务器端，可是比PHP程序要麻烦的多，从昨天下午就开始看相关的教程，后来在宝塔面板下部署成功了，但是我不想用宝塔面板，于是继续折腾的道路，经过一天的折腾，重装了好几次测试的服务器，终于算是部署成功了，虽然只是一个测试的项目，但是总算又迈出去了一步不是。项目采用nginx+uwsgi+django。服务器端采用的是debian11。&lt;figure class=&#34;wp-block-image size-full&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Python加Django开发网页程序真的很方便，连我这个菜鸟看看教程之类的也能写出来程序。本地测试完了之后，想在服务器上跑跑看，结果发现，要发布到服务器端，可是比PHP程序要麻烦的多，从昨天下午就开始看相关的教程，后来在宝塔面板下部署成功了，但是我不想用宝塔面板，于是继续折腾的道路，经过一天的折腾，重装了好几次测试的服务器，终于算是部署成功了，虽然只是一个测试的项目，但是总算又迈出去了一步不是。项目采用nginx+uwsgi+django。服务器端采用的是debian11。<figure class="wp-block-image size-full"></p>
 <p><img loading="lazy" decoding="async" width="1920" height="1141" src="https://tunan.org/wp-content/uploads/2022/01/7d4638de9da853b.jpeg" alt="" class="wp-image-4030" srcset="https://tunan.org/wp-content/uploads/2022/01/7d4638de9da853b.jpeg 1920w, https://tunan.org/wp-content/uploads/2022/01/7d4638de9da853b-768x456.jpeg 768w, https://tunan.org/wp-content/uploads/2022/01/7d4638de9da853b-1536x913.jpeg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /> </figure></p>
@@ -788,9 +788,9 @@ uwsgi --ini uwsgi.ini
     </item>
     <item>
       <title>试用荷兰的liteserverVPS</title>
-      <link>https://iliu.org/3968.html</link>
+      <link>http://localhost:1313/3968.html</link>
       <pubDate>Fri, 24 Dec 2021 07:41:31 +0000</pubDate>
-      <guid>https://iliu.org/3968.html</guid>
+      <guid>http://localhost:1313/3968.html</guid>
       <description>&lt;p&gt;从篱落主机转移到Virmach主机有2多个月了吧，以前一直挂着一个香港的CDN，也不感觉太慢，后来那个CDN有点不稳定了，于是去掉了CDN，发现网络有点不稳定，有时候快，有时候慢，像今天下载速度一度只有32k了，正好在城南旧事的网站上看到推荐这个VPS，看了下2h2g的配置，一个月是5欧元，年付的话也有不少的优惠，网上查了下黑五的时候还出过5折的优惠码，可惜的是现在已经不能用了。抱着试试看的态度，先买了一个月的。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>从篱落主机转移到Virmach主机有2多个月了吧，以前一直挂着一个香港的CDN，也不感觉太慢，后来那个CDN有点不稳定了，于是去掉了CDN，发现网络有点不稳定，有时候快，有时候慢，像今天下载速度一度只有32k了，正好在城南旧事的网站上看到推荐这个VPS，看了下2h2g的配置，一个月是5欧元，年付的话也有不少的优惠，网上查了下黑五的时候还出过5折的优惠码，可惜的是现在已经不能用了。抱着试试看的态度，先买了一个月的。</p>
 <p>实际体验下来还是不错，比Virmach速度快了不少，尽管ping值不是很低，但是状态一直还比较稳定。用17ce看了一下速度，竟然都是绿色的。<figure class="wp-block-image size-full"></p>
@@ -805,9 +805,9 @@ uwsgi --ini uwsgi.ini
     </item>
     <item>
       <title>python开发web程序，最好还是在Linux下</title>
-      <link>https://iliu.org/3947.html</link>
+      <link>http://localhost:1313/3947.html</link>
       <pubDate>Tue, 14 Dec 2021 12:57:17 +0000</pubDate>
-      <guid>https://iliu.org/3947.html</guid>
+      <guid>http://localhost:1313/3947.html</guid>
       <description>&lt;p&gt;看了一些python教程，很多都是在windows下进行的开发，由于老刘对linux还算是有一丢丢的了解，所以从开始就在ubuntu下进行。前两天由于要在windows下用电脑，用完之后懒得重启，由于win10里也配置好了python的开发环境，所以就在win下写了一些代码。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>看了一些python教程，很多都是在windows下进行的开发，由于老刘对linux还算是有一丢丢的了解，所以从开始就在ubuntu下进行。前两天由于要在windows下用电脑，用完之后懒得重启，由于win10里也配置好了python的开发环境，所以就在win下写了一些代码。</p>
 <img loading="lazy" decoding="async" class="alignnone size-full wp-image-3948" src="https://tunan.org/wp-content/uploads/2021/12/OIP.jpeg" alt="" width="474" height="296" /> 
@@ -818,9 +818,9 @@ uwsgi --ini uwsgi.ini
     </item>
     <item>
       <title>转到virmach</title>
-      <link>https://iliu.org/3934.html</link>
+      <link>http://localhost:1313/3934.html</link>
       <pubDate>Fri, 05 Nov 2021 04:05:56 +0000</pubDate>
-      <guid>https://iliu.org/3934.html</guid>
+      <guid>http://localhost:1313/3934.html</guid>
       <description>&lt;p&gt;看看篱落的VPS月底就到期了，也不打算再续费了。去年在Virmach买了一个便宜的VPS，2h2g才20$,算下来也就是人民币100来块钱，这一年来放了一个小玩艺，也稳定的，王志勇大佬貌似一直都是用的这个。反正就是个博客呗，放那都行，反正也没有几个人看。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>看看篱落的VPS月底就到期了，也不打算再续费了。去年在Virmach买了一个便宜的VPS，2h2g才20$,算下来也就是人民币100来块钱，这一年来放了一个小玩艺，也稳定的，王志勇大佬貌似一直都是用的这个。反正就是个博客呗，放那都行，反正也没有几个人看。</p>
 <p> </p>
@@ -829,9 +829,9 @@ uwsgi --ini uwsgi.ini
     </item>
     <item>
       <title>用input和字典初步实现我的一点小想法</title>
-      <link>https://iliu.org/3929.html</link>
+      <link>http://localhost:1313/3929.html</link>
       <pubDate>Sat, 30 Oct 2021 04:28:51 +0000</pubDate>
-      <guid>https://iliu.org/3929.html</guid>
+      <guid>http://localhost:1313/3929.html</guid>
       <description>&lt;p&gt;从决心要学Python开始，到现在差不多一周的时间了吧，买了一本《Python编程，从入门到实践》的书，目前看到了第九章，函数篇。&lt;/p&gt;
 &lt;p&gt;通过上面8章的学习，基本上有了实现我那个小项目的想法。今天根据前八章的知识，初步用input函数，实现了用特殊关键字的查询。继续加油。&lt;br&gt;
 &lt;code class=&#34;language-php&#34;&gt;&lt;/code&gt;&lt;/p&gt;</description>
@@ -874,9 +874,9 @@ print("验光单")
     </item>
     <item>
       <title>几种Linux系统安装之后的体验</title>
-      <link>https://iliu.org/3925.html</link>
+      <link>http://localhost:1313/3925.html</link>
       <pubDate>Mon, 25 Oct 2021 01:18:46 +0000</pubDate>
-      <guid>https://iliu.org/3925.html</guid>
+      <guid>http://localhost:1313/3925.html</guid>
       <description>&lt;p&gt;前一段张波老师说打算学习Python。正好老刘也有这么一个心思。之所以要学这个，是因为老刘一直以来都想弄一个客户查询系统。这个系统也很简单，只要几个页面就能完成。实现的功能是，1、后台可以添加客户资料。2、前台通过用户名和手机号码可以查询各自的详情。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>前一段张波老师说打算学习Python。正好老刘也有这么一个心思。之所以要学这个，是因为老刘一直以来都想弄一个客户查询系统。这个系统也很简单，只要几个页面就能完成。实现的功能是，1、后台可以添加客户资料。2、前台通过用户名和手机号码可以查询各自的详情。</p>
 <p>曾经和一个搞开发的朋友聊起过这个玩意，他嫌太简单，让我自己弄。可惜我一直静不下心来做。</p>
@@ -898,9 +898,9 @@ print("验光单")
     </item>
     <item>
       <title>被百度劲风算法搞了</title>
-      <link>https://iliu.org/3911.html</link>
+      <link>http://localhost:1313/3911.html</link>
       <pubDate>Sun, 26 Sep 2021 07:11:19 +0000</pubDate>
-      <guid>https://iliu.org/3911.html</guid>
+      <guid>http://localhost:1313/3911.html</guid>
       <description>&lt;p&gt;最近几天发现从网站上来咨询老刘的客户少了，以前多的时候有4-5个，少的时候也有1-2个来咨询一些问题，有些成交了，有些没有成交。但是最近一段时间，加老刘微信的人数直线下降，这几天来甚至都没有人了。打开百度统计发现日IP只有几十个了，然后用站长工具查了一下发现，关键字全都被搞没了。我去！怪不得呢。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>最近几天发现从网站上来咨询老刘的客户少了，以前多的时候有4-5个，少的时候也有1-2个来咨询一些问题，有些成交了，有些没有成交。但是最近一段时间，加老刘微信的人数直线下降，这几天来甚至都没有人了。打开百度统计发现日IP只有几十个了，然后用站长工具查了一下发现，关键字全都被搞没了。我去！怪不得呢。</p>
 <p>网站基本上都是原创的，即便不是也都是从国外的网站上翻译过来的，质量还是很高的，前一段时间甚至都是秒收的。百思不得其解之后，看到了百度更新的所谓的“劲风算法”。<figure class="wp-block-image size-full"></p>
@@ -918,9 +918,9 @@ print("验光单")
     </item>
     <item>
       <title>放弃百度小程序</title>
-      <link>https://iliu.org/3831.html</link>
+      <link>http://localhost:1313/3831.html</link>
       <pubDate>Sat, 31 Jul 2021 04:03:46 +0000</pubDate>
-      <guid>https://iliu.org/3831.html</guid>
+      <guid>http://localhost:1313/3831.html</guid>
       <description>&lt;p&gt;前几天有了根据主站镜缘轩做一个百度小程序的想法。因为，一直镜缘轩网站没有快速收录的选项。据百度说，弄了小程序就会有了，所以产生了这么一个想法。&lt;figure class=&#34;wp-block-image size-full&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>前几天有了根据主站镜缘轩做一个百度小程序的想法。因为，一直镜缘轩网站没有快速收录的选项。据百度说，弄了小程序就会有了，所以产生了这么一个想法。<figure class="wp-block-image size-full"></p>
 <p><a href="https://tunan.org/wp-content/uploads/2021/03/5c1a8db89b41572.jpg"><img loading="lazy" decoding="async" width="669" height="459" src="https://tunan.org/wp-content/uploads/2021/03/5c1a8db89b41572.jpg" alt="" class="wp-image-3705" srcset="https://tunan.org/wp-content/uploads/2021/03/5c1a8db89b41572.jpg 669w, https://tunan.org/wp-content/uploads/2021/03/5c1a8db89b41572-300x206.jpg 300w, https://tunan.org/wp-content/uploads/2021/03/5c1a8db89b41572-220x150.jpg 220w" sizes="(max-width: 669px) 100vw, 669px" /></a></figure></p>
@@ -931,9 +931,9 @@ print("验光单")
     </item>
     <item>
       <title>crmeb商城后台标题修改方法</title>
-      <link>https://iliu.org/3785.html</link>
+      <link>http://localhost:1313/3785.html</link>
       <pubDate>Tue, 22 Jun 2021 07:45:38 +0000</pubDate>
-      <guid>https://iliu.org/3785.html</guid>
+      <guid>http://localhost:1313/3785.html</guid>
       <description>&lt;p&gt;crmeb这款商城程序怎么说呢，价格便宜（当年），ui还行，功能基本完备。但是最让人诟病的就是crmeb这个字样到处都是，修改完了，等下次一升级，这些玩意又出来了。特别是网页标题的部分，真是让人烦不胜烦。前台使用的uni-app很多人都比较熟悉，标题在哪修改还好说，后台标题虽然问题不大，但是看着怎么都不舒服。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>crmeb这款商城程序怎么说呢，价格便宜（当年），ui还行，功能基本完备。但是最让人诟病的就是crmeb这个字样到处都是，修改完了，等下次一升级，这些玩意又出来了。特别是网页标题的部分，真是让人烦不胜烦。前台使用的uni-app很多人都比较熟悉，标题在哪修改还好说，后台标题虽然问题不大，但是看着怎么都不舒服。</p>
 <p>今天下午没事，又看到了这摊臭狗屎，于是就想把它搞掉。最后终于找出来了方法。</p>
@@ -961,9 +961,9 @@ windows 系统用户进入 view/admin文件夹后，按住shift + 鼠标右击�
     </item>
     <item>
       <title>RSS终于又搞好了</title>
-      <link>https://iliu.org/3769.html</link>
+      <link>http://localhost:1313/3769.html</link>
       <pubDate>Sun, 06 Jun 2021 07:21:33 +0000</pubDate>
-      <guid>https://iliu.org/3769.html</guid>
+      <guid>http://localhost:1313/3769.html</guid>
       <description>&lt;p&gt;前两天买的出去的东西过期了，看了下今年的价格基本上小80一年了，去年才60，感觉再买一年实在是划不来。正好去年的时候买的一台RN的VPS，自己一直是用来搞RSS，看到张老师搞的出圈的东西还是挺稳定的，于是也想自己弄一弄。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>前两天买的出去的东西过期了，看了下今年的价格基本上小80一年了，去年才60，感觉再买一年实在是划不来。正好去年的时候买的一台RN的VPS，自己一直是用来搞RSS，看到张老师搞的出圈的东西还是挺稳定的，于是也想自己弄一弄。</p>
 <p>结果没有经验，只用了一天，VPS的IP被ban了。</p>
@@ -977,9 +977,9 @@ windows 系统用户进入 view/admin文件夹后，按住shift + 鼠标右击�
     </item>
     <item>
       <title>RackNerd的6.18活动出来了</title>
-      <link>https://iliu.org/3766.html</link>
+      <link>http://localhost:1313/3766.html</link>
       <pubDate>Fri, 04 Jun 2021 02:30:17 +0000</pubDate>
-      <guid>https://iliu.org/3766.html</guid>
+      <guid>http://localhost:1313/3766.html</guid>
       <description>&lt;p&gt;前几天老刘总结了下RackNerd的使用情况，总体来说还是不错的，可惜的是，老刘刚弄了个梯子，第二天就被封了，期待过几天给解封吧。详情见：《&lt;a href=&#34;https://tunan.org/3749.html&#34;&gt;RackNerd使用情况小结&lt;/a&gt;》&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>前几天老刘总结了下RackNerd的使用情况，总体来说还是不错的，可惜的是，老刘刚弄了个梯子，第二天就被封了，期待过几天给解封吧。详情见：《<a href="https://tunan.org/3749.html">RackNerd使用情况小结</a>》</p>
 <p>有博友看了后表示价格有点贵，这不，今天老刘打开邮箱，发现它的6.18活动已经出来了，看了一下还是一贯的低价路线。</p>
@@ -1024,9 +1024,9 @@ ORDER: <a href="https://my.racknerd.com/aff.php?aff=1822&pid=510" target="_blan
     </item>
     <item>
       <title>重新弄了下博客环境</title>
-      <link>https://iliu.org/3746.html</link>
+      <link>http://localhost:1313/3746.html</link>
       <pubDate>Thu, 20 May 2021 09:30:37 +0000</pubDate>
-      <guid>https://iliu.org/3746.html</guid>
+      <guid>http://localhost:1313/3746.html</guid>
       <description>&lt;p&gt;最近一段时间发现博客回复的时候一直显示提交中，不会跳转到评论成功的页面，以前也遇到过这种问题，基本上重启vps解决，但是这次貌似重启了也作用不大。&lt;figure class=&#34;wp-block-image size-large&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>最近一段时间发现博客回复的时候一直显示提交中，不会跳转到评论成功的页面，以前也遇到过这种问题，基本上重启vps解决，但是这次貌似重启了也作用不大。<figure class="wp-block-image size-large"></p>
 <p><a href="https://tunan.org/wp-content/uploads/2021/05/709ac9ab754c1c0.jpg"><img loading="lazy" decoding="async" width="800" height="320" src="https://tunan.org/wp-content/uploads/2021/05/709ac9ab754c1c0.jpg" alt="" class="wp-image-3747" srcset="https://tunan.org/wp-content/uploads/2021/05/709ac9ab754c1c0.jpg 800w, https://tunan.org/wp-content/uploads/2021/05/709ac9ab754c1c0-300x120.jpg 300w, https://tunan.org/wp-content/uploads/2021/05/709ac9ab754c1c0-768x307.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" /></a></figure></p>
@@ -1038,9 +1038,9 @@ ORDER: <a href="https://my.racknerd.com/aff.php?aff=1822&pid=510" target="_blan
     </item>
     <item>
       <title>试用urlos</title>
-      <link>https://iliu.org/3597.html</link>
+      <link>http://localhost:1313/3597.html</link>
       <pubDate>Thu, 21 Jan 2021 09:10:01 +0000</pubDate>
-      <guid>https://iliu.org/3597.html</guid>
+      <guid>http://localhost:1313/3597.html</guid>
       <description>&lt;p&gt;老刘一直用的是oneinstack这个命令行面板，其实也够用了。但是后来弄了一个在线商城，这个开发者基本上是以宝塔的环境来开发的，安装教程等等都是用的宝塔面板。自己试着用oneinstack来安装，会报很多的错误，特别是客服这一块，它使用了长链接等。而官方出的命令安装教程简直没法看，按教程根本搞不成。所以，只能用着免费版的宝塔，看了眼收费的，又太贵。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>老刘一直用的是oneinstack这个命令行面板，其实也够用了。但是后来弄了一个在线商城，这个开发者基本上是以宝塔的环境来开发的，安装教程等等都是用的宝塔面板。自己试着用oneinstack来安装，会报很多的错误，特别是客服这一块，它使用了长链接等。而官方出的命令安装教程简直没法看，按教程根本搞不成。所以，只能用着免费版的宝塔，看了眼收费的，又太贵。</p>
 <p>昨天刚好看到缙哥哥又在推这个面板，现在涨价到20了，最早双11的时候才11.11，双12的时候12.12.现在20来快了，他推这个面板倒不是这个面板有多好用，他甚至都没有怎么用过，他推这个面板是因为据说有30%的aff。而看到我那个商城的官方也有urlos的一键安装包。所以，就买个授权吧。反正也不贵不是。留着，省的以后像宝塔似的千把块，买了心疼。</p>
@@ -1069,9 +1069,9 @@ chown -R nobody:nogroup /data/www</code></pre>
     </item>
     <item>
       <title>捡漏注册了个l22.org的域名</title>
-      <link>https://iliu.org/3561.html</link>
+      <link>http://localhost:1313/3561.html</link>
       <pubDate>Sun, 10 Jan 2021 09:05:27 +0000</pubDate>
-      <guid>https://iliu.org/3561.html</guid>
+      <guid>http://localhost:1313/3561.html</guid>
       <description>&lt;p&gt;前两天的时候，登陆name.com查看域名有没有转移过去，忽然发现这个网站有一个最近删除域名的链接。好奇之下点开看了一下，发现有很多，好在有一个可以下载的表格。于是下载了当时最新的1.6号删除的域名，随意的浏览的起来。本来也没有抱着一定能注册想法。&lt;figure class=&#34;wp-block-image size-large&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>前两天的时候，登陆name.com查看域名有没有转移过去，忽然发现这个网站有一个最近删除域名的链接。好奇之下点开看了一下，发现有很多，好在有一个可以下载的表格。于是下载了当时最新的1.6号删除的域名，随意的浏览的起来。本来也没有抱着一定能注册想法。<figure class="wp-block-image size-large"></p>
 <p><a href="https://tunan.org/wp-content/uploads/2021/01/a54fce0d9ebf86f.jpg"><img loading="lazy" decoding="async" width="644" height="300" src="https://tunan.org/wp-content/uploads/2021/01/a54fce0d9ebf86f.jpg" alt="" class="wp-image-3577" srcset="https://tunan.org/wp-content/uploads/2021/01/a54fce0d9ebf86f.jpg 644w, https://tunan.org/wp-content/uploads/2021/01/a54fce0d9ebf86f-300x140.jpg 300w" sizes="(max-width: 644px) 100vw, 644px" /></a></figure></p>
@@ -1083,9 +1083,9 @@ chown -R nobody:nogroup /data/www</code></pre>
     </item>
     <item>
       <title>把域名从阿里云转出到name.com的方法</title>
-      <link>https://iliu.org/3545.html</link>
+      <link>http://localhost:1313/3545.html</link>
       <pubDate>Sun, 03 Jan 2021 08:33:54 +0000</pubDate>
-      <guid>https://iliu.org/3545.html</guid>
+      <guid>http://localhost:1313/3545.html</guid>
       <description>&lt;p&gt;前两天，老刘想把在阿里云的一个域名转到name.com,后续可能还会把一些不需要备案的都转出去，其实转出的方法也很简单。&lt;/p&gt;
 &lt;p&gt;首先，登录阿里云的后台，选择域名&lt;figure class=&#34;wp-block-image size-large&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>前两天，老刘想把在阿里云的一个域名转到name.com,后续可能还会把一些不需要备案的都转出去，其实转出的方法也很简单。</p>
@@ -1105,9 +1105,9 @@ chown -R nobody:nogroup /data/www</code></pre>
     </item>
     <item>
       <title>博客web端改用apache</title>
-      <link>https://iliu.org/3520.html</link>
+      <link>http://localhost:1313/3520.html</link>
       <pubDate>Wed, 30 Dec 2020 07:35:59 +0000</pubDate>
-      <guid>https://iliu.org/3520.html</guid>
+      <guid>http://localhost:1313/3520.html</guid>
       <description>&lt;p&gt;试用了几天Cloudflare加racknerd的2h2g的小鸡，感觉还算差强人意。所以干脆就先把博客放这里算了，然后又突发奇想，其他的网站一直用的lnmp，为啥博客就不能用用lamp呢？况且apache在稳定性以及对php的支持等方面都比nginx要好，nginx的优势是轻便和并发能力强。其实对小博客来说，基本没有啥区别。&lt;figure class=&#34;wp-block-image size-large&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>试用了几天Cloudflare加racknerd的2h2g的小鸡，感觉还算差强人意。所以干脆就先把博客放这里算了，然后又突发奇想，其他的网站一直用的lnmp，为啥博客就不能用用lamp呢？况且apache在稳定性以及对php的支持等方面都比nginx要好，nginx的优势是轻便和并发能力强。其实对小博客来说，基本没有啥区别。<figure class="wp-block-image size-large"></p>
 <p><a href="https://tunan.org/wp-content/uploads/2021/01/ac6793f3e79aaa6.jpg"><img loading="lazy" decoding="async" width="855" height="585" src="https://tunan.org/wp-content/uploads/2021/01/ac6793f3e79aaa6.jpg" alt="" class="wp-image-3589" srcset="https://tunan.org/wp-content/uploads/2021/01/ac6793f3e79aaa6.jpg 855w, https://tunan.org/wp-content/uploads/2021/01/ac6793f3e79aaa6-300x205.jpg 300w, https://tunan.org/wp-content/uploads/2021/01/ac6793f3e79aaa6-768x525.jpg 768w, https://tunan.org/wp-content/uploads/2021/01/ac6793f3e79aaa6-220x150.jpg 220w" sizes="(max-width: 855px) 100vw, 855px" /></a></figure></p>
@@ -1173,9 +1173,9 @@ LogFormat "%h %l %u %t \"%r\" %&gt;s %b \"%{Referer}i\" \"%{User-Agent}i\" %I %O
     </item>
     <item>
       <title>nginx使用CDN后获取用户真实IP的方法</title>
-      <link>https://iliu.org/3486.html</link>
+      <link>http://localhost:1313/3486.html</link>
       <pubDate>Mon, 21 Dec 2020 07:15:11 +0000</pubDate>
-      <guid>https://iliu.org/3486.html</guid>
+      <guid>http://localhost:1313/3486.html</guid>
       <description>&lt;p&gt;老刘前两天弄了个racknerd的便宜的vps，准备把一个网站放到这个vps上，再顺便把篱落的这台VPS好好的整理一下，当时装系统的时候装的是centos8，可惜这个系统明年官方就不再支持了，所以，长痛不如短痛，早晚都要换系统，不如早换。于是先把博客也迁到了这个rn的空间里。顺便又给加了个CF的套，加上之后，加的时候是扫了几个本地延迟最低的IP，直接分联通、移动、电信把这几个ip分别解析了。经过这么几天的试用，老刘觉得加了CF的速度还算差强人意。准备一直用下去。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>老刘前两天弄了个racknerd的便宜的vps，准备把一个网站放到这个vps上，再顺便把篱落的这台VPS好好的整理一下，当时装系统的时候装的是centos8，可惜这个系统明年官方就不再支持了，所以，长痛不如短痛，早晚都要换系统，不如早换。于是先把博客也迁到了这个rn的空间里。顺便又给加了个CF的套，加上之后，加的时候是扫了几个本地延迟最低的IP，直接分联通、移动、电信把这几个ip分别解析了。经过这么几天的试用，老刘觉得加了CF的速度还算差强人意。准备一直用下去。</p>
 <p>但是加了CDN后，有一个问题，那就是不管日志里还是wordpress后台的评论里的IP都是cf的IP，无法获取用户的真实IP，这对管理网站有点麻烦，比如受到攻击或者想封一些发垃圾邮件IP的地址的时候，就没有办法。老刘记得以前看过这方面的文章。于是找了一下，把经过记录下来。</p>
@@ -1234,9 +1234,9 @@ log_format cdn '$http_x_forwarded_for - $remote_user &#91;$time_local] '
     </item>
     <item>
       <title>流金岁月启用新域名</title>
-      <link>https://iliu.org/3470.html</link>
+      <link>http://localhost:1313/3470.html</link>
       <pubDate>Thu, 17 Dec 2020 10:17:17 +0000</pubDate>
-      <guid>https://iliu.org/3470.html</guid>
+      <guid>http://localhost:1313/3470.html</guid>
       <description>&lt;p&gt;经过一番考虑，决定启用新域名 iliu.org&lt;/p&gt;
 &lt;p&gt;一是域名较短，二是本人对org情有独钟。这也将是老刘最后一次换域名了。&lt;/p&gt;
 &lt;p&gt;所以，麻烦有老刘友情链接的改下地址，（貌似也没有几个）&lt;/p&gt;</description>
@@ -1250,9 +1250,9 @@ log_format cdn '$http_x_forwarded_for - $remote_user &#91;$time_local] '
     </item>
     <item>
       <title>停止使用RSS Feed</title>
-      <link>https://iliu.org/3364.html</link>
+      <link>http://localhost:1313/3364.html</link>
       <pubDate>Thu, 29 Oct 2020 08:35:05 +0000</pubDate>
-      <guid>https://iliu.org/3364.html</guid>
+      <guid>http://localhost:1313/3364.html</guid>
       <description>&lt;p&gt;由于种种原因，一直在使用RSS Feed订阅诸多博友的博客。但是由于众所周知的原因。现在使用Feed非常的不方便，要想愉快的使用，必须就要挂着梯子。但是，目前来看，政策愈发的紧张。使用梯子貌似成了一个高风险的事情，特别是像我这样开着一个工作室的人，如果被处罚一下，网上一查负责人居然有前科，谁还敢和你做生意啊。所以决定，梯子自是在需要的时候挂一挂，平时的时候都要让它处于关闭状态。但是这样一来，Feed就不太适合使用了。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>由于种种原因，一直在使用RSS Feed订阅诸多博友的博客。但是由于众所周知的原因。现在使用Feed非常的不方便，要想愉快的使用，必须就要挂着梯子。但是，目前来看，政策愈发的紧张。使用梯子貌似成了一个高风险的事情，特别是像我这样开着一个工作室的人，如果被处罚一下，网上一查负责人居然有前科，谁还敢和你做生意啊。所以决定，梯子自是在需要的时候挂一挂，平时的时候都要让它处于关闭状态。但是这样一来，Feed就不太适合使用了。</p>
 <p><a href="https://tunan.org/wp-content/uploads/2020/10/4af52202f77beb1.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3365" src="https://tunan.org/wp-content/uploads/2020/10/4af52202f77beb1.jpg" alt="" width="512" height="268" srcset="https://tunan.org/wp-content/uploads/2020/10/4af52202f77beb1.jpg 512w, https://tunan.org/wp-content/uploads/2020/10/4af52202f77beb1-300x157.jpg 300w" sizes="(max-width: 512px) 100vw, 512px" /></a></p>
@@ -1268,9 +1268,9 @@ log_format cdn '$http_x_forwarded_for - $remote_user &#91;$time_local] '
     </item>
     <item>
       <title>纯代码设置frp服务器</title>
-      <link>https://iliu.org/3340.html</link>
+      <link>http://localhost:1313/3340.html</link>
       <pubDate>Sun, 18 Oct 2020 07:27:04 +0000</pubDate>
-      <guid>https://iliu.org/3340.html</guid>
+      <guid>http://localhost:1313/3340.html</guid>
       <description>&lt;p&gt;以前老刘写过《&lt;a href=&#34;https://tunan.org/2918.html&#34;&gt;宝塔面板安装FRP内网穿透控制群晖&lt;/a&gt;》的文章，最近发现不知道是这个插件的作者不再开发了还是其他的原因，xeath开发的这个frp服务器插件已经在商店里找不到了。其实，这也没什么，直接用代码的方式部署也是可以的。&lt;/p&gt;
 &lt;p&gt;SSH连接到VPS之后运行如下命令查看处理器架构，根据架构下载不同版本的frp&lt;/p&gt;
 &lt;pre class=&#34;wp-block-preformatted&#34;&gt;arch&lt;/pre&gt;
@@ -1325,9 +1325,9 @@ vhost_https_port = 10443</pre>
     </item>
     <item>
       <title>网站换了一台服务器</title>
-      <link>https://iliu.org/3309.html</link>
+      <link>http://localhost:1313/3309.html</link>
       <pubDate>Wed, 14 Oct 2020 07:03:04 +0000</pubDate>
-      <guid>https://iliu.org/3309.html</guid>
+      <guid>http://localhost:1313/3309.html</guid>
       <description>&lt;p&gt;前几天发现网站有点卡，特别是回复评论的时候，速度很慢。然后后台看了一下进程，发现WWW进程占用的CPU会一下一下的飙升，最高的时候达到了100%。但是根据流量的话，不可能是这样一个占用。这个博客也就日流量30IP左右，另外一个网站，日流量就是400-500之间。作为一台2核4g内存的vps,不可能达到这个资源占用水平。所以，打算重新整下生产环境。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>前几天发现网站有点卡，特别是回复评论的时候，速度很慢。然后后台看了一下进程，发现WWW进程占用的CPU会一下一下的飙升，最高的时候达到了100%。但是根据流量的话，不可能是这样一个占用。这个博客也就日流量30IP左右，另外一个网站，日流量就是400-500之间。作为一台2核4g内存的vps,不可能达到这个资源占用水平。所以，打算重新整下生产环境。</p>
 <p><a href="https://tunan.org/wp-content/uploads/2020/10/194686deba817bf.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3311" src="https://tunan.org/wp-content/uploads/2020/10/194686deba817bf.jpg" alt="" width="750" height="950" srcset="https://tunan.org/wp-content/uploads/2020/10/194686deba817bf.jpg 750w, https://tunan.org/wp-content/uploads/2020/10/194686deba817bf-237x300.jpg 237w" sizes="(max-width: 750px) 100vw, 750px" /></a></p>
@@ -1342,9 +1342,9 @@ vhost_https_port = 10443</pre>
     </item>
     <item>
       <title>nodecache开通了中国直连线路</title>
-      <link>https://iliu.org/3283.html</link>
+      <link>http://localhost:1313/3283.html</link>
       <pubDate>Sun, 11 Oct 2020 02:29:24 +0000</pubDate>
-      <guid>https://iliu.org/3283.html</guid>
+      <guid>http://localhost:1313/3283.html</guid>
       <description>&lt;p&gt;在以前的文章（&lt;a href=&#34;https://tunan.org/1679.html&#34;&gt;推荐一款国外CDN——Nodecache，注册即送1T流量&lt;/a&gt;）中介绍过nodecache这个CDN服务商，当时是注册送1T的流量，后来由于觉得其速度有点慢，有时候又不稳定，所以就一直没有，后来通过这篇文字，陆续有了写aff送的流量，差不多一个月9G的样子，要说用在我这个小博客上市绰绰有余了，但是由于怕跑路就一直也没有用。&lt;/p&gt;
 &lt;p&gt;今天闲着没事，翻看自己以前的文字，发现了自己的这篇文章，于是，怀旧的登录上去看看，结果这个CDN服务商居然还没有跑路，哈哈！看了一下，里面的设置基本上和上海云盾的类似，有些还借鉴了又拍云的设置方式。又看了一下发现居然增加了中国直连线路。于是，我可耻的心动了。设置了一番，发现没有想想的那么美好，中国直连线路不是中国线路。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>在以前的文章（<a href="https://tunan.org/1679.html">推荐一款国外CDN——Nodecache，注册即送1T流量</a>）中介绍过nodecache这个CDN服务商，当时是注册送1T的流量，后来由于觉得其速度有点慢，有时候又不稳定，所以就一直没有，后来通过这篇文字，陆续有了写aff送的流量，差不多一个月9G的样子，要说用在我这个小博客上市绰绰有余了，但是由于怕跑路就一直也没有用。</p>
@@ -1368,9 +1368,9 @@ vhost_https_port = 10443</pre>
     </item>
     <item>
       <title>从宝塔面板换成oneinstack踩的一个坑</title>
-      <link>https://iliu.org/3240.html</link>
+      <link>http://localhost:1313/3240.html</link>
       <pubDate>Thu, 27 Aug 2020 03:25:28 +0000</pubDate>
-      <guid>https://iliu.org/3240.html</guid>
+      <guid>http://localhost:1313/3240.html</guid>
       <description>&lt;p&gt;年初的时候，由于疫情的原因，在家没事就折腾服务器，由于看上了宝塔面板的FRP插件，所以把网站环境管理面板从oneinstack换成了宝塔面板，不成想，前几天出现了这么一个低级的bug，所以，思来想去，不能为了一颗树苗而放弃整片森林，为了安全，还是把宝塔面板换掉为妙。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>年初的时候，由于疫情的原因，在家没事就折腾服务器，由于看上了宝塔面板的FRP插件，所以把网站环境管理面板从oneinstack换成了宝塔面板，不成想，前几天出现了这么一个低级的bug，所以，思来想去，不能为了一颗树苗而放弃整片森林，为了安全，还是把宝塔面板换掉为妙。</p>
 <p><a href="https://tunan.org/wp-content/uploads/2020/08/2d3a77705b1e397.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3241" src="https://tunan.org/wp-content/uploads/2020/08/2d3a77705b1e397.jpg" alt="" width="800" height="320" srcset="https://tunan.org/wp-content/uploads/2020/08/2d3a77705b1e397.jpg 800w, https://tunan.org/wp-content/uploads/2020/08/2d3a77705b1e397-300x120.jpg 300w, https://tunan.org/wp-content/uploads/2020/08/2d3a77705b1e397-768x307.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
@@ -1382,9 +1382,9 @@ vhost_https_port = 10443</pre>
     </item>
     <item>
       <title>腾讯的CDN还是可以的</title>
-      <link>https://iliu.org/3217.html</link>
+      <link>http://localhost:1313/3217.html</link>
       <pubDate>Fri, 24 Jul 2020 09:35:42 +0000</pubDate>
-      <guid>https://iliu.org/3217.html</guid>
+      <guid>http://localhost:1313/3217.html</guid>
       <description>&lt;p&gt;2018年的时候，申请了腾讯的COS，CDN等，因为那时候cos有免费50g的额度，CDN每月10g的免费流量，COS倒是一直用着，cdn因为当时是景安的服务器，用上腾讯的cdn后，奇卡无比。找客服，发工单说是正常的。没有办法，只好放弃。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>2018年的时候，申请了腾讯的COS，CDN等，因为那时候cos有免费50g的额度，CDN每月10g的免费流量，COS倒是一直用着，cdn因为当时是景安的服务器，用上腾讯的cdn后，奇卡无比。找客服，发工单说是正常的。没有办法，只好放弃。</p>
 <p><a href="https://tunan.org/wp-content/uploads/2020/07/2a7bc86928e6c37.png"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3218" src="https://tunan.org/wp-content/uploads/2020/07/2a7bc86928e6c37.png" alt="" width="607" height="149" srcset="https://tunan.org/wp-content/uploads/2020/07/2a7bc86928e6c37.png 607w, https://tunan.org/wp-content/uploads/2020/07/2a7bc86928e6c37-300x74.png 300w" sizes="(max-width: 607px) 100vw, 607px" /></a></p>
@@ -1395,9 +1395,9 @@ vhost_https_port = 10443</pre>
     </item>
     <item>
       <title>解决升级PHPmake: *** No rule to make target `install’. Stop.的问题</title>
-      <link>https://iliu.org/3022.html</link>
+      <link>http://localhost:1313/3022.html</link>
       <pubDate>Sat, 18 Jan 2020 10:14:33 +0000</pubDate>
-      <guid>https://iliu.org/3022.html</guid>
+      <guid>http://localhost:1313/3022.html</guid>
       <description>&lt;p&gt;今天发现PHP7.3已经有7.3.13版本了，而我博客的版本还是7.3.10，所以，为了更好的安全性就决定把php升级到最新的版本。其实，oneinstack升级php版本很简单，因为已经自带了升级的程序，只需进入到oneinstack的目录，然后./upgrade，选择升级php的选项即可。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>今天发现PHP7.3已经有7.3.13版本了，而我博客的版本还是7.3.10，所以，为了更好的安全性就决定把php升级到最新的版本。其实，oneinstack升级php版本很简单，因为已经自带了升级的程序，只需进入到oneinstack的目录，然后./upgrade，选择升级php的选项即可。</p>
 <p><a href="https://tunan.org/wp-content/uploads/2020/01/7cdd46e35b66157.png"><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-3023" src="https://tunan.org/wp-content/uploads/2020/01/7cdd46e35b66157-1024x512.png" alt="" width="1024" height="512" srcset="https://tunan.org/wp-content/uploads/2020/01/7cdd46e35b66157-1024x512.png 1024w, https://tunan.org/wp-content/uploads/2020/01/7cdd46e35b66157-300x150.png 300w, https://tunan.org/wp-content/uploads/2020/01/7cdd46e35b66157-768x384.png 768w, https://tunan.org/wp-content/uploads/2020/01/7cdd46e35b66157.png 1320w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
@@ -1408,9 +1408,9 @@ vhost_https_port = 10443</pre>
     </item>
     <item>
       <title>推荐篱落主机的香港VPS</title>
-      <link>https://iliu.org/2981.html</link>
+      <link>http://localhost:1313/2981.html</link>
       <pubDate>Mon, 06 Jan 2020 02:02:06 +0000</pubDate>
-      <guid>https://iliu.org/2981.html</guid>
+      <guid>http://localhost:1313/2981.html</guid>
       <description>&lt;p&gt;从去年11月底开始使用小张的篱落主机至今，差不多两个多月的时间。算是基本了解了篱落主机的性能和客服的人性化服务。由于线路速度以及服务器的稳定性都很不错，而且今天又发现了新年特款VPS，2h4g3m的配置，一年不到300元，算是非常的超值了！&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>从去年11月底开始使用小张的篱落主机至今，差不多两个多月的时间。算是基本了解了篱落主机的性能和客服的人性化服务。由于线路速度以及服务器的稳定性都很不错，而且今天又发现了新年特款VPS，2h4g3m的配置，一年不到300元，算是非常的超值了！</p>
 <p><a href="https://tunan.org/wp-content/uploads/2020/01/b788a4803af4065.png"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2982" src="https://tunan.org/wp-content/uploads/2020/01/b788a4803af4065.png" alt="" width="431" height="248" srcset="https://tunan.org/wp-content/uploads/2020/01/b788a4803af4065.png 431w, https://tunan.org/wp-content/uploads/2020/01/b788a4803af4065-300x173.png 300w" sizes="(max-width: 431px) 100vw, 431px" /></a></p>
@@ -1434,9 +1434,9 @@ vhost_https_port = 10443</pre>
     </item>
     <item>
       <title>网站被黑了？</title>
-      <link>https://iliu.org/2934.html</link>
+      <link>http://localhost:1313/2934.html</link>
       <pubDate>Fri, 13 Dec 2019 05:23:20 +0000</pubDate>
-      <guid>https://iliu.org/2934.html</guid>
+      <guid>http://localhost:1313/2934.html</guid>
       <description>&lt;p&gt;最近一段时间，网站的关键字里总会穿插着一些贷款的关键字，当然点击这些页面是404的状态。看网页的标题，也没有诸如网站的推广啊，或者自己的网站自动跳转别的网站等情况。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>最近一段时间，网站的关键字里总会穿插着一些贷款的关键字，当然点击这些页面是404的状态。看网页的标题，也没有诸如网站的推广啊，或者自己的网站自动跳转别的网站等情况。</p>
 <p><a href="https://tunan.org/wp-content/uploads/2019/12/85d5fd6fe1782a9.png"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2935" src="https://tunan.org/wp-content/uploads/2019/12/85d5fd6fe1782a9.png" alt="" width="848" height="362" srcset="https://tunan.org/wp-content/uploads/2019/12/85d5fd6fe1782a9.png 848w, https://tunan.org/wp-content/uploads/2019/12/85d5fd6fe1782a9-300x128.png 300w, https://tunan.org/wp-content/uploads/2019/12/85d5fd6fe1782a9-768x328.png 768w" sizes="(max-width: 848px) 100vw, 848px" /></a></p>
@@ -1449,9 +1449,9 @@ vhost_https_port = 10443</pre>
     </item>
     <item>
       <title>换篱落的空间，用宝塔面板，CSRF校验失败</title>
-      <link>https://iliu.org/2865.html</link>
+      <link>http://localhost:1313/2865.html</link>
       <pubDate>Mon, 25 Nov 2019 01:55:14 +0000</pubDate>
-      <guid>https://iliu.org/2865.html</guid>
+      <guid>http://localhost:1313/2865.html</guid>
       <description>&lt;p&gt;昨天在群里看到老胡发的篱落的特价VPS，忽然发现我也在他说的那个群，以前是衡天主机的客户群，后来好像卖给给香港人后，小张自己搞了个篱落主机。由于，近几年一直用的阿里云的，所以，没有太关注了。不过老胡发的这个特价的机型很快就卖完了，然后就发现还有一款1h2g2m的vps，也是特价机型，一年是300元。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>昨天在群里看到老胡发的篱落的特价VPS，忽然发现我也在他说的那个群，以前是衡天主机的客户群，后来好像卖给给香港人后，小张自己搞了个篱落主机。由于，近几年一直用的阿里云的，所以，没有太关注了。不过老胡发的这个特价的机型很快就卖完了，然后就发现还有一款1h2g2m的vps，也是特价机型，一年是300元。</p>
 <p>比阿里云的轻量1h2g的一年便宜个百十块钱。但是没有阿里的带宽高，也没有阿里云给的流量大。但是线路要比阿里云轻量香港的要好些，特别是晚上，阿里云香港的有点卡。不过想想自己也用不了那么大的带宽，就两个小网站，流量也不高。在加上使用FRP做内网穿透远程控制NAS。这个vps也足够了。毕竟远程也不会同步很大的东西。</p>
@@ -1465,9 +1465,9 @@ vhost_https_port = 10443</pre>
     </item>
     <item>
       <title>博客更换到阿里云香港轻量，并升级到wordpress5.3.0</title>
-      <link>https://iliu.org/2851.html</link>
+      <link>http://localhost:1313/2851.html</link>
       <pubDate>Thu, 14 Nov 2019 23:53:20 +0000</pubDate>
-      <guid>https://iliu.org/2851.html</guid>
+      <guid>http://localhost:1313/2851.html</guid>
       <description>&lt;p&gt;昨天在折腾FRP的时候，怕影响到现有的环境，所以，买了一个阿里云轻量1H1G的主机，因为我知道，一个月24元，其实我不是打算用一个月而是打算就用一天练练手，摆治了一天，FRP也没有实现与黑群晖进行联手，下午在退款的时候，惊奇的发现，我2年多前买的这个800元3年的1H1G1M的小鸡也能退款，大概能退200左右，毕竟还有8个来月的时间就到期了。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>昨天在折腾FRP的时候，怕影响到现有的环境，所以，买了一个阿里云轻量1H1G的主机，因为我知道，一个月24元，其实我不是打算用一个月而是打算就用一天练练手，摆治了一天，FRP也没有实现与黑群晖进行联手，下午在退款的时候，惊奇的发现，我2年多前买的这个800元3年的1H1G1M的小鸡也能退款，大概能退200左右，毕竟还有8个来月的时间就到期了。</p>
 <p>说起来，我早就不想用这个主机了，主要是带宽只有1m,只不过心疼剩余的时间，就一直凑合着用。以前也咨询过客服能不能退款，说是活动价买的不能退云云。所以，立马吧网站备份到oss里，退款，并购买了一台，1H2g30m的香港轻量云。</p>
@@ -1479,9 +1479,9 @@ vhost_https_port = 10443</pre>
     </item>
     <item>
       <title>再说说景安的服务</title>
-      <link>https://iliu.org/2697.html</link>
+      <link>http://localhost:1313/2697.html</link>
       <pubDate>Sat, 07 Sep 2019 03:35:21 +0000</pubDate>
-      <guid>https://iliu.org/2697.html</guid>
+      <guid>http://localhost:1313/2697.html</guid>
       <description>&lt;p&gt;自从上次看到景安欠薪的消息以后，虽然觉得很惋惜，但是也没有太放在心上，毕竟作为河南最大的IDC，还是再新三板上市的企业，不可能马上就挂的，况且里面还有周鸿祎的股份，所以还是照旧使用原来的服务器。&lt;br&gt;
 &lt;a href=&#34;https://tunan.org/wp-content/uploads/2019/07/129c3de904bde5.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;810&#34; height=&#34;456&#34; src=&#34;https://tunan.org/wp-content/uploads/2019/07/129c3de904bde5.jpg&#34; alt=&#34;&#34; class=&#34;aligncenter size-full wp-image-2309&#34; srcset=&#34;https://tunan.org/wp-content/uploads/2019/07/129c3de904bde5.jpg 810w, https://tunan.org/wp-content/uploads/2019/07/129c3de904bde5-768x432.jpg 768w&#34; sizes=&#34;(max-width: 810px) 100vw, 810px&#34; /&gt;&lt;/a&gt;&lt;br&gt;
 不过最近以来发生的事情让我对景安的后续有了疑虑，姑且不说欠薪的事情，最近总感觉网站是不是的卡一下。前一段时间出现数据库链接不上的问题，查了额下是内存有点小了，毕竟是1g的内存，既然小了那就再加上1g，花了300来块钱，数据库掉线的问题倒是解决了，但是网站还是时不时的卡一下下。表现为，网站能正常打开，在打开某一个页面的时候，一直加载，然后就加载不了啦，换个浏览器在打开，就可以打开了。次数出现的多了之后，我就想是不是服务器的问题。然后就切换到前年买的的一个111配置的香港阿里云上来试试。&lt;br&gt;
@@ -1496,9 +1496,9 @@ vhost_https_port = 10443</pre>
     </item>
     <item>
       <title>给7b2的主题加上评论回复功能</title>
-      <link>https://iliu.org/2552.html</link>
+      <link>http://localhost:1313/2552.html</link>
       <pubDate>Thu, 25 Jul 2019 00:54:22 +0000</pubDate>
-      <guid>https://iliu.org/2552.html</guid>
+      <guid>http://localhost:1313/2552.html</guid>
       <description>&lt;p&gt;7b2主题默认是不会给评论者回复邮件的。也曾经问过作者，作者说如果实现这个的话，没几天邮箱就被封掉了，可能作者有作者的理由吧，但是不加的话，你回复了评论者，他也不知道你给他回复了，没有个反馈，十分的不方便。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>7b2主题默认是不会给评论者回复邮件的。也曾经问过作者，作者说如果实现这个的话，没几天邮箱就被封掉了，可能作者有作者的理由吧，但是不加的话，你回复了评论者，他也不知道你给他回复了，没有个反馈，十分的不方便。</p>
 <p>要想实现给评论者发邮件现在有两种方法，一种是代码实现，一种是插件实现。</p>
@@ -1545,9 +1545,9 @@ add_action(<span class="hljs-string">'comment_post'</span>, <span class="hljs-st
     </item>
     <item>
       <title>备忘，使用阿里云ossfs备份网站</title>
-      <link>https://iliu.org/2513.html</link>
+      <link>http://localhost:1313/2513.html</link>
       <pubDate>Mon, 15 Jul 2019 03:27:27 +0000</pubDate>
-      <guid>https://iliu.org/2513.html</guid>
+      <guid>http://localhost:1313/2513.html</guid>
       <description>&lt;p&gt;昨天看到明月云服务上有篇关于使用ossfs备份网站的文章，看起来也不复杂，于是就试用了一下，试用后感觉真是体验不错，用这个后，妈妈再也不担心网站数据丢失了。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>昨天看到明月云服务上有篇关于使用ossfs备份网站的文章，看起来也不复杂，于是就试用了一下，试用后感觉真是体验不错，用这个后，妈妈再也不担心网站数据丢失了。</p>
 <h2 id="给服务器安装ossfs">给服务器安装ossfs。</h2>
@@ -1595,9 +1595,9 @@ chkconfig ossfs <span class="hljs-literal">on</span>
     </item>
     <item>
       <title>记一次因为标点符号导致重装服务器的经历</title>
-      <link>https://iliu.org/2257.html</link>
+      <link>http://localhost:1313/2257.html</link>
       <pubDate>Fri, 12 Jul 2019 08:59:58 +0000</pubDate>
-      <guid>https://iliu.org/2257.html</guid>
+      <guid>http://localhost:1313/2257.html</guid>
       <description>&lt;p&gt;前两天的时候，&lt;a href=&#34;https://www.yanjingweb.cn/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;镜缘轩&lt;/a&gt;网站出了点问题，加上那个服务器被我折腾的乱七八糟的，所以就想重新弄一下生产环境。为了不影响网站的访问，就先暂时把网站解析到另外一台阿里云香港的服务器上。转到香港后，其实用起来也不错，和国内的访问确实没有感觉出来，再加上有点忙，就一直拖着没有动手。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>前两天的时候，<a href="https://www.yanjingweb.cn/" target="_blank" rel="noopener noreferrer">镜缘轩</a>网站出了点问题，加上那个服务器被我折腾的乱七八糟的，所以就想重新弄一下生产环境。为了不影响网站的访问，就先暂时把网站解析到另外一台阿里云香港的服务器上。转到香港后，其实用起来也不错，和国内的访问确实没有感觉出来，再加上有点忙，就一直拖着没有动手。</p>
 <p>今天终于抽出时间来弄这个。本来装好系统之后，心血来潮想用用宝塔，毕竟鼠标点比输入代码要方便的多，装上宝塔之后申请<span style="background-color: rgb(255, 255, 255); color: rgb(102, 0, 153);">Let’s Encrypt</span><span style="background-color: rgb(255, 255, 255);">证书的时候总是出错，而且没有提示出错的原因，其实在宝塔那里也是可以申请ssl证书的，不过又是需要实名认证，而且不能续签，因为信不过这类小公司，所以遇到实名认证的这玩意就敬而远之了，所以，就删除了宝塔用自己习惯的oneinstack。</span><figure class="content-img-box" id="2256"></p>
@@ -1610,9 +1610,9 @@ chkconfig ossfs <span class="hljs-literal">on</span>
     </item>
     <item>
       <title>利用cloudFlare的边缘计算workers实现外链转内链跳转</title>
-      <link>https://iliu.org/2248.html</link>
+      <link>http://localhost:1313/2248.html</link>
       <pubDate>Tue, 09 Jul 2019 01:20:11 +0000</pubDate>
-      <guid>https://iliu.org/2248.html</guid>
+      <guid>http://localhost:1313/2248.html</guid>
       <description>&lt;p&gt;跋涉者曾经分享过一篇7b2主题外链跳转的文章，那篇文章实现的原理是在自己服务器里增加一个跳转的页面代码。&lt;/p&gt;
 &lt;p&gt;[zrz_insert_post id=1656]&lt;/p&gt;
 &lt;p&gt;不过今天看张戈大神的一篇文章&lt;a href=&#34;https://zhang.ge/5151.html&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;CloudFlare边缘计算Workers尝鲜初探：博客跳转中间页&lt;/a&gt;。这篇文章谈到可以把这个跳转代码保存到cloudFlare的边缘计算workers中，从而让跳转可以在CDN里实现，显然，这样会减轻服务器计算的压力。对小水管的博客来说有一定的使用价值。&lt;/p&gt;</description>
@@ -1724,9 +1724,9 @@ async function handleRequest(request) {
     </item>
     <item>
       <title>Godaddy可以用微信管理域名</title>
-      <link>https://iliu.org/2207.html</link>
+      <link>http://localhost:1313/2207.html</link>
       <pubDate>Wed, 26 Jun 2019 00:38:56 +0000</pubDate>
-      <guid>https://iliu.org/2207.html</guid>
+      <guid>http://localhost:1313/2207.html</guid>
       <description>&lt;p&gt;不得不说微信现在的影响力是越来越大了，就连当年蹭退出中国风的godaddy现在也开始使用微信来管理域名了，今天打开邮箱就收到了如下的邮件。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;用微信管理域名，接收通知并获取优惠。&lt;/strong&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>不得不说微信现在的影响力是越来越大了，就连当年蹭退出中国风的godaddy现在也开始使用微信来管理域名了，今天打开邮箱就收到了如下的邮件。</p>
@@ -1748,9 +1748,9 @@ async function handleRequest(request) {
     </item>
     <item>
       <title>wordpress自动升级到5.2.2</title>
-      <link>https://iliu.org/1787.html</link>
+      <link>http://localhost:1313/1787.html</link>
       <pubDate>Wed, 19 Jun 2019 02:15:39 +0000</pubDate>
-      <guid>https://iliu.org/1787.html</guid>
+      <guid>http://localhost:1313/1787.html</guid>
       <description>&lt;p&gt;今天打开邮箱，发现系统发的邮件。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;span style=&#34;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&#34;&gt;嗨！您位于 &lt;/span&gt;&lt;a href=&#34;https://tunan.org/&#34; target=&#34;_blank&#34; style=&#34;color: rgb(24, 43, 74); background-color: rgb(255, 255, 255);&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;a href=&#34;https://tunan.org&#34;&gt;https://tunan.org&lt;/a&gt;&lt;/a&gt;&lt;span style=&#34;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&#34;&gt; 的站点已被成功升级到WordPress 5.2.2。 您不需要再做什么。 要获取更多关于5.2.2版本的信息，请参阅“关于WordPress”屏幕： &lt;/span&gt;&lt;a href=&#34;https://tunan.org/wp-admin/about.php&#34; target=&#34;_blank&#34; style=&#34;color: rgb(24, 43, 74); background-color: rgb(255, 255, 255);&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;a href=&#34;https://tunan.org/wp-admin/about.php&#34;&gt;https://tunan.org/wp-admin/about.php&lt;/a&gt;&lt;/a&gt;&lt;span style=&#34;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&#34;&gt; 如果您遇到了任何问题或需要帮助，WordPress.org支持论坛的志愿者或许能帮到您。 &lt;/span&gt;&lt;a href=&#34;http://zh-cn.forums.wordpress.org/&#34; target=&#34;_blank&#34; style=&#34;color: rgb(24, 43, 74); background-color: rgb(255, 255, 255);&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;a href=&#34;http://zh-cn.forums.wordpress.org/&#34;&gt;http://zh-cn.forums.wordpress.org/&lt;/a&gt;&lt;/a&gt;&lt;span style=&#34;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&#34;&gt; WordPress小组&lt;/span&gt;&lt;/p&gt;</description>
@@ -1784,9 +1784,9 @@ async function handleRequest(request) {
     </item>
     <item>
       <title>xshell6更新至0125</title>
-      <link>https://iliu.org/1712.html</link>
+      <link>http://localhost:1313/1712.html</link>
       <pubDate>Sat, 15 Jun 2019 07:35:45 +0000</pubDate>
-      <guid>https://iliu.org/1712.html</guid>
+      <guid>http://localhost:1313/1712.html</guid>
       <description>&lt;p&gt;xshell这个货更新额速度真快，隔不了几天就发布一个新版本，这不，跋涉者刚打开邮箱，就看到又有更新了。&lt;/p&gt;
 &lt;p&gt;&lt;strong style=&#34;color: rgb(31, 73, 125);&#34;&gt;Software Release Notes&lt;/strong&gt;&lt;span style=&#34;color: rgb(31, 73, 125);&#34;&gt; &lt;/span&gt; &lt;/p&gt;
 &lt;p&gt;Release Date: June 05, 2019&lt;/p&gt;
@@ -1843,9 +1843,9 @@ async function handleRequest(request) {
     </item>
     <item>
       <title>7b2主题每日签到不刷新的解决办法</title>
-      <link>https://iliu.org/1710.html</link>
+      <link>http://localhost:1313/1710.html</link>
       <pubDate>Wed, 12 Jun 2019 02:04:14 +0000</pubDate>
-      <guid>https://iliu.org/1710.html</guid>
+      <guid>http://localhost:1313/1710.html</guid>
       <description>&lt;p&gt;前一段时间忽然发现跋涉者另外一个网站&lt;a href=&#34;https://www.yanjingweb.cn&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;镜缘轩&lt;/a&gt;上每日签到抽取积分的那个选项不能自动刷新了，每天都是显示同一样的数字，然后看明月登楼的一个网站，也是有这样的问题，咨询主题的作者之后，也没有能排查到问题，最后作者说反正新版就要出来了，不行到时候直接上新版吧。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>前一段时间忽然发现跋涉者另外一个网站<a href="https://www.yanjingweb.cn" target="_blank" rel="noopener noreferrer">镜缘轩</a>上每日签到抽取积分的那个选项不能自动刷新了，每天都是显示同一样的数字，然后看明月登楼的一个网站，也是有这样的问题，咨询主题的作者之后，也没有能排查到问题，最后作者说反正新版就要出来了，不行到时候直接上新版吧。</p>
 <p>后来陆续发现，不但每日签到抽取积分有问题，另外还有<span style="color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);">发布冒泡没有积分，发文章没有积分，别人回复收不到消息 海报不能下载、以及别人购买了文章等也没有通知等问题，这下就问题有点大了，签到那个还无所谓，后面出现的问题有点烦人。但是跋涉者这个网站是没有任何问题的。</span></p>
@@ -1863,9 +1863,9 @@ async function handleRequest(request) {
     </item>
     <item>
       <title>推荐一款国外CDN——Nodecache，注册即送1T流量</title>
-      <link>https://iliu.org/1679.html</link>
+      <link>http://localhost:1313/1679.html</link>
       <pubDate>Mon, 03 Jun 2019 02:09:27 +0000</pubDate>
-      <guid>https://iliu.org/1679.html</guid>
+      <guid>http://localhost:1313/1679.html</guid>
       <description>&lt;p&gt;最新消息，只要邀请一个人，就能永久每月5G的流量，还是不错的&lt;/p&gt;
 &lt;p&gt;国内没有备案的站长最头疼的无非是不能使用国内诸多的cdn加速以及隐藏真实IP地址，能用的也就国外的cloudflare,但是这个cdn服务商有不少ip被封了，没有被封的有时候抽风起来，速度又特别的慢，现在国外又新出了一款Nodecache的cdn，由于是新出的，加速的速度不错，本站目前就是用这个加速的，现在做活动，点击如下地址注册，即送1T的流量，如果非邀请注册，也就是自己注册的话，直送500G的流量。地址如下：&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>最新消息，只要邀请一个人，就能永久每月5G的流量，还是不错的</p>
@@ -1884,9 +1884,9 @@ async function handleRequest(request) {
     </item>
     <item>
       <title>上海云盾CDN简要设置指南</title>
-      <link>https://iliu.org/1653.html</link>
+      <link>http://localhost:1313/1653.html</link>
       <pubDate>Sun, 26 May 2019 02:29:32 +0000</pubDate>
-      <guid>https://iliu.org/1653.html</guid>
+      <guid>http://localhost:1313/1653.html</guid>
       <description>&lt;p&gt;在免费cdn市场上，广大站长所使用的一般是又拍云cdn，360网站加速，上海云盾cdn以及腾讯云cdn，笔者以前也是使用的又拍云cdn,可能是和又拍云犯冲又或者是自己设置的不对，网站总出现这样那样的问题，后来把cdn转移到了上海云顿，网站之前的问题就没有再出现，于是就一直用了下去，当时觉得上海云盾的设置很简单，昨天，青山绿水博客的的博主小朋友问我上海云盾的设置小技巧，说实话真没有啥技巧，就把自己的一些设置弄出来，可能还有更多优化的地方，欢迎指正。&lt;figure class=&#34;content-img-box&#34; id=&#34;1648&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>在免费cdn市场上，广大站长所使用的一般是又拍云cdn，360网站加速，上海云盾cdn以及腾讯云cdn，笔者以前也是使用的又拍云cdn,可能是和又拍云犯冲又或者是自己设置的不对，网站总出现这样那样的问题，后来把cdn转移到了上海云顿，网站之前的问题就没有再出现，于是就一直用了下去，当时觉得上海云盾的设置很简单，昨天，青山绿水博客的的博主小朋友问我上海云盾的设置小技巧，说实话真没有啥技巧，就把自己的一些设置弄出来，可能还有更多优化的地方，欢迎指正。<figure class="content-img-box" id="1648"></p>
 <p><img decoding="async" alt="上海云盾CDN简要设置指南" src="https://tunan.org/wp-content/uploads/2019/05/11cf5e35493e7e.PNG" id="FBD648EF" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
@@ -1907,9 +1907,9 @@ async function handleRequest(request) {
     </item>
     <item>
       <title>7b2主题添加百度是否收录及禁止非管理员访问后台</title>
-      <link>https://iliu.org/1636.html</link>
+      <link>http://localhost:1313/1636.html</link>
       <pubDate>Sat, 25 May 2019 07:00:29 +0000</pubDate>
-      <guid>https://iliu.org/1636.html</guid>
+      <guid>http://localhost:1313/1636.html</guid>
       <description>&lt;p&gt;原来使用的是知更鸟的begin主题，和7b2的主题可以说是侧重点不同，不可否认的是7b2主题 在展示网页的方面和begin有一定的差距，比如begin里的一些小功能，其中百度是否收录就是其中的一项，让让人只管的文章用不要再次提交，不过要实现这个也不是一件很难的事情，之间在functions.php里添加一些代码就可以了。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>原来使用的是知更鸟的begin主题，和7b2的主题可以说是侧重点不同，不可否认的是7b2主题 在展示网页的方面和begin有一定的差距，比如begin里的一些小功能，其中百度是否收录就是其中的一项，让让人只管的文章用不要再次提交，不过要实现这个也不是一件很难的事情，之间在functions.php里添加一些代码就可以了。</p>
 <h2 id="添加百度是否收录的代码管理员可见">添加百度是否收录的代码（管理员可见）</h2>
@@ -1967,9 +1967,9 @@ add_action(<span class="hljs-string">'login_enqueue_scripts'</span>,<span class=
     </item>
     <item>
       <title>新浪SAE文件管理及防盗链的设置</title>
-      <link>https://iliu.org/1334.html</link>
+      <link>http://localhost:1313/1334.html</link>
       <pubDate>Wed, 07 Sep 2011 02:56:02 +0000</pubDate>
-      <guid>https://iliu.org/1334.html</guid>
+      <guid>http://localhost:1313/1334.html</guid>
       <description>&lt;p&gt;我们知道新浪SAE不管是流量也好，储存空间也好，占用CPU的时间也好都是要收费的，也就是要云豆豆的，因此相对其他流量不限制的空间来说，我们的豆豆可是比较珍贵的，如果被盗链，那么损失的是我们的豆豆，或者可能是我们的钞票，因此防盗链是必须的，可喜的是新浪SAE新版已经支持这个技术了。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>我们知道新浪SAE不管是流量也好，储存空间也好，占用CPU的时间也好都是要收费的，也就是要云豆豆的，因此相对其他流量不限制的空间来说，我们的豆豆可是比较珍贵的，如果被盗链，那么损失的是我们的豆豆，或者可能是我们的钞票，因此防盗链是必须的，可喜的是新浪SAE新版已经支持这个技术了。</p>
 <p>首先，登陆到你的SAE账户，然后点击你的应用，然后点服务管理中的<strong>Storage，出现如下的页面：</strong></p>
@@ -1984,9 +1984,9 @@ add_action(<span class="hljs-string">'login_enqueue_scripts'</span>,<span class=
     </item>
     <item>
       <title>配置WP-Mail-SMTP的技巧</title>
-      <link>https://iliu.org/1331.html</link>
+      <link>http://localhost:1313/1331.html</link>
       <pubDate>Tue, 06 Sep 2011 11:08:45 +0000</pubDate>
-      <guid>https://iliu.org/1331.html</guid>
+      <guid>http://localhost:1313/1331.html</guid>
       <description>&lt;p&gt;网站搬到新浪SAE之后，由于不支持mail（）函数，所以只好采用WP-MAIL-SMTP这个插件来发送密码评论等，但是这个插件非常的不容易配置，明明都是按要求来填写的，最后的test的却往往是fals，所以，华彩根据配置N次的经验，把成功配置的步骤理一下！&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>网站搬到新浪SAE之后，由于不支持mail（）函数，所以只好采用WP-MAIL-SMTP这个插件来发送密码评论等，但是这个插件非常的不容易配置，明明都是按要求来填写的，最后的test的却往往是fals，所以，华彩根据配置N次的经验，把成功配置的步骤理一下！</p>
 <p>引用网上的翻译</p>
@@ -2076,9 +2076,9 @@ add_action(<span class="hljs-string">'login_enqueue_scripts'</span>,<span class=
     </item>
     <item>
       <title>只需三步，让你的wordpress在godaddy免费空间上完美呈现</title>
-      <link>https://iliu.org/950.html</link>
+      <link>http://localhost:1313/950.html</link>
       <pubDate>Thu, 28 Oct 2010 06:03:38 +0000</pubDate>
-      <guid>https://iliu.org/950.html</guid>
+      <guid>http://localhost:1313/950.html</guid>
       <description>&lt;p&gt;以前本站有一篇文章，说是解决godaddy免费空间广告条对wordpress后台的影响，当时是采用第三方软件来实现的，但是到底有没有一种方法，能让不借用第三方软件来实现呢，答案是肯定的。而且很简单，只需要三步。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>以前本站有一篇文章，说是解决godaddy免费空间广告条对wordpress后台的影响，当时是采用第三方软件来实现的，但是到底有没有一种方法，能让不借用第三方软件来实现呢，答案是肯定的。而且很简单，只需要三步。</p>
 <p><strong>1.隐藏前台页面广告</strong></p>

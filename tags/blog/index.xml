@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blog on 老刘博客</title>
-    <link>https://iliu.org/tags/blog/</link>
+    <link>http://localhost:1313/tags/blog/</link>
     <description>Recent content in Blog on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.147.8</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 10 Aug 2025 08:34:35 +0800</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ghost 博客与 Mailgun 邮件服务申请全流程</title>
-      <link>https://iliu.org/complete-setup-process-for-ghost-blog-and-mailgun-email-service/</link>
+      <link>http://localhost:1313/complete-setup-process-for-ghost-blog-and-mailgun-email-service/</link>
       <pubDate>Sun, 10 Aug 2025 08:34:35 +0800</pubDate>
-      <guid>https://iliu.org/complete-setup-process-for-ghost-blog-and-mailgun-email-service/</guid>
+      <guid>http://localhost:1313/complete-setup-process-for-ghost-blog-and-mailgun-email-service/</guid>
       <description>&lt;p&gt;Ghost 的邮件系统与 Mailgun 深度集成，如果想要在 Ghost 上实现邮件订阅、密码找回、通知等功能，申请一个 Mailgun 账户几乎是必选项。好消息是——Mailgun 已经恢复免费套餐，每天可发送 100 封邮件，对个人博客来说完全够用，而且现在&lt;strong&gt;验证信用卡不再是必需&lt;/strong&gt;。坏消息是——Mailgun 的风控依然非常严格，尤其是中国大陆用户，注册和解封过程可能会比较“曲折”。下面是我亲身踩坑并最终申请成功的全过程，希望能帮到你。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Ghost 的邮件系统与 Mailgun 深度集成，如果想要在 Ghost 上实现邮件订阅、密码找回、通知等功能，申请一个 Mailgun 账户几乎是必选项。好消息是——Mailgun 已经恢复免费套餐，每天可发送 100 封邮件，对个人博客来说完全够用，而且现在<strong>验证信用卡不再是必需</strong>。坏消息是——Mailgun 的风控依然非常严格，尤其是中国大陆用户，注册和解封过程可能会比较“曲折”。下面是我亲身踩坑并最终申请成功的全过程，希望能帮到你。</p>
 <hr>

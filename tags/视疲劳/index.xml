@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>视疲劳 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E8%A7%86%E7%96%B2%E5%8A%B3/</link>
+    <link>http://localhost:1313/tags/%E8%A7%86%E7%96%B2%E5%8A%B3/</link>
     <description>Recent content in 视疲劳 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.147.8</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 21 Dec 2021 07:13:13 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E8%A7%86%E7%96%B2%E5%8A%B3/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E8%A7%86%E7%96%B2%E5%8A%B3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>远看有多远，闭目养神能不能恢复视疲劳？</title>
-      <link>https://iliu.org/3955.html</link>
+      <link>http://localhost:1313/3955.html</link>
       <pubDate>Tue, 21 Dec 2021 07:13:13 +0000</pubDate>
-      <guid>https://iliu.org/3955.html</guid>
+      <guid>http://localhost:1313/3955.html</guid>
       <description>&lt;p&gt;随着视光知识的普及，很多家长都意识到让孩子看远的重要性，但是多远的距离称之为远呢？这个远是视光学意义上的远，也就是5米开外，就可以称之为远。&lt;/p&gt;
 &lt;p&gt;还有一些家长询问，白天孩子都在学校，晚上回来写作业也要好几个小时，这时候该怎么看远，在黑夜里望远有没有作用？&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>随着视光知识的普及，很多家长都意识到让孩子看远的重要性，但是多远的距离称之为远呢？这个远是视光学意义上的远，也就是5米开外，就可以称之为远。</p>

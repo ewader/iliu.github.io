@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>7b2主题 on 老刘博客</title>
-    <link>https://iliu.org/tags/7b2%E4%B8%BB%E9%A2%98/</link>
+    <link>http://localhost:1313/tags/7b2%E4%B8%BB%E9%A2%98/</link>
     <description>Recent content in 7b2主题 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.147.8</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 12 Jun 2019 02:04:14 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/7b2%E4%B8%BB%E9%A2%98/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/7b2%E4%B8%BB%E9%A2%98/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>7b2主题每日签到不刷新的解决办法</title>
-      <link>https://iliu.org/1710.html</link>
+      <link>http://localhost:1313/1710.html</link>
       <pubDate>Wed, 12 Jun 2019 02:04:14 +0000</pubDate>
-      <guid>https://iliu.org/1710.html</guid>
+      <guid>http://localhost:1313/1710.html</guid>
       <description>&lt;p&gt;前一段时间忽然发现跋涉者另外一个网站&lt;a href=&#34;https://www.yanjingweb.cn&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;镜缘轩&lt;/a&gt;上每日签到抽取积分的那个选项不能自动刷新了，每天都是显示同一样的数字，然后看明月登楼的一个网站，也是有这样的问题，咨询主题的作者之后，也没有能排查到问题，最后作者说反正新版就要出来了，不行到时候直接上新版吧。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>前一段时间忽然发现跋涉者另外一个网站<a href="https://www.yanjingweb.cn" target="_blank" rel="noopener noreferrer">镜缘轩</a>上每日签到抽取积分的那个选项不能自动刷新了，每天都是显示同一样的数字，然后看明月登楼的一个网站，也是有这样的问题，咨询主题的作者之后，也没有能排查到问题，最后作者说反正新版就要出来了，不行到时候直接上新版吧。</p>
 <p>后来陆续发现，不但每日签到抽取积分有问题，另外还有<span style="color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);">发布冒泡没有积分，发文章没有积分，别人回复收不到消息 海报不能下载、以及别人购买了文章等也没有通知等问题，这下就问题有点大了，签到那个还无所谓，后面出现的问题有点烦人。但是跋涉者这个网站是没有任何问题的。</span></p>
@@ -35,9 +35,9 @@
     </item>
     <item>
       <title>7b2主题添加百度是否收录及禁止非管理员访问后台</title>
-      <link>https://iliu.org/1636.html</link>
+      <link>http://localhost:1313/1636.html</link>
       <pubDate>Sat, 25 May 2019 07:00:29 +0000</pubDate>
-      <guid>https://iliu.org/1636.html</guid>
+      <guid>http://localhost:1313/1636.html</guid>
       <description>&lt;p&gt;原来使用的是知更鸟的begin主题，和7b2的主题可以说是侧重点不同，不可否认的是7b2主题 在展示网页的方面和begin有一定的差距，比如begin里的一些小功能，其中百度是否收录就是其中的一项，让让人只管的文章用不要再次提交，不过要实现这个也不是一件很难的事情，之间在functions.php里添加一些代码就可以了。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>原来使用的是知更鸟的begin主题，和7b2的主题可以说是侧重点不同，不可否认的是7b2主题 在展示网页的方面和begin有一定的差距，比如begin里的一些小功能，其中百度是否收录就是其中的一项，让让人只管的文章用不要再次提交，不过要实现这个也不是一件很难的事情，之间在functions.php里添加一些代码就可以了。</p>
 <h2 id="添加百度是否收录的代码管理员可见">添加百度是否收录的代码（管理员可见）</h2>

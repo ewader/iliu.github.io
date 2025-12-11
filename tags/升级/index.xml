@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>升级 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E5%8D%87%E7%BA%A7/</link>
+    <link>http://localhost:1313/tags/%E5%8D%87%E7%BA%A7/</link>
     <description>Recent content in 升级 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.147.8</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 16 Nov 2022 01:40:50 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E5%8D%87%E7%BA%A7/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E5%8D%87%E7%BA%A7/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>manjaro的gnome版本升级到43.1了</title>
-      <link>https://iliu.org/4295.html</link>
+      <link>http://localhost:1313/4295.html</link>
       <pubDate>Wed, 16 Nov 2022 01:40:50 +0000</pubDate>
-      <guid>https://iliu.org/4295.html</guid>
+      <guid>http://localhost:1313/4295.html</guid>
       <description>&lt;p&gt;都说使用manjaro最频繁使用的就是命令是&lt;/p&gt;
 &lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;sudo pacman -Syyu&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;这不，照例这么运行了一下，提示有更新，好家伙下载了1g多，不过更新替换后，系统反而小了1m。当时也没有注意更新了啥，直到我点击了这里，发现快速设置菜单变了。&lt;br&gt;
@@ -41,9 +41,9 @@
     </item>
     <item>
       <title>更新群晖至DSM7.0</title>
-      <link>https://iliu.org/3887.html</link>
+      <link>http://localhost:1313/3887.html</link>
       <pubDate>Mon, 06 Sep 2021 10:25:46 +0000</pubDate>
-      <guid>https://iliu.org/3887.html</guid>
+      <guid>http://localhost:1313/3887.html</guid>
       <description>&lt;p&gt;今天上午来到店内，不知道是怎么回事，产生了一些惰性，看到群里小胡同学发的白嫖亚马逊12本的电子书，就去搞了一下，看了会书，也不想更新商城的产品了，后来就想不行把群晖的系统升级一下吧。&lt;br&gt;
 &lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; src=&#34;https://tunan.org/wp-content/uploads/2021/09/jooj_vip_20210906182618316202.png&#34; alt=&#34;&#34; width=&#34;1377&#34; height=&#34;805&#34; class=&#34;alignnone size-full wp-image-3889&#34; srcset=&#34;https://tunan.org/wp-content/uploads/2021/09/jooj_vip_20210906182618316202.png 1377w, https://tunan.org/wp-content/uploads/2021/09/jooj_vip_20210906182618316202-768x449.png 768w&#34; sizes=&#34;(max-width: 1377px) 100vw, 1377px&#34; /&gt;&lt;br&gt;
 群晖6.0的的系统不能自动升级到7.0，需要进行手动升级。于是到群晖官网下载相应型号的固件，在群晖的管理面板里手动升级即可。升级也很顺利。升级后有点小坑。&lt;/p&gt;</description>
@@ -60,9 +60,9 @@
     </item>
     <item>
       <title>重新弄了下博客环境</title>
-      <link>https://iliu.org/3746.html</link>
+      <link>http://localhost:1313/3746.html</link>
       <pubDate>Thu, 20 May 2021 09:30:37 +0000</pubDate>
-      <guid>https://iliu.org/3746.html</guid>
+      <guid>http://localhost:1313/3746.html</guid>
       <description>&lt;p&gt;最近一段时间发现博客回复的时候一直显示提交中，不会跳转到评论成功的页面，以前也遇到过这种问题，基本上重启vps解决，但是这次貌似重启了也作用不大。&lt;figure class=&#34;wp-block-image size-large&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>最近一段时间发现博客回复的时候一直显示提交中，不会跳转到评论成功的页面，以前也遇到过这种问题，基本上重启vps解决，但是这次貌似重启了也作用不大。<figure class="wp-block-image size-large"></p>
 <p><a href="https://tunan.org/wp-content/uploads/2021/05/709ac9ab754c1c0.jpg"><img loading="lazy" decoding="async" width="800" height="320" src="https://tunan.org/wp-content/uploads/2021/05/709ac9ab754c1c0.jpg" alt="" class="wp-image-3747" srcset="https://tunan.org/wp-content/uploads/2021/05/709ac9ab754c1c0.jpg 800w, https://tunan.org/wp-content/uploads/2021/05/709ac9ab754c1c0-300x120.jpg 300w, https://tunan.org/wp-content/uploads/2021/05/709ac9ab754c1c0-768x307.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" /></a></figure></p>
@@ -74,9 +74,9 @@
     </item>
     <item>
       <title>wordpress自动升级到5.2.2</title>
-      <link>https://iliu.org/1787.html</link>
+      <link>http://localhost:1313/1787.html</link>
       <pubDate>Wed, 19 Jun 2019 02:15:39 +0000</pubDate>
-      <guid>https://iliu.org/1787.html</guid>
+      <guid>http://localhost:1313/1787.html</guid>
       <description>&lt;p&gt;今天打开邮箱，发现系统发的邮件。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;span style=&#34;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&#34;&gt;嗨！您位于 &lt;/span&gt;&lt;a href=&#34;https://tunan.org/&#34; target=&#34;_blank&#34; style=&#34;color: rgb(24, 43, 74); background-color: rgb(255, 255, 255);&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;a href=&#34;https://tunan.org&#34;&gt;https://tunan.org&lt;/a&gt;&lt;/a&gt;&lt;span style=&#34;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&#34;&gt; 的站点已被成功升级到WordPress 5.2.2。 您不需要再做什么。 要获取更多关于5.2.2版本的信息，请参阅“关于WordPress”屏幕： &lt;/span&gt;&lt;a href=&#34;https://tunan.org/wp-admin/about.php&#34; target=&#34;_blank&#34; style=&#34;color: rgb(24, 43, 74); background-color: rgb(255, 255, 255);&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;a href=&#34;https://tunan.org/wp-admin/about.php&#34;&gt;https://tunan.org/wp-admin/about.php&lt;/a&gt;&lt;/a&gt;&lt;span style=&#34;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&#34;&gt; 如果您遇到了任何问题或需要帮助，WordPress.org支持论坛的志愿者或许能帮到您。 &lt;/span&gt;&lt;a href=&#34;http://zh-cn.forums.wordpress.org/&#34; target=&#34;_blank&#34; style=&#34;color: rgb(24, 43, 74); background-color: rgb(255, 255, 255);&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;a href=&#34;http://zh-cn.forums.wordpress.org/&#34;&gt;http://zh-cn.forums.wordpress.org/&lt;/a&gt;&lt;/a&gt;&lt;span style=&#34;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&#34;&gt; WordPress小组&lt;/span&gt;&lt;/p&gt;</description>

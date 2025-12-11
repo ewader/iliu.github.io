@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>360杀毒 on 老刘博客</title>
-    <link>https://iliu.org/tags/360%E6%9D%80%E6%AF%92/</link>
+    <link>http://localhost:1313/tags/360%E6%9D%80%E6%AF%92/</link>
     <description>Recent content in 360杀毒 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.147.8</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 11 Jan 2010 12:35:00 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/360%E6%9D%80%E6%AF%92/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/360%E6%9D%80%E6%AF%92/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>介绍本人所用的软件——安全软件篇</title>
-      <link>https://iliu.org/428.html</link>
+      <link>http://localhost:1313/428.html</link>
       <pubDate>Mon, 11 Jan 2010 12:35:00 +0000</pubDate>
-      <guid>https://iliu.org/428.html</guid>
+      <guid>http://localhost:1313/428.html</guid>
       <description>&lt;p&gt;接触安全软件是在1999年chi病毒爆发的时候，那时候刚好宿舍的电脑被感染，从一个光盘里安装上了熊猫的杀毒软件，能升级，通过扫描查找出来了大量的病毒，这是和病毒以及杀毒软件的第一次亲密接触，那时候就感觉杀毒软件好神奇啊，特别是对熊猫这个来自西班牙的杀软充满了好感，一直到现在对这个软件的印象都不错。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>接触安全软件是在1999年chi病毒爆发的时候，那时候刚好宿舍的电脑被感染，从一个光盘里安装上了熊猫的杀毒软件，能升级，通过扫描查找出来了大量的病毒，这是和病毒以及杀毒软件的第一次亲密接触，那时候就感觉杀毒软件好神奇啊，特别是对熊猫这个来自西班牙的杀软充满了好感，一直到现在对这个软件的印象都不错。</p>
 <p>再次使用杀毒软件是在2003年的时候，那时候公司的电脑中了一种欢乐时光病毒，当时用瑞星扫描出来的，感觉很兴奋，那时候对瑞星很是崇拜，特别是对它头上的光环，什么公安部认证，什么全球首次截获什么什么病毒等等，那时候已经知道防火墙的重要性，公司的电脑装的就是瑞星加天网，看到天网跳动的窗口，好庆幸自己的电脑没有被攻击到。</p>
@@ -32,9 +32,9 @@
     </item>
     <item>
       <title>360杀毒一个BUg存在依旧</title>
-      <link>https://iliu.org/76.html</link>
+      <link>http://localhost:1313/76.html</link>
       <pubDate>Tue, 27 Oct 2009 12:54:36 +0000</pubDate>
-      <guid>https://iliu.org/76.html</guid>
+      <guid>http://localhost:1313/76.html</guid>
       <description>&lt;p&gt;         360正式版推出以来，因其免费的在战略及不错的病毒查杀能力以及很小的的资源占用，迅速的征服了我，凭良心说话，确实是一款不错的杀毒软件，但是可能是360的工作人员太懒了，对于可能冲突的软件在数据库上估计是按名单算的，所以comodo is被认做冲突软件，这无可厚非的，但是comodo is是可以选择只装防火墙和D+的，就算不这样安装，360杀毒也依然认为你装的是全套。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>         360正式版推出以来，因其免费的在战略及不错的病毒查杀能力以及很小的的资源占用，迅速的征服了我，凭良心说话，确实是一款不错的杀毒软件，但是可能是360的工作人员太懒了，对于可能冲突的软件在数据库上估计是按名单算的，所以comodo is被认做冲突软件，这无可厚非的，但是comodo is是可以选择只装防火墙和D+的，就算不这样安装，360杀毒也依然认为你装的是全套。</p>
 <p>    推出这么多版本，从1062-1067了，版本更新的倒很快，可惜一个是不能自动更新版本一个是comodo的认识还是不智能，据说即将就会自动更新版本，而不智能的识别COMODO本人也只能强制开启360的实时防护了。</p>
@@ -42,9 +42,9 @@
     </item>
     <item>
       <title>给大家再推荐一个杀毒软件——mcafee8.7i</title>
-      <link>https://iliu.org/71.html</link>
+      <link>http://localhost:1313/71.html</link>
       <pubDate>Mon, 26 Oct 2009 13:04:31 +0000</pubDate>
-      <guid>https://iliu.org/71.html</guid>
+      <guid>http://localhost:1313/71.html</guid>
       <description>&lt;p&gt;        记得上次给大家推荐过360杀毒正式版1.0，不知道大家有没有用？是不是感觉到不管是资源占用也好，还是查杀率也好都是挺不错的，本次华彩在给大家推荐一款杀毒软件，可以说与360相比，有过之而无不及。因为360毕竟是半路出家，不过是引擎还有病毒库都不是自己的东西，而我要给大家推荐的这个软件就是大名鼎鼎的MCAFEE杀毒软件。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>        记得上次给大家推荐过360杀毒正式版1.0，不知道大家有没有用？是不是感觉到不管是资源占用也好，还是查杀率也好都是挺不错的，本次华彩在给大家推荐一款杀毒软件，可以说与360相比，有过之而无不及。因为360毕竟是半路出家，不过是引擎还有病毒库都不是自己的东西，而我要给大家推荐的这个软件就是大名鼎鼎的MCAFEE杀毒软件。</p>
 <p><span style="color: #2e8b57;">全球最畅销的杀毒软件之一，McAfee防毒软件, 除了操作介面更新外,也将该公司的WebScanX功能合在一起,增加了许多新功能! 除了帮你侦测和清除病毒，它还有VShield自动监视系统，会常驻在System Tray，当你从磁盘、网络上、E-mail夹文件中开启文件时便会自动侦测文件的安全性，若文件内含病毒，便会立即警告，并作适当的处理，而且支持鼠标右键的快速选单功能，并可使用密码将个人的设定锁住让别人无法乱改你的设定。<br /> <span style="font-size: large;"><span style="color: #ff0000;"><strong>McAfee企业版</strong></span></span><br /> <span style="color: #000000;"><span style="font-size: 12pt;"><span style="font-family: 宋体;"><strong>直接官方下载</strong></span></span><span style="font-size: 12pt;"><span style="font-family: 宋体;"><strong>地址:</strong></span></span></span><br /> <strong><span style="font-family: 宋体;"><span style="font-size: x-small;"><span style="color: #000000;">中文：</span></span></span></strong><br /> <a href="https://secure.nai.com/apps/downloads/my_products/login.asp?region=cn&segment=enterprise" target="_blank" rel="noopener noreferrer"><strong><span style="font-size: x-small;"><a href="https://secure.nai.com/apps/downloads/my_products/login.asp?region=cn&amp;segment=enterprise">https://secure.nai.com/apps/downloads/my_products/login.asp?region=cn&amp;segment=enterprise</a></span></strong></a><br /> <span style="font-size: x-small;"><span style="color: #000000;"><span style="font-size: 12pt;"><strong>english:</strong></span></span></span><br /> <span style="color: #006400;"><span style="font-size: 12pt;"><a href="https://secure.nai.com/apps/downloads/my_products/login.asp?sid=8V5UK1" target="_blank" rel="noopener noreferrer"><span style="font-size: medium;"><span style="color: #000080;"><span style="font-family: Arial;"><span style="font-size: x-small;"><strong><a href="https://secure.nai.com/apps/downloads/my_products/login.asp">https://secure.nai.com/apps/downloads/my_products/login.asp</a></strong></span></span></span></span></a><span style="font-size: medium;"><br /> </span></span></span><br /> <strong><span style="color: #006400;"><span style="font-size: medium;"><span style="color: #000000;"><span style="font-family: 宋体;"><span style="font-size: 12pt;">进去后在</span></span><span style="font-family: Arial;"><span style="font-size: 12pt;">Grant Number</span></span><span style="font-family: 宋体;"><span style="font-size: 12pt;">那里</span></span><span style="font-family: 宋体;"><span style="font-size: 12pt;">输入相应的grant number</span></span></span></span></span></strong><strong><br /> grant number可以在百度或者GOOGLE上搜到，这样下载的版本绝对是官方原装的产品，可以免费的终身使用，因为grant number都是一些大的企业买了产品以后泄露出来的，所以可以放心的使用<strong><br /> </strong><strong><br /> </strong></strong></span></p>]]></content:encoded>

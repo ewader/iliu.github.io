@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>乘客 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E4%B9%98%E5%AE%A2/</link>
+    <link>http://localhost:1313/tags/%E4%B9%98%E5%AE%A2/</link>
     <description>Recent content in 乘客 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.147.8</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 15 Oct 2021 09:03:12 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E4%B9%98%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E4%B9%98%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>跑顺风车遇到的那些事（一）</title>
-      <link>https://iliu.org/3921.html</link>
+      <link>http://localhost:1313/3921.html</link>
       <pubDate>Fri, 15 Oct 2021 09:03:12 +0000</pubDate>
-      <guid>https://iliu.org/3921.html</guid>
+      <guid>http://localhost:1313/3921.html</guid>
       <description>&lt;p&gt;2021年10月15日，小雨，寒潮蓝色预警，明天最低气温4摄氏度左右。&lt;/p&gt;
 &lt;p&gt;今天去新郑龙湖办点事，刚开始还觉得挺幸运的。&lt;/p&gt;
 &lt;p&gt;走的时候家附近刚好有两位要去龙湖，离我只有几百米。接上他们之后，很顺利的到达了目的地。两位都是郑州某高校的老师，素质还是挺高的。办完事之后，又看了下刚好有个3点半要回郑州的单子，尽管我要是接这个单子还需要等待将近2小时，想来回去也没事，决定接了。&lt;/p&gt;</description>

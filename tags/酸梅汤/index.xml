@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>酸梅汤 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E9%85%B8%E6%A2%85%E6%B1%A4/</link>
+    <link>http://localhost:1313/tags/%E9%85%B8%E6%A2%85%E6%B1%A4/</link>
     <description>Recent content in 酸梅汤 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.147.8</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 24 Jun 2022 07:59:26 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E9%85%B8%E6%A2%85%E6%B1%A4/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E9%85%B8%E6%A2%85%E6%B1%A4/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>自制酸梅汤</title>
-      <link>https://iliu.org/4151.html</link>
+      <link>http://localhost:1313/4151.html</link>
       <pubDate>Fri, 24 Jun 2022 07:59:26 +0000</pubDate>
-      <guid>https://iliu.org/4151.html</guid>
+      <guid>http://localhost:1313/4151.html</guid>
       <description>&lt;p&gt;前几天晚上，和女儿老婆一起在滨河公园里散步。路边有卖酸梅汤的，5元一杯，女儿要喝，遂买了一杯，喝后，勾兑感很浓，大概率是是用酸梅粉勾兑出来的，就有了自己熬制酸梅汤的打算。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>前几天晚上，和女儿老婆一起在滨河公园里散步。路边有卖酸梅汤的，5元一杯，女儿要喝，遂买了一杯，喝后，勾兑感很浓，大概率是是用酸梅粉勾兑出来的，就有了自己熬制酸梅汤的打算。</p>
 <p>酸梅汤在中国已经有了上千年的历史了，在商周时期， 就有了用梅子做饮料的记载，可谓是最早的酸梅汤了。红楼梦里也有贾宝玉挨打后，要喝酸梅汤的故事。</p>

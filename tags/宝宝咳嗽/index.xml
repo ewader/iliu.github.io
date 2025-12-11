@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>宝宝咳嗽 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E5%AE%9D%E5%AE%9D%E5%92%B3%E5%97%BD/</link>
+    <link>http://localhost:1313/tags/%E5%AE%9D%E5%AE%9D%E5%92%B3%E5%97%BD/</link>
     <description>Recent content in 宝宝咳嗽 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.147.8</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 26 Oct 2010 12:26:27 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E5%AE%9D%E5%AE%9D%E5%92%B3%E5%97%BD/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E5%AE%9D%E5%AE%9D%E5%92%B3%E5%97%BD/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>几个宝宝润肺止咳小偏方</title>
-      <link>https://iliu.org/939.html</link>
+      <link>http://localhost:1313/939.html</link>
       <pubDate>Tue, 26 Oct 2010 12:26:27 +0000</pubDate>
-      <guid>https://iliu.org/939.html</guid>
+      <guid>http://localhost:1313/939.html</guid>
       <description>&lt;p&gt;冬天到了，宝宝一不小心就会感冒。下面就给大家介绍几个润肺止咳小偏方，能不吃药还是尽量不要吃药的好。！&lt;/p&gt;
 &lt;p&gt;1、川贝炖雪梨&lt;/p&gt;
 &lt;hr&gt;

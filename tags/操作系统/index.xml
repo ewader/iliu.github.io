@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>操作系统 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</link>
+    <link>http://localhost:1313/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</link>
     <description>Recent content in 操作系统 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.147.8</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 29 Aug 2024 07:56:45 +0800</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>解决Windows11打开安全中心空白的方法</title>
-      <link>https://iliu.org/posts/solution-to-the-blank-screen-windows-11s-security-center/</link>
+      <link>http://localhost:1313/posts/solution-to-the-blank-screen-windows-11s-security-center/</link>
       <pubDate>Thu, 29 Aug 2024 07:56:45 +0800</pubDate>
-      <guid>https://iliu.org/posts/solution-to-the-blank-screen-windows-11s-security-center/</guid>
+      <guid>http://localhost:1313/posts/solution-to-the-blank-screen-windows-11s-security-center/</guid>
       <description>&lt;p&gt;老刘在前面一篇文章中说，某年某月的某一天，老刘重置了电脑，不但丢失了存在本地的博客数据，而且发现安全中心打开是一个空白的窗口。老刘使用了重启大法的手段，但是发现并没有什么卵用。文心一言里给出了很多的建议，满满的一大页，照着做了下，问题还是没有解决。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>老刘在前面一篇文章中说，某年某月的某一天，老刘重置了电脑，不但丢失了存在本地的博客数据，而且发现安全中心打开是一个空白的窗口。老刘使用了重启大法的手段，但是发现并没有什么卵用。文心一言里给出了很多的建议，满满的一大页，照着做了下，问题还是没有解决。</p>
 <p>不得以，老刘还是去搜索引擎上找方法吧，有一些方法大同小异，只到看到了一篇文章，说把一段代码保存成reg的格式，双击导入注册表即可。老刘试用了一下，完美解决了问题。</p>

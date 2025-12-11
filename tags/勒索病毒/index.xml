@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>勒索病毒 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E5%8B%92%E7%B4%A2%E7%97%85%E6%AF%92/</link>
+    <link>http://localhost:1313/tags/%E5%8B%92%E7%B4%A2%E7%97%85%E6%AF%92/</link>
     <description>Recent content in 勒索病毒 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.147.8</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 13 May 2019 03:45:41 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E5%8B%92%E7%B4%A2%E7%97%85%E6%AF%92/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E5%8B%92%E7%B4%A2%E7%97%85%E6%AF%92/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>勒索病毒解决方案索引</title>
-      <link>https://iliu.org/25.html</link>
+      <link>http://localhost:1313/25.html</link>
       <pubDate>Mon, 13 May 2019 03:45:41 +0000</pubDate>
-      <guid>https://iliu.org/25.html</guid>
+      <guid>http://localhost:1313/25.html</guid>
       <description>&lt;p&gt;最近在卡饭论坛看到他们出了一个勒索病毒解决方案的帖子汇总，加上身边有朋友也确实中了勒索病毒，所以，本文把这个贴子转载以下，如果有需要的朋友可以直接参考。所载得工具全都是官方得工具，可以放心得使用。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>最近在卡饭论坛看到他们出了一个勒索病毒解决方案的帖子汇总，加上身边有朋友也确实中了勒索病毒，所以，本文把这个贴子转载以下，如果有需要的朋友可以直接参考。所载得工具全都是官方得工具，可以放心得使用。</p>
 <img loading="lazy" decoding="async" class="alignnone size-full wp-image-29" src="https://tunan.org/wp-content/uploads/2019/05/lesuobingdu190513-1.jpg" alt="" width="600" height="410" srcset="https://tunan.org/wp-content/uploads/2019/05/lesuobingdu190513-1.jpg 600w, https://tunan.org/wp-content/uploads/2019/05/lesuobingdu190513-1-300x205.jpg 300w" sizes="(max-width: 600px) 100vw, 600px" /> 
