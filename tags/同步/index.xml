@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>同步 on 老刘博客</title>
-    <link>http://localhost:1313/tags/%E5%90%8C%E6%AD%A5/</link>
+    <link>https://iliu.org/tags/%E5%90%8C%E6%AD%A5/</link>
     <description>Recent content in 同步 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
-      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.147.8</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 26 Nov 2020 09:10:34 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E5%90%8C%E6%AD%A5/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://iliu.org/tags/%E5%90%8C%E6%AD%A5/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>keepass配合群晖及keepasshttp实现密码快速登陆</title>
-      <link>http://localhost:1313/3413.html</link>
+      <link>https://iliu.org/3413.html</link>
       <pubDate>Thu, 26 Nov 2020 09:10:34 +0000</pubDate>
-      <guid>http://localhost:1313/3413.html</guid>
+      <guid>https://iliu.org/3413.html</guid>
       <description>&lt;p&gt;前两天看老张老师到处寻找管理密码的软件，老刘由于一直在使用Norton的密码管理，所以没有在意，后来发现Norton的服务器链接较慢，使用起来还是有点不方便，恰好又看到老张在吐槽 某个软件（主要是老刘忘记名字了）使用的问题，于是老刘就想群晖上有没有一款密码管理的软件或者套件（自从老刘入白群晖后，找软件都先考虑这个），你还别说，真的搜出来了这样一个软件，不过不是安装在群晖上，而是把数据放在群晖上，其他的客户端都从群晖来读取数据，这个软件叫Keepass。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>前两天看老张老师到处寻找管理密码的软件，老刘由于一直在使用Norton的密码管理，所以没有在意，后来发现Norton的服务器链接较慢，使用起来还是有点不方便，恰好又看到老张在吐槽 某个软件（主要是老刘忘记名字了）使用的问题，于是老刘就想群晖上有没有一款密码管理的软件或者套件（自从老刘入白群晖后，找软件都先考虑这个），你还别说，真的搜出来了这样一个软件，不过不是安装在群晖上，而是把数据放在群晖上，其他的客户端都从群晖来读取数据，这个软件叫Keepass。</p>
 <h2 id="为什么选择keepass">为什么选择Keepass？</h2>

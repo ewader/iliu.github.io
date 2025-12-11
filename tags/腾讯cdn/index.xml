@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>腾讯cdn on 老刘博客</title>
-    <link>http://localhost:1313/tags/%E8%85%BE%E8%AE%AFcdn/</link>
+    <link>https://iliu.org/tags/%E8%85%BE%E8%AE%AFcdn/</link>
     <description>Recent content in 腾讯cdn on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
-      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.147.8</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 24 Jul 2020 09:35:42 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E8%85%BE%E8%AE%AFcdn/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://iliu.org/tags/%E8%85%BE%E8%AE%AFcdn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>腾讯的CDN还是可以的</title>
-      <link>http://localhost:1313/3217.html</link>
+      <link>https://iliu.org/3217.html</link>
       <pubDate>Fri, 24 Jul 2020 09:35:42 +0000</pubDate>
-      <guid>http://localhost:1313/3217.html</guid>
+      <guid>https://iliu.org/3217.html</guid>
       <description>&lt;p&gt;2018年的时候，申请了腾讯的COS，CDN等，因为那时候cos有免费50g的额度，CDN每月10g的免费流量，COS倒是一直用着，cdn因为当时是景安的服务器，用上腾讯的cdn后，奇卡无比。找客服，发工单说是正常的。没有办法，只好放弃。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>2018年的时候，申请了腾讯的COS，CDN等，因为那时候cos有免费50g的额度，CDN每月10g的免费流量，COS倒是一直用着，cdn因为当时是景安的服务器，用上腾讯的cdn后，奇卡无比。找客服，发工单说是正常的。没有办法，只好放弃。</p>
 <p><a href="https://tunan.org/wp-content/uploads/2020/07/2a7bc86928e6c37.png"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3218" src="https://tunan.org/wp-content/uploads/2020/07/2a7bc86928e6c37.png" alt="" width="607" height="149" srcset="https://tunan.org/wp-content/uploads/2020/07/2a7bc86928e6c37.png 607w, https://tunan.org/wp-content/uploads/2020/07/2a7bc86928e6c37-300x74.png 300w" sizes="(max-width: 607px) 100vw, 607px" /></a></p>

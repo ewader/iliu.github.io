@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>域名 on 老刘博客</title>
-    <link>http://localhost:1313/tags/%E5%9F%9F%E5%90%8D/</link>
+    <link>https://iliu.org/tags/%E5%9F%9F%E5%90%8D/</link>
     <description>Recent content in 域名 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
-      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.147.8</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 21 May 2023 09:18:15 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E5%9F%9F%E5%90%8D/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://iliu.org/tags/%E5%9F%9F%E5%90%8D/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>朋友们，博客改名加换域名了！</title>
-      <link>http://localhost:1313/4399.html</link>
+      <link>https://iliu.org/4399.html</link>
       <pubDate>Sun, 21 May 2023 09:18:15 +0000</pubDate>
-      <guid>http://localhost:1313/4399.html</guid>
+      <guid>https://iliu.org/4399.html</guid>
       <description>&lt;p&gt;流金岁月换域名，换博客名了 最近读《庄子》，对&lt;strong&gt;绝云气、负青天、然后图南&lt;/strong&gt;的大鹏很是羡慕，遂改博客名为图南博客，域名为https://tunan.org&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>流金岁月换域名，换博客名了 最近读《庄子》，对<strong>绝云气、负青天、然后图南</strong>的大鹏很是羡慕，遂改博客名为图南博客，域名为https://tunan.org</p>
 <p>有订阅老刘的同志们，麻烦改改链接哈</p>
@@ -25,9 +25,9 @@
     </item>
     <item>
       <title>百度打不开了</title>
-      <link>http://localhost:1313/3918.html</link>
+      <link>https://iliu.org/3918.html</link>
       <pubDate>Sun, 10 Oct 2021 09:14:53 +0000</pubDate>
-      <guid>http://localhost:1313/3918.html</guid>
+      <guid>https://iliu.org/3918.html</guid>
       <description>&lt;p&gt;正在忙，忽然收到女儿打来的电话，是家里的老佛爷用电脑，百度打不开。&lt;/p&gt;
 &lt;p&gt;我第一个反应，是不是没有连上网，问了之后说，微信登录正常。&lt;/p&gt;
 &lt;p&gt;特意视频看了一下，网络是好着的。&lt;/p&gt;</description>

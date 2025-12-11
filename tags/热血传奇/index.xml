@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>热血传奇 on 老刘博客</title>
-    <link>http://localhost:1313/tags/%E7%83%AD%E8%A1%80%E4%BC%A0%E5%A5%87/</link>
+    <link>https://iliu.org/tags/%E7%83%AD%E8%A1%80%E4%BC%A0%E5%A5%87/</link>
     <description>Recent content in 热血传奇 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
-      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.147.8</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 07 Mar 2023 08:22:04 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E7%83%AD%E8%A1%80%E4%BC%A0%E5%A5%87/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://iliu.org/tags/%E7%83%AD%E8%A1%80%E4%BC%A0%E5%A5%87/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>传奇私服一个怀旧的地方加除草</title>
-      <link>http://localhost:1313/4334.html</link>
+      <link>https://iliu.org/4334.html</link>
       <pubDate>Tue, 07 Mar 2023 08:22:04 +0000</pubDate>
-      <guid>http://localhost:1313/4334.html</guid>
+      <guid>https://iliu.org/4334.html</guid>
       <description>&lt;p&gt;很久没有更新博客了，这博客是越不更新就越懒，时间久了就更不想动了。&lt;/p&gt;
 &lt;p&gt;最近找到一个好玩的东西，不是网络上炒的火热的那个API，是老张搞的一个传奇私服。是兄弟，砍一刀，就是这个玩意。生于2001年，不过我那个时候玩的都是暗黑和星际争霸，传奇倒是真的没有怎么玩过。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>很久没有更新博客了，这博客是越不更新就越懒，时间久了就更不想动了。</p>

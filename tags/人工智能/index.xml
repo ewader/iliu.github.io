@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>人工智能 on 老刘博客</title>
-    <link>http://localhost:1313/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</link>
+    <link>https://iliu.org/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</link>
     <description>Recent content in 人工智能 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
-      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.147.8</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 11 Jun 2019 01:19:52 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://iliu.org/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>大数据悖论及人工智能等</title>
-      <link>http://localhost:1313/1705.html</link>
+      <link>https://iliu.org/1705.html</link>
       <pubDate>Tue, 11 Jun 2019 01:19:52 +0000</pubDate>
-      <guid>http://localhost:1313/1705.html</guid>
+      <guid>https://iliu.org/1705.html</guid>
       <description>&lt;p&gt;前几天在kindle搜索《未来简史》，包月的书库里这本书没有，但是却有一本《新未来简史》，是讲区块链、大数据以及人工智能等方面的的书，作者是王骥。翻看了一下，虽然全书通篇有一种把种种理论生生堆在一起之嫌，但是作者也提出了几个新颖的观点。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>前几天在kindle搜索《未来简史》，包月的书库里这本书没有，但是却有一本《新未来简史》，是讲区块链、大数据以及人工智能等方面的的书，作者是王骥。翻看了一下，虽然全书通篇有一种把种种理论生生堆在一起之嫌，但是作者也提出了几个新颖的观点。</p>
 <h2 id="第一大数据悖论">第一，大数据悖论</h2>

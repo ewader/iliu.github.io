@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Vps on 老刘博客</title>
-    <link>http://localhost:1313/vps/</link>
+    <link>https://iliu.org/vps/</link>
     <description>Recent content in Vps on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
-      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.147.8</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 29 Aug 2024 08:33:23 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/vps/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://iliu.org/vps/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>老刘用的VPS</title>
-      <link>http://localhost:1313/vps/cloudcone/</link>
+      <link>https://iliu.org/vps/cloudcone/</link>
       <pubDate>Thu, 29 Aug 2024 08:33:23 +0800</pubDate>
-      <guid>http://localhost:1313/vps/cloudcone/</guid>
+      <guid>https://iliu.org/vps/cloudcone/</guid>
       <description>&lt;p&gt;cloudcone是我使用的第一款国外 VPS 服务商（大家都习惯的称为“CC”），在此之前使用的要么是虚拟主机，然后就是使用了香港的VPS。&lt;strong&gt;老刘目前在用的是6 vCPU, 4GB RAM，60GB Disk的一款，年付37.9刀&lt;/strong&gt;。&lt;a href=&#34;https://app.cloudcone.com.cn/?ref=8581&#34; title=&#34;CloudCone&#34;&gt;CloudCone&lt;/a&gt; 是我接触的为数不多的性价比较高的服务商，在这个页面汇总一些优惠信息，供读者参考。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>cloudcone是我使用的第一款国外 VPS 服务商（大家都习惯的称为“CC”），在此之前使用的要么是虚拟主机，然后就是使用了香港的VPS。<strong>老刘目前在用的是6 vCPU, 4GB RAM，60GB Disk的一款，年付37.9刀</strong>。<a href="https://app.cloudcone.com.cn/?ref=8581" title="CloudCone">CloudCone</a> 是我接触的为数不多的性价比较高的服务商，在这个页面汇总一些优惠信息，供读者参考。</p>
 <h3 id="cloudcone-介绍简称cc">CloudCone 介绍（简称：CC）</h3>

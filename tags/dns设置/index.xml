@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>DNS设置 on 老刘博客</title>
-    <link>http://localhost:1313/tags/dns%E8%AE%BE%E7%BD%AE/</link>
+    <link>https://iliu.org/tags/dns%E8%AE%BE%E7%BD%AE/</link>
     <description>Recent content in DNS设置 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
-      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.147.8</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 12 Jul 2019 09:29:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/dns%E8%AE%BE%E7%BD%AE/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://iliu.org/tags/dns%E8%AE%BE%E7%BD%AE/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>centos7.6更改dns的方法</title>
-      <link>http://localhost:1313/2260.html</link>
+      <link>https://iliu.org/2260.html</link>
       <pubDate>Fri, 12 Jul 2019 09:29:00 +0000</pubDate>
-      <guid>http://localhost:1313/2260.html</guid>
+      <guid>https://iliu.org/2260.html</guid>
       <description>&lt;p&gt;今天在重新安装服务器的生产环境的时候发现无法申请&lt;span style=&#34;background-color: rgb(255, 255, 255);&#34;&gt;Let’s Encrypt的证书，根据我的经验，一般把服务器上的dns设置成Google的8.8.8.8就可以顺利的进行申请，可能是国内的dns解析&lt;/span&gt;&lt;span style=&#34;background-color: rgb(255, 255, 255); color: rgb(51, 51, 51);&#34;&gt;Let’s Encrypt域名不通畅所导致。所以，第一时间，笔者就想到把服务器的dns设置成Google的。搜索引擎查了一下，很多都是千篇一律的。根据他们的经验，总结了一下，以备以后使用。&lt;/span&gt;&lt;figure class=&#34;content-img-box&#34; id=&#34;2259&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>今天在重新安装服务器的生产环境的时候发现无法申请<span style="background-color: rgb(255, 255, 255);">Let’s Encrypt的证书，根据我的经验，一般把服务器上的dns设置成Google的8.8.8.8就可以顺利的进行申请，可能是国内的dns解析</span><span style="background-color: rgb(255, 255, 255); color: rgb(51, 51, 51);">Let’s Encrypt域名不通畅所导致。所以，第一时间，笔者就想到把服务器的dns设置成Google的。搜索引擎查了一下，很多都是千篇一律的。根据他们的经验，总结了一下，以备以后使用。</span><figure class="content-img-box" id="2259"></p>
 <p><img decoding="async" alt="centos7.6更改dns的方法" src="https://tunan.org/wp-content/uploads/2019/07/15cddce5c2528e.png" id="3D4EBBEF" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
