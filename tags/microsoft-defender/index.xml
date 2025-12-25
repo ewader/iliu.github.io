@@ -9,7 +9,7 @@
       <url>https://iliu.org/img/liujinsuiyue.jpg</url>
       <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.147.8</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 10 Oct 2020 07:53:31 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/microsoft-defender/index.xml" rel="self" type="application/rss+xml" />
@@ -31,7 +31,8 @@
 </div>
 <blockquote>
 <blockquote>
-<p>Version 3.0.0.0</p></blockquote>
+<p>Version 3.0.0.0</p>
+</blockquote>
 <ol>
 <li>Corrected a bug related to the error when “Defender Security” Log is empty.</li>
 <li>Removed events Id=1117 and Id=5007 from Defender Security Log.</li>
@@ -39,7 +40,8 @@
 <li>Extended the “Cloud Time Check Limit” in HIGH Protection Level from 10s to 20s.</li>
 <li>Added DLL hijacking protection – 64-bit and 32-bit installers are wrapped into one installer by NSISS.</li>
 <li>Corrected some minor bugs.</li>
-</ol></blockquote>
+</ol>
+</blockquote>
 <h2 class="quote" id="下载地址">下载地址：</h2>
 <div>
   https://github.com/AndyFul/ConfigureDefender

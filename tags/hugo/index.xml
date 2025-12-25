@@ -9,7 +9,7 @@
       <url>https://iliu.org/img/liujinsuiyue.jpg</url>
       <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.147.8</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 21 Oct 2025 11:10:32 +0800</lastBuildDate>
     <atom:link href="https://iliu.org/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
@@ -1148,7 +1148,8 @@ Worker 代码示例如下 👇：</p>
 </div>
 </div><blockquote>
 <p>这会在 content/friends/_index.md 生成文件。
-打开该文件，修改为：</p></blockquote>
+打开该文件，修改为：</p>
+</blockquote>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1

@@ -9,7 +9,7 @@
       <url>https://iliu.org/img/liujinsuiyue.jpg</url>
       <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.147.8</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 30 Dec 2020 07:35:59 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
@@ -140,7 +140,8 @@ add_action(<span class="hljs-string">'comment_post'</span>, <span class="hljs-st
 &lt;p&gt;&lt;span style=&#34;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&#34;&gt;嗨！您位于 &lt;/span&gt;&lt;a href=&#34;https://tunan.org/&#34; target=&#34;_blank&#34; style=&#34;color: rgb(24, 43, 74); background-color: rgb(255, 255, 255);&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;a href=&#34;https://tunan.org&#34;&gt;https://tunan.org&lt;/a&gt;&lt;/a&gt;&lt;span style=&#34;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&#34;&gt; 的站点已被成功升级到WordPress 5.2.2。 您不需要再做什么。 要获取更多关于5.2.2版本的信息，请参阅“关于WordPress”屏幕： &lt;/span&gt;&lt;a href=&#34;https://tunan.org/wp-admin/about.php&#34; target=&#34;_blank&#34; style=&#34;color: rgb(24, 43, 74); background-color: rgb(255, 255, 255);&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;a href=&#34;https://tunan.org/wp-admin/about.php&#34;&gt;https://tunan.org/wp-admin/about.php&lt;/a&gt;&lt;/a&gt;&lt;span style=&#34;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&#34;&gt; 如果您遇到了任何问题或需要帮助，WordPress.org支持论坛的志愿者或许能帮到您。 &lt;/span&gt;&lt;a href=&#34;http://zh-cn.forums.wordpress.org/&#34; target=&#34;_blank&#34; style=&#34;color: rgb(24, 43, 74); background-color: rgb(255, 255, 255);&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;a href=&#34;http://zh-cn.forums.wordpress.org/&#34;&gt;http://zh-cn.forums.wordpress.org/&lt;/a&gt;&lt;/a&gt;&lt;span style=&#34;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&#34;&gt; WordPress小组&lt;/span&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>今天打开邮箱，发现系统发的邮件。</p>
 <blockquote>
-<p><span style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">嗨！您位于 </span><a href="https://tunan.org/" target="_blank" style="color: rgb(24, 43, 74); background-color: rgb(255, 255, 255);" rel="noopener noreferrer"><a href="https://tunan.org">https://tunan.org</a></a><span style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);"> 的站点已被成功升级到WordPress 5.2.2。 您不需要再做什么。 要获取更多关于5.2.2版本的信息，请参阅“关于WordPress”屏幕： </span><a href="https://tunan.org/wp-admin/about.php" target="_blank" style="color: rgb(24, 43, 74); background-color: rgb(255, 255, 255);" rel="noopener noreferrer"><a href="https://tunan.org/wp-admin/about.php">https://tunan.org/wp-admin/about.php</a></a><span style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);"> 如果您遇到了任何问题或需要帮助，WordPress.org支持论坛的志愿者或许能帮到您。 </span><a href="http://zh-cn.forums.wordpress.org/" target="_blank" style="color: rgb(24, 43, 74); background-color: rgb(255, 255, 255);" rel="noopener noreferrer"><a href="http://zh-cn.forums.wordpress.org/">http://zh-cn.forums.wordpress.org/</a></a><span style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);"> WordPress小组</span></p></blockquote>
+<p><span style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">嗨！您位于 </span><a href="https://tunan.org/" target="_blank" style="color: rgb(24, 43, 74); background-color: rgb(255, 255, 255);" rel="noopener noreferrer"><a href="https://tunan.org">https://tunan.org</a></a><span style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);"> 的站点已被成功升级到WordPress 5.2.2。 您不需要再做什么。 要获取更多关于5.2.2版本的信息，请参阅“关于WordPress”屏幕： </span><a href="https://tunan.org/wp-admin/about.php" target="_blank" style="color: rgb(24, 43, 74); background-color: rgb(255, 255, 255);" rel="noopener noreferrer"><a href="https://tunan.org/wp-admin/about.php">https://tunan.org/wp-admin/about.php</a></a><span style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);"> 如果您遇到了任何问题或需要帮助，WordPress.org支持论坛的志愿者或许能帮到您。 </span><a href="http://zh-cn.forums.wordpress.org/" target="_blank" style="color: rgb(24, 43, 74); background-color: rgb(255, 255, 255);" rel="noopener noreferrer"><a href="http://zh-cn.forums.wordpress.org/">http://zh-cn.forums.wordpress.org/</a></a><span style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);"> WordPress小组</span></p>
+</blockquote>
 <h2 id="维护和安全更新">维护和安全更新</h2>
 <p>5.2.2版本修复了13个问题。 欲了解更多，参见发行注记。</p>
 <p>确保网站安全＃45094：仪表板元素并不总是具有清晰的焦点状态，Tab键顺序</p>
@@ -236,7 +237,8 @@ add_action(<span class="hljs-string">'login_enqueue_scripts'</span>,<span class=
 <p><strong>1.隐藏前台页面广告</strong></p>
 <p>打开主题文件中的“style.css”文件，在文件最后加上如下这段代码：</p>
 <blockquote>
-<p>#conash3D0 {height:0px; top:-1px;}</p></blockquote>
+<p>#conash3D0 {height:0px; top:-1px;}</p>
+</blockquote>
 <p>原理：使用css样式把广告上移，移到显示页面以外，谁都看不到了，实际上并没有去掉广告代码，只是“隐藏”而已**，K号的可能性比较小，但是有一定的危险，到底用不用再你。**<figure class="content-img-box" id="2306"></p>
 <p><img decoding="async" alt="只需三步，让你的wordpress在godaddy免费空间上完美呈现" src="https://tunan.org/wp-content/uploads/2019/07/1c5077b9935ed2.png" id="DC3A0631" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
 <p><strong>2.恢复后台页面样式</strong></p>
@@ -260,7 +262,8 @@ add_action(<span class="hljs-string">'login_enqueue_scripts'</span>,<span class=
 </blockquote>
 <p>的前面加上如下代码：</p>
 <blockquote>
-</div> <div id=&#8221;\_mcePaste&#8221;>function hideGoDaddy(){</div> <div id=&#8221;\_mcePaste&#8221;>if( ! ( null === document.getElementById( “conash3D0″ ) ) ) {</div> <div id=&#8221;\_mcePaste&#8221;>gDaddy = document.getElementById( “conash3D0″ );</div> <div id=&#8221;\_mcePaste&#8221;>if( ‘none’ === gDaddy.style.display ) {}</div> <div id=&#8221;\_mcePaste&#8221;>else { gDaddy.style.display = ‘none’; }</div> <div id=&#8221;\_mcePaste&#8221;>}</div> <div id=&#8221;\_mcePaste&#8221;>}</div> <div id=&#8221;\_mcePaste&#8221;>setInterval(“hideGoDaddy()”, 1500);</div> <div id=&#8221;_mcePaste&#8221;></blockquote>
+</div> <div id=&#8221;\_mcePaste&#8221;>function hideGoDaddy(){</div> <div id=&#8221;\_mcePaste&#8221;>if( ! ( null === document.getElementById( “conash3D0″ ) ) ) {</div> <div id=&#8221;\_mcePaste&#8221;>gDaddy = document.getElementById( “conash3D0″ );</div> <div id=&#8221;\_mcePaste&#8221;>if( ‘none’ === gDaddy.style.display ) {}</div> <div id=&#8221;\_mcePaste&#8221;>else { gDaddy.style.display = ‘none’; }</div> <div id=&#8221;\_mcePaste&#8221;>}</div> <div id=&#8221;\_mcePaste&#8221;>}</div> <div id=&#8221;\_mcePaste&#8221;>setInterval(“hideGoDaddy()”, 1500);</div> <div id=&#8221;_mcePaste&#8221;>
+</blockquote>
 <p>至此，修改完毕，一切都很完美！后台可以用 用户名：test 密码：test来测试。 关于采用第三方软件的方法，见 <a href="http://www.lghcx.info/2010/01/388.html" target="_blank" rel="noopener noreferrer">完美解决godaddy免费空间广告条对wordpress后台的影响 | 华彩生活</a></p>
 ]]></content:encoded>
     </item>

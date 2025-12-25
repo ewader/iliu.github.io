@@ -9,7 +9,7 @@
       <url>https://iliu.org/img/liujinsuiyue.jpg</url>
       <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.147.8</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 28 Oct 2010 06:03:38 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/godaddy%E5%85%8D%E8%B4%B9%E7%A9%BA%E9%97%B4/index.xml" rel="self" type="application/rss+xml" />
@@ -23,7 +23,8 @@
 <p><strong>1.隐藏前台页面广告</strong></p>
 <p>打开主题文件中的“style.css”文件，在文件最后加上如下这段代码：</p>
 <blockquote>
-<p>#conash3D0 {height:0px; top:-1px;}</p></blockquote>
+<p>#conash3D0 {height:0px; top:-1px;}</p>
+</blockquote>
 <p>原理：使用css样式把广告上移，移到显示页面以外，谁都看不到了，实际上并没有去掉广告代码，只是“隐藏”而已**，K号的可能性比较小，但是有一定的危险，到底用不用再你。**<figure class="content-img-box" id="2306"></p>
 <p><img decoding="async" alt="只需三步，让你的wordpress在godaddy免费空间上完美呈现" src="https://tunan.org/wp-content/uploads/2019/07/1c5077b9935ed2.png" id="DC3A0631" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
 <p><strong>2.恢复后台页面样式</strong></p>
@@ -47,7 +48,8 @@
 </blockquote>
 <p>的前面加上如下代码：</p>
 <blockquote>
-</div> <div id=&#8221;\_mcePaste&#8221;>function hideGoDaddy(){</div> <div id=&#8221;\_mcePaste&#8221;>if( ! ( null === document.getElementById( “conash3D0″ ) ) ) {</div> <div id=&#8221;\_mcePaste&#8221;>gDaddy = document.getElementById( “conash3D0″ );</div> <div id=&#8221;\_mcePaste&#8221;>if( ‘none’ === gDaddy.style.display ) {}</div> <div id=&#8221;\_mcePaste&#8221;>else { gDaddy.style.display = ‘none’; }</div> <div id=&#8221;\_mcePaste&#8221;>}</div> <div id=&#8221;\_mcePaste&#8221;>}</div> <div id=&#8221;\_mcePaste&#8221;>setInterval(“hideGoDaddy()”, 1500);</div> <div id=&#8221;_mcePaste&#8221;></blockquote>
+</div> <div id=&#8221;\_mcePaste&#8221;>function hideGoDaddy(){</div> <div id=&#8221;\_mcePaste&#8221;>if( ! ( null === document.getElementById( “conash3D0″ ) ) ) {</div> <div id=&#8221;\_mcePaste&#8221;>gDaddy = document.getElementById( “conash3D0″ );</div> <div id=&#8221;\_mcePaste&#8221;>if( ‘none’ === gDaddy.style.display ) {}</div> <div id=&#8221;\_mcePaste&#8221;>else { gDaddy.style.display = ‘none’; }</div> <div id=&#8221;\_mcePaste&#8221;>}</div> <div id=&#8221;\_mcePaste&#8221;>}</div> <div id=&#8221;\_mcePaste&#8221;>setInterval(“hideGoDaddy()”, 1500);</div> <div id=&#8221;_mcePaste&#8221;>
+</blockquote>
 <p>至此，修改完毕，一切都很完美！后台可以用 用户名：test 密码：test来测试。 关于采用第三方软件的方法，见 <a href="http://www.lghcx.info/2010/01/388.html" target="_blank" rel="noopener noreferrer">完美解决godaddy免费空间广告条对wordpress后台的影响 | 华彩生活</a></p>
 ]]></content:encoded>
     </item>

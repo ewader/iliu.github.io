@@ -9,7 +9,7 @@
       <url>https://iliu.org/img/liujinsuiyue.jpg</url>
       <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.147.8</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 06 Apr 2023 09:42:54 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/categories/%E7%BD%91%E7%AB%99%E7%9B%B8%E5%85%B3/index.xml" rel="self" type="application/rss+xml" />
@@ -1756,7 +1756,8 @@ async function handleRequest(request) {
 &lt;p&gt;&lt;span style=&#34;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&#34;&gt;嗨！您位于 &lt;/span&gt;&lt;a href=&#34;https://tunan.org/&#34; target=&#34;_blank&#34; style=&#34;color: rgb(24, 43, 74); background-color: rgb(255, 255, 255);&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;a href=&#34;https://tunan.org&#34;&gt;https://tunan.org&lt;/a&gt;&lt;/a&gt;&lt;span style=&#34;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&#34;&gt; 的站点已被成功升级到WordPress 5.2.2。 您不需要再做什么。 要获取更多关于5.2.2版本的信息，请参阅“关于WordPress”屏幕： &lt;/span&gt;&lt;a href=&#34;https://tunan.org/wp-admin/about.php&#34; target=&#34;_blank&#34; style=&#34;color: rgb(24, 43, 74); background-color: rgb(255, 255, 255);&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;a href=&#34;https://tunan.org/wp-admin/about.php&#34;&gt;https://tunan.org/wp-admin/about.php&lt;/a&gt;&lt;/a&gt;&lt;span style=&#34;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&#34;&gt; 如果您遇到了任何问题或需要帮助，WordPress.org支持论坛的志愿者或许能帮到您。 &lt;/span&gt;&lt;a href=&#34;http://zh-cn.forums.wordpress.org/&#34; target=&#34;_blank&#34; style=&#34;color: rgb(24, 43, 74); background-color: rgb(255, 255, 255);&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;a href=&#34;http://zh-cn.forums.wordpress.org/&#34;&gt;http://zh-cn.forums.wordpress.org/&lt;/a&gt;&lt;/a&gt;&lt;span style=&#34;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&#34;&gt; WordPress小组&lt;/span&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>今天打开邮箱，发现系统发的邮件。</p>
 <blockquote>
-<p><span style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">嗨！您位于 </span><a href="https://tunan.org/" target="_blank" style="color: rgb(24, 43, 74); background-color: rgb(255, 255, 255);" rel="noopener noreferrer"><a href="https://tunan.org">https://tunan.org</a></a><span style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);"> 的站点已被成功升级到WordPress 5.2.2。 您不需要再做什么。 要获取更多关于5.2.2版本的信息，请参阅“关于WordPress”屏幕： </span><a href="https://tunan.org/wp-admin/about.php" target="_blank" style="color: rgb(24, 43, 74); background-color: rgb(255, 255, 255);" rel="noopener noreferrer"><a href="https://tunan.org/wp-admin/about.php">https://tunan.org/wp-admin/about.php</a></a><span style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);"> 如果您遇到了任何问题或需要帮助，WordPress.org支持论坛的志愿者或许能帮到您。 </span><a href="http://zh-cn.forums.wordpress.org/" target="_blank" style="color: rgb(24, 43, 74); background-color: rgb(255, 255, 255);" rel="noopener noreferrer"><a href="http://zh-cn.forums.wordpress.org/">http://zh-cn.forums.wordpress.org/</a></a><span style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);"> WordPress小组</span></p></blockquote>
+<p><span style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">嗨！您位于 </span><a href="https://tunan.org/" target="_blank" style="color: rgb(24, 43, 74); background-color: rgb(255, 255, 255);" rel="noopener noreferrer"><a href="https://tunan.org">https://tunan.org</a></a><span style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);"> 的站点已被成功升级到WordPress 5.2.2。 您不需要再做什么。 要获取更多关于5.2.2版本的信息，请参阅“关于WordPress”屏幕： </span><a href="https://tunan.org/wp-admin/about.php" target="_blank" style="color: rgb(24, 43, 74); background-color: rgb(255, 255, 255);" rel="noopener noreferrer"><a href="https://tunan.org/wp-admin/about.php">https://tunan.org/wp-admin/about.php</a></a><span style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);"> 如果您遇到了任何问题或需要帮助，WordPress.org支持论坛的志愿者或许能帮到您。 </span><a href="http://zh-cn.forums.wordpress.org/" target="_blank" style="color: rgb(24, 43, 74); background-color: rgb(255, 255, 255);" rel="noopener noreferrer"><a href="http://zh-cn.forums.wordpress.org/">http://zh-cn.forums.wordpress.org/</a></a><span style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);"> WordPress小组</span></p>
+</blockquote>
 <h2 id="维护和安全更新">维护和安全更新</h2>
 <p>5.2.2版本修复了13个问题。 欲了解更多，参见发行注记。</p>
 <p>确保网站安全＃45094：仪表板元素并不总是具有清晰的焦点状态，Tab键顺序</p>
@@ -1851,7 +1852,8 @@ async function handleRequest(request) {
 <p>后来陆续发现，不但每日签到抽取积分有问题，另外还有<span style="color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);">发布冒泡没有积分，发文章没有积分，别人回复收不到消息 海报不能下载、以及别人购买了文章等也没有通知等问题，这下就问题有点大了，签到那个还无所谓，后面出现的问题有点烦人。但是跋涉者这个网站是没有任何问题的。</span></p>
 <p><span style="color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);">当时想是不是因为空间配置、缓存等等的原因造成的，于是把网站弄到一个空间，还是一个有问题，一个没问题。适逢一个群里的朋友让测试评论邮件回复的问题，因为这个主题也没有评论邮件回复，于是咨询了一下，不想还引出诸多大佬们说我设置的问题，他们使用就很正常云云。其实这个问题根本不是跋涉者的问题，因为我询问过主题的作者，作者答复</span></p>
 <blockquote>
-<p><strong style="color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);">不需要这个功能，如果用这个的话，用不了几天你的邮箱就被拉黑了</strong></p></blockquote>
+<p><strong style="color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);">不需要这个功能，如果用这个的话，用不了几天你的邮箱就被拉黑了</strong></p>
+</blockquote>
 <p>其实说我设置有问题的大佬们根本就没有测试，于是就想当然的认为默认评论是发邮件的，这个问题说实话跋涉者之前也没注意，是张波博客的博主发现我给他的回复没有收到邮件。这些都是题外话，貌似这段跑题了。</p>
 <p>话转回到真正遇到的问题，跋涉者开始排除到底是怎么造成的，刚用这个主题的时候，一切功能都是正常的，后来比较了两个网站所用的插件发现，镜缘轩这个网站比跋涉者的网站多加了一个自动推送文章到百度百家号的插件，由于其他都是一样的，跋涉者就决定先把这个插件禁用看看是什么效果。</p>
 <p>禁用后发了一个冒泡，然后财富了看了下，积分加上了，又用另一个小号发了一篇文章，积分有了，试着回复一下文章，通知出来了，今天早上，签到随机抽取积分的选项也出来了。</p>
@@ -1991,86 +1993,126 @@ add_action(<span class="hljs-string">'login_enqueue_scripts'</span>,<span class=
       <content:encoded><![CDATA[<p>网站搬到新浪SAE之后，由于不支持mail（）函数，所以只好采用WP-MAIL-SMTP这个插件来发送密码评论等，但是这个插件非常的不容易配置，明明都是按要求来填写的，最后的test的却往往是fals，所以，华彩根据配置N次的经验，把成功配置的步骤理一下！</p>
 <p>引用网上的翻译</p>
 <blockquote>
-<p>From Email:</p></blockquote>
+<p>From Email:</p>
+</blockquote>
 <blockquote>
-<p>发送者的邮件地址,也就是对方收到邮件后看到的发件人地址。</p></blockquote>
+<p>发送者的邮件地址,也就是对方收到邮件后看到的发件人地址。</p>
+</blockquote>
 <blockquote>
-<p>From Name:</p></blockquote>
+<p>From Name:</p>
+</blockquote>
 <blockquote>
-<p>发件人姓名。</p></blockquote>
+<p>发件人姓名。</p>
+</blockquote>
 <blockquote>
-<p>Mailer:</p></blockquote>
+<p>Mailer:</p>
+</blockquote>
 <blockquote>
-<p>Send all WordPress emails via SMTP.</p></blockquote>
+<p>Send all WordPress emails via SMTP.</p>
+</blockquote>
 <blockquote>
-<p>Use the PHP mail() function to send emails.</p></blockquote>
+<p>Use the PHP mail() function to send emails.</p>
+</blockquote>
 <blockquote>
-<p>这里要注意一下,有的朋友的空间不支持mail()函数,通常是Windows环境的主机。如果不支持此函数,那么就选择上面的那个选项。</p></blockquote>
+<p>这里要注意一下,有的朋友的空间不支持mail()函数,通常是Windows环境的主机。如果不支持此函数,那么就选择上面的那个选项。</p>
+</blockquote>
 <blockquote>
-<p>SMTP Options</p></blockquote>
+<p>SMTP Options</p>
+</blockquote>
 <blockquote>
-<p>SMTP服务器设置,也就是邮件发送服务器设置,如果设置错误就不会给留言的人发送邮件,当然,也不会把备份的数据文件发送到你的邮箱中。</p></blockquote>
+<p>SMTP服务器设置,也就是邮件发送服务器设置,如果设置错误就不会给留言的人发送邮件,当然,也不会把备份的数据文件发送到你的邮箱中。</p>
+</blockquote>
 <blockquote>
-<p>SMTP Host:</p></blockquote>
+<p>SMTP Host:</p>
+</blockquote>
 <blockquote>
-<p>QQ邮箱的是:SMTP.QQ.COM 谷歌的SMTP.GMAIL.COM 126邮箱是：SMTP.126.COM （大小写无所谓）sina的smtp.sina.cn或smtp.sina.com</p></blockquote>
+<p>QQ邮箱的是:SMTP.QQ.COM 谷歌的SMTP.GMAIL.COM 126邮箱是：SMTP.126.COM （大小写无所谓）sina的smtp.sina.cn或smtp.sina.com</p>
+</blockquote>
 <blockquote>
-<p>SMTP Port:</p></blockquote>
+<p>SMTP Port:</p>
+</blockquote>
 <blockquote>
-<p>QQ邮箱的是:25</p></blockquote>
+<p>QQ邮箱的是:25</p>
+</blockquote>
 <blockquote>
-<p>谷歌的是587，126是25。sina的是25，QQ帮助里说端口号是465或587，试了没成功，不知道原因。</p></blockquote>
+<p>谷歌的是587，126是25。sina的是25，QQ帮助里说端口号是465或587，试了没成功，不知道原因。</p>
+</blockquote>
 <blockquote>
-<p>Encryption:</p></blockquote>
+<p>Encryption:</p>
+</blockquote>
 <blockquote>
-<p>是否启用加密连接</p></blockquote>
+<p>是否启用加密连接</p>
+</blockquote>
 <blockquote>
-<p>No encryption.</p></blockquote>
+<p>No encryption.</p>
+</blockquote>
 <blockquote>
-<p>无加密</p></blockquote>
+<p>无加密</p>
+</blockquote>
 <blockquote>
-<p>Use SSL encryption.</p></blockquote>
+<p>Use SSL encryption.</p>
+</blockquote>
 <blockquote>
-<p>采用SSL方式</p></blockquote>
+<p>采用SSL方式</p>
+</blockquote>
 <blockquote>
-<p>Use TLS encryption. This is not the same as STARTTLS. For most servers SSL is the recommended option.</p></blockquote>
+<p>Use TLS encryption. This is not the same as STARTTLS. For most servers SSL is the recommended option.</p>
+</blockquote>
 <blockquote>
-<p>使用TLS方式.</p></blockquote>
+<p>使用TLS方式.</p>
+</blockquote>
 <blockquote>
-<p>polaris提醒您，此处是关键。一会儿详细讨论这点。</p></blockquote>
+<p>polaris提醒您，此处是关键。一会儿详细讨论这点。</p>
+</blockquote>
 <blockquote>
-<p>Authentication:</p></blockquote>
+<p>Authentication:</p>
+</blockquote>
 <blockquote>
-<p>用户验证</p></blockquote>
+<p>用户验证</p>
+</blockquote>
 <blockquote>
-<p>No: Do not use SMTP authentication.</p></blockquote>
+<p>No: Do not use SMTP authentication.</p>
+</blockquote>
 <blockquote>
-<p>Yes: Use SMTP authentication.</p></blockquote>
+<p>Yes: Use SMTP authentication.</p>
+</blockquote>
 <blockquote>
-<p>如果你这里用的是免费邮箱,那么都是选择yes,如果不验证的话恐怕垃圾邮件就满天飞了吧.</p></blockquote>
+<p>如果你这里用的是免费邮箱,那么都是选择yes,如果不验证的话恐怕垃圾邮件就满天飞了吧.</p>
+</blockquote>
 <blockquote>
-<p>下面的这两项，就是你的用户名和密码。</p></blockquote>
+<p>下面的这两项，就是你的用户名和密码。</p>
+</blockquote>
 <blockquote>
-<p>Username: 注意:这个用户名是全名，如我的：lghcx@sina.cn</p></blockquote>
+<p>Username: 注意:这个用户名是全名，如我的：lghcx@sina.cn</p>
+</blockquote>
 <blockquote>
-<p>Password: *<strong>*</strong>*</p></blockquote>
+<p>Password: *<strong>*</strong>*</p>
+</blockquote>
 <blockquote>
-<p>update option</p></blockquote>
+<p>update option</p>
+</blockquote>
 <blockquote>
-<p>全部填写后点此更新设置。</p></blockquote>
+<p>全部填写后点此更新设置。</p>
+</blockquote>
 <blockquote>
-<p>Send a Test Email</p></blockquote>
+<p>Send a Test Email</p>
+</blockquote>
 <blockquote>
-<p>发送一个测试邮件</p></blockquote>
+<p>发送一个测试邮件</p>
+</blockquote>
 <blockquote>
-<p>To: (这里填写邮件地址)</p></blockquote>
+<p>To: (这里填写邮件地址)</p>
+</blockquote>
 <p>现在点test，如果</p>
 <blockquote>
-<p>Test Message Sent</p></blockquote>
+<p>Test Message Sent</p>
+</blockquote>
 <blockquote>
-<p>The result was:</p></blockquote>
+<p>The result was:</p>
+</blockquote>
 <blockquote>
-<p>bool(true)</p></blockquote>
+<p>bool(true)</p>
+</blockquote>
 <p>说明配置对了，否则就是错的咯，如果出错的话，按网上的教程设置一般都不行，可以在用户验证那里选中第二项，一般都可以成功，如果还不行的话，可以选择 Use SSL encryption.</p>
 ]]></content:encoded>
     </item>
@@ -2084,7 +2126,8 @@ add_action(<span class="hljs-string">'login_enqueue_scripts'</span>,<span class=
 <p><strong>1.隐藏前台页面广告</strong></p>
 <p>打开主题文件中的“style.css”文件，在文件最后加上如下这段代码：</p>
 <blockquote>
-<p>#conash3D0 {height:0px; top:-1px;}</p></blockquote>
+<p>#conash3D0 {height:0px; top:-1px;}</p>
+</blockquote>
 <p>原理：使用css样式把广告上移，移到显示页面以外，谁都看不到了，实际上并没有去掉广告代码，只是“隐藏”而已**，K号的可能性比较小，但是有一定的危险，到底用不用再你。**<figure class="content-img-box" id="2306"></p>
 <p><img decoding="async" alt="只需三步，让你的wordpress在godaddy免费空间上完美呈现" src="https://tunan.org/wp-content/uploads/2019/07/1c5077b9935ed2.png" id="DC3A0631" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
 <p><strong>2.恢复后台页面样式</strong></p>
@@ -2108,7 +2151,8 @@ add_action(<span class="hljs-string">'login_enqueue_scripts'</span>,<span class=
 </blockquote>
 <p>的前面加上如下代码：</p>
 <blockquote>
-</div> <div id=&#8221;\_mcePaste&#8221;>function hideGoDaddy(){</div> <div id=&#8221;\_mcePaste&#8221;>if( ! ( null === document.getElementById( “conash3D0″ ) ) ) {</div> <div id=&#8221;\_mcePaste&#8221;>gDaddy = document.getElementById( “conash3D0″ );</div> <div id=&#8221;\_mcePaste&#8221;>if( ‘none’ === gDaddy.style.display ) {}</div> <div id=&#8221;\_mcePaste&#8221;>else { gDaddy.style.display = ‘none’; }</div> <div id=&#8221;\_mcePaste&#8221;>}</div> <div id=&#8221;\_mcePaste&#8221;>}</div> <div id=&#8221;\_mcePaste&#8221;>setInterval(“hideGoDaddy()”, 1500);</div> <div id=&#8221;_mcePaste&#8221;></blockquote>
+</div> <div id=&#8221;\_mcePaste&#8221;>function hideGoDaddy(){</div> <div id=&#8221;\_mcePaste&#8221;>if( ! ( null === document.getElementById( “conash3D0″ ) ) ) {</div> <div id=&#8221;\_mcePaste&#8221;>gDaddy = document.getElementById( “conash3D0″ );</div> <div id=&#8221;\_mcePaste&#8221;>if( ‘none’ === gDaddy.style.display ) {}</div> <div id=&#8221;\_mcePaste&#8221;>else { gDaddy.style.display = ‘none’; }</div> <div id=&#8221;\_mcePaste&#8221;>}</div> <div id=&#8221;\_mcePaste&#8221;>}</div> <div id=&#8221;\_mcePaste&#8221;>setInterval(“hideGoDaddy()”, 1500);</div> <div id=&#8221;_mcePaste&#8221;>
+</blockquote>
 <p>至此，修改完毕，一切都很完美！后台可以用 用户名：test 密码：test来测试。 关于采用第三方软件的方法，见 <a href="http://www.lghcx.info/2010/01/388.html" target="_blank" rel="noopener noreferrer">完美解决godaddy免费空间广告条对wordpress后台的影响 | 华彩生活</a></p>
 ]]></content:encoded>
     </item>

@@ -9,7 +9,7 @@
       <url>https://iliu.org/img/liujinsuiyue.jpg</url>
       <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.147.8</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 12 Jun 2019 02:04:14 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/%E9%95%9C%E7%BC%98%E8%BD%A9/index.xml" rel="self" type="application/rss+xml" />
@@ -23,7 +23,8 @@
 <p>后来陆续发现，不但每日签到抽取积分有问题，另外还有<span style="color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);">发布冒泡没有积分，发文章没有积分，别人回复收不到消息 海报不能下载、以及别人购买了文章等也没有通知等问题，这下就问题有点大了，签到那个还无所谓，后面出现的问题有点烦人。但是跋涉者这个网站是没有任何问题的。</span></p>
 <p><span style="color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);">当时想是不是因为空间配置、缓存等等的原因造成的，于是把网站弄到一个空间，还是一个有问题，一个没问题。适逢一个群里的朋友让测试评论邮件回复的问题，因为这个主题也没有评论邮件回复，于是咨询了一下，不想还引出诸多大佬们说我设置的问题，他们使用就很正常云云。其实这个问题根本不是跋涉者的问题，因为我询问过主题的作者，作者答复</span></p>
 <blockquote>
-<p><strong style="color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);">不需要这个功能，如果用这个的话，用不了几天你的邮箱就被拉黑了</strong></p></blockquote>
+<p><strong style="color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);">不需要这个功能，如果用这个的话，用不了几天你的邮箱就被拉黑了</strong></p>
+</blockquote>
 <p>其实说我设置有问题的大佬们根本就没有测试，于是就想当然的认为默认评论是发邮件的，这个问题说实话跋涉者之前也没注意，是张波博客的博主发现我给他的回复没有收到邮件。这些都是题外话，貌似这段跑题了。</p>
 <p>话转回到真正遇到的问题，跋涉者开始排除到底是怎么造成的，刚用这个主题的时候，一切功能都是正常的，后来比较了两个网站所用的插件发现，镜缘轩这个网站比跋涉者的网站多加了一个自动推送文章到百度百家号的插件，由于其他都是一样的，跋涉者就决定先把这个插件禁用看看是什么效果。</p>
 <p>禁用后发了一个冒泡，然后财富了看了下，积分加上了，又用另一个小号发了一篇文章，积分有了，试着回复一下文章，通知出来了，今天早上，签到随机抽取积分的选项也出来了。</p>
