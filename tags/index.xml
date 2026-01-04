@@ -11,20 +11,34 @@
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 30 Dec 2025 11:31:56 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 04 Jan 2026 18:01:08 +0800</lastBuildDate>
     <atom:link href="https://iliu.org/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Giscus</title>
-      <link>https://iliu.org/tags/giscus/</link>
-      <pubDate>Tue, 30 Dec 2025 11:31:56 +0800</pubDate>
-      <guid>https://iliu.org/tags/giscus/</guid>
+      <title>Edgeone</title>
+      <link>https://iliu.org/tags/edgeone/</link>
+      <pubDate>Sun, 04 Jan 2026 18:01:08 +0800</pubDate>
+      <guid>https://iliu.org/tags/edgeone/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>https://iliu.org/tags/hugo/</link>
+      <pubDate>Sun, 04 Jan 2026 18:01:08 +0800</pubDate>
+      <guid>https://iliu.org/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>博客</title>
       <link>https://iliu.org/tags/%E5%8D%9A%E5%AE%A2/</link>
-      <pubDate>Tue, 30 Dec 2025 11:31:56 +0800</pubDate>
+      <pubDate>Sun, 04 Jan 2026 18:01:08 +0800</pubDate>
       <guid>https://iliu.org/tags/%E5%8D%9A%E5%AE%A2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Giscus</title>
+      <link>https://iliu.org/tags/giscus/</link>
+      <pubDate>Tue, 30 Dec 2025 11:31:56 +0800</pubDate>
+      <guid>https://iliu.org/tags/giscus/</guid>
       <description></description>
     </item>
     <item>
@@ -200,13 +214,6 @@
       <link>https://iliu.org/tags/%E8%AF%BB%E4%B9%A6/</link>
       <pubDate>Tue, 28 Oct 2025 14:36:08 +0800</pubDate>
       <guid>https://iliu.org/tags/%E8%AF%BB%E4%B9%A6/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hugo</title>
-      <link>https://iliu.org/tags/hugo/</link>
-      <pubDate>Tue, 21 Oct 2025 11:10:32 +0800</pubDate>
-      <guid>https://iliu.org/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
