@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Wordpress on 老刘博客</title>
-    <link>http://localhost:1313/tags/wordpress/</link>
+    <link>https://iliu.org/tags/wordpress/</link>
     <description>Recent content in Wordpress on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
-      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 30 Dec 2020 07:35:59 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://iliu.org/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>博客web端改用apache</title>
-      <link>http://localhost:1313/3520.html</link>
+      <link>https://iliu.org/3520.html</link>
       <pubDate>Wed, 30 Dec 2020 07:35:59 +0000</pubDate>
-      <guid>http://localhost:1313/3520.html</guid>
+      <guid>https://iliu.org/3520.html</guid>
       <description>&lt;p&gt;试用了几天Cloudflare加racknerd的2h2g的小鸡，感觉还算差强人意。所以干脆就先把博客放这里算了，然后又突发奇想，其他的网站一直用的lnmp，为啥博客就不能用用lamp呢？况且apache在稳定性以及对php的支持等方面都比nginx要好，nginx的优势是轻便和并发能力强。其实对小博客来说，基本没有啥区别。&lt;figure class=&#34;wp-block-image size-large&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>试用了几天Cloudflare加racknerd的2h2g的小鸡，感觉还算差强人意。所以干脆就先把博客放这里算了，然后又突发奇想，其他的网站一直用的lnmp，为啥博客就不能用用lamp呢？况且apache在稳定性以及对php的支持等方面都比nginx要好，nginx的优势是轻便和并发能力强。其实对小博客来说，基本没有啥区别。<figure class="wp-block-image size-large"></p>
 <p><a href="https://tunan.org/wp-content/uploads/2021/01/ac6793f3e79aaa6.jpg"><img loading="lazy" decoding="async" width="855" height="585" src="https://tunan.org/wp-content/uploads/2021/01/ac6793f3e79aaa6.jpg" alt="" class="wp-image-3589" srcset="https://tunan.org/wp-content/uploads/2021/01/ac6793f3e79aaa6.jpg 855w, https://tunan.org/wp-content/uploads/2021/01/ac6793f3e79aaa6-300x205.jpg 300w, https://tunan.org/wp-content/uploads/2021/01/ac6793f3e79aaa6-768x525.jpg 768w, https://tunan.org/wp-content/uploads/2021/01/ac6793f3e79aaa6-220x150.jpg 220w" sizes="(max-width: 855px) 100vw, 855px" /></a></figure></p>
@@ -83,9 +83,9 @@ LogFormat "%h %l %u %t \"%r\" %&gt;s %b \"%{Referer}i\" \"%{User-Agent}i\" %I %O
     </item>
     <item>
       <title>给7b2的主题加上评论回复功能</title>
-      <link>http://localhost:1313/2552.html</link>
+      <link>https://iliu.org/2552.html</link>
       <pubDate>Thu, 25 Jul 2019 00:54:22 +0000</pubDate>
-      <guid>http://localhost:1313/2552.html</guid>
+      <guid>https://iliu.org/2552.html</guid>
       <description>&lt;p&gt;7b2主题默认是不会给评论者回复邮件的。也曾经问过作者，作者说如果实现这个的话，没几天邮箱就被封掉了，可能作者有作者的理由吧，但是不加的话，你回复了评论者，他也不知道你给他回复了，没有个反馈，十分的不方便。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>7b2主题默认是不会给评论者回复邮件的。也曾经问过作者，作者说如果实现这个的话，没几天邮箱就被封掉了，可能作者有作者的理由吧，但是不加的话，你回复了评论者，他也不知道你给他回复了，没有个反馈，十分的不方便。</p>
 <p>要想实现给评论者发邮件现在有两种方法，一种是代码实现，一种是插件实现。</p>
@@ -132,9 +132,9 @@ add_action(<span class="hljs-string">'comment_post'</span>, <span class="hljs-st
     </item>
     <item>
       <title>wordpress自动升级到5.2.2</title>
-      <link>http://localhost:1313/1787.html</link>
+      <link>https://iliu.org/1787.html</link>
       <pubDate>Wed, 19 Jun 2019 02:15:39 +0000</pubDate>
-      <guid>http://localhost:1313/1787.html</guid>
+      <guid>https://iliu.org/1787.html</guid>
       <description>&lt;p&gt;今天打开邮箱，发现系统发的邮件。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;span style=&#34;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&#34;&gt;嗨！您位于 &lt;/span&gt;&lt;a href=&#34;https://tunan.org/&#34; target=&#34;_blank&#34; style=&#34;color: rgb(24, 43, 74); background-color: rgb(255, 255, 255);&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;a href=&#34;https://tunan.org&#34;&gt;https://tunan.org&lt;/a&gt;&lt;/a&gt;&lt;span style=&#34;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&#34;&gt; 的站点已被成功升级到WordPress 5.2.2。 您不需要再做什么。 要获取更多关于5.2.2版本的信息，请参阅“关于WordPress”屏幕： &lt;/span&gt;&lt;a href=&#34;https://tunan.org/wp-admin/about.php&#34; target=&#34;_blank&#34; style=&#34;color: rgb(24, 43, 74); background-color: rgb(255, 255, 255);&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;a href=&#34;https://tunan.org/wp-admin/about.php&#34;&gt;https://tunan.org/wp-admin/about.php&lt;/a&gt;&lt;/a&gt;&lt;span style=&#34;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&#34;&gt; 如果您遇到了任何问题或需要帮助，WordPress.org支持论坛的志愿者或许能帮到您。 &lt;/span&gt;&lt;a href=&#34;http://zh-cn.forums.wordpress.org/&#34; target=&#34;_blank&#34; style=&#34;color: rgb(24, 43, 74); background-color: rgb(255, 255, 255);&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;a href=&#34;http://zh-cn.forums.wordpress.org/&#34;&gt;http://zh-cn.forums.wordpress.org/&lt;/a&gt;&lt;/a&gt;&lt;span style=&#34;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&#34;&gt; WordPress小组&lt;/span&gt;&lt;/p&gt;</description>
@@ -169,9 +169,9 @@ add_action(<span class="hljs-string">'comment_post'</span>, <span class="hljs-st
     </item>
     <item>
       <title>7b2主题添加百度是否收录及禁止非管理员访问后台</title>
-      <link>http://localhost:1313/1636.html</link>
+      <link>https://iliu.org/1636.html</link>
       <pubDate>Sat, 25 May 2019 07:00:29 +0000</pubDate>
-      <guid>http://localhost:1313/1636.html</guid>
+      <guid>https://iliu.org/1636.html</guid>
       <description>&lt;p&gt;原来使用的是知更鸟的begin主题，和7b2的主题可以说是侧重点不同，不可否认的是7b2主题 在展示网页的方面和begin有一定的差距，比如begin里的一些小功能，其中百度是否收录就是其中的一项，让让人只管的文章用不要再次提交，不过要实现这个也不是一件很难的事情，之间在functions.php里添加一些代码就可以了。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>原来使用的是知更鸟的begin主题，和7b2的主题可以说是侧重点不同，不可否认的是7b2主题 在展示网页的方面和begin有一定的差距，比如begin里的一些小功能，其中百度是否收录就是其中的一项，让让人只管的文章用不要再次提交，不过要实现这个也不是一件很难的事情，之间在functions.php里添加一些代码就可以了。</p>
 <h2 id="添加百度是否收录的代码管理员可见">添加百度是否收录的代码（管理员可见）</h2>
@@ -229,9 +229,9 @@ add_action(<span class="hljs-string">'login_enqueue_scripts'</span>,<span class=
     </item>
     <item>
       <title>只需三步，让你的wordpress在godaddy免费空间上完美呈现</title>
-      <link>http://localhost:1313/950.html</link>
+      <link>https://iliu.org/950.html</link>
       <pubDate>Thu, 28 Oct 2010 06:03:38 +0000</pubDate>
-      <guid>http://localhost:1313/950.html</guid>
+      <guid>https://iliu.org/950.html</guid>
       <description>&lt;p&gt;以前本站有一篇文章，说是解决godaddy免费空间广告条对wordpress后台的影响，当时是采用第三方软件来实现的，但是到底有没有一种方法，能让不借用第三方软件来实现呢，答案是肯定的。而且很简单，只需要三步。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>以前本站有一篇文章，说是解决godaddy免费空间广告条对wordpress后台的影响，当时是采用第三方软件来实现的，但是到底有没有一种方法，能让不借用第三方软件来实现呢，答案是肯定的。而且很简单，只需要三步。</p>
 <p><strong>1.隐藏前台页面广告</strong></p>
@@ -269,9 +269,9 @@ add_action(<span class="hljs-string">'login_enqueue_scripts'</span>,<span class=
     </item>
     <item>
       <title>完美解决godaddy免费空间广告条对wordpress后台的影响</title>
-      <link>http://localhost:1313/388.html</link>
+      <link>https://iliu.org/388.html</link>
       <pubDate>Sun, 03 Jan 2010 13:09:22 +0000</pubDate>
-      <guid>http://localhost:1313/388.html</guid>
+      <guid>https://iliu.org/388.html</guid>
       <description>&lt;p&gt;自从从godaddy搞了域名之后，一直对它提供的免费空间耿耿于怀，用也不是，不用又觉得可惜，难怪网上都说此空间是一个鸡肋。很多童鞋都把此空间做为图床来使用，只是我觉得，这么好的一个空间，10g，300g的流量，仅仅用做图床未免有些浪费，加之目前手里也没有什么像样的空间，先前一直在有pipni的空间，各方面还比较满意，就是速度差了些，后来又觉得byethost的空间也不错，可惜IP老被封，加上本次的整顿事件，越发不敢用了，毕竟被墙以后，再找空间也麻烦。所以想来想去，还是就用godaddy提供的这个免费的空间吧。&lt;figure class=&#34;content-img-box&#34; id=&#34;2304&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>自从从godaddy搞了域名之后，一直对它提供的免费空间耿耿于怀，用也不是，不用又觉得可惜，难怪网上都说此空间是一个鸡肋。很多童鞋都把此空间做为图床来使用，只是我觉得，这么好的一个空间，10g，300g的流量，仅仅用做图床未免有些浪费，加之目前手里也没有什么像样的空间，先前一直在有pipni的空间，各方面还比较满意，就是速度差了些，后来又觉得byethost的空间也不错，可惜IP老被封，加上本次的整顿事件，越发不敢用了，毕竟被墙以后，再找空间也麻烦。所以想来想去，还是就用godaddy提供的这个免费的空间吧。<figure class="content-img-box" id="2304"></p>
 <p><img decoding="async" alt="完美解决godaddy免费空间广告条对wordpress后台的影响" src="https://tunan.org/wp-content/uploads/2019/07/12594530ebe0d5.png" id="D061A37B" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>

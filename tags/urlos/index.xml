@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Urlos on 老刘博客</title>
-    <link>http://localhost:1313/tags/urlos/</link>
+    <link>https://iliu.org/tags/urlos/</link>
     <description>Recent content in Urlos on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
-      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 21 Jan 2021 09:10:01 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/urlos/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://iliu.org/tags/urlos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>试用urlos</title>
-      <link>http://localhost:1313/3597.html</link>
+      <link>https://iliu.org/3597.html</link>
       <pubDate>Thu, 21 Jan 2021 09:10:01 +0000</pubDate>
-      <guid>http://localhost:1313/3597.html</guid>
+      <guid>https://iliu.org/3597.html</guid>
       <description>&lt;p&gt;老刘一直用的是oneinstack这个命令行面板，其实也够用了。但是后来弄了一个在线商城，这个开发者基本上是以宝塔的环境来开发的，安装教程等等都是用的宝塔面板。自己试着用oneinstack来安装，会报很多的错误，特别是客服这一块，它使用了长链接等。而官方出的命令安装教程简直没法看，按教程根本搞不成。所以，只能用着免费版的宝塔，看了眼收费的，又太贵。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>老刘一直用的是oneinstack这个命令行面板，其实也够用了。但是后来弄了一个在线商城，这个开发者基本上是以宝塔的环境来开发的，安装教程等等都是用的宝塔面板。自己试着用oneinstack来安装，会报很多的错误，特别是客服这一块，它使用了长链接等。而官方出的命令安装教程简直没法看，按教程根本搞不成。所以，只能用着免费版的宝塔，看了眼收费的，又太贵。</p>
 <p>昨天刚好看到缙哥哥又在推这个面板，现在涨价到20了，最早双11的时候才11.11，双12的时候12.12.现在20来快了，他推这个面板倒不是这个面板有多好用，他甚至都没有怎么用过，他推这个面板是因为据说有30%的aff。而看到我那个商城的官方也有urlos的一键安装包。所以，就买个授权吧。反正也不贵不是。留着，省的以后像宝塔似的千把块，买了心疼。</p>

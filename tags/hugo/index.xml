@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Hugo on 老刘博客</title>
-    <link>http://localhost:1313/tags/hugo/</link>
+    <link>https://iliu.org/tags/hugo/</link>
     <description>Recent content in Hugo on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
-      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 04 Jan 2026 18:01:08 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://iliu.org/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>博客托管平台换成edgeone pages</title>
-      <link>http://localhost:1313/posts/migrated-my-blog-to-edgeone-pages/</link>
+      <link>https://iliu.org/posts/migrated-my-blog-to-edgeone-pages/</link>
       <pubDate>Sun, 04 Jan 2026 18:01:08 +0800</pubDate>
-      <guid>http://localhost:1313/posts/migrated-my-blog-to-edgeone-pages/</guid>
+      <guid>https://iliu.org/posts/migrated-my-blog-to-edgeone-pages/</guid>
       <description>&lt;p&gt;作为个人博主，Cloudflare 被称为赛博菩萨：免费 CDN、自动 SSL、无限流量。但对于中国大陆用户来说，CF 的免费版线路对联通用户来说非常的不友好——动辄 300ms+ 的延迟和高峰期的丢包，让“全球加速”变成了“全球减速”。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>作为个人博主，Cloudflare 被称为赛博菩萨：免费 CDN、自动 SSL、无限流量。但对于中国大陆用户来说，CF 的免费版线路对联通用户来说非常的不友好——动辄 300ms+ 的延迟和高峰期的丢包，让“全球加速”变成了“全球减速”。</p>
 <p>前两天看到1900把博客迁移到了Edgeone，速度很快，我的博客没有备案，看了下可以使用海外版，测试了一下，发现要比cf快一些，于是决定把博客从 Cloudflare 迁移了过去。</p>
@@ -52,9 +52,9 @@
     </item>
     <item>
       <title>把GotoSocial嵌入到Hugo</title>
-      <link>http://localhost:1313/posts/embedding-gotosocial-in-a-hugo-blog/</link>
+      <link>https://iliu.org/posts/embedding-gotosocial-in-a-hugo-blog/</link>
       <pubDate>Tue, 21 Oct 2025 11:10:32 +0800</pubDate>
-      <guid>http://localhost:1313/posts/embedding-gotosocial-in-a-hugo-blog/</guid>
+      <guid>https://iliu.org/posts/embedding-gotosocial-in-a-hugo-blog/</guid>
       <description>&lt;p&gt;把博客重新换成Hugo后，我又把GotoSocial安装了起来，就是想发布自己有一些碎语之类的东西，在memos和GotoSocial中纠结了一会，最终选择了GotoSocial，主要原因还是看到memeos的作者随意改动API，为了以后不再有不必要的麻烦，还是选择一个更稳定的最好。整体完成后的效果可以参考：&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>把博客重新换成Hugo后，我又把GotoSocial安装了起来，就是想发布自己有一些碎语之类的东西，在memos和GotoSocial中纠结了一会，最终选择了GotoSocial，主要原因还是看到memeos的作者随意改动API，为了以后不再有不必要的麻烦，还是选择一个更稳定的最好。整体完成后的效果可以参考：</p>
 <p><a href="http://iliu.org/toots">我的微博</a></p>
@@ -1168,9 +1168,9 @@ Worker 代码示例如下 👇：</p>
     </item>
     <item>
       <title>给Hugo PaperMod主题添加一个漂亮又简洁的友情链接页面</title>
-      <link>http://localhost:1313/posts/add-a-beautiful-and-simple-links-page-to-the-hugo-papermod-theme/</link>
+      <link>https://iliu.org/posts/add-a-beautiful-and-simple-links-page-to-the-hugo-papermod-theme/</link>
       <pubDate>Mon, 13 Oct 2025 15:45:49 +0800</pubDate>
-      <guid>http://localhost:1313/posts/add-a-beautiful-and-simple-links-page-to-the-hugo-papermod-theme/</guid>
+      <guid>https://iliu.org/posts/add-a-beautiful-and-simple-links-page-to-the-hugo-papermod-theme/</guid>
       <description>&lt;p&gt;PaperMod 默认是极简风格，没有自带“友情链接（Friends / Links）”页，但是我们博主也不是互联网的孤岛，总有一些自己喜欢的左邻右舍，最简单的方法是用生成一个页面来作为友情链接页面，但是太丑了。老刘结合chatgpt，自己添加一个漂亮的友情链接页面，下面是 详细教程（以 Hugo + PaperMod 为例）：&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>PaperMod 默认是极简风格，没有自带“友情链接（Friends / Links）”页，但是我们博主也不是互联网的孤岛，总有一些自己喜欢的左邻右舍，最简单的方法是用生成一个页面来作为友情链接页面，但是太丑了。老刘结合chatgpt，自己添加一个漂亮的友情链接页面，下面是 详细教程（以 Hugo + PaperMod 为例）：</p>
 <h3 id="一创建友情链接页面">一、创建友情链接页面</h3>
@@ -1450,9 +1450,9 @@ Worker 代码示例如下 👇：</p>
     </item>
     <item>
       <title>从WordPress转到Hugo</title>
-      <link>http://localhost:1313/frome-wordpress-to-hugo/</link>
+      <link>https://iliu.org/frome-wordpress-to-hugo/</link>
       <pubDate>Wed, 01 Nov 2023 21:35:36 +0800</pubDate>
-      <guid>http://localhost:1313/frome-wordpress-to-hugo/</guid>
+      <guid>https://iliu.org/frome-wordpress-to-hugo/</guid>
       <description>&lt;p&gt;在cloudcone上买的VPS马上就要到期了，由于去年买的是黑五预售，比正经黑五的机子要贵20来块钱，而且配置还要低一些。所以，续费是不能续费的了。原本打算在荷兰的liteserver这个上面暂时放一段时间。这是一台2c2g的机子，装完php、MySQL、和Nginx之后，只要运行一段时间，内存就基本上爆了。再加上最近lnmp和oneinstack都被收购而且被挂恶意代码，也不想用宝塔之类的面板，自己编译环境又很麻烦。于是，就产生了转成静态博客的想法。在这里也要感谢阿甘和韩宇的帮助。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>在cloudcone上买的VPS马上就要到期了，由于去年买的是黑五预售，比正经黑五的机子要贵20来块钱，而且配置还要低一些。所以，续费是不能续费的了。原本打算在荷兰的liteserver这个上面暂时放一段时间。这是一台2c2g的机子，装完php、MySQL、和Nginx之后，只要运行一段时间，内存就基本上爆了。再加上最近lnmp和oneinstack都被收购而且被挂恶意代码，也不想用宝塔之类的面板，自己编译环境又很麻烦。于是，就产生了转成静态博客的想法。在这里也要感谢阿甘和韩宇的帮助。</p>
 <p>原本以为很复杂，其实操作下来发现也是挺简单的。</p>
@@ -1523,8 +1523,8 @@ Worker 代码示例如下 👇：</p>
 </span><span class="lnt">16
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;link href=&#34;http://localhost:1313/artalk/Artalk.css&#34; rel=&#34;stylesheet&#34;&gt;
-</span></span><span class="line"><span class="cl">&lt;script src=&#34;http://localhost:1313/artalk/Artalk.js&#34;&gt;&lt;/script&gt;
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;link href=&#34;https://iliu.org/artalk/Artalk.css&#34; rel=&#34;stylesheet&#34;&gt;
+</span></span><span class="line"><span class="cl">&lt;script src=&#34;https://iliu.org/artalk/Artalk.js&#34;&gt;&lt;/script&gt;
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">&lt;!-- Artalk --&gt;
 </span></span><span class="line"><span class="cl">&lt;div id=&#34;Comments&#34;&gt;&lt;/div&gt;

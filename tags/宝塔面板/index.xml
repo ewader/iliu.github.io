@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>宝塔面板 on 老刘博客</title>
-    <link>http://localhost:1313/tags/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/</link>
+    <link>https://iliu.org/tags/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/</link>
     <description>Recent content in 宝塔面板 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
-      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 27 Aug 2020 03:25:28 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://iliu.org/tags/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>从宝塔面板换成oneinstack踩的一个坑</title>
-      <link>http://localhost:1313/3240.html</link>
+      <link>https://iliu.org/3240.html</link>
       <pubDate>Thu, 27 Aug 2020 03:25:28 +0000</pubDate>
-      <guid>http://localhost:1313/3240.html</guid>
+      <guid>https://iliu.org/3240.html</guid>
       <description>&lt;p&gt;年初的时候，由于疫情的原因，在家没事就折腾服务器，由于看上了宝塔面板的FRP插件，所以把网站环境管理面板从oneinstack换成了宝塔面板，不成想，前几天出现了这么一个低级的bug，所以，思来想去，不能为了一颗树苗而放弃整片森林，为了安全，还是把宝塔面板换掉为妙。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>年初的时候，由于疫情的原因，在家没事就折腾服务器，由于看上了宝塔面板的FRP插件，所以把网站环境管理面板从oneinstack换成了宝塔面板，不成想，前几天出现了这么一个低级的bug，所以，思来想去，不能为了一颗树苗而放弃整片森林，为了安全，还是把宝塔面板换掉为妙。</p>
 <p><a href="https://tunan.org/wp-content/uploads/2020/08/2d3a77705b1e397.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3241" src="https://tunan.org/wp-content/uploads/2020/08/2d3a77705b1e397.jpg" alt="" width="800" height="320" srcset="https://tunan.org/wp-content/uploads/2020/08/2d3a77705b1e397.jpg 800w, https://tunan.org/wp-content/uploads/2020/08/2d3a77705b1e397-300x120.jpg 300w, https://tunan.org/wp-content/uploads/2020/08/2d3a77705b1e397-768x307.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
@@ -29,9 +29,9 @@
     </item>
     <item>
       <title>换篱落的空间，用宝塔面板，CSRF校验失败</title>
-      <link>http://localhost:1313/2865.html</link>
+      <link>https://iliu.org/2865.html</link>
       <pubDate>Mon, 25 Nov 2019 01:55:14 +0000</pubDate>
-      <guid>http://localhost:1313/2865.html</guid>
+      <guid>https://iliu.org/2865.html</guid>
       <description>&lt;p&gt;昨天在群里看到老胡发的篱落的特价VPS，忽然发现我也在他说的那个群，以前是衡天主机的客户群，后来好像卖给给香港人后，小张自己搞了个篱落主机。由于，近几年一直用的阿里云的，所以，没有太关注了。不过老胡发的这个特价的机型很快就卖完了，然后就发现还有一款1h2g2m的vps，也是特价机型，一年是300元。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>昨天在群里看到老胡发的篱落的特价VPS，忽然发现我也在他说的那个群，以前是衡天主机的客户群，后来好像卖给给香港人后，小张自己搞了个篱落主机。由于，近几年一直用的阿里云的，所以，没有太关注了。不过老胡发的这个特价的机型很快就卖完了，然后就发现还有一款1h2g2m的vps，也是特价机型，一年是300元。</p>
 <p>比阿里云的轻量1h2g的一年便宜个百十块钱。但是没有阿里的带宽高，也没有阿里云给的流量大。但是线路要比阿里云轻量香港的要好些，特别是晚上，阿里云香港的有点卡。不过想想自己也用不了那么大的带宽，就两个小网站，流量也不高。在加上使用FRP做内网穿透远程控制NAS。这个vps也足够了。毕竟远程也不会同步很大的东西。</p>

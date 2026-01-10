@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Edgeone on 老刘博客</title>
-    <link>http://localhost:1313/tags/edgeone/</link>
+    <link>https://iliu.org/tags/edgeone/</link>
     <description>Recent content in Edgeone on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
-      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 04 Jan 2026 18:01:08 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/edgeone/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://iliu.org/tags/edgeone/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>博客托管平台换成edgeone pages</title>
-      <link>http://localhost:1313/posts/migrated-my-blog-to-edgeone-pages/</link>
+      <link>https://iliu.org/posts/migrated-my-blog-to-edgeone-pages/</link>
       <pubDate>Sun, 04 Jan 2026 18:01:08 +0800</pubDate>
-      <guid>http://localhost:1313/posts/migrated-my-blog-to-edgeone-pages/</guid>
+      <guid>https://iliu.org/posts/migrated-my-blog-to-edgeone-pages/</guid>
       <description>&lt;p&gt;作为个人博主，Cloudflare 被称为赛博菩萨：免费 CDN、自动 SSL、无限流量。但对于中国大陆用户来说，CF 的免费版线路对联通用户来说非常的不友好——动辄 300ms+ 的延迟和高峰期的丢包，让“全球加速”变成了“全球减速”。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>作为个人博主，Cloudflare 被称为赛博菩萨：免费 CDN、自动 SSL、无限流量。但对于中国大陆用户来说，CF 的免费版线路对联通用户来说非常的不友好——动辄 300ms+ 的延迟和高峰期的丢包，让“全球加速”变成了“全球减速”。</p>
 <p>前两天看到1900把博客迁移到了Edgeone，速度很快，我的博客没有备案，看了下可以使用海外版，测试了一下，发现要比cf快一些，于是决定把博客从 Cloudflare 迁移了过去。</p>

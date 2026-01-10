@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>商业 on 老刘博客</title>
-    <link>http://localhost:1313/tags/%E5%95%86%E4%B8%9A/</link>
+    <link>https://iliu.org/tags/%E5%95%86%E4%B8%9A/</link>
     <description>Recent content in 商业 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
-      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 05 May 2024 14:34:18 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E5%95%86%E4%B8%9A/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://iliu.org/tags/%E5%95%86%E4%B8%9A/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>五一逛宜家</title>
-      <link>http://localhost:1313/posts/shopping-at-ikea/</link>
+      <link>https://iliu.org/posts/shopping-at-ikea/</link>
       <pubDate>Sun, 05 May 2024 14:34:18 +0800</pubDate>
-      <guid>http://localhost:1313/posts/shopping-at-ikea/</guid>
+      <guid>https://iliu.org/posts/shopping-at-ikea/</guid>
       <description>&lt;p&gt;很久没有更新博客了，趁着五一假期的小尾巴，把博客除除草，水上一篇文章。&lt;/p&gt;
 &lt;p&gt;今年的五一劳动节，由于家有毕业生，所以远门是没打算出了。而且到处都是人从众的景区也不是我喜欢的，我还是比较喜欢安静的环境。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>很久没有更新博客了，趁着五一假期的小尾巴，把博客除除草，水上一篇文章。</p>

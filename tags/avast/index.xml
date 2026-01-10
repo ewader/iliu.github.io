@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Avast! on 老刘博客</title>
-    <link>http://localhost:1313/tags/avast/</link>
+    <link>https://iliu.org/tags/avast/</link>
     <description>Recent content in Avast! on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
-      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 11 Jan 2010 12:35:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/avast/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://iliu.org/tags/avast/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>介绍本人所用的软件——安全软件篇</title>
-      <link>http://localhost:1313/428.html</link>
+      <link>https://iliu.org/428.html</link>
       <pubDate>Mon, 11 Jan 2010 12:35:00 +0000</pubDate>
-      <guid>http://localhost:1313/428.html</guid>
+      <guid>https://iliu.org/428.html</guid>
       <description>&lt;p&gt;接触安全软件是在1999年chi病毒爆发的时候，那时候刚好宿舍的电脑被感染，从一个光盘里安装上了熊猫的杀毒软件，能升级，通过扫描查找出来了大量的病毒，这是和病毒以及杀毒软件的第一次亲密接触，那时候就感觉杀毒软件好神奇啊，特别是对熊猫这个来自西班牙的杀软充满了好感，一直到现在对这个软件的印象都不错。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>接触安全软件是在1999年chi病毒爆发的时候，那时候刚好宿舍的电脑被感染，从一个光盘里安装上了熊猫的杀毒软件，能升级，通过扫描查找出来了大量的病毒，这是和病毒以及杀毒软件的第一次亲密接触，那时候就感觉杀毒软件好神奇啊，特别是对熊猫这个来自西班牙的杀软充满了好感，一直到现在对这个软件的印象都不错。</p>
 <p>再次使用杀毒软件是在2003年的时候，那时候公司的电脑中了一种欢乐时光病毒，当时用瑞星扫描出来的，感觉很兴奋，那时候对瑞星很是崇拜，特别是对它头上的光环，什么公安部认证，什么全球首次截获什么什么病毒等等，那时候已经知道防火墙的重要性，公司的电脑装的就是瑞星加天网，看到天网跳动的窗口，好庆幸自己的电脑没有被攻击到。</p>

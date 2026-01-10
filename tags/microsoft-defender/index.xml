@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Microsoft Defender on 老刘博客</title>
-    <link>http://localhost:1313/tags/microsoft-defender/</link>
+    <link>https://iliu.org/tags/microsoft-defender/</link>
     <description>Recent content in Microsoft Defender on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
-      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 10 Oct 2020 07:53:31 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/microsoft-defender/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://iliu.org/tags/microsoft-defender/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>一款可以设置Microsoft Defender的辅助软件</title>
-      <link>http://localhost:1313/3279.html</link>
+      <link>https://iliu.org/3279.html</link>
       <pubDate>Sat, 10 Oct 2020 07:53:31 +0000</pubDate>
-      <guid>http://localhost:1313/3279.html</guid>
+      <guid>https://iliu.org/3279.html</guid>
       <description>&lt;p&gt;自从Windows 10推出以来，微软的Microsoft Defender已经可以作为一款合格的杀毒软件来使用了，但是微软为了平衡误杀和安全之间的关系，默认情况西安Microsoft Defender很多先进的技术都没有开启，比如对流氓软件pup的查杀等。要想开启高级功能就必须去组策略里进行调整，这一步对软件小白来说是真的费事。好消息来了，有大神开发出来了一款可以设置Microsoft Defender的辅助软件，不需要进组策略即可对Microsoft Defender进行调整。目前已经更新到了3.0.0.1版，坏消息是没有中文版。不过软件的设置很简单。看着本文的图片进行设置就行。或者设置成“HIGH”即可。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>自从Windows 10推出以来，微软的Microsoft Defender已经可以作为一款合格的杀毒软件来使用了，但是微软为了平衡误杀和安全之间的关系，默认情况西安Microsoft Defender很多先进的技术都没有开启，比如对流氓软件pup的查杀等。要想开启高级功能就必须去组策略里进行调整，这一步对软件小白来说是真的费事。好消息来了，有大神开发出来了一款可以设置Microsoft Defender的辅助软件，不需要进组策略即可对Microsoft Defender进行调整。目前已经更新到了3.0.0.1版，坏消息是没有中文版。不过软件的设置很简单。看着本文的图片进行设置就行。或者设置成“HIGH”即可。</p>
 <p><a href="https://tunan.org/wp-content/uploads/2020/10/964c67f993d670e.png"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3281" src="https://tunan.org/wp-content/uploads/2020/10/964c67f993d670e.png" alt="" width="366" height="400" srcset="https://tunan.org/wp-content/uploads/2020/10/964c67f993d670e.png 366w, https://tunan.org/wp-content/uploads/2020/10/964c67f993d670e-275x300.png 275w" sizes="(max-width: 366px) 100vw, 366px" /></a></p>

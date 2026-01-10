@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Manjaro on 老刘博客</title>
-    <link>http://localhost:1313/tags/manjaro/</link>
+    <link>https://iliu.org/tags/manjaro/</link>
     <description>Recent content in Manjaro on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
-      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 16 Nov 2022 01:40:50 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/manjaro/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://iliu.org/tags/manjaro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>manjaro的gnome版本升级到43.1了</title>
-      <link>http://localhost:1313/4295.html</link>
+      <link>https://iliu.org/4295.html</link>
       <pubDate>Wed, 16 Nov 2022 01:40:50 +0000</pubDate>
-      <guid>http://localhost:1313/4295.html</guid>
+      <guid>https://iliu.org/4295.html</guid>
       <description>&lt;p&gt;都说使用manjaro最频繁使用的就是命令是&lt;/p&gt;
 &lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;sudo pacman -Syyu&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;这不，照例这么运行了一下，提示有更新，好家伙下载了1g多，不过更新替换后，系统反而小了1m。当时也没有注意更新了啥，直到我点击了这里，发现快速设置菜单变了。&lt;br&gt;
@@ -41,9 +41,9 @@
     </item>
     <item>
       <title>正式使用Manjaro系统</title>
-      <link>http://localhost:1313/4036.html</link>
+      <link>https://iliu.org/4036.html</link>
       <pubDate>Mon, 17 Jan 2022 00:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/4036.html</guid>
+      <guid>https://iliu.org/4036.html</guid>
       <description>&lt;p&gt;昨天把开发python 的这个电脑也更换成manjaro这个系统了。经过一段时间的试用，感觉这个系统确实是一个使用起来舒服有稳定的系统。&lt;figure class=&#34;wp-block-image size-full&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>昨天把开发python 的这个电脑也更换成manjaro这个系统了。经过一段时间的试用，感觉这个系统确实是一个使用起来舒服有稳定的系统。<figure class="wp-block-image size-full"></p>
 <p><img loading="lazy" decoding="async" width="1920" height="1080" src="https://tunan.org/wp-content/uploads/2022/01/87269d5350708c3.png" alt="" class="wp-image-4038" srcset="https://tunan.org/wp-content/uploads/2022/01/87269d5350708c3.png 1920w, https://tunan.org/wp-content/uploads/2022/01/87269d5350708c3-768x432.png 768w, https://tunan.org/wp-content/uploads/2022/01/87269d5350708c3-1536x864.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /> </figure></p>

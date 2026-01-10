@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Comodo on 老刘博客</title>
-    <link>http://localhost:1313/tags/comodo/</link>
+    <link>https://iliu.org/tags/comodo/</link>
     <description>Recent content in Comodo on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
-      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 27 Oct 2009 12:54:36 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/comodo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://iliu.org/tags/comodo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>360杀毒一个BUg存在依旧</title>
-      <link>http://localhost:1313/76.html</link>
+      <link>https://iliu.org/76.html</link>
       <pubDate>Tue, 27 Oct 2009 12:54:36 +0000</pubDate>
-      <guid>http://localhost:1313/76.html</guid>
+      <guid>https://iliu.org/76.html</guid>
       <description>&lt;p&gt;         360正式版推出以来，因其免费的在战略及不错的病毒查杀能力以及很小的的资源占用，迅速的征服了我，凭良心说话，确实是一款不错的杀毒软件，但是可能是360的工作人员太懒了，对于可能冲突的软件在数据库上估计是按名单算的，所以comodo is被认做冲突软件，这无可厚非的，但是comodo is是可以选择只装防火墙和D+的，就算不这样安装，360杀毒也依然认为你装的是全套。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>         360正式版推出以来，因其免费的在战略及不错的病毒查杀能力以及很小的的资源占用，迅速的征服了我，凭良心说话，确实是一款不错的杀毒软件，但是可能是360的工作人员太懒了，对于可能冲突的软件在数据库上估计是按名单算的，所以comodo is被认做冲突软件，这无可厚非的，但是comodo is是可以选择只装防火墙和D+的，就算不这样安装，360杀毒也依然认为你装的是全套。</p>
 <p>    推出这么多版本，从1062-1067了，版本更新的倒很快，可惜一个是不能自动更新版本一个是comodo的认识还是不智能，据说即将就会自动更新版本，而不智能的识别COMODO本人也只能强制开启360的实时防护了。</p>

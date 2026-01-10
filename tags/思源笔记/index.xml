@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>思源笔记 on 老刘博客</title>
-    <link>http://localhost:1313/tags/%E6%80%9D%E6%BA%90%E7%AC%94%E8%AE%B0/</link>
+    <link>https://iliu.org/tags/%E6%80%9D%E6%BA%90%E7%AC%94%E8%AE%B0/</link>
     <description>Recent content in 思源笔记 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
-      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 01 Jul 2023 03:10:30 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E6%80%9D%E6%BA%90%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://iliu.org/tags/%E6%80%9D%E6%BA%90%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>思源笔记群晖正确的部署方法</title>
-      <link>http://localhost:1313/posts/4418/</link>
+      <link>https://iliu.org/posts/4418/</link>
       <pubDate>Sat, 01 Jul 2023 03:10:30 -0400</pubDate>
-      <guid>http://localhost:1313/posts/4418/</guid>
+      <guid>https://iliu.org/posts/4418/</guid>
       <description>&lt;p&gt;最近一直在选择一款适合自己的笔记软件，最后确定在思源笔记和 Joplin 这两个上面，打算都长期试用一下，比较一下哪个更适合自己。&lt;/p&gt;
 &lt;h2 id=&#34;事情的起因&#34;&gt;事情的起因&lt;a href=&#34;#%E4%BA%8B%E6%83%85%E7%9A%84%E8%B5%B7%E5%9B%A0&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;思源笔记的升级是相当频繁，可是我却发现，每次 docker 升级后，数据都没有保存下来，只能从备份的数据里重新导入，找了一下原因，发现是映射的文件夹里面没有数据，于是就重新安装，发现按照网上的教程，安装后 跑不起来。经过一番摸索，总算是搞定了！&lt;/p&gt;</description>

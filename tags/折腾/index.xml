@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>折腾 on 老刘博客</title>
-    <link>http://localhost:1313/tags/%E6%8A%98%E8%85%BE/</link>
+    <link>https://iliu.org/tags/%E6%8A%98%E8%85%BE/</link>
     <description>Recent content in 折腾 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
-      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 24 Jan 2021 03:35:03 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E6%8A%98%E8%85%BE/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://iliu.org/tags/%E6%8A%98%E8%85%BE/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>停止折腾及一切不必要的花费</title>
-      <link>http://localhost:1313/3623.html</link>
+      <link>https://iliu.org/3623.html</link>
       <pubDate>Sun, 24 Jan 2021 03:35:03 +0000</pubDate>
-      <guid>http://localhost:1313/3623.html</guid>
+      <guid>https://iliu.org/3623.html</guid>
       <description>&lt;p&gt;昨天反思了一下自己，发现在过去的一年，折腾的挺多，但是折腾来折腾去，很多时候又回到了起点。翻看了一下记录，就博客来说，域名换了好几次，博客的类型也一变又变，原来想大而全，后来又想弄专业，现在回头看，如果一直坚持同一个类型一直坚持同一个域名的话，可能情况会好很多吧。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>昨天反思了一下自己，发现在过去的一年，折腾的挺多，但是折腾来折腾去，很多时候又回到了起点。翻看了一下记录，就博客来说，域名换了好几次，博客的类型也一变又变，原来想大而全，后来又想弄专业，现在回头看，如果一直坚持同一个类型一直坚持同一个域名的话，可能情况会好很多吧。</p>
 <p>然后就是主机，又想配置好，又想价格便宜，还想线路速度快和运行的稳定。但这个世界哪有那么多好事都能给你遇到，天上掉馅饼的事情是不可能的，真的掉了，你捡了也会用期待的方式去偿还。所以，要有取舍，稳定性事首先要考虑的，其次是价格，对于这个日均100来IP的小博客来说，配置反而不是很重要的了。因此，抛弃一切不起实际的幻想，保留一个香港的主机就行。其他的，该怎么处理就怎么处理就是，然后想了一下，其他的也就剩下NR的那个vps了，就放个freshrss等它过期吧。</p>

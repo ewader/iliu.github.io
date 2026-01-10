@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Giscus on 老刘博客</title>
-    <link>http://localhost:1313/tags/giscus/</link>
+    <link>https://iliu.org/tags/giscus/</link>
     <description>Recent content in Giscus on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
-      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 30 Dec 2025 11:31:56 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/giscus/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://iliu.org/tags/giscus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>博客评论换回Giscus</title>
-      <link>http://localhost:1313/posts/back-to-giscus/</link>
+      <link>https://iliu.org/posts/back-to-giscus/</link>
       <pubDate>Tue, 30 Dec 2025 11:31:56 +0800</pubDate>
-      <guid>http://localhost:1313/posts/back-to-giscus/</guid>
+      <guid>https://iliu.org/posts/back-to-giscus/</guid>
       <description>&lt;p&gt;前几天，老张他们几个人一直吐槽，说想留言还得翻墙登录 GitHub。听多了，我也动了心思，就去折腾了一下 Artalk，把博客的评论系统换了过去。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>前几天，老张他们几个人一直吐槽，说想留言还得翻墙登录 GitHub。听多了，我也动了心思，就去折腾了一下 Artalk，把博客的评论系统换了过去。</p>
 <p>不得不说，Artalk 用起来确实舒服。界面清爽，也更像我们习惯的那种“博客评论”，不用账号体系，不用跳来跳去，交流起来顺手很多。</p>

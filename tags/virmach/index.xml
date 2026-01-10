@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Virmach on 老刘博客</title>
-    <link>http://localhost:1313/tags/virmach/</link>
+    <link>https://iliu.org/tags/virmach/</link>
     <description>Recent content in Virmach on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
-      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 05 Nov 2021 04:05:56 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/virmach/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://iliu.org/tags/virmach/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>转到virmach</title>
-      <link>http://localhost:1313/3934.html</link>
+      <link>https://iliu.org/3934.html</link>
       <pubDate>Fri, 05 Nov 2021 04:05:56 +0000</pubDate>
-      <guid>http://localhost:1313/3934.html</guid>
+      <guid>https://iliu.org/3934.html</guid>
       <description>&lt;p&gt;看看篱落的VPS月底就到期了，也不打算再续费了。去年在Virmach买了一个便宜的VPS，2h2g才20$,算下来也就是人民币100来块钱，这一年来放了一个小玩艺，也稳定的，王志勇大佬貌似一直都是用的这个。反正就是个博客呗，放那都行，反正也没有几个人看。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>看看篱落的VPS月底就到期了，也不打算再续费了。去年在Virmach买了一个便宜的VPS，2h2g才20$,算下来也就是人民币100来块钱，这一年来放了一个小玩艺，也稳定的，王志勇大佬貌似一直都是用的这个。反正就是个博客呗，放那都行，反正也没有几个人看。</p>
 <p> </p>

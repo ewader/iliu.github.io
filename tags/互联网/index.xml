@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>互联网 on 老刘博客</title>
-    <link>http://localhost:1313/tags/%E4%BA%92%E8%81%94%E7%BD%91/</link>
+    <link>https://iliu.org/tags/%E4%BA%92%E8%81%94%E7%BD%91/</link>
     <description>Recent content in 互联网 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
-      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 04 Sep 2025 09:23:34 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E4%BA%92%E8%81%94%E7%BD%91/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://iliu.org/tags/%E4%BA%92%E8%81%94%E7%BD%91/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>“人死后朋友圈会消失吗？”热议背后，独立博客教你守住数据</title>
-      <link>http://localhost:1313/will-your-wechat-moments-disappear-after-death/</link>
+      <link>https://iliu.org/will-your-wechat-moments-disappear-after-death/</link>
       <pubDate>Thu, 04 Sep 2025 09:23:34 +0800</pubDate>
-      <guid>http://localhost:1313/will-your-wechat-moments-disappear-after-death/</guid>
+      <guid>https://iliu.org/will-your-wechat-moments-disappear-after-death/</guid>
       <description>&lt;p&gt;最近，一个话题在网络上引发热议—— &lt;strong&gt;“人死后朋友圈会消失吗？”&lt;/strong&gt;
 许多网友在感叹之余，也不免担心自己的数字遗产：如果多年未登录微信，账号里的聊天记录、朋友圈、照片、文件会发生什么？&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>最近，一个话题在网络上引发热议—— <strong>“人死后朋友圈会消失吗？”</strong>
@@ -70,9 +70,9 @@
     </item>
     <item>
       <title>从开放到封闭：互联网的变迁与我的记忆</title>
-      <link>http://localhost:1313/the-walls-and-the-glimmers-of-the-internet/</link>
+      <link>https://iliu.org/the-walls-and-the-glimmers-of-the-internet/</link>
       <pubDate>Mon, 01 Sep 2025 09:17:01 +0800</pubDate>
-      <guid>http://localhost:1313/the-walls-and-the-glimmers-of-the-internet/</guid>
+      <guid>https://iliu.org/the-walls-and-the-glimmers-of-the-internet/</guid>
       <description>&lt;p&gt;几天，&lt;a href=&#34;https://yinji.org/?ref=iliu.org&#34;&gt;印记博客&lt;/a&gt;的博主小胡写了一篇文章，题目叫《&lt;a href=&#34;https://yinji.org/the-internet.html?ref=iliu.org&#34;&gt;过去的互联网完全由网站组成&lt;/a&gt;》。读完之后，我心里不由得泛起一丝共鸣。是啊，最初的互联网，确实就是一个个网站组成的，网站与网站之间用超链接紧密相连。你可以从这个网站跳到那个网站，像在一条大河里顺流而下，又能随时拐进一条支流。那时候的互联网，是开放的，是自由的。&lt;/p&gt;
 &lt;p&gt;而现在呢？互联网变得越来越封闭。每一家互联网公司都想把人留在自己的“围墙”里，恨不得你一辈子不离开它的APP。&lt;/p&gt;
 &lt;hr&gt;
