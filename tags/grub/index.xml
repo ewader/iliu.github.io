@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>GRUB on 老刘博客</title>
-    <link>https://iliu.org/tags/grub/</link>
+    <link>http://localhost:1313/tags/grub/</link>
     <description>Recent content in GRUB on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 30 Nov 2025 10:00:00 +0800</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/grub/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/grub/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>EndeavourOS &#43; Btrfs &#43; Snapper &#43; GRUB：完整的快照回滚系统配置指南</title>
-      <link>https://iliu.org/endeavouros-snapper-grub-snapshot-rollback-guide/</link>
+      <link>http://localhost:1313/endeavouros-snapper-grub-snapshot-rollback-guide/</link>
       <pubDate>Sun, 30 Nov 2025 10:00:00 +0800</pubDate>
-      <guid>https://iliu.org/endeavouros-snapper-grub-snapshot-rollback-guide/</guid>
+      <guid>http://localhost:1313/endeavouros-snapper-grub-snapshot-rollback-guide/</guid>
       <description>&lt;p&gt;EndeavourOS由于使用的是滚动更新，系统存在着滚挂的可能性（尽管我已经使用了1个多月也没有问题），所以快照回滚是一个必须的选项。本文将详细介绍如何在 EndeavourOS 系统中配置完整的快照回滚系统，让您在系统出现问题时能够轻松恢复到之前的状态。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>EndeavourOS由于使用的是滚动更新，系统存在着滚挂的可能性（尽管我已经使用了1个多月也没有问题），所以快照回滚是一个必须的选项。本文将详细介绍如何在 EndeavourOS 系统中配置完整的快照回滚系统，让您在系统出现问题时能够轻松恢复到之前的状态。</p>
 <p><img loading="lazy" src="https://s2.l22.org/images/1764499404_endeavour-os-logo-on-a-purple-background-1.jpg"></p>

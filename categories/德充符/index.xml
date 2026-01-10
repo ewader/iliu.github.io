@@ -2,22 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>德充符 on 老刘博客</title>
-    <link>https://iliu.org/categories/%E5%BE%B7%E5%85%85%E7%AC%A6/</link>
+    <link>http://localhost:1313/categories/%E5%BE%B7%E5%85%85%E7%AC%A6/</link>
     <description>Recent content in 德充符 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 11 Nov 2025 11:36:47 +0800</lastBuildDate>
-    <atom:link href="https://iliu.org/categories/%E5%BE%B7%E5%85%85%E7%AC%A6/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Jan 2026 08:22:16 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/%E5%BE%B7%E5%85%85%E7%AC%A6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>《华严经》首册研读随笔：前十六卷的心路总结</title>
+      <link>http://localhost:1313/posts/reflections-after-finishing-the-first-volume-of-the-huayan-jing/</link>
+      <pubDate>Thu, 08 Jan 2026 08:22:16 +0800</pubDate>
+      <guid>http://localhost:1313/posts/reflections-after-finishing-the-first-volume-of-the-huayan-jing/</guid>
+      <description>带着功利心去读经，本质上是一种“有所求”。这种“求”本身就是一种障碍。收获应该是锦上添花，有了更好，没有也不必强求。读经的过程本身，就是一种熏修</description>
+      <content:encoded><![CDATA[<p>历时15天，昨天晚上读完了《华严经》的第16卷，请的经书的第一册读完了了。读完之后觉得应该为这半个月的心路历程做个小结。</p>
+<h2 id="读书少点功利心">读书少点功利心</h2>
+<p>以前读书，一般都会在读前给自己一个期盼，会执着于找一个具体的“顿悟”或“道理”，会想，这本书能给我带来什么提高？我能记住多少句优美的带有哲理的句子可以在文章里装逼。但现在我意识到：重要的是你在读什么，而不是你得到了什么。</p>
+<p>带着功利心去读经，本质上是一种“有所求”。这种“求”本身就是一种障碍。收获应该是锦上添花，有了更好，没有也不必强求。读经的过程本身，就是一种熏修，一种磁场的改变。</p>
+<h2 id="行动大于空想">行动大于空想</h2>
+<p>佛家教育的精髓在于“行”。</p>
+<p>我们现在口口声声说“万法皆空”，其实那不是我们的智慧，而是圣人告诉我们的结论。我们只是“知道”了地图上的终点，却并没有真正走过那段路。</p>
+<p>“知道”是别人的，“领悟”才是自己的，南怀瑾先生在书里说过，你不重走佛的具体修行方式，怎么可能会领悟到佛的境界。</p>
+<p>如果只是停留在文字上的空想，那就是“数他宝”。真正的修行，是把圣人指出的那个道理，通过实际的“行”——在生活中历事炼心，最终化为自己的血肉。</p>
+<h2 id="相信相信的力量">相信相信的力量</h2>
+<p>这16卷读下来，我最深的体悟是那个逻辑：首先要“信”，然后才能“住”。</p>
+<p>“信”是能量的接入，是确认这个频率存在；而“住”是定力的养成，是把心安稳地扎根在这个频率里。没有信，住就是空中楼阁；没有住，信就是露水情缘。</p>
+<p>如果非要说收获，对我而言，最真实的改变不是记住了多少经文，而是：我从刚开始的看不下去，到现在能心平气和地坐下来，一口气看一卷经书。</p>
+<p>这种心性的调伏，这种“坐得住”的能力，就是最扎实的修行。在喧嚣的世界里，能拥有这一卷经书的时间和心境，本身就是一种莫大的福报。</p>
+<p>第一册结束了，但这仅仅是华严世界的冰山一角。</p>
+<p>不带目的，不设终点，只是随着经文走下去。</p>
+<p>路，就在脚下；佛，就在念头转弯处。</p>
+<p>路，就在脚下；佛，就在念头转弯处。</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>独立思考，是抵抗所有现代焦虑的最终防线</title>
-      <link>https://iliu.org/posts/independent-thinking-the-last-defense-against-modern-anxiety/</link>
+      <link>http://localhost:1313/posts/independent-thinking-the-last-defense-against-modern-anxiety/</link>
       <pubDate>Tue, 11 Nov 2025 11:36:47 +0800</pubDate>
-      <guid>https://iliu.org/posts/independent-thinking-the-last-defense-against-modern-anxiety/</guid>
+      <guid>http://localhost:1313/posts/independent-thinking-the-last-defense-against-modern-anxiety/</guid>
       <description>&lt;p&gt;你有没有过这样一种体验：自信满满地认为自己对某件事情了解透彻，直到你尝试向别人详细解释时，才发现原来自己并不如想象中那般了解。比如，试着解释一下你每天用的扫码支付是如何工作的，或者马桶是如何冲水的。突然间，你会发现自己只是会使用这些工具，却未必懂得它们的原理。
 &lt;img loading=&#34;lazy&#34; src=&#34;https://s2.l22.org/images/1762832459_dulisikao.jpg&#34;&gt;
 史蒂文·斯洛曼和菲利普·费恩巴赫在《知识的错觉：为什么我们从未独立思考》说，人类往往高估了自己的知识深度，误以为掌握了某些复杂事物的原理，然而我们其实只是知道如何操作这些事物，而非它们是如何运作的。这种现象作者称之为 &lt;strong&gt;“解释深度错觉”（Illusion of Explanatory Depth）&lt;/strong&gt;。&lt;/p&gt;</description>
@@ -45,9 +71,9 @@
     </item>
     <item>
       <title>以直报怨，怨未尽而心已定</title>
-      <link>https://iliu.org/posts/straightforwardness-heart-at-peace/</link>
+      <link>http://localhost:1313/posts/straightforwardness-heart-at-peace/</link>
       <pubDate>Tue, 28 Oct 2025 14:36:08 +0800</pubDate>
-      <guid>https://iliu.org/posts/straightforwardness-heart-at-peace/</guid>
+      <guid>http://localhost:1313/posts/straightforwardness-heart-at-peace/</guid>
       <description>&lt;p&gt;《论语·宪问》中，有人问孔子：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;“以德报怨，何如？”
@@ -124,9 +150,9 @@
     </item>
     <item>
       <title>禅让制度以及无为的再思考</title>
-      <link>https://iliu.org/posts/revisiting-the-zen-like-abdication-system-and-the-philosophy-of-wu-wei/</link>
+      <link>http://localhost:1313/posts/revisiting-the-zen-like-abdication-system-and-the-philosophy-of-wu-wei/</link>
       <pubDate>Thu, 16 Oct 2025 16:15:55 +0800</pubDate>
-      <guid>https://iliu.org/posts/revisiting-the-zen-like-abdication-system-and-the-philosophy-of-wu-wei/</guid>
+      <guid>http://localhost:1313/posts/revisiting-the-zen-like-abdication-system-and-the-philosophy-of-wu-wei/</guid>
       <description>&lt;p&gt;最近阅读南怀瑾先生的《禅宗和道家》，书中关于上古史的一些观点引起了我深深的思考。他提到，帝尧是黄帝的曾孙，大禹则是黄帝的玄孙。 禹的儿子子启建立夏朝，开启了中国的“家天下”时代。
 从这个角度来看，夏朝的建立，似乎也承继了黄帝的血脉和基业，在某种意义上，称之为黄帝家族的延续也未尝不可。
 &lt;img loading=&#34;lazy&#34; src=&#34;https://s2.l22.org/Gemini_Generated_Image_xhmviuxhmviuxhmv.png&#34;&gt;&lt;/p&gt;</description>
@@ -157,9 +183,9 @@
     </item>
     <item>
       <title>浅谈阿Q精神</title>
-      <link>https://iliu.org/a-brief-discussion-on-the-ah-q-spirit/</link>
+      <link>http://localhost:1313/a-brief-discussion-on-the-ah-q-spirit/</link>
       <pubDate>Thu, 25 Sep 2025 10:15:38 +0800</pubDate>
-      <guid>https://iliu.org/a-brief-discussion-on-the-ah-q-spirit/</guid>
+      <guid>http://localhost:1313/a-brief-discussion-on-the-ah-q-spirit/</guid>
       <description>&lt;p&gt;最近看释万行法师的《降伏其心》，看到一段很有意思的话：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;“比如今天我俩打了一架，我输给了你。表面上看是你赢了，我输了。实际上我内心的承受力增强了，甚至增强了许多倍。而你的我执、虚荣心、好胜心也增加了，甚至也增加了许多倍。”&lt;/p&gt;</description>
@@ -184,9 +210,9 @@
     </item>
     <item>
       <title>风动，幡动还是心动</title>
-      <link>https://iliu.org/wind-moves-flags-flutter-or-heart-moves/</link>
+      <link>http://localhost:1313/wind-moves-flags-flutter-or-heart-moves/</link>
       <pubDate>Fri, 19 Sep 2025 10:35:24 +0800</pubDate>
-      <guid>https://iliu.org/wind-moves-flags-flutter-or-heart-moves/</guid>
+      <guid>http://localhost:1313/wind-moves-flags-flutter-or-heart-moves/</guid>
       <description>&lt;p&gt;读南怀瑾先生的《禅宗和道家》，读到“风动、幡动、心动”这个典故（佛家称为公案）时，我的思绪回到了过去。&lt;/p&gt;
 &lt;p&gt;记得第一次读到这个公案，大概是在初中的政治课本上。故事是这样的：&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>读南怀瑾先生的《禅宗和道家》，读到“风动、幡动、心动”这个典故（佛家称为公案）时，我的思绪回到了过去。</p>
@@ -205,9 +231,9 @@
     </item>
     <item>
       <title>金钱心理学：财富、人性和幸福的永恒真相</title>
-      <link>https://iliu.org/money-psychology-the-eternal-truths-of-wealth-humanity-and-happiness/</link>
+      <link>http://localhost:1313/money-psychology-the-eternal-truths-of-wealth-humanity-and-happiness/</link>
       <pubDate>Thu, 18 Sep 2025 10:10:39 +0800</pubDate>
-      <guid>https://iliu.org/money-psychology-the-eternal-truths-of-wealth-humanity-and-happiness/</guid>
+      <guid>http://localhost:1313/money-psychology-the-eternal-truths-of-wealth-humanity-and-happiness/</guid>
       <description>&lt;p&gt;我曾以为，理财是一个很复杂的东西，股票、基金、保险等等，充满了复杂的公式和博弈。所以，对理财这方面一直抱着敬而远之的态度，只会挑选一些风险小的项目。也曾在股市上投入了一些，但每次都赶不上节奏，所以慢慢的这方面的心思也就淡了。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>我曾以为，理财是一个很复杂的东西，股票、基金、保险等等，充满了复杂的公式和博弈。所以，对理财这方面一直抱着敬而远之的态度，只会挑选一些风险小的项目。也曾在股市上投入了一些，但每次都赶不上节奏，所以慢慢的这方面的心思也就淡了。</p>
 <p>前几天偶尔在微信读书上看到了<strong>摩根·豪泽尔</strong>的《金钱心理学：财富、人性和幸福的永恒真相》这本书，才发现原来理财也可以是这么简单的一件事情，但简单的事情，往往也是最不容易做到的事情。</p>
@@ -222,9 +248,9 @@
     </item>
     <item>
       <title>七个月读《易经》的碎片与感悟</title>
-      <link>https://iliu.org/seven-months-with-the-i-ching-notes-and-insights/</link>
+      <link>http://localhost:1313/seven-months-with-the-i-ching-notes-and-insights/</link>
       <pubDate>Mon, 15 Sep 2025 09:30:22 +0800</pubDate>
-      <guid>https://iliu.org/seven-months-with-the-i-ching-notes-and-insights/</guid>
+      <guid>http://localhost:1313/seven-months-with-the-i-ching-notes-and-insights/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;闲坐小窗读周易，不知春去几多时。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -271,9 +297,9 @@
     </item>
     <item>
       <title>蟋蟀：童趣、文化与智慧的映照</title>
-      <link>https://iliu.org/crickets-reflections-of-childhood-culture-and-wisdom/</link>
+      <link>http://localhost:1313/crickets-reflections-of-childhood-culture-and-wisdom/</link>
       <pubDate>Mon, 08 Sep 2025 10:39:08 +0800</pubDate>
-      <guid>https://iliu.org/crickets-reflections-of-childhood-culture-and-wisdom/</guid>
+      <guid>http://localhost:1313/crickets-reflections-of-childhood-culture-and-wisdom/</guid>
       <description>&lt;p&gt;这几天读修・莱佛士的《昆虫志》，深感其远非一部单纯的博物学著作。更多的是借助昆虫这一微观载体，折射出人性、社会与历史的复杂光谱。书中各章后附的大量参考文献，恰恰彰显了其跨学科视野与严谨的学术根基。作者穿梭于自然科学与人文社科之间，将昆虫与人类世界的千丝万缕娓娓道来，让我们在观察自然之妙时，也窥见了文化的深邃映射。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>这几天读修・莱佛士的《昆虫志》，深感其远非一部单纯的博物学著作。更多的是借助昆虫这一微观载体，折射出人性、社会与历史的复杂光谱。书中各章后附的大量参考文献，恰恰彰显了其跨学科视野与严谨的学术根基。作者穿梭于自然科学与人文社科之间，将昆虫与人类世界的千丝万缕娓娓道来，让我们在观察自然之妙时，也窥见了文化的深邃映射。</p>
 <p>当我翻至“蟋蟀”章节，许多回忆与感触油然而生。</p>
@@ -305,9 +331,9 @@
     </item>
     <item>
       <title>物必自腐，而后虫生</title>
-      <link>https://iliu.org/a-thing-must-first-decay-before-insects-can-breed/</link>
+      <link>http://localhost:1313/a-thing-must-first-decay-before-insects-can-breed/</link>
       <pubDate>Thu, 21 Aug 2025 09:02:18 +0800</pubDate>
-      <guid>https://iliu.org/a-thing-must-first-decay-before-insects-can-breed/</guid>
+      <guid>http://localhost:1313/a-thing-must-first-decay-before-insects-can-breed/</guid>
       <description>&lt;p&gt;前几天朋友送了一箱黄桃，一次性吃不了那么多，慢慢的桃子就有点发软，这两天吃桃子的时候，屡屡遇到外表鲜&lt;strong&gt;亮，啃两口&lt;/strong&gt;发现里面已经变质的桃子。这不由的让我想起了一句忘了从哪里看到的话——“物必自腐，而后虫生”。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>前几天朋友送了一箱黄桃，一次性吃不了那么多，慢慢的桃子就有点发软，这两天吃桃子的时候，屡屡遇到外表鲜<strong>亮，啃两口</strong>发现里面已经变质的桃子。这不由的让我想起了一句忘了从哪里看到的话——“物必自腐，而后虫生”。</p>
 <p>查了一下资料，出处应该是苏轼的《范增论》。苏轼借楚汉相争，感叹项羽失天下并非因为范增未被重用 <strong>，而是因为项羽自己内部的问题。于是写道：“物必先腐也，而后虫生之；人必先疑也，而后谗入之</strong>。”意思是，万物的败坏，必然从自身腐烂开始，外来的虫子不过是乘虚而入；人的失败，往往是自己心中先起疑念，外来的谗言才有了可乘之机。桃子如此，世间又何尝不是？</p>
@@ -321,9 +347,9 @@
     </item>
     <item>
       <title>也谈修行</title>
-      <link>https://iliu.org/also-on-cultivation/</link>
+      <link>http://localhost:1313/also-on-cultivation/</link>
       <pubDate>Sun, 17 Aug 2025 08:56:10 +0800</pubDate>
-      <guid>https://iliu.org/also-on-cultivation/</guid>
+      <guid>http://localhost:1313/also-on-cultivation/</guid>
       <description>&lt;p&gt;起“修行”，很多人脑海里会浮现出仙风道骨的修行者，在深山古刹中盘腿打坐，运转真气，甚至施展飞天遁地的法术，最终炼成金丹元婴，羽化登仙。这些神秘而遥远的幻想，构成了我们对“修行”最初的认知。然而，真实的修行，并非如此玄奇。它没有那么多的神秘幻象，更不需要去追求那些虚无缥缈的超能力。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>起“修行”，很多人脑海里会浮现出仙风道骨的修行者，在深山古刹中盘腿打坐，运转真气，甚至施展飞天遁地的法术，最终炼成金丹元婴，羽化登仙。这些神秘而遥远的幻想，构成了我们对“修行”最初的认知。然而，真实的修行，并非如此玄奇。它没有那么多的神秘幻象，更不需要去追求那些虚无缥缈的超能力。</p>
 <p>正如南怀瑾先生所言，<strong>修行，其实很简单，就是“修正自己的行为”</strong> 。修行，不是为了成为不食人间烟火的神仙，也不是为了达到某种超凡脱俗的境界。它的真正目的，是为了成为 <strong>“更好的自己”</strong> 。这听起来似乎少了些传奇色彩，但却更加脚踏实地，更贴近我们的生活。</p>
@@ -344,9 +370,9 @@
     </item>
     <item>
       <title>上天保佑，并非无条件</title>
-      <link>https://iliu.org/god-bless-not-unconditionally/</link>
+      <link>http://localhost:1313/god-bless-not-unconditionally/</link>
       <pubDate>Thu, 14 Aug 2025 08:49:47 +0800</pubDate>
-      <guid>https://iliu.org/god-bless-not-unconditionally/</guid>
+      <guid>http://localhost:1313/god-bless-not-unconditionally/</guid>
       <description>&lt;p&gt;《易经·大有卦》上九爻有一句爻辞：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;“自天佑之，吉无不利。”&lt;/p&gt;
@@ -401,9 +427,9 @@
     </item>
     <item>
       <title>心斋，不只是吃素</title>
-      <link>https://iliu.org/fasting-of-the-heart-is-not-merely-about-eating-vegetarian/</link>
+      <link>http://localhost:1313/fasting-of-the-heart-is-not-merely-about-eating-vegetarian/</link>
       <pubDate>Wed, 13 Aug 2025 08:45:11 +0800</pubDate>
-      <guid>https://iliu.org/fasting-of-the-heart-is-not-merely-about-eating-vegetarian/</guid>
+      <guid>http://localhost:1313/fasting-of-the-heart-is-not-merely-about-eating-vegetarian/</guid>
       <description>&lt;p&gt;们常说“吃斋”，往往把它理解成不吃肉，甚至干脆把它等同于素食主义。久而久之，“斋”在日常语言里，就变成了餐桌上的事。可是实际上完全不是这么回事。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>们常说“吃斋”，往往把它理解成不吃肉，甚至干脆把它等同于素食主义。久而久之，“斋”在日常语言里，就变成了餐桌上的事。可是实际上完全不是这么回事。</p>
 <h3 id="荤与肉并非一回事">荤与肉，并非一回事</h3>
@@ -428,9 +454,9 @@
     </item>
     <item>
       <title>陪女儿读《复活》</title>
-      <link>https://iliu.org/reading-resurrection-with-my-daughter/</link>
+      <link>http://localhost:1313/reading-resurrection-with-my-daughter/</link>
       <pubDate>Mon, 28 Jul 2025 21:24:33 +0800</pubDate>
-      <guid>https://iliu.org/reading-resurrection-with-my-daughter/</guid>
+      <guid>http://localhost:1313/reading-resurrection-with-my-daughter/</guid>
       <description>&lt;p&gt;暑假刚开始，我给女儿买了一堆高中语文推荐阅读的名著：狄更斯的《大卫·科波菲尔》、夏洛蒂的《简·爱》、还有列夫·托尔斯泰的《复活》。&lt;/p&gt;
 &lt;p&gt;这些书的名字对我来说都不陌生，但也仅仅知道名字罢了，因为那时候的教育认为这些都是闲书，是耽误学习的存在。小的时候想读，而长大了之后没心情去读，如今换了一个身份，成了陪女儿一起走这段路的人，我觉得我应该也读一下这些书，最起码能和孩子一起聊聊，培养一下她的阅读兴趣，毕竟，对于现代孩子来说，手机以及现代风格的文学作品要比一个俄国贵族的忏悔、一个农家女的命运有趣的多。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>暑假刚开始，我给女儿买了一堆高中语文推荐阅读的名著：狄更斯的《大卫·科波菲尔》、夏洛蒂的《简·爱》、还有列夫·托尔斯泰的《复活》。</p>
@@ -447,9 +473,9 @@
     </item>
     <item>
       <title>天上有雨，未落人间——说说《需卦》</title>
-      <link>https://iliu.org/tian-shang-you-yu-wei-luo-ren-jian-shuo-shuo-xu-gua/</link>
+      <link>http://localhost:1313/tian-shang-you-yu-wei-luo-ren-jian-shuo-shuo-xu-gua/</link>
       <pubDate>Fri, 13 Jun 2025 10:57:01 +0800</pubDate>
-      <guid>https://iliu.org/tian-shang-you-yu-wei-luo-ren-jian-shuo-shuo-xu-gua/</guid>
+      <guid>http://localhost:1313/tian-shang-you-yu-wei-luo-ren-jian-shuo-shuo-xu-gua/</guid>
       <description>&lt;p&gt;《易经》六十四卦中，《需卦》排在第五。&lt;/p&gt;
 &lt;p&gt;前面几卦，乾坤是天地之本，屯是起步之难，蒙是启蒙之初，到了第五卦——《需》——天地间万象已动，人也有所思、有所欲，但偏偏，这一步&lt;strong&gt;还不能迈出去&lt;/strong&gt;。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>《易经》六十四卦中，《需卦》排在第五。</p>
@@ -504,9 +530,9 @@
     </item>
     <item>
       <title>蒙卦：从困中启，向光而行</title>
-      <link>https://iliu.org/meng-gua-cong-kun-zhong-qi-xiang-guang-er-xing/</link>
+      <link>http://localhost:1313/meng-gua-cong-kun-zhong-qi-xiang-guang-er-xing/</link>
       <pubDate>Mon, 09 Jun 2025 11:03:17 +0800</pubDate>
-      <guid>https://iliu.org/meng-gua-cong-kun-zhong-qi-xiang-guang-er-xing/</guid>
+      <guid>http://localhost:1313/meng-gua-cong-kun-zhong-qi-xiang-guang-er-xing/</guid>
       <description>&lt;p&gt;如果你在街头做一个采访，问：“《易经》是什么？”
 十有八九会有人回答：“算卦的书呗。”
 这个答案，其实对，也不全对。&lt;/p&gt;
@@ -564,9 +590,9 @@
     </item>
     <item>
       <title>荔枝路远，道在人心——从《易经》看李善德的一生</title>
-      <link>https://iliu.org/li-zhi-lu-yuan-dao-zai-ren-xin-cong-yi-jing-kan-li-shan-de-de-yi-sheng/</link>
+      <link>http://localhost:1313/li-zhi-lu-yuan-dao-zai-ren-xin-cong-yi-jing-kan-li-shan-de-de-yi-sheng/</link>
       <pubDate>Sun, 08 Jun 2025 11:01:08 +0800</pubDate>
-      <guid>https://iliu.org/li-zhi-lu-yuan-dao-zai-ren-xin-cong-yi-jing-kan-li-shan-de-de-yi-sheng/</guid>
+      <guid>http://localhost:1313/li-zhi-lu-yuan-dao-zai-ren-xin-cong-yi-jing-kan-li-shan-de-de-yi-sheng/</guid>
       <description>&lt;p&gt;马伯庸的小说《长安的荔枝》及其改编剧集，看似讲述一场跨越千里的荔枝运输奇旅，实则以小人物的遭遇折射盛唐末期政治、社会、文化的真实图景。主人公李善德，这位从九品小吏，在完成“运荔枝”这一看似荒诞实则关乎权力的任务中，演绎出一部小人物在大时代中如何“知命”、“尽性”、“归真”的命运史。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>马伯庸的小说《长安的荔枝》及其改编剧集，看似讲述一场跨越千里的荔枝运输奇旅，实则以小人物的遭遇折射盛唐末期政治、社会、文化的真实图景。主人公李善德，这位从九品小吏，在完成“运荔枝”这一看似荒诞实则关乎权力的任务中，演绎出一部小人物在大时代中如何“知命”、“尽性”、“归真”的命运史。</p>
 <p>本文尝试以《易经》的视角，借其卦象与哲思，还原李善德的命运轨迹与精神转化。</p>
@@ -608,16 +634,37 @@
     </item>
     <item>
       <title>坤卦：柔而不弱，厚德载物</title>
-      <link>https://iliu.org/kun-gua-rou-er-bu-ruo-hou-de-zai-wu/</link>
+      <link>http://localhost:1313/kun-gua-rou-er-bu-ruo-hou-de-zai-wu/</link>
       <pubDate>Thu, 05 Jun 2025 11:06:10 +0800</pubDate>
-      <guid>https://iliu.org/kun-gua-rou-er-bu-ruo-hou-de-zai-wu/</guid>
-      <description></description>
+      <guid>http://localhost:1313/kun-gua-rou-er-bu-ruo-hou-de-zai-wu/</guid>
+      <description>&lt;p&gt;《易经》六十四卦，乾坤为首。&lt;strong&gt;乾为天，坤为地&lt;/strong&gt;，一阳一阴，一动一顺。乾卦象征阳刚的创造之力，坤卦象征阴柔的承载之德。乾道成男，坤道成女，天地相合，化生万物。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>《易经》六十四卦，乾坤为首。<strong>乾为天，坤为地</strong>，一阳一阴，一动一顺。乾卦象征阳刚的创造之力，坤卦象征阴柔的承载之德。乾道成男，坤道成女，天地相合，化生万物。</p>
+<p>在传统文化中，<strong>师法天地</strong>是修身治事之本。乾代表进取，适合主导、开创；坤则代表顺承、涵养，是一切成长的土壤。</p>
+<p>南怀瑾先生在讲解《易经》时指出：“**天行健，君子以自强不息；地势坤，君子以厚德载物。**乾为体，坤为用；刚健是本质，厚德是根基。”</p>
+<h2 id="坤卦的三种精神">坤卦的三种精神</h2>
+<h3 id="一以柔克刚--柔中有力静中藏势">一、以柔克刚 —— 柔中有力，静中藏势</h3>
+<p>坤卦之道，以“柔顺”为主。但“柔”不是软弱，而是<strong>内含不争的力量</strong>。</p>
+<p>南怀瑾先生说过：“坤卦六爻皆阴，天下最柔，却能承载乾阳之刚。”正如水至柔，却能穿石；地至静，却生万物。<strong>柔顺不是被动，是主动的包容，是以退为进的智慧。</strong></p>
+<p>在现实生活中，懂得放下执念、低调做人，往往能在关键时刻化解冲突、赢得人心。</p>
+<h3 id="二辅助之道--不争之功大成于无声">二、辅助之道 —— 不争之功，大成于无声</h3>
+<p>坤卦的爻辞中说：“<strong>利牝马之贞</strong>”，比喻以母马之顺应之德，辅助乾阳之力，才能成其大业。</p>
+<p>南怀瑾指出：“坤是陪衬，但无坤则无乾之成。”这就是说，<strong>世上真正伟大的事业，都离不开默默支持的力量</strong>。在家庭中，贤妻以顺德持家；在组织中，贤臣以辅德安邦。坤之德，是无声的功劳。</p>
+<p>真正的君子，不争首功，但愿做根基。</p>
+<h3 id="三因果之理--厚德积福善有余庆">三、因果之理 —— 厚德积福，善有余庆</h3>
+<p>《坤卦·文言传》中说：“积善之家，必有余庆；积不善之家，必有余殃。”这是<strong>坤卦的因果观</strong>，也是东方文化中的伦理基础。</p>
+<p>南怀瑾认为，这句话不仅是劝人行善，更是在讲<strong>宇宙运行的深层规律</strong>。万事皆有因果，人心念一动，天地已知。行善积德，不是迷信，而是一种生命自我调整、自我圆融的方式。</p>
+<p>“厚德载物”不是一句空话，而是说：<strong>人若能有包容之心，利他之行，自然能承大任，享长福。</strong></p>
+<hr>
+<h2 id="写在最后">写在最后</h2>
+<p>乾为开创，坤为成就。一个人的力量，也许可以改变一时；而一颗柔顺而坚定的心，才能润泽万物、长养生命。</p>
+<p>在这个时代，我们每个人都在追求突破与表现，乾卦的进取精神被高度推崇。但南怀瑾提醒我们，<strong>要有乾的志向，也要有坤的德性</strong>。因为真正的伟大，不是征服，而是承载。</p>
+]]></content:encoded>
     </item>
     <item>
       <title>屯：起步的困难，是值得尊重的时刻</title>
-      <link>https://iliu.org/tun-qi-bu-de-kun-nan-shi-zhi-de-zun-zhong-de-shi-ke/</link>
+      <link>http://localhost:1313/tun-qi-bu-de-kun-nan-shi-zhi-de-zun-zhong-de-shi-ke/</link>
       <pubDate>Wed, 04 Jun 2025 11:04:41 +0800</pubDate>
-      <guid>https://iliu.org/tun-qi-bu-de-kun-nan-shi-zhi-de-zun-zhong-de-shi-ke/</guid>
+      <guid>http://localhost:1313/tun-qi-bu-de-kun-nan-shi-zhi-de-zun-zhong-de-shi-ke/</guid>
       <description>&lt;p&gt;昨天继续读《易经杂说》，读到第三卦——屯卦。卦辞写道：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;屯，元亨，利贞。勿用有攸往，利建侯。&lt;/p&gt;
@@ -641,9 +688,9 @@
     </item>
     <item>
       <title>《易经》乾卦中的“大人”</title>
-      <link>https://iliu.org/yi-jing-qian-gua-zhong-de-da-ren/</link>
+      <link>http://localhost:1313/yi-jing-qian-gua-zhong-de-da-ren/</link>
       <pubDate>Tue, 03 Jun 2025 11:10:34 +0800</pubDate>
-      <guid>https://iliu.org/yi-jing-qian-gua-zhong-de-da-ren/</guid>
+      <guid>http://localhost:1313/yi-jing-qian-gua-zhong-de-da-ren/</guid>
       <description>&lt;p&gt;在《易经》六十四卦中，乾卦被誉为“诸卦之首”，象征阳刚、天道、君子之德。其中有两处爻辞提到“利见大人”：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;九二：见龙在田，利见大人。&lt;/strong&gt;&lt;/li&gt;
@@ -698,9 +745,9 @@
     </item>
     <item>
       <title>跟着南怀瑾先生读易经（三）-乾卦</title>
-      <link>https://iliu.org/gen-zhao-nan-huai-jin-xian-sheng-du-yi-jing-san-gan-gua/</link>
+      <link>http://localhost:1313/gen-zhao-nan-huai-jin-xian-sheng-du-yi-jing-san-gan-gua/</link>
       <pubDate>Mon, 02 Jun 2025 20:47:20 +0800</pubDate>
-      <guid>https://iliu.org/gen-zhao-nan-huai-jin-xian-sheng-du-yi-jing-san-gan-gua/</guid>
+      <guid>http://localhost:1313/gen-zhao-nan-huai-jin-xian-sheng-du-yi-jing-san-gan-gua/</guid>
       <description>&lt;p&gt;《易经》六十四卦中，&lt;strong&gt;乾卦&lt;/strong&gt;排第一，六个阳爻组成，纯阳之象，代表着“天”。《易经》说：“&lt;strong&gt;天行健，君子以自强不息&lt;/strong&gt;。”南怀瑾先生说，乾卦讲的不是强硬，而是&lt;strong&gt;刚中有柔、知进知退的修行哲学&lt;/strong&gt;。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>《易经》六十四卦中，<strong>乾卦</strong>排第一，六个阳爻组成，纯阳之象，代表着“天”。《易经》说：“<strong>天行健，君子以自强不息</strong>。”南怀瑾先生说，乾卦讲的不是强硬，而是<strong>刚中有柔、知进知退的修行哲学</strong>。</p>
 <p>如果你愿意，我们可以把这六爻看作是<strong>一个人从默默无闻到巅峰，再到退场的全过程</strong>，像一条龙在云天之间起伏——人生，其实就是一场“龙的修行”。</p>
@@ -764,9 +811,9 @@
     </item>
     <item>
       <title>人生没有剧本，活着就是目的</title>
-      <link>https://iliu.org/posts/life-has-no-script/</link>
+      <link>http://localhost:1313/posts/life-has-no-script/</link>
       <pubDate>Sun, 04 May 2025 17:10:48 +0800</pubDate>
-      <guid>https://iliu.org/posts/life-has-no-script/</guid>
+      <guid>http://localhost:1313/posts/life-has-no-script/</guid>
       <description>&lt;p&gt;读南怀瑾先生文集《人生无真相》，南先生提到有次去一个大学做演讲，刚开始学校想让他谈谈人生的目的，他说人生的目的其实就是人生。&lt;/p&gt;
 &lt;p&gt;人如草芥，生于天地之间，本就没有预设的剧本。父母给予我们生命，是一种机缘，也是某种巧合。我们在烟火人间跌跌撞撞，被柴米油盐推着向前，一日三餐中奔忙，一年四季里老去。等到离开时，不过两手空空，连半片云彩都带不走。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>读南怀瑾先生文集《人生无真相》，南先生提到有次去一个大学做演讲，刚开始学校想让他谈谈人生的目的，他说人生的目的其实就是人生。</p>
@@ -785,9 +832,9 @@
     </item>
     <item>
       <title>跟着南怀瑾先生读易经Ⅱ--“时”与“位”</title>
-      <link>https://iliu.org/posts/following-master-nan-huai-chin-to-study-the-i-ching2/</link>
+      <link>http://localhost:1313/posts/following-master-nan-huai-chin-to-study-the-i-ching2/</link>
       <pubDate>Tue, 15 Apr 2025 10:58:41 +0800</pubDate>
-      <guid>https://iliu.org/posts/following-master-nan-huai-chin-to-study-the-i-ching2/</guid>
+      <guid>http://localhost:1313/posts/following-master-nan-huai-chin-to-study-the-i-ching2/</guid>
       <description>&lt;p&gt;我们常说：&lt;strong&gt;天时地利人和&lt;/strong&gt;。可这八个字里，最关键的两个，其实就是“&lt;strong&gt;时&lt;/strong&gt;”与“&lt;strong&gt;位&lt;/strong&gt;”。&lt;/p&gt;
 &lt;p&gt;南怀瑾先生在《易经杂说》里再三强调的。他讲得很直白：&lt;strong&gt;不论是科学、哲学，还是人生万事，《易经》归根到底讲的，就是“时”与“位”这两个问题。&lt;/strong&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>我们常说：<strong>天时地利人和</strong>。可这八个字里，最关键的两个，其实就是“<strong>时</strong>”与“<strong>位</strong>”。</p>
@@ -841,9 +888,9 @@
     </item>
     <item>
       <title>跟着南怀瑾先生学易经（一）</title>
-      <link>https://iliu.org/posts/following-master-nan-huai-chin-to-study-the-i-ching1/</link>
+      <link>http://localhost:1313/posts/following-master-nan-huai-chin-to-study-the-i-ching1/</link>
       <pubDate>Wed, 26 Feb 2025 10:38:45 +0800</pubDate>
-      <guid>https://iliu.org/posts/following-master-nan-huai-chin-to-study-the-i-ching1/</guid>
+      <guid>http://localhost:1313/posts/following-master-nan-huai-chin-to-study-the-i-ching1/</guid>
       <description>&lt;p&gt;最近开始看南怀瑾先生的《易经杂说》，最早接触易经里的文字大概是初一学鲁迅的《朝花夕拾》里面有：“上九，潜龙勿用”，后来才知道这是易经里的文字。学易经，首先要了解“易“这个字在易经中代表了什么。南怀瑾先生包含如下三个方面：&lt;strong&gt;不易、变易、简易&lt;/strong&gt;。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>最近开始看南怀瑾先生的《易经杂说》，最早接触易经里的文字大概是初一学鲁迅的《朝花夕拾》里面有：“上九，潜龙勿用”，后来才知道这是易经里的文字。学易经，首先要了解“易“这个字在易经中代表了什么。南怀瑾先生包含如下三个方面：<strong>不易、变易、简易</strong>。</p>
 <hr>
@@ -877,9 +924,9 @@
     </item>
     <item>
       <title>知之而后有定</title>
-      <link>https://iliu.org/posts/zhi-zhi-er-hou-you-ding/</link>
+      <link>http://localhost:1313/posts/zhi-zhi-er-hou-you-ding/</link>
       <pubDate>Sun, 19 Jan 2025 20:52:21 +0800</pubDate>
-      <guid>https://iliu.org/posts/zhi-zhi-er-hou-you-ding/</guid>
+      <guid>http://localhost:1313/posts/zhi-zhi-er-hou-you-ding/</guid>
       <description>&lt;p&gt;最近开始读南怀瑾先生的《大学微言》，《大学》是四书五经的第一本书，是古代科举考试必备的课本，是曾子的学习心得论文。《大学》开篇就说：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;大学之道，在明明德，在亲民，在止于至善。知止而后有定，定而后能静，静而后能安，安而后能虑，虑而后能得。物有本末，事有终始，知所先后，则近道矣。&lt;/p&gt;</description>
@@ -902,9 +949,9 @@
     </item>
     <item>
       <title>儒道佛修行智慧的共通之道：从《大学》看内心修养的层次性</title>
-      <link>https://iliu.org/posts/the-hierarchical-nature-of-inner-cultivation-in-the-great-learning/</link>
+      <link>http://localhost:1313/posts/the-hierarchical-nature-of-inner-cultivation-in-the-great-learning/</link>
       <pubDate>Thu, 16 Jan 2025 15:04:47 +0800</pubDate>
-      <guid>https://iliu.org/posts/the-hierarchical-nature-of-inner-cultivation-in-the-great-learning/</guid>
+      <guid>http://localhost:1313/posts/the-hierarchical-nature-of-inner-cultivation-in-the-great-learning/</guid>
       <description>&lt;p&gt;《大学》作为儒家经典之一，深刻阐述了修身、齐家、治国、平天下的思想，其中“知止而后有定，定而后能静，静而后能安，安而后能虑，虑而后能得”这一段话，体现了儒家修身的层次性和系统性。这一思想不仅影响了儒家的学问和实践，也深刻影响了道家与佛家的修行方法。道家强调顺应自然、追求无为，而佛家则强调内心的清净与觉悟，二者虽在表面上有所不同，但都或多或少借鉴了儒家修行的步骤。本文将探讨儒家修行方法的核心内容，并分析其在道家与佛家修行中的应用与转化。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>《大学》作为儒家经典之一，深刻阐述了修身、齐家、治国、平天下的思想，其中“知止而后有定，定而后能静，静而后能安，安而后能虑，虑而后能得”这一段话，体现了儒家修身的层次性和系统性。这一思想不仅影响了儒家的学问和实践，也深刻影响了道家与佛家的修行方法。道家强调顺应自然、追求无为，而佛家则强调内心的清净与觉悟，二者虽在表面上有所不同，但都或多或少借鉴了儒家修行的步骤。本文将探讨儒家修行方法的核心内容，并分析其在道家与佛家修行中的应用与转化。</p>
 <h3 id="儒家修行的核心思想">儒家修行的核心思想</h3>
@@ -940,9 +987,9 @@
     </item>
     <item>
       <title>厚积薄发：从《逍遥游》看人生的哲理</title>
-      <link>https://iliu.org/posts/life-philosophy-from-xiaoyao-you/</link>
+      <link>http://localhost:1313/posts/life-philosophy-from-xiaoyao-you/</link>
       <pubDate>Tue, 07 Jan 2025 17:20:39 +0800</pubDate>
-      <guid>https://iliu.org/posts/life-philosophy-from-xiaoyao-you/</guid>
+      <guid>http://localhost:1313/posts/life-philosophy-from-xiaoyao-you/</guid>
       <description>&lt;p&gt;再次读南怀瑾先生的《庄子南华》，不愧是经典的著作，每次读，都有不同的感受，每次读都是对自己思想的一种升华和洗涤。《逍遥游》是庄子内七篇之一，表达了庄子关于自由、无拘无束的追求，以及“天人合一”的思想。在其中，庄子通过比喻、寓言等手法，阐述了人应如何达到内心的“逍遥”，如何突破局限，如何理解“天地有大美而不言”的深远含义，而在当今社会，这种“大气”的境界与“厚积薄发”的人生智慧，对我们仍然具有深远的启发。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>再次读南怀瑾先生的《庄子南华》，不愧是经典的著作，每次读，都有不同的感受，每次读都是对自己思想的一种升华和洗涤。《逍遥游》是庄子内七篇之一，表达了庄子关于自由、无拘无束的追求，以及“天人合一”的思想。在其中，庄子通过比喻、寓言等手法，阐述了人应如何达到内心的“逍遥”，如何突破局限，如何理解“天地有大美而不言”的深远含义，而在当今社会，这种“大气”的境界与“厚积薄发”的人生智慧，对我们仍然具有深远的启发。</p>
 <h3 id="大气的境界超越眼前的困境">大气的境界——超越眼前的困境</h3>
@@ -957,9 +1004,9 @@
     </item>
     <item>
       <title>大宋朝的那些奇葩事</title>
-      <link>https://iliu.org/posts/the-quirky-incidents-of-the-song-dynasty/</link>
+      <link>http://localhost:1313/posts/the-quirky-incidents-of-the-song-dynasty/</link>
       <pubDate>Wed, 27 Nov 2024 07:25:18 -0500</pubDate>
-      <guid>https://iliu.org/posts/the-quirky-incidents-of-the-song-dynasty/</guid>
+      <guid>http://localhost:1313/posts/the-quirky-incidents-of-the-song-dynasty/</guid>
       <description>&lt;p&gt;曾经和一个同学讨论如果穿越的话最想穿越到哪个朝代的话题，那个同学说，最希望能穿越到宋朝。我问他原因，他说，宋朝可以说是一个对文人最友好的朝代了。
 &lt;img alt=&#34;宋朝&#34; loading=&#34;lazy&#34; src=&#34;https://ewader.s3.bitiful.net/blog/songchao.png&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>曾经和一个同学讨论如果穿越的话最想穿越到哪个朝代的话题，那个同学说，最希望能穿越到宋朝。我问他原因，他说，宋朝可以说是一个对文人最友好的朝代了。
@@ -977,9 +1024,9 @@
     </item>
     <item>
       <title>关二爷大意失荆州，冤枉吗？</title>
-      <link>https://iliu.org/posts/guan-yu-lost-jingzhou-due-to-carelessness/</link>
+      <link>http://localhost:1313/posts/guan-yu-lost-jingzhou-due-to-carelessness/</link>
       <pubDate>Thu, 14 Nov 2024 20:17:52 -0500</pubDate>
-      <guid>https://iliu.org/posts/guan-yu-lost-jingzhou-due-to-carelessness/</guid>
+      <guid>http://localhost:1313/posts/guan-yu-lost-jingzhou-due-to-carelessness/</guid>
       <description>&lt;p&gt;我们经常听到这么一句话，“关羽大意失荆州”，那么荆州的丢失真的是关羽的锅吗？或者说蜀汉集团就没有一点责任吗？&lt;/p&gt;
 &lt;p&gt;关羽在出征之前其实也防备着孙权的偷袭，所以留下麋芳、傅士仁来看家，并且沿江还设置了很多烽火台，只要有一点风吹草动，他就可以回兵增援，在他看来这是万无一失的，糜芳是他大哥的大舅子，怎么也不会胳膊肘往外拐啊，但吃亏就吃亏到这。
 &lt;img alt=&#34;关羽大意失荆州&#34; loading=&#34;lazy&#34; src=&#34;https://ewader.s3.bitiful.net/blog/764dad389e644b11804d6442430847d1_1084853753.png&#34;&gt;&lt;/p&gt;</description>
@@ -1004,9 +1051,9 @@
     </item>
     <item>
       <title>小城与不确定性墙</title>
-      <link>https://iliu.org/posts/the-small-town-and-the-wall-of-uncertainty/</link>
+      <link>http://localhost:1313/posts/the-small-town-and-the-wall-of-uncertainty/</link>
       <pubDate>Tue, 29 Oct 2024 08:12:30 -0400</pubDate>
-      <guid>https://iliu.org/posts/the-small-town-and-the-wall-of-uncertainty/</guid>
+      <guid>http://localhost:1313/posts/the-small-town-and-the-wall-of-uncertainty/</guid>
       <description>&lt;p&gt;村上春树的最新作品，微信读书里推荐的。老刘本身也不是村上的粉丝，以前也没有看过他的作品，只是听说名气很大，抱着试试看的想法打开了这本书。&lt;/p&gt;
 &lt;p&gt;这是一个简单的故事，简单的主人公，简单的女主，简单的故事情节，简单的人际关系，总之一切都很简单，整本小说，出场的人物屈指可数，就算出场的人物也没有什么复杂的心理活动，大概类似于游戏中的NPC吧。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>村上春树的最新作品，微信读书里推荐的。老刘本身也不是村上的粉丝，以前也没有看过他的作品，只是听说名气很大，抱着试试看的想法打开了这本书。</p>
@@ -1017,9 +1064,9 @@
     </item>
     <item>
       <title>谋占田园决生败子</title>
-      <link>https://iliu.org/posts/plotting-to-occupy-farmland-breeds-a-spendthrift/</link>
+      <link>http://localhost:1313/posts/plotting-to-occupy-farmland-breeds-a-spendthrift/</link>
       <pubDate>Mon, 16 Sep 2024 04:10:57 -0400</pubDate>
-      <guid>https://iliu.org/posts/plotting-to-occupy-farmland-breeds-a-spendthrift/</guid>
+      <guid>http://localhost:1313/posts/plotting-to-occupy-farmland-breeds-a-spendthrift/</guid>
       <description>&lt;p&gt;前几天看弘一法师的《悲欣交集》的时候，法师提到了一本名字叫《格言联璧》的书，说这边书是他的手边书，时常会翻阅。于是我就在微信读书了找到这本书看下。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>前几天看弘一法师的《悲欣交集》的时候，法师提到了一本名字叫《格言联璧》的书，说这边书是他的手边书，时常会翻阅。于是我就在微信读书了找到这本书看下。</p>
 <p>这本书类似于《增广贤文》，但是比前者文言文的成分更多一些，所以不是太适合孩子启蒙的适合使用，因此也流传的不广。本书为清代学者金缨所编。全书主要内容包括学问、存养、持躬、摄生、敦品、处事、接物、齐家、从政、惠吉、悖凶、丽藻等十一类，按儒家大学、中庸之道，以“诚意”“正心”“格物”“致知”“修身”“齐家”“治国”“平天下”等主要内容为框架，可以说是一座包罗万象的格言宝库。我们耳熟能详的“静坐常思己过，闲谈莫论人非”就是出自本书。</p>
@@ -1034,9 +1081,9 @@
     </item>
     <item>
       <title>不看报纸</title>
-      <link>https://iliu.org/posts/do-not-read-newspapers/</link>
+      <link>http://localhost:1313/posts/do-not-read-newspapers/</link>
       <pubDate>Thu, 12 Sep 2024 23:09:59 -0400</pubDate>
-      <guid>https://iliu.org/posts/do-not-read-newspapers/</guid>
+      <guid>http://localhost:1313/posts/do-not-read-newspapers/</guid>
       <description>&lt;p&gt;最近读李叔同（弘一法师）的文集《悲欣交集——李叔同人生感悟》这本书，里面弘一法师谈到改习惯的事情，是1933年秋在泉州承天寺演讲时候的文字。其中说到和学律的道侣一起改正的七条习惯，其他的都不说了，我觉得其中一条叫作不阅报纸值得我们借鉴：&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>最近读李叔同（弘一法师）的文集《悲欣交集——李叔同人生感悟》这本书，里面弘一法师谈到改习惯的事情，是1933年秋在泉州承天寺演讲时候的文字。其中说到和学律的道侣一起改正的七条习惯，其他的都不说了，我觉得其中一条叫作不阅报纸值得我们借鉴：</p>
 <blockquote>
@@ -1060,9 +1107,9 @@
     </item>
     <item>
       <title>如何理解佛教所说的众生皆苦？</title>
-      <link>https://iliu.org/posts/how-to-understand-the-buddhist-concept-that-all-sentient-beings-suffer/</link>
+      <link>http://localhost:1313/posts/how-to-understand-the-buddhist-concept-that-all-sentient-beings-suffer/</link>
       <pubDate>Tue, 10 Sep 2024 12:41:49 +0800</pubDate>
-      <guid>https://iliu.org/posts/how-to-understand-the-buddhist-concept-that-all-sentient-beings-suffer/</guid>
+      <guid>http://localhost:1313/posts/how-to-understand-the-buddhist-concept-that-all-sentient-beings-suffer/</guid>
       <description>&lt;p&gt;按照佛教的说法，我们所在的这个世界名字是&lt;code&gt;婆娑世界&lt;/code&gt;，也就是说，可堪忍受的世界，不完美的世界，这个世界的众生都生活在苦海之中。有人说了，佛说的不对，我现在的生活就很幸福呀，身体健康，没有外债，夫妻和睦，儿女懂事&amp;hellip;&amp;hellip;，哪有什么苦头吃哟，或者说，你看看那某思聪，天天当新郎、爷爷入洞房，享不尽的荣华富贵，天天都在快乐之中，哪来的苦？&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>按照佛教的说法，我们所在的这个世界名字是<code>婆娑世界</code>，也就是说，可堪忍受的世界，不完美的世界，这个世界的众生都生活在苦海之中。有人说了，佛说的不对，我现在的生活就很幸福呀，身体健康，没有外债，夫妻和睦，儿女懂事&hellip;&hellip;，哪有什么苦头吃哟，或者说，你看看那某思聪，天天当新郎、爷爷入洞房，享不尽的荣华富贵，天天都在快乐之中，哪来的苦？</p>
 <p><img alt="无常故苦" loading="lazy" src="https://s2.l22.org/2024-09-10-12-35-16.png"></p>
@@ -1089,9 +1136,9 @@
     </item>
     <item>
       <title>闲时多读佛经</title>
-      <link>https://iliu.org/posts/free-time-reading-buddhist-scriptures/</link>
+      <link>http://localhost:1313/posts/free-time-reading-buddhist-scriptures/</link>
       <pubDate>Sat, 03 Aug 2024 14:10:00 +0800</pubDate>
-      <guid>https://iliu.org/posts/free-time-reading-buddhist-scriptures/</guid>
+      <guid>http://localhost:1313/posts/free-time-reading-buddhist-scriptures/</guid>
       <description>&lt;p&gt;在当今这个快节奏的社会里，人们似乎总是在追求更快、更高效的生活方式。这种背景下，短视频以其短小精悍、内容丰富的特点迅速占据了人们的闲暇时光。然而，当越来越多的人沉迷于短视频无法自拔时，我们不得不思考：这种快节奏的娱乐方式，是否真的对我们的心灵有益？&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>在当今这个快节奏的社会里，人们似乎总是在追求更快、更高效的生活方式。这种背景下，短视频以其短小精悍、内容丰富的特点迅速占据了人们的闲暇时光。然而，当越来越多的人沉迷于短视频无法自拔时，我们不得不思考：这种快节奏的娱乐方式，是否真的对我们的心灵有益？</p>
 <p>不难发现，经常沉浸在短视频中的人，往往更容易脾气暴躁、耐心不足。对这个老刘是有亲身体会的，孩子只要有一段时间放松了对手机管制，她的脾气就会很坏。短视频的即时的满足感，无形中加剧了现代社会的浮躁氛围。人们在这种连续不断的刺激中，也更容易被外界的微小刺激所触动，导致情绪波动增大，老刘认为，现在很多人之所以戾气那么大，和短视频的普及不无关系。短视频的普及，或许在不经意间，成为了社会情绪浮躁的一剂催化剂。</p>
@@ -1108,9 +1155,9 @@
     </item>
     <item>
       <title>谈谈了凡四训中的八种善</title>
-      <link>https://iliu.org/posts/true-goodness-the-power-deep-within-soul/</link>
+      <link>http://localhost:1313/posts/true-goodness-the-power-deep-within-soul/</link>
       <pubDate>Mon, 17 Jun 2024 14:24:46 +0800</pubDate>
-      <guid>https://iliu.org/posts/true-goodness-the-power-deep-within-soul/</guid>
+      <guid>http://localhost:1313/posts/true-goodness-the-power-deep-within-soul/</guid>
       <description>&lt;p&gt;《了凡四训》是明代著名思想家袁黄（袁了凡）的著作，该书以家训的形式，传授了修身、齐家、治国、平天下的道理。其中，袁老讲到的真善、伪善等的概念，确实令人振聋发聩，以至于净土宗的净空法师等都推荐弟子学习了凡四训，净空法师还专门录的有相关的讲座。其中，了凡先生所阐述的八种善，对于我们理解行善的真谛和实践有着重要的指导意义。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>《了凡四训》是明代著名思想家袁黄（袁了凡）的著作，该书以家训的形式，传授了修身、齐家、治国、平天下的道理。其中，袁老讲到的真善、伪善等的概念，确实令人振聋发聩，以至于净土宗的净空法师等都推荐弟子学习了凡四训，净空法师还专门录的有相关的讲座。其中，了凡先生所阐述的八种善，对于我们理解行善的真谛和实践有着重要的指导意义。</p>
 <p>一、真善与假善——探寻行善的真实动机</p>
@@ -1133,9 +1180,9 @@
     </item>
     <item>
       <title>客观的谈谈徐文兵和《黄帝内经说什么》这本书</title>
-      <link>https://iliu.org/posts/objective-evaluation-of-xu-wenbing/</link>
+      <link>http://localhost:1313/posts/objective-evaluation-of-xu-wenbing/</link>
       <pubDate>Thu, 07 Dec 2023 20:57:23 +0800</pubDate>
-      <guid>https://iliu.org/posts/objective-evaluation-of-xu-wenbing/</guid>
+      <guid>http://localhost:1313/posts/objective-evaluation-of-xu-wenbing/</guid>
       <description>&lt;p&gt;徐文兵可以说是一个网红的中医科普者，网上对他的评价争议很大，呈两极分化。爱他的人把他夸上天，几万的学费都是小菜，骂他的人都说他是骗子。&lt;/p&gt;
 &lt;p&gt;作为把这6本书的都看了一遍的读者，我觉得我是那个可以做一点评价的人。总体来说，这套书是一套非常不错的中医科普读物，只是夹杂了他的一些私货而已。就书中的内容，老刘总结如下：&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>徐文兵可以说是一个网红的中医科普者，网上对他的评价争议很大，呈两极分化。爱他的人把他夸上天，几万的学费都是小菜，骂他的人都说他是骗子。</p>
@@ -1165,9 +1212,9 @@
     </item>
     <item>
       <title>巫</title>
-      <link>https://iliu.org/posts/about-wu/</link>
+      <link>http://localhost:1313/posts/about-wu/</link>
       <pubDate>Sun, 03 Dec 2023 21:02:15 +0800</pubDate>
-      <guid>https://iliu.org/posts/about-wu/</guid>
+      <guid>http://localhost:1313/posts/about-wu/</guid>
       <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;昨天晚上看徐文兵老师的《黄帝内经讲什么》这本书。开篇将黄帝“生而神灵”这句话的时候，提到了巫这个字。徐老师认为，巫在上古的时候，是一个最具有智慧的人，而现在一提到巫，我们想象到都是巫婆神汉等贬义的东西，不能不说是一种遗憾。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h2 id="前言">前言</h2>
@@ -1194,9 +1241,9 @@
     </item>
     <item>
       <title>有用还是无用？</title>
-      <link>https://iliu.org/posts/useful-or-not/</link>
+      <link>http://localhost:1313/posts/useful-or-not/</link>
       <pubDate>Tue, 28 Nov 2023 21:06:26 +0800</pubDate>
-      <guid>https://iliu.org/posts/useful-or-not/</guid>
+      <guid>http://localhost:1313/posts/useful-or-not/</guid>
       <description>&lt;p&gt;最近博客群里看到这么一句话，大概的意思是少折腾一些时间管理、笔记软件、个人提升等等这方面的工具，应该把时间放在实现自己目标的地方。&lt;/p&gt;
 &lt;p&gt;其实这么说也没错，现在这类的工具是层出不穷，有All in one的，有专注于某一个方面的，作为吃瓜群众，往往挑花了眼，试试这个，玩玩那个，最终的结果是，哪个软件都存在不如意的地方。从这方面说，这是对的，我们都知道过犹不及，适可而止。但是往往却把握不到这个度。极在哪里？可能每个人都不一样。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>最近博客群里看到这么一句话，大概的意思是少折腾一些时间管理、笔记软件、个人提升等等这方面的工具，应该把时间放在实现自己目标的地方。</p>
@@ -1212,9 +1259,9 @@
     </item>
     <item>
       <title>Miscellaneous Notes 1</title>
-      <link>https://iliu.org/posts/miscellaneous-notes-1/</link>
+      <link>http://localhost:1313/posts/miscellaneous-notes-1/</link>
       <pubDate>Sun, 26 Nov 2023 21:08:41 +0800</pubDate>
-      <guid>https://iliu.org/posts/miscellaneous-notes-1/</guid>
+      <guid>http://localhost:1313/posts/miscellaneous-notes-1/</guid>
       <description>&lt;p&gt;本文整理自flomo，记录近一段时间读书笔记、自己的感悟以及其他的一些乱七八糟的事情，所以叫杂记！&lt;/p&gt;
 &lt;h2 id=&#34;读书&#34;&gt;读书&lt;/h2&gt;
 &lt;p&gt;这段时间主要读了冯友兰先生的《中国哲学简史》、南怀瑾老师的《老子他说》、罗伯特.赖特《为什么佛学是真的》以及吴怡先生的《我在美国讲易经》。其中只有《为什么佛学是真的》算是看完了，其他几本书都是在看，为什么会同时看基本书？是因为我发现，只看一本书，不容易记住书中的内容，几本书一起开，这本看一两章，那本看一两章，反而记忆的比较清楚。&lt;/p&gt;</description>
@@ -1297,9 +1344,9 @@
     </item>
     <item>
       <title>金刚萨埵心咒</title>
-      <link>https://iliu.org/posts/vajrasattva-mantra/</link>
+      <link>http://localhost:1313/posts/vajrasattva-mantra/</link>
       <pubDate>Tue, 14 Nov 2023 21:13:59 +0800</pubDate>
-      <guid>https://iliu.org/posts/vajrasattva-mantra/</guid>
+      <guid>http://localhost:1313/posts/vajrasattva-mantra/</guid>
       <description>&lt;p&gt;这些天总时不时的回想起小学二年级的时候做的一件错事。那天老师有事，让我和另一个女生管纪律，我管男生，她管女生。就是把违反纪律的同学的名单记下来，等他来了交给他。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>这些天总时不时的回想起小学二年级的时候做的一件错事。那天老师有事，让我和另一个女生管纪律，我管男生，她管女生。就是把违反纪律的同学的名单记下来，等他来了交给他。</p>
 <p>我当时比较傻，就老老实实的记，谁上课说话了啊、到处乱跑啊之类的都记记下来，后来下课的时候，班里有一个同学，和一个一年级的口角了几句，那个女孩就撺掇着让也也记下来，我看她也记了不少，然后我就记下来，某某某和一年级吵架……</p>
@@ -1317,9 +1364,9 @@
     </item>
     <item>
       <title>逸马杀犬于道</title>
-      <link>https://iliu.org/4306.html</link>
+      <link>http://localhost:1313/4306.html</link>
       <pubDate>Sat, 26 Nov 2022 02:28:43 +0000</pubDate>
-      <guid>https://iliu.org/4306.html</guid>
+      <guid>http://localhost:1313/4306.html</guid>
       <description>&lt;p&gt;读南怀瑾老先生的《孟子旁通》，里面讲道一个小故事，以说明古人对于文字精练的要求。&lt;/p&gt;
 &lt;blockquote class=&#34;wp-block-quote is-layout-flow wp-block-quote-is-layout-flow&#34;&gt;
   &lt;p&gt;
@@ -1338,9 +1385,9 @@
     </item>
     <item>
       <title>人似秋鸿来有信，事如春梦了无痕</title>
-      <link>https://iliu.org/3761.html</link>
+      <link>http://localhost:1313/3761.html</link>
       <pubDate>Fri, 28 May 2021 02:17:08 +0000</pubDate>
-      <guid>https://iliu.org/3761.html</guid>
+      <guid>http://localhost:1313/3761.html</guid>
       <description>&lt;p&gt;最近在读南怀瑾老先生讲的《金刚经说什么》的书。老刘以前对于佛经一直抱着敬而远之的态度，感觉都是一些玄之又玄的东西。可是看了南老先生讲解后，发现其实，佛经其实就是讲的一种人对自然，对事物，对生活的一种态度和意境。佛经记录的是释迦摩尼对于弟子的教导的一些言论。佛经和《论语》是一类的经典。另外一个对佛经敬而远之的心态在于，一直觉得佛经是外来的东西，特别是印度发生的一些事情，让老刘对印度没有多少好感，其实是老刘着相了，现在印度的佛教已经没有多少人了，印度人信仰的是印度教，和佛教有着本质的区别的，老刘以前一直觉得印度教就是佛教。而佛经经过中国古代这么多先贤的注解翻译吸收其他宗教（特别是道教）的精华等，已经完全变成了中国传统文化的一部分。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>最近在读南怀瑾老先生讲的《金刚经说什么》的书。老刘以前对于佛经一直抱着敬而远之的态度，感觉都是一些玄之又玄的东西。可是看了南老先生讲解后，发现其实，佛经其实就是讲的一种人对自然，对事物，对生活的一种态度和意境。佛经记录的是释迦摩尼对于弟子的教导的一些言论。佛经和《论语》是一类的经典。另外一个对佛经敬而远之的心态在于，一直觉得佛经是外来的东西，特别是印度发生的一些事情，让老刘对印度没有多少好感，其实是老刘着相了，现在印度的佛教已经没有多少人了，印度人信仰的是印度教，和佛教有着本质的区别的，老刘以前一直觉得印度教就是佛教。而佛经经过中国古代这么多先贤的注解翻译吸收其他宗教（特别是道教）的精华等，已经完全变成了中国传统文化的一部分。</p>
 <blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
@@ -1354,9 +1401,9 @@
     </item>
     <item>
       <title>床前明月光的“床”是什么意思？</title>
-      <link>https://iliu.org/3636.html</link>
+      <link>http://localhost:1313/3636.html</link>
       <pubDate>Sun, 31 Jan 2021 08:25:13 +0000</pubDate>
-      <guid>https://iliu.org/3636.html</guid>
+      <guid>http://localhost:1313/3636.html</guid>
       <description>&lt;p&gt;早上女儿问我一个课外班的题，类似与中国诗词大会上的那种出一副画然后猜诗的那种。有几幅图挺好猜，但是有一副图是一个书生坐在一个栏杆边，抬头看着天空的月亮和女儿产生了争执。我说应该是“床前明月光”。女儿说这就没有床啊。我说，我的印象中，这个床字是应该井栏的意思。后来查了一下，关于这个床字，目前还有诸多的争执。## 第一种说法：床通窗&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>早上女儿问我一个课外班的题，类似与中国诗词大会上的那种出一副画然后猜诗的那种。有几幅图挺好猜，但是有一副图是一个书生坐在一个栏杆边，抬头看着天空的月亮和女儿产生了争执。我说应该是“床前明月光”。女儿说这就没有床啊。我说，我的印象中，这个床字是应该井栏的意思。后来查了一下，关于这个床字，目前还有诸多的争执。## 第一种说法：床通窗</p>
 <p>意思是窗前明月光，还有解释成窗户纸的。但是老刘不认可这种说法，从杜甫的那首“窗含西岭千秋雪”中，我们可以看到，在唐朝，是有“窗”这个字的，通假字只是没有这个字，用别的字来替代，这样来说的花，既然有这个窗字，那么就没有可能用床来替代窗。因此这种说法，老刘是不认可的。</p>
@@ -1368,9 +1415,9 @@
     </item>
     <item>
       <title>关于风水，风水都是骗人的吗？</title>
-      <link>https://iliu.org/2626.html</link>
+      <link>http://localhost:1313/2626.html</link>
       <pubDate>Thu, 22 Aug 2019 08:54:06 +0000</pubDate>
-      <guid>https://iliu.org/2626.html</guid>
+      <guid>http://localhost:1313/2626.html</guid>
       <description>&lt;hr&gt;
 &lt;p&gt;tags:
 在ＫＩＮＤＬＥ上随便找书看，发现了一本写风水的书，就随便翻了翻。以前觉得风水都是迷信居多，但是看了之后发现，风水也不完全是一无是处。风水是中华民族历史悠久的一门玄术，也称青乌术、青囊术，较为学术性的说法叫做堪舆。风水是自然界的力量，是宇宙的大磁场能量。风就是元气和场能，水就是流动和变化。风水本为相地之术，即临场校察地理的方法，也叫地相、古称堪舆术，它是一种研究环境与宇宙规律的哲学，人既然是自然的一部分，自然也是人的一部分，达到“天人合一”的境界。风水的创始人是道家女神九天玄女，比较完善的风水学问兴起于战国时代。风水的核心思想是人与大自然的和谐，达到“天人合一”，早期的风水主要关乎宫殿、住宅、村落、墓地的选址、座向、建设等方法及原则，为选择合适的地方的一门玄学。 风水有两种释义，其一水肿病的一种，多由风邪侵袭，肺气失于宣降、不能通调水道、水湿潴留体内所致。其二指住宅基地、坟地等的自然形势，如地脉、山水的方向等的体系。风”就是气氛和场能，“水”就是流动和变化。风水有五个方面，我觉得这个理论无论是用在装修中还是生活中都合适：&lt;/p&gt;</description>
@@ -1391,9 +1438,9 @@
     </item>
     <item>
       <title>浅评《长安十二时辰》书</title>
-      <link>https://iliu.org/2227.html</link>
+      <link>http://localhost:1313/2227.html</link>
       <pubDate>Mon, 01 Jul 2019 02:37:41 +0000</pubDate>
-      <guid>https://iliu.org/2227.html</guid>
+      <guid>http://localhost:1313/2227.html</guid>
       <description>&lt;p&gt;偶尔在电视上看到《长安十二时辰》的宣传海报，看评论分数很高。电视剧只看了半集，感觉还行，因为电视被放假的女儿霸占，所以不得不看小说来了解这部作品。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>偶尔在电视上看到《长安十二时辰》的宣传海报，看评论分数很高。电视剧只看了半集，感觉还行，因为电视被放假的女儿霸占，所以不得不看小说来了解这部作品。</p>
 <p>这部作品是<strong>马伯庸所著</strong>，情节跌宕起伏。故事设定在上元节前夕，长安城混入可疑人员，身陷囹圄的张小敬临危受命，与少年天才李必携手，在十二时辰内破除隐患。全篇运用了创新的探案剧集结构与人物关系设定，把故事嵌套在当时的世界文化中心——长安。它在展现跌宕紧凑的故事架构、反脸谱化的英雄人物、脑洞大开的细节设计的同时，也带给读者丰富的文化价值。</p>

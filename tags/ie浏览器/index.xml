@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Ie浏览器 on 老刘博客</title>
-    <link>https://iliu.org/tags/ie%E6%B5%8F%E8%A7%88%E5%99%A8/</link>
+    <link>http://localhost:1313/tags/ie%E6%B5%8F%E8%A7%88%E5%99%A8/</link>
     <description>Recent content in Ie浏览器 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 26 May 2022 01:55:15 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/ie%E6%B5%8F%E8%A7%88%E5%99%A8/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/ie%E6%B5%8F%E8%A7%88%E5%99%A8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Windows11 如何使用ie浏览器</title>
-      <link>https://iliu.org/4120.html</link>
+      <link>http://localhost:1313/4120.html</link>
       <pubDate>Thu, 26 May 2022 01:55:15 +0000</pubDate>
-      <guid>https://iliu.org/4120.html</guid>
+      <guid>http://localhost:1313/4120.html</guid>
       <description>&lt;p&gt;windows11已经抛弃了ie浏览器，但是有一些场合必须要使用，比如现在各大银行的u盾还不支持edge，有很多同学到处找IE这个软件，其实大可不必。windows11目前只是暂时屏蔽了IE而已。点击“查找”，搜索“控制面板”&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>windows11已经抛弃了ie浏览器，但是有一些场合必须要使用，比如现在各大银行的u盾还不支持edge，有很多同学到处找IE这个软件，其实大可不必。windows11目前只是暂时屏蔽了IE而已。点击“查找”，搜索“控制面板”</p>
 <p>在“控制面板”中点击“Internet选项”<figure class="wp-block-image size-full"></p>

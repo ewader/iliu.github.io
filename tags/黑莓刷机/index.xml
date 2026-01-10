@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>黑莓刷机 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E9%BB%91%E8%8E%93%E5%88%B7%E6%9C%BA/</link>
+    <link>http://localhost:1313/tags/%E9%BB%91%E8%8E%93%E5%88%B7%E6%9C%BA/</link>
     <description>Recent content in 黑莓刷机 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 03 Nov 2010 13:15:12 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E9%BB%91%E8%8E%93%E5%88%B7%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E9%BB%91%E8%8E%93%E5%88%B7%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>黑莓blackberry 刷机过程&#43;方法</title>
-      <link>https://iliu.org/973.html</link>
+      <link>http://localhost:1313/973.html</link>
       <pubDate>Wed, 03 Nov 2010 13:15:12 +0000</pubDate>
-      <guid>https://iliu.org/973.html</guid>
+      <guid>http://localhost:1313/973.html</guid>
       <description>&lt;p&gt;其实可以说，黑莓手机的刷机是所有智能手机里面最简单的，而且一般情况下，黑莓手机是刷不死的，不像别的操作系统的手机，有很大的可能性被刷死。但是随着黑莓在中国的用户群体越来越大，很多黑莓爱好者都会遇到刷机的经历，不过可能是太简单了，各大黑莓论坛都没有详细讲解黑莓的刷价过程及方法，本文就是从个人的刷机经历给大家分享。&lt;br&gt;
 首先是准备工作，要下几个必须的软件，一个是黑莓的桌面软件，BlackBerry Desktop Software，一个是黑莓机型对应的ROM，BlackBerry Desktop Software建议大家用5.0的，4系列虽然很简单，但是由于比较陈旧了，功能受到很大的限制，至于黑莓机型对应的ROM大家可以去官网或者各黑莓论坛搜索，最后一个是一个名字叫做wipe的批处理文件，wipe的应用方法后面的步骤会说到。这个本站就不提供下载的地址和链接了。&lt;figure class=&#34;content-img-box&#34; id=&#34;2298&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>其实可以说，黑莓手机的刷机是所有智能手机里面最简单的，而且一般情况下，黑莓手机是刷不死的，不像别的操作系统的手机，有很大的可能性被刷死。但是随着黑莓在中国的用户群体越来越大，很多黑莓爱好者都会遇到刷机的经历，不过可能是太简单了，各大黑莓论坛都没有详细讲解黑莓的刷价过程及方法，本文就是从个人的刷机经历给大家分享。<br>

@@ -1,94 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Pages on 老刘博客</title>
-    <link>http://localhost:1313/page/</link>
-    <description>Recent content in Pages on 老刘博客</description>
-    <image>
-      <title>老刘博客</title>
-      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
-      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
-    </image>
-    <generator>Hugo -- 0.152.2</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/page/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>about</title>
-      <link>http://localhost:1313/page/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/page/about/</guid>
-      <description>&lt;p&gt;老刘，70后，生于甘肃兰州，河南农村长大，2002年毕业于郑州大学商学院。毕业后，从事人力资源等相关工作时接触视光行业，并产生了浓厚的兴趣。遂系统学习相关知识，曾担任某眼科医院视光部主任，后开办视光工作室。 博客为业余爱好&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>老刘，70后，生于甘肃兰州，河南农村长大，2002年毕业于郑州大学商学院。毕业后，从事人力资源等相关工作时接触视光行业，并产生了浓厚的兴趣。遂系统学习相关知识，曾担任某眼科医院视光部主任，后开办视光工作室。 博客为业余爱好</p>
-<h3 id="关于博客">关于博客</h3>
-<p><del>博客在2023年改名图南博客，名取自于《庄子-逍遥游》,看到大鹏绝云气，负青天，然后图南。心向往之。</del> 至于文章的水平，非常一般，只是记录流水账，借用王士祯评价《聊斋志异》的一句诗：“姑妄言之姑听之,豆棚瓜架雨如丝”。文笔有限，观点不一定对，随便看看就好。</p>
-<h2 id="博客历史">博客历史</h2>
-<p>博客始建于2009年，当时女儿即将出生，想要把它作为女儿的成长记录，取我名字的一个字和媳妇名字的一个字，合称华彩生活。后由于医院工作繁忙，停更了一段时间（确切的说是好几年）。</p>
-<ul>
-<li>
-<p>2009年1月，开始记录生活，从我和老婆的名字里各取一个子，组成华彩生活</p>
-</li>
-<li>
-<p>2015年重开博，内容包括视光方面已经生活方面。</p>
-</li>
-<li>
-<p>2019年，拆分博客，博客仅记录生活，改名为跋涉者，后改名为流金岁月。</p>
-</li>
-<li>
-<p>2023年5月，改名图南博客。</p>
-</li>
-<li>
-<p>2023年8月，调整栏目。栏目的名称取自 《庄子》</p>
-<ul>
-<li>所有生活方面的内容归于人间世</li>
-<li>所有折腾的、教程类的、杂项的都归于齐物论</li>
-<li>读书以及读书笔记之类的，归档与德充符</li>
-</ul>
-</li>
-<li>
-<p>2023年11月，放弃WordPress改用Hugo</p>
-</li>
-<li>
-<p>2023年11月2日，使用artalk作为后端的评论系统</p>
-</li>
-<li>
-<p>2023年11月6日，删除评论系统，回归纯粹静态博客。</p>
-</li>
-<li>
-<p>2023年11月28日，感觉到评价类型的友情链接，都是自我感觉，评价难免有误导之嫌，所以重新设计友情链接样式，待续中……</p>
-</li>
-<li>
-<p>2023年11月29日，启用域名tunan.org</p>
-</li>
-<li>
-<p>2024年8月20日，因重置电脑导致本地数据清空，决定 图南博客 不再更新</p>
-</li>
-<li>
-<p>2024年8月28日，重新启用 iliu.org 域名，名称也重新改为流金岁月</p>
-</li>
-<li>
-<p>2025年6月1日，恰逢儿童节，博客名字改为老刘博客，采用Ghost系统。</p>
-</li>
-<li>
-<p>2025年8月7日，升级为Ghost6.0.</p>
-</li>
-<li>
-<p>2025年10月9日，换回Hugo</p>
-</li>
-</ul>
-<h2 id="rss订阅">RSS订阅</h2>
-<p><a href="https://iliu.org/index.xml">老刘博客</a></p>
-<h3></h3>
-<h2 id="我的公众号">我的公众号</h2>
-<p>公众号也注册了有十年了，只不过一直没有认真的在上面写作，偶尔把博客的文章和一些关于验光配镜于眼睛防护方面的文章发到上面，有兴趣的朋友可以关注一下：</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Links</title>
-      <link>http://localhost:1313/page/links/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/page/links/</guid>
-      <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Pages on 老刘博客</title>
+        <link>http://localhost:1313/page/</link>
+        <description>Recent content in Pages on 老刘博客</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>老刘</copyright>
+        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Archives</title>
+        <link>http://localhost:1313/archives/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Links</title>
+        <link>http://localhost:1313/links/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/links/</guid>
+        <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
 &lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -114,35 +47,26 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;ts-logo-128.jpg&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;code&gt;image&lt;/code&gt; field accepts both local and external images.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>To use this feature, add <code>links</code> section to frontmatter.</p>
-<p>This page&rsquo;s frontmatter:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span><span class="lnt">8
-</span><span class="lnt">9
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">links</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="l">GitHub</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="l">GitHub is the world&#39;s largest software development platform.</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">website</span><span class="p">:</span><span class="w"> </span><span class="l">https://github.com</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="l">https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="l">TypeScript</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="l">TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">website</span><span class="p">:</span><span class="w"> </span><span class="l">https://www.typescriptlang.org</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="l">ts-logo-128.jpg</span><span class="w">
-</span></span></span></code></pre></td></tr></table>
-</div>
-</div><p><code>image</code> field accepts both local and external images.</p>
-]]></content:encoded>
-    </item>
-  </channel>
+&lt;/div&gt;&lt;p&gt;&lt;code&gt;image&lt;/code&gt; field accepts both local and external images.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Search</title>
+        <link>http://localhost:1313/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/search/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>关于</title>
+        <link>http://localhost:1313/%E5%85%B3%E4%BA%8E/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/%E5%85%B3%E4%BA%8E/</guid>
+        <description>&lt;p&gt;This is a test page for i18n support.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
 </rss>

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>电脑网络 on 老刘博客</title>
-    <link>https://iliu.org/categories/%E7%94%B5%E8%84%91%E7%BD%91%E7%BB%9C/</link>
+    <link>http://localhost:1313/categories/%E7%94%B5%E8%84%91%E7%BD%91%E7%BB%9C/</link>
     <description>Recent content in 电脑网络 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 15 May 2023 07:11:31 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/categories/%E7%94%B5%E8%84%91%E7%BD%91%E7%BB%9C/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/%E7%94%B5%E8%84%91%E7%BD%91%E7%BB%9C/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>浅谈群晖安全性方面的设置</title>
-      <link>https://iliu.org/4375.html</link>
+      <link>http://localhost:1313/4375.html</link>
       <pubDate>Mon, 15 May 2023 07:11:31 +0000</pubDate>
-      <guid>https://iliu.org/4375.html</guid>
+      <guid>http://localhost:1313/4375.html</guid>
       <description>&lt;p&gt;我们在玩群晖的时候，往往不会满足于群晖只作为局域网里的一个服务器的存在，还想让它发挥更大的作用，让我们无论身在何地，都可以自由的访问我们群晖里的东西，这就需要我们把群晖暴露在公网之中。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>我们在玩群晖的时候，往往不会满足于群晖只作为局域网里的一个服务器的存在，还想让它发挥更大的作用，让我们无论身在何地，都可以自由的访问我们群晖里的东西，这就需要我们把群晖暴露在公网之中。</p>
 <p>无论你是使用<a href="https://tunan.org/3997.html">ddns</a>，或者<a href="https://tunan.org/2918.html">frp</a>、<a href="https://tunan.org/3356.html">zerotier</a>内网穿透技术，只要是你把群晖暴露在公网上，那就要做好承担被网络上成千上万个扫描器扫描到的风险。扫描到不可怕，重要的扫描到也让它没有办法才行。这样，设置群晖的安全性设置就很必要了。</p>
@@ -38,9 +38,9 @@
     </item>
     <item>
       <title>那些年,我折腾过的杀毒软件</title>
-      <link>https://iliu.org/4365.html</link>
+      <link>http://localhost:1313/4365.html</link>
       <pubDate>Wed, 19 Apr 2023 01:29:27 +0000</pubDate>
-      <guid>https://iliu.org/4365.html</guid>
+      <guid>http://localhost:1313/4365.html</guid>
       <description>&lt;p&gt;现在电脑虽然普及，但是随着微软系统内置杀毒软件，以及PC的使用率下降等原因，导致杀毒软件的行业也不在如以前繁荣，很多知名的杀毒软件，要么慢慢淡去，要么被实力更大的厂商收购。今天，就来盘点一下，用电脑的这些年，折腾过的杀毒软件。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>现在电脑虽然普及，但是随着微软系统内置杀毒软件，以及PC的使用率下降等原因，导致杀毒软件的行业也不在如以前繁荣，很多知名的杀毒软件，要么慢慢淡去，要么被实力更大的厂商收购。今天，就来盘点一下，用电脑的这些年，折腾过的杀毒软件。</p>
 <p>对电脑病毒初次有印象是1999年，CIH病毒泛滥的那段时间。老师上课的时候，不经意间说他家的电脑中病毒了，从此对电脑病毒有了印象。第一次真正的遇到电脑病毒是2003年的时候，当时单位的电脑运行的很慢，网管给装上了瑞星杀毒软件，更新后，扫出来几千个病毒，当时把我给兴奋的不行。</p>
@@ -79,9 +79,9 @@
     </item>
     <item>
       <title>edge浏览器里几个实用的小功能</title>
-      <link>https://iliu.org/4362.html</link>
+      <link>http://localhost:1313/4362.html</link>
       <pubDate>Sat, 15 Apr 2023 09:55:19 +0000</pubDate>
-      <guid>https://iliu.org/4362.html</guid>
+      <guid>http://localhost:1313/4362.html</guid>
       <description>&lt;p&gt;今天从电脑上下载了一个app，一般情况下，传到手机里要么用微信或者QQ，要么用群晖的drive同步，但是今天忽然发现edge浏览器自带的drop小工具就可以轻松的实现，仔细看了一下，发现新版Edge浏览器侧边栏的小工具还是挺实用的。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>今天从电脑上下载了一个app，一般情况下，传到手机里要么用微信或者QQ，要么用群晖的drive同步，但是今天忽然发现edge浏览器自带的drop小工具就可以轻松的实现，仔细看了一下，发现新版Edge浏览器侧边栏的小工具还是挺实用的。</p>
 <h2 class="wp-block-heading" id="drop实现很手机之间的互传">drop实现很手机之间的互传</h2>
@@ -95,9 +95,9 @@
     </item>
     <item>
       <title>manjaro的gnome版本升级到43.1了</title>
-      <link>https://iliu.org/4295.html</link>
+      <link>http://localhost:1313/4295.html</link>
       <pubDate>Wed, 16 Nov 2022 01:40:50 +0000</pubDate>
-      <guid>https://iliu.org/4295.html</guid>
+      <guid>http://localhost:1313/4295.html</guid>
       <description>&lt;p&gt;都说使用manjaro最频繁使用的就是命令是&lt;/p&gt;
 &lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;sudo pacman -Syyu&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;这不，照例这么运行了一下，提示有更新，好家伙下载了1g多，不过更新替换后，系统反而小了1m。当时也没有注意更新了啥，直到我点击了这里，发现快速设置菜单变了。&lt;br&gt;
@@ -121,9 +121,9 @@
     </item>
     <item>
       <title>群晖安装trilium笔记web端不刷新的处理方法</title>
-      <link>https://iliu.org/4154.html</link>
+      <link>http://localhost:1313/4154.html</link>
       <pubDate>Sun, 26 Jun 2022 03:50:24 +0000</pubDate>
-      <guid>https://iliu.org/4154.html</guid>
+      <guid>http://localhost:1313/4154.html</guid>
       <description>&lt;p&gt;最初装上trilium上之后，发现web端新建笔记或者删除笔记等都不会刷新。也和中文博客群里的少君等人讨论过，也没有得出过什么结论，毕竟环境不同嘛，当时貌似也就我一个人遇到了这种情况。后来发现是网络有错误，是websocket链接错误。但是作为小白，也没有解决的办法。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>最初装上trilium上之后，发现web端新建笔记或者删除笔记等都不会刷新。也和中文博客群里的少君等人讨论过，也没有得出过什么结论，毕竟环境不同嘛，当时貌似也就我一个人遇到了这种情况。后来发现是网络有错误，是websocket链接错误。但是作为小白，也没有解决的办法。</p>
 <p>后来张波老师也遇到了，原来用域名反代访问就会出现这个问题。群里的大神给出了NGINX下的解决方案，可是我用的群晖啊，没有nginx肿么办？</p>
@@ -134,9 +134,9 @@
     </item>
     <item>
       <title>关于笔记软件的选择</title>
-      <link>https://iliu.org/4145.html</link>
+      <link>http://localhost:1313/4145.html</link>
       <pubDate>Thu, 23 Jun 2022 02:35:24 +0000</pubDate>
-      <guid>https://iliu.org/4145.html</guid>
+      <guid>http://localhost:1313/4145.html</guid>
       <description>&lt;p&gt;最近，中文博客圈群里兴起了一股笔记软件的热潮，其实也不是最近，而是一直都有断断续续的讨论。只不过老刘一直以来都是用的群晖note，对我来说，网页剪辑一下要用到的网页内容，各种客户端都很齐全，觉得是够用的了。直到….&lt;br&gt;
 上个月隔离的时候，碰到张波老师安装Trilium这个软件，于是我也试用了一下，被这个笔记的功能所吸引，于是再群晖上部署，试用，又折腾了其他的一些笔记软件。最后来说一说这些笔记软件的特点，&lt;strong&gt;&lt;em&gt;只是自己使用的体会，不牵涉到教程，不到之处，敬请海涵&lt;/em&gt;&lt;/strong&gt;。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>最近，中文博客圈群里兴起了一股笔记软件的热潮，其实也不是最近，而是一直都有断断续续的讨论。只不过老刘一直以来都是用的群晖note，对我来说，网页剪辑一下要用到的网页内容，各种客户端都很齐全，觉得是够用的了。直到….<br>
@@ -203,9 +203,9 @@
     </item>
     <item>
       <title>VPS服务器系统的选择</title>
-      <link>https://iliu.org/4126.html</link>
+      <link>http://localhost:1313/4126.html</link>
       <pubDate>Fri, 27 May 2022 07:29:40 +0000</pubDate>
-      <guid>https://iliu.org/4126.html</guid>
+      <guid>http://localhost:1313/4126.html</guid>
       <description>&lt;p&gt;随着云业务的蓬勃发展，很多独立博客的博主，个人网站站长都抛弃了曾经的虚拟主机而选择VPS，vps相对于虚拟主机来说，容量更大，可玩性更高；同时，要对个人的要求也随之更高。玩VPS首先遇到的就是系统的选择问题。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>随着云业务的蓬勃发展，很多独立博客的博主，个人网站站长都抛弃了曾经的虚拟主机而选择VPS，vps相对于虚拟主机来说，容量更大，可玩性更高；同时，要对个人的要求也随之更高。玩VPS首先遇到的就是系统的选择问题。</p>
 <h2 class="wp-block-heading" id="windows系统">Windows系统</h2>
@@ -230,9 +230,9 @@
     </item>
     <item>
       <title>Windows11 如何使用ie浏览器</title>
-      <link>https://iliu.org/4120.html</link>
+      <link>http://localhost:1313/4120.html</link>
       <pubDate>Thu, 26 May 2022 01:55:15 +0000</pubDate>
-      <guid>https://iliu.org/4120.html</guid>
+      <guid>http://localhost:1313/4120.html</guid>
       <description>&lt;p&gt;windows11已经抛弃了ie浏览器，但是有一些场合必须要使用，比如现在各大银行的u盾还不支持edge，有很多同学到处找IE这个软件，其实大可不必。windows11目前只是暂时屏蔽了IE而已。点击“查找”，搜索“控制面板”&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>windows11已经抛弃了ie浏览器，但是有一些场合必须要使用，比如现在各大银行的u盾还不支持edge，有很多同学到处找IE这个软件，其实大可不必。windows11目前只是暂时屏蔽了IE而已。点击“查找”，搜索“控制面板”</p>
 <p>在“控制面板”中点击“Internet选项”<figure class="wp-block-image size-full"></p>
@@ -244,9 +244,9 @@
     </item>
     <item>
       <title>正式使用Manjaro系统</title>
-      <link>https://iliu.org/4036.html</link>
+      <link>http://localhost:1313/4036.html</link>
       <pubDate>Mon, 17 Jan 2022 00:24:40 +0000</pubDate>
-      <guid>https://iliu.org/4036.html</guid>
+      <guid>http://localhost:1313/4036.html</guid>
       <description>&lt;p&gt;昨天把开发python 的这个电脑也更换成manjaro这个系统了。经过一段时间的试用，感觉这个系统确实是一个使用起来舒服有稳定的系统。&lt;figure class=&#34;wp-block-image size-full&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>昨天把开发python 的这个电脑也更换成manjaro这个系统了。经过一段时间的试用，感觉这个系统确实是一个使用起来舒服有稳定的系统。<figure class="wp-block-image size-full"></p>
 <p><img loading="lazy" decoding="async" width="1920" height="1080" src="https://tunan.org/wp-content/uploads/2022/01/87269d5350708c3.png" alt="" class="wp-image-4038" srcset="https://tunan.org/wp-content/uploads/2022/01/87269d5350708c3.png 1920w, https://tunan.org/wp-content/uploads/2022/01/87269d5350708c3-768x432.png 768w, https://tunan.org/wp-content/uploads/2022/01/87269d5350708c3-1536x864.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /> </figure></p>
@@ -263,9 +263,9 @@
     </item>
     <item>
       <title>推荐一款免费开源的RSS软件-Quiterss</title>
-      <link>https://iliu.org/3958.html</link>
+      <link>http://localhost:1313/3958.html</link>
       <pubDate>Thu, 23 Dec 2021 01:48:37 +0000</pubDate>
-      <guid>https://iliu.org/3958.html</guid>
+      <guid>http://localhost:1313/3958.html</guid>
       <description>&lt;p&gt;RSS对于很多博主来说都不会陌生，很多博友还都有着使用RSS订阅的习惯。有很多朋友还专门在VPS用tiny tinyRSS或者freshrss程序自己设立一个服务器。老刘目前也是在甲骨文的免费小鸡上用着tinyrss。这段时间在折腾PYTHON，在ubuntu上折腾。偶然发现了这个程序，体验了一下，感觉还是很不错的，推荐给大家。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>RSS对于很多博主来说都不会陌生，很多博友还都有着使用RSS订阅的习惯。有很多朋友还专门在VPS用tiny tinyRSS或者freshrss程序自己设立一个服务器。老刘目前也是在甲骨文的免费小鸡上用着tinyrss。这段时间在折腾PYTHON，在ubuntu上折腾。偶然发现了这个程序，体验了一下，感觉还是很不错的，推荐给大家。</p>
 <p><strong>QuiteRSS</strong>。它是一款免费开源且跨平台的 <strong>RSS 阅读器</strong>客户端软件，支持 Windows、Mac、Linux 系统，界面并不算华丽，但是该有的功能都有了，比如：支持 RSS 内容的中文关键字搜索，支持标签归类功能，可以对文章加上星号或标签来收藏整理，标记未读已读，支持 OPML 导入导出、可以文件夹整理 Feed、内置浏览器 (可设置使用外部默认浏览器打开)、支持多标签页等，基本上能满足一切 RSS 的阅读需求。</p>
@@ -287,9 +287,9 @@ sudo apt-get install quiterss</code></pre>
     </item>
     <item>
       <title>ubuntu20.04开机亮度最大的解决方法及输入法设置</title>
-      <link>https://iliu.org/3951.html</link>
+      <link>http://localhost:1313/3951.html</link>
       <pubDate>Mon, 20 Dec 2021 09:20:38 +0000</pubDate>
-      <guid>https://iliu.org/3951.html</guid>
+      <guid>http://localhost:1313/3951.html</guid>
       <description>&lt;p&gt;从很久以前UBUNTU就有一个毛病，有些电脑安装后，开机后屏幕的亮度会是最大。据说从很低的一个版本都有这样bug存在，但是不知道为啥官方一直都没有修复。不过网上也有很多的教程，试用了一下，有些有用，有些没用，直到扒到了一个很老的文章，上面记载的一个很简单的方法，却解决了这样一个问题。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>从很久以前UBUNTU就有一个毛病，有些电脑安装后，开机后屏幕的亮度会是最大。据说从很低的一个版本都有这样bug存在，但是不知道为啥官方一直都没有修复。不过网上也有很多的教程，试用了一下，有些有用，有些没用，直到扒到了一个很老的文章，上面记载的一个很简单的方法，却解决了这样一个问题。</p>
 <p>别的不说，直接上代码，照着做就行了：</p>
@@ -314,9 +314,9 @@ sudo update-grub</code> 最后一步一定要做。另外<code class="language-b
     </item>
     <item>
       <title>linuxmint高分屏设置</title>
-      <link>https://iliu.org/3944.html</link>
+      <link>http://localhost:1313/3944.html</link>
       <pubDate>Mon, 13 Dec 2021 06:09:18 +0000</pubDate>
-      <guid>https://iliu.org/3944.html</guid>
+      <guid>http://localhost:1313/3944.html</guid>
       <description>&lt;p&gt;最近一直使用Linuxmint，如果不是一些必备的软件在Linux下没有，甚至都可以把Windows10卸载了，不过没有办法，有些软件还必须在win下使用。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>最近一直使用Linuxmint，如果不是一些必备的软件在Linux下没有，甚至都可以把Windows10卸载了，不过没有办法，有些软件还必须在win下使用。</p>
 <p>现在很多笔记本都是1920*1080的分辨率，这就导致字体有些小，在win10下默认是显示125%，Linuxmint下虽然也是可以设置成125%，但是总感觉有些不协调。</p>
@@ -328,9 +328,9 @@ sudo update-grub</code> 最后一步一定要做。另外<code class="language-b
     </item>
     <item>
       <title>试用统信uos家庭版</title>
-      <link>https://iliu.org/3927.html</link>
+      <link>http://localhost:1313/3927.html</link>
       <pubDate>Fri, 29 Oct 2021 01:22:00 +0000</pubDate>
-      <guid>https://iliu.org/3927.html</guid>
+      <guid>http://localhost:1313/3927.html</guid>
       <description>&lt;p&gt;之前上篇文章说了折腾Linux的因由，最后确定使用原版的ubuntu。不过在使用的过程中发现。还是有些许的小毛病。主要是安装了搜狗输入法之后，关机需要90秒的倒计时。从网上查了一下相关的信息，发现这个小毛病还是挺多人遇到的。虽然可以更改时间来较少，但是又可能造成系统的崩溃。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>之前上篇文章说了折腾Linux的因由，最后确定使用原版的ubuntu。不过在使用的过程中发现。还是有些许的小毛病。主要是安装了搜狗输入法之后，关机需要90秒的倒计时。从网上查了一下相关的信息，发现这个小毛病还是挺多人遇到的。虽然可以更改时间来较少，但是又可能造成系统的崩溃。</p>
 <p>Linuxmint倒是很流畅，一切都很满意。但是用了两天后发现了一个问题，不能使用微信，虽然在windows上，老刘也很少用微信，但是偶尔会用吧。加上近期媳妇申报副高要处理不少的文档，她都是用微信直接给我发过来，我要处理的话还得重启更换系统，非常的不方便。deepin吧，又时有卡桌面。后来想到了这个统信uos。批了一层皮的deepin os。本来没有报太大的希望，不过安装后却给了我不少的惊喜。</p>
@@ -348,9 +348,9 @@ sudo update-grub</code> 最后一步一定要做。另外<code class="language-b
     </item>
     <item>
       <title>更新群晖至DSM7.0</title>
-      <link>https://iliu.org/3887.html</link>
+      <link>http://localhost:1313/3887.html</link>
       <pubDate>Mon, 06 Sep 2021 10:25:46 +0000</pubDate>
-      <guid>https://iliu.org/3887.html</guid>
+      <guid>http://localhost:1313/3887.html</guid>
       <description>&lt;p&gt;今天上午来到店内，不知道是怎么回事，产生了一些惰性，看到群里小胡同学发的白嫖亚马逊12本的电子书，就去搞了一下，看了会书，也不想更新商城的产品了，后来就想不行把群晖的系统升级一下吧。&lt;br&gt;
 &lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; src=&#34;https://tunan.org/wp-content/uploads/2021/09/jooj_vip_20210906182618316202.png&#34; alt=&#34;&#34; width=&#34;1377&#34; height=&#34;805&#34; class=&#34;alignnone size-full wp-image-3889&#34; srcset=&#34;https://tunan.org/wp-content/uploads/2021/09/jooj_vip_20210906182618316202.png 1377w, https://tunan.org/wp-content/uploads/2021/09/jooj_vip_20210906182618316202-768x449.png 768w&#34; sizes=&#34;(max-width: 1377px) 100vw, 1377px&#34; /&gt;&lt;br&gt;
 群晖6.0的的系统不能自动升级到7.0，需要进行手动升级。于是到群晖官网下载相应型号的固件，在群晖的管理面板里手动升级即可。升级也很顺利。升级后有点小坑。&lt;/p&gt;</description>
@@ -367,9 +367,9 @@ sudo update-grub</code> 最后一步一定要做。另外<code class="language-b
     </item>
     <item>
       <title>cccleaner变流氓了</title>
-      <link>https://iliu.org/3844.html</link>
+      <link>http://localhost:1313/3844.html</link>
       <pubDate>Fri, 20 Aug 2021 09:59:10 +0000</pubDate>
-      <guid>https://iliu.org/3844.html</guid>
+      <guid>http://localhost:1313/3844.html</guid>
       <description>&lt;p&gt;老刘的笔记本电脑自从去年1月份买回来之后，一直也没怎么管过它，最近发现C盘的可用空间已经变的非常的小了，当时给分配了80G，现在只剩下不到10g了，所以想清理一下电脑内的垃圾。&lt;figure class=&#34;wp-block-image size-full&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>老刘的笔记本电脑自从去年1月份买回来之后，一直也没怎么管过它，最近发现C盘的可用空间已经变的非常的小了，当时给分配了80G，现在只剩下不到10g了，所以想清理一下电脑内的垃圾。<figure class="wp-block-image size-full"></p>
 <p><a href="https://tunan.org/wp-content/uploads/2021/08/d7b01207fc8fa67.jpg"><img loading="lazy" decoding="async" width="600" height="338" src="https://tunan.org/wp-content/uploads/2021/08/d7b01207fc8fa67.jpg" alt="" class="wp-image-3845" srcset="https://tunan.org/wp-content/uploads/2021/08/d7b01207fc8fa67.jpg 600w, https://tunan.org/wp-content/uploads/2021/08/d7b01207fc8fa67-300x169.jpg 300w" sizes="(max-width: 600px) 100vw, 600px" /></a></figure></p>
@@ -384,9 +384,9 @@ sudo update-grub</code> 最后一步一定要做。另外<code class="language-b
     </item>
     <item>
       <title>微软 Mcrosoft Store打不开的处理方法</title>
-      <link>https://iliu.org/3797.html</link>
+      <link>http://localhost:1313/3797.html</link>
       <pubDate>Thu, 01 Jul 2021 11:51:06 +0000</pubDate>
-      <guid>https://iliu.org/3797.html</guid>
+      <guid>http://localhost:1313/3797.html</guid>
       <description>&lt;p&gt;昨天青山在群里说，微软的好几个软件限时免费送，最搞的一个原来卖300多，本着有便宜就占的风格，赶紧去搞去，结果进微软商店，却打不开，提示代码: 0x80131500错误。&lt;figure class=&#34;wp-block-image size-large&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>昨天青山在群里说，微软的好几个软件限时免费送，最搞的一个原来卖300多，本着有便宜就占的风格，赶紧去搞去，结果进微软商店，却打不开，提示代码: 0x80131500错误。<figure class="wp-block-image size-large"></p>
 <p><a href="https://tunan.org/wp-content/uploads/2021/07/a34f6902df20c81.jpg"><img loading="lazy" decoding="async" width="1000" height="750" src="https://tunan.org/wp-content/uploads/2021/07/a34f6902df20c81.jpg" alt="" class="wp-image-3798" srcset="https://tunan.org/wp-content/uploads/2021/07/a34f6902df20c81.jpg 1000w, https://tunan.org/wp-content/uploads/2021/07/a34f6902df20c81-300x225.jpg 300w, https://tunan.org/wp-content/uploads/2021/07/a34f6902df20c81-768x576.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></figure></p>

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>VPS on 老刘博客</title>
-    <link>https://iliu.org/tags/vps/</link>
+    <link>http://localhost:1313/tags/vps/</link>
     <description>Recent content in VPS on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 27 May 2022 07:29:40 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/vps/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/vps/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>VPS服务器系统的选择</title>
-      <link>https://iliu.org/4126.html</link>
+      <link>http://localhost:1313/4126.html</link>
       <pubDate>Fri, 27 May 2022 07:29:40 +0000</pubDate>
-      <guid>https://iliu.org/4126.html</guid>
+      <guid>http://localhost:1313/4126.html</guid>
       <description>&lt;p&gt;随着云业务的蓬勃发展，很多独立博客的博主，个人网站站长都抛弃了曾经的虚拟主机而选择VPS，vps相对于虚拟主机来说，容量更大，可玩性更高；同时，要对个人的要求也随之更高。玩VPS首先遇到的就是系统的选择问题。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>随着云业务的蓬勃发展，很多独立博客的博主，个人网站站长都抛弃了曾经的虚拟主机而选择VPS，vps相对于虚拟主机来说，容量更大，可玩性更高；同时，要对个人的要求也随之更高。玩VPS首先遇到的就是系统的选择问题。</p>
 <h2 class="wp-block-heading" id="windows系统">Windows系统</h2>
@@ -42,9 +42,9 @@
     </item>
     <item>
       <title>试用荷兰的liteserverVPS</title>
-      <link>https://iliu.org/3968.html</link>
+      <link>http://localhost:1313/3968.html</link>
       <pubDate>Fri, 24 Dec 2021 07:41:31 +0000</pubDate>
-      <guid>https://iliu.org/3968.html</guid>
+      <guid>http://localhost:1313/3968.html</guid>
       <description>&lt;p&gt;从篱落主机转移到Virmach主机有2多个月了吧，以前一直挂着一个香港的CDN，也不感觉太慢，后来那个CDN有点不稳定了，于是去掉了CDN，发现网络有点不稳定，有时候快，有时候慢，像今天下载速度一度只有32k了，正好在城南旧事的网站上看到推荐这个VPS，看了下2h2g的配置，一个月是5欧元，年付的话也有不少的优惠，网上查了下黑五的时候还出过5折的优惠码，可惜的是现在已经不能用了。抱着试试看的态度，先买了一个月的。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>从篱落主机转移到Virmach主机有2多个月了吧，以前一直挂着一个香港的CDN，也不感觉太慢，后来那个CDN有点不稳定了，于是去掉了CDN，发现网络有点不稳定，有时候快，有时候慢，像今天下载速度一度只有32k了，正好在城南旧事的网站上看到推荐这个VPS，看了下2h2g的配置，一个月是5欧元，年付的话也有不少的优惠，网上查了下黑五的时候还出过5折的优惠码，可惜的是现在已经不能用了。抱着试试看的态度，先买了一个月的。</p>
 <p>实际体验下来还是不错，比Virmach速度快了不少，尽管ping值不是很低，但是状态一直还比较稳定。用17ce看了一下速度，竟然都是绿色的。<figure class="wp-block-image size-full"></p>
@@ -59,9 +59,9 @@
     </item>
     <item>
       <title>RSS终于又搞好了</title>
-      <link>https://iliu.org/3769.html</link>
+      <link>http://localhost:1313/3769.html</link>
       <pubDate>Sun, 06 Jun 2021 07:21:33 +0000</pubDate>
-      <guid>https://iliu.org/3769.html</guid>
+      <guid>http://localhost:1313/3769.html</guid>
       <description>&lt;p&gt;前两天买的出去的东西过期了，看了下今年的价格基本上小80一年了，去年才60，感觉再买一年实在是划不来。正好去年的时候买的一台RN的VPS，自己一直是用来搞RSS，看到张老师搞的出圈的东西还是挺稳定的，于是也想自己弄一弄。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>前两天买的出去的东西过期了，看了下今年的价格基本上小80一年了，去年才60，感觉再买一年实在是划不来。正好去年的时候买的一台RN的VPS，自己一直是用来搞RSS，看到张老师搞的出圈的东西还是挺稳定的，于是也想自己弄一弄。</p>
 <p>结果没有经验，只用了一天，VPS的IP被ban了。</p>

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>外链跳转 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E5%A4%96%E9%93%BE%E8%B7%B3%E8%BD%AC/</link>
+    <link>http://localhost:1313/tags/%E5%A4%96%E9%93%BE%E8%B7%B3%E8%BD%AC/</link>
     <description>Recent content in 外链跳转 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 09 Jul 2019 01:20:11 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E5%A4%96%E9%93%BE%E8%B7%B3%E8%BD%AC/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E5%A4%96%E9%93%BE%E8%B7%B3%E8%BD%AC/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>利用cloudFlare的边缘计算workers实现外链转内链跳转</title>
-      <link>https://iliu.org/2248.html</link>
+      <link>http://localhost:1313/2248.html</link>
       <pubDate>Tue, 09 Jul 2019 01:20:11 +0000</pubDate>
-      <guid>https://iliu.org/2248.html</guid>
+      <guid>http://localhost:1313/2248.html</guid>
       <description>&lt;p&gt;跋涉者曾经分享过一篇7b2主题外链跳转的文章，那篇文章实现的原理是在自己服务器里增加一个跳转的页面代码。&lt;/p&gt;
 &lt;p&gt;[zrz_insert_post id=1656]&lt;/p&gt;
 &lt;p&gt;不过今天看张戈大神的一篇文章&lt;a href=&#34;https://zhang.ge/5151.html&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;CloudFlare边缘计算Workers尝鲜初探：博客跳转中间页&lt;/a&gt;。这篇文章谈到可以把这个跳转代码保存到cloudFlare的边缘计算workers中，从而让跳转可以在CDN里实现，显然，这样会减轻服务器计算的压力。对小水管的博客来说有一定的使用价值。&lt;/p&gt;</description>

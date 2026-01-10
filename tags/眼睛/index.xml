@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>眼睛 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E7%9C%BC%E7%9D%9B/</link>
+    <link>http://localhost:1313/tags/%E7%9C%BC%E7%9D%9B/</link>
     <description>Recent content in 眼睛 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 22 Feb 2024 14:46:14 +0800</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E7%9C%BC%E7%9D%9B/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E7%9C%BC%E7%9D%9B/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>电视和投影仪，哪个对孩子的眼睛更好？</title>
-      <link>https://iliu.org/posts/which-better-for-children/</link>
+      <link>http://localhost:1313/posts/which-better-for-children/</link>
       <pubDate>Thu, 22 Feb 2024 14:46:14 +0800</pubDate>
-      <guid>https://iliu.org/posts/which-better-for-children/</guid>
+      <guid>http://localhost:1313/posts/which-better-for-children/</guid>
       <description>&lt;p&gt;昨天博友@DemoChen问我能不能拉一个群，他的一个朋友有眼睛相关的问题需要咨询。当时我在外面陪孩子在金水河公园的雪地里漫步，回到家里后，专门拉了一个群，demochen也拉了他的朋友进来。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>昨天博友@DemoChen问我能不能拉一个群，他的一个朋友有眼睛相关的问题需要咨询。当时我在外面陪孩子在金水河公园的雪地里漫步，回到家里后，专门拉了一个群，demochen也拉了他的朋友进来。</p>
 <p>他的朋友问了一个很多家长都非常关系的问题————孩子的视力，如何预防近视：</p>
@@ -41,9 +41,9 @@
     </item>
     <item>
       <title>佩戴角膜塑形镜可引起角膜的这些变化</title>
-      <link>https://iliu.org/posts/changes-in-the-cornea-after-using-orthokeratology/</link>
+      <link>http://localhost:1313/posts/changes-in-the-cornea-after-using-orthokeratology/</link>
       <pubDate>Tue, 07 Nov 2023 21:26:23 +0800</pubDate>
-      <guid>https://iliu.org/posts/changes-in-the-cornea-after-using-orthokeratology/</guid>
+      <guid>http://localhost:1313/posts/changes-in-the-cornea-after-using-orthokeratology/</guid>
       <description>&lt;p&gt;角膜塑形镜是目前非常流行的一种控制近视的一种手段，从研究的效果来看是目前有效率最高的一种。但是现在各种媒体、医院、各网红眼科医生们却大都默默的忽略了佩戴隐形眼镜的风险。今天，老刘在看国外的文献的时候，发现了如下的一篇文章，翻译过来给大家，以便大家权衡利弊。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>角膜塑形镜是目前非常流行的一种控制近视的一种手段，从研究的效果来看是目前有效率最高的一种。但是现在各种媒体、医院、各网红眼科医生们却大都默默的忽略了佩戴隐形眼镜的风险。今天，老刘在看国外的文献的时候，发现了如下的一篇文章，翻译过来给大家，以便大家权衡利弊。</p>
 <p>该研究包括选择了32位白人近视眼患者，他们均佩戴了三个月的角膜塑形。使用光学相干断层扫描（OCT）血管造影对患者治疗前后的总、上皮和基质厚度，以及沿八个半圆周的中心、旁中心和外周值进行测量。</p>
@@ -62,9 +62,9 @@
     </item>
     <item>
       <title>视光周刊（第9期）：年轻的时候近视，年老不花眼？</title>
-      <link>https://iliu.org/posts/optics-weekly-issue-9/</link>
+      <link>http://localhost:1313/posts/optics-weekly-issue-9/</link>
       <pubDate>Fri, 03 Nov 2023 21:33:27 +0800</pubDate>
-      <guid>https://iliu.org/posts/optics-weekly-issue-9/</guid>
+      <guid>http://localhost:1313/posts/optics-weekly-issue-9/</guid>
       <description>&lt;p&gt;这里记录每周值得分享的视光内容。周五在&lt;strong&gt;光学视界&lt;/strong&gt;公众号和&lt;strong&gt;图南博客&lt;/strong&gt;发布。本周的主要内容包括：&lt;strong&gt;角膜塑形镜的安全性，近视人年老了会不会老花，高度近视人的选框技巧&lt;/strong&gt;等。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>这里记录每周值得分享的视光内容。周五在<strong>光学视界</strong>公众号和<strong>图南博客</strong>发布。本周的主要内容包括：<strong>角膜塑形镜的安全性，近视人年老了会不会老花，高度近视人的选框技巧</strong>等。</p>
 <p>投稿请发邮件至：ewader@qq.com。</p>

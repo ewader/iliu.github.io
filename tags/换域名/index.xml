@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>换域名 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E6%8D%A2%E5%9F%9F%E5%90%8D/</link>
+    <link>http://localhost:1313/tags/%E6%8D%A2%E5%9F%9F%E5%90%8D/</link>
     <description>Recent content in 换域名 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 18 Dec 2020 03:31:30 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E6%8D%A2%E5%9F%9F%E5%90%8D/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E6%8D%A2%E5%9F%9F%E5%90%8D/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>为什么要换域名</title>
-      <link>https://iliu.org/3474.html</link>
+      <link>http://localhost:1313/3474.html</link>
       <pubDate>Fri, 18 Dec 2020 03:31:30 +0000</pubDate>
-      <guid>https://iliu.org/3474.html</guid>
+      <guid>http://localhost:1313/3474.html</guid>
       <description>&lt;p&gt;昨天老刘深思熟虑一番，把域名换了。原因很多。换成这个域名后，如果不出意外的话，可能是一直用下去的域名了。意外的情况是忽然能捡到一个3位的域名？对于老刘这种100元以上的域名都嫌贵的人来说，这种情况无限的小。&lt;figure class=&#34;wp-block-image size-large&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>昨天老刘深思熟虑一番，把域名换了。原因很多。换成这个域名后，如果不出意外的话，可能是一直用下去的域名了。意外的情况是忽然能捡到一个3位的域名？对于老刘这种100元以上的域名都嫌贵的人来说，这种情况无限的小。<figure class="wp-block-image size-large"></p>
 <p><a href="https://tunan.org/wp-content/uploads/2021/01/a54fce0d9ebf86f.jpg"><img loading="lazy" decoding="async" width="644" height="300" src="https://tunan.org/wp-content/uploads/2021/01/a54fce0d9ebf86f.jpg" alt="" class="wp-image-3577" srcset="https://tunan.org/wp-content/uploads/2021/01/a54fce0d9ebf86f.jpg 644w, https://tunan.org/wp-content/uploads/2021/01/a54fce0d9ebf86f-300x140.jpg 300w" sizes="(max-width: 644px) 100vw, 644px" /></a></figure></p>
@@ -33,9 +33,9 @@
     </item>
     <item>
       <title>流金岁月启用新域名</title>
-      <link>https://iliu.org/3470.html</link>
+      <link>http://localhost:1313/3470.html</link>
       <pubDate>Thu, 17 Dec 2020 10:17:17 +0000</pubDate>
-      <guid>https://iliu.org/3470.html</guid>
+      <guid>http://localhost:1313/3470.html</guid>
       <description>&lt;p&gt;经过一番考虑，决定启用新域名 iliu.org&lt;/p&gt;
 &lt;p&gt;一是域名较短，二是本人对org情有独钟。这也将是老刘最后一次换域名了。&lt;/p&gt;
 &lt;p&gt;所以，麻烦有老刘友情链接的改下地址，（貌似也没有几个）&lt;/p&gt;</description>
@@ -49,9 +49,9 @@
     </item>
     <item>
       <title>博客更换域名的公告</title>
-      <link>https://iliu.org/2879.html</link>
+      <link>http://localhost:1313/2879.html</link>
       <pubDate>Wed, 27 Nov 2019 09:54:03 +0000</pubDate>
-      <guid>https://iliu.org/2879.html</guid>
+      <guid>http://localhost:1313/2879.html</guid>
       <description>&lt;p&gt;申请了一个个性域名，很短的那种，加上胡记的胡总说越短越好，赶紧换，所以更换之。从即日起，跋涉者博客域名从ewader.com更换成www.liuday.com。麻烦各位好人，更新一下友情链接的地址，不胜感激！&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>申请了一个个性域名，很短的那种，加上胡记的胡总说越短越好，赶紧换，所以更换之。从即日起，跋涉者博客域名从ewader.com更换成www.liuday.com。麻烦各位好人，更新一下友情链接的地址，不胜感激！</p>
 <p><a href="https://tunan.org/wp-content/uploads/2019/12/74195f4158f4ea1.png"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2944" src="https://tunan.org/wp-content/uploads/2019/12/74195f4158f4ea1.png" alt="" width="900" height="383" srcset="https://tunan.org/wp-content/uploads/2019/12/74195f4158f4ea1.png 900w, https://tunan.org/wp-content/uploads/2019/12/74195f4158f4ea1-300x128.png 300w, https://tunan.org/wp-content/uploads/2019/12/74195f4158f4ea1-768x327.png 768w" sizes="(max-width: 900px) 100vw, 900px" /></a></p>

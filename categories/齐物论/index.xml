@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>齐物论 on 老刘博客</title>
-    <link>https://iliu.org/categories/%E9%BD%90%E7%89%A9%E8%AE%BA/</link>
+    <link>http://localhost:1313/categories/%E9%BD%90%E7%89%A9%E8%AE%BA/</link>
     <description>Recent content in 齐物论 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 15 Nov 2023 21:28:20 +0800</lastBuildDate>
-    <atom:link href="https://iliu.org/categories/%E9%BD%90%E7%89%A9%E8%AE%BA/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/%E9%BD%90%E7%89%A9%E8%AE%BA/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>如何使用git并把代码提交到GitHub</title>
-      <link>https://iliu.org/posts/how-to-use-git/</link>
+      <link>http://localhost:1313/posts/how-to-use-git/</link>
       <pubDate>Wed, 15 Nov 2023 21:28:20 +0800</pubDate>
-      <guid>https://iliu.org/posts/how-to-use-git/</guid>
+      <guid>http://localhost:1313/posts/how-to-use-git/</guid>
       <description>&lt;p&gt;这篇文章纯粹给初学者看的，大佬请无视。使用Hugo之后，为了方便推送方便，一般要用到git这个软件。今天就来谈谈git具体的用法。&lt;/p&gt;
 &lt;h1 id=&#34;git的用法&#34;&gt;git的用法&lt;/h1&gt;
 &lt;h3 id=&#34;设置用户名&#34;&gt;设置用户名&lt;/h3&gt;

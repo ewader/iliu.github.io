@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>人世间 on 老刘博客</title>
-    <link>https://iliu.org/categories/%E4%BA%BA%E4%B8%96%E9%97%B4/</link>
+    <link>http://localhost:1313/categories/%E4%BA%BA%E4%B8%96%E9%97%B4/</link>
     <description>Recent content in 人世间 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 02 Jan 2026 15:53:23 +0800</lastBuildDate>
-    <atom:link href="https://iliu.org/categories/%E4%BA%BA%E4%B8%96%E9%97%B4/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/%E4%BA%BA%E4%B8%96%E9%97%B4/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2025年末的雪，以及2026元旦的一天</title>
-      <link>https://iliu.org/posts/the-snow-at-years-end/</link>
+      <link>http://localhost:1313/posts/the-snow-at-years-end/</link>
       <pubDate>Fri, 02 Jan 2026 15:53:23 +0800</pubDate>
-      <guid>https://iliu.org/posts/the-snow-at-years-end/</guid>
+      <guid>http://localhost:1313/posts/the-snow-at-years-end/</guid>
       <description>&lt;p&gt;2025 年 12 月 31 日，郑州下了一场小雪。其实之前看天气预报还是蛮担心会下大的，毕竟还要去接女儿回家，上次的那场大雪让现在想起来还心有余悸。不过还好，雪下的不大，比前几天那场要轻得多。早上起来，地上只有薄薄一层，像是夜里悄悄落下，又很快要化掉的那种。趁着去买菜的工夫出门，随手拍了几张照片，算是给这一年留下最后一点痕迹。
 &lt;img loading=&#34;lazy&#34; src=&#34;https://ewader.s3.bitiful.net/blog/%E7%94%9F%E6%88%90%E5%9B%BE%E7%89%87%E5%8F%8A%E6%8B%BC%E5%9B%BE.png&#34;&gt;
 王源来郑州开演唱会，女儿一直想去现场看看，托朋友帮忙，才弄到了一张票。下午，我和妻子陪她一起去了奥体中心。
@@ -40,9 +40,9 @@
     </item>
     <item>
       <title>这一年，瞎记几笔</title>
-      <link>https://iliu.org/posts/notes-from-an-ordinary-year/</link>
+      <link>http://localhost:1313/posts/notes-from-an-ordinary-year/</link>
       <pubDate>Tue, 23 Dec 2025 09:48:18 +0800</pubDate>
-      <guid>https://iliu.org/posts/notes-from-an-ordinary-year/</guid>
+      <guid>http://localhost:1313/posts/notes-from-an-ordinary-year/</guid>
       <description>&lt;p&gt;年末了，又到了总结的时候，其实每到这个时候，头脑里都是一片空白，也不知道从何写起。看了旺东大佬的总结，几句打油诗，很有意思，也尝试胡诌那么几句，就算是总结了。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>年末了，又到了总结的时候，其实每到这个时候，头脑里都是一片空白，也不知道从何写起。看了旺东大佬的总结，几句打油诗，很有意思，也尝试胡诌那么几句，就算是总结了。</p>
 <p><img loading="lazy" src="https://s2.l22.org/images/1766455125_IMG_20250718_183256.jpg">
@@ -65,9 +65,9 @@
     </item>
     <item>
       <title>中年人的 NAS：稳定了六年，也会老</title>
-      <link>https://iliu.org/posts/from-rock-solid-stability-to-showing-its-age/</link>
+      <link>http://localhost:1313/posts/from-rock-solid-stability-to-showing-its-age/</link>
       <pubDate>Thu, 18 Dec 2025 11:51:57 +0800</pubDate>
-      <guid>https://iliu.org/posts/from-rock-solid-stability-to-showing-its-age/</guid>
+      <guid>http://localhost:1313/posts/from-rock-solid-stability-to-showing-its-age/</guid>
       <description>&lt;p&gt;我现在用的 NAS 是群晖 DS220+，2019 年买的。&lt;/p&gt;
 &lt;p&gt;当时正在做一个叫“镜缘轩”的眼镜商城，数据安全这件事当时觉得很重要：订单、客户信息、商品资料，一旦丢了，就很麻烦。也正是在那个阶段，我把一直用的暴风酷播云换掉，开始用白群晖，想着至少在数据这件事上，更安全。
 这一眨眼，就是六年。
@@ -118,9 +118,9 @@
     </item>
     <item>
       <title>雪天接女记</title>
-      <link>https://iliu.org/posts/snow-day-pickup-daughter/</link>
+      <link>http://localhost:1313/posts/snow-day-pickup-daughter/</link>
       <pubDate>Sat, 13 Dec 2025 16:18:19 +0800</pubDate>
-      <guid>https://iliu.org/posts/snow-day-pickup-daughter/</guid>
+      <guid>http://localhost:1313/posts/snow-day-pickup-daughter/</guid>
       <description>&lt;p&gt;一周前，预报说周五有雨雪，版本从最初的“雨夹雪”，一路升级到“暴雪”，又降级到“大雪”、“小雪”，最终在周五定格在了“大雪”。&lt;/p&gt;
 &lt;p&gt;周五早上，早上醒来往远处看去。楼下的考古工地一片雪白，但雪下得不大，路面干净，积雪存不住。心里暗自窃喜，毕竟今天是周五，要去学校接女儿回家，近 &lt;strong&gt;60公里&lt;/strong&gt;的路程，如果雪太大，着实让人头疼。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>一周前，预报说周五有雨雪，版本从最初的“雨夹雪”，一路升级到“暴雪”，又降级到“大雪”、“小雪”，最终在周五定格在了“大雪”。</p>
@@ -148,9 +148,9 @@
     </item>
     <item>
       <title>垃圾分类与秸秆禁烧的思考</title>
-      <link>https://iliu.org/posts/garbage-classification-and-straw-burning-reflection/</link>
+      <link>http://localhost:1313/posts/garbage-classification-and-straw-burning-reflection/</link>
       <pubDate>Thu, 11 Dec 2025 10:33:11 +0800</pubDate>
-      <guid>https://iliu.org/posts/garbage-classification-and-straw-burning-reflection/</guid>
+      <guid>http://localhost:1313/posts/garbage-classification-and-straw-burning-reflection/</guid>
       <description>&lt;p&gt;昨天下午去上班的时候，看到一个环卫师傅在收垃圾，把一包一包的垃圾往垃圾清运车里扔。忽然就想到，最近的这两年，垃圾分类是又少有人提起了。&lt;/p&gt;
 &lt;p&gt;之所以很少再提起，是因为现在我们垃圾焚烧发电了，而且垃圾根本就不够烧的。前两天还看到深圳要把以前的垃圾填埋场里的垃圾挖出来，当然，挖垃圾是次要的，主要的是要那片地。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>昨天下午去上班的时候，看到一个环卫师傅在收垃圾，把一包一包的垃圾往垃圾清运车里扔。忽然就想到，最近的这两年，垃圾分类是又少有人提起了。</p>
@@ -165,9 +165,9 @@
     </item>
     <item>
       <title>冬日杂记</title>
-      <link>https://iliu.org/posts/memories-of-winter/</link>
+      <link>http://localhost:1313/posts/memories-of-winter/</link>
       <pubDate>Wed, 03 Dec 2025 17:07:25 +0800</pubDate>
-      <guid>https://iliu.org/posts/memories-of-winter/</guid>
+      <guid>http://localhost:1313/posts/memories-of-winter/</guid>
       <description>&lt;p&gt;这两天，气温又开始下降了。看着女儿因为脚伤在家里，晚上不开空调就有点不乐意，心里不免感慨。虽然今年集中供暖依然未能实现，但室内的温度保持在19度左右，体感上其实还算可以。都说今年会是一个寒冬，但我总感觉现在的冬天，已经远没有记忆中那么冷了。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>这两天，气温又开始下降了。看着女儿因为脚伤在家里，晚上不开空调就有点不乐意，心里不免感慨。虽然今年集中供暖依然未能实现，但室内的温度保持在19度左右，体感上其实还算可以。都说今年会是一个寒冬，但我总感觉现在的冬天，已经远没有记忆中那么冷了。</p>
 <p><img loading="lazy" src="https://s2.l22.org/images/1764754161_luca-lago-7_LafQIixFQ-unsplash.jpg">
@@ -179,9 +179,9 @@
     </item>
     <item>
       <title>体检、微恙与放下酒杯</title>
-      <link>https://iliu.org/posts/medical-check-up-minor-ailments-and-putting-down-the-glass/</link>
+      <link>http://localhost:1313/posts/medical-check-up-minor-ailments-and-putting-down-the-glass/</link>
       <pubDate>Fri, 21 Nov 2025 10:38:31 +0800</pubDate>
-      <guid>https://iliu.org/posts/medical-check-up-minor-ailments-and-putting-down-the-glass/</guid>
+      <guid>http://localhost:1313/posts/medical-check-up-minor-ailments-and-putting-down-the-glass/</guid>
       <description>&lt;p&gt;日子在不经意间加速，转眼又到了做“身体年报”的时候。这几天&lt;strong&gt;在医院做了一系列检查&lt;/strong&gt;，把身体各个部件都摸了一遍。总体而言，情况比想象中要好，这无疑是今年最让人松一口气的消息。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>日子在不经意间加速，转眼又到了做“身体年报”的时候。这几天<strong>在医院做了一系列检查</strong>，把身体各个部件都摸了一遍。总体而言，情况比想象中要好，这无疑是今年最让人松一口气的消息。</p>
 <p><img loading="lazy" src="https://images.unsplash.com/photo-1720070828018-a0732de7d373?q=80&w=1696&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></p>

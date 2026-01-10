@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>内网穿透 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/</link>
+    <link>http://localhost:1313/tags/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/</link>
     <description>Recent content in 内网穿透 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 12 Nov 2023 21:19:15 +0800</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>在群晖中使用tailscale实现内网穿透</title>
-      <link>https://iliu.org/posts/using-tailscale-to-achieve-intranet-penetration-in-synology/</link>
+      <link>http://localhost:1313/posts/using-tailscale-to-achieve-intranet-penetration-in-synology/</link>
       <pubDate>Sun, 12 Nov 2023 21:19:15 +0800</pubDate>
-      <guid>https://iliu.org/posts/using-tailscale-to-achieve-intranet-penetration-in-synology/</guid>
+      <guid>http://localhost:1313/posts/using-tailscale-to-achieve-intranet-penetration-in-synology/</guid>
       <description>&lt;p&gt;在远程连接群晖的实践中，老刘一切介绍过&lt;a href=&#34;https://iliu.org/3356.html&#34;&gt;zerotier&lt;/a&gt;和&lt;a href=&#34;https://iliu.org/3997.html&#34;&gt;IPv6&lt;/a&gt;。但是实际的使用过程中，zerotier有时候握手的速度很慢，而且配置起来比较麻烦，IPv6很好，速度也快，但是有些环境中还只有IPv4，直到我听别人介绍到tailscale这个软件。它的工作原理其实和zerotier差不多，但是不需要什么复杂的设置，直接注册、登录，同一个账号的所有设备都连接到一起了。&lt;/p&gt;
 &lt;h2 id=&#34;注册tailscale&#34;&gt;注册tailscale&lt;/h2&gt;
 &lt;p&gt;百度直接搜，或者打看&lt;a href=&#34;https://www.tailscale.com/&#34;&gt;tailscale&lt;/a&gt;官方网站。注册就行，不过它不支持自由注册，需要用Google、apple、或者微软的outlook账号注册。&lt;/p&gt;
@@ -78,9 +78,9 @@
     </item>
     <item>
       <title>纯代码设置frp服务器</title>
-      <link>https://iliu.org/3340.html</link>
+      <link>http://localhost:1313/3340.html</link>
       <pubDate>Sun, 18 Oct 2020 07:27:04 +0000</pubDate>
-      <guid>https://iliu.org/3340.html</guid>
+      <guid>http://localhost:1313/3340.html</guid>
       <description>&lt;p&gt;以前老刘写过《&lt;a href=&#34;https://tunan.org/2918.html&#34;&gt;宝塔面板安装FRP内网穿透控制群晖&lt;/a&gt;》的文章，最近发现不知道是这个插件的作者不再开发了还是其他的原因，xeath开发的这个frp服务器插件已经在商店里找不到了。其实，这也没什么，直接用代码的方式部署也是可以的。&lt;/p&gt;
 &lt;p&gt;SSH连接到VPS之后运行如下命令查看处理器架构，根据架构下载不同版本的frp&lt;/p&gt;
 &lt;pre class=&#34;wp-block-preformatted&#34;&gt;arch&lt;/pre&gt;

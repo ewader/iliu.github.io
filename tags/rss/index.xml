@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>RSS on 老刘博客</title>
-    <link>https://iliu.org/tags/rss/</link>
+    <link>http://localhost:1313/tags/rss/</link>
     <description>Recent content in RSS on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 23 Dec 2021 01:48:37 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/rss/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/rss/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>推荐一款免费开源的RSS软件-Quiterss</title>
-      <link>https://iliu.org/3958.html</link>
+      <link>http://localhost:1313/3958.html</link>
       <pubDate>Thu, 23 Dec 2021 01:48:37 +0000</pubDate>
-      <guid>https://iliu.org/3958.html</guid>
+      <guid>http://localhost:1313/3958.html</guid>
       <description>&lt;p&gt;RSS对于很多博主来说都不会陌生，很多博友还都有着使用RSS订阅的习惯。有很多朋友还专门在VPS用tiny tinyRSS或者freshrss程序自己设立一个服务器。老刘目前也是在甲骨文的免费小鸡上用着tinyrss。这段时间在折腾PYTHON，在ubuntu上折腾。偶然发现了这个程序，体验了一下，感觉还是很不错的，推荐给大家。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>RSS对于很多博主来说都不会陌生，很多博友还都有着使用RSS订阅的习惯。有很多朋友还专门在VPS用tiny tinyRSS或者freshrss程序自己设立一个服务器。老刘目前也是在甲骨文的免费小鸡上用着tinyrss。这段时间在折腾PYTHON，在ubuntu上折腾。偶然发现了这个程序，体验了一下，感觉还是很不错的，推荐给大家。</p>
 <p><strong>QuiteRSS</strong>。它是一款免费开源且跨平台的 <strong>RSS 阅读器</strong>客户端软件，支持 Windows、Mac、Linux 系统，界面并不算华丽，但是该有的功能都有了，比如：支持 RSS 内容的中文关键字搜索，支持标签归类功能，可以对文章加上星号或标签来收藏整理，标记未读已读，支持 OPML 导入导出、可以文件夹整理 Feed、内置浏览器 (可设置使用外部默认浏览器打开)、支持多标签页等，基本上能满足一切 RSS 的阅读需求。</p>
@@ -39,9 +39,9 @@ sudo apt-get install quiterss</code></pre>
     </item>
     <item>
       <title>RSS终于又搞好了</title>
-      <link>https://iliu.org/3769.html</link>
+      <link>http://localhost:1313/3769.html</link>
       <pubDate>Sun, 06 Jun 2021 07:21:33 +0000</pubDate>
-      <guid>https://iliu.org/3769.html</guid>
+      <guid>http://localhost:1313/3769.html</guid>
       <description>&lt;p&gt;前两天买的出去的东西过期了，看了下今年的价格基本上小80一年了，去年才60，感觉再买一年实在是划不来。正好去年的时候买的一台RN的VPS，自己一直是用来搞RSS，看到张老师搞的出圈的东西还是挺稳定的，于是也想自己弄一弄。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>前两天买的出去的东西过期了，看了下今年的价格基本上小80一年了，去年才60，感觉再买一年实在是划不来。正好去年的时候买的一台RN的VPS，自己一直是用来搞RSS，看到张老师搞的出圈的东西还是挺稳定的，于是也想自己弄一弄。</p>
 <p>结果没有经验，只用了一天，VPS的IP被ban了。</p>
@@ -55,9 +55,9 @@ sudo apt-get install quiterss</code></pre>
     </item>
     <item>
       <title>停止使用RSS Feed</title>
-      <link>https://iliu.org/3364.html</link>
+      <link>http://localhost:1313/3364.html</link>
       <pubDate>Thu, 29 Oct 2020 08:35:05 +0000</pubDate>
-      <guid>https://iliu.org/3364.html</guid>
+      <guid>http://localhost:1313/3364.html</guid>
       <description>&lt;p&gt;由于种种原因，一直在使用RSS Feed订阅诸多博友的博客。但是由于众所周知的原因。现在使用Feed非常的不方便，要想愉快的使用，必须就要挂着梯子。但是，目前来看，政策愈发的紧张。使用梯子貌似成了一个高风险的事情，特别是像我这样开着一个工作室的人，如果被处罚一下，网上一查负责人居然有前科，谁还敢和你做生意啊。所以决定，梯子自是在需要的时候挂一挂，平时的时候都要让它处于关闭状态。但是这样一来，Feed就不太适合使用了。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>由于种种原因，一直在使用RSS Feed订阅诸多博友的博客。但是由于众所周知的原因。现在使用Feed非常的不方便，要想愉快的使用，必须就要挂着梯子。但是，目前来看，政策愈发的紧张。使用梯子貌似成了一个高风险的事情，特别是像我这样开着一个工作室的人，如果被处罚一下，网上一查负责人居然有前科，谁还敢和你做生意啊。所以决定，梯子自是在需要的时候挂一挂，平时的时候都要让它处于关闭状态。但是这样一来，Feed就不太适合使用了。</p>
 <p><a href="https://tunan.org/wp-content/uploads/2020/10/4af52202f77beb1.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3365" src="https://tunan.org/wp-content/uploads/2020/10/4af52202f77beb1.jpg" alt="" width="512" height="268" srcset="https://tunan.org/wp-content/uploads/2020/10/4af52202f77beb1.jpg 512w, https://tunan.org/wp-content/uploads/2020/10/4af52202f77beb1-300x157.jpg 300w" sizes="(max-width: 512px) 100vw, 512px" /></a></p>
@@ -73,9 +73,9 @@ sudo apt-get install quiterss</code></pre>
     </item>
     <item>
       <title>还是用回了RSS FEED</title>
-      <link>https://iliu.org/3051.html</link>
+      <link>http://localhost:1313/3051.html</link>
       <pubDate>Sat, 01 Feb 2020 01:14:28 +0000</pubDate>
-      <guid>https://iliu.org/3051.html</guid>
+      <guid>http://localhost:1313/3051.html</guid>
       <description>&lt;p&gt;以前用的RSS feed,由于速度慢，加上看了张波老师的博客，就自己搭建了RSS网站，可是Tinny rss一直有点问题，所以就用了FRESH RSS，不过前两天一个博友的网站被黑，怀疑就是这个东西的漏洞，这样，也不是太敢用了。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>以前用的RSS feed,由于速度慢，加上看了张波老师的博客，就自己搭建了RSS网站，可是Tinny rss一直有点问题，所以就用了FRESH RSS，不过前两天一个博友的网站被黑，怀疑就是这个东西的漏洞，这样，也不是太敢用了。</p>
 <p>想来想去，还是用feeder吧，一直用着梯子呢，速度也能接受！</p>

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>教育 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E6%95%99%E8%82%B2/</link>
+    <link>http://localhost:1313/tags/%E6%95%99%E8%82%B2/</link>
     <description>Recent content in 教育 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 01 Sep 2024 09:06:41 +0800</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E6%95%99%E8%82%B2/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E6%95%99%E8%82%B2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>军训</title>
-      <link>https://iliu.org/posts/military-training/</link>
+      <link>http://localhost:1313/posts/military-training/</link>
       <pubDate>Sun, 01 Sep 2024 09:06:41 +0800</pubDate>
-      <guid>https://iliu.org/posts/military-training/</guid>
+      <guid>http://localhost:1313/posts/military-training/</guid>
       <description>&lt;p&gt;军训，顾名思义就是军事训练。这个在我小时候很少听到的词汇，在今天，尤其是暑假开学后的日子，被人们累累提起。&lt;/p&gt;
 &lt;p&gt;老刘参加的唯一一次军训是1998年，我们学校是当时试点军训单位，所以军训的异常严格，由某部队官兵来学校训练，基本上是按照新兵的标准来的。时间是一个月，你能想到一个十来岁的孩子，刚刚去到一个人生地不熟的地方，心中的彷徨和无奈吗？&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>军训，顾名思义就是军事训练。这个在我小时候很少听到的词汇，在今天，尤其是暑假开学后的日子，被人们累累提起。</p>

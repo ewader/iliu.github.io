@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>读书 on 老刘博客</title>
-    <link>https://iliu.org/categories/%E8%AF%BB%E4%B9%A6/</link>
+    <link>http://localhost:1313/categories/%E8%AF%BB%E4%B9%A6/</link>
     <description>Recent content in 读书 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 27 Dec 2021 13:23:01 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/categories/%E8%AF%BB%E4%B9%A6/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/%E8%AF%BB%E4%B9%A6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>水浒中的社会与人生</title>
-      <link>https://iliu.org/3990.html</link>
+      <link>http://localhost:1313/3990.html</link>
       <pubDate>Mon, 27 Dec 2021 13:23:01 +0000</pubDate>
-      <guid>https://iliu.org/3990.html</guid>
+      <guid>http://localhost:1313/3990.html</guid>
       <description>&lt;p&gt;用两天的时间读完了这本书。书是在多看里的找的电子书，刚开始是无聊一看，后来觉得还是蛮有意思的。&lt;/p&gt;
 &lt;p&gt;本书是由中山大学中文系的教授刘烈茂所著，从社会和人生的角度分析里水浒中诸多人物的方方面面。如果你是一个水浒迷，这本书一定要看一看。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>用两天的时间读完了这本书。书是在多看里的找的电子书，刚开始是无聊一看，后来觉得还是蛮有意思的。</p>
@@ -34,9 +34,9 @@
     </item>
     <item>
       <title>推荐一本渤海小吏的书——《楚汉双雄》</title>
-      <link>https://iliu.org/3892.html</link>
+      <link>http://localhost:1313/3892.html</link>
       <pubDate>Sat, 11 Sep 2021 02:38:35 +0000</pubDate>
-      <guid>https://iliu.org/3892.html</guid>
+      <guid>http://localhost:1313/3892.html</guid>
       <description>&lt;p&gt;好久没有正经的推过书了，是因为这段时间一是读书确实很少，另一个方面是一直在看《黄帝内经写什么》这套书。只是这套书真的是有点长了，直到现在也没有完全读完。&lt;br&gt;
 昨晚上在和女儿的睡前互动中，女儿还是要求完飞花令，但是一时也找不到飞什么字，再加上她下午刚去打了第二针的疫苗，这次有点反应了，胳膊比较疼。人也有点没精神。所以，我给女儿说，要不给你读一段书吧。&lt;br&gt;
 于是翻kindle，找到了一本《楚汉双雄（中国古代史上桥段频出的8年….)》的这本书，书是@&lt;a href=&#34;https://www.huhexian.com&#34;&gt;胡和先&lt;/a&gt;同学前几天再群里发的可以免费购买的书里搞的，之前本着不弄白不弄的原则。&lt;/p&gt;</description>
@@ -61,9 +61,9 @@
     </item>
     <item>
       <title>小米多看电纸书（mireader）简单开箱</title>
-      <link>https://iliu.org/3639.html</link>
+      <link>http://localhost:1313/3639.html</link>
       <pubDate>Tue, 02 Feb 2021 02:19:41 +0000</pubDate>
-      <guid>https://iliu.org/3639.html</guid>
+      <guid>http://localhost:1313/3639.html</guid>
       <description>&lt;p&gt;记得2018年底的时候，镜片厂商送了一台kindle paperwhite 4。从此以后，读的书确实比以前多一些。最近一段时间以来，女儿对kindle起了浓厚的兴趣，以前她只喜欢看纸质的，现在她说，这里面的书更多，也更方便一些。于是，我的kindle经常跑到了女儿的床头。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>记得2018年底的时候，镜片厂商送了一台kindle paperwhite 4。从此以后，读的书确实比以前多一些。最近一段时间以来，女儿对kindle起了浓厚的兴趣，以前她只喜欢看纸质的，现在她说，这里面的书更多，也更方便一些。于是，我的kindle经常跑到了女儿的床头。</p>
 <p>所以，就有了再入手一台电纸书的想法。网上搜了一下，发现小米电纸书是一款挺合适的产品。首先来说，价格不贵，京东的价格是599，有几家在做活动579，但是要运费，这样下来也就和自营店差不多了。第二，配置还行，1G的内存，24颗阅读灯，16g的存储空间，屏幕的分辨率是212。这个配置相比较我的kindle来说，除了屏幕的分辨率以外，其他都完胜了。当然，电纸书吗，最重要的是书库，多看的书库网络小说比较多。让我比较满意的是有青少年模式，打开后就屏蔽了这些东西。于是入手之。</p>
@@ -87,9 +87,9 @@
     </item>
     <item>
       <title>《小狗钱钱》</title>
-      <link>https://iliu.org/3378.html</link>
+      <link>http://localhost:1313/3378.html</link>
       <pubDate>Tue, 03 Nov 2020 03:28:10 +0000</pubDate>
-      <guid>https://iliu.org/3378.html</guid>
+      <guid>http://localhost:1313/3378.html</guid>
       <description>&lt;p&gt;女儿大了后，有一个习惯一直没有丢掉，就是必须要晚上给她讲故事。都11岁了，还让她老父亲给她讲睡前故事！！我也知道，这是丫头在找找儿时的幸福时光。于是，我就给她读一些乱七八糟的书，什么《山海经》，什么《史记》，前一段把kindle里的半小时漫话系列给她读的差不多了，有时候听着听着人家还都睡着了。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>女儿大了后，有一个习惯一直没有丢掉，就是必须要晚上给她讲故事。都11岁了，还让她老父亲给她讲睡前故事！！我也知道，这是丫头在找找儿时的幸福时光。于是，我就给她读一些乱七八糟的书，什么《山海经》，什么《史记》，前一段把kindle里的半小时漫话系列给她读的差不多了，有时候听着听着人家还都睡着了。</p>
 <p><a href="https://tunan.org/wp-content/uploads/2020/11/ae8257d2b7281f4.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3379" src="https://tunan.org/wp-content/uploads/2020/11/ae8257d2b7281f4.jpg" alt="" width="400" height="592" srcset="https://tunan.org/wp-content/uploads/2020/11/ae8257d2b7281f4.jpg 400w, https://tunan.org/wp-content/uploads/2020/11/ae8257d2b7281f4-203x300.jpg 203w" sizes="(max-width: 400px) 100vw, 400px" /></a></p>
@@ -100,9 +100,9 @@
     </item>
     <item>
       <title>Kindle软件重大更新，这个玩法你一定要知道！</title>
-      <link>https://iliu.org/3235.html</link>
+      <link>http://localhost:1313/3235.html</link>
       <pubDate>Tue, 25 Aug 2020 09:18:32 +0000</pubDate>
-      <guid>https://iliu.org/3235.html</guid>
+      <guid>http://localhost:1313/3235.html</guid>
       <description>&lt;p&gt;今天拿出来我的kindle，发现有系统更新的提示，对于我这种追求最新的人来说，更新那是必须的，那么本次更新后，系统会多了那些功能呢？&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;最新的软件版本是什么？&lt;/strong&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>今天拿出来我的kindle，发现有系统更新的提示，对于我这种追求最新的人来说，更新那是必须的，那么本次更新后，系统会多了那些功能呢？</p>
@@ -162,9 +162,9 @@
     </item>
     <item>
       <title>好书/显微镜下的大明</title>
-      <link>https://iliu.org/2970.html</link>
+      <link>http://localhost:1313/2970.html</link>
       <pubDate>Thu, 02 Jan 2020 07:35:03 +0000</pubDate>
-      <guid>https://iliu.org/2970.html</guid>
+      <guid>http://localhost:1313/2970.html</guid>
       <description>&lt;p&gt;第一次听说这本书记得是姜老师的回复，说有一本叫《显微镜下的大明》这本书不错。刚好，看完了上一本书，就把这本书找来看。&lt;/p&gt;
 &lt;p&gt;虽然同是讲历史的说，但是这本书和别的历史书不同的在于，它没有写朝堂，没有写历史的上的那些大事。它只写了几个发生在民间的故事，譬如，小吏如何通过手段把本来由六个县负担的税赋让一个县承担，而事情被捅出来之后，竟然每人去翻案，最终闹大了反而把为其他五县请命的人给抓了。一座寺院加一个孤坟是如何发生战争的，大明黄册的作用以及黄册如何一步一步的沦为鸡肋的，底层人员又如何通过黄册来欺上瞒下的等等。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>第一次听说这本书记得是姜老师的回复，说有一本叫《显微镜下的大明》这本书不错。刚好，看完了上一本书，就把这本书找来看。</p>
@@ -246,9 +246,9 @@
     </item>
     <item>
       <title>豆瓣2019年度读书榜单逐本下载</title>
-      <link>https://iliu.org/2958.html</link>
+      <link>http://localhost:1313/2958.html</link>
       <pubDate>Thu, 26 Dec 2019 04:36:36 +0000</pubDate>
-      <guid>https://iliu.org/2958.html</guid>
+      <guid>http://localhost:1313/2958.html</guid>
       <description>&lt;p&gt;岁末年终，【豆瓣2019年度读书榜单】如约而至。&lt;/p&gt;
 &lt;p&gt;今年的年度榜单分为年度高分、最受关注、文学、社科、影视、绘本、再版好书、冷门好书等20个类别，共有177种图书上榜。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>岁末年终，【豆瓣2019年度读书榜单】如约而至。</p>
@@ -353,9 +353,9 @@
     </item>
     <item>
       <title>认知天性</title>
-      <link>https://iliu.org/2947.html</link>
+      <link>http://localhost:1313/2947.html</link>
       <pubDate>Sat, 21 Dec 2019 12:00:17 +0000</pubDate>
-      <guid>https://iliu.org/2947.html</guid>
+      <guid>http://localhost:1313/2947.html</guid>
       <description>&lt;p&gt;最近一直没有更新博文，是因为忙，嗯，是因为忙，是因为忙。我是不会说是因为，最近有空的时候是在看《庆余年》这本小说导致没有更新的。&lt;/p&gt;
 &lt;p&gt;不过今天说的这本书和庆余年一毛钱的关系都没有，今天说的这本书是这个月看的《认知天性》这本书。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>最近一直没有更新博文，是因为忙，嗯，是因为忙，是因为忙。我是不会说是因为，最近有空的时候是在看《庆余年》这本小说导致没有更新的。</p>
@@ -378,9 +378,9 @@
     </item>
     <item>
       <title>《如何读懂一本书，攀登读书法》</title>
-      <link>https://iliu.org/2892.html</link>
+      <link>http://localhost:1313/2892.html</link>
       <pubDate>Fri, 29 Nov 2019 03:30:01 +0000</pubDate>
-      <guid>https://iliu.org/2892.html</guid>
+      <guid>http://localhost:1313/2892.html</guid>
       <description>&lt;p&gt;跋涉者是一个爱看书的人，但是很多时候更喜欢看一些快餐书，比如网络小说之类的。也不是不想看别的，但是总感觉自己看这些书再以后的工作生活中用不上，比如，哲学、逻辑学等等还有一些其他的书，有时候甚至看的瞌睡，看完了以后留在脑海里的印象也没有什么了，很多时候就是为了看而看，既不知道如何选书，也抓不住书里的精华，也就是利用碎片时间看上几页。所以，不能说没有收获，只能说收获不大而已，这也影响到了看下一本书的信心。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>跋涉者是一个爱看书的人，但是很多时候更喜欢看一些快餐书，比如网络小说之类的。也不是不想看别的，但是总感觉自己看这些书再以后的工作生活中用不上，比如，哲学、逻辑学等等还有一些其他的书，有时候甚至看的瞌睡，看完了以后留在脑海里的印象也没有什么了，很多时候就是为了看而看，既不知道如何选书，也抓不住书里的精华，也就是利用碎片时间看上几页。所以，不能说没有收获，只能说收获不大而已，这也影响到了看下一本书的信心。</p>
 <p><a href="https://tunan.org/wp-content/uploads/2019/11/9bf78ced2380374.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2893" src="https://tunan.org/wp-content/uploads/2019/11/9bf78ced2380374.jpg" alt="" width="400" height="534" srcset="https://tunan.org/wp-content/uploads/2019/11/9bf78ced2380374.jpg 400w, https://tunan.org/wp-content/uploads/2019/11/9bf78ced2380374-225x300.jpg 225w" sizes="(max-width: 400px) 100vw, 400px" /></a></p>
@@ -454,9 +454,9 @@
     </item>
     <item>
       <title>胡椒的全球史:财富、冒险与殖民</title>
-      <link>https://iliu.org/2814.html</link>
+      <link>http://localhost:1313/2814.html</link>
       <pubDate>Fri, 18 Oct 2019 07:35:24 +0000</pubDate>
-      <guid>https://iliu.org/2814.html</guid>
+      <guid>http://localhost:1313/2814.html</guid>
       <description>&lt;p&gt;这是一本写胡椒的书，也是一部欧洲列强的殖民史，小小不起眼的胡椒，却成为了很多动物灭绝的推动因素。&lt;/p&gt;
 &lt;h2 id=&#34;作者简介&#34;&gt;&lt;span class=&#34;&#34;&gt;作者简介&lt;/span&gt;  · · · · · ·&lt;/h2&gt;
 &lt;div class=&#34;indent &#34;&gt;
@@ -531,9 +531,9 @@
     </item>
     <item>
       <title>《欢愉》——一个优雅而性感的故事</title>
-      <link>https://iliu.org/2632.html</link>
+      <link>http://localhost:1313/2632.html</link>
       <pubDate>Tue, 27 Aug 2019 07:10:15 +0000</pubDate>
-      <guid>https://iliu.org/2632.html</guid>
+      <guid>http://localhost:1313/2632.html</guid>
       <description>&lt;p&gt;这两天把《欢愉》这本书看了一遍，看这本书是因为kindle里的推荐：&lt;/p&gt;
 &lt;p&gt;它的头衔很多&lt;/p&gt;
 &lt;p class=&#34;ql-align-justify&#34;&gt;
@@ -648,9 +648,9 @@
     </item>
     <item>
       <title>从1到N：企业数字化生存指南</title>
-      <link>https://iliu.org/2539.html</link>
+      <link>http://localhost:1313/2539.html</link>
       <pubDate>Sun, 21 Jul 2019 07:34:52 +0000</pubDate>
-      <guid>https://iliu.org/2539.html</guid>
+      <guid>http://localhost:1313/2539.html</guid>
       <description>&lt;p&gt;昨天晚上照例陪女儿看书，话说我的kindle都快被女儿给霸占住了，好不容易从她手里弄了过来。然后，她看她的简版《水浒传》，我在kindle里乱翻，忽然看到了一本名叫《从1到N：企业数字化生存指南》，由于本身对数字化还是有点兴趣的，于是就订阅翻了一下。&lt;figure id=&#34;2537&#34; class=&#34;content-img-box &#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>昨天晚上照例陪女儿看书，话说我的kindle都快被女儿给霸占住了，好不容易从她手里弄了过来。然后，她看她的简版《水浒传》，我在kindle里乱翻，忽然看到了一本名叫《从1到N：企业数字化生存指南》，由于本身对数字化还是有点兴趣的，于是就订阅翻了一下。<figure id="2537" class="content-img-box "></p>
 <p><img decoding="async" id="B8CBFF91" class="po-img-big" src="https://tunan.org/wp-content/uploads/2019/07/1ddf4815d15369.jpg" alt="从1到N：企业数字化生存指南" /> <figcaption class="addDesn"></figcaption></figure></p>
@@ -668,9 +668,9 @@
     </item>
     <item>
       <title>推荐一个手机看书的app，阅读app</title>
-      <link>https://iliu.org/2533.html</link>
+      <link>http://localhost:1313/2533.html</link>
       <pubDate>Sat, 20 Jul 2019 07:40:34 +0000</pubDate>
-      <guid>https://iliu.org/2533.html</guid>
+      <guid>http://localhost:1313/2533.html</guid>
       <description>&lt;p&gt;我们知道手机上看书最大的糟点是毁眼和广告。毁眼就不说了，这个要么少看，要么戴上防蓝光眼镜然后少看，广告可就是太烦人了，那铺天盖地的，不给你弹各遍是誓不罢休的。官方的一些APP是没有广告，但是要钱啊，有没有一款既不要钱又没有广告的看书app呢，还真有。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>我们知道手机上看书最大的糟点是毁眼和广告。毁眼就不说了，这个要么少看，要么戴上防蓝光眼镜然后少看，广告可就是太烦人了，那铺天盖地的，不给你弹各遍是誓不罢休的。官方的一些APP是没有广告，但是要钱啊，有没有一款既不要钱又没有广告的看书app呢，还真有。</p>
 <h2 id="阅读app的特点">阅读APP的特点</h2>
@@ -698,9 +698,9 @@
     </item>
     <item>
       <title>大数据悖论及人工智能等</title>
-      <link>https://iliu.org/1705.html</link>
+      <link>http://localhost:1313/1705.html</link>
       <pubDate>Tue, 11 Jun 2019 01:19:52 +0000</pubDate>
-      <guid>https://iliu.org/1705.html</guid>
+      <guid>http://localhost:1313/1705.html</guid>
       <description>&lt;p&gt;前几天在kindle搜索《未来简史》，包月的书库里这本书没有，但是却有一本《新未来简史》，是讲区块链、大数据以及人工智能等方面的的书，作者是王骥。翻看了一下，虽然全书通篇有一种把种种理论生生堆在一起之嫌，但是作者也提出了几个新颖的观点。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>前几天在kindle搜索《未来简史》，包月的书库里这本书没有，但是却有一本《新未来简史》，是讲区块链、大数据以及人工智能等方面的的书，作者是王骥。翻看了一下，虽然全书通篇有一种把种种理论生生堆在一起之嫌，但是作者也提出了几个新颖的观点。</p>
 <h2 id="第一大数据悖论">第一，大数据悖论</h2>
@@ -733,9 +733,9 @@
     </item>
     <item>
       <title>给孩子推荐一本书《假话国历险记》</title>
-      <link>https://iliu.org/1609.html</link>
+      <link>http://localhost:1313/1609.html</link>
       <pubDate>Mon, 20 May 2019 03:14:30 +0000</pubDate>
-      <guid>https://iliu.org/1609.html</guid>
+      <guid>http://localhost:1313/1609.html</guid>
       <description>&lt;p&gt;周五的时候，接女儿放学回家，路上的时候女儿给我说：“爸爸，你能不能给我买一本书啊？”我问，什么书啊？女儿说，是一本叫《假话国历险记》的书，我还是第一次听说这本书，还以为又是一本快餐小说呢，就给女儿说，我要看看这本书怎么样才能确定用不要给你买。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>周五的时候，接女儿放学回家，路上的时候女儿给我说：“爸爸，你能不能给我买一本书啊？”我问，什么书啊？女儿说，是一本叫《假话国历险记》的书，我还是第一次听说这本书，还以为又是一本快餐小说呢，就给女儿说，我要看看这本书怎么样才能确定用不要给你买。</p>
 <p>经过查询发现这本书是国<span style="color: #111111; background-color: #ffffff;">际安徒生奖得主、意大利作家罗大里的代表作之一，</span><span style="color: #333333; background-color: #ffffff;">讲述了海盗当上了一个国家的国王，因为嫌海盗的名声难听，就想出个办法，把字典全部改过：海盗变成了圣人，圣人变成了海盗：面包叫墨水，墨水叫面包；早晨起床说晚安，睡前道你早……颠倒黑白，歪曲事实，正直真诚的人们要坐牢。一天，假话国来了男孩小茉莉，还有一个小画家，一只三脚猫……他们都不愿说假话，不愿人们受欺压。小茉莉用自己高亢的声音震跑了假话国的国王，震塌了”疯人院”，也解救了许多无罪的、敢说真话的人们。</span><figure id="1608" class="content-img-box "></p>

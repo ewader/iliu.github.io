@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Python on 老刘博客</title>
-    <link>https://iliu.org/tags/python/</link>
+    <link>http://localhost:1313/tags/python/</link>
     <description>Recent content in Python on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 14 Jan 2022 09:34:09 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Django部署在debian11服务器</title>
-      <link>https://iliu.org/4029.html</link>
+      <link>http://localhost:1313/4029.html</link>
       <pubDate>Fri, 14 Jan 2022 09:34:09 +0000</pubDate>
-      <guid>https://iliu.org/4029.html</guid>
+      <guid>http://localhost:1313/4029.html</guid>
       <description>&lt;p&gt;Python加Django开发网页程序真的很方便，连我这个菜鸟看看教程之类的也能写出来程序。本地测试完了之后，想在服务器上跑跑看，结果发现，要发布到服务器端，可是比PHP程序要麻烦的多，从昨天下午就开始看相关的教程，后来在宝塔面板下部署成功了，但是我不想用宝塔面板，于是继续折腾的道路，经过一天的折腾，重装了好几次测试的服务器，终于算是部署成功了，虽然只是一个测试的项目，但是总算又迈出去了一步不是。项目采用nginx+uwsgi+django。服务器端采用的是debian11。&lt;figure class=&#34;wp-block-image size-full&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Python加Django开发网页程序真的很方便，连我这个菜鸟看看教程之类的也能写出来程序。本地测试完了之后，想在服务器上跑跑看，结果发现，要发布到服务器端，可是比PHP程序要麻烦的多，从昨天下午就开始看相关的教程，后来在宝塔面板下部署成功了，但是我不想用宝塔面板，于是继续折腾的道路，经过一天的折腾，重装了好几次测试的服务器，终于算是部署成功了，虽然只是一个测试的项目，但是总算又迈出去了一步不是。项目采用nginx+uwsgi+django。服务器端采用的是debian11。<figure class="wp-block-image size-full"></p>
 <p><img loading="lazy" decoding="async" width="1920" height="1141" src="https://tunan.org/wp-content/uploads/2022/01/7d4638de9da853b.jpeg" alt="" class="wp-image-4030" srcset="https://tunan.org/wp-content/uploads/2022/01/7d4638de9da853b.jpeg 1920w, https://tunan.org/wp-content/uploads/2022/01/7d4638de9da853b-768x456.jpeg 768w, https://tunan.org/wp-content/uploads/2022/01/7d4638de9da853b-1536x913.jpeg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /> </figure></p>
@@ -87,9 +87,9 @@ uwsgi --ini uwsgi.ini
     </item>
     <item>
       <title>python开发web程序，最好还是在Linux下</title>
-      <link>https://iliu.org/3947.html</link>
+      <link>http://localhost:1313/3947.html</link>
       <pubDate>Tue, 14 Dec 2021 12:57:17 +0000</pubDate>
-      <guid>https://iliu.org/3947.html</guid>
+      <guid>http://localhost:1313/3947.html</guid>
       <description>&lt;p&gt;看了一些python教程，很多都是在windows下进行的开发，由于老刘对linux还算是有一丢丢的了解，所以从开始就在ubuntu下进行。前两天由于要在windows下用电脑，用完之后懒得重启，由于win10里也配置好了python的开发环境，所以就在win下写了一些代码。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>看了一些python教程，很多都是在windows下进行的开发，由于老刘对linux还算是有一丢丢的了解，所以从开始就在ubuntu下进行。前两天由于要在windows下用电脑，用完之后懒得重启，由于win10里也配置好了python的开发环境，所以就在win下写了一些代码。</p>
 <img loading="lazy" decoding="async" class="alignnone size-full wp-image-3948" src="https://tunan.org/wp-content/uploads/2021/12/OIP.jpeg" alt="" width="474" height="296" /> 
@@ -100,9 +100,9 @@ uwsgi --ini uwsgi.ini
     </item>
     <item>
       <title>用input和字典初步实现我的一点小想法</title>
-      <link>https://iliu.org/3929.html</link>
+      <link>http://localhost:1313/3929.html</link>
       <pubDate>Sat, 30 Oct 2021 04:28:51 +0000</pubDate>
-      <guid>https://iliu.org/3929.html</guid>
+      <guid>http://localhost:1313/3929.html</guid>
       <description>&lt;p&gt;从决心要学Python开始，到现在差不多一周的时间了吧，买了一本《Python编程，从入门到实践》的书，目前看到了第九章，函数篇。&lt;/p&gt;
 &lt;p&gt;通过上面8章的学习，基本上有了实现我那个小项目的想法。今天根据前八章的知识，初步用input函数，实现了用特殊关键字的查询。继续加油。&lt;br&gt;
 &lt;code class=&#34;language-php&#34;&gt;&lt;/code&gt;&lt;/p&gt;</description>

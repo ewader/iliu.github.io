@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>设置 on 老刘博客</title>
-    <link>https://iliu.org/tags/%E8%AE%BE%E7%BD%AE/</link>
+    <link>http://localhost:1313/tags/%E8%AE%BE%E7%BD%AE/</link>
     <description>Recent content in 设置 on 老刘博客</description>
     <image>
       <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+      <url>http://localhost:1313/img/liujinsuiyue.jpg</url>
+      <link>http://localhost:1313/img/liujinsuiyue.jpg</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 15 May 2023 07:11:31 +0000</lastBuildDate>
-    <atom:link href="https://iliu.org/tags/%E8%AE%BE%E7%BD%AE/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E8%AE%BE%E7%BD%AE/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>浅谈群晖安全性方面的设置</title>
-      <link>https://iliu.org/4375.html</link>
+      <link>http://localhost:1313/4375.html</link>
       <pubDate>Mon, 15 May 2023 07:11:31 +0000</pubDate>
-      <guid>https://iliu.org/4375.html</guid>
+      <guid>http://localhost:1313/4375.html</guid>
       <description>&lt;p&gt;我们在玩群晖的时候，往往不会满足于群晖只作为局域网里的一个服务器的存在，还想让它发挥更大的作用，让我们无论身在何地，都可以自由的访问我们群晖里的东西，这就需要我们把群晖暴露在公网之中。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>我们在玩群晖的时候，往往不会满足于群晖只作为局域网里的一个服务器的存在，还想让它发挥更大的作用，让我们无论身在何地，都可以自由的访问我们群晖里的东西，这就需要我们把群晖暴露在公网之中。</p>
 <p>无论你是使用<a href="https://tunan.org/3997.html">ddns</a>，或者<a href="https://tunan.org/2918.html">frp</a>、<a href="https://tunan.org/3356.html">zerotier</a>内网穿透技术，只要是你把群晖暴露在公网上，那就要做好承担被网络上成千上万个扫描器扫描到的风险。扫描到不可怕，重要的扫描到也让它没有办法才行。这样，设置群晖的安全性设置就很必要了。</p>
