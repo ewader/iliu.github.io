@@ -3,18 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://iliu.org/</loc>
-    <lastmod>2026-01-08T08:22:16+08:00</lastmod>
-  </url><url>
-    <loc>https://iliu.org/posts/reflections-after-finishing-the-first-volume-of-the-huayan-jing/</loc>
-    <lastmod>2026-01-08T08:22:16+08:00</lastmod>
+    <lastmod>2026-01-14T17:04:40+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/categories/</loc>
-    <lastmod>2026-01-08T08:22:16+08:00</lastmod>
+    <lastmod>2026-01-14T17:04:40+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/tags/linux/</loc>
+    <lastmod>2026-01-14T17:04:40+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/posts/</loc>
-    <lastmod>2026-01-08T08:22:16+08:00</lastmod>
+    <lastmod>2026-01-14T17:04:40+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/tags/</loc>
+    <lastmod>2026-01-14T17:04:40+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/posts/ubuntu2510-install-ibus-libpinyin/</loc>
+    <lastmod>2026-01-14T17:04:40+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/categories/%E9%BD%90%E7%89%A9/</loc>
+    <lastmod>2026-01-14T17:04:40+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/tags/%E8%BE%93%E5%85%A5%E6%B3%95/</loc>
+    <lastmod>2026-01-14T17:04:40+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/posts/reflections-after-finishing-the-first-volume-of-the-huayan-jing/</loc>
     <lastmod>2026-01-08T08:22:16+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/categories/%E5%BE%B7%E5%85%85%E7%AC%A6/</loc>
@@ -36,9 +48,6 @@
     <lastmod>2026-01-04T18:01:08+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/posts/migrated-my-blog-to-edgeone-pages/</loc>
-    <lastmod>2026-01-04T18:01:08+08:00</lastmod>
-  </url><url>
-    <loc>https://iliu.org/categories/%E9%BD%90%E7%89%A9/</loc>
     <lastmod>2026-01-04T18:01:08+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/posts/the-snow-at-years-end/</loc>
@@ -129,9 +138,6 @@
     <lastmod>2025-11-30T10:00:00+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/tags/grub/</loc>
-    <lastmod>2025-11-30T10:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://iliu.org/tags/linux/</loc>
     <lastmod>2025-11-30T10:00:00+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/tags/snapper/</loc>
@@ -618,9 +624,6 @@
     <lastmod>2024-02-15T14:50:28+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/posts/use-fcitx5-andriod-input/</loc>
-    <lastmod>2024-02-07T20:28:26+08:00</lastmod>
-  </url><url>
-    <loc>https://iliu.org/tags/%E8%BE%93%E5%85%A5%E6%B3%95/</loc>
     <lastmod>2024-02-07T20:28:26+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/posts/the-first-snow-in-2024/</loc>
