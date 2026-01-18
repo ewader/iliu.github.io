@@ -3,24 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://iliu.org/</loc>
-    <lastmod>2026-01-14T17:04:40+08:00</lastmod>
+    <lastmod>2026-01-18T19:26:30+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/categories/</loc>
-    <lastmod>2026-01-14T17:04:40+08:00</lastmod>
+    <lastmod>2026-01-18T19:26:30+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/tags/kde/</loc>
+    <lastmod>2026-01-18T19:26:30+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/tags/linux/</loc>
-    <lastmod>2026-01-14T17:04:40+08:00</lastmod>
+    <lastmod>2026-01-18T19:26:30+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/posts/use-linux-kde-autolight/</loc>
+    <lastmod>2026-01-18T19:26:30+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/posts/</loc>
-    <lastmod>2026-01-14T17:04:40+08:00</lastmod>
+    <lastmod>2026-01-18T19:26:30+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/tags/</loc>
-    <lastmod>2026-01-14T17:04:40+08:00</lastmod>
-  </url><url>
-    <loc>https://iliu.org/posts/ubuntu2510-install-ibus-libpinyin/</loc>
-    <lastmod>2026-01-14T17:04:40+08:00</lastmod>
+    <lastmod>2026-01-18T19:26:30+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/categories/%E9%BD%90%E7%89%A9/</loc>
+    <lastmod>2026-01-18T19:26:30+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/tags/%E8%87%AA%E5%8A%A8%E4%BA%AE%E5%BA%A6/</loc>
+    <lastmod>2026-01-18T19:26:30+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/posts/ubuntu2510-install-ibus-libpinyin/</loc>
     <lastmod>2026-01-14T17:04:40+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/tags/%E8%BE%93%E5%85%A5%E6%B3%95/</loc>
