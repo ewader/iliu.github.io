@@ -9,10 +9,160 @@
       <url>https://iliu.org/img/liujinsuiyue.jpg</url>
       <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo -- 0.154.5</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 14 Jan 2026 17:04:40 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 02 Feb 2026 16:51:08 +0800</lastBuildDate>
     <atom:link href="https://iliu.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026年的第二场雪以及怼物业</title>
+      <link>https://iliu.org/posts/new-year-2026-snow-and-argue-with-the-property-management/</link>
+      <pubDate>Mon, 02 Feb 2026 16:51:08 +0800</pubDate>
+      <guid>https://iliu.org/posts/new-year-2026-snow-and-argue-with-the-property-management/</guid>
+      <description>&lt;p&gt;今年这个冬天，雪下得真是不少，农历2024年的冬天是一场也没下，好似把雪都留到了农历的2025年。&lt;/p&gt;
+&lt;p&gt;天气预报也从预报的大雪到暴雪然后再到中雪，周日女儿等了半天的停课通知也无果，晚上下了一点点，周一上午也没怎么下，想着这次又预报的不准，结果下午2点以后，纷纷扬扬的大雪飘落了下来。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>今年这个冬天，雪下得真是不少，农历2024年的冬天是一场也没下，好似把雪都留到了农历的2025年。</p>
+<p>天气预报也从预报的大雪到暴雪然后再到中雪，周日女儿等了半天的停课通知也无果，晚上下了一点点，周一上午也没怎么下，想着这次又预报的不准，结果下午2点以后，纷纷扬扬的大雪飘落了下来。</p>
+<p><img loading="lazy" src="https://ewader.s3.bitiful.net/IMG_20260120_124855.jpg"></p>
+<p>车上也是厚厚的一层积雪了，女儿是刘耀文的粉丝，替他在车上的雪里写上了他的名字。</p>
+<p><img loading="lazy" src="https://ewader.s3.bitiful.net/IMG_20260120_123915.jpg?no-wait=on">
+前面写上了2026新年快乐的字样</p>
+<p><img loading="lazy" src="https://ewader.s3.bitiful.net/IMG_20260120_123846.jpg?no-wait=on"></p>
+<p>不过，下雪天，最累的还是城管等相关行业的，清扫积雪，是一件很辛苦的事情，但是我们小区太奇葩了，到中午12点了，路上还是一片冰雪。我在群里怼了他们，说谁家物业不把路上的积雪给清理掉。人家还很委屈，说清理了，都是冰，弄不掉！
+<img loading="lazy" src="https://ewader.s3.bitiful.net/weiqingsaojixue.jpg?no-wait=on"></p>
+<p>说话我们这个物业真的很垃圾，是开发商老板的女婿干的。小区差点烂尾，维权了多少次，终于算到了保交楼的项目了，到现在还没有整体交房，最开始找好的物业，一看情况不对，干脆不合作了，经某“领导”介绍，给弄来了个物业，结果干了半年，拿着部分业主的装修押金跑路了。</p>
+<p>由于没有房产证，成立不了业主大会，开发商不点头，别的物业还进不来，最后的结果是开发商老板的女婿成了个物业公司进来了。实话实话，要比第一个物业要强，最起码小区基本的物业算是维护了。但是离1.98物业费的标准还差得远。而且也非常不专业。很多事情都要业主推着才去干。</p>
+<p>这不，上午怼了他们一顿，下午物业经理就带着人把路给清理了。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>linux下使用kde桌面，自动亮度失效解决办法</title>
+      <link>https://iliu.org/posts/use-linux-kde-autolight/</link>
+      <pubDate>Sun, 18 Jan 2026 16:42:36 +0800</pubDate>
+      <guid>https://iliu.org/posts/use-linux-kde-autolight/</guid>
+      <description>&lt;p&gt;之前一直用的桌面是gnome,也用的挺习惯，gnome很简洁，通过插件系统可以实现很多功能。前几天博客群里有聊到KDE桌面的问题，我安装后，体验了一下，也非常不错，特别是日历系统，相当的惊艳。 原生支持农历，还有中国的节假日，也是非常准确的。目前最新版的linux系统，不知道怎么回事，我的屏幕自动亮度失效了，在早些时候的版本里是可以的。在gnome下，有个插件可以解决这个问题，但是kde下没有类似的插件。我问了一下AI，它给我给出了一个方案，我使用了以后，发现非常完美的解决了我的问题。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>之前一直用的桌面是gnome,也用的挺习惯，gnome很简洁，通过插件系统可以实现很多功能。前几天博客群里有聊到KDE桌面的问题，我安装后，体验了一下，也非常不错，特别是日历系统，相当的惊艳。 原生支持农历，还有中国的节假日，也是非常准确的。目前最新版的linux系统，不知道怎么回事，我的屏幕自动亮度失效了，在早些时候的版本里是可以的。在gnome下，有个插件可以解决这个问题，但是kde下没有类似的插件。我问了一下AI，它给我给出了一个方案，我使用了以后，发现非常完美的解决了我的问题。</p>
+<h4 id="核心痛点">核心痛点</h4>
+<ul>
+<li>硬件环境：Fedora 43 / KDE Plasma 6 (Wayland)</li>
+<li>问题：系统内核可以识别环境光传感器（ALS），但 KDE 系统设置中没有自动亮度选项。</li>
+<li>诉求：保留 KDE 完美的日历体验，同时实现亮度的平滑、自动调节。</li>
+</ul>
+<h4 id="第一步确认硬件传感器是否工作">第一步：确认硬件传感器是否工作</h4>
+<p>在折腾软件前，首先要确认 Linux 内核是否能读取到传感器数值。安装 iio-sensor-proxy 并运行测试：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo dnf install iio-sensor-proxy
+</span></span><span class="line"><span class="cl">monitor-sensor
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>如果看到 Light changed: XX.XXXXXX (lux) 的输出，说明硬件层已经打通，剩下的只是逻辑控制问题。</p>
+<h4 id="第二步安装底层控制工具">第二步：安装底层控制工具</h4>
+<p>为了绕过不稳定的 D-Bus 接口，我们选择直接与系统底层驱动对话的工具：brightnessctl。它在 Fedora 下非常稳定，且支持 Wayland。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo dnf install brightnessctl
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h4 id="第三步编写平滑过渡自动亮度脚本">第三步：编写“平滑过渡”自动亮度脚本</h4>
+<p>这个脚本会潜伏在后台，实时监控 monitor-sensor 的输出，并根据你设定的光照阶梯，平滑地（以 1% 为步长） 调节屏幕亮度。
+脚本路径： ~/bin/auto_brightness.sh</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="cp">#!/bin/bash
+</span></span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 1. 初始化当前亮度</span>
+</span></span><span class="line"><span class="cl"><span class="nv">current_brightness</span><span class="o">=</span><span class="k">$(</span>brightnessctl -d intel_backlight -m <span class="p">|</span> cut -d, -f4 <span class="p">|</span> tr -d <span class="s1">&#39;%&#39;</span><span class="k">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 2. 持续监控传感器输出</span>
+</span></span><span class="line"><span class="cl">monitor-sensor <span class="p">|</span> <span class="k">while</span> <span class="nb">read</span> -r line<span class="p">;</span> <span class="k">do</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="o">[[</span> <span class="s2">&#34;</span><span class="nv">$line</span><span class="s2">&#34;</span> <span class="o">==</span> *<span class="s2">&#34;Light changed:&#34;</span>* <span class="o">]]</span><span class="p">;</span> <span class="k">then</span>
+</span></span><span class="line"><span class="cl">        <span class="c1"># 提取 Lux 数值并转为整数</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">lux_float</span><span class="o">=</span><span class="k">$(</span><span class="nb">echo</span> <span class="s2">&#34;</span><span class="nv">$line</span><span class="s2">&#34;</span> <span class="p">|</span> awk <span class="s1">&#39;{print $3}&#39;</span><span class="k">)</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">lux</span><span class="o">=</span><span class="k">$(</span><span class="nb">printf</span> <span class="s2">&#34;%.0f&#34;</span> <span class="s2">&#34;</span><span class="nv">$lux_float</span><span class="s2">&#34;</span> 2&gt;/dev/null<span class="k">)</span>
+</span></span><span class="line"><span class="cl">        <span class="o">[</span> -z <span class="s2">&#34;</span><span class="nv">$lux</span><span class="s2">&#34;</span> <span class="o">]</span> <span class="o">&amp;&amp;</span> <span class="k">continue</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="c1"># 3. 设定你的个性化亮度阶梯 (Lux vs 亮度百分比)</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="o">[</span> <span class="s2">&#34;</span><span class="nv">$lux</span><span class="s2">&#34;</span> -gt <span class="m">200</span> <span class="o">]</span><span class="p">;</span> <span class="k">then</span> <span class="nv">target</span><span class="o">=</span><span class="m">100</span>
+</span></span><span class="line"><span class="cl">        <span class="k">elif</span> <span class="o">[</span> <span class="s2">&#34;</span><span class="nv">$lux</span><span class="s2">&#34;</span> -gt <span class="m">100</span> <span class="o">]</span><span class="p">;</span> <span class="k">then</span> <span class="nv">target</span><span class="o">=</span><span class="m">85</span>
+</span></span><span class="line"><span class="cl">        <span class="k">elif</span> <span class="o">[</span> <span class="s2">&#34;</span><span class="nv">$lux</span><span class="s2">&#34;</span> -gt <span class="m">50</span> <span class="o">]</span><span class="p">;</span> <span class="k">then</span> <span class="nv">target</span><span class="o">=</span><span class="m">70</span>
+</span></span><span class="line"><span class="cl">        <span class="k">elif</span> <span class="o">[</span> <span class="s2">&#34;</span><span class="nv">$lux</span><span class="s2">&#34;</span> -gt <span class="m">25</span> <span class="o">]</span><span class="p">;</span> <span class="k">then</span> <span class="nv">target</span><span class="o">=</span><span class="m">55</span>
+</span></span><span class="line"><span class="cl">        <span class="k">elif</span> <span class="o">[</span> <span class="s2">&#34;</span><span class="nv">$lux</span><span class="s2">&#34;</span> -gt <span class="m">12</span> <span class="o">]</span><span class="p">;</span> <span class="k">then</span> <span class="nv">target</span><span class="o">=</span><span class="m">35</span>  <span class="c1"># 针对室内办公优化</span>
+</span></span><span class="line"><span class="cl">        <span class="k">elif</span> <span class="o">[</span> <span class="s2">&#34;</span><span class="nv">$lux</span><span class="s2">&#34;</span> -gt <span class="m">5</span> <span class="o">]</span><span class="p">;</span> <span class="k">then</span> <span class="nv">target</span><span class="o">=</span><span class="m">20</span>
+</span></span><span class="line"><span class="cl">        <span class="k">else</span> <span class="nv">target</span><span class="o">=</span>10<span class="p">;</span> <span class="k">fi</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="c1"># 4. 平滑过渡逻辑：让亮度“滑”到目标值</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="o">[</span> <span class="s2">&#34;</span><span class="nv">$target</span><span class="s2">&#34;</span> -ne <span class="s2">&#34;</span><span class="nv">$current_brightness</span><span class="s2">&#34;</span> <span class="o">]</span><span class="p">;</span> <span class="k">then</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">step</span><span class="o">=</span><span class="k">$((</span> target &gt; current_brightness ? <span class="m">1</span> : <span class="o">-</span><span class="m">1</span> <span class="k">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="k">while</span> <span class="o">[</span> <span class="s2">&#34;</span><span class="nv">$current_brightness</span><span class="s2">&#34;</span> -ne <span class="s2">&#34;</span><span class="nv">$target</span><span class="s2">&#34;</span> <span class="o">]</span><span class="p">;</span> <span class="k">do</span>
+</span></span><span class="line"><span class="cl">                <span class="nv">current_brightness</span><span class="o">=</span><span class="k">$((</span>current_brightness <span class="o">+</span> step<span class="k">))</span>
+</span></span><span class="line"><span class="cl">                brightnessctl -d intel_backlight <span class="nb">set</span> <span class="si">${</span><span class="nv">current_brightness</span><span class="si">}</span>% &gt; /dev/null 2&gt;<span class="p">&amp;</span><span class="m">1</span>
+</span></span><span class="line"><span class="cl">                sleep 0.02 <span class="c1"># 调节此数值改变过渡速度</span>
+</span></span><span class="line"><span class="cl">            <span class="k">done</span>
+</span></span><span class="line"><span class="cl">        <span class="k">fi</span>
+</span></span><span class="line"><span class="cl">    <span class="k">fi</span>
+</span></span><span class="line"><span class="cl"><span class="k">done</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h4 id="第四步实现开机静默自启">第四步：实现开机静默自启</h4>
+<p>为了让它像原生功能一样工作，我们需要在 KDE “系统设置” -&gt; “启动和关闭” -&gt; “自动启动” 中添加该脚本。
+为了保证后台运行且不弹窗、不留日志，启动命令建议设置为：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">/home/你的用户名/bin/auto_brightness.sh &gt; /dev/null 2&gt;&amp;1
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h4 id="结语">结语</h4>
+<p>通过这段脚本，我不仅找回了遗失的“自动亮度”，还获得了比 GNOME 插件更高的自由度：我可以精确控制在多少 Lux 下显示多少亮度，甚至可以控制亮度变化的速度。
+这就是 Linux 的魅力：如果你不喜欢现有的规则，你可以自己写一个。 现在的我，可以一边看着 KDE 任务栏优雅的农历日期，一边感受着屏幕随光线柔和变化的舒适感。</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Ubuntu25.10编译安装Ibus-libpinyin </title>
       <link>https://iliu.org/posts/ubuntu2510-install-ibus-libpinyin/</link>
@@ -102,7 +252,7 @@
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt install libglib2.0-dev libdb5.3-dev libibus-1.0-dev libsqlite3-dev <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>liblua5.1-0-dev libnotify-dev libsoup-3.0-dev libjson-glib-dev
+</span></span></span><span class="line"><span class="cl">liblua5.1-0-dev libnotify-dev libsoup-3.0-dev libjson-glib-dev
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="编译">编译</h3>
@@ -1046,13 +1196,13 @@ Cloudflare Workers 可以完美胜任代理转发的功能，作用是：</p>
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">curl -X POST <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>  -H <span class="s2">&#34;Content-Type: application/json&#34;</span> <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>  -d <span class="s1">&#39;{
+</span></span></span><span class="line"><span class="cl">  -H <span class="s2">&#34;Content-Type: application/json&#34;</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl">  -d <span class="s1">&#39;{
 </span></span></span><span class="line"><span class="cl"><span class="s1">        &#34;client_name&#34;: &#34;hugo-gts-proxy&#34;,
 </span></span></span><span class="line"><span class="cl"><span class="s1">        &#34;redirect_uris&#34;: &#34;urn:ietf:wg:oauth:2.0:oob&#34;,
 </span></span></span><span class="line"><span class="cl"><span class="s1">        &#34;scopes&#34;: &#34;read&#34;
 </span></span></span><span class="line"><span class="cl"><span class="s1">      }&#39;</span> <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>  <span class="s1">&#39;https://你的域名/api/v1/apps&#39;</span>
+</span></span></span><span class="line"><span class="cl">  <span class="s1">&#39;https://你的域名/api/v1/apps&#39;</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>成功后会返回类似：</p>
@@ -1117,15 +1267,15 @@ Cloudflare Workers 可以完美胜任代理转发的功能，作用是：</p>
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">curl -X POST <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>  -H <span class="s2">&#34;Content-Type: application/json&#34;</span> <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>  -d <span class="s1">&#39;{
+</span></span></span><span class="line"><span class="cl">  -H <span class="s2">&#34;Content-Type: application/json&#34;</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl">  -d <span class="s1">&#39;{
 </span></span></span><span class="line"><span class="cl"><span class="s1">        &#34;redirect_uri&#34;: &#34;urn:ietf:wg:oauth:2.0:oob&#34;,
 </span></span></span><span class="line"><span class="cl"><span class="s1">        &#34;client_id&#34;: &#34;YOUR_CLIENT_ID&#34;,
 </span></span></span><span class="line"><span class="cl"><span class="s1">        &#34;client_secret&#34;: &#34;YOUR_CLIENT_SECRET&#34;,
 </span></span></span><span class="line"><span class="cl"><span class="s1">        &#34;grant_type&#34;: &#34;authorization_code&#34;,
 </span></span></span><span class="line"><span class="cl"><span class="s1">        &#34;code&#34;: &#34;YOUR_AUTHORIZATION_CODE&#34;
 </span></span></span><span class="line"><span class="cl"><span class="s1">      }&#39;</span> <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>  <span class="s1">&#39;https://你的域名/oauth/token&#39;</span>
+</span></span></span><span class="line"><span class="cl">  <span class="s1">&#39;https://你的域名/oauth/token&#39;</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>会返回类似：</p>
@@ -1157,7 +1307,7 @@ Cloudflare Workers 可以完美胜任代理转发的功能，作用是：</p>
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">curl -H <span class="s2">&#34;Authorization: Bearer YOUR_ACCESS_TOKEN&#34;</span> <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>  <span class="s1">&#39;https://你的域名/api/v1/accounts/verify_credentials&#39;</span>
+</span></span></span><span class="line"><span class="cl">  <span class="s1">&#39;https://你的域名/api/v1/accounts/verify_credentials&#39;</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>如果返回你的用户资料（ username, id, url 等），说明 token 有效 。</p>
@@ -1374,7 +1524,7 @@ Worker 代码示例如下 👇：</p>
 </span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">data</span> <span class="o">=</span> <span class="kr">await</span> <span class="nx">resp</span><span class="p">.</span><span class="nx">json</span><span class="p">();</span>
 </span></span><span class="line"><span class="cl"><span class="nx">细步骤</span>
 </span></span><span class="line"><span class="cl">    <span class="c1">// 并行拉取每条嘟文的回复
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="kr">const</span> <span class="nx">statuses</span> <span class="o">=</span> <span class="kr">await</span> <span class="nb">Promise</span><span class="p">.</span><span class="nx">all</span><span class="p">(</span><span class="nx">data</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="kr">async</span> <span class="p">(</span><span class="nx">status</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">statuses</span> <span class="o">=</span> <span class="kr">await</span> <span class="nb">Promise</span><span class="p">.</span><span class="nx">all</span><span class="p">(</span><span class="nx">data</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="kr">async</span> <span class="p">(</span><span class="nx">status</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">      <span class="kd">let</span> <span class="nx">replies</span> <span class="o">=</span> <span class="p">[];</span>
 </span></span><span class="line"><span class="cl">      <span class="k">try</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">        <span class="kr">const</span> <span class="nx">ctx</span> <span class="o">=</span> <span class="kr">await</span> <span class="nx">fetch</span><span class="p">(</span><span class="sb">`https://你的域名/api/v1/statuses/</span><span class="si">${</span><span class="nx">status</span><span class="p">.</span><span class="nx">id</span><span class="si">}</span><span class="sb">/context`</span><span class="p">,</span> <span class="p">{</span>
@@ -1435,7 +1585,7 @@ Worker 代码示例如下 👇：</p>
 </span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">data</span> <span class="o">=</span> <span class="kr">await</span> <span class="nx">resp</span><span class="p">.</span><span class="nx">json</span><span class="p">();</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">    <span class="c1">// 并行拉取每条嘟文的回复
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="kr">const</span> <span class="nx">statuses</span> <span class="o">=</span> <span class="kr">await</span> <span class="nb">Promise</span><span class="p">.</span><span class="nx">all</span><span class="p">(</span><span class="nx">data</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="kr">async</span> <span class="p">(</span><span class="nx">status</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">statuses</span> <span class="o">=</span> <span class="kr">await</span> <span class="nb">Promise</span><span class="p">.</span><span class="nx">all</span><span class="p">(</span><span class="nx">data</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="kr">async</span> <span class="p">(</span><span class="nx">status</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">      <span class="kd">let</span> <span class="nx">replies</span> <span class="o">=</span> <span class="p">[];</span>
 </span></span><span class="line"><span class="cl">      <span class="k">try</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">        <span class="kr">const</span> <span class="nx">ctx</span> <span class="o">=</span> <span class="kr">await</span> <span class="nx">fetch</span><span class="p">(</span><span class="sb">`https://l22.org/api/v1/statuses/</span><span class="si">${</span><span class="nx">status</span><span class="p">.</span><span class="nx">id</span><span class="si">}</span><span class="sb">/context`</span><span class="p">,</span> <span class="p">{</span>
@@ -1838,13 +1988,13 @@ Worker 代码示例如下 👇：</p>
 </span></span><span class="line"><span class="cl">  <span class="kd">let</span> <span class="nx">tootsData</span> <span class="o">=</span> <span class="p">[];</span>
 </span></span><span class="line"><span class="cl">  <span class="kd">let</span> <span class="nx">displayedCount</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">  <span class="kr">const</span> <span class="nx">pageSize</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span> <span class="c1">// 每次加载条数
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">  <span class="c1">// ✅ 加载嘟文
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kr">async</span> <span class="kd">function</span> <span class="nx">loadToots</span><span class="p">(</span><span class="nx">initial</span><span class="o">=</span><span class="kc">false</span><span class="p">)</span> <span class="p">{</span>
+</span></span></span><span class="line"><span class="cl">  <span class="kr">async</span> <span class="kd">function</span> <span class="nx">loadToots</span><span class="p">(</span><span class="nx">initial</span><span class="o">=</span><span class="kc">false</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nx">initial</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">      <span class="c1">// 请注意：如果您要使用 Cloudflare Worker，这里的 URL 应该是您的 Worker URL，而不是原始 Mastodon/GoToSocial 实例的 URL。
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>      <span class="c1">// 假设您的 Worker 地址是 https://worker.yourdomain.com/api/v1/accounts/01M4A5Q58VD6GJH97T2TE6W25J/statuses?exclude_reblogs=true
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>      <span class="kr">const</span> <span class="nx">url</span> <span class="o">=</span> <span class="s2">&#34;https://toots.iliu.org/api/v1/accounts/01M4A5Q58VD6GJH97T2TE6W25J/statuses?exclude_reblogs=true&#34;</span><span class="p">;</span> 
+</span></span></span><span class="line"><span class="cl">      <span class="c1">// 假设您的 Worker 地址是 https://worker.yourdomain.com/api/v1/accounts/01M4A5Q58VD6GJH97T2TE6W25J/statuses?exclude_reblogs=true
+</span></span></span><span class="line"><span class="cl">      <span class="kr">const</span> <span class="nx">url</span> <span class="o">=</span> <span class="s2">&#34;https://toots.iliu.org/api/v1/accounts/01M4A5Q58VD6GJH97T2TE6W25J/statuses?exclude_reblogs=true&#34;</span><span class="p">;</span> 
 </span></span><span class="line"><span class="cl">      <span class="kr">const</span> <span class="nx">res</span> <span class="o">=</span> <span class="kr">await</span> <span class="nx">fetch</span><span class="p">(</span><span class="nx">url</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">      <span class="nx">tootsData</span> <span class="o">=</span> <span class="kr">await</span> <span class="nx">res</span><span class="p">.</span><span class="nx">json</span><span class="p">();</span>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
@@ -1858,7 +2008,7 @@ Worker 代码示例如下 👇：</p>
 </span></span><span class="line"><span class="cl">      <span class="kr">const</span> <span class="nx">avatar</span> <span class="o">=</span> <span class="nx">t</span><span class="p">.</span><span class="nx">account</span><span class="o">?</span><span class="p">.</span><span class="nx">avatar</span> <span class="o">||</span> <span class="s2">&#34;https://l22.org/path-to-default-avatar.png&#34;</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">      <span class="c1">// ✅ 九宫格多图布局
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>      <span class="kd">let</span> <span class="nx">mediaHTML</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span><span class="p">;</span>
+</span></span></span><span class="line"><span class="cl">      <span class="kd">let</span> <span class="nx">mediaHTML</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">      <span class="k">if</span> <span class="p">(</span><span class="nx">t</span><span class="p">.</span><span class="nx">media_attachments</span> <span class="o">&amp;&amp;</span> <span class="nx">t</span><span class="p">.</span><span class="nx">media_attachments</span><span class="p">.</span><span class="nx">length</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">        <span class="nx">mediaHTML</span> <span class="o">=</span> <span class="sb">`
 </span></span></span><span class="line"><span class="cl"><span class="sb">          &lt;div class=&#34;toot-media-grid&#34;&gt;
@@ -1872,7 +2022,7 @@ Worker 代码示例如下 👇：</p>
 </span></span><span class="line"><span class="cl">      <span class="p">}</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">      <span class="c1">// 🚨 【修复点】直接使用 Worker 预取的 t.replies 数据来构建回复内容
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>      <span class="kd">let</span> <span class="nx">repliesHTML</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span><span class="p">;</span>
+</span></span></span><span class="line"><span class="cl">      <span class="kd">let</span> <span class="nx">repliesHTML</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">      <span class="k">if</span> <span class="p">(</span><span class="nx">t</span><span class="p">.</span><span class="nx">replies</span> <span class="o">&amp;&amp;</span> <span class="nx">t</span><span class="p">.</span><span class="nx">replies</span><span class="p">.</span><span class="nx">length</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">        <span class="nx">repliesHTML</span> <span class="o">=</span> <span class="sb">`
 </span></span></span><span class="line"><span class="cl"><span class="sb">          &lt;div class=&#34;toot-replies&#34;&gt;
@@ -1892,7 +2042,7 @@ Worker 代码示例如下 👇：</p>
 </span></span></span><span class="line"><span class="cl"><span class="sb">        `</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">      <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nx">t</span><span class="p">.</span><span class="nx">replies_count</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">        <span class="c1">// 如果 Worker 没有返回 replies 但计数大于 0，可能是 Worker 拉取回复失败
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="nx">repliesHTML</span> <span class="o">=</span> <span class="sb">`&lt;div class=&#34;toot-replies&#34;&gt;&lt;p class=&#39;no-reply&#39;&gt;暂无回复（或Worker拉取失败）&lt;/p&gt;&lt;/div&gt;`</span><span class="p">;</span>
+</span></span></span><span class="line"><span class="cl">        <span class="nx">repliesHTML</span> <span class="o">=</span> <span class="sb">`&lt;div class=&#34;toot-replies&#34;&gt;&lt;p class=&#39;no-reply&#39;&gt;暂无回复（或Worker拉取失败）&lt;/p&gt;&lt;/div&gt;`</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">      <span class="p">}</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">      <span class="kr">const</span> <span class="nx">tootHTML</span> <span class="o">=</span> <span class="sb">`
@@ -1916,20 +2066,20 @@ Worker 代码示例如下 👇：</p>
 </span></span><span class="line"><span class="cl">      <span class="nx">container</span><span class="p">.</span><span class="nx">insertAdjacentHTML</span><span class="p">(</span><span class="s2">&#34;beforeend&#34;</span><span class="p">,</span> <span class="nx">tootHTML</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">      
 </span></span><span class="line"><span class="cl">      <span class="c1">// 🚨 【修复点】移除了原有的 loadReplies(t.id) 调用
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="p">}</span>
+</span></span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">    <span class="nx">displayedCount</span> <span class="o">+=</span> <span class="nx">pageSize</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">&#34;load-more-btn&#34;</span><span class="p">).</span><span class="nx">style</span><span class="p">.</span><span class="nx">display</span> <span class="o">=</span> <span class="nx">displayedCount</span> <span class="o">&gt;=</span> <span class="nx">tootsData</span><span class="p">.</span><span class="nx">length</span> <span class="o">?</span> <span class="s2">&#34;none&#34;</span> <span class="o">:</span> <span class="s2">&#34;inline-block&#34;</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">  <span class="p">}</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">  <span class="c1">// 🚨 【修复点】移除了 loadReplies 函数
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">  <span class="c1">// ✅ 初次加载
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">&#34;load-more-btn&#34;</span><span class="p">).</span><span class="nx">onclick</span> <span class="o">=</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="nx">loadToots</span><span class="p">();</span>
+</span></span></span><span class="line"><span class="cl">  <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">&#34;load-more-btn&#34;</span><span class="p">).</span><span class="nx">onclick</span> <span class="o">=</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="nx">loadToots</span><span class="p">();</span>
 </span></span><span class="line"><span class="cl">  <span class="nx">loadToots</span><span class="p">(</span><span class="kc">true</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">  <span class="c1">// ✅ 简易图片灯箱
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kd">function</span> <span class="nx">showLightbox</span><span class="p">(</span><span class="nx">src</span><span class="p">)</span> <span class="p">{</span>
+</span></span></span><span class="line"><span class="cl">  <span class="kd">function</span> <span class="nx">showLightbox</span><span class="p">(</span><span class="nx">src</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="kd">let</span> <span class="nx">lightbox</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">&#34;lightbox&#34;</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">lightbox</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">      <span class="nx">lightbox</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s2">&#34;div&#34;</span><span class="p">);</span>
@@ -2066,7 +2216,7 @@ Worker 代码示例如下 👇：</p>
 </span></span><span class="line"><span class="cl">  <span class="c">/* 灯箱样式 */</span>
 </span></span><span class="line"><span class="cl">  <span class="p">#</span><span class="nn">lightbox</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="k">position</span><span class="p">:</span> <span class="kc">fixed</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="n">inset</span><span class="p">:</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">inset</span><span class="p">:</span> <span class="mi">0</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="k">background</span><span class="p">:</span> <span class="nb">rgba</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mf">0.8</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">    <span class="k">display</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="k">justify-content</span><span class="p">:</span> <span class="kc">center</span><span class="p">;</span>
@@ -2183,10 +2333,10 @@ Worker 代码示例如下 👇：</p>
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nn">---</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;友情链接&#34;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">layout</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;friends&#34;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">summary</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;那些值得一去的好地方&#34;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nn">---</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;友情链接&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">layout</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;friends&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">summary</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;那些值得一去的好地方&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nn">---</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>（ 注意： layout 是我们下一步要创建的模板文件名。）</p>
@@ -2379,12 +2529,12 @@ Worker 代码示例如下 👇：</p>
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">avatar</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;https://avatars.githubusercontent.com/u/21258296?v=4&#34;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">desc</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;简洁优雅的 Hugo 主题&#34;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;Hugo 官网&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl">- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;Hugo 官网&#34;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;https://gohugo.io/&#34;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">avatar</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;https://gohugo.io/images/hugo-logo-wide.svg&#34;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">desc</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;世界上最快的静态网站生成器&#34;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;老刘博客&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl">- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;老刘博客&#34;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;https://iliu.org/&#34;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">avatar</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;https://iliu.org/img/apple-touch-icon.png/&#34;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">desc</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;分享我的思考与生活&#34;</span><span class="w">
@@ -3984,11 +4134,11 @@ AI的训练依赖互联网数据，而互联网数据就是无数人说过的话
 </span></span><span class="line"><span class="cl">sudo mkdir -p /etc/apt/keyrings
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key <span class="p">|</span> <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>  sudo gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg
+</span></span></span><span class="line"><span class="cl">  sudo gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="nv">NODE_MAJOR</span><span class="o">=</span><span class="m">22</span>
 </span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_</span><span class="nv">$NODE_MAJOR</span><span class="s2">.x nodistro main&#34;</span> <span class="p">|</span> <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>  sudo tee /etc/apt/sources.list.d/nodesource.list
+</span></span></span><span class="line"><span class="cl">  sudo tee /etc/apt/sources.list.d/nodesource.list
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">sudo apt update
 </span></span><span class="line"><span class="cl">sudo apt install -y nodejs
@@ -15404,10 +15554,10 @@ qq群优势在于：没有其他信息刷屏，只在群内进行线上教学，
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">./configure --prefix<span class="o">=</span>/usr/local/nginx --user<span class="o">=</span>www --group<span class="o">=</span>www <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>--with-http_stub_status_module --with-http_v2_module --with-http_ssl_module <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>--with-http_gzip_static_module --with-http_realip_module --with-http_flv_module <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>--with-http_mp4_module --with-openssl<span class="o">=</span>../openssl-1.0.2o --with-pcre<span class="o">=</span>../pcre-8.42 <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>--with-pcre-jit --with-ld-opt<span class="o">=</span>-ljemalloc --add-module<span class="o">=</span>../ngx_cache_purge-2.3
+</span></span></span><span class="line"><span class="cl">--with-http_stub_status_module --with-http_v2_module --with-http_ssl_module <span class="se">\
+</span></span></span><span class="line"><span class="cl">--with-http_gzip_static_module --with-http_realip_module --with-http_flv_module <span class="se">\
+</span></span></span><span class="line"><span class="cl">--with-http_mp4_module --with-openssl<span class="o">=</span>../openssl-1.0.2o --with-pcre<span class="o">=</span>../pcre-8.42 <span class="se">\
+</span></span></span><span class="line"><span class="cl">--with-pcre-jit --with-ld-opt<span class="o">=</span>-ljemalloc --add-module<span class="o">=</span>../ngx_cache_purge-2.3
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">make
 </span></span><span class="line"><span class="cl">mv /usr/local/nginx/sbin/nginx<span class="o">{</span>,_<span class="sb">`</span>date +%F<span class="sb">`</span><span class="o">}</span> <span class="c1"># 备份旧版本</span>
@@ -15498,22 +15648,22 @@ qq群优势在于：没有其他信息刷屏，只在群内进行线上教学，
 </span></span><span class="line"><span class="cl">    <span class="kn">set</span> <span class="nv">$skip_cache</span> <span class="mi">0</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">    <span class="c1"># POST 请求不缓存
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="kn">if</span> <span class="s">(</span><span class="nv">$request_method</span> <span class="p">=</span> <span class="s">POST)</span> <span class="p">{</span>
+</span></span></span><span class="line"><span class="cl">    <span class="kn">if</span> <span class="s">(</span><span class="nv">$request_method</span> <span class="p">=</span> <span class="s">POST)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">        <span class="kn">set</span> <span class="nv">$skip_cache</span> <span class="mi">1</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">    <span class="c1"># 带查询字符串的请求不缓存
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="kn">if</span> <span class="s">(</span><span class="nv">$query_string</span> <span class="s">!=</span> <span class="s">&#34;&#34;)</span> <span class="p">{</span>
+</span></span></span><span class="line"><span class="cl">    <span class="kn">if</span> <span class="s">(</span><span class="nv">$query_string</span> <span class="s">!=</span> <span class="s">&#34;&#34;)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">        <span class="kn">set</span> <span class="nv">$skip_cache</span> <span class="mi">1</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">    <span class="c1"># 后台及特定页面不缓存
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="kn">if</span> <span class="s">(</span><span class="nv">$request_uri</span> <span class="p">~</span><span class="sr">*</span> <span class="s">&#34;/wp-admin/|/xmlrpc.php|wp-.*.php|/feed/|index.php|sitemap(_index)?.xml&#34;)</span> <span class="p">{</span>
+</span></span></span><span class="line"><span class="cl">    <span class="kn">if</span> <span class="s">(</span><span class="nv">$request_uri</span> <span class="p">~</span><span class="sr">*</span> <span class="s">&#34;/wp-admin/|/xmlrpc.php|wp-.*.php|/feed/|index.php|sitemap(_index)?.xml&#34;)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">        <span class="kn">set</span> <span class="nv">$skip_cache</span> <span class="mi">1</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">    <span class="c1"># 登录用户或评论用户不缓存
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="kn">if</span> <span class="s">(</span><span class="nv">$http_cookie</span> <span class="p">~</span><span class="sr">*</span> <span class="s">&#34;comment_author|wordpress_[a-f0-9]+|wp-postpass|wordpress_no_cache|wordpress_logged_in&#34;)</span> <span class="p">{</span>
+</span></span></span><span class="line"><span class="cl">    <span class="kn">if</span> <span class="s">(</span><span class="nv">$http_cookie</span> <span class="p">~</span><span class="sr">*</span> <span class="s">&#34;comment_author|wordpress_[a-f0-9]+|wp-postpass|wordpress_no_cache|wordpress_logged_in&#34;)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">        <span class="kn">set</span> <span class="nv">$skip_cache</span> <span class="mi">1</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span><span class="line"><span class="cl">
@@ -15530,10 +15680,10 @@ qq群优势在于：没有其他信息刷屏，只在群内进行线上教学，
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">    <span class="c1"># 缓存清理配置（可选）
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="kn">location</span> <span class="p">~</span> <span class="sr">/purge(/.*)</span> <span class="p">{</span>
+</span></span></span><span class="line"><span class="cl">    <span class="kn">location</span> <span class="p">~</span> <span class="sr">/purge(/.*)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">        <span class="kn">allow</span> <span class="n">127.0.0.1</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">        <span class="kn">allow</span> <span class="n">122.115.122.111</span><span class="p">;</span> <span class="c1"># 请改为你服务器 IP
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="kn">deny</span> <span class="s">all</span><span class="p">;</span>
+</span></span></span><span class="line"><span class="cl">        <span class="kn">deny</span> <span class="s">all</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">        <span class="kn">fastcgi_cache_purge</span> <span class="s">WORDPRESS</span> <span class="s">&#34;</span><span class="nv">$scheme$request_method$host$1&#34;</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
@@ -25316,7 +25466,7 @@ Creative Commons是国际上一套通用的网络作品许可协议，它致力�
 </span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">tag_structure</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="k">empty</span><span class="p">(</span><span class="nv">$this</span><span class="o">-&gt;</span><span class="na">permalink_structure</span><span class="p">))</span> <span class="p">{</span> <span class="c1">//——这行需要修改——
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">tag_structure</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span><span class="p">;</span>
+</span></span></span><span class="line"><span class="cl">        <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">tag_structure</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="k">false</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span></code></pre></td></tr></table>

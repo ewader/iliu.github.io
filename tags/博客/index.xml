@@ -9,7 +9,7 @@
       <url>https://iliu.org/img/liujinsuiyue.jpg</url>
       <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo -- 0.154.5</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 04 Jan 2026 18:01:08 +0800</lastBuildDate>
     <atom:link href="https://iliu.org/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
@@ -149,13 +149,13 @@ Cloudflare Workers 可以完美胜任代理转发的功能，作用是：</p>
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">curl -X POST <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>  -H <span class="s2">&#34;Content-Type: application/json&#34;</span> <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>  -d <span class="s1">&#39;{
+</span></span></span><span class="line"><span class="cl">  -H <span class="s2">&#34;Content-Type: application/json&#34;</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl">  -d <span class="s1">&#39;{
 </span></span></span><span class="line"><span class="cl"><span class="s1">        &#34;client_name&#34;: &#34;hugo-gts-proxy&#34;,
 </span></span></span><span class="line"><span class="cl"><span class="s1">        &#34;redirect_uris&#34;: &#34;urn:ietf:wg:oauth:2.0:oob&#34;,
 </span></span></span><span class="line"><span class="cl"><span class="s1">        &#34;scopes&#34;: &#34;read&#34;
 </span></span></span><span class="line"><span class="cl"><span class="s1">      }&#39;</span> <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>  <span class="s1">&#39;https://你的域名/api/v1/apps&#39;</span>
+</span></span></span><span class="line"><span class="cl">  <span class="s1">&#39;https://你的域名/api/v1/apps&#39;</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>成功后会返回类似：</p>
@@ -220,15 +220,15 @@ Cloudflare Workers 可以完美胜任代理转发的功能，作用是：</p>
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">curl -X POST <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>  -H <span class="s2">&#34;Content-Type: application/json&#34;</span> <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>  -d <span class="s1">&#39;{
+</span></span></span><span class="line"><span class="cl">  -H <span class="s2">&#34;Content-Type: application/json&#34;</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl">  -d <span class="s1">&#39;{
 </span></span></span><span class="line"><span class="cl"><span class="s1">        &#34;redirect_uri&#34;: &#34;urn:ietf:wg:oauth:2.0:oob&#34;,
 </span></span></span><span class="line"><span class="cl"><span class="s1">        &#34;client_id&#34;: &#34;YOUR_CLIENT_ID&#34;,
 </span></span></span><span class="line"><span class="cl"><span class="s1">        &#34;client_secret&#34;: &#34;YOUR_CLIENT_SECRET&#34;,
 </span></span></span><span class="line"><span class="cl"><span class="s1">        &#34;grant_type&#34;: &#34;authorization_code&#34;,
 </span></span></span><span class="line"><span class="cl"><span class="s1">        &#34;code&#34;: &#34;YOUR_AUTHORIZATION_CODE&#34;
 </span></span></span><span class="line"><span class="cl"><span class="s1">      }&#39;</span> <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>  <span class="s1">&#39;https://你的域名/oauth/token&#39;</span>
+</span></span></span><span class="line"><span class="cl">  <span class="s1">&#39;https://你的域名/oauth/token&#39;</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>会返回类似：</p>
@@ -260,7 +260,7 @@ Cloudflare Workers 可以完美胜任代理转发的功能，作用是：</p>
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">curl -H <span class="s2">&#34;Authorization: Bearer YOUR_ACCESS_TOKEN&#34;</span> <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>  <span class="s1">&#39;https://你的域名/api/v1/accounts/verify_credentials&#39;</span>
+</span></span></span><span class="line"><span class="cl">  <span class="s1">&#39;https://你的域名/api/v1/accounts/verify_credentials&#39;</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>如果返回你的用户资料（ username, id, url 等），说明 token 有效 。</p>
@@ -477,7 +477,7 @@ Worker 代码示例如下 👇：</p>
 </span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">data</span> <span class="o">=</span> <span class="kr">await</span> <span class="nx">resp</span><span class="p">.</span><span class="nx">json</span><span class="p">();</span>
 </span></span><span class="line"><span class="cl"><span class="nx">细步骤</span>
 </span></span><span class="line"><span class="cl">    <span class="c1">// 并行拉取每条嘟文的回复
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="kr">const</span> <span class="nx">statuses</span> <span class="o">=</span> <span class="kr">await</span> <span class="nb">Promise</span><span class="p">.</span><span class="nx">all</span><span class="p">(</span><span class="nx">data</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="kr">async</span> <span class="p">(</span><span class="nx">status</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">statuses</span> <span class="o">=</span> <span class="kr">await</span> <span class="nb">Promise</span><span class="p">.</span><span class="nx">all</span><span class="p">(</span><span class="nx">data</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="kr">async</span> <span class="p">(</span><span class="nx">status</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">      <span class="kd">let</span> <span class="nx">replies</span> <span class="o">=</span> <span class="p">[];</span>
 </span></span><span class="line"><span class="cl">      <span class="k">try</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">        <span class="kr">const</span> <span class="nx">ctx</span> <span class="o">=</span> <span class="kr">await</span> <span class="nx">fetch</span><span class="p">(</span><span class="sb">`https://你的域名/api/v1/statuses/</span><span class="si">${</span><span class="nx">status</span><span class="p">.</span><span class="nx">id</span><span class="si">}</span><span class="sb">/context`</span><span class="p">,</span> <span class="p">{</span>
@@ -538,7 +538,7 @@ Worker 代码示例如下 👇：</p>
 </span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">data</span> <span class="o">=</span> <span class="kr">await</span> <span class="nx">resp</span><span class="p">.</span><span class="nx">json</span><span class="p">();</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">    <span class="c1">// 并行拉取每条嘟文的回复
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="kr">const</span> <span class="nx">statuses</span> <span class="o">=</span> <span class="kr">await</span> <span class="nb">Promise</span><span class="p">.</span><span class="nx">all</span><span class="p">(</span><span class="nx">data</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="kr">async</span> <span class="p">(</span><span class="nx">status</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">statuses</span> <span class="o">=</span> <span class="kr">await</span> <span class="nb">Promise</span><span class="p">.</span><span class="nx">all</span><span class="p">(</span><span class="nx">data</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="kr">async</span> <span class="p">(</span><span class="nx">status</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">      <span class="kd">let</span> <span class="nx">replies</span> <span class="o">=</span> <span class="p">[];</span>
 </span></span><span class="line"><span class="cl">      <span class="k">try</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">        <span class="kr">const</span> <span class="nx">ctx</span> <span class="o">=</span> <span class="kr">await</span> <span class="nx">fetch</span><span class="p">(</span><span class="sb">`https://l22.org/api/v1/statuses/</span><span class="si">${</span><span class="nx">status</span><span class="p">.</span><span class="nx">id</span><span class="si">}</span><span class="sb">/context`</span><span class="p">,</span> <span class="p">{</span>
@@ -941,13 +941,13 @@ Worker 代码示例如下 👇：</p>
 </span></span><span class="line"><span class="cl">  <span class="kd">let</span> <span class="nx">tootsData</span> <span class="o">=</span> <span class="p">[];</span>
 </span></span><span class="line"><span class="cl">  <span class="kd">let</span> <span class="nx">displayedCount</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">  <span class="kr">const</span> <span class="nx">pageSize</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span> <span class="c1">// 每次加载条数
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">  <span class="c1">// ✅ 加载嘟文
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kr">async</span> <span class="kd">function</span> <span class="nx">loadToots</span><span class="p">(</span><span class="nx">initial</span><span class="o">=</span><span class="kc">false</span><span class="p">)</span> <span class="p">{</span>
+</span></span></span><span class="line"><span class="cl">  <span class="kr">async</span> <span class="kd">function</span> <span class="nx">loadToots</span><span class="p">(</span><span class="nx">initial</span><span class="o">=</span><span class="kc">false</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nx">initial</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">      <span class="c1">// 请注意：如果您要使用 Cloudflare Worker，这里的 URL 应该是您的 Worker URL，而不是原始 Mastodon/GoToSocial 实例的 URL。
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>      <span class="c1">// 假设您的 Worker 地址是 https://worker.yourdomain.com/api/v1/accounts/01M4A5Q58VD6GJH97T2TE6W25J/statuses?exclude_reblogs=true
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>      <span class="kr">const</span> <span class="nx">url</span> <span class="o">=</span> <span class="s2">&#34;https://toots.iliu.org/api/v1/accounts/01M4A5Q58VD6GJH97T2TE6W25J/statuses?exclude_reblogs=true&#34;</span><span class="p">;</span> 
+</span></span></span><span class="line"><span class="cl">      <span class="c1">// 假设您的 Worker 地址是 https://worker.yourdomain.com/api/v1/accounts/01M4A5Q58VD6GJH97T2TE6W25J/statuses?exclude_reblogs=true
+</span></span></span><span class="line"><span class="cl">      <span class="kr">const</span> <span class="nx">url</span> <span class="o">=</span> <span class="s2">&#34;https://toots.iliu.org/api/v1/accounts/01M4A5Q58VD6GJH97T2TE6W25J/statuses?exclude_reblogs=true&#34;</span><span class="p">;</span> 
 </span></span><span class="line"><span class="cl">      <span class="kr">const</span> <span class="nx">res</span> <span class="o">=</span> <span class="kr">await</span> <span class="nx">fetch</span><span class="p">(</span><span class="nx">url</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">      <span class="nx">tootsData</span> <span class="o">=</span> <span class="kr">await</span> <span class="nx">res</span><span class="p">.</span><span class="nx">json</span><span class="p">();</span>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
@@ -961,7 +961,7 @@ Worker 代码示例如下 👇：</p>
 </span></span><span class="line"><span class="cl">      <span class="kr">const</span> <span class="nx">avatar</span> <span class="o">=</span> <span class="nx">t</span><span class="p">.</span><span class="nx">account</span><span class="o">?</span><span class="p">.</span><span class="nx">avatar</span> <span class="o">||</span> <span class="s2">&#34;https://l22.org/path-to-default-avatar.png&#34;</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">      <span class="c1">// ✅ 九宫格多图布局
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>      <span class="kd">let</span> <span class="nx">mediaHTML</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span><span class="p">;</span>
+</span></span></span><span class="line"><span class="cl">      <span class="kd">let</span> <span class="nx">mediaHTML</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">      <span class="k">if</span> <span class="p">(</span><span class="nx">t</span><span class="p">.</span><span class="nx">media_attachments</span> <span class="o">&amp;&amp;</span> <span class="nx">t</span><span class="p">.</span><span class="nx">media_attachments</span><span class="p">.</span><span class="nx">length</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">        <span class="nx">mediaHTML</span> <span class="o">=</span> <span class="sb">`
 </span></span></span><span class="line"><span class="cl"><span class="sb">          &lt;div class=&#34;toot-media-grid&#34;&gt;
@@ -975,7 +975,7 @@ Worker 代码示例如下 👇：</p>
 </span></span><span class="line"><span class="cl">      <span class="p">}</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">      <span class="c1">// 🚨 【修复点】直接使用 Worker 预取的 t.replies 数据来构建回复内容
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>      <span class="kd">let</span> <span class="nx">repliesHTML</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span><span class="p">;</span>
+</span></span></span><span class="line"><span class="cl">      <span class="kd">let</span> <span class="nx">repliesHTML</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">      <span class="k">if</span> <span class="p">(</span><span class="nx">t</span><span class="p">.</span><span class="nx">replies</span> <span class="o">&amp;&amp;</span> <span class="nx">t</span><span class="p">.</span><span class="nx">replies</span><span class="p">.</span><span class="nx">length</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">        <span class="nx">repliesHTML</span> <span class="o">=</span> <span class="sb">`
 </span></span></span><span class="line"><span class="cl"><span class="sb">          &lt;div class=&#34;toot-replies&#34;&gt;
@@ -995,7 +995,7 @@ Worker 代码示例如下 👇：</p>
 </span></span></span><span class="line"><span class="cl"><span class="sb">        `</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">      <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nx">t</span><span class="p">.</span><span class="nx">replies_count</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">        <span class="c1">// 如果 Worker 没有返回 replies 但计数大于 0，可能是 Worker 拉取回复失败
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="nx">repliesHTML</span> <span class="o">=</span> <span class="sb">`&lt;div class=&#34;toot-replies&#34;&gt;&lt;p class=&#39;no-reply&#39;&gt;暂无回复（或Worker拉取失败）&lt;/p&gt;&lt;/div&gt;`</span><span class="p">;</span>
+</span></span></span><span class="line"><span class="cl">        <span class="nx">repliesHTML</span> <span class="o">=</span> <span class="sb">`&lt;div class=&#34;toot-replies&#34;&gt;&lt;p class=&#39;no-reply&#39;&gt;暂无回复（或Worker拉取失败）&lt;/p&gt;&lt;/div&gt;`</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">      <span class="p">}</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">      <span class="kr">const</span> <span class="nx">tootHTML</span> <span class="o">=</span> <span class="sb">`
@@ -1019,20 +1019,20 @@ Worker 代码示例如下 👇：</p>
 </span></span><span class="line"><span class="cl">      <span class="nx">container</span><span class="p">.</span><span class="nx">insertAdjacentHTML</span><span class="p">(</span><span class="s2">&#34;beforeend&#34;</span><span class="p">,</span> <span class="nx">tootHTML</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">      
 </span></span><span class="line"><span class="cl">      <span class="c1">// 🚨 【修复点】移除了原有的 loadReplies(t.id) 调用
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="p">}</span>
+</span></span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">    <span class="nx">displayedCount</span> <span class="o">+=</span> <span class="nx">pageSize</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">&#34;load-more-btn&#34;</span><span class="p">).</span><span class="nx">style</span><span class="p">.</span><span class="nx">display</span> <span class="o">=</span> <span class="nx">displayedCount</span> <span class="o">&gt;=</span> <span class="nx">tootsData</span><span class="p">.</span><span class="nx">length</span> <span class="o">?</span> <span class="s2">&#34;none&#34;</span> <span class="o">:</span> <span class="s2">&#34;inline-block&#34;</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">  <span class="p">}</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">  <span class="c1">// 🚨 【修复点】移除了 loadReplies 函数
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">  <span class="c1">// ✅ 初次加载
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">&#34;load-more-btn&#34;</span><span class="p">).</span><span class="nx">onclick</span> <span class="o">=</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="nx">loadToots</span><span class="p">();</span>
+</span></span></span><span class="line"><span class="cl">  <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">&#34;load-more-btn&#34;</span><span class="p">).</span><span class="nx">onclick</span> <span class="o">=</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="nx">loadToots</span><span class="p">();</span>
 </span></span><span class="line"><span class="cl">  <span class="nx">loadToots</span><span class="p">(</span><span class="kc">true</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">  <span class="c1">// ✅ 简易图片灯箱
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kd">function</span> <span class="nx">showLightbox</span><span class="p">(</span><span class="nx">src</span><span class="p">)</span> <span class="p">{</span>
+</span></span></span><span class="line"><span class="cl">  <span class="kd">function</span> <span class="nx">showLightbox</span><span class="p">(</span><span class="nx">src</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="kd">let</span> <span class="nx">lightbox</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">&#34;lightbox&#34;</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">lightbox</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">      <span class="nx">lightbox</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s2">&#34;div&#34;</span><span class="p">);</span>
@@ -1169,7 +1169,7 @@ Worker 代码示例如下 👇：</p>
 </span></span><span class="line"><span class="cl">  <span class="c">/* 灯箱样式 */</span>
 </span></span><span class="line"><span class="cl">  <span class="p">#</span><span class="nn">lightbox</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="k">position</span><span class="p">:</span> <span class="kc">fixed</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="n">inset</span><span class="p">:</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">inset</span><span class="p">:</span> <span class="mi">0</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="k">background</span><span class="p">:</span> <span class="nb">rgba</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mf">0.8</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">    <span class="k">display</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="k">justify-content</span><span class="p">:</span> <span class="kc">center</span><span class="p">;</span>
@@ -1253,10 +1253,10 @@ Worker 代码示例如下 👇：</p>
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nn">---</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;友情链接&#34;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">layout</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;friends&#34;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">summary</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;那些值得一去的好地方&#34;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nn">---</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;友情链接&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">layout</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;friends&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">summary</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;那些值得一去的好地方&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nn">---</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>（ 注意： layout 是我们下一步要创建的模板文件名。）</p>
@@ -1449,12 +1449,12 @@ Worker 代码示例如下 👇：</p>
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">avatar</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;https://avatars.githubusercontent.com/u/21258296?v=4&#34;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">desc</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;简洁优雅的 Hugo 主题&#34;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;Hugo 官网&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl">- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;Hugo 官网&#34;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;https://gohugo.io/&#34;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">avatar</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;https://gohugo.io/images/hugo-logo-wide.svg&#34;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">desc</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;世界上最快的静态网站生成器&#34;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;老刘博客&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl">- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;老刘博客&#34;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;https://iliu.org/&#34;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">avatar</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;https://iliu.org/img/apple-touch-icon.png/&#34;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">desc</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;分享我的思考与生活&#34;</span><span class="w">

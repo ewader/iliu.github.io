@@ -9,15 +9,36 @@
       <url>https://iliu.org/img/liujinsuiyue.jpg</url>
       <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo -- 0.154.5</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 14 Jan 2026 17:04:40 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 02 Feb 2026 16:51:08 +0800</lastBuildDate>
     <atom:link href="https://iliu.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>下雪</title>
+      <link>https://iliu.org/tags/%E4%B8%8B%E9%9B%AA/</link>
+      <pubDate>Mon, 02 Feb 2026 16:51:08 +0800</pubDate>
+      <guid>https://iliu.org/tags/%E4%B8%8B%E9%9B%AA/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kde</title>
+      <link>https://iliu.org/tags/kde/</link>
+      <pubDate>Sun, 18 Jan 2026 16:42:36 +0800</pubDate>
+      <guid>https://iliu.org/tags/kde/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Linux</title>
       <link>https://iliu.org/tags/linux/</link>
-      <pubDate>Wed, 14 Jan 2026 17:04:40 +0800</pubDate>
+      <pubDate>Sun, 18 Jan 2026 16:42:36 +0800</pubDate>
       <guid>https://iliu.org/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>自动亮度</title>
+      <link>https://iliu.org/tags/%E8%87%AA%E5%8A%A8%E4%BA%AE%E5%BA%A6/</link>
+      <pubDate>Sun, 18 Jan 2026 16:42:36 +0800</pubDate>
+      <guid>https://iliu.org/tags/%E8%87%AA%E5%8A%A8%E4%BA%AE%E5%BA%A6/</guid>
       <description></description>
     </item>
     <item>
@@ -84,7 +105,7 @@
       <description></description>
     </item>
     <item>
-      <title>NAS</title>
+      <title>Nas</title>
       <link>https://iliu.org/tags/nas/</link>
       <pubDate>Thu, 18 Dec 2025 11:51:57 +0800</pubDate>
       <guid>https://iliu.org/tags/nas/</guid>
