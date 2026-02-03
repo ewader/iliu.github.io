@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>NAS on 老刘博客</title>
+    <title>Nas on 老刘博客</title>
     <link>https://iliu.org/tags/nas/</link>
-    <description>Recent content in NAS on 老刘博客</description>
+    <description>Recent content in Nas on 老刘博客</description>
     <image>
       <title>老刘博客</title>
       <url>https://iliu.org/img/liujinsuiyue.jpg</url>
       <link>https://iliu.org/img/liujinsuiyue.jpg</link>
     </image>
-    <generator>Hugo -- 0.156.0-DEV</generator>
+    <generator>Hugo -- 0.155.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 18 Dec 2025 11:51:57 +0800</lastBuildDate>
     <atom:link href="https://iliu.org/tags/nas/index.xml" rel="self" type="application/rss+xml" />
