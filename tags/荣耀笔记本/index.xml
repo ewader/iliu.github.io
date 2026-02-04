@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>荣耀笔记本 on 老刘博客</title>
-    <link>http://localhost:44383/tags/%E8%8D%A3%E8%80%80%E7%AC%94%E8%AE%B0%E6%9C%AC/</link>
+    <link>http://localhost:1313/tags/%E8%8D%A3%E8%80%80%E7%AC%94%E8%AE%B0%E6%9C%AC/</link>
     <description>Recent content in 荣耀笔记本 on 老刘博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 10 Jan 2020 01:54:47 +0000</lastBuildDate>
-    <atom:link href="http://localhost:44383/tags/%E8%8D%A3%E8%80%80%E7%AC%94%E8%AE%B0%E6%9C%AC/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E8%8D%A3%E8%80%80%E7%AC%94%E8%AE%B0%E6%9C%AC/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>入手荣耀Magicbook 2019笔记本</title>
-      <link>http://localhost:44383/2995.html</link>
+      <link>http://localhost:1313/2995.html</link>
       <pubDate>Fri, 10 Jan 2020 01:54:47 +0000</pubDate>
-      <guid>http://localhost:44383/2995.html</guid>
+      <guid>http://localhost:1313/2995.html</guid>
       <description>&lt;p&gt;前两天还在张波老师的博客里得瑟，说自己还用着10年前的电脑。不想，天有不测风云，刚得瑟玩，电脑挂了。&lt;/p&gt;&#xA;&lt;p&gt;其实，这台电脑前年的时候坏过一次，当时是主板坏了，所以换了一块二手的主板有复活了，这次也不知道是哪里的毛病，反正是没法点亮了，也懒得再弄它了，正好换新。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/01/415c0573991c9e0.png&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;考虑到以后工作的方便性，这次准备入手一台以办公为主的笔记本，狗东上看了一下，觉得荣耀magic book毕竟适合，因为自己用的也是荣耀的手机，通过NFC可以很方便的把手机里的图片等传到电脑上，所作的动作也就是碰一下magic标签而已。而且还有多屏互动等的功能。&lt;/p&gt;&#xA;&lt;p&gt;自己平常也不玩游戏，所以荣耀入门版的就可以了，配置等方面完全能满足自己的要求，看了下刚出的magic book15 8g内存256ssd的标价3298元，价格也能接受，于是网上查了一下相关的资料，发现相比magic book2019仅仅是屏大了一些，其他的都一样甚至还有所缩水，比如键盘没有背光、扬声器也少了等等，所以决定不如要2019.荣耀官网也是3198元。于是天猫看了一下，发现苏宁易购的比较便宜 8g256ssd的只要2898元，8g512ssd的是3198元，于是苏宁易购买了。&lt;/p&gt;&#xA;&lt;p&gt;物流也很快，第二天就给送来了，不过只是送来了笔记本和一个电脑包，送的蓝牙鼠标和荣耀的电脑包没有送到，不过也无所谓了。为了省钱买的是Linux版本的，默认装的是深度的os。不过，Linux不能用指纹，以及多屏互动。所以还要自己装个系统。&lt;/p&gt;&#xA;&lt;p&gt;装系统对我们这些折腾的人来说是没有任何问题的。而且荣耀很人性化的送了一个系统的U盘，直接插上，按F12开机，自动分区，自动安装系统。可惜安装的是个win10家庭版的，而且是个非核心的系统，用kms没法激活，所以，自己又换成了专业版的。昨天整了一晚上，终于弄的差不多了。&lt;/p&gt;</description>
     </item>
   </channel>
