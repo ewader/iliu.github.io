@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>三个和尚没水喝 on 老刘博客</title>
     <link>https://iliu.org/tags/%E4%B8%89%E4%B8%AA%E5%92%8C%E5%B0%9A%E6%B2%A1%E6%B0%B4%E5%96%9D/</link>
     <description>Recent content in 三个和尚没水喝 on 老刘博客</description>
-    <image>
-      <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
-    </image>
-    <generator>Hugo -- 0.155.2</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 05 Aug 2011 02:15:32 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/%E4%B8%89%E4%B8%AA%E5%92%8C%E5%B0%9A%E6%B2%A1%E6%B0%B4%E5%96%9D/index.xml" rel="self" type="application/rss+xml" />
@@ -18,11 +13,7 @@
       <link>https://iliu.org/1149.html</link>
       <pubDate>Fri, 05 Aug 2011 02:15:32 +0000</pubDate>
       <guid>https://iliu.org/1149.html</guid>
-      <description>&lt;p&gt;每次都要登录优酷看，转发到博客上来，就没那么麻烦了，呵呵&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://v.youku.com/v&#34;&gt;http://v.youku.com/v&lt;/a&gt;_show/id_XMzE5NDgwMA==.html&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>每次都要登录优酷看，转发到博客上来，就没那么麻烦了，呵呵</p>
-<p><a href="http://v.youku.com/v">http://v.youku.com/v</a>_show/id_XMzE5NDgwMA==.html</p>
-]]></content:encoded>
+      <description>&lt;p&gt;每次都要登录优酷看，转发到博客上来，就没那么麻烦了，呵呵&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://v.youku.com/v&#34;&gt;http://v.youku.com/v&lt;/a&gt;_show/id_XMzE5NDgwMA==.html&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>篱落主机 on 老刘博客</title>
     <link>https://iliu.org/tags/%E7%AF%B1%E8%90%BD%E4%B8%BB%E6%9C%BA/</link>
     <description>Recent content in 篱落主机 on 老刘博客</description>
-    <image>
-      <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
-    </image>
-    <generator>Hugo -- 0.155.2</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 06 Jan 2020 02:02:06 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/%E7%AF%B1%E8%90%BD%E4%B8%BB%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
@@ -18,42 +13,14 @@
       <link>https://iliu.org/2981.html</link>
       <pubDate>Mon, 06 Jan 2020 02:02:06 +0000</pubDate>
       <guid>https://iliu.org/2981.html</guid>
-      <description>&lt;p&gt;从去年11月底开始使用小张的篱落主机至今，差不多两个多月的时间。算是基本了解了篱落主机的性能和客服的人性化服务。由于线路速度以及服务器的稳定性都很不错，而且今天又发现了新年特款VPS，2h4g3m的配置，一年不到300元，算是非常的超值了！&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>从去年11月底开始使用小张的篱落主机至今，差不多两个多月的时间。算是基本了解了篱落主机的性能和客服的人性化服务。由于线路速度以及服务器的稳定性都很不错，而且今天又发现了新年特款VPS，2h4g3m的配置，一年不到300元，算是非常的超值了！</p>
-<p><a href="https://tunan.org/wp-content/uploads/2020/01/b788a4803af4065.png"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2982" src="https://tunan.org/wp-content/uploads/2020/01/b788a4803af4065.png" alt="" width="431" height="248" srcset="https://tunan.org/wp-content/uploads/2020/01/b788a4803af4065.png 431w, https://tunan.org/wp-content/uploads/2020/01/b788a4803af4065-300x173.png 300w" sizes="(max-width: 431px) 100vw, 431px" /></a></p>
-<p>使用新年优惠码 newyear,还可以五折优惠，算下来一年仅仅299.5元，非常的超值了。</p>
-<p>篱落主机的注册地址为：<a href="https://my.liluohost.com/aff.php?aff=148">篱落主机</a></p>
-<p>便宜的主机那么多，为啥跋涉者推荐篱落主机呢？</p>
-<h2 id="首先稳定性非常的不错">首先，稳定性非常的不错</h2>
-<p>跋涉者在11月份的时候曾经说换到篱落的主机了，详情见，</p>
-<p class="article-title">
-  <a href="https://tunan.org/2865.html">换篱落的空间，用宝塔面板</a>
-</p>
-<p>目前在这个VPS上放了3个网站，从11月份使用以来，一直没有出现过什么问题，线路也非常的不错，晚上的速度也挺快。所以，如果你在找一款稳定性还不错的VPS的话，篱落主机是一个不错的选择。</p>
-<h2 id="第二带宽高">第二，带宽高</h2>
-<p>虽然，套餐里说的是峰值3M带宽，其实这个是不准的，跋涉者在使用过程中发现，带宽是非常高的，下载速度基本达到了2m/s。折合成带宽基本是20m的了，所以，不要觉得3m的带宽低，只是这么一些而已，实际上带宽很充足，再也不用为小水管而发愁了。</p>
-<h2 id="第三服务优">第三，服务优</h2>
-<p>以前衡天小张的名头不是盖的，以前用衡天的空间也用了好长时间了，后来小张离开衡天后转了一圈，又回到了小张创办的篱落主机。当时购买的时候是1h2g的机型，也是特价300元一年，然后小张给主动升级到了4G，前两天发现小张又推出了2h4g的机型，还是300元，于是和小张谈了一下，二话没说直接又给升级到了2h4g3m，流量也给增加到了800g，磁盘空间给升级到了60g，这些都是没有想到了，在此表示感谢。</p>
-<p><a href="https://tunan.org/wp-content/uploads/2020/01/e7082414d1e0313.png"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2986" src="https://tunan.org/wp-content/uploads/2020/01/e7082414d1e0313.png" alt="" width="908" height="347" srcset="https://tunan.org/wp-content/uploads/2020/01/e7082414d1e0313.png 908w, https://tunan.org/wp-content/uploads/2020/01/e7082414d1e0313-300x115.png 300w, https://tunan.org/wp-content/uploads/2020/01/e7082414d1e0313-768x293.png 768w" sizes="(max-width: 908px) 100vw, 908px" /></a></p>
-<p>综合这么多的有点。如果你还在找一款稳定、便宜、线路不错的主机的话，不妨试试小张的篱落主机。</p>
-<p>篱落主机地址：<a href="https://my.liluohost.com/aff.php?aff=148">篱落主机</a>。点击注册后，输入新年优惠码，5折优惠，2h4g3m的主机只不到300元一年，真的是性价比足足！</p>
-]]></content:encoded>
+      <description>&lt;p&gt;从去年11月底开始使用小张的篱落主机至今，差不多两个多月的时间。算是基本了解了篱落主机的性能和客服的人性化服务。由于线路速度以及服务器的稳定性都很不错，而且今天又发现了新年特款VPS，2h4g3m的配置，一年不到300元，算是非常的超值了！&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/01/b788a4803af4065.png&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;使用新年优惠码 newyear,还可以五折优惠，算下来一年仅仅299.5元，非常的超值了。&lt;/p&gt;&#xA;&lt;p&gt;篱落主机的注册地址为：&lt;a href=&#34;https://my.liluohost.com/aff.php?aff=148&#34;&gt;篱落主机&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;便宜的主机那么多，为啥跋涉者推荐篱落主机呢？&lt;/p&gt;&#xA;&lt;h2 id=&#34;首先稳定性非常的不错&#34;&gt;首先，稳定性非常的不错&lt;/h2&gt;&#xA;&lt;p&gt;跋涉者在11月份的时候曾经说换到篱落的主机了，详情见，&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;目前在这个VPS上放了3个网站，从11月份使用以来，一直没有出现过什么问题，线路也非常的不错，晚上的速度也挺快。所以，如果你在找一款稳定性还不错的VPS的话，篱落主机是一个不错的选择。&lt;/p&gt;&#xA;&lt;h2 id=&#34;第二带宽高&#34;&gt;第二，带宽高&lt;/h2&gt;&#xA;&lt;p&gt;虽然，套餐里说的是峰值3M带宽，其实这个是不准的，跋涉者在使用过程中发现，带宽是非常高的，下载速度基本达到了2m/s。折合成带宽基本是20m的了，所以，不要觉得3m的带宽低，只是这么一些而已，实际上带宽很充足，再也不用为小水管而发愁了。&lt;/p&gt;</description>
     </item>
     <item>
       <title>换篱落的空间，用宝塔面板，CSRF校验失败</title>
       <link>https://iliu.org/2865.html</link>
       <pubDate>Mon, 25 Nov 2019 01:55:14 +0000</pubDate>
       <guid>https://iliu.org/2865.html</guid>
-      <description>&lt;p&gt;昨天在群里看到老胡发的篱落的特价VPS，忽然发现我也在他说的那个群，以前是衡天主机的客户群，后来好像卖给给香港人后，小张自己搞了个篱落主机。由于，近几年一直用的阿里云的，所以，没有太关注了。不过老胡发的这个特价的机型很快就卖完了，然后就发现还有一款1h2g2m的vps，也是特价机型，一年是300元。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>昨天在群里看到老胡发的篱落的特价VPS，忽然发现我也在他说的那个群，以前是衡天主机的客户群，后来好像卖给给香港人后，小张自己搞了个篱落主机。由于，近几年一直用的阿里云的，所以，没有太关注了。不过老胡发的这个特价的机型很快就卖完了，然后就发现还有一款1h2g2m的vps，也是特价机型，一年是300元。</p>
-<p>比阿里云的轻量1h2g的一年便宜个百十块钱。但是没有阿里的带宽高，也没有阿里云给的流量大。但是线路要比阿里云轻量香港的要好些，特别是晚上，阿里云香港的有点卡。不过想想自己也用不了那么大的带宽，就两个小网站，流量也不高。在加上使用FRP做内网穿透远程控制NAS。这个vps也足够了。毕竟远程也不会同步很大的东西。</p>
-<p>所以就买了这个300一年的，买后在群里和小张联系了一下，他很大气的给升级到了4g的内存。这样绝对是一款很超值的vps了。由于需要配置FRP服务器端，看到宝塔面板带的有这个客户端，也是为了图方便，就舍弃了自己一直用的oneinstack，装上了宝塔。</p>
-<p>装上宝塔后，首先，编译网站的环境，选择了php7.3 mysql5.7 和NGINX。编译的那叫慢啊。整整弄了一下午，中间我还像张波老师抱怨是这个cpu不行，不过最终终于编译好了。网站什么的都挪过来，然后安装frp的客户端，但是第一个坑来了，安装后竟然打不开这个客户端，显示“<strong><span style="color: #ff0000;">CSRF校验失败，请重新登录面板</span></strong>”。于是搜这个问题的处理方法，看到官方论坛里有说遇到这个问题的，官方给出的方法是屏蔽CSRF校检，于是按照方法操作之。这时候第二个坑来了。重启面板后，面板竟然挂了………我心中一万个那啥路过。</p>
-<p><a href="https://tunan.org/wp-content/uploads/2019/11/9e524a7d1b5ef6d.png"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2866" src="https://tunan.org/wp-content/uploads/2019/11/9e524a7d1b5ef6d.png" alt="" width="701" height="596" srcset="https://tunan.org/wp-content/uploads/2019/11/9e524a7d1b5ef6d.png 701w, https://tunan.org/wp-content/uploads/2019/11/9e524a7d1b5ef6d-300x255.png 300w" sizes="(max-width: 701px) 100vw, 701px" /></a></p>
-<p>看来还是要用自己熟悉的东西，重新安装vps的系统，用oneinstack编译网站环境，同样的环境竟然40分钟左右编译完了。我心中又一万个那啥路过了。看来，自己还是不适合用宝塔，而且宝塔也确实不太稳定，动不动就挂真实受不了。还记得还是宝塔5点多的时候，用过一段时间，也是莫名其妙的，啥都没有动，面板打不开了。还是用我的oneinstack好了。</p>
-<p> </p>
-<p> </p>
-]]></content:encoded>
+      <description>&lt;p&gt;昨天在群里看到老胡发的篱落的特价VPS，忽然发现我也在他说的那个群，以前是衡天主机的客户群，后来好像卖给给香港人后，小张自己搞了个篱落主机。由于，近几年一直用的阿里云的，所以，没有太关注了。不过老胡发的这个特价的机型很快就卖完了，然后就发现还有一款1h2g2m的vps，也是特价机型，一年是300元。&lt;/p&gt;&#xA;&lt;p&gt;比阿里云的轻量1h2g的一年便宜个百十块钱。但是没有阿里的带宽高，也没有阿里云给的流量大。但是线路要比阿里云轻量香港的要好些，特别是晚上，阿里云香港的有点卡。不过想想自己也用不了那么大的带宽，就两个小网站，流量也不高。在加上使用FRP做内网穿透远程控制NAS。这个vps也足够了。毕竟远程也不会同步很大的东西。&lt;/p&gt;&#xA;&lt;p&gt;所以就买了这个300一年的，买后在群里和小张联系了一下，他很大气的给升级到了4g的内存。这样绝对是一款很超值的vps了。由于需要配置FRP服务器端，看到宝塔面板带的有这个客户端，也是为了图方便，就舍弃了自己一直用的oneinstack，装上了宝塔。&lt;/p&gt;&#xA;&lt;p&gt;装上宝塔后，首先，编译网站的环境，选择了php7.3 mysql5.7 和NGINX。编译的那叫慢啊。整整弄了一下午，中间我还像张波老师抱怨是这个cpu不行，不过最终终于编译好了。网站什么的都挪过来，然后安装frp的客户端，但是第一个坑来了，安装后竟然打不开这个客户端，显示“&lt;strong&gt;&lt;!-- raw HTML omitted --&gt;CSRF校验失败，请重新登录面板&lt;!-- raw HTML omitted --&gt;&lt;/strong&gt;”。于是搜这个问题的处理方法，看到官方论坛里有说遇到这个问题的，官方给出的方法是屏蔽CSRF校检，于是按照方法操作之。这时候第二个坑来了。重启面板后，面板竟然挂了………我心中一万个那啥路过。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2019/11/9e524a7d1b5ef6d.png&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;看来还是要用自己熟悉的东西，重新安装vps的系统，用oneinstack编译网站环境，同样的环境竟然40分钟左右编译完了。我心中又一万个那啥路过了。看来，自己还是不适合用宝塔，而且宝塔也确实不太稳定，动不动就挂真实受不了。还记得还是宝塔5点多的时候，用过一段时间，也是莫名其妙的，啥都没有动，面板打不开了。还是用我的oneinstack好了。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

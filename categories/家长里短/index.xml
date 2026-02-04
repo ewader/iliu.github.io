@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>家长里短 on 老刘博客</title>
     <link>https://iliu.org/categories/%E5%AE%B6%E9%95%BF%E9%87%8C%E7%9F%AD/</link>
     <description>Recent content in 家长里短 on 老刘博客</description>
-    <image>
-      <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
-    </image>
-    <generator>Hugo -- 0.155.2</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 19 May 2023 00:53:28 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/categories/%E5%AE%B6%E9%95%BF%E9%87%8C%E7%9F%AD/index.xml" rel="self" type="application/rss+xml" />
@@ -18,123 +13,49 @@
       <link>https://iliu.org/4384.html</link>
       <pubDate>Fri, 19 May 2023 00:53:28 +0000</pubDate>
       <guid>https://iliu.org/4384.html</guid>
-      <description>&lt;p&gt;昨天下午，夫人给我转发了一条她收到的短信。是以惠普金融的名义发过来的。说账单欠款已经严重逾期，要向有关部门申请纳入失信巴啦巴啦的一顿，后面留了一个联系电话。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>昨天下午，夫人给我转发了一条她收到的短信。是以惠普金融的名义发过来的。说账单欠款已经严重逾期，要向有关部门申请纳入失信巴啦巴啦的一顿，后面留了一个联系电话。</p>
-<p>给我的第一反应就是诈骗信息，我给媳妇说不用理会她。然后取网上搜了一下， 发现还真的有很多人都收到过类似的短信，有确实借款的，也有没有借款的，什么样的人都有。有的甚至还会骚扰工作单位。</p>
-<p>看她留的有个联系电话，于是就拨了过去：</p>
-<p>第一次，很快接通了，是一个女的接的电话：</p>
-<p>我：你们是什么公司？为什么说我有欠款？我都没有借过款好吧？</p>
-<p>对方：喂，你好，我们是。。。。。</p>
-<p>背景很吵，然后直接给我挂了。于是接续拨打：</p>
-<p>第二次，响铃了很久，还是那个女的接的</p>
-<p>我：你们是什么公司？</p>
-<p>女：先生你好，我们是**银行，我的工号是****。</p>
-<p>我没有听清，又重复问了一下</p>
-<p>女：先生，我们是微众银行，我的工号是33456.</p>
-<p>我：我都没有借过款，为啥说我有借款预期？</p>
-<p>女：您是收到短信了吗？</p>
-<p>我：是的</p>
-<p>心想，是不是要给我解释解释？或者忽悠我一下，结果</p>
-<p>直接挂断！！</p>
-<p>继续拨打，不再有人接听。</p>
-<p>想不通，信息是从哪里泄露的，我媳妇是真的没有任何借款，我曾经从借呗和360上借过一些作为资金周转，不过也早就还清了，都给你主动打电话了，不应该继续忽悠我还钱吗？为啥就不接电话了呢？看网上说那女客服很凶的…….</p>
-]]></content:encoded>
+      <description>&lt;p&gt;昨天下午，夫人给我转发了一条她收到的短信。是以惠普金融的名义发过来的。说账单欠款已经严重逾期，要向有关部门申请纳入失信巴啦巴啦的一顿，后面留了一个联系电话。&lt;/p&gt;&#xA;&lt;p&gt;给我的第一反应就是诈骗信息，我给媳妇说不用理会她。然后取网上搜了一下， 发现还真的有很多人都收到过类似的短信，有确实借款的，也有没有借款的，什么样的人都有。有的甚至还会骚扰工作单位。&lt;/p&gt;&#xA;&lt;p&gt;看她留的有个联系电话，于是就拨了过去：&lt;/p&gt;&#xA;&lt;p&gt;第一次，很快接通了，是一个女的接的电话：&lt;/p&gt;&#xA;&lt;p&gt;我：你们是什么公司？为什么说我有欠款？我都没有借过款好吧？&lt;/p&gt;&#xA;&lt;p&gt;对方：喂，你好，我们是。。。。。&lt;/p&gt;&#xA;&lt;p&gt;背景很吵，然后直接给我挂了。于是接续拨打：&lt;/p&gt;&#xA;&lt;p&gt;第二次，响铃了很久，还是那个女的接的&lt;/p&gt;&#xA;&lt;p&gt;我：你们是什么公司？&lt;/p&gt;&#xA;&lt;p&gt;女：先生你好，我们是**银行，我的工号是****。&lt;/p&gt;&#xA;&lt;p&gt;我没有听清，又重复问了一下&lt;/p&gt;&#xA;&lt;p&gt;女：先生，我们是微众银行，我的工号是33456.&lt;/p&gt;&#xA;&lt;p&gt;我：我都没有借过款，为啥说我有借款预期？&lt;/p&gt;&#xA;&lt;p&gt;女：您是收到短信了吗？&lt;/p&gt;&#xA;&lt;p&gt;我：是的&lt;/p&gt;&#xA;&lt;p&gt;心想，是不是要给我解释解释？或者忽悠我一下，结果&lt;/p&gt;&#xA;&lt;p&gt;直接挂断！！&lt;/p&gt;&#xA;&lt;p&gt;继续拨打，不再有人接听。&lt;/p&gt;&#xA;&lt;p&gt;想不通，信息是从哪里泄露的，我媳妇是真的没有任何借款，我曾经从借呗和360上借过一些作为资金周转，不过也早就还清了，都给你主动打电话了，不应该继续忽悠我还钱吗？为啥就不接电话了呢？看网上说那女客服很凶的…….&lt;/p&gt;</description>
     </item>
     <item>
       <title>想不到眼贴对眼角发痒也有用</title>
       <link>https://iliu.org/4354.html</link>
       <pubDate>Thu, 13 Apr 2023 09:43:52 +0000</pubDate>
       <guid>https://iliu.org/4354.html</guid>
-      <description>&lt;p&gt;最近有一个很烦心的事情困扰着老刘，那就是不知道怎么回事，右眼的两个眼角特别的痒，总想揉揉，但是越揉越痒。最早出现在上周五，想着可能是有点发炎，就去买了一管红霉素眼药膏。涂了3天，感觉效果不是很大。&lt;figure class=&#34;wp-block-image&#34;&gt;&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>最近有一个很烦心的事情困扰着老刘，那就是不知道怎么回事，右眼的两个眼角特别的痒，总想揉揉，但是越揉越痒。最早出现在上周五，想着可能是有点发炎，就去买了一管红霉素眼药膏。涂了3天，感觉效果不是很大。<figure class="wp-block-image"></p>
-<p><img decoding="async" src="https://cdn.staticaly.com/gh/ewader/img@master/20230413/旅游出行宣传推广创意公众号首图.5h06joeavqo0.webp" alt="旅游出行宣传推广创意公众号首图" /> </figure></p>
-<p>这两天沙尘扬沙天气，昨天晚上接女儿回家的途中，可能是一些法桐的毛毛或者沙尘进入了眼睛，更是雪上加霜。痒的我是心烦意乱的。不得已，抱着死马当活马医的想法，拆开一袋眼贴，贴上之后，感觉就舒服多了，凉凉的，就像大热天的喝了一口雪碧一样。贴完之后还是有点痒，但是基本上能忍受了，睡了一个晚上，早上起来，眼角有些眼屎，但是痒的感觉却是是这几天里最轻的了。</p>
-<p>看了一下眼贴的成分，有燕窝提取物，越橘提取物、夏枯草、野菊花、蜂胶、叶黄素、密蒙花、决明子、马齿苋、淡竹叶、薄荷脑、冰片。里面有很多清热明目的成分，马齿苋还有一些消炎的功效，记得小时候，腿上长个脓包什么的就是用马齿苋捣烂涂在上面，很快就好了。</p>
-<p>早上又贴了一贴。感觉眼睛是恢复了，想不到这次柳暗花明，歪打正着的又发现了一个眼贴的功效。另外这个眼贴对于眼睛疲劳的恢复效果是真的不错，如果你也有眼疲劳的症状，真的建议你入手几盒。<figure class="wp-block-image"></p>
-<p><img decoding="async" src="https://cdn.staticaly.com/gh/ewader/img@master/20230413/微信图片_20230413174238.6680pvnxoj80.webp" alt="微信图片_20230413174238" /> </figure></p>
-]]></content:encoded>
+      <description>&lt;p&gt;最近有一个很烦心的事情困扰着老刘，那就是不知道怎么回事，右眼的两个眼角特别的痒，总想揉揉，但是越揉越痒。最早出现在上周五，想着可能是有点发炎，就去买了一管红霉素眼药膏。涂了3天，感觉效果不是很大。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;这两天沙尘扬沙天气，昨天晚上接女儿回家的途中，可能是一些法桐的毛毛或者沙尘进入了眼睛，更是雪上加霜。痒的我是心烦意乱的。不得已，抱着死马当活马医的想法，拆开一袋眼贴，贴上之后，感觉就舒服多了，凉凉的，就像大热天的喝了一口雪碧一样。贴完之后还是有点痒，但是基本上能忍受了，睡了一个晚上，早上起来，眼角有些眼屎，但是痒的感觉却是是这几天里最轻的了。&lt;/p&gt;&#xA;&lt;p&gt;看了一下眼贴的成分，有燕窝提取物，越橘提取物、夏枯草、野菊花、蜂胶、叶黄素、密蒙花、决明子、马齿苋、淡竹叶、薄荷脑、冰片。里面有很多清热明目的成分，马齿苋还有一些消炎的功效，记得小时候，腿上长个脓包什么的就是用马齿苋捣烂涂在上面，很快就好了。&lt;/p&gt;&#xA;&lt;p&gt;早上又贴了一贴。感觉眼睛是恢复了，想不到这次柳暗花明，歪打正着的又发现了一个眼贴的功效。另外这个眼贴对于眼睛疲劳的恢复效果是真的不错，如果你也有眼疲劳的症状，真的建议你入手几盒。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>差一点进了碎银子的坑</title>
       <link>https://iliu.org/4336.html</link>
       <pubDate>Wed, 22 Mar 2023 10:27:34 +0000</pubDate>
       <guid>https://iliu.org/4336.html</guid>
-      <description>&lt;p&gt;这几天在抖音上看到两个卖茶的主播，都是卖碎银子的。差点就被忽悠进了坑。&lt;/p&gt;
-&lt;p&gt;其实老刘对茶是真没有什么研究，也是第一次听说这个品种。当时想要入坑的主要原因是主播的文案太tm的好了，一壶热水，把茶叶往里一放，刷刷的冒气泡，美名曰，天然的果胶会呼气。主播说，这个茶不但有浓郁的茉莉花香味还有一种糯米的口感。用茉莉花经过7次窑制，把每一份的香味都沁入到了茶中。&lt;figure class=&#34;wp-block-image&#34;&gt;&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>这几天在抖音上看到两个卖茶的主播，都是卖碎银子的。差点就被忽悠进了坑。</p>
-<p>其实老刘对茶是真没有什么研究，也是第一次听说这个品种。当时想要入坑的主要原因是主播的文案太tm的好了，一壶热水，把茶叶往里一放，刷刷的冒气泡，美名曰，天然的果胶会呼气。主播说，这个茶不但有浓郁的茉莉花香味还有一种糯米的口感。用茉莉花经过7次窑制，把每一份的香味都沁入到了茶中。<figure class="wp-block-image"></p>
-<p><img decoding="async" src="https://cdn.staticaly.com/gh/ewader/img@master/20230322/641.5f6b4zybpb00.webp" alt="641" /> </figure></p>
-<p>心里犹豫了一下，觉得还是要看看到底是个什么茶，发现原来所谓的碎银子，就是用碎的普洱加胶粘到一起的。</p>
-<p>幸亏没有入坑，负责不得后悔死啊</p>
-]]></content:encoded>
+      <description>&lt;p&gt;这几天在抖音上看到两个卖茶的主播，都是卖碎银子的。差点就被忽悠进了坑。&lt;/p&gt;&#xA;&lt;p&gt;其实老刘对茶是真没有什么研究，也是第一次听说这个品种。当时想要入坑的主要原因是主播的文案太tm的好了，一壶热水，把茶叶往里一放，刷刷的冒气泡，美名曰，天然的果胶会呼气。主播说，这个茶不但有浓郁的茉莉花香味还有一种糯米的口感。用茉莉花经过7次窑制，把每一份的香味都沁入到了茶中。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;心里犹豫了一下，觉得还是要看看到底是个什么茶，发现原来所谓的碎银子，就是用碎的普洱加胶粘到一起的。&lt;/p&gt;&#xA;&lt;p&gt;幸亏没有入坑，负责不得后悔死啊&lt;/p&gt;</description>
     </item>
     <item>
       <title>传奇私服一个怀旧的地方加除草</title>
       <link>https://iliu.org/4334.html</link>
       <pubDate>Tue, 07 Mar 2023 08:22:04 +0000</pubDate>
       <guid>https://iliu.org/4334.html</guid>
-      <description>&lt;p&gt;很久没有更新博客了，这博客是越不更新就越懒，时间久了就更不想动了。&lt;/p&gt;
-&lt;p&gt;最近找到一个好玩的东西，不是网络上炒的火热的那个API，是老张搞的一个传奇私服。是兄弟，砍一刀，就是这个玩意。生于2001年，不过我那个时候玩的都是暗黑和星际争霸，传奇倒是真的没有怎么玩过。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>很久没有更新博客了，这博客是越不更新就越懒，时间久了就更不想动了。</p>
-<p>最近找到一个好玩的东西，不是网络上炒的火热的那个API，是老张搞的一个传奇私服。是兄弟，砍一刀，就是这个玩意。生于2001年，不过我那个时候玩的都是暗黑和星际争霸，传奇倒是真的没有怎么玩过。</p>
-<p>于是体验了一把老张开的这个私服，当然，VIP是要开足的，老张搞了两个，一个是玛法大陆，一个是灵动合击。前者各方面做的都比较精美，后者据老张说是保持了原汁原味。</p>
-<p>说实在的，灵动合计实在是有点简陋了。<figure class="wp-block-image"></p>
-<p><img decoding="async" src="https://cdn.staticaly.com/gh/ewader/img@master/20230307/屏幕截图-2023-03-07-154312.dctdv9i0bu8.webp" alt="屏幕截图-2023-03-07-154312" /> <figcaption class="wp-element-caption">这个就是合计杀怪的界面，弄弄的复古风格，技能也不华丽，?</figcaption></figure></p>
-<p>相对来说，玛法大陆就好看多了：<figure class="wp-block-image"></p>
-<p><img decoding="async" src="https://cdn.staticaly.com/gh/ewader/img@master/20230307/111.79xia8vnu88.webp" alt="111" /> <figcaption class="wp-element-caption">各种特技有没有！！</figcaption></figure></p>
-<p>装备也很多，自带各种技能，比如我制作的火龙剑<figure class="wp-block-image"></p>
-<p><img decoding="async" src="https://cdn.staticaly.com/gh/ewader/img@master/20230307/zhuangbei.5nwsx8sh7040.webp" alt="zhuangbei" /> </figure></p>
-<p>这个游戏特别适合闲暇的时候去放松一下，就砍就完了，省心不费脑子。</p>
-<p>游戏地址：<a rel="noreferrer noopener" href="https://mir.iboge.com/" target="_blank"><strong><a href="https://mir.iboge.com">https://mir.iboge.com</a></strong></a></p>
-]]></content:encoded>
+      <description>&lt;p&gt;很久没有更新博客了，这博客是越不更新就越懒，时间久了就更不想动了。&lt;/p&gt;&#xA;&lt;p&gt;最近找到一个好玩的东西，不是网络上炒的火热的那个API，是老张搞的一个传奇私服。是兄弟，砍一刀，就是这个玩意。生于2001年，不过我那个时候玩的都是暗黑和星际争霸，传奇倒是真的没有怎么玩过。&lt;/p&gt;&#xA;&lt;p&gt;于是体验了一把老张开的这个私服，当然，VIP是要开足的，老张搞了两个，一个是玛法大陆，一个是灵动合击。前者各方面做的都比较精美，后者据老张说是保持了原汁原味。&lt;/p&gt;&#xA;&lt;p&gt;说实在的，灵动合计实在是有点简陋了。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;这个就是合计杀怪的界面，弄弄的复古风格，技能也不华丽，?&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>整了个卡西欧的小红圈</title>
       <link>https://iliu.org/3838.html</link>
       <pubDate>Sun, 15 Aug 2021 01:15:48 +0000</pubDate>
       <guid>https://iliu.org/3838.html</guid>
-      <description>&lt;p&gt;一直以来，对于表的感觉，就是一个计时工具而已。记得人生中的第一块表是老爸在我三年级的时候送给我的。是一个几块钱的电子表。这块表一直陪伴我到上了初中。后来也陆续买了几块，一直到大学毕业前夕，拥有了人生中第一个也是唯一一个BP机之后，手表就束之高阁了。因为一来，手机这类的，不但是通信工具，还是计时工具，关键是你还不用管它，时间还贼准确。&lt;figure class=&#34;wp-block-image size-full&#34;&gt;&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>一直以来，对于表的感觉，就是一个计时工具而已。记得人生中的第一块表是老爸在我三年级的时候送给我的。是一个几块钱的电子表。这块表一直陪伴我到上了初中。后来也陆续买了几块，一直到大学毕业前夕，拥有了人生中第一个也是唯一一个BP机之后，手表就束之高阁了。因为一来，手机这类的，不但是通信工具，还是计时工具，关键是你还不用管它，时间还贼准确。<figure class="wp-block-image size-full"></p>
-<p><a href="https://tunan.org/wp-content/uploads/2021/08/63c6d667a3b4dbf.jpg"><img loading="lazy" decoding="async" width="849" height="849" src="https://tunan.org/wp-content/uploads/2021/08/63c6d667a3b4dbf.jpg" alt="" class="wp-image-3839" srcset="https://tunan.org/wp-content/uploads/2021/08/63c6d667a3b4dbf.jpg 849w, https://tunan.org/wp-content/uploads/2021/08/63c6d667a3b4dbf-300x300.jpg 300w, https://tunan.org/wp-content/uploads/2021/08/63c6d667a3b4dbf-150x150.jpg 150w, https://tunan.org/wp-content/uploads/2021/08/63c6d667a3b4dbf-768x768.jpg 768w" sizes="(max-width: 849px) 100vw, 849px" /></a></figure></p>
-<p>现在很多人也戴表，但是很多都是作为一种装饰来使用的，男人的三大件吗，眼镜、手表和皮带！去年疫情期间，为了监督自己锻炼身体，买了一个荣耀的手环，在佩戴的过程中忽然发现，其实带这玩意还是挺方便的，最起码看时间少了掏衣兜的动作，荣耀手环唯一的不方便是隔上一段时间就需要充个电。</p>
-<p>后来，机缘巧合下，了解了卡西欧的小红圈，发现挺不错的，太阳能充电，电波对时。关键是价格也不贵。</p>
-<p>到手后，由于商丘的电波时好时坏，说是受到洪水的影响，但是当初爆发洪水的是郑州和新乡，商丘的虞城也不是泄洪区，设备怎么会淹呢，现在再加上疫情的影响，已经好几天又没有信号了。</p>
-<p>我感觉应该是为了省电，中国科学院授时中心和原来一家公司的合同在今年2月份已经到期，估计是他们现在经费紧张？不得而知。</p>
-<p>好在在郑州，在稍微空旷一点的地方，可以收到日本的电波。影响也不是很大。</p>
-]]></content:encoded>
+      <description>&lt;p&gt;一直以来，对于表的感觉，就是一个计时工具而已。记得人生中的第一块表是老爸在我三年级的时候送给我的。是一个几块钱的电子表。这块表一直陪伴我到上了初中。后来也陆续买了几块，一直到大学毕业前夕，拥有了人生中第一个也是唯一一个BP机之后，手表就束之高阁了。因为一来，手机这类的，不但是通信工具，还是计时工具，关键是你还不用管它，时间还贼准确。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2021/08/63c6d667a3b4dbf.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;现在很多人也戴表，但是很多都是作为一种装饰来使用的，男人的三大件吗，眼镜、手表和皮带！去年疫情期间，为了监督自己锻炼身体，买了一个荣耀的手环，在佩戴的过程中忽然发现，其实带这玩意还是挺方便的，最起码看时间少了掏衣兜的动作，荣耀手环唯一的不方便是隔上一段时间就需要充个电。&lt;/p&gt;&#xA;&lt;p&gt;后来，机缘巧合下，了解了卡西欧的小红圈，发现挺不错的，太阳能充电，电波对时。关键是价格也不贵。&lt;/p&gt;&#xA;&lt;p&gt;到手后，由于商丘的电波时好时坏，说是受到洪水的影响，但是当初爆发洪水的是郑州和新乡，商丘的虞城也不是泄洪区，设备怎么会淹呢，现在再加上疫情的影响，已经好几天又没有信号了。&lt;/p&gt;&#xA;&lt;p&gt;我感觉应该是为了省电，中国科学院授时中心和原来一家公司的合同在今年2月份已经到期，估计是他们现在经费紧张？不得而知。&lt;/p&gt;&#xA;&lt;p&gt;好在在郑州，在稍微空旷一点的地方，可以收到日本的电波。影响也不是很大。&lt;/p&gt;</description>
     </item>
     <item>
       <title>铜钱草只开花不长叶</title>
       <link>https://iliu.org/3807.html</link>
       <pubDate>Sun, 18 Jul 2021 09:05:36 +0000</pubDate>
       <guid>https://iliu.org/3807.html</guid>
-      <description>&lt;p&gt;春天的时候把铜钱草从鱼缸里捞出来单独放一个盆里后，起初叶子是长的又大又绿。好几个顾客来店里都夸好看，只不过好景不长，过了一个来月后长出来第一朵花后，就一直只长花，不再长新的叶子了。&lt;figure class=&#34;wp-block-image size-large&#34;&gt;&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>春天的时候把铜钱草从鱼缸里捞出来单独放一个盆里后，起初叶子是长的又大又绿。好几个顾客来店里都夸好看，只不过好景不长，过了一个来月后长出来第一朵花后，就一直只长花，不再长新的叶子了。<figure class="wp-block-image size-large"></p>
-<p><a href="https://tunan.org/wp-content/uploads/2021/07/52fed0d8ca51111.jpg"><img loading="lazy" decoding="async" width="1024" height="683" src="https://tunan.org/wp-content/uploads/2021/07/52fed0d8ca51111-1024x683.jpg" alt="" class="wp-image-3808" srcset="https://tunan.org/wp-content/uploads/2021/07/52fed0d8ca51111-1024x683.jpg 1024w, https://tunan.org/wp-content/uploads/2021/07/52fed0d8ca51111-300x200.jpg 300w, https://tunan.org/wp-content/uploads/2021/07/52fed0d8ca51111-768x512.jpg 768w, https://tunan.org/wp-content/uploads/2021/07/52fed0d8ca51111.jpg 1500w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure></p>
-<p>从网上查了一下，网上说，环境肥料等都比较适合的时候，铜钱草就会开花，而且和磷过量有关。想了一下，一直都是用养鱼的水来浇，可能磷的含量确实是不少吧，</p>
-<p>繁衍后代是生物的本性，所以，在条件合适的情况下，铜钱草开花也就不足为怪了。但是铜钱草的花很难看，网上给出的办法就是把花给掐掉，增加氮肥。或者变换成半泥半水的种植状态。</p>
-<p>反正土已经放进去了，后续看看效果如何吧。</p>
-]]></content:encoded>
+      <description>&lt;p&gt;春天的时候把铜钱草从鱼缸里捞出来单独放一个盆里后，起初叶子是长的又大又绿。好几个顾客来店里都夸好看，只不过好景不长，过了一个来月后长出来第一朵花后，就一直只长花，不再长新的叶子了。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2021/07/52fed0d8ca51111.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;从网上查了一下，网上说，环境肥料等都比较适合的时候，铜钱草就会开花，而且和磷过量有关。想了一下，一直都是用养鱼的水来浇，可能磷的含量确实是不少吧，&lt;/p&gt;&#xA;&lt;p&gt;繁衍后代是生物的本性，所以，在条件合适的情况下，铜钱草开花也就不足为怪了。但是铜钱草的花很难看，网上给出的办法就是把花给掐掉，增加氮肥。或者变换成半泥半水的种植状态。&lt;/p&gt;&#xA;&lt;p&gt;反正土已经放进去了，后续看看效果如何吧。&lt;/p&gt;</description>
     </item>
     <item>
       <title>整理了一下绿植</title>
       <link>https://iliu.org/3801.html</link>
       <pubDate>Fri, 16 Jul 2021 09:39:33 +0000</pubDate>
       <guid>https://iliu.org/3801.html</guid>
-      <description>&lt;p&gt;上午趁着没事，整理了一下店里的绿植。&lt;/p&gt;
-&lt;p&gt;不知不觉间，已经弄了不少的绿植了，限于店内空间太小，大的绿植是没有办法增加了，前两天看到旧日的足迹说在他岳父家弄了一颗叫不死鸟的绿植，于是到某宝上看了一下，也不贵，中苗10块一颗包邮，小苗才3块多钱，真的是买个小苗，他快递费都不够。也是为了店家考虑吧，下单了一个中苗，大家做生意真的都不容易，能帮一点是一点吧。应该这几天会到。传说中这玩意繁殖的非常快，一不小心就泛滥。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>上午趁着没事，整理了一下店里的绿植。</p>
-<p>不知不觉间，已经弄了不少的绿植了，限于店内空间太小，大的绿植是没有办法增加了，前两天看到旧日的足迹说在他岳父家弄了一颗叫不死鸟的绿植，于是到某宝上看了一下，也不贵，中苗10块一颗包邮，小苗才3块多钱，真的是买个小苗，他快递费都不够。也是为了店家考虑吧，下单了一个中苗，大家做生意真的都不容易，能帮一点是一点吧。应该这几天会到。传说中这玩意繁殖的非常快，一不小心就泛滥。</p>
-<p>首先，去年种的一颗昙花，之前花盆就是一个塑料的，已经老化了，一摸就碎的那种，长势不错，旁边花盆里的那颗清香木由于被我打药打的有点半死不活，所以，就把它请出来，把昙花移进去吧。<figure class="wp-block-image size-large"></p>
-<p><a href="https://tunan.org/wp-content/uploads/2021/07/aa08f9b05d591e5.jpg"><img loading="lazy" decoding="async" width="768" height="1024" src="https://tunan.org/wp-content/uploads/2021/07/aa08f9b05d591e5-768x1024.jpg" alt="" class="wp-image-3802" srcset="https://tunan.org/wp-content/uploads/2021/07/aa08f9b05d591e5-768x1024.jpg 768w, https://tunan.org/wp-content/uploads/2021/07/aa08f9b05d591e5-225x300.jpg 225w, https://tunan.org/wp-content/uploads/2021/07/aa08f9b05d591e5.jpg 780w" sizes="(max-width: 768px) 100vw, 768px" /></a></figure></p>
-<p>旁边这个没有种任何东西的小花盆就是给不死鸟留的。</p>
-<p>清香木移到了以前种太阳花的那个花盆，其实我还是蛮喜欢太阳花的，可惜放在窗户旁边，花瓣干后都沾到玻璃上了，非常的不整洁，另外地上还落一层干了的花瓣，太能开花也不好，花期太短。所以，忍痛给拔了，把修剪过的清香木放进去了，这玩意长的慢，估计几年也不用换盆。<figure class="wp-block-image size-large"></p>
-<p><a href="https://tunan.org/wp-content/uploads/2021/07/98331b4109f81eb.jpg"><img loading="lazy" decoding="async" width="768" height="1024" src="https://tunan.org/wp-content/uploads/2021/07/98331b4109f81eb-768x1024.jpg" alt="" class="wp-image-3803" srcset="https://tunan.org/wp-content/uploads/2021/07/98331b4109f81eb-768x1024.jpg 768w, https://tunan.org/wp-content/uploads/2021/07/98331b4109f81eb-225x300.jpg 225w, https://tunan.org/wp-content/uploads/2021/07/98331b4109f81eb.jpg 780w" sizes="(max-width: 768px) 100vw, 768px" /></a></figure></p>
-<p>然后给旁边的那个铜钱草的盆里放进了一些土，原来铜钱草一直都是水养的，最近看来光用水的话，还是没有在鱼缸里长的好，索性加上写土吧。<figure class="wp-block-image size-large"></p>
-<p><a href="https://tunan.org/wp-content/uploads/2021/07/e1a1693ce5f116c.jpg"><img loading="lazy" decoding="async" width="768" height="1024" src="https://tunan.org/wp-content/uploads/2021/07/e1a1693ce5f116c-768x1024.jpg" alt="" class="wp-image-3804" srcset="https://tunan.org/wp-content/uploads/2021/07/e1a1693ce5f116c-768x1024.jpg 768w, https://tunan.org/wp-content/uploads/2021/07/e1a1693ce5f116c-225x300.jpg 225w, https://tunan.org/wp-content/uploads/2021/07/e1a1693ce5f116c.jpg 780w" sizes="(max-width: 768px) 100vw, 768px" /></a></figure></p>
-<p>最后就是我的这几条小鱼，养了一年多了。除去刚买来的时候水土不服死了3条之外，剩余的这些生活的很好。前段时间，花了几块钱买了一个一页连，现在也已经生根了。另外说下这个卖一叶莲的就是个奸商，写的中号的直径8-12cm，结果收到的正好8cm。你发过来一个10cm的我都不说你是奸商。</p>
-<p>另外一颗是我前些天放进去的一根绿萝。也已经生根了，长势喜人。估计以后净化水质的重任会落在这颗绿萝上了。</p>
-]]></content:encoded>
+      <description>&lt;p&gt;上午趁着没事，整理了一下店里的绿植。&lt;/p&gt;&#xA;&lt;p&gt;不知不觉间，已经弄了不少的绿植了，限于店内空间太小，大的绿植是没有办法增加了，前两天看到旧日的足迹说在他岳父家弄了一颗叫不死鸟的绿植，于是到某宝上看了一下，也不贵，中苗10块一颗包邮，小苗才3块多钱，真的是买个小苗，他快递费都不够。也是为了店家考虑吧，下单了一个中苗，大家做生意真的都不容易，能帮一点是一点吧。应该这几天会到。传说中这玩意繁殖的非常快，一不小心就泛滥。&lt;/p&gt;&#xA;&lt;p&gt;首先，去年种的一颗昙花，之前花盆就是一个塑料的，已经老化了，一摸就碎的那种，长势不错，旁边花盆里的那颗清香木由于被我打药打的有点半死不活，所以，就把它请出来，把昙花移进去吧。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2021/07/aa08f9b05d591e5.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;旁边这个没有种任何东西的小花盆就是给不死鸟留的。&lt;/p&gt;&#xA;&lt;p&gt;清香木移到了以前种太阳花的那个花盆，其实我还是蛮喜欢太阳花的，可惜放在窗户旁边，花瓣干后都沾到玻璃上了，非常的不整洁，另外地上还落一层干了的花瓣，太能开花也不好，花期太短。所以，忍痛给拔了，把修剪过的清香木放进去了，这玩意长的慢，估计几年也不用换盆。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,23 +1,458 @@
-<!doctype html><html lang=zh-cn dir=auto><head><meta name=generator content="Hugo 0.155.2"><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>老刘博客</title><meta name=keywords content="图南,博客,验光师,linux,hugo,wordpress,群晖,南怀瑾,庄子,传统文化"><meta name=description content="老刘的个人博客，一些读书、工作、生活方面的杂记，及折腾各种物件的记录"><meta name=author content="老刘"><link rel=canonical href=https://iliu.org/><link crossorigin=anonymous href=/assets/css/stylesheet.d09585d53d0c9ad92e1d96d9b5f0a6c553dc2e645261412488b9284b8ac5f89e.css integrity="sha256-0JWF1T0MmtkuHZbZtfCmxVPcLmRSYUEkiLkoS4rF+J4=" rel="preload stylesheet" as=style><link rel=icon href=https://iliu.org/img/favicon><link rel=icon type=image/png sizes=16x16 href=https://iliu.org/img/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://iliu.org/img/favicon-32x32.png><link rel=apple-touch-icon href=https://iliu.org/img/apple-touch-icon.png><link rel=mask-icon href=https://iliu.org/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate type=application/rss+xml href=https://iliu.org/index.xml title=rss><link rel=alternate type=application/json href=https://iliu.org/index.json title=json><link rel=alternate hreflang=zh-cn href=https://iliu.org/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><script async src="https://www.googletagmanager.com/gtag/js?id=G-0XVC4DWYPH"></script><script>var doNotTrack=!1,dnt=navigator.doNotTrack||window.doNotTrack||navigator.msDoNotTrack,doNotTrack=dnt=="1"||dnt=="yes";if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-0XVC4DWYPH")}</script><meta property="og:url" content="https://iliu.org/"><meta property="og:site_name" content="老刘博客"><meta property="og:title" content="老刘博客"><meta property="og:description" content="老刘的个人博客，一些读书、工作、生活方面的杂记，及折腾各种物件的记录"><meta property="og:locale" content="zh-cn"><meta property="og:type" content="website"><meta property="og:image" content="https://iliu.org/img/liujinsuiyue.jpg"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://iliu.org/img/liujinsuiyue.jpg"><meta name=twitter:title content><meta name=twitter:description content="老刘的个人博客，一些读书、工作、生活方面的杂记，及折腾各种物件的记录"><script type=application/ld+json>{"@context":"https://schema.org","@type":"Organization","name":"老刘博客","url":"https://iliu.org/","description":"老刘的个人博客，一些读书、工作、生活方面的杂记，及折腾各种物件的记录","logo":"https://iliu.org/img/favicon","sameAs":["https://x.com/tunanblog","mailto:ewader@gmail.com","https://github.com/ewader","index.xml","https://cmx.go.it/@laoliu"]}</script></head><body class=list id=top><script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add("dark"):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove("dark"):window.matchMedia("(prefers-color-scheme: dark)").matches&&document.body.classList.add("dark")</script><header class=header><nav class=nav><div class=logo><a href=https://iliu.org/ accesskey=h title="老刘博客 (Alt + H)"><img src=https://iliu.org/img/apple-touch-icon.png alt aria-label=logo height=35>老刘博客</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)" aria-label="Toggle theme">
-<svg id="moon" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
-<svg id="sun" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=https://iliu.org/ title=Home><span class=active>Home</span></a></li><li><a href=https://iliu.org/archives/ title="💾 归档"><span>💾 归档</span></a></li><li><a href=https://iliu.org/search title="🔍 搜索 (Alt + /)" accesskey=/><span>🔍 搜索</span></a></li><li><a href=https://iliu.org/boyoupeijing/ title="👓 配镜"><span>👓 配镜</span></a></li><li><a href=https://iliu.org/friends/ title="🌍 邻居"><span>🌍 邻居</span></a></li></ul></nav></header><main class=main><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>节气里的智慧</h2></header><div class=entry-content><p>又到了一年的农历七月。 天气不再像盛夏那样燥热，夜晚多了一丝凉意。四季轮回，寒来暑往，在不知不觉间，年景又走过了一大半。
-小时候，我总觉得夏天的热是没有尽头的。那时候别说空调了，连电扇都都没有，白天热得人心浮气躁。于是，我常忍不住问母亲： “啥时候能凉快啊？”
-...</p></div><footer class=entry-footer><span title='2025-08-29 09:13:27 +0800 CST'>2025-08-29</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>788 words</span>&nbsp;·&nbsp;<span>老刘</span></footer><a class=entry-link aria-label="post link to 节气里的智慧" href=https://iliu.org/wisdom-in-the-solstices/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>折腾杀毒软件的一点感想</h2></header><div class=entry-content><p>前几天，我一直在折腾各种杀毒软件。事情的起因，是一个熟人单位里发生的一起网络诈骗。单位里一位员工因为点击了不明链接，不小心中毒，黑客随即接管了他的钉钉账号。接下来就是老套路：建群、拉人、冒充发工资补贴，让大家输入银行卡号。可别小看这招，受害的人不少，听说损失最大的一位，损失相当的严重。
-...</p></div><footer class=entry-footer><span title='2025-08-27 09:09:49 +0800 CST'>2025-08-27</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>1720 words</span>&nbsp;·&nbsp;<span>老刘</span></footer><a class=entry-link aria-label="post link to 折腾杀毒软件的一点感想" href=https://iliu.org/thoughts-on-struggling-with-antivirus-software/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>开箱｜媳妇的华为 Watch Fit 4</h2></header><div class=entry-content><p>妇前段时间去南京学习，回来跟我说起一件事：她的同学戴的手表居然能直接接打电话。她说起的时候眼神里有点心动。她平常其实不太喜欢戴这些东西，更结婚没多久的时候，说想要一块手表，也就戴了一段时间，就收藏了起来了。前几年给她买了一只荣耀手环 7，她戴过一阵子，后来也不戴了。
-...</p></div><footer class=entry-footer><span title='2025-08-24 09:06:43 +0800 CST'>2025-08-24</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>1163 words</span>&nbsp;·&nbsp;<span>老刘</span></footer><a class=entry-link aria-label="post link to 开箱｜媳妇的华为 Watch Fit 4" href=https://iliu.org/wifes-huawei-watch-fit-4/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>粮票里的父爱</h2></header><div class=entry-content><p>几天在博客群里闲聊，话题莫名其妙地扯到了粮票。我随口说了一句：“当年我爸把全国的粮票攒着不舍得用，说是为了给我和我哥上大学的时候用。”阿均半开玩笑地说：“整理一下这个故事吧，也挺有意思的。”我心里一动，其实不久前还听我爸抱怨呢：“当年给你们攒的粮票，其实也没怎么用上。”
-...</p></div><footer class=entry-footer><span title='2025-08-23 09:04:36 +0800 CST'>2025-08-23</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>976 words</span>&nbsp;·&nbsp;<span>老刘</span></footer><a class=entry-link aria-label="post link to 粮票里的父爱" href=https://iliu.org/fatherly-love-in-the-food-ration-ticket/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>物必自腐，而后虫生</h2></header><div class=entry-content><p>前几天朋友送了一箱黄桃，一次性吃不了那么多，慢慢的桃子就有点发软，这两天吃桃子的时候，屡屡遇到外表鲜亮，啃两口发现里面已经变质的桃子。这不由的让我想起了一句忘了从哪里看到的话——“物必自腐，而后虫生”。
-...</p></div><footer class=entry-footer><span title='2025-08-21 09:02:18 +0800 CST'>2025-08-21</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>665 words</span>&nbsp;·&nbsp;<span>老刘</span></footer><a class=entry-link aria-label="post link to 物必自腐，而后虫生" href=https://iliu.org/a-thing-must-first-decay-before-insects-can-breed/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>茶与菩提：慢下来的时光</h2></header><div class=entry-content><p>周末收拾店内的东西，无意中翻出一个纸袋。打开一看，里面是半块普洱茶饼。这块茶饼是媳妇她表哥送的。刚拿到手时，我兴致勃勃地撬下一点泡来喝。慢慢地，三两次、五六次，一块完整的茶饼就被消耗掉了一半。后来是因为茶壶被摔坏了，改用玻璃杯泡绿茶，也就放在那了。都说普洱茶的妙处，就在于它“越陈越香”。这两年，它是不是也在悄悄发生着变化呢？
-...</p></div><footer class=entry-footer><span title='2025-08-19 09:00:01 +0800 CST'>2025-08-19</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>739 words</span>&nbsp;·&nbsp;<span>老刘</span></footer><a class=entry-link aria-label="post link to 茶与菩提：慢下来的时光" href=https://iliu.org/tea-and-bodhi-the-time-to-slow-down/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>输赢之外</h2></header><div class=entry-content><p>新一季的英超比赛又开始了，吃了晚饭之后，电视里看了会切尔西和水晶宫的比赛，从球员的实力来看，切尔西肯定更强，但是实际比赛中水晶宫队反而更有优势。女儿一直在写作业，催促她早点睡觉，一看表差不多又快半夜12点了。想起11点半开始的有一场曼联队阿森纳的比赛，打开直播吧看了一下，发现曼联已经又落后的一球，心情瞬间不好了。
-...</p></div><footer class=entry-footer><span title='2025-08-18 08:57:59 +0800 CST'>2025-08-18</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>996 words</span>&nbsp;·&nbsp;<span>老刘</span></footer><a class=entry-link aria-label="post link to 输赢之外" href=https://iliu.org/beyond-win-or-lose/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>也谈修行</h2></header><div class=entry-content><p>起“修行”，很多人脑海里会浮现出仙风道骨的修行者，在深山古刹中盘腿打坐，运转真气，甚至施展飞天遁地的法术，最终炼成金丹元婴，羽化登仙。这些神秘而遥远的幻想，构成了我们对“修行”最初的认知。然而，真实的修行，并非如此玄奇。它没有那么多的神秘幻象，更不需要去追求那些虚无缥缈的超能力。
-...</p></div><footer class=entry-footer><span title='2025-08-17 08:56:10 +0800 CST'>2025-08-17</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>610 words</span>&nbsp;·&nbsp;<span>老刘</span></footer><a class=entry-link aria-label="post link to 也谈修行" href=https://iliu.org/also-on-cultivation/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>8月15日：愤怒，是民族的清醒</h2></header><div class=entry-content><p>天是8月15日，1945年的今天，日本宣布无条件投降，侵华八年的枪炮声终于停下。可对于中华民族来说，这一天并不是结束，而只是另一种形式的开始——开始承受、记忆、传递那段血与火的历史。这个暑假，我带着女儿去了南京大屠杀纪念馆。冰冷的展厅里，陈列着泛黄的照片、锈蚀的刺刀、炸塌的城墙和房屋、累累的白骨以及被侵略者捏碎的生活。三十万无辜的生命，就这样被屠戮殆尽。他们不是冷冰冰的数字，而是有名字、有家人、有笑声的人。站在那里，你能感到一种压抑到窒息的痛。
-...</p></div><footer class=entry-footer><span title='2025-08-15 08:53:27 +0800 CST'>2025-08-15</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>998 words</span>&nbsp;·&nbsp;<span>老刘</span></footer><a class=entry-link aria-label="post link to 8月15日：愤怒，是民族的清醒" href=https://iliu.org/august-15-anger-a-nations-awakening/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>上天保佑，并非无条件</h2></header><div class=entry-content><p>《易经·大有卦》上九爻有一句爻辞：
-“自天佑之，吉无不利。”
-这句话字面看起来非常美好：上天主动来庇佑你，于是无往不利，大吉大利。
-如果只停留在表面理解，就很容易和很多人的日常愿望接轨——谁不希望自己好运降临、平安顺遂呢？于是，求天佑、求神明保庇，就成了人类千百年来的习惯。
-...</p></div><footer class=entry-footer><span title='2025-08-14 08:49:47 +0800 CST'>2025-08-14</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>1428 words</span>&nbsp;·&nbsp;<span>老刘</span></footer><a class=entry-link aria-label="post link to 上天保佑，并非无条件" href=https://iliu.org/god-bless-not-unconditionally/></a></article><footer class=page-footer><nav class=pagination><a class=prev href=https://iliu.org/page/4/>«&nbsp;&nbsp;
-</a><a class=next href=https://iliu.org/page/6/>&nbsp;&nbsp;»</a></nav></footer></main><footer class=footer><span>&copy; 2026 <a href=https://iliu.org/>老刘博客</a></span> ·
-<span>Powered by
-<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
-<a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a>
-</span><a rel=me href=https://m.cmx.im/@laoliu>Mastodon</a></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentColor"><path d="M12 6H0l6-6z"/></svg>
-</a><script>let menu=document.getElementById("menu");menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove("dark"),localStorage.setItem("pref-theme","light")):(document.body.classList.add("dark"),localStorage.setItem("pref-theme","dark"))})</script></body></html>
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+<head>
+	<meta name="generator" content="Hugo 0.155.2">
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>老刘博客</title>
+
+<meta name="description" content="老刘的个人博客，一些读书、工作、生活方面的杂记，及折腾各种物件的记录">
+
+
+<meta name="keywords" content="图南,博客,验光师,linux,hugo,wordpress,群晖,南怀瑾,庄子,传统文化">
+
+      <link rel="stylesheet" href="/css/main.min.0ed04894cb44c2b94c2fc3cd4eab1b7622f25031fb03aa77974e360e68b77dba.css" integrity="sha256-DtBIlMtEwrlML8PNTqsbdiLyUDH7A6p3l042Dmi3fbo=" crossorigin="anonymous">
+
+<link rel="icon" type="image/svg+xml" href="https://iliu.org/favicon.svg"> 
+<link rel="icon" type="image/x-icon" href="https://iliu.org/favicon.ico"> 
+<link rel="icon" type="image/png" sizes="16x16" href="https://iliu.org/favicon.png"> 
+<link rel="icon" type="image/png" sizes="32x32" href="https://iliu.org/favicon-32.png"> 
+<link rel="icon" type="image/png" sizes="64x64" href="https://iliu.org/favicon-64.png"> 
+
+</head>
+<body>
+  <header class="py-6 border-b"><div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 flex flex-col">
+	<div class="flex items-center">
+		<div class="flex items-center">
+			<button class="flex items-center space-x-2 rounded-full border py-1 pr-[5px] pl-3 group bg-zinc-100 hover:bg-zinc-200 toggle-button" data-target="menu-bar">
+				<svg width="22" height="22" fill="currentColor" viewBox="0 0 16 16">
+					<path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"></path>
+				</svg>
+				<span class="bg-blue-500 fill-white rounded-full p-1.5">
+					<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="group-hover:animate-spin bi bi-egg-fried fill-white" viewBox="0 0 16 16">
+						<path d="M8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
+						<path d="M13.997 5.17a5 5 0 0 0-8.101-4.09A5 5 0 0 0 1.28 9.342a5 5 0 0 0 8.336 5.109 3.5 3.5 0 0 0 5.201-4.065 3.001 3.001 0 0 0-.822-5.216zm-1-.034a1 1 0 0 0 .668.977 2.001 2.001 0 0 1 .547 3.478 1 1 0 0 0-.341 1.113 2.5 2.5 0 0 1-3.715 2.905 1 1 0 0 0-1.262.152 4 4 0 0 1-6.67-4.087 1 1 0 0 0-.2-1 4 4 0 0 1 3.693-6.61 1 1 0 0 0 .8-.2 4 4 0 0 1 6.48 3.273z"></path>
+					</svg>
+				</span>
+			</button>
+			<div class="relative rounded-full py-1.5 px-6 bg-zinc-100 hover:bg-zinc-200 text-xl font-bold uppercase mx-2">
+				<h1><a class="before:content-[''] before:z-10 before:top-0 before:right-0 before:left-0 before:bottom-0 before:absolute before:pointer-events-auto" href="https://iliu.org/">老刘博客</a></h1>
+			
+			</div>
+		</div>
+		<div class="flex items-center ml-auto">
+			<button class="flex items-center rounded-full p-3 bg-zinc-100 hover:bg-zinc-200 toggle-button" data-target="search-bar">
+				<svg width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
+					<path id="path1" class="transition-all ease-linear" d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
+					<path id="path2" class="transition-all ease-linear hidden" d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"></path>
+				</svg>
+			</button>
+		</div>
+	</div>
+  <nav id="menu-bar" class="block mt-3 close">
+    <ul class="flex items-center flex flex-nowrap whitespace-nowrap overflow-x-auto space-x-4">
+    <li class="my-2">
+      <a aria-current="page" class="rounded-full border px-6 py-2 bg-zinc-100 hover:bg-zinc-200 border-zinc-400" href="/">Home</a>
+    </li>
+    <li class="my-2">
+      <a class="rounded-full border px-6 py-2 bg-zinc-100 hover:bg-zinc-200" href="/about/">About</a>
+    </li>
+    <li class="my-2">
+      <a class="rounded-full border px-6 py-2 bg-zinc-100 hover:bg-zinc-200" href="/archives/">Archives</a>
+    </li>
+    <li class="my-2">
+      <a class="rounded-full border px-6 py-2 bg-zinc-100 hover:bg-zinc-200" href="/friends/">Friends</a>
+    </li>
+    <li class="my-2">
+      <a class="rounded-full border px-6 py-2 bg-zinc-100 hover:bg-zinc-200" href="/tags/">Tags</a>
+    </li>
+    </ul>
+  </nav>
+<div id="search-bar" class="block mt-3 close relative">
+	<div id="search"></div>
+</div>
+
+<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+<script src="/pagefind/pagefind-ui.js"></script>
+<script>
+(function() {
+	console.log('Pagefind 搜索功能初始化...');
+	
+	
+	if (typeof PagefindUI !== 'undefined') {
+		initPagefind();
+	} else {
+		document.addEventListener('DOMContentLoaded', function() {
+			
+			setTimeout(initPagefind, 500);
+		});
+	}
+
+	function initPagefind() {
+		if (typeof PagefindUI === 'undefined') {
+			console.warn('Pagefind UI 脚本未加载，请先运行 Pagefind 构建索引');
+			return;
+		}
+
+		try {
+			new PagefindUI({
+				element: "#search",
+				showSubResults: true,
+				showImages: false,
+				translations: {
+					placeholder: "搜索...",
+					clearSearch: "清除",
+					noResults: "未找到结果",
+					loading: "搜索中...",
+					searchResults: "搜索结果",
+					previousResult: "上一个",
+					nextResult: "下一个"
+				},
+				bundlePath: "/pagefind/"
+			});
+			console.log('Pagefind 搜索功能初始化完成');
+		} catch (e) {
+			console.error('Pagefind 初始化失败:', e);
+		}
+	}
+})();
+</script>
+</div></header>
+  <main class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+
+<section class="block md:flex relative group p-6 lg:p-10 space-y-6 md:space-x-6 my-14 bg-zinc-100 rounded-3xl hover:bg-blue-100">
+  <figure class="basis-1/2 w-full aspect-video overflow-hidden rounded-2xl border">
+
+        <img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" src="https://ewader.s3.bitiful.net/IMG_20260120_124855.jpg" alt="老刘博客" style="width: 100%; height: 100%; object-fit: cover;">
+
+  </figure>
+  <div class="basis-1/2 self-center">
+    <h2 class="text-2xl md:text-3xl lg:text-5xl font-bold mb-4"><a class="before:content-[''] before:z-10 before:top-0 before:right-0 before:left-0 before:bottom-0 before:absolute before:pointer-events-auto" href="https://iliu.org/posts/new-year-2026-snow-and-argue-with-the-property-management/">2026年的第二场雪以及怼物业</a></h2>
+    <time datetime="2026-01-22T16:51:08&#43;08:00"><span class="font-bold">Jan 22, 2026</span></time>
+  </div>
+</section>
+
+
+
+
+
+<section class="mb-16">
+
+    
+
+    <div class="flex items-center mb-6">
+
+      <h2 class="text-3xl md:text-4xl font-bold mr-auto">齐物</h2>
+
+      <a class="border rounded-full py-2 px-4 md:px-6 hover:bg-blue-100" href="https://iliu.org/categories/%E9%BD%90%E7%89%A9">View All</a>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-x-6 gap-y-10">
+
+    <article class="relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl">
+	
+	<a class="insert-link" href="https://iliu.org/posts/ubuntu2510-install-ibus-libpinyin/"></a>
+
+	<figure class="w-full aspect-video overflow-hidden rounded-3xl">
+
+			<img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" src="https://images.unsplash.com/photo-1679245883026-adea0f43e6f4?q=80&amp;w=2064&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D%20" alt="Ubuntu25.10编译安装Ibus-libpinyin " style="width: 100%; height: 100%; object-fit: cover;">
+
+	  </figure>
+
+	<div class="p-6">
+
+		<time datetime="2026-01-14T17:04:40&#43;08:00">Jan 14, 2026</time>
+
+		<h3 class="my-4 text-2xl font-bold">Ubuntu25.10编译安装Ibus-libpinyin </h3>
+
+		<p class="text-normal leading-normal text-zinc-500 line-clamp-2"></p>
+
+	</div>
+</article><article class="relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl">
+	
+	<a class="insert-link" href="https://iliu.org/posts/migrated-my-blog-to-edgeone-pages/"></a>
+
+	<figure class="w-full aspect-video overflow-hidden rounded-3xl">
+
+			<img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" src="https://images.pexels.com/photos/1591056/pexels-photo-1591056.jpeg" alt="博客托管平台换成edgeone pages" style="width: 100%; height: 100%; object-fit: cover;">
+
+	  </figure>
+
+	<div class="p-6">
+
+		<time datetime="2026-01-04T18:01:08&#43;08:00">Jan 04, 2026</time>
+
+		<h3 class="my-4 text-2xl font-bold">博客托管平台换成edgeone pages</h3>
+
+		<p class="text-normal leading-normal text-zinc-500 line-clamp-2"></p>
+
+	</div>
+</article><article class="relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl">
+	
+	<a class="insert-link" href="https://iliu.org/posts/back-to-giscus/"></a>
+
+	<figure class="w-full aspect-video overflow-hidden rounded-3xl">
+
+			<img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" src="https://images.pexels.com/photos/10389926/pexels-photo-10389926.jpeg" alt="博客评论换回Giscus" style="width: 100%; height: 100%; object-fit: cover;">
+
+	  </figure>
+
+	<div class="p-6">
+
+		<time datetime="2025-12-30T11:31:56&#43;08:00">Dec 30, 2025</time>
+
+		<h3 class="my-4 text-2xl font-bold">博客评论换回Giscus</h3>
+
+		<p class="text-normal leading-normal text-zinc-500 line-clamp-2"></p>
+
+	</div>
+</article>
+
+    </div>
+
+  </section>
+
+ 
+<hr class="my-8">
+
+
+  <section class="mb-16">
+
+    <div class="flex items-center mb-6">
+
+      <h2 class="text-3xl md:text-4xl font-bold mr-auto">最新文章</h2>
+
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-x-6 gap-y-10">
+
+    
+
+    <article class="relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl">
+	
+	<a class="insert-link" href="https://iliu.org/posts/rainy-holiday-a-small-story-about-tires-and-the-journey-home/"></a>
+
+	<figure class="w-full aspect-video overflow-hidden rounded-3xl">
+
+	  </figure>
+
+	<div class="p-6">
+
+		<time datetime="2025-10-09T16:22:16&#43;08:00">Oct 09, 2025</time>
+
+		<h3 class="my-4 text-2xl font-bold">秋雨连绵的假期</h3>
+
+		<p class="text-normal leading-normal text-zinc-500 line-clamp-2"></p>
+
+	</div>
+</article><article class="relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl">
+	
+	<a class="insert-link" href="https://iliu.org/ubuntu-24-04-install-windterm/"></a>
+
+	<figure class="w-full aspect-video overflow-hidden rounded-3xl">
+
+	  </figure>
+
+	<div class="p-6">
+
+		<time datetime="2025-10-02T10:33:29&#43;08:00">Oct 02, 2025</time>
+
+		<h3 class="my-4 text-2xl font-bold">Ubuntu24.04安装Windterm</h3>
+
+		<p class="text-normal leading-normal text-zinc-500 line-clamp-2"></p>
+
+	</div>
+</article><article class="relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl">
+	
+	<a class="insert-link" href="https://iliu.org/posts/autumn-gossipy-talks/"></a>
+
+	<figure class="w-full aspect-video overflow-hidden rounded-3xl">
+
+	  </figure>
+
+	<div class="p-6">
+
+		<time datetime="2025-09-29T10:31:36&#43;08:00">Sep 29, 2025</time>
+
+		<h3 class="my-4 text-2xl font-bold">秋日絮语</h3>
+
+		<p class="text-normal leading-normal text-zinc-500 line-clamp-2"></p>
+
+	</div>
+</article><article class="relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl">
+	
+	<a class="insert-link" href="https://iliu.org/a-brief-discussion-on-the-ah-q-spirit/"></a>
+
+	<figure class="w-full aspect-video overflow-hidden rounded-3xl">
+
+	  </figure>
+
+	<div class="p-6">
+
+		<time datetime="2025-09-25T10:15:38&#43;08:00">Sep 25, 2025</time>
+
+		<h3 class="my-4 text-2xl font-bold">浅谈阿Q精神</h3>
+
+		<p class="text-normal leading-normal text-zinc-500 line-clamp-2"></p>
+
+	</div>
+</article><article class="relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl">
+	
+	<a class="insert-link" href="https://iliu.org/from-windows-to-linux-the-process-and-insights-of-re-experiencing/"></a>
+
+	<figure class="w-full aspect-video overflow-hidden rounded-3xl">
+
+	  </figure>
+
+	<div class="p-6">
+
+		<time datetime="2025-09-23T10:13:07&#43;08:00">Sep 23, 2025</time>
+
+		<h3 class="my-4 text-2xl font-bold">从 Windows 到 Linux：重新体验的过程与心得</h3>
+
+		<p class="text-normal leading-normal text-zinc-500 line-clamp-2"></p>
+
+	</div>
+</article><article class="relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl">
+	
+	<a class="insert-link" href="https://iliu.org/wind-moves-flags-flutter-or-heart-moves/"></a>
+
+	<figure class="w-full aspect-video overflow-hidden rounded-3xl">
+
+	  </figure>
+
+	<div class="p-6">
+
+		<time datetime="2025-09-19T10:35:24&#43;08:00">Sep 19, 2025</time>
+
+		<h3 class="my-4 text-2xl font-bold">风动，幡动还是心动</h3>
+
+		<p class="text-normal leading-normal text-zinc-500 line-clamp-2"></p>
+
+	</div>
+</article>
+
+    </div>
+
+    
+
+    <div class="flex items-center mt-10"><a class="border rounded-full px-6 py-2 hover:bg-zinc-200 mr-auto" href="/page/4/">← Previous</a><a class="border rounded-full px-6 py-2 hover:bg-zinc-200" href="/page/6/">Next →</a></div>
+
+  </section>
+
+<div class="max-w-7xl mx-auto my-16 rounded-3xl bg-zinc-100">
+	
+	<div class="flex flex-wrap p-6 lg:p-10 space-y-6 lg:space-y-0">
+
+		<div class="w-full md:w-3/5 lg:pr-10">
+
+			<h3 class="text-2xl font-semibold mb-4">订阅更新</h3>
+
+			<p>如果有新文章发布，会通过邮件通知你。也可以通过 RSS 订阅。</p>
+
+		</div>
+
+		<div class="self-center flex flex-col w-full md:w-2/5 space-y-3">
+
+			<a href="/index.xml" class="w-full px-6 py-2 rounded-full border border-zinc-300 hover:bg-zinc-200 text-center transition-colors">
+				RSS 订阅
+			</a>
+
+			<a href="https://iliu.org" class="w-full px-6 py-2 rounded-full border border-zinc-300 hover:bg-zinc-200 text-center transition-colors">
+				联系作者
+			</a>
+
+		</div>
+		
+	</div>
+
+</div>
+</main>
+  <footer class="bg-zinc-100 py-10 md:py-14"><div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+
+  <div class="flex flex-wrap space-y-6 mb-4">
+
+    <div class="w-full md:w-3/5 flex flex-col space-y-4 md:pr-8 lg:pr-10">
+
+      <a class="flex items-center group" href="https://iliu.org/">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="mr-2 group-hover:animate-spin" viewBox="0 0 16 16">
+          <path d="M8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+          <path d="M13.997 5.17a5 5 0 0 0-8.101-4.09A5 5 0 0 0 1.28 9.342a5 5 0 0 0 8.336 5.109 3.5 3.5 0 0 0 5.201-4.065 3.001 3.001 0 0 0-.822-5.216zm-1-.034a1 1 0 0 0 .668.977 2.001 2.001 0 0 1 .547 3.478 1 1 0 0 0-.341 1.113 2.5 2.5 0 0 1-3.715 2.905 1 1 0 0 0-1.262.152 4 4 0 0 1-6.67-4.087 1 1 0 0 0-.2-1 4 4 0 0 1 3.693-6.61 1 1 0 0 0 .8-.2 4 4 0 0 1 6.48 3.273z"/>
+        </svg>
+        
+        <span class="text-2xl font-semibold uppercase">老刘博客</span>
+      </a>
+
+      <p class="font-semibold">
+        Hello，我是老刘，这是我的个人博客！
+      </p>
+
+      <p>博主目前经营一家视光工作室👓，有需要这方面的博友可以找老刘哦，详情可以参考博友配镜🏪。<br>博主爱好传统文化，深信因果。</p>
+
+    </div>
+
+    <div class="self-center flex flex-col w-full md:w-2/5">
+
+<ul id="social-media" class="flex items-center space-x-4">
+	<li>
+		<a class="w-12 h-12 rounded-full bg-white hover:bg-zinc-200 flex items-center justify-center p-2" href="https://www.facebook.com/#" target="_blank" rel="noopener noreferrer">
+			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+				<path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+			</svg>
+		</a>
+	</li>
+	<li>
+		<a class="w-12 h-12 rounded-full bg-white hover:bg-zinc-200 flex items-center justify-center p-2" href="https://www.twitter.com/#" target="_blank" rel="noopener noreferrer">
+			<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 16 16">
+				  <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"/>
+			</svg>
+		</a>
+	</li>
+	<li>
+		<a class="w-12 h-12 rounded-full bg-white hover:bg-zinc-200 flex items-center justify-center p-2" href="https://www.github.com/#" target="_blank" rel="noopener noreferrer">
+			<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 16 16">
+				  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+			</svg>
+		</a>
+	</li>
+	<li>
+		<a class="w-12 h-12 rounded-full bg-white hover:bg-zinc-200 flex items-center justify-center p-2" href="https://www.instagram.com/#" target="_blank" rel="noopener noreferrer">
+			<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 16 16">
+				  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
+			</svg>
+		</a>
+	</li>
+</ul>
+
+    </div>
+    
+  </div>
+
+  <div class="my-8">
+    <ul class="flex items-center space-x-4">
+      
+        <li><a class="decoration-auto hover:underline font-semibold" href="/">Home</a></li>
+      
+        <li><a class="decoration-auto hover:underline font-semibold" href="/about/">About</a></li>
+      
+        <li><a class="decoration-auto hover:underline font-semibold" href="/archives/">Archives</a></li>
+      
+        <li><a class="decoration-auto hover:underline font-semibold" href="/friends/">Friends</a></li>
+      
+        <li><a class="decoration-auto hover:underline font-semibold" href="/tags/">Tags</a></li>
+      
+    </ul>
+  </div>
+
+  <div class="border-t pt-4">
+
+    <p class="text-sm">Copyright © 2026. All rights reserved.</p>
+
+  </div>
+  
+</div>
+</footer>
+      <script defer src="/js/insertoggle.474f9b0e08021c6519cff4e46df14ccf148285b2d3a23d6321d6e10f25c291fb.js" integrity="sha256-R0&#43;bDggCHGUZz/TkbfFMzxSChbLToj1jIdbhDyXCkfs=" crossorigin="anonymous"></script>
+</body>
+</html>

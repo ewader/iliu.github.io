@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>操作系统 on 老刘博客</title>
     <link>https://iliu.org/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</link>
     <description>Recent content in 操作系统 on 老刘博客</description>
-    <image>
-      <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
-    </image>
-    <generator>Hugo -- 0.155.2</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 29 Aug 2024 07:56:45 +0800</lastBuildDate>
     <atom:link href="https://iliu.org/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/index.xml" rel="self" type="application/rss+xml" />
@@ -18,63 +13,7 @@
       <link>https://iliu.org/posts/solution-to-the-blank-screen-windows-11s-security-center/</link>
       <pubDate>Thu, 29 Aug 2024 07:56:45 +0800</pubDate>
       <guid>https://iliu.org/posts/solution-to-the-blank-screen-windows-11s-security-center/</guid>
-      <description>&lt;p&gt;老刘在前面一篇文章中说，某年某月的某一天，老刘重置了电脑，不但丢失了存在本地的博客数据，而且发现安全中心打开是一个空白的窗口。老刘使用了重启大法的手段，但是发现并没有什么卵用。文心一言里给出了很多的建议，满满的一大页，照着做了下，问题还是没有解决。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>老刘在前面一篇文章中说，某年某月的某一天，老刘重置了电脑，不但丢失了存在本地的博客数据，而且发现安全中心打开是一个空白的窗口。老刘使用了重启大法的手段，但是发现并没有什么卵用。文心一言里给出了很多的建议，满满的一大页，照着做了下，问题还是没有解决。</p>
-<p>不得以，老刘还是去搜索引擎上找方法吧，有一些方法大同小异，只到看到了一篇文章，说把一段代码保存成reg的格式，双击导入注册表即可。老刘试用了一下，完美解决了问题。</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">Windows Registry Editor Version 5.00
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">　　［HKEY_LOCAL_MACHINE<span class="se">\S</span>OFTWARE<span class="se">\P</span>olicies<span class="se">\M</span>icrosoft<span class="se">\W</span>indows Defender］
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">　　“DisableAntiSpyware”<span class="o">=</span>dword:00000000
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">　　［HKEY_LOCAL_MACHINE<span class="se">\S</span>OFTWARE<span class="se">\P</span>olicies<span class="se">\M</span>icrosoft<span class="se">\W</span>indows Defender<span class="se">\R</span>eal-Time Protection］
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">　　“DisableBehaviorMonitoring”<span class="o">=</span>dword:00000000
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">　　“DisableIOAVProtection”<span class="o">=</span>dword:00000000
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">　　“DisableOnAccessProtection”<span class="o">=</span>dword:00000000
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">　　“DisableRealtimeMonitoring”<span class="o">=</span>dword:00000000
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">　　［HKEY_LOCAL_MACHINE<span class="se">\S</span>YSTEM<span class="se">\C</span>urrentControlSet<span class="se">\S</span>ervices<span class="se">\S</span>ecurityHealthService］
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">　　“Start”<span class="o">=</span>dword:00000002
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h2 id="使用方法">使用方法</h2>
-<ul>
-<li>桌面新建一个文本文件，把上述代码拷贝进去。然后另存为，类型选择所有文件，名称设置为aaa.reg。</li>
-<li>双击aaa.reg文件，导入注册表即可</li>
-</ul>
-<h2 id="这是一个bug">这是一个bug</h2>
-<p>老刘有一次重置电脑，发现这个方法不能用了，其实这个Windows11的一个bug，不知道为什么一直没有修复，重新安装一下md即可。</p>
-<p>文件老刘放在下面了：
-<a href="https://pan.baidu.com/s/111uBACLN3HExSuUFd3Mzqw?pwd=9a78">点击下载</a></p>
-]]></content:encoded>
+      <description>&lt;p&gt;老刘在前面一篇文章中说，某年某月的某一天，老刘重置了电脑，不但丢失了存在本地的博客数据，而且发现安全中心打开是一个空白的窗口。老刘使用了重启大法的手段，但是发现并没有什么卵用。文心一言里给出了很多的建议，满满的一大页，照着做了下，问题还是没有解决。&lt;/p&gt;&#xA;&lt;p&gt;不得以，老刘还是去搜索引擎上找方法吧，有一些方法大同小异，只到看到了一篇文章，说把一段代码保存成reg的格式，双击导入注册表即可。老刘试用了一下，完美解决了问题。&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Windows Registry Editor Version 5.00&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;　　［HKEY_LOCAL_MACHINE&lt;span style=&#34;color:#ae81ff&#34;&gt;\S&lt;/span&gt;OFTWARE&lt;span style=&#34;color:#ae81ff&#34;&gt;\P&lt;/span&gt;olicies&lt;span style=&#34;color:#ae81ff&#34;&gt;\M&lt;/span&gt;icrosoft&lt;span style=&#34;color:#ae81ff&#34;&gt;\W&lt;/span&gt;indows Defender］&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;　　“DisableAntiSpyware”&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;dword:00000000&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;　　［HKEY_LOCAL_MACHINE&lt;span style=&#34;color:#ae81ff&#34;&gt;\S&lt;/span&gt;OFTWARE&lt;span style=&#34;color:#ae81ff&#34;&gt;\P&lt;/span&gt;olicies&lt;span style=&#34;color:#ae81ff&#34;&gt;\M&lt;/span&gt;icrosoft&lt;span style=&#34;color:#ae81ff&#34;&gt;\W&lt;/span&gt;indows Defender&lt;span style=&#34;color:#ae81ff&#34;&gt;\R&lt;/span&gt;eal-Time Protection］&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;　　“DisableBehaviorMonitoring”&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;dword:00000000&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;　　“DisableIOAVProtection”&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;dword:00000000&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;　　“DisableOnAccessProtection”&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;dword:00000000&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;　　“DisableRealtimeMonitoring”&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;dword:00000000&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;　　［HKEY_LOCAL_MACHINE&lt;span style=&#34;color:#ae81ff&#34;&gt;\S&lt;/span&gt;YSTEM&lt;span style=&#34;color:#ae81ff&#34;&gt;\C&lt;/span&gt;urrentControlSet&lt;span style=&#34;color:#ae81ff&#34;&gt;\S&lt;/span&gt;ervices&lt;span style=&#34;color:#ae81ff&#34;&gt;\S&lt;/span&gt;ecurityHealthService］&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;　　“Start”&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;dword:00000002&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;使用方法&#34;&gt;使用方法&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;桌面新建一个文本文件，把上述代码拷贝进去。然后另存为，类型选择所有文件，名称设置为aaa.reg。&lt;/li&gt;&#xA;&lt;li&gt;双击aaa.reg文件，导入注册表即可&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;这是一个bug&#34;&gt;这是一个bug&lt;/h2&gt;&#xA;&lt;p&gt;老刘有一次重置电脑，发现这个方法不能用了，其实这个Windows11的一个bug，不知道为什么一直没有修复，重新安装一下md即可。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>读书 on 老刘博客</title>
     <link>https://iliu.org/categories/%E8%AF%BB%E4%B9%A6/</link>
     <description>Recent content in 读书 on 老刘博客</description>
-    <image>
-      <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
-    </image>
-    <generator>Hugo -- 0.155.2</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 27 Dec 2021 13:23:01 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/categories/%E8%AF%BB%E4%B9%A6/index.xml" rel="self" type="application/rss+xml" />
@@ -18,735 +13,105 @@
       <link>https://iliu.org/3990.html</link>
       <pubDate>Mon, 27 Dec 2021 13:23:01 +0000</pubDate>
       <guid>https://iliu.org/3990.html</guid>
-      <description>&lt;p&gt;用两天的时间读完了这本书。书是在多看里的找的电子书，刚开始是无聊一看，后来觉得还是蛮有意思的。&lt;/p&gt;
-&lt;p&gt;本书是由中山大学中文系的教授刘烈茂所著，从社会和人生的角度分析里水浒中诸多人物的方方面面。如果你是一个水浒迷，这本书一定要看一看。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>用两天的时间读完了这本书。书是在多看里的找的电子书，刚开始是无聊一看，后来觉得还是蛮有意思的。</p>
-<p>本书是由中山大学中文系的教授刘烈茂所著，从社会和人生的角度分析里水浒中诸多人物的方方面面。如果你是一个水浒迷，这本书一定要看一看。</p>
-<p>老刘看水浒传还是在初中的时候，记得当时是哥哥买回来了一套《古本水浒传》，这套路和市面上流行的书不同的是，后40回没有诏安，没有征辽，没有打方腊，当然英雄们也都还活着。后来高中的时候有大概的看了下后40回。虽然很多情节都是耳熟能详，但是和看三国等一样的是，很多细节的东西都不会详细去看，尤其里面的诗词。看了这本书后，才知道开篇的一首诗里，竟然是把所有水浒好汉的外号都编了进去。</p>
-<p>《林冲容忍的极限》一篇中，刘烈茂从林冲的社会地位和性格入手，一步步揭示林冲是如何被逼上梁山的。</p>
-<p>林冲的社会地位和优厚自足的生活决定他不会轻易走上反抗的道路。他为了保住自己的饭碗和社会地位，在高衙内等人的迫害下选择一再忍让。可人的忍耐是有限度的。高衙内调戏妻子，他忍了；被高俅陷害刺配沧州，他也忍了。他甚至天真地认为只要一纸休书把妻子休了就可彼此相安。可他哪里知道树欲静而风不止，高俅等人不置他于死地不会善罢甘休。于是，迫害一再升级。野猪林阴谋未果，草料场大火紧跟又来。林冲退无可退，忍无可忍。终于在沉默中爆发，杀了陆谦等人，顶着风雪连夜投奔梁山。</p>
-<p>林冲的思想转变，在施耐庵的一步步有意安排下，写得极为自然，合情合理，经得起推敲。透过林冲的故事，我们看到社会现实对于个人命运的影响有多深远。《水浒传》之所以取得成功，其对社会现实的描写具有了一般作品所不具有的深度，也是原因之一。</p>
-<p>另外作者还会从流传出来的其他故事里，比较人物的特点，比如《大宋宣和轶事》。</p>
-<p>在《宋公明不是历史上的宋江》一文中，刘烈茂比较了《水浒传》中的宋江和历史上的宋江，无论是生平事迹、性格特征，还是精神风貌，两都都有极大的不同。</p>
-<p>历史人物宋江根本没有上过梁山，更不用说建立起义根据地了；领导起义倒是确有其事，活动地域也相当广泛；宋江也没有征过方腊、田虎、王庆等人，更无征辽事迹；其行动表面与小说中的不同；结局众说不一。</p>
-<p>这位教授还写过关于聊斋的一些研究，翻了一下，感觉写的也是不错的。已经列入老刘看的书单了</p>
-]]></content:encoded>
+      <description>&lt;p&gt;用两天的时间读完了这本书。书是在多看里的找的电子书，刚开始是无聊一看，后来觉得还是蛮有意思的。&lt;/p&gt;&#xA;&lt;p&gt;本书是由中山大学中文系的教授刘烈茂所著，从社会和人生的角度分析里水浒中诸多人物的方方面面。如果你是一个水浒迷，这本书一定要看一看。&lt;/p&gt;&#xA;&lt;p&gt;老刘看水浒传还是在初中的时候，记得当时是哥哥买回来了一套《古本水浒传》，这套路和市面上流行的书不同的是，后40回没有诏安，没有征辽，没有打方腊，当然英雄们也都还活着。后来高中的时候有大概的看了下后40回。虽然很多情节都是耳熟能详，但是和看三国等一样的是，很多细节的东西都不会详细去看，尤其里面的诗词。看了这本书后，才知道开篇的一首诗里，竟然是把所有水浒好汉的外号都编了进去。&lt;/p&gt;&#xA;&lt;p&gt;《林冲容忍的极限》一篇中，刘烈茂从林冲的社会地位和性格入手，一步步揭示林冲是如何被逼上梁山的。&lt;/p&gt;&#xA;&lt;p&gt;林冲的社会地位和优厚自足的生活决定他不会轻易走上反抗的道路。他为了保住自己的饭碗和社会地位，在高衙内等人的迫害下选择一再忍让。可人的忍耐是有限度的。高衙内调戏妻子，他忍了；被高俅陷害刺配沧州，他也忍了。他甚至天真地认为只要一纸休书把妻子休了就可彼此相安。可他哪里知道树欲静而风不止，高俅等人不置他于死地不会善罢甘休。于是，迫害一再升级。野猪林阴谋未果，草料场大火紧跟又来。林冲退无可退，忍无可忍。终于在沉默中爆发，杀了陆谦等人，顶着风雪连夜投奔梁山。&lt;/p&gt;&#xA;&lt;p&gt;林冲的思想转变，在施耐庵的一步步有意安排下，写得极为自然，合情合理，经得起推敲。透过林冲的故事，我们看到社会现实对于个人命运的影响有多深远。《水浒传》之所以取得成功，其对社会现实的描写具有了一般作品所不具有的深度，也是原因之一。&lt;/p&gt;&#xA;&lt;p&gt;另外作者还会从流传出来的其他故事里，比较人物的特点，比如《大宋宣和轶事》。&lt;/p&gt;&#xA;&lt;p&gt;在《宋公明不是历史上的宋江》一文中，刘烈茂比较了《水浒传》中的宋江和历史上的宋江，无论是生平事迹、性格特征，还是精神风貌，两都都有极大的不同。&lt;/p&gt;&#xA;&lt;p&gt;历史人物宋江根本没有上过梁山，更不用说建立起义根据地了；领导起义倒是确有其事，活动地域也相当广泛；宋江也没有征过方腊、田虎、王庆等人，更无征辽事迹；其行动表面与小说中的不同；结局众说不一。&lt;/p&gt;&#xA;&lt;p&gt;这位教授还写过关于聊斋的一些研究，翻了一下，感觉写的也是不错的。已经列入老刘看的书单了&lt;/p&gt;</description>
     </item>
     <item>
       <title>推荐一本渤海小吏的书——《楚汉双雄》</title>
       <link>https://iliu.org/3892.html</link>
       <pubDate>Sat, 11 Sep 2021 02:38:35 +0000</pubDate>
       <guid>https://iliu.org/3892.html</guid>
-      <description>&lt;p&gt;好久没有正经的推过书了，是因为这段时间一是读书确实很少，另一个方面是一直在看《黄帝内经写什么》这套书。只是这套书真的是有点长了，直到现在也没有完全读完。&lt;br&gt;
-昨晚上在和女儿的睡前互动中，女儿还是要求完飞花令，但是一时也找不到飞什么字，再加上她下午刚去打了第二针的疫苗，这次有点反应了，胳膊比较疼。人也有点没精神。所以，我给女儿说，要不给你读一段书吧。&lt;br&gt;
-于是翻kindle，找到了一本《楚汉双雄（中国古代史上桥段频出的8年….)》的这本书，书是@&lt;a href=&#34;https://www.huhexian.com&#34;&gt;胡和先&lt;/a&gt;同学前几天再群里发的可以免费购买的书里搞的，之前本着不弄白不弄的原则。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>好久没有正经的推过书了，是因为这段时间一是读书确实很少，另一个方面是一直在看《黄帝内经写什么》这套书。只是这套书真的是有点长了，直到现在也没有完全读完。<br>
-昨晚上在和女儿的睡前互动中，女儿还是要求完飞花令，但是一时也找不到飞什么字，再加上她下午刚去打了第二针的疫苗，这次有点反应了，胳膊比较疼。人也有点没精神。所以，我给女儿说，要不给你读一段书吧。<br>
-于是翻kindle，找到了一本《楚汉双雄（中国古代史上桥段频出的8年….)》的这本书，书是@<a href="https://www.huhexian.com">胡和先</a>同学前几天再群里发的可以免费购买的书里搞的，之前本着不弄白不弄的原则。</p>
-<blockquote>
-<p>灭六国后，嬴政面临着怎样的千古难题？</p>
-<p>旧制度为什么无法搞定新的欲望问题？</p>
-<p>鸿门宴上项羽为什么没杀刘邦？</p>
-<p>刘邦军事崛起的真正秘密是什么？</p>
-<p>为什么千百年来只有韩信的“背水一战”成功了？</p>
-</blockquote>
-<p>说实话，选这本书就冲着桥段去的。不过，给女儿读过第一章之后，觉得这本书还是不错的，是一本值得去读一读的书。尽管我还没有看完，老刘还是本着独乐乐不如众乐乐的原则，把它推荐的朋友们。</p>
-<img loading="lazy" decoding="async" class="alignnone size-full wp-image-3893" src="https://tunan.org/wp-content/uploads/2021/09/s33771321.jpg" alt="" width="800" height="800" srcset="https://tunan.org/wp-content/uploads/2021/09/s33771321.jpg 800w, https://tunan.org/wp-content/uploads/2021/09/s33771321-768x768.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" /> 
-<p>秦为什么会崩这个章节里，作者提到一个问题：</p>
-<h2 id="为什么只有在中国大陆能形成大一统的局面">为什么只有在中国大陆能形成大一统的局面？</h2>
-<p>坦率的说，这个问题老刘还真没有思考过，作者说，可能有人说了，我们国家，东边是大海，南边是大海和原始森林，西边是崇山峻岭，北边也是一个不毛之地，所以我们只能窝里折腾，折腾来折腾去，就统一了。但作者反驳说，那欧洲大陆，比我们这还平坦，希特勒的坦克大炮都像在自家院子开一样，按照这个说法，欧洲大陆更应该同意，但是却形成了一村一国的现状。显然，并不是窝里折腾就能折腾统一的。</p>
-<p>所以，作者认为是秦始皇给后人打下了良好的基础。比如，郡县制，比如车同轨，比如统一文字，统一度量衡等等这些措施的实施。每一个原因，作者都深入浅出的分析，一点也没有传统历史书的那么枯燥，老刘认为，这本书是一本科普楚汉那个年代历史的科普书，但又能给人带来一些思考。</p>
-<p>作者是天津的一名公务员，和当年明月一样，看来，公务员都有一本写历史科普的灵魂啊，?</p>
-]]></content:encoded>
+      <description>&lt;p&gt;好久没有正经的推过书了，是因为这段时间一是读书确实很少，另一个方面是一直在看《黄帝内经写什么》这套书。只是这套书真的是有点长了，直到现在也没有完全读完。&lt;br&gt;&#xA;昨晚上在和女儿的睡前互动中，女儿还是要求完飞花令，但是一时也找不到飞什么字，再加上她下午刚去打了第二针的疫苗，这次有点反应了，胳膊比较疼。人也有点没精神。所以，我给女儿说，要不给你读一段书吧。&lt;br&gt;&#xA;于是翻kindle，找到了一本《楚汉双雄（中国古代史上桥段频出的8年….)》的这本书，书是@&lt;a href=&#34;https://www.huhexian.com&#34;&gt;胡和先&lt;/a&gt;同学前几天再群里发的可以免费购买的书里搞的，之前本着不弄白不弄的原则。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;灭六国后，嬴政面临着怎样的千古难题？&lt;/p&gt;&#xA;&lt;p&gt;旧制度为什么无法搞定新的欲望问题？&lt;/p&gt;&#xA;&lt;p&gt;鸿门宴上项羽为什么没杀刘邦？&lt;/p&gt;&#xA;&lt;p&gt;刘邦军事崛起的真正秘密是什么？&lt;/p&gt;&#xA;&lt;p&gt;为什么千百年来只有韩信的“背水一战”成功了？&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;说实话，选这本书就冲着桥段去的。不过，给女儿读过第一章之后，觉得这本书还是不错的，是一本值得去读一读的书。尽管我还没有看完，老刘还是本着独乐乐不如众乐乐的原则，把它推荐的朋友们。&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;秦为什么会崩这个章节里，作者提到一个问题：&lt;/p&gt;&#xA;&lt;h2 id=&#34;为什么只有在中国大陆能形成大一统的局面&#34;&gt;为什么只有在中国大陆能形成大一统的局面？&lt;/h2&gt;&#xA;&lt;p&gt;坦率的说，这个问题老刘还真没有思考过，作者说，可能有人说了，我们国家，东边是大海，南边是大海和原始森林，西边是崇山峻岭，北边也是一个不毛之地，所以我们只能窝里折腾，折腾来折腾去，就统一了。但作者反驳说，那欧洲大陆，比我们这还平坦，希特勒的坦克大炮都像在自家院子开一样，按照这个说法，欧洲大陆更应该同意，但是却形成了一村一国的现状。显然，并不是窝里折腾就能折腾统一的。&lt;/p&gt;&#xA;&lt;p&gt;所以，作者认为是秦始皇给后人打下了良好的基础。比如，郡县制，比如车同轨，比如统一文字，统一度量衡等等这些措施的实施。每一个原因，作者都深入浅出的分析，一点也没有传统历史书的那么枯燥，老刘认为，这本书是一本科普楚汉那个年代历史的科普书，但又能给人带来一些思考。&lt;/p&gt;&#xA;&lt;p&gt;作者是天津的一名公务员，和当年明月一样，看来，公务员都有一本写历史科普的灵魂啊，?&lt;/p&gt;</description>
     </item>
     <item>
       <title>小米多看电纸书（mireader）简单开箱</title>
       <link>https://iliu.org/3639.html</link>
       <pubDate>Tue, 02 Feb 2021 02:19:41 +0000</pubDate>
       <guid>https://iliu.org/3639.html</guid>
-      <description>&lt;p&gt;记得2018年底的时候，镜片厂商送了一台kindle paperwhite 4。从此以后，读的书确实比以前多一些。最近一段时间以来，女儿对kindle起了浓厚的兴趣，以前她只喜欢看纸质的，现在她说，这里面的书更多，也更方便一些。于是，我的kindle经常跑到了女儿的床头。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>记得2018年底的时候，镜片厂商送了一台kindle paperwhite 4。从此以后，读的书确实比以前多一些。最近一段时间以来，女儿对kindle起了浓厚的兴趣，以前她只喜欢看纸质的，现在她说，这里面的书更多，也更方便一些。于是，我的kindle经常跑到了女儿的床头。</p>
-<p>所以，就有了再入手一台电纸书的想法。网上搜了一下，发现小米电纸书是一款挺合适的产品。首先来说，价格不贵，京东的价格是599，有几家在做活动579，但是要运费，这样下来也就和自营店差不多了。第二，配置还行，1G的内存，24颗阅读灯，16g的存储空间，屏幕的分辨率是212。这个配置相比较我的kindle来说，除了屏幕的分辨率以外，其他都完胜了。当然，电纸书吗，最重要的是书库，多看的书库网络小说比较多。让我比较满意的是有青少年模式，打开后就屏蔽了这些东西。于是入手之。</p>
-<p>前天下午下单，昨天早上一看，我去，秒杀价569。毫不犹疑，退款，新买！由于是郑州发货，当天也就到了，幸亏多看一眼，省了30块大洋啊。</p>
-<p>到手的第一感觉，真的很简洁啊，一个小盒子，里面除了电纸书本身，就一根数据线。<figure class="wp-block-gallery columns-2 is-cropped wp-block-gallery-5 is-layout-flex wp-block-gallery-is-layout-flex"></p>
-<ul class="blocks-gallery-grid">
-  <li class="blocks-gallery-item">
-    <figure><a href="https://tunan.org/wp-content/uploads/2021/02/bc2d75b8ec32f49.jpg"><img loading="lazy" decoding="async" width="763" height="1024" src="https://tunan.org/wp-content/uploads/2021/02/bc2d75b8ec32f49-763x1024.jpg" alt="" data-id="3640" data-full-url="https://tunan.org/wp-content/uploads/2021/02/bc2d75b8ec32f49.jpg" data-link="https://tunan.org/?attachment_id=3640" class="wp-image-3640" srcset="https://tunan.org/wp-content/uploads/2021/02/bc2d75b8ec32f49-763x1024.jpg 763w, https://tunan.org/wp-content/uploads/2021/02/bc2d75b8ec32f49-223x300.jpg 223w, https://tunan.org/wp-content/uploads/2021/02/bc2d75b8ec32f49-768x1031.jpg 768w, https://tunan.org/wp-content/uploads/2021/02/bc2d75b8ec32f49.jpg 800w" sizes="(max-width: 763px) 100vw, 763px" /></a></figure>
-  </li>
-  <li class="blocks-gallery-item">
-    <figure><a href="https://tunan.org/wp-content/uploads/2021/02/a5c1e281f0e3e74.jpg"><img loading="lazy" decoding="async" width="798" height="1024" src="https://tunan.org/wp-content/uploads/2021/02/a5c1e281f0e3e74-798x1024.jpg" alt="" data-id="3641" data-full-url="https://tunan.org/wp-content/uploads/2021/02/a5c1e281f0e3e74.jpg" data-link="https://tunan.org/?attachment_id=3641" class="wp-image-3641" srcset="https://tunan.org/wp-content/uploads/2021/02/a5c1e281f0e3e74-798x1024.jpg 798w, https://tunan.org/wp-content/uploads/2021/02/a5c1e281f0e3e74-234x300.jpg 234w, https://tunan.org/wp-content/uploads/2021/02/a5c1e281f0e3e74-768x985.jpg 768w, https://tunan.org/wp-content/uploads/2021/02/a5c1e281f0e3e74.jpg 800w" sizes="(max-width: 798px) 100vw, 798px" /></a></figure>
-  </li>
-</ul><figcaption class="blocks-gallery-caption">左边是盒子没有打开，右边是开盖之后。</figcaption></figure> 
-<p>小米多看电纸书的背面及周边是黑色的，但是正面是浅色的，和书的颜色有点类似，和kindle4相比，小米的显示屏是凹进去的，而kindle是纯平的。<figure class="wp-block-image size-large"></p>
-<p><a href="https://tunan.org/wp-content/uploads/2021/02/84d7a60d26af85b.jpg"><img loading="lazy" decoding="async" width="800" height="486" src="https://tunan.org/wp-content/uploads/2021/02/84d7a60d26af85b.jpg" alt="" class="wp-image-3642" srcset="https://tunan.org/wp-content/uploads/2021/02/84d7a60d26af85b.jpg 800w, https://tunan.org/wp-content/uploads/2021/02/84d7a60d26af85b-300x182.jpg 300w, https://tunan.org/wp-content/uploads/2021/02/84d7a60d26af85b-768x467.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" /></a><figcaption>一根数据线，好在是TPYE-C接口的</figcaption></figure></p>
-<p>小米多看电纸书的数据线，TPYE-C接口的。相比其他充电更方便一些。<figure class="wp-block-image size-large"></p>
-<p><a href="https://tunan.org/wp-content/uploads/2021/02/21cb37c3ff549c4.jpg"><img loading="lazy" decoding="async" width="800" height="563" src="https://tunan.org/wp-content/uploads/2021/02/21cb37c3ff549c4.jpg" alt="" class="wp-image-3643" srcset="https://tunan.org/wp-content/uploads/2021/02/21cb37c3ff549c4.jpg 800w, https://tunan.org/wp-content/uploads/2021/02/21cb37c3ff549c4-300x211.jpg 300w, https://tunan.org/wp-content/uploads/2021/02/21cb37c3ff549c4-768x540.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" /></a><figcaption>屏幕对比</figcaption></figure></p>
-<p>照片上感觉相差不大，但是实际使用下来，小米稍微有一点点的颗粒感。感觉没有kindle那么细腻，可能就是因为分辨率的不同吧。</p>
-<p>总体来说，小米多看电纸书价格便宜，配置较高，有青少年模式，挺适合给孩子使用的。</p>
-]]></content:encoded>
+      <description>&lt;p&gt;记得2018年底的时候，镜片厂商送了一台kindle paperwhite 4。从此以后，读的书确实比以前多一些。最近一段时间以来，女儿对kindle起了浓厚的兴趣，以前她只喜欢看纸质的，现在她说，这里面的书更多，也更方便一些。于是，我的kindle经常跑到了女儿的床头。&lt;/p&gt;&#xA;&lt;p&gt;所以，就有了再入手一台电纸书的想法。网上搜了一下，发现小米电纸书是一款挺合适的产品。首先来说，价格不贵，京东的价格是599，有几家在做活动579，但是要运费，这样下来也就和自营店差不多了。第二，配置还行，1G的内存，24颗阅读灯，16g的存储空间，屏幕的分辨率是212。这个配置相比较我的kindle来说，除了屏幕的分辨率以外，其他都完胜了。当然，电纸书吗，最重要的是书库，多看的书库网络小说比较多。让我比较满意的是有青少年模式，打开后就屏蔽了这些东西。于是入手之。&lt;/p&gt;&#xA;&lt;p&gt;前天下午下单，昨天早上一看，我去，秒杀价569。毫不犹疑，退款，新买！由于是郑州发货，当天也就到了，幸亏多看一眼，省了30块大洋啊。&lt;/p&gt;&#xA;&lt;p&gt;到手的第一感觉，真的很简洁啊，一个小盒子，里面除了电纸书本身，就一根数据线。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;小米多看电纸书的背面及周边是黑色的，但是正面是浅色的，和书的颜色有点类似，和kindle4相比，小米的显示屏是凹进去的，而kindle是纯平的。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>《小狗钱钱》</title>
       <link>https://iliu.org/3378.html</link>
       <pubDate>Tue, 03 Nov 2020 03:28:10 +0000</pubDate>
       <guid>https://iliu.org/3378.html</guid>
-      <description>&lt;p&gt;女儿大了后，有一个习惯一直没有丢掉，就是必须要晚上给她讲故事。都11岁了，还让她老父亲给她讲睡前故事！！我也知道，这是丫头在找找儿时的幸福时光。于是，我就给她读一些乱七八糟的书，什么《山海经》，什么《史记》，前一段把kindle里的半小时漫话系列给她读的差不多了，有时候听着听着人家还都睡着了。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>女儿大了后，有一个习惯一直没有丢掉，就是必须要晚上给她讲故事。都11岁了，还让她老父亲给她讲睡前故事！！我也知道，这是丫头在找找儿时的幸福时光。于是，我就给她读一些乱七八糟的书，什么《山海经》，什么《史记》，前一段把kindle里的半小时漫话系列给她读的差不多了，有时候听着听着人家还都睡着了。</p>
-<p><a href="https://tunan.org/wp-content/uploads/2020/11/ae8257d2b7281f4.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3379" src="https://tunan.org/wp-content/uploads/2020/11/ae8257d2b7281f4.jpg" alt="" width="400" height="592" srcset="https://tunan.org/wp-content/uploads/2020/11/ae8257d2b7281f4.jpg 400w, https://tunan.org/wp-content/uploads/2020/11/ae8257d2b7281f4-203x300.jpg 203w" sizes="(max-width: 400px) 100vw, 400px" /></a></p>
-<p>昨天在Kindle里找到一本叫做《小狗钱钱》的书，<span class="pl">作者:</span>  [德] 博多·舍费尔。讲的是一个 12 岁的德国小姑娘吉娅在自己的小狗—钱钱的帮助下，学会如何赚钱和理财，并帮助家庭摆脱财务危机的童话故事。虽然是童话，但是也有不少的理财知识在里面，钱钱介绍的一些理念，其实是非常基本的。而和其他的介绍理财方面的书籍相比，采用童话故事的方式，让人更能有代入感。</p>
-<p><a href="https://tunan.org/wp-content/uploads/2020/11/7b300986fe9f449.jpg"><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-3380" src="https://tunan.org/wp-content/uploads/2020/11/7b300986fe9f449-781x1024.jpg" alt="" width="781" height="1024" srcset="https://tunan.org/wp-content/uploads/2020/11/7b300986fe9f449-781x1024.jpg 781w, https://tunan.org/wp-content/uploads/2020/11/7b300986fe9f449-229x300.jpg 229w, https://tunan.org/wp-content/uploads/2020/11/7b300986fe9f449-768x1007.jpg 768w, https://tunan.org/wp-content/uploads/2020/11/7b300986fe9f449-1171x1536.jpg 1171w, https://tunan.org/wp-content/uploads/2020/11/7b300986fe9f449-1561x2048.jpg 1561w, https://tunan.org/wp-content/uploads/2020/11/7b300986fe9f449.jpg 1767w" sizes="(max-width: 781px) 100vw, 781px" /></a></p>
-<p>之所以老刘觉得应该给孩子读读这本书，是因为我发现现在的孩子对钱是没有什么概念的。对她来说，喜欢一件东西找爸妈买就是了，而不去考虑这件东西是不是我真的需要的，所以，这些年来，给她买回来了一堆的垃圾。包括布娃娃，什么塑料玩具，买回来玩上一次，显示束之高阁，然后放那里都占地方，最后沦为垃圾了。所以，我觉得，让她启蒙一下理财的概念也是不错的一件事情。</p>
-]]></content:encoded>
+      <description>&lt;p&gt;女儿大了后，有一个习惯一直没有丢掉，就是必须要晚上给她讲故事。都11岁了，还让她老父亲给她讲睡前故事！！我也知道，这是丫头在找找儿时的幸福时光。于是，我就给她读一些乱七八糟的书，什么《山海经》，什么《史记》，前一段把kindle里的半小时漫话系列给她读的差不多了，有时候听着听着人家还都睡着了。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/11/ae8257d2b7281f4.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;昨天在Kindle里找到一本叫做《小狗钱钱》的书，&lt;!-- raw HTML omitted --&gt;作者:&lt;!-- raw HTML omitted --&gt;  [德] 博多·舍费尔。讲的是一个 12 岁的德国小姑娘吉娅在自己的小狗—钱钱的帮助下，学会如何赚钱和理财，并帮助家庭摆脱财务危机的童话故事。虽然是童话，但是也有不少的理财知识在里面，钱钱介绍的一些理念，其实是非常基本的。而和其他的介绍理财方面的书籍相比，采用童话故事的方式，让人更能有代入感。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/11/7b300986fe9f449.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kindle软件重大更新，这个玩法你一定要知道！</title>
       <link>https://iliu.org/3235.html</link>
       <pubDate>Tue, 25 Aug 2020 09:18:32 +0000</pubDate>
       <guid>https://iliu.org/3235.html</guid>
-      <description>&lt;p&gt;今天拿出来我的kindle，发现有系统更新的提示，对于我这种追求最新的人来说，更新那是必须的，那么本次更新后，系统会多了那些功能呢？&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;最新的软件版本是什么？&lt;/strong&gt;&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>今天拿出来我的kindle，发现有系统更新的提示，对于我这种追求最新的人来说，更新那是必须的，那么本次更新后，系统会多了那些功能呢？</p>
-<p><strong>最新的软件版本是什么？</strong></p>
-<p>目前Kindle最新的软件版本是<strong>5.13.1</strong></p>
-<p>该版本适用的阅读器型号为：<section data-role="list"> <section data-role="list"></p>
-<ul class="list-paddingleft-2">
-  <li>
-    Kindle Oasis （第10代），即 KO3
-  </li>
-  <li>
-    Kindle Oasis （第9代）， 即KO2
-  </li>
-  <li>
-    Kindle Oasis （第8代），即 KO1
-  </li>
-  <li>
-    Kindle Voyage
-  </li>
-  <li>
-    Kindle 青春版（658元 入门款）
-  </li>
-  <li>
-    Kindle (558元 入门款)
-  </li>
-  <li>
-    Kindle Paperwhite（第10代），即KPW4
-  </li>
-</ul>
-<p><strong>如何查看Kindle软件更新情况？</strong></p>
-<p>打开你的Kindle，点击右上角【设置】&raquo;点击【设备选项】&raquo;【设备信息】，就可以查看你的Kindle的固件版本，以及最近更新的介绍。</p>
-<p><a href="https://tunan.org/wp-content/uploads/2020/08/e04cfab0380752f.jpg"><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-3236" src="https://tunan.org/wp-content/uploads/2020/08/e04cfab0380752f-1024x830.jpg" alt="" width="1024" height="830" srcset="https://tunan.org/wp-content/uploads/2020/08/e04cfab0380752f-1024x830.jpg 1024w, https://tunan.org/wp-content/uploads/2020/08/e04cfab0380752f-300x243.jpg 300w, https://tunan.org/wp-content/uploads/2020/08/e04cfab0380752f-768x622.jpg 768w, https://tunan.org/wp-content/uploads/2020/08/e04cfab0380752f.jpg 1080w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
-<p><strong>软件升级后，有哪些功能更新？</strong><section> <section> <section data-brushtype="text"></p>
-<p>** 搜****索<br>
-** </p> </section> </section> </section></p>
-<p>更新了搜索体验，能让你更轻松浏览搜索结果，同时不会丢失正在阅读的页面。</p>
-<p>在读一本书的时候，可以在上方【搜索】栏输入你想查找的词语，点击搜索就可以查看这词在书中什么位置出现过，有什么内容。</p>
-<p><a href="https://tunan.org/wp-content/uploads/2020/08/801f1503e6811ba.png"><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-3237" src="https://tunan.org/wp-content/uploads/2020/08/801f1503e6811ba-771x1024.png" alt="" width="771" height="1024" srcset="https://tunan.org/wp-content/uploads/2020/08/801f1503e6811ba-771x1024.png 771w, https://tunan.org/wp-content/uploads/2020/08/801f1503e6811ba-226x300.png 226w, https://tunan.org/wp-content/uploads/2020/08/801f1503e6811ba-768x1020.png 768w, https://tunan.org/wp-content/uploads/2020/08/801f1503e6811ba.png 1080w" sizes="(max-width: 771px) 100vw, 771px" /></a><section> <section> <section data-brushtype="text"></p>
-<p>** 快速翻书导航<br>
-** </p> </section> </section> </section></p>
-<p>Kindle更新了翻书的体验，进度条上会用圆点显示最近阅读的页面，包括最近在其他设备上阅读的页面。</p>
-<p><a href="https://tunan.org/wp-content/uploads/2020/08/08d269fe607fd1e.png"><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-3238" src="https://tunan.org/wp-content/uploads/2020/08/08d269fe607fd1e-771x1024.png" alt="" width="771" height="1024" srcset="https://tunan.org/wp-content/uploads/2020/08/08d269fe607fd1e-771x1024.png 771w, https://tunan.org/wp-content/uploads/2020/08/08d269fe607fd1e-226x300.png 226w, https://tunan.org/wp-content/uploads/2020/08/08d269fe607fd1e-768x1020.png 768w, https://tunan.org/wp-content/uploads/2020/08/08d269fe607fd1e.png 1080w" sizes="(max-width: 771px) 100vw, 771px" /></a></p>
-<p><strong>快速翻书</strong>可以帮助你快速捕捉到一本书的中心思想，找到数字、名称和图表。你将加快识别段落中关键句子的速度，熟练的小伙伴可以在几秒钟内浏览并理解一整页内容。<section> <section> <section data-brushtype="text"></p>
-<p>** 夜间模式<br>
-** </p> </section> </section> </section></p>
-<p>进入【设置】-【辅助功能】中开启关闭【黑白调换】。让你在黑暗中能舒适阅读~<section> <section> <section data-brushtype="text"></p>
-<p>**  功能设置位置更新<br>
-** </p> </section> </section> </section></p>
-<p>你应该也已经注意到有些功能设置的位置有所变化，比如热门标注、生词提示、生字注音。这些功能现在都可以在读电子书的页面里，与字体、页边距等一起设置了。<section data-role="list"> <section data-role="list"> <section data-tools="135编辑器" data-id="93009"> <section> <section data-brushtype="text"></p>
-<p>** Kindle朗读<br>
-** </p> </section> </section> </section></p>
-<p>*该功能目前仅适用于Kindle Oasis3, Kindle Paperwhite 4, 和Kindle青春版。</section> </section></p>
-<p><strong>Kindle可以听书了！</strong></p>
-<p>现在可以通过连接蓝牙耳机或音箱，收听Kindle电子书（注意是从z.cn 购买的中国出版社出版的简体中文电子书）。</p>
-<p>对于老刘来说，最喜欢的功能是前两个，以前总觉得kindle的搜索功能太弱了，这次更新后，貌似体验不错！</section> </section></p>
-]]></content:encoded>
+      <description>&lt;p&gt;今天拿出来我的kindle，发现有系统更新的提示，对于我这种追求最新的人来说，更新那是必须的，那么本次更新后，系统会多了那些功能呢？&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;最新的软件版本是什么？&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;目前Kindle最新的软件版本是&lt;strong&gt;5.13.1&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;该版本适用的阅读器型号为：&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;&lt;strong&gt;如何查看Kindle软件更新情况？&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;打开你的Kindle，点击右上角【设置】&amp;raquo;点击【设备选项】&amp;raquo;【设备信息】，就可以查看你的Kindle的固件版本，以及最近更新的介绍。&lt;/p&gt;</description>
     </item>
     <item>
       <title>好书/显微镜下的大明</title>
       <link>https://iliu.org/2970.html</link>
       <pubDate>Thu, 02 Jan 2020 07:35:03 +0000</pubDate>
       <guid>https://iliu.org/2970.html</guid>
-      <description>&lt;p&gt;第一次听说这本书记得是姜老师的回复，说有一本叫《显微镜下的大明》这本书不错。刚好，看完了上一本书，就把这本书找来看。&lt;/p&gt;
-&lt;p&gt;虽然同是讲历史的说，但是这本书和别的历史书不同的在于，它没有写朝堂，没有写历史的上的那些大事。它只写了几个发生在民间的故事，譬如，小吏如何通过手段把本来由六个县负担的税赋让一个县承担，而事情被捅出来之后，竟然每人去翻案，最终闹大了反而把为其他五县请命的人给抓了。一座寺院加一个孤坟是如何发生战争的，大明黄册的作用以及黄册如何一步一步的沦为鸡肋的，底层人员又如何通过黄册来欺上瞒下的等等。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>第一次听说这本书记得是姜老师的回复，说有一本叫《显微镜下的大明》这本书不错。刚好，看完了上一本书，就把这本书找来看。</p>
-<p>虽然同是讲历史的说，但是这本书和别的历史书不同的在于，它没有写朝堂，没有写历史的上的那些大事。它只写了几个发生在民间的故事，譬如，小吏如何通过手段把本来由六个县负担的税赋让一个县承担，而事情被捅出来之后，竟然每人去翻案，最终闹大了反而把为其他五县请命的人给抓了。一座寺院加一个孤坟是如何发生战争的，大明黄册的作用以及黄册如何一步一步的沦为鸡肋的，底层人员又如何通过黄册来欺上瞒下的等等。</p>
-<p><a href="https://tunan.org/wp-content/uploads/2020/01/cadd91f3ed7c77a.jpeg"><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-2971" src="https://tunan.org/wp-content/uploads/2020/01/cadd91f3ed7c77a-720x1024.jpeg" alt="" width="720" height="1024" srcset="https://tunan.org/wp-content/uploads/2020/01/cadd91f3ed7c77a-720x1024.jpeg 720w, https://tunan.org/wp-content/uploads/2020/01/cadd91f3ed7c77a-211x300.jpeg 211w, https://tunan.org/wp-content/uploads/2020/01/cadd91f3ed7c77a-768x1093.jpeg 768w, https://tunan.org/wp-content/uploads/2020/01/cadd91f3ed7c77a.jpeg 1080w" sizes="(max-width: 720px) 100vw, 720px" /></a></p>
-<p><span class="pl">作者</span>: 马伯庸<br>
-<span class="pl">出版社:</span> 湖南文艺出版社<br>
-<span class="pl">出品方:</span> 博集天卷<br>
-<span class="pl">出版年:</span> 2019-1<br>
-<span class="pl">页数:</span> 344<br>
-<span class="pl">定价:</span> 52.00元<br>
-<span class="pl">装帧:</span> 平装<br>
-<span class="pl">丛书:</span> 博集天卷·马伯庸作品<br>
-<span class="pl">ISBN:</span> 9787540488475</p>
-<div class="">
-  <div class="intro">
-    <p>
-      ★ 马伯庸全新历史纪实作品，一本值得收藏的明朝历史书
-    </p>
-<pre><code>&lt;p&gt;
-  ★ 六件罕为人知的明代档案，六个尘封已久的民生往事
-&lt;/p&gt;
-
-&lt;p&gt;
-  ★ 生动的基层治政手册，于细微处读懂真正的古代中国
-&lt;/p&gt;
-
-&lt;p&gt;
-  ★ 这本书娓娓道来，用笔绵密细致。读者读来也可以从一个又一个细节当中，编织起一个复杂的大明帝国。——张宏杰
-&lt;/p&gt;
-
-&lt;p&gt;
-  &amp;#8212;&amp;#8212;&amp;#8212;&amp;#8212;&amp;#8212;&amp;#8212;&amp;#8212;&amp;#8212;&amp;#8212;&amp;#8211; &amp;#8212;&amp;#8212;&amp;#8212;&amp;#8212;&amp;#8212;&amp;#8212;&amp;#8212;&amp;#8212;&amp;#8212;&amp;#8212;&amp;#8212;&amp;#8212;&amp;#8212;&amp;#8212;&amp;#8212;&amp;#8212;&amp;#8212;-
-&lt;/p&gt;
-
-&lt;p&gt;
-  本书讲述的，是六个深藏于故纸堆中的明代基层政治事件。
-&lt;/p&gt;
-
-&lt;p&gt;
-  作者从明代的一系列罕见民间档案文书里，挖掘出这些尘封已久的故事。这些档案是中国历史中绝无仅有的奇迹，它们着眼于平民的政治生活，而且记录极为详尽。在这里，我们能看到朴实的百姓诉求、狡黠的民间智慧、肮脏的胥吏手段、微妙的官场均衡之术，从无数个真实的细节里，展现出一幅极其鲜活的政治生态图景。
-&lt;/p&gt;
-
-&lt;p&gt;
-  这六个事件聚焦于一府一县乃至一村之内，记录的是最底层平民的真实政治生活：当遭遇税收不公时，他们如何愤起抗争；当家族权益受到损害时，他们如何兴起诉讼；当政治利益与商业利益发生矛盾，他们如何与官府周旋博弈；当朝廷要求整顿户籍，他们又是如何从中造假牟利……
-&lt;/p&gt;
-
-&lt;p&gt;
-  《学霸必须死——徽州丝绢案始末》：万历年间，一项不公正的税收政策在徽州府引发了旷日持久的混乱。乱民、县官、州府、户部、首辅、皇帝等诸多利益集团的博弈之局。
-&lt;/p&gt;
-
-&lt;p&gt;
-  《笔与灰的抉择——婺源龙脉保卫战》：婺源县一场持续了六十四年的经济争端，反映了一个县级官员，是如何在重大议题上平衡一县之利害的。
-&lt;/p&gt;
-
-&lt;p&gt;
-  《谁动了我的祖庙——杨干院律政风云》：歙县一桩民间庙产争夺案。诉讼双方在这场绵延八年的官司中各展所长，用尽心思，上演了一场精彩绝伦的嘉靖法律大戏。
-&lt;/p&gt;
-
-&lt;p&gt;
-  《天下透明——大明第一档案库的前世今生》：一个坐落于后湖（玄武湖）中的冷门机构——大明黄册库从建立到衰败的全过程。了解明代的基层统治，是如何一步步垮掉的。
-&lt;/p&gt;
-
-&lt;p&gt;
-  《胥吏的盛宴——彭县小吏舞弊案》：一件小到不能再小的官司，却引来了无数贪婪蚊虫的叮咬。胥吏之恶，被刻画得淋漓尽致。
-&lt;/p&gt;
-
-&lt;p&gt;
-  《正统年间的四条冤魂》：四个无辜的清白老百姓，是如何裹挟入朝廷斗争的。
-&lt;/p&gt;
-
-&lt;p&gt;
-  作者力图以冷静克制的零度叙事，替那些生于尘埃、死于无闻的蝼蚁之辈作传，转述他们湮没于宏大历史中的声音。想要读懂大明，想要读懂中国古代政治，不可只注目于朝堂，亦要听到最底层的呐喊。在一个个普通人的遭遇中，才蕴藏着最真实的规律。
-&lt;/p&gt;
-</code></pre>
-  </div>
-</div>
-]]></content:encoded>
+      <description>&lt;p&gt;第一次听说这本书记得是姜老师的回复，说有一本叫《显微镜下的大明》这本书不错。刚好，看完了上一本书，就把这本书找来看。&lt;/p&gt;&#xA;&lt;p&gt;虽然同是讲历史的说，但是这本书和别的历史书不同的在于，它没有写朝堂，没有写历史的上的那些大事。它只写了几个发生在民间的故事，譬如，小吏如何通过手段把本来由六个县负担的税赋让一个县承担，而事情被捅出来之后，竟然每人去翻案，最终闹大了反而把为其他五县请命的人给抓了。一座寺院加一个孤坟是如何发生战争的，大明黄册的作用以及黄册如何一步一步的沦为鸡肋的，底层人员又如何通过黄册来欺上瞒下的等等。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/01/cadd91f3ed7c77a.jpeg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;作者&lt;!-- raw HTML omitted --&gt;: 马伯庸&lt;br&gt;&#xA;&lt;!-- raw HTML omitted --&gt;出版社:&lt;!-- raw HTML omitted --&gt; 湖南文艺出版社&lt;br&gt;&#xA;&lt;!-- raw HTML omitted --&gt;出品方:&lt;!-- raw HTML omitted --&gt; 博集天卷&lt;br&gt;&#xA;&lt;!-- raw HTML omitted --&gt;出版年:&lt;!-- raw HTML omitted --&gt; 2019-1&lt;br&gt;&#xA;&lt;!-- raw HTML omitted --&gt;页数:&lt;!-- raw HTML omitted --&gt; 344&lt;br&gt;&#xA;&lt;!-- raw HTML omitted --&gt;定价:&lt;!-- raw HTML omitted --&gt; 52.00元&lt;br&gt;&#xA;&lt;!-- raw HTML omitted --&gt;装帧:&lt;!-- raw HTML omitted --&gt; 平装&lt;br&gt;&#xA;&lt;!-- raw HTML omitted --&gt;丛书:&lt;!-- raw HTML omitted --&gt; 博集天卷·马伯庸作品&lt;br&gt;&#xA;&lt;!-- raw HTML omitted --&gt;ISBN:&lt;!-- raw HTML omitted --&gt; 9787540488475&lt;/p&gt;</description>
     </item>
     <item>
       <title>豆瓣2019年度读书榜单逐本下载</title>
       <link>https://iliu.org/2958.html</link>
       <pubDate>Thu, 26 Dec 2019 04:36:36 +0000</pubDate>
       <guid>https://iliu.org/2958.html</guid>
-      <description>&lt;p&gt;岁末年终，【豆瓣2019年度读书榜单】如约而至。&lt;/p&gt;
-&lt;p&gt;今年的年度榜单分为年度高分、最受关注、文学、社科、影视、绘本、再版好书、冷门好书等20个类别，共有177种图书上榜。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>岁末年终，【豆瓣2019年度读书榜单】如约而至。</p>
-<p>今年的年度榜单分为年度高分、最受关注、文学、社科、影视、绘本、再版好书、冷门好书等20个类别，共有177种图书上榜。</p>
-<p>感谢作者和译者，感谢编者和读者。春生夏长，秋收冬藏，现在让我们坐下休息，回味这一年来的收获。</p>
-<p><a href="https://tunan.org/wp-content/uploads/2019/12/6198f949993bf56.jpg"><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-2959" src="https://tunan.org/wp-content/uploads/2019/12/6198f949993bf56-1024x665.jpg" alt="" width="1024" height="665" srcset="https://tunan.org/wp-content/uploads/2019/12/6198f949993bf56-1024x665.jpg 1024w, https://tunan.org/wp-content/uploads/2019/12/6198f949993bf56-300x195.jpg 300w, https://tunan.org/wp-content/uploads/2019/12/6198f949993bf56-768x499.jpg 768w, https://tunan.org/wp-content/uploads/2019/12/6198f949993bf56.jpg 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
-<p>基于2019年你和万千豆瓣用户</p>
-<p>对读书条目的评分、标记和访问数据</p>
-<p>（统计截至2019-12-20）</p>
-<p><strong>2019年度最受关注图书</strong></p>
-<p>1、《82年生的金智英》|作者：[韩]赵南柱</p>
-<p>2、《你当像鸟飞往你的山》|作者：[美]塔拉·韦斯特弗</p>
-<p>3、《书店日记》|作者：[英] 肖恩·白塞尔</p>
-<p>4、《时间的秩序》|作者：[意]卡洛·罗韦利</p>
-<p>5、《OPUS 作品》|作者：[日] 今 敏</p>
-<p>6、《喜鹊谋杀案》|作者：[英] 安东尼·霍洛维茨</p>
-<p>7、《萨拉戈萨手稿》|作者：[波兰] 扬·波托茨基</p>
-<p>8、《鸟瞰古文明》|作者：[法] 让-克劳德·戈尔万</p>
-<p>9、《人生海海》|作者：麦家</p>
-<p>10、《佛兰德镜子》|作者：dome</p>
-<p><strong>2019年度高分图书</strong></p>
-<p>1、《呼吸》|作者：[美] 特德·姜</p>
-<p>2、《建筑师》|作者：[美] 大卫·马祖凯利</p>
-<p>3、《OPUS 作品》|作者：[日] 今 敏</p>
-<p>4、《时间的秩序》|作者：[意]卡洛·罗韦利</p>
-<p>5、《死屋》|作者：[英]丹尼尔·比尔</p>
-<p>6、《你当像鸟飞往你的山》|作者：[美]塔拉·韦斯特弗</p>
-<p>7、《了不起的我》|作者：陈海贤</p>
-<p>8、《克莱因壶》|作者：[日]冈岛二人</p>
-<p>9、《3秒》|作者：[法] 马克-安托万·马修</p>
-<p>10、《有所不为的反叛者》|作者：罗新</p>
-<p><strong>2019年度中国文学（小说类）</strong></p>
-<p>1、《人生海海》|作者：麦家</p>
-<p>2、《王考》|作者：童伟格</p>
-<p>3、《天才基本法》|作者：长洱</p>
-<p>4、《送行》|作者：袁哲生</p>
-<p>5、《撒野 2》|作者：巫哲</p>
-<p>6、《六里庄遗事》|作者：东东枪</p>
-<p>7、《佛兰德镜子》|作者：dome</p>
-<p>8、《度外》|作者：黄国峻</p>
-<p>9、《猎人》|作者：双雪涛</p>
-<p>10、《乌金的牙齿》|作者：万玛才旦</p>
-<p><strong>2019年度中国文学（非小说类）</strong></p>
-<p>1、《四个春天》|作者：陆庆屹</p>
-<p>2、《张岪与木心》|作者：陈丹青</p>
-<p>3、《在别人的句子里》|作者：陈以侃</p>
-<p>4、《赵桥村》|作者：顾湘</p>
-<p>5、《诗人十四个》|作者：黄晓丹</p>
-<p>6、《寂静的孩子》|作者：袁凌</p>
-<p>7、《我与父辈》|作者：阎连科</p>
-<p>8、《有些未来我不想去》|作者：钱佳楠</p>
-<p>9、《谈话录》|作者：王安忆</p>
-<p>10、《拔蒲歌》|作者：沈书枝</p>
-<p><strong>2019年度外国文学（小说类）</strong></p>
-<p>1、《82年生的金智英》|作者：[韩]赵南柱</p>
-<p>2、《你想活出怎样的人生》|作者：[日]吉野源三郎 著</p>
-<p>3、《外面是夏天》|作者：[韩]金爱烂</p>
-<p>4、《渺小一生》|作者：[美] 柳原汉雅</p>
-<p>5、《萨拉戈萨手稿》|作者：[波兰] 扬·波托茨基</p>
-<p>6、《熊镇》|作者：[瑞典] 弗雷德里克·巴克曼</p>
-<p>7、《两全其美》|作者：[美]梅尔·梅洛</p>
-<p>8、《4321》|作者：[美] 保罗·奥斯特</p>
-<p>9、《战时灯火》|作者：[加]迈克尔·翁达杰</p>
-<p>10、《修道院纪事》|作者：[葡]若泽·萨拉马戈</p>
-<p><strong>2019年度外国文学（非小说类）</strong></p>
-<p>1、《波拉尼奥：最后的访谈》|作者：[智]罗贝托·波拉尼奥</p>
-<p>2、《夜的命名术》|作者：[阿根廷]阿莱杭德娜·皮扎尼克</p>
-<p>3、《书店日记》|作者：[英] 肖恩·白塞尔</p>
-<p>4、《想象一朵未来的玫瑰》|作者：[葡]费尔南多·佩索阿</p>
-<p>5、《加西亚·马尔克斯访谈录》|作者：[哥伦比亚]加西亚·马尔克斯</p>
-<p>6、《观看王维的十九种方式》|作者：[美] 艾略特.温伯格</p>
-<p>7、《和博尔赫斯在一起》|作者：[加]阿尔维托·曼古埃尔</p>
-<p>8、《米格尔在智利的地下行动》|作者：[哥伦比亚]加西亚·马尔克斯</p>
-<p>9、《伦敦人》|作者：[加]克莱格·泰勒</p>
-<p>10、《给作家标个价》|作者：[日] 出久根达郎</p>
-<p><strong>2019年度历史·文化</strong></p>
-<p>1、《显微镜下的大明》|作者：马伯庸</p>
-<p>2、《鸟瞰古文明》|作者：[法] 让-克劳德·戈尔万</p>
-<p>3、《汴京之围》|作者：郭建龙</p>
-<p>4、《谜宫·如意琳琅图集》|作者：故宫博物院</p>
-<p>5、《失败者的春秋》|作者：刘勃</p>
-<p>6、《有所不为的反叛者》|作者：罗新</p>
-<p>7、《死屋》|作者：[英]丹尼尔·比尔</p>
-<p>8、《简读中国史》|作者：张宏杰</p>
-<p>9、《棉花帝国》|作者：[美]斯文·贝克特</p>
-<p>10、《日本人为何选择了战争》|作者：[日]加藤阳子</p>
-<p><strong>2019年度社科·纪实</strong></p>
-<p>1、《巨浪下的小学》|作者：[英]理查德·劳埃德·帕里</p>
-<p>2、《了不起的我》|作者：陈海贤</p>
-<p>3、《李银河说爱情》|作者：李银河</p>
-<p>4、《你的孩子不是你的孩子》|作者：吴晓乐</p>
-<p>5、《亲爱的安吉维拉》|作者：[尼日利亚] 奇玛曼达·恩戈兹·阿迪契</p>
-<p>6、《事实》|作者：[瑞典] 汉斯·罗斯林</p>
-<p>7、《午夜北平》|作者：[英]保罗·法兰奇</p>
-<p>8、《人行道王国》|作者：[美]米切尔·邓奈尔、[美]奥维·卡特</p>
-<p>9、《六论自发性》|作者：[美] 詹姆斯·C·斯科特</p>
-<p>10、《色彩的秘密生活》|作者：[英] 卡西亚·圣克莱尔</p>
-<h2 id="下载地址">下载地址：</h2>
-<li data-sourcepos="6:1-7:0">
-</li>
-]]></content:encoded>
+      <description>&lt;p&gt;岁末年终，【豆瓣2019年度读书榜单】如约而至。&lt;/p&gt;&#xA;&lt;p&gt;今年的年度榜单分为年度高分、最受关注、文学、社科、影视、绘本、再版好书、冷门好书等20个类别，共有177种图书上榜。&lt;/p&gt;&#xA;&lt;p&gt;感谢作者和译者，感谢编者和读者。春生夏长，秋收冬藏，现在让我们坐下休息，回味这一年来的收获。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2019/12/6198f949993bf56.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;基于2019年你和万千豆瓣用户&lt;/p&gt;&#xA;&lt;p&gt;对读书条目的评分、标记和访问数据&lt;/p&gt;&#xA;&lt;p&gt;（统计截至2019-12-20）&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2019年度最受关注图书&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;1、《82年生的金智英》|作者：[韩]赵南柱&lt;/p&gt;&#xA;&lt;p&gt;2、《你当像鸟飞往你的山》|作者：[美]塔拉·韦斯特弗&lt;/p&gt;&#xA;&lt;p&gt;3、《书店日记》|作者：[英] 肖恩·白塞尔&lt;/p&gt;&#xA;&lt;p&gt;4、《时间的秩序》|作者：[意]卡洛·罗韦利&lt;/p&gt;&#xA;&lt;p&gt;5、《OPUS 作品》|作者：[日] 今 敏&lt;/p&gt;</description>
     </item>
     <item>
       <title>认知天性</title>
       <link>https://iliu.org/2947.html</link>
       <pubDate>Sat, 21 Dec 2019 12:00:17 +0000</pubDate>
       <guid>https://iliu.org/2947.html</guid>
-      <description>&lt;p&gt;最近一直没有更新博文，是因为忙，嗯，是因为忙，是因为忙。我是不会说是因为，最近有空的时候是在看《庆余年》这本小说导致没有更新的。&lt;/p&gt;
-&lt;p&gt;不过今天说的这本书和庆余年一毛钱的关系都没有，今天说的这本书是这个月看的《认知天性》这本书。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>最近一直没有更新博文，是因为忙，嗯，是因为忙，是因为忙。我是不会说是因为，最近有空的时候是在看《庆余年》这本小说导致没有更新的。</p>
-<p>不过今天说的这本书和庆余年一毛钱的关系都没有，今天说的这本书是这个月看的《认知天性》这本书。</p>
-<p><a href="https://tunan.org/wp-content/uploads/2019/12/55287ad7d509ec2.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2948" src="https://tunan.org/wp-content/uploads/2019/12/55287ad7d509ec2.jpg" alt="" width="560" height="560" srcset="https://tunan.org/wp-content/uploads/2019/12/55287ad7d509ec2.jpg 560w, https://tunan.org/wp-content/uploads/2019/12/55287ad7d509ec2-300x300.jpg 300w, https://tunan.org/wp-content/uploads/2019/12/55287ad7d509ec2-150x150.jpg 150w" sizes="(max-width: 560px) 100vw, 560px" /></a></p>
-<h2 id="推荐原因">推荐原因：</h2>
-<p>4年蝉联亚马逊认知心理学分类榜首，11位认知心理学家耗费10年心血总结出的人类普遍学习规律，让你利用心理学与脑神经科学的前沿研究成果，打破原有的学习误区，获取“复杂时代”最有利于大脑的简单学习法则！</p>
-<h2 id="内容简介">内容简介</h2>
-<p>总体来说，前面几章讲的确实不错，后面有点啰嗦。主要内容</p>
-<ul>
-<li>1.主动检索，把考试当成学习工具，一堂课结束一次测验</li>
-<li>2.间隔安排，短期重复没有用，出现遗忘就要付出更多努力，这样记得更牢固</li>
-<li>3.穿插练习，步骤打乱（这个应该是避免前摄后摄影响）</li>
-<li>4.多样化，一件事多角度分析回忆</li>
-<li>5.学习越轻松越无效，将新知识与旧知识连接</li>
-</ul>
-<p>特别推荐给中小学的家长，中小学学生，大学生一定要读读这本书。</p>
-<p> </p>
-]]></content:encoded>
+      <description>&lt;p&gt;最近一直没有更新博文，是因为忙，嗯，是因为忙，是因为忙。我是不会说是因为，最近有空的时候是在看《庆余年》这本小说导致没有更新的。&lt;/p&gt;&#xA;&lt;p&gt;不过今天说的这本书和庆余年一毛钱的关系都没有，今天说的这本书是这个月看的《认知天性》这本书。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2019/12/55287ad7d509ec2.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;推荐原因&#34;&gt;推荐原因：&lt;/h2&gt;&#xA;&lt;p&gt;4年蝉联亚马逊认知心理学分类榜首，11位认知心理学家耗费10年心血总结出的人类普遍学习规律，让你利用心理学与脑神经科学的前沿研究成果，打破原有的学习误区，获取“复杂时代”最有利于大脑的简单学习法则！&lt;/p&gt;&#xA;&lt;h2 id=&#34;内容简介&#34;&gt;内容简介&lt;/h2&gt;&#xA;&lt;p&gt;总体来说，前面几章讲的确实不错，后面有点啰嗦。主要内容&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;1.主动检索，把考试当成学习工具，一堂课结束一次测验&lt;/li&gt;&#xA;&lt;li&gt;2.间隔安排，短期重复没有用，出现遗忘就要付出更多努力，这样记得更牢固&lt;/li&gt;&#xA;&lt;li&gt;3.穿插练习，步骤打乱（这个应该是避免前摄后摄影响）&lt;/li&gt;&#xA;&lt;li&gt;4.多样化，一件事多角度分析回忆&lt;/li&gt;&#xA;&lt;li&gt;5.学习越轻松越无效，将新知识与旧知识连接&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;特别推荐给中小学的家长，中小学学生，大学生一定要读读这本书。&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;</description>
     </item>
     <item>
       <title>《如何读懂一本书，攀登读书法》</title>
       <link>https://iliu.org/2892.html</link>
       <pubDate>Fri, 29 Nov 2019 03:30:01 +0000</pubDate>
       <guid>https://iliu.org/2892.html</guid>
-      <description>&lt;p&gt;跋涉者是一个爱看书的人，但是很多时候更喜欢看一些快餐书，比如网络小说之类的。也不是不想看别的，但是总感觉自己看这些书再以后的工作生活中用不上，比如，哲学、逻辑学等等还有一些其他的书，有时候甚至看的瞌睡，看完了以后留在脑海里的印象也没有什么了，很多时候就是为了看而看，既不知道如何选书，也抓不住书里的精华，也就是利用碎片时间看上几页。所以，不能说没有收获，只能说收获不大而已，这也影响到了看下一本书的信心。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>跋涉者是一个爱看书的人，但是很多时候更喜欢看一些快餐书，比如网络小说之类的。也不是不想看别的，但是总感觉自己看这些书再以后的工作生活中用不上，比如，哲学、逻辑学等等还有一些其他的书，有时候甚至看的瞌睡，看完了以后留在脑海里的印象也没有什么了，很多时候就是为了看而看，既不知道如何选书，也抓不住书里的精华，也就是利用碎片时间看上几页。所以，不能说没有收获，只能说收获不大而已，这也影响到了看下一本书的信心。</p>
-<p><a href="https://tunan.org/wp-content/uploads/2019/11/9bf78ced2380374.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2893" src="https://tunan.org/wp-content/uploads/2019/11/9bf78ced2380374.jpg" alt="" width="400" height="534" srcset="https://tunan.org/wp-content/uploads/2019/11/9bf78ced2380374.jpg 400w, https://tunan.org/wp-content/uploads/2019/11/9bf78ced2380374-225x300.jpg 225w" sizes="(max-width: 400px) 100vw, 400px" /></a></p>
-<p>如果上述的一些行为你也有类似的感觉的话，建议你也读一读攀登写的这本《彭登读书法》。这本书就是解决上述的诸如，不知道怎么选书，不知道如何去读才能效率，不知道哪些是书的精华部分等等诸如此类的问题。</p>
-<h2 id="如何选书">如何选书</h2>
-<p>读书的五大误区：</p>
-<ol>
-<li>读书无用</li>
-<li>只追求有用，读书功利化</li>
-<li>有的书读不懂</li>
-<li>认为读书是一件私事，不交流</li>
-<li>认为自己读才是最好的方法，不参考别人的讲解</li>
-</ol>
-<p>选书的原则：</p>
-<p>科学性是我们选书的唯一标准，而具有建设性的好书值得你读。比如；给我们生活带来新意的书，给我们产生强烈动力的书，给我们生活带来改变的书。具体的原则是：TIPS原则。既：工具性、新的理念，实用性、科学性。</p>
-<p>如何选书：</p>
-<p>出版机构</p>
-<ul>
-<li>作者背景</li>
-<li>推荐人</li>
-<li>书单</li>
-<li>参考书目</li>
-<li>内容</li>
-<li>翻译水平和印刷质量</li>
-</ul>
-<h2 id="如何懂得一本书">如何懂得一本书</h2>
-<p>要有知识的沉淀：</p>
-<ol>
-<li>经济学</li>
-<li>心理学</li>
-<li>管理学</li>
-<li>国学</li>
-<li>逻辑学</li>
-<li>哲学</li>
-<li>人生经验</li>
-</ol>
-<p>知识反刍</p>
-<ol>
-<li>阅读的时候少画重点</li>
-<li>读完后给自己一段时间</li>
-<li>挑战大脑、回忆全书</li>
-<li>传播，加深理解（讲给别人听）</li>
-</ol>
-<p>把书读薄</p>
-<ul>
-<li>找到书的主脉络，也就是书的主题，这本书要解决什么问题</li>
-<li>书的写作背景</li>
-<li>书中提供了哪些解决方案</li>
-<li>书的最后一部分往往是精华部分。（可惜跋涉者看书，很多时候没有看完，最后一部分就放弃了）</li>
-</ul>
-<p>坏习惯</p>
-<ul>
-<li>中断读书，比如有不认识的字，去查字典</li>
-<li>边看书边玩手机</li>
-</ul>
-<h2 id="什么地方才是书的精华部分">什么地方才是书的精华部分</h2>
-<ul>
-<li>概念被界定清晰的地方</li>
-<li>感受到问题很严重的地方</li>
-<li>某种解释让你很意外的地方</li>
-<li>书中的递进关系地方</li>
-<li>书中的转折关系的地方</li>
-<li>不同侧面彰显书籍的内在价值的地方</li>
-<li>心灵受到冲击的地方</li>
-<li>书中的奇闻轶事</li>
-</ul>
-<p>最后，作者建议，读完书后做一下这本书的思维导图，跋涉者看了这本书后也做了一张，不过非常的简陋，以后继续加强努力。</p>
-<p><a href="https://tunan.org/wp-content/uploads/2019/11/6b221ebc4071cb5.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2894" src="https://tunan.org/wp-content/uploads/2019/11/6b221ebc4071cb5.jpg" alt="" width="780" height="585" srcset="https://tunan.org/wp-content/uploads/2019/11/6b221ebc4071cb5.jpg 780w, https://tunan.org/wp-content/uploads/2019/11/6b221ebc4071cb5-300x225.jpg 300w, https://tunan.org/wp-content/uploads/2019/11/6b221ebc4071cb5-768x576.jpg 768w" sizes="(max-width: 780px) 100vw, 780px" /></a></p>
-<p> </p>
-]]></content:encoded>
+      <description>&lt;p&gt;跋涉者是一个爱看书的人，但是很多时候更喜欢看一些快餐书，比如网络小说之类的。也不是不想看别的，但是总感觉自己看这些书再以后的工作生活中用不上，比如，哲学、逻辑学等等还有一些其他的书，有时候甚至看的瞌睡，看完了以后留在脑海里的印象也没有什么了，很多时候就是为了看而看，既不知道如何选书，也抓不住书里的精华，也就是利用碎片时间看上几页。所以，不能说没有收获，只能说收获不大而已，这也影响到了看下一本书的信心。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2019/11/9bf78ced2380374.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;如果上述的一些行为你也有类似的感觉的话，建议你也读一读攀登写的这本《彭登读书法》。这本书就是解决上述的诸如，不知道怎么选书，不知道如何去读才能效率，不知道哪些是书的精华部分等等诸如此类的问题。&lt;/p&gt;&#xA;&lt;h2 id=&#34;如何选书&#34;&gt;如何选书&lt;/h2&gt;&#xA;&lt;p&gt;读书的五大误区：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;读书无用&lt;/li&gt;&#xA;&lt;li&gt;只追求有用，读书功利化&lt;/li&gt;&#xA;&lt;li&gt;有的书读不懂&lt;/li&gt;&#xA;&lt;li&gt;认为读书是一件私事，不交流&lt;/li&gt;&#xA;&lt;li&gt;认为自己读才是最好的方法，不参考别人的讲解&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;选书的原则：&lt;/p&gt;&#xA;&lt;p&gt;科学性是我们选书的唯一标准，而具有建设性的好书值得你读。比如；给我们生活带来新意的书，给我们产生强烈动力的书，给我们生活带来改变的书。具体的原则是：TIPS原则。既：工具性、新的理念，实用性、科学性。&lt;/p&gt;&#xA;&lt;p&gt;如何选书：&lt;/p&gt;&#xA;&lt;p&gt;出版机构&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;作者背景&lt;/li&gt;&#xA;&lt;li&gt;推荐人&lt;/li&gt;&#xA;&lt;li&gt;书单&lt;/li&gt;&#xA;&lt;li&gt;参考书目&lt;/li&gt;&#xA;&lt;li&gt;内容&lt;/li&gt;&#xA;&lt;li&gt;翻译水平和印刷质量&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;如何懂得一本书&#34;&gt;如何懂得一本书&lt;/h2&gt;&#xA;&lt;p&gt;要有知识的沉淀：&lt;/p&gt;</description>
     </item>
     <item>
       <title>胡椒的全球史:财富、冒险与殖民</title>
       <link>https://iliu.org/2814.html</link>
       <pubDate>Fri, 18 Oct 2019 07:35:24 +0000</pubDate>
       <guid>https://iliu.org/2814.html</guid>
-      <description>&lt;p&gt;这是一本写胡椒的书，也是一部欧洲列强的殖民史，小小不起眼的胡椒，却成为了很多动物灭绝的推动因素。&lt;/p&gt;
-&lt;h2 id=&#34;作者简介&#34;&gt;&lt;span class=&#34;&#34;&gt;作者简介&lt;/span&gt;  · · · · · ·&lt;/h2&gt;
-&lt;div class=&#34;indent &#34;&gt;
-  &lt;div class=&#34;&#34;&gt;
-    &lt;div class=&#34;intro&#34;&gt;
-      &lt;p&gt;
-        玛乔丽·谢弗（Marjorie Shaffer）毕业于布朗大学，在伊利诺伊大学香槟分校获生物学硕士学位。她目前是纽约大学医学院（New York University School of Medicine）的科学作家和编辑，曾为《纽约时报》、《金融时报》、《大众科学》撰稿，并曾任路透社商业记者，入选麻省理工学院奈特科学新闻班（Knight Science Journalism）成员。
-      &lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>这是一本写胡椒的书，也是一部欧洲列强的殖民史，小小不起眼的胡椒，却成为了很多动物灭绝的推动因素。</p>
-<h2 id="作者简介"><span class="">作者简介</span>  · · · · · ·</h2>
-<div class="indent ">
-  <div class="">
-    <div class="intro">
-      <p>
-        玛乔丽·谢弗（Marjorie Shaffer）毕业于布朗大学，在伊利诺伊大学香槟分校获生物学硕士学位。她目前是纽约大学医学院（New York University School of Medicine）的科学作家和编辑，曾为《纽约时报》、《金融时报》、《大众科学》撰稿，并曾任路透社商业记者，入选麻省理工学院奈特科学新闻班（Knight Science Journalism）成员。
-      </p>
-<pre><code>  &lt;p&gt;
-    &lt;a href=&quot;https://tunan.org/wp-content/uploads/2019/10/a6372466f6dc9c5.jpg&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; class=&quot;aligncenter wp-image-2816 size-large&quot; src=&quot;https://tunan.org/wp-content/uploads/2019/10/a6372466f6dc9c5-662x1024.jpg&quot; alt=&quot;&quot; width=&quot;662&quot; height=&quot;1024&quot; srcset=&quot;https://tunan.org/wp-content/uploads/2019/10/a6372466f6dc9c5-662x1024.jpg 662w, https://tunan.org/wp-content/uploads/2019/10/a6372466f6dc9c5-194x300.jpg 194w, https://tunan.org/wp-content/uploads/2019/10/a6372466f6dc9c5-768x1187.jpg 768w, https://tunan.org/wp-content/uploads/2019/10/a6372466f6dc9c5.jpg 1000w&quot; sizes=&quot;(max-width: 662px) 100vw, 662px&quot; /&gt;&lt;/a&gt;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    ◎ 译者简介
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    顾淑馨，台湾大学历史系毕业、淡江大学美国研究所硕士。曾任职台湾中国广播公司、联合报系及“美国在台协会”，并曾兼任淡江大学、政治大学及东吴大学讲师。目前专事翻译，已出版译作近四十种，主要有《乐在沟通》《与成功有约》《反挫》《大外交》（合译）等，近作有《会说才会赢》《谎言教父马多夫》《逆龄社会》等。
-  &lt;/p&gt;
-  
-  &lt;h2&gt;
-    读者评论
-  &lt;/h2&gt;
-  
-  &lt;h3&gt;
-    &lt;span class=&quot;comment-info&quot;&gt;海淀区网友小羊  2019-03-29&lt;/span&gt;
-  &lt;/h3&gt;
-  
-  &lt;p class=&quot;comment-content&quot;&gt;
-    &lt;span class=&quot;short&quot;&gt;很好的书，史料丰富。但好像跟胡椒直接关系不大，更多的是因香料而殖民的历史。&lt;/span&gt;
-  &lt;/p&gt;
-  
-  &lt;h3&gt;
-    &lt;span class=&quot;comment-info&quot;&gt;土口衣  2019-09-11&lt;/span&gt;
-  &lt;/h3&gt;
-  
-  &lt;p class=&quot;comment-content&quot;&gt;
-    &lt;span class=&quot;short&quot;&gt;看了13%，一开始还可以，后面是越来越夸张了，作者为了写胡椒，有点生搬硬套，把搜集到的资料没有系统地放进书中，显得很散很乱。史料的搜集也不严谨，部分根本没有足够的史实支撑，我单列举阻止我继续读下去的一句：15世纪初，郑和为明成祖朱棣展开历史性的远航。胡椒是中国皇家的寻宝船队浩浩荡荡出航的主因。呵呵~&lt;/span&gt;
-  &lt;/p&gt;
-  
-  &lt;h3&gt;
-    &lt;span class=&quot;comment-info&quot;&gt;jiedaokou  2019-09-12&lt;/span&gt;
-  &lt;/h3&gt;
-  
-  &lt;p class=&quot;comment-content&quot;&gt;
-    &lt;span class=&quot;short&quot;&gt;很通俗的小书，不只是讲了胡椒的贸易史，还有很多相关的很有意思的故事&lt;/span&gt;
-  &lt;/p&gt;
-  
-  &lt;h2&gt;
-    跋涉者说：
-  &lt;/h2&gt;
-  
-  &lt;p&gt;
-    陆陆续续用了一个月的时间把这本书看了，说实话，看这本书，一是标题吸引了我，（看来第一印象很重要，怪不得标题党泛滥），第二在kindle的包月推荐里，也就是说，包月用户可以免费看。
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    严格来讲，这本书也就是30%左右在讲胡椒，其他的都是在讲航海时代的一些事情。作为一本通俗的了解大航海时代的一本书还是可以看看的，特别是看到船员为了补充食物，把一些原本物种丰富的小岛杀的很多物种断绝的事情，不胜唏嘘！我们在也看不到渡渡鸟，以及巨大的陆龟了。
-  &lt;/p&gt;
-&lt;/div&gt;
-</code></pre>
-  </div>
-</div>]]></content:encoded>
+      <description>&lt;p&gt;这是一本写胡椒的书，也是一部欧洲列强的殖民史，小小不起眼的胡椒，却成为了很多动物灭绝的推动因素。&lt;/p&gt;&#xA;&lt;h2 id=&#34;作者简介&#34;&gt;&lt;!-- raw HTML omitted --&gt;作者简介&lt;!-- raw HTML omitted --&gt;  · · · · · ·&lt;/h2&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;pre&gt;&lt;code&gt;  &amp;lt;p&amp;gt;&#xA;    &amp;lt;a href=&amp;quot;https://tunan.org/wp-content/uploads/2019/10/a6372466f6dc9c5.jpg&amp;quot;&amp;gt;&amp;lt;img loading=&amp;quot;lazy&amp;quot; decoding=&amp;quot;async&amp;quot; class=&amp;quot;aligncenter wp-image-2816 size-large&amp;quot; src=&amp;quot;https://tunan.org/wp-content/uploads/2019/10/a6372466f6dc9c5-662x1024.jpg&amp;quot; alt=&amp;quot;&amp;quot; width=&amp;quot;662&amp;quot; height=&amp;quot;1024&amp;quot; srcset=&amp;quot;https://tunan.org/wp-content/uploads/2019/10/a6372466f6dc9c5-662x1024.jpg 662w, https://tunan.org/wp-content/uploads/2019/10/a6372466f6dc9c5-194x300.jpg 194w, https://tunan.org/wp-content/uploads/2019/10/a6372466f6dc9c5-768x1187.jpg 768w, https://tunan.org/wp-content/uploads/2019/10/a6372466f6dc9c5.jpg 1000w&amp;quot; sizes=&amp;quot;(max-width: 662px) 100vw, 662px&amp;quot; /&amp;gt;&amp;lt;/a&amp;gt;&#xA;  &amp;lt;/p&amp;gt;&#xA;  &#xA;  &amp;lt;p&amp;gt;&#xA;    ◎ 译者简介&#xA;  &amp;lt;/p&amp;gt;&#xA;  &#xA;  &amp;lt;p&amp;gt;&#xA;    顾淑馨，台湾大学历史系毕业、淡江大学美国研究所硕士。曾任职台湾中国广播公司、联合报系及“美国在台协会”，并曾兼任淡江大学、政治大学及东吴大学讲师。目前专事翻译，已出版译作近四十种，主要有《乐在沟通》《与成功有约》《反挫》《大外交》（合译）等，近作有《会说才会赢》《谎言教父马多夫》《逆龄社会》等。&#xA;  &amp;lt;/p&amp;gt;&#xA;  &#xA;  &amp;lt;h2&amp;gt;&#xA;    读者评论&#xA;  &amp;lt;/h2&amp;gt;&#xA;  &#xA;  &amp;lt;h3&amp;gt;&#xA;    &amp;lt;span class=&amp;quot;comment-info&amp;quot;&amp;gt;海淀区网友小羊  2019-03-29&amp;lt;/span&amp;gt;&#xA;  &amp;lt;/h3&amp;gt;&#xA;  &#xA;  &amp;lt;p class=&amp;quot;comment-content&amp;quot;&amp;gt;&#xA;    &amp;lt;span class=&amp;quot;short&amp;quot;&amp;gt;很好的书，史料丰富。但好像跟胡椒直接关系不大，更多的是因香料而殖民的历史。&amp;lt;/span&amp;gt;&#xA;  &amp;lt;/p&amp;gt;&#xA;  &#xA;  &amp;lt;h3&amp;gt;&#xA;    &amp;lt;span class=&amp;quot;comment-info&amp;quot;&amp;gt;土口衣  2019-09-11&amp;lt;/span&amp;gt;&#xA;  &amp;lt;/h3&amp;gt;&#xA;  &#xA;  &amp;lt;p class=&amp;quot;comment-content&amp;quot;&amp;gt;&#xA;    &amp;lt;span class=&amp;quot;short&amp;quot;&amp;gt;看了13%，一开始还可以，后面是越来越夸张了，作者为了写胡椒，有点生搬硬套，把搜集到的资料没有系统地放进书中，显得很散很乱。史料的搜集也不严谨，部分根本没有足够的史实支撑，我单列举阻止我继续读下去的一句：15世纪初，郑和为明成祖朱棣展开历史性的远航。胡椒是中国皇家的寻宝船队浩浩荡荡出航的主因。呵呵~&amp;lt;/span&amp;gt;&#xA;  &amp;lt;/p&amp;gt;&#xA;  &#xA;  &amp;lt;h3&amp;gt;&#xA;    &amp;lt;span class=&amp;quot;comment-info&amp;quot;&amp;gt;jiedaokou  2019-09-12&amp;lt;/span&amp;gt;&#xA;  &amp;lt;/h3&amp;gt;&#xA;  &#xA;  &amp;lt;p class=&amp;quot;comment-content&amp;quot;&amp;gt;&#xA;    &amp;lt;span class=&amp;quot;short&amp;quot;&amp;gt;很通俗的小书，不只是讲了胡椒的贸易史，还有很多相关的很有意思的故事&amp;lt;/span&amp;gt;&#xA;  &amp;lt;/p&amp;gt;&#xA;  &#xA;  &amp;lt;h2&amp;gt;&#xA;    跋涉者说：&#xA;  &amp;lt;/h2&amp;gt;&#xA;  &#xA;  &amp;lt;p&amp;gt;&#xA;    陆陆续续用了一个月的时间把这本书看了，说实话，看这本书，一是标题吸引了我，（看来第一印象很重要，怪不得标题党泛滥），第二在kindle的包月推荐里，也就是说，包月用户可以免费看。&#xA;  &amp;lt;/p&amp;gt;&#xA;  &#xA;  &amp;lt;p&amp;gt;&#xA;    严格来讲，这本书也就是30%左右在讲胡椒，其他的都是在讲航海时代的一些事情。作为一本通俗的了解大航海时代的一本书还是可以看看的，特别是看到船员为了补充食物，把一些原本物种丰富的小岛杀的很多物种断绝的事情，不胜唏嘘！我们在也看不到渡渡鸟，以及巨大的陆龟了。&#xA;  &amp;lt;/p&amp;gt;&#xA;&amp;lt;/div&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     <item>
       <title>《欢愉》——一个优雅而性感的故事</title>
       <link>https://iliu.org/2632.html</link>
       <pubDate>Tue, 27 Aug 2019 07:10:15 +0000</pubDate>
       <guid>https://iliu.org/2632.html</guid>
-      <description>&lt;p&gt;这两天把《欢愉》这本书看了一遍，看这本书是因为kindle里的推荐：&lt;/p&gt;
-&lt;p&gt;它的头衔很多&lt;/p&gt;
-&lt;p class=&#34;ql-align-justify&#34;&gt;
-  它是&lt;strong&gt;《纽约时报》&lt;/strong&gt;的畅销图书；
-&lt;/p&gt;
-&lt;p class=&#34;ql-align-justify&#34;&gt;
-  &lt;strong&gt;全美书评人协会奖&lt;/strong&gt;短名单入围作品；
-&lt;/p&gt;
-&lt;p class=&#34;ql-align-justify&#34;&gt;
-  获得过&lt;strong&gt;科克斯书评奖&lt;/strong&gt;、&lt;strong&gt;新英格兰图书奖&lt;/strong&gt;等多项图书大奖；
-&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>这两天把《欢愉》这本书看了一遍，看这本书是因为kindle里的推荐：</p>
-<p>它的头衔很多</p>
-<p class="ql-align-justify">
-  它是<strong>《纽约时报》</strong>的畅销图书；
-</p>
-<p class="ql-align-justify">
-  <strong>全美书评人协会奖</strong>短名单入围作品；
-</p>
-<p class="ql-align-justify">
-  获得过<strong>科克斯书评奖</strong>、<strong>新英格兰图书奖</strong>等多项图书大奖；
-</p>
-<p class="ql-align-justify">
-  被美国国家公共电台、《时代周刊》《纽约时报》《娱乐周刊》《VOGUE》《出版人周刊》《华盛顿邮报》《旧金山纪事报》《奥普拉杂志》评为<strong>「年度好书」</strong>！
-</p>
-<p class="ql-align-justify">
-  最重要的是kindle里免费送一本，于是就领取看了一下，结果还算可以吧。
-</p><figure class="content-img-box" id="2629">
-<p><img decoding="async" alt="《欢愉》——一个优雅而性感的故事" src="https://tunan.org/wp-content/uploads/2019/08/1a5a4d6d751d6d.jpg" id="2B4B3480" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
-<p class="ql-align-justify">
-</p>
-<p class="ql-align-justify">
-</p>
-<h2 class="ql-align-justify" id="一个优雅而性感的故事"><span class="ql-font-serif" style="background-color: rgb(0, 88, 156); color: rgb(255, 255, 255);">一个优雅而性感的故事</span></h2>
-<p class="ql-align-justify">
-  本书基于美国著名人类学家玛格丽特•米德的真实人生故事写就。
-</p>
-<p class="ql-align-justify">
-  20世纪30年代，三位年轻的人类学家前往新几内亚考察，他们之间发生的一段三角恋情，潜移默化地影响了他们的观念、学术生涯，乃至命运……
-</p><figure class="content-img-box" id="2630">
-<p><img decoding="async" alt="《欢愉》——一个优雅而性感的故事" src="https://tunan.org/wp-content/uploads/2019/08/12ed4dc52b3679.jpg" id="01592CC4" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
-<p class="ql-align-justify">
-</p>
-<p class="ql-align-justify">
-</p>
-<p class="ql-align-justify">
-  安德鲁•班克森出身学术世家，其父热切地希望孩子们能继承他的衣钵研究生物学。他的两个哥哥却相继意外殒命。班克森追随父兄脚步前往剑桥学习生物学，却被人类学吸引。
-</p>
-<p class="ql-align-justify">
-  父亲死后，班克森回到曾实地考察过的新几内亚。学术研究上的无力感和亲人死亡造成的阴影令他心灰意冷，试图自杀。
-</p>
-<p class="ql-align-justify">
-  内尔和芬这对人类学家夫妇的到来打破了班克森死水般的生活。
-</p>
-<p class="ql-align-justify">
-  班克森也缓和了内尔与芬之间因研究方法与学术声望的差异而日益紧张的关系。
-</p>
-<p class="ql-align-justify">
-  班克森被内尔吸引，理智令他选择压抑自己的感情。
-</p>
-<p class="ql-align-justify">
-  <strong>三人都对班克森与内尔之间日益滋长的情愫心知肚明，挣扎于欲望与自律之间的他们小心地守护着一种微妙的平衡</strong>。
-</p>
-<p class="ql-align-justify">
-  一次三人交谈时的相互激发催生了人类学研究领域的一大创见。
-</p>
-<p class="ql-align-justify">
-  一天早上，芬突然驾着小船独自离开，带走了部落里最有名的少年首领。他要去抢劫临近部落的圣笛。他相信那笛子能帮他建立学术地位，但这一冒险之举彻底改变了三人的人生轨迹……
-</p>
-<h2 id="近乎极致的阅读体验"><span class="ql-font-serif" style="background-color: rgb(0, 88, 156); color: rgb(255, 255, 255);">近乎极致的阅读体验</span></h2>
-<p class="ql-align-justify">
-  简单地转述《欢愉》的情节，只会令这个故事的魅力消减大半。小说于字里行间蕴藏的氛围和情绪，具有令人心醉神迷的魔力。
-</p>
-<p class="ql-align-justify">
-  <strong>莉莉·金采用了一种充满想象力的叙述策略，打破了时间和人物视角的限制，营造了充满迷幻感的文本体验。</strong>
-</p>
-<p class="ql-align-justify">
-  作为小说的叙事主人公，班克森拥有近乎全知全能的视野，小说开篇，内尔和芬在他的讲述中完成了登场亮相，他本人却还没有在小说中出现过。
-</p><figure class="content-img-box" id="2631">
-<p><img decoding="async" alt="《欢愉》——一个优雅而性感的故事" src="https://tunan.org/wp-content/uploads/2019/08/1824c863dd7459.jpg" id="4507AA8E" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
-<p class="ql-align-justify">
-</p>
-<p class="ql-align-justify">
-</p>
-<p class="ql-align-justify">
-  逻辑上讲不通的蒙太奇制造出了强烈的宿命感，仿佛这一切都已经不是第一次在宇宙中上演，主人公对此早就了然于心。
-</p>
-<p class="ql-align-justify">
-  具有相似效果的还有班克森在多个破碎时空中跳跃的叙述，从故事开始的上世纪30年代，直到70年代，读者很难预测他的下一段讲述会从哪个时间节点开始。
-</p>
-<p class="ql-align-justify">
-  然而，这种跳跃并不会让读者费解，无论时间是向前推进，或是向过去回溯，它们永远指向共同的焦点。
-</p>
-<p class="ql-align-justify">
-  于是读者明白了，班克森永远地滞留在了故事发生的那几个月之中，“当下”变为恍惚可疑的浅梦，记忆却成为永恒的现实，一遍又一遍地循环上演。
-</p>
-<p class="ql-align-justify">
-  莉莉·金在《欢愉》中还嵌入了另一个文本——班克森意外获得的内尔日记，这既从逻辑上完善了整个故事，又丰富了班克森的叙事层次。
-</p>
-<p class="ql-align-justify">
-  我们可以推想，在经年累月反复阅读那本日记之后，其内容已同班克森自己的记忆融为一体，他的叙事也因此具有了双重视角，他的视角，内尔的视角。
-</p>
-<p class="ql-align-justify">
-  视域的交错赋予故事强大的张力，给小说中如梦幻一般的片段和细节提供了栖身之地，它们只有在这部小说独特的情境中才能成立：
-</p>
-<p class="ql-align-justify">
-  班克森为在田野调查中留下满身伤口的内尔包扎时的情欲涌动；内尔夫妇和班克森在湖中夜泳深谈，凝望星辰；班克森和内尔在细雨中跳起求雨的舞蹈，口中呼唤他们知晓的语言中所有代表“雨”的单词；三位人类学家在一个崭新理论初现雏形时内心的悸动和高于语言的默契……
-</p>
-<p class="ql-align-justify">
-  <strong>这些情节带有强烈的超现实的美感，它们令小说的爱情主题挣脱俗套的窠臼，呈现出诗性特征。</strong>
-</p>]]></content:encoded>
+      <description>&lt;p&gt;这两天把《欢愉》这本书看了一遍，看这本书是因为kindle里的推荐：&lt;/p&gt;&#xA;&lt;p&gt;它的头衔很多&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>从1到N：企业数字化生存指南</title>
       <link>https://iliu.org/2539.html</link>
       <pubDate>Sun, 21 Jul 2019 07:34:52 +0000</pubDate>
       <guid>https://iliu.org/2539.html</guid>
-      <description>&lt;p&gt;昨天晚上照例陪女儿看书，话说我的kindle都快被女儿给霸占住了，好不容易从她手里弄了过来。然后，她看她的简版《水浒传》，我在kindle里乱翻，忽然看到了一本名叫《从1到N：企业数字化生存指南》，由于本身对数字化还是有点兴趣的，于是就订阅翻了一下。&lt;figure id=&#34;2537&#34; class=&#34;content-img-box &#34;&gt;&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>昨天晚上照例陪女儿看书，话说我的kindle都快被女儿给霸占住了，好不容易从她手里弄了过来。然后，她看她的简版《水浒传》，我在kindle里乱翻，忽然看到了一本名叫《从1到N：企业数字化生存指南》，由于本身对数字化还是有点兴趣的，于是就订阅翻了一下。<figure id="2537" class="content-img-box "></p>
-<p><img decoding="async" id="B8CBFF91" class="po-img-big" src="https://tunan.org/wp-content/uploads/2019/07/1ddf4815d15369.jpg" alt="从1到N：企业数字化生存指南" /> <figcaption class="addDesn"></figcaption></figure></p>
-<h2 id="关于本书的一些情况"><span style="color: #111111; background-color: #ffffff;">关于本书的一些情况</span></h2>
-<p>书的作者是尤尔根·梅菲特和沙莎，前者是德国人，后者应该是中国人，都是知名的管理咨询公司<span style="color: #111111; background-color: #ffffff;">麦肯锡的高管。不过说句题外话，记得10年以前，管理咨询公司遍地开花啊，到处都是，现在好像很少见到了。也不知道是为啥。</span></p>
-<p><span style="color: #111111; background-color: #ffffff;">书中提到了很多的案例来说明数字化的必要，包括自动驾驶汽车，大数据下的医疗等等。但是给人的感觉，就是一盘大杂烩，只是把各种案例堆在一起而已。怪不得有人说：</span><strong>数字化，是个筐，乱七八糟都往里装。</strong></p>
-<p>也许是因为麦肯锡作为一个咨询机构，数据分析、图表制作、PPT展示，都很不错。但是，业务终究是人的业务，不是数据的业务——个人不相信，一个鼓捣数据的流程能精准预测人类社会的发展。个人认为附录中的几个访谈也许才是本书的精华，各行各业确实都要拥抱数字化，而且必需是围绕自己的业务进行数据化。<figure id="2538" class="content-img-box "></p>
-<p><img decoding="async" id="2C3C1A6B" class="po-img-big" src="https://tunan.org/wp-content/uploads/2019/07/1d7054475f3281.jpg" alt="从1到N：企业数字化生存指南" /> <figcaption class="addDesn"></figcaption></figure></p>
-<p>看完了本书，不能说没有收获，毕竟开卷有益嘛，但是要说收获满满，也不尽然。可能自己的格局还不够把。要说，自己做这个网站尝试进行一些网络上的销售是不是就可以看作数字化的一部分呢？所以，下一步，跋涉者就要思考如何进一步的数字化。</p>
-<p>总体来说，这本书尽管作者试图用一条主线串起各章的内容，但内容的拼凑痕迹还是很明显啊，感觉部分章节像白皮书改造后硬堆上去的， 不过书的最后附录的三个访谈，还挺有启示的。感觉比部分章节的正文强。要看的童鞋，建议看请半部分以及后面的访谈就可以了，至于后半部的为什么，做什么 怎么做，读的意义不大。</p>
-<h2 id="本书的下载">本书的下载</h2>
-<p>不放下载链接了，网上上挺好找的，而且在kindle包月里也有，有兴趣的朋友可以看看。</p>
-<p> </p>
-]]></content:encoded>
+      <description>&lt;p&gt;昨天晚上照例陪女儿看书，话说我的kindle都快被女儿给霸占住了，好不容易从她手里弄了过来。然后，她看她的简版《水浒传》，我在kindle里乱翻，忽然看到了一本名叫《从1到N：企业数字化生存指南》，由于本身对数字化还是有点兴趣的，于是就订阅翻了一下。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>推荐一个手机看书的app，阅读app</title>
       <link>https://iliu.org/2533.html</link>
       <pubDate>Sat, 20 Jul 2019 07:40:34 +0000</pubDate>
       <guid>https://iliu.org/2533.html</guid>
-      <description>&lt;p&gt;我们知道手机上看书最大的糟点是毁眼和广告。毁眼就不说了，这个要么少看，要么戴上防蓝光眼镜然后少看，广告可就是太烦人了，那铺天盖地的，不给你弹各遍是誓不罢休的。官方的一些APP是没有广告，但是要钱啊，有没有一款既不要钱又没有广告的看书app呢，还真有。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>我们知道手机上看书最大的糟点是毁眼和广告。毁眼就不说了，这个要么少看，要么戴上防蓝光眼镜然后少看，广告可就是太烦人了，那铺天盖地的，不给你弹各遍是誓不罢休的。官方的一些APP是没有广告，但是要钱啊，有没有一款既不要钱又没有广告的看书app呢，还真有。</p>
-<h2 id="阅读app的特点">阅读APP的特点</h2>
-<ul>
-<li>阅读是一款提供网络文学搜索的工具，为广大网络文学爱好者提供一种方便、快捷舒适的试读体验。</li>
-<li>自定义书源，一切尽有可能。</li>
-<li>本软件为开源软件,没有上架Google Play,没有在任何地方售卖,如果想支持我请通过软件里的捐赠,不要在任何地方购买!</li>
-<li>关注公众号 开源阅读软件 获取支持<figure id="2531" class="content-img-box "></li>
-</ul>
-<p><img decoding="async" id="C5A7B659" class="po-img-big" src="https://tunan.org/wp-content/uploads/2019/07/119825ded833ec.jpg" alt="推荐一个手机看书的app，阅读app" /> <figcaption class="addDesn"></figcaption></figure></p>
-<p>这是一款开源软件，所以安全性还是比较又保证的，毕竟如果有病毒或者后门的，是会被大神们发现的。软件源很丰富，还可以自定义书源。最重要的是没有广告，没有广告，没有广告。</p>
-<h2 id="书源制作说明">书源制作说明</h2>
-<ul>
-<li>书源规则基于HTML标记,如class,id,tag等</li>
-<li>想要写规则先要打开网页源代码,在里面找到想要获取内容对应的标签,</li>
-<li>Chrome可以在网页上右击点击检查可以方便的查看标签</li>
-</ul>
-<p>具体可以参照，<a href="https://gedoor.github.io/MyBookshelf/sourcerule.html" target="_blank" rel="noopener noreferrer"><a href="https://gedoor.github.io/MyBookshelf/sourcerule.html">https://gedoor.github.io/MyBookshelf/sourcerule.html</a></a></p>
-<h2 id="下载最新版本">下载最新版本</h2>
-<ul>
-<li><a style="background-color: transparent; color: #1e87cb;" href="https://github.com/gedoor/MyBookshelf/releases/latest" target="_blank" rel="noopener noreferrer"><a href="https://github.com/gedoor/MyBookshelf/releases/latest">https://github.com/gedoor/MyBookshelf/releases/latest</a></a></li>
-</ul>
-<h2 id="本站下载"><span style="background-color: transparent;">本站下载</span></h2>
-]]></content:encoded>
+      <description>&lt;p&gt;我们知道手机上看书最大的糟点是毁眼和广告。毁眼就不说了，这个要么少看，要么戴上防蓝光眼镜然后少看，广告可就是太烦人了，那铺天盖地的，不给你弹各遍是誓不罢休的。官方的一些APP是没有广告，但是要钱啊，有没有一款既不要钱又没有广告的看书app呢，还真有。&lt;/p&gt;&#xA;&lt;h2 id=&#34;阅读app的特点&#34;&gt;阅读APP的特点&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;阅读是一款提供网络文学搜索的工具，为广大网络文学爱好者提供一种方便、快捷舒适的试读体验。&lt;/li&gt;&#xA;&lt;li&gt;自定义书源，一切尽有可能。&lt;/li&gt;&#xA;&lt;li&gt;本软件为开源软件,没有上架Google Play,没有在任何地方售卖,如果想支持我请通过软件里的捐赠,不要在任何地方购买!&lt;/li&gt;&#xA;&lt;li&gt;关注公众号 开源阅读软件 获取支持&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>大数据悖论及人工智能等</title>
       <link>https://iliu.org/1705.html</link>
       <pubDate>Tue, 11 Jun 2019 01:19:52 +0000</pubDate>
       <guid>https://iliu.org/1705.html</guid>
-      <description>&lt;p&gt;前几天在kindle搜索《未来简史》，包月的书库里这本书没有，但是却有一本《新未来简史》，是讲区块链、大数据以及人工智能等方面的的书，作者是王骥。翻看了一下，虽然全书通篇有一种把种种理论生生堆在一起之嫌，但是作者也提出了几个新颖的观点。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>前几天在kindle搜索《未来简史》，包月的书库里这本书没有，但是却有一本《新未来简史》，是讲区块链、大数据以及人工智能等方面的的书，作者是王骥。翻看了一下，虽然全书通篇有一种把种种理论生生堆在一起之嫌，但是作者也提出了几个新颖的观点。</p>
-<h2 id="第一大数据悖论">第一，大数据悖论</h2>
-<p>大数据这个概念目前是火的不得了，甚至被冠以数据主义，数据宗教之名，有些人甚至盲目的崇拜这个东西，认为只要掌握了大数据，就能掌握一切一样。媒体每每提到大数据都是满满的赞誉，甚至今天早上看到一篇文章，名字大概是《用大数据筑起防腐败的防火墙》。连防腐败都能用上大数据了。</p>
-<p>但是作者却提出一个大数据悖论的概念，这个概念指出，在大数据时代，大数据有时候不但不方便人们的生活，还可能会添乱。</p>
-<p><span style="color: rgb(47, 47, 47); background-color: rgb(255, 255, 255);">作者说：</span></p>
-<blockquote>
-<p><span style="color: rgb(47, 47, 47); background-color: rgb(255, 255, 255);">当大数据被少数团体、个人挖掘、掌控（甚至垄断）的情况下，对于普通民众来说，能产生神奇的作用和效果，但是，未来，当多数参与者都知晓、使用和分享众多领域的大数据后，其效用将开始大打折扣，甚至引发反向的破坏作用。该悖论，在鲜有人直接影响的领域不适用，如天气预报等；在多人参与并形成竞争关系的任何领域都适用，具有普适性，几乎所有的商业、生意，以及医疗、军事、航空和人们日常生活等等。</span></p>
-</blockquote>
-<p><span style="color: rgb(47, 47, 47); background-color: rgb(255, 255, 255);">作者举了一个例子：</span></p>
-<p><span style="color: rgb(47, 47, 47); background-color: rgb(255, 255, 255);">比如大数据应用的交通方面的时候，如果只有少数车辆安装了提示哪里拥堵的设备，也即大数据被少数人掌握的时候，这部分人在选择道路方面就具有非常大的优势，比如从城南到城北有3条路a b c可以通过，在大数据被少数人掌握的时代，A车看到只有c路是通畅的，他选择c路就很方便，但是当大家都安装了这类设备的时候，A车看到c路通畅，于是就往c路赶，但是在中途可能发现，由于大家都选择了c路，而导致C路发生了严重的拥堵，而a b两条路由于选择的人少，反而是通畅的了。</span><figure class="content-img-box " id="1704"></p>
-<p><img decoding="async" alt="大数据悖论及人工智能等" src="https://tunan.org/wp-content/uploads/2019/06/1c7447f50af162.jpg" id="3BD1190A" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
-<h2 id="第二就是人工智能不可能整体超越人类智能"><span style="color: rgb(47, 47, 47); background-color: rgb(255, 255, 255);">第二，就是人工智能不可能整体超越人类智能</span></h2>
-<p>作者认为，人工智能与人类在学习上有着巨大的差异。<span style="color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);">为了客观、形象、深入地理解“人工智能的学习能力、智能比人类差一万倍甚至亿倍”这一概念，作者做了个类比：</span></p>
-<blockquote>
-<p><span style="color: rgb(153, 153, 153); background-color: rgb(255, 255, 255);">有两颗桃树，分别为甲和乙。在甲的枝条上嫁接不同的桃，它能存活且基本上能长出桃来，但是，若嫁接其他任何水果，几乎都不能存活，更不说长出相应的水果来了。你若要得到除桃子之外的任何水果，要么直接从其他树（或藤）上摘取，要么自己种植，从种子到幼苗再到成树（藤），走完所有的流程，非常费事。</span></p>
-</blockquote>
-<p class="ql-align-justify">
-  这是现实中的真实情况。这个就有如人工智能的“智能”与“学习能力”一样，是单一或少许维度的。对于桃树乙，同时嫁接数百数千甚至数万种（枝条可能多的话）不同品种的水果，如果不仅可以存活，而且还几乎都能长出相应的万种水果（虽然品相参差不齐）来的话，那将是多么伟大的奇迹啊！<strong style="color: rgb(51, 51, 51);">这种情况，自然界中有吗？肯定没有。然而，人类的智力与学习能力就是这种情况。</strong>
-</p>
-<p class="ql-align-justify">
-  虽然人工智能的“智力之树”上可能长出“篮球场”那么大的一颗桃子（比如单一维度的超级计算能力 、棋步推算、文本搜索能力等）来，但是，它也只能长出桃子或少许类似的水果来而已。
-</p>
-<p class="ql-align-justify">
-  而人类，虽然只有长出鸡蛋那么大的桃子（单一能力相比较），但是你的“智力之数”上却能“嫁接”出百种、千种甚至万种不同的水果（<strong style="color: rgb(51, 51, 51);">依靠大脑的通用智力，学会百种、千种技能</strong>，理论上是可行的）来。而且还可以将这些数以万计的果实相互链接成一张张大网，融合、派生、裂变出数以亿计的新型水果来。这是多么伟大的“万能智力”啊！只是因为这种能力在人类中太普通了，所以就没有人重视，没有人觉得这很了不起。
-</p>
-<p class="ql-align-justify">
-  这本书跋涉者大概用了两天的时间，总算把他看完了，之后《未来简史》看了一部分，感觉这本书就是为了颠覆《未来简史》而创作的，虽然书中很多结论的推论还不够严谨，但是能提出新颖的观点，跋涉者认为也是很难能可贵的了。作为一本大致了解大数据、人工智能等方面的书，翻翻还是可以的。
-</p>]]></content:encoded>
+      <description>&lt;p&gt;前几天在kindle搜索《未来简史》，包月的书库里这本书没有，但是却有一本《新未来简史》，是讲区块链、大数据以及人工智能等方面的的书，作者是王骥。翻看了一下，虽然全书通篇有一种把种种理论生生堆在一起之嫌，但是作者也提出了几个新颖的观点。&lt;/p&gt;&#xA;&lt;h2 id=&#34;第一大数据悖论&#34;&gt;第一，大数据悖论&lt;/h2&gt;&#xA;&lt;p&gt;大数据这个概念目前是火的不得了，甚至被冠以数据主义，数据宗教之名，有些人甚至盲目的崇拜这个东西，认为只要掌握了大数据，就能掌握一切一样。媒体每每提到大数据都是满满的赞誉，甚至今天早上看到一篇文章，名字大概是《用大数据筑起防腐败的防火墙》。连防腐败都能用上大数据了。&lt;/p&gt;&#xA;&lt;p&gt;但是作者却提出一个大数据悖论的概念，这个概念指出，在大数据时代，大数据有时候不但不方便人们的生活，还可能会添乱。&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;作者说：&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;当大数据被少数团体、个人挖掘、掌控（甚至垄断）的情况下，对于普通民众来说，能产生神奇的作用和效果，但是，未来，当多数参与者都知晓、使用和分享众多领域的大数据后，其效用将开始大打折扣，甚至引发反向的破坏作用。该悖论，在鲜有人直接影响的领域不适用，如天气预报等；在多人参与并形成竞争关系的任何领域都适用，具有普适性，几乎所有的商业、生意，以及医疗、军事、航空和人们日常生活等等。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>给孩子推荐一本书《假话国历险记》</title>
       <link>https://iliu.org/1609.html</link>
       <pubDate>Mon, 20 May 2019 03:14:30 +0000</pubDate>
       <guid>https://iliu.org/1609.html</guid>
-      <description>&lt;p&gt;周五的时候，接女儿放学回家，路上的时候女儿给我说：“爸爸，你能不能给我买一本书啊？”我问，什么书啊？女儿说，是一本叫《假话国历险记》的书，我还是第一次听说这本书，还以为又是一本快餐小说呢，就给女儿说，我要看看这本书怎么样才能确定用不要给你买。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>周五的时候，接女儿放学回家，路上的时候女儿给我说：“爸爸，你能不能给我买一本书啊？”我问，什么书啊？女儿说，是一本叫《假话国历险记》的书，我还是第一次听说这本书，还以为又是一本快餐小说呢，就给女儿说，我要看看这本书怎么样才能确定用不要给你买。</p>
-<p>经过查询发现这本书是国<span style="color: #111111; background-color: #ffffff;">际安徒生奖得主、意大利作家罗大里的代表作之一，</span><span style="color: #333333; background-color: #ffffff;">讲述了海盗当上了一个国家的国王，因为嫌海盗的名声难听，就想出个办法，把字典全部改过：海盗变成了圣人，圣人变成了海盗：面包叫墨水，墨水叫面包；早晨起床说晚安，睡前道你早……颠倒黑白，歪曲事实，正直真诚的人们要坐牢。一天，假话国来了男孩小茉莉，还有一个小画家，一只三脚猫……他们都不愿说假话，不愿人们受欺压。小茉莉用自己高亢的声音震跑了假话国的国王，震塌了”疯人院”，也解救了许多无罪的、敢说真话的人们。</span><figure id="1608" class="content-img-box "></p>
-<p><img decoding="async" id="EF6FE742" class="po-img-big" src="https://tunan.org/wp-content/uploads/2019/05/124580518ae2ac.jpg" alt="给孩子推荐一本书《假话国历险记》" /> <figcaption class="addDesn"></figcaption></figure></p>
-<blockquote>
-<p>著名的儿童作家任溶溶曾经这样评价这本书，<span style="color: #111111; background-color: #ffffff;">“最喜欢的作家，还得数意大利的罗大里。他的《假话国历险记》，‘文革’当中被我当作图画书拿去给孩子看了——我以为自己再也不会搞翻译了。粉碎‘四人帮’之后，才突然发现这书非常好玩。一个海盗做了国王，为了掩盖自己的出身，就要把一切都颠倒过来说，文具店里卖面包，面包店里卖家具。这个故事，大人固然会喜欢，但首先是孩子会觉得这很有趣。”—任溶溶</span></p>
-</blockquote>
-<p><span style="color: #111111; background-color: #ffffff;">所以，就答应女儿给她买这本书，不过有了kindle后，凡是书都喜欢在kindle上去看看，由于是名著，kindle里是有这本书的，如果你开通了包月借书，直接就可以在图书馆里借了。</span></p>
-<p><span style="color: #111111; background-color: #ffffff;">当然如果你没有开通包月借书，也没有关系，本周提供了这本书的电子版，格式为：</span>epub+mobi+azw3，可以说很齐全了。</p>
-<p>百度网盘下载地址：</p>
-]]></content:encoded>
+      <description>&lt;p&gt;周五的时候，接女儿放学回家，路上的时候女儿给我说：“爸爸，你能不能给我买一本书啊？”我问，什么书啊？女儿说，是一本叫《假话国历险记》的书，我还是第一次听说这本书，还以为又是一本快餐小说呢，就给女儿说，我要看看这本书怎么样才能确定用不要给你买。&lt;/p&gt;&#xA;&lt;p&gt;经过查询发现这本书是国&lt;!-- raw HTML omitted --&gt;际安徒生奖得主、意大利作家罗大里的代表作之一，&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;讲述了海盗当上了一个国家的国王，因为嫌海盗的名声难听，就想出个办法，把字典全部改过：海盗变成了圣人，圣人变成了海盗：面包叫墨水，墨水叫面包；早晨起床说晚安，睡前道你早……颠倒黑白，歪曲事实，正直真诚的人们要坐牢。一天，假话国来了男孩小茉莉，还有一个小画家，一只三脚猫……他们都不愿说假话，不愿人们受欺压。小茉莉用自己高亢的声音震跑了假话国的国王，震塌了”疯人院”，也解救了许多无罪的、敢说真话的人们。&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

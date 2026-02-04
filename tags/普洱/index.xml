@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>普洱 on 老刘博客</title>
     <link>https://iliu.org/tags/%E6%99%AE%E6%B4%B1/</link>
     <description>Recent content in 普洱 on 老刘博客</description>
-    <image>
-      <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
-    </image>
-    <generator>Hugo -- 0.155.2</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 22 Mar 2023 10:27:34 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/%E6%99%AE%E6%B4%B1/index.xml" rel="self" type="application/rss+xml" />
@@ -18,14 +13,7 @@
       <link>https://iliu.org/4336.html</link>
       <pubDate>Wed, 22 Mar 2023 10:27:34 +0000</pubDate>
       <guid>https://iliu.org/4336.html</guid>
-      <description>&lt;p&gt;这几天在抖音上看到两个卖茶的主播，都是卖碎银子的。差点就被忽悠进了坑。&lt;/p&gt;
-&lt;p&gt;其实老刘对茶是真没有什么研究，也是第一次听说这个品种。当时想要入坑的主要原因是主播的文案太tm的好了，一壶热水，把茶叶往里一放，刷刷的冒气泡，美名曰，天然的果胶会呼气。主播说，这个茶不但有浓郁的茉莉花香味还有一种糯米的口感。用茉莉花经过7次窑制，把每一份的香味都沁入到了茶中。&lt;figure class=&#34;wp-block-image&#34;&gt;&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>这几天在抖音上看到两个卖茶的主播，都是卖碎银子的。差点就被忽悠进了坑。</p>
-<p>其实老刘对茶是真没有什么研究，也是第一次听说这个品种。当时想要入坑的主要原因是主播的文案太tm的好了，一壶热水，把茶叶往里一放，刷刷的冒气泡，美名曰，天然的果胶会呼气。主播说，这个茶不但有浓郁的茉莉花香味还有一种糯米的口感。用茉莉花经过7次窑制，把每一份的香味都沁入到了茶中。<figure class="wp-block-image"></p>
-<p><img decoding="async" src="https://cdn.staticaly.com/gh/ewader/img@master/20230322/641.5f6b4zybpb00.webp" alt="641" /> </figure></p>
-<p>心里犹豫了一下，觉得还是要看看到底是个什么茶，发现原来所谓的碎银子，就是用碎的普洱加胶粘到一起的。</p>
-<p>幸亏没有入坑，负责不得后悔死啊</p>
-]]></content:encoded>
+      <description>&lt;p&gt;这几天在抖音上看到两个卖茶的主播，都是卖碎银子的。差点就被忽悠进了坑。&lt;/p&gt;&#xA;&lt;p&gt;其实老刘对茶是真没有什么研究，也是第一次听说这个品种。当时想要入坑的主要原因是主播的文案太tm的好了，一壶热水，把茶叶往里一放，刷刷的冒气泡，美名曰，天然的果胶会呼气。主播说，这个茶不但有浓郁的茉莉花香味还有一种糯米的口感。用茉莉花经过7次窑制，把每一份的香味都沁入到了茶中。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;心里犹豫了一下，觉得还是要看看到底是个什么茶，发现原来所谓的碎银子，就是用碎的普洱加胶粘到一起的。&lt;/p&gt;&#xA;&lt;p&gt;幸亏没有入坑，负责不得后悔死啊&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

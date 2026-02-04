@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>主题 on 老刘博客</title>
     <link>https://iliu.org/tags/%E4%B8%BB%E9%A2%98/</link>
     <description>Recent content in 主题 on 老刘博客</description>
-    <image>
-      <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
-    </image>
-    <generator>Hugo -- 0.155.2</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 16 Mar 2022 02:38:21 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/%E4%B8%BB%E9%A2%98/index.xml" rel="self" type="application/rss+xml" />
@@ -18,28 +13,14 @@
       <link>https://iliu.org/4079.html</link>
       <pubDate>Wed, 16 Mar 2022 02:38:21 +0000</pubDate>
       <guid>https://iliu.org/4079.html</guid>
-      <description>&lt;p&gt;一个月前更换了&lt;a href=&#34;https://tunan.org/4060.html&#34;&gt;Dragon&lt;/a&gt;主题，当时很多博友都表示有点不适合个人使用，我倒是感觉还行，最起码是把垃圾评论都给屏蔽了，唯一让我不太满意的就是对内存的占用，真的是挺大的。&lt;figure class=&#34;wp-block-image size-full&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; width=&#34;1920&#34; height=&#34;1080&#34; src=&#34;https://tunan.org/wp-content/uploads/2022/03/1.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-4082&#34; srcset=&#34;https://tunan.org/wp-content/uploads/2022/03/1.jpg 1920w, https://tunan.org/wp-content/uploads/2022/03/1-768x432.jpg 768w, https://tunan.org/wp-content/uploads/2022/03/1-1536x864.jpg 1536w&#34; sizes=&#34;(max-width: 1920px) 100vw, 1920px&#34; /&gt; &lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;我用的是荷兰Liteserver主机，配置是2h2g，这个主机上只放了两个wordpress网站，内存就已经完全占用了，刚开始没有装缓存插件，内存直接就爆了，又加了2g的虚拟内存也不顶事。目测可能是和两外一个网站的B2主题冲突导致的。后来装了个缓存插件，基本上内存在90%，但是能用了。前几天主题升级了，看了一遍升级的文档，还是蛮复杂的。正在这是看到了南余生在群里推荐的这个主题。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>一个月前更换了<a href="https://tunan.org/4060.html">Dragon</a>主题，当时很多博友都表示有点不适合个人使用，我倒是感觉还行，最起码是把垃圾评论都给屏蔽了，唯一让我不太满意的就是对内存的占用，真的是挺大的。<figure class="wp-block-image size-full"></p>
-<p><img loading="lazy" decoding="async" width="1920" height="1080" src="https://tunan.org/wp-content/uploads/2022/03/1.jpg" alt="" class="wp-image-4082" srcset="https://tunan.org/wp-content/uploads/2022/03/1.jpg 1920w, https://tunan.org/wp-content/uploads/2022/03/1-768x432.jpg 768w, https://tunan.org/wp-content/uploads/2022/03/1-1536x864.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /> </figure></p>
-<p>我用的是荷兰Liteserver主机，配置是2h2g，这个主机上只放了两个wordpress网站，内存就已经完全占用了，刚开始没有装缓存插件，内存直接就爆了，又加了2g的虚拟内存也不顶事。目测可能是和两外一个网站的B2主题冲突导致的。后来装了个缓存插件，基本上内存在90%，但是能用了。前几天主题升级了，看了一遍升级的文档，还是蛮复杂的。正在这是看到了南余生在群里推荐的这个主题。</p>
-<p>看了一下老南的网站，绿油油挺好看的，很适合春天这个季节，布局也蛮好，于是就去Github上下了下来，简单调试了一下，就是目前这个样子了。</p>
-<p>看了一下vps 的内存占用，立马下来了，只有44%了。<figure class="wp-block-image size-full"></p>
-<p><img loading="lazy" decoding="async" width="263" height="232" src="https://tunan.org/wp-content/uploads/2022/03/xitong.png" alt="" class="wp-image-4080" /> </figure></p>
-<p>功能虽然少了点，但是对于写博客来说，已经完全满足了</p>
-]]></content:encoded>
+      <description>&lt;p&gt;一个月前更换了&lt;a href=&#34;https://tunan.org/4060.html&#34;&gt;Dragon&lt;/a&gt;主题，当时很多博友都表示有点不适合个人使用，我倒是感觉还行，最起码是把垃圾评论都给屏蔽了，唯一让我不太满意的就是对内存的占用，真的是挺大的。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;我用的是荷兰Liteserver主机，配置是2h2g，这个主机上只放了两个wordpress网站，内存就已经完全占用了，刚开始没有装缓存插件，内存直接就爆了，又加了2g的虚拟内存也不顶事。目测可能是和两外一个网站的B2主题冲突导致的。后来装了个缓存插件，基本上内存在90%，但是能用了。前几天主题升级了，看了一遍升级的文档，还是蛮复杂的。正在这是看到了南余生在群里推荐的这个主题。&lt;/p&gt;&#xA;&lt;p&gt;看了一下老南的网站，绿油油挺好看的，很适合春天这个季节，布局也蛮好，于是就去Github上下了下来，简单调试了一下，就是目前这个样子了。&lt;/p&gt;&#xA;&lt;p&gt;看了一下vps 的内存占用，立马下来了，只有44%了。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>更换为Dragon主题</title>
       <link>https://iliu.org/4060.html</link>
       <pubDate>Fri, 11 Feb 2022 00:24:05 +0000</pubDate>
       <guid>https://iliu.org/4060.html</guid>
-      <description>&lt;p&gt;这几天被垃圾评论给盯上了，每天能收到10来个，很烦人。原来的主题虽然也是可以通过增加代码的方式来拦截一些非中文的垃圾评论，但是每次一升级主题又要重新设置，所以干脆用回Dragon主题。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>这几天被垃圾评论给盯上了，每天能收到10来个，很烦人。原来的主题虽然也是可以通过增加代码的方式来拦截一些非中文的垃圾评论，但是每次一升级主题又要重新设置，所以干脆用回Dragon主题。</p>
-<p>这个主题别的都好，就是感觉没有原来的主题流畅。功能很强大，虽然有很多功能目前对我来说用不到。</p>
-<p>为了省心，就这么用着吧</p>
-]]></content:encoded>
+      <description>&lt;p&gt;这几天被垃圾评论给盯上了，每天能收到10来个，很烦人。原来的主题虽然也是可以通过增加代码的方式来拦截一些非中文的垃圾评论，但是每次一升级主题又要重新设置，所以干脆用回Dragon主题。&lt;/p&gt;&#xA;&lt;p&gt;这个主题别的都好，就是感觉没有原来的主题流畅。功能很强大，虽然有很多功能目前对我来说用不到。&lt;/p&gt;&#xA;&lt;p&gt;为了省心，就这么用着吧&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

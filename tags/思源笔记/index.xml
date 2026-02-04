@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>思源笔记 on 老刘博客</title>
     <link>https://iliu.org/tags/%E6%80%9D%E6%BA%90%E7%AC%94%E8%AE%B0/</link>
     <description>Recent content in 思源笔记 on 老刘博客</description>
-    <image>
-      <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
-    </image>
-    <generator>Hugo -- 0.155.2</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 01 Jul 2023 03:10:30 -0400</lastBuildDate>
     <atom:link href="https://iliu.org/tags/%E6%80%9D%E6%BA%90%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
@@ -18,38 +13,7 @@
       <link>https://iliu.org/posts/4418/</link>
       <pubDate>Sat, 01 Jul 2023 03:10:30 -0400</pubDate>
       <guid>https://iliu.org/posts/4418/</guid>
-      <description>&lt;p&gt;最近一直在选择一款适合自己的笔记软件，最后确定在思源笔记和 Joplin 这两个上面，打算都长期试用一下，比较一下哪个更适合自己。&lt;/p&gt;
-&lt;h2 id=&#34;事情的起因&#34;&gt;事情的起因&lt;a href=&#34;#%E4%BA%8B%E6%83%85%E7%9A%84%E8%B5%B7%E5%9B%A0&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;思源笔记的升级是相当频繁，可是我却发现，每次 docker 升级后，数据都没有保存下来，只能从备份的数据里重新导入，找了一下原因，发现是映射的文件夹里面没有数据，于是就重新安装，发现按照网上的教程，安装后 跑不起来。经过一番摸索，总算是搞定了！&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>最近一直在选择一款适合自己的笔记软件，最后确定在思源笔记和 Joplin 这两个上面，打算都长期试用一下，比较一下哪个更适合自己。</p>
-<h2 id="事情的起因">事情的起因<a href="#%E4%BA%8B%E6%83%85%E7%9A%84%E8%B5%B7%E5%9B%A0">#</a></h2>
-<p>思源笔记的升级是相当频繁，可是我却发现，每次 docker 升级后，数据都没有保存下来，只能从备份的数据里重新导入，找了一下原因，发现是映射的文件夹里面没有数据，于是就重新安装，发现按照网上的教程，安装后 跑不起来。经过一番摸索，总算是搞定了！</p>
-<h2 id="成功部署的方法">成功部署的方法<a href="#%E6%88%90%E5%8A%9F%E9%83%A8%E7%BD%B2%E7%9A%84%E6%96%B9%E6%B3%95">#</a></h2>
-<p>关于如何在群晖上设置Docker等基础的教程，老刘就不再重复制造数据垃圾了，既然你能找到我这里，说明你也已经查了很多的资料了，部署的方法都大同小异，只需要注意以下两点就可以了。</p>
-<p>经过博友@<a href="https://laomai.org">老麦</a>的反馈，直接在Container Manager上操作的话，第一步可以不做，直接用第二步即可。详细看下面老麦的评论。</p>
-<h3 id="第一在运行命令那处填写">第一，在运行命令那处填写：<a href="#%E7%AC%AC%E4%B8%80-%E5%9C%A8%E8%BF%90%E8%A1%8C%E5%91%BD%E4%BB%A4%E9%82%A3%E5%A4%84%E5%A1%AB%E5%86%99--">#</a></h3>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"> &lt;s&gt;-workspace /siyuan/workspace/&lt;/s&gt;
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>经过老刘的测试，最新版的思源，只能用上面的这句命令，用别的任何命令，群晖的Docker都会重复重启。</p>
-<h3 id="第二储存空间设置">第二，储存空间设置</h3>
-<p><a href="#%E7%AC%AC%E4%BA%8C%E5%82%A8%E5%AD%98%E7%A9%BA%E9%97%B4%E8%AE%BE%E7%BD%AE-%E7%AC%AC%E4%BA%8C%E5%82%A8%E5%AD%98%E7%A9%BA%E9%97%B4%E8%AE%BE%E7%BD%AEfigure-classwp-block-image">#</a></p>
-<p><img loading="lazy" src="https://cdn.staticaly.com/gh/ewader/img@master/20230701/xxx.6lnukqsan6c0.webp"></p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;span class=&#34;hljs-regexp&#34;&gt;/Home/&lt;/span&gt;siyuan
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>以前的教程都是把群晖本地的文件夹映射到Docker的siyuan目录，现在看了是不正确的，这个目录如果填写不正确，思源的Docker可以正常启动，但是升级后，数据都会全部删除，因为没有正确的映射到本地文件夹。<br />这样就可以运行起来了。</p>
-]]></content:encoded>
+      <description>&lt;p&gt;最近一直在选择一款适合自己的笔记软件，最后确定在思源笔记和 Joplin 这两个上面，打算都长期试用一下，比较一下哪个更适合自己。&lt;/p&gt;&#xA;&lt;h2 id=&#34;事情的起因&#34;&gt;事情的起因&lt;a href=&#34;#%E4%BA%8B%E6%83%85%E7%9A%84%E8%B5%B7%E5%9B%A0&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;思源笔记的升级是相当频繁，可是我却发现，每次 docker 升级后，数据都没有保存下来，只能从备份的数据里重新导入，找了一下原因，发现是映射的文件夹里面没有数据，于是就重新安装，发现按照网上的教程，安装后 跑不起来。经过一番摸索，总算是搞定了！&lt;/p&gt;&#xA;&lt;h2 id=&#34;成功部署的方法&#34;&gt;成功部署的方法&lt;a href=&#34;#%E6%88%90%E5%8A%9F%E9%83%A8%E7%BD%B2%E7%9A%84%E6%96%B9%E6%B3%95&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;关于如何在群晖上设置Docker等基础的教程，老刘就不再重复制造数据垃圾了，既然你能找到我这里，说明你也已经查了很多的资料了，部署的方法都大同小异，只需要注意以下两点就可以了。&lt;/p&gt;&#xA;&lt;p&gt;经过博友@&lt;a href=&#34;https://laomai.org&#34;&gt;老麦&lt;/a&gt;的反馈，直接在Container Manager上操作的话，第一步可以不做，直接用第二步即可。详细看下面老麦的评论。&lt;/p&gt;&#xA;&lt;h3 id=&#34;第一在运行命令那处填写&#34;&gt;第一，在运行命令那处填写：&lt;a href=&#34;#%E7%AC%AC%E4%B8%80-%E5%9C%A8%E8%BF%90%E8%A1%8C%E5%91%BD%E4%BB%A4%E9%82%A3%E5%A4%84%E5%A1%AB%E5%86%99--&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-auto&#34; data-lang=&#34;auto&#34;&gt; &amp;lt;s&amp;gt;-workspace /siyuan/workspace/&amp;lt;/s&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;经过老刘的测试，最新版的思源，只能用上面的这句命令，用别的任何命令，群晖的Docker都会重复重启。&lt;/p&gt;&#xA;&lt;h3 id=&#34;第二储存空间设置&#34;&gt;第二，储存空间设置&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;#%E7%AC%AC%E4%BA%8C%E5%82%A8%E5%AD%98%E7%A9%BA%E9%97%B4%E8%AE%BE%E7%BD%AE-%E7%AC%AC%E4%BA%8C%E5%82%A8%E5%AD%98%E7%A9%BA%E9%97%B4%E8%AE%BE%E7%BD%AEfigure-classwp-block-image&#34;&gt;#&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/ewader/img@master/20230701/xxx.6lnukqsan6c0.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

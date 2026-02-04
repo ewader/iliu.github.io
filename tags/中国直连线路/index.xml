@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>中国直连线路 on 老刘博客</title>
     <link>https://iliu.org/tags/%E4%B8%AD%E5%9B%BD%E7%9B%B4%E8%BF%9E%E7%BA%BF%E8%B7%AF/</link>
     <description>Recent content in 中国直连线路 on 老刘博客</description>
-    <image>
-      <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
-    </image>
-    <generator>Hugo -- 0.155.2</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 11 Oct 2020 02:29:24 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/%E4%B8%AD%E5%9B%BD%E7%9B%B4%E8%BF%9E%E7%BA%BF%E8%B7%AF/index.xml" rel="self" type="application/rss+xml" />
@@ -18,26 +13,7 @@
       <link>https://iliu.org/3283.html</link>
       <pubDate>Sun, 11 Oct 2020 02:29:24 +0000</pubDate>
       <guid>https://iliu.org/3283.html</guid>
-      <description>&lt;p&gt;在以前的文章（&lt;a href=&#34;https://tunan.org/1679.html&#34;&gt;推荐一款国外CDN——Nodecache，注册即送1T流量&lt;/a&gt;）中介绍过nodecache这个CDN服务商，当时是注册送1T的流量，后来由于觉得其速度有点慢，有时候又不稳定，所以就一直没有，后来通过这篇文字，陆续有了写aff送的流量，差不多一个月9G的样子，要说用在我这个小博客上市绰绰有余了，但是由于怕跑路就一直也没有用。&lt;/p&gt;
-&lt;p&gt;今天闲着没事，翻看自己以前的文字，发现了自己的这篇文章，于是，怀旧的登录上去看看，结果这个CDN服务商居然还没有跑路，哈哈！看了一下，里面的设置基本上和上海云盾的类似，有些还借鉴了又拍云的设置方式。又看了一下发现居然增加了中国直连线路。于是，我可耻的心动了。设置了一番，发现没有想想的那么美好，中国直连线路不是中国线路。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>在以前的文章（<a href="https://tunan.org/1679.html">推荐一款国外CDN——Nodecache，注册即送1T流量</a>）中介绍过nodecache这个CDN服务商，当时是注册送1T的流量，后来由于觉得其速度有点慢，有时候又不稳定，所以就一直没有，后来通过这篇文字，陆续有了写aff送的流量，差不多一个月9G的样子，要说用在我这个小博客上市绰绰有余了，但是由于怕跑路就一直也没有用。</p>
-<p>今天闲着没事，翻看自己以前的文字，发现了自己的这篇文章，于是，怀旧的登录上去看看，结果这个CDN服务商居然还没有跑路，哈哈！看了一下，里面的设置基本上和上海云盾的类似，有些还借鉴了又拍云的设置方式。又看了一下发现居然增加了中国直连线路。于是，我可耻的心动了。设置了一番，发现没有想想的那么美好，中国直连线路不是中国线路。</p>
-<h2 id="设置成中国直连线路后的ping值">设置成中国直连线路后的ping值</h2>
-<p><a href="https://tunan.org/wp-content/uploads/2020/10/6213ab646eb588c.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3284" src="https://tunan.org/wp-content/uploads/2020/10/6213ab646eb588c.jpg" alt="" width="614" height="183" srcset="https://tunan.org/wp-content/uploads/2020/10/6213ab646eb588c.jpg 614w, https://tunan.org/wp-content/uploads/2020/10/6213ab646eb588c-300x89.jpg 300w" sizes="(max-width: 614px) 100vw, 614px" /></a></p>
-<p>大概170左右，查了一下这个IP，是美国加利福尼亚的IP。不过实际用起来感觉还是挺流畅的。除了ping的值有点高以外。</p>
-<h2 id="于是切换成亚太ip后">于是切换成亚太IP后</h2>
-<p><a href="https://tunan.org/wp-content/uploads/2020/10/be32cbd25dd47e4.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3285" src="https://tunan.org/wp-content/uploads/2020/10/be32cbd25dd47e4.jpg" alt="" width="610" height="99" srcset="https://tunan.org/wp-content/uploads/2020/10/be32cbd25dd47e4.jpg 610w, https://tunan.org/wp-content/uploads/2020/10/be32cbd25dd47e4-300x49.jpg 300w" sizes="(max-width: 610px) 100vw, 610px" /></a></p>
-<p>ping值降到了60，但是不稳定，有超时的现象。</p>
-<h2 id="里面的设置还是挺丰富的支持防护cc以及waf防火墙">里面的设置还是挺丰富的，支持防护CC以及waf防火墙</h2>
-<p><a href="https://tunan.org/wp-content/uploads/2020/10/fca569fbd8b732d.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3286" src="https://tunan.org/wp-content/uploads/2020/10/fca569fbd8b732d.jpg" alt="" width="988" height="598" srcset="https://tunan.org/wp-content/uploads/2020/10/fca569fbd8b732d.jpg 988w, https://tunan.org/wp-content/uploads/2020/10/fca569fbd8b732d-300x182.jpg 300w, https://tunan.org/wp-content/uploads/2020/10/fca569fbd8b732d-768x465.jpg 768w" sizes="(max-width: 988px) 100vw, 988px" /></a></p>
-<h2 id="有兴趣的朋友可以试试看">有兴趣的朋友可以试试看</h2>
-<p>目前也运行了一年多的时间了吧，估计不会跑路了，作为日常使用一下下还是可以的，谁让没有备案不能用国内的CDN呢！凑合着用吧，比裸奔心理安慰一些些！</p>
-<h2 id="注册地址">注册地址：</h2>
-<p>可以走一下我的AFF,让我多一些些流量。?</p>
-<p><a href="https://console-api.nodecache.com/f?aff=4BLOd3">https://console-api.nodecache.com/f?aff=4BLOd3</a></p>
-<p> </p>
-<p>貌似不再送流量了…..</p>
-]]></content:encoded>
+      <description>&lt;p&gt;在以前的文章（&lt;a href=&#34;https://tunan.org/1679.html&#34;&gt;推荐一款国外CDN——Nodecache，注册即送1T流量&lt;/a&gt;）中介绍过nodecache这个CDN服务商，当时是注册送1T的流量，后来由于觉得其速度有点慢，有时候又不稳定，所以就一直没有，后来通过这篇文字，陆续有了写aff送的流量，差不多一个月9G的样子，要说用在我这个小博客上市绰绰有余了，但是由于怕跑路就一直也没有用。&lt;/p&gt;&#xA;&lt;p&gt;今天闲着没事，翻看自己以前的文字，发现了自己的这篇文章，于是，怀旧的登录上去看看，结果这个CDN服务商居然还没有跑路，哈哈！看了一下，里面的设置基本上和上海云盾的类似，有些还借鉴了又拍云的设置方式。又看了一下发现居然增加了中国直连线路。于是，我可耻的心动了。设置了一番，发现没有想想的那么美好，中国直连线路不是中国线路。&lt;/p&gt;&#xA;&lt;h2 id=&#34;设置成中国直连线路后的ping值&#34;&gt;设置成中国直连线路后的ping值&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/10/6213ab646eb588c.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;大概170左右，查了一下这个IP，是美国加利福尼亚的IP。不过实际用起来感觉还是挺流畅的。除了ping的值有点高以外。&lt;/p&gt;&#xA;&lt;h2 id=&#34;于是切换成亚太ip后&#34;&gt;于是切换成亚太IP后&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/10/be32cbd25dd47e4.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;ping值降到了60，但是不稳定，有超时的现象。&lt;/p&gt;&#xA;&lt;h2 id=&#34;里面的设置还是挺丰富的支持防护cc以及waf防火墙&#34;&gt;里面的设置还是挺丰富的，支持防护CC以及waf防火墙&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/10/fca569fbd8b732d.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

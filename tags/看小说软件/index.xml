@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>看小说软件 on 老刘博客</title>
     <link>https://iliu.org/tags/%E7%9C%8B%E5%B0%8F%E8%AF%B4%E8%BD%AF%E4%BB%B6/</link>
     <description>Recent content in 看小说软件 on 老刘博客</description>
-    <image>
-      <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
-    </image>
-    <generator>Hugo -- 0.155.2</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 20 Jul 2019 07:40:34 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/%E7%9C%8B%E5%B0%8F%E8%AF%B4%E8%BD%AF%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
@@ -18,30 +13,7 @@
       <link>https://iliu.org/2533.html</link>
       <pubDate>Sat, 20 Jul 2019 07:40:34 +0000</pubDate>
       <guid>https://iliu.org/2533.html</guid>
-      <description>&lt;p&gt;我们知道手机上看书最大的糟点是毁眼和广告。毁眼就不说了，这个要么少看，要么戴上防蓝光眼镜然后少看，广告可就是太烦人了，那铺天盖地的，不给你弹各遍是誓不罢休的。官方的一些APP是没有广告，但是要钱啊，有没有一款既不要钱又没有广告的看书app呢，还真有。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>我们知道手机上看书最大的糟点是毁眼和广告。毁眼就不说了，这个要么少看，要么戴上防蓝光眼镜然后少看，广告可就是太烦人了，那铺天盖地的，不给你弹各遍是誓不罢休的。官方的一些APP是没有广告，但是要钱啊，有没有一款既不要钱又没有广告的看书app呢，还真有。</p>
-<h2 id="阅读app的特点">阅读APP的特点</h2>
-<ul>
-<li>阅读是一款提供网络文学搜索的工具，为广大网络文学爱好者提供一种方便、快捷舒适的试读体验。</li>
-<li>自定义书源，一切尽有可能。</li>
-<li>本软件为开源软件,没有上架Google Play,没有在任何地方售卖,如果想支持我请通过软件里的捐赠,不要在任何地方购买!</li>
-<li>关注公众号 开源阅读软件 获取支持<figure id="2531" class="content-img-box "></li>
-</ul>
-<p><img decoding="async" id="C5A7B659" class="po-img-big" src="https://tunan.org/wp-content/uploads/2019/07/119825ded833ec.jpg" alt="推荐一个手机看书的app，阅读app" /> <figcaption class="addDesn"></figcaption></figure></p>
-<p>这是一款开源软件，所以安全性还是比较又保证的，毕竟如果有病毒或者后门的，是会被大神们发现的。软件源很丰富，还可以自定义书源。最重要的是没有广告，没有广告，没有广告。</p>
-<h2 id="书源制作说明">书源制作说明</h2>
-<ul>
-<li>书源规则基于HTML标记,如class,id,tag等</li>
-<li>想要写规则先要打开网页源代码,在里面找到想要获取内容对应的标签,</li>
-<li>Chrome可以在网页上右击点击检查可以方便的查看标签</li>
-</ul>
-<p>具体可以参照，<a href="https://gedoor.github.io/MyBookshelf/sourcerule.html" target="_blank" rel="noopener noreferrer"><a href="https://gedoor.github.io/MyBookshelf/sourcerule.html">https://gedoor.github.io/MyBookshelf/sourcerule.html</a></a></p>
-<h2 id="下载最新版本">下载最新版本</h2>
-<ul>
-<li><a style="background-color: transparent; color: #1e87cb;" href="https://github.com/gedoor/MyBookshelf/releases/latest" target="_blank" rel="noopener noreferrer"><a href="https://github.com/gedoor/MyBookshelf/releases/latest">https://github.com/gedoor/MyBookshelf/releases/latest</a></a></li>
-</ul>
-<h2 id="本站下载"><span style="background-color: transparent;">本站下载</span></h2>
-]]></content:encoded>
+      <description>&lt;p&gt;我们知道手机上看书最大的糟点是毁眼和广告。毁眼就不说了，这个要么少看，要么戴上防蓝光眼镜然后少看，广告可就是太烦人了，那铺天盖地的，不给你弹各遍是誓不罢休的。官方的一些APP是没有广告，但是要钱啊，有没有一款既不要钱又没有广告的看书app呢，还真有。&lt;/p&gt;&#xA;&lt;h2 id=&#34;阅读app的特点&#34;&gt;阅读APP的特点&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;阅读是一款提供网络文学搜索的工具，为广大网络文学爱好者提供一种方便、快捷舒适的试读体验。&lt;/li&gt;&#xA;&lt;li&gt;自定义书源，一切尽有可能。&lt;/li&gt;&#xA;&lt;li&gt;本软件为开源软件,没有上架Google Play,没有在任何地方售卖,如果想支持我请通过软件里的捐赠,不要在任何地方购买!&lt;/li&gt;&#xA;&lt;li&gt;关注公众号 开源阅读软件 获取支持&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

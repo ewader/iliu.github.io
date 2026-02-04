@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>庆余年 on 老刘博客</title>
     <link>https://iliu.org/tags/%E5%BA%86%E4%BD%99%E5%B9%B4/</link>
     <description>Recent content in 庆余年 on 老刘博客</description>
-    <image>
-      <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
-    </image>
-    <generator>Hugo -- 0.155.2</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 23 Dec 2019 00:30:59 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/%E5%BA%86%E4%BD%99%E5%B9%B4/index.xml" rel="self" type="application/rss+xml" />
@@ -18,13 +13,7 @@
       <link>https://iliu.org/2950.html</link>
       <pubDate>Mon, 23 Dec 2019 00:30:59 +0000</pubDate>
       <guid>https://iliu.org/2950.html</guid>
-      <description>&lt;p&gt;这段时间博客的更新不正常，前段时间叶忠文博客还戏谑的留言说是不是要停更了。其实这一切都是因为，那几天有空都在看小说，就和老张折腾NAS没有时间更新博客一样。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>这段时间博客的更新不正常，前段时间叶忠文博客还戏谑的留言说是不是要停更了。其实这一切都是因为，那几天有空都在看小说，就和老张折腾NAS没有时间更新博客一样。</p>
-<p>事情起因是这样的，在老猫的的TG群里有人发了一个《庆余年》的在线网址，然后看了一两集，勾起了看这部戏的欲望。奈何一是电视剧没有完结，二是也仅仅是第一季，所以干脆去把这部小说在重温了一下，结果一发不可收拾了，小说将近380万字，看的那个辛苦。以至于，空余的时间都花在这部小说上了。</p>
-<p>好在，花了这么几天的时间，终于看完了，前面看到较为仔细，后面感觉作者就为了装B而装逼了反而看到快了起来。</p>
-<p>小说毕竟是小说，看完后除了头昏脑涨，也没收获什么。反而丢了其他的。所以，以后还是少看吧。</p>
-<p><a href="https://tunan.org/wp-content/uploads/2019/12/94f6d7e04a4d452.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2951" src="https://tunan.org/wp-content/uploads/2019/12/94f6d7e04a4d452.jpg" alt="" width="300" height="400" srcset="https://tunan.org/wp-content/uploads/2019/12/94f6d7e04a4d452.jpg 300w, https://tunan.org/wp-content/uploads/2019/12/94f6d7e04a4d452-225x300.jpg 225w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
-]]></content:encoded>
+      <description>&lt;p&gt;这段时间博客的更新不正常，前段时间叶忠文博客还戏谑的留言说是不是要停更了。其实这一切都是因为，那几天有空都在看小说，就和老张折腾NAS没有时间更新博客一样。&lt;/p&gt;&#xA;&lt;p&gt;事情起因是这样的，在老猫的的TG群里有人发了一个《庆余年》的在线网址，然后看了一两集，勾起了看这部戏的欲望。奈何一是电视剧没有完结，二是也仅仅是第一季，所以干脆去把这部小说在重温了一下，结果一发不可收拾了，小说将近380万字，看的那个辛苦。以至于，空余的时间都花在这部小说上了。&lt;/p&gt;&#xA;&lt;p&gt;好在，花了这么几天的时间，终于看完了，前面看到较为仔细，后面感觉作者就为了装B而装逼了反而看到快了起来。&lt;/p&gt;&#xA;&lt;p&gt;小说毕竟是小说，看完后除了头昏脑涨，也没收获什么。反而丢了其他的。所以，以后还是少看吧。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2019/12/94f6d7e04a4d452.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

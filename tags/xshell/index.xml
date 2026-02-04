@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Xshell on 老刘博客</title>
     <link>https://iliu.org/tags/xshell/</link>
     <description>Recent content in Xshell on 老刘博客</description>
-    <image>
-      <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
-    </image>
-    <generator>Hugo -- 0.155.2</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 15 Jun 2019 07:35:45 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/xshell/index.xml" rel="self" type="application/rss+xml" />
@@ -18,59 +13,7 @@
       <link>https://iliu.org/1712.html</link>
       <pubDate>Sat, 15 Jun 2019 07:35:45 +0000</pubDate>
       <guid>https://iliu.org/1712.html</guid>
-      <description>&lt;p&gt;xshell这个货更新额速度真快，隔不了几天就发布一个新版本，这不，跋涉者刚打开邮箱，就看到又有更新了。&lt;/p&gt;
-&lt;p&gt;&lt;strong style=&#34;color: rgb(31, 73, 125);&#34;&gt;Software Release Notes&lt;/strong&gt;&lt;span style=&#34;color: rgb(31, 73, 125);&#34;&gt; &lt;/span&gt; &lt;/p&gt;
-&lt;p&gt;Release Date: June 05, 2019&lt;/p&gt;
-&lt;p&gt;With last week’s update, we’ve introduced Experimental Features into our software. Experimental Features allow you to test and provide feedback on features that have not officially been implemented. &lt;a href=&#34;http://sendy.netsarang.com/sendy/l/XMxIa0aV2mhqm8xhxpYA2Q/kWhzb9PxreYlCH892gA3n82A/pTxjqwVQeGaDPLuiZOnlfA&#34; target=&#34;_blank&#34; style=&#34;color: rgb(24, 43, 74);&#34; rel=&#34;noopener noreferrer&#34;&gt;Read more about Experimental Features and how to opt in here.&lt;/a&gt;&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>xshell这个货更新额速度真快，隔不了几天就发布一个新版本，这不，跋涉者刚打开邮箱，就看到又有更新了。</p>
-<p><strong style="color: rgb(31, 73, 125);">Software Release Notes</strong><span style="color: rgb(31, 73, 125);"> </span> </p>
-<p>Release Date: June 05, 2019</p>
-<p>With last week’s update, we’ve introduced Experimental Features into our software. Experimental Features allow you to test and provide feedback on features that have not officially been implemented. <a href="http://sendy.netsarang.com/sendy/l/XMxIa0aV2mhqm8xhxpYA2Q/kWhzb9PxreYlCH892gA3n82A/pTxjqwVQeGaDPLuiZOnlfA" target="_blank" style="color: rgb(24, 43, 74);" rel="noopener noreferrer">Read more about Experimental Features and how to opt in here.</a></p>
-<p>If you haven’t already, make sure to update your clients. Your clients should have already prompted you for an update. If not, you can manually check for updates through the Help menu. Release notes are as follows:</p>
-<p><strong>Xshell 6 </strong>(Build 0125)</p>
-<ul>
-<li>ADD: Ability to use XFTP as the protocol for drag/dropping of files.</li>
-<li>ADD: Experimental Features</li>
-<li><a href="http://sendy.netsarang.com/sendy/l/XMxIa0aV2mhqm8xhxpYA2Q/zg9qgAvcfaCQpy8dZMzYMw/pTxjqwVQeGaDPLuiZOnlfA" target="_blank" style="color: rgb(24, 43, 74);" rel="noopener noreferrer">ADD: OpenSSH CA Support (Experimental Feature)</a></li>
-<li>ADD: Real Windows CMD Support (Experimental Feature)</li>
-<li>ADD: Recent Sessions List (Experimental Feature)</li>
-<li>ADD: Remote command of the SSH protocol</li>
-<li>MOD: Improvements to the Local Shell’s ssh command’s parameter values (help ssh)</li>
-<li>MOD: Removed character limit for Keyboard Interactive fields</li>
-<li>MOD: Xshell checks for write permissions when changing data folder path</li>
-<li>FIX: Added Ctrl+U(=Ctrl+Home) key values as kill signals</li>
-<li>FIX: Highlights of regular expressions no applying to certain strings</li>
-<li>FIX: Host name not recognized when connecting from the Local Shell</li>
-<li>FIX: Quick commands are mistakenly shown in simple view mode</li>
-<li>FIX: Reconnect feature not functioning after disconnecting from a SERIAL connection</li>
-<li>FIX: The Tab Menu’s Show Status Icon option does not remain checked</li>
-<li>FIX: The user key option (-i) is only applied when opening a new window</li>
-<li>FIX: Unable to re-add forwarding rules that were once removed from the Tunneling Pane </li>
-</ul>
-<p>For a complete Xshell update history, check out our <a href="http://sendy.netsarang.com/sendy/l/XMxIa0aV2mhqm8xhxpYA2Q/A8j10Ljqz6u892BrcgUDsAuw/pTxjqwVQeGaDPLuiZOnlfA" target="_blank" style="color: rgb(24, 43, 74);" rel="noopener noreferrer">website</a>.</p>
-<p>翻译了一下：</p>
-<p>在上周的更新中，我们在软件中引入了一些实验性的特性。实验性特性允许您对尚未正式实现的特性进行测试并提供反馈。阅读更多关于实验功能和如何选择在这里。<br>
-如果还没有，请确保更新您的客户端。您的客户应该已经提示您更新了。如果没有，您可以通过帮助菜单手动检查更新。发布说明如下:</p>
-<p>Xshell 6(构建0125)</p>
-<p>添加:能够使用XFTP作为拖放文件的协议。</p>
-<p>添加:实验功能</p>
-<p>添加:OpenSSH CA支持(实验特性)</p>
-<p>添加:真正的Windows CMD支持(实验特性)</p>
-<p>添加:最近的会话列表(实验特性)</p>
-<p>添加:SSH协议的远程命令</p>
-<p>MOD:改进本地Shell的ssh命令的参数值(帮助ssh)</p>
-<p>MOD:删除键盘交互字段的字符限制</p>
-<p>MOD: Xshell在更改数据文件夹路径时检查写权限</p>
-<p>修正:添加Ctrl+U(=Ctrl+Home)键值作为终止信号</p>
-<p>修正:正则表达式的高亮显示不适用于某些字符串</p>
-<p>修复:从本地Shell连接时无法识别主机名</p>
-<p>修正:快速命令错误地显示在简单视图模式</p>
-<p>修复:从串行连接断开后重新连接功能不正常</p>
-<p>修复:选项卡菜单的显示状态图标选项没有保持选中状态</p>
-<p>修正:user key选项(-i)只在打开新窗口时应用</p>
-<p>修复:无法重新添加从隧道窗格中删除的转发规则</p>
-<p>要了解完整的Xshell更新历史，请访问我们的网站。</p>
-]]></content:encoded>
+      <description>&lt;p&gt;xshell这个货更新额速度真快，隔不了几天就发布一个新版本，这不，跋涉者刚打开邮箱，就看到又有更新了。&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Software Release Notes&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt; &lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

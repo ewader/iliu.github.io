@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>百度小程序 on 老刘博客</title>
     <link>https://iliu.org/tags/%E7%99%BE%E5%BA%A6%E5%B0%8F%E7%A8%8B%E5%BA%8F/</link>
     <description>Recent content in 百度小程序 on 老刘博客</description>
-    <image>
-      <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
-    </image>
-    <generator>Hugo -- 0.155.2</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 31 Jul 2021 04:03:46 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/%E7%99%BE%E5%BA%A6%E5%B0%8F%E7%A8%8B%E5%BA%8F/index.xml" rel="self" type="application/rss+xml" />
@@ -18,13 +13,7 @@
       <link>https://iliu.org/3831.html</link>
       <pubDate>Sat, 31 Jul 2021 04:03:46 +0000</pubDate>
       <guid>https://iliu.org/3831.html</guid>
-      <description>&lt;p&gt;前几天有了根据主站镜缘轩做一个百度小程序的想法。因为，一直镜缘轩网站没有快速收录的选项。据百度说，弄了小程序就会有了，所以产生了这么一个想法。&lt;figure class=&#34;wp-block-image size-full&#34;&gt;&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>前几天有了根据主站镜缘轩做一个百度小程序的想法。因为，一直镜缘轩网站没有快速收录的选项。据百度说，弄了小程序就会有了，所以产生了这么一个想法。<figure class="wp-block-image size-full"></p>
-<p><a href="https://tunan.org/wp-content/uploads/2021/03/5c1a8db89b41572.jpg"><img loading="lazy" decoding="async" width="669" height="459" src="https://tunan.org/wp-content/uploads/2021/03/5c1a8db89b41572.jpg" alt="" class="wp-image-3705" srcset="https://tunan.org/wp-content/uploads/2021/03/5c1a8db89b41572.jpg 669w, https://tunan.org/wp-content/uploads/2021/03/5c1a8db89b41572-300x206.jpg 300w, https://tunan.org/wp-content/uploads/2021/03/5c1a8db89b41572-220x150.jpg 220w" sizes="(max-width: 669px) 100vw, 669px" /></a></figure></p>
-<p>可是实际的体验缺真的不好</p>
-<p>提交了几次都审核不过，其中有页面空白，不过；文章里的图片有二维码，不过；小程序里的图片指向的是网页，不过；好咱改还不行。最后来一个，文章内链有链接，以有诱导用户打开小程序以外的网页为由，继续审核不过。</p>
-<p>这么一看，不是我的内容有问题，而是百度小程序的吃相太难看了。闭环的厉害，生怕出去一丁点的流量。那么只好放弃了。</p>
-]]></content:encoded>
+      <description>&lt;p&gt;前几天有了根据主站镜缘轩做一个百度小程序的想法。因为，一直镜缘轩网站没有快速收录的选项。据百度说，弄了小程序就会有了，所以产生了这么一个想法。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2021/03/5c1a8db89b41572.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;可是实际的体验缺真的不好&lt;/p&gt;&#xA;&lt;p&gt;提交了几次都审核不过，其中有页面空白，不过；文章里的图片有二维码，不过；小程序里的图片指向的是网页，不过；好咱改还不行。最后来一个，文章内链有链接，以有诱导用户打开小程序以外的网页为由，继续审核不过。&lt;/p&gt;&#xA;&lt;p&gt;这么一看，不是我的内容有问题，而是百度小程序的吃相太难看了。闭环的厉害，生怕出去一丁点的流量。那么只好放弃了。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

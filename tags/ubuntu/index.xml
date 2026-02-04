@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ubuntu on 老刘博客</title>
     <link>https://iliu.org/tags/ubuntu/</link>
     <description>Recent content in Ubuntu on 老刘博客</description>
-    <image>
-      <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
-    </image>
-    <generator>Hugo -- 0.155.2</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 27 May 2022 07:29:40 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
@@ -18,111 +13,28 @@
       <link>https://iliu.org/4126.html</link>
       <pubDate>Fri, 27 May 2022 07:29:40 +0000</pubDate>
       <guid>https://iliu.org/4126.html</guid>
-      <description>&lt;p&gt;随着云业务的蓬勃发展，很多独立博客的博主，个人网站站长都抛弃了曾经的虚拟主机而选择VPS，vps相对于虚拟主机来说，容量更大，可玩性更高；同时，要对个人的要求也随之更高。玩VPS首先遇到的就是系统的选择问题。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>随着云业务的蓬勃发展，很多独立博客的博主，个人网站站长都抛弃了曾经的虚拟主机而选择VPS，vps相对于虚拟主机来说，容量更大，可玩性更高；同时，要对个人的要求也随之更高。玩VPS首先遇到的就是系统的选择问题。</p>
-<h2 class="wp-block-heading" id="windows系统">Windows系统</h2>
-<p>大多数的站长第一次选择系统的时候都是喜欢用windows系统，毕竟熟悉，上手快。但是Windows服务器系统先天上占用资源比较大，系统不稳定，导致获得不了良好的用户体验。同样1H1G配置的vps，运行最新版本的debian11，然后装个博客系统，是一点问题都没有，但是你要是想要运行Windows服务器，只能选择低版本的了。所以，用了一段时间后，自然就淘汰不用了。</p>
-<h2 class="wp-block-heading" id="linux系统">Linux系统</h2>
-<p>Linux系统是开源系统，受到所有开发者的共同监督，已经是非常成熟的服务器系统，并且拥有着一套完整的权限机制，安全性与稳定性都很高。只是上手有点门槛。不过，随着各种面板技术的发展，目前这个已经不是什么问题。那么Linux系统那么多，到底选择哪种呢？<figure class="wp-block-image size-full"></p>
-<p><img loading="lazy" decoding="async" width="800" height="320" src="https://tunan.org/wp-content/uploads/2022/05/2288ffcb6a9ebbe26f1bc0cc09130f5b.png" alt="" class="wp-image-4128" /> </figure></p>
-<h3 class="wp-block-heading" id="centos">centos</h3>
-<p>这个系统在国内可以说是服务器的首选。可惜去年官方已经不在继续维护这个系统了，目前最高的版本是centos8.0，目前官方已经不再维护，centos7.6由于用的人更多，目前还在过度的时间内，但是也时日无多了。所以，用这个系统的童鞋，还是换成别的系统吧。老刘曾用过腾讯云里腾讯自己以centos8为蓝本开发的系统，体验起来还是可以的。如果真是centos的铁粉，不妨可以试试腾讯的这个系统。<figure class="wp-block-image size-full"></p>
-<p><img loading="lazy" decoding="async" width="554" height="369" src="https://tunan.org/wp-content/uploads/2022/05/2a3092a9b86bc6425fbaa9ff49f79a36.png" alt="" class="wp-image-4129" /> </figure></p>
-<h3 class="wp-block-heading" id="debain">debain</h3>
-<p>这个也是老牌的服务器系统了。作为一个具有悠久历史的社区维护的操作系统。生命力还是没有问题的。据王志勇大佬的测试，使用Debian系统的php要比其他的系统来说，速度更快。老刘感觉，这个快可能更多的是测试的结果，实际体验下来，感觉相差不大。Debian系统稳定，软件丰富。自从centos宣布停止维护后，老刘已经把所有的VPS的系统都换成Debian了。<figure class="wp-block-image size-full"></p>
-<p><img loading="lazy" decoding="async" width="641" height="480" src="https://tunan.org/wp-content/uploads/2022/05/bd8b867419bc6c482857a4b0e04fb5bd.jpeg" alt="" class="wp-image-4130" /> </figure></p>
-<p>另外一个让老刘喜欢用Debian的原因是，Debian11的防火墙使用起来非常的简单，而别的系统大多是用的iptables。比如我们要放行一个端口，Debian只需用如下的命令：</p>
-<pre class="wp-block-code"><code>ufw allow 666</code></pre>
-<p>而iptables写法就很复杂了：</p>
-<pre class="wp-block-code"><code>iptables -I INPUT -p tcp --dport 8000 -j ACCEPT</code></pre>
-<h3 class="wp-block-heading" id="ubuntu">Ubuntu</h3>
-<p>是基于Debian二次开发的产物，在Linux桌面操作系统中，Ubuntu绝对是老大的存在。很多公司开发的软件，都是基于Ubuntu来开发的。服务器版也还可以，不过老刘还是习惯了使用Debian。</p>
-<p>至于其他的小众操作系统，使用的人少，遇到问题找答案都不容易，不用也罢</p>
-]]></content:encoded>
+      <description>&lt;p&gt;随着云业务的蓬勃发展，很多独立博客的博主，个人网站站长都抛弃了曾经的虚拟主机而选择VPS，vps相对于虚拟主机来说，容量更大，可玩性更高；同时，要对个人的要求也随之更高。玩VPS首先遇到的就是系统的选择问题。&lt;/p&gt;&#xA;&lt;h2 class=&#34;wp-block-heading&#34; id=&#34;windows系统&#34;&gt;Windows系统&lt;/h2&gt;&#xA;&lt;p&gt;大多数的站长第一次选择系统的时候都是喜欢用windows系统，毕竟熟悉，上手快。但是Windows服务器系统先天上占用资源比较大，系统不稳定，导致获得不了良好的用户体验。同样1H1G配置的vps，运行最新版本的debian11，然后装个博客系统，是一点问题都没有，但是你要是想要运行Windows服务器，只能选择低版本的了。所以，用了一段时间后，自然就淘汰不用了。&lt;/p&gt;&#xA;&lt;h2 class=&#34;wp-block-heading&#34; id=&#34;linux系统&#34;&gt;Linux系统&lt;/h2&gt;&#xA;&lt;p&gt;Linux系统是开源系统，受到所有开发者的共同监督，已经是非常成熟的服务器系统，并且拥有着一套完整的权限机制，安全性与稳定性都很高。只是上手有点门槛。不过，随着各种面板技术的发展，目前这个已经不是什么问题。那么Linux系统那么多，到底选择哪种呢？&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;h3 class=&#34;wp-block-heading&#34; id=&#34;centos&#34;&gt;centos&lt;/h3&gt;&#xA;&lt;p&gt;这个系统在国内可以说是服务器的首选。可惜去年官方已经不在继续维护这个系统了，目前最高的版本是centos8.0，目前官方已经不再维护，centos7.6由于用的人更多，目前还在过度的时间内，但是也时日无多了。所以，用这个系统的童鞋，还是换成别的系统吧。老刘曾用过腾讯云里腾讯自己以centos8为蓝本开发的系统，体验起来还是可以的。如果真是centos的铁粉，不妨可以试试腾讯的这个系统。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>正式使用Manjaro系统</title>
       <link>https://iliu.org/4036.html</link>
       <pubDate>Mon, 17 Jan 2022 00:24:40 +0000</pubDate>
       <guid>https://iliu.org/4036.html</guid>
-      <description>&lt;p&gt;昨天把开发python 的这个电脑也更换成manjaro这个系统了。经过一段时间的试用，感觉这个系统确实是一个使用起来舒服有稳定的系统。&lt;figure class=&#34;wp-block-image size-full&#34;&gt;&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>昨天把开发python 的这个电脑也更换成manjaro这个系统了。经过一段时间的试用，感觉这个系统确实是一个使用起来舒服有稳定的系统。<figure class="wp-block-image size-full"></p>
-<p><img loading="lazy" decoding="async" width="1920" height="1080" src="https://tunan.org/wp-content/uploads/2022/01/87269d5350708c3.png" alt="" class="wp-image-4038" srcset="https://tunan.org/wp-content/uploads/2022/01/87269d5350708c3.png 1920w, https://tunan.org/wp-content/uploads/2022/01/87269d5350708c3-768x432.png 768w, https://tunan.org/wp-content/uploads/2022/01/87269d5350708c3-1536x864.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /> </figure></p>
-<h2 class="wp-block-heading" id="manjaro之于ubuntu">manjaro之于ubuntu</h2>
-<p>以前在桌面上选择LINUX的时候首选是ubuntu,这个系统的优点是用户多，大的方面比较稳定，运行也比较流畅，很多软件都是以ubuntu的格式来开发的。在我的电脑上有一个很烦人的问题，就是不能保存电脑的亮度，调整完之后，下次一重新启动，亮度又是最大了。虽然通过代码可以改，但是改后还是有一丢小问题的，强迫症有点。另外就是安装软件的时候，软件中心启动的慢，有时候甚至安装的界面都出不来。基于这么几点，优点不太满意。</p>
-<h2 class="wp-block-heading" id="manjaro之于deepinuos">manjaro之于deepin/uos</h2>
-<p>deepin和uos算是国产系统里的佼佼者了，我遇到的问题是，deepin偶会卡死，毫无征兆的那种，忽然桌面一卡，整个都不能用了。UOS刚开始也有这毛病，最新版貌似解决了这个问题。另外就是蓝牙有问题，死活连不上鼠标。</p>
-<p>deepin系我最喜欢的是它的终端，设计的非常人性化，特别是连接远程服务器里面，我用过的终端里，深度终端是最好用的。</p>
-<p>在就是UOS的系统资源占用率有点高，比如你开上一个浏览器，然后什么都不动，基本CPU会在5-8%的占用，要是浏览点网页，还会更高，所以使用的时候，风扇就会呼呼的转。笔记本在不用电源的情况下，充满电只能有3个小时左右（manjaro基本上能用5个多小时），还是挺费电的。<figure class="wp-block-image size-full"></p>
-<p><img loading="lazy" decoding="async" width="999" height="785" src="https://tunan.org/wp-content/uploads/2022/01/58ce6892b8bdff4.png" alt="" class="wp-image-4037" srcset="https://tunan.org/wp-content/uploads/2022/01/58ce6892b8bdff4.png 999w, https://tunan.org/wp-content/uploads/2022/01/58ce6892b8bdff4-768x603.png 768w" sizes="(max-width: 999px) 100vw, 999px" /> <figcaption>manjaro占用，开着edeg还有wine版的微信</figcaption></figure></p>
-<h2 class="wp-block-heading" id="manjaro的缺点">manjaro的缺点</h2>
-<p>默认没有中文输入法，需要自己安装。wps字体非常的模糊。软件商店没有deepin这种的直观。</p>
-]]></content:encoded>
+      <description>&lt;p&gt;昨天把开发python 的这个电脑也更换成manjaro这个系统了。经过一段时间的试用，感觉这个系统确实是一个使用起来舒服有稳定的系统。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;h2 class=&#34;wp-block-heading&#34; id=&#34;manjaro之于ubuntu&#34;&gt;manjaro之于ubuntu&lt;/h2&gt;&#xA;&lt;p&gt;以前在桌面上选择LINUX的时候首选是ubuntu,这个系统的优点是用户多，大的方面比较稳定，运行也比较流畅，很多软件都是以ubuntu的格式来开发的。在我的电脑上有一个很烦人的问题，就是不能保存电脑的亮度，调整完之后，下次一重新启动，亮度又是最大了。虽然通过代码可以改，但是改后还是有一丢小问题的，强迫症有点。另外就是安装软件的时候，软件中心启动的慢，有时候甚至安装的界面都出不来。基于这么几点，优点不太满意。&lt;/p&gt;&#xA;&lt;h2 class=&#34;wp-block-heading&#34; id=&#34;manjaro之于deepinuos&#34;&gt;manjaro之于deepin/uos&lt;/h2&gt;&#xA;&lt;p&gt;deepin和uos算是国产系统里的佼佼者了，我遇到的问题是，deepin偶会卡死，毫无征兆的那种，忽然桌面一卡，整个都不能用了。UOS刚开始也有这毛病，最新版貌似解决了这个问题。另外就是蓝牙有问题，死活连不上鼠标。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ubuntu20.04开机亮度最大的解决方法及输入法设置</title>
       <link>https://iliu.org/3951.html</link>
       <pubDate>Mon, 20 Dec 2021 09:20:38 +0000</pubDate>
       <guid>https://iliu.org/3951.html</guid>
-      <description>&lt;p&gt;从很久以前UBUNTU就有一个毛病，有些电脑安装后，开机后屏幕的亮度会是最大。据说从很低的一个版本都有这样bug存在，但是不知道为啥官方一直都没有修复。不过网上也有很多的教程，试用了一下，有些有用，有些没用，直到扒到了一个很老的文章，上面记载的一个很简单的方法，却解决了这样一个问题。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>从很久以前UBUNTU就有一个毛病，有些电脑安装后，开机后屏幕的亮度会是最大。据说从很低的一个版本都有这样bug存在，但是不知道为啥官方一直都没有修复。不过网上也有很多的教程，试用了一下，有些有用，有些没用，直到扒到了一个很老的文章，上面记载的一个很简单的方法，却解决了这样一个问题。</p>
-<p>别的不说，直接上代码，照着做就行了：</p>
-<pre class="language-bash line-numbers"><code class="language-bash">sudo gedit /etc/default/grub
- 
-#将GRUB_CMDLINE_LINUX_DEFAULT="quiet"，替换为以下
-GRUB_CMDLINE_LINUX_DEFAULT="quiet acpi_osi=Linux cpi_backlight=vendor"
- 
-sudo update-grub</code> 最后一步一定要做。另外<code class="language-bash">GRUB_CMDLINE_LINUX_DEFAULT="quiet"可能是会多出几个单词，不影响不影响，就是这一行。</code></pre>
-<p>然后说说ubunut的输入法</p>
-<p>以前（十年前吧）的时候，linux下的输入法很难用，现在主流的输入法也都有了，比如搜狗，百度，讯飞等等。最近看了一下，发现已经不需要额外在安装其他的输入法了，用系统自带的中文输入法已经很好用了。</p>
-<p>系统自带的输入法是ibuslibpinyin，只需要简单的设置一下，就非常好用了。</p>
-<p>第一步：常规设置，如下图，根据个人的习惯来吧，老刘喜欢候选词以词频方式展示。</p>
-<img loading="lazy" decoding="async" class="alignnone size-full wp-image-3952" src="https://tunan.org/wp-content/uploads/2021/12/2021-12-20-17-15-27.png" alt="" width="607" height="755" /> 
-<p>第二步：拼音模式，勾选“启用云输入”</p>
-<img loading="lazy" decoding="async" class="alignnone size-full wp-image-3953" src="https://tunan.org/wp-content/uploads/2021/12/2021-12-20-17-19-08.png" alt="" width="600" height="759" /> 
-<p>第三步：用户词典，勾选全部</p>
-<img loading="lazy" decoding="async" class="alignnone size-full wp-image-3954" src="https://tunan.org/wp-content/uploads/2021/12/2021-12-20-17-19-30.png" alt="" width="609" height="764" /> 
-<p>第四步：重启</p>
-<p>至此，输入法使用起来基本上和在win10的微软拼音方便程度差不多了。</p>
-]]></content:encoded>
+      <description>&lt;p&gt;从很久以前UBUNTU就有一个毛病，有些电脑安装后，开机后屏幕的亮度会是最大。据说从很低的一个版本都有这样bug存在，但是不知道为啥官方一直都没有修复。不过网上也有很多的教程，试用了一下，有些有用，有些没用，直到扒到了一个很老的文章，上面记载的一个很简单的方法，却解决了这样一个问题。&lt;/p&gt;&#xA;&lt;p&gt;别的不说，直接上代码，照着做就行了：&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;然后说说ubunut的输入法&lt;/p&gt;&#xA;&lt;p&gt;以前（十年前吧）的时候，linux下的输入法很难用，现在主流的输入法也都有了，比如搜狗，百度，讯飞等等。最近看了一下，发现已经不需要额外在安装其他的输入法了，用系统自带的中文输入法已经很好用了。&lt;/p&gt;&#xA;&lt;p&gt;系统自带的输入法是ibuslibpinyin，只需要简单的设置一下，就非常好用了。&lt;/p&gt;&#xA;&lt;p&gt;第一步：常规设置，如下图，根据个人的习惯来吧，老刘喜欢候选词以词频方式展示。&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;第二步：拼音模式，勾选“启用云输入”&lt;/p&gt;</description>
     </item>
     <item>
       <title>升级到ubuntu9.10，无线网卡丢失的解决方法</title>
       <link>https://iliu.org/104.html</link>
       <pubDate>Tue, 17 Nov 2009 13:24:47 +0000</pubDate>
       <guid>https://iliu.org/104.html</guid>
-      <description>&lt;p&gt;综合网上的帖子，解决的方法有2&lt;br&gt;
-1为：本人ubuntu菜鸟，处女贴，大家多捧场。&lt;/p&gt;
-&lt;p&gt;我是ibm x40机器，系统在9.04的时候，不需要安装无线驱动，升级到了9.10后，发现无线网卡找不到了。&lt;/p&gt;
-&lt;p&gt;输入命令ifconfig，只能看到eth0和lo。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>综合网上的帖子，解决的方法有2<br>
-1为：本人ubuntu菜鸟，处女贴，大家多捧场。</p>
-<p>我是ibm x40机器，系统在9.04的时候，不需要安装无线驱动，升级到了9.10后，发现无线网卡找不到了。</p>
-<p>输入命令ifconfig，只能看到eth0和lo。</p>
-<p>输入命令ifconfig -a，能看到多了一个irda0，但这个应该是别的，红外之类的设备。</p>
-<p>上网找了好久，有个命令是sudo lshw -C network，终于看到了无线网卡，显示为UNCLAIMED，确认了网卡并没有坏掉：</p>
-<p>*-network:1 UNCLAIMED</p>
-<p>description: Wireless interface</p>
-<p>product: AR5212 802.11abg NIC</p>
-<p>vendor: Atheros Communications Inc.</p>
-<p>。。。。。。</p>
-<p>我也不知道啥叫UNCLAIMED，反正又谷歌百度了很久，大概就是驱动没安装成功，过程略。</p>
-<p>反正最后，终于试成功了，过程如下：</p>
-<p>1.到这个网址上下载hal版本的madwifi，一定要是hal版本，别的版本我没试成功，编译报错。</p>
-<p><a href="http://snapshots.madwifi-project.org/ma">http://snapshots.madwifi-project.org/ma</a> … -0.10.5.6/</p>
-<p>2.下载下来后，解压，在解压的根目录编译</p>
-<p>命令：make</p>
-<p>安装，命令：sudo make install</p>
-<p>一般会编译几分钟，如果缺了什么库文件，会提示，就先把依赖的库安装上，我的没有提示。</p>
-<p>3.可能现在需要重启，我安装后重启了一下，然后，命令：</p>
-<p>sudo ifconfig ath0 up</p>
-<p>sudo ifconfig ath0 dhcp</p>
-<p>4.我用的是wicd 2.0管理网络，如果你用别的或者ubuntu默认的，就不用跟我做了，自己配置吧。</p>
-<p>我配置了一下，选中第四个Preferences，在General Setting标签上，</p>
-<p>有个Wireless interface的输入框，就第一个输入框，我写上了ath0，这是我的无线网卡设备名。</p>
-<p>配好以后，确定，刷新，无线出来了，n多无线信号，选自己的链接，就可以上网了。<br>
-2：我和你情况类似，升级之后系统把驱动放到blacklist里面了。只要把相关的黑名单删掉就行。具体操作你可以搜一下google.<br>
-希望有所帮助</p>]]></content:encoded>
+      <description>&lt;p&gt;综合网上的帖子，解决的方法有2&lt;br&gt;&#xA;1为：本人ubuntu菜鸟，处女贴，大家多捧场。&lt;/p&gt;&#xA;&lt;p&gt;我是ibm x40机器，系统在9.04的时候，不需要安装无线驱动，升级到了9.10后，发现无线网卡找不到了。&lt;/p&gt;&#xA;&lt;p&gt;输入命令ifconfig，只能看到eth0和lo。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

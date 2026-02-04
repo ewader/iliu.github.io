@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Http Host头漏洞 on 老刘博客</title>
     <link>https://iliu.org/tags/http-host%E5%A4%B4%E6%BC%8F%E6%B4%9E/</link>
     <description>Recent content in Http Host头漏洞 on 老刘博客</description>
-    <image>
-      <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
-    </image>
-    <generator>Hugo -- 0.155.2</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 14 Oct 2022 03:26:57 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/http-host%E5%A4%B4%E6%BC%8F%E6%B4%9E/index.xml" rel="self" type="application/rss+xml" />
@@ -18,26 +13,7 @@
       <link>https://iliu.org/4272.html</link>
       <pubDate>Fri, 14 Oct 2022 03:26:57 +0000</pubDate>
       <guid>https://iliu.org/4272.html</guid>
-      <description>&lt;p&gt;前几天，接到WJ打来的电话，说是网站上有一个漏洞需要处理，问在不在办公室，在的话他到办公室和我详谈。&lt;/p&gt;
-&lt;p&gt;由于疫情被封在家中，如实告诉了他。后来加了微信，发过来了一份他们系统扫描出来的漏洞。好家伙，还真不少嘞。又仔细一看，也就一个所谓的http host头攻击漏洞。百度上搜了一下，基本上都是绿盟科技的软件扫出来的，具体描述如下：&lt;figure class=&#34;wp-block-image size-full&#34;&gt;&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>前几天，接到WJ打来的电话，说是网站上有一个漏洞需要处理，问在不在办公室，在的话他到办公室和我详谈。</p>
-<p>由于疫情被封在家中，如实告诉了他。后来加了微信，发过来了一份他们系统扫描出来的漏洞。好家伙，还真不少嘞。又仔细一看，也就一个所谓的http host头攻击漏洞。百度上搜了一下，基本上都是绿盟科技的软件扫出来的，具体描述如下：<figure class="wp-block-image size-full"></p>
-<p><img loading="lazy" decoding="async" width="708" height="469" src="https://tunan.org/wp-content/uploads/2022/10/cb4364d70a67625.webp" alt="" class="wp-image-4273" /> </figure></p>
-<p>按照网上的教程很容易的就把这个漏洞修复了。</p>
-<pre class="wp-block-code"><code>server {
-        listen      8081;
-        server_name  ip1;
-        if ($http_Host !~* ip1|ip1:4433|域名1|域名1:4433)
-        {
-            return 403;
-        }
-...
-}
-</code></pre>
-<p>第二天，他又联系我百度小程序是不是在用，我告知在用，并告知他漏洞已经修复。他又打电话过来，询问如何保证用户信息的安全。我告诉他，首先使用的是腾讯云的云服务器，腾讯方面已经作了诸多的安全防护措施，第二，我们又使用了网络防火墙等技术，防止注入。第三，使用ssl对数据的传输进行加密。</p>
-<p>他不置可否，然后说，你解封之后在联系我吧。见面了详谈，我就很疑惑，漏洞也修复了，还有什么可详谈的呢?咨询了一下，可能是想要让做等保，这个真做不起。反正也没啥流量，最关键的是，不想和他们打交道，直接关站了事。</p>
-<p>我把决定告诉了他，以前回复的很及时，还很客气的用敬语的您来和我对话，这次不理我了……</p>
-]]></content:encoded>
+      <description>&lt;p&gt;前几天，接到WJ打来的电话，说是网站上有一个漏洞需要处理，问在不在办公室，在的话他到办公室和我详谈。&lt;/p&gt;&#xA;&lt;p&gt;由于疫情被封在家中，如实告诉了他。后来加了微信，发过来了一份他们系统扫描出来的漏洞。好家伙，还真不少嘞。又仔细一看，也就一个所谓的http host头攻击漏洞。百度上搜了一下，基本上都是绿盟科技的软件扫出来的，具体描述如下：&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;按照网上的教程很容易的就把这个漏洞修复了。&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;第二天，他又联系我百度小程序是不是在用，我告知在用，并告知他漏洞已经修复。他又打电话过来，询问如何保证用户信息的安全。我告诉他，首先使用的是腾讯云的云服务器，腾讯方面已经作了诸多的安全防护措施，第二，我们又使用了网络防火墙等技术，防止注入。第三，使用ssl对数据的传输进行加密。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

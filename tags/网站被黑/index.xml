@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>网站被黑 on 老刘博客</title>
     <link>https://iliu.org/tags/%E7%BD%91%E7%AB%99%E8%A2%AB%E9%BB%91/</link>
     <description>Recent content in 网站被黑 on 老刘博客</description>
-    <image>
-      <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
-    </image>
-    <generator>Hugo -- 0.155.2</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 13 Dec 2019 05:23:20 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/%E7%BD%91%E7%AB%99%E8%A2%AB%E9%BB%91/index.xml" rel="self" type="application/rss+xml" />
@@ -18,15 +13,7 @@
       <link>https://iliu.org/2934.html</link>
       <pubDate>Fri, 13 Dec 2019 05:23:20 +0000</pubDate>
       <guid>https://iliu.org/2934.html</guid>
-      <description>&lt;p&gt;最近一段时间，网站的关键字里总会穿插着一些贷款的关键字，当然点击这些页面是404的状态。看网页的标题，也没有诸如网站的推广啊，或者自己的网站自动跳转别的网站等情况。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>最近一段时间，网站的关键字里总会穿插着一些贷款的关键字，当然点击这些页面是404的状态。看网页的标题，也没有诸如网站的推广啊，或者自己的网站自动跳转别的网站等情况。</p>
-<p><a href="https://tunan.org/wp-content/uploads/2019/12/85d5fd6fe1782a9.png"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2935" src="https://tunan.org/wp-content/uploads/2019/12/85d5fd6fe1782a9.png" alt="" width="848" height="362" srcset="https://tunan.org/wp-content/uploads/2019/12/85d5fd6fe1782a9.png 848w, https://tunan.org/wp-content/uploads/2019/12/85d5fd6fe1782a9-300x128.png 300w, https://tunan.org/wp-content/uploads/2019/12/85d5fd6fe1782a9-768x328.png 768w" sizes="(max-width: 848px) 100vw, 848px" /></a></p>
-<p>起初以为是被快照劫持之类的。但是百度出来的快照一切正常。而这些关键字时有时无，前几天把<a href="https://tunan.org">跋涉者</a>这个网站的域名从ewader.com换成了个性域名www.liuday.com.然后这个com域名就闲置了下来。与其闲置，不如拿来做一个视光行业的网站，把收集的一些资料以收费的方式看看能不能卖点出去。起先，打算用这个域名做个新的，后来看看自己眼镜店的官网已经严重跑偏了，来的都是一堆的同行，再加上把销售的重心也转到了<a href="https://www.jooj.vip/">镜缘轩商城</a>上，因此就把原来中意眼镜那个站的内容全都301到ewader.com上，并且设置了全站301跳转，百度站长工具里也设置了改版规则。很快，中意眼镜的权重都转移到了ewader.com上。</p>
-<p>不过，烦心事也出现了，就是那几个贷款的关键词，更甚至原来收录的还是中意眼镜那个网址的首页，但是百度网站又没有问题。昨天没事，就把网站所有的图片备份了一下，然后把所有的文件全部删除。数据库里的只要不是wordpress默认的表，也全删除。插件删除，主题也全都安装新的。所有的密码全都该了，网站里注册的用户全部清除。</p>
-<p>不过，今天偶尔的一个发现，让我感觉，网站并没有被黑，有极大的可能是百度的锅。老胡在群里发了一个可以查域名交易的网站，我登录上去后顺便把原来卖的一个域名查了一下，发现价格确实是我卖的价格。然后好奇打开了那个网站，发现就是一个贷款信息的网站。把那些在我网站上404的网页地址，改成那个域名的地址，都能打开，而且完美符合网页的标题关键字等。</p>
-<p>至此，我才记得，卖的那个域名曾经做过网站，后来想备案，才换了yanjingweb那个域名，并且在站长工具里提交过改版到中意眼镜的那个网站。尽管早就已经在站长工具里把改版规则删除了，百度估计还有缓存。导致时不时的会有几个网页被认为是yanjingweb的网页。</p>
-<p>至此，算是明白了真相，我当时就是纳闷，网站没有一点异常，怎么会有这些关键字，而且没有一点点恶意的动向。本来想向百度投诉一下说明这个情况，但是后来意向，反正域名已经换了，yanjingweb那个域名的权重也转移了，域名也不在设置解析了。也就多一是不如少一事了。</p>
-]]></content:encoded>
+      <description>&lt;p&gt;最近一段时间，网站的关键字里总会穿插着一些贷款的关键字，当然点击这些页面是404的状态。看网页的标题，也没有诸如网站的推广啊，或者自己的网站自动跳转别的网站等情况。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2019/12/85d5fd6fe1782a9.png&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;起初以为是被快照劫持之类的。但是百度出来的快照一切正常。而这些关键字时有时无，前几天把&lt;a href=&#34;https://tunan.org&#34;&gt;跋涉者&lt;/a&gt;这个网站的域名从ewader.com换成了个性域名www.liuday.com.然后这个com域名就闲置了下来。与其闲置，不如拿来做一个视光行业的网站，把收集的一些资料以收费的方式看看能不能卖点出去。起先，打算用这个域名做个新的，后来看看自己眼镜店的官网已经严重跑偏了，来的都是一堆的同行，再加上把销售的重心也转到了&lt;a href=&#34;https://www.jooj.vip/&#34;&gt;镜缘轩商城&lt;/a&gt;上，因此就把原来中意眼镜那个站的内容全都301到ewader.com上，并且设置了全站301跳转，百度站长工具里也设置了改版规则。很快，中意眼镜的权重都转移到了ewader.com上。&lt;/p&gt;&#xA;&lt;p&gt;不过，烦心事也出现了，就是那几个贷款的关键词，更甚至原来收录的还是中意眼镜那个网址的首页，但是百度网站又没有问题。昨天没事，就把网站所有的图片备份了一下，然后把所有的文件全部删除。数据库里的只要不是wordpress默认的表，也全删除。插件删除，主题也全都安装新的。所有的密码全都该了，网站里注册的用户全部清除。&lt;/p&gt;&#xA;&lt;p&gt;不过，今天偶尔的一个发现，让我感觉，网站并没有被黑，有极大的可能是百度的锅。老胡在群里发了一个可以查域名交易的网站，我登录上去后顺便把原来卖的一个域名查了一下，发现价格确实是我卖的价格。然后好奇打开了那个网站，发现就是一个贷款信息的网站。把那些在我网站上404的网页地址，改成那个域名的地址，都能打开，而且完美符合网页的标题关键字等。&lt;/p&gt;&#xA;&lt;p&gt;至此，我才记得，卖的那个域名曾经做过网站，后来想备案，才换了yanjingweb那个域名，并且在站长工具里提交过改版到中意眼镜的那个网站。尽管早就已经在站长工具里把改版规则删除了，百度估计还有缓存。导致时不时的会有几个网页被认为是yanjingweb的网页。&lt;/p&gt;&#xA;&lt;p&gt;至此，算是明白了真相，我当时就是纳闷，网站没有一点异常，怎么会有这些关键字，而且没有一点点恶意的动向。本来想向百度投诉一下说明这个情况，但是后来意向，反正域名已经换了，yanjingweb那个域名的权重也转移了，域名也不在设置解析了。也就多一是不如少一事了。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

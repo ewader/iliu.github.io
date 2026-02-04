@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>免费活动 on 老刘博客</title>
     <link>https://iliu.org/tags/%E5%85%8D%E8%B4%B9%E6%B4%BB%E5%8A%A8/</link>
     <description>Recent content in 免费活动 on 老刘博客</description>
-    <image>
-      <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
-    </image>
-    <generator>Hugo -- 0.155.2</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 18 Oct 2009 11:40:10 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/%E5%85%8D%E8%B4%B9%E6%B4%BB%E5%8A%A8/index.xml" rel="self" type="application/rss+xml" />
@@ -18,10 +13,7 @@
       <link>https://iliu.org/1141.html</link>
       <pubDate>Sun, 18 Oct 2009 11:40:10 +0000</pubDate>
       <guid>https://iliu.org/1141.html</guid>
-      <description>&lt;p&gt;中国平安车险的最新有奖活动，按照车险投保平台页面指示提交报价即可获得“赢取188-3888元不等油卡”的抽奖机会（无需支付款项，到提示上门收费那页，选暂存离开，进入你的会员帐户即可，信息资料一定真实，可能会打电话联系你核对，虚假、错误信息取消获奖资格！），如果您是北京、上海、深圳平安车险客户还能获得&lt;a href=&#34;http://www.free8.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;免费&lt;/a&gt;非事故道路救援服务！一等奖1名：获3888元加油卡一张，二等奖3名：每名获888元加油卡一张，三等奖10名：每名获188元加油卡一张，该&lt;a href=&#34;http://www.free8.com/youjiang&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;有奖活动&lt;/a&gt;截止到2009年11月4日。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>中国平安车险的最新有奖活动，按照车险投保平台页面指示提交报价即可获得“赢取188-3888元不等油卡”的抽奖机会（无需支付款项，到提示上门收费那页，选暂存离开，进入你的会员帐户即可，信息资料一定真实，可能会打电话联系你核对，虚假、错误信息取消获奖资格！），如果您是北京、上海、深圳平安车险客户还能获得<a href="http://www.free8.com/" target="_blank" rel="noopener noreferrer">免费</a>非事故道路救援服务！一等奖1名：获3888元加油卡一张，二等奖3名：每名获888元加油卡一张，三等奖10名：每名获188元加油卡一张，该<a href="http://www.free8.com/youjiang" target="_blank" rel="noopener noreferrer">有奖活动</a>截止到2009年11月4日。</p>
-<p>网址：<a href="http://click.linktech.cn/?m=pinganone&a=A100010180&l=00023&l_cd1=0&l_cd2=0&u_id=" target="_blank" rel="noopener noreferrer"><a href="http://www.pingan.com/campaign/channels/pingan/car-quote/index.jsp">http://www.pingan.com/campaign/channels/pingan/car-quote/index.jsp</a></a></p>
-]]></content:encoded>
+      <description>&lt;p&gt;中国平安车险的最新有奖活动，按照车险投保平台页面指示提交报价即可获得“赢取188-3888元不等油卡”的抽奖机会（无需支付款项，到提示上门收费那页，选暂存离开，进入你的会员帐户即可，信息资料一定真实，可能会打电话联系你核对，虚假、错误信息取消获奖资格！），如果您是北京、上海、深圳平安车险客户还能获得&lt;!-- raw HTML omitted --&gt;免费&lt;!-- raw HTML omitted --&gt;非事故道路救援服务！一等奖1名：获3888元加油卡一张，二等奖3名：每名获888元加油卡一张，三等奖10名：每名获188元加油卡一张，该&lt;!-- raw HTML omitted --&gt;有奖活动&lt;!-- raw HTML omitted --&gt;截止到2009年11月4日。&lt;/p&gt;&#xA;&lt;p&gt;网址：&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;http://www.pingan.com/campaign/channels/pingan/car-quote/index.jsp&#34;&gt;http://www.pingan.com/campaign/channels/pingan/car-quote/index.jsp&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

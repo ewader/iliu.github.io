@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>宝宝刷牙 on 老刘博客</title>
     <link>https://iliu.org/tags/%E5%AE%9D%E5%AE%9D%E5%88%B7%E7%89%99/</link>
     <description>Recent content in 宝宝刷牙 on 老刘博客</description>
-    <image>
-      <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
-    </image>
-    <generator>Hugo -- 0.155.2</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 07 Jan 2011 06:55:30 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/%E5%AE%9D%E5%AE%9D%E5%88%B7%E7%89%99/index.xml" rel="self" type="application/rss+xml" />
@@ -18,29 +13,14 @@
       <link>https://iliu.org/1076.html</link>
       <pubDate>Fri, 07 Jan 2011 06:55:30 +0000</pubDate>
       <guid>https://iliu.org/1076.html</guid>
-      <description>&lt;p&gt;如何指导幼儿正确刷牙&lt;/p&gt;
-&lt;p&gt;1.使用前，将牙刷用温水浸泡1～2分钟，使刷毛变得柔软。&lt;/p&gt;
-&lt;p&gt;2.宝宝使用牙刷时，频率不宜太快；刷牙时先刷上排牙齿，再刷下排牙齿，这样可以避免刷到牙龈。刷两排牙齿时，先来回横刷几遍，刷去牙齿表面的污垢，然后再上下来回竖刷，清除牙缝里的残留物。横刷时用力轻，竖刷时稍加力。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>如何指导幼儿正确刷牙</p>
-<p>1.使用前，将牙刷用温水浸泡1～2分钟，使刷毛变得柔软。</p>
-<p>2.宝宝使用牙刷时，频率不宜太快；刷牙时先刷上排牙齿，再刷下排牙齿，这样可以避免刷到牙龈。刷两排牙齿时，先来回横刷几遍，刷去牙齿表面的污垢，然后再上下来回竖刷，清除牙缝里的残留物。横刷时用力轻，竖刷时稍加力。</p>
-<p>3.牙刷使用后，妈妈帮助宝宝用水冲洗刷毛内部，并将水分尽量甩去，将牙刷头朝上放在漱口杯里，或者放在通风有日光的地方，使它干燥而杀菌。宝宝的牙刷要与大人牙刷分开放。4.通常1个月更换一次牙刷，最长不能超过3个月。不要长期固定使用一种牙膏，应交替使用，以避免产生耐药性。选自《幼儿家长手册》<figure class="content-img-box" id="2358"></p>
-<p><img decoding="async" alt="如何指导幼儿正确刷牙" src="https://tunan.org/wp-content/uploads/2019/07/12bcdaedac8526.jpg" id="383D2D05" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
-]]></content:encoded>
+      <description>&lt;p&gt;如何指导幼儿正确刷牙&lt;/p&gt;&#xA;&lt;p&gt;1.使用前，将牙刷用温水浸泡1～2分钟，使刷毛变得柔软。&lt;/p&gt;&#xA;&lt;p&gt;2.宝宝使用牙刷时，频率不宜太快；刷牙时先刷上排牙齿，再刷下排牙齿，这样可以避免刷到牙龈。刷两排牙齿时，先来回横刷几遍，刷去牙齿表面的污垢，然后再上下来回竖刷，清除牙缝里的残留物。横刷时用力轻，竖刷时稍加力。&lt;/p&gt;&#xA;&lt;p&gt;3.牙刷使用后，妈妈帮助宝宝用水冲洗刷毛内部，并将水分尽量甩去，将牙刷头朝上放在漱口杯里，或者放在通风有日光的地方，使它干燥而杀菌。宝宝的牙刷要与大人牙刷分开放。4.通常1个月更换一次牙刷，最长不能超过3个月。不要长期固定使用一种牙膏，应交替使用，以避免产生耐药性。选自《幼儿家长手册》&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>如何给婴幼儿进行口腔护理？</title>
       <link>https://iliu.org/1074.html</link>
       <pubDate>Fri, 07 Jan 2011 06:52:18 +0000</pubDate>
       <guid>https://iliu.org/1074.html</guid>
-      <description>&lt;p&gt;&lt;strong&gt;宝宝口腔的护理&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;　　许多父母常常忽略婴幼儿期(指孩子从出生后到3周岁的这一段时间)宝宝的口腔保健，其实这时期的口腔保健同样忽视不得。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p><strong>宝宝口腔的护理</strong></p>
-<p>　　许多父母常常忽略婴幼儿期(指孩子从出生后到3周岁的这一段时间)宝宝的口腔保健，其实这时期的口腔保健同样忽视不得。</p>
-<p>那么这段时间，如何进行口腔护理呢？护士妈妈说：新生儿刚刚出生时，口腔内常常会有一定的分泌物出现，这是一种正常现象，一般不用擦去，可以定时给宝宝喂一些温开水来冲洗掉口腔中的分泌物。要是宝宝的口腔中仍有脏物或分泌物时，妈妈也不必过于着急，应让小宝宝侧卧，用一块小毛巾或围嘴围在宝宝的颌下，妈妈洗净手后，用棉签蘸上少许淡盐水或温开水，按照先口腔内两颊部、齿龈外面，后齿龈内面及舌头的顺序进行清洗。由于宝宝的口腔黏膜极其柔嫩、唾液少、易损伤且导致感染，因此在清洗时一定注意动作要轻。</p>
-<p>　　一段时间之后，要逐渐养成每日早晚用干净纱布或手帕蘸温开水清洁宝宝牙龈的习惯，即使孩子的乳牙没有生出也要坚持。这样做可以保持宝宝口腔内的清洁，为乳牙的萌出提供一个良好的生长环境。</p>
-<p>　　6个月后，宝宝的乳牙萌出，此时，可以让宝宝坐在父母的膝上，将干净纱布或手帕缠在手指上，轻轻擦洗宝宝刚刚萌出的乳牙。宝宝12个月以后，父母就要教宝宝刷牙了。开始时，可以让宝宝拿一把牙刷不放牙膏进行模仿，进而手把手帮助孩子完成刷牙，用不了多久，您的宝宝就会熟练进行刷牙了。</p>
-<p>　　注意口腔的清洁卫生，将会使宝宝有一口洁白健康的牙齿！</p>]]></content:encoded>
+      <description>&lt;p&gt;&lt;strong&gt;宝宝口腔的护理&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;　　许多父母常常忽略婴幼儿期(指孩子从出生后到3周岁的这一段时间)宝宝的口腔保健，其实这时期的口腔保健同样忽视不得。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

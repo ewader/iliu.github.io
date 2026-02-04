@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>婴儿湿疹 on 老刘博客</title>
     <link>https://iliu.org/tags/%E5%A9%B4%E5%84%BF%E6%B9%BF%E7%96%B9/</link>
     <description>Recent content in 婴儿湿疹 on 老刘博客</description>
-    <image>
-      <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
-    </image>
-    <generator>Hugo -- 0.155.2</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 22 Nov 2010 07:07:42 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/%E5%A9%B4%E5%84%BF%E6%B9%BF%E7%96%B9/index.xml" rel="self" type="application/rss+xml" />
@@ -18,23 +13,7 @@
       <link>https://iliu.org/997.html</link>
       <pubDate>Mon, 22 Nov 2010 07:07:42 +0000</pubDate>
       <guid>https://iliu.org/997.html</guid>
-      <description>&lt;p&gt;&lt;strong&gt;婴儿湿疹&lt;/strong&gt;，又称“奶癣”，中医古籍也称“胎癣”。是发生在婴儿头面部的急性或亚急性湿疹，一般情况下，可在短期内治愈。&lt;/p&gt;
-&lt;p&gt;传统认为婴儿湿疹与遗传及过敏有关，常常可以合并哮喘、变应性鼻炎等，最近有专家指出，&lt;a href=&#34;http://www.lghcx.info/2010/11/995.html&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;婴儿缺钙&lt;/a&gt;也会导致湿疹。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p><strong>婴儿湿疹</strong>，又称“奶癣”，中医古籍也称“胎癣”。是发生在婴儿头面部的急性或亚急性湿疹，一般情况下，可在短期内治愈。</p>
-<p>传统认为婴儿湿疹与遗传及过敏有关，常常可以合并哮喘、变应性鼻炎等，最近有专家指出，<a href="http://www.lghcx.info/2010/11/995.html" target="_blank" rel="noopener noreferrer">婴儿缺钙</a>也会导致湿疹。</p>
-<p>预防及对抗湿疹妙计</p>
-<p>*保持宝宝皮肤的清洁卫生，能使湿疹疾病症状得到缓解。</p>
-<p>*由于湿疹比较痒，宝宝会表现得烦躁，睡眠不好，不要给宝宝穿过多衣物，尽量保持室内凉爽。</p>
-<p>*尽量减少宝宝哭闹，因为这样会加重湿疹。</p>
-<p>*如果是母乳喂养，妈妈要少吃海鲜和辛辣食品，多吃些黄瓜、西瓜等清凉的食物。</p>
-<p>*宝宝的衣物、被褥及枕巾要经常换洗，保持干净。</p>
-<p>*细心的妈妈穿衣服也要注意，因为宝宝躺在你怀里睡觉或吃奶的时候，化纤面料的衣服会加重孩子脸上的湿疹。</p>
-<p>*一旦确定宝宝缺钙要及时补钙。</p>
-<p>另外收集了一个中医的方子，希望能给你有帮助：中医治疗方法:</p>
-<p>生首乌15克、徐长卿6克、蝉蜕6克、金银花6克、野菊花6克、苦参6克、生甘草5克、地肤子6克、白藓皮6克、生薏米6克、茯苓皮6克、苍术3克、茵陈6克、黄芩6克。</p>
-<p>水煎服。每日一剂，喂奶的婴儿由母亲服用，经过奶水便可得到治疗；已断奶的婴儿，可每日服3—4次，少量频服。治疗7—14天左右，可好转。</p>
-<p>适当配合外洗药也有一定的疗效。可用金银花10克，野菊花10克、蛇床子10克、生甘草6克。干性湿疹可洗患处，每日2—3次；湿性湿疹外洗后再涂黄柏软膏（黄柏粉3克、煅石膏粉9克、枯矾4．5克、青黛3克，加菜油适量调和），每日3—4次外用。</p>
-]]></content:encoded>
+      <description>&lt;p&gt;&lt;strong&gt;婴儿湿疹&lt;/strong&gt;，又称“奶癣”，中医古籍也称“胎癣”。是发生在婴儿头面部的急性或亚急性湿疹，一般情况下，可在短期内治愈。&lt;/p&gt;&#xA;&lt;p&gt;传统认为婴儿湿疹与遗传及过敏有关，常常可以合并哮喘、变应性鼻炎等，最近有专家指出，&lt;!-- raw HTML omitted --&gt;婴儿缺钙&lt;!-- raw HTML omitted --&gt;也会导致湿疹。&lt;/p&gt;&#xA;&lt;p&gt;预防及对抗湿疹妙计&lt;/p&gt;&#xA;&lt;p&gt;*保持宝宝皮肤的清洁卫生，能使湿疹疾病症状得到缓解。&lt;/p&gt;&#xA;&lt;p&gt;*由于湿疹比较痒，宝宝会表现得烦躁，睡眠不好，不要给宝宝穿过多衣物，尽量保持室内凉爽。&lt;/p&gt;&#xA;&lt;p&gt;*尽量减少宝宝哭闹，因为这样会加重湿疹。&lt;/p&gt;&#xA;&lt;p&gt;*如果是母乳喂养，妈妈要少吃海鲜和辛辣食品，多吃些黄瓜、西瓜等清凉的食物。&lt;/p&gt;&#xA;&lt;p&gt;*宝宝的衣物、被褥及枕巾要经常换洗，保持干净。&lt;/p&gt;&#xA;&lt;p&gt;*细心的妈妈穿衣服也要注意，因为宝宝躺在你怀里睡觉或吃奶的时候，化纤面料的衣服会加重孩子脸上的湿疹。&lt;/p&gt;&#xA;&lt;p&gt;*一旦确定宝宝缺钙要及时补钙。&lt;/p&gt;&#xA;&lt;p&gt;另外收集了一个中医的方子，希望能给你有帮助：中医治疗方法:&lt;/p&gt;&#xA;&lt;p&gt;生首乌15克、徐长卿6克、蝉蜕6克、金银花6克、野菊花6克、苦参6克、生甘草5克、地肤子6克、白藓皮6克、生薏米6克、茯苓皮6克、苍术3克、茵陈6克、黄芩6克。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

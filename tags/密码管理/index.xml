@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>密码管理 on 老刘博客</title>
     <link>https://iliu.org/tags/%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86/</link>
     <description>Recent content in 密码管理 on 老刘博客</description>
-    <image>
-      <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
-    </image>
-    <generator>Hugo -- 0.155.2</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 26 Nov 2020 09:10:34 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
@@ -18,42 +13,7 @@
       <link>https://iliu.org/3413.html</link>
       <pubDate>Thu, 26 Nov 2020 09:10:34 +0000</pubDate>
       <guid>https://iliu.org/3413.html</guid>
-      <description>&lt;p&gt;前两天看老张老师到处寻找管理密码的软件，老刘由于一直在使用Norton的密码管理，所以没有在意，后来发现Norton的服务器链接较慢，使用起来还是有点不方便，恰好又看到老张在吐槽 某个软件（主要是老刘忘记名字了）使用的问题，于是老刘就想群晖上有没有一款密码管理的软件或者套件（自从老刘入白群晖后，找软件都先考虑这个），你还别说，真的搜出来了这样一个软件，不过不是安装在群晖上，而是把数据放在群晖上，其他的客户端都从群晖来读取数据，这个软件叫Keepass。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>前两天看老张老师到处寻找管理密码的软件，老刘由于一直在使用Norton的密码管理，所以没有在意，后来发现Norton的服务器链接较慢，使用起来还是有点不方便，恰好又看到老张在吐槽 某个软件（主要是老刘忘记名字了）使用的问题，于是老刘就想群晖上有没有一款密码管理的软件或者套件（自从老刘入白群晖后，找软件都先考虑这个），你还别说，真的搜出来了这样一个软件，不过不是安装在群晖上，而是把数据放在群晖上，其他的客户端都从群晖来读取数据，这个软件叫Keepass。</p>
-<h2 id="为什么选择keepass">为什么选择Keepass？</h2>
-<p>因为这是一款开源软件，任何人都能读它的源代码，支持所有的端，插件非常的丰富，只要你想到的功能，都有插件来实现。最重要的是免费，所以老刘毫不犹豫的上手了这个软件。</p>
-<h2 id="keepass如何把数据存储在群晖上">Keepass如何把数据存储在群晖上</h2>
-<p>其实这是利用了keepass的WebDav的功能，而这个功能恰好群晖又支持。</p>
-<p>首先，下载安装keepass.官网的地址是：<a href="https://keepass.info/">KeePass Password Safe</a>；可以到官网下载最新的版本，如果喜欢绿色版的，这个软件也又提供。</p>
-<p>第二，群晖里的一些设置</p>
-<p>首先登陆群晖，在套件里安装webdav。</p>
-<p><a href="https://tunan.org/wp-content/uploads/2020/11/c4ca4238a0b9238.png"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3414" src="https://tunan.org/wp-content/uploads/2020/11/c4ca4238a0b9238.png" alt="" width="633" height="381" srcset="https://tunan.org/wp-content/uploads/2020/11/c4ca4238a0b9238.png 633w, https://tunan.org/wp-content/uploads/2020/11/c4ca4238a0b9238-300x181.png 300w" sizes="(max-width: 633px) 100vw, 633px" /></a></p>
-<p>webdav的设置很简单，如下图，因为老刘没有公网IP，所以只能用http端口了，如果你可以用https，也可以开启5006端口</p>
-<p><a href="https://tunan.org/wp-content/uploads/2020/11/c81e728d9d4c2f6.png"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3415" src="https://tunan.org/wp-content/uploads/2020/11/c81e728d9d4c2f6.png" alt="" width="739" height="507" srcset="https://tunan.org/wp-content/uploads/2020/11/c81e728d9d4c2f6.png 739w, https://tunan.org/wp-content/uploads/2020/11/c81e728d9d4c2f6-300x206.png 300w, https://tunan.org/wp-content/uploads/2020/11/c81e728d9d4c2f6-220x150.png 220w" sizes="(max-width: 739px) 100vw, 739px" /></a></p>
-<p>新建一个共享文件夹，专门放密码的，所以老刘就直接命名为mima了。</p>
-<p><a href="https://tunan.org/wp-content/uploads/2020/11/eccbc87e4b5ce2f.png"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3416" src="https://tunan.org/wp-content/uploads/2020/11/eccbc87e4b5ce2f.png" alt="" width="580" height="342" srcset="https://tunan.org/wp-content/uploads/2020/11/eccbc87e4b5ce2f.png 580w, https://tunan.org/wp-content/uploads/2020/11/eccbc87e4b5ce2f-300x177.png 300w" sizes="(max-width: 580px) 100vw, 580px" /></a></p>
-<p>为了安全，再给这个文件夹专门建一个新用户，这个用户只能读写mima这个文件夹，用户组就是普通的USR</p>
-<p><a href="https://tunan.org/wp-content/uploads/2020/11/a87ff679a2f3e71.png"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3417" src="https://tunan.org/wp-content/uploads/2020/11/a87ff679a2f3e71.png" alt="" width="613" height="397" srcset="https://tunan.org/wp-content/uploads/2020/11/a87ff679a2f3e71.png 613w, https://tunan.org/wp-content/uploads/2020/11/a87ff679a2f3e71-300x194.png 300w" sizes="(max-width: 613px) 100vw, 613px" /></a></p>
-<p>除了mima这个文件，其他的都设置成禁止访问</p>
-<p><a href="https://tunan.org/wp-content/uploads/2020/11/e4da3b7fbbce234.png"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3418" src="https://tunan.org/wp-content/uploads/2020/11/e4da3b7fbbce234.png" alt="" width="759" height="256" srcset="https://tunan.org/wp-content/uploads/2020/11/e4da3b7fbbce234.png 759w, https://tunan.org/wp-content/uploads/2020/11/e4da3b7fbbce234-300x101.png 300w" sizes="(max-width: 759px) 100vw, 759px" /></a></p>
-<p>应用程序里。</p>
-<p><a href="https://tunan.org/wp-content/uploads/2020/11/1679091c5a880fa.png"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3419" src="https://tunan.org/wp-content/uploads/2020/11/1679091c5a880fa.png" alt="" width="834" height="140" srcset="https://tunan.org/wp-content/uploads/2020/11/1679091c5a880fa.png 834w, https://tunan.org/wp-content/uploads/2020/11/1679091c5a880fa-300x50.png 300w, https://tunan.org/wp-content/uploads/2020/11/1679091c5a880fa-768x129.png 768w" sizes="(max-width: 834px) 100vw, 834px" /></a></p>
-<p>至此，群晖里设置完毕</p>
-<h2 id="keepass设置">keepass设置</h2>
-<p>打开软件，点击新建数据库</p>
-<p><a href="https://tunan.org/wp-content/uploads/2020/11/8f14e45fceea167.png"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3421" src="https://tunan.org/wp-content/uploads/2020/11/8f14e45fceea167.png" alt="" width="925" height="573" srcset="https://tunan.org/wp-content/uploads/2020/11/8f14e45fceea167.png 925w, https://tunan.org/wp-content/uploads/2020/11/8f14e45fceea167-300x186.png 300w, https://tunan.org/wp-content/uploads/2020/11/8f14e45fceea167-768x476.png 768w" sizes="(max-width: 925px) 100vw, 925px" /></a></p>
-<p>如上图的位置，填入你的webdav的网址，这里有个小坑，如果保存不了，提示程序无法打开这个位置的话，需要到注册表里</p>
-<p>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WebClient\Parameters<br>
-把BasicAuthLevel 值改成2，即同时支持http和https，默认只支持https，然后重启服务</p>
-<p>至于PC上如何操作，很多教程，而且是中文，不多说了。说说密码自动填写</p>
-<h2 id="下载插件keepasshttp">下载插件keepasshttp，</h2>
-<p>很老的插件了，直接点击下面的链接下吧，官网很慢,解压缩后，把KeePassHttp.plgx文件放到keepass的插件目录里。设置一下，端口不用改，前三项打勾，高级设置中，前两项打勾。</p>
-<p><a href="http://gofile.me/5x2t4/39jIZSgbC">http://gofile.me/5x2t4/39jIZSgbC</a></p>
-<p>chrome浏览器进入商店搜索KeePassHttp-Connector 安装。点击连接，然后弹出的对话框里随便输几个数字。确定即可。</p>
-<p> </p>
-<p> </p>
-<p> </p>
-]]></content:encoded>
+      <description>&lt;p&gt;前两天看老张老师到处寻找管理密码的软件，老刘由于一直在使用Norton的密码管理，所以没有在意，后来发现Norton的服务器链接较慢，使用起来还是有点不方便，恰好又看到老张在吐槽 某个软件（主要是老刘忘记名字了）使用的问题，于是老刘就想群晖上有没有一款密码管理的软件或者套件（自从老刘入白群晖后，找软件都先考虑这个），你还别说，真的搜出来了这样一个软件，不过不是安装在群晖上，而是把数据放在群晖上，其他的客户端都从群晖来读取数据，这个软件叫Keepass。&lt;/p&gt;&#xA;&lt;h2 id=&#34;为什么选择keepass&#34;&gt;为什么选择Keepass？&lt;/h2&gt;&#xA;&lt;p&gt;因为这是一款开源软件，任何人都能读它的源代码，支持所有的端，插件非常的丰富，只要你想到的功能，都有插件来实现。最重要的是免费，所以老刘毫不犹豫的上手了这个软件。&lt;/p&gt;&#xA;&lt;h2 id=&#34;keepass如何把数据存储在群晖上&#34;&gt;Keepass如何把数据存储在群晖上&lt;/h2&gt;&#xA;&lt;p&gt;其实这是利用了keepass的WebDav的功能，而这个功能恰好群晖又支持。&lt;/p&gt;&#xA;&lt;p&gt;首先，下载安装keepass.官网的地址是：&lt;a href=&#34;https://keepass.info/&#34;&gt;KeePass Password Safe&lt;/a&gt;；可以到官网下载最新的版本，如果喜欢绿色版的，这个软件也又提供。&lt;/p&gt;&#xA;&lt;p&gt;第二，群晖里的一些设置&lt;/p&gt;&#xA;&lt;p&gt;首先登陆群晖，在套件里安装webdav。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/11/c4ca4238a0b9238.png&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;webdav的设置很简单，如下图，因为老刘没有公网IP，所以只能用http端口了，如果你可以用https，也可以开启5006端口&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/11/c81e728d9d4c2f6.png&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>骚扰电话 on 老刘博客</title>
     <link>https://iliu.org/tags/%E9%AA%9A%E6%89%B0%E7%94%B5%E8%AF%9D/</link>
     <description>Recent content in 骚扰电话 on 老刘博客</description>
-    <image>
-      <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
-    </image>
-    <generator>Hugo -- 0.155.2</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 30 Sep 2022 01:17:21 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/%E9%AA%9A%E6%89%B0%E7%94%B5%E8%AF%9D/index.xml" rel="self" type="application/rss+xml" />
@@ -18,14 +13,7 @@
       <link>https://iliu.org/4260.html</link>
       <pubDate>Fri, 30 Sep 2022 01:17:21 +0000</pubDate>
       <guid>https://iliu.org/4260.html</guid>
-      <description>&lt;p&gt;对于骚然电话，一直都是一个让人头疼的东西。国家虽然三令五申的出台一些法规，但是起到的作用优先。有时候正在休息，一个电话过来，一看却是骚然电话、广告推销等。别提心里有多腻歪了，一般只能时不耐烦的说不需要。曾经遇到过，交通银行一上午打5-6个电话的情况，真是让人烦不胜烦。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>对于骚然电话，一直都是一个让人头疼的东西。国家虽然三令五申的出台一些法规，但是起到的作用优先。有时候正在休息，一个电话过来，一看却是骚然电话、广告推销等。别提心里有多腻歪了，一般只能时不耐烦的说不需要。曾经遇到过，交通银行一上午打5-6个电话的情况，真是让人烦不胜烦。</p>
-<p>后来，手机里设置了把400，95等开头的电话全都拉黑，会好一些，但是他们也学精了，不用固话了，都是手机号，以前以电信的居多，现在联通电信都有。我的策略时，每接一个这种电话，就拉黑一个，随着黑名单的增加，现在接到骚扰电话明显减少。但是漏网之鱼也还是有。特别有时候，你接通之后，对方竟然是个机器人。</p>
-<p>前段时间换了红米的手机，看到接电话的界面有个AI通话，后来改成了小爱通话。发现有个自动接听骚扰电话的功能，只要选择防骚扰的类型，标注成这些类型的电话，将会被小爱通话自动接听。<figure class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-10 is-layout-flex wp-block-gallery-is-layout-flex"> <figure class="wp-block-image size-large"></p>
-<p><img loading="lazy" decoding="async" width="1080" height="1865" data-id="4261" src="https://tunan.org/wp-content/uploads/2022/09/1c772fc11389d8d.jpg" alt="" class="wp-image-4261" srcset="https://tunan.org/wp-content/uploads/2022/09/1c772fc11389d8d.jpg 1080w, https://tunan.org/wp-content/uploads/2022/09/1c772fc11389d8d-768x1326.jpg 768w, https://tunan.org/wp-content/uploads/2022/09/1c772fc11389d8d-889x1536.jpg 889w" sizes="(max-width: 1080px) 100vw, 1080px" /> </figure> <figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1080" height="2400" data-id="4262" src="https://tunan.org/wp-content/uploads/2022/09/d31f1c60b80b6fe.jpg" alt="" class="wp-image-4262" srcset="https://tunan.org/wp-content/uploads/2022/09/d31f1c60b80b6fe.jpg 1080w, https://tunan.org/wp-content/uploads/2022/09/d31f1c60b80b6fe-768x1707.jpg 768w, https://tunan.org/wp-content/uploads/2022/09/d31f1c60b80b6fe-691x1536.jpg 691w, https://tunan.org/wp-content/uploads/2022/09/d31f1c60b80b6fe-922x2048.jpg 922w" sizes="(max-width: 1080px) 100vw, 1080px" /></figure> </figure></p>
-<p>这两天试用了一下，发现效果还是蛮好的，以前都是我不耐烦的挂别人的电话，现在时他们自己把电话挂了。?</p>
-<p>看来，打败魔法的只能时魔法啊！</p>
-]]></content:encoded>
+      <description>&lt;p&gt;对于骚然电话，一直都是一个让人头疼的东西。国家虽然三令五申的出台一些法规，但是起到的作用优先。有时候正在休息，一个电话过来，一看却是骚然电话、广告推销等。别提心里有多腻歪了，一般只能时不耐烦的说不需要。曾经遇到过，交通银行一上午打5-6个电话的情况，真是让人烦不胜烦。&lt;/p&gt;&#xA;&lt;p&gt;后来，手机里设置了把400，95等开头的电话全都拉黑，会好一些，但是他们也学精了，不用固话了，都是手机号，以前以电信的居多，现在联通电信都有。我的策略时，每接一个这种电话，就拉黑一个，随着黑名单的增加，现在接到骚扰电话明显减少。但是漏网之鱼也还是有。特别有时候，你接通之后，对方竟然是个机器人。&lt;/p&gt;&#xA;&lt;p&gt;前段时间换了红米的手机，看到接电话的界面有个AI通话，后来改成了小爱通话。发现有个自动接听骚扰电话的功能，只要选择防骚扰的类型，标注成这些类型的电话，将会被小爱通话自动接听。&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>无人驾驶汽车 on 老刘博客</title>
     <link>https://iliu.org/tags/%E6%97%A0%E4%BA%BA%E9%A9%BE%E9%A9%B6%E6%B1%BD%E8%BD%A6/</link>
     <description>Recent content in 无人驾驶汽车 on 老刘博客</description>
-    <image>
-      <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
-    </image>
-    <generator>Hugo -- 0.155.2</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 02 Dec 2019 01:10:14 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/%E6%97%A0%E4%BA%BA%E9%A9%BE%E9%A9%B6%E6%B1%BD%E8%BD%A6/index.xml" rel="self" type="application/rss+xml" />
@@ -18,26 +13,7 @@
       <link>https://iliu.org/2902.html</link>
       <pubDate>Mon, 02 Dec 2019 01:10:14 +0000</pubDate>
       <guid>https://iliu.org/2902.html</guid>
-      <description>&lt;p&gt;现在无人驾驶汽车技术是一个热点的话题，跋涉者一直以为这项技术是用摄像头来实现的，看来是孤陋寡闻了。今天在《学习强国》上看到了这样一篇关于这方面的文章，才知道自己真的是out了，看来这个APP也不是那么的一无是处。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>现在无人驾驶汽车技术是一个热点的话题，跋涉者一直以为这项技术是用摄像头来实现的，看来是孤陋寡闻了。今天在《学习强国》上看到了这样一篇关于这方面的文章，才知道自己真的是out了，看来这个APP也不是那么的一无是处。</p>
-<p data-node-type="Paragraph">
-  <span data-node-type="Text">无人驾驶技术在近些年取得了长足的发展，其中，车载激光雷达、车载毫米波雷达越来越多地被用作先进驾驶员辅助系统（ADAS）的汽车雷达传感器。但是，车载激光雷达成本过高，无法大规模商用，为了推进无人驾驶技术的发展，同时解决摄像机测距、测速不够精确的问题，工程师们选择了性价比更高的车载毫米波雷达。究竟车载毫米波雷达有何魅力？今天我们就来一起了解一下。</span>
-</p>
-<p data-node-type="Paragraph">
-  <a href="https://tunan.org/wp-content/uploads/2019/12/f85340d1bf3c7bb.png"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2903" src="https://tunan.org/wp-content/uploads/2019/12/f85340d1bf3c7bb.png" alt="" width="494" height="224" srcset="https://tunan.org/wp-content/uploads/2019/12/f85340d1bf3c7bb.png 494w, https://tunan.org/wp-content/uploads/2019/12/f85340d1bf3c7bb-300x136.png 300w" sizes="(max-width: 494px) 100vw, 494px" /></a>
-</p>
-<p data-node-type="Paragraph">
-  <span data-node-type="Text">当前，应用于无人驾驶的毫米波雷达波段在24GHz～77GHz范围。车载毫米波雷达内置毫米波信号接收模块和发射模块，通过内置天线向外发射毫米波信号。在工作时，发射后的毫米波信号遇到目标（如其他车辆、行人、公路路障等）后反射回波，毫米波信号接收模块及时接收反射回波后，对信号进行滤波等处理，消除噪声，获得精度极高的周围目标物体间的相对速度、相对距离、角度、运动方向等物理环境信息。计算机系统将这些信息识别、分类，把数据进行融合处理，交给车载中央处理单元（ECU）进行行驶信息的决策，自主干预控制车辆的行驶方式，达到无人控制的自动驾驶目的。除此以外，ECU可以通过语音、灯光等方式对驾驶员进行提醒、警告，可以提高驾驶的安全性能。</span>
-</p>
-<p data-node-type="Paragraph">
-  <span data-node-type="Text">基于毫米波的自身特点，车载毫米波雷达具有其他雷达无可比拟的优点。24GHz～77GHz范围的毫米波带宽达到53GHz，具有很大的调谐选频范围，而且其波束窄的特点可以清晰地获取环境目标的细节，便于计算机的精准识别和快速决策。相比于激光雷达易受天气影响的缺点，车载毫米波雷达可有效穿透雾、烟、灰尘，实现全天时、全天候工作负荷要求。</span>
-</p>
-<p data-node-type="Paragraph">
-  <span data-node-type="Text">随着智能交通在全球的迅猛发展，车载毫米波雷达必将掀起无人驾驶的全面商用热潮。未来，便宜好用、可靠安全的车载毫米波雷达将会很快进入我们的日常生活中。</span>
-</p>
-<p data-node-type="Paragraph">
-  <span data-node-type="Text">（本文由北京邮电大学计算机科学与技术研究专业副教授张忠宝进行科学性把关。）</span>
-</p>]]></content:encoded>
+      <description>&lt;p&gt;现在无人驾驶汽车技术是一个热点的话题，跋涉者一直以为这项技术是用摄像头来实现的，看来是孤陋寡闻了。今天在《学习强国》上看到了这样一篇关于这方面的文章，才知道自己真的是out了，看来这个APP也不是那么的一无是处。&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
     </item>
   </channel>
 </rss>

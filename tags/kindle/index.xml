@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kindle on 老刘博客</title>
     <link>https://iliu.org/tags/kindle/</link>
     <description>Recent content in Kindle on 老刘博客</description>
-    <image>
-      <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
-    </image>
-    <generator>Hugo -- 0.155.2</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 27 Dec 2021 13:23:01 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/kindle/index.xml" rel="self" type="application/rss+xml" />
@@ -18,340 +13,49 @@
       <link>https://iliu.org/3990.html</link>
       <pubDate>Mon, 27 Dec 2021 13:23:01 +0000</pubDate>
       <guid>https://iliu.org/3990.html</guid>
-      <description>&lt;p&gt;用两天的时间读完了这本书。书是在多看里的找的电子书，刚开始是无聊一看，后来觉得还是蛮有意思的。&lt;/p&gt;
-&lt;p&gt;本书是由中山大学中文系的教授刘烈茂所著，从社会和人生的角度分析里水浒中诸多人物的方方面面。如果你是一个水浒迷，这本书一定要看一看。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>用两天的时间读完了这本书。书是在多看里的找的电子书，刚开始是无聊一看，后来觉得还是蛮有意思的。</p>
-<p>本书是由中山大学中文系的教授刘烈茂所著，从社会和人生的角度分析里水浒中诸多人物的方方面面。如果你是一个水浒迷，这本书一定要看一看。</p>
-<p>老刘看水浒传还是在初中的时候，记得当时是哥哥买回来了一套《古本水浒传》，这套路和市面上流行的书不同的是，后40回没有诏安，没有征辽，没有打方腊，当然英雄们也都还活着。后来高中的时候有大概的看了下后40回。虽然很多情节都是耳熟能详，但是和看三国等一样的是，很多细节的东西都不会详细去看，尤其里面的诗词。看了这本书后，才知道开篇的一首诗里，竟然是把所有水浒好汉的外号都编了进去。</p>
-<p>《林冲容忍的极限》一篇中，刘烈茂从林冲的社会地位和性格入手，一步步揭示林冲是如何被逼上梁山的。</p>
-<p>林冲的社会地位和优厚自足的生活决定他不会轻易走上反抗的道路。他为了保住自己的饭碗和社会地位，在高衙内等人的迫害下选择一再忍让。可人的忍耐是有限度的。高衙内调戏妻子，他忍了；被高俅陷害刺配沧州，他也忍了。他甚至天真地认为只要一纸休书把妻子休了就可彼此相安。可他哪里知道树欲静而风不止，高俅等人不置他于死地不会善罢甘休。于是，迫害一再升级。野猪林阴谋未果，草料场大火紧跟又来。林冲退无可退，忍无可忍。终于在沉默中爆发，杀了陆谦等人，顶着风雪连夜投奔梁山。</p>
-<p>林冲的思想转变，在施耐庵的一步步有意安排下，写得极为自然，合情合理，经得起推敲。透过林冲的故事，我们看到社会现实对于个人命运的影响有多深远。《水浒传》之所以取得成功，其对社会现实的描写具有了一般作品所不具有的深度，也是原因之一。</p>
-<p>另外作者还会从流传出来的其他故事里，比较人物的特点，比如《大宋宣和轶事》。</p>
-<p>在《宋公明不是历史上的宋江》一文中，刘烈茂比较了《水浒传》中的宋江和历史上的宋江，无论是生平事迹、性格特征，还是精神风貌，两都都有极大的不同。</p>
-<p>历史人物宋江根本没有上过梁山，更不用说建立起义根据地了；领导起义倒是确有其事，活动地域也相当广泛；宋江也没有征过方腊、田虎、王庆等人，更无征辽事迹；其行动表面与小说中的不同；结局众说不一。</p>
-<p>这位教授还写过关于聊斋的一些研究，翻了一下，感觉写的也是不错的。已经列入老刘看的书单了</p>
-]]></content:encoded>
+      <description>&lt;p&gt;用两天的时间读完了这本书。书是在多看里的找的电子书，刚开始是无聊一看，后来觉得还是蛮有意思的。&lt;/p&gt;&#xA;&lt;p&gt;本书是由中山大学中文系的教授刘烈茂所著，从社会和人生的角度分析里水浒中诸多人物的方方面面。如果你是一个水浒迷，这本书一定要看一看。&lt;/p&gt;&#xA;&lt;p&gt;老刘看水浒传还是在初中的时候，记得当时是哥哥买回来了一套《古本水浒传》，这套路和市面上流行的书不同的是，后40回没有诏安，没有征辽，没有打方腊，当然英雄们也都还活着。后来高中的时候有大概的看了下后40回。虽然很多情节都是耳熟能详，但是和看三国等一样的是，很多细节的东西都不会详细去看，尤其里面的诗词。看了这本书后，才知道开篇的一首诗里，竟然是把所有水浒好汉的外号都编了进去。&lt;/p&gt;&#xA;&lt;p&gt;《林冲容忍的极限》一篇中，刘烈茂从林冲的社会地位和性格入手，一步步揭示林冲是如何被逼上梁山的。&lt;/p&gt;&#xA;&lt;p&gt;林冲的社会地位和优厚自足的生活决定他不会轻易走上反抗的道路。他为了保住自己的饭碗和社会地位，在高衙内等人的迫害下选择一再忍让。可人的忍耐是有限度的。高衙内调戏妻子，他忍了；被高俅陷害刺配沧州，他也忍了。他甚至天真地认为只要一纸休书把妻子休了就可彼此相安。可他哪里知道树欲静而风不止，高俅等人不置他于死地不会善罢甘休。于是，迫害一再升级。野猪林阴谋未果，草料场大火紧跟又来。林冲退无可退，忍无可忍。终于在沉默中爆发，杀了陆谦等人，顶着风雪连夜投奔梁山。&lt;/p&gt;&#xA;&lt;p&gt;林冲的思想转变，在施耐庵的一步步有意安排下，写得极为自然，合情合理，经得起推敲。透过林冲的故事，我们看到社会现实对于个人命运的影响有多深远。《水浒传》之所以取得成功，其对社会现实的描写具有了一般作品所不具有的深度，也是原因之一。&lt;/p&gt;&#xA;&lt;p&gt;另外作者还会从流传出来的其他故事里，比较人物的特点，比如《大宋宣和轶事》。&lt;/p&gt;&#xA;&lt;p&gt;在《宋公明不是历史上的宋江》一文中，刘烈茂比较了《水浒传》中的宋江和历史上的宋江，无论是生平事迹、性格特征，还是精神风貌，两都都有极大的不同。&lt;/p&gt;&#xA;&lt;p&gt;历史人物宋江根本没有上过梁山，更不用说建立起义根据地了；领导起义倒是确有其事，活动地域也相当广泛；宋江也没有征过方腊、田虎、王庆等人，更无征辽事迹；其行动表面与小说中的不同；结局众说不一。&lt;/p&gt;&#xA;&lt;p&gt;这位教授还写过关于聊斋的一些研究，翻了一下，感觉写的也是不错的。已经列入老刘看的书单了&lt;/p&gt;</description>
     </item>
     <item>
       <title>小米多看电纸书（mireader）简单开箱</title>
       <link>https://iliu.org/3639.html</link>
       <pubDate>Tue, 02 Feb 2021 02:19:41 +0000</pubDate>
       <guid>https://iliu.org/3639.html</guid>
-      <description>&lt;p&gt;记得2018年底的时候，镜片厂商送了一台kindle paperwhite 4。从此以后，读的书确实比以前多一些。最近一段时间以来，女儿对kindle起了浓厚的兴趣，以前她只喜欢看纸质的，现在她说，这里面的书更多，也更方便一些。于是，我的kindle经常跑到了女儿的床头。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>记得2018年底的时候，镜片厂商送了一台kindle paperwhite 4。从此以后，读的书确实比以前多一些。最近一段时间以来，女儿对kindle起了浓厚的兴趣，以前她只喜欢看纸质的，现在她说，这里面的书更多，也更方便一些。于是，我的kindle经常跑到了女儿的床头。</p>
-<p>所以，就有了再入手一台电纸书的想法。网上搜了一下，发现小米电纸书是一款挺合适的产品。首先来说，价格不贵，京东的价格是599，有几家在做活动579，但是要运费，这样下来也就和自营店差不多了。第二，配置还行，1G的内存，24颗阅读灯，16g的存储空间，屏幕的分辨率是212。这个配置相比较我的kindle来说，除了屏幕的分辨率以外，其他都完胜了。当然，电纸书吗，最重要的是书库，多看的书库网络小说比较多。让我比较满意的是有青少年模式，打开后就屏蔽了这些东西。于是入手之。</p>
-<p>前天下午下单，昨天早上一看，我去，秒杀价569。毫不犹疑，退款，新买！由于是郑州发货，当天也就到了，幸亏多看一眼，省了30块大洋啊。</p>
-<p>到手的第一感觉，真的很简洁啊，一个小盒子，里面除了电纸书本身，就一根数据线。<figure class="wp-block-gallery columns-2 is-cropped wp-block-gallery-5 is-layout-flex wp-block-gallery-is-layout-flex"></p>
-<ul class="blocks-gallery-grid">
-  <li class="blocks-gallery-item">
-    <figure><a href="https://tunan.org/wp-content/uploads/2021/02/bc2d75b8ec32f49.jpg"><img loading="lazy" decoding="async" width="763" height="1024" src="https://tunan.org/wp-content/uploads/2021/02/bc2d75b8ec32f49-763x1024.jpg" alt="" data-id="3640" data-full-url="https://tunan.org/wp-content/uploads/2021/02/bc2d75b8ec32f49.jpg" data-link="https://tunan.org/?attachment_id=3640" class="wp-image-3640" srcset="https://tunan.org/wp-content/uploads/2021/02/bc2d75b8ec32f49-763x1024.jpg 763w, https://tunan.org/wp-content/uploads/2021/02/bc2d75b8ec32f49-223x300.jpg 223w, https://tunan.org/wp-content/uploads/2021/02/bc2d75b8ec32f49-768x1031.jpg 768w, https://tunan.org/wp-content/uploads/2021/02/bc2d75b8ec32f49.jpg 800w" sizes="(max-width: 763px) 100vw, 763px" /></a></figure>
-  </li>
-  <li class="blocks-gallery-item">
-    <figure><a href="https://tunan.org/wp-content/uploads/2021/02/a5c1e281f0e3e74.jpg"><img loading="lazy" decoding="async" width="798" height="1024" src="https://tunan.org/wp-content/uploads/2021/02/a5c1e281f0e3e74-798x1024.jpg" alt="" data-id="3641" data-full-url="https://tunan.org/wp-content/uploads/2021/02/a5c1e281f0e3e74.jpg" data-link="https://tunan.org/?attachment_id=3641" class="wp-image-3641" srcset="https://tunan.org/wp-content/uploads/2021/02/a5c1e281f0e3e74-798x1024.jpg 798w, https://tunan.org/wp-content/uploads/2021/02/a5c1e281f0e3e74-234x300.jpg 234w, https://tunan.org/wp-content/uploads/2021/02/a5c1e281f0e3e74-768x985.jpg 768w, https://tunan.org/wp-content/uploads/2021/02/a5c1e281f0e3e74.jpg 800w" sizes="(max-width: 798px) 100vw, 798px" /></a></figure>
-  </li>
-</ul><figcaption class="blocks-gallery-caption">左边是盒子没有打开，右边是开盖之后。</figcaption></figure> 
-<p>小米多看电纸书的背面及周边是黑色的，但是正面是浅色的，和书的颜色有点类似，和kindle4相比，小米的显示屏是凹进去的，而kindle是纯平的。<figure class="wp-block-image size-large"></p>
-<p><a href="https://tunan.org/wp-content/uploads/2021/02/84d7a60d26af85b.jpg"><img loading="lazy" decoding="async" width="800" height="486" src="https://tunan.org/wp-content/uploads/2021/02/84d7a60d26af85b.jpg" alt="" class="wp-image-3642" srcset="https://tunan.org/wp-content/uploads/2021/02/84d7a60d26af85b.jpg 800w, https://tunan.org/wp-content/uploads/2021/02/84d7a60d26af85b-300x182.jpg 300w, https://tunan.org/wp-content/uploads/2021/02/84d7a60d26af85b-768x467.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" /></a><figcaption>一根数据线，好在是TPYE-C接口的</figcaption></figure></p>
-<p>小米多看电纸书的数据线，TPYE-C接口的。相比其他充电更方便一些。<figure class="wp-block-image size-large"></p>
-<p><a href="https://tunan.org/wp-content/uploads/2021/02/21cb37c3ff549c4.jpg"><img loading="lazy" decoding="async" width="800" height="563" src="https://tunan.org/wp-content/uploads/2021/02/21cb37c3ff549c4.jpg" alt="" class="wp-image-3643" srcset="https://tunan.org/wp-content/uploads/2021/02/21cb37c3ff549c4.jpg 800w, https://tunan.org/wp-content/uploads/2021/02/21cb37c3ff549c4-300x211.jpg 300w, https://tunan.org/wp-content/uploads/2021/02/21cb37c3ff549c4-768x540.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" /></a><figcaption>屏幕对比</figcaption></figure></p>
-<p>照片上感觉相差不大，但是实际使用下来，小米稍微有一点点的颗粒感。感觉没有kindle那么细腻，可能就是因为分辨率的不同吧。</p>
-<p>总体来说，小米多看电纸书价格便宜，配置较高，有青少年模式，挺适合给孩子使用的。</p>
-]]></content:encoded>
+      <description>&lt;p&gt;记得2018年底的时候，镜片厂商送了一台kindle paperwhite 4。从此以后，读的书确实比以前多一些。最近一段时间以来，女儿对kindle起了浓厚的兴趣，以前她只喜欢看纸质的，现在她说，这里面的书更多，也更方便一些。于是，我的kindle经常跑到了女儿的床头。&lt;/p&gt;&#xA;&lt;p&gt;所以，就有了再入手一台电纸书的想法。网上搜了一下，发现小米电纸书是一款挺合适的产品。首先来说，价格不贵，京东的价格是599，有几家在做活动579，但是要运费，这样下来也就和自营店差不多了。第二，配置还行，1G的内存，24颗阅读灯，16g的存储空间，屏幕的分辨率是212。这个配置相比较我的kindle来说，除了屏幕的分辨率以外，其他都完胜了。当然，电纸书吗，最重要的是书库，多看的书库网络小说比较多。让我比较满意的是有青少年模式，打开后就屏蔽了这些东西。于是入手之。&lt;/p&gt;&#xA;&lt;p&gt;前天下午下单，昨天早上一看，我去，秒杀价569。毫不犹疑，退款，新买！由于是郑州发货，当天也就到了，幸亏多看一眼，省了30块大洋啊。&lt;/p&gt;&#xA;&lt;p&gt;到手的第一感觉，真的很简洁啊，一个小盒子，里面除了电纸书本身，就一根数据线。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;小米多看电纸书的背面及周边是黑色的，但是正面是浅色的，和书的颜色有点类似，和kindle4相比，小米的显示屏是凹进去的，而kindle是纯平的。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kindle软件重大更新，这个玩法你一定要知道！</title>
       <link>https://iliu.org/3235.html</link>
       <pubDate>Tue, 25 Aug 2020 09:18:32 +0000</pubDate>
       <guid>https://iliu.org/3235.html</guid>
-      <description>&lt;p&gt;今天拿出来我的kindle，发现有系统更新的提示，对于我这种追求最新的人来说，更新那是必须的，那么本次更新后，系统会多了那些功能呢？&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;最新的软件版本是什么？&lt;/strong&gt;&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>今天拿出来我的kindle，发现有系统更新的提示，对于我这种追求最新的人来说，更新那是必须的，那么本次更新后，系统会多了那些功能呢？</p>
-<p><strong>最新的软件版本是什么？</strong></p>
-<p>目前Kindle最新的软件版本是<strong>5.13.1</strong></p>
-<p>该版本适用的阅读器型号为：<section data-role="list"> <section data-role="list"></p>
-<ul class="list-paddingleft-2">
-  <li>
-    Kindle Oasis （第10代），即 KO3
-  </li>
-  <li>
-    Kindle Oasis （第9代）， 即KO2
-  </li>
-  <li>
-    Kindle Oasis （第8代），即 KO1
-  </li>
-  <li>
-    Kindle Voyage
-  </li>
-  <li>
-    Kindle 青春版（658元 入门款）
-  </li>
-  <li>
-    Kindle (558元 入门款)
-  </li>
-  <li>
-    Kindle Paperwhite（第10代），即KPW4
-  </li>
-</ul>
-<p><strong>如何查看Kindle软件更新情况？</strong></p>
-<p>打开你的Kindle，点击右上角【设置】&raquo;点击【设备选项】&raquo;【设备信息】，就可以查看你的Kindle的固件版本，以及最近更新的介绍。</p>
-<p><a href="https://tunan.org/wp-content/uploads/2020/08/e04cfab0380752f.jpg"><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-3236" src="https://tunan.org/wp-content/uploads/2020/08/e04cfab0380752f-1024x830.jpg" alt="" width="1024" height="830" srcset="https://tunan.org/wp-content/uploads/2020/08/e04cfab0380752f-1024x830.jpg 1024w, https://tunan.org/wp-content/uploads/2020/08/e04cfab0380752f-300x243.jpg 300w, https://tunan.org/wp-content/uploads/2020/08/e04cfab0380752f-768x622.jpg 768w, https://tunan.org/wp-content/uploads/2020/08/e04cfab0380752f.jpg 1080w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
-<p><strong>软件升级后，有哪些功能更新？</strong><section> <section> <section data-brushtype="text"></p>
-<p>** 搜****索<br>
-** </p> </section> </section> </section></p>
-<p>更新了搜索体验，能让你更轻松浏览搜索结果，同时不会丢失正在阅读的页面。</p>
-<p>在读一本书的时候，可以在上方【搜索】栏输入你想查找的词语，点击搜索就可以查看这词在书中什么位置出现过，有什么内容。</p>
-<p><a href="https://tunan.org/wp-content/uploads/2020/08/801f1503e6811ba.png"><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-3237" src="https://tunan.org/wp-content/uploads/2020/08/801f1503e6811ba-771x1024.png" alt="" width="771" height="1024" srcset="https://tunan.org/wp-content/uploads/2020/08/801f1503e6811ba-771x1024.png 771w, https://tunan.org/wp-content/uploads/2020/08/801f1503e6811ba-226x300.png 226w, https://tunan.org/wp-content/uploads/2020/08/801f1503e6811ba-768x1020.png 768w, https://tunan.org/wp-content/uploads/2020/08/801f1503e6811ba.png 1080w" sizes="(max-width: 771px) 100vw, 771px" /></a><section> <section> <section data-brushtype="text"></p>
-<p>** 快速翻书导航<br>
-** </p> </section> </section> </section></p>
-<p>Kindle更新了翻书的体验，进度条上会用圆点显示最近阅读的页面，包括最近在其他设备上阅读的页面。</p>
-<p><a href="https://tunan.org/wp-content/uploads/2020/08/08d269fe607fd1e.png"><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-3238" src="https://tunan.org/wp-content/uploads/2020/08/08d269fe607fd1e-771x1024.png" alt="" width="771" height="1024" srcset="https://tunan.org/wp-content/uploads/2020/08/08d269fe607fd1e-771x1024.png 771w, https://tunan.org/wp-content/uploads/2020/08/08d269fe607fd1e-226x300.png 226w, https://tunan.org/wp-content/uploads/2020/08/08d269fe607fd1e-768x1020.png 768w, https://tunan.org/wp-content/uploads/2020/08/08d269fe607fd1e.png 1080w" sizes="(max-width: 771px) 100vw, 771px" /></a></p>
-<p><strong>快速翻书</strong>可以帮助你快速捕捉到一本书的中心思想，找到数字、名称和图表。你将加快识别段落中关键句子的速度，熟练的小伙伴可以在几秒钟内浏览并理解一整页内容。<section> <section> <section data-brushtype="text"></p>
-<p>** 夜间模式<br>
-** </p> </section> </section> </section></p>
-<p>进入【设置】-【辅助功能】中开启关闭【黑白调换】。让你在黑暗中能舒适阅读~<section> <section> <section data-brushtype="text"></p>
-<p>**  功能设置位置更新<br>
-** </p> </section> </section> </section></p>
-<p>你应该也已经注意到有些功能设置的位置有所变化，比如热门标注、生词提示、生字注音。这些功能现在都可以在读电子书的页面里，与字体、页边距等一起设置了。<section data-role="list"> <section data-role="list"> <section data-tools="135编辑器" data-id="93009"> <section> <section data-brushtype="text"></p>
-<p>** Kindle朗读<br>
-** </p> </section> </section> </section></p>
-<p>*该功能目前仅适用于Kindle Oasis3, Kindle Paperwhite 4, 和Kindle青春版。</section> </section></p>
-<p><strong>Kindle可以听书了！</strong></p>
-<p>现在可以通过连接蓝牙耳机或音箱，收听Kindle电子书（注意是从z.cn 购买的中国出版社出版的简体中文电子书）。</p>
-<p>对于老刘来说，最喜欢的功能是前两个，以前总觉得kindle的搜索功能太弱了，这次更新后，貌似体验不错！</section> </section></p>
-]]></content:encoded>
+      <description>&lt;p&gt;今天拿出来我的kindle，发现有系统更新的提示，对于我这种追求最新的人来说，更新那是必须的，那么本次更新后，系统会多了那些功能呢？&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;最新的软件版本是什么？&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;目前Kindle最新的软件版本是&lt;strong&gt;5.13.1&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;该版本适用的阅读器型号为：&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;&lt;strong&gt;如何查看Kindle软件更新情况？&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;打开你的Kindle，点击右上角【设置】&amp;raquo;点击【设备选项】&amp;raquo;【设备信息】，就可以查看你的Kindle的固件版本，以及最近更新的介绍。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kindle Previewer v3.27  亚马逊官方电子书模拟器</title>
       <link>https://iliu.org/2999.html</link>
       <pubDate>Fri, 10 Jan 2020 07:12:58 +0000</pubDate>
       <guid>https://iliu.org/2999.html</guid>
-      <description>&lt;p&gt;Kindle Previewer 是一个模拟 Kindle 设备和应用程序显示书籍内容的使用界面工具。是亚马逊官方开发的一款kindle系列产品模拟器，可以模拟出kindle系列产品的功能。当然也可以用来阅读.mobi等专有格式的电子书，还可以对部分电子书格式进行格式的转换。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>Kindle Previewer 是一个模拟 Kindle 设备和应用程序显示书籍内容的使用界面工具。是亚马逊官方开发的一款kindle系列产品模拟器，可以模拟出kindle系列产品的功能。当然也可以用来阅读.mobi等专有格式的电子书，还可以对部分电子书格式进行格式的转换。</p>
-<p><a href="https://tunan.org/wp-content/uploads/2020/01/70a4716b0941990.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3000" src="https://tunan.org/wp-content/uploads/2020/01/70a4716b0941990.jpg" alt="" width="500" height="336" srcset="https://tunan.org/wp-content/uploads/2020/01/70a4716b0941990.jpg 500w, https://tunan.org/wp-content/uploads/2020/01/70a4716b0941990-300x202.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
-<p><a href="https://tunan.org/wp-content/uploads/2020/01/19d941ad46d6a8f.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3001" src="https://tunan.org/wp-content/uploads/2020/01/19d941ad46d6a8f.jpg" alt="" width="500" height="336" srcset="https://tunan.org/wp-content/uploads/2020/01/19d941ad46d6a8f.jpg 500w, https://tunan.org/wp-content/uploads/2020/01/19d941ad46d6a8f-300x202.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
-<p>设置成中文</p>
-<p><a href="https://tunan.org/wp-content/uploads/2020/01/542dc457f735c56.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-3002" src="https://tunan.org/wp-content/uploads/2020/01/542dc457f735c56.jpg" alt="" width="500" height="354" srcset="https://tunan.org/wp-content/uploads/2020/01/542dc457f735c56.jpg 500w, https://tunan.org/wp-content/uploads/2020/01/542dc457f735c56-300x212.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
-<h2 id="下载地址">下载地址</h2>
-<p>百度网盘： <a href="https://pan.baidu.com/s/1NeRETRakaeRFuoy&amp;#8211;IgnHw">https://pan.baidu.com/s/1NeRETRakaeRFuoy&amp;#8211;IgnHw</a> 提取码: d5fk</p>
-]]></content:encoded>
+      <description>&lt;p&gt;Kindle Previewer 是一个模拟 Kindle 设备和应用程序显示书籍内容的使用界面工具。是亚马逊官方开发的一款kindle系列产品模拟器，可以模拟出kindle系列产品的功能。当然也可以用来阅读.mobi等专有格式的电子书，还可以对部分电子书格式进行格式的转换。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/01/70a4716b0941990.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/01/19d941ad46d6a8f.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;设置成中文&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/01/542dc457f735c56.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>好书/显微镜下的大明</title>
       <link>https://iliu.org/2970.html</link>
       <pubDate>Thu, 02 Jan 2020 07:35:03 +0000</pubDate>
       <guid>https://iliu.org/2970.html</guid>
-      <description>&lt;p&gt;第一次听说这本书记得是姜老师的回复，说有一本叫《显微镜下的大明》这本书不错。刚好，看完了上一本书，就把这本书找来看。&lt;/p&gt;
-&lt;p&gt;虽然同是讲历史的说，但是这本书和别的历史书不同的在于，它没有写朝堂，没有写历史的上的那些大事。它只写了几个发生在民间的故事，譬如，小吏如何通过手段把本来由六个县负担的税赋让一个县承担，而事情被捅出来之后，竟然每人去翻案，最终闹大了反而把为其他五县请命的人给抓了。一座寺院加一个孤坟是如何发生战争的，大明黄册的作用以及黄册如何一步一步的沦为鸡肋的，底层人员又如何通过黄册来欺上瞒下的等等。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>第一次听说这本书记得是姜老师的回复，说有一本叫《显微镜下的大明》这本书不错。刚好，看完了上一本书，就把这本书找来看。</p>
-<p>虽然同是讲历史的说，但是这本书和别的历史书不同的在于，它没有写朝堂，没有写历史的上的那些大事。它只写了几个发生在民间的故事，譬如，小吏如何通过手段把本来由六个县负担的税赋让一个县承担，而事情被捅出来之后，竟然每人去翻案，最终闹大了反而把为其他五县请命的人给抓了。一座寺院加一个孤坟是如何发生战争的，大明黄册的作用以及黄册如何一步一步的沦为鸡肋的，底层人员又如何通过黄册来欺上瞒下的等等。</p>
-<p><a href="https://tunan.org/wp-content/uploads/2020/01/cadd91f3ed7c77a.jpeg"><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-2971" src="https://tunan.org/wp-content/uploads/2020/01/cadd91f3ed7c77a-720x1024.jpeg" alt="" width="720" height="1024" srcset="https://tunan.org/wp-content/uploads/2020/01/cadd91f3ed7c77a-720x1024.jpeg 720w, https://tunan.org/wp-content/uploads/2020/01/cadd91f3ed7c77a-211x300.jpeg 211w, https://tunan.org/wp-content/uploads/2020/01/cadd91f3ed7c77a-768x1093.jpeg 768w, https://tunan.org/wp-content/uploads/2020/01/cadd91f3ed7c77a.jpeg 1080w" sizes="(max-width: 720px) 100vw, 720px" /></a></p>
-<p><span class="pl">作者</span>: 马伯庸<br>
-<span class="pl">出版社:</span> 湖南文艺出版社<br>
-<span class="pl">出品方:</span> 博集天卷<br>
-<span class="pl">出版年:</span> 2019-1<br>
-<span class="pl">页数:</span> 344<br>
-<span class="pl">定价:</span> 52.00元<br>
-<span class="pl">装帧:</span> 平装<br>
-<span class="pl">丛书:</span> 博集天卷·马伯庸作品<br>
-<span class="pl">ISBN:</span> 9787540488475</p>
-<div class="">
-  <div class="intro">
-    <p>
-      ★ 马伯庸全新历史纪实作品，一本值得收藏的明朝历史书
-    </p>
-<pre><code>&lt;p&gt;
-  ★ 六件罕为人知的明代档案，六个尘封已久的民生往事
-&lt;/p&gt;
-
-&lt;p&gt;
-  ★ 生动的基层治政手册，于细微处读懂真正的古代中国
-&lt;/p&gt;
-
-&lt;p&gt;
-  ★ 这本书娓娓道来，用笔绵密细致。读者读来也可以从一个又一个细节当中，编织起一个复杂的大明帝国。——张宏杰
-&lt;/p&gt;
-
-&lt;p&gt;
-  &amp;#8212;&amp;#8212;&amp;#8212;&amp;#8212;&amp;#8212;&amp;#8212;&amp;#8212;&amp;#8212;&amp;#8212;&amp;#8211; &amp;#8212;&amp;#8212;&amp;#8212;&amp;#8212;&amp;#8212;&amp;#8212;&amp;#8212;&amp;#8212;&amp;#8212;&amp;#8212;&amp;#8212;&amp;#8212;&amp;#8212;&amp;#8212;&amp;#8212;&amp;#8212;&amp;#8212;-
-&lt;/p&gt;
-
-&lt;p&gt;
-  本书讲述的，是六个深藏于故纸堆中的明代基层政治事件。
-&lt;/p&gt;
-
-&lt;p&gt;
-  作者从明代的一系列罕见民间档案文书里，挖掘出这些尘封已久的故事。这些档案是中国历史中绝无仅有的奇迹，它们着眼于平民的政治生活，而且记录极为详尽。在这里，我们能看到朴实的百姓诉求、狡黠的民间智慧、肮脏的胥吏手段、微妙的官场均衡之术，从无数个真实的细节里，展现出一幅极其鲜活的政治生态图景。
-&lt;/p&gt;
-
-&lt;p&gt;
-  这六个事件聚焦于一府一县乃至一村之内，记录的是最底层平民的真实政治生活：当遭遇税收不公时，他们如何愤起抗争；当家族权益受到损害时，他们如何兴起诉讼；当政治利益与商业利益发生矛盾，他们如何与官府周旋博弈；当朝廷要求整顿户籍，他们又是如何从中造假牟利……
-&lt;/p&gt;
-
-&lt;p&gt;
-  《学霸必须死——徽州丝绢案始末》：万历年间，一项不公正的税收政策在徽州府引发了旷日持久的混乱。乱民、县官、州府、户部、首辅、皇帝等诸多利益集团的博弈之局。
-&lt;/p&gt;
-
-&lt;p&gt;
-  《笔与灰的抉择——婺源龙脉保卫战》：婺源县一场持续了六十四年的经济争端，反映了一个县级官员，是如何在重大议题上平衡一县之利害的。
-&lt;/p&gt;
-
-&lt;p&gt;
-  《谁动了我的祖庙——杨干院律政风云》：歙县一桩民间庙产争夺案。诉讼双方在这场绵延八年的官司中各展所长，用尽心思，上演了一场精彩绝伦的嘉靖法律大戏。
-&lt;/p&gt;
-
-&lt;p&gt;
-  《天下透明——大明第一档案库的前世今生》：一个坐落于后湖（玄武湖）中的冷门机构——大明黄册库从建立到衰败的全过程。了解明代的基层统治，是如何一步步垮掉的。
-&lt;/p&gt;
-
-&lt;p&gt;
-  《胥吏的盛宴——彭县小吏舞弊案》：一件小到不能再小的官司，却引来了无数贪婪蚊虫的叮咬。胥吏之恶，被刻画得淋漓尽致。
-&lt;/p&gt;
-
-&lt;p&gt;
-  《正统年间的四条冤魂》：四个无辜的清白老百姓，是如何裹挟入朝廷斗争的。
-&lt;/p&gt;
-
-&lt;p&gt;
-  作者力图以冷静克制的零度叙事，替那些生于尘埃、死于无闻的蝼蚁之辈作传，转述他们湮没于宏大历史中的声音。想要读懂大明，想要读懂中国古代政治，不可只注目于朝堂，亦要听到最底层的呐喊。在一个个普通人的遭遇中，才蕴藏着最真实的规律。
-&lt;/p&gt;
-</code></pre>
-  </div>
-</div>
-]]></content:encoded>
+      <description>&lt;p&gt;第一次听说这本书记得是姜老师的回复，说有一本叫《显微镜下的大明》这本书不错。刚好，看完了上一本书，就把这本书找来看。&lt;/p&gt;&#xA;&lt;p&gt;虽然同是讲历史的说，但是这本书和别的历史书不同的在于，它没有写朝堂，没有写历史的上的那些大事。它只写了几个发生在民间的故事，譬如，小吏如何通过手段把本来由六个县负担的税赋让一个县承担，而事情被捅出来之后，竟然每人去翻案，最终闹大了反而把为其他五县请命的人给抓了。一座寺院加一个孤坟是如何发生战争的，大明黄册的作用以及黄册如何一步一步的沦为鸡肋的，底层人员又如何通过黄册来欺上瞒下的等等。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/01/cadd91f3ed7c77a.jpeg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;作者&lt;!-- raw HTML omitted --&gt;: 马伯庸&lt;br&gt;&#xA;&lt;!-- raw HTML omitted --&gt;出版社:&lt;!-- raw HTML omitted --&gt; 湖南文艺出版社&lt;br&gt;&#xA;&lt;!-- raw HTML omitted --&gt;出品方:&lt;!-- raw HTML omitted --&gt; 博集天卷&lt;br&gt;&#xA;&lt;!-- raw HTML omitted --&gt;出版年:&lt;!-- raw HTML omitted --&gt; 2019-1&lt;br&gt;&#xA;&lt;!-- raw HTML omitted --&gt;页数:&lt;!-- raw HTML omitted --&gt; 344&lt;br&gt;&#xA;&lt;!-- raw HTML omitted --&gt;定价:&lt;!-- raw HTML omitted --&gt; 52.00元&lt;br&gt;&#xA;&lt;!-- raw HTML omitted --&gt;装帧:&lt;!-- raw HTML omitted --&gt; 平装&lt;br&gt;&#xA;&lt;!-- raw HTML omitted --&gt;丛书:&lt;!-- raw HTML omitted --&gt; 博集天卷·马伯庸作品&lt;br&gt;&#xA;&lt;!-- raw HTML omitted --&gt;ISBN:&lt;!-- raw HTML omitted --&gt; 9787540488475&lt;/p&gt;</description>
     </item>
     <item>
       <title>《欢愉》——一个优雅而性感的故事</title>
       <link>https://iliu.org/2632.html</link>
       <pubDate>Tue, 27 Aug 2019 07:10:15 +0000</pubDate>
       <guid>https://iliu.org/2632.html</guid>
-      <description>&lt;p&gt;这两天把《欢愉》这本书看了一遍，看这本书是因为kindle里的推荐：&lt;/p&gt;
-&lt;p&gt;它的头衔很多&lt;/p&gt;
-&lt;p class=&#34;ql-align-justify&#34;&gt;
-  它是&lt;strong&gt;《纽约时报》&lt;/strong&gt;的畅销图书；
-&lt;/p&gt;
-&lt;p class=&#34;ql-align-justify&#34;&gt;
-  &lt;strong&gt;全美书评人协会奖&lt;/strong&gt;短名单入围作品；
-&lt;/p&gt;
-&lt;p class=&#34;ql-align-justify&#34;&gt;
-  获得过&lt;strong&gt;科克斯书评奖&lt;/strong&gt;、&lt;strong&gt;新英格兰图书奖&lt;/strong&gt;等多项图书大奖；
-&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>这两天把《欢愉》这本书看了一遍，看这本书是因为kindle里的推荐：</p>
-<p>它的头衔很多</p>
-<p class="ql-align-justify">
-  它是<strong>《纽约时报》</strong>的畅销图书；
-</p>
-<p class="ql-align-justify">
-  <strong>全美书评人协会奖</strong>短名单入围作品；
-</p>
-<p class="ql-align-justify">
-  获得过<strong>科克斯书评奖</strong>、<strong>新英格兰图书奖</strong>等多项图书大奖；
-</p>
-<p class="ql-align-justify">
-  被美国国家公共电台、《时代周刊》《纽约时报》《娱乐周刊》《VOGUE》《出版人周刊》《华盛顿邮报》《旧金山纪事报》《奥普拉杂志》评为<strong>「年度好书」</strong>！
-</p>
-<p class="ql-align-justify">
-  最重要的是kindle里免费送一本，于是就领取看了一下，结果还算可以吧。
-</p><figure class="content-img-box" id="2629">
-<p><img decoding="async" alt="《欢愉》——一个优雅而性感的故事" src="https://tunan.org/wp-content/uploads/2019/08/1a5a4d6d751d6d.jpg" id="2B4B3480" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
-<p class="ql-align-justify">
-</p>
-<p class="ql-align-justify">
-</p>
-<h2 class="ql-align-justify" id="一个优雅而性感的故事"><span class="ql-font-serif" style="background-color: rgb(0, 88, 156); color: rgb(255, 255, 255);">一个优雅而性感的故事</span></h2>
-<p class="ql-align-justify">
-  本书基于美国著名人类学家玛格丽特•米德的真实人生故事写就。
-</p>
-<p class="ql-align-justify">
-  20世纪30年代，三位年轻的人类学家前往新几内亚考察，他们之间发生的一段三角恋情，潜移默化地影响了他们的观念、学术生涯，乃至命运……
-</p><figure class="content-img-box" id="2630">
-<p><img decoding="async" alt="《欢愉》——一个优雅而性感的故事" src="https://tunan.org/wp-content/uploads/2019/08/12ed4dc52b3679.jpg" id="01592CC4" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
-<p class="ql-align-justify">
-</p>
-<p class="ql-align-justify">
-</p>
-<p class="ql-align-justify">
-  安德鲁•班克森出身学术世家，其父热切地希望孩子们能继承他的衣钵研究生物学。他的两个哥哥却相继意外殒命。班克森追随父兄脚步前往剑桥学习生物学，却被人类学吸引。
-</p>
-<p class="ql-align-justify">
-  父亲死后，班克森回到曾实地考察过的新几内亚。学术研究上的无力感和亲人死亡造成的阴影令他心灰意冷，试图自杀。
-</p>
-<p class="ql-align-justify">
-  内尔和芬这对人类学家夫妇的到来打破了班克森死水般的生活。
-</p>
-<p class="ql-align-justify">
-  班克森也缓和了内尔与芬之间因研究方法与学术声望的差异而日益紧张的关系。
-</p>
-<p class="ql-align-justify">
-  班克森被内尔吸引，理智令他选择压抑自己的感情。
-</p>
-<p class="ql-align-justify">
-  <strong>三人都对班克森与内尔之间日益滋长的情愫心知肚明，挣扎于欲望与自律之间的他们小心地守护着一种微妙的平衡</strong>。
-</p>
-<p class="ql-align-justify">
-  一次三人交谈时的相互激发催生了人类学研究领域的一大创见。
-</p>
-<p class="ql-align-justify">
-  一天早上，芬突然驾着小船独自离开，带走了部落里最有名的少年首领。他要去抢劫临近部落的圣笛。他相信那笛子能帮他建立学术地位，但这一冒险之举彻底改变了三人的人生轨迹……
-</p>
-<h2 id="近乎极致的阅读体验"><span class="ql-font-serif" style="background-color: rgb(0, 88, 156); color: rgb(255, 255, 255);">近乎极致的阅读体验</span></h2>
-<p class="ql-align-justify">
-  简单地转述《欢愉》的情节，只会令这个故事的魅力消减大半。小说于字里行间蕴藏的氛围和情绪，具有令人心醉神迷的魔力。
-</p>
-<p class="ql-align-justify">
-  <strong>莉莉·金采用了一种充满想象力的叙述策略，打破了时间和人物视角的限制，营造了充满迷幻感的文本体验。</strong>
-</p>
-<p class="ql-align-justify">
-  作为小说的叙事主人公，班克森拥有近乎全知全能的视野，小说开篇，内尔和芬在他的讲述中完成了登场亮相，他本人却还没有在小说中出现过。
-</p><figure class="content-img-box" id="2631">
-<p><img decoding="async" alt="《欢愉》——一个优雅而性感的故事" src="https://tunan.org/wp-content/uploads/2019/08/1824c863dd7459.jpg" id="4507AA8E" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
-<p class="ql-align-justify">
-</p>
-<p class="ql-align-justify">
-</p>
-<p class="ql-align-justify">
-  逻辑上讲不通的蒙太奇制造出了强烈的宿命感，仿佛这一切都已经不是第一次在宇宙中上演，主人公对此早就了然于心。
-</p>
-<p class="ql-align-justify">
-  具有相似效果的还有班克森在多个破碎时空中跳跃的叙述，从故事开始的上世纪30年代，直到70年代，读者很难预测他的下一段讲述会从哪个时间节点开始。
-</p>
-<p class="ql-align-justify">
-  然而，这种跳跃并不会让读者费解，无论时间是向前推进，或是向过去回溯，它们永远指向共同的焦点。
-</p>
-<p class="ql-align-justify">
-  于是读者明白了，班克森永远地滞留在了故事发生的那几个月之中，“当下”变为恍惚可疑的浅梦，记忆却成为永恒的现实，一遍又一遍地循环上演。
-</p>
-<p class="ql-align-justify">
-  莉莉·金在《欢愉》中还嵌入了另一个文本——班克森意外获得的内尔日记，这既从逻辑上完善了整个故事，又丰富了班克森的叙事层次。
-</p>
-<p class="ql-align-justify">
-  我们可以推想，在经年累月反复阅读那本日记之后，其内容已同班克森自己的记忆融为一体，他的叙事也因此具有了双重视角，他的视角，内尔的视角。
-</p>
-<p class="ql-align-justify">
-  视域的交错赋予故事强大的张力，给小说中如梦幻一般的片段和细节提供了栖身之地，它们只有在这部小说独特的情境中才能成立：
-</p>
-<p class="ql-align-justify">
-  班克森为在田野调查中留下满身伤口的内尔包扎时的情欲涌动；内尔夫妇和班克森在湖中夜泳深谈，凝望星辰；班克森和内尔在细雨中跳起求雨的舞蹈，口中呼唤他们知晓的语言中所有代表“雨”的单词；三位人类学家在一个崭新理论初现雏形时内心的悸动和高于语言的默契……
-</p>
-<p class="ql-align-justify">
-  <strong>这些情节带有强烈的超现实的美感，它们令小说的爱情主题挣脱俗套的窠臼，呈现出诗性特征。</strong>
-</p>]]></content:encoded>
+      <description>&lt;p&gt;这两天把《欢愉》这本书看了一遍，看这本书是因为kindle里的推荐：&lt;/p&gt;&#xA;&lt;p&gt;它的头衔很多&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>给孩子推荐一本书《假话国历险记》</title>
       <link>https://iliu.org/1609.html</link>
       <pubDate>Mon, 20 May 2019 03:14:30 +0000</pubDate>
       <guid>https://iliu.org/1609.html</guid>
-      <description>&lt;p&gt;周五的时候，接女儿放学回家，路上的时候女儿给我说：“爸爸，你能不能给我买一本书啊？”我问，什么书啊？女儿说，是一本叫《假话国历险记》的书，我还是第一次听说这本书，还以为又是一本快餐小说呢，就给女儿说，我要看看这本书怎么样才能确定用不要给你买。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>周五的时候，接女儿放学回家，路上的时候女儿给我说：“爸爸，你能不能给我买一本书啊？”我问，什么书啊？女儿说，是一本叫《假话国历险记》的书，我还是第一次听说这本书，还以为又是一本快餐小说呢，就给女儿说，我要看看这本书怎么样才能确定用不要给你买。</p>
-<p>经过查询发现这本书是国<span style="color: #111111; background-color: #ffffff;">际安徒生奖得主、意大利作家罗大里的代表作之一，</span><span style="color: #333333; background-color: #ffffff;">讲述了海盗当上了一个国家的国王，因为嫌海盗的名声难听，就想出个办法，把字典全部改过：海盗变成了圣人，圣人变成了海盗：面包叫墨水，墨水叫面包；早晨起床说晚安，睡前道你早……颠倒黑白，歪曲事实，正直真诚的人们要坐牢。一天，假话国来了男孩小茉莉，还有一个小画家，一只三脚猫……他们都不愿说假话，不愿人们受欺压。小茉莉用自己高亢的声音震跑了假话国的国王，震塌了”疯人院”，也解救了许多无罪的、敢说真话的人们。</span><figure id="1608" class="content-img-box "></p>
-<p><img decoding="async" id="EF6FE742" class="po-img-big" src="https://tunan.org/wp-content/uploads/2019/05/124580518ae2ac.jpg" alt="给孩子推荐一本书《假话国历险记》" /> <figcaption class="addDesn"></figcaption></figure></p>
-<blockquote>
-<p>著名的儿童作家任溶溶曾经这样评价这本书，<span style="color: #111111; background-color: #ffffff;">“最喜欢的作家，还得数意大利的罗大里。他的《假话国历险记》，‘文革’当中被我当作图画书拿去给孩子看了——我以为自己再也不会搞翻译了。粉碎‘四人帮’之后，才突然发现这书非常好玩。一个海盗做了国王，为了掩盖自己的出身，就要把一切都颠倒过来说，文具店里卖面包，面包店里卖家具。这个故事，大人固然会喜欢，但首先是孩子会觉得这很有趣。”—任溶溶</span></p>
-</blockquote>
-<p><span style="color: #111111; background-color: #ffffff;">所以，就答应女儿给她买这本书，不过有了kindle后，凡是书都喜欢在kindle上去看看，由于是名著，kindle里是有这本书的，如果你开通了包月借书，直接就可以在图书馆里借了。</span></p>
-<p><span style="color: #111111; background-color: #ffffff;">当然如果你没有开通包月借书，也没有关系，本周提供了这本书的电子版，格式为：</span>epub+mobi+azw3，可以说很齐全了。</p>
-<p>百度网盘下载地址：</p>
-]]></content:encoded>
+      <description>&lt;p&gt;周五的时候，接女儿放学回家，路上的时候女儿给我说：“爸爸，你能不能给我买一本书啊？”我问，什么书啊？女儿说，是一本叫《假话国历险记》的书，我还是第一次听说这本书，还以为又是一本快餐小说呢，就给女儿说，我要看看这本书怎么样才能确定用不要给你买。&lt;/p&gt;&#xA;&lt;p&gt;经过查询发现这本书是国&lt;!-- raw HTML omitted --&gt;际安徒生奖得主、意大利作家罗大里的代表作之一，&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;讲述了海盗当上了一个国家的国王，因为嫌海盗的名声难听，就想出个办法，把字典全部改过：海盗变成了圣人，圣人变成了海盗：面包叫墨水，墨水叫面包；早晨起床说晚安，睡前道你早……颠倒黑白，歪曲事实，正直真诚的人们要坐牢。一天，假话国来了男孩小茉莉，还有一个小画家，一只三脚猫……他们都不愿说假话，不愿人们受欺压。小茉莉用自己高亢的声音震跑了假话国的国王，震塌了”疯人院”，也解救了许多无罪的、敢说真话的人们。&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

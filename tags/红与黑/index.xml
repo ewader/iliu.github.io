@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>红与黑 on 老刘博客</title>
     <link>https://iliu.org/tags/%E7%BA%A2%E4%B8%8E%E9%BB%91/</link>
     <description>Recent content in 红与黑 on 老刘博客</description>
-    <image>
-      <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
-    </image>
-    <generator>Hugo -- 0.155.2</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 22 Feb 2009 02:42:00 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/%E7%BA%A2%E4%B8%8E%E9%BB%91/index.xml" rel="self" type="application/rss+xml" />
@@ -18,26 +13,7 @@
       <link>https://iliu.org/348.html</link>
       <pubDate>Sun, 22 Feb 2009 02:42:00 +0000</pubDate>
       <guid>https://iliu.org/348.html</guid>
-      <description>&lt;p&gt;游戏规则&lt;/p&gt;
-&lt;p&gt;1、目的：你队与另一队分别为队A、队B，各自争取取得高分。&lt;/p&gt;
-&lt;p&gt;2、程序：每轮你队有两种选择——-红或黑，由工作人员了解你队每轮的选择并告知你们的得分，你队可根据上轮得分确定下轮选择。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>游戏规则</p>
-<p>1、目的：你队与另一队分别为队A、队B，各自争取取得高分。</p>
-<p>2、程序：每轮你队有两种选择——-红或黑，由工作人员了解你队每轮的选择并告知你们的得分，你队可根据上轮得分确定下轮选择。</p>
-<p>3、沟通：两队在第四轮选择后，征得双方同意，可进行第一次沟通，双方各派一名代表外出面谈，面谈时间为一分钟；　</p>
-<p>两队在第八轮选择后，双方必须进行沟通，面谈时间为一分钟。</p>
-<p>两队除按上述规则可召集的面谈外，禁止其它沟通。</p>
-<p>4、得分计算</p>
-<p>1）队A、队B均选红，各得1分；队A、队B均选黑，各减1分；</p>
-<p>2）一队选红、一队选黑，选红者减3分，选黑者加3分；</p>
-<p>3）第9与第10轮选择，得分乘3后计入总分。<figure class="content-img-box" id="2474"></p>
-<p><img decoding="async" alt="[团队游戏]红与黑" src="https://tunan.org/wp-content/uploads/2019/07/1a51c6dce1ae62.jpg" id="B7BEB26E" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
-<p>点评</p>
-<p>1•要取得长期利益，必须采取合作的态度。</p>
-<p>2•团体合作的基础是相互信任。</p>
-<p>3•信任来自于畅顺的沟通。</p>
-<p>4•信任一旦逝去，难以补救。</p>
-]]></content:encoded>
+      <description>&lt;p&gt;游戏规则&lt;/p&gt;&#xA;&lt;p&gt;1、目的：你队与另一队分别为队A、队B，各自争取取得高分。&lt;/p&gt;&#xA;&lt;p&gt;2、程序：每轮你队有两种选择——-红或黑，由工作人员了解你队每轮的选择并告知你们的得分，你队可根据上轮得分确定下轮选择。&lt;/p&gt;&#xA;&lt;p&gt;3、沟通：两队在第四轮选择后，征得双方同意，可进行第一次沟通，双方各派一名代表外出面谈，面谈时间为一分钟；　&lt;/p&gt;&#xA;&lt;p&gt;两队在第八轮选择后，双方必须进行沟通，面谈时间为一分钟。&lt;/p&gt;&#xA;&lt;p&gt;两队除按上述规则可召集的面谈外，禁止其它沟通。&lt;/p&gt;&#xA;&lt;p&gt;4、得分计算&lt;/p&gt;&#xA;&lt;p&gt;1）队A、队B均选红，各得1分；队A、队B均选黑，各减1分；&lt;/p&gt;&#xA;&lt;p&gt;2）一队选红、一队选黑，选红者减3分，选黑者加3分；&lt;/p&gt;&#xA;&lt;p&gt;3）第9与第10轮选择，得分乘3后计入总分。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

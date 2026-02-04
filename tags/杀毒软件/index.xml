@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>杀毒软件 on 老刘博客</title>
     <link>https://iliu.org/tags/%E6%9D%80%E6%AF%92%E8%BD%AF%E4%BB%B6/</link>
     <description>Recent content in 杀毒软件 on 老刘博客</description>
-    <image>
-      <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
-    </image>
-    <generator>Hugo -- 0.155.2</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 19 Apr 2023 01:29:27 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/%E6%9D%80%E6%AF%92%E8%BD%AF%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
@@ -18,76 +13,14 @@
       <link>https://iliu.org/4365.html</link>
       <pubDate>Wed, 19 Apr 2023 01:29:27 +0000</pubDate>
       <guid>https://iliu.org/4365.html</guid>
-      <description>&lt;p&gt;现在电脑虽然普及，但是随着微软系统内置杀毒软件，以及PC的使用率下降等原因，导致杀毒软件的行业也不在如以前繁荣，很多知名的杀毒软件，要么慢慢淡去，要么被实力更大的厂商收购。今天，就来盘点一下，用电脑的这些年，折腾过的杀毒软件。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>现在电脑虽然普及，但是随着微软系统内置杀毒软件，以及PC的使用率下降等原因，导致杀毒软件的行业也不在如以前繁荣，很多知名的杀毒软件，要么慢慢淡去，要么被实力更大的厂商收购。今天，就来盘点一下，用电脑的这些年，折腾过的杀毒软件。</p>
-<p>对电脑病毒初次有印象是1999年，CIH病毒泛滥的那段时间。老师上课的时候，不经意间说他家的电脑中病毒了，从此对电脑病毒有了印象。第一次真正的遇到电脑病毒是2003年的时候，当时单位的电脑运行的很慢，网管给装上了瑞星杀毒软件，更新后，扫出来几千个病毒，当时把我给兴奋的不行。</p>
-<p>也正是如此，对瑞星杀毒软件就有了好印象，于是在买的第一台电脑里，安装的杀毒软件就是瑞星。<figure class="wp-block-image"></p>
-<p><img decoding="async" src="https://cdn.staticaly.com/gh/ewader/img@master/20230419/xxx.3kp8neermue0.webp" alt="xxx" /> </figure></p>
-<h2 class="wp-block-heading" id="国内篇">国内篇 </h2>
-<h3 class="wp-block-heading" id="瑞星杀毒软件">瑞星杀毒软件</h3>
-<p>因为好印象，所以第一选择就是它，当然用的是盗版的。于是满世界的找注册码，当时瑞星防盗版很严，基本上找不到能用的注册码。但是找到了好几个专业的杀毒软件的论坛，包括霏凡论坛，金山论坛杀毒软件专区，在论坛里结识了好几个大神。由于不好找注册码以及其他的原因，后来就不在使用瑞星杀毒软件了。</p>
-<h3 class="wp-block-heading" id="金山杀毒软件">金山杀毒软件</h3>
-<p>之所以用金山，是因为金山杀毒软件当时是可以离线更新病毒库的。虽然麻烦了一些，但是能升级就行了呗，后来从论坛上了解到，当年的金山杀毒软件技术水平还是很高的，杀毒引擎一度是oem俄罗斯的dr.web。后来，就发展出来了自己的杀毒引擎，在当时也是很先进的，不过后来，它啥都想做，啥都没有做出来什么样子。杀毒软件也就慢慢没落了。</p>
-<h3 class="wp-block-heading" id="江民杀毒软件">江民杀毒软件</h3>
-<p>这个我没有用过，当时也是很厉害的，在一些测试中，国产的应该是拍第一，资源占用很小，杀毒率和卡巴斯基不相上下。但是，那时候卡巴斯基是真卡，杀猪的声音是真销魂。之所以不用，是因为它的反盗版真牛B，甚至为了反盗版而出了锁硬盘的逻辑锁。你用我的盗版不给我交钱，我锁你硬盘。</p>
-<h3 class="wp-block-heading" id="微点杀毒软件">微点杀毒软件</h3>
-<p>没咋用过，因为它一直不出正式版，这个杀毒软件，是从瑞星离职的一个老总开发的， 被瑞星告了，老总差点被抓，所以，这个软件当时一直是测试版，据说它的理念很先进，叫作主动式的安全软件。现在已经找不到了</p>
-<h3 class="wp-block-heading" id="费尔杀毒">费尔杀毒</h3>
-<p>2008年左右开发出来的，当时还推出终身版的注册码，可惜刚发展没多久，就遇到了360的免费，然后就没有然后了，前两年还偶尔更新一下，现在估计彻底凉凉了。</p>
-<h3 class="wp-block-heading" id="360杀毒软件">360杀毒软件</h3>
-<p>周鸿祎开发的，并且免费，开启了国内杀毒软件免费的浪潮，360起家是做流氓软件3721的，这也是被广大网友诟病的一件事。免费的杀毒软件香是香，但是广告真的是太多了，而且后来都是ALL IN ONE，啥功能都想带，自己的全家桶拼命的往你电脑里塞，所以，当时用了一段时间，慢慢的不再用了，凭心而论，360积累的技术还是很牛的，中国安全软件界的扛把子。</p>
-<p>可能有人会说还有火绒，这个软件，我没有用过，不做评论了。</p>
-<h2 class="wp-block-heading" id="国外篇">国外篇</h2>
-<h3 class="wp-block-heading" id="卡巴斯基">卡巴斯基</h3>
-<p>俄罗斯的杀毒软件，在国内做的本地化最好，当年是真的卡，杀毒是真不留情，杀猪的声音是很多人的回忆。当然，这都是过去了，现在的卡巴斯基是一点也不卡了 ，整体运行流畅，防护的也很全面，价格也不贵，老用户的续费价是3年108元。相比较国内那些乱七八糟的软件，这个价格还是可以接受的，老刘店里的电脑用的这个，前几天成功的发现小胡的博客，有一个js有问题。</p>
-<h3 class="wp-block-heading" id="drweb">dr.web</h3>
-<p>同样是俄罗斯的，据说是俄罗斯军用的，也不知道真假。但是这个软件带毒杀毒的能力很强，当年熊猫烧香病毒为数不多的没被干掉的杀毒软件之一。缺点是有点卡，之前在国内还做过活动。8块钱一年。现在好像不做了，由于不咋用，没有太关注。</p>
-<h3 class="wp-block-heading" id="eset">ESET</h3>
-<p>斯洛伐克的杀毒软件，但是总部在美国。一出世就很惊艳，资源占用很小，甚至完全感觉不到，但是防护的很好，很全面，关键是注册码很好找，虽然每个注册码都用不太长时间，但是封了再找吗，如果不想这么麻烦，入正也是一个很不错的选择，87元三年。相当有性价比了。目前老刘家里的电脑正在使用，对比系统自带的wd，流畅度不是一个等级的。</p>
-<h3 class="wp-block-heading" id="avast-avira-avg">AVAST AVIRA AVG</h3>
-<p>传说中的3A，都有免费版的杀毒软件，其实，免费杀毒软件并不是360首创的，只不过360是第一家全免费，并且营销力度最大的，这里说的3a都是有免费版的，区别于收费版，有些功能上的缺失，比如没有防火墙等。目前这三者都被norton收购了。</p>
-<h3 class="wp-block-heading" id="norton">norton</h3>
-<p>美国的老牌杀毒软件，防护性能好，如果说卡巴基斯以进攻为主，norton就是以防守为主。在国内也拥有很多的粉丝，分为企业版和个人版，企业版现在卖给高通了。企业版基本对个人来说是免费使用的。效果很好。资源占用也不大。值得使用的杀毒软件。</p>
-<h3 class="wp-block-heading" id="mcafee">McAfee</h3>
-<p>美国的杀毒软件，当年企业版独创的文件夹保护技术，迷倒很多人。设置好规则后，病毒想进来都进不来。个人版略卡，没有太用过。企业版和norton一样，对个人来说基本可以免费使用。不过后来，这个软件有点不思进取了，技术方面没有太大的突破，也就不怎么关注了。</p>
-<h3 class="wp-block-heading" id="microsoft-defendermse">Microsoft Defender(MSE)</h3>
-<p>系统自带的杀毒软件，客观来说，只用MD也基本没啥问题的，主要的问题是，md一是卡系统，二是树大招风，很多病毒都会针对md做免杀。所以，万不得已还是用其他的吧</p>
-]]></content:encoded>
+      <description>&lt;p&gt;现在电脑虽然普及，但是随着微软系统内置杀毒软件，以及PC的使用率下降等原因，导致杀毒软件的行业也不在如以前繁荣，很多知名的杀毒软件，要么慢慢淡去，要么被实力更大的厂商收购。今天，就来盘点一下，用电脑的这些年，折腾过的杀毒软件。&lt;/p&gt;&#xA;&lt;p&gt;对电脑病毒初次有印象是1999年，CIH病毒泛滥的那段时间。老师上课的时候，不经意间说他家的电脑中病毒了，从此对电脑病毒有了印象。第一次真正的遇到电脑病毒是2003年的时候，当时单位的电脑运行的很慢，网管给装上了瑞星杀毒软件，更新后，扫出来几千个病毒，当时把我给兴奋的不行。&lt;/p&gt;&#xA;&lt;p&gt;也正是如此，对瑞星杀毒软件就有了好印象，于是在买的第一台电脑里，安装的杀毒软件就是瑞星。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;h2 class=&#34;wp-block-heading&#34; id=&#34;国内篇&#34;&gt;国内篇 &lt;/h2&gt;&#xA;&lt;h3 class=&#34;wp-block-heading&#34; id=&#34;瑞星杀毒软件&#34;&gt;瑞星杀毒软件&lt;/h3&gt;&#xA;&lt;p&gt;因为好印象，所以第一选择就是它，当然用的是盗版的。于是满世界的找注册码，当时瑞星防盗版很严，基本上找不到能用的注册码。但是找到了好几个专业的杀毒软件的论坛，包括霏凡论坛，金山论坛杀毒软件专区，在论坛里结识了好几个大神。由于不好找注册码以及其他的原因，后来就不在使用瑞星杀毒软件了。&lt;/p&gt;</description>
     </item>
     <item>
       <title>见过不要脸的，但没有见过墨者这么不要脸的</title>
       <link>https://iliu.org/338.html</link>
       <pubDate>Thu, 05 Feb 2009 11:02:00 +0000</pubDate>
       <guid>https://iliu.org/338.html</guid>
-      <description>&lt;p&gt;在论坛闲逛，看到一网友介绍墨者最新推出的墨者病毒追踪助手，说是可以有效追踪并根除杀毒软件无法清除的顽固木马病毒，同时还提供了墨者独创的病毒释放关系图，它将成为用户杀毒的又一强力武器。说是最新支持了avast！，恰好本人在用，因此就来到了这家网站，结果让人看到一片很雷的报道！&lt;figure class=&#34;content-img-box&#34; id=&#34;2478&#34;&gt;&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>在论坛闲逛，看到一网友介绍墨者最新推出的墨者病毒追踪助手，说是可以有效追踪并根除杀毒软件无法清除的顽固木马病毒，同时还提供了墨者独创的病毒释放关系图，它将成为用户杀毒的又一强力武器。说是最新支持了avast！，恰好本人在用，因此就来到了这家网站，结果让人看到一片很雷的报道！<figure class="content-img-box" id="2478"></p>
-<p><img decoding="async" alt="见过不要脸的，但没有见过墨者这么不要脸的" src="https://tunan.org/wp-content/uploads/2019/07/1e5da59f2cadee.jpg" id="ACB63C73" class="po-img-big" /> <figcaption class="addDesn"></figcaption></figure></p>
-<p>“2008最新杀毒软件评测结果:趋势第一，诺顿第二，卡巴第三”很是大吃一惊，因为还从来没有听说趋势在测评中得过第一，然后看了看给的数据：</p>
-<p>•Anti-virus comparison test of current anti-malware products, Q1/2008 Copyright © 2008 AV-Test GmbH, Last Update: 2008-01-22 Details for the “Signature Detection” results (see column B) Number of Samples 1,024,381</p>
-<p>•1. WebWasher (gateway product only) 1,023,742 99.9%</p>
-<p>•2. AVK 2008 1,022,418 99.8%</p>
-<p>•3. AntiVir 1,020,627 99.6%</p>
-<p>•4. Avast! 1,018,204 99.4%</p>
-<p>•5. Trend Micro 1,009,662 98.6%</p>
-<p>•6. Symantec 1,006,849 98.3%</p>
-<p>•7. AVG 1,005,006 98.1%</p>
-<p>•8. BitDefender 1,003,902 98.0%</p>
-<p>•9. Kaspersky 1,003,470 98.0%</p>
-<p>•10. Ikarus 1,002,894 97.9%</p>
-<p>•11. Sophos 1,001,655 97.8%</p>
-<p>• 12. F-Secure 999,806 97.6%</p>
-<p>•13. Microsoft 992,880 96.9%</p>
-<p>•14. F-Prot 986,961 96.3%</p>
-<p>•15. Panda 979,409 95.6%</p>
-<p>•16. Rising 962,674 94.0%</p>
-<p>•17. Norman 962,191 93.9%</p>
-<p>•18. McAfee 959,919 93.7%</p>
-<p>•19. Fortinet 957,558 93.5%</p>
-<p>•20. Nod32 953,936 93.1%</p>
-<p>发现，趋势也没有第一啊，卡巴也不在第三啊，紧接着在往下看：“按这个报告，在进入中国市场的软件里，趋势第一，诺顿第二，卡巴第三~~!”</p>
-<p>哦。我明白人家是如何给杀软排队的了，中国人就是聪明，第一这玩意不管怎么样都可以搞出来！</p>
-<p>可以到这个网址看看原文：http://www.mozhe.com/news/90.html</p>
-]]></content:encoded>
+      <description>&lt;p&gt;在论坛闲逛，看到一网友介绍墨者最新推出的墨者病毒追踪助手，说是可以有效追踪并根除杀毒软件无法清除的顽固木马病毒，同时还提供了墨者独创的病毒释放关系图，它将成为用户杀毒的又一强力武器。说是最新支持了avast！，恰好本人在用，因此就来到了这家网站，结果让人看到一片很雷的报道！&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

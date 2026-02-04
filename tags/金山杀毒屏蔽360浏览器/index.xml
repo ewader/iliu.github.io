@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>金山杀毒屏蔽360浏览器 on 老刘博客</title>
     <link>https://iliu.org/tags/%E9%87%91%E5%B1%B1%E6%9D%80%E6%AF%92%E5%B1%8F%E8%94%BD360%E6%B5%8F%E8%A7%88%E5%99%A8/</link>
     <description>Recent content in 金山杀毒屏蔽360浏览器 on 老刘博客</description>
-    <image>
-      <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
-    </image>
-    <generator>Hugo -- 0.155.2</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 04 Sep 2011 10:03:20 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/%E9%87%91%E5%B1%B1%E6%9D%80%E6%AF%92%E5%B1%8F%E8%94%BD360%E6%B5%8F%E8%A7%88%E5%99%A8/index.xml" rel="self" type="application/rss+xml" />
@@ -19,11 +14,6 @@
       <pubDate>Sun, 04 Sep 2011 10:03:20 +0000</pubDate>
       <guid>https://iliu.org/1287.html</guid>
       <description>&lt;p&gt;一直在用360浏览器集成IE8的版本，因为电脑比较旧，直接升级IE8，太卡的说，如果不升级的话，去gmail等不支持IE6的网站又很难受，所以就用360来代替，但是今天看了金山杀毒猎豹版之后，冲着占用资源小这个卖点，装之，结果，我的360浏览器废了！&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>一直在用360浏览器集成IE8的版本，因为电脑比较旧，直接升级IE8，太卡的说，如果不升级的话，去gmail等不支持IE6的网站又很难受，所以就用360来代替，但是今天看了金山杀毒猎豹版之后，冲着占用资源小这个卖点，装之，结果，我的360浏览器废了！</p>
-<p>啥也不少了，泪汪汪的上图：</p>
-<p><a href="https://tunan.org/wp-content/uploads/2019/07/14ced05dd9256d.jpg"><img loading="lazy" decoding="async" width="900" height="454" src="https://tunan.org/wp-content/uploads/2019/07/14ced05dd9256d.jpg" alt="" class="aligncenter size-full wp-image-2280" srcset="https://tunan.org/wp-content/uploads/2019/07/14ced05dd9256d.jpg 900w, https://tunan.org/wp-content/uploads/2019/07/14ced05dd9256d-768x387.jpg 768w" sizes="(max-width: 900px) 100vw, 900px" /></a><br>
-上图中，开了3个浏览器做实验，IE6、firefox都能正常的打开百度，但是只有360浏览器，无能为力了，我想说的是，我不管你们怎么的狗咬狗，别损害用户的利益，用户喜欢用那个，他就用哪个，否则只能搬起石头砸自己的脚，删出金山杀毒去！！！</p>
-<p>    <del>PS,关于360浏览器不能上网的原因找到了，不知道怎么回事，竟然莫名其妙的被设置了代理服务器，虽然这个代理IP是我添加的，但是在用金山以前是没有启用的，第二，360浏览器的核心被莫名其妙的置换成了IE6，到底是怎么回事，目前不明白，只是知道这一起都是在安装金山后变成了这样。</del></p>]]></content:encoded>
     </item>
   </channel>
 </rss>

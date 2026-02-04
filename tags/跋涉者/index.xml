@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>跋涉者 on 老刘博客</title>
     <link>https://iliu.org/tags/%E8%B7%8B%E6%B6%89%E8%80%85/</link>
     <description>Recent content in 跋涉者 on 老刘博客</description>
-    <image>
-      <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
-    </image>
-    <generator>Hugo -- 0.155.2</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 18 Jan 2020 08:20:51 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/%E8%B7%8B%E6%B6%89%E8%80%85/index.xml" rel="self" type="application/rss+xml" />
@@ -18,31 +13,14 @@
       <link>https://iliu.org/3018.html</link>
       <pubDate>Sat, 18 Jan 2020 08:20:51 +0000</pubDate>
       <guid>https://iliu.org/3018.html</guid>
-      <description>&lt;p&gt;全年5月份左右开始把个人博客独立出来，当时也不知道起个什么名字好，就姑且叫做跋涉者了，半年过去了，发现也没有什么好跋涉的。所记录的也仅仅是如流水的匆匆岁月。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>全年5月份左右开始把个人博客独立出来，当时也不知道起个什么名字好，就姑且叫做跋涉者了，半年过去了，发现也没有什么好跋涉的。所记录的也仅仅是如流水的匆匆岁月。</p>
-<p>因此，决定把博客的名字改成流金岁月了，流通刘，意思是记录老刘经历的那些事。</p>
-]]></content:encoded>
+      <description>&lt;p&gt;全年5月份左右开始把个人博客独立出来，当时也不知道起个什么名字好，就姑且叫做跋涉者了，半年过去了，发现也没有什么好跋涉的。所记录的也仅仅是如流水的匆匆岁月。&lt;/p&gt;&#xA;&lt;p&gt;因此，决定把博客的名字改成流金岁月了，流通刘，意思是记录老刘经历的那些事。&lt;/p&gt;</description>
     </item>
     <item>
       <title>7b2主题每日签到不刷新的解决办法</title>
       <link>https://iliu.org/1710.html</link>
       <pubDate>Wed, 12 Jun 2019 02:04:14 +0000</pubDate>
       <guid>https://iliu.org/1710.html</guid>
-      <description>&lt;p&gt;前一段时间忽然发现跋涉者另外一个网站&lt;a href=&#34;https://www.yanjingweb.cn&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;镜缘轩&lt;/a&gt;上每日签到抽取积分的那个选项不能自动刷新了，每天都是显示同一样的数字，然后看明月登楼的一个网站，也是有这样的问题，咨询主题的作者之后，也没有能排查到问题，最后作者说反正新版就要出来了，不行到时候直接上新版吧。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>前一段时间忽然发现跋涉者另外一个网站<a href="https://www.yanjingweb.cn" target="_blank" rel="noopener noreferrer">镜缘轩</a>上每日签到抽取积分的那个选项不能自动刷新了，每天都是显示同一样的数字，然后看明月登楼的一个网站，也是有这样的问题，咨询主题的作者之后，也没有能排查到问题，最后作者说反正新版就要出来了，不行到时候直接上新版吧。</p>
-<p>后来陆续发现，不但每日签到抽取积分有问题，另外还有<span style="color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);">发布冒泡没有积分，发文章没有积分，别人回复收不到消息 海报不能下载、以及别人购买了文章等也没有通知等问题，这下就问题有点大了，签到那个还无所谓，后面出现的问题有点烦人。但是跋涉者这个网站是没有任何问题的。</span></p>
-<p><span style="color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);">当时想是不是因为空间配置、缓存等等的原因造成的，于是把网站弄到一个空间，还是一个有问题，一个没问题。适逢一个群里的朋友让测试评论邮件回复的问题，因为这个主题也没有评论邮件回复，于是咨询了一下，不想还引出诸多大佬们说我设置的问题，他们使用就很正常云云。其实这个问题根本不是跋涉者的问题，因为我询问过主题的作者，作者答复</span></p>
-<blockquote>
-<p><strong style="color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);">不需要这个功能，如果用这个的话，用不了几天你的邮箱就被拉黑了</strong></p>
-</blockquote>
-<p>其实说我设置有问题的大佬们根本就没有测试，于是就想当然的认为默认评论是发邮件的，这个问题说实话跋涉者之前也没注意，是张波博客的博主发现我给他的回复没有收到邮件。这些都是题外话，貌似这段跑题了。</p>
-<p>话转回到真正遇到的问题，跋涉者开始排除到底是怎么造成的，刚用这个主题的时候，一切功能都是正常的，后来比较了两个网站所用的插件发现，镜缘轩这个网站比跋涉者的网站多加了一个自动推送文章到百度百家号的插件，由于其他都是一样的，跋涉者就决定先把这个插件禁用看看是什么效果。</p>
-<p>禁用后发了一个冒泡，然后财富了看了下，积分加上了，又用另一个小号发了一篇文章，积分有了，试着回复一下文章，通知出来了，今天早上，签到随机抽取积分的选项也出来了。</p>
-<p>至此，终于确定了问题所出，那就是主题和自动推送文章到百家号的插件冲突造成的，把百家号插件禁用即可。如果你使用这个主题的时候也出现了类似的问题，不妨禁用一下除作者推荐的插件外的其他插件，一个一个的排除，相信问题也是可以解决的。</p>
-<h2 id="ps上述的原因是错的现在真正的原因找到了">PS，上述的原因是错的，现在真正的原因找到了</h2>
-<p>原来以为是和百家号有冲突造成的，后来发现禁用了百家号的推送后还是不行，然后就想自己对网站做了什么，最后想到没做什么，只不过是把cdn从又拍云换到了上海云顿，赶紧换回来，结果问题马上就解决了。</p>
-<p>原来，不是插件的原因，上次禁用百家号的插件的时候刚巧从云盾换成又拍云。唉，最后的问题终于找到了。</p>
-]]></content:encoded>
+      <description>&lt;p&gt;前一段时间忽然发现跋涉者另外一个网站&lt;!-- raw HTML omitted --&gt;镜缘轩&lt;!-- raw HTML omitted --&gt;上每日签到抽取积分的那个选项不能自动刷新了，每天都是显示同一样的数字，然后看明月登楼的一个网站，也是有这样的问题，咨询主题的作者之后，也没有能排查到问题，最后作者说反正新版就要出来了，不行到时候直接上新版吧。&lt;/p&gt;&#xA;&lt;p&gt;后来陆续发现，不但每日签到抽取积分有问题，另外还有&lt;!-- raw HTML omitted --&gt;发布冒泡没有积分，发文章没有积分，别人回复收不到消息 海报不能下载、以及别人购买了文章等也没有通知等问题，这下就问题有点大了，签到那个还无所谓，后面出现的问题有点烦人。但是跋涉者这个网站是没有任何问题的。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;当时想是不是因为空间配置、缓存等等的原因造成的，于是把网站弄到一个空间，还是一个有问题，一个没问题。适逢一个群里的朋友让测试评论邮件回复的问题，因为这个主题也没有评论邮件回复，于是咨询了一下，不想还引出诸多大佬们说我设置的问题，他们使用就很正常云云。其实这个问题根本不是跋涉者的问题，因为我询问过主题的作者，作者答复&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>内网穿透 on 老刘博客</title>
     <link>https://iliu.org/tags/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/</link>
     <description>Recent content in 内网穿透 on 老刘博客</description>
-    <image>
-      <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
-    </image>
-    <generator>Hugo -- 0.155.2</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 12 Nov 2023 21:19:15 +0800</lastBuildDate>
     <atom:link href="https://iliu.org/tags/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/index.xml" rel="self" type="application/rss+xml" />
@@ -18,120 +13,14 @@
       <link>https://iliu.org/posts/using-tailscale-to-achieve-intranet-penetration-in-synology/</link>
       <pubDate>Sun, 12 Nov 2023 21:19:15 +0800</pubDate>
       <guid>https://iliu.org/posts/using-tailscale-to-achieve-intranet-penetration-in-synology/</guid>
-      <description>&lt;p&gt;在远程连接群晖的实践中，老刘一切介绍过&lt;a href=&#34;https://iliu.org/3356.html&#34;&gt;zerotier&lt;/a&gt;和&lt;a href=&#34;https://iliu.org/3997.html&#34;&gt;IPv6&lt;/a&gt;。但是实际的使用过程中，zerotier有时候握手的速度很慢，而且配置起来比较麻烦，IPv6很好，速度也快，但是有些环境中还只有IPv4，直到我听别人介绍到tailscale这个软件。它的工作原理其实和zerotier差不多，但是不需要什么复杂的设置，直接注册、登录，同一个账号的所有设备都连接到一起了。&lt;/p&gt;
-&lt;h2 id=&#34;注册tailscale&#34;&gt;注册tailscale&lt;/h2&gt;
-&lt;p&gt;百度直接搜，或者打看&lt;a href=&#34;https://www.tailscale.com/&#34;&gt;tailscale&lt;/a&gt;官方网站。注册就行，不过它不支持自由注册，需要用Google、apple、或者微软的outlook账号注册。&lt;/p&gt;
-&lt;h2 id=&#34;下载tailscale&#34;&gt;下载tailscale&lt;/h2&gt;
-&lt;p&gt;网页的右上角，有个downloads，点击就可以了。里面有常用的Windows、Linux等的客户端，直接点击下载相应的客户端，并安装。安装后登录，然后在个人中心里，系统自动给你分配了一个ip地址，如果你要了解某个设备，直接在浏览器里打开那个ip地址就好了。&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>在远程连接群晖的实践中，老刘一切介绍过<a href="https://iliu.org/3356.html">zerotier</a>和<a href="https://iliu.org/3997.html">IPv6</a>。但是实际的使用过程中，zerotier有时候握手的速度很慢，而且配置起来比较麻烦，IPv6很好，速度也快，但是有些环境中还只有IPv4，直到我听别人介绍到tailscale这个软件。它的工作原理其实和zerotier差不多，但是不需要什么复杂的设置，直接注册、登录，同一个账号的所有设备都连接到一起了。</p>
-<h2 id="注册tailscale">注册tailscale</h2>
-<p>百度直接搜，或者打看<a href="https://www.tailscale.com/">tailscale</a>官方网站。注册就行，不过它不支持自由注册，需要用Google、apple、或者微软的outlook账号注册。</p>
-<h2 id="下载tailscale">下载tailscale</h2>
-<p>网页的右上角，有个downloads，点击就可以了。里面有常用的Windows、Linux等的客户端，直接点击下载相应的客户端，并安装。安装后登录，然后在个人中心里，系统自动给你分配了一个ip地址，如果你要了解某个设备，直接在浏览器里打开那个ip地址就好了。</p>
-<p>如果你的系统没有在常用的客户端页面，可以点击<a href="https://pkgs.tailscale.com/stable/#spks">这里</a>，会进入一个所有的客户端的页面，找到你的系统下载即可。</p>
-<h3 id="群晖中安装">群晖中安装</h3>
-<p>点击我上面说的那个连接，然后找到群晖的客户端。根据你群晖的系统选。如果你群晖是DSM6就选6，DSM7就选7，不要选错了。下载之后进入群晖的后台，进入套件中心，点击手动安装。<img loading="lazy" src="https://iliu.org/tupian/qunhui-1.jpg"></p>
-<p>安装的时候DSM会有一些权限的提示，选择允许就行了。安装后打开套件，点==connect==那个黑色的按钮，登录你的账号就可以了。</p>
-<h3 id="linux里安装与使用">Linux里安装与使用</h3>
-<p>也是选择合适系统的客户端，下载安装，如果你用的Arch Linux系列，可以直接用命令安装：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">yay tailscale
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>安装完之后，和windows下不同的是，它没有一个UI，需要你在命令里进行登录。 首先，运行tailscale：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo systemctl start tailscaled
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>然后登录：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo tailscale login
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>会给你网址，点击这个网址，用你的账号登录即可。</p>
-<p>登录后使用命令查看目前在线的设备：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">tailscale status
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>找到群晖的ip地址，选中复制，粘贴到浏览器里，打开，是不是熟悉的群晖后台出现了？</p>
-<h2 id="后续的一些优化">后续的一些优化</h2>
-<p>如果是你经常用的设备，你不想让这个设备的ip地址发生变化，可以进行一点小小的设置，如下图：<img loading="lazy" src="https://iliu.org/tupian/qunhui-3.png"></p>
-<p>但让，tailscale还有一些高级的用法，比如在路由器里安装后，其他设备不用安装也能相互访问，这个有点折腾了，不在本文的范围，有兴趣的朋友可以去官方看相关教程。</p>
-]]></content:encoded>
+      <description>&lt;p&gt;在远程连接群晖的实践中，老刘一切介绍过&lt;a href=&#34;https://iliu.org/3356.html&#34;&gt;zerotier&lt;/a&gt;和&lt;a href=&#34;https://iliu.org/3997.html&#34;&gt;IPv6&lt;/a&gt;。但是实际的使用过程中，zerotier有时候握手的速度很慢，而且配置起来比较麻烦，IPv6很好，速度也快，但是有些环境中还只有IPv4，直到我听别人介绍到tailscale这个软件。它的工作原理其实和zerotier差不多，但是不需要什么复杂的设置，直接注册、登录，同一个账号的所有设备都连接到一起了。&lt;/p&gt;&#xA;&lt;h2 id=&#34;注册tailscale&#34;&gt;注册tailscale&lt;/h2&gt;&#xA;&lt;p&gt;百度直接搜，或者打看&lt;a href=&#34;https://www.tailscale.com/&#34;&gt;tailscale&lt;/a&gt;官方网站。注册就行，不过它不支持自由注册，需要用Google、apple、或者微软的outlook账号注册。&lt;/p&gt;&#xA;&lt;h2 id=&#34;下载tailscale&#34;&gt;下载tailscale&lt;/h2&gt;&#xA;&lt;p&gt;网页的右上角，有个downloads，点击就可以了。里面有常用的Windows、Linux等的客户端，直接点击下载相应的客户端，并安装。安装后登录，然后在个人中心里，系统自动给你分配了一个ip地址，如果你要了解某个设备，直接在浏览器里打开那个ip地址就好了。&lt;/p&gt;&#xA;&lt;p&gt;如果你的系统没有在常用的客户端页面，可以点击&lt;a href=&#34;https://pkgs.tailscale.com/stable/#spks&#34;&gt;这里&lt;/a&gt;，会进入一个所有的客户端的页面，找到你的系统下载即可。&lt;/p&gt;&#xA;&lt;h3 id=&#34;群晖中安装&#34;&gt;群晖中安装&lt;/h3&gt;&#xA;&lt;p&gt;点击我上面说的那个连接，然后找到群晖的客户端。根据你群晖的系统选。如果你群晖是DSM6就选6，DSM7就选7，不要选错了。下载之后进入群晖的后台，进入套件中心，点击手动安装。&lt;img src=&#34;https://iliu.org/tupian/qunhui-1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;安装的时候DSM会有一些权限的提示，选择允许就行了。安装后打开套件，点==connect==那个黑色的按钮，登录你的账号就可以了。&lt;/p&gt;&#xA;&lt;h3 id=&#34;linux里安装与使用&#34;&gt;Linux里安装与使用&lt;/h3&gt;&#xA;&lt;p&gt;也是选择合适系统的客户端，下载安装，如果你用的Arch Linux系列，可以直接用命令安装：&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;yay tailscale&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;安装完之后，和windows下不同的是，它没有一个UI，需要你在命令里进行登录。 首先，运行tailscale：&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo systemctl start tailscaled&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;然后登录：&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo tailscale login&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;会给你网址，点击这个网址，用你的账号登录即可。&lt;/p&gt;</description>
     </item>
     <item>
       <title>纯代码设置frp服务器</title>
       <link>https://iliu.org/3340.html</link>
       <pubDate>Sun, 18 Oct 2020 07:27:04 +0000</pubDate>
       <guid>https://iliu.org/3340.html</guid>
-      <description>&lt;p&gt;以前老刘写过《&lt;a href=&#34;https://tunan.org/2918.html&#34;&gt;宝塔面板安装FRP内网穿透控制群晖&lt;/a&gt;》的文章，最近发现不知道是这个插件的作者不再开发了还是其他的原因，xeath开发的这个frp服务器插件已经在商店里找不到了。其实，这也没什么，直接用代码的方式部署也是可以的。&lt;/p&gt;
-&lt;p&gt;SSH连接到VPS之后运行如下命令查看处理器架构，根据架构下载不同版本的frp&lt;/p&gt;
-&lt;pre class=&#34;wp-block-preformatted&#34;&gt;arch&lt;/pre&gt;
-&lt;p&gt;查看结果，如果是“X86_64“即可选择”amd64”，&lt;br&gt;
-运行如下命令，根据架构不同，选择相应版本并进行下载，然后登陆frp的官网地址，现在最新的应该是0.34.1，所以，运行如下的命令：&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>以前老刘写过《<a href="https://tunan.org/2918.html">宝塔面板安装FRP内网穿透控制群晖</a>》的文章，最近发现不知道是这个插件的作者不再开发了还是其他的原因，xeath开发的这个frp服务器插件已经在商店里找不到了。其实，这也没什么，直接用代码的方式部署也是可以的。</p>
-<p>SSH连接到VPS之后运行如下命令查看处理器架构，根据架构下载不同版本的frp</p>
-<pre class="wp-block-preformatted">arch</pre>
-<p>查看结果，如果是“X86_64“即可选择”amd64”，<br>
-运行如下命令，根据架构不同，选择相应版本并进行下载，然后登陆frp的官网地址，现在最新的应该是0.34.1，所以，运行如下的命令：</p>
-<pre class="wp-block-preformatted">wget https://github.com/fatedier/frp/releases/download/v0.34.1/frp_0.34.1_linux_amd64.tar.gz</pre>
-<p>然后解压，给文件换一个名字，进入frp目录</p>
-<pre class="wp-block-preformatted">tar -zxvf frp_0.34.1_linux_amd64.tar.gz
-cp -r frp_0.34.1_linux_amd64 frp
-cd frp</pre>
-<p>修改frps.ini文件</p>
-<pre class="wp-block-preformatted">vim frps.ini</pre>
-<p>格式如下：</p>
-<pre class="wp-block-preformatted">[common]
-bind_port = 7000
-dashboard_port = 7500
-token = *******（根据情况自己设置）
-dashboard_user = 自己设置
-dashboard_pwd = 自己设置
-vhost_http_port = 10080
-vhost_https_port = 10443</pre>
-<p>编辑完成后保存（vim保存如果不会请自行搜索）。<br>
-之后我们就可以运行frps的服务端了。</p>
-<p>使用命令：</p>
-<pre class="wp-block-preformatted">./frps -c frps.ini</pre>
-<p>如果输出如下文字，说明服务器配置成功</p>
-<pre class="wp-block-preformatted">2019/01/12 15:22:39 [I] [service.go:130] frps tcp listen on 0.0.0.0:7000 
-
-2019/01/12 15:22:39 [I] [service.go:172] http service listen on 0.0.0.0:10080 
-
-2019/01/12 15:22:39 [I] [service.go:193] https service listen on 0.0.0.0:10443
-
-2019/01/12 15:22:39 [I] [service.go:216] Dashboard listen on 0.0.0.0:7500
-
-2019/01/12 15:22:39 [I] [root.go:210] Start frps success</pre>
-<p>通过你的服务器IP：7500,然后输入刚才你设置的用户名密码，应该可以看到如下的画面：<figure class="wp-block-image aligncenter"></p>
-<p><a href="https://tunan.org/wp-content/uploads/2020/10/574e8aabbd9f2ca.png"><img loading="lazy" decoding="async" width="1024" height="598" src="https://tunan.org/wp-content/uploads/2020/10/574e8aabbd9f2ca-1024x598.png" alt="" class="wp-image-3341" srcset="https://tunan.org/wp-content/uploads/2020/10/574e8aabbd9f2ca-1024x598.png 1024w, https://tunan.org/wp-content/uploads/2020/10/574e8aabbd9f2ca-300x175.png 300w, https://tunan.org/wp-content/uploads/2020/10/574e8aabbd9f2ca-768x449.png 768w, https://tunan.org/wp-content/uploads/2020/10/574e8aabbd9f2ca.png 1196w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure></p>
-<h2 class="wp-block-heading" id="让frp服务在后台运行">让FRP服务在后台运行</h2>
-<p>这时候你会发现，如果你关闭了xshell等的窗口，frp的服务也即可停止了，所以，为了让FRP在后台运行，我们还输入如下的命令：</p>
-<pre class="wp-block-preformatted">nohup ./frps -c frps.ini &</pre>
-<p>如果出来的如下的文字，说明配置成功</p>
-<pre class="wp-block-preformatted">nohup: ignoring input and appending output to 'nohup.out'</pre>
-<p>至此，服务器端设置完毕，群晖的设置在上一篇文章内已经说过，这次就不再啰嗦了。</p>
-<h2 class="wp-block-heading" id="可能遇到的坑">可能遇到的坑：</h2>
-<p>如果你按照这个方法设置后，最后的输出总不正确，那么很大的可能是你的服务器的相应的端口没有开放，如果使用的是腾讯云或者阿里云的话，服务器的端口打开之后，还需要在这些云的控制端设置开放端口。</p>
-]]></content:encoded>
+      <description>&lt;p&gt;以前老刘写过《&lt;a href=&#34;https://tunan.org/2918.html&#34;&gt;宝塔面板安装FRP内网穿透控制群晖&lt;/a&gt;》的文章，最近发现不知道是这个插件的作者不再开发了还是其他的原因，xeath开发的这个frp服务器插件已经在商店里找不到了。其实，这也没什么，直接用代码的方式部署也是可以的。&lt;/p&gt;&#xA;&lt;p&gt;SSH连接到VPS之后运行如下命令查看处理器架构，根据架构下载不同版本的frp&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;查看结果，如果是“X86_64“即可选择”amd64”，&lt;br&gt;&#xA;运行如下命令，根据架构不同，选择相应版本并进行下载，然后登陆frp的官网地址，现在最新的应该是0.34.1，所以，运行如下的命令：&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;然后解压，给文件换一个名字，进入frp目录&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;修改frps.ini文件&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

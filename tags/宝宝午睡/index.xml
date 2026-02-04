@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>宝宝午睡 on 老刘博客</title>
     <link>https://iliu.org/tags/%E5%AE%9D%E5%AE%9D%E5%8D%88%E7%9D%A1/</link>
     <description>Recent content in 宝宝午睡 on 老刘博客</description>
-    <image>
-      <title>老刘博客</title>
-      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
-      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
-    </image>
-    <generator>Hugo -- 0.155.2</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 22 Jul 2012 08:02:39 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/%E5%AE%9D%E5%AE%9D%E5%8D%88%E7%9D%A1/index.xml" rel="self" type="application/rss+xml" />
@@ -18,11 +13,7 @@
       <link>https://iliu.org/1537.html</link>
       <pubDate>Sun, 22 Jul 2012 08:02:39 +0000</pubDate>
       <guid>https://iliu.org/1537.html</guid>
-      <description>&lt;p&gt;孩子到底要不要午睡呢？女儿现在如果我们不在家，她就能睡的不错，如果我们在家，她就兴奋的睡不着，郁闷的很，资讯了下专家的意见，那就是不要强迫孩子午睡！&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>孩子到底要不要午睡呢？女儿现在如果我们不在家，她就能睡的不错，如果我们在家，她就兴奋的睡不着，郁闷的很，资讯了下专家的意见，那就是不要强迫孩子午睡！</p>
-<p>一般来说，生长激素主要是在睡着时分泌，深睡的时候效果更好。而学龄前的孩子正处于生长发育的关键期，如果能在中午有一两个小时的睡眠，对促进生长激素的分泌是有好处的。</p>
-<p>但孩子的睡眠通常不太规律，如果再受到家长不良作息习惯的影响，很可能会在别的时间把“午觉”给睡了，这是一种很常见的现象。只要睡眠质量好，而且总的睡眠时间够了(0到半岁16小时，半岁到2岁是14小时，2—4岁是11—12小时，5—9岁是10小时左右)，对于生长激素的分泌就不会造成太大的影响，因而家长也不必再要求孩子午睡。如果睡不好，才需要适当调整一下。当然，也有很少一部分孩子是属于睡眠需求比较少的一类，从婴儿时期可能就只睡八九个小时，这种情况也没有必要逼他午睡。</p>
-]]></content:encoded>
+      <description>&lt;p&gt;孩子到底要不要午睡呢？女儿现在如果我们不在家，她就能睡的不错，如果我们在家，她就兴奋的睡不着，郁闷的很，资讯了下专家的意见，那就是不要强迫孩子午睡！&lt;/p&gt;&#xA;&lt;p&gt;一般来说，生长激素主要是在睡着时分泌，深睡的时候效果更好。而学龄前的孩子正处于生长发育的关键期，如果能在中午有一两个小时的睡眠，对促进生长激素的分泌是有好处的。&lt;/p&gt;&#xA;&lt;p&gt;但孩子的睡眠通常不太规律，如果再受到家长不良作息习惯的影响，很可能会在别的时间把“午觉”给睡了，这是一种很常见的现象。只要睡眠质量好，而且总的睡眠时间够了(0到半岁16小时，半岁到2岁是14小时，2—4岁是11—12小时，5—9岁是10小时左右)，对于生长激素的分泌就不会造成太大的影响，因而家长也不必再要求孩子午睡。如果睡不好，才需要适当调整一下。当然，也有很少一部分孩子是属于睡眠需求比较少的一类，从婴儿时期可能就只睡八九个小时，这种情况也没有必要逼他午睡。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
