@@ -208,28 +208,11 @@ addEventListener(&#34;fetch&#34;, async event =&gt; {
     <ul id="taxonomy" class="not-prose flex items-center space-x-4 flex-nowrap whitespace-nowrap overflow-x-auto">
 
       <li class="font-semibold my-4">Tags:</li>
-        <li ><a class="py-2 px-6 border rounded-full hover:bg-zinc-100 active:bg-zinc-300" href="/tags/cloudflare/">Cloudflare</a></li>
+        <li ><a class="py-2 px-6 border rounded-full hover:bg-zinc-100 active:bg-zinc-300" href="/tags/cloudflare/">CloudFlare</a></li>
     </ul>
 </div>
 
     <footer id="content-footer" class="not-prose">
-
-      <div id="comment" class="border p-8 bg-zinc-100 rounded-2xl">
-
-        <h2 class="text-xl font-semibold mb-4">评论</h2>
-
-        <div id="tcomment"></div>
-
-        <script src="https://cdn.jsdelivr.net/npm/twikoo@1.6.44/dist/twikoo.min.js"></script>
-        <script>
-            twikoo.init({
-            envId: 'https://talk.iliu.org/.netlify/functions/twikoo',
-            el: '#tcomment',
-            lang: 'zh-CN',
-            })
-        </script>
-
-      </div>
 
       <div id="author-box" class="my-8 md:my-14 border p-8 bg-zinc-100 rounded-2xl">
 
@@ -266,7 +249,24 @@ addEventListener(&#34;fetch&#34;, async event =&gt; {
           </li>
 
         </ul>
-        
+
+      </div>
+
+      <div id="comment" class="border p-8 bg-zinc-100 rounded-2xl">
+
+        <h2 class="text-xl font-semibold mb-4">评论</h2>
+
+        <div id="tcomment"></div>
+
+        <script src="https://cdn.jsdelivr.net/npm/twikoo@1.6.44/dist/twikoo.min.js"></script>
+        <script>
+            twikoo.init({
+            envId: 'https://talk.iliu.org/.netlify/functions/twikoo',
+            el: '#tcomment',
+            lang: 'zh-CN',
+            })
+        </script>
+
       </div>
 
       <div id="related-post" class="">

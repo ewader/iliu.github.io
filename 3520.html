@@ -187,7 +187,7 @@
 
       <li class="font-semibold my-4">Tags:</li>
         <li ><a class="py-2 px-6 border rounded-full hover:bg-zinc-100 active:bg-zinc-300" href="/tags/apache/">Apache</a></li>
-        <li ><a class="py-2 px-6 border rounded-full hover:bg-zinc-100 active:bg-zinc-300" href="/tags/cloudflare/">Cloudflare</a></li>
+        <li ><a class="py-2 px-6 border rounded-full hover:bg-zinc-100 active:bg-zinc-300" href="/tags/cloudflare/">CloudFlare</a></li>
         <li ><a class="py-2 px-6 border rounded-full hover:bg-zinc-100 active:bg-zinc-300" href="/tags/nginx/">Nginx</a></li>
         <li ><a class="py-2 px-6 border rounded-full hover:bg-zinc-100 active:bg-zinc-300" href="/tags/wordpress/">Wordpress</a></li>
         <li ><a class="py-2 px-6 border rounded-full hover:bg-zinc-100 active:bg-zinc-300" href="/tags/%E7%9C%9F%E5%AE%9Eip/">真实ip</a></li>
@@ -195,23 +195,6 @@
 </div>
 
     <footer id="content-footer" class="not-prose">
-
-      <div id="comment" class="border p-8 bg-zinc-100 rounded-2xl">
-
-        <h2 class="text-xl font-semibold mb-4">评论</h2>
-
-        <div id="tcomment"></div>
-
-        <script src="https://cdn.jsdelivr.net/npm/twikoo@1.6.44/dist/twikoo.min.js"></script>
-        <script>
-            twikoo.init({
-            envId: 'https://talk.iliu.org/.netlify/functions/twikoo',
-            el: '#tcomment',
-            lang: 'zh-CN',
-            })
-        </script>
-
-      </div>
 
       <div id="author-box" class="my-8 md:my-14 border p-8 bg-zinc-100 rounded-2xl">
 
@@ -248,7 +231,24 @@
           </li>
 
         </ul>
-        
+
+      </div>
+
+      <div id="comment" class="border p-8 bg-zinc-100 rounded-2xl">
+
+        <h2 class="text-xl font-semibold mb-4">评论</h2>
+
+        <div id="tcomment"></div>
+
+        <script src="https://cdn.jsdelivr.net/npm/twikoo@1.6.44/dist/twikoo.min.js"></script>
+        <script>
+            twikoo.init({
+            envId: 'https://talk.iliu.org/.netlify/functions/twikoo',
+            el: '#tcomment',
+            lang: 'zh-CN',
+            })
+        </script>
+
       </div>
 
       <div id="related-post" class="">
