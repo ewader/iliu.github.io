@@ -6,12 +6,14 @@
     <description>Recent content in Papermod on 老刘博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
+    <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    <webMaster>ewader@qq.com (老刘)</webMaster>
     <lastBuildDate>Mon, 13 Oct 2025 15:45:49 +0800</lastBuildDate>
     <atom:link href="https://iliu.org/tags/papermod/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>给Hugo PaperMod主题添加一个漂亮又简洁的友情链接页面</title>
       <link>https://iliu.org/posts/add-a-beautiful-and-simple-links-page-to-the-hugo-papermod-theme/</link>
-      <pubDate>Mon, 13 Oct 2025 15:45:49 +0800</pubDate>
+      <pubDate>Mon, 13 Oct 2025 15:45:49 +0800</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/posts/add-a-beautiful-and-simple-links-page-to-the-hugo-papermod-theme/</guid>
       <description>&lt;p&gt;PaperMod 默认是极简风格，没有自带“友情链接（Friends / Links）”页，但是我们博主也不是互联网的孤岛，总有一些自己喜欢的左邻右舍，最简单的方法是用生成一个页面来作为友情链接页面，但是太丑了。老刘结合chatgpt，自己添加一个漂亮的友情链接页面，下面是 详细教程（以 Hugo + PaperMod 为例）：&lt;/p&gt;&#xA;&lt;h3 id=&#34;一创建友情链接页面&#34;&gt;一、创建友情链接页面&lt;/h3&gt;&#xA;&lt;p&gt;在你的 Hugo 项目根目录执行：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new friends/_index.md&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;&#xA;&lt;p&gt;这会在 content/friends/_index.md 生成文件。&#xA;打开该文件，修改为：&lt;/p&gt;</description>
     </item>

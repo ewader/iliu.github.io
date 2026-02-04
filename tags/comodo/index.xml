@@ -6,12 +6,14 @@
     <description>Recent content in Comodo on 老刘博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
+    <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    <webMaster>ewader@qq.com (老刘)</webMaster>
     <lastBuildDate>Tue, 27 Oct 2009 12:54:36 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/comodo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>360杀毒一个BUg存在依旧</title>
       <link>https://iliu.org/76.html</link>
-      <pubDate>Tue, 27 Oct 2009 12:54:36 +0000</pubDate>
+      <pubDate>Tue, 27 Oct 2009 12:54:36 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/76.html</guid>
       <description>&lt;p&gt;         360正式版推出以来，因其免费的在战略及不错的病毒查杀能力以及很小的的资源占用，迅速的征服了我，凭良心说话，确实是一款不错的杀毒软件，但是可能是360的工作人员太懒了，对于可能冲突的软件在数据库上估计是按名单算的，所以comodo is被认做冲突软件，这无可厚非的，但是comodo is是可以选择只装防火墙和D+的，就算不这样安装，360杀毒也依然认为你装的是全套。&lt;/p&gt;&#xA;&lt;p&gt;    推出这么多版本，从1062-1067了，版本更新的倒很快，可惜一个是不能自动更新版本一个是comodo的认识还是不智能，据说即将就会自动更新版本，而不智能的识别COMODO本人也只能强制开启360的实时防护了。&lt;/p&gt;</description>
     </item>

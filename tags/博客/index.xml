@@ -6,75 +6,77 @@
     <description>Recent content in 博客 on 老刘博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
+    <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    <webMaster>ewader@qq.com (老刘)</webMaster>
     <lastBuildDate>Sun, 04 Jan 2026 18:01:08 +0800</lastBuildDate>
     <atom:link href="https://iliu.org/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>博客托管平台换成edgeone pages</title>
       <link>https://iliu.org/posts/migrated-my-blog-to-edgeone-pages/</link>
-      <pubDate>Sun, 04 Jan 2026 18:01:08 +0800</pubDate>
+      <pubDate>Sun, 04 Jan 2026 18:01:08 +0800</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/posts/migrated-my-blog-to-edgeone-pages/</guid>
       <description>&lt;p&gt;作为个人博主，Cloudflare 被称为赛博菩萨：免费 CDN、自动 SSL、无限流量。但对于中国大陆用户来说，CF 的免费版线路对联通用户来说非常的不友好——动辄 300ms+ 的延迟和高峰期的丢包，让“全球加速”变成了“全球减速”。&lt;/p&gt;&#xA;&lt;p&gt;前两天看到1900把博客迁移到了Edgeone，速度很快，我的博客没有备案，看了下可以使用海外版，测试了一下，发现要比cf快一些，于是决定把博客从 Cloudflare 迁移了过去。&lt;/p&gt;&#xA;&lt;h2 id=&#34;为什么选择-edgeone-pages&#34;&gt;为什么选择 EdgeOne Pages？&lt;/h2&gt;&#xA;&lt;p&gt;虽然 EdgeOne 的 Pages 功能在目前也主要使用海外节点，但实际体验下来，它在亚洲地区的路由优化明显优于 Cloudflare 的 pages。&lt;/p&gt;</description>
     </item>
     <item>
       <title>博客评论换回Giscus</title>
       <link>https://iliu.org/posts/back-to-giscus/</link>
-      <pubDate>Tue, 30 Dec 2025 11:31:56 +0800</pubDate>
+      <pubDate>Tue, 30 Dec 2025 11:31:56 +0800</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/posts/back-to-giscus/</guid>
       <description>&lt;p&gt;前几天，老张他们几个人一直吐槽，说想留言还得翻墙登录 GitHub。听多了，我也动了心思，就去折腾了一下 Artalk，把博客的评论系统换了过去。&lt;/p&gt;&#xA;&lt;p&gt;不得不说，Artalk 用起来确实舒服。界面清爽，也更像我们习惯的那种“博客评论”，不用账号体系，不用跳来跳去，交流起来顺手很多。&lt;/p&gt;&#xA;&lt;p&gt;我用的这台VPS，本来就只是随手用来跑点轻量服务：FreshRSS、Umami，再加一个 Artalk。前两天瞎折腾系统的时候，一个不小心，把服务给折腾挂了。&lt;/p&gt;&#xA;&lt;p&gt;更糟的是——&#xA;没备份。&lt;/p&gt;&#xA;&lt;p&gt;于是结果也就很自然了：&#xA;FreshRSS 的数据没了，Umami 的统计没了，Artalk 里的评论，也一起消失了。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Artalk 并不差，甚至可以说比较完美：&#xA;它把“数据安全”这件事完全交给了使用者自己。&lt;/p&gt;&#xA;&lt;p&gt;使用者需要考虑：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;VPS 是否稳定&lt;/p&gt;</description>
     </item>
     <item>
       <title>把GotoSocial嵌入到Hugo</title>
       <link>https://iliu.org/posts/embedding-gotosocial-in-a-hugo-blog/</link>
-      <pubDate>Tue, 21 Oct 2025 11:10:32 +0800</pubDate>
+      <pubDate>Tue, 21 Oct 2025 11:10:32 +0800</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/posts/embedding-gotosocial-in-a-hugo-blog/</guid>
       <description>&lt;p&gt;把博客重新换成Hugo后，我又把GotoSocial安装了起来，就是想发布自己有一些碎语之类的东西，在memos和GotoSocial中纠结了一会，最终选择了GotoSocial，主要原因还是看到memeos的作者随意改动API，为了以后不再有不必要的麻烦，还是选择一个更稳定的最好。整体完成后的效果可以参考：&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://iliu.org/toots&#34;&gt;我的微博&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;总体思路&#34;&gt;总体思路&lt;/h2&gt;&#xA;&lt;p&gt;由于 GoToSocial 默认开启了严格的 CORS 限制，获取内容的时候需要token，由于Hugo是静态博客，直接把token写在前端非常不安全，所以我们需要一个中转层。&#xA;Cloudflare Workers 可以完美胜任代理转发的功能，作用是：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;从 Hugo 前端发请求 → Cloudflare Worker&lt;/li&gt;&#xA;&lt;li&gt;Worker 向 https://你的域名/api/v1/accounts/&amp;hellip;/statuses 请求 GoToSocial 数据&lt;/li&gt;&#xA;&lt;li&gt;Worker 再把 JSON 数据返回给 Hugo 前端&lt;/li&gt;&#xA;&lt;li&gt;Hugo 构建时渲染&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;获取-gotosocial-的-toot-api-接口&#34;&gt;获取 GoToSocial 的 toot API 接口&lt;/h2&gt;&#xA;&lt;h3 id=&#34;目标概述&#34;&gt;目标概述&lt;/h3&gt;&#xA;&lt;p&gt;我们要：&lt;/p&gt;</description>
     </item>
     <item>
       <title>给Hugo PaperMod主题添加一个漂亮又简洁的友情链接页面</title>
       <link>https://iliu.org/posts/add-a-beautiful-and-simple-links-page-to-the-hugo-papermod-theme/</link>
-      <pubDate>Mon, 13 Oct 2025 15:45:49 +0800</pubDate>
+      <pubDate>Mon, 13 Oct 2025 15:45:49 +0800</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/posts/add-a-beautiful-and-simple-links-page-to-the-hugo-papermod-theme/</guid>
       <description>&lt;p&gt;PaperMod 默认是极简风格，没有自带“友情链接（Friends / Links）”页，但是我们博主也不是互联网的孤岛，总有一些自己喜欢的左邻右舍，最简单的方法是用生成一个页面来作为友情链接页面，但是太丑了。老刘结合chatgpt，自己添加一个漂亮的友情链接页面，下面是 详细教程（以 Hugo + PaperMod 为例）：&lt;/p&gt;&#xA;&lt;h3 id=&#34;一创建友情链接页面&#34;&gt;一、创建友情链接页面&lt;/h3&gt;&#xA;&lt;p&gt;在你的 Hugo 项目根目录执行：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new friends/_index.md&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;&#xA;&lt;p&gt;这会在 content/friends/_index.md 生成文件。&#xA;打开该文件，修改为：&lt;/p&gt;</description>
     </item>
     <item>
       <title>重新启航</title>
       <link>https://iliu.org/posts/set-sail-again/</link>
-      <pubDate>Wed, 28 Aug 2024 09:48:57 +0800</pubDate>
+      <pubDate>Wed, 28 Aug 2024 09:48:57 +0800</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/posts/set-sail-again/</guid>
       <description>&lt;p&gt;朋友们，老刘换新博客了，事情的原因是这样子的：&lt;/p&gt;&#xA;&lt;p&gt;在某年某月的某一天，老刘发现电脑有点不好用了，于是，就重置了一下电脑，并且没有保留软件和文档。所以，等老刘意识到还没有备份网站数据的时候，事情已经发生了，有看官要问了，你的网站数据难道是放在C盘了吗？这个说来就有点话长了。&lt;/p&gt;&#xA;&lt;p&gt;最初换成Hugo的时候，电脑是比较旧的一台电脑，装的是endeavouros，而且在Linux下，配置Hugo那不是一般的方便。后来把电脑进行了升级，就没有在装双系统。看了下Windows下配置git和Hugo的复杂性，老刘选择了启动Windows里带的子系统Ubuntu，所以，网站数据都存在那个Ubuntu这个子系统内。&lt;/p&gt;&#xA;&lt;p&gt;当老刘重置系统后，子系统也被重置了，我的数据也就随风飘散了。Hugo的好处在于本地和网络是两个不同的世界，所以我的网站是没有任何的问题，但是无法再进行更新了。也正是这个原因，换了Hugo后，对备份少了一丝敬畏之心。一个疏忽，就这样了。&lt;/p&gt;&#xA;&lt;p&gt;本来吧，有HTML的文件在，把这些文件重新转成md文件也是可以的，但是这样一来，网站的目录势必发生变化，后来想想，天下没有不散之宴席，任何事物都不开永远的存在，网站博客也是如此，这可能也是图南博客的缘法。所以，最后老刘的决定是把图南博客就放在那里好了，不再进行更新。&lt;/p&gt;&#xA;&lt;p&gt;新博客还是沿用流金岁月的名字吧，寓意博主对过去时光的珍视，表达了平淡的生活也自有记录的意义这个含义。&lt;/p&gt;&#xA;&lt;p&gt;枯木前头万木春，靠别老博客冗长的数据，也许是一件好事。新博客将以记录生活为主，折腾和一些私货为辅吧。&lt;/p&gt;&#xA;&lt;p&gt;最后的最后，希望大家都勤备份，格局大一些，昨天老刘仔细研究了一下Windows下安装git和Hugo也没有想象的那么复杂，所以，有时候告别自己的舒适圈还是有必要的。目前网站数据放在其他的盘了，并同步到群晖，由群晖加密同步到百度网盘，应该是有一些保证了。&lt;/p&gt;</description>
     </item>
     <item>
       <title>如何使用git并把代码提交到GitHub</title>
       <link>https://iliu.org/posts/how-to-use-git/</link>
-      <pubDate>Wed, 15 Nov 2023 21:28:20 +0800</pubDate>
+      <pubDate>Wed, 15 Nov 2023 21:28:20 +0800</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/posts/how-to-use-git/</guid>
       <description>&lt;p&gt;这篇文章纯粹给初学者看的，大佬请无视。使用Hugo之后，为了方便推送方便，一般要用到git这个软件。今天就来谈谈git具体的用法。&lt;/p&gt;&#xA;&lt;h1 id=&#34;git的用法&#34;&gt;git的用法&lt;/h1&gt;&#xA;&lt;h3 id=&#34;设置用户名&#34;&gt;设置用户名&lt;/h3&gt;&#xA;&lt;p&gt;因为git可以用来团队协助方面，设置用户名的目的是为了让别人知道，你是谁，这个程序的bug是谁提交的😰。&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git config --global user.name &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;xxxx&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git config --global user.email &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;xxxx@qq.com&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;设置本地仓库&#34;&gt;设置本地仓库&lt;/h3&gt;&#xA;&lt;p&gt;选择你项目的文件夹，在里面打开终端，运行如下命令：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git init&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;在每次修改完程序后，运行如下命令提交：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git add .&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git commit -m &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;简短的说明，本次提交了什么&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;设置远程仓库&#34;&gt;设置远程仓库&lt;/h2&gt;&#xA;&lt;p&gt;很多时候我们还要把代码提交到GitHub上去，当然你也可以创建自己的远程git服务器，这里不涉及。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hugo-papermod主题的优化记录</title>
       <link>https://iliu.org/posts/hugo-papermod-modification/</link>
-      <pubDate>Sat, 04 Nov 2023 21:30:05 +0800</pubDate>
+      <pubDate>Sat, 04 Nov 2023 21:30:05 +0800</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/posts/hugo-papermod-modification/</guid>
       <description>&lt;p&gt;在上一篇文章中曾经说到把博客从WordPress转到了Hugo，经过这几天的使用，发现还是很不错的，用起来也比较方便。但是，在使用PaperMod主题的时候，也是遇到了一些问题，本文就遇到的问题作一个记录。目前，主题的代码高亮功能还是没有搞定，不过也是影响不大，先放一放也无所谓。&lt;/p&gt;&#xA;&lt;h3 id=&#34;首页不显示文章&#34;&gt;首页不显示文章&lt;/h3&gt;&#xA;&lt;p&gt;把WordPress导出的md文件导入的Hugo的psots目录后，在使用代码创建新文件时候&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo new posts/***.md&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;发现新建的md文件，生成网页后不会在首页显示。但是在栏目里是会有的。后来的在@&lt;a href=&#34;https://www.sharpgan.com/&#34;&gt;阿甘博客&lt;/a&gt;博客的提醒下，使用导出的md文件的文档属性标头，成功的显示了。但是，每次在生成文章md的时候，都需要手动的更改，不是太方便。后来，在看某篇文章的时候得到启发，修改archetypes/default.md,把默认的代码删除，改成：&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;---&#xA;title: &amp;#34;{{ replace .Name &amp;#34;-&amp;#34; &amp;#34; &amp;#34; | title }}&amp;#34; &#xA;author: 老刘&#xA;&#xA;date: {{ .Date }}&#xA;url: /optics-weekly-issue-8/&#xA;categories:&#xA;  - 齐物&#xA;---&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;然后，再创建md文件后，只需要修改一下url里的值就OK了。&lt;/p&gt;</description>
     </item>
     <item>
       <title>朋友们，博客改名加换域名了！</title>
       <link>https://iliu.org/4399.html</link>
-      <pubDate>Sun, 21 May 2023 09:18:15 +0000</pubDate>
+      <pubDate>Sun, 21 May 2023 09:18:15 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/4399.html</guid>
       <description>&lt;p&gt;流金岁月换域名，换博客名了 最近读《庄子》，对&lt;strong&gt;绝云气、负青天、然后图南&lt;/strong&gt;的大鹏很是羡慕，遂改博客名为图南博客，域名为https://tunan.org&lt;/p&gt;&#xA;&lt;p&gt;有订阅老刘的同志们，麻烦改改链接哈&lt;/p&gt;</description>
     </item>
     <item>
       <title>重新弄了下博客环境</title>
       <link>https://iliu.org/3746.html</link>
-      <pubDate>Thu, 20 May 2021 09:30:37 +0000</pubDate>
+      <pubDate>Thu, 20 May 2021 09:30:37 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/3746.html</guid>
       <description>&lt;p&gt;最近一段时间发现博客回复的时候一直显示提交中，不会跳转到评论成功的页面，以前也遇到过这种问题，基本上重启vps解决，但是这次貌似重启了也作用不大。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2021/05/709ac9ab754c1c0.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;以前还以为是我浏览器的问题，所以也就没有太在意，而且吧，这个问题时有时无。前两天，有博友也问道老刘这个问题，是否评论成功，才意识到可能不是我的问题。&lt;/p&gt;&#xA;&lt;p&gt;研究了一下也没有什么头绪，只能说明自己太菜。后来想到当初偷懒加瞅便宜，趁着双11活动的时候的时候买了个urlos的授权。当时装上这个面板后，懒得再改别的，就一直用了下去，还写过一篇《&lt;a href=&#34;https://tunan.org/3597.html&#34;&gt;试用urlos&lt;/a&gt;》的文章，要说这个面板的理念很超前，但是使用起来还是有一丢丢的不方便。只是懒得改了，就一直用到现在。现在看来是时候弃用了。&lt;/p&gt;&#xA;&lt;p&gt;本来还想试用一下小皮面板，但是装上后直接打不开，也懒得再付出时间来找问题的所在了。直接还是用自己最熟悉的oneinstack好了。&lt;/p&gt;&#xA;&lt;p&gt;用了差不多两个来小时编译环境，重新部署博客后，也不知道是不是错觉，感觉速度有了那么一丢丢的快。难道php8.0这么牛叉？&lt;/p&gt;</description>
     </item>
     <item>
       <title>博客改名字了</title>
       <link>https://iliu.org/3018.html</link>
-      <pubDate>Sat, 18 Jan 2020 08:20:51 +0000</pubDate>
+      <pubDate>Sat, 18 Jan 2020 08:20:51 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/3018.html</guid>
       <description>&lt;p&gt;全年5月份左右开始把个人博客独立出来，当时也不知道起个什么名字好，就姑且叫做跋涉者了，半年过去了，发现也没有什么好跋涉的。所记录的也仅仅是如流水的匆匆岁月。&lt;/p&gt;&#xA;&lt;p&gt;因此，决定把博客的名字改成流金岁月了，流通刘，意思是记录老刘经历的那些事。&lt;/p&gt;</description>
     </item>

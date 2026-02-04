@@ -6,68 +6,70 @@
     <description>Recent content in 群晖 on 老刘博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
+    <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    <webMaster>ewader@qq.com (老刘)</webMaster>
     <lastBuildDate>Thu, 18 Dec 2025 11:51:57 +0800</lastBuildDate>
     <atom:link href="https://iliu.org/tags/%E7%BE%A4%E6%99%96/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>中年人的 NAS：稳定了六年，也会老</title>
       <link>https://iliu.org/posts/from-rock-solid-stability-to-showing-its-age/</link>
-      <pubDate>Thu, 18 Dec 2025 11:51:57 +0800</pubDate>
+      <pubDate>Thu, 18 Dec 2025 11:51:57 +0800</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/posts/from-rock-solid-stability-to-showing-its-age/</guid>
       <description>&lt;p&gt;我现在用的 NAS 是群晖 DS220+，2019 年买的。&lt;/p&gt;&#xA;&lt;p&gt;当时正在做一个叫“镜缘轩”的眼镜商城，数据安全这件事当时觉得很重要：订单、客户信息、商品资料，一旦丢了，就很麻烦。也正是在那个阶段，我把一直用的暴风酷播云换掉，开始用白群晖，想着至少在数据这件事上，更安全。&#xA;这一眨眼，就是六年。&#xA;&lt;img src=&#34;https://s2.l22.org/images/1766030134_alex-cheung-gQdPafWDSyk-unsplash.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;“镜缘轩”最终没做成，少许的订单和客户信息，其实也根本不值得上这个东西，为了项目买的东西也算一个伪需求。项目没了，NAS 却留下来了，像一件还在运转的旧工具，默默地继续工作。&lt;/p&gt;&#xA;&lt;p&gt;不得不承认，群晖这东西确实稳。&#xA;这六年里，它几乎没让我操过心，一直兢兢业业地跑着，放在角落里，存在感低到快被我忘了。&#xA;直到今年。&lt;/p&gt;&#xA;&lt;p&gt;今年 3 月，先是 UPS 坏了。&#xA;我店里这边的电是物业管的，需要到物业充电卡，电表里还有20度电的时候，会自动断电，提醒你去充电卡，物业是方便了，倒霉的是业主，加上写字楼变压器又出过一次故障，几次猝不及防的断电叠加在一起，一块硬盘开始报错，文件系统怎么修都修不好，我在存储池里卸载也卸载不掉。&#xA;最后只能换了一块新硬盘，问题才算真正解决。&lt;/p&gt;&#xA;&lt;p&gt;再后来，DSM 页面打不开了。&#xA;浏览器访问管理地址，提示“提供的服务不存在”之类的错误。那种感觉很微妙——不是硬件坏了，不是数据丢了，而是你突然失去了对设备的控制权。&#xA;最终通过重置系统，这个问题消失了。过程不复杂，但那种“怎么会这样”的疑惑，却一直留着。&lt;/p&gt;</description>
     </item>
     <item>
       <title>群晖NAS安装FRP客户端（frpc）</title>
       <link>https://iliu.org/posts/install-frpc-on-synology-nas-without-docker/</link>
-      <pubDate>Sat, 11 Oct 2025 08:12:42 +0800</pubDate>
+      <pubDate>Sat, 11 Oct 2025 08:12:42 +0800</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/posts/install-frpc-on-synology-nas-without-docker/</guid>
       <description>&lt;p&gt;今年5月份的时候，购买了一款搬瓦工的VPS，当时是想用来做博客的VPS，用的是美西的优化线路，速度非常的理想，前几天我又把博客系统转回到了&lt;code&gt;Hugo&lt;/code&gt;，这样这台VPS就空出来了，加上最近群晖的&lt;code&gt;QC&lt;/code&gt;以及&lt;code&gt;tailscale&lt;/code&gt;这些都不太理想，所以我决定使用FRP的方式来穿透群晖。搜了一下网上的教程都是采用的&lt;code&gt;docker&lt;/code&gt;，但是我安装后总是报错，所以研究了一下，采用直接安装的方式，省资源还不容易出错。本文详细介绍如何在用户目录下部署frpc，并实现开机自启。&lt;/p&gt;&#xA;&lt;h3 id=&#34;一frp-简介&#34;&gt;一、FRP 简介&lt;/h3&gt;&#xA;&lt;p&gt;&lt;code&gt;FRP（Fast Reverse Proxy）&lt;/code&gt;是一款高性能反向代理应用，可实现 内网穿透。&#xA;通过在公网服务器上运行 &lt;code&gt;frps（服务端）&lt;/code&gt;，在内网设备上运行 &lt;code&gt;frpc（客户端）&lt;/code&gt;，你就可以从外网直接访问局域网中的群晖 DSM、SSH 等服务。&lt;/p&gt;&#xA;&lt;h3 id=&#34;二准备条件&#34;&gt;二、准备条件&lt;/h3&gt;&#xA;&lt;p&gt;一台有公网IP的服务器，这里老刘推荐&lt;a href=&#34;https://bandwagonhost.com/aff.php?aff=78194&#34;&gt;&lt;code&gt;搬瓦工&lt;/code&gt;&lt;/a&gt;的美西优化线路，速度非常的理想。购买服务器后，安装1panel面板，然后在应用里搜索FRP，安装frps。到这里，你所需要的条件如下：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;公网服务器 IP（frps）：104.***&amp;hellip;.&lt;/li&gt;&#xA;&lt;li&gt;认证 token：xxxxx&lt;/li&gt;&#xA;&lt;li&gt;群晖局域网 IP：192.168.3.19&lt;/li&gt;&#xA;&lt;li&gt;群晖登录用户：xxxxx&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;token、端口号这些可以在你安装的frps应用里查找。&lt;/p&gt;</description>
     </item>
     <item>
       <title>在群晖里安装简单的笔记软件flatnotes</title>
       <link>https://iliu.org/posts/install-the-simple-note-taking-software-flatnotes-on-synology/</link>
-      <pubDate>Wed, 30 Oct 2024 03:48:47 -0400</pubDate>
+      <pubDate>Wed, 30 Oct 2024 03:48:47 -0400</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/posts/install-the-simple-note-taking-software-flatnotes-on-synology/</guid>
       <description>&lt;p&gt;老刘这一段时间以来都是使用&lt;code&gt;VSCode&lt;/code&gt;来写博客，主要是因为&lt;code&gt;anytype&lt;/code&gt;对长文的支持一般，另外对&lt;code&gt;markdown&lt;/code&gt;语法支持的也不够，比如表格功能就没法用&lt;code&gt;markdown&lt;/code&gt;语法。但是&lt;code&gt;VSCode&lt;/code&gt;有一个缺点是同步不方便，而我也想要能随时随地的写博客，直到看到&lt;code&gt;flatnotes&lt;/code&gt;这个笔记软件，说它是笔记软件有点抬举它了，因为它太简洁，不过用来写博客文章是刚刚好，并且支持docker部署使用，这样只要有网络，有浏览器，就可以随时随地的写博客了。&lt;/p&gt;&#xA;&lt;p&gt;既然合适使用，当然就要把他部署在&lt;code&gt;NAS&lt;/code&gt;里，网上群晖部署的教程比较麻烦，还需要进命令行操作，其实根本不用那么麻烦，直接使用群晖默认的&lt;code&gt;docker&lt;/code&gt;管理套件&lt;code&gt;container manager&lt;/code&gt;来部署就行了。步骤如下：&lt;/p&gt;&#xA;&lt;h2 id=&#34;首先找到flatnotes&#34;&gt;首先找到flatnotes&lt;/h2&gt;&#xA;&lt;p&gt;在注册表里搜索flatnotes，选择第一个，下载&#xA;&lt;img src=&#34;https://s2.l22.org/flatnotes/flatnote1.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;安装过程&#34;&gt;安装过程&lt;/h2&gt;&#xA;&lt;p&gt;下载完成后，点击安装，在端口设置，环境，存储空间设置，根据实际情况设置一下就行，其他一路下一步。&#xA;&lt;img src=&#34;https://s2.l22.org/flatnotes/flatenote2.png&#34; alt=&#34;image&#34;&gt;&#xA;&lt;img src=&#34;https://s2.l22.org/flatnotes/flatenote3.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;重点说一下环境变量设置，&#xA;增加如下几个字段：&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;FLATNOTES_AUTH_TYPE: password&#xA;&#xA;FLATNOTES_USERNAME: user&#xA;&#xA;FLATNOTES_PASSWORD: panda # 密码可自行修改&#xA;&#xA;FLATNOTES_SECRET_KEY: aLongRandomSeriesOfCharacters&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;另外一个需要说明的地方是8080端口不要改成其他的，改了虽然docker不会报错，但是网页是打不开的。&lt;/p&gt;&#xA;&lt;h2 id=&#34;代理设置&#34;&gt;代理设置&lt;/h2&gt;&#xA;&lt;p&gt;如果不出意外的，在浏览器里输入你NAS的ip加上你设置的端口号就应该可以打开应用了，但是我们需要的是随时随地的使用，所以还需要在NAS里设置一下代理。&lt;/p&gt;</description>
     </item>
     <item>
       <title>思源笔记群晖正确的部署方法</title>
       <link>https://iliu.org/posts/4418/</link>
-      <pubDate>Sat, 01 Jul 2023 03:10:30 -0400</pubDate>
+      <pubDate>Sat, 01 Jul 2023 03:10:30 -0400</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/posts/4418/</guid>
       <description>&lt;p&gt;最近一直在选择一款适合自己的笔记软件，最后确定在思源笔记和 Joplin 这两个上面，打算都长期试用一下，比较一下哪个更适合自己。&lt;/p&gt;&#xA;&lt;h2 id=&#34;事情的起因&#34;&gt;事情的起因&lt;a href=&#34;#%E4%BA%8B%E6%83%85%E7%9A%84%E8%B5%B7%E5%9B%A0&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;思源笔记的升级是相当频繁，可是我却发现，每次 docker 升级后，数据都没有保存下来，只能从备份的数据里重新导入，找了一下原因，发现是映射的文件夹里面没有数据，于是就重新安装，发现按照网上的教程，安装后 跑不起来。经过一番摸索，总算是搞定了！&lt;/p&gt;&#xA;&lt;h2 id=&#34;成功部署的方法&#34;&gt;成功部署的方法&lt;a href=&#34;#%E6%88%90%E5%8A%9F%E9%83%A8%E7%BD%B2%E7%9A%84%E6%96%B9%E6%B3%95&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;关于如何在群晖上设置Docker等基础的教程，老刘就不再重复制造数据垃圾了，既然你能找到我这里，说明你也已经查了很多的资料了，部署的方法都大同小异，只需要注意以下两点就可以了。&lt;/p&gt;&#xA;&lt;p&gt;经过博友@&lt;a href=&#34;https://laomai.org&#34;&gt;老麦&lt;/a&gt;的反馈，直接在Container Manager上操作的话，第一步可以不做，直接用第二步即可。详细看下面老麦的评论。&lt;/p&gt;&#xA;&lt;h3 id=&#34;第一在运行命令那处填写&#34;&gt;第一，在运行命令那处填写：&lt;a href=&#34;#%E7%AC%AC%E4%B8%80-%E5%9C%A8%E8%BF%90%E8%A1%8C%E5%91%BD%E4%BB%A4%E9%82%A3%E5%A4%84%E5%A1%AB%E5%86%99--&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-auto&#34; data-lang=&#34;auto&#34;&gt; &amp;lt;s&amp;gt;-workspace /siyuan/workspace/&amp;lt;/s&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;经过老刘的测试，最新版的思源，只能用上面的这句命令，用别的任何命令，群晖的Docker都会重复重启。&lt;/p&gt;&#xA;&lt;h3 id=&#34;第二储存空间设置&#34;&gt;第二，储存空间设置&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;#%E7%AC%AC%E4%BA%8C%E5%82%A8%E5%AD%98%E7%A9%BA%E9%97%B4%E8%AE%BE%E7%BD%AE-%E7%AC%AC%E4%BA%8C%E5%82%A8%E5%AD%98%E7%A9%BA%E9%97%B4%E8%AE%BE%E7%BD%AEfigure-classwp-block-image&#34;&gt;#&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.staticaly.com/gh/ewader/img@master/20230701/xxx.6lnukqsan6c0.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>浅谈群晖安全性方面的设置</title>
       <link>https://iliu.org/4375.html</link>
-      <pubDate>Mon, 15 May 2023 07:11:31 +0000</pubDate>
+      <pubDate>Mon, 15 May 2023 07:11:31 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/4375.html</guid>
       <description>&lt;p&gt;我们在玩群晖的时候，往往不会满足于群晖只作为局域网里的一个服务器的存在，还想让它发挥更大的作用，让我们无论身在何地，都可以自由的访问我们群晖里的东西，这就需要我们把群晖暴露在公网之中。&lt;/p&gt;&#xA;&lt;p&gt;无论你是使用&lt;a href=&#34;https://tunan.org/3997.html&#34;&gt;ddns&lt;/a&gt;，或者&lt;a href=&#34;https://tunan.org/2918.html&#34;&gt;frp&lt;/a&gt;、&lt;a href=&#34;https://tunan.org/3356.html&#34;&gt;zerotier&lt;/a&gt;内网穿透技术，只要是你把群晖暴露在公网上，那就要做好承担被网络上成千上万个扫描器扫描到的风险。扫描到不可怕，重要的扫描到也让它没有办法才行。这样，设置群晖的安全性设置就很必要了。&lt;/p&gt;&#xA;&lt;h2 class=&#34;wp-block-heading&#34; id=&#34;安全性设置&#34;&gt;安全性设置&lt;/h2&gt;&#xA;&lt;p&gt;如下图，该选择打勾的都给他打上。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;h2 class=&#34;wp-block-heading&#34; id=&#34;账户的安全性设置&#34;&gt;账户的安全性设置&lt;/h2&gt;&#xA;&lt;p&gt;建议对管理员账户强制开启双重验证，并下载synology secure signin这个app，选择code验证，这个无论手机是否在线，输入synology secure signin生成的code都是可以验证的。登录的时候在经常使用的电脑上点击记住设备，下次登录就不用再输入code了。为了安全，这一点点的不方便还是值得的。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>群晖安装trilium笔记web端不刷新的处理方法</title>
       <link>https://iliu.org/4154.html</link>
-      <pubDate>Sun, 26 Jun 2022 03:50:24 +0000</pubDate>
+      <pubDate>Sun, 26 Jun 2022 03:50:24 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/4154.html</guid>
       <description>&lt;p&gt;最初装上trilium上之后，发现web端新建笔记或者删除笔记等都不会刷新。也和中文博客群里的少君等人讨论过，也没有得出过什么结论，毕竟环境不同嘛，当时貌似也就我一个人遇到了这种情况。后来发现是网络有错误，是websocket链接错误。但是作为小白，也没有解决的办法。&lt;/p&gt;&#xA;&lt;p&gt;后来张波老师也遇到了，原来用域名反代访问就会出现这个问题。群里的大神给出了NGINX下的解决方案，可是我用的群晖啊，没有nginx肿么办？&lt;/p&gt;&#xA;&lt;h3 class=&#34;wp-block-heading&#34; id=&#34;其实用群晖的反代更简单&#34;&gt;其实，用群晖的反代更简单&lt;/h3&gt;&#xA;&lt;p&gt;打开群晖反代的设置界面，点击自定义标题，点新增，点websocket。保存，即可。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>更新群晖至DSM7.0</title>
       <link>https://iliu.org/3887.html</link>
-      <pubDate>Mon, 06 Sep 2021 10:25:46 +0000</pubDate>
+      <pubDate>Mon, 06 Sep 2021 10:25:46 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/3887.html</guid>
       <description>&lt;p&gt;今天上午来到店内，不知道是怎么回事，产生了一些惰性，看到群里小胡同学发的白嫖亚马逊12本的电子书，就去搞了一下，看了会书，也不想更新商城的产品了，后来就想不行把群晖的系统升级一下吧。&lt;br&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&lt;br&gt;&#xA;群晖6.0的的系统不能自动升级到7.0，需要进行手动升级。于是到群晖官网下载相应型号的固件，在群晖的管理面板里手动升级即可。升级也很顺利。升级后有点小坑。&lt;/p&gt;&#xA;&lt;h2 id=&#34;dsm60系统里的很多套件不能用了&#34;&gt;Dsm6.0系统里的很多套件不能用了&lt;/h2&gt;&#xA;&lt;p&gt;具体有哪些不是很清楚，我原来主要用的是moment这个相册的套件，还有synology drive,已经note station这三个套件。至于下载之类的，老刘也没有什么需要一天到晚下载的数据。升级完之后发现moment这个套件不能用了。&lt;br&gt;&#xA;查找了一下发现，群晖dsm7.0的相册套件是synology photos。老刘手机上把Google市场卸载了，安装不上，后来找了一个可以下载Google市场APP的网站，下载了synology photos之后，传到手机上，算是顺利的解决了这一个问题。&lt;/p&gt;&#xA;&lt;h2 id=&#34;升级后的感觉&#34;&gt;升级后的感觉&lt;/h2&gt;&#xA;&lt;p&gt;感觉和以前的6.0相差不大，节目好看了那么一丢丢。如果非要比喻的话是xp到win7的感觉吧。更精致了一些。&lt;br&gt;&#xA;不过升级后有些套件不支持了，看你的需求了。&lt;/p&gt;</description>
     </item>
     <item>
       <title>keepass配合群晖及keepasshttp实现密码快速登陆</title>
       <link>https://iliu.org/3413.html</link>
-      <pubDate>Thu, 26 Nov 2020 09:10:34 +0000</pubDate>
+      <pubDate>Thu, 26 Nov 2020 09:10:34 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/3413.html</guid>
       <description>&lt;p&gt;前两天看老张老师到处寻找管理密码的软件，老刘由于一直在使用Norton的密码管理，所以没有在意，后来发现Norton的服务器链接较慢，使用起来还是有点不方便，恰好又看到老张在吐槽 某个软件（主要是老刘忘记名字了）使用的问题，于是老刘就想群晖上有没有一款密码管理的软件或者套件（自从老刘入白群晖后，找软件都先考虑这个），你还别说，真的搜出来了这样一个软件，不过不是安装在群晖上，而是把数据放在群晖上，其他的客户端都从群晖来读取数据，这个软件叫Keepass。&lt;/p&gt;&#xA;&lt;h2 id=&#34;为什么选择keepass&#34;&gt;为什么选择Keepass？&lt;/h2&gt;&#xA;&lt;p&gt;因为这是一款开源软件，任何人都能读它的源代码，支持所有的端，插件非常的丰富，只要你想到的功能，都有插件来实现。最重要的是免费，所以老刘毫不犹豫的上手了这个软件。&lt;/p&gt;&#xA;&lt;h2 id=&#34;keepass如何把数据存储在群晖上&#34;&gt;Keepass如何把数据存储在群晖上&lt;/h2&gt;&#xA;&lt;p&gt;其实这是利用了keepass的WebDav的功能，而这个功能恰好群晖又支持。&lt;/p&gt;&#xA;&lt;p&gt;首先，下载安装keepass.官网的地址是：&lt;a href=&#34;https://keepass.info/&#34;&gt;KeePass Password Safe&lt;/a&gt;；可以到官网下载最新的版本，如果喜欢绿色版的，这个软件也又提供。&lt;/p&gt;&#xA;&lt;p&gt;第二，群晖里的一些设置&lt;/p&gt;&#xA;&lt;p&gt;首先登陆群晖，在套件里安装webdav。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/11/c4ca4238a0b9238.png&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;webdav的设置很简单，如下图，因为老刘没有公网IP，所以只能用http端口了，如果你可以用https，也可以开启5006端口&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/11/c81e728d9d4c2f6.png&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>纯代码设置frp服务器</title>
       <link>https://iliu.org/3340.html</link>
-      <pubDate>Sun, 18 Oct 2020 07:27:04 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2020 07:27:04 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/3340.html</guid>
       <description>&lt;p&gt;以前老刘写过《&lt;a href=&#34;https://tunan.org/2918.html&#34;&gt;宝塔面板安装FRP内网穿透控制群晖&lt;/a&gt;》的文章，最近发现不知道是这个插件的作者不再开发了还是其他的原因，xeath开发的这个frp服务器插件已经在商店里找不到了。其实，这也没什么，直接用代码的方式部署也是可以的。&lt;/p&gt;&#xA;&lt;p&gt;SSH连接到VPS之后运行如下命令查看处理器架构，根据架构下载不同版本的frp&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;查看结果，如果是“X86_64“即可选择”amd64”，&lt;br&gt;&#xA;运行如下命令，根据架构不同，选择相应版本并进行下载，然后登陆frp的官网地址，现在最新的应该是0.34.1，所以，运行如下的命令：&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;然后解压，给文件换一个名字，进入frp目录&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;修改frps.ini文件&lt;/p&gt;</description>
     </item>

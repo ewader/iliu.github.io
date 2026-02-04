@@ -6,19 +6,21 @@
     <description>Recent content in 宝塔面板 on 老刘博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
+    <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    <webMaster>ewader@qq.com (老刘)</webMaster>
     <lastBuildDate>Thu, 27 Aug 2020 03:25:28 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>从宝塔面板换成oneinstack踩的一个坑</title>
       <link>https://iliu.org/3240.html</link>
-      <pubDate>Thu, 27 Aug 2020 03:25:28 +0000</pubDate>
+      <pubDate>Thu, 27 Aug 2020 03:25:28 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/3240.html</guid>
       <description>&lt;p&gt;年初的时候，由于疫情的原因，在家没事就折腾服务器，由于看上了宝塔面板的FRP插件，所以把网站环境管理面板从oneinstack换成了宝塔面板，不成想，前几天出现了这么一个低级的bug，所以，思来想去，不能为了一颗树苗而放弃整片森林，为了安全，还是把宝塔面板换掉为妙。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/08/2d3a77705b1e397.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;步骤很简单，无非是再宝塔里先把网站的文件夹打包，下载。然后备份数据文件下载。趁着这个机会，把服务器的系统也升级到centos8了。然后安装oneinstack，并编译环境，生成网站目录等等，都是基本的方法，不是本文重点要说的。我要说的是，这里面的坑。&lt;/p&gt;&#xA;&lt;p&gt;新环境做好后，把文件上传，解压，链接好数据库文件，浏览器一输入网站，我去！显示No input file specified错误，赶紧Google了一下，发现解决的方法五花八门，基本上都是东php.ini。想到自己刚才因为网站用的一个主题需要引用一个解密的插件，确实是改了php.ini。但是去掉改动的，依然是这个错误。于是怀疑是自己不经意间删掉了什么字符之类的。由于没有备份这个文件。所以，决定重新编译php。&lt;/p&gt;&#xA;&lt;p&gt;新弄的php还是显示No input file specified。确认了不是php的问题。为了排查，把自己的博客也上传，结果发现博客是好的。这时候忽然想起来，博客这个文件当时备份的时候，把宝塔生成的.user.ini这个为了防止跨站的文件删除了，而另一个网站的没有删。于是在网站源码里找到这个文件，删除之。问题迎刃而解了。&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;</description>
     </item>
     <item>
       <title>换篱落的空间，用宝塔面板，CSRF校验失败</title>
       <link>https://iliu.org/2865.html</link>
-      <pubDate>Mon, 25 Nov 2019 01:55:14 +0000</pubDate>
+      <pubDate>Mon, 25 Nov 2019 01:55:14 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/2865.html</guid>
       <description>&lt;p&gt;昨天在群里看到老胡发的篱落的特价VPS，忽然发现我也在他说的那个群，以前是衡天主机的客户群，后来好像卖给给香港人后，小张自己搞了个篱落主机。由于，近几年一直用的阿里云的，所以，没有太关注了。不过老胡发的这个特价的机型很快就卖完了，然后就发现还有一款1h2g2m的vps，也是特价机型，一年是300元。&lt;/p&gt;&#xA;&lt;p&gt;比阿里云的轻量1h2g的一年便宜个百十块钱。但是没有阿里的带宽高，也没有阿里云给的流量大。但是线路要比阿里云轻量香港的要好些，特别是晚上，阿里云香港的有点卡。不过想想自己也用不了那么大的带宽，就两个小网站，流量也不高。在加上使用FRP做内网穿透远程控制NAS。这个vps也足够了。毕竟远程也不会同步很大的东西。&lt;/p&gt;&#xA;&lt;p&gt;所以就买了这个300一年的，买后在群里和小张联系了一下，他很大气的给升级到了4g的内存。这样绝对是一款很超值的vps了。由于需要配置FRP服务器端，看到宝塔面板带的有这个客户端，也是为了图方便，就舍弃了自己一直用的oneinstack，装上了宝塔。&lt;/p&gt;&#xA;&lt;p&gt;装上宝塔后，首先，编译网站的环境，选择了php7.3 mysql5.7 和NGINX。编译的那叫慢啊。整整弄了一下午，中间我还像张波老师抱怨是这个cpu不行，不过最终终于编译好了。网站什么的都挪过来，然后安装frp的客户端，但是第一个坑来了，安装后竟然打不开这个客户端，显示“&lt;strong&gt;&lt;!-- raw HTML omitted --&gt;CSRF校验失败，请重新登录面板&lt;!-- raw HTML omitted --&gt;&lt;/strong&gt;”。于是搜这个问题的处理方法，看到官方论坛里有说遇到这个问题的，官方给出的方法是屏蔽CSRF校检，于是按照方法操作之。这时候第二个坑来了。重启面板后，面板竟然挂了………我心中一万个那啥路过。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2019/11/9e524a7d1b5ef6d.png&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;看来还是要用自己熟悉的东西，重新安装vps的系统，用oneinstack编译网站环境，同样的环境竟然40分钟左右编译完了。我心中又一万个那啥路过了。看来，自己还是不适合用宝塔，而且宝塔也确实不太稳定，动不动就挂真实受不了。还记得还是宝塔5点多的时候，用过一段时间，也是莫名其妙的，啥都没有动，面板打不开了。还是用我的oneinstack好了。&lt;/p&gt;</description>
     </item>

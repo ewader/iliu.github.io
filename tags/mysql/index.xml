@@ -6,12 +6,14 @@
     <description>Recent content in Mysql on 老刘博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
+    <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    <webMaster>ewader@qq.com (老刘)</webMaster>
     <lastBuildDate>Fri, 18 Nov 2022 00:17:14 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Django设置使用MySql的时候遇到的一些坑</title>
       <link>https://iliu.org/4298.html</link>
-      <pubDate>Fri, 18 Nov 2022 00:17:14 +0000</pubDate>
+      <pubDate>Fri, 18 Nov 2022 00:17:14 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/4298.html</guid>
       <description>&lt;p&gt;Django默认使用的数据库是sqllit,如果是一个小项目的话是完全够用的，但是如果考虑到这个项目未来的话，一般都会换成Mysql或者其他更专业的数据库。本文，就来说说，在设置使用mysql的时候，遇到的一些问题及解决的方法。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;h2 class=&#34;wp-block-heading&#34; id=&#34;项目里设置引用mysql&#34;&gt;项目里设置引用Mysql&lt;/h2&gt;&#xA;&lt;p&gt;在setting.py里,把原来使用sqllit的语句删除或者注释掉，添加如下代码&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;&lt;strong&gt;安装Python访问MySQL的模块&lt;/strong&gt;&lt;/p&gt;</description>
     </item>

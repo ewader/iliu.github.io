@@ -6,19 +6,21 @@
     <description>Recent content in Manjaro on 老刘博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
+    <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    <webMaster>ewader@qq.com (老刘)</webMaster>
     <lastBuildDate>Wed, 16 Nov 2022 01:40:50 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/manjaro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>manjaro的gnome版本升级到43.1了</title>
       <link>https://iliu.org/4295.html</link>
-      <pubDate>Wed, 16 Nov 2022 01:40:50 +0000</pubDate>
+      <pubDate>Wed, 16 Nov 2022 01:40:50 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/4295.html</guid>
       <description>&lt;p&gt;都说使用manjaro最频繁使用的就是命令是&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;这不，照例这么运行了一下，提示有更新，好家伙下载了1g多，不过更新替换后，系统反而小了1m。当时也没有注意更新了啥，直到我点击了这里，发现快速设置菜单变了。&lt;br&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&lt;br&gt;&#xA;发现整个改变了，看了一下系统才发现原来是更新了gnome，现在已经是最新版的了，不得不说，如果想用linux的最新版本，还的使用ARCH系的。滚动更新，yyds。&lt;br&gt;&#xA;&lt;strong&gt;&lt;em&gt;gnome43更新了不少东西。别说这些东西win都有。&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 class=&#34;wp-block-heading&#34; id=&#34;文件管理器自适应侧边栏&#34;&gt;文件管理器自适应侧边栏&lt;/h2&gt;&#xA;&lt;p&gt;现在的文件管理器可以根据打开窗口的尺寸，自动调整侧边了，当较小尺寸的时候，侧边栏可以自动隐藏。&lt;/p&gt;&#xA;&lt;h2 class=&#34;wp-block-heading&#34; id=&#34;文件夹上带图标了&#34;&gt;文件夹上带图标了&lt;/h2&gt;&#xA;&lt;p&gt;GNOME 43 中以文件和目录旁边的小图标的形象卷土重来。这些图标代表着类型，如符号链接、只读等。此外，这些图标会根据你的主题改变它们的颜色，而且一个文件也可以有多个图标。&lt;br&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>正式使用Manjaro系统</title>
       <link>https://iliu.org/4036.html</link>
-      <pubDate>Mon, 17 Jan 2022 00:24:40 +0000</pubDate>
+      <pubDate>Mon, 17 Jan 2022 00:24:40 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/4036.html</guid>
       <description>&lt;p&gt;昨天把开发python 的这个电脑也更换成manjaro这个系统了。经过一段时间的试用，感觉这个系统确实是一个使用起来舒服有稳定的系统。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;h2 class=&#34;wp-block-heading&#34; id=&#34;manjaro之于ubuntu&#34;&gt;manjaro之于ubuntu&lt;/h2&gt;&#xA;&lt;p&gt;以前在桌面上选择LINUX的时候首选是ubuntu,这个系统的优点是用户多，大的方面比较稳定，运行也比较流畅，很多软件都是以ubuntu的格式来开发的。在我的电脑上有一个很烦人的问题，就是不能保存电脑的亮度，调整完之后，下次一重新启动，亮度又是最大了。虽然通过代码可以改，但是改后还是有一丢小问题的，强迫症有点。另外就是安装软件的时候，软件中心启动的慢，有时候甚至安装的界面都出不来。基于这么几点，优点不太满意。&lt;/p&gt;&#xA;&lt;h2 class=&#34;wp-block-heading&#34; id=&#34;manjaro之于deepinuos&#34;&gt;manjaro之于deepin/uos&lt;/h2&gt;&#xA;&lt;p&gt;deepin和uos算是国产系统里的佼佼者了，我遇到的问题是，deepin偶会卡死，毫无征兆的那种，忽然桌面一卡，整个都不能用了。UOS刚开始也有这毛病，最新版貌似解决了这个问题。另外就是蓝牙有问题，死活连不上鼠标。&lt;/p&gt;</description>
     </item>

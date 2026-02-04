@@ -6,19 +6,21 @@
     <description>Recent content in 篱落VPS on 老刘博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
+    <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    <webMaster>ewader@qq.com (老刘)</webMaster>
     <lastBuildDate>Wed, 14 Oct 2020 07:03:04 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/%E7%AF%B1%E8%90%BDvps/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>网站换了一台服务器</title>
       <link>https://iliu.org/3309.html</link>
-      <pubDate>Wed, 14 Oct 2020 07:03:04 +0000</pubDate>
+      <pubDate>Wed, 14 Oct 2020 07:03:04 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/3309.html</guid>
       <description>&lt;p&gt;前几天发现网站有点卡，特别是回复评论的时候，速度很慢。然后后台看了一下进程，发现WWW进程占用的CPU会一下一下的飙升，最高的时候达到了100%。但是根据流量的话，不可能是这样一个占用。这个博客也就日流量30IP左右，另外一个网站，日流量就是400-500之间。作为一台2核4g内存的vps,不可能达到这个资源占用水平。所以，打算重新整下生产环境。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/10/194686deba817bf.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;昨天下午正好有点时间，把两个网站进行了备份，这个博客还好，打包之后只有100多兆，另外一个网站打包后竟然有了1G多，唉。所有，能不折腾还是少折腾啊。&lt;/p&gt;&#xA;&lt;p&gt;下载完了之后，进到篱落的后台重新安装系统镜像，结果发现，centos8安装不上，其他的Ubuntu啊，debian啊等等也是安装不了。装来装去只有centos7.6能装进去，虽然说理想的系统是8，但是7.6也就凑合了。系统装好后，开始装oneinstack，结果发现，无法下载安装包，本地电脑打开是正常的，ping一下那个网址，也PING不通。不死心，安装lnmp吧，结果还是无法下载安装包，nmmp，都不行，我装宝塔总可以吧，我去，宝塔也装不了，?！~~~&lt;/p&gt;&#xA;&lt;p&gt;于是联系小张，这货不知道去哪pc去了?，到晚上才回复我，要了我的ip，后来说是宿主机坏了，需要更换。想着会花一段时间呢，于是开个腾讯港轻量应急，反正也可以随时退款。题外话，腾讯香港轻量晚上有点卡，其他时间倒是还可以。结果小张说给我换新的服务器。&lt;/p&gt;&#xA;&lt;p&gt;早上一大早就给搞好了，弄生产环境搞了半天，下午总算网站恢复正常了。&lt;/p&gt;&#xA;&lt;p&gt;总的来说，篱落的主机还是推荐使用的，和腾讯阿里等大厂相比稳定性虽然稍差一些，但是胜在价格便宜啊，象我这款人情价的2h4g的vps才300块钱，还要啥自行车啊。&lt;/p&gt;&#xA;&lt;p&gt;如果你想要找一款性价比不错的主机空间，不妨看看篱落吧，走我下面的链接，据说有优惠！&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://my.liluohost.com/aff.php?aff=148&#34;&gt;https://my.liluohost.com/aff.php?aff=148&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>推荐篱落主机的香港VPS</title>
       <link>https://iliu.org/2981.html</link>
-      <pubDate>Mon, 06 Jan 2020 02:02:06 +0000</pubDate>
+      <pubDate>Mon, 06 Jan 2020 02:02:06 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/2981.html</guid>
       <description>&lt;p&gt;从去年11月底开始使用小张的篱落主机至今，差不多两个多月的时间。算是基本了解了篱落主机的性能和客服的人性化服务。由于线路速度以及服务器的稳定性都很不错，而且今天又发现了新年特款VPS，2h4g3m的配置，一年不到300元，算是非常的超值了！&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/01/b788a4803af4065.png&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;使用新年优惠码 newyear,还可以五折优惠，算下来一年仅仅299.5元，非常的超值了。&lt;/p&gt;&#xA;&lt;p&gt;篱落主机的注册地址为：&lt;a href=&#34;https://my.liluohost.com/aff.php?aff=148&#34;&gt;篱落主机&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;便宜的主机那么多，为啥跋涉者推荐篱落主机呢？&lt;/p&gt;&#xA;&lt;h2 id=&#34;首先稳定性非常的不错&#34;&gt;首先，稳定性非常的不错&lt;/h2&gt;&#xA;&lt;p&gt;跋涉者在11月份的时候曾经说换到篱落的主机了，详情见，&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;目前在这个VPS上放了3个网站，从11月份使用以来，一直没有出现过什么问题，线路也非常的不错，晚上的速度也挺快。所以，如果你在找一款稳定性还不错的VPS的话，篱落主机是一个不错的选择。&lt;/p&gt;&#xA;&lt;h2 id=&#34;第二带宽高&#34;&gt;第二，带宽高&lt;/h2&gt;&#xA;&lt;p&gt;虽然，套餐里说的是峰值3M带宽，其实这个是不准的，跋涉者在使用过程中发现，带宽是非常高的，下载速度基本达到了2m/s。折合成带宽基本是20m的了，所以，不要觉得3m的带宽低，只是这么一些而已，实际上带宽很充足，再也不用为小水管而发愁了。&lt;/p&gt;</description>
     </item>

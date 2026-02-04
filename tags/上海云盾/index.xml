@@ -6,12 +6,14 @@
     <description>Recent content in 上海云盾 on 老刘博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
+    <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    <webMaster>ewader@qq.com (老刘)</webMaster>
     <lastBuildDate>Sun, 26 May 2019 02:29:32 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/%E4%B8%8A%E6%B5%B7%E4%BA%91%E7%9B%BE/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>上海云盾CDN简要设置指南</title>
       <link>https://iliu.org/1653.html</link>
-      <pubDate>Sun, 26 May 2019 02:29:32 +0000</pubDate>
+      <pubDate>Sun, 26 May 2019 02:29:32 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/1653.html</guid>
       <description>&lt;p&gt;在免费cdn市场上，广大站长所使用的一般是又拍云cdn，360网站加速，上海云盾cdn以及腾讯云cdn，笔者以前也是使用的又拍云cdn,可能是和又拍云犯冲又或者是自己设置的不对，网站总出现这样那样的问题，后来把cdn转移到了上海云顿，网站之前的问题就没有再出现，于是就一直用了下去，当时觉得上海云盾的设置很简单，昨天，青山绿水博客的的博主小朋友问我上海云盾的设置小技巧，说实话真没有啥技巧，就把自己的一些设置弄出来，可能还有更多优化的地方，欢迎指正。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>

@@ -6,12 +6,14 @@
     <description>Recent content in 阿里云轻量服务器 on 老刘博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
+    <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    <webMaster>ewader@qq.com (老刘)</webMaster>
     <lastBuildDate>Thu, 14 Nov 2019 23:53:20 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/%E9%98%BF%E9%87%8C%E4%BA%91%E8%BD%BB%E9%87%8F%E6%9C%8D%E5%8A%A1%E5%99%A8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>博客更换到阿里云香港轻量，并升级到wordpress5.3.0</title>
       <link>https://iliu.org/2851.html</link>
-      <pubDate>Thu, 14 Nov 2019 23:53:20 +0000</pubDate>
+      <pubDate>Thu, 14 Nov 2019 23:53:20 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/2851.html</guid>
       <description>&lt;p&gt;昨天在折腾FRP的时候，怕影响到现有的环境，所以，买了一个阿里云轻量1H1G的主机，因为我知道，一个月24元，其实我不是打算用一个月而是打算就用一天练练手，摆治了一天，FRP也没有实现与黑群晖进行联手，下午在退款的时候，惊奇的发现，我2年多前买的这个800元3年的1H1G1M的小鸡也能退款，大概能退200左右，毕竟还有8个来月的时间就到期了。&lt;/p&gt;&#xA;&lt;p&gt;说起来，我早就不想用这个主机了，主要是带宽只有1m,只不过心疼剩余的时间，就一直凑合着用。以前也咨询过客服能不能退款，说是活动价买的不能退云云。所以，立马吧网站备份到oss里，退款，并购买了一台，1H2g30m的香港轻量云。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2019/11/25b2916b5c49db6.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;说起这个阿里云轻量，网上有两种声音，一种是爱死，一种是恨死。我曾经试用过半个多月的时间，给我的感觉，拿来做博客，绰绰有余了。关键带宽足，晚上是有点慢，不过也在可接受的范围呢。这次不想再用lnmp等了，于是直接刷了宝塔面板，主要是因为宝塔上有个frp的管理端，想看看是不是好用一些。&lt;/p&gt;&#xA;&lt;p&gt;刷宝塔很容易，但是在安装环境的时候，又TM出问题了，宝塔的后台一只显示等待安装，CPU也不动，从网上查了一下说，重启一下面板就可以了，可是，重启了几遍也没乱用。索性放那不管了，然后直接ssh里reboot。然后就给女儿做饭去了。吃过晚饭，惊奇的发现，环境竟然装好了。哈&lt;/p&gt;&#xA;&lt;p&gt;把备份的网站从oss里导出来，这点阿里云真方便。都是内网传输，非常的快。解压，网站终于可以访问了。登录后台，发现WordPress已经更新到5.3.0了，不过，最近不知道怎么回事，登录WordPress官网很费劲，更新也是提示太多连接。不过，多刷新两下，就更新成功了。&lt;/p&gt;</description>
     </item>

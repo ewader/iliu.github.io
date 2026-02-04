@@ -6,12 +6,14 @@
     <description>Recent content in 7b2 on 老刘博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
+    <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    <webMaster>ewader@qq.com (老刘)</webMaster>
     <lastBuildDate>Thu, 25 Jul 2019 00:54:22 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/7b2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>给7b2的主题加上评论回复功能</title>
       <link>https://iliu.org/2552.html</link>
-      <pubDate>Thu, 25 Jul 2019 00:54:22 +0000</pubDate>
+      <pubDate>Thu, 25 Jul 2019 00:54:22 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/2552.html</guid>
       <description>&lt;p&gt;7b2主题默认是不会给评论者回复邮件的。也曾经问过作者，作者说如果实现这个的话，没几天邮箱就被封掉了，可能作者有作者的理由吧，但是不加的话，你回复了评论者，他也不知道你给他回复了，没有个反馈，十分的不方便。&lt;/p&gt;&#xA;&lt;p&gt;要想实现给评论者发邮件现在有两种方法，一种是代码实现，一种是插件实现。&lt;/p&gt;&#xA;&lt;h2 id=&#34;代码实现回复评论给评论者发送邮件&#34;&gt;代码实现回复评论给评论者发送邮件&lt;/h2&gt;&#xA;&lt;p&gt;修改&lt;!-- raw HTML omitted --&gt;functions.php，在文件的最后加上如下代码&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>

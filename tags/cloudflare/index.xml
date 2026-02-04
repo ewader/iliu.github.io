@@ -6,26 +6,28 @@
     <description>Recent content in Cloudflare on 老刘博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
+    <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    <webMaster>ewader@qq.com (老刘)</webMaster>
     <lastBuildDate>Fri, 01 Dec 2023 21:04:03 +0800</lastBuildDate>
     <atom:link href="https://iliu.org/tags/cloudflare/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>利用cloudflare页面规则设置301永久跳转</title>
       <link>https://iliu.org/posts/use-cloudflare-page-rules-setup-301-permanent-redirect/</link>
-      <pubDate>Fri, 01 Dec 2023 21:04:03 +0800</pubDate>
+      <pubDate>Fri, 01 Dec 2023 21:04:03 +0800</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/posts/use-cloudflare-page-rules-setup-301-permanent-redirect/</guid>
       <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;细心的读者可能已经发现，图南博客的域名已经由&lt;code&gt;iliu.org&lt;/code&gt; 更换到&lt;code&gt;iliu.org&lt;/code&gt;。这个域名是之前在&lt;code&gt;Google&lt;/code&gt;注册的，可惜的80端口被墙了，也不知道是怎么实现强域名80端口的。于是在暂时使用一段时间后又使用了原域名。&lt;/p&gt;&#xA;&lt;p&gt;前两天的时候，感觉还是需要用iliu这个域名，和博客的名字比较搭配，而且用了ssl之后，网站走的443端口，基本上也不会影响什么，所以就切换了过来。&lt;/p&gt;&#xA;&lt;p&gt;换域名之后另一个需要的解决的事情是要把&lt;code&gt;iliu.org&lt;/code&gt;的网址301跳转到新网站，以前用VPS的时候，直接在&lt;code&gt;nginx&lt;/code&gt;里设置，现在不用vps了，有没有别的方法呢？答案是肯定的，而且比vps更方便。那就是使用&lt;code&gt;Cloudflare&lt;/code&gt;的页面规则进行跳转。&lt;/p&gt;&#xA;&lt;h2 id=&#34;方法&#34;&gt;方法&lt;/h2&gt;&#xA;&lt;p&gt;进入到&lt;code&gt;cloudflare&lt;/code&gt;的个人中心，点击需要跳转的网站域名，点击DNS。 把域名解析到8.8.8.8，当然你解析到1.1.1.1也是可以的。然后点击规则，再点击页面规则。具体的设置如下图：&lt;img src=&#34;https://ewader.s3.bitiful.net/blog/guize.png&#34; alt=&#34;规则&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;这样，就把&lt;code&gt;iliu.org&lt;/code&gt;这个网站的网址，按照同样的规则，跳转到了&lt;code&gt;iliu.org&lt;/code&gt;这个网站。&lt;/p&gt;&#xA;&lt;p&gt;使用免费的&lt;code&gt;cloudflare&lt;/code&gt;一个域名只有3个免费的页面规则，因此还有另外一个方法也可以实现，那就是利用&lt;code&gt;cloudflare&lt;/code&gt;的&lt;code&gt;workers&lt;/code&gt;。&lt;/p&gt;&#xA;&lt;p&gt;进入到&lt;code&gt;cloudflare&lt;/code&gt;的后台后，点击&lt;code&gt;Workers 和 Pages&lt;/code&gt;。&lt;/p&gt;&#xA;&lt;p&gt;点击&lt;code&gt;创建应用程序&lt;/code&gt;,再点击&lt;code&gt;创建workers&lt;/code&gt;：把下面的代码修改一下，复制到代码区保存。&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;/**&#xA; * Welcome to Cloudflare Workers! This is your first worker.&#xA; *&#xA; * - Run &amp;#34;npm run dev&amp;#34; in your terminal to start a development server&#xA; * - Open a browser tab at http://localhost:8787/ to see your worker in action&#xA; * - Run &amp;#34;npm run deploy&amp;#34; to publish your worker&#xA; *&#xA; * Learn more at https://developers.cloudflare.com/workers/&#xA; */&#xA;&#xA;// Redirect requests from one domain to another&#xA;&#xA;const base = &amp;#34;https://iliu.org&amp;#34;&#xA;const statusCode = 301&#xA;&#xA;async function handleRequest(request) {&#xA;  const url = new URL(request.url)&#xA;  const { pathname, search } = url&#xA;  const destinationURL = base + pathname + search&#xA;&#xA;  return Response.redirect(destinationURL, statusCode)&#xA;}&#xA;&#xA;addEventListener(&amp;#34;fetch&amp;#34;, async event =&amp;gt; {&#xA;  event.respondWith(handleRequest(event.request))&#xA;})&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;上面秩序把域名化成你的域名，然后设置workers的域名是你要转出的域名即可。&lt;/p&gt;</description>
     </item>
     <item>
       <title>博客web端改用apache</title>
       <link>https://iliu.org/3520.html</link>
-      <pubDate>Wed, 30 Dec 2020 07:35:59 +0000</pubDate>
+      <pubDate>Wed, 30 Dec 2020 07:35:59 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/3520.html</guid>
       <description>&lt;p&gt;试用了几天Cloudflare加racknerd的2h2g的小鸡，感觉还算差强人意。所以干脆就先把博客放这里算了，然后又突发奇想，其他的网站一直用的lnmp，为啥博客就不能用用lamp呢？况且apache在稳定性以及对php的支持等方面都比nginx要好，nginx的优势是轻便和并发能力强。其实对小博客来说，基本没有啥区别。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2021/01/ac6793f3e79aaa6.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;说折腾就折腾，编译安装apache，发现需要重新设置虚拟主机，设置的时候发现，不像nginx的时候，脚本提示把http301到https，什么www域名301到一级域名等，这些提示都没有。也没有设置伪静态的选项。网上查了一下，发现是几行代码就可以搞定的事情。&lt;/p&gt;&#xA;&lt;h2 class=&#34;wp-block-heading&#34; id=&#34;设置301跳转&#34;&gt;设置301跳转&lt;/h2&gt;&#xA;&lt;p&gt;在apache里设置301跳转很简单，只需要在.htaccess里添加代码就好了，老刘主要用到两个，一个是http跳到https，一个是www跳到一级域名。感觉比nginx要简洁一些，代码如下：&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;设置后才发现，设置和不设置没有啥区别，老刘用的cf，应该是在cf里设置了301到443接口了，至于wordpress伪静态的问题，也是很容易，直接到wordpress的后台，保存一下固定链接样式就行了，保存后在根目录里自动生成了.htaccess。代码如下：&lt;/p&gt;</description>
     </item>
     <item>
       <title>利用cloudFlare的边缘计算workers实现外链转内链跳转</title>
       <link>https://iliu.org/2248.html</link>
-      <pubDate>Tue, 09 Jul 2019 01:20:11 +0000</pubDate>
+      <pubDate>Tue, 09 Jul 2019 01:20:11 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/2248.html</guid>
       <description>&lt;p&gt;跋涉者曾经分享过一篇7b2主题外链跳转的文章，那篇文章实现的原理是在自己服务器里增加一个跳转的页面代码。&lt;/p&gt;&#xA;&lt;p&gt;[zrz_insert_post id=1656]&lt;/p&gt;&#xA;&lt;p&gt;不过今天看张戈大神的一篇文章&lt;!-- raw HTML omitted --&gt;CloudFlare边缘计算Workers尝鲜初探：博客跳转中间页&lt;!-- raw HTML omitted --&gt;。这篇文章谈到可以把这个跳转代码保存到cloudFlare的边缘计算workers中，从而让跳转可以在CDN里实现，显然，这样会减轻服务器计算的压力。对小水管的博客来说有一定的使用价值。&lt;/p&gt;&#xA;&lt;h2 id=&#34;首先你的网站要使用cloudflare这个cdn加速&#34;&gt;首先，你的网站要使用cloudFlare这个cdn加速。&lt;/h2&gt;&#xA;&lt;p&gt;由于国内的网络情况，直接使用往往比较卡，不过好在张戈大神折腾出了另外一个套路，使用后感觉还不错。有兴趣的朋友可以去他的网站上参考。本文不做详细的叙述。&lt;/p&gt;&#xA;&lt;h2 id=&#34;第二把代码添加到cloudflare的边缘计算workers中&#34;&gt;第二，把代码添加到cloudFlare的边缘计算workers中&lt;/h2&gt;&#xA;&lt;p&gt;步骤如下：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;!-- raw HTML omitted --&gt;打开CF域名控制面板，如图1点击切换到Workers选项卡；&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;!-- raw HTML omitted --&gt;点击【Launch Editor】按钮进入Workers编辑界面后，点击【Add script】输入脚本名称并保存，如图：&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>

@@ -6,12 +6,14 @@
     <description>Recent content in Blog on 老刘博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
+    <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    <webMaster>ewader@qq.com (老刘)</webMaster>
     <lastBuildDate>Sun, 10 Aug 2025 08:34:35 +0800</lastBuildDate>
     <atom:link href="https://iliu.org/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ghost 博客与 Mailgun 邮件服务申请全流程</title>
       <link>https://iliu.org/complete-setup-process-for-ghost-blog-and-mailgun-email-service/</link>
-      <pubDate>Sun, 10 Aug 2025 08:34:35 +0800</pubDate>
+      <pubDate>Sun, 10 Aug 2025 08:34:35 +0800</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/complete-setup-process-for-ghost-blog-and-mailgun-email-service/</guid>
       <description>&lt;p&gt;Ghost 的邮件系统与 Mailgun 深度集成，如果想要在 Ghost 上实现邮件订阅、密码找回、通知等功能，申请一个 Mailgun 账户几乎是必选项。好消息是——Mailgun 已经恢复免费套餐，每天可发送 100 封邮件，对个人博客来说完全够用，而且现在&lt;strong&gt;验证信用卡不再是必需&lt;/strong&gt;。坏消息是——Mailgun 的风控依然非常严格，尤其是中国大陆用户，注册和解封过程可能会比较“曲折”。下面是我亲身踩坑并最终申请成功的全过程，希望能帮到你。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-中国大陆能正常访问但注册有坑&#34;&gt;1. 中国大陆能正常访问，但注册有坑&lt;/h2&gt;&#xA;&lt;p&gt;Mailgun 官网在中国大陆是可以直接打开的，但注册过程中会遇到两个大坑：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;不挂梯子 → 验证码加载不出来&lt;/strong&gt;注册页的验证根本就不显示，导致注册按钮点不动。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;挂了梯子 → 手机号与 IP 不匹配触发风控&lt;/strong&gt;注册时需要验证手机号，如果你的 IP 地址（梯子出口）与手机号所在地区不一致，就很容易被判定为风险账号，触发临时封禁。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;2-常见问题与解决方法&#34;&gt;2. 常见问题与解决方法&lt;/h2&gt;&#xA;&lt;h3 id=&#34;收不到验证码&#34;&gt;收不到验证码&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;进入 &lt;a href=&#34;https://help.mailgun.com/hc/en-us/requests/new?ref=iliu.org&#34;&gt;Mailgun 工单系统&lt;/a&gt;&lt;/p&gt;</description>
     </item>

@@ -6,12 +6,14 @@
     <description>Recent content in Windows11 on 老刘博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
+    <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    <webMaster>ewader@qq.com (老刘)</webMaster>
     <lastBuildDate>Thu, 26 May 2022 01:55:15 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/windows11/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Windows11 如何使用ie浏览器</title>
       <link>https://iliu.org/4120.html</link>
-      <pubDate>Thu, 26 May 2022 01:55:15 +0000</pubDate>
+      <pubDate>Thu, 26 May 2022 01:55:15 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/4120.html</guid>
       <description>&lt;p&gt;windows11已经抛弃了ie浏览器，但是有一些场合必须要使用，比如现在各大银行的u盾还不支持edge，有很多同学到处找IE这个软件，其实大可不必。windows11目前只是暂时屏蔽了IE而已。点击“查找”，搜索“控制面板”&lt;/p&gt;&#xA;&lt;p&gt;在“控制面板”中点击“Internet选项”&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;在弹出的页面，点击右上角的“？”&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>

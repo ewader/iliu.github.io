@@ -6,12 +6,14 @@
     <description>Recent content in Linux命令 on 老刘博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
+    <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    <webMaster>ewader@qq.com (老刘)</webMaster>
     <lastBuildDate>Sat, 20 Jul 2019 08:49:47 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/linux%E5%91%BD%E4%BB%A4/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>常用的几个Linux的命令</title>
       <link>https://iliu.org/2535.html</link>
-      <pubDate>Sat, 20 Jul 2019 08:49:47 +0000</pubDate>
+      <pubDate>Sat, 20 Jul 2019 08:49:47 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/2535.html</guid>
       <description>&lt;p&gt;作为一个命令记不全的人，每次都要跋山涉水的找命令，这次把一些经常用到的命令综合到一起，省的再去翻找别人的文章。&lt;/p&gt;&#xA;&lt;h2 id=&#34;linux-删除文件夹和文件的命令&#34;&gt;Linux 删除文件夹和文件的命令&lt;/h2&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;删除文件夹实例：&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;rm -rf /var/log/httpd/access&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>

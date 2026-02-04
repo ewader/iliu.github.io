@@ -6,12 +6,14 @@
     <description>Recent content in Edgeone on 老刘博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
+    <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    <webMaster>ewader@qq.com (老刘)</webMaster>
     <lastBuildDate>Sun, 04 Jan 2026 18:01:08 +0800</lastBuildDate>
     <atom:link href="https://iliu.org/tags/edgeone/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>博客托管平台换成edgeone pages</title>
       <link>https://iliu.org/posts/migrated-my-blog-to-edgeone-pages/</link>
-      <pubDate>Sun, 04 Jan 2026 18:01:08 +0800</pubDate>
+      <pubDate>Sun, 04 Jan 2026 18:01:08 +0800</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/posts/migrated-my-blog-to-edgeone-pages/</guid>
       <description>&lt;p&gt;作为个人博主，Cloudflare 被称为赛博菩萨：免费 CDN、自动 SSL、无限流量。但对于中国大陆用户来说，CF 的免费版线路对联通用户来说非常的不友好——动辄 300ms+ 的延迟和高峰期的丢包，让“全球加速”变成了“全球减速”。&lt;/p&gt;&#xA;&lt;p&gt;前两天看到1900把博客迁移到了Edgeone，速度很快，我的博客没有备案，看了下可以使用海外版，测试了一下，发现要比cf快一些，于是决定把博客从 Cloudflare 迁移了过去。&lt;/p&gt;&#xA;&lt;h2 id=&#34;为什么选择-edgeone-pages&#34;&gt;为什么选择 EdgeOne Pages？&lt;/h2&gt;&#xA;&lt;p&gt;虽然 EdgeOne 的 Pages 功能在目前也主要使用海外节点，但实际体验下来，它在亚洲地区的路由优化明显优于 Cloudflare 的 pages。&lt;/p&gt;</description>
     </item>

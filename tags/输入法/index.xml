@@ -6,26 +6,28 @@
     <description>Recent content in 输入法 on 老刘博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
+    <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    <webMaster>ewader@qq.com (老刘)</webMaster>
     <lastBuildDate>Wed, 14 Jan 2026 17:04:40 +0800</lastBuildDate>
     <atom:link href="https://iliu.org/tags/%E8%BE%93%E5%85%A5%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ubuntu25.10编译安装Ibus-libpinyin </title>
       <link>https://iliu.org/posts/ubuntu2510-install-ibus-libpinyin/</link>
-      <pubDate>Wed, 14 Jan 2026 17:04:40 +0800</pubDate>
+      <pubDate>Wed, 14 Jan 2026 17:04:40 +0800</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/posts/ubuntu2510-install-ibus-libpinyin/</guid>
       <description>&lt;p&gt;前几年用ubuntu的时候，也写过&lt;a href=&#34;https://iliu.org/3976.html&#34;&gt;编译升级&lt;/a&gt;的方法，5年过去，旧的方法已经不适合现在的需要了，中间编译的时候，编译环境还是缺的蛮多的，不过好在有了AI，在AI的帮助下，总算是编译安装好了。&lt;/p&gt;&#xA;&lt;p&gt;默认你已经下载了输入法的最新源码。&lt;/p&gt;&#xA;&lt;h2 id=&#34;首先需要安装libpinyin&#34;&gt;首先需要安装libpinyin&lt;/h2&gt;&#xA;&lt;p&gt;安装ibus-libpinyin官方的教程很简单的说，需要：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;ibus&lt;/li&gt;&#xA;&lt;li&gt;libpinyin&lt;/li&gt;&#xA;&lt;li&gt;sqlite3&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;安装基础工具&#34;&gt;安装基础工具&lt;/h3&gt;&#xA;&lt;p&gt;在开始之前，确保编译环境是完整的：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt update&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt install build-essential autoconf automake libtool pkg-config intltool gettext&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;依赖库清单&#34;&gt;依赖库清单&lt;/h3&gt;&#xA;&lt;p&gt;针对你遇到的所有 &lt;code&gt;configure&lt;/code&gt; 报错，这里是对应的 Ubuntu 软件包：&lt;/p&gt;</description>
     </item>
     <item>
       <title>使用Fcitx5 for Android，读《万历十五年》</title>
       <link>https://iliu.org/posts/use-fcitx5-andriod-input/</link>
-      <pubDate>Wed, 07 Feb 2024 20:28:26 +0800</pubDate>
+      <pubDate>Wed, 07 Feb 2024 20:28:26 +0800</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/posts/use-fcitx5-andriod-input/</guid>
       <description>&lt;p&gt;最近女儿放假了，忙着辅导她的功课，毕竟初三了，加上期末考试的成绩不是很理想，所以寒假是要努力的时候了。在这期间读书也少了，只读了《万历十五年》这本历史书，另外就是在看了1900的博客后，把手机的输入法改成了Fcitx5 for Android，并且安装rime插件，使用雾凇拼音词库；这样手机就和电脑使用同一个词库了。&lt;/p&gt;&#xA;&lt;h2 id=&#34;手机安装并fcitx5-for-android&#34;&gt;手机安装并Fcitx5 for Android&lt;/h2&gt;&#xA;&lt;p&gt;在电脑上从去年开始就一直使用小狼毫输入法加雾凇拼音的词库，这个输入法开源，对隐私的保护好，并且词库很大，使用起来很准确，但是手机上的输入法一直不能让我满意。&lt;/p&gt;&#xA;&lt;p&gt;使用过一段微信键盘，恶心与微信无孔不入的推广，所以弃用；后来又使用了一段时间Gboard。一是词库小，输入不准确，选词困难，二是一些表情颜文字之类的需要网络的支持，想舒服的使用手机就要时刻处于科学的状态。所以使用一段时间后也不是很满意，就弃用了。也曾经使用过一段时间Fcitx5 for Android，那时候刚开发出来不久，还没有rime插件，加上没有九宫格，也不得不放弃了。最后选择使用了华为的小艺输入法。这个输入法各方面中规中矩吧，也比较顺手，就一直在使用下去。&lt;/p&gt;&#xA;&lt;p&gt;看&lt;a href=&#34;https://1900.live/last-puzzle-android-rime-input/&#34;&gt;1900&lt;/a&gt;的博客后,发现Fcitx5 for Android更新很多版本了，加上可以安装rime插件并使用雾凇拼音，就又产生了使用的念头。按照他博客的教程，很容易就安装使用了。&lt;/p&gt;&#xA;&lt;p&gt;试用了几天，发现总体而言还算可以。优点就是雾凇拼音了，和电脑一样的输入体验。缺点依然是不支持九宫格。目前在努力适应全键盘的模式中。&lt;/p&gt;&#xA;&lt;h2 id=&#34;读万历十五年&#34;&gt;读《万历十五年》&lt;/h2&gt;&#xA;&lt;p&gt;这本书以前看电视剧《人民的名义》的时候，就被@到。正好微信读书给推了这本，可以免费看，所以就读了。书名虽然是万历十五年，但并不是仅仅讲万历十五年发生的事情。记录了张居正、申时行、海瑞、戚继光等几位典型的人物事迹。&lt;/p&gt;&#xA;&lt;p&gt;从这本书可以看到首辅不同的性格导致的历史，明朝特殊的文官集团、大明皇帝的无奈、武将和军人的悲哀等。&lt;/p&gt;&#xA;&lt;p&gt;你能相信一个看似芝麻大的和稀泥事件，竟然就是导致大明被清朝覆灭的根源。五六十的海盗从浙江登陆，辗转上千公里，杀死4000多人；皇帝想干什么事只要不合文官集团的意，你就干不成，只要心灰气冷，得过且过。&lt;/p&gt;&#xA;&lt;p&gt;当然这只是书中的观点，不一定正确和全面，但是对了解那个封建社会里的奇葩王朝还是挺有帮助的。&lt;/p&gt;&#xA;&lt;p&gt;PS：&lt;/p&gt;</description>
     </item>
     <item>
       <title>ubuntu20.04开机亮度最大的解决方法及输入法设置</title>
       <link>https://iliu.org/3951.html</link>
-      <pubDate>Mon, 20 Dec 2021 09:20:38 +0000</pubDate>
+      <pubDate>Mon, 20 Dec 2021 09:20:38 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/3951.html</guid>
       <description>&lt;p&gt;从很久以前UBUNTU就有一个毛病，有些电脑安装后，开机后屏幕的亮度会是最大。据说从很低的一个版本都有这样bug存在，但是不知道为啥官方一直都没有修复。不过网上也有很多的教程，试用了一下，有些有用，有些没用，直到扒到了一个很老的文章，上面记载的一个很简单的方法，却解决了这样一个问题。&lt;/p&gt;&#xA;&lt;p&gt;别的不说，直接上代码，照着做就行了：&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;然后说说ubunut的输入法&lt;/p&gt;&#xA;&lt;p&gt;以前（十年前吧）的时候，linux下的输入法很难用，现在主流的输入法也都有了，比如搜狗，百度，讯飞等等。最近看了一下，发现已经不需要额外在安装其他的输入法了，用系统自带的中文输入法已经很好用了。&lt;/p&gt;&#xA;&lt;p&gt;系统自带的输入法是ibuslibpinyin，只需要简单的设置一下，就非常好用了。&lt;/p&gt;&#xA;&lt;p&gt;第一步：常规设置，如下图，根据个人的习惯来吧，老刘喜欢候选词以词频方式展示。&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;第二步：拼音模式，勾选“启用云输入”&lt;/p&gt;</description>
     </item>

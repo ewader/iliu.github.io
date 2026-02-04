@@ -6,12 +6,14 @@
     <description>Recent content in EndeavourOS on 老刘博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
+    <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    <webMaster>ewader@qq.com (老刘)</webMaster>
     <lastBuildDate>Sun, 30 Nov 2025 10:00:00 +0800</lastBuildDate>
     <atom:link href="https://iliu.org/tags/endeavouros/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>EndeavourOS &#43; Btrfs &#43; Snapper &#43; GRUB：完整的快照回滚系统配置指南</title>
       <link>https://iliu.org/endeavouros-snapper-grub-snapshot-rollback-guide/</link>
-      <pubDate>Sun, 30 Nov 2025 10:00:00 +0800</pubDate>
+      <pubDate>Sun, 30 Nov 2025 10:00:00 +0800</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/endeavouros-snapper-grub-snapshot-rollback-guide/</guid>
       <description>&lt;p&gt;EndeavourOS由于使用的是滚动更新，系统存在着滚挂的可能性（尽管我已经使用了1个多月也没有问题），所以快照回滚是一个必须的选项。本文将详细介绍如何在 EndeavourOS 系统中配置完整的快照回滚系统，让您在系统出现问题时能够轻松恢复到之前的状态。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://s2.l22.org/images/1764499404_endeavour-os-logo-on-a-purple-background-1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;为什么需要快照回滚系统？在日常使用中，我们难免会遇到以下情况：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;系统更新后出现兼容性问题&lt;/li&gt;&#xA;&lt;li&gt;安装某个软件导致系统不稳定&lt;/li&gt;&#xA;&lt;li&gt;配置文件修改错误导致系统无法启动&lt;/li&gt;&#xA;&lt;li&gt;恶意软件或误操作破坏系统&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;有了快照回滚功能，这些问题都可以通过简单的重启和菜单选择来解决。&lt;/p&gt;&#xA;&lt;h2 id=&#34;系统要求&#34;&gt;系统要求&lt;/h2&gt;&#xA;&lt;p&gt;在开始之前，请确保您的系统满足以下条件：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;已安装 EndeavourOS&lt;/strong&gt;（或基于 Arch 的其他发行版）&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;使用 Btrfs 文件系统&lt;/strong&gt;作为根分区&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;安装时选择 GRUB 作为引导加载程序&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;核心组件介绍&#34;&gt;核心组件介绍&lt;/h2&gt;&#xA;&lt;p&gt;我们的快照回滚系统将由以下几个核心组件构成：&lt;/p&gt;</description>
     </item>

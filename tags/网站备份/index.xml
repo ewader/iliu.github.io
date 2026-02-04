@@ -6,12 +6,14 @@
     <description>Recent content in 网站备份 on 老刘博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
+    <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    <webMaster>ewader@qq.com (老刘)</webMaster>
     <lastBuildDate>Mon, 15 Jul 2019 03:27:27 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/%E7%BD%91%E7%AB%99%E5%A4%87%E4%BB%BD/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>备忘，使用阿里云ossfs备份网站</title>
       <link>https://iliu.org/2513.html</link>
-      <pubDate>Mon, 15 Jul 2019 03:27:27 +0000</pubDate>
+      <pubDate>Mon, 15 Jul 2019 03:27:27 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/2513.html</guid>
       <description>&lt;p&gt;昨天看到明月云服务上有篇关于使用ossfs备份网站的文章，看起来也不复杂，于是就试用了一下，试用后感觉真是体验不错，用这个后，妈妈再也不担心网站数据丢失了。&lt;/p&gt;&#xA;&lt;h2 id=&#34;给服务器安装ossfs&#34;&gt;给服务器安装ossfs。&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;下载安装包&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;这个可以到阿里云官网上下载最新的版本。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;安装，这里是centos7.x的安装方式&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;!-- raw HTML omitted --&gt;配置账号访问信息&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;例如，本人用的香港阿里云服务器，配置就是这么做的&lt;/p&gt;</description>
     </item>

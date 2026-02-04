@@ -6,159 +6,161 @@
     <description>Recent content in 免费资源 on 老刘博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
+    <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    <webMaster>ewader@qq.com (老刘)</webMaster>
     <lastBuildDate>Thu, 26 Nov 2020 09:10:34 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/categories/%E5%85%8D%E8%B4%B9%E8%B5%84%E6%BA%90/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>keepass配合群晖及keepasshttp实现密码快速登陆</title>
       <link>https://iliu.org/3413.html</link>
-      <pubDate>Thu, 26 Nov 2020 09:10:34 +0000</pubDate>
+      <pubDate>Thu, 26 Nov 2020 09:10:34 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/3413.html</guid>
       <description>&lt;p&gt;前两天看老张老师到处寻找管理密码的软件，老刘由于一直在使用Norton的密码管理，所以没有在意，后来发现Norton的服务器链接较慢，使用起来还是有点不方便，恰好又看到老张在吐槽 某个软件（主要是老刘忘记名字了）使用的问题，于是老刘就想群晖上有没有一款密码管理的软件或者套件（自从老刘入白群晖后，找软件都先考虑这个），你还别说，真的搜出来了这样一个软件，不过不是安装在群晖上，而是把数据放在群晖上，其他的客户端都从群晖来读取数据，这个软件叫Keepass。&lt;/p&gt;&#xA;&lt;h2 id=&#34;为什么选择keepass&#34;&gt;为什么选择Keepass？&lt;/h2&gt;&#xA;&lt;p&gt;因为这是一款开源软件，任何人都能读它的源代码，支持所有的端，插件非常的丰富，只要你想到的功能，都有插件来实现。最重要的是免费，所以老刘毫不犹豫的上手了这个软件。&lt;/p&gt;&#xA;&lt;h2 id=&#34;keepass如何把数据存储在群晖上&#34;&gt;Keepass如何把数据存储在群晖上&lt;/h2&gt;&#xA;&lt;p&gt;其实这是利用了keepass的WebDav的功能，而这个功能恰好群晖又支持。&lt;/p&gt;&#xA;&lt;p&gt;首先，下载安装keepass.官网的地址是：&lt;a href=&#34;https://keepass.info/&#34;&gt;KeePass Password Safe&lt;/a&gt;；可以到官网下载最新的版本，如果喜欢绿色版的，这个软件也又提供。&lt;/p&gt;&#xA;&lt;p&gt;第二，群晖里的一些设置&lt;/p&gt;&#xA;&lt;p&gt;首先登陆群晖，在套件里安装webdav。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/11/c4ca4238a0b9238.png&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;webdav的设置很简单，如下图，因为老刘没有公网IP，所以只能用http端口了，如果你可以用https，也可以开启5006端口&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/11/c81e728d9d4c2f6.png&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>纯代码设置frp服务器</title>
       <link>https://iliu.org/3340.html</link>
-      <pubDate>Sun, 18 Oct 2020 07:27:04 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2020 07:27:04 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/3340.html</guid>
       <description>&lt;p&gt;以前老刘写过《&lt;a href=&#34;https://tunan.org/2918.html&#34;&gt;宝塔面板安装FRP内网穿透控制群晖&lt;/a&gt;》的文章，最近发现不知道是这个插件的作者不再开发了还是其他的原因，xeath开发的这个frp服务器插件已经在商店里找不到了。其实，这也没什么，直接用代码的方式部署也是可以的。&lt;/p&gt;&#xA;&lt;p&gt;SSH连接到VPS之后运行如下命令查看处理器架构，根据架构下载不同版本的frp&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;查看结果，如果是“X86_64“即可选择”amd64”，&lt;br&gt;&#xA;运行如下命令，根据架构不同，选择相应版本并进行下载，然后登陆frp的官网地址，现在最新的应该是0.34.1，所以，运行如下的命令：&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;然后解压，给文件换一个名字，进入frp目录&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;修改frps.ini文件&lt;/p&gt;</description>
     </item>
     <item>
       <title>nodecache开通了中国直连线路</title>
       <link>https://iliu.org/3283.html</link>
-      <pubDate>Sun, 11 Oct 2020 02:29:24 +0000</pubDate>
+      <pubDate>Sun, 11 Oct 2020 02:29:24 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/3283.html</guid>
       <description>&lt;p&gt;在以前的文章（&lt;a href=&#34;https://tunan.org/1679.html&#34;&gt;推荐一款国外CDN——Nodecache，注册即送1T流量&lt;/a&gt;）中介绍过nodecache这个CDN服务商，当时是注册送1T的流量，后来由于觉得其速度有点慢，有时候又不稳定，所以就一直没有，后来通过这篇文字，陆续有了写aff送的流量，差不多一个月9G的样子，要说用在我这个小博客上市绰绰有余了，但是由于怕跑路就一直也没有用。&lt;/p&gt;&#xA;&lt;p&gt;今天闲着没事，翻看自己以前的文字，发现了自己的这篇文章，于是，怀旧的登录上去看看，结果这个CDN服务商居然还没有跑路，哈哈！看了一下，里面的设置基本上和上海云盾的类似，有些还借鉴了又拍云的设置方式。又看了一下发现居然增加了中国直连线路。于是，我可耻的心动了。设置了一番，发现没有想想的那么美好，中国直连线路不是中国线路。&lt;/p&gt;&#xA;&lt;h2 id=&#34;设置成中国直连线路后的ping值&#34;&gt;设置成中国直连线路后的ping值&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/10/6213ab646eb588c.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;大概170左右，查了一下这个IP，是美国加利福尼亚的IP。不过实际用起来感觉还是挺流畅的。除了ping的值有点高以外。&lt;/p&gt;&#xA;&lt;h2 id=&#34;于是切换成亚太ip后&#34;&gt;于是切换成亚太IP后&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/10/be32cbd25dd47e4.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;ping值降到了60，但是不稳定，有超时的现象。&lt;/p&gt;&#xA;&lt;h2 id=&#34;里面的设置还是挺丰富的支持防护cc以及waf防火墙&#34;&gt;里面的设置还是挺丰富的，支持防护CC以及waf防火墙&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/10/fca569fbd8b732d.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>一款可以设置Microsoft Defender的辅助软件</title>
       <link>https://iliu.org/3279.html</link>
-      <pubDate>Sat, 10 Oct 2020 07:53:31 +0000</pubDate>
+      <pubDate>Sat, 10 Oct 2020 07:53:31 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/3279.html</guid>
       <description>&lt;p&gt;自从Windows 10推出以来，微软的Microsoft Defender已经可以作为一款合格的杀毒软件来使用了，但是微软为了平衡误杀和安全之间的关系，默认情况西安Microsoft Defender很多先进的技术都没有开启，比如对流氓软件pup的查杀等。要想开启高级功能就必须去组策略里进行调整，这一步对软件小白来说是真的费事。好消息来了，有大神开发出来了一款可以设置Microsoft Defender的辅助软件，不需要进组策略即可对Microsoft Defender进行调整。目前已经更新到了3.0.0.1版，坏消息是没有中文版。不过软件的设置很简单。看着本文的图片进行设置就行。或者设置成“HIGH”即可。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/10/964c67f993d670e.png&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;用于配置windows-10内置defender防病毒设置的实用程序它是一个便携式实用程序&#34;&gt;用于配置Windows 10内置Defender防病毒设置的实用程序.它是一个便携式实用程序&lt;/h2&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Version 3.0.0.0&lt;/p&gt;</description>
     </item>
     <item>
       <title>人教版五年级下册数学易错题集</title>
       <link>https://iliu.org/3197.html</link>
-      <pubDate>Sun, 28 Jun 2020 07:25:45 +0000</pubDate>
+      <pubDate>Sun, 28 Jun 2020 07:25:45 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/3197.html</guid>
       <description>&lt;p&gt;填空类（一）&lt;br&gt;&#xA;1．把 5 米长的绳子平均剪成 4 段，每段长（ ）米，每段是全长的（ ）。&lt;br&gt;&#xA;2．把 3kg 水果平均分给 4 个小朋友，每个小朋友分得这 3kg 水果的（ ），每&lt;br&gt;&#xA;个小朋友分到（ ）kg。&lt;br&gt;&#xA;3．王师傅 8 分钟制作了 5 个零件，他每分钟能制作（ ）个零件，制作一个&lt;br&gt;&#xA;零件要（ ）分钟&lt;br&gt;&#xA;4．把 5 米长的绳子剪去 1米，还剩下（ ）米。 5 米长的绳子剪去它的1/5还剩下（ ）米。&lt;br&gt;&#xA;5、6/8的分子加上 9，分母加（ ）分数的大小才不会变&lt;/p&gt;</description>
     </item>
     <item>
       <title>nodecache的服务条款很霸王啊</title>
       <link>https://iliu.org/2250.html</link>
-      <pubDate>Tue, 09 Jul 2019 08:47:39 +0000</pubDate>
+      <pubDate>Tue, 09 Jul 2019 08:47:39 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/2250.html</guid>
       <description>&lt;p&gt;nodecache是一款新出的cdn服务商，搜索引擎上关于它的资料很少，今天搜了半天也只是找到一个快照，是和某个国外主机论坛合作推广送50美元的文章，这篇文章是2019年1月左右。不过这个活动也早就停了。&lt;/p&gt;&#xA;&lt;p&gt;知道这个公司是看到缙哥哥分享的，说实话，目前用着来说还算可以，毕竟人数可能比较少，加速的节点是香港的，而且种种迹象表明，这是一个国人开办的公司，对中文支持那也就相当的好了。当时用着很满意，不过它的流量就送一个月，由于满意就想在试用一段时间，于是充了1美元，因为目前这个博客的流量很小，1美元也可以用好久了。&lt;/p&gt;&#xA;&lt;p&gt;充完了之后才发现推广链接还能送流量，首个用户是送5g，以后的用户送1g，跋涉者成功的推广了两个用户，所以账户中每个月是有6g的流量的，对于跋涉者来说，这个流量已经是足够了。于是就想把这个钱给退回来，虽然少，蚊子多了也是肉嘛。&lt;/p&gt;&#xA;&lt;p&gt;结果，网站里没有发现任何的退款链接，于是发工单询问。客服很快就有了回复。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;您好，根据服务条款，定价一项的规定：所有款项预付，不予退还。针对您账户的余额我们会为您保存12个月。在12个月内您可以随时登录账号使用本公司产品服务。以下是服务条款 链接https://www.nodecache.com/serviceTerm 请您知悉！&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>推荐几个本在再用的免费网盘</title>
       <link>https://iliu.org/1481.html</link>
-      <pubDate>Fri, 30 Sep 2011 03:22:16 +0000</pubDate>
+      <pubDate>Fri, 30 Sep 2011 03:22:16 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/1481.html</guid>
       <description>&lt;p&gt;笔记本还是05年买的，硬盘有点小 只有30G，本来已经淘汰了，不过开了小店以后，就拿到店内用了,硬盘太小，所以就找一些可以直接同步的网络硬盘来扩大电脑的容量。&lt;br&gt;&#xA;首先一个是微软的，叫做skydrive，地址：&lt;a href=&#34;http://skydrive.live.com/&#34;&gt;http://skydrive.live.com&lt;/a&gt;，优点是注册就给送25G，而且可以在线编辑office文档，如果你有一些文档是要由几个人来完成的话，用这个绝对没有错！缺点是微软没有发布同步工具，只能通过网页上传下载，不是很方便。&lt;br&gt;&#xA;第二个要推荐的是大名鼎鼎的DROPBOX，他是全球第一个做云储存的，也就是电脑和服务器端同步的方式储存数据，目前有上亿的用户，已经上市了，据说GOOGLE要收购这个公司，地址：&lt;a href=&#34;https://www.dropbox.com/&#34;&gt;https://www.dropbox.com/&lt;/a&gt;   优点：上传下载的速度很快，和国内的差不多，缺点是英文！&lt;br&gt;&#xA;第三个，国内的金山快盘，是国内最早做同步的网盘的，不多说，上地址：&lt;a href=&#34;http://www.kuaipan.cn/index.php?ac=account&amp;amp;op=register&amp;amp;channel=onsio3&#34;&gt;http://www.kuaipan.cn/&lt;/a&gt;优点：同步速度快，客户端小巧  缺点：单个文件限制在100m 初始5G，可以做任务达到15G&lt;/p&gt;&#xA;&lt;p&gt;第四个 雨林木风出的115网盘，地址：&lt;a href=&#34;http://115.com/invite/641da13&#34;&gt;http://www.115.com/&lt;/a&gt;  注册就有13g，单文件限制在1g，还是不错的&lt;/p&gt;&#xA;&lt;p&gt;第五个 华为出的数据银行 地址：30G的免费存储空间，推荐使用 地址：&lt;a href=&#34;http://www.dbank.com/inviter/13159631&#34;&gt;http://www.dbank.com/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>推荐使用邮政储蓄银行的信用卡</title>
       <link>https://iliu.org/1328.html</link>
-      <pubDate>Tue, 06 Sep 2011 09:30:47 +0000</pubDate>
+      <pubDate>Tue, 06 Sep 2011 09:30:47 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/1328.html</guid>
       <description>&lt;p&gt;照例翻开报纸，正介绍邮政储蓄的信用卡，看了以后发现，还确实不错！其特点为网点多、好还款、终生免年费、卡片遗失银行承担风险、自选多档期分期付款。&lt;/p&gt;&#xA;&lt;p&gt;网点多就不说了，可以说中国的银行网点最多的就是邮政了，很多偏远小镇，可以没有银行，但是是绝对有邮政，有邮政的地方就有邮政储蓄啊，呵呵&lt;/p&gt;&#xA;&lt;p&gt;什么好还款、什么多档期分期等等都无所谓，我觉得最实惠的莫过于终生免年费这个优势了，相对于国内大大小小的其他银行推出的免年费的条件，邮政银行的这个可谓是占尽优势。&lt;/p&gt;&#xA;&lt;p&gt;另外一个就是卡片遗失银行承担风险，这点好像国内的银行没有几家能做到，“客户的卡片遗失后主要第一时间拨打客服电话或登陆网上银行管事，则之后的风险由银行承担，也就是说你挂失后，再被消费的钱由银行买单，对金卡推出48小时失卡保障，也就是挂失前48小时被消费的钱也由银行买单！&lt;/p&gt;&#xA;&lt;p&gt;综上，邮政银行的信用卡的性价比还是不错的，值得推荐&lt;/p&gt;</description>
     </item>
     <item>
       <title>推荐一个很不错的德国免费空间kilu.de</title>
       <link>https://iliu.org/1282.html</link>
-      <pubDate>Sun, 04 Sep 2011 07:15:11 +0000</pubDate>
+      <pubDate>Sun, 04 Sep 2011 07:15:11 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/1282.html</guid>
       <description>&lt;p&gt;华彩生活一般不给亲们推荐免费空间，因为如果不稳定的话，用不了几天就挂了，让亲们的心血白白浪费，反而不美，但是今天华彩生活给大家推荐的这个德国的免费空间，大家可以放心的使用，只要没有违禁的内容，时间不是问题，稳定不是问题！&lt;/p&gt;</description>
     </item>
     <item>
       <title>女儿最喜欢的儿歌系列—好爸爸坏爸爸</title>
       <link>https://iliu.org/1259.html</link>
-      <pubDate>Thu, 01 Sep 2011 05:38:12 +0000</pubDate>
+      <pubDate>Thu, 01 Sep 2011 05:38:12 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/1259.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2019/08/1824c863dd7459.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;我有一个好爸爸&lt;br&gt;&#xA;爸爸 爸爸 爸爸 爸爸 好爸爸 好爸爸&lt;br&gt;&#xA;我有一个好爸爸&lt;br&gt;&#xA;做起饭来锵铛铛 锵铛铛&lt;br&gt;&#xA;洗起衣服嚓嚓嚓 嚓嚓嚓&lt;/p&gt;</description>
     </item>
     <item>
       <title>女儿最喜欢的动画片-三个和尚没水喝</title>
       <link>https://iliu.org/1149.html</link>
-      <pubDate>Fri, 05 Aug 2011 02:15:32 +0000</pubDate>
+      <pubDate>Fri, 05 Aug 2011 02:15:32 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/1149.html</guid>
       <description>&lt;p&gt;每次都要登录优酷看，转发到博客上来，就没那么麻烦了，呵呵&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://v.youku.com/v&#34;&gt;http://v.youku.com/v&lt;/a&gt;_show/id_XMzE5NDgwMA==.html&lt;/p&gt;</description>
     </item>
     <item>
       <title>中星九号升级后的处理办法</title>
       <link>https://iliu.org/400.html</link>
-      <pubDate>Fri, 08 Jan 2010 04:33:00 +0000</pubDate>
+      <pubDate>Fri, 08 Jan 2010 04:33:00 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/400.html</guid>
       <description>&lt;p&gt;中星九号在2010年元月4日开始加密播出了，这给山寨机顶盒带来了毁灭性的打击，收到的电视台从54个下降到了12个，而且大都是少数民族的语言。本来在12月份的时候也想搞个这玩意呢，不过，身在广电系统的老大说要加密了，不要买，才打消了念头，现在想来，幸亏没有买啊，如果买了的话，不白白浪费了100多白花花的人民币？从网上找了些解决的方法，希望给有这方面需求的人带来些帮助！&lt;/p&gt;</description>
     </item>
     <item>
       <title>完美解决godaddy免费空间广告条对wordpress后台的影响</title>
       <link>https://iliu.org/388.html</link>
-      <pubDate>Sun, 03 Jan 2010 13:09:22 +0000</pubDate>
+      <pubDate>Sun, 03 Jan 2010 13:09:22 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/388.html</guid>
       <description>&lt;p&gt;自从从godaddy搞了域名之后，一直对它提供的免费空间耿耿于怀，用也不是，不用又觉得可惜，难怪网上都说此空间是一个鸡肋。很多童鞋都把此空间做为图床来使用，只是我觉得，这么好的一个空间，10g，300g的流量，仅仅用做图床未免有些浪费，加之目前手里也没有什么像样的空间，先前一直在有pipni的空间，各方面还比较满意，就是速度差了些，后来又觉得byethost的空间也不错，可惜IP老被封，加上本次的整顿事件，越发不敢用了，毕竟被墙以后，再找空间也麻烦。所以想来想去，还是就用godaddy提供的这个免费的空间吧。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>介绍一个free.fr旗下的小空间chez.com</title>
       <link>https://iliu.org/221.html</link>
-      <pubDate>Sat, 19 Dec 2009 12:06:02 +0000</pubDate>
+      <pubDate>Sat, 19 Dec 2009 12:06:02 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/221.html</guid>
       <description>&lt;p&gt;free.fr旗下的小空间chez.com，之所以说是小空间，因为不知道空间的大小，速度还不错，稳定性应该也不错，其实这空间2001年就有了，支持php、mysql，但是不能绑定域名。有兴趣的可以去看看。&lt;/p&gt;&#xA;&lt;p&gt;申请地址：&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;http://www.chez.com&#34;&gt;http://www.chez.com&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;由于是法文，所以有些地方估计看不懂，baidu下攻略吧，应该是有的。&lt;/p&gt;&#xA;&lt;p&gt;如果你能看到图片，说明这空间还在！&lt;/p&gt;&#xA;&lt;p&gt;已经挂了，或者被和谐了，记得去年的时候还在，现在转到at.com上了，有兴趣可以继续申请&lt;/p&gt;</description>
     </item>
     <item>
       <title>推荐一个免费发短信的软件——天翼live</title>
       <link>https://iliu.org/190.html</link>
-      <pubDate>Wed, 16 Dec 2009 08:25:15 +0000</pubDate>
+      <pubDate>Wed, 16 Dec 2009 08:25:15 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/190.html</guid>
       <description>&lt;p&gt;由于用的是电信的手机，昨天收到了一条短信，大意是电信也推出了可以像QQ、msn等一样可以免费发送短信的客户端，并且每个月可以免费发送300条短信。经过确认证明不是所谓的骗子，就下载来使用。还算不错，每天可以发50条，每月发300条，都是免费的，可以同时给20个人发送。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>推荐——360安全卫士华彩生活定制版</title>
       <link>https://iliu.org/127.html</link>
-      <pubDate>Sat, 05 Dec 2009 06:32:17 +0000</pubDate>
+      <pubDate>Sat, 05 Dec 2009 06:32:17 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/127.html</guid>
       <description>&lt;p&gt;奇虎公司为了感谢鄙人对360安全卫士的杰出贡献，特发布了“华彩生活”版360安全卫士。&lt;br&gt;&#xA;该版本软件可以帮助你进行查杀流行木马、清除恶意软件、修补系统漏洞，全方位、实时地阻击潜在威胁！口碑极好，完全免费。界面截图如下：&lt;/p&gt;</description>
     </item>
     <item>
       <title>给大家再推荐一个杀毒软件——mcafee8.7i</title>
       <link>https://iliu.org/71.html</link>
-      <pubDate>Mon, 26 Oct 2009 13:04:31 +0000</pubDate>
+      <pubDate>Mon, 26 Oct 2009 13:04:31 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/71.html</guid>
       <description>&lt;p&gt;        记得上次给大家推荐过360杀毒正式版1.0，不知道大家有没有用？是不是感觉到不管是资源占用也好，还是查杀率也好都是挺不错的，本次华彩在给大家推荐一款杀毒软件，可以说与360相比，有过之而无不及。因为360毕竟是半路出家，不过是引擎还有病毒库都不是自己的东西，而我要给大家推荐的这个软件就是大名鼎鼎的MCAFEE杀毒软件。&lt;/p&gt;</description>
     </item>
     <item>
       <title>治疗近视眼的速效法</title>
       <link>https://iliu.org/1144.html</link>
-      <pubDate>Tue, 20 Oct 2009 01:26:19 +0000</pubDate>
+      <pubDate>Tue, 20 Oct 2009 01:26:19 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/1144.html</guid>
       <description>&lt;p&gt; &lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     <item>
       <title>中国平安 – 平安车险报价体验赢3888元加油卡</title>
       <link>https://iliu.org/1141.html</link>
-      <pubDate>Sun, 18 Oct 2009 11:40:10 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2009 11:40:10 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/1141.html</guid>
       <description>&lt;p&gt;中国平安车险的最新有奖活动，按照车险投保平台页面指示提交报价即可获得“赢取188-3888元不等油卡”的抽奖机会（无需支付款项，到提示上门收费那页，选暂存离开，进入你的会员帐户即可，信息资料一定真实，可能会打电话联系你核对，虚假、错误信息取消获奖资格！），如果您是北京、上海、深圳平安车险客户还能获得&lt;!-- raw HTML omitted --&gt;免费&lt;!-- raw HTML omitted --&gt;非事故道路救援服务！一等奖1名：获3888元加油卡一张，二等奖3名：每名获888元加油卡一张，三等奖10名：每名获188元加油卡一张，该&lt;!-- raw HTML omitted --&gt;有奖活动&lt;!-- raw HTML omitted --&gt;截止到2009年11月4日。&lt;/p&gt;&#xA;&lt;p&gt;网址：&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;http://www.pingan.com/campaign/channels/pingan/car-quote/index.jsp&#34;&gt;http://www.pingan.com/campaign/channels/pingan/car-quote/index.jsp&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>推荐一本书——用脑拿订单</title>
       <link>https://iliu.org/1139.html</link>
-      <pubDate>Thu, 15 Oct 2009 13:04:32 +0000</pubDate>
+      <pubDate>Thu, 15 Oct 2009 13:04:32 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/1139.html</guid>
       <description>&lt;p&gt;用脑拿订单下载&lt;/p&gt;&#xA;&lt;p&gt;很不错的一本书，适合销售新手老手观看&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://down.qiannao.com/space/file/ewader/-4e0a-4f20-5206-4eab/-7528-8111-62ff-8ba2-5355-ff1a-9500-552e-4e2d-7684-5168-8111-535a-5f08.pdf/.page&#34;&gt;下载地址&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>推荐电信旗下可免费发短信的2G免费手机邮箱</title>
       <link>https://iliu.org/1135.html</link>
-      <pubDate>Mon, 05 Oct 2009 12:52:28 +0000</pubDate>
+      <pubDate>Mon, 05 Oct 2009 12:52:28 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/1135.html</guid>
       <description>&lt;p&gt;        189邮箱是由中国电信推出的免费邮箱服务，&lt;a href=&#34;mailto:yourname@189.cn&#34;&gt;yourname@189.cn&lt;/a&gt;域名后缀，类似中国移动的139邮箱，仅限中国电信用户使用，每月可向中国电信手机用户免费发短信50条，支持邮件到达自动短信通知，长短信可收取邮件全文，支持短信直接回复邮件，保证您在第一时间处理邮件，自由设置通知时间段，保证休息时间不被打扰。189免费邮箱具有2G容量，附件最大20M，支持POP3、SMTP、WAP、Web收发邮件，还提供500M免费网络硬盘，单个文件限50M以内。华彩试了一下，189邮箱速度不错，联通访问速度也很好！&lt;/p&gt;&#xA;&lt;p&gt;网址：&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;http://mail.189.cn&#34;&gt;http://mail.189.cn&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hostse免费提供1GB无广告空间&#43;10Mysql/LayeredPanel</title>
       <link>https://iliu.org/331.html</link>
-      <pubDate>Sat, 31 Jan 2009 13:24:00 +0000</pubDate>
+      <pubDate>Sat, 31 Jan 2009 13:24:00 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/331.html</guid>
       <description>&lt;p&gt;1000MB（1GB）免费空间无任何广告支持PHP+Mysql数据库10个数据库支持绑定顶级域名免费提供二级域名25000宽带支持FTP上传LayeredPanel 控制面板申请地址：&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;http://www.hostse.com/register.jsp&#34;&gt;http://www.hostse.com/register.jsp&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;br&gt;&#xA;演示地址：&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;http://ewader.hostse.com&#34;&gt;http://ewader.hostse.com&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>

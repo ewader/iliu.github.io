@@ -6,12 +6,14 @@
     <description>Recent content in Kde on 老刘博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
+    <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    <webMaster>ewader@qq.com (老刘)</webMaster>
     <lastBuildDate>Sun, 18 Jan 2026 16:42:36 +0800</lastBuildDate>
     <atom:link href="https://iliu.org/tags/kde/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>linux下使用kde桌面，自动亮度失效解决办法</title>
       <link>https://iliu.org/posts/use-linux-kde-autolight/</link>
-      <pubDate>Sun, 18 Jan 2026 16:42:36 +0800</pubDate>
+      <pubDate>Sun, 18 Jan 2026 16:42:36 +0800</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/posts/use-linux-kde-autolight/</guid>
       <description>&lt;p&gt;之前一直用的桌面是gnome,也用的挺习惯，gnome很简洁，通过插件系统可以实现很多功能。前几天博客群里有聊到KDE桌面的问题，我安装后，体验了一下，也非常不错，特别是日历系统，相当的惊艳。 原生支持农历，还有中国的节假日，也是非常准确的。目前最新版的linux系统，不知道怎么回事，我的屏幕自动亮度失效了，在早些时候的版本里是可以的。在gnome下，有个插件可以解决这个问题，但是kde下没有类似的插件。我问了一下AI，它给我给出了一个方案，我使用了以后，发现非常完美的解决了我的问题。&lt;/p&gt;&#xA;&lt;h4 id=&#34;核心痛点&#34;&gt;核心痛点&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;硬件环境：Fedora 43 / KDE Plasma 6 (Wayland)&lt;/li&gt;&#xA;&lt;li&gt;问题：系统内核可以识别环境光传感器（ALS），但 KDE 系统设置中没有自动亮度选项。&lt;/li&gt;&#xA;&lt;li&gt;诉求：保留 KDE 完美的日历体验，同时实现亮度的平滑、自动调节。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;第一步确认硬件传感器是否工作&#34;&gt;第一步：确认硬件传感器是否工作&lt;/h4&gt;&#xA;&lt;p&gt;在折腾软件前，首先要确认 Linux 内核是否能读取到传感器数值。安装 iio-sensor-proxy 并运行测试：&lt;/p&gt;</description>
     </item>

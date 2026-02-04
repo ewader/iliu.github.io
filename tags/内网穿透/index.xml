@@ -6,19 +6,21 @@
     <description>Recent content in 内网穿透 on 老刘博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
+    <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    <webMaster>ewader@qq.com (老刘)</webMaster>
     <lastBuildDate>Sun, 12 Nov 2023 21:19:15 +0800</lastBuildDate>
     <atom:link href="https://iliu.org/tags/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>在群晖中使用tailscale实现内网穿透</title>
       <link>https://iliu.org/posts/using-tailscale-to-achieve-intranet-penetration-in-synology/</link>
-      <pubDate>Sun, 12 Nov 2023 21:19:15 +0800</pubDate>
+      <pubDate>Sun, 12 Nov 2023 21:19:15 +0800</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/posts/using-tailscale-to-achieve-intranet-penetration-in-synology/</guid>
       <description>&lt;p&gt;在远程连接群晖的实践中，老刘一切介绍过&lt;a href=&#34;https://iliu.org/3356.html&#34;&gt;zerotier&lt;/a&gt;和&lt;a href=&#34;https://iliu.org/3997.html&#34;&gt;IPv6&lt;/a&gt;。但是实际的使用过程中，zerotier有时候握手的速度很慢，而且配置起来比较麻烦，IPv6很好，速度也快，但是有些环境中还只有IPv4，直到我听别人介绍到tailscale这个软件。它的工作原理其实和zerotier差不多，但是不需要什么复杂的设置，直接注册、登录，同一个账号的所有设备都连接到一起了。&lt;/p&gt;&#xA;&lt;h2 id=&#34;注册tailscale&#34;&gt;注册tailscale&lt;/h2&gt;&#xA;&lt;p&gt;百度直接搜，或者打看&lt;a href=&#34;https://www.tailscale.com/&#34;&gt;tailscale&lt;/a&gt;官方网站。注册就行，不过它不支持自由注册，需要用Google、apple、或者微软的outlook账号注册。&lt;/p&gt;&#xA;&lt;h2 id=&#34;下载tailscale&#34;&gt;下载tailscale&lt;/h2&gt;&#xA;&lt;p&gt;网页的右上角，有个downloads，点击就可以了。里面有常用的Windows、Linux等的客户端，直接点击下载相应的客户端，并安装。安装后登录，然后在个人中心里，系统自动给你分配了一个ip地址，如果你要了解某个设备，直接在浏览器里打开那个ip地址就好了。&lt;/p&gt;&#xA;&lt;p&gt;如果你的系统没有在常用的客户端页面，可以点击&lt;a href=&#34;https://pkgs.tailscale.com/stable/#spks&#34;&gt;这里&lt;/a&gt;，会进入一个所有的客户端的页面，找到你的系统下载即可。&lt;/p&gt;&#xA;&lt;h3 id=&#34;群晖中安装&#34;&gt;群晖中安装&lt;/h3&gt;&#xA;&lt;p&gt;点击我上面说的那个连接，然后找到群晖的客户端。根据你群晖的系统选。如果你群晖是DSM6就选6，DSM7就选7，不要选错了。下载之后进入群晖的后台，进入套件中心，点击手动安装。&lt;img src=&#34;https://iliu.org/tupian/qunhui-1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;安装的时候DSM会有一些权限的提示，选择允许就行了。安装后打开套件，点==connect==那个黑色的按钮，登录你的账号就可以了。&lt;/p&gt;&#xA;&lt;h3 id=&#34;linux里安装与使用&#34;&gt;Linux里安装与使用&lt;/h3&gt;&#xA;&lt;p&gt;也是选择合适系统的客户端，下载安装，如果你用的Arch Linux系列，可以直接用命令安装：&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;yay tailscale&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;安装完之后，和windows下不同的是，它没有一个UI，需要你在命令里进行登录。 首先，运行tailscale：&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo systemctl start tailscaled&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;然后登录：&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo tailscale login&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;会给你网址，点击这个网址，用你的账号登录即可。&lt;/p&gt;</description>
     </item>
     <item>
       <title>纯代码设置frp服务器</title>
       <link>https://iliu.org/3340.html</link>
-      <pubDate>Sun, 18 Oct 2020 07:27:04 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2020 07:27:04 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/3340.html</guid>
       <description>&lt;p&gt;以前老刘写过《&lt;a href=&#34;https://tunan.org/2918.html&#34;&gt;宝塔面板安装FRP内网穿透控制群晖&lt;/a&gt;》的文章，最近发现不知道是这个插件的作者不再开发了还是其他的原因，xeath开发的这个frp服务器插件已经在商店里找不到了。其实，这也没什么，直接用代码的方式部署也是可以的。&lt;/p&gt;&#xA;&lt;p&gt;SSH连接到VPS之后运行如下命令查看处理器架构，根据架构下载不同版本的frp&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;查看结果，如果是“X86_64“即可选择”amd64”，&lt;br&gt;&#xA;运行如下命令，根据架构不同，选择相应版本并进行下载，然后登陆frp的官网地址，现在最新的应该是0.34.1，所以，运行如下的命令：&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;然后解压，给文件换一个名字，进入frp目录&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;修改frps.ini文件&lt;/p&gt;</description>
     </item>

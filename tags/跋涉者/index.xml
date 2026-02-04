@@ -6,19 +6,21 @@
     <description>Recent content in 跋涉者 on 老刘博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
+    <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    <webMaster>ewader@qq.com (老刘)</webMaster>
     <lastBuildDate>Sat, 18 Jan 2020 08:20:51 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/%E8%B7%8B%E6%B6%89%E8%80%85/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>博客改名字了</title>
       <link>https://iliu.org/3018.html</link>
-      <pubDate>Sat, 18 Jan 2020 08:20:51 +0000</pubDate>
+      <pubDate>Sat, 18 Jan 2020 08:20:51 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/3018.html</guid>
       <description>&lt;p&gt;全年5月份左右开始把个人博客独立出来，当时也不知道起个什么名字好，就姑且叫做跋涉者了，半年过去了，发现也没有什么好跋涉的。所记录的也仅仅是如流水的匆匆岁月。&lt;/p&gt;&#xA;&lt;p&gt;因此，决定把博客的名字改成流金岁月了，流通刘，意思是记录老刘经历的那些事。&lt;/p&gt;</description>
     </item>
     <item>
       <title>7b2主题每日签到不刷新的解决办法</title>
       <link>https://iliu.org/1710.html</link>
-      <pubDate>Wed, 12 Jun 2019 02:04:14 +0000</pubDate>
+      <pubDate>Wed, 12 Jun 2019 02:04:14 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/1710.html</guid>
       <description>&lt;p&gt;前一段时间忽然发现跋涉者另外一个网站&lt;!-- raw HTML omitted --&gt;镜缘轩&lt;!-- raw HTML omitted --&gt;上每日签到抽取积分的那个选项不能自动刷新了，每天都是显示同一样的数字，然后看明月登楼的一个网站，也是有这样的问题，咨询主题的作者之后，也没有能排查到问题，最后作者说反正新版就要出来了，不行到时候直接上新版吧。&lt;/p&gt;&#xA;&lt;p&gt;后来陆续发现，不但每日签到抽取积分有问题，另外还有&lt;!-- raw HTML omitted --&gt;发布冒泡没有积分，发文章没有积分，别人回复收不到消息 海报不能下载、以及别人购买了文章等也没有通知等问题，这下就问题有点大了，签到那个还无所谓，后面出现的问题有点烦人。但是跋涉者这个网站是没有任何问题的。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;当时想是不是因为空间配置、缓存等等的原因造成的，于是把网站弄到一个空间，还是一个有问题，一个没问题。适逢一个群里的朋友让测试评论邮件回复的问题，因为这个主题也没有评论邮件回复，于是咨询了一下，不想还引出诸多大佬们说我设置的问题，他们使用就很正常云云。其实这个问题根本不是跋涉者的问题，因为我询问过主题的作者，作者答复&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>

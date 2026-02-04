@@ -6,12 +6,14 @@
     <description>Recent content in 数码产品 on 老刘博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
+    <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    <webMaster>ewader@qq.com (老刘)</webMaster>
     <lastBuildDate>Thu, 18 Dec 2025 11:51:57 +0800</lastBuildDate>
     <atom:link href="https://iliu.org/tags/%E6%95%B0%E7%A0%81%E4%BA%A7%E5%93%81/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>中年人的 NAS：稳定了六年，也会老</title>
       <link>https://iliu.org/posts/from-rock-solid-stability-to-showing-its-age/</link>
-      <pubDate>Thu, 18 Dec 2025 11:51:57 +0800</pubDate>
+      <pubDate>Thu, 18 Dec 2025 11:51:57 +0800</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/posts/from-rock-solid-stability-to-showing-its-age/</guid>
       <description>&lt;p&gt;我现在用的 NAS 是群晖 DS220+，2019 年买的。&lt;/p&gt;&#xA;&lt;p&gt;当时正在做一个叫“镜缘轩”的眼镜商城，数据安全这件事当时觉得很重要：订单、客户信息、商品资料，一旦丢了，就很麻烦。也正是在那个阶段，我把一直用的暴风酷播云换掉，开始用白群晖，想着至少在数据这件事上，更安全。&#xA;这一眨眼，就是六年。&#xA;&lt;img src=&#34;https://s2.l22.org/images/1766030134_alex-cheung-gQdPafWDSyk-unsplash.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;“镜缘轩”最终没做成，少许的订单和客户信息，其实也根本不值得上这个东西，为了项目买的东西也算一个伪需求。项目没了，NAS 却留下来了，像一件还在运转的旧工具，默默地继续工作。&lt;/p&gt;&#xA;&lt;p&gt;不得不承认，群晖这东西确实稳。&#xA;这六年里，它几乎没让我操过心，一直兢兢业业地跑着，放在角落里，存在感低到快被我忘了。&#xA;直到今年。&lt;/p&gt;&#xA;&lt;p&gt;今年 3 月，先是 UPS 坏了。&#xA;我店里这边的电是物业管的，需要到物业充电卡，电表里还有20度电的时候，会自动断电，提醒你去充电卡，物业是方便了，倒霉的是业主，加上写字楼变压器又出过一次故障，几次猝不及防的断电叠加在一起，一块硬盘开始报错，文件系统怎么修都修不好，我在存储池里卸载也卸载不掉。&#xA;最后只能换了一块新硬盘，问题才算真正解决。&lt;/p&gt;&#xA;&lt;p&gt;再后来，DSM 页面打不开了。&#xA;浏览器访问管理地址，提示“提供的服务不存在”之类的错误。那种感觉很微妙——不是硬件坏了，不是数据丢了，而是你突然失去了对设备的控制权。&#xA;最终通过重置系统，这个问题消失了。过程不复杂，但那种“怎么会这样”的疑惑，却一直留着。&lt;/p&gt;</description>
     </item>

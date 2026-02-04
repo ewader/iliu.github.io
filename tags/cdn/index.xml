@@ -6,47 +6,49 @@
     <description>Recent content in Cdn on 老刘博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
+    <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    <webMaster>ewader@qq.com (老刘)</webMaster>
     <lastBuildDate>Mon, 21 Dec 2020 07:15:11 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/cdn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>nginx使用CDN后获取用户真实IP的方法</title>
       <link>https://iliu.org/3486.html</link>
-      <pubDate>Mon, 21 Dec 2020 07:15:11 +0000</pubDate>
+      <pubDate>Mon, 21 Dec 2020 07:15:11 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/3486.html</guid>
       <description>&lt;p&gt;老刘前两天弄了个racknerd的便宜的vps，准备把一个网站放到这个vps上，再顺便把篱落的这台VPS好好的整理一下，当时装系统的时候装的是centos8，可惜这个系统明年官方就不再支持了，所以，长痛不如短痛，早晚都要换系统，不如早换。于是先把博客也迁到了这个rn的空间里。顺便又给加了个CF的套，加上之后，加的时候是扫了几个本地延迟最低的IP，直接分联通、移动、电信把这几个ip分别解析了。经过这么几天的试用，老刘觉得加了CF的速度还算差强人意。准备一直用下去。&lt;/p&gt;&#xA;&lt;p&gt;但是加了CDN后，有一个问题，那就是不管日志里还是wordpress后台的评论里的IP都是cf的IP，无法获取用户的真实IP，这对管理网站有点麻烦，比如受到攻击或者想封一些发垃圾邮件IP的地址的时候，就没有办法。老刘记得以前看过这方面的文章。于是找了一下，把经过记录下来。&lt;/p&gt;&#xA;&lt;p&gt;阿帕奇老刘好久没有用过了，这里只说nginx的方面，从网上的教程来看，可以分成两种。老刘把两种方法的说说&lt;/p&gt;&#xA;&lt;h2 class=&#34;wp-block-heading&#34; id=&#34;一利用ngx_http_realip_module模块获取用户真实ip&#34;&gt;一、利用ngx_http_realip_module模块获取用户真实IP&lt;/h2&gt;&#xA;&lt;p&gt;由于老刘用的是oneinstack一键安装包，所以之说这个方法，lnmp一键安装包也可以用类似的方面来搞定。宝塔面板的话，就很简单，装那款免费的防火墙，里面就是cdn的设置，设置完了之后就OK了，不得不说还是可视化面板方便。好了，闲话少说，正式开始。&lt;/p&gt;&#xA;&lt;p&gt;首先通过nginx -V我们发现默认编译的nginx并不会安装ngx_http_realip_module模块，我们需要重新编译nginx使其载入这个功能模块。&lt;/p&gt;&#xA;&lt;p&gt;这里我们直接利用oneinstack的升级脚本来完成，这样做，一是很简单，二是一般不会出错，很适合初学者使用，第三，就是以后你升级nginx的话，也能一劳永逸。&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2021/01/3c4e83f775536ad.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>nodecache开通了中国直连线路</title>
       <link>https://iliu.org/3283.html</link>
-      <pubDate>Sun, 11 Oct 2020 02:29:24 +0000</pubDate>
+      <pubDate>Sun, 11 Oct 2020 02:29:24 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/3283.html</guid>
       <description>&lt;p&gt;在以前的文章（&lt;a href=&#34;https://tunan.org/1679.html&#34;&gt;推荐一款国外CDN——Nodecache，注册即送1T流量&lt;/a&gt;）中介绍过nodecache这个CDN服务商，当时是注册送1T的流量，后来由于觉得其速度有点慢，有时候又不稳定，所以就一直没有，后来通过这篇文字，陆续有了写aff送的流量，差不多一个月9G的样子，要说用在我这个小博客上市绰绰有余了，但是由于怕跑路就一直也没有用。&lt;/p&gt;&#xA;&lt;p&gt;今天闲着没事，翻看自己以前的文字，发现了自己的这篇文章，于是，怀旧的登录上去看看，结果这个CDN服务商居然还没有跑路，哈哈！看了一下，里面的设置基本上和上海云盾的类似，有些还借鉴了又拍云的设置方式。又看了一下发现居然增加了中国直连线路。于是，我可耻的心动了。设置了一番，发现没有想想的那么美好，中国直连线路不是中国线路。&lt;/p&gt;&#xA;&lt;h2 id=&#34;设置成中国直连线路后的ping值&#34;&gt;设置成中国直连线路后的ping值&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/10/6213ab646eb588c.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;大概170左右，查了一下这个IP，是美国加利福尼亚的IP。不过实际用起来感觉还是挺流畅的。除了ping的值有点高以外。&lt;/p&gt;&#xA;&lt;h2 id=&#34;于是切换成亚太ip后&#34;&gt;于是切换成亚太IP后&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/10/be32cbd25dd47e4.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;ping值降到了60，但是不稳定，有超时的现象。&lt;/p&gt;&#xA;&lt;h2 id=&#34;里面的设置还是挺丰富的支持防护cc以及waf防火墙&#34;&gt;里面的设置还是挺丰富的，支持防护CC以及waf防火墙&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/10/fca569fbd8b732d.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>nodecache的服务条款很霸王啊</title>
       <link>https://iliu.org/2250.html</link>
-      <pubDate>Tue, 09 Jul 2019 08:47:39 +0000</pubDate>
+      <pubDate>Tue, 09 Jul 2019 08:47:39 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/2250.html</guid>
       <description>&lt;p&gt;nodecache是一款新出的cdn服务商，搜索引擎上关于它的资料很少，今天搜了半天也只是找到一个快照，是和某个国外主机论坛合作推广送50美元的文章，这篇文章是2019年1月左右。不过这个活动也早就停了。&lt;/p&gt;&#xA;&lt;p&gt;知道这个公司是看到缙哥哥分享的，说实话，目前用着来说还算可以，毕竟人数可能比较少，加速的节点是香港的，而且种种迹象表明，这是一个国人开办的公司，对中文支持那也就相当的好了。当时用着很满意，不过它的流量就送一个月，由于满意就想在试用一段时间，于是充了1美元，因为目前这个博客的流量很小，1美元也可以用好久了。&lt;/p&gt;&#xA;&lt;p&gt;充完了之后才发现推广链接还能送流量，首个用户是送5g，以后的用户送1g，跋涉者成功的推广了两个用户，所以账户中每个月是有6g的流量的，对于跋涉者来说，这个流量已经是足够了。于是就想把这个钱给退回来，虽然少，蚊子多了也是肉嘛。&lt;/p&gt;&#xA;&lt;p&gt;结果，网站里没有发现任何的退款链接，于是发工单询问。客服很快就有了回复。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;您好，根据服务条款，定价一项的规定：所有款项预付，不予退还。针对您账户的余额我们会为您保存12个月。在12个月内您可以随时登录账号使用本公司产品服务。以下是服务条款 链接https://www.nodecache.com/serviceTerm 请您知悉！&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>利用cloudFlare的边缘计算workers实现外链转内链跳转</title>
       <link>https://iliu.org/2248.html</link>
-      <pubDate>Tue, 09 Jul 2019 01:20:11 +0000</pubDate>
+      <pubDate>Tue, 09 Jul 2019 01:20:11 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/2248.html</guid>
       <description>&lt;p&gt;跋涉者曾经分享过一篇7b2主题外链跳转的文章，那篇文章实现的原理是在自己服务器里增加一个跳转的页面代码。&lt;/p&gt;&#xA;&lt;p&gt;[zrz_insert_post id=1656]&lt;/p&gt;&#xA;&lt;p&gt;不过今天看张戈大神的一篇文章&lt;!-- raw HTML omitted --&gt;CloudFlare边缘计算Workers尝鲜初探：博客跳转中间页&lt;!-- raw HTML omitted --&gt;。这篇文章谈到可以把这个跳转代码保存到cloudFlare的边缘计算workers中，从而让跳转可以在CDN里实现，显然，这样会减轻服务器计算的压力。对小水管的博客来说有一定的使用价值。&lt;/p&gt;&#xA;&lt;h2 id=&#34;首先你的网站要使用cloudflare这个cdn加速&#34;&gt;首先，你的网站要使用cloudFlare这个cdn加速。&lt;/h2&gt;&#xA;&lt;p&gt;由于国内的网络情况，直接使用往往比较卡，不过好在张戈大神折腾出了另外一个套路，使用后感觉还不错。有兴趣的朋友可以去他的网站上参考。本文不做详细的叙述。&lt;/p&gt;&#xA;&lt;h2 id=&#34;第二把代码添加到cloudflare的边缘计算workers中&#34;&gt;第二，把代码添加到cloudFlare的边缘计算workers中&lt;/h2&gt;&#xA;&lt;p&gt;步骤如下：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;!-- raw HTML omitted --&gt;打开CF域名控制面板，如图1点击切换到Workers选项卡；&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;!-- raw HTML omitted --&gt;点击【Launch Editor】按钮进入Workers编辑界面后，点击【Add script】输入脚本名称并保存，如图：&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>推荐一款国外CDN——Nodecache，注册即送1T流量</title>
       <link>https://iliu.org/1679.html</link>
-      <pubDate>Mon, 03 Jun 2019 02:09:27 +0000</pubDate>
+      <pubDate>Mon, 03 Jun 2019 02:09:27 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/1679.html</guid>
       <description>&lt;p&gt;最新消息，只要邀请一个人，就能永久每月5G的流量，还是不错的&lt;/p&gt;&#xA;&lt;p&gt;国内没有备案的站长最头疼的无非是不能使用国内诸多的cdn加速以及隐藏真实IP地址，能用的也就国外的cloudflare,但是这个cdn服务商有不少ip被封了，没有被封的有时候抽风起来，速度又特别的慢，现在国外又新出了一款Nodecache的cdn，由于是新出的，加速的速度不错，本站目前就是用这个加速的，现在做活动，点击如下地址注册，即送1T的流量，如果非邀请注册，也就是自己注册的话，直送500G的流量。地址如下：&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Nodecache注册&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;注册后进入后台，慢慢的熟悉感，这个cdn的界面和又拍云的非常的相似&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>上海云盾CDN简要设置指南</title>
       <link>https://iliu.org/1653.html</link>
-      <pubDate>Sun, 26 May 2019 02:29:32 +0000</pubDate>
+      <pubDate>Sun, 26 May 2019 02:29:32 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/1653.html</guid>
       <description>&lt;p&gt;在免费cdn市场上，广大站长所使用的一般是又拍云cdn，360网站加速，上海云盾cdn以及腾讯云cdn，笔者以前也是使用的又拍云cdn,可能是和又拍云犯冲又或者是自己设置的不对，网站总出现这样那样的问题，后来把cdn转移到了上海云顿，网站之前的问题就没有再出现，于是就一直用了下去，当时觉得上海云盾的设置很简单，昨天，青山绿水博客的的博主小朋友问我上海云盾的设置小技巧，说实话真没有啥技巧，就把自己的一些设置弄出来，可能还有更多优化的地方，欢迎指正。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>

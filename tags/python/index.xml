@@ -6,26 +6,28 @@
     <description>Recent content in Python on 老刘博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
+    <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    <webMaster>ewader@qq.com (老刘)</webMaster>
     <lastBuildDate>Fri, 14 Jan 2022 09:34:09 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Django部署在debian11服务器</title>
       <link>https://iliu.org/4029.html</link>
-      <pubDate>Fri, 14 Jan 2022 09:34:09 +0000</pubDate>
+      <pubDate>Fri, 14 Jan 2022 09:34:09 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/4029.html</guid>
       <description>&lt;p&gt;Python加Django开发网页程序真的很方便，连我这个菜鸟看看教程之类的也能写出来程序。本地测试完了之后，想在服务器上跑跑看，结果发现，要发布到服务器端，可是比PHP程序要麻烦的多，从昨天下午就开始看相关的教程，后来在宝塔面板下部署成功了，但是我不想用宝塔面板，于是继续折腾的道路，经过一天的折腾，重装了好几次测试的服务器，终于算是部署成功了，虽然只是一个测试的项目，但是总算又迈出去了一步不是。项目采用nginx+uwsgi+django。服务器端采用的是debian11。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;h2 class=&#34;wp-block-heading&#34; id=&#34;在服务器安装python3&#34;&gt;在服务器安装python3&lt;/h2&gt;&#xA;&lt;p&gt;由于debian11本身带有3.9.2版本的，所以，这里就不安装了。直接在data文件夹里建立一个虚拟目录。&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;上传本地的项目到data&lt;br&gt;&#xA;在与manage.py同级目录下建立一个新文件。uwsgi.ini&lt;/p&gt;</description>
     </item>
     <item>
       <title>python开发web程序，最好还是在Linux下</title>
       <link>https://iliu.org/3947.html</link>
-      <pubDate>Tue, 14 Dec 2021 12:57:17 +0000</pubDate>
+      <pubDate>Tue, 14 Dec 2021 12:57:17 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/3947.html</guid>
       <description>&lt;p&gt;看了一些python教程，很多都是在windows下进行的开发，由于老刘对linux还算是有一丢丢的了解，所以从开始就在ubuntu下进行。前两天由于要在windows下用电脑，用完之后懒得重启，由于win10里也配置好了python的开发环境，所以就在win下写了一些代码。&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;写完之后，浏览器打开显示404错误，小心的查代码，也找不到错误的地方，明明有这个网页的模板，就是显示404，折腾了1个多小时。也每发现错误之处。后来实在是烦躁，干脆不搞了。&lt;/p&gt;&#xA;&lt;p&gt;隔了一天，进入ubuntu，浏览器打开，还是显示404，这点没错，说明程序确实有问题，但是浏览器里给出了错误出在那一个文件，那一行。看了一下是把模板里的一个路由users写成了user了，然后就找不到user这个页面。就是这么点错误，在win下就是不给你详细的出错信息。&lt;/p&gt;&#xA;&lt;p&gt;后来看了一下windows的文档，在里面也明确的说，开发python的web程序，建议使用linux。所以，新手朋友如果想学python，不妨先熟悉一下LINUX。其实也是蛮简单的。磨刀不误砍柴工。&lt;/p&gt;</description>
     </item>
     <item>
       <title>用input和字典初步实现我的一点小想法</title>
       <link>https://iliu.org/3929.html</link>
-      <pubDate>Sat, 30 Oct 2021 04:28:51 +0000</pubDate>
+      <pubDate>Sat, 30 Oct 2021 04:28:51 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/3929.html</guid>
       <description>&lt;p&gt;从决心要学Python开始，到现在差不多一周的时间了吧，买了一本《Python编程，从入门到实践》的书，目前看到了第九章，函数篇。&lt;/p&gt;&#xA;&lt;p&gt;通过上面8章的学习，基本上有了实现我那个小项目的想法。今天根据前八章的知识，初步用input函数，实现了用特殊关键字的查询。继续加油。&lt;br&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt; &lt;/p&gt;</description>
     </item>

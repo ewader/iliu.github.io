@@ -6,19 +6,21 @@
     <description>Recent content in Godaddy免费空间 on 老刘博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
+    <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    <webMaster>ewader@qq.com (老刘)</webMaster>
     <lastBuildDate>Thu, 28 Oct 2010 06:03:38 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/godaddy%E5%85%8D%E8%B4%B9%E7%A9%BA%E9%97%B4/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>只需三步，让你的wordpress在godaddy免费空间上完美呈现</title>
       <link>https://iliu.org/950.html</link>
-      <pubDate>Thu, 28 Oct 2010 06:03:38 +0000</pubDate>
+      <pubDate>Thu, 28 Oct 2010 06:03:38 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/950.html</guid>
       <description>&lt;p&gt;以前本站有一篇文章，说是解决godaddy免费空间广告条对wordpress后台的影响，当时是采用第三方软件来实现的，但是到底有没有一种方法，能让不借用第三方软件来实现呢，答案是肯定的。而且很简单，只需要三步。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;1.隐藏前台页面广告&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;打开主题文件中的“style.css”文件，在文件最后加上如下这段代码：&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;#conash3D0 {height:0px; top:-1px;}&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;原理：使用css样式把广告上移，移到显示页面以外，谁都看不到了，实际上并没有去掉广告代码，只是“隐藏”而已**，K号的可能性比较小，但是有一定的危险，到底用不用再你。**&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>完美解决godaddy免费空间广告条对wordpress后台的影响</title>
       <link>https://iliu.org/388.html</link>
-      <pubDate>Sun, 03 Jan 2010 13:09:22 +0000</pubDate>
+      <pubDate>Sun, 03 Jan 2010 13:09:22 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/388.html</guid>
       <description>&lt;p&gt;自从从godaddy搞了域名之后，一直对它提供的免费空间耿耿于怀，用也不是，不用又觉得可惜，难怪网上都说此空间是一个鸡肋。很多童鞋都把此空间做为图床来使用，只是我觉得，这么好的一个空间，10g，300g的流量，仅仅用做图床未免有些浪费，加之目前手里也没有什么像样的空间，先前一直在有pipni的空间，各方面还比较满意，就是速度差了些，后来又觉得byethost的空间也不错，可惜IP老被封，加上本次的整顿事件，越发不敢用了，毕竟被墙以后，再找空间也麻烦。所以想来想去，还是就用godaddy提供的这个免费的空间吧。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>

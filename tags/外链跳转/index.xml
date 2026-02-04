@@ -6,12 +6,14 @@
     <description>Recent content in 外链跳转 on 老刘博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
+    <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    <webMaster>ewader@qq.com (老刘)</webMaster>
     <lastBuildDate>Tue, 09 Jul 2019 01:20:11 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/%E5%A4%96%E9%93%BE%E8%B7%B3%E8%BD%AC/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>利用cloudFlare的边缘计算workers实现外链转内链跳转</title>
       <link>https://iliu.org/2248.html</link>
-      <pubDate>Tue, 09 Jul 2019 01:20:11 +0000</pubDate>
+      <pubDate>Tue, 09 Jul 2019 01:20:11 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/2248.html</guid>
       <description>&lt;p&gt;跋涉者曾经分享过一篇7b2主题外链跳转的文章，那篇文章实现的原理是在自己服务器里增加一个跳转的页面代码。&lt;/p&gt;&#xA;&lt;p&gt;[zrz_insert_post id=1656]&lt;/p&gt;&#xA;&lt;p&gt;不过今天看张戈大神的一篇文章&lt;!-- raw HTML omitted --&gt;CloudFlare边缘计算Workers尝鲜初探：博客跳转中间页&lt;!-- raw HTML omitted --&gt;。这篇文章谈到可以把这个跳转代码保存到cloudFlare的边缘计算workers中，从而让跳转可以在CDN里实现，显然，这样会减轻服务器计算的压力。对小水管的博客来说有一定的使用价值。&lt;/p&gt;&#xA;&lt;h2 id=&#34;首先你的网站要使用cloudflare这个cdn加速&#34;&gt;首先，你的网站要使用cloudFlare这个cdn加速。&lt;/h2&gt;&#xA;&lt;p&gt;由于国内的网络情况，直接使用往往比较卡，不过好在张戈大神折腾出了另外一个套路，使用后感觉还不错。有兴趣的朋友可以去他的网站上参考。本文不做详细的叙述。&lt;/p&gt;&#xA;&lt;h2 id=&#34;第二把代码添加到cloudflare的边缘计算workers中&#34;&gt;第二，把代码添加到cloudFlare的边缘计算workers中&lt;/h2&gt;&#xA;&lt;p&gt;步骤如下：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;!-- raw HTML omitted --&gt;打开CF域名控制面板，如图1点击切换到Workers选项卡；&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;!-- raw HTML omitted --&gt;点击【Launch Editor】按钮进入Workers编辑界面后，点击【Add script】输入脚本名称并保存，如图：&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>

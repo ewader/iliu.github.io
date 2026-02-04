@@ -6,47 +6,49 @@
     <description>Recent content in Wordpress on 老刘博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
+    <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    <webMaster>ewader@qq.com (老刘)</webMaster>
     <lastBuildDate>Wed, 30 Dec 2020 07:35:59 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>博客web端改用apache</title>
       <link>https://iliu.org/3520.html</link>
-      <pubDate>Wed, 30 Dec 2020 07:35:59 +0000</pubDate>
+      <pubDate>Wed, 30 Dec 2020 07:35:59 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/3520.html</guid>
       <description>&lt;p&gt;试用了几天Cloudflare加racknerd的2h2g的小鸡，感觉还算差强人意。所以干脆就先把博客放这里算了，然后又突发奇想，其他的网站一直用的lnmp，为啥博客就不能用用lamp呢？况且apache在稳定性以及对php的支持等方面都比nginx要好，nginx的优势是轻便和并发能力强。其实对小博客来说，基本没有啥区别。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2021/01/ac6793f3e79aaa6.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;说折腾就折腾，编译安装apache，发现需要重新设置虚拟主机，设置的时候发现，不像nginx的时候，脚本提示把http301到https，什么www域名301到一级域名等，这些提示都没有。也没有设置伪静态的选项。网上查了一下，发现是几行代码就可以搞定的事情。&lt;/p&gt;&#xA;&lt;h2 class=&#34;wp-block-heading&#34; id=&#34;设置301跳转&#34;&gt;设置301跳转&lt;/h2&gt;&#xA;&lt;p&gt;在apache里设置301跳转很简单，只需要在.htaccess里添加代码就好了，老刘主要用到两个，一个是http跳到https，一个是www跳到一级域名。感觉比nginx要简洁一些，代码如下：&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;设置后才发现，设置和不设置没有啥区别，老刘用的cf，应该是在cf里设置了301到443接口了，至于wordpress伪静态的问题，也是很容易，直接到wordpress的后台，保存一下固定链接样式就行了，保存后在根目录里自动生成了.htaccess。代码如下：&lt;/p&gt;</description>
     </item>
     <item>
       <title>给7b2的主题加上评论回复功能</title>
       <link>https://iliu.org/2552.html</link>
-      <pubDate>Thu, 25 Jul 2019 00:54:22 +0000</pubDate>
+      <pubDate>Thu, 25 Jul 2019 00:54:22 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/2552.html</guid>
       <description>&lt;p&gt;7b2主题默认是不会给评论者回复邮件的。也曾经问过作者，作者说如果实现这个的话，没几天邮箱就被封掉了，可能作者有作者的理由吧，但是不加的话，你回复了评论者，他也不知道你给他回复了，没有个反馈，十分的不方便。&lt;/p&gt;&#xA;&lt;p&gt;要想实现给评论者发邮件现在有两种方法，一种是代码实现，一种是插件实现。&lt;/p&gt;&#xA;&lt;h2 id=&#34;代码实现回复评论给评论者发送邮件&#34;&gt;代码实现回复评论给评论者发送邮件&lt;/h2&gt;&#xA;&lt;p&gt;修改&lt;!-- raw HTML omitted --&gt;functions.php，在文件的最后加上如下代码&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>wordpress自动升级到5.2.2</title>
       <link>https://iliu.org/1787.html</link>
-      <pubDate>Wed, 19 Jun 2019 02:15:39 +0000</pubDate>
+      <pubDate>Wed, 19 Jun 2019 02:15:39 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/1787.html</guid>
       <description>&lt;p&gt;今天打开邮箱，发现系统发的邮件。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;嗨！您位于 &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;https://tunan.org&#34;&gt;https://tunan.org&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; 的站点已被成功升级到WordPress 5.2.2。 您不需要再做什么。 要获取更多关于5.2.2版本的信息，请参阅“关于WordPress”屏幕： &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;https://tunan.org/wp-admin/about.php&#34;&gt;https://tunan.org/wp-admin/about.php&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; 如果您遇到了任何问题或需要帮助，WordPress.org支持论坛的志愿者或许能帮到您。 &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;http://zh-cn.forums.wordpress.org/&#34;&gt;http://zh-cn.forums.wordpress.org/&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; WordPress小组&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>7b2主题添加百度是否收录及禁止非管理员访问后台</title>
       <link>https://iliu.org/1636.html</link>
-      <pubDate>Sat, 25 May 2019 07:00:29 +0000</pubDate>
+      <pubDate>Sat, 25 May 2019 07:00:29 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/1636.html</guid>
       <description>&lt;p&gt;原来使用的是知更鸟的begin主题，和7b2的主题可以说是侧重点不同，不可否认的是7b2主题 在展示网页的方面和begin有一定的差距，比如begin里的一些小功能，其中百度是否收录就是其中的一项，让让人只管的文章用不要再次提交，不过要实现这个也不是一件很难的事情，之间在functions.php里添加一些代码就可以了。&lt;/p&gt;&#xA;&lt;h2 id=&#34;添加百度是否收录的代码管理员可见&#34;&gt;添加百度是否收录的代码（管理员可见）&lt;/h2&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;第二就是7b2主题提供了强大的前台及用户中心功能，对于普通用户来说，没有必要让他们进入网站的后台。因此，我们可以添加一些代码来禁止普通的用户进入后台。&lt;/p&gt;&#xA;&lt;h2 id=&#34;禁止非管理员访问后台&#34;&gt;禁止非管理员访问后台&lt;/h2&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     <item>
       <title>只需三步，让你的wordpress在godaddy免费空间上完美呈现</title>
       <link>https://iliu.org/950.html</link>
-      <pubDate>Thu, 28 Oct 2010 06:03:38 +0000</pubDate>
+      <pubDate>Thu, 28 Oct 2010 06:03:38 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/950.html</guid>
       <description>&lt;p&gt;以前本站有一篇文章，说是解决godaddy免费空间广告条对wordpress后台的影响，当时是采用第三方软件来实现的，但是到底有没有一种方法，能让不借用第三方软件来实现呢，答案是肯定的。而且很简单，只需要三步。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;1.隐藏前台页面广告&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;打开主题文件中的“style.css”文件，在文件最后加上如下这段代码：&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;#conash3D0 {height:0px; top:-1px;}&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;原理：使用css样式把广告上移，移到显示页面以外，谁都看不到了，实际上并没有去掉广告代码，只是“隐藏”而已**，K号的可能性比较小，但是有一定的危险，到底用不用再你。**&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>完美解决godaddy免费空间广告条对wordpress后台的影响</title>
       <link>https://iliu.org/388.html</link>
-      <pubDate>Sun, 03 Jan 2010 13:09:22 +0000</pubDate>
+      <pubDate>Sun, 03 Jan 2010 13:09:22 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/388.html</guid>
       <description>&lt;p&gt;自从从godaddy搞了域名之后，一直对它提供的免费空间耿耿于怀，用也不是，不用又觉得可惜，难怪网上都说此空间是一个鸡肋。很多童鞋都把此空间做为图床来使用，只是我觉得，这么好的一个空间，10g，300g的流量，仅仅用做图床未免有些浪费，加之目前手里也没有什么像样的空间，先前一直在有pipni的空间，各方面还比较满意，就是速度差了些，后来又觉得byethost的空间也不错，可惜IP老被封，加上本次的整顿事件，越发不敢用了，毕竟被墙以后，再找空间也麻烦。所以想来想去，还是就用godaddy提供的这个免费的空间吧。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>

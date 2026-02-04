@@ -6,26 +6,28 @@
     <description>Recent content in 360杀毒 on 老刘博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
+    <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    <webMaster>ewader@qq.com (老刘)</webMaster>
     <lastBuildDate>Mon, 11 Jan 2010 12:35:00 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/360%E6%9D%80%E6%AF%92/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>介绍本人所用的软件——安全软件篇</title>
       <link>https://iliu.org/428.html</link>
-      <pubDate>Mon, 11 Jan 2010 12:35:00 +0000</pubDate>
+      <pubDate>Mon, 11 Jan 2010 12:35:00 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/428.html</guid>
       <description>&lt;p&gt;接触安全软件是在1999年chi病毒爆发的时候，那时候刚好宿舍的电脑被感染，从一个光盘里安装上了熊猫的杀毒软件，能升级，通过扫描查找出来了大量的病毒，这是和病毒以及杀毒软件的第一次亲密接触，那时候就感觉杀毒软件好神奇啊，特别是对熊猫这个来自西班牙的杀软充满了好感，一直到现在对这个软件的印象都不错。&lt;/p&gt;&#xA;&lt;p&gt;再次使用杀毒软件是在2003年的时候，那时候公司的电脑中了一种欢乐时光病毒，当时用瑞星扫描出来的，感觉很兴奋，那时候对瑞星很是崇拜，特别是对它头上的光环，什么公安部认证，什么全球首次截获什么什么病毒等等，那时候已经知道防火墙的重要性，公司的电脑装的就是瑞星加天网，看到天网跳动的窗口，好庆幸自己的电脑没有被攻击到。&lt;/p&gt;&#xA;&lt;p&gt;到2004年，终于有了自己的电脑，首先想到给自己的电脑装上熊猫，可惜找不到序列号，想装瑞星，也是没有序列号，最后找到了中天论坛，应该是最早的安全论坛之一，现在早就改行了，在中天上找到了瑞星升级器，但是不满足，又寻觅，找到了霏凡论坛，可以说我的安全知识大部分都在这个论坛所取得，到了这个论坛才知道，世界如此之大，竟然还有Norton，nod32，McAfee，pc-cillin（趋势），金山，江民，avast，avair…….通过比较，最后选择的是mcafee7.0i，防火墙用的是za，后来一直就是mcafee的追随者，一直到8.0，8.5，8.7，防火墙换成了pctools，一直用的很好，期间也换过几个杀软，仅仅是体验了一下。可以说mcafee保护了我的爱机免受病毒的攻击立下了汗马功劳。可惜的是我的电脑老了，老的扛不动8.7了，因此2009年7月份的时候决定，换一个杀软，因为我觉得，杀软就是为人服务的，不能让它卡机。&lt;/p&gt;&#xA;&lt;p&gt;现在对安全软件的理解，又高了一个层次，一个电脑用的安全软件必须包括防病毒，防黑客，还有hips，选来选去选中了360杀毒加comodo，360了杀毒引擎毕竟是来自bd，虽然不像官方吹得那么厉害，但也还算不错，comodo包含防火墙和hips，都是经过时间的验证，最重要的是这两个软件都免费，不占用资源，还算智能，因此我给大家推荐的一个组合就是这个。第一个组合360杀毒+comodo。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;进入2010年后，偶尔发现avast！5.0要出的消息，现在公司的电脑上实验了一下，5.0占用资源真的很小，系统启动后仅仅只有130m的内存占有量。而且查杀率比360要高，监控也全面，虽然现在还是beta，但是已经开放了注册，离正式版也不远了，所以决定，家里的电脑也用这个，现在的组合avast！5.0+comodo。&lt;/p&gt;&#xA;&lt;p&gt;文章的最后给大家推荐几个我个人认为性价比比较高的组合，供大家使用，所推荐的组合全都可以长期使用。&lt;/p&gt;&#xA;&lt;p&gt;第一个组合:mcafee+pctools&lt;/p&gt;&#xA;&lt;p&gt;第二个组合：360杀毒+comodo&lt;/p&gt;&#xA;&lt;p&gt;第三个组合：avast！+comodo&lt;/p&gt;</description>
     </item>
     <item>
       <title>360杀毒一个BUg存在依旧</title>
       <link>https://iliu.org/76.html</link>
-      <pubDate>Tue, 27 Oct 2009 12:54:36 +0000</pubDate>
+      <pubDate>Tue, 27 Oct 2009 12:54:36 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/76.html</guid>
       <description>&lt;p&gt;         360正式版推出以来，因其免费的在战略及不错的病毒查杀能力以及很小的的资源占用，迅速的征服了我，凭良心说话，确实是一款不错的杀毒软件，但是可能是360的工作人员太懒了，对于可能冲突的软件在数据库上估计是按名单算的，所以comodo is被认做冲突软件，这无可厚非的，但是comodo is是可以选择只装防火墙和D+的，就算不这样安装，360杀毒也依然认为你装的是全套。&lt;/p&gt;&#xA;&lt;p&gt;    推出这么多版本，从1062-1067了，版本更新的倒很快，可惜一个是不能自动更新版本一个是comodo的认识还是不智能，据说即将就会自动更新版本，而不智能的识别COMODO本人也只能强制开启360的实时防护了。&lt;/p&gt;</description>
     </item>
     <item>
       <title>给大家再推荐一个杀毒软件——mcafee8.7i</title>
       <link>https://iliu.org/71.html</link>
-      <pubDate>Mon, 26 Oct 2009 13:04:31 +0000</pubDate>
+      <pubDate>Mon, 26 Oct 2009 13:04:31 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/71.html</guid>
       <description>&lt;p&gt;        记得上次给大家推荐过360杀毒正式版1.0，不知道大家有没有用？是不是感觉到不管是资源占用也好，还是查杀率也好都是挺不错的，本次华彩在给大家推荐一款杀毒软件，可以说与360相比，有过之而无不及。因为360毕竟是半路出家，不过是引擎还有病毒库都不是自己的东西，而我要给大家推荐的这个软件就是大名鼎鼎的MCAFEE杀毒软件。&lt;/p&gt;</description>
     </item>

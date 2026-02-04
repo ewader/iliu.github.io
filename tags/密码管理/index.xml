@@ -6,12 +6,14 @@
     <description>Recent content in 密码管理 on 老刘博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
+    <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    <webMaster>ewader@qq.com (老刘)</webMaster>
     <lastBuildDate>Thu, 26 Nov 2020 09:10:34 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>keepass配合群晖及keepasshttp实现密码快速登陆</title>
       <link>https://iliu.org/3413.html</link>
-      <pubDate>Thu, 26 Nov 2020 09:10:34 +0000</pubDate>
+      <pubDate>Thu, 26 Nov 2020 09:10:34 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/3413.html</guid>
       <description>&lt;p&gt;前两天看老张老师到处寻找管理密码的软件，老刘由于一直在使用Norton的密码管理，所以没有在意，后来发现Norton的服务器链接较慢，使用起来还是有点不方便，恰好又看到老张在吐槽 某个软件（主要是老刘忘记名字了）使用的问题，于是老刘就想群晖上有没有一款密码管理的软件或者套件（自从老刘入白群晖后，找软件都先考虑这个），你还别说，真的搜出来了这样一个软件，不过不是安装在群晖上，而是把数据放在群晖上，其他的客户端都从群晖来读取数据，这个软件叫Keepass。&lt;/p&gt;&#xA;&lt;h2 id=&#34;为什么选择keepass&#34;&gt;为什么选择Keepass？&lt;/h2&gt;&#xA;&lt;p&gt;因为这是一款开源软件，任何人都能读它的源代码，支持所有的端，插件非常的丰富，只要你想到的功能，都有插件来实现。最重要的是免费，所以老刘毫不犹豫的上手了这个软件。&lt;/p&gt;&#xA;&lt;h2 id=&#34;keepass如何把数据存储在群晖上&#34;&gt;Keepass如何把数据存储在群晖上&lt;/h2&gt;&#xA;&lt;p&gt;其实这是利用了keepass的WebDav的功能，而这个功能恰好群晖又支持。&lt;/p&gt;&#xA;&lt;p&gt;首先，下载安装keepass.官网的地址是：&lt;a href=&#34;https://keepass.info/&#34;&gt;KeePass Password Safe&lt;/a&gt;；可以到官网下载最新的版本，如果喜欢绿色版的，这个软件也又提供。&lt;/p&gt;&#xA;&lt;p&gt;第二，群晖里的一些设置&lt;/p&gt;&#xA;&lt;p&gt;首先登陆群晖，在套件里安装webdav。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/11/c4ca4238a0b9238.png&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;webdav的设置很简单，如下图，因为老刘没有公网IP，所以只能用http端口了，如果你可以用https，也可以开启5006端口&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/11/c81e728d9d4c2f6.png&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>

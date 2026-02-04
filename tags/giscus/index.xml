@@ -6,12 +6,14 @@
     <description>Recent content in Giscus on 老刘博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
+    <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    <webMaster>ewader@qq.com (老刘)</webMaster>
     <lastBuildDate>Tue, 30 Dec 2025 11:31:56 +0800</lastBuildDate>
     <atom:link href="https://iliu.org/tags/giscus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>博客评论换回Giscus</title>
       <link>https://iliu.org/posts/back-to-giscus/</link>
-      <pubDate>Tue, 30 Dec 2025 11:31:56 +0800</pubDate>
+      <pubDate>Tue, 30 Dec 2025 11:31:56 +0800</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/posts/back-to-giscus/</guid>
       <description>&lt;p&gt;前几天，老张他们几个人一直吐槽，说想留言还得翻墙登录 GitHub。听多了，我也动了心思，就去折腾了一下 Artalk，把博客的评论系统换了过去。&lt;/p&gt;&#xA;&lt;p&gt;不得不说，Artalk 用起来确实舒服。界面清爽，也更像我们习惯的那种“博客评论”，不用账号体系，不用跳来跳去，交流起来顺手很多。&lt;/p&gt;&#xA;&lt;p&gt;我用的这台VPS，本来就只是随手用来跑点轻量服务：FreshRSS、Umami，再加一个 Artalk。前两天瞎折腾系统的时候，一个不小心，把服务给折腾挂了。&lt;/p&gt;&#xA;&lt;p&gt;更糟的是——&#xA;没备份。&lt;/p&gt;&#xA;&lt;p&gt;于是结果也就很自然了：&#xA;FreshRSS 的数据没了，Umami 的统计没了，Artalk 里的评论，也一起消失了。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Artalk 并不差，甚至可以说比较完美：&#xA;它把“数据安全”这件事完全交给了使用者自己。&lt;/p&gt;&#xA;&lt;p&gt;使用者需要考虑：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;VPS 是否稳定&lt;/p&gt;</description>
     </item>

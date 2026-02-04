@@ -6,19 +6,21 @@
     <description>Recent content in Nas on 老刘博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
+    <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    <webMaster>ewader@qq.com (老刘)</webMaster>
     <lastBuildDate>Thu, 18 Dec 2025 11:51:57 +0800</lastBuildDate>
     <atom:link href="https://iliu.org/tags/nas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>中年人的 NAS：稳定了六年，也会老</title>
       <link>https://iliu.org/posts/from-rock-solid-stability-to-showing-its-age/</link>
-      <pubDate>Thu, 18 Dec 2025 11:51:57 +0800</pubDate>
+      <pubDate>Thu, 18 Dec 2025 11:51:57 +0800</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/posts/from-rock-solid-stability-to-showing-its-age/</guid>
       <description>&lt;p&gt;我现在用的 NAS 是群晖 DS220+，2019 年买的。&lt;/p&gt;&#xA;&lt;p&gt;当时正在做一个叫“镜缘轩”的眼镜商城，数据安全这件事当时觉得很重要：订单、客户信息、商品资料，一旦丢了，就很麻烦。也正是在那个阶段，我把一直用的暴风酷播云换掉，开始用白群晖，想着至少在数据这件事上，更安全。&#xA;这一眨眼，就是六年。&#xA;&lt;img src=&#34;https://s2.l22.org/images/1766030134_alex-cheung-gQdPafWDSyk-unsplash.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;“镜缘轩”最终没做成，少许的订单和客户信息，其实也根本不值得上这个东西，为了项目买的东西也算一个伪需求。项目没了，NAS 却留下来了，像一件还在运转的旧工具，默默地继续工作。&lt;/p&gt;&#xA;&lt;p&gt;不得不承认，群晖这东西确实稳。&#xA;这六年里，它几乎没让我操过心，一直兢兢业业地跑着，放在角落里，存在感低到快被我忘了。&#xA;直到今年。&lt;/p&gt;&#xA;&lt;p&gt;今年 3 月，先是 UPS 坏了。&#xA;我店里这边的电是物业管的，需要到物业充电卡，电表里还有20度电的时候，会自动断电，提醒你去充电卡，物业是方便了，倒霉的是业主，加上写字楼变压器又出过一次故障，几次猝不及防的断电叠加在一起，一块硬盘开始报错，文件系统怎么修都修不好，我在存储池里卸载也卸载不掉。&#xA;最后只能换了一块新硬盘，问题才算真正解决。&lt;/p&gt;&#xA;&lt;p&gt;再后来，DSM 页面打不开了。&#xA;浏览器访问管理地址，提示“提供的服务不存在”之类的错误。那种感觉很微妙——不是硬件坏了，不是数据丢了，而是你突然失去了对设备的控制权。&#xA;最终通过重置系统，这个问题消失了。过程不复杂，但那种“怎么会这样”的疑惑，却一直留着。&lt;/p&gt;</description>
     </item>
     <item>
       <title>NAS算是有点用处了</title>
       <link>https://iliu.org/3179.html</link>
-      <pubDate>Thu, 04 Jun 2020 10:02:22 +0000</pubDate>
+      <pubDate>Thu, 04 Jun 2020 10:02:22 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/3179.html</guid>
       <description>&lt;p&gt;去年的看老张弄NAS，也跟风弄了一个黑群晖，不过弄来之后就基本上处于闲置的状态。想不到用来做什么。存个图片，备份个文件，完事之后就关机，不然开着也是开着，净浪费电。&lt;/p&gt;&#xA;&lt;p&gt;后来，把打印机和NAS连在一起，算是有了一个打印的功能，笔记本不用再插打印机的线了。但是还是感觉有些鸡肋。前两天阿里云OSS到期了，不准备再续费了，因为这个oss也是一个天坑啊，阿里云离有300来块钱的余额，都被这玩意给吃了。有苦说不出，谁让自己发现的晚了呢。&lt;/p&gt;&#xA;&lt;p&gt;另一个主做视光的网站，提供一些培训视频，培训资料的下载，一直没有合适的地方放置这些资源，灵机一动，发现NAS其实提供了分享文件的功能，这样，自己的这些资料只需存到nas了，对外提供下载就可以了。嗯嗯嗯，&lt;/p&gt;&#xA;&lt;p&gt;发现nas很多的功能自己都没有用到，另外，哪位知道不知道，黑群晖里的视频，能不能再网站上播放？&lt;/p&gt;</description>
     </item>

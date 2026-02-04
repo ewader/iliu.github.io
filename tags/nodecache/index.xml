@@ -6,26 +6,28 @@
     <description>Recent content in Nodecache on 老刘博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
+    <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    <webMaster>ewader@qq.com (老刘)</webMaster>
     <lastBuildDate>Sun, 11 Oct 2020 02:29:24 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/nodecache/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>nodecache开通了中国直连线路</title>
       <link>https://iliu.org/3283.html</link>
-      <pubDate>Sun, 11 Oct 2020 02:29:24 +0000</pubDate>
+      <pubDate>Sun, 11 Oct 2020 02:29:24 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/3283.html</guid>
       <description>&lt;p&gt;在以前的文章（&lt;a href=&#34;https://tunan.org/1679.html&#34;&gt;推荐一款国外CDN——Nodecache，注册即送1T流量&lt;/a&gt;）中介绍过nodecache这个CDN服务商，当时是注册送1T的流量，后来由于觉得其速度有点慢，有时候又不稳定，所以就一直没有，后来通过这篇文字，陆续有了写aff送的流量，差不多一个月9G的样子，要说用在我这个小博客上市绰绰有余了，但是由于怕跑路就一直也没有用。&lt;/p&gt;&#xA;&lt;p&gt;今天闲着没事，翻看自己以前的文字，发现了自己的这篇文章，于是，怀旧的登录上去看看，结果这个CDN服务商居然还没有跑路，哈哈！看了一下，里面的设置基本上和上海云盾的类似，有些还借鉴了又拍云的设置方式。又看了一下发现居然增加了中国直连线路。于是，我可耻的心动了。设置了一番，发现没有想想的那么美好，中国直连线路不是中国线路。&lt;/p&gt;&#xA;&lt;h2 id=&#34;设置成中国直连线路后的ping值&#34;&gt;设置成中国直连线路后的ping值&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/10/6213ab646eb588c.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;大概170左右，查了一下这个IP，是美国加利福尼亚的IP。不过实际用起来感觉还是挺流畅的。除了ping的值有点高以外。&lt;/p&gt;&#xA;&lt;h2 id=&#34;于是切换成亚太ip后&#34;&gt;于是切换成亚太IP后&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/10/be32cbd25dd47e4.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;ping值降到了60，但是不稳定，有超时的现象。&lt;/p&gt;&#xA;&lt;h2 id=&#34;里面的设置还是挺丰富的支持防护cc以及waf防火墙&#34;&gt;里面的设置还是挺丰富的，支持防护CC以及waf防火墙&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tunan.org/wp-content/uploads/2020/10/fca569fbd8b732d.jpg&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>nodecache的服务条款很霸王啊</title>
       <link>https://iliu.org/2250.html</link>
-      <pubDate>Tue, 09 Jul 2019 08:47:39 +0000</pubDate>
+      <pubDate>Tue, 09 Jul 2019 08:47:39 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/2250.html</guid>
       <description>&lt;p&gt;nodecache是一款新出的cdn服务商，搜索引擎上关于它的资料很少，今天搜了半天也只是找到一个快照，是和某个国外主机论坛合作推广送50美元的文章，这篇文章是2019年1月左右。不过这个活动也早就停了。&lt;/p&gt;&#xA;&lt;p&gt;知道这个公司是看到缙哥哥分享的，说实话，目前用着来说还算可以，毕竟人数可能比较少，加速的节点是香港的，而且种种迹象表明，这是一个国人开办的公司，对中文支持那也就相当的好了。当时用着很满意，不过它的流量就送一个月，由于满意就想在试用一段时间，于是充了1美元，因为目前这个博客的流量很小，1美元也可以用好久了。&lt;/p&gt;&#xA;&lt;p&gt;充完了之后才发现推广链接还能送流量，首个用户是送5g，以后的用户送1g，跋涉者成功的推广了两个用户，所以账户中每个月是有6g的流量的，对于跋涉者来说，这个流量已经是足够了。于是就想把这个钱给退回来，虽然少，蚊子多了也是肉嘛。&lt;/p&gt;&#xA;&lt;p&gt;结果，网站里没有发现任何的退款链接，于是发工单询问。客服很快就有了回复。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;您好，根据服务条款，定价一项的规定：所有款项预付，不予退还。针对您账户的余额我们会为您保存12个月。在12个月内您可以随时登录账号使用本公司产品服务。以下是服务条款 链接https://www.nodecache.com/serviceTerm 请您知悉！&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>推荐一款国外CDN——Nodecache，注册即送1T流量</title>
       <link>https://iliu.org/1679.html</link>
-      <pubDate>Mon, 03 Jun 2019 02:09:27 +0000</pubDate>
+      <pubDate>Mon, 03 Jun 2019 02:09:27 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/1679.html</guid>
       <description>&lt;p&gt;最新消息，只要邀请一个人，就能永久每月5G的流量，还是不错的&lt;/p&gt;&#xA;&lt;p&gt;国内没有备案的站长最头疼的无非是不能使用国内诸多的cdn加速以及隐藏真实IP地址，能用的也就国外的cloudflare,但是这个cdn服务商有不少ip被封了，没有被封的有时候抽风起来，速度又特别的慢，现在国外又新出了一款Nodecache的cdn，由于是新出的，加速的速度不错，本站目前就是用这个加速的，现在做活动，点击如下地址注册，即送1T的流量，如果非邀请注册，也就是自己注册的话，直送500G的流量。地址如下：&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Nodecache注册&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;注册后进入后台，慢慢的熟悉感，这个cdn的界面和又拍云的非常的相似&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>

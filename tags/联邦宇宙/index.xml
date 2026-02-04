@@ -6,12 +6,14 @@
     <description>Recent content in 联邦宇宙 on 老刘博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
+    <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    <webMaster>ewader@qq.com (老刘)</webMaster>
     <lastBuildDate>Tue, 21 Oct 2025 11:10:32 +0800</lastBuildDate>
     <atom:link href="https://iliu.org/tags/%E8%81%94%E9%82%A6%E5%AE%87%E5%AE%99/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>把GotoSocial嵌入到Hugo</title>
       <link>https://iliu.org/posts/embedding-gotosocial-in-a-hugo-blog/</link>
-      <pubDate>Tue, 21 Oct 2025 11:10:32 +0800</pubDate>
+      <pubDate>Tue, 21 Oct 2025 11:10:32 +0800</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/posts/embedding-gotosocial-in-a-hugo-blog/</guid>
       <description>&lt;p&gt;把博客重新换成Hugo后，我又把GotoSocial安装了起来，就是想发布自己有一些碎语之类的东西，在memos和GotoSocial中纠结了一会，最终选择了GotoSocial，主要原因还是看到memeos的作者随意改动API，为了以后不再有不必要的麻烦，还是选择一个更稳定的最好。整体完成后的效果可以参考：&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://iliu.org/toots&#34;&gt;我的微博&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;总体思路&#34;&gt;总体思路&lt;/h2&gt;&#xA;&lt;p&gt;由于 GoToSocial 默认开启了严格的 CORS 限制，获取内容的时候需要token，由于Hugo是静态博客，直接把token写在前端非常不安全，所以我们需要一个中转层。&#xA;Cloudflare Workers 可以完美胜任代理转发的功能，作用是：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;从 Hugo 前端发请求 → Cloudflare Worker&lt;/li&gt;&#xA;&lt;li&gt;Worker 向 https://你的域名/api/v1/accounts/&amp;hellip;/statuses 请求 GoToSocial 数据&lt;/li&gt;&#xA;&lt;li&gt;Worker 再把 JSON 数据返回给 Hugo 前端&lt;/li&gt;&#xA;&lt;li&gt;Hugo 构建时渲染&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;获取-gotosocial-的-toot-api-接口&#34;&gt;获取 GoToSocial 的 toot API 接口&lt;/h2&gt;&#xA;&lt;h3 id=&#34;目标概述&#34;&gt;目标概述&lt;/h3&gt;&#xA;&lt;p&gt;我们要：&lt;/p&gt;</description>
     </item>

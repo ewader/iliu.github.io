@@ -6,12 +6,14 @@
     <description>Recent content in Logseq on 老刘博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
+    <managingEditor>ewader@qq.com (老刘)</managingEditor>
+    <webMaster>ewader@qq.com (老刘)</webMaster>
     <lastBuildDate>Thu, 23 Jun 2022 02:35:24 +0000</lastBuildDate>
     <atom:link href="https://iliu.org/tags/logseq/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>关于笔记软件的选择</title>
       <link>https://iliu.org/4145.html</link>
-      <pubDate>Thu, 23 Jun 2022 02:35:24 +0000</pubDate>
+      <pubDate>Thu, 23 Jun 2022 02:35:24 +0000</pubDate><author>ewader@qq.com (老刘)</author>
       <guid>https://iliu.org/4145.html</guid>
       <description>&lt;p&gt;最近，中文博客圈群里兴起了一股笔记软件的热潮，其实也不是最近，而是一直都有断断续续的讨论。只不过老刘一直以来都是用的群晖note，对我来说，网页剪辑一下要用到的网页内容，各种客户端都很齐全，觉得是够用的了。直到….&lt;br&gt;&#xA;上个月隔离的时候，碰到张波老师安装Trilium这个软件，于是我也试用了一下，被这个笔记的功能所吸引，于是再群晖上部署，试用，又折腾了其他的一些笔记软件。最后来说一说这些笔记软件的特点，&lt;strong&gt;&lt;em&gt;只是自己使用的体会，不牵涉到教程，不到之处，敬请海涵&lt;/em&gt;&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;h2 class=&#34;wp-block-heading&#34; id=&#34;群晖synology-note&#34;&gt;群晖Synology note&lt;/h2&gt;&#xA;&lt;p&gt;这款软件是老刘用了好几年的笔记软件了。其有点是，和**&lt;em&gt;群晖NAS无缝结合&lt;/em&gt;**（这是废话），客户端齐全，同步方便。日程之类很完善，有网页剪辑的插件，能一键把需要的网页保存到笔记软件中。&lt;br&gt;&#xA;不足之处：&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
