@@ -2,25 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://iliu.org/posts/new-year-2026-snow-and-argue-with-the-property-management/</loc>
-    <lastmod>2026-01-22T16:51:08+08:00</lastmod>
+    <loc>https://iliu.org/tags/ai/</loc>
+    <lastmod>2026-02-04T16:03:45+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/categories/</loc>
-    <lastmod>2026-01-22T16:51:08+08:00</lastmod>
+    <lastmod>2026-02-04T16:03:45+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/tags/hugo/</loc>
+    <lastmod>2026-02-04T16:03:45+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/posts/</loc>
-    <lastmod>2026-01-22T16:51:08+08:00</lastmod>
+    <lastmod>2026-02-04T16:03:45+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/tags/</loc>
+    <lastmod>2026-02-04T16:03:45+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/tags/%E5%89%8D%E7%AB%AF/</loc>
+    <lastmod>2026-02-04T16:03:45+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/posts/bye-papermod/</loc>
+    <lastmod>2026-02-04T16:03:45+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/tags/%E6%8A%98%E8%85%BE/</loc>
+    <lastmod>2026-02-04T16:03:45+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/</loc>
+    <lastmod>2026-02-04T16:03:45+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/categories/%E9%BD%90%E7%89%A9/</loc>
+    <lastmod>2026-02-04T16:03:45+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/posts/new-year-2026-snow-and-argue-with-the-property-management/</loc>
     <lastmod>2026-01-22T16:51:08+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/tags/%E4%B8%8B%E9%9B%AA/</loc>
     <lastmod>2026-01-22T16:51:08+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/categories/%E4%BA%BA%E9%97%B4%E4%B8%96/</loc>
-    <lastmod>2026-01-22T16:51:08+08:00</lastmod>
-  </url><url>
-    <loc>https://iliu.org/</loc>
     <lastmod>2026-01-22T16:51:08+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/tags/kde/</loc>
@@ -41,9 +59,6 @@
     <loc>https://iliu.org/tags/%E8%BE%93%E5%85%A5%E6%B3%95/</loc>
     <lastmod>2026-01-14T17:04:40+08:00</lastmod>
   </url><url>
-    <loc>https://iliu.org/categories/%E9%BD%90%E7%89%A9/</loc>
-    <lastmod>2026-01-14T17:04:40+08:00</lastmod>
-  </url><url>
     <loc>https://iliu.org/posts/reflections-after-finishing-the-first-volume-of-the-huayan-jing/</loc>
     <lastmod>2026-01-08T08:22:16+08:00</lastmod>
   </url><url>
@@ -57,9 +72,6 @@
     <lastmod>2026-01-08T08:22:16+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/tags/edgeone/</loc>
-    <lastmod>2026-01-04T18:01:08+08:00</lastmod>
-  </url><url>
-    <loc>https://iliu.org/tags/hugo/</loc>
     <lastmod>2026-01-04T18:01:08+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/tags/%E5%8D%9A%E5%AE%A2/</loc>
@@ -1953,9 +1965,6 @@
     <lastmod>2021-01-24T07:40:25+00:00</lastmod>
   </url><url>
     <loc>https://iliu.org/3623.html</loc>
-    <lastmod>2021-01-24T03:35:03+00:00</lastmod>
-  </url><url>
-    <loc>https://iliu.org/tags/%E6%8A%98%E8%85%BE/</loc>
     <lastmod>2021-01-24T03:35:03+00:00</lastmod>
   </url><url>
     <loc>https://iliu.org/tags/%E7%A2%8E%E7%8E%89/</loc>

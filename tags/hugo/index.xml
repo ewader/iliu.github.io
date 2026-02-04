@@ -6,8 +6,15 @@
     <description>Recent content in Hugo on 老刘博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 04 Jan 2026 18:01:08 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 04 Feb 2026 16:03:45 +0800</lastBuildDate>
     <atom:link href="https://iliu.org/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>告别 PaperMod：审美疲劳后的 Hugo 博客“换装”记</title>
+      <link>https://iliu.org/posts/bye-papermod/</link>
+      <pubDate>Wed, 04 Feb 2026 16:03:45 +0800</pubDate>
+      <guid>https://iliu.org/posts/bye-papermod/</guid>
+      <description>&lt;p&gt;在 Hugo 的世界里，&lt;strong&gt;PaperMod&lt;/strong&gt; 绝对称得上是“国民级”主题。它简洁、高效、功能完备，我也用了好几年。但正如所有长久的相处都会走向平淡，用了几年后，那种视觉上的倦怠感扑面而来。&lt;/p&gt;&#xA;&lt;p&gt;这段时间，我一直在 Hugo Themes 库里反复打量，却始终没有找到那种“一眼万年”的感觉。直到有一天，我逛到了 &lt;a href=&#34;https://www.eallion.com&#34;&gt;eallion&lt;/a&gt; 的博客，看到他完善了一款名为 &lt;code&gt;pehtheme-hugo&lt;/code&gt; 的主题。&lt;/p&gt;&#xA;&lt;h2 id=&#34;遇见新欢pehtheme-hugo&#34;&gt;遇见新欢：pehtheme-hugo&lt;/h2&gt;&#xA;&lt;p&gt;eallion 完善的这个版本已经非常出色，并且在 GitHub 上开源了。第一眼看到它，我就觉得这正是我想找的风格。&lt;/p&gt;&#xA;&lt;p&gt;不过，为了避免直接“撞衫”的尴尬，我没有直接克隆他那套高度定制的版本，而是决定从&lt;strong&gt;原始版本&lt;/strong&gt;开始，自己动手，丰衣足食。&lt;/p&gt;&#xA;&lt;h2 id=&#34;半成品的磨难与-ai-的救赎&#34;&gt;“半成品”的磨难与 AI 的救赎&lt;/h2&gt;&#xA;&lt;p&gt;原始版的 &lt;code&gt;pehtheme-hugo&lt;/code&gt; 其实更像是一个半成品。虽然骨架很漂亮，但内部细节却让人头大：&lt;/p&gt;</description>
+    </item>
     <item>
       <title>博客托管平台换成edgeone pages</title>
       <link>https://iliu.org/posts/migrated-my-blog-to-edgeone-pages/</link>
