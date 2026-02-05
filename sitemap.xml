@@ -2,19 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://iliu.org/categories/</loc>
+    <lastmod>2026-02-05T11:30:40+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/posts/</loc>
+    <lastmod>2026-02-05T11:30:40+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/tags/</loc>
+    <lastmod>2026-02-05T11:30:40+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/categories/%E4%BA%BA%E9%97%B4%E4%B8%96/</loc>
+    <lastmod>2026-02-05T11:30:40+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/</loc>
+    <lastmod>2026-02-05T11:30:40+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/posts/is-a-more-expensive-lens-really-better-for-your-eyes/</loc>
+    <lastmod>2026-02-05T11:30:40+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/tags/%E9%85%8D%E9%95%9C/</loc>
+    <lastmod>2026-02-05T11:30:40+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/tags/%E9%95%9C%E7%89%87/</loc>
+    <lastmod>2026-02-05T11:30:40+08:00</lastmod>
+  </url><url>
+    <loc>https://iliu.org/tags/%E9%AA%8C%E5%85%89/</loc>
+    <lastmod>2026-02-05T11:30:40+08:00</lastmod>
+  </url><url>
     <loc>https://iliu.org/tags/ai/</loc>
     <lastmod>2026-02-04T16:03:45+08:00</lastmod>
   </url><url>
-    <loc>https://iliu.org/categories/</loc>
-    <lastmod>2026-02-04T16:03:45+08:00</lastmod>
-  </url><url>
     <loc>https://iliu.org/tags/hugo/</loc>
-    <lastmod>2026-02-04T16:03:45+08:00</lastmod>
-  </url><url>
-    <loc>https://iliu.org/posts/</loc>
-    <lastmod>2026-02-04T16:03:45+08:00</lastmod>
-  </url><url>
-    <loc>https://iliu.org/tags/</loc>
     <lastmod>2026-02-04T16:03:45+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/tags/%E5%89%8D%E7%AB%AF/</loc>
@@ -26,9 +44,6 @@
     <loc>https://iliu.org/tags/%E6%8A%98%E8%85%BE/</loc>
     <lastmod>2026-02-04T16:03:45+08:00</lastmod>
   </url><url>
-    <loc>https://iliu.org/</loc>
-    <lastmod>2026-02-04T16:03:45+08:00</lastmod>
-  </url><url>
     <loc>https://iliu.org/categories/%E9%BD%90%E7%89%A9/</loc>
     <lastmod>2026-02-04T16:03:45+08:00</lastmod>
   </url><url>
@@ -36,9 +51,6 @@
     <lastmod>2026-01-22T16:51:08+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/tags/%E4%B8%8B%E9%9B%AA/</loc>
-    <lastmod>2026-01-22T16:51:08+08:00</lastmod>
-  </url><url>
-    <loc>https://iliu.org/categories/%E4%BA%BA%E9%97%B4%E4%B8%96/</loc>
     <lastmod>2026-01-22T16:51:08+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/tags/kde/</loc>
@@ -533,13 +545,13 @@
     <loc>https://iliu.org/posts/set-sail-again/</loc>
     <lastmod>2024-08-28T09:48:57+08:00</lastmod>
   </url><url>
+    <loc>https://iliu.org/about/</loc>
+    <lastmod>2024-08-28T09:30:00+08:00</lastmod>
+  </url><url>
     <loc>https://iliu.org/tags/%E5%8D%9A%E5%8F%8B/</loc>
     <lastmod>2024-08-28T09:30:00+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/boyoupeijing/</loc>
-    <lastmod>2024-08-28T09:30:00+08:00</lastmod>
-  </url><url>
-    <loc>https://iliu.org/tags/%E9%85%8D%E9%95%9C/</loc>
     <lastmod>2024-08-28T09:30:00+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/tags/%E4%BA%B2%E5%AD%90/</loc>
@@ -705,9 +717,6 @@
     <lastmod>2023-11-14T21:13:59+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/posts/talk-about-lens-anti-fog-in-early-winter/</loc>
-    <lastmod>2023-11-13T21:16:41+08:00</lastmod>
-  </url><url>
-    <loc>https://iliu.org/tags/%E9%95%9C%E7%89%87/</loc>
     <lastmod>2023-11-13T21:16:41+08:00</lastmod>
   </url><url>
     <loc>https://iliu.org/tags/%E9%98%B2%E9%9B%BE/</loc>
@@ -1605,9 +1614,6 @@
     <lastmod>2021-09-22T08:01:03+00:00</lastmod>
   </url><url>
     <loc>https://iliu.org/3907.html</loc>
-    <lastmod>2021-09-22T08:01:03+00:00</lastmod>
-  </url><url>
-    <loc>https://iliu.org/tags/%E9%AA%8C%E5%85%89/</loc>
     <lastmod>2021-09-22T08:01:03+00:00</lastmod>
   </url><url>
     <loc>https://iliu.org/3904.html</loc>
@@ -4840,8 +4846,6 @@
   </url><url>
     <loc>https://iliu.org/308.html</loc>
     <lastmod>2009-01-21T12:39:00+00:00</lastmod>
-  </url><url>
-    <loc>https://iliu.org/about/</loc>
   </url><url>
     <loc>https://iliu.org/friends/</loc>
   </url><url>

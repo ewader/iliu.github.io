@@ -8,8 +8,15 @@
     <language>zh-cn</language>
     <managingEditor>ewader@qq.com (老刘)</managingEditor>
     <webMaster>ewader@qq.com (老刘)</webMaster>
-    <lastBuildDate>Wed, 04 Feb 2026 16:03:45 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 05 Feb 2026 11:30:40 +0800</lastBuildDate>
     <atom:link href="https://iliu.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>越贵的镜片真的对眼睛越好吗</title>
+      <link>https://iliu.org/posts/is-a-more-expensive-lens-really-better-for-your-eyes/</link>
+      <pubDate>Thu, 05 Feb 2026 11:30:40 +0800</pubDate><author>ewader@qq.com (老刘)</author>
+      <guid>https://iliu.org/posts/is-a-more-expensive-lens-really-better-for-your-eyes/</guid>
+      <description>&lt;p&gt;在眼镜零售领域，我们经常遇到“价格迷信”。很多消费者认为，眼镜既然是戴在眼睛上的，就一定要买最贵的，贵的镜片一定就是好镜片，这样才是对眼睛负责。&lt;/p&gt;&#xA;&lt;p&gt;今天，我以最近接待的一位广州客户为例，剖析一下镜片选择背后的逻辑。&lt;/p&gt;&#xA;&lt;h2 id=&#34;案例回顾&#34;&gt;案例回顾&lt;/h2&gt;&#xA;&lt;p&gt;客户初始目标：某国际一线品牌 1.67 高端系列（单价 3000+，折扣后大概1000+）。 客户核心痛点：&lt;strong&gt;度数上涨&lt;/strong&gt;，希望通过高价镜片遏制近视。 最终选择：高性价比国产优质品牌 1.67 功能镜片（折扣后价格 500）。 结果： 节省 50% 成本，&lt;strong&gt;视觉体验完全达到预期&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://tu.iliu.org/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_20260205_101534.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;为什么说贵不等于控度&#34;&gt;为什么说“贵”不等于“控度”？&lt;/h3&gt;&#xA;&lt;p&gt;首先，我们要区分两个概念：成人近视矫正与青少年近视防控。&lt;/p&gt;&#xA;&lt;p&gt;对于成年人来说，除非是特殊功能的功能性镜片（如抗疲劳、渐进片），大部分高端镜片的溢价在于：&lt;/p&gt;</description>
+    </item>
     <item>
       <title>告别 PaperMod：审美疲劳后的 Hugo 博客“换装”记</title>
       <link>https://iliu.org/posts/bye-papermod/</link>
