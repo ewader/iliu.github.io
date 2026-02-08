@@ -1,21 +1,53 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>AI on 老刘博客</title>
     <link>https://iliu.org/tags/ai/</link>
     <description>Recent content in AI on 老刘博客</description>
-    <generator>Hugo</generator>
+    <image>
+      <title>老刘博客</title>
+      <url>https://iliu.org/img/liujinsuiyue.jpg</url>
+      <link>https://iliu.org/img/liujinsuiyue.jpg</link>
+    </image>
+    <generator>Hugo -- 0.155.2</generator>
     <language>zh-cn</language>
-    <managingEditor>ewader@qq.com (老刘)</managingEditor>
-    <webMaster>ewader@qq.com (老刘)</webMaster>
     <lastBuildDate>Wed, 04 Feb 2026 16:03:45 +0800</lastBuildDate>
     <atom:link href="https://iliu.org/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>告别 PaperMod：审美疲劳后的 Hugo 博客“换装”记</title>
       <link>https://iliu.org/posts/bye-papermod/</link>
-      <pubDate>Wed, 04 Feb 2026 16:03:45 +0800</pubDate><author>ewader@qq.com (老刘)</author>
+      <pubDate>Wed, 04 Feb 2026 16:03:45 +0800</pubDate>
       <guid>https://iliu.org/posts/bye-papermod/</guid>
-      <description>&lt;p&gt;在 Hugo 的世界里，&lt;strong&gt;PaperMod&lt;/strong&gt; 绝对称得上是“国民级”主题。它简洁、高效、功能完备，我也用了好几年。但正如所有长久的相处都会走向平淡，用了几年后，那种视觉上的倦怠感扑面而来。&lt;/p&gt;&#xA;&lt;p&gt;这段时间，我一直在 Hugo Themes 库里反复打量，却始终没有找到那种“一眼万年”的感觉。直到有一天，我逛到了 &lt;a href=&#34;https://www.eallion.com&#34;&gt;eallion&lt;/a&gt; 的博客，看到他完善了一款名为 &lt;code&gt;pehtheme-hugo&lt;/code&gt; 的主题。&lt;/p&gt;&#xA;&lt;h2 id=&#34;遇见新欢pehtheme-hugo&#34;&gt;遇见新欢：pehtheme-hugo&lt;/h2&gt;&#xA;&lt;p&gt;eallion 完善的这个版本已经非常出色，并且在 GitHub 上开源了。第一眼看到它，我就觉得这正是我想找的风格。&lt;/p&gt;&#xA;&lt;p&gt;不过，为了避免直接“撞衫”的尴尬，我没有直接克隆他那套高度定制的版本，而是决定从&lt;strong&gt;原始版本&lt;/strong&gt;开始，自己动手，丰衣足食。&lt;/p&gt;&#xA;&lt;h2 id=&#34;半成品的磨难与-ai-的救赎&#34;&gt;“半成品”的磨难与 AI 的救赎&lt;/h2&gt;&#xA;&lt;p&gt;原始版的 &lt;code&gt;pehtheme-hugo&lt;/code&gt; 其实更像是一个半成品。虽然骨架很漂亮，但内部细节却让人头大：&lt;/p&gt;</description>
+      <description>记录一次从 PaperMod 迁移到 pehtheme-hugo 的心路历程，以及如何利用 AI 修复一个半成品主题。</description>
+      <content:encoded><![CDATA[<p>在 Hugo 的世界里，<strong>PaperMod</strong> 绝对称得上是“国民级”主题。它简洁、高效、功能完备，我也用了好几年。但正如所有长久的相处都会走向平淡，用了几年后，那种视觉上的倦怠感扑面而来。</p>
+<p>这段时间，我一直在 Hugo Themes 库里反复打量，却始终没有找到那种“一眼万年”的感觉。直到有一天，我逛到了 <a href="https://www.eallion.com">eallion</a> 的博客，看到他完善了一款名为 <code>pehtheme-hugo</code> 的主题。</p>
+<h2 id="遇见新欢pehtheme-hugo">遇见新欢：pehtheme-hugo</h2>
+<p>eallion 完善的这个版本已经非常出色，并且在 GitHub 上开源了。第一眼看到它，我就觉得这正是我想找的风格。</p>
+<p>不过，为了避免直接“撞衫”的尴尬，我没有直接克隆他那套高度定制的版本，而是决定从<strong>原始版本</strong>开始，自己动手，丰衣足食。</p>
+<h2 id="半成品的磨难与-ai-的救赎">“半成品”的磨难与 AI 的救赎</h2>
+<p>原始版的 <code>pehtheme-hugo</code> 其实更像是一个半成品。虽然骨架很漂亮，但内部细节却让人头大：</p>
+<ul>
+<li><strong>搜索功能</strong>：完全是摆设，点不开也搜不到。</li>
+<li><strong>图片引用</strong>：路径处理逻辑有误，很多地方的图片引用都是错的。</li>
+<li><strong>页面缺失</strong>：核心的归档页、友链页、评论系统几乎是一片空白。</li>
+</ul>
+<p>如果是以前，作为一个代码小白，面对这些问题我可能就直接劝退了。但现在是 <strong>AI 时代</strong>，只要有想法，剩下的都可以交给“赛博劳动力”。</p>
+<h2 id="我的折腾流程iflow-cli--ai">我的折腾流程：iflow cli + AI</h2>
+<p>我利用 <strong>iflow cli</strong> 配合 AI，开始了一场针对主题的“大手术”。</p>
+<blockquote>
+<p><strong>操作心得：</strong>
+以前需要翻遍文档、折腾好几天的难题，现在通过与 AI 的对话，让AI直接修改生成原貌，全程不用自己动手，这个感觉还是很爽的。</p>
+</blockquote>
+<ul>
+<li><strong>修复搜索</strong>：重新梳理了 JSON 索引逻辑，现在搜索功能终于活了。</li>
+<li><strong>页面增建</strong>：逐一补全了归档、友情链接以及评论系统的模板代码。</li>
+<li><strong>细节微调</strong>：把原本那些看着不顺眼的 CSS 样式逐个修正，让它更符合我的审美。</li>
+</ul>
+<p><img loading="lazy" src="https://tu.iliu.org/20260204_160210.png"></p>
+<h2 id="现状与未来">现状与未来</h2>
+<p>目前博客已经基本成型，虽然还有很多可以完善的空间，但至少“能用了”。</p>
+<p>这就像是刚装修完的房子，大件家具都进场了，至于那些装饰性的软装，等以后哪天看哪里不顺眼了再改吧。<strong>折腾的意义不在于追求绝对的完美，而在于那种“把想法变成现实”的掌控感。</strong></p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>
