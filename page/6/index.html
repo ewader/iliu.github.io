@@ -1,26 +1,5578 @@
-<!doctype html><html lang=zh-cn dir=auto><head><meta name=generator content="Hugo 0.155.2"><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>老刘博客</title><meta name=keywords content="图南,博客,验光师,linux,hugo,wordpress,群晖,南怀瑾,庄子,传统文化"><meta name=description content="老刘的个人博客，一些读书、工作、生活方面的杂记，及折腾各种物件的记录"><meta name=author content="老刘"><link rel=canonical href=https://iliu.org/><link crossorigin=anonymous href=/assets/css/stylesheet.d09585d53d0c9ad92e1d96d9b5f0a6c553dc2e645261412488b9284b8ac5f89e.css integrity="sha256-0JWF1T0MmtkuHZbZtfCmxVPcLmRSYUEkiLkoS4rF+J4=" rel="preload stylesheet" as=style><link rel=icon href=https://iliu.org/img/favicon><link rel=icon type=image/png sizes=16x16 href=https://iliu.org/img/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://iliu.org/img/favicon-32x32.png><link rel=apple-touch-icon href=https://iliu.org/img/apple-touch-icon.png><link rel=mask-icon href=https://iliu.org/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate type=application/rss+xml href=https://iliu.org/index.xml title=rss><link rel=alternate type=application/json href=https://iliu.org/index.json title=json><link rel=alternate hreflang=zh-cn href=https://iliu.org/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><script async src="https://www.googletagmanager.com/gtag/js?id=G-0XVC4DWYPH"></script><script>var doNotTrack=!1,dnt=navigator.doNotTrack||window.doNotTrack||navigator.msDoNotTrack,doNotTrack=dnt=="1"||dnt=="yes";if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-0XVC4DWYPH")}</script><meta property="og:url" content="https://iliu.org/"><meta property="og:site_name" content="老刘博客"><meta property="og:title" content="老刘博客"><meta property="og:description" content="老刘的个人博客，一些读书、工作、生活方面的杂记，及折腾各种物件的记录"><meta property="og:locale" content="zh-cn"><meta property="og:type" content="website"><meta property="og:image" content="https://iliu.org/img/liujinsuiyue.jpg"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://iliu.org/img/liujinsuiyue.jpg"><meta name=twitter:title content><meta name=twitter:description content="老刘的个人博客，一些读书、工作、生活方面的杂记，及折腾各种物件的记录"><script type=application/ld+json>{"@context":"https://schema.org","@type":"Organization","name":"老刘博客","url":"https://iliu.org/","description":"老刘的个人博客，一些读书、工作、生活方面的杂记，及折腾各种物件的记录","logo":"https://iliu.org/img/favicon","sameAs":["https://x.com/tunanblog","mailto:ewader@gmail.com","https://github.com/ewader","index.xml","https://cmx.go.it/@laoliu"]}</script></head><body class=list id=top><script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add("dark"):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove("dark"):window.matchMedia("(prefers-color-scheme: dark)").matches&&document.body.classList.add("dark")</script><header class=header><nav class=nav><div class=logo><a href=https://iliu.org/ accesskey=h title="老刘博客 (Alt + H)"><img src=https://iliu.org/img/apple-touch-icon.png alt aria-label=logo height=35>老刘博客</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)" aria-label="Toggle theme">
-<svg id="moon" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
-<svg id="sun" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=https://iliu.org/ title=Home><span class=active>Home</span></a></li><li><a href=https://iliu.org/archives/ title="💾 归档"><span>💾 归档</span></a></li><li><a href=https://iliu.org/search title="🔍 搜索 (Alt + /)" accesskey=/><span>🔍 搜索</span></a></li><li><a href=https://iliu.org/boyoupeijing/ title="👓 配镜"><span>👓 配镜</span></a></li><li><a href=https://iliu.org/friends/ title="🌍 邻居"><span>🌍 邻居</span></a></li></ul></nav></header><main class=main><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>8月15日：愤怒，是民族的清醒</h2></header><div class=entry-content><p>天是8月15日，1945年的今天，日本宣布无条件投降，侵华八年的枪炮声终于停下。可对于中华民族来说，这一天并不是结束，而只是另一种形式的开始——开始承受、记忆、传递那段血与火的历史。这个暑假，我带着女儿去了南京大屠杀纪念馆。冰冷的展厅里，陈列着泛黄的照片、锈蚀的刺刀、炸塌的城墙和房屋、累累的白骨以及被侵略者捏碎的生活。三十万无辜的生命，就这样被屠戮殆尽。他们不是冷冰冰的数字，而是有名字、有家人、有笑声的人。站在那里，你能感到一种压抑到窒息的痛。
-...</p></div><footer class=entry-footer><span title='2025-08-15 08:53:27 +0800 CST'>2025-08-15</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>998 words</span>&nbsp;·&nbsp;<span>老刘</span></footer><a class=entry-link aria-label="post link to 8月15日：愤怒，是民族的清醒" href=https://iliu.org/august-15-anger-a-nations-awakening/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>上天保佑，并非无条件</h2></header><div class=entry-content><p>《易经·大有卦》上九爻有一句爻辞：
-“自天佑之，吉无不利。”
-这句话字面看起来非常美好：上天主动来庇佑你，于是无往不利，大吉大利。
-如果只停留在表面理解，就很容易和很多人的日常愿望接轨——谁不希望自己好运降临、平安顺遂呢？于是，求天佑、求神明保庇，就成了人类千百年来的习惯。
-...</p></div><footer class=entry-footer><span title='2025-08-14 08:49:47 +0800 CST'>2025-08-14</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>1428 words</span>&nbsp;·&nbsp;<span>老刘</span></footer><a class=entry-link aria-label="post link to 上天保佑，并非无条件" href=https://iliu.org/god-bless-not-unconditionally/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>心斋，不只是吃素</h2></header><div class=entry-content><p>们常说“吃斋”，往往把它理解成不吃肉，甚至干脆把它等同于素食主义。久而久之，“斋”在日常语言里，就变成了餐桌上的事。可是实际上完全不是这么回事。
-...</p></div><footer class=entry-footer><span title='2025-08-13 08:45:11 +0800 CST'>2025-08-13</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>1006 words</span>&nbsp;·&nbsp;<span>老刘</span></footer><a class=entry-link aria-label="post link to 心斋，不只是吃素" href=https://iliu.org/fasting-of-the-heart-is-not-merely-about-eating-vegetarian/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>茶香里的岁月</h2></header><div class=entry-content><p>较于咖啡，我始终更愿意喝茶。咖啡不加糖时，只有一种单纯的苦味；茶，却是先苦后甘，回味悠长，如同人生里那些不动声色的温柔。
-我与茶的缘分，要追溯到八九岁。那时，家里有父亲买回的茉莉花茶，香气清幽，像一阵不经意的春风。家里还珍藏着两只瓷茶杯，白底青花，一般只有有客人来时才会拿出来用。倒也不是怕给弄坏了，是因为在那时候的农村，很少有人有喝茶的习惯，口渴了都是拿起饭碗倒上一碗水，这在河南很多时候都称之为茶。
-...</p></div><footer class=entry-footer><span title='2025-08-12 08:42:07 +0800 CST'>2025-08-12</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>796 words</span>&nbsp;·&nbsp;<span>老刘</span></footer><a class=entry-link aria-label="post link to 茶香里的岁月" href=https://iliu.org/years-steeped-in-the-fragrance-of-tea/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>自由、信号与风险管理</h2></header><div class=entry-content><p>读南怀瑾先生的《易经系传别讲》，读到《解》卦六三爻时，看到孔子在《系辞上传》中的一段话：
-子曰：危者，安其位者也；亡者，保其存者也；乱者，有其治者也。是故君子安而不忘危，存而不忘亡，治而不忘乱，是以身安而国家可保也。是故慢藏诲盗，冶容诲淫。
-...</p></div><footer class=entry-footer><span title='2025-08-11 08:39:23 +0800 CST'>2025-08-11</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>924 words</span>&nbsp;·&nbsp;<span>老刘</span></footer><a class=entry-link aria-label="post link to 自由、信号与风险管理" href=https://iliu.org/freedom-signaling-and-risk-management/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>Ghost 博客与 Mailgun 邮件服务申请全流程</h2></header><div class=entry-content><p>Ghost 的邮件系统与 Mailgun 深度集成，如果想要在 Ghost 上实现邮件订阅、密码找回、通知等功能，申请一个 Mailgun 账户几乎是必选项。好消息是——Mailgun 已经恢复免费套餐，每天可发送 100 封邮件，对个人博客来说完全够用，而且现在验证信用卡不再是必需。坏消息是——Mailgun 的风控依然非常严格，尤其是中国大陆用户，注册和解封过程可能会比较“曲折”。下面是我亲身踩坑并最终申请成功的全过程，希望能帮到你。
-...</p></div><footer class=entry-footer><span title='2025-08-10 08:34:35 +0800 CST'>2025-08-10</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>1132 words</span>&nbsp;·&nbsp;<span>老刘</span></footer><a class=entry-link aria-label="post link to Ghost 博客与 Mailgun 邮件服务申请全流程" href=https://iliu.org/complete-setup-process-for-ghost-blog-and-mailgun-email-service/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>说话，是世界上最轻易的事，也是最难的事</h2></header><div class=entry-content><p>今天继续研习南怀瑾先生的《易经杂说》，看到《易经·系辞上传》的一段话：
-子曰：君子居其室，出其言善，则千里之外应之，况其迩者乎？ 居其室，出其言不善，则千里之外违之，况其迩者乎？ 言出乎身，加乎民；行发乎迩，见乎远； 言行，君子之枢机。枢机之发，荣辱之主也。 言行，君子之所以动天地也，可不慎乎？
-...</p></div><footer class=entry-footer><span title='2025-08-08 08:30:06 +0800 CST'>2025-08-08</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>883 words</span>&nbsp;·&nbsp;<span>老刘</span></footer><a class=entry-link aria-label="post link to 说话，是世界上最轻易的事，也是最难的事" href=https://iliu.org/speaking-the-easiest-thing-to-do-yet-the-hardest-to-maste/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>Ubuntu部署ghost博客所踩的小坑</h2></header><div class=entry-content><p>Ghost 6.0 发布后，我就被它宣传的“联邦宇宙（Activitypub）”和“内置 Web 分析”功能狠狠吸引了。可惜一直用的 1Panel 面板并没有 Ghost 的升级选项，考虑到 Ghost 6 改动幅度较大，盲猜1Panel里的Docker需要重建，再加上想要尽快体验ghost的联邦宇宙等功能，所以打算用官方推荐的方式“一劳永逸”。
-...</p></div><footer class=entry-footer><span title='2025-08-06 08:26:28 +0800 CST'>2025-08-06</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>1217 words</span>&nbsp;·&nbsp;<span>老刘</span></footer><a class=entry-link aria-label="post link to Ubuntu部署ghost博客所踩的小坑" href=https://iliu.org/minor-pitfalls-enc-untered-when-deploying-ghost-blog-on-ubuntu/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>佛门变与不变：从释永信案说起</h2></header><div class=entry-content><p>近网上又热闹了，释永信的事成了热门话题。7月27日晚，少林寺发布通报，说他涉嫌刑事犯罪，被有关部门带走调查。挪用、侵占寺产、私生活混乱——这些原本只在坊间流传的质疑，如今一个个被坐实。紧接着，中国佛教协会也迅速表态，注销了他的戒牒，意思是：他不再是出家人了。
-...</p></div><footer class=entry-footer><span title='2025-07-31 21:26:56 +0800 CST'>2025-07-31</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>1093 words</span>&nbsp;·&nbsp;<span>老刘</span></footer><a class=entry-link aria-label="post link to 佛门变与不变：从释永信案说起" href=https://iliu.org/buddhism-untouched-monks-corrupted/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>陪女儿读《复活》</h2></header><div class=entry-content><p>暑假刚开始，我给女儿买了一堆高中语文推荐阅读的名著：狄更斯的《大卫·科波菲尔》、夏洛蒂的《简·爱》、还有列夫·托尔斯泰的《复活》。
-这些书的名字对我来说都不陌生，但也仅仅知道名字罢了，因为那时候的教育认为这些都是闲书，是耽误学习的存在。小的时候想读，而长大了之后没心情去读，如今换了一个身份，成了陪女儿一起走这段路的人，我觉得我应该也读一下这些书，最起码能和孩子一起聊聊，培养一下她的阅读兴趣，毕竟，对于现代孩子来说，手机以及现代风格的文学作品要比一个俄国贵族的忏悔、一个农家女的命运有趣的多。
-...</p></div><footer class=entry-footer><span title='2025-07-28 21:24:33 +0800 CST'>2025-07-28</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>805 words</span>&nbsp;·&nbsp;<span>老刘</span></footer><a class=entry-link aria-label="post link to 陪女儿读《复活》" href=https://iliu.org/reading-resurrection-with-my-daughter/></a></article><footer class=page-footer><nav class=pagination><a class=prev href=https://iliu.org/page/5/>«&nbsp;&nbsp;
-</a><a class=next href=https://iliu.org/page/7/>&nbsp;&nbsp;»</a></nav></footer></main><footer class=footer><span>&copy; 2026 <a href=https://iliu.org/>老刘博客</a></span> ·
-<span>Powered by
-<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
-<a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a>
-</span><a rel=me href=https://m.cmx.im/@laoliu>Mastodon</a></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentColor"><path d="M12 6H0l6-6z"/></svg>
-</a><script>let menu=document.getElementById("menu");menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove("dark"),localStorage.setItem("pref-theme","light")):(document.body.classList.add("dark"),localStorage.setItem("pref-theme","dark"))})</script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="generator" content="Hugo 0.155.3">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="这是我的个人博客，记录一些读书、工作、生活方面的杂记，及折腾各种物件的记录">
+    <title>老刘博客</title>
+
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/flexsearch@0.7.31/dist/flexsearch.bundle.min.js"></script>
+</head>
+<body class="">
+    <header class="site-header">
+        <div class="header-content">
+            <a href="/" class="site-title">老刘博客</a>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="site-container">
+        
+        <aside class="site-nav">
+            <nav class="nav-menu">
+    
+    <div class="nav-search">
+        <input type="search" id="search-input" placeholder="Search..." aria-label="搜索">
+        <button id="search-btn" aria-label="搜索按钮">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+            </svg>
+        </button>
+        <div id="search-results" class="search-results"></div>
+    </div>
+
+    
+    <div class="nav-section">
+        <h3 class="nav-section-title">导航</h3>
+        <ul class="nav-list">
+            <li><a href="/" class="active">🏠 首页</a></li>
+            
+            <li><a href="/archives/" class="">
+                📂 
+                
+                
+                归档
+            </a></li>
+            
+            <li><a href="/friends/" class="">
+                
+                🔗 
+                
+                友链
+            </a></li>
+            
+            <li><a href="/boyoupeijing/" class="">
+                
+                
+                👓 
+                配镜
+            </a></li>
+            
+            <li><a href="/categories/">📁 分类</a></li>
+            <li><a href="/tags/">🏷️ 标签</a></li>
+        </ul>
+    </div>
+
+    
+    
+    <div class="nav-section">
+        <a href="/about/" class="nav-about-link">关于</a>
+    </div>
+    
+
+    
+    <div class="nav-section" style="margin-top: var(--spacing-lg); padding-top: var(--spacing-md); border-top: 1px solid var(--color-border-light);">
+        <div style="font-size: var(--font-size-xs); color: var(--color-text-muted); line-height: 1.8;">
+            <p style="margin-bottom: 4px;">
+                <a href="https://github.com/ewader" target="_blank" rel="noopener" style="color: inherit;">GitHub</a> / 
+                <a href="https://iliu.org/index.xml" style="color: inherit;">RSS</a>
+            </p>
+            <p style="margin-bottom: 4px;">Power by Hugo</p>
+            <p style="margin-bottom: 4px;">Theme: Three Column</p>
+            <p>CC BY-NC-ND 4.0</p>
+        </div>
+    </div>
+</nav>
+
+        </aside>
+
+        
+        <main class="site-main">
+            
+
+
+<div class="hero-section">
+    <h1 class="hero-title">Hello, 我是老刘! 🌱</h1>
+    <p class="hero-subtitle">这是我的个人博客，记录一些读书、工作、生活方面的杂记，及折腾各种物件的记录</p>
+    
+    
+    <p class="hero-intro">老刘，验光师，曾在某眼科医院任职视光部主任，目前在经营一家眼镜店，有这方面需求的朋友可以微我哦。</p>
+    
+    
+    <p class="hero-interests">
+        🌊 互联网冲浪 ✈️ 旅行 📚读书 🎥 看电影 💻 折腾网站 🎧 听音乐 
+    </p>
+    
+    
+
+    
+    
+    <div class="hero-social">
+        
+        <a href="https://github.com/ewader" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+            </svg>
+        </a>
+        
+        
+        <a href="https://x.com/tunanblog" target="_blank" rel="noopener" aria-label="Twitter">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+            </svg>
+        </a>
+        
+        
+        <a href="mailto:ewader@qq.com" aria-label="Email">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+            </svg>
+        </a>
+        
+        
+        <a href="https://iliu.org/index.xml" target="_blank" rel="noopener" aria-label="RSS">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19 7.38 20 6.18 20C5 20 4 19 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1z"/>
+            </svg>
+        </a>
+        
+    </div>
+    
+
+    
+    
+<div class="memos-widget">
+    <h3 class="widget-title">微博客</h3>
+    <div id="memos-container" class="memos-container">
+        <div class="memos-loading">加载中...</div>
+    </div>
+</div>
+
+<script>
+(function() {
+    const MEMOS_API = 'https://note.l22.org/api/v1/memos?pageSize=1&visibility=PUBLIC';
+    const container = document.getElementById('memos-container');
+    
+    fetch(MEMOS_API)
+        .then(response => response.json())
+        .then(result => {
+            const data = result.memos || [];
+            if (!data || data.length === 0) {
+                container.innerHTML = '<div class="memos-empty">暂无内容</div>';
+                return;
+            }
+            
+            let html = '';
+            data.forEach(memo => {
+                let content = memo.content || '';
+                
+                if (content.length > 80) {
+                    content = content.substring(0, 80) + '...';
+                }
+                
+                content = content.replace(/\n/g, '<br>');
+                
+                const date = new Date(memo.createTime);
+                const dateStr = date.toLocaleDateString('zh-CN', {
+                    month: '2-digit',
+                    day: '2-digit',
+                    hour: '2-digit',
+                    minute: '2-digit'
+                });
+                
+                html += `
+                    <div class="memo-item">
+                        <div class="memo-content">${content}</div>
+                        <div class="memo-date">${dateStr}</div>
+                    </div>
+                `;
+            });
+            
+            container.innerHTML = html;
+        })
+        .catch(error => {
+            console.error('加载微博客失败:', error);
+            container.innerHTML = '<div class="memos-error">加载失败</div>';
+        });
+})();
+</script>
+</div>
+
+
+<div class="posts-timeline">
+    
+    
+    <article class="post-card">
+        <div class="post-timeline-dot"></div>
+        <div class="post-timeline-line"></div>
+        <div class="post-content">
+            <h2 class="post-title">
+                <a href="/from-windows-to-linux-the-process-and-insights-of-re-experiencing/">从 Windows 到 Linux：重新体验的过程与心得</a>
+            </h2>
+            <div class="post-meta">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="margin-right: 4px;">
+                    <path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2z"/>
+                </svg>
+                <time class="post-date" datetime="2025-09-23">
+                    2025-09-23
+                </time>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="margin-left: 8px; margin-right: 4px;">
+                    <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/>
+                </svg>
+                <span style="color: var(--color-text-muted);">1 min</span>
+                
+                <span class="post-categories" style="margin-left: 8px;">
+                    
+                    <a href="/categories/%E9%BD%90%E7%89%A9/" class="category">#齐物</a>
+                    
+                </span>
+                
+            </div>
+            
+            
+            <p class="post-excerpt">几年前，我使用过一段时间Linux，后来因为没有官方的微信客户端，并且每三个月需要报税的软件只能在Windows上使用，所以我放弃了Linux，转而使用了Windows 11，过了几年，便懒得再折腾。最近，电脑偶尔会出现卡顿的情况，每次都需要重启才能解决。我曾经重置过系统，但问题依然没有得到彻底解决。恰好，我看到某位博友写的主力使用Ubuntu24的博客，因此，我决定重新尝试使用Linux，毕竟我...</p>
+            
+            
+            <div class="post-tags">
+                
+                <a href="/tags/linux/" class="tag">#Linux</a>
+                
+            </div>
+            
+            <a href="/from-windows-to-linux-the-process-and-insights-of-re-experiencing/" class="post-read-more">阅读更多</a>
+        </div>
+    </article>
+    
+    <article class="post-card">
+        <div class="post-timeline-dot"></div>
+        <div class="post-timeline-line"></div>
+        <div class="post-content">
+            <h2 class="post-title">
+                <a href="/wind-moves-flags-flutter-or-heart-moves/">风动，幡动还是心动</a>
+            </h2>
+            <div class="post-meta">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="margin-right: 4px;">
+                    <path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2z"/>
+                </svg>
+                <time class="post-date" datetime="2025-09-19">
+                    2025-09-19
+                </time>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="margin-left: 8px; margin-right: 4px;">
+                    <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/>
+                </svg>
+                <span style="color: var(--color-text-muted);">1 min</span>
+                
+                <span class="post-categories" style="margin-left: 8px;">
+                    
+                    <a href="/categories/%E5%BE%B7%E5%85%85%E7%AC%A6/" class="category">#德充符</a>
+                    
+                </span>
+                
+            </div>
+            
+            
+            <p class="post-excerpt">读南怀瑾先生的《禅宗和道家》，读到“风动、幡动、心动”这个典故（佛家称为公案）时，我的思绪回到了过去。
+记得第一次读到这个公案，大概是在初中的政治课本上。故事是这样的：
+唐代仪凤元年（676年），慧能大师在广州法性寺（今光孝寺）听印宗法师讲《涅槃经》。一阵风吹来，寺中的幡旗随风摇曳，引发了两位僧人的争论。一位僧人说：“是风在动。”另一位坚持：“是幡在动。”两人争执不下，慧能大师便上前说道：“不是风...</p>
+            
+            
+            <div class="post-tags">
+                
+                <a href="/tags/%E8%AF%BB%E4%B9%A6/" class="tag">#读书</a>
+                
+            </div>
+            
+            <a href="/wind-moves-flags-flutter-or-heart-moves/" class="post-read-more">阅读更多</a>
+        </div>
+    </article>
+    
+    <article class="post-card">
+        <div class="post-timeline-dot"></div>
+        <div class="post-timeline-line"></div>
+        <div class="post-content">
+            <h2 class="post-title">
+                <a href="/money-psychology-the-eternal-truths-of-wealth-humanity-and-happiness/">金钱心理学：财富、人性和幸福的永恒真相</a>
+            </h2>
+            <div class="post-meta">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="margin-right: 4px;">
+                    <path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2z"/>
+                </svg>
+                <time class="post-date" datetime="2025-09-18">
+                    2025-09-18
+                </time>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="margin-left: 8px; margin-right: 4px;">
+                    <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/>
+                </svg>
+                <span style="color: var(--color-text-muted);">1 min</span>
+                
+                <span class="post-categories" style="margin-left: 8px;">
+                    
+                    <a href="/categories/%E5%BE%B7%E5%85%85%E7%AC%A6/" class="category">#德充符</a>
+                    
+                </span>
+                
+            </div>
+            
+            
+            <p class="post-excerpt">我曾以为，理财是一个很复杂的东西，股票、基金、保险等等，充满了复杂的公式和博弈。所以，对理财这方面一直抱着敬而远之的态度，只会挑选一些风险小的项目。也曾在股市上投入了一些，但每次都赶不上节奏，所以慢慢的这方面的心思也就淡了。
+前几天偶尔在微信读书上看到了摩根·豪泽尔的《金钱心理学：财富、人性和幸福的永恒真相》这本书，才发现原来理财也可以是这么简单的一件事情，但简单的事情，往往也是最不容易做到的事情...</p>
+            
+            
+            <div class="post-tags">
+                
+                <a href="/tags/%E8%AF%BB%E4%B9%A6/" class="tag">#读书</a>
+                
+            </div>
+            
+            <a href="/money-psychology-the-eternal-truths-of-wealth-humanity-and-happiness/" class="post-read-more">阅读更多</a>
+        </div>
+    </article>
+    
+    <article class="post-card">
+        <div class="post-timeline-dot"></div>
+        <div class="post-timeline-line"></div>
+        <div class="post-content">
+            <h2 class="post-title">
+                <a href="/manchester-united-suffer-another-defeat/">曼联再次输球</a>
+            </h2>
+            <div class="post-meta">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="margin-right: 4px;">
+                    <path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2z"/>
+                </svg>
+                <time class="post-date" datetime="2025-09-17">
+                    2025-09-17
+                </time>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="margin-left: 8px; margin-right: 4px;">
+                    <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/>
+                </svg>
+                <span style="color: var(--color-text-muted);">1 min</span>
+                
+                <span class="post-categories" style="margin-left: 8px;">
+                    
+                    <a href="/categories/%E4%BA%BA%E9%97%B4%E4%B8%96/" class="category">#人间世</a>
+                    
+                </span>
+                
+            </div>
+            
+            
+            <p class="post-excerpt">不出所料，曼联又输了，输给了同城死敌曼城，这结果一点都不让人感到意外，所以也就没有了什么不好的情绪。如今的曼联，用“每况愈下”这个词来形容，简直再贴切不过了。
+每年夏天，曼联都像个豪气的冤大头，挥舞着钞票在转会市场上一掷千金。买回来的球员的表现确都不如预期。今年，他们终于改变了买人的策略，不再只盯着那些潜力新人，而是把钱砸向了联赛中的“即战力”。即战力来是来了，但是花费了2亿英镑买的即战力，也不会...</p>
+            
+            
+            <div class="post-tags">
+                
+                <a href="/tags/%E9%9A%8F%E7%AC%94/" class="tag">#随笔</a>
+                
+            </div>
+            
+            <a href="/manchester-united-suffer-another-defeat/" class="post-read-more">阅读更多</a>
+        </div>
+    </article>
+    
+    <article class="post-card">
+        <div class="post-timeline-dot"></div>
+        <div class="post-timeline-line"></div>
+        <div class="post-content">
+            <h2 class="post-title">
+                <a href="/troubleshooting-tencent-edgeone-a-dnssec-odyssey/">解决腾讯 EdgeOne 域名解析与 SSL 证书申请失败问题</a>
+            </h2>
+            <div class="post-meta">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="margin-right: 4px;">
+                    <path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2z"/>
+                </svg>
+                <time class="post-date" datetime="2025-09-16">
+                    2025-09-16
+                </time>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="margin-left: 8px; margin-right: 4px;">
+                    <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/>
+                </svg>
+                <span style="color: var(--color-text-muted);">1 min</span>
+                
+                <span class="post-categories" style="margin-left: 8px;">
+                    
+                    <a href="/categories/%E9%BD%90%E7%89%A9/" class="category">#齐物</a>
+                    
+                </span>
+                
+            </div>
+            
+            
+            <p class="post-excerpt">前几个月，我关注到腾讯新推出的 EdgeOne 服务。这款产品无需备案和实名，而且提供免费额度，对于个人网站来说非常友好。刚发布时兑换码一码难求，我并没有太多关注。后来，腾讯推出了一个活动，只要在 X（原 Twitter）上转发推文，就能获得两个兑换码。我成功领取并兑换了一个，并将其用于我的“镜缘轩”网站。
+我的“镜缘轩”网站部署在 CloudCone 的 VPS 上，访问速度一直不尽如人意。接入...</p>
+            
+            
+            <div class="post-tags">
+                
+                <a href="/tags/%E7%BD%91%E7%AB%99/" class="tag">#网站</a>
+                
+            </div>
+            
+            <a href="/troubleshooting-tencent-edgeone-a-dnssec-odyssey/" class="post-read-more">阅读更多</a>
+        </div>
+    </article>
+    
+    <article class="post-card">
+        <div class="post-timeline-dot"></div>
+        <div class="post-timeline-line"></div>
+        <div class="post-content">
+            <h2 class="post-title">
+                <a href="/seven-months-with-the-i-ching-notes-and-insights/">七个月读《易经》的碎片与感悟</a>
+            </h2>
+            <div class="post-meta">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="margin-right: 4px;">
+                    <path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2z"/>
+                </svg>
+                <time class="post-date" datetime="2025-09-15">
+                    2025-09-15
+                </time>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="margin-left: 8px; margin-right: 4px;">
+                    <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/>
+                </svg>
+                <span style="color: var(--color-text-muted);">1 min</span>
+                
+                <span class="post-categories" style="margin-left: 8px;">
+                    
+                    <a href="/categories/%E5%BE%B7%E5%85%85%E7%AC%A6/" class="category">#德充符</a>
+                    
+                </span>
+                
+            </div>
+            
+            
+            <p class="post-excerpt"> 闲坐小窗读周易，不知春去几多时。
+从2025年2月翻开南怀瑾先生的《易经杂说》和《易经系列别讲》，到今天，整整七个月过去了。说“读完了”，其实只是一个时间节点——真正的学习远没有结束。中华传统文化厚重而深远，每一次翻阅，都会带来不同的感触。
+一、读书与写作的碎片记录 这七个月，我边读边写，把每一次阅读的感悟记录下来。文字成了记录，也成了生活的镜子：
+2月26日，《跟着南怀瑾先生学易经（一）》 初...</p>
+            
+            
+            <div class="post-tags">
+                
+                <a href="/tags/%E8%AF%BB%E4%B9%A6/" class="tag">#读书</a>
+                
+                <a href="/tags/%E6%98%93%E7%BB%8F/" class="tag">#易经</a>
+                
+            </div>
+            
+            <a href="/seven-months-with-the-i-ching-notes-and-insights/" class="post-read-more">阅读更多</a>
+        </div>
+    </article>
+    
+
+    
+    
+    <ul class="pagination pagination-default">
+      <li class="page-item">
+        <a href="/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/page/5/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/page/4/" aria-label="Page 4" class="page-link" role="button">4</a>
+      </li>
+      <li class="page-item">
+        <a href="/page/5/" aria-label="Page 5" class="page-link" role="button">5</a>
+      </li>
+      <li class="page-item active">
+        <a aria-current="page" aria-label="Page 6" class="page-link" role="button">6</a>
+      </li>
+      <li class="page-item">
+        <a href="/page/7/" aria-label="Page 7" class="page-link" role="button">7</a>
+      </li>
+      <li class="page-item">
+        <a href="/page/8/" aria-label="Page 8" class="page-link" role="button">8</a>
+      </li>
+      <li class="page-item">
+        <a href="/page/7/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/page/164/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
+      </li>
+    </ul>
+</div>
+
+
+
+        </main>
+
+        
+        <aside class="site-sidebar">
+            <aside class="sidebar">
+    
+    <div class="heatmap">
+    <h3 class="widget-title">热力图</h3>
+    <div class="heatmap-grid" id="heatmap-grid">
+        
+    </div>
+    <div class="heatmap-legend">
+        <span>一</span>
+        <div class="heatmap-legend-spans">
+            <span class="heatmap-legend-span" style="background-color: var(--color-border-light);"></span>
+            <span class="heatmap-legend-span" style="background-color: #c6e48b;"></span>
+            <span class="heatmap-legend-span" style="background-color: #7bc96f;"></span>
+            <span class="heatmap-legend-span" style="background-color: #239a3b;"></span>
+            <span class="heatmap-legend-span" style="background-color: #196127;"></span>
+        </div>
+        <span>日</span>
+    </div>
+    <p style="font-size: var(--font-size-xs); color: var(--color-text-muted); margin-top: var(--spacing-sm); text-align: center;">
+        写写停停，博主已记录 <span id="total-posts" style="color: var(--color-accent); font-weight: 600;">0</span> 篇文章！
+    </p>
+</div>
+
+<script>
+(function() {
+    const grid = document.getElementById('heatmap-grid');
+    if (!grid) return;
+
+    
+    const postsData = [
+        
+        {
+            date: "2026-02-05",
+            count: 1
+        },
+        
+        {
+            date: "2026-02-04",
+            count: 1
+        },
+        
+        {
+            date: "2026-01-22",
+            count: 1
+        },
+        
+        {
+            date: "2026-01-18",
+            count: 1
+        },
+        
+        {
+            date: "2026-01-14",
+            count: 1
+        },
+        
+        {
+            date: "2026-01-08",
+            count: 1
+        },
+        
+        {
+            date: "2026-01-04",
+            count: 1
+        },
+        
+        {
+            date: "2026-01-02",
+            count: 1
+        },
+        
+        {
+            date: "2025-12-30",
+            count: 1
+        },
+        
+        {
+            date: "2025-12-23",
+            count: 1
+        },
+        
+        {
+            date: "2025-12-18",
+            count: 1
+        },
+        
+        {
+            date: "2025-12-13",
+            count: 1
+        },
+        
+        {
+            date: "2025-12-11",
+            count: 1
+        },
+        
+        {
+            date: "2025-12-07",
+            count: 1
+        },
+        
+        {
+            date: "2025-12-03",
+            count: 1
+        },
+        
+        {
+            date: "2025-11-30",
+            count: 1
+        },
+        
+        {
+            date: "2025-11-29",
+            count: 1
+        },
+        
+        {
+            date: "2025-11-26",
+            count: 1
+        },
+        
+        {
+            date: "2025-11-21",
+            count: 1
+        },
+        
+        {
+            date: "2025-11-11",
+            count: 1
+        },
+        
+        {
+            date: "2025-10-28",
+            count: 1
+        },
+        
+        {
+            date: "2025-10-21",
+            count: 1
+        },
+        
+        {
+            date: "2025-10-16",
+            count: 1
+        },
+        
+        {
+            date: "2025-10-13",
+            count: 1
+        },
+        
+        {
+            date: "2025-10-11",
+            count: 1
+        },
+        
+        {
+            date: "2025-10-10",
+            count: 1
+        },
+        
+        {
+            date: "2025-10-09",
+            count: 1
+        },
+        
+        {
+            date: "2025-10-02",
+            count: 1
+        },
+        
+        {
+            date: "2025-09-29",
+            count: 1
+        },
+        
+        {
+            date: "2025-09-25",
+            count: 1
+        },
+        
+        {
+            date: "2025-09-23",
+            count: 1
+        },
+        
+        {
+            date: "2025-09-19",
+            count: 1
+        },
+        
+        {
+            date: "2025-09-18",
+            count: 1
+        },
+        
+        {
+            date: "2025-09-17",
+            count: 1
+        },
+        
+        {
+            date: "2025-09-16",
+            count: 1
+        },
+        
+        {
+            date: "2025-09-15",
+            count: 1
+        },
+        
+        {
+            date: "2025-09-13",
+            count: 1
+        },
+        
+        {
+            date: "2025-09-08",
+            count: 1
+        },
+        
+        {
+            date: "2025-09-05",
+            count: 1
+        },
+        
+        {
+            date: "2025-09-04",
+            count: 1
+        },
+        
+        {
+            date: "2025-09-03",
+            count: 1
+        },
+        
+        {
+            date: "2025-09-01",
+            count: 1
+        },
+        
+        {
+            date: "2025-08-29",
+            count: 1
+        },
+        
+        {
+            date: "2025-08-27",
+            count: 1
+        },
+        
+        {
+            date: "2025-08-24",
+            count: 1
+        },
+        
+        {
+            date: "2025-08-23",
+            count: 1
+        },
+        
+        {
+            date: "2025-08-21",
+            count: 1
+        },
+        
+        {
+            date: "2025-08-19",
+            count: 1
+        },
+        
+        {
+            date: "2025-08-18",
+            count: 1
+        },
+        
+        {
+            date: "2025-08-17",
+            count: 1
+        },
+        
+        {
+            date: "2025-08-15",
+            count: 1
+        },
+        
+        {
+            date: "2025-08-14",
+            count: 1
+        },
+        
+        {
+            date: "2025-08-13",
+            count: 1
+        },
+        
+        {
+            date: "2025-08-12",
+            count: 1
+        },
+        
+        {
+            date: "2025-08-11",
+            count: 1
+        },
+        
+        {
+            date: "2025-08-10",
+            count: 1
+        },
+        
+        {
+            date: "2025-08-08",
+            count: 1
+        },
+        
+        {
+            date: "2025-08-06",
+            count: 1
+        },
+        
+        {
+            date: "2025-07-31",
+            count: 1
+        },
+        
+        {
+            date: "2025-07-28",
+            count: 1
+        },
+        
+        {
+            date: "2025-07-13",
+            count: 1
+        },
+        
+        {
+            date: "2025-07-03",
+            count: 1
+        },
+        
+        {
+            date: "2025-07-02",
+            count: 1
+        },
+        
+        {
+            date: "2025-06-20",
+            count: 1
+        },
+        
+        {
+            date: "2025-06-14",
+            count: 1
+        },
+        
+        {
+            date: "2025-06-13",
+            count: 1
+        },
+        
+        {
+            date: "2025-06-09",
+            count: 1
+        },
+        
+        {
+            date: "2025-06-09",
+            count: 1
+        },
+        
+        {
+            date: "2025-06-08",
+            count: 1
+        },
+        
+        {
+            date: "2025-06-05",
+            count: 1
+        },
+        
+        {
+            date: "2025-06-04",
+            count: 1
+        },
+        
+        {
+            date: "2025-06-04",
+            count: 1
+        },
+        
+        {
+            date: "2025-06-03",
+            count: 1
+        },
+        
+        {
+            date: "2025-06-02",
+            count: 1
+        },
+        
+        {
+            date: "2025-06-01",
+            count: 1
+        },
+        
+        {
+            date: "2025-05-19",
+            count: 1
+        },
+        
+        {
+            date: "2025-05-06",
+            count: 1
+        },
+        
+        {
+            date: "2025-05-04",
+            count: 1
+        },
+        
+        {
+            date: "2025-04-19",
+            count: 1
+        },
+        
+        {
+            date: "2025-04-15",
+            count: 1
+        },
+        
+        {
+            date: "2025-04-01",
+            count: 1
+        },
+        
+        {
+            date: "2025-03-29",
+            count: 1
+        },
+        
+        {
+            date: "2025-03-26",
+            count: 1
+        },
+        
+        {
+            date: "2025-03-24",
+            count: 1
+        },
+        
+        {
+            date: "2025-02-26",
+            count: 1
+        },
+        
+        {
+            date: "2025-02-14",
+            count: 1
+        },
+        
+        {
+            date: "2025-02-08",
+            count: 1
+        },
+        
+        {
+            date: "2025-01-19",
+            count: 1
+        },
+        
+        {
+            date: "2025-01-16",
+            count: 1
+        },
+        
+        {
+            date: "2025-01-14",
+            count: 1
+        },
+        
+        {
+            date: "2025-01-07",
+            count: 1
+        },
+        
+        {
+            date: "2024-11-27",
+            count: 1
+        },
+        
+        {
+            date: "2024-11-14",
+            count: 1
+        },
+        
+        {
+            date: "2024-11-06",
+            count: 1
+        },
+        
+        {
+            date: "2024-10-30",
+            count: 1
+        },
+        
+        {
+            date: "2024-10-29",
+            count: 1
+        },
+        
+        {
+            date: "2024-10-25",
+            count: 1
+        },
+        
+        {
+            date: "2024-10-20",
+            count: 1
+        },
+        
+        {
+            date: "2024-09-29",
+            count: 1
+        },
+        
+        {
+            date: "2024-09-23",
+            count: 1
+        },
+        
+        {
+            date: "2024-09-16",
+            count: 1
+        },
+        
+        {
+            date: "2024-09-12",
+            count: 1
+        },
+        
+        {
+            date: "2024-09-10",
+            count: 1
+        },
+        
+        {
+            date: "2024-09-06",
+            count: 1
+        },
+        
+        {
+            date: "2024-09-03",
+            count: 1
+        },
+        
+        {
+            date: "2024-09-01",
+            count: 1
+        },
+        
+        {
+            date: "2024-08-29",
+            count: 1
+        },
+        
+        {
+            date: "2024-08-28",
+            count: 1
+        },
+        
+        {
+            date: "2024-08-28",
+            count: 1
+        },
+        
+        {
+            date: "2024-08-11",
+            count: 1
+        },
+        
+        {
+            date: "2024-08-03",
+            count: 1
+        },
+        
+        {
+            date: "2024-07-18",
+            count: 1
+        },
+        
+        {
+            date: "2024-07-03",
+            count: 1
+        },
+        
+        {
+            date: "2024-06-24",
+            count: 1
+        },
+        
+        {
+            date: "2024-06-21",
+            count: 1
+        },
+        
+        {
+            date: "2024-06-17",
+            count: 1
+        },
+        
+        {
+            date: "2024-05-27",
+            count: 1
+        },
+        
+        {
+            date: "2024-05-26",
+            count: 1
+        },
+        
+        {
+            date: "2024-05-15",
+            count: 1
+        },
+        
+        {
+            date: "2024-05-05",
+            count: 1
+        },
+        
+        {
+            date: "2024-02-28",
+            count: 1
+        },
+        
+        {
+            date: "2024-02-26",
+            count: 1
+        },
+        
+        {
+            date: "2024-02-24",
+            count: 1
+        },
+        
+        {
+            date: "2024-02-22",
+            count: 1
+        },
+        
+        {
+            date: "2024-02-17",
+            count: 1
+        },
+        
+        {
+            date: "2024-02-15",
+            count: 1
+        },
+        
+        {
+            date: "2024-02-07",
+            count: 1
+        },
+        
+        {
+            date: "2024-01-16",
+            count: 1
+        },
+        
+        {
+            date: "2024-01-15",
+            count: 1
+        },
+        
+        {
+            date: "2024-01-15",
+            count: 1
+        },
+        
+        {
+            date: "2024-01-01",
+            count: 1
+        },
+        
+        {
+            date: "2024-01-01",
+            count: 1
+        },
+        
+        {
+            date: "2023-12-31",
+            count: 1
+        },
+        
+        {
+            date: "2023-12-11",
+            count: 1
+        },
+        
+        {
+            date: "2023-12-09",
+            count: 1
+        },
+        
+        {
+            date: "2023-12-08",
+            count: 1
+        },
+        
+        {
+            date: "2023-12-07",
+            count: 1
+        },
+        
+        {
+            date: "2023-12-03",
+            count: 1
+        },
+        
+        {
+            date: "2023-12-01",
+            count: 1
+        },
+        
+        {
+            date: "2023-11-28",
+            count: 1
+        },
+        
+        {
+            date: "2023-11-26",
+            count: 1
+        },
+        
+        {
+            date: "2023-11-20",
+            count: 1
+        },
+        
+        {
+            date: "2023-11-15",
+            count: 1
+        },
+        
+        {
+            date: "2023-11-14",
+            count: 1
+        },
+        
+        {
+            date: "2023-11-13",
+            count: 1
+        },
+        
+        {
+            date: "2023-11-12",
+            count: 1
+        },
+        
+        {
+            date: "2023-11-08",
+            count: 1
+        },
+        
+        {
+            date: "2023-11-07",
+            count: 1
+        },
+        
+        {
+            date: "2023-11-04",
+            count: 1
+        },
+        
+        {
+            date: "2023-11-03",
+            count: 1
+        },
+        
+        {
+            date: "2023-11-01",
+            count: 1
+        },
+        
+        {
+            date: "2023-08-17",
+            count: 1
+        },
+        
+        {
+            date: "2023-08-01",
+            count: 1
+        },
+        
+        {
+            date: "2023-07-30",
+            count: 1
+        },
+        
+        {
+            date: "2023-07-18",
+            count: 1
+        },
+        
+        {
+            date: "2023-07-18",
+            count: 1
+        },
+        
+        {
+            date: "2023-07-01",
+            count: 1
+        },
+        
+        {
+            date: "2023-06-14",
+            count: 1
+        },
+        
+        {
+            date: "2023-06-08",
+            count: 1
+        },
+        
+        {
+            date: "2023-05-24",
+            count: 1
+        },
+        
+        {
+            date: "2023-05-24",
+            count: 1
+        },
+        
+        {
+            date: "2023-05-21",
+            count: 1
+        },
+        
+        {
+            date: "2023-05-19",
+            count: 1
+        },
+        
+        {
+            date: "2023-05-15",
+            count: 1
+        },
+        
+        {
+            date: "2023-04-23",
+            count: 1
+        },
+        
+        {
+            date: "2023-04-19",
+            count: 1
+        },
+        
+        {
+            date: "2023-04-15",
+            count: 1
+        },
+        
+        {
+            date: "2023-04-14",
+            count: 1
+        },
+        
+        {
+            date: "2023-04-13",
+            count: 1
+        },
+        
+        {
+            date: "2023-04-09",
+            count: 1
+        },
+        
+        {
+            date: "2023-04-06",
+            count: 1
+        },
+        
+        {
+            date: "2023-03-29",
+            count: 1
+        },
+        
+        {
+            date: "2023-03-27",
+            count: 1
+        },
+        
+        {
+            date: "2023-03-25",
+            count: 1
+        },
+        
+        {
+            date: "2023-03-22",
+            count: 1
+        },
+        
+        {
+            date: "2023-03-07",
+            count: 1
+        },
+        
+        {
+            date: "2022-12-20",
+            count: 1
+        },
+        
+        {
+            date: "2022-12-13",
+            count: 1
+        },
+        
+        {
+            date: "2022-12-02",
+            count: 1
+        },
+        
+        {
+            date: "2022-12-01",
+            count: 1
+        },
+        
+        {
+            date: "2022-11-26",
+            count: 1
+        },
+        
+        {
+            date: "2022-11-24",
+            count: 1
+        },
+        
+        {
+            date: "2022-11-18",
+            count: 1
+        },
+        
+        {
+            date: "2022-11-16",
+            count: 1
+        },
+        
+        {
+            date: "2022-11-15",
+            count: 1
+        },
+        
+        {
+            date: "2022-11-07",
+            count: 1
+        },
+        
+        {
+            date: "2022-11-02",
+            count: 1
+        },
+        
+        {
+            date: "2022-10-19",
+            count: 1
+        },
+        
+        {
+            date: "2022-10-14",
+            count: 1
+        },
+        
+        {
+            date: "2022-10-12",
+            count: 1
+        },
+        
+        {
+            date: "2022-10-03",
+            count: 1
+        },
+        
+        {
+            date: "2022-09-30",
+            count: 1
+        },
+        
+        {
+            date: "2022-09-19",
+            count: 1
+        },
+        
+        {
+            date: "2022-09-12",
+            count: 1
+        },
+        
+        {
+            date: "2022-09-05",
+            count: 1
+        },
+        
+        {
+            date: "2022-08-24",
+            count: 1
+        },
+        
+        {
+            date: "2022-08-17",
+            count: 1
+        },
+        
+        {
+            date: "2022-08-16",
+            count: 1
+        },
+        
+        {
+            date: "2022-08-10",
+            count: 1
+        },
+        
+        {
+            date: "2022-08-09",
+            count: 1
+        },
+        
+        {
+            date: "2022-08-06",
+            count: 1
+        },
+        
+        {
+            date: "2022-08-04",
+            count: 1
+        },
+        
+        {
+            date: "2022-08-02",
+            count: 1
+        },
+        
+        {
+            date: "2022-07-29",
+            count: 1
+        },
+        
+        {
+            date: "2022-07-25",
+            count: 1
+        },
+        
+        {
+            date: "2022-07-22",
+            count: 1
+        },
+        
+        {
+            date: "2022-07-05",
+            count: 1
+        },
+        
+        {
+            date: "2022-06-30",
+            count: 1
+        },
+        
+        {
+            date: "2022-06-26",
+            count: 1
+        },
+        
+        {
+            date: "2022-06-24",
+            count: 1
+        },
+        
+        {
+            date: "2022-06-23",
+            count: 1
+        },
+        
+        {
+            date: "2022-06-07",
+            count: 1
+        },
+        
+        {
+            date: "2022-06-03",
+            count: 1
+        },
+        
+        {
+            date: "2022-06-02",
+            count: 1
+        },
+        
+        {
+            date: "2022-05-28",
+            count: 1
+        },
+        
+        {
+            date: "2022-05-27",
+            count: 1
+        },
+        
+        {
+            date: "2022-05-26",
+            count: 1
+        },
+        
+        {
+            date: "2022-05-25",
+            count: 1
+        },
+        
+        {
+            date: "2022-05-20",
+            count: 1
+        },
+        
+        {
+            date: "2022-05-17",
+            count: 1
+        },
+        
+        {
+            date: "2022-05-15",
+            count: 1
+        },
+        
+        {
+            date: "2022-05-12",
+            count: 1
+        },
+        
+        {
+            date: "2022-05-11",
+            count: 1
+        },
+        
+        {
+            date: "2022-03-16",
+            count: 1
+        },
+        
+        {
+            date: "2022-03-15",
+            count: 1
+        },
+        
+        {
+            date: "2022-03-13",
+            count: 1
+        },
+        
+        {
+            date: "2022-02-26",
+            count: 1
+        },
+        
+        {
+            date: "2022-02-24",
+            count: 1
+        },
+        
+        {
+            date: "2022-02-23",
+            count: 1
+        },
+        
+        {
+            date: "2022-02-16",
+            count: 1
+        },
+        
+        {
+            date: "2022-02-11",
+            count: 1
+        },
+        
+        {
+            date: "2022-02-01",
+            count: 1
+        },
+        
+        {
+            date: "2022-01-30",
+            count: 1
+        },
+        
+        {
+            date: "2022-01-28",
+            count: 1
+        },
+        
+        {
+            date: "2022-01-20",
+            count: 1
+        },
+        
+        {
+            date: "2022-01-17",
+            count: 1
+        },
+        
+        {
+            date: "2022-01-14",
+            count: 1
+        },
+        
+        {
+            date: "2022-01-11",
+            count: 1
+        },
+        
+        {
+            date: "2022-01-10",
+            count: 1
+        },
+        
+        {
+            date: "2022-01-09",
+            count: 1
+        },
+        
+        {
+            date: "2022-01-06",
+            count: 1
+        },
+        
+        {
+            date: "2022-01-05",
+            count: 1
+        },
+        
+        {
+            date: "2022-01-04",
+            count: 1
+        },
+        
+        {
+            date: "2022-01-03",
+            count: 1
+        },
+        
+        {
+            date: "2022-01-01",
+            count: 1
+        },
+        
+        {
+            date: "2021-12-30",
+            count: 1
+        },
+        
+        {
+            date: "2021-12-29",
+            count: 1
+        },
+        
+        {
+            date: "2021-12-27",
+            count: 1
+        },
+        
+        {
+            date: "2021-12-25",
+            count: 1
+        },
+        
+        {
+            date: "2021-12-24",
+            count: 1
+        },
+        
+        {
+            date: "2021-12-23",
+            count: 1
+        },
+        
+        {
+            date: "2021-12-22",
+            count: 1
+        },
+        
+        {
+            date: "2021-12-21",
+            count: 1
+        },
+        
+        {
+            date: "2021-12-20",
+            count: 1
+        },
+        
+        {
+            date: "2021-12-18",
+            count: 1
+        },
+        
+        {
+            date: "2021-12-16",
+            count: 1
+        },
+        
+        {
+            date: "2021-12-14",
+            count: 1
+        },
+        
+        {
+            date: "2021-12-13",
+            count: 1
+        },
+        
+        {
+            date: "2021-12-07",
+            count: 1
+        },
+        
+        {
+            date: "2021-11-14",
+            count: 1
+        },
+        
+        {
+            date: "2021-11-09",
+            count: 1
+        },
+        
+        {
+            date: "2021-11-05",
+            count: 1
+        },
+        
+        {
+            date: "2021-11-01",
+            count: 1
+        },
+        
+        {
+            date: "2021-10-30",
+            count: 1
+        },
+        
+        {
+            date: "2021-10-29",
+            count: 1
+        },
+        
+        {
+            date: "2021-10-25",
+            count: 1
+        },
+        
+        {
+            date: "2021-10-18",
+            count: 1
+        },
+        
+        {
+            date: "2021-10-15",
+            count: 1
+        },
+        
+        {
+            date: "2021-10-12",
+            count: 1
+        },
+        
+        {
+            date: "2021-10-10",
+            count: 1
+        },
+        
+        {
+            date: "2021-10-03",
+            count: 1
+        },
+        
+        {
+            date: "2021-09-27",
+            count: 1
+        },
+        
+        {
+            date: "2021-09-26",
+            count: 1
+        },
+        
+        {
+            date: "2021-09-25",
+            count: 1
+        },
+        
+        {
+            date: "2021-09-22",
+            count: 1
+        },
+        
+        {
+            date: "2021-09-21",
+            count: 1
+        },
+        
+        {
+            date: "2021-09-13",
+            count: 1
+        },
+        
+        {
+            date: "2021-09-12",
+            count: 1
+        },
+        
+        {
+            date: "2021-09-11",
+            count: 1
+        },
+        
+        {
+            date: "2021-09-07",
+            count: 1
+        },
+        
+        {
+            date: "2021-09-06",
+            count: 1
+        },
+        
+        {
+            date: "2021-09-05",
+            count: 1
+        },
+        
+        {
+            date: "2021-09-04",
+            count: 1
+        },
+        
+        {
+            date: "2021-09-03",
+            count: 1
+        },
+        
+        {
+            date: "2021-08-28",
+            count: 1
+        },
+        
+        {
+            date: "2021-08-26",
+            count: 1
+        },
+        
+        {
+            date: "2021-08-20",
+            count: 1
+        },
+        
+        {
+            date: "2021-08-18",
+            count: 1
+        },
+        
+        {
+            date: "2021-08-15",
+            count: 1
+        },
+        
+        {
+            date: "2021-08-10",
+            count: 1
+        },
+        
+        {
+            date: "2021-07-31",
+            count: 1
+        },
+        
+        {
+            date: "2021-07-28",
+            count: 1
+        },
+        
+        {
+            date: "2021-07-22",
+            count: 1
+        },
+        
+        {
+            date: "2021-07-20",
+            count: 1
+        },
+        
+        {
+            date: "2021-07-18",
+            count: 1
+        },
+        
+        {
+            date: "2021-07-16",
+            count: 1
+        },
+        
+        {
+            date: "2021-07-01",
+            count: 1
+        },
+        
+        {
+            date: "2021-06-30",
+            count: 1
+        },
+        
+        {
+            date: "2021-06-24",
+            count: 1
+        },
+        
+        {
+            date: "2021-06-22",
+            count: 1
+        },
+        
+        {
+            date: "2021-06-19",
+            count: 1
+        },
+        
+        {
+            date: "2021-06-08",
+            count: 1
+        },
+        
+        {
+            date: "2021-06-06",
+            count: 1
+        },
+        
+        {
+            date: "2021-06-04",
+            count: 1
+        },
+        
+        {
+            date: "2021-05-28",
+            count: 1
+        },
+        
+        {
+            date: "2021-05-26",
+            count: 1
+        },
+        
+        {
+            date: "2021-05-22",
+            count: 1
+        },
+        
+        {
+            date: "2021-05-21",
+            count: 1
+        },
+        
+        {
+            date: "2021-05-20",
+            count: 1
+        },
+        
+        {
+            date: "2021-05-16",
+            count: 1
+        },
+        
+        {
+            date: "2021-05-14",
+            count: 1
+        },
+        
+        {
+            date: "2021-05-04",
+            count: 1
+        },
+        
+        {
+            date: "2021-04-28",
+            count: 1
+        },
+        
+        {
+            date: "2021-04-17",
+            count: 1
+        },
+        
+        {
+            date: "2021-04-15",
+            count: 1
+        },
+        
+        {
+            date: "2021-03-25",
+            count: 1
+        },
+        
+        {
+            date: "2021-03-24",
+            count: 1
+        },
+        
+        {
+            date: "2021-03-21",
+            count: 1
+        },
+        
+        {
+            date: "2021-03-18",
+            count: 1
+        },
+        
+        {
+            date: "2021-03-05",
+            count: 1
+        },
+        
+        {
+            date: "2021-02-23",
+            count: 1
+        },
+        
+        {
+            date: "2021-02-20",
+            count: 1
+        },
+        
+        {
+            date: "2021-02-19",
+            count: 1
+        },
+        
+        {
+            date: "2021-02-17",
+            count: 1
+        },
+        
+        {
+            date: "2021-02-16",
+            count: 1
+        },
+        
+        {
+            date: "2021-02-08",
+            count: 1
+        },
+        
+        {
+            date: "2021-02-05",
+            count: 1
+        },
+        
+        {
+            date: "2021-02-02",
+            count: 1
+        },
+        
+        {
+            date: "2021-01-31",
+            count: 1
+        },
+        
+        {
+            date: "2021-01-29",
+            count: 1
+        },
+        
+        {
+            date: "2021-01-24",
+            count: 1
+        },
+        
+        {
+            date: "2021-01-24",
+            count: 1
+        },
+        
+        {
+            date: "2021-01-23",
+            count: 1
+        },
+        
+        {
+            date: "2021-01-22",
+            count: 1
+        },
+        
+        {
+            date: "2021-01-21",
+            count: 1
+        },
+        
+        {
+            date: "2021-01-14",
+            count: 1
+        },
+        
+        {
+            date: "2021-01-10",
+            count: 1
+        },
+        
+        {
+            date: "2021-01-07",
+            count: 1
+        },
+        
+        {
+            date: "2021-01-06",
+            count: 1
+        },
+        
+        {
+            date: "2021-01-03",
+            count: 1
+        },
+        
+        {
+            date: "2021-01-02",
+            count: 1
+        },
+        
+        {
+            date: "2020-12-31",
+            count: 1
+        },
+        
+        {
+            date: "2020-12-30",
+            count: 1
+        },
+        
+        {
+            date: "2020-12-28",
+            count: 1
+        },
+        
+        {
+            date: "2020-12-25",
+            count: 1
+        },
+        
+        {
+            date: "2020-12-23",
+            count: 1
+        },
+        
+        {
+            date: "2020-12-21",
+            count: 1
+        },
+        
+        {
+            date: "2020-12-18",
+            count: 1
+        },
+        
+        {
+            date: "2020-12-17",
+            count: 1
+        },
+        
+        {
+            date: "2020-12-14",
+            count: 1
+        },
+        
+        {
+            date: "2020-12-09",
+            count: 1
+        },
+        
+        {
+            date: "2020-12-07",
+            count: 1
+        },
+        
+        {
+            date: "2020-12-06",
+            count: 1
+        },
+        
+        {
+            date: "2020-12-04",
+            count: 1
+        },
+        
+        {
+            date: "2020-12-03",
+            count: 1
+        },
+        
+        {
+            date: "2020-12-01",
+            count: 1
+        },
+        
+        {
+            date: "2020-11-30",
+            count: 1
+        },
+        
+        {
+            date: "2020-11-29",
+            count: 1
+        },
+        
+        {
+            date: "2020-11-28",
+            count: 1
+        },
+        
+        {
+            date: "2020-11-26",
+            count: 1
+        },
+        
+        {
+            date: "2020-11-24",
+            count: 1
+        },
+        
+        {
+            date: "2020-11-22",
+            count: 1
+        },
+        
+        {
+            date: "2020-11-19",
+            count: 1
+        },
+        
+        {
+            date: "2020-11-11",
+            count: 1
+        },
+        
+        {
+            date: "2020-11-05",
+            count: 1
+        },
+        
+        {
+            date: "2020-11-03",
+            count: 1
+        },
+        
+        {
+            date: "2020-11-02",
+            count: 1
+        },
+        
+        {
+            date: "2020-11-01",
+            count: 1
+        },
+        
+        {
+            date: "2020-10-29",
+            count: 1
+        },
+        
+        {
+            date: "2020-10-24",
+            count: 1
+        },
+        
+        {
+            date: "2020-10-23",
+            count: 1
+        },
+        
+        {
+            date: "2020-10-20",
+            count: 1
+        },
+        
+        {
+            date: "2020-10-19",
+            count: 1
+        },
+        
+        {
+            date: "2020-10-18",
+            count: 1
+        },
+        
+        {
+            date: "2020-10-17",
+            count: 1
+        },
+        
+        {
+            date: "2020-10-17",
+            count: 1
+        },
+        
+        {
+            date: "2020-10-16",
+            count: 1
+        },
+        
+        {
+            date: "2020-10-15",
+            count: 1
+        },
+        
+        {
+            date: "2020-10-14",
+            count: 1
+        },
+        
+        {
+            date: "2020-10-13",
+            count: 1
+        },
+        
+        {
+            date: "2020-10-11",
+            count: 1
+        },
+        
+        {
+            date: "2020-10-10",
+            count: 1
+        },
+        
+        {
+            date: "2020-09-20",
+            count: 1
+        },
+        
+        {
+            date: "2020-09-20",
+            count: 1
+        },
+        
+        {
+            date: "2020-09-17",
+            count: 1
+        },
+        
+        {
+            date: "2020-09-14",
+            count: 1
+        },
+        
+        {
+            date: "2020-09-14",
+            count: 1
+        },
+        
+        {
+            date: "2020-09-07",
+            count: 1
+        },
+        
+        {
+            date: "2020-08-29",
+            count: 1
+        },
+        
+        {
+            date: "2020-08-27",
+            count: 1
+        },
+        
+        {
+            date: "2020-08-25",
+            count: 1
+        },
+        
+        {
+            date: "2020-08-15",
+            count: 1
+        },
+        
+        {
+            date: "2020-08-11",
+            count: 1
+        },
+        
+        {
+            date: "2020-07-26",
+            count: 1
+        },
+        
+        {
+            date: "2020-07-24",
+            count: 1
+        },
+        
+        {
+            date: "2020-07-19",
+            count: 1
+        },
+        
+        {
+            date: "2020-07-06",
+            count: 1
+        },
+        
+        {
+            date: "2020-06-29",
+            count: 1
+        },
+        
+        {
+            date: "2020-06-28",
+            count: 1
+        },
+        
+        {
+            date: "2020-06-25",
+            count: 1
+        },
+        
+        {
+            date: "2020-06-23",
+            count: 1
+        },
+        
+        {
+            date: "2020-06-19",
+            count: 1
+        },
+        
+        {
+            date: "2020-06-11",
+            count: 1
+        },
+        
+        {
+            date: "2020-06-04",
+            count: 1
+        },
+        
+        {
+            date: "2020-06-02",
+            count: 1
+        },
+        
+        {
+            date: "2020-05-31",
+            count: 1
+        },
+        
+        {
+            date: "2020-05-27",
+            count: 1
+        },
+        
+        {
+            date: "2020-05-26",
+            count: 1
+        },
+        
+        {
+            date: "2020-05-22",
+            count: 1
+        },
+        
+        {
+            date: "2020-05-21",
+            count: 1
+        },
+        
+        {
+            date: "2020-05-10",
+            count: 1
+        },
+        
+        {
+            date: "2020-05-08",
+            count: 1
+        },
+        
+        {
+            date: "2020-04-20",
+            count: 1
+        },
+        
+        {
+            date: "2020-04-14",
+            count: 1
+        },
+        
+        {
+            date: "2020-04-11",
+            count: 1
+        },
+        
+        {
+            date: "2020-04-10",
+            count: 1
+        },
+        
+        {
+            date: "2020-04-08",
+            count: 1
+        },
+        
+        {
+            date: "2020-04-07",
+            count: 1
+        },
+        
+        {
+            date: "2020-04-04",
+            count: 1
+        },
+        
+        {
+            date: "2020-04-01",
+            count: 1
+        },
+        
+        {
+            date: "2020-03-31",
+            count: 1
+        },
+        
+        {
+            date: "2020-03-27",
+            count: 1
+        },
+        
+        {
+            date: "2020-03-22",
+            count: 1
+        },
+        
+        {
+            date: "2020-03-17",
+            count: 1
+        },
+        
+        {
+            date: "2020-03-16",
+            count: 1
+        },
+        
+        {
+            date: "2020-03-09",
+            count: 1
+        },
+        
+        {
+            date: "2020-03-08",
+            count: 1
+        },
+        
+        {
+            date: "2020-02-07",
+            count: 1
+        },
+        
+        {
+            date: "2020-02-05",
+            count: 1
+        },
+        
+        {
+            date: "2020-02-03",
+            count: 1
+        },
+        
+        {
+            date: "2020-02-02",
+            count: 1
+        },
+        
+        {
+            date: "2020-02-01",
+            count: 1
+        },
+        
+        {
+            date: "2020-01-31",
+            count: 1
+        },
+        
+        {
+            date: "2020-01-29",
+            count: 1
+        },
+        
+        {
+            date: "2020-01-27",
+            count: 1
+        },
+        
+        {
+            date: "2020-01-26",
+            count: 1
+        },
+        
+        {
+            date: "2020-01-25",
+            count: 1
+        },
+        
+        {
+            date: "2020-01-18",
+            count: 1
+        },
+        
+        {
+            date: "2020-01-18",
+            count: 1
+        },
+        
+        {
+            date: "2020-01-15",
+            count: 1
+        },
+        
+        {
+            date: "2020-01-12",
+            count: 1
+        },
+        
+        {
+            date: "2020-01-10",
+            count: 1
+        },
+        
+        {
+            date: "2020-01-09",
+            count: 1
+        },
+        
+        {
+            date: "2020-01-08",
+            count: 1
+        },
+        
+        {
+            date: "2020-01-07",
+            count: 1
+        },
+        
+        {
+            date: "2020-01-06",
+            count: 1
+        },
+        
+        {
+            date: "2020-01-05",
+            count: 1
+        },
+        
+        {
+            date: "2020-01-05",
+            count: 1
+        },
+        
+        {
+            date: "2020-01-02",
+            count: 1
+        },
+        
+        {
+            date: "2019-12-31",
+            count: 1
+        },
+        
+        {
+            date: "2019-12-29",
+            count: 1
+        },
+        
+        {
+            date: "2019-12-26",
+            count: 1
+        },
+        
+        {
+            date: "2019-12-25",
+            count: 1
+        },
+        
+        {
+            date: "2019-12-23",
+            count: 1
+        },
+        
+        {
+            date: "2019-12-21",
+            count: 1
+        },
+        
+        {
+            date: "2019-12-14",
+            count: 1
+        },
+        
+        {
+            date: "2019-12-13",
+            count: 1
+        },
+        
+        {
+            date: "2019-12-07",
+            count: 1
+        },
+        
+        {
+            date: "2019-12-06",
+            count: 1
+        },
+        
+        {
+            date: "2019-12-05",
+            count: 1
+        },
+        
+        {
+            date: "2019-12-03",
+            count: 1
+        },
+        
+        {
+            date: "2019-12-02",
+            count: 1
+        },
+        
+        {
+            date: "2019-11-30",
+            count: 1
+        },
+        
+        {
+            date: "2019-11-29",
+            count: 1
+        },
+        
+        {
+            date: "2019-11-28",
+            count: 1
+        },
+        
+        {
+            date: "2019-11-27",
+            count: 1
+        },
+        
+        {
+            date: "2019-11-27",
+            count: 1
+        },
+        
+        {
+            date: "2019-11-26",
+            count: 1
+        },
+        
+        {
+            date: "2019-11-25",
+            count: 1
+        },
+        
+        {
+            date: "2019-11-23",
+            count: 1
+        },
+        
+        {
+            date: "2019-11-18",
+            count: 1
+        },
+        
+        {
+            date: "2019-11-14",
+            count: 1
+        },
+        
+        {
+            date: "2019-11-12",
+            count: 1
+        },
+        
+        {
+            date: "2019-11-06",
+            count: 1
+        },
+        
+        {
+            date: "2019-11-03",
+            count: 1
+        },
+        
+        {
+            date: "2019-10-29",
+            count: 1
+        },
+        
+        {
+            date: "2019-10-27",
+            count: 1
+        },
+        
+        {
+            date: "2019-10-24",
+            count: 1
+        },
+        
+        {
+            date: "2019-10-22",
+            count: 1
+        },
+        
+        {
+            date: "2019-10-21",
+            count: 1
+        },
+        
+        {
+            date: "2019-10-18",
+            count: 1
+        },
+        
+        {
+            date: "2019-10-18",
+            count: 1
+        },
+        
+        {
+            date: "2019-10-17",
+            count: 1
+        },
+        
+        {
+            date: "2019-10-12",
+            count: 1
+        },
+        
+        {
+            date: "2019-10-06",
+            count: 1
+        },
+        
+        {
+            date: "2019-09-30",
+            count: 1
+        },
+        
+        {
+            date: "2019-09-30",
+            count: 1
+        },
+        
+        {
+            date: "2019-09-29",
+            count: 1
+        },
+        
+        {
+            date: "2019-09-26",
+            count: 1
+        },
+        
+        {
+            date: "2019-09-25",
+            count: 1
+        },
+        
+        {
+            date: "2019-09-24",
+            count: 1
+        },
+        
+        {
+            date: "2019-09-17",
+            count: 1
+        },
+        
+        {
+            date: "2019-09-15",
+            count: 1
+        },
+        
+        {
+            date: "2019-09-13",
+            count: 1
+        },
+        
+        {
+            date: "2019-09-12",
+            count: 1
+        },
+        
+        {
+            date: "2019-09-08",
+            count: 1
+        },
+        
+        {
+            date: "2019-09-07",
+            count: 1
+        },
+        
+        {
+            date: "2019-09-06",
+            count: 1
+        },
+        
+        {
+            date: "2019-09-02",
+            count: 1
+        },
+        
+        {
+            date: "2019-08-30",
+            count: 1
+        },
+        
+        {
+            date: "2019-08-27",
+            count: 1
+        },
+        
+        {
+            date: "2019-08-22",
+            count: 1
+        },
+        
+        {
+            date: "2019-08-17",
+            count: 1
+        },
+        
+        {
+            date: "2019-08-16",
+            count: 1
+        },
+        
+        {
+            date: "2019-08-08",
+            count: 1
+        },
+        
+        {
+            date: "2019-08-07",
+            count: 1
+        },
+        
+        {
+            date: "2019-08-06",
+            count: 1
+        },
+        
+        {
+            date: "2019-08-04",
+            count: 1
+        },
+        
+        {
+            date: "2019-08-02",
+            count: 1
+        },
+        
+        {
+            date: "2019-07-30",
+            count: 1
+        },
+        
+        {
+            date: "2019-07-28",
+            count: 1
+        },
+        
+        {
+            date: "2019-07-25",
+            count: 1
+        },
+        
+        {
+            date: "2019-07-24",
+            count: 1
+        },
+        
+        {
+            date: "2019-07-21",
+            count: 1
+        },
+        
+        {
+            date: "2019-07-20",
+            count: 1
+        },
+        
+        {
+            date: "2019-07-20",
+            count: 1
+        },
+        
+        {
+            date: "2019-07-20",
+            count: 1
+        },
+        
+        {
+            date: "2019-07-19",
+            count: 1
+        },
+        
+        {
+            date: "2019-07-18",
+            count: 1
+        },
+        
+        {
+            date: "2019-07-16",
+            count: 1
+        },
+        
+        {
+            date: "2019-07-15",
+            count: 1
+        },
+        
+        {
+            date: "2019-07-15",
+            count: 1
+        },
+        
+        {
+            date: "2019-07-12",
+            count: 1
+        },
+        
+        {
+            date: "2019-07-12",
+            count: 1
+        },
+        
+        {
+            date: "2019-07-09",
+            count: 1
+        },
+        
+        {
+            date: "2019-07-09",
+            count: 1
+        },
+        
+        {
+            date: "2019-07-04",
+            count: 1
+        },
+        
+        {
+            date: "2019-07-02",
+            count: 1
+        },
+        
+        {
+            date: "2019-07-01",
+            count: 1
+        },
+        
+        {
+            date: "2019-06-30",
+            count: 1
+        },
+        
+        {
+            date: "2019-06-28",
+            count: 1
+        },
+        
+        {
+            date: "2019-06-27",
+            count: 1
+        },
+        
+        {
+            date: "2019-06-26",
+            count: 1
+        },
+        
+        {
+            date: "2019-06-21",
+            count: 1
+        },
+        
+        {
+            date: "2019-06-20",
+            count: 1
+        },
+        
+        {
+            date: "2019-06-19",
+            count: 1
+        },
+        
+        {
+            date: "2019-06-19",
+            count: 1
+        },
+        
+        {
+            date: "2019-06-16",
+            count: 1
+        },
+        
+        {
+            date: "2019-06-15",
+            count: 1
+        },
+        
+        {
+            date: "2019-06-12",
+            count: 1
+        },
+        
+        {
+            date: "2019-06-11",
+            count: 1
+        },
+        
+        {
+            date: "2019-06-09",
+            count: 1
+        },
+        
+        {
+            date: "2019-06-05",
+            count: 1
+        },
+        
+        {
+            date: "2019-06-04",
+            count: 1
+        },
+        
+        {
+            date: "2019-06-03",
+            count: 1
+        },
+        
+        {
+            date: "2019-06-01",
+            count: 1
+        },
+        
+        {
+            date: "2019-06-01",
+            count: 1
+        },
+        
+        {
+            date: "2019-05-29",
+            count: 1
+        },
+        
+        {
+            date: "2019-05-27",
+            count: 1
+        },
+        
+        {
+            date: "2019-05-26",
+            count: 1
+        },
+        
+        {
+            date: "2019-05-25",
+            count: 1
+        },
+        
+        {
+            date: "2019-05-25",
+            count: 1
+        },
+        
+        {
+            date: "2019-05-24",
+            count: 1
+        },
+        
+        {
+            date: "2019-05-23",
+            count: 1
+        },
+        
+        {
+            date: "2019-05-21",
+            count: 1
+        },
+        
+        {
+            date: "2019-05-20",
+            count: 1
+        },
+        
+        {
+            date: "2019-05-19",
+            count: 1
+        },
+        
+        {
+            date: "2019-05-18",
+            count: 1
+        },
+        
+        {
+            date: "2019-05-17",
+            count: 1
+        },
+        
+        {
+            date: "2019-05-13",
+            count: 1
+        },
+        
+        {
+            date: "2019-05-09",
+            count: 1
+        },
+        
+        {
+            date: "2014-08-28",
+            count: 1
+        },
+        
+        {
+            date: "2012-09-13",
+            count: 1
+        },
+        
+        {
+            date: "2012-09-12",
+            count: 1
+        },
+        
+        {
+            date: "2012-08-11",
+            count: 1
+        },
+        
+        {
+            date: "2012-08-08",
+            count: 1
+        },
+        
+        {
+            date: "2012-07-26",
+            count: 1
+        },
+        
+        {
+            date: "2012-07-25",
+            count: 1
+        },
+        
+        {
+            date: "2012-07-24",
+            count: 1
+        },
+        
+        {
+            date: "2012-07-22",
+            count: 1
+        },
+        
+        {
+            date: "2012-07-21",
+            count: 1
+        },
+        
+        {
+            date: "2011-11-13",
+            count: 1
+        },
+        
+        {
+            date: "2011-11-10",
+            count: 1
+        },
+        
+        {
+            date: "2011-11-07",
+            count: 1
+        },
+        
+        {
+            date: "2011-11-06",
+            count: 1
+        },
+        
+        {
+            date: "2011-10-25",
+            count: 1
+        },
+        
+        {
+            date: "2011-10-24",
+            count: 1
+        },
+        
+        {
+            date: "2011-10-23",
+            count: 1
+        },
+        
+        {
+            date: "2011-10-19",
+            count: 1
+        },
+        
+        {
+            date: "2011-10-16",
+            count: 1
+        },
+        
+        {
+            date: "2011-10-15",
+            count: 1
+        },
+        
+        {
+            date: "2011-10-09",
+            count: 1
+        },
+        
+        {
+            date: "2011-10-09",
+            count: 1
+        },
+        
+        {
+            date: "2011-10-09",
+            count: 1
+        },
+        
+        {
+            date: "2011-10-06",
+            count: 1
+        },
+        
+        {
+            date: "2011-09-30",
+            count: 1
+        },
+        
+        {
+            date: "2011-09-30",
+            count: 1
+        },
+        
+        {
+            date: "2011-09-28",
+            count: 1
+        },
+        
+        {
+            date: "2011-09-26",
+            count: 1
+        },
+        
+        {
+            date: "2011-09-26",
+            count: 1
+        },
+        
+        {
+            date: "2011-09-26",
+            count: 1
+        },
+        
+        {
+            date: "2011-09-20",
+            count: 1
+        },
+        
+        {
+            date: "2011-09-19",
+            count: 1
+        },
+        
+        {
+            date: "2011-09-14",
+            count: 1
+        },
+        
+        {
+            date: "2011-09-14",
+            count: 1
+        },
+        
+        {
+            date: "2011-09-13",
+            count: 1
+        },
+        
+        {
+            date: "2011-09-13",
+            count: 1
+        },
+        
+        {
+            date: "2011-09-12",
+            count: 1
+        },
+        
+        {
+            date: "2011-09-11",
+            count: 1
+        },
+        
+        {
+            date: "2011-09-10",
+            count: 1
+        },
+        
+        {
+            date: "2011-09-09",
+            count: 1
+        },
+        
+        {
+            date: "2011-09-09",
+            count: 1
+        },
+        
+        {
+            date: "2011-09-09",
+            count: 1
+        },
+        
+        {
+            date: "2011-09-07",
+            count: 1
+        },
+        
+        {
+            date: "2011-09-06",
+            count: 1
+        },
+        
+        {
+            date: "2011-09-06",
+            count: 1
+        },
+        
+        {
+            date: "2011-09-06",
+            count: 1
+        },
+        
+        {
+            date: "2011-09-05",
+            count: 1
+        },
+        
+        {
+            date: "2011-09-04",
+            count: 1
+        },
+        
+        {
+            date: "2011-09-04",
+            count: 1
+        },
+        
+        {
+            date: "2011-09-04",
+            count: 1
+        },
+        
+        {
+            date: "2011-09-02",
+            count: 1
+        },
+        
+        {
+            date: "2011-09-01",
+            count: 1
+        },
+        
+        {
+            date: "2011-09-01",
+            count: 1
+        },
+        
+        {
+            date: "2011-08-31",
+            count: 1
+        },
+        
+        {
+            date: "2011-08-30",
+            count: 1
+        },
+        
+        {
+            date: "2011-08-26",
+            count: 1
+        },
+        
+        {
+            date: "2011-08-25",
+            count: 1
+        },
+        
+        {
+            date: "2011-08-20",
+            count: 1
+        },
+        
+        {
+            date: "2011-08-18",
+            count: 1
+        },
+        
+        {
+            date: "2011-08-17",
+            count: 1
+        },
+        
+        {
+            date: "2011-08-15",
+            count: 1
+        },
+        
+        {
+            date: "2011-08-14",
+            count: 1
+        },
+        
+        {
+            date: "2011-08-13",
+            count: 1
+        },
+        
+        {
+            date: "2011-08-08",
+            count: 1
+        },
+        
+        {
+            date: "2011-08-06",
+            count: 1
+        },
+        
+        {
+            date: "2011-08-05",
+            count: 1
+        },
+        
+        {
+            date: "2011-08-05",
+            count: 1
+        },
+        
+        {
+            date: "2011-08-04",
+            count: 1
+        },
+        
+        {
+            date: "2011-08-04",
+            count: 1
+        },
+        
+        {
+            date: "2011-08-03",
+            count: 1
+        },
+        
+        {
+            date: "2011-06-30",
+            count: 1
+        },
+        
+        {
+            date: "2011-06-29",
+            count: 1
+        },
+        
+        {
+            date: "2011-06-22",
+            count: 1
+        },
+        
+        {
+            date: "2011-04-16",
+            count: 1
+        },
+        
+        {
+            date: "2011-02-23",
+            count: 1
+        },
+        
+        {
+            date: "2011-02-08",
+            count: 1
+        },
+        
+        {
+            date: "2011-02-08",
+            count: 1
+        },
+        
+        {
+            date: "2011-01-26",
+            count: 1
+        },
+        
+        {
+            date: "2011-01-26",
+            count: 1
+        },
+        
+        {
+            date: "2011-01-25",
+            count: 1
+        },
+        
+        {
+            date: "2011-01-20",
+            count: 1
+        },
+        
+        {
+            date: "2011-01-20",
+            count: 1
+        },
+        
+        {
+            date: "2011-01-18",
+            count: 1
+        },
+        
+        {
+            date: "2011-01-17",
+            count: 1
+        },
+        
+        {
+            date: "2011-01-16",
+            count: 1
+        },
+        
+        {
+            date: "2011-01-16",
+            count: 1
+        },
+        
+        {
+            date: "2011-01-10",
+            count: 1
+        },
+        
+        {
+            date: "2011-01-10",
+            count: 1
+        },
+        
+        {
+            date: "2011-01-07",
+            count: 1
+        },
+        
+        {
+            date: "2011-01-07",
+            count: 1
+        },
+        
+        {
+            date: "2011-01-05",
+            count: 1
+        },
+        
+        {
+            date: "2011-01-04",
+            count: 1
+        },
+        
+        {
+            date: "2011-01-04",
+            count: 1
+        },
+        
+        {
+            date: "2011-01-03",
+            count: 1
+        },
+        
+        {
+            date: "2010-12-31",
+            count: 1
+        },
+        
+        {
+            date: "2010-12-30",
+            count: 1
+        },
+        
+        {
+            date: "2010-12-28",
+            count: 1
+        },
+        
+        {
+            date: "2010-12-27",
+            count: 1
+        },
+        
+        {
+            date: "2010-12-27",
+            count: 1
+        },
+        
+        {
+            date: "2010-12-26",
+            count: 1
+        },
+        
+        {
+            date: "2010-12-20",
+            count: 1
+        },
+        
+        {
+            date: "2010-12-18",
+            count: 1
+        },
+        
+        {
+            date: "2010-12-17",
+            count: 1
+        },
+        
+        {
+            date: "2010-12-16",
+            count: 1
+        },
+        
+        {
+            date: "2010-12-15",
+            count: 1
+        },
+        
+        {
+            date: "2010-11-27",
+            count: 1
+        },
+        
+        {
+            date: "2010-11-25",
+            count: 1
+        },
+        
+        {
+            date: "2010-11-23",
+            count: 1
+        },
+        
+        {
+            date: "2010-11-23",
+            count: 1
+        },
+        
+        {
+            date: "2010-11-22",
+            count: 1
+        },
+        
+        {
+            date: "2010-11-22",
+            count: 1
+        },
+        
+        {
+            date: "2010-11-21",
+            count: 1
+        },
+        
+        {
+            date: "2010-11-21",
+            count: 1
+        },
+        
+        {
+            date: "2010-11-21",
+            count: 1
+        },
+        
+        {
+            date: "2010-11-20",
+            count: 1
+        },
+        
+        {
+            date: "2010-11-07",
+            count: 1
+        },
+        
+        {
+            date: "2010-11-05",
+            count: 1
+        },
+        
+        {
+            date: "2010-11-03",
+            count: 1
+        },
+        
+        {
+            date: "2010-11-01",
+            count: 1
+        },
+        
+        {
+            date: "2010-11-01",
+            count: 1
+        },
+        
+        {
+            date: "2010-10-30",
+            count: 1
+        },
+        
+        {
+            date: "2010-10-29",
+            count: 1
+        },
+        
+        {
+            date: "2010-10-28",
+            count: 1
+        },
+        
+        {
+            date: "2010-10-28",
+            count: 1
+        },
+        
+        {
+            date: "2010-10-27",
+            count: 1
+        },
+        
+        {
+            date: "2010-10-26",
+            count: 1
+        },
+        
+        {
+            date: "2010-10-26",
+            count: 1
+        },
+        
+        {
+            date: "2010-10-26",
+            count: 1
+        },
+        
+        {
+            date: "2010-10-24",
+            count: 1
+        },
+        
+        {
+            date: "2010-10-05",
+            count: 1
+        },
+        
+        {
+            date: "2010-10-04",
+            count: 1
+        },
+        
+        {
+            date: "2010-10-01",
+            count: 1
+        },
+        
+        {
+            date: "2010-09-28",
+            count: 1
+        },
+        
+        {
+            date: "2010-09-27",
+            count: 1
+        },
+        
+        {
+            date: "2010-09-24",
+            count: 1
+        },
+        
+        {
+            date: "2010-09-21",
+            count: 1
+        },
+        
+        {
+            date: "2010-09-14",
+            count: 1
+        },
+        
+        {
+            date: "2010-09-06",
+            count: 1
+        },
+        
+        {
+            date: "2010-09-05",
+            count: 1
+        },
+        
+        {
+            date: "2010-09-04",
+            count: 1
+        },
+        
+        {
+            date: "2010-09-04",
+            count: 1
+        },
+        
+        {
+            date: "2010-09-02",
+            count: 1
+        },
+        
+        {
+            date: "2010-09-01",
+            count: 1
+        },
+        
+        {
+            date: "2010-08-29",
+            count: 1
+        },
+        
+        {
+            date: "2010-08-28",
+            count: 1
+        },
+        
+        {
+            date: "2010-08-27",
+            count: 1
+        },
+        
+        {
+            date: "2010-08-26",
+            count: 1
+        },
+        
+        {
+            date: "2010-08-24",
+            count: 1
+        },
+        
+        {
+            date: "2010-08-24",
+            count: 1
+        },
+        
+        {
+            date: "2010-08-23",
+            count: 1
+        },
+        
+        {
+            date: "2010-08-22",
+            count: 1
+        },
+        
+        {
+            date: "2010-08-21",
+            count: 1
+        },
+        
+        {
+            date: "2010-08-20",
+            count: 1
+        },
+        
+        {
+            date: "2010-08-18",
+            count: 1
+        },
+        
+        {
+            date: "2010-08-17",
+            count: 1
+        },
+        
+        {
+            date: "2010-08-12",
+            count: 1
+        },
+        
+        {
+            date: "2010-08-11",
+            count: 1
+        },
+        
+        {
+            date: "2010-08-10",
+            count: 1
+        },
+        
+        {
+            date: "2010-08-09",
+            count: 1
+        },
+        
+        {
+            date: "2010-08-09",
+            count: 1
+        },
+        
+        {
+            date: "2010-08-08",
+            count: 1
+        },
+        
+        {
+            date: "2010-07-24",
+            count: 1
+        },
+        
+        {
+            date: "2010-07-24",
+            count: 1
+        },
+        
+        {
+            date: "2010-07-22",
+            count: 1
+        },
+        
+        {
+            date: "2010-07-18",
+            count: 1
+        },
+        
+        {
+            date: "2010-07-15",
+            count: 1
+        },
+        
+        {
+            date: "2010-07-15",
+            count: 1
+        },
+        
+        {
+            date: "2010-07-14",
+            count: 1
+        },
+        
+        {
+            date: "2010-07-12",
+            count: 1
+        },
+        
+        {
+            date: "2010-07-10",
+            count: 1
+        },
+        
+        {
+            date: "2010-07-09",
+            count: 1
+        },
+        
+        {
+            date: "2010-07-07",
+            count: 1
+        },
+        
+        {
+            date: "2010-07-06",
+            count: 1
+        },
+        
+        {
+            date: "2010-07-05",
+            count: 1
+        },
+        
+        {
+            date: "2010-07-05",
+            count: 1
+        },
+        
+        {
+            date: "2010-07-02",
+            count: 1
+        },
+        
+        {
+            date: "2010-07-01",
+            count: 1
+        },
+        
+        {
+            date: "2010-06-30",
+            count: 1
+        },
+        
+        {
+            date: "2010-06-29",
+            count: 1
+        },
+        
+        {
+            date: "2010-06-28",
+            count: 1
+        },
+        
+        {
+            date: "2010-06-24",
+            count: 1
+        },
+        
+        {
+            date: "2010-06-22",
+            count: 1
+        },
+        
+        {
+            date: "2010-06-22",
+            count: 1
+        },
+        
+        {
+            date: "2010-06-20",
+            count: 1
+        },
+        
+        {
+            date: "2010-06-16",
+            count: 1
+        },
+        
+        {
+            date: "2010-06-11",
+            count: 1
+        },
+        
+        {
+            date: "2010-06-10",
+            count: 1
+        },
+        
+        {
+            date: "2010-06-08",
+            count: 1
+        },
+        
+        {
+            date: "2010-06-07",
+            count: 1
+        },
+        
+        {
+            date: "2010-06-01",
+            count: 1
+        },
+        
+        {
+            date: "2010-05-31",
+            count: 1
+        },
+        
+        {
+            date: "2010-05-26",
+            count: 1
+        },
+        
+        {
+            date: "2010-05-17",
+            count: 1
+        },
+        
+        {
+            date: "2010-05-11",
+            count: 1
+        },
+        
+        {
+            date: "2010-05-09",
+            count: 1
+        },
+        
+        {
+            date: "2010-05-07",
+            count: 1
+        },
+        
+        {
+            date: "2010-05-06",
+            count: 1
+        },
+        
+        {
+            date: "2010-05-03",
+            count: 1
+        },
+        
+        {
+            date: "2010-04-27",
+            count: 1
+        },
+        
+        {
+            date: "2010-04-26",
+            count: 1
+        },
+        
+        {
+            date: "2010-04-25",
+            count: 1
+        },
+        
+        {
+            date: "2010-04-24",
+            count: 1
+        },
+        
+        {
+            date: "2010-04-22",
+            count: 1
+        },
+        
+        {
+            date: "2010-04-20",
+            count: 1
+        },
+        
+        {
+            date: "2010-04-20",
+            count: 1
+        },
+        
+        {
+            date: "2010-04-19",
+            count: 1
+        },
+        
+        {
+            date: "2010-04-19",
+            count: 1
+        },
+        
+        {
+            date: "2010-04-18",
+            count: 1
+        },
+        
+        {
+            date: "2010-04-18",
+            count: 1
+        },
+        
+        {
+            date: "2010-04-17",
+            count: 1
+        },
+        
+        {
+            date: "2010-04-17",
+            count: 1
+        },
+        
+        {
+            date: "2010-04-16",
+            count: 1
+        },
+        
+        {
+            date: "2010-04-14",
+            count: 1
+        },
+        
+        {
+            date: "2010-04-13",
+            count: 1
+        },
+        
+        {
+            date: "2010-04-12",
+            count: 1
+        },
+        
+        {
+            date: "2010-04-09",
+            count: 1
+        },
+        
+        {
+            date: "2010-04-05",
+            count: 1
+        },
+        
+        {
+            date: "2010-04-05",
+            count: 1
+        },
+        
+        {
+            date: "2010-04-04",
+            count: 1
+        },
+        
+        {
+            date: "2010-04-01",
+            count: 1
+        },
+        
+        {
+            date: "2010-03-31",
+            count: 1
+        },
+        
+        {
+            date: "2010-03-30",
+            count: 1
+        },
+        
+        {
+            date: "2010-03-18",
+            count: 1
+        },
+        
+        {
+            date: "2010-03-16",
+            count: 1
+        },
+        
+        {
+            date: "2010-03-15",
+            count: 1
+        },
+        
+        {
+            date: "2010-03-14",
+            count: 1
+        },
+        
+        {
+            date: "2010-03-12",
+            count: 1
+        },
+        
+        {
+            date: "2010-03-11",
+            count: 1
+        },
+        
+        {
+            date: "2010-03-09",
+            count: 1
+        },
+        
+        {
+            date: "2010-03-07",
+            count: 1
+        },
+        
+        {
+            date: "2010-03-07",
+            count: 1
+        },
+        
+        {
+            date: "2010-03-07",
+            count: 1
+        },
+        
+        {
+            date: "2010-03-03",
+            count: 1
+        },
+        
+        {
+            date: "2010-03-03",
+            count: 1
+        },
+        
+        {
+            date: "2010-03-02",
+            count: 1
+        },
+        
+        {
+            date: "2010-03-02",
+            count: 1
+        },
+        
+        {
+            date: "2010-02-27",
+            count: 1
+        },
+        
+        {
+            date: "2010-02-27",
+            count: 1
+        },
+        
+        {
+            date: "2010-02-26",
+            count: 1
+        },
+        
+        {
+            date: "2010-02-25",
+            count: 1
+        },
+        
+        {
+            date: "2010-02-24",
+            count: 1
+        },
+        
+        {
+            date: "2010-02-22",
+            count: 1
+        },
+        
+        {
+            date: "2010-02-21",
+            count: 1
+        },
+        
+        {
+            date: "2010-02-19",
+            count: 1
+        },
+        
+        {
+            date: "2010-02-18",
+            count: 1
+        },
+        
+        {
+            date: "2010-02-17",
+            count: 1
+        },
+        
+        {
+            date: "2010-02-17",
+            count: 1
+        },
+        
+        {
+            date: "2010-02-17",
+            count: 1
+        },
+        
+        {
+            date: "2010-02-17",
+            count: 1
+        },
+        
+        {
+            date: "2010-02-16",
+            count: 1
+        },
+        
+        {
+            date: "2010-02-15",
+            count: 1
+        },
+        
+        {
+            date: "2010-02-15",
+            count: 1
+        },
+        
+        {
+            date: "2010-02-11",
+            count: 1
+        },
+        
+        {
+            date: "2010-02-08",
+            count: 1
+        },
+        
+        {
+            date: "2010-02-07",
+            count: 1
+        },
+        
+        {
+            date: "2010-02-06",
+            count: 1
+        },
+        
+        {
+            date: "2010-02-05",
+            count: 1
+        },
+        
+        {
+            date: "2010-02-04",
+            count: 1
+        },
+        
+        {
+            date: "2010-02-03",
+            count: 1
+        },
+        
+        {
+            date: "2010-02-01",
+            count: 1
+        },
+        
+        {
+            date: "2010-02-01",
+            count: 1
+        },
+        
+        {
+            date: "2010-01-31",
+            count: 1
+        },
+        
+        {
+            date: "2010-01-27",
+            count: 1
+        },
+        
+        {
+            date: "2010-01-26",
+            count: 1
+        },
+        
+        {
+            date: "2010-01-25",
+            count: 1
+        },
+        
+        {
+            date: "2010-01-24",
+            count: 1
+        },
+        
+        {
+            date: "2010-01-24",
+            count: 1
+        },
+        
+        {
+            date: "2010-01-23",
+            count: 1
+        },
+        
+        {
+            date: "2010-01-22",
+            count: 1
+        },
+        
+        {
+            date: "2010-01-21",
+            count: 1
+        },
+        
+        {
+            date: "2010-01-20",
+            count: 1
+        },
+        
+        {
+            date: "2010-01-19",
+            count: 1
+        },
+        
+        {
+            date: "2010-01-18",
+            count: 1
+        },
+        
+        {
+            date: "2010-01-18",
+            count: 1
+        },
+        
+        {
+            date: "2010-01-15",
+            count: 1
+        },
+        
+        {
+            date: "2010-01-14",
+            count: 1
+        },
+        
+        {
+            date: "2010-01-13",
+            count: 1
+        },
+        
+        {
+            date: "2010-01-13",
+            count: 1
+        },
+        
+        {
+            date: "2010-01-13",
+            count: 1
+        },
+        
+        {
+            date: "2010-01-11",
+            count: 1
+        },
+        
+        {
+            date: "2010-01-11",
+            count: 1
+        },
+        
+        {
+            date: "2010-01-10",
+            count: 1
+        },
+        
+        {
+            date: "2010-01-09",
+            count: 1
+        },
+        
+        {
+            date: "2010-01-09",
+            count: 1
+        },
+        
+        {
+            date: "2010-01-08",
+            count: 1
+        },
+        
+        {
+            date: "2010-01-08",
+            count: 1
+        },
+        
+        {
+            date: "2010-01-07",
+            count: 1
+        },
+        
+        {
+            date: "2010-01-06",
+            count: 1
+        },
+        
+        {
+            date: "2010-01-06",
+            count: 1
+        },
+        
+        {
+            date: "2010-01-04",
+            count: 1
+        },
+        
+        {
+            date: "2010-01-03",
+            count: 1
+        },
+        
+        {
+            date: "2010-01-03",
+            count: 1
+        },
+        
+        {
+            date: "2010-01-03",
+            count: 1
+        },
+        
+        {
+            date: "2009-12-31",
+            count: 1
+        },
+        
+        {
+            date: "2009-12-26",
+            count: 1
+        },
+        
+        {
+            date: "2009-12-25",
+            count: 1
+        },
+        
+        {
+            date: "2009-12-24",
+            count: 1
+        },
+        
+        {
+            date: "2009-12-24",
+            count: 1
+        },
+        
+        {
+            date: "2009-12-24",
+            count: 1
+        },
+        
+        {
+            date: "2009-12-23",
+            count: 1
+        },
+        
+        {
+            date: "2009-12-23",
+            count: 1
+        },
+        
+        {
+            date: "2009-12-22",
+            count: 1
+        },
+        
+        {
+            date: "2009-12-22",
+            count: 1
+        },
+        
+        {
+            date: "2009-12-22",
+            count: 1
+        },
+        
+        {
+            date: "2009-12-22",
+            count: 1
+        },
+        
+        {
+            date: "2009-12-22",
+            count: 1
+        },
+        
+        {
+            date: "2009-12-21",
+            count: 1
+        },
+        
+        {
+            date: "2009-12-21",
+            count: 1
+        },
+        
+        {
+            date: "2009-12-21",
+            count: 1
+        },
+        
+        {
+            date: "2009-12-20",
+            count: 1
+        },
+        
+        {
+            date: "2009-12-20",
+            count: 1
+        },
+        
+        {
+            date: "2009-12-19",
+            count: 1
+        },
+        
+        {
+            date: "2009-12-19",
+            count: 1
+        },
+        
+        {
+            date: "2009-12-18",
+            count: 1
+        },
+        
+        {
+            date: "2009-12-18",
+            count: 1
+        },
+        
+        {
+            date: "2009-12-18",
+            count: 1
+        },
+        
+        {
+            date: "2009-12-17",
+            count: 1
+        },
+        
+        {
+            date: "2009-12-17",
+            count: 1
+        },
+        
+        {
+            date: "2009-12-16",
+            count: 1
+        },
+        
+        {
+            date: "2009-12-16",
+            count: 1
+        },
+        
+        {
+            date: "2009-12-11",
+            count: 1
+        },
+        
+        {
+            date: "2009-12-08",
+            count: 1
+        },
+        
+        {
+            date: "2009-12-06",
+            count: 1
+        },
+        
+        {
+            date: "2009-12-06",
+            count: 1
+        },
+        
+        {
+            date: "2009-12-05",
+            count: 1
+        },
+        
+        {
+            date: "2009-12-04",
+            count: 1
+        },
+        
+        {
+            date: "2009-12-03",
+            count: 1
+        },
+        
+        {
+            date: "2009-12-03",
+            count: 1
+        },
+        
+        {
+            date: "2009-12-02",
+            count: 1
+        },
+        
+        {
+            date: "2009-11-27",
+            count: 1
+        },
+        
+        {
+            date: "2009-11-26",
+            count: 1
+        },
+        
+        {
+            date: "2009-11-25",
+            count: 1
+        },
+        
+        {
+            date: "2009-11-24",
+            count: 1
+        },
+        
+        {
+            date: "2009-11-24",
+            count: 1
+        },
+        
+        {
+            date: "2009-11-23",
+            count: 1
+        },
+        
+        {
+            date: "2009-11-23",
+            count: 1
+        },
+        
+        {
+            date: "2009-11-19",
+            count: 1
+        },
+        
+        {
+            date: "2009-11-19",
+            count: 1
+        },
+        
+        {
+            date: "2009-11-17",
+            count: 1
+        },
+        
+        {
+            date: "2009-11-17",
+            count: 1
+        },
+        
+        {
+            date: "2009-11-15",
+            count: 1
+        },
+        
+        {
+            date: "2009-11-09",
+            count: 1
+        },
+        
+        {
+            date: "2009-11-07",
+            count: 1
+        },
+        
+        {
+            date: "2009-10-30",
+            count: 1
+        },
+        
+        {
+            date: "2009-10-29",
+            count: 1
+        },
+        
+        {
+            date: "2009-10-28",
+            count: 1
+        },
+        
+        {
+            date: "2009-10-27",
+            count: 1
+        },
+        
+        {
+            date: "2009-10-27",
+            count: 1
+        },
+        
+        {
+            date: "2009-10-26",
+            count: 1
+        },
+        
+        {
+            date: "2009-10-26",
+            count: 1
+        },
+        
+        {
+            date: "2009-10-25",
+            count: 1
+        },
+        
+        {
+            date: "2009-10-24",
+            count: 1
+        },
+        
+        {
+            date: "2009-10-24",
+            count: 1
+        },
+        
+        {
+            date: "2009-10-22",
+            count: 1
+        },
+        
+        {
+            date: "2009-10-21",
+            count: 1
+        },
+        
+        {
+            date: "2009-10-20",
+            count: 1
+        },
+        
+        {
+            date: "2009-10-19",
+            count: 1
+        },
+        
+        {
+            date: "2009-10-18",
+            count: 1
+        },
+        
+        {
+            date: "2009-10-18",
+            count: 1
+        },
+        
+        {
+            date: "2009-10-15",
+            count: 1
+        },
+        
+        {
+            date: "2009-10-15",
+            count: 1
+        },
+        
+        {
+            date: "2009-10-15",
+            count: 1
+        },
+        
+        {
+            date: "2009-10-13",
+            count: 1
+        },
+        
+        {
+            date: "2009-10-07",
+            count: 1
+        },
+        
+        {
+            date: "2009-10-07",
+            count: 1
+        },
+        
+        {
+            date: "2009-10-05",
+            count: 1
+        },
+        
+        {
+            date: "2009-10-05",
+            count: 1
+        },
+        
+        {
+            date: "2009-10-04",
+            count: 1
+        },
+        
+        {
+            date: "2009-10-04",
+            count: 1
+        },
+        
+        {
+            date: "2009-09-29",
+            count: 1
+        },
+        
+        {
+            date: "2009-09-28",
+            count: 1
+        },
+        
+        {
+            date: "2009-09-27",
+            count: 1
+        },
+        
+        {
+            date: "2009-09-23",
+            count: 1
+        },
+        
+        {
+            date: "2009-06-03",
+            count: 1
+        },
+        
+        {
+            date: "2009-04-17",
+            count: 1
+        },
+        
+        {
+            date: "2009-04-17",
+            count: 1
+        },
+        
+        {
+            date: "2009-04-16",
+            count: 1
+        },
+        
+        {
+            date: "2009-04-15",
+            count: 1
+        },
+        
+        {
+            date: "2009-04-14",
+            count: 1
+        },
+        
+        {
+            date: "2009-04-14",
+            count: 1
+        },
+        
+        {
+            date: "2009-04-13",
+            count: 1
+        },
+        
+        {
+            date: "2009-04-12",
+            count: 1
+        },
+        
+        {
+            date: "2009-04-06",
+            count: 1
+        },
+        
+        {
+            date: "2009-04-04",
+            count: 1
+        },
+        
+        {
+            date: "2009-04-04",
+            count: 1
+        },
+        
+        {
+            date: "2009-04-02",
+            count: 1
+        },
+        
+        {
+            date: "2009-03-16",
+            count: 1
+        },
+        
+        {
+            date: "2009-03-16",
+            count: 1
+        },
+        
+        {
+            date: "2009-03-16",
+            count: 1
+        },
+        
+        {
+            date: "2009-03-16",
+            count: 1
+        },
+        
+        {
+            date: "2009-03-16",
+            count: 1
+        },
+        
+        {
+            date: "2009-03-12",
+            count: 1
+        },
+        
+        {
+            date: "2009-03-07",
+            count: 1
+        },
+        
+        {
+            date: "2009-02-25",
+            count: 1
+        },
+        
+        {
+            date: "2009-02-22",
+            count: 1
+        },
+        
+        {
+            date: "2009-02-18",
+            count: 1
+        },
+        
+        {
+            date: "2009-02-15",
+            count: 1
+        },
+        
+        {
+            date: "2009-02-05",
+            count: 1
+        },
+        
+        {
+            date: "2009-02-05",
+            count: 1
+        },
+        
+        {
+            date: "2009-02-04",
+            count: 1
+        },
+        
+        {
+            date: "2009-02-03",
+            count: 1
+        },
+        
+        {
+            date: "2009-01-31",
+            count: 1
+        },
+        
+        {
+            date: "2009-01-31",
+            count: 1
+        },
+        
+        {
+            date: "2009-01-31",
+            count: 1
+        },
+        
+        {
+            date: "2009-01-31",
+            count: 1
+        },
+        
+        {
+            date: "2009-01-31",
+            count: 1
+        },
+        
+        {
+            date: "2009-01-30",
+            count: 1
+        },
+        
+        {
+            date: "2009-01-30",
+            count: 1
+        },
+        
+        {
+            date: "2009-01-28",
+            count: 1
+        },
+        
+        {
+            date: "2009-01-27",
+            count: 1
+        },
+        
+        {
+            date: "2009-01-26",
+            count: 1
+        },
+        
+        {
+            date: "2009-01-26",
+            count: 1
+        },
+        
+        {
+            date: "2009-01-25",
+            count: 1
+        },
+        
+        {
+            date: "2009-01-25",
+            count: 1
+        },
+        
+        {
+            date: "2009-01-25",
+            count: 1
+        },
+        
+        {
+            date: "2009-01-25",
+            count: 1
+        },
+        
+        {
+            date: "2009-01-25",
+            count: 1
+        },
+        
+        {
+            date: "2009-01-25",
+            count: 1
+        },
+        
+        {
+            date: "2009-01-24",
+            count: 1
+        },
+        
+        {
+            date: "2009-01-24",
+            count: 1
+        },
+        
+        {
+            date: "2009-01-21",
+            count: 1
+        },
+        
+        {
+            date: "2009-01-21",
+            count: 1
+        },
+        
+        {
+            date: "2009-01-21",
+            count: 1
+        },
+        
+        {
+            date: "2009-01-21",
+            count: 1
+        },
+        
+        {
+            date: "2009-01-21",
+            count: 1
+        },
+        
+        {
+            date: "0001-01-01",
+            count: 1
+        },
+        
+    ];
+
+    
+    const dateCounts = {};
+    postsData.forEach(post => {
+        const date = post.date;
+        dateCounts[date] = (dateCounts[date] || 0) + 1;
+    });
+
+    
+    const totalPosts = postsData.length;
+    const totalPostsEl = document.getElementById('total-posts');
+    if (totalPostsEl) {
+        totalPostsEl.textContent = totalPosts;
+    }
+
+    
+    const days = 35;
+    const today = new Date();
+    
+    for (let i = days - 1; i >= 0; i--) {
+        const date = new Date(today);
+        date.setDate(today.getDate() - i);
+        
+        const dateStr = date.toISOString().split('T')[0]; 
+        const postCount = dateCounts[dateStr] || 0;
+        
+        const cell = document.createElement('div');
+        cell.className = 'heatmap-cell';
+        
+        
+        let level = 0;
+        if (postCount >= 5) level = 4;
+        else if (postCount >= 3) level = 3;
+        else if (postCount >= 2) level = 2;
+        else if (postCount >= 1) level = 1;
+        
+        if (level > 0) {
+            cell.classList.add(`level-${level}`);
+        }
+        
+        
+        cell.title = `${dateStr}: ${postCount} 篇文章`;
+        
+        grid.appendChild(cell);
+    }
+})();
+</script>
+
+    
+    <div class="sidebar-widget">
+        <h3 class="widget-title">Tags</h3>
+        <div class="nav-tags">
+            
+            
+            <a href="/tags/%E9%9A%8F%E7%AC%94/" class="tag">#随笔 <span style="opacity: 0.6; font-size: 0.9em;">24</span></a>
+            
+            <a href="/tags/linux/" class="tag">#linux <span style="opacity: 0.6; font-size: 0.9em;">13</span></a>
+            
+            <a href="/tags/%E8%AF%BB%E4%B9%A6/" class="tag">#读书 <span style="opacity: 0.6; font-size: 0.9em;">12</span></a>
+            
+            <a href="/tags/%E5%8D%9A%E5%AE%A2/" class="tag">#博客 <span style="opacity: 0.6; font-size: 0.9em;">11</span></a>
+            
+            <a href="/tags/%E6%97%A9%E6%95%99/" class="tag">#早教 <span style="opacity: 0.6; font-size: 0.9em;">10</span></a>
+            
+            <a href="/tags/%E6%98%93%E7%BB%8F/" class="tag">#易经 <span style="opacity: 0.6; font-size: 0.9em;">10</span></a>
+            
+            <a href="/tags/%E7%BE%A4%E6%99%96/" class="tag">#群晖 <span style="opacity: 0.6; font-size: 0.9em;">9</span></a>
+            
+            <a href="/tags/kindle/" class="tag">#kindle <span style="opacity: 0.6; font-size: 0.9em;">7</span></a>
+            
+            <a href="/tags/%E7%BD%91%E7%AB%99/" class="tag">#网站 <span style="opacity: 0.6; font-size: 0.9em;">7</span></a>
+            
+            <a href="/tags/cdn/" class="tag">#cdn <span style="opacity: 0.6; font-size: 0.9em;">6</span></a>
+            
+            
+            <a href="/tags/" class="tag" style="color: var(--color-primary);">#More..</a>
+            
+        </div>
+    </div>
+
+    
+    <a href="#" class="top-link" onclick="window.scrollTo({top: 0, behavior: 'smooth'}); return false;">
+        TOP ↑
+    </a>
+</aside>
+        </aside>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p>&copy; 2026 老刘博客. 保留所有权利</p>
+            
+                <p>Theme: <a href="https://github.com/ewader/" target="_blank" rel="noopener">Three Column Theme</a></p>
+            
+        </div>
+    </footer>
+
+    <script src="/js/search.js"></script>
+</body>
+</html>
