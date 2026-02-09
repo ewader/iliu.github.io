@@ -171,7 +171,7 @@ ul, ol {
     position: sticky;
     top: 70px;
     height: fit-content;
-    max-height: calc(100vh - 100px);
+    max-height: calc(100vh - 90px);
     overflow-y: auto;
     background: var(--color-background-left);
     border-radius: var(--border-radius);
@@ -863,8 +863,27 @@ ul, ol {
     position: sticky;
     top: 70px;
     height: fit-content;
-    max-height: calc(100vh - 100px);
+    max-height: calc(100vh - 90px);
     overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* 自定义侧边栏滚动条样式 - 更精致 */
+.site-sidebar::-webkit-scrollbar {
+    width: 4px;
+}
+
+.site-sidebar::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.site-sidebar::-webkit-scrollbar-thumb {
+    background: var(--color-border);
+    border-radius: 2px;
+}
+
+.site-sidebar::-webkit-scrollbar-thumb:hover {
+    background: var(--color-text-muted);
 }
 
 .sidebar {
@@ -1083,34 +1102,38 @@ ul, ol {
 .heatmap-grid {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    gap: 2px;
+    gap: 3px;
 }
 
 .heatmap-cell {
     aspect-ratio: 1;
+    width: 14px;
+    height: 14px;
     border-radius: 2px;
     background-color: var(--color-border-light);
-    transition: transform 0.2s ease;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+    cursor: pointer;
 }
 
 .heatmap-cell:hover {
-    transform: scale(1.2);
+    transform: scale(1.3);
+    opacity: 0.9;
 }
 
 .heatmap-cell.level-1 {
-    background-color: #c6e48b;
+    background-color: #9be9a8;
 }
 
 .heatmap-cell.level-2 {
-    background-color: #7bc96f;
+    background-color: #40c463;
 }
 
 .heatmap-cell.level-3 {
-    background-color: #239a3b;
+    background-color: #30a14e;
 }
 
 .heatmap-cell.level-4 {
-    background-color: #196127;
+    background-color: #216e39;
 }
 
 .heatmap-legend {
@@ -1134,8 +1157,9 @@ ul, ol {
 
 /* TOP 按钮 */
 .top-link {
-    position: sticky;
+    position: fixed;
     bottom: var(--spacing-lg);
+    right: var(--spacing-lg);
     display: inline-flex;
     align-items: center;
     gap: 4px;
@@ -1147,6 +1171,17 @@ ul, ol {
     border: 1px solid var(--color-border-light);
     border-radius: var(--border-radius);
     transition: all 0.2s ease;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    z-index: 50;
+    box-shadow: 0 2px 8px var(--color-shadow);
+}
+
+.top-link.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
 }
 
 .top-link:hover {
@@ -1154,6 +1189,7 @@ ul, ol {
     color: white;
     border-color: var(--color-primary);
     transform: translateY(-2px);
+    box-shadow: 0 4px 12px var(--color-shadow);
 }
 
 /* ===== Footer ===== */
@@ -1488,12 +1524,12 @@ ul, ol {
 
     /* 热力图优化 */
     .heatmap-grid {
-        gap: 1px;
+        gap: 2px;
     }
 
     .heatmap-cell {
-        min-width: 10px;
-        min-height: 10px;
+        width: 14px;
+        height: 14px;
     }
 
     /* 分页优化 */

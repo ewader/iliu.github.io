@@ -222,14 +222,26 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // 添加滚动效果
 let lastScrollTop = 0;
 const header = document.querySelector('.site-header');
+const topLink = document.querySelector('.top-link');
 
 window.addEventListener('scroll', function() {
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    const windowHeight = window.innerHeight;
     
+    // Header 阴影效果
     if (scrollTop > 100) {
         header.style.boxShadow = '0 2px 8px rgba(0, 0, 0, 0.1)';
     } else {
         header.style.boxShadow = '0 2px 4px rgba(0, 0, 0, 0.05)';
+    }
+    
+    // TOP 按钮显示/隐藏
+    if (topLink) {
+        if (scrollTop > windowHeight) {
+            topLink.classList.add('visible');
+        } else {
+            topLink.classList.remove('visible');
+        }
     }
     
     lastScrollTop = scrollTop;
