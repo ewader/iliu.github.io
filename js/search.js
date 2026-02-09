@@ -2,11 +2,56 @@
 document.addEventListener('DOMContentLoaded', function() {
     const mobileToggle = document.querySelector('.mobile-menu-toggle');
     const siteNav = document.querySelector('.site-nav');
+    const body = document.body;
     
     if (mobileToggle && siteNav) {
         mobileToggle.addEventListener('click', function() {
             this.classList.toggle('active');
             siteNav.classList.toggle('active');
+            
+            // 防止背景滚动
+            if (siteNav.classList.contains('active')) {
+                body.style.overflow = 'hidden';
+                body.style.position = 'fixed';
+                body.style.width = '100%';
+            } else {
+                body.style.overflow = '';
+                body.style.position = '';
+                body.style.width = '';
+            }
+        });
+
+        // 点击遮罩层关闭菜单
+        siteNav.addEventListener('click', function(e) {
+            if (e.target === siteNav) {
+                mobileToggle.classList.remove('active');
+                siteNav.classList.remove('active');
+                body.style.overflow = '';
+                body.style.position = '';
+                body.style.width = '';
+            }
+        });
+
+        // ESC 键关闭菜单
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && siteNav.classList.contains('active')) {
+                mobileToggle.classList.remove('active');
+                siteNav.classList.remove('active');
+                body.style.overflow = '';
+                body.style.position = '';
+                body.style.width = '';
+            }
+        });
+
+        // 窗口大小改变时重置状态
+        window.addEventListener('resize', function() {
+            if (window.innerWidth > 768) {
+                mobileToggle.classList.remove('active');
+                siteNav.classList.remove('active');
+                body.style.overflow = '';
+                body.style.position = '';
+                body.style.width = '';
+            }
         });
     }
 
@@ -14,9 +59,12 @@ document.addEventListener('DOMContentLoaded', function() {
     const navLinks = document.querySelectorAll('.site-nav a');
     navLinks.forEach(link => {
         link.addEventListener('click', function() {
-            if (window.innerWidth <= 768) {
+            if (window.innerWidth <= 768 && mobileToggle && siteNav) {
                 mobileToggle.classList.remove('active');
                 siteNav.classList.remove('active');
+                body.style.overflow = '';
+                body.style.position = '';
+                body.style.width = '';
             }
         });
     });
