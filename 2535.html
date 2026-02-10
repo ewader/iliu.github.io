@@ -11,18 +11,99 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
 
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style.css?v=20260209">
     <script src="https://cdn.jsdelivr.net/npm/flexsearch@0.7.31/dist/flexsearch.bundle.min.js"></script>
+    <script src="/js/theme-only.js"></script>
 </head>
 <body class="">
     <header class="site-header">
         <div class="header-content">
             <a href="/" class="site-title">老刘博客</a>
-            <button class="mobile-menu-toggle" aria-label="Toggle menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
+            <div class="header-actions">
+                <button id="theme-toggle" class="theme-toggle" aria-label="切换主题">
+    <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="5"></circle>
+        <line x1="12" y1="1" x2="12" y2="3"></line>
+        <line x1="12" y1="21" x2="12" y2="23"></line>
+        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+        <line x1="1" y1="12" x2="3" y2="12"></line>
+        <line x1="21" y1="12" x2="23" y2="12"></line>
+        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+    <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+    </svg>
+</button>
+
+<style>
+.theme-toggle {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    background-color: var(--color-background-alt);
+    border: 1px solid var(--color-border);
+}
+
+.theme-toggle:hover {
+    background-color: var(--color-accent);
+    border-color: var(--color-accent);
+}
+
+.theme-toggle svg {
+    position: absolute;
+    color: var(--color-text);
+    transition: all 0.3s ease;
+}
+
+.theme-toggle .sun-icon {
+    opacity: 1;
+    transform: rotate(0deg);
+}
+
+.theme-toggle .moon-icon {
+    opacity: 0;
+    transform: rotate(-90deg);
+}
+
+[data-theme='dark'] .theme-toggle .sun-icon {
+    opacity: 0;
+    transform: rotate(90deg);
+}
+
+[data-theme='dark'] .theme-toggle .moon-icon {
+    opacity: 1;
+    transform: rotate(0deg);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme='light']) .theme-toggle .sun-icon {
+        opacity: 0;
+        transform: rotate(90deg);
+    }
+
+    :root:not([data-theme='light']) .theme-toggle .moon-icon {
+        opacity: 1;
+        transform: rotate(0deg);
+    }
+}
+</style>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
         </div>
     </header>
 
@@ -70,15 +151,12 @@
             
             <li><a href="/categories/">📁 分类</a></li>
             <li><a href="/tags/">🏷️ 标签</a></li>
+            
+            
+            <li><a href="/about/" class="">ℹ️ 关于</a></li>
+            
         </ul>
     </div>
-
-    
-    
-    <div class="nav-section">
-        <a href="/about/" class="nav-about-link">关于</a>
-    </div>
-    
 
     
     <div class="nav-section" style="margin-top: var(--spacing-lg); padding-top: var(--spacing-md); border-top: 1px solid var(--color-border-light);">
@@ -5256,33 +5334,74 @@ service php-fpm {start|stop|restart|reload|status}</li> </ul></p>
     
     <div class="sidebar-widget">
         <h3 class="widget-title">Tags</h3>
-        <div class="nav-tags">
+        <ul class="tags-list">
             
             
-            <a href="/tags/%E9%9A%8F%E7%AC%94/" class="tag">#随笔 <span style="opacity: 0.6; font-size: 0.9em;">24</span></a>
+            <li>
+                <a href="/tags/%E9%9A%8F%E7%AC%94/" class="tag-link">
+                    #随笔
+                    <span class="tag-count">24</span>
+                </a>
+            </li>
             
-            <a href="/tags/linux/" class="tag">#linux <span style="opacity: 0.6; font-size: 0.9em;">13</span></a>
+            <li>
+                <a href="/tags/linux/" class="tag-link">
+                    #linux
+                    <span class="tag-count">13</span>
+                </a>
+            </li>
             
-            <a href="/tags/%E5%BE%B7%E5%85%85%E7%AC%A6/" class="tag">#德充符 <span style="opacity: 0.6; font-size: 0.9em;">12</span></a>
+            <li>
+                <a href="/tags/%E5%BE%B7%E5%85%85%E7%AC%A6/" class="tag-link">
+                    #德充符
+                    <span class="tag-count">12</span>
+                </a>
+            </li>
             
-            <a href="/tags/%E5%8D%9A%E5%AE%A2/" class="tag">#博客 <span style="opacity: 0.6; font-size: 0.9em;">11</span></a>
+            <li>
+                <a href="/tags/%E5%8D%9A%E5%AE%A2/" class="tag-link">
+                    #博客
+                    <span class="tag-count">11</span>
+                </a>
+            </li>
             
-            <a href="/tags/%E6%97%A9%E6%95%99/" class="tag">#早教 <span style="opacity: 0.6; font-size: 0.9em;">10</span></a>
+            <li>
+                <a href="/tags/%E6%97%A9%E6%95%99/" class="tag-link">
+                    #早教
+                    <span class="tag-count">10</span>
+                </a>
+            </li>
             
-            <a href="/tags/%E6%98%93%E7%BB%8F/" class="tag">#易经 <span style="opacity: 0.6; font-size: 0.9em;">10</span></a>
+            <li>
+                <a href="/tags/%E6%98%93%E7%BB%8F/" class="tag-link">
+                    #易经
+                    <span class="tag-count">10</span>
+                </a>
+            </li>
             
-            <a href="/tags/%E7%BE%A4%E6%99%96/" class="tag">#群晖 <span style="opacity: 0.6; font-size: 0.9em;">9</span></a>
+            <li>
+                <a href="/tags/%E7%BE%A4%E6%99%96/" class="tag-link">
+                    #群晖
+                    <span class="tag-count">9</span>
+                </a>
+            </li>
             
-            <a href="/tags/kindle/" class="tag">#kindle <span style="opacity: 0.6; font-size: 0.9em;">7</span></a>
+            <li>
+                <a href="/tags/kindle/" class="tag-link">
+                    #kindle
+                    <span class="tag-count">7</span>
+                </a>
+            </li>
             
-            <a href="/tags/%E7%BD%91%E7%AB%99/" class="tag">#网站 <span style="opacity: 0.6; font-size: 0.9em;">7</span></a>
             
-            <a href="/tags/cdn/" class="tag">#cdn <span style="opacity: 0.6; font-size: 0.9em;">6</span></a>
+            <li>
+                <a href="/tags/" class="tag-link">
+                    #More..
+                    <span class="tag-count">→</span>
+                </a>
+            </li>
             
-            
-            <a href="/tags/" class="tag" style="color: var(--color-primary);">#More..</a>
-            
-        </div>
+        </ul>
     </div>
 </aside>
         </aside>

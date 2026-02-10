@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>简单主题测试</title>
+    <style>
+        :root {
+            --bg-color: #ffffff;
+            --text-color: #333333;
+        }
+        [data-theme='dark'] {
+            --bg-color: #1a1a1a;
+            --text-color: #e0e0e0;
+        }
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            padding: 20px;
+            transition: all 0.3s ease;
+            font-family: Arial, sans-serif;
+        }
+        .info {
+            margin: 20px 0;
+            padding: 10px;
+            border: 1px solid currentColor;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>简单主题测试</h1>
+    <div class="info">
+        <p>HTML 标签属性：<span id="html-attr"></span></p>
+        <p>当前主题：<span id="current-theme"></span></p>
+        <p>存储的主题：<span id="stored-theme"></span></p>
+        <p>系统主题：<span id="system-theme"></span></p>
+    </div>
+    <button id="theme-toggle">切换主题</button>
+    <button onclick="localStorage.clear(); location.reload();">清除存储并刷新</button>
+
+    <script>
+        console.log('脚本开始执行');
+        console.log('document.readyState:', document.readyState);
+        
+        function updateInfo() {
+            const htmlElement = document.documentElement;
+            const currentTheme = htmlElement.getAttribute('data-theme');
+            const storedTheme = localStorage.getItem('theme-preference');
+            const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+            
+            document.getElementById('html-attr').textContent = htmlElement.outerHTML.split('>')[0];
+            document.getElementById('current-theme').textContent = currentTheme || '无（跟随系统）';
+            document.getElementById('stored-theme').textContent = storedTheme || '无';
+            document.getElementById('system-theme').textContent = systemTheme;
+        }
+        
+        const themeToggle = document.getElementById('theme-toggle');
+        const htmlElement = document.documentElement;
+        const STORAGE_KEY = 'theme-preference';
+        const THEME_DARK = 'dark';
+        const THEME_LIGHT = 'light';
+        
+        function getStoredTheme() {
+            return localStorage.getItem(STORAGE_KEY);
+        }
+        
+        function setStoredTheme(theme) {
+            localStorage.setItem(STORAGE_KEY, theme);
+            console.log('主题已保存:', theme);
+        }
+        
+        function getSystemTheme() {
+            const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            return isDark ? THEME_DARK : THEME_LIGHT;
+        }
+        
+        function applyTheme(theme) {
+            console.log('应用主题:', theme);
+            if (theme === THEME_DARK) {
+                htmlElement.setAttribute('data-theme', THEME_DARK);
+            } else if (theme === THEME_LIGHT) {
+                htmlElement.setAttribute('data-theme', THEME_LIGHT);
+            } else {
+                htmlElement.removeAttribute('data-theme');
+            }
+            setStoredTheme(theme);
+            updateInfo();
+        }
+        
+        function toggleTheme() {
+            const currentTheme = htmlElement.getAttribute('data-theme');
+            const systemTheme = getSystemTheme();
+            console.log('切换主题，当前主题:', currentTheme, '系统主题:', systemTheme);
+            
+            if (currentTheme === THEME_DARK) {
+                applyTheme(THEME_LIGHT);
+            } else if (currentTheme === THEME_LIGHT) {
+                applyTheme(THEME_DARK);
+            } else {
+                applyTheme(systemTheme === THEME_DARK ? THEME_LIGHT : THEME_DARK);
+            }
+        }
+        
+        function initTheme() {
+            const storedTheme = getStoredTheme();
+            console.log('存储的主题:', storedTheme);
+            if (storedTheme) {
+                applyTheme(storedTheme);
+            } else {
+                applyTheme('auto');
+            }
+        }
+        
+        themeToggle.addEventListener('click', toggleTheme);
+        
+        initTheme();
+        updateInfo();
+        
+        console.log('脚本执行完成');
+    </script>
+</body>
+</html>

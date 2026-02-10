@@ -245,4 +245,108 @@ window.addEventListener('scroll', function() {
     }
     
     lastScrollTop = scrollTop;
+
+    // ===== 主题切换功能 =====
+    (function() {
+        const themeToggle = document.getElementById('theme-toggle');
+        const htmlElement = document.documentElement;
+        const STORAGE_KEY = 'theme-preference';
+        const THEME_DARK = 'dark';
+        const THEME_LIGHT = 'light';
+
+        console.log('主题切换功能初始化');
+
+        // 获取存储的主题偏好
+        function getStoredTheme() {
+            return localStorage.getItem(STORAGE_KEY);
+        }
+
+        // 保存主题偏好
+        function setStoredTheme(theme) {
+            localStorage.setItem(STORAGE_KEY, theme);
+            console.log('主题已保存:', theme);
+        }
+
+        // 获取系统主题偏好
+        function getSystemTheme() {
+            const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            console.log('系统主题偏好:', isDark ? 'dark' : 'light');
+            return isDark ? THEME_DARK : THEME_LIGHT;
+        }
+
+        // 应用主题
+        function applyTheme(theme) {
+            console.log('应用主题:', theme);
+            if (theme === THEME_DARK) {
+                htmlElement.setAttribute('data-theme', THEME_DARK);
+            } else if (theme === THEME_LIGHT) {
+                htmlElement.setAttribute('data-theme', THEME_LIGHT);
+            } else {
+                htmlElement.removeAttribute('data-theme');
+            }
+            setStoredTheme(theme);
+        }
+
+        // 切换主题
+        function toggleTheme() {
+            const currentTheme = htmlElement.getAttribute('data-theme');
+            const systemTheme = getSystemTheme();
+            console.log('切换主题，当前主题:', currentTheme, '系统主题:', systemTheme);
+            
+            if (currentTheme === THEME_DARK) {
+                applyTheme(THEME_LIGHT);
+            } else if (currentTheme === THEME_LIGHT) {
+                applyTheme(THEME_DARK);
+            } else {
+                // 当前没有设置主题，根据系统偏好切换
+                applyTheme(systemTheme === THEME_DARK ? THEME_LIGHT : THEME_DARK);
+            }
+        }
+
+        // 初始化主题
+        function initTheme() {
+            const storedTheme = getStoredTheme();
+            console.log('存储的主题:', storedTheme);
+            if (storedTheme) {
+                applyTheme(storedTheme);
+            } else {
+                // 没有存储的主题，使用系统偏好
+                applyTheme('auto');
+            }
+        }
+
+        // 监听系统主题变化
+        function watchSystemTheme() {
+            const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+            
+            // 使用新的事件监听方法
+            if (mediaQuery.addEventListener) {
+                mediaQuery.addEventListener('change', (e) => {
+                    const storedTheme = getStoredTheme();
+                    // 只有在用户没有手动设置主题时才跟随系统
+                    if (!storedTheme || storedTheme === 'auto') {
+                        applyTheme('auto');
+                    }
+                });
+            } else if (mediaQuery.addListener) {
+                // 兼容旧版浏览器
+                mediaQuery.addListener((e) => {
+                    const storedTheme = getStoredTheme();
+                    if (!storedTheme || storedTheme === 'auto') {
+                        applyTheme('auto');
+                    }
+                });
+            }
+        }
+
+        // 初始化
+        if (themeToggle) {
+            console.log('主题切换按钮找到，开始初始化');
+            initTheme();
+            watchSystemTheme();
+            themeToggle.addEventListener('click', toggleTheme);
+        } else {
+            console.error('主题切换按钮未找到');
+        }
+    })();
 });
