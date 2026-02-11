@@ -523,9 +523,8 @@ ul, ol {
 
 .memo-item {
     padding: var(--spacing-md);
-    background-color: var(--color-background);
+    background-color: var(--color-background-alt);
     border-radius: var(--border-radius);
-    border-left: 3px solid var(--color-accent);
 }
 
 .memo-content {
