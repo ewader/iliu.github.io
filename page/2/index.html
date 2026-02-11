@@ -19,9 +19,23 @@
 <body class="">
     <header class="site-header">
         <div class="header-content">
-            <a href="/" class="site-title">老刘博客</a>
-            <div class="header-actions">
-                <button id="theme-toggle" class="theme-toggle" aria-label="切换主题">
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="site-container">
+        
+        <aside class="site-nav">
+            <nav class="nav-menu">
+    
+    <div class="nav-site-title">
+        <a href="/">老刘博客</a>
+        <div class="nav-theme-toggle">
+            <button id="theme-toggle" class="theme-toggle" aria-label="切换主题">
     <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <circle cx="12" cy="12" r="5"></circle>
         <line x1="12" y1="1" x2="12" y2="3"></line>
@@ -99,19 +113,9 @@
     }
 }
 </style>
-                <button class="mobile-menu-toggle" aria-label="Toggle menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </div>
         </div>
-    </header>
+    </div>
 
-    <div class="site-container">
-        
-        <aside class="site-nav">
-            <nav class="nav-menu">
     
     <div class="nav-search">
         <input type="search" id="search-input" placeholder="Search..." aria-label="搜索">
@@ -319,8 +323,7 @@
             </div>
             
             
-            <p class="post-excerpt">作为个人博主，Cloudflare 被称为赛博菩萨：免费 CDN、自动 SSL、无限流量。但对于中国大陆用户来说，CF 的免费版线路对联通用户来说非常的不友好——动辄 300ms&#43; 的延迟和高峰期的丢包，让“全球加速”变成了“全球减速”。
-前两天看到1900把博客迁移到了Edgeone，速度很快，我的博客没有备案，看了下可以使用海外版，测试了一下，发现要比cf快一些，于是决定把博客从 Cloudf...</p>
+            <p class="post-excerpt">作为个人博主，Cloudflare 被称为赛博菩萨：免费 CDN、自动 SSL、无限流量。但对于中国大陆用户来说，CF 的免费版线路对联通用户来说非常的不友好——动辄 300ms&#43; 的延迟和高峰期的丢...</p>
             
             
             <div class="post-tags">
@@ -365,7 +368,7 @@
             </div>
             
             
-            <p class="post-excerpt">2025 年 12 月 31 日，郑州下了一场小雪。其实之前看天气预报还是蛮担心会下大的，毕竟还要去接女儿回家，上次的那场大雪让现在想起来还心有余悸。不过还好，雪下的不大，比前几天那场要轻得多。早上起来，地上只有薄薄一层，像是夜里悄悄落下，又很快要化掉的那种。趁着去买菜的工夫出门，随手拍了几张照片，算是给这一年留下最后一点痕迹。 王源来郑州开演唱会，女儿一直想去现场看看，托朋友帮忙，才弄到了一张票...</p>
+            <p class="post-excerpt">2025 年 12 月 31 日，郑州下了一场小雪。其实之前看天气预报还是蛮担心会下大的，毕竟还要去接女儿回家，上次的那场大雪让现在想起来还心有余悸。不过还好，雪下的不大，比前几天那场要轻得多。早上起...</p>
             
             
             <div class="post-tags">
@@ -407,8 +410,7 @@
             
             
             <p class="post-excerpt">前几天，老张他们几个人一直吐槽，说想留言还得翻墙登录 GitHub。听多了，我也动了心思，就去折腾了一下 Artalk，把博客的评论系统换了过去。
-不得不说，Artalk 用起来确实舒服。界面清爽，也更像我们习惯的那种“博客评论”，不用账号体系，不用跳来跳去，交流起来顺手很多。
-我用的这台VPS，本来就只是随手用来跑点轻量服务：FreshRSS、Umami，再加一个 Artalk。前两天瞎折腾系统...</p>
+不得不说，Artalk 用起来确实舒服。界面清爽，也...</p>
             
             
             <div class="post-tags">
@@ -456,17 +458,7 @@
             <p class="post-excerpt">年末了，又到了总结的时候，其实每到这个时候，头脑里都是一片空白，也不知道从何写起。看了旺东大佬的总结，几句打油诗，很有意思，也尝试胡诌那么几句，就算是总结了。
 这一年里换新家，
 收拾箱子落尘沙。
-暑假南下金陵城，
-金陵鸭子很不错。
-夫子庙，人太多，
-牛首山，商业浓。
-玄武湖畔找荫凉。
-灯下德充符有几本，
-可惜收获只少许。
-系统换了又重装，
-最终选择Farode。
-文字写了一箩筐，
-好坏全凭自己想；...</p>
+暑假...</p>
             
             
             <div class="post-tags">
@@ -508,7 +500,7 @@
             
             
             <p class="post-excerpt">我现在用的 NAS 是群晖 DS220&#43;，2019 年买的。
-当时正在做一个叫“镜缘轩”的眼镜商城，数据安全这件事当时觉得很重要：订单、客户信息、商品资料，一旦丢了，就很麻烦。也正是在那个阶段，我把一直用的暴风酷播云换掉，开始用白群晖，想着至少在数据这件事上，更安全。 这一眨眼，就是六年。 “镜缘轩”最终没做成，少许的订单和客户信息，其实也根本不值得上这个东西，为了项目买的东西也算一个伪需求。项目...</p>
+当时正在做一个叫“镜缘轩”的眼镜商城，数据安全这件事当时觉得很重要：订单、客户信息、商品资料，一旦丢了，就很麻烦。也正是在那个阶段，我把一...</p>
             
             
             <div class="post-tags">
@@ -556,8 +548,7 @@
             
             
             <p class="post-excerpt">一周前，预报说周五有雨雪，版本从最初的“雨夹雪”，一路升级到“暴雪”，又降级到“大雪”、“小雪”，最终在周五定格在了“大雪”。
-周五早上，早上醒来往远处看去。楼下的考古工地一片雪白，但雪下得不大，路面干净，积雪存不住。心里暗自窃喜，毕竟今天是周五，要去学校接女儿回家，近 60公里的路程，如果雪太大，着实让人头疼。
-提前出发的决定 然而，午饭过后，天空的风云说变就变。雪花开始洋洋洒洒地飘落，没多久，...</p>
+周五早上，早上醒来往远处看去。楼下的考古工地一片雪白，但雪下得不大，路面...</p>
             
             
             <div class="post-tags">

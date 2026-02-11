@@ -19,9 +19,23 @@
 <body class="">
     <header class="site-header">
         <div class="header-content">
-            <a href="/" class="site-title">老刘博客</a>
-            <div class="header-actions">
-                <button id="theme-toggle" class="theme-toggle" aria-label="切换主题">
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="site-container">
+        
+        <aside class="site-nav">
+            <nav class="nav-menu">
+    
+    <div class="nav-site-title">
+        <a href="/">老刘博客</a>
+        <div class="nav-theme-toggle">
+            <button id="theme-toggle" class="theme-toggle" aria-label="切换主题">
     <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <circle cx="12" cy="12" r="5"></circle>
         <line x1="12" y1="1" x2="12" y2="3"></line>
@@ -99,19 +113,9 @@
     }
 }
 </style>
-                <button class="mobile-menu-toggle" aria-label="Toggle menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </div>
         </div>
-    </header>
+    </div>
 
-    <div class="site-container">
-        
-        <aside class="site-nav">
-            <nav class="nav-menu">
     
     <div class="nav-search">
         <input type="search" id="search-input" placeholder="Search..." aria-label="搜索">
@@ -321,8 +325,7 @@
             </div>
             
             
-            <p class="post-excerpt">在以前的文章（推荐一款国外CDN——Nodecache，注册即送1T流量）中介绍过nodecache这个CDN服务商，当时是注册送1T的流量，后来由于觉得其速度有点慢，有时候又不稳定，所以就一直没有，后来通过这篇文字，陆续有了写aff送的流量，差不多一个月9G的样子，要说用在我这个小博客上市绰绰有余了，但是由于怕跑路就一直也没有用。
-今天闲着没事，翻看自己以前的文字，发现了自己的这篇文章，于是，怀...</p>
+            <p class="post-excerpt">在以前的文章（推荐一款国外CDN——Nodecache，注册即送1T流量）中介绍过nodecache这个CDN服务商，当时是注册送1T的流量，后来由于觉得其速度有点慢，有时候又不稳定，所以就一直没有，...</p>
             
             
             <div class="post-tags">
@@ -367,7 +370,7 @@
             </div>
             
             
-            <p class="post-excerpt">自从Windows 10推出以来，微软的Microsoft Defender已经可以作为一款合格的杀毒软件来使用了，但是微软为了平衡误杀和安全之间的关系，默认情况西安Microsoft Defender很多先进的技术都没有开启，比如对流氓软件pup的查杀等。要想开启高级功能就必须去组策略里进行调整，这一步对软件小白来说是真的费事。好消息来了，有大神开发出来了一款可以设置Microsoft Defe...</p>
+            <p class="post-excerpt">自从Windows 10推出以来，微软的Microsoft Defender已经可以作为一款合格的杀毒软件来使用了，但是微软为了平衡误杀和安全之间的关系，默认情况西安Microsoft Defende...</p>
             
             
             <div class="post-tags">
@@ -414,9 +417,7 @@
 书，是一盏路灯，照亮前行的道路；
 书，是一颗牵牛花，驱散心中的阴霾；
 对我来说，书，是伴我成长的良师益友！
-迷上童话 六岁的时候，我带着好奇心闯入了那一片色彩鲜明的世界;
-小人鱼对我诉说她生前的心声，卖火柴的小女孩对我说着她的不幸，拇指姑娘邀请我去她家做客，皇帝新衣的皇帝，则使我皱起了眉头;
-我好像走进了大自然，体会了灰姑娘被欺负时的委屈，感受了白雪公主后母的恶毒...</p>
+迷上童话 六岁的时候，我带着好奇心闯入了那一片色彩鲜明的世...</p>
             
             
             <a href="/3273.html" class="post-read-more">阅读更多</a>
@@ -452,7 +453,7 @@
             
             
             <p class="post-excerpt">齐物时间给女儿买了一套《书虫》系列和《疯狂校园》系列的英语读本。书虫还好，句子比较简单，有些单词就算不认识，根据上下文的关系以及后面的生词表，阅读起来不算太费事。可是疯狂校园系列读起来就有点难度了。
-来回的翻字典耽误时间不说，还打断了阅读的连续性。那时候就有给女儿买一支词典笔的打算，但是看了一下基本上2代的要800大洋左右，又有些犹豫。前天，意外的把liu.gg的域名给卖了，小赚了一点意外之财，干...</p>
+...</p>
             
             
             <a href="/3268.html" class="post-read-more">阅读更多</a>
@@ -489,10 +490,7 @@
             
             <p class="post-excerpt">昨天晚上给女儿辅导完作业，顺手拿起手机看看群里的信息什么的。忽然发现有一封新邮件。点开一看，发现是西部数码发过来的：
 尊敬的用户：
-您发布的一口价域名已售出：liu.gg 共1个，合计：2000元。恭喜您!
-若不需要本类邮件提醒，可以在管理中心》帐号管理》设置中心 进行关闭。
-若使用中遇到任何问题，请联系我司客服或提交有问必答，非常感谢您对我司的长期支持。
-这时候才想起来，在决定用流金岁月这个域名...</p>
+您发布的一口价域名已售出：liu.gg 共1个，合计：2000元。恭...</p>
             
             
             <a href="/3264.html" class="post-read-more">阅读更多</a>
@@ -527,7 +525,7 @@
             </div>
             
             
-            <p class="post-excerpt"> 白如雪，洁似梅 欲视昙，必有耐 开如白鹭般净洁 收如少女般含蓄 窗前花苞且难寻 开时既是枯萎始 若使花儿记心上 花开时分想真谛 其二 寂寞昙花深夜开 洁白无瑕人未见 一朝凋谢人不知 笑问此花何时开 白鹭一现不容看 就似昙华寿命短 幽香缕缕人难闻 淡淡清香胜桂兰 如若白鹭人易赏 琼花何苦晚间开 ...</p>
+            <p class="post-excerpt"> 白如雪，洁似梅 欲视昙，必有耐 开如白鹭般净洁 收如少女般含蓄 窗前花苞且难寻 开时既是枯萎始 若使花儿记心上 花开时分想真谛 其二 寂寞昙花深夜开 洁白无瑕人未见 一朝凋谢人不知 笑问此花何时开 ...</p>
             
             
             <a href="/3262.html" class="post-read-more">阅读更多</a>

@@ -19,9 +19,23 @@
 <body class="">
     <header class="site-header">
         <div class="header-content">
-            <a href="/" class="site-title">老刘博客</a>
-            <div class="header-actions">
-                <button id="theme-toggle" class="theme-toggle" aria-label="切换主题">
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="site-container">
+        
+        <aside class="site-nav">
+            <nav class="nav-menu">
+    
+    <div class="nav-site-title">
+        <a href="/">老刘博客</a>
+        <div class="nav-theme-toggle">
+            <button id="theme-toggle" class="theme-toggle" aria-label="切换主题">
     <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <circle cx="12" cy="12" r="5"></circle>
         <line x1="12" y1="1" x2="12" y2="3"></line>
@@ -99,19 +113,9 @@
     }
 }
 </style>
-                <button class="mobile-menu-toggle" aria-label="Toggle menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </div>
         </div>
-    </header>
+    </div>
 
-    <div class="site-container">
-        
-        <aside class="site-nav">
-            <nav class="nav-menu">
     
     <div class="nav-search">
         <input type="search" id="search-input" placeholder="Search..." aria-label="搜索">
@@ -319,10 +323,7 @@
             </div>
             
             
-            <p class="post-excerpt">今天早上起床，虽然天空飘着毛毛细雨，本来不想骑车，但空气质量实在太好——指数仅 15，是这些年见过的最好指数了。感谢民族运动会期间，郑州大部分工地停工，这也说明郑州空气的主要污染源并非汽车，而是各大工地。
-骑行路线与所见 沿中原路向西骑行，细雨飘洒，道路两侧每隔不远就能看到一名身穿红马甲的“绿城文明使者”。
-具有讽刺意味的是，过了西流湖公园没多远，一名文明使者竟然在路边往花坛里撒尿。
-虽然偶有不文...</p>
+            <p class="post-excerpt">今天早上起床，虽然天空飘着毛毛细雨，本来不想骑车，但空气质量实在太好——指数仅 15，是这些年见过的最好指数了。感谢民族运动会期间，郑州大部分工地停工，这也说明郑州空气的主要污染源并非汽车，而是各大工...</p>
             
             
             <a href="/2716.html" class="post-read-more">阅读更多</a>
@@ -358,8 +359,7 @@
             
             
             <p class="post-excerpt">昨天趁着重装景安服务器，把一直想弄的 nginx fastcgi_cache 配置好了，虽然走了不少弯路，但最终成功了，网页打开速度明显提升。
-一、安装 Nginx ngx_cache_purge 模块 由于使用的是 OneinStack 面板，以下步骤基于 OneinStack。其他面板如 LNMP 可能需要微调。
-检查 ngx_cache_purge 是否安装 nginx -V 2&amp;gt;&amp;a...</p>
+一、安装 Nginx ngx_cache_purge 模...</p>
             
             
             <a href="/2700.html" class="post-read-more">阅读更多</a>
@@ -395,7 +395,7 @@
             
             
             <p class="post-excerpt">自从上次看到景安欠薪的消息以后，虽然觉得很惋惜，但是也没有太放在心上，毕竟作为河南最大的IDC，还是再新三板上市的企业，不可能马上就挂的，况且里面还有周鸿祎的股份，所以还是照旧使用原来的服务器。
-不过最近以来发生的事情让我对景安的后续有了疑虑，姑且不说欠薪的事情，最近总感觉网站是不是的卡一下。前一段时间出现数据库链接不上的问题，查了额下是内存有点小了，毕竟是1g的内存，既然小了那就再加上1g，花了...</p>
+不过...</p>
             
             
             <div class="post-tags">
@@ -441,7 +441,7 @@
             
             
             <p class="post-excerpt"> 昨天晚上楼下的几个老娘们在喷空，声音很大，我家住在二楼，吵的我半夜也没有睡好觉。快到半夜12点的时候，闲谈终于结束了，但是也惊着困了，翻来覆去的睡不着，于是，胡思乱想而得。
-昨晚忽然想到，其实其他的两个网站都不是非常的重要，最重要的其实还是这个博客网站。毕竟那两个都是以谋生为目的的，而女儿的志向是小学语文老师，也不会继承我这个小店，那么当我闭上眼睛的那一刻，能留给女儿的也就是这个博客可以让她在闲...</p>
+昨晚忽然想到，其实其他的...</p>
             
             
             <a href="/2694.html" class="post-read-more">阅读更多</a>
@@ -476,8 +476,7 @@
             </div>
             
             
-            <p class="post-excerpt">自从春节生病以来，就很少出去转了，女儿去玩一般也是由媳妇来陪同。9月1日适逢周日，由于郑州要召开民族运动会，调休了一下，本周也就周日放一天假。刚好民族运动会比赛地——奥体中心就在植物园旁边，既可以看看新建成的体院馆，又能去植物园小小的溜达一下，也是一件很不错的事情。已经完工的郑州奥体中心，所有的准备都弄好了，就专等全国各民族的运动健儿的到来了。周围铁栏杆把手，不让进去，只能在外围拍了张照片。
-郑州...</p>
+            <p class="post-excerpt">自从春节生病以来，就很少出去转了，女儿去玩一般也是由媳妇来陪同。9月1日适逢周日，由于郑州要召开民族运动会，调休了一下，本周也就周日放一天假。刚好民族运动会比赛地——奥体中心就在植物园旁边，既可以看看...</p>
             
             
             <a href="/2643.html" class="post-read-more">阅读更多</a>
@@ -513,8 +512,7 @@
             
             
             <p class="post-excerpt">目前跋涉者共维护了3个网站:
-镜缘轩：网址：https://www.yanjingweb.cn。 可以说这个网站是一个跑偏了的网站，最开始的时候仅仅是打算做一个自己眼镜店的官网，并且承载一些客户资料方面的内容，方便客户随时在网上查询自己的数据，可惜的是能力有限，没有做出自己想要的网站。
-后来想做成一个以视光行业为主体，生活方面补充的博客，这样更新了一段时间后很多朋友都建议把生活内容单独剥离出来，于...</p>
+镜缘轩：网址：https://www.yanjingweb.cn。 可以说这个网站是一个跑偏了的网站，最开始的时候仅仅是打算做一个自己眼镜店的官网，并且承载一些客户资料方...</p>
             
             
             <div class="post-tags">

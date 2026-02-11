@@ -19,9 +19,23 @@
 <body class="">
     <header class="site-header">
         <div class="header-content">
-            <a href="/" class="site-title">老刘博客</a>
-            <div class="header-actions">
-                <button id="theme-toggle" class="theme-toggle" aria-label="切换主题">
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="site-container">
+        
+        <aside class="site-nav">
+            <nav class="nav-menu">
+    
+    <div class="nav-site-title">
+        <a href="/">老刘博客</a>
+        <div class="nav-theme-toggle">
+            <button id="theme-toggle" class="theme-toggle" aria-label="切换主题">
     <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <circle cx="12" cy="12" r="5"></circle>
         <line x1="12" y1="1" x2="12" y2="3"></line>
@@ -99,19 +113,9 @@
     }
 }
 </style>
-                <button class="mobile-menu-toggle" aria-label="Toggle menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </div>
         </div>
-    </header>
+    </div>
 
-    <div class="site-container">
-        
-        <aside class="site-nav">
-            <nav class="nav-menu">
     
     <div class="nav-search">
         <input type="search" id="search-input" placeholder="Search..." aria-label="搜索">
@@ -320,8 +324,7 @@
             
             
             <p class="post-excerpt">前两天发现女儿的镜架有点掉漆了，正好还有一副新的同型号的镜架，打算给她换一换，可能是我的螺丝刀有点老了，加上螺丝拧的有点紧，螺丝拧花了也没有拧下来。
-网上找了找，有一个专门拆眼镜断丝，滑丝的工具，淘宝要110&#43;，闲鱼找了找，有一个卖二手的25，可惜已经被买走了，拼多多上找了以下，发现能便宜10块钱左右。10块也是钱，能省一点是一点，决定多多上买。
-拍完了之后，弹出个页面，说我这单可以免52块钱，点...</p>
+网上找了找，有一个专门拆眼镜断丝，滑丝的工具，淘宝...</p>
             
             
             <div class="post-tags">
@@ -365,8 +368,7 @@
             
             
             <p class="post-excerpt">下午忽然有一个人加我微信，出于职业的敏感，我觉得她（他）不是做广告的，就是骗人的。但是，又怕再次闹出把粉丝当骗子的乌龙。所以，还是通过了。
-过了一会，这个人给我发了一个活动的截图，并且问，是你们的店在做这个活动吗？图片是一个投票的图片，说是2022年中原区首届“金牌眼镜店”什么玩意的。店名是我的店名，活动肯定是假的。
-我回复她（他），店是我们的，活动不是我们的，也每兴趣参与。她（他）再也不理我了。...</p>
+过了一会，这个人给我发了一个活动的截图，并且问，是你们的店在...</p>
             
             
             <div class="post-tags">
@@ -413,8 +415,7 @@
             </div>
             
             
-            <p class="post-excerpt">最初装上trilium上之后，发现web端新建笔记或者删除笔记等都不会刷新。也和中文博客群里的少君等人讨论过，也没有得出过什么结论，毕竟环境不同嘛，当时貌似也就我一个人遇到了这种情况。后来发现是网络有错误，是websocket链接错误。但是作为小白，也没有解决的办法。
-后来张波老师也遇到了，原来用域名反代访问就会出现这个问题。群里的大神给出了NGINX下的解决方案，可是我用的群晖啊，没有nginx...</p>
+            <p class="post-excerpt">最初装上trilium上之后，发现web端新建笔记或者删除笔记等都不会刷新。也和中文博客群里的少君等人讨论过，也没有得出过什么结论，毕竟环境不同嘛，当时貌似也就我一个人遇到了这种情况。后来发现是网络有...</p>
             
             
             <div class="post-tags">
@@ -462,10 +463,7 @@
             
             
             <p class="post-excerpt">前几天晚上，和女儿老婆一起在滨河公园里散步。路边有卖酸梅汤的，5元一杯，女儿要喝，遂买了一杯，喝后，勾兑感很浓，大概率是是用酸梅粉勾兑出来的，就有了自己熬制酸梅汤的打算。
-酸梅汤在中国已经有了上千年的历史了，在商周时期， 就有了用梅子做饮料的记载，可谓是最早的酸梅汤了。红楼梦里也有贾宝玉挨打后，要喝酸梅汤的故事。
-日斜戏散归何处，宴乐居同六和局。
-三大钱儿买甜花，切糕鬼腿闹喳喳，
-清晨一碗甜浆粥，...</p>
+酸梅汤在中国已经有了上千年的...</p>
             
             
             <div class="post-tags">
@@ -506,8 +504,7 @@
             </div>
             
             
-            <p class="post-excerpt">最近，中文博客圈群里兴起了一股笔记软件的热潮，其实也不是最近，而是一直都有断断续续的讨论。只不过老刘一直以来都是用的群晖note，对我来说，网页剪辑一下要用到的网页内容，各种客户端都很齐全，觉得是够用的了。直到….
-上个月隔离的时候，碰到张波老师安装Trilium这个软件，于是我也试用了一下，被这个笔记的功能所吸引，于是再群晖上部署，试用，又折腾了其他的一些笔记软件。最后来说一说这些笔记软件的特点...</p>
+            <p class="post-excerpt">最近，中文博客圈群里兴起了一股笔记软件的热潮，其实也不是最近，而是一直都有断断续续的讨论。只不过老刘一直以来都是用的群晖note，对我来说，网页剪辑一下要用到的网页内容，各种客户端都很齐全，觉得是够用...</p>
             
             
             <div class="post-tags">
@@ -556,8 +553,7 @@
             </div>
             
             
-            <p class="post-excerpt">这两天，被全网关注得莫过于郑州的“120”事件了。大家关注这类事件，是因为不管120也好，110也罢，都和每个人的生命财产息息相关。这些电话，是每个人情愿一生都不用拨打的，一拨打就能马上立刻能响应的电话。所以，关注度高也就不足为奇了。
-今天看到处罚的结果出来了，从接线员到主管急救系统的卫健委的领导都收到不同程度的处分。但是很多网友还是不买账，认为处罚的太轻了，极端的网友甚至要以过失杀人罪来处罚接线...</p>
+            <p class="post-excerpt">这两天，被全网关注得莫过于郑州的“120”事件了。大家关注这类事件，是因为不管120也好，110也罢，都和每个人的生命财产息息相关。这些电话，是每个人情愿一生都不用拨打的，一拨打就能马上立刻能响应的电...</p>
             
             
             <a href="/4141.html" class="post-read-more">阅读更多</a>

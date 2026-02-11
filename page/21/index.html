@@ -19,9 +19,23 @@
 <body class="">
     <header class="site-header">
         <div class="header-content">
-            <a href="/" class="site-title">老刘博客</a>
-            <div class="header-actions">
-                <button id="theme-toggle" class="theme-toggle" aria-label="切换主题">
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="site-container">
+        
+        <aside class="site-nav">
+            <nav class="nav-menu">
+    
+    <div class="nav-site-title">
+        <a href="/">老刘博客</a>
+        <div class="nav-theme-toggle">
+            <button id="theme-toggle" class="theme-toggle" aria-label="切换主题">
     <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <circle cx="12" cy="12" r="5"></circle>
         <line x1="12" y1="1" x2="12" y2="3"></line>
@@ -99,19 +113,9 @@
     }
 }
 </style>
-                <button class="mobile-menu-toggle" aria-label="Toggle menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </div>
         </div>
-    </header>
+    </div>
 
-    <div class="site-container">
-        
-        <aside class="site-nav">
-            <nav class="nav-menu">
     
     <div class="nav-search">
         <input type="search" id="search-input" placeholder="Search..." aria-label="搜索">
@@ -319,9 +323,7 @@
             </div>
             
             
-            <p class="post-excerpt">自从把博客程序从WordPress换成Hugo以来，我把评论也给取消了，原因在我看来，评论有时候变成了我的负担。很多时候是为了评论而评论，或者为了获取评论而写一些迎合读者的文章，这样以来，我感觉偏离了我的初心，所以，干脆就不在布置评论。
-放弃评论后，我是爽了，但是也不断的有博友反馈，希望有评论的功能，考虑再三，觉得还是加上为好。
-阿甘博客里说了一个使用artalk的方法，之前我也部署过，不过使用这...</p>
+            <p class="post-excerpt">自从把博客程序从WordPress换成Hugo以来，我把评论也给取消了，原因在我看来，评论有时候变成了我的负担。很多时候是为了评论而评论，或者为了获取评论而写一些迎合读者的文章，这样以来，我感觉偏离了...</p>
             
             
             <div class="post-tags">
@@ -363,7 +365,7 @@
             
             
             <p class="post-excerpt">在网上经常看到网友询问百度地图和高德地图如何选择，网上的文章要么太老，要么太老，要么太老，没有什么参考价值。为什么这么说呢，因为现在导航技术加上北斗的支持，已经远远不是文章的那个年代所用的技术了。
-我之前也在博客群里问相关的问题，得到的答案一般都是推荐高德导航，理由是高德更纯粹，他是靠导航来吃饭的，如果导航做不好，他就无法很好的生存；相反百度是一个大杂烩，什么都搞，什么都搞不好。我也是一直在用高德...</p>
+我...</p>
             
             
             <div class="post-tags">
@@ -407,8 +409,7 @@
             
             
             <p class="post-excerpt">昨天博友@DemoChen问我能不能拉一个群，他的一个朋友有眼睛相关的问题需要咨询。当时我在外面陪孩子在金水河公园的雪地里漫步，回到家里后，专门拉了一个群，demochen也拉了他的朋友进来。
-他的朋友问了一个很多家长都非常关系的问题————孩子的视力，如何预防近视：
-@镜缘轩 大佬您好，我有个预防近视的问题想请教下，我家有个2岁零的宝宝，因为现在孩子总是难免看手机电视，而且孩子看电视一会会时不时...</p>
+他的朋...</p>
             
             
             <div class="post-tags">
@@ -450,8 +451,7 @@
             
             
             <p class="post-excerpt">为了奔赴二伯父去世三周年的纪念日，回了老家几天，见了一些人、一些事。
-高速公路 回去的那一天是正月初八，高速公路免费通行的最后一天。返程的车流量很大，但是去程的车流一般，但就是不多的车流量，也让人感觉不流畅。原因就是占用快车道的车跑的慢，导致后方拥堵。
-网上流传的段子是，一年跑两箱油的新手都到高速公路上来练手了。其实我觉得不是跑几箱油的问题，而是人性，自私自利的司机太多，只图自己方便，管他后面洪水...</p>
+高速公路 回去的那一天是正月初八，高速公路免费通行的最后一天。返程的车流量很大，但是去程的车流一般，但就是不多的车流量，也让人感觉...</p>
             
             
             <div class="post-tags">
@@ -493,8 +493,7 @@
             
             
             <p class="post-excerpt">女儿是刘耀文的小粉丝，年前就念叨着要看这部电影。过年嘛，看电影娱乐一下下也是应该的。
-先说结论，由于有了雷佳音和马丽的主演，整个影片是以喜剧的形式，讲述了一个法律的问题，或者是一个社会性的问题，也是一个目前争议很大的问题————要不要做一个好人。
-整部影片有三个故事组成，一个是刘耀文在学校帮助被霸凌的同学而打伤了教务主任的儿子，教务主任报警，要求刘耀文道歉，不然就会被拘留。第二个故事是公交司机为了...</p>
+先说结论，由于有了雷佳音和马丽的主演，整个影片是以喜剧的形式，讲述了一个法律的问题，或者是一个社会性的问题，也是一...</p>
             
             
             <div class="post-tags">
@@ -535,8 +534,7 @@
             </div>
             
             
-            <p class="post-excerpt">最近女儿放假了，忙着辅导她的功课，毕竟初三了，加上期末考试的成绩不是很理想，所以寒假是要努力的时候了。在这期间德充符也少了，只读了《万历十五年》这本历史书，另外就是在看了1900的博客后，把手机的输入法改成了Fcitx5 for Android，并且安装rime插件，使用雾凇拼音词库；这样手机就和电脑使用同一个词库了。
-手机安装并Fcitx5 for Android 在电脑上从去年开始就一直使用小...</p>
+            <p class="post-excerpt">最近女儿放假了，忙着辅导她的功课，毕竟初三了，加上期末考试的成绩不是很理想，所以寒假是要努力的时候了。在这期间德充符也少了，只读了《万历十五年》这本历史书，另外就是在看了1900的博客后，把手机的输入...</p>
             
             
             <div class="post-tags">

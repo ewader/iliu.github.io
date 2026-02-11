@@ -19,9 +19,23 @@
 <body class="">
     <header class="site-header">
         <div class="header-content">
-            <a href="/" class="site-title">老刘博客</a>
-            <div class="header-actions">
-                <button id="theme-toggle" class="theme-toggle" aria-label="切换主题">
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="site-container">
+        
+        <aside class="site-nav">
+            <nav class="nav-menu">
+    
+    <div class="nav-site-title">
+        <a href="/">老刘博客</a>
+        <div class="nav-theme-toggle">
+            <button id="theme-toggle" class="theme-toggle" aria-label="切换主题">
     <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <circle cx="12" cy="12" r="5"></circle>
         <line x1="12" y1="1" x2="12" y2="3"></line>
@@ -99,19 +113,9 @@
     }
 }
 </style>
-                <button class="mobile-menu-toggle" aria-label="Toggle menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </div>
         </div>
-    </header>
+    </div>
 
-    <div class="site-container">
-        
-        <aside class="site-nav">
-            <nav class="nav-menu">
     
     <div class="nav-search">
         <input type="search" id="search-input" placeholder="Search..." aria-label="搜索">
@@ -319,7 +323,7 @@
             </div>
             
             
-            <p class="post-excerpt">几年前，我使用过一段时间Linux，后来因为没有官方的微信客户端，并且每三个月需要报税的软件只能在Windows上使用，所以我放弃了Linux，转而使用了Windows 11，过了几年，便懒得再折腾。最近，电脑偶尔会出现卡顿的情况，每次都需要重启才能解决。我曾经重置过系统，但问题依然没有得到彻底解决。恰好，我看到某位博友写的主力使用Ubuntu24的博客，因此，我决定重新尝试使用Linux，毕竟我...</p>
+            <p class="post-excerpt">几年前，我使用过一段时间Linux，后来因为没有官方的微信客户端，并且每三个月需要报税的软件只能在Windows上使用，所以我放弃了Linux，转而使用了Windows 11，过了几年，便懒得再折腾。...</p>
             
             
             <div class="post-tags">
@@ -362,7 +366,7 @@
             
             <p class="post-excerpt">读南怀瑾先生的《禅宗和道家》，读到“风动、幡动、心动”这个典故（佛家称为公案）时，我的思绪回到了过去。
 记得第一次读到这个公案，大概是在初中的政治课本上。故事是这样的：
-唐代仪凤元年（676年），慧能大师在广州法性寺（今光孝寺）听印宗法师讲《涅槃经》。一阵风吹来，寺中的幡旗随风摇曳，引发了两位僧人的争论。一位僧人说：“是风在动。”另一位坚持：“是幡在动。”两人争执不下，慧能大师便上前说道：“不是风...</p>
+唐代仪凤元年（676年），慧能...</p>
             
             
             <div class="post-tags">
@@ -403,8 +407,7 @@
             </div>
             
             
-            <p class="post-excerpt">我曾以为，理财是一个很复杂的东西，股票、基金、保险等等，充满了复杂的公式和博弈。所以，对理财这方面一直抱着敬而远之的态度，只会挑选一些风险小的项目。也曾在股市上投入了一些，但每次都赶不上节奏，所以慢慢的这方面的心思也就淡了。
-前几天偶尔在微信德充符上看到了摩根·豪泽尔的《金钱心理学：财富、人性和幸福的永恒真相》这本书，才发现原来理财也可以是这么简单的一件事情，但简单的事情，往往也是最不容易做到的事...</p>
+            <p class="post-excerpt">我曾以为，理财是一个很复杂的东西，股票、基金、保险等等，充满了复杂的公式和博弈。所以，对理财这方面一直抱着敬而远之的态度，只会挑选一些风险小的项目。也曾在股市上投入了一些，但每次都赶不上节奏，所以慢慢...</p>
             
             
             <div class="post-tags">
@@ -446,7 +449,7 @@
             
             
             <p class="post-excerpt">不出所料，曼联又输了，输给了同城死敌曼城，这结果一点都不让人感到意外，所以也就没有了什么不好的情绪。如今的曼联，用“每况愈下”这个词来形容，简直再贴切不过了。
-每年夏天，曼联都像个豪气的冤大头，挥舞着钞票在转会市场上一掷千金。买回来的球员的表现确都不如预期。今年，他们终于改变了买人的策略，不再只盯着那些潜力新人，而是把钱砸向了联赛中的“即战力”。即战力来是来了，但是花费了2亿英镑买的即战力，也不会...</p>
+每年夏天，曼联都像个豪气的冤大头，挥舞着...</p>
             
             
             <div class="post-tags">
@@ -487,8 +490,7 @@
             </div>
             
             
-            <p class="post-excerpt">前几个月，我关注到腾讯新推出的 EdgeOne 服务。这款产品无需备案和实名，而且提供免费额度，对于个人网站来说非常友好。刚发布时兑换码一码难求，我并没有太多关注。后来，腾讯推出了一个活动，只要在 X（原 Twitter）上转发推文，就能获得两个兑换码。我成功领取并兑换了一个，并将其用于我的“镜缘轩”网站。
-我的“镜缘轩”网站部署在 CloudCone 的 VPS 上，访问速度一直不尽如人意。接入...</p>
+            <p class="post-excerpt">前几个月，我关注到腾讯新推出的 EdgeOne 服务。这款产品无需备案和实名，而且提供免费额度，对于个人网站来说非常友好。刚发布时兑换码一码难求，我并没有太多关注。后来，腾讯推出了一个活动，只要在 X...</p>
             
             
             <div class="post-tags">
@@ -530,9 +532,7 @@
             
             
             <p class="post-excerpt"> 闲坐小窗读周易，不知春去几多时。
-从2025年2月翻开南怀瑾先生的《易经杂说》和《易经系列别讲》，到今天，整整七个月过去了。说“读完了”，其实只是一个时间节点——真正的学习远没有结束。中华传统文化厚重而深远，每一次翻阅，都会带来不同的感触。
-一、德充符与写作的碎片记录 这七个月，我边读边写，把每一次阅读的感悟记录下来。文字成了记录，也成了生活的镜子：
-2月26日，《跟着南怀瑾先生学易经（一）》 ...</p>
+从2025年2月翻开南怀瑾先生的《易经杂说》和《易经系列别讲》，到今天，整整七个月过去了。说“读完了”，其实只是一个时间节点——真正的学习远没有结束。中华传统文化厚...</p>
             
             
             <div class="post-tags">

@@ -19,9 +19,23 @@
 <body class="">
     <header class="site-header">
         <div class="header-content">
-            <a href="/" class="site-title">老刘博客</a>
-            <div class="header-actions">
-                <button id="theme-toggle" class="theme-toggle" aria-label="切换主题">
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="site-container">
+        
+        <aside class="site-nav">
+            <nav class="nav-menu">
+    
+    <div class="nav-site-title">
+        <a href="/">老刘博客</a>
+        <div class="nav-theme-toggle">
+            <button id="theme-toggle" class="theme-toggle" aria-label="切换主题">
     <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <circle cx="12" cy="12" r="5"></circle>
         <line x1="12" y1="1" x2="12" y2="3"></line>
@@ -99,19 +113,9 @@
     }
 }
 </style>
-                <button class="mobile-menu-toggle" aria-label="Toggle menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </div>
         </div>
-    </header>
+    </div>
 
-    <div class="site-container">
-        
-        <aside class="site-nav">
-            <nav class="nav-menu">
     
     <div class="nav-search">
         <input type="search" id="search-input" placeholder="Search..." aria-label="搜索">
@@ -320,7 +324,7 @@
             
             
             <p class="post-excerpt">很多追求新，追求精简的Linux系统的使用者，往往都会推荐Arch Linux，这个系统特点是精简，精简到什么都需要你来搞定，所以也让很多人望而却步。
-后来有人根据Arch Linux开发出manjaro这个系统，一问世就获得了用户的好评，但是，后来manjaro的发展也偏离了初心，EndeavourOs可以简便了Arch Linux的安装，但是又不多添加零碎，是最接近Arch Linux的系统了...</p>
+后来有人根据Arch Linux开发出manja...</p>
             
             
             <div class="post-tags">
@@ -361,8 +365,7 @@
             </div>
             
             
-            <p class="post-excerpt">角膜塑形镜是目前非常流行的一种控制近视的一种手段，从研究的效果来看是目前有效率最高的一种。但是现在各种媒体、医院、各网红眼科医生们却大都默默的忽略了佩戴隐形眼镜的风险。今天，老刘在看国外的文献的时候，发现了如下的一篇文章，翻译过来给大家，以便大家权衡利弊。
-该研究包括选择了32位白人近视眼患者，他们均佩戴了三个月的角膜塑形。使用光学相干断层扫描（OCT）血管造影对患者治疗前后的总、上皮和基质厚度，...</p>
+            <p class="post-excerpt">角膜塑形镜是目前非常流行的一种控制近视的一种手段，从研究的效果来看是目前有效率最高的一种。但是现在各种媒体、医院、各网红眼科医生们却大都默默的忽略了佩戴隐形眼镜的风险。今天，老刘在看国外的文献的时候，...</p>
             
             
             <div class="post-tags">
@@ -403,9 +406,7 @@
             </div>
             
             
-            <p class="post-excerpt">在上一篇文章中曾经说到把博客从WordPress转到了Hugo，经过这几天的使用，发现还是很不错的，用起来也比较方便。但是，在使用PaperMod主题的时候，也是遇到了一些问题，本文就遇到的问题作一个记录。目前，主题的代码高亮功能还是没有搞定，不过也是影响不大，先放一放也无所谓。
-首页不显示文章 把WordPress导出的md文件导入的Hugo的psots目录后，在使用代码创建新文件时候
-hugo...</p>
+            <p class="post-excerpt">在上一篇文章中曾经说到把博客从WordPress转到了Hugo，经过这几天的使用，发现还是很不错的，用起来也比较方便。但是，在使用PaperMod主题的时候，也是遇到了一些问题，本文就遇到的问题作一个...</p>
             
             
             <div class="post-tags">
@@ -447,8 +448,7 @@ hugo...</p>
             
             
             <p class="post-excerpt">这里记录每周值得分享的视光内容。周五在光学视界公众号和图南博客发布。本周的主要内容包括：角膜塑形镜的安全性，近视人年老了会不会老花，高度近视人的选框技巧等。
-投稿请发邮件至：ewader@qq.com。
-封面图-防紫外线的重要性 这是一只患有严重白内障患者的眼睛，可以看到整个眼球都类似一个玉石一样的颜色了。可想而知，该患者的视力情况。 预防白内障要从防紫外线着手，比如外出佩戴防紫外线的太阳镜，一定...</p>
+投稿请发邮件至：ewader@qq.com...</p>
             
             
             <div class="post-tags">
@@ -489,7 +489,7 @@ hugo...</p>
             </div>
             
             
-            <p class="post-excerpt">在cloudcone上买的VPS马上就要到期了，由于去年买的是黑五预售，比正经黑五的机子要贵20来块钱，而且配置还要低一些。所以，续费是不能续费的了。原本打算在荷兰的liteserver这个上面暂时放一段时间。这是一台2c2g的机子，装完php、MySQL、和Nginx之后，只要运行一段时间，内存就基本上爆了。再加上最近lnmp和oneinstack都被收购而且被挂恶意代码，也不想用宝塔之类的面板...</p>
+            <p class="post-excerpt">在cloudcone上买的VPS马上就要到期了，由于去年买的是黑五预售，比正经黑五的机子要贵20来块钱，而且配置还要低一些。所以，续费是不能续费的了。原本打算在荷兰的liteserver这个上面暂时放...</p>
             
             
             <div class="post-tags">
@@ -531,8 +531,7 @@ hugo...</p>
             
             
             <p class="post-excerpt">进入暑假后，女儿就心念念的想去海边看看，海南太热也太远，就选择了相对比较近的山东。日照、青岛等人都太多了，最后决定去威海。原本打算乘坐高铁前往，后来同行的另一家又增加了两个人，就又计划自驾而去。
-Day 1郑州至青岛石老人海水浴场# 由于上班的原因，下午5点才从郑州出发，计划是到青岛休整一下，毕竟开夜车是一个很辛苦的事情。网上看到石老人沙滩很平很细，海水干净，能露营，还能看海上日出。
-凌晨1点多的...</p>
+Da...</p>
             
             
             <div class="post-tags">

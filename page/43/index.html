@@ -19,9 +19,23 @@
 <body class="">
     <header class="site-header">
         <div class="header-content">
-            <a href="/" class="site-title">老刘博客</a>
-            <div class="header-actions">
-                <button id="theme-toggle" class="theme-toggle" aria-label="切换主题">
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="site-container">
+        
+        <aside class="site-nav">
+            <nav class="nav-menu">
+    
+    <div class="nav-site-title">
+        <a href="/">老刘博客</a>
+        <div class="nav-theme-toggle">
+            <button id="theme-toggle" class="theme-toggle" aria-label="切换主题">
     <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <circle cx="12" cy="12" r="5"></circle>
         <line x1="12" y1="1" x2="12" y2="3"></line>
@@ -99,19 +113,9 @@
     }
 }
 </style>
-                <button class="mobile-menu-toggle" aria-label="Toggle menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </div>
         </div>
-    </header>
+    </div>
 
-    <div class="site-container">
-        
-        <aside class="site-nav">
-            <nav class="nav-menu">
     
     <div class="nav-search">
         <input type="search" id="search-input" placeholder="Search..." aria-label="搜索">
@@ -321,7 +325,7 @@
             
             <p class="post-excerpt">今天，退出了那个房子的维权群，因为我发现这个群里面的有些人已经变成神经病了。正所谓，道不同不相为谋，早退早心静。
 其实这段时间，早就有退出的心思了，只是一时没有下定决心。
-群里的有些人心态已经炸了，只要有人发布一条关于开发商的信息，马上就有人怀疑是内奸。前几天，有人发了一条信息说，收到开发商发的短信，让去选装修方案。然后另一个说，他没收到，又一个说，没有收到。然后这个收到短信的就被怀疑是内奸了，是...</p>
+群里的有些人心态已经炸了，只...</p>
             
             
             <div class="post-tags">
@@ -365,8 +369,7 @@
             
             
             <p class="post-excerpt">首先声明，就是前一段比较消沉的时候，看了些德云社的一些专场视频，根据自己的感受，点评一下，纯属个人意见，也不是单独某个人的粉丝。如果冒犯了你的偶像，请谅解。
-德云社这个相声团体可能是目前宇宙中最火的相声团体了。人老郭确实也有两把刷子，有想法，有能力，还会炒作，所以想不火都难。这个很火的团体，其演员的专业水平还是参差不齐的，根据个人听的观感，说一说相声水平的高低。
-排名最顶尖的当然是郭德纲和于谦了，...</p>
+德云社这个相声团体可能是目前宇宙中最火的相...</p>
             
             
             <div class="post-tags">
@@ -407,8 +410,7 @@
             </div>
             
             
-            <p class="post-excerpt">看了一些python教程，很多都是在windows下进行的开发，由于老刘对linux还算是有一丢丢的了解，所以从开始就在ubuntu下进行。前两天由于要在windows下用电脑，用完之后懒得重启，由于win10里也配置好了python的开发环境，所以就在win下写了一些代码。
-写完之后，浏览器打开显示404错误，小心的查代码，也找不到错误的地方，明明有这个网页的模板，就是显示404，折腾了1个多小...</p>
+            <p class="post-excerpt">看了一些python教程，很多都是在windows下进行的开发，由于老刘对linux还算是有一丢丢的了解，所以从开始就在ubuntu下进行。前两天由于要在windows下用电脑，用完之后懒得重启，由于...</p>
             
             
             <div class="post-tags">
@@ -458,8 +460,7 @@
             
             
             <p class="post-excerpt">最近一直使用Linuxmint，如果不是一些必备的软件在Linux下没有，甚至都可以把Windows10卸载了，不过没有办法，有些软件还必须在win下使用。
-现在很多笔记本都是1920*1080的分辨率，这就导致字体有些小，在win10下默认是显示125%，Linuxmint下虽然也是可以设置成125%，但是总感觉有些不协调。
-网上还有一些教程是调大字体显示。但是无论怎么调，总感觉有些违和，看网页...</p>
+现在很多笔记本都是1920*1080的分辨...</p>
             
             
             <div class="post-tags">
@@ -506,9 +507,7 @@
             
             <p class="post-excerpt">二十来天没有更新博客了，主要的原因还是出在了自己的身上。
 不知道是怎么回事，这段时间有点消沉，干什么都感觉提不起精神。所以博客也就荒了起来，好在经过这段时间的调整，那个乐观、开朗的老刘又回来了。
-在不写博客的这段时间里发生了很多的事情：
-比如，梅西第七次获得金球奖，尽管老刘觉得今年的金球奖更应该给莱万多夫斯基。但是谁让梅西的名气更大呢，不过还是觉得把这个奖项给梅西还是有点过分了。
-比如，曼联的主帅...</p>
+在不...</p>
             
             
             <div class="post-tags">
@@ -551,7 +550,7 @@
             </div>
             
             
-            <p class="post-excerpt">一直以来，都想弄一个会员查询系统，最好是针对眼镜店的，但是这个玩意吧，会弄的不愿意弄，想弄的不会。也曾经问过一个朋友，他嫌简单，不愿意弄，其实还是钱的问题，要的高了伤感情，要少了值不当。特别是有了公众号之后，这个想法尤其强烈。因为自己用的进销存软件是单机的，客户没法自助查询，我本人如果不在店里的话，也没办法查询到客户的资料，非常的不方便。如果有这么一个查询系统的话，直接挂到公众号上，顾客自己都可以...</p>
+            <p class="post-excerpt">一直以来，都想弄一个会员查询系统，最好是针对眼镜店的，但是这个玩意吧，会弄的不愿意弄，想弄的不会。也曾经问过一个朋友，他嫌简单，不愿意弄，其实还是钱的问题，要的高了伤感情，要少了值不当。特别是有了公众...</p>
             
             
             <div class="post-tags">

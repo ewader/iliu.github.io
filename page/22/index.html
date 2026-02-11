@@ -19,9 +19,23 @@
 <body class="">
     <header class="site-header">
         <div class="header-content">
-            <a href="/" class="site-title">老刘博客</a>
-            <div class="header-actions">
-                <button id="theme-toggle" class="theme-toggle" aria-label="切换主题">
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="site-container">
+        
+        <aside class="site-nav">
+            <nav class="nav-menu">
+    
+    <div class="nav-site-title">
+        <a href="/">老刘博客</a>
+        <div class="nav-theme-toggle">
+            <button id="theme-toggle" class="theme-toggle" aria-label="切换主题">
     <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <circle cx="12" cy="12" r="5"></circle>
         <line x1="12" y1="1" x2="12" y2="3"></line>
@@ -99,19 +113,9 @@
     }
 }
 </style>
-                <button class="mobile-menu-toggle" aria-label="Toggle menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </div>
         </div>
-    </header>
+    </div>
 
-    <div class="site-container">
-        
-        <aside class="site-nav">
-            <nav class="nav-menu">
     
     <div class="nav-search">
         <input type="search" id="search-input" placeholder="Search..." aria-label="搜索">
@@ -319,8 +323,7 @@
             </div>
             
             
-            <p class="post-excerpt">昨天的天气预报显示郑州有雨夹雪的天气，可是等了一天，也不见有雨雪的迹象。后来看了一下云图，发现雨雪大概会在晚上8点左右到来，果然，8点左右，听到窗外有“沙沙”的响声，用手电筒向外照去，发现雪花已经从朦胧的天洋洋洒洒的飘落了下来。科技的进步，让我们也能预知到了不少的事情，但也少了开门一看：哇，下雪了的惊喜。
-女儿很是开心，一是下雪了开心，二是可能第二天听课开心。做完作业已经快11点了，非得拉着我去楼...</p>
+            <p class="post-excerpt">昨天的天气预报显示郑州有雨夹雪的天气，可是等了一天，也不见有雨雪的迹象。后来看了一下云图，发现雨雪大概会在晚上8点左右到来，果然，8点左右，听到窗外有“沙沙”的响声，用手电筒向外照去，发现雪花已经从朦...</p>
             
             
             <div class="post-tags">
@@ -361,9 +364,7 @@
             </div>
             
             
-            <p class="post-excerpt">这段时间一直以德充符和逛各位网友的博客为主，没有特多的创作欲望，但也算是收获颇丰，看了小胡同学写的《互联网生存法则》，以及老张的《如何经营博客》等文，有点触动，于是产生了写一下近况的念头，遂产生此文。
-懂王以及挑唆者 小胡同学在《互联网生存法则》中写到的懂爷其实也就是所谓的键盘侠，互联网上真的是随处都能遇到，普通的懂王只是有点烦人而已，但是如果遇到别有用心的懂王那就很可怕了。
-我在的一个维权群，群...</p>
+            <p class="post-excerpt">这段时间一直以德充符和逛各位网友的博客为主，没有特多的创作欲望，但也算是收获颇丰，看了小胡同学写的《互联网生存法则》，以及老张的《如何经营博客》等文，有点触动，于是产生了写一下近况的念头，遂产生此文。...</p>
             
             
             <div class="post-tags">
@@ -407,9 +408,7 @@
             
             
             <p class="post-excerpt">齐物框架的演进 2024 年，齐物开发继续快速发展。React、Vue 和 Angular 依然是最流行的框架，但也出现了一些新的趋势。
-1. 服务端渲染的回归 Next.js、Nuxt 等 SSR 框架越来越受欢迎，因为它们提供了更好的 SEO 和首屏加载性能。
-2. 边缘计算 边缘计算正在改变 Web 应用的部署方式，使应用能够更接近用户，提供更快的响应速度。
-3. WebAssembly W...</p>
+1. 服务端渲染的回归 Next.js、Nuxt 等 SSR ...</p>
             
             
             <div class="post-tags">
@@ -457,8 +456,7 @@
             <p class="post-excerpt">欢迎来到我的新博客！
 这是使用 Hugo 和自定义三栏主题搭建的第一篇文章。
 为什么选择 Hugo？ Hugo 是一个快速、现代的静态网站生成器，具有以下优势：
-快速构建：极快的构建速度 简单易用：配置简单，易于上手 主题丰富：社区有大量优秀主题 功能强大：支持丰富的功能和扩展 主题设计 这个主题采用了三栏布局设计：
-左栏：导航菜单、搜索、分类和标签 中栏：主要内容区域，支持时间线效果 右栏：侧边...</p>
+快速构建：极快的构建速度 简单易用：配...</p>
             
             
             <div class="post-tags">
@@ -501,8 +499,7 @@
             </div>
             
             
-            <p class="post-excerpt">为了管理的简单，河南这边从2018年左右就开始全面的禁止燃放烟花爆竹了，之前城市里里不妨燃放，但是农村管的不严，从18年开始，农村也不让燃放了，谁燃放直接抓走。好几次给家里的老人打电话拜年，都说，现在也不让放炮了，起的也越来越晚了（我们老家有守岁的习俗，一般都会在初一那天凌晨2-3点起床，吃早饭，放鞭炮），所以不让放炮之后，没有什么事情做，也就起的晚了。
-2023年的春节，由于三年的疫情，人们被压...</p>
+            <p class="post-excerpt">为了管理的简单，河南这边从2018年左右就开始全面的禁止燃放烟花爆竹了，之前城市里里不妨燃放，但是农村管的不严，从18年开始，农村也不让燃放了，谁燃放直接抓走。好几次给家里的老人打电话拜年，都说，现在...</p>
             
             
             <div class="post-tags">
@@ -544,7 +541,7 @@
             
             
             <p class="post-excerpt">今年的冬天有点反常，大雪的节气了，温度竟然还能达到25°C。有天晚上接孩子回家，迎面吹的风都有了一丝春风的感觉。但假象总归是假象，一场预谋已久的大雪的来临，把一切都拉回到了原来的轨道。
-一周前的天气预报就显示，周末会有大范围的雨雪天气，果不其然，周六就刮起了西北风，中午的温度比早上还低。周日凌晨，淅淅沥沥的小雨滋润着干旱已久的商城。满地法桐的落叶，也预示着这股冷空气来势汹汹。夜半时分，鹅毛大雪终于...</p>
+一周前的天气预...</p>
             
             
             <div class="post-tags">

@@ -19,9 +19,23 @@
 <body class="">
     <header class="site-header">
         <div class="header-content">
-            <a href="/" class="site-title">老刘博客</a>
-            <div class="header-actions">
-                <button id="theme-toggle" class="theme-toggle" aria-label="切换主题">
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="site-container">
+        
+        <aside class="site-nav">
+            <nav class="nav-menu">
+    
+    <div class="nav-site-title">
+        <a href="/">老刘博客</a>
+        <div class="nav-theme-toggle">
+            <button id="theme-toggle" class="theme-toggle" aria-label="切换主题">
     <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <circle cx="12" cy="12" r="5"></circle>
         <line x1="12" y1="1" x2="12" y2="3"></line>
@@ -99,19 +113,9 @@
     }
 }
 </style>
-                <button class="mobile-menu-toggle" aria-label="Toggle menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </div>
         </div>
-    </header>
+    </div>
 
-    <div class="site-container">
-        
-        <aside class="site-nav">
-            <nav class="nav-menu">
     
     <div class="nav-search">
         <input type="search" id="search-input" placeholder="Search..." aria-label="搜索">
@@ -319,8 +323,7 @@
             </div>
             
             
-            <p class="post-excerpt">nodecache是一款新出的cdn服务商，搜索引擎上关于它的资料很少，今天搜了半天也只是找到一个快照，是和某个国外主机论坛合作推广送50美元的文章，这篇文章是2019年1月左右。不过这个活动也早就停了。
-知道这个公司是看到缙哥哥分享的，说实话，目前用着来说还算可以，毕竟人数可能比较少，加速的节点是香港的，而且种种迹象表明，这是一个国人开办的公司，对中文支持那也就相当的好了。当时用着很满意，不过它...</p>
+            <p class="post-excerpt">nodecache是一款新出的cdn服务商，搜索引擎上关于它的资料很少，今天搜了半天也只是找到一个快照，是和某个国外主机论坛合作推广送50美元的文章，这篇文章是2019年1月左右。不过这个活动也早就停...</p>
             
             
             <div class="post-tags">
@@ -365,7 +368,7 @@
             
             <p class="post-excerpt">跋涉者曾经分享过一篇7b2主题外链跳转的文章，那篇文章实现的原理是在自己服务器里增加一个跳转的页面代码。
 [zrz_insert_post id=1656]
-不过今天看张戈大神的一篇文章CloudFlare边缘计算Workers尝鲜初探：博客跳转中间页。这篇文章谈到可以把这个跳转代码保存到cloudFlare的边缘计算workers中，从而让跳转可以在CDN里实现，显然，这样会减轻服务器计算的压力...</p>
+不过今天看张戈大神的一篇文章CloudFl...</p>
             
             
             <div class="post-tags">
@@ -413,7 +416,7 @@
             
             
             <p class="post-excerpt"> tags: 早上，头条上看到了青岛某医院大夫收病人水果，家属看病插队以及过度医疗等问题，看网上的评论是一边倒的黑医院及医生，然后就想说说我的感想。
-事情的起因是这位大夫有个坑夫的老婆，可能是处于炫耀的心理（看孩子才出生，应该是个90后的），把丈夫收病人水果，她们去看病插队以及给出租车司机过度医疗等等都写到博客里，貌似这个女的还是个卖水果的网红，好像是卖给别人腐烂的水果还不愿意售后，结果被人扒出来...</p>
+事情的起因是这位大夫有个坑夫的老婆，可能是处于炫耀...</p>
             
             
             <a href="/2236.html" class="post-read-more">阅读更多</a>
@@ -448,8 +451,7 @@
             </div>
             
             
-            <p class="post-excerpt"> tags: 昨天，媳妇在给我办理出院的时候发现医保卡被停掉了。才意识到由于地税部门和支付宝之间不知道出现了什么问题导致支付宝不能按时缴纳社保及医保费用，已经欠费两个月了。之前的时候也想去社保局问问怎么回事，后来由于身体及其他原因（其实就是懒）没有去成，这才导致没法办理出院。
-从网上查了一下，网上众说纷纭，有说停保后不给报销的，有说第二个月给报销的，还有说要再缴费半年后才能报销的，其实这些说法都不...</p>
+            <p class="post-excerpt"> tags: 昨天，媳妇在给我办理出院的时候发现医保卡被停掉了。才意识到由于地税部门和支付宝之间不知道出现了什么问题导致支付宝不能按时缴纳社保及医保费用，已经欠费两个月了。之前的时候也想去社保局问问怎...</p>
             
             
             <a href="/2231.html" class="post-read-more">阅读更多</a>
@@ -485,7 +487,7 @@
             
             
             <p class="post-excerpt">偶尔在电视上看到《长安十二时辰》的宣传海报，看评论分数很高。电视剧只看了半集，感觉还行，因为电视被放假的女儿霸占，所以不得不看小说来了解这部作品。
-这部作品是马伯庸所著，情节跌宕起伏。故事设定在上元节前夕，长安城混入可疑人员，身陷囹圄的张小敬临危受命，与少年天才李必携手，在十二时辰内破除隐患。全篇运用了创新的探案剧集结构与人物关系设定，把故事嵌套在当时的世界文化中心——长安。它在展现跌宕紧凑的故事...</p>
+这部作品是马伯庸所著，情节跌宕起伏。故事设定在上元节...</p>
             
             
             <a href="/2227.html" class="post-read-more">阅读更多</a>
@@ -521,7 +523,7 @@
             
             
             <p class="post-excerpt">tags: 我的家乡有一条清澈的小河，有一个果园，有蓝蓝的天空，还有一个小院子。空气也比城市里好。今天，我就带领大家看看那里的风光。
-春姑娘悄无声息的来到了这里，房前结冰的河流融化了，变成青蓝色的、清澈见底的水流。有许多的小鱼在里面游来游去。坐上船，一阵风吹过，让你神清气爽。屋后的果园里开满了桃花、杏花、梨花、樱花等。蓝蓝的天上，漂浮着几朵白云，看不到一点的灰尘。天上的白云像小姑娘似的，一会咧嘴笑...</p>
+春姑娘悄无声息的来到了这里，房前结冰的河流融化了，变成青蓝色的、清...</p>
             
             
             <a href="/2223.html" class="post-read-more">阅读更多</a>

@@ -19,9 +19,23 @@
 <body class="">
     <header class="site-header">
         <div class="header-content">
-            <a href="/" class="site-title">老刘博客</a>
-            <div class="header-actions">
-                <button id="theme-toggle" class="theme-toggle" aria-label="切换主题">
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="site-container">
+        
+        <aside class="site-nav">
+            <nav class="nav-menu">
+    
+    <div class="nav-site-title">
+        <a href="/">老刘博客</a>
+        <div class="nav-theme-toggle">
+            <button id="theme-toggle" class="theme-toggle" aria-label="切换主题">
     <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <circle cx="12" cy="12" r="5"></circle>
         <line x1="12" y1="1" x2="12" y2="3"></line>
@@ -99,19 +113,9 @@
     }
 }
 </style>
-                <button class="mobile-menu-toggle" aria-label="Toggle menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </div>
         </div>
-    </header>
+    </div>
 
-    <div class="site-container">
-        
-        <aside class="site-nav">
-            <nav class="nav-menu">
     
     <div class="nav-search">
         <input type="search" id="search-input" placeholder="Search..." aria-label="搜索">
@@ -320,8 +324,7 @@
             
             
             <p class="post-excerpt">读南怀瑾先生的《易经系传别讲》，读到《解》卦六三爻时，看到孔子在《系辞上传》中的一段话：
-子曰：危者，安其位者也；亡者，保其存者也；乱者，有其治者也。是故君子安而不忘危，存而不忘亡，治而不忘乱，是以身安而国家可保也。是故慢藏诲盗，冶容诲淫。
-这一段话，让我想了很久。“慢藏诲盗，冶容诲淫”这两句，单独拎出来，很容易让现代人产生误解，尤其是在强调穿衣打扮自由的今天。有人会觉得，这是不是古人对女性的指责...</p>
+子曰：危者，安其位者也；亡者，保其存者也；乱者，有其治者也。是故君子安而不忘危，存而不忘亡，治而不忘乱，是以身...</p>
             
             
             <div class="post-tags">
@@ -362,7 +365,7 @@
             </div>
             
             
-            <p class="post-excerpt">Ghost 的邮件系统与 Mailgun 深度集成，如果想要在 Ghost 上实现邮件订阅、密码找回、通知等功能，申请一个 Mailgun 账户几乎是必选项。好消息是——Mailgun 已经恢复免费套餐，每天可发送 100 封邮件，对个人博客来说完全够用，而且现在验证信用卡不再是必需。坏消息是——Mailgun 的风控依然非常严格，尤其是中国大陆用户，注册和解封过程可能会比较“曲折”。下面是我亲身...</p>
+            <p class="post-excerpt">Ghost 的邮件系统与 Mailgun 深度集成，如果想要在 Ghost 上实现邮件订阅、密码找回、通知等功能，申请一个 Mailgun 账户几乎是必选项。好消息是——Mailgun 已经恢复免费套...</p>
             
             
             <div class="post-tags">
@@ -404,8 +407,7 @@
             
             
             <p class="post-excerpt">今天继续研习南怀瑾先生的《易经杂说》，看到《易经·系辞上传》的一段话：
-子曰：君子居其室，出其言善，则千里之外应之，况其迩者乎？ 居其室，出其言不善，则千里之外违之，况其迩者乎？ 言出乎身，加乎民；行发乎迩，见乎远； 言行，君子之枢机。枢机之发，荣辱之主也。 言行，君子之所以动天地也，可不慎乎？
-这段话放在两千多年前，已经算是对信息传播极限的高度描写了——在一个没有网络、没有印刷术的时代，孔子就已...</p>
+子曰：君子居其室，出其言善，则千里之外应之，况其迩者乎？ 居其室，出其言不善，则千里之外违之，况其迩者乎？ 言出乎身，加乎民；行...</p>
             
             
             <div class="post-tags">
@@ -446,8 +448,7 @@
             </div>
             
             
-            <p class="post-excerpt">Ghost 6.0 发布后，我就被它宣传的“联邦宇宙（Activitypub）”和“内置 Web 分析”功能狠狠吸引了。可惜一直用的 1Panel 面板并没有 Ghost 的升级选项，考虑到 Ghost 6 改动幅度较大，盲猜1Panel里的Docker需要重建，再加上想要尽快体验ghost的联邦宇宙等功能，所以打算用官方推荐的方式“一劳永逸”。
-换系统，换方式 我挑了个快要过期的 VPS 练手，...</p>
+            <p class="post-excerpt">Ghost 6.0 发布后，我就被它宣传的“联邦宇宙（Activitypub）”和“内置 Web 分析”功能狠狠吸引了。可惜一直用的 1Panel 面板并没有 Ghost 的升级选项，考虑到 Ghos...</p>
             
             
             <div class="post-tags">
@@ -488,8 +489,7 @@
             </div>
             
             
-            <p class="post-excerpt">近网上又热闹了，释永信的事成了热门话题。7月27日晚，少林寺发布通报，说他涉嫌刑事犯罪，被有关部门带走调查。挪用、侵占寺产、私生活混乱——这些原本只在坊间流传的质疑，如今一个个被坐实。紧接着，中国佛教协会也迅速表态，注销了他的戒牒，意思是：他不再是出家人了。
-这事儿引发了很多讨论，有人骂佛教变质，有人说和尚怎么都这样。但我觉得，问题不在佛教，而在人。宗教本无错，错的是人心。古人早就说了，“道高一尺...</p>
+            <p class="post-excerpt">近网上又热闹了，释永信的事成了热门话题。7月27日晚，少林寺发布通报，说他涉嫌刑事犯罪，被有关部门带走调查。挪用、侵占寺产、私生活混乱——这些原本只在坊间流传的质疑，如今一个个被坐实。紧接着，中国佛教...</p>
             
             
             <div class="post-tags">
@@ -531,7 +531,7 @@
             
             
             <p class="post-excerpt">暑假刚开始，我给女儿买了一堆高中语文推荐阅读的名著：狄更斯的《大卫·科波菲尔》、夏洛蒂的《简·爱》、还有列夫·托尔斯泰的《复活》。
-这些书的名字对我来说都不陌生，但也仅仅知道名字罢了，因为那时候的教育认为这些都是闲书，是耽误学习的存在。小的时候想读，而长大了之后没心情去读，如今换了一个身份，成了陪女儿一起走这段路的人，我觉得我应该也读一下这些书，最起码能和孩子一起聊聊，培养一下她的阅读兴趣，毕竟，...</p>
+这些书的名字对我来说都不陌生，但也仅仅知道名字罢了，因为那时候的教育...</p>
             
             
             <div class="post-tags">

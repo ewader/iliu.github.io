@@ -19,9 +19,23 @@
 <body class="">
     <header class="site-header">
         <div class="header-content">
-            <a href="/" class="site-title">老刘博客</a>
-            <div class="header-actions">
-                <button id="theme-toggle" class="theme-toggle" aria-label="切换主题">
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="site-container">
+        
+        <aside class="site-nav">
+            <nav class="nav-menu">
+    
+    <div class="nav-site-title">
+        <a href="/">老刘博客</a>
+        <div class="nav-theme-toggle">
+            <button id="theme-toggle" class="theme-toggle" aria-label="切换主题">
     <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <circle cx="12" cy="12" r="5"></circle>
         <line x1="12" y1="1" x2="12" y2="3"></line>
@@ -99,19 +113,9 @@
     }
 }
 </style>
-                <button class="mobile-menu-toggle" aria-label="Toggle menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </div>
         </div>
-    </header>
+    </div>
 
-    <div class="site-container">
-        
-        <aside class="site-nav">
-            <nav class="nav-menu">
     
     <div class="nav-search">
         <input type="search" id="search-input" placeholder="Search..." aria-label="搜索">
@@ -319,8 +323,7 @@
             </div>
             
             
-            <p class="post-excerpt">按照佛教的说法，我们所在的这个世界名字是婆娑世界，也就是说，可堪忍受的世界，不完美的世界，这个世界的众生都生活在苦海之中。有人说了，佛说的不对，我现在的生活就很幸福呀，身体健康，没有外债，夫妻和睦，儿女懂事&amp;hellip;&amp;hellip;，哪有什么苦头吃哟，或者说，你看看那某思聪，天天当新郎、爷爷入洞房，享不尽的荣华富贵，天天都在快乐之中，哪来的苦？
-很多人都认为佛家的思想是一种消极的思想，但其实...</p>
+            <p class="post-excerpt">按照佛教的说法，我们所在的这个世界名字是婆娑世界，也就是说，可堪忍受的世界，不完美的世界，这个世界的众生都生活在苦海之中。有人说了，佛说的不对，我现在的生活就很幸福呀，身体健康，没有外债，夫妻和睦，儿...</p>
             
             
             <div class="post-tags">
@@ -364,7 +367,7 @@
             
             
             <p class="post-excerpt">老刘在以前的文章里也曾提过选择输入法的过程，目前在电脑上的方案是使用小狼毫输入法加雾凇拼音的词库。并通过群晖drive实现几个PC之间个人词库的同步，使用起来还算方便。
-但是在手机上一直找不到好用的输入法，老刘目前使用的是荣耀的一款手机，荣耀现在和百度走的很近，所以输入法当然也是百度输入法荣耀版。众所周知的是，国内的软件，都写的有隐私保护，但是也都没有做到过隐私保护，都是拿着用户的隐私来牟取利益。...</p>
+但是在手机上一直找不到好用的输...</p>
             
             
             <div class="post-tags">
@@ -406,8 +409,7 @@
             
             
             <p class="post-excerpt">
-前因 几年前，老刘最开始用软件进行密码管理的时候，用的就是keepassxc，只是后来有一段时间使用deepin，系统的内核比较低，不支持keepassxc的最新版，取舍之后，使用了Bitwarden，并部署在我nas里。这一用就是几年的时间过去了，只到最近遇到了问题。
-这个问题就是docker镜像被墙了以后，部署在NAS里的bitwarden就没法更新了。作为一个安全软件，没法更新后的漏洞带来...</p>
+前因 几年前，老刘最开始用软件进行密码管理的时候，用的就是keepassxc，只是后来有一段时间使用deepin，系统的内核比较低，不支持keepassxc的最新版，取舍之后，使用了Bitwarde...</p>
             
             
             <div class="post-tags">
@@ -451,8 +453,7 @@
             
             
             <p class="post-excerpt">军训，顾名思义就是军事训练。这个在我小时候很少听到的词汇，在今天，尤其是暑假开学后的日子，被人们累累提起。
-老刘参加的唯一一次军训是1998年，我们学校是当时试点军训单位，所以军训的异常严格，由某部队官兵来学校训练，基本上是按照新兵的标准来的。时间是一个月，你能想到一个十来岁的孩子，刚刚去到一个人生地不熟的地方，心中的彷徨和无奈吗？
-记得郑州的那个9月，秋老虎很是肆虐，整整一个月，竟然一滴雨都没有...</p>
+老刘参加的唯一一次军训是1998年，我们学校是当时试点军训单位，所以军训的异常严格，由某部队...</p>
             
             
             <div class="post-tags">
@@ -493,8 +494,7 @@
             </div>
             
             
-            <p class="post-excerpt">老刘在前面一篇文章中说，某年某月的某一天，老刘重置了电脑，不但丢失了存在本地的博客数据，而且发现安全中心打开是一个空白的窗口。老刘使用了重启大法的手段，但是发现并没有什么卵用。文心一言里给出了很多的建议，满满的一大页，照着做了下，问题还是没有解决。
-不得以，老刘还是去搜索引擎上找方法吧，有一些方法大同小异，只到看到了一篇文章，说把一段代码保存成reg的格式，双击导入注册表即可。老刘试用了一下，完美...</p>
+            <p class="post-excerpt">老刘在前面一篇文章中说，某年某月的某一天，老刘重置了电脑，不但丢失了存在本地的博客数据，而且发现安全中心打开是一个空白的窗口。老刘使用了重启大法的手段，但是发现并没有什么卵用。文心一言里给出了很多的建...</p>
             
             
             <div class="post-tags">
@@ -536,8 +536,7 @@
             
             
             <p class="post-excerpt">朋友们，老刘换新博客了，事情的原因是这样子的：
-在某年某月的某一天，老刘发现电脑有点不好用了，于是，就重置了一下电脑，并且没有保留软件和文档。所以，等老刘意识到还没有备份网站数据的时候，事情已经发生了，有看官要问了，你的网站数据难道是放在C盘了吗？这个说来就有点话长了。
-最初换成Hugo的时候，电脑是比较旧的一台电脑，装的是endeavouros，而且在Linux下，配置Hugo那不是一般的方便。...</p>
+在某年某月的某一天，老刘发现电脑有点不好用了，于是，就重置了一下电脑，并且没有保留软件和文档。所以，等老刘意识到还没有备份网站数据的时候，事情已经发生了...</p>
             
             
             <div class="post-tags">

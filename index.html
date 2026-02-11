@@ -19,9 +19,23 @@
 <body class="">
     <header class="site-header">
         <div class="header-content">
-            <a href="/" class="site-title">老刘博客</a>
-            <div class="header-actions">
-                <button id="theme-toggle" class="theme-toggle" aria-label="切换主题">
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="site-container">
+        
+        <aside class="site-nav">
+            <nav class="nav-menu">
+    
+    <div class="nav-site-title">
+        <a href="/">老刘博客</a>
+        <div class="nav-theme-toggle">
+            <button id="theme-toggle" class="theme-toggle" aria-label="切换主题">
     <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <circle cx="12" cy="12" r="5"></circle>
         <line x1="12" y1="1" x2="12" y2="3"></line>
@@ -99,19 +113,9 @@
     }
 }
 </style>
-                <button class="mobile-menu-toggle" aria-label="Toggle menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </div>
         </div>
-    </header>
+    </div>
 
-    <div class="site-container">
-        
-        <aside class="site-nav">
-            <nav class="nav-menu">
     
     <div class="nav-search">
         <input type="search" id="search-input" placeholder="Search..." aria-label="搜索">
@@ -320,8 +324,7 @@
             
             
             <p class="post-excerpt">在眼镜零售领域，我们经常遇到“价格迷信”。很多消费者认为，眼镜既然是戴在眼睛上的，就一定要买最贵的，贵的镜片一定就是好镜片，这样才是对眼睛负责。
-今天，我以最近接待的一位广州客户为例，剖析一下镜片选择背后的逻辑。
-案例回顾 客户初始目标：某国际一线品牌 1.67 高端系列（单价 3000&#43;，折扣后大概1000&#43;）。 客户核心痛点：度数上涨，希望通过高价镜片遏制近视。 最终选择：高性价比国产优质品牌...</p>
+今天，我以最近接待的一位广州客户为例，剖析一下镜片选择...</p>
             
             
             <div class="post-tags">
@@ -367,8 +370,7 @@
             
             
             <p class="post-excerpt">在 Hugo 的世界里，PaperMod 绝对称得上是“国民级”主题。它简洁、高效、功能完备，我也用了好几年。但正如所有长久的相处都会走向平淡，用了几年后，那种视觉上的倦怠感扑面而来。
-这段时间，我一直在 Hugo Themes 库里反复打量，却始终没有找到那种“一眼万年”的感觉。直到有一天，我逛到了 eallion 的博客，看到他完善了一款名为 pehtheme-hugo 的主题。
-遇见新欢：p...</p>
+这段时间，我一...</p>
             
             
             <div class="post-tags">
@@ -416,10 +418,7 @@
             
             
             <p class="post-excerpt">今年这个冬天，雪下得真是不少，农历2024年的冬天是一场也没下，好似把雪都留到了农历的2025年。
-天气预报也从预报的大雪到暴雪然后再到中雪，周日女儿等了半天的停课通知也无果，晚上下了一点点，周一上午也没怎么下，想着这次又预报的不准，结果下午2点以后，纷纷扬扬的大雪飘落了下来。
-车上也是厚厚的一层积雪了，女儿是刘耀文的粉丝，替他在车上的雪里写上了他的名字。
-前面写上了2026新年快乐的字样
-不过，...</p>
+天气预报也从预报的大雪到暴雪然后再到中雪，周日女儿等了半天的停课通知也无果，晚上下了一点点，周一上午...</p>
             
             
             <div class="post-tags">
@@ -460,7 +459,7 @@
             </div>
             
             
-            <p class="post-excerpt">之前一直用的桌面是gnome,也用的挺习惯，gnome很简洁，通过插件系统可以实现很多功能。前几天博客群里有聊到KDE桌面的问题，我安装后，体验了一下，也非常不错，特别是日历系统，相当的惊艳。 原生支持农历，还有中国的节假日，也是非常准确的。目前最新版的linux系统，不知道怎么回事，我的屏幕自动亮度失效了，在早些时候的版本里是可以的。在gnome下，有个插件可以解决这个问题，但是kde下没有类似...</p>
+            <p class="post-excerpt">之前一直用的桌面是gnome,也用的挺习惯，gnome很简洁，通过插件系统可以实现很多功能。前几天博客群里有聊到KDE桌面的问题，我安装后，体验了一下，也非常不错，特别是日历系统，相当的惊艳。 原生支...</p>
             
             
             <div class="post-tags">
@@ -506,9 +505,7 @@
             
             
             <p class="post-excerpt">前几年用ubuntu的时候，也写过编译升级的方法，5年过去，旧的方法已经不适合现在的需要了，中间编译的时候，编译环境还是缺的蛮多的，不过好在有了AI，在AI的帮助下，总算是编译安装好了。
-默认你已经下载了输入法的最新源码。
-首先需要安装libpinyin 安装ibus-libpinyin官方的教程很简单的说，需要：
-ibus libpinyin sqlite3 安装基础工具 在开始之前，确保编译环...</p>
+默认你已经下...</p>
             
             
             <div class="post-tags">
@@ -552,8 +549,7 @@ ibus libpinyin sqlite3 安装基础工具 在开始之前，确保编译环...</
             
             
             <p class="post-excerpt">历时15天，昨天晚上读完了《华严经》的第16卷，请的经书的第一册读完了了。读完之后觉得应该为这半个月的心路历程做个小结。
-德充符少点功利心 以前德充符，一般都会在读前给自己一个期盼，会执着于找一个具体的“顿悟”或“道理”，会想，这本书能给我带来什么提高？我能记住多少句优美的带有哲理的句子可以在文章里装逼。但现在我意识到：重要的是你在读什么，而不是你得到了什么。
-带着功利心去读经，本质上是一种“有所...</p>
+德充符少点功利心 以前德充符，一般都会在读前给自己一个期盼，会执着于找一个具体...</p>
             
             
             <div class="post-tags">

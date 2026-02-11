@@ -19,9 +19,23 @@
 <body class="">
     <header class="site-header">
         <div class="header-content">
-            <a href="/" class="site-title">老刘博客</a>
-            <div class="header-actions">
-                <button id="theme-toggle" class="theme-toggle" aria-label="切换主题">
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="site-container">
+        
+        <aside class="site-nav">
+            <nav class="nav-menu">
+    
+    <div class="nav-site-title">
+        <a href="/">老刘博客</a>
+        <div class="nav-theme-toggle">
+            <button id="theme-toggle" class="theme-toggle" aria-label="切换主题">
     <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <circle cx="12" cy="12" r="5"></circle>
         <line x1="12" y1="1" x2="12" y2="3"></line>
@@ -99,19 +113,9 @@
     }
 }
 </style>
-                <button class="mobile-menu-toggle" aria-label="Toggle menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </div>
         </div>
-    </header>
+    </div>
 
-    <div class="site-container">
-        
-        <aside class="site-nav">
-            <nav class="nav-menu">
     
     <div class="nav-search">
         <input type="search" id="search-input" placeholder="Search..." aria-label="搜索">
@@ -319,8 +323,7 @@
             </div>
             
             
-            <p class="post-excerpt">现在孩子的课业是越来越繁重，晚睡早起，或者晚睡晚起的孩子比比皆是。很多家长认为只要孩子的睡眠充足，就不会有什么问题，但是最近的一项新的研究发现，晚睡的儿童更容易出现近视和进展。 这项研究来自布赖恩霍尔登视觉研究所（BHVI）、上海眼病防治中心、新南威尔士大学光学与视觉科学学院，并发表在自然杂志上。研究者写道：
-与已知的危险因素一起，即城市生活环境、年龄、近视家族史和户外时间较少等，晚睡晚起的儿童在...</p>
+            <p class="post-excerpt">现在孩子的课业是越来越繁重，晚睡早起，或者晚睡晚起的孩子比比皆是。很多家长认为只要孩子的睡眠充足，就不会有什么问题，但是最近的一项新的研究发现，晚睡的儿童更容易出现近视和进展。 这项研究来自布赖恩霍尔...</p>
             
             
             <div class="post-tags">
@@ -365,7 +368,7 @@
             </div>
             
             
-            <p class="post-excerpt">自从前两天体验了keepass的方便后，真的是对这个软件爱不释手了。但是在上一篇中，总体设置较为复杂，而且使用当中发现了诸多不方便之处。虽然对于老刘来说，因为只是店和家同步，路由器里设置好zerotier就行了，但是后来想想，这个方案还有有点依赖硬件，没有普遍性，而且如果老刘不在局域网范围内的话，手机上使用也很不方便。熟悉这个软件之后发现，根本不需要如此复杂的设置，就能很容易的同步数据，如果是使用...</p>
+            <p class="post-excerpt">自从前两天体验了keepass的方便后，真的是对这个软件爱不释手了。但是在上一篇中，总体设置较为复杂，而且使用当中发现了诸多不方便之处。虽然对于老刘来说，因为只是店和家同步，路由器里设置好zeroti...</p>
             
             
             <a href="/3430.html" class="post-read-more">阅读更多</a>
@@ -400,9 +403,7 @@
             </div>
             
             
-            <p class="post-excerpt">“今冬麦盖三层被，来年枕着馒头睡”是流传在很多地方的一句谚语，那么这句话是说，冬天要给小麦盖被子吗？还是小麦需要大棚来防寒？这种认识可能是很多人都有的，甚至一些给小朋友科普的绘本，就这么堂而皇之的写着，“冬天给小麦盖上被子，以免小麦冻伤，来年就丰收了。！
-事实上，这句话真的是给麦盖被子吗？ 还真不是的，这句话是说雪下得越大越厚,明年小麦的收成就越好
-在北方,一层厚厚而疏松的积雪,像给小麦盖了一床御...</p>
+            <p class="post-excerpt">“今冬麦盖三层被，来年枕着馒头睡”是流传在很多地方的一句谚语，那么这句话是说，冬天要给小麦盖被子吗？还是小麦需要大棚来防寒？这种认识可能是很多人都有的，甚至一些给小朋友科普的绘本，就这么堂而皇之的写着...</p>
             
             
             <a href="/3426.html" class="post-read-more">阅读更多</a>
@@ -437,7 +438,7 @@
             </div>
             
             
-            <p class="post-excerpt">前两天看老张老师到处寻找管理密码的软件，老刘由于一直在使用Norton的密码管理，所以没有在意，后来发现Norton的服务器链接较慢，使用起来还是有点不方便，恰好又看到老张在吐槽 某个软件（主要是老刘忘记名字了）使用的问题，于是老刘就想群晖上有没有一款密码管理的软件或者套件（自从老刘入白群晖后，找软件都先考虑这个），你还别说，真的搜出来了这样一个软件，不过不是安装在群晖上，而是把数据放在群晖上，其...</p>
+            <p class="post-excerpt">前两天看老张老师到处寻找管理密码的软件，老刘由于一直在使用Norton的密码管理，所以没有在意，后来发现Norton的服务器链接较慢，使用起来还是有点不方便，恰好又看到老张在吐槽 某个软件（主要是老刘...</p>
             
             
             <div class="post-tags">
@@ -487,8 +488,7 @@
             
             
             <p class="post-excerpt">给女儿买的360 X8儿童手表因为耗电过快（早上充满，下午还没放学，电没了。充电还异常的费劲），被女儿嫌弃了，又用回3年前买的小寻电话话手表了，从此，我对360的东西要敬而远之了。
-细想老刘还是挺支持周鸿祎的，可能源自2002年毕业前夕3721的一次招聘，当时和周大炮有一面之缘。尽管没有去，尽管周大炮不可能还记得当年的一个小毕业生，但是还是买了不少360的产品，但是大多以失望而告终。
-软件产品就不...</p>
+细想老刘还是挺支持...</p>
             
             
             <a href="/3402.html" class="post-read-more">阅读更多</a>
@@ -524,8 +524,7 @@
             
             
             <p class="post-excerpt">前几天看到一个“新闻”，说中国电信业的三大运营商的一把手是轮流坐庄，可谓肥水不落外人田。其实捋清中国电信业的发展历程，人家还真的就是一家人。
-以下是根据本人的记忆描述，可能时间的节点不是那么精确。也懒得去查相关的资料了
-最初的时候，中国的邮电是一家，国家层面应该有邮电部，下面是邮电局，乡镇一般都是邮电所。那时候，邮电以邮为主，记忆里最深的就是邮递员骑上一个绿色的自行车，自行车的后座上搭着个绿色的包...</p>
+以下是根据本人的记忆描述，可能时间的节点不是那么精确。也懒...</p>
             
             
             <a href="/3395.html" class="post-read-more">阅读更多</a>

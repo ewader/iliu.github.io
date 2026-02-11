@@ -19,9 +19,23 @@
 <body class="">
     <header class="site-header">
         <div class="header-content">
-            <a href="/" class="site-title">老刘博客</a>
-            <div class="header-actions">
-                <button id="theme-toggle" class="theme-toggle" aria-label="切换主题">
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="site-container">
+        
+        <aside class="site-nav">
+            <nav class="nav-menu">
+    
+    <div class="nav-site-title">
+        <a href="/">老刘博客</a>
+        <div class="nav-theme-toggle">
+            <button id="theme-toggle" class="theme-toggle" aria-label="切换主题">
     <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <circle cx="12" cy="12" r="5"></circle>
         <line x1="12" y1="1" x2="12" y2="3"></line>
@@ -99,19 +113,9 @@
     }
 }
 </style>
-                <button class="mobile-menu-toggle" aria-label="Toggle menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </div>
         </div>
-    </header>
+    </div>
 
-    <div class="site-container">
-        
-        <aside class="site-nav">
-            <nav class="nav-menu">
     
     <div class="nav-search">
         <input type="search" id="search-input" placeholder="Search..." aria-label="搜索">
@@ -319,8 +323,7 @@
             </div>
             
             
-            <p class="post-excerpt">tags: 眼看着已经到了3月份，疫情防控吃紧，孩子开学遥遥无期，网络直播课如火如荼。很多网络课没法用电脑看，用手机吧，屏幕太小。所以，决定入手一台平板来让孩子进行网课的学习。按我的秉性来说，作为一个荣耀全家桶的使用者，最优的选择肯定是华为或者荣耀的。但是我家大领导和小领导都钟意iPad。没办法，选择这个吧。
-京东上转了一圈，竟然缺货，然后又跑苏宁易购看看，发现就数码产品来说，苏宁易购比京东有优势...</p>
+            <p class="post-excerpt">tags: 眼看着已经到了3月份，疫情防控吃紧，孩子开学遥遥无期，网络直播课如火如荼。很多网络课没法用电脑看，用手机吧，屏幕太小。所以，决定入手一台平板来让孩子进行网课的学习。按我的秉性来说，作为一个...</p>
             
             
             <a href="/3103.html" class="post-read-more">阅读更多</a>
@@ -357,9 +360,7 @@
             
             <p class="post-excerpt">要说我女儿班里最能折腾得老师当属她们得科学老师了，这不又开始折腾了。
 @所有人
-家长您好，我是孩子们的科学老师。为了进行有效学习，经过多方考虑和学校科学组讨论研究决定：选择qq群&#43;语音的方式进行授课。
-qq群优势在于：没有其他信息刷屏，只在群内进行线上教学，可以随时查看上传的资料和聊天记录。
-我们会在课表上科学课的时间，在群内进行授课，授课时除课堂互动外请勿发言，如果错过直播，请课后查阅群聊天记录...</p>
+家长您好，我是孩子们的科学老师。为了进行有效学习，经过多方考虑和学校科学组讨论研究决定：选择qq群&#43;语音的方式进行授课。...</p>
             
             
             <a href="/3101.html" class="post-read-more">阅读更多</a>
@@ -394,9 +395,7 @@ qq群优势在于：没有其他信息刷屏，只在群内进行线上教学，
             </div>
             
             
-            <p class="post-excerpt">一场突如其来的的疫情打乱了生活的节奏，很多时间都不得不宅在家里，眼看着东风来了，春天的脚步近了，一切都像刚睡醒的样子，欣欣然，张开了眼。但是，忽然间又出来了个郭某某，全城又开始风声鹤唳起来。不过好在后面几天，除了那货之外，没有其他的新增。还算稍微的放下心来。
-趁着周末，带着孩子去了一趟西流湖公园，由于还没有完全竣工，地方有大，人不是很多，对于一直宅在家里两个月的女儿来说，还是挺新鲜的了。
-尽管春风...</p>
+            <p class="post-excerpt">一场突如其来的的疫情打乱了生活的节奏，很多时间都不得不宅在家里，眼看着东风来了，春天的脚步近了，一切都像刚睡醒的样子，欣欣然，张开了眼。但是，忽然间又出来了个郭某某，全城又开始风声鹤唳起来。不过好在后...</p>
             
             
             <a href="/3095.html" class="post-read-more">阅读更多</a>
@@ -432,7 +431,7 @@ qq群优势在于：没有其他信息刷屏，只在群内进行线上教学，
             
             
             <p class="post-excerpt">随着疫情慢慢得到控制，大街上的人多了起来，各行各业也都在慢慢开始了复工的申请。前几天收到物业公众号发的通知，说可以申请复工了。
-其实，不申请复工现在也能进写字楼，只是在门口登记一下而已，而且按照物业的说法，就算申请了，也不让接待顾客，这个就有点扯淡了，不过门卫出形同虚设，也就是走走形式。对于申请通过的企业员工来说，就不需要登记，测量体温了，只需要扫一下二维码就行，这样看来，申请一下复工还是有必要的...</p>
+其实，不申请复工现在也能进写字楼，只是在门口登记一下而已，而且按照物业的...</p>
             
             
             <a href="/3084.html" class="post-read-more">阅读更多</a>
@@ -467,9 +466,7 @@ qq群优势在于：没有其他信息刷屏，只在群内进行线上教学，
             </div>
             
             
-            <p class="post-excerpt">昨天服务器有点不正常，考虑到是前两天折腾一些东西的时候造成的，所以打算重新搞一下系统。搞之前备份了一下，结果，生成环境弄好之后，恢复数据库的时候显示出错，我去。由于过年这段时间有点懒，没有搞备份，最近的备份还是2月9日的了。
-血淋淋的教训啊，以后一定要天天备份！！！
-...</p>
+            <p class="post-excerpt">昨天服务器有点不正常，考虑到是前两天折腾一些东西的时候造成的，所以打算重新搞一下系统。搞之前备份了一下，结果，生成环境弄好之后，恢复数据库的时候显示出错，我去。由于过年这段时间有点懒，没有搞备份，最近...</p>
             
             
             <div class="post-tags">
@@ -510,9 +507,7 @@ qq群优势在于：没有其他信息刷屏，只在群内进行线上教学，
             </div>
             
             
-            <p class="post-excerpt">病毒疫情的初期，随着一批逆行者的出现，社会一片的赞扬声，甚至有人说，以后再也别发生打医、辱医，医闹等行为了，貌似医患关系一下到了解放前，整个环境一片和谐。但是，该来的还是回来的，疫情就是一面照妖镜，各路牛鬼蛇神是轮番上演。
-其一，武汉病人患者家属打骂医生，撕毁医生的防护服。
-前几天，报道了因感染新冠状病毒去世患者的家人，打骂在班的医生，并撕毁医生的防护服。虽然后来公安机关处理了，但是如果不是发生在...</p>
+            <p class="post-excerpt">病毒疫情的初期，随着一批逆行者的出现，社会一片的赞扬声，甚至有人说，以后再也别发生打医、辱医，医闹等行为了，貌似医患关系一下到了解放前，整个环境一片和谐。但是，该来的还是回来的，疫情就是一面照妖镜，各...</p>
             
             
             <div class="post-tags">

@@ -19,9 +19,23 @@
 <body class="">
     <header class="site-header">
         <div class="header-content">
-            <a href="/" class="site-title">老刘博客</a>
-            <div class="header-actions">
-                <button id="theme-toggle" class="theme-toggle" aria-label="切换主题">
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="site-container">
+        
+        <aside class="site-nav">
+            <nav class="nav-menu">
+    
+    <div class="nav-site-title">
+        <a href="/">老刘博客</a>
+        <div class="nav-theme-toggle">
+            <button id="theme-toggle" class="theme-toggle" aria-label="切换主题">
     <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <circle cx="12" cy="12" r="5"></circle>
         <line x1="12" y1="1" x2="12" y2="3"></line>
@@ -99,19 +113,9 @@
     }
 }
 </style>
-                <button class="mobile-menu-toggle" aria-label="Toggle menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </div>
         </div>
-    </header>
+    </div>
 
-    <div class="site-container">
-        
-        <aside class="site-nav">
-            <nav class="nav-menu">
     
     <div class="nav-search">
         <input type="search" id="search-input" placeholder="Search..." aria-label="搜索">
@@ -320,7 +324,7 @@
             
             
             <p class="post-excerpt">本文整理自flomo，记录近一段时间德充符笔记、自己的感悟以及其他的一些乱七八糟的事情，所以叫杂记！
-德充符 这段时间主要读了冯友兰先生的《中国哲学简史》、南怀瑾老师的《老子他说》、罗伯特.赖特《为什么佛学是真的》以及吴怡先生的《我在美国讲易经》。其中只有《为什么佛学是真的》算是看完了，其他几本书都是在看，为什么会同时看基本书？是因为我发现，只看一本书，不容易记住书中的内容，几本书一起开，这本看一...</p>
+德充符 这段时间主要读了冯友兰先生的《中国哲学简史》、南怀瑾老师的《老子他说》、罗伯特.赖特《为什...</p>
             
             
             <div class="post-tags">
@@ -361,12 +365,7 @@
             </div>
             
             
-            <p class="post-excerpt">前两天看到女儿以前课外班的老师发的朋友圈，说“……一忙就生病，成铁律了……”。其实很多人都会有这样的感觉，包括老刘本人，每次搬家，搬家后，都会感冒一次。这是什么原因呢，这两天看皇帝内径是总算找到了答案。
-一忙碌就生病的原因 在皇帝内径在上古天真论中说：
-是以志闲而少欲，心安而不惧，形劳而不倦，气从以顺，各从其欲，皆得所愿。
-也就是说，只有不焦躁，气才能顺。
-生气通天论中说：
-阳气者，烦劳则张，……...</p>
+            <p class="post-excerpt">前两天看到女儿以前课外班的老师发的朋友圈，说“……一忙就生病，成铁律了……”。其实很多人都会有这样的感觉，包括老刘本人，每次搬家，搬家后，都会感冒一次。这是什么原因呢，这两天看皇帝内径是总算找到了答案...</p>
             
             
             <div class="post-tags">
@@ -408,8 +407,7 @@
             
             
             <p class="post-excerpt">这篇文章纯粹给初学者看的，大佬请无视。使用Hugo之后，为了方便推送方便，一般要用到git这个软件。今天就来谈谈git具体的用法。
-git的用法 设置用户名 因为git可以用来团队协助方面，设置用户名的目的是为了让别人知道，你是谁，这个程序的bug是谁提交的😰。
-git config --global user.name &amp;#34;xxxx&amp;#34; git config --global use...</p>
+git的用法 设置用户名 因为git可以用来团队协助方面，设置用户名...</p>
             
             
             <div class="post-tags">
@@ -451,8 +449,7 @@ git config --global user.name &amp;#34;xxxx&amp;#34; git config --global use...<
             
             
             <p class="post-excerpt">这些天总时不时的回想起小学二年级的时候做的一件错事。那天老师有事，让我和另一个女生管纪律，我管男生，她管女生。就是把违反纪律的同学的名单记下来，等他来了交给他。
-我当时比较傻，就老老实实的记，谁上课说话了啊、到处乱跑啊之类的都记记下来，后来下课的时候，班里有一个同学，和一个一年级的口角了几句，那个女孩就撺掇着让也也记下来，我看她也记了不少，然后我就记下来，某某某和一年级吵架……
-下午老师回来了，不...</p>
+我当时比较傻，就老老实实的记，谁上课说...</p>
             
             
             <div class="post-tags">
@@ -494,9 +491,7 @@ git config --global user.name &amp;#34;xxxx&amp;#34; git config --global use...<
             
             
             <p class="post-excerpt">又到了冬天了，你那里飘雪花了吗？来暖气了吗？
-冬天对眼镜佩戴者来说，最烦人的莫过于镜片起雾了。特别是从外面回到家，或者戴口罩的时候。其实现在树脂镜片已经好很多了，以前的玻璃镜片，那才能让你雾的怀疑人生。
-那么，有什么办法能防止镜片起雾吗？老刘很负责任的告诉大家，除非消除温度差，否则这个问题很难彻底解决，但是目前也有一些缓解的方案，你可以从中选择适合自己的。
-防雾镜片 算是目前效果最好的防雾方案了，...</p>
+冬天对眼镜佩戴者来说，最烦人的莫过于镜片起雾了。特别是从外面回到家，或者戴口罩的时候。其实现在树脂镜片已经好很多了，以前的玻璃镜片，那才能让你雾的怀疑人生...</p>
             
             
             <div class="post-tags">
@@ -539,8 +534,7 @@ git config --global user.name &amp;#34;xxxx&amp;#34; git config --global use...<
             </div>
             
             
-            <p class="post-excerpt">在远程连接群晖的实践中，老刘一切介绍过zerotier和IPv6。但是实际的使用过程中，zerotier有时候握手的速度很慢，而且配置起来比较麻烦，IPv6很好，速度也快，但是有些环境中还只有IPv4，直到我听别人介绍到tailscale这个软件。它的工作原理其实和zerotier差不多，但是不需要什么复杂的设置，直接注册、登录，同一个账号的所有设备都连接到一起了。
-注册tailscale 百度直...</p>
+            <p class="post-excerpt">在远程连接群晖的实践中，老刘一切介绍过zerotier和IPv6。但是实际的使用过程中，zerotier有时候握手的速度很慢，而且配置起来比较麻烦，IPv6很好，速度也快，但是有些环境中还只有IPv4...</p>
             
             
             <div class="post-tags">

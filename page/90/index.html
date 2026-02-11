@@ -19,9 +19,23 @@
 <body class="">
     <header class="site-header">
         <div class="header-content">
-            <a href="/" class="site-title">老刘博客</a>
-            <div class="header-actions">
-                <button id="theme-toggle" class="theme-toggle" aria-label="切换主题">
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="site-container">
+        
+        <aside class="site-nav">
+            <nav class="nav-menu">
+    
+    <div class="nav-site-title">
+        <a href="/">老刘博客</a>
+        <div class="nav-theme-toggle">
+            <button id="theme-toggle" class="theme-toggle" aria-label="切换主题">
     <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <circle cx="12" cy="12" r="5"></circle>
         <line x1="12" y1="1" x2="12" y2="3"></line>
@@ -99,19 +113,9 @@
     }
 }
 </style>
-                <button class="mobile-menu-toggle" aria-label="Toggle menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </div>
         </div>
-    </header>
+    </div>
 
-    <div class="site-container">
-        
-        <aside class="site-nav">
-            <nav class="nav-menu">
     
     <div class="nav-search">
         <input type="search" id="search-input" placeholder="Search..." aria-label="搜索">
@@ -320,7 +324,7 @@
             
             
             <p class="post-excerpt">今天打开邮箱，发现系统发的邮件。
-嗨！您位于 https://tunan.org 的站点已被成功升级到WordPress 5.2.2。 您不需要再做什么。 要获取更多关于5.2.2版本的信息，请参阅“关于WordPress”屏幕： https://tunan.org/wp-admin/about.php 如果您遇到了任何问题或需要帮助，WordPress.org支持论坛的志愿者或许能帮到您。 ht...</p>
+嗨！您位于 https://tunan.org 的站点已被成功升级到WordPress 5.2.2。 您不需要再做什么。 要获取更多关于5.2.2版本的信息，请参阅“...</p>
             
             
             <div class="post-tags">
@@ -363,9 +367,7 @@
             </div>
             
             
-            <p class="post-excerpt"> tags: 早上刚起床，正做早餐的时间，接到一个电话，说管道施工，让把车挪一下。其实跋涉者为了避免麻烦，昨天刚把车从暖气管道的下面挪到了旁边，不过施工人员说，切割金属，到处都是火星，车又是汽油车，最后还是挪一下。
-说到这个管道施工，是国家的政策——为老旧家属院免费更换室外的暖气管道，跋涉者觉得国家出台的政策是好的，但是实际下面执行的时候，就浪费了很多。
-且不说，原有的管道是不是真又必要换，就说通...</p>
+            <p class="post-excerpt"> tags: 早上刚起床，正做早餐的时间，接到一个电话，说管道施工，让把车挪一下。其实跋涉者为了避免麻烦，昨天刚把车从暖气管道的下面挪到了旁边，不过施工人员说，切割金属，到处都是火星，车又是汽油车，最...</p>
             
             
             <a href="/1715.html" class="post-read-more">阅读更多</a>
@@ -401,8 +403,7 @@
             
             
             <p class="post-excerpt">xshell这个货更新额速度真快，隔不了几天就发布一个新版本，这不，跋涉者刚打开邮箱，就看到又有更新了。
-Software Release Notes Release Date: June 05, 2019
-With last week’s update, we’ve introduced Experimental Features into our software. Experimental ...</p>
+Software Release Notes Release Date: June 05, 2...</p>
             
             
             <div class="post-tags">
@@ -443,8 +444,7 @@ With last week’s update, we’ve introduced Experimental Features into our sof
             </div>
             
             
-            <p class="post-excerpt">前一段时间忽然发现跋涉者另外一个网站镜缘轩上每日签到抽取积分的那个选项不能自动刷新了，每天都是显示同一样的数字，然后看明月登楼的一个网站，也是有这样的问题，咨询主题的作者之后，也没有能排查到问题，最后作者说反正新版就要出来了，不行到时候直接上新版吧。
-后来陆续发现，不但每日签到抽取积分有问题，另外还有发布冒泡没有积分，发文章没有积分，别人回复收不到消息 海报不能下载、以及别人购买了文章等也没有通知...</p>
+            <p class="post-excerpt">前一段时间忽然发现跋涉者另外一个网站镜缘轩上每日签到抽取积分的那个选项不能自动刷新了，每天都是显示同一样的数字，然后看明月登楼的一个网站，也是有这样的问题，咨询主题的作者之后，也没有能排查到问题，最后...</p>
             
             
             <div class="post-tags">
@@ -491,8 +491,7 @@ With last week’s update, we’ve introduced Experimental Features into our sof
             </div>
             
             
-            <p class="post-excerpt">前几天在kindle搜索《未来简史》，包月的书库里这本书没有，但是却有一本《新未来简史》，是讲区块链、大数据以及人工智能等方面的的书，作者是王骥。翻看了一下，虽然全书通篇有一种把种种理论生生堆在一起之嫌，但是作者也提出了几个新颖的观点。
-第一，大数据悖论 大数据这个概念目前是火的不得了，甚至被冠以数据主义，数据宗教之名，有些人甚至盲目的崇拜这个东西，认为只要掌握了大数据，就能掌握一切一样。媒体每每...</p>
+            <p class="post-excerpt">前几天在kindle搜索《未来简史》，包月的书库里这本书没有，但是却有一本《新未来简史》，是讲区块链、大数据以及人工智能等方面的的书，作者是王骥。翻看了一下，虽然全书通篇有一种把种种理论生生堆在一起之...</p>
             
             
             <div class="post-tags">
@@ -538,8 +537,7 @@ With last week’s update, we’ve introduced Experimental Features into our sof
             
             
             <p class="post-excerpt">端午节，从春节到现在差不多半年的时间了，由于身体等原因一直没有回老家看看，这次加上岳飞总感觉头晕，所以打算回去看看。
-一大早就启程了，主要是怕路上的车多，快九点上了高速，车流量还可以，毕竟端午节的时候高速不免费，相比较免费通行还是会少很多车流，但也毕竟是一个小长假，比平时的车辆还是感觉多了一些。一路无话，很顺畅。
-家中已是一篇生机盎然了。硕果累累的梨树，今年的梨子比去年的多，去年稀稀拉拉的几个，今...</p>
+一大早就启程了，主要是怕路上的车多，快九点上了高速，车流量还可以，毕竟端午节的时候...</p>
             
             
             <a href="/1699.html" class="post-read-more">阅读更多</a>
