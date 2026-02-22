@@ -13,110 +13,8 @@
 
     <link rel="stylesheet" href="/css/style.css?v=20260209">
     <script src="https://cdn.jsdelivr.net/npm/flexsearch@0.7.31/dist/flexsearch.bundle.min.js"></script>
-
-    
-    <style>
-        .lantern-container {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            pointer-events: none;
-            z-index: 9999;
-            overflow: hidden;
-        }
-
-        .lantern {
-            position: absolute;
-            width: 30px;
-            height: 40px;
-            background: linear-gradient(180deg, #e74c3c 0%, #c0392b 100%);
-            border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
-            box-shadow: 0 0 20px rgba(231, 76, 60, 0.6), inset 0 -10px 20px rgba(0, 0, 0, 0.2);
-            animation: float 15s infinite ease-in-out;
-            opacity: 0.8;
-        }
-
-        .lantern::before {
-            content: '';
-            position: absolute;
-            top: -8px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 10px;
-            height: 12px;
-            background: #f39c12;
-            border-radius: 2px;
-        }
-
-        .lantern::after {
-            content: '';
-            position: absolute;
-            bottom: -15px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 6px;
-            height: 25px;
-            background: linear-gradient(180deg, #f39c12 0%, #e67e22 100%);
-            border-radius: 2px;
-        }
-
-        .lantern-tassel {
-            position: absolute;
-            bottom: -35px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 20px;
-            height: 10px;
-            background: linear-gradient(90deg, #f39c12, #e74c3c, #f39c12);
-            border-radius: 0 0 10px 10px;
-        }
-
-        @keyframes float {
-            0%, 100% {
-                transform: translateY(0) rotate(0deg);
-            }
-            25% {
-                transform: translateY(-20px) rotate(3deg);
-            }
-            50% {
-                transform: translateY(-10px) rotate(-3deg);
-            }
-            75% {
-                transform: translateY(-25px) rotate(2deg);
-            }
-        }
-
-        .cny-banner {
-            background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
-            color: #fff;
-            padding: 8px 0;
-            text-align: center;
-            font-size: 14px;
-            font-weight: 500;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        .cny-banner-text {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 8px;
-        }
-    </style>
 </head>
 <body class="">
-    
-    <div class="lantern-container" id="lanternContainer"></div>
-
-    
-    <div class="cny-banner">
-        <div class="cny-banner-text">
-            🧧 新春快乐！马年大吉！ 🏮 恭喜发财，万事如意 🧨
-        </div>
-    </div>
-
     <header class="site-header">
         <div class="header-content">
             <button class="mobile-menu-toggle" aria-label="Toggle menu">
@@ -5478,7 +5376,6 @@
     <footer class="site-footer">
         <div class="footer-content">
             <p>&copy; 2026 老刘博客. 保留所有权利</p>
-            <p style="color: #e74c3c; font-weight: 500; margin-top: 8px;">🎉 新春快乐，马年大吉！祝您身体健康，万事如意！🎊</p>
             
                 <p>Theme: <a href="https://github.com/ewader/" target="_blank" rel="noopener">TriBook</a></p>
             
@@ -5491,44 +5388,5 @@
     </a>
 
     <script src="/js/search.js"></script>
-
-    
-    <script>
-        (function() {
-            const container = document.getElementById('lanternContainer');
-            const lanternCount = 5;
-
-            function createLantern() {
-                const lantern = document.createElement('div');
-                lantern.className = 'lantern';
-
-                const tassel = document.createElement('div');
-                tassel.className = 'lantern-tassel';
-                lantern.appendChild(tassel);
-
-                
-                const startX = Math.random() * window.innerWidth;
-                lantern.style.left = startX + 'px';
-                lantern.style.top = '-50px';
-
-                
-                lantern.style.animationDelay = Math.random() * 5 + 's';
-                lantern.style.animationDuration = (15 + Math.random() * 10) + 's';
-
-                container.appendChild(lantern);
-
-                
-                setTimeout(() => {
-                    lantern.remove();
-                    createLantern();
-                }, 20000 + Math.random() * 10000);
-            }
-
-            
-            for (let i = 0; i < lanternCount; i++) {
-                setTimeout(createLantern, i * 3000);
-            }
-        })();
-    </script>
 </body>
 </html>
