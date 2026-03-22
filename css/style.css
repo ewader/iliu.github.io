@@ -577,6 +577,8 @@ ul, ol {
     border-color: var(--color-border-light);
     padding: 3px 8px;
     font-size: var(--font-size-xs);
+    color: var(--color-text);
+    transition: all 0.2s ease;
 }
 
 .post-read-more {
