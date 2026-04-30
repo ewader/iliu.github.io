@@ -1,0 +1,98 @@
+{{ define "main" }}
+<article class="post-full">
+    <header class="post-header">
+        <h1 class="post-title">{{ .Title }}</h1>
+        <div class="post-meta">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="margin-right: 4px;">
+                <path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2z"/>
+            </svg>
+            <time class="post-date" datetime="{{ .Date.Format "2006-01-02" }}">
+                {{ .Date.Format "2006-01-02" }}
+            </time>
+            {{ with .Params.categories }}
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="margin-left: 8px; margin-right: 4px;">
+                <path d="M10 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z"/>
+            </svg>
+            <span class="post-categories">
+                {{ range . }}
+                <a href="{{ "/categories/" | relURL }}{{ . | urlize }}/" class="category">{{ . }}</a>
+                {{ end }}
+            </span>
+            {{ end }}
+        </div>
+    </header>
+
+    {{ if .Params.image }}
+    <div class="post-featured-image">
+        <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" loading="lazy">
+    </div>
+    {{ end }}
+
+    <div class="post-content">
+        {{ .Content }}
+    </div>
+
+    <footer class="post-footer">
+        <!-- 标签 -->
+        {{ with .Params.tags }}
+        <div class="post-tags-footer">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="margin-right: 4px;">
+                <path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"/>
+            </svg>
+            {{ range . }}
+            <a href="{{ "/tags/" | relURL }}{{ . | urlize }}/" class="tag">#{{ . }}</a>
+            {{ end }}
+        </div>
+        {{ end }}
+
+        <!-- 上一篇/下一篇 -->
+        <nav class="post-navigation">
+            {{ with .PrevInSection }}
+            <a href="{{ .RelPermalink }}" class="prev-post">
+                <span class="nav-label">{{ i18n "prev_post" }}</span>
+                <span class="nav-title">{{ .Title }}</span>
+            </a>
+            {{ end }}
+            {{ with .NextInSection }}
+            <a href="{{ .RelPermalink }}" class="next-post">
+                <span class="nav-label">{{ i18n "next_post" }}</span>
+                <span class="nav-title">{{ .Title }}</span>
+            </a>
+            {{ end }}
+        </nav>
+
+        <!-- 相关文章 -->
+        {{ $related := .Site.RegularPages.Related . | first 5 }}
+        {{ with $related }}
+        <div class="related-posts">
+            <h3>{{ i18n "related_posts" }}</h3>
+            <ul>
+                {{ range . }}
+                <li>
+                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    <time>{{ .Date.Format "2006-01-02" }}</time>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+        {{ end }}
+    </footer>
+</article>
+
+<!-- 评论系统 -->
+{{ if .Site.Params.comments }}
+<div class="comments-section">
+    <h3>{{ i18n "comments_title" }}</h3>
+    <div id="tcomment"></div>
+    <script src="https://cdn.jsdelivr.net/npm/twikoo@1.6.44/dist/twikoo.min.js"></script>
+    <script>
+        twikoo.init({
+            envId: 'https://talk.iliu.org/.netlify/functions/twikoo',
+            el: '#tcomment',
+            lang: 'zh-CN',
+        })
+    </script>
+</div>
+{{ end }}
+
+{{ end }}

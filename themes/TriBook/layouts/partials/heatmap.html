@@ -1,0 +1,82 @@
+<div class="heatmap">
+    <h3 class="widget-title">热力图</h3>
+    <div class="heatmap-grid" id="heatmap-grid">
+        <!-- 热力图格子将由 JavaScript 生成 -->
+    </div>
+    <div class="heatmap-legend">
+        <span>一</span>
+        <div class="heatmap-legend-spans">
+            <span class="heatmap-legend-span" style="background-color: var(--color-border-light);"></span>
+            <span class="heatmap-legend-span" style="background-color: #c6e48b;"></span>
+            <span class="heatmap-legend-span" style="background-color: #7bc96f;"></span>
+            <span class="heatmap-legend-span" style="background-color: #239a3b;"></span>
+            <span class="heatmap-legend-span" style="background-color: #196127;"></span>
+        </div>
+        <span>日</span>
+    </div>
+    <p style="font-size: var(--font-size-xs); color: var(--color-text-muted); margin-top: var(--spacing-sm); text-align: center;">
+        写写停停，博主已记录 <span id="total-posts" style="color: var(--color-accent); font-weight: 600;">0</span> 篇文章！
+    </p>
+</div>
+
+<script>
+(function() {
+    const grid = document.getElementById('heatmap-grid');
+    if (!grid) return;
+
+    // 获取所有文章的发布日期
+    const postsData = [
+        {{ range site.RegularPages }}
+        {
+            date: "{{ .Date.Format "2006-01-02" }}",
+            count: 1
+        },
+        {{ end }}
+    ];
+
+    // 统计每天的发布数量
+    const dateCounts = {};
+    postsData.forEach(post => {
+        const date = post.date;
+        dateCounts[date] = (dateCounts[date] || 0) + 1;
+    });
+
+    // 计算总文章数
+    const totalPosts = postsData.length;
+    const totalPostsEl = document.getElementById('total-posts');
+    if (totalPostsEl) {
+        totalPostsEl.textContent = totalPosts;
+    }
+
+    // 生成 8 周的热力图（56天）
+    const days = 56;
+    const today = new Date();
+    
+    for (let i = days - 1; i >= 0; i--) {
+        const date = new Date(today);
+        date.setDate(today.getDate() - i);
+        
+        const dateStr = date.toISOString().split('T')[0]; // YYYY-MM-DD
+        const postCount = dateCounts[dateStr] || 0;
+        
+        const cell = document.createElement('div');
+        cell.className = 'heatmap-cell';
+        
+        // 根据文章数量设置活跃度等级
+        let level = 0;
+        if (postCount >= 5) level = 4;
+        else if (postCount >= 3) level = 3;
+        else if (postCount >= 2) level = 2;
+        else if (postCount >= 1) level = 1;
+        
+        if (level > 0) {
+            cell.classList.add(`level-${level}`);
+        }
+        
+        // 添加标题提示
+        cell.title = `${dateStr}: ${postCount} 篇文章`;
+        
+        grid.appendChild(cell);
+    }
+})();
+</script>

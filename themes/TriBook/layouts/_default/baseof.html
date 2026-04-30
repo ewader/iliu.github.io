@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+
+    <link rel="icon" type="image/x-icon" href="{{ "/img/favicon.ico" | relURL }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ "/img/favicon-16x16.png" | relURL }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ "/img/favicon-32x32.png" | relURL }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ "/img/apple-touch-icon.png" | relURL }}">
+
+    <link rel="stylesheet" href="{{ "/css/style.css?v=20260209" | relURL }}">
+    <script src="https://cdn.jsdelivr.net/npm/flexsearch@0.7.31/dist/flexsearch.bundle.min.js"></script>
+</head>
+<body class="">
+    <header class="site-header">
+        <div class="header-content">
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="site-container">
+        <!-- 左栏：导航栏 -->
+        <aside class="site-nav">
+            {{ partial "nav" . }}
+        </aside>
+
+        <!-- 中栏：主内容区 -->
+        <main class="site-main">
+            {{ block "main" . }}{{ end }}
+        </main>
+
+        <!-- 右栏：侧边栏 -->
+        <aside class="site-sidebar">
+            {{ partial "sidebar" . }}
+        </aside>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p>&copy; {{ now.Year }} {{ .Site.Title }}. {{ i18n "footer_copyright" }}</p>
+            {{ if .Site.Params.themeLink }}
+                <p>Theme: <a href="{{ .Site.Params.themeLink }}" target="_blank" rel="noopener">{{ .Site.Params.themeName }}</a></p>
+            {{ end }}
+        </div>
+    </footer>
+
+    <!-- TOP 按钮 -->
+    <a href="#" class="top-link" onclick="window.scrollTo({top: 0, behavior: 'smooth'}); return false;">
+        TOP ↑
+    </a>
+
+    <script src="{{ "/js/search.js" | relURL }}"></script>
+</body>
+</html>

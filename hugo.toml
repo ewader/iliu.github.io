@@ -1,0 +1,95 @@
+baseURL = 'https://iliu.org/'
+languageCode = 'zh-cn'
+title = '老刘博客'
+theme = 'TriBook'
+
+# 禁用 Goldmark 原始 HTML 警告
+ignoreLogs = ['warning-goldmark-raw-html']
+
+# 配置 Goldmark 允许渲染原始 HTML
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# 禁用不必要的功能以提升性能
+disableHugoGeneratorInject = true
+disableLiveReload = false
+enableRobotsTXT = true
+enableGitInfo = false
+timeout = 30000
+
+# 构建优化
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[params]
+  # 主题设置
+  darkMode = 'auto'  # 'auto' = 自动跟随系统, 'dark' = 暗色模式, 'light' = 亮色模式
+  showStats = true
+  comments = true
+
+  # 主题链接
+  themeName = 'TriBook'
+  themeLink = 'https://github.com/ewader/'
+
+  # SEO 描述
+  description = '这是我的个人博客，记录一些读书、工作、生活方面的杂记，及折腾各种物件的记录'
+
+  # 作者简介
+  [params.author]
+    name = '老刘'
+    bio = '老刘，验光师，曾在某眼科医院任职视光部主任，目前在经营一家眼镜店，有这方面需求的朋友可以微我哦。'
+    avatar = '/img/avatar.png'
+    interests = ['🌊 互联网冲浪', '✈️ 旅行', '📚德充符' ,'🎥 看电影', '💻 折腾网站', '🎧 听音乐']
+
+  # Now 动态
+  [params.now]
+    items = [
+      '📖 在读《华严经》',
+      '😊 心情还不错'
+     
+    ]
+
+  # 社交链接
+  [params.social]
+    github = 'https://github.com/ewader'
+    twitter = 'https://x.com/tunanblog'
+    email = 'ewader@qq.com'
+    rss = true
+
+# 菜单配置
+[[menu.main]]
+  name = '归档'
+  url = '/archives/'
+  weight = 10
+
+[[menu.main]]
+  name = '友链'
+  url = '/friends/'
+  weight = 20
+
+[[menu.main]]
+  name = '配镜'
+  url = '/boyoupeijing/'
+  weight = 25
+
+# 分类
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
+# 分页
+paginate = 6
+
+# 输出配置 - 为首页生成 JSON 用于搜索和 RSS
+[outputs]
+  home = ['HTML', 'JSON', 'RSS']
+  section = ['HTML']
+  taxonomy = ['HTML']
+  term = ['HTML']
+
+# RSS 配置 - 限制只输出最近的文章，减小文件大小
+[services.rss]
+  limit = 50

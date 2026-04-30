@@ -1,0 +1,62 @@
+[other]
+other = "其他"
+
+[footer_copyright]
+other = "保留所有权利"
+
+[search_placeholder]
+other = "搜索文章..."
+
+[search_label]
+other = "搜索"
+
+[search_button]
+other = "搜索"
+
+[nav_menu]
+other = "菜单"
+
+[nav_home]
+other = "首页"
+
+[nav_categories]
+other = "分类"
+
+[nav_tags]
+other = "标签"
+
+[nav_about]
+other = "关于"
+
+[sidebar_recent_posts]
+other = "最新文章"
+
+[sidebar_archives]
+other = "文章归档"
+
+[sidebar_stats]
+other = "统计信息"
+
+[stats_posts]
+other = "文章"
+
+[stats_categories]
+other = "分类"
+
+[stats_tags]
+other = "标签"
+
+[read_more]
+other = "阅读更多"
+
+[prev_post]
+other = "上一篇"
+
+[next_post]
+other = "下一篇"
+
+[related_posts]
+other = "相关文章"
+
+[comments_title]
+other = "评论"
