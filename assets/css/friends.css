@@ -1,0 +1,48 @@
+/* assets/css/friends.css */
+
+/* --- 基础样式 --- */
+.friend-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.2rem;
+  margin-top: 1.5rem;
+}
+.friend-card {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  background: var(--entry);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  transition: all 0.25s ease;
+}
+.friend-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+.friend-card img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 9999px;
+  margin-right: 1rem;
+}
+.friend-card .text-gray-600 {
+  color: var(--secondary);
+}
+
+/* --- 头像回退占位符样式 (基础框架) --- */
+.friend-avatar-fallback {
+  /* 确保占位符和图片大小、圆角、间距一致 */
+  width: 3rem;
+  height: 3rem;
+  border-radius: 9999px;
+  margin-right: 1rem;
+  flex-shrink: 0; 
+  /* 确保文字居中 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+ 
+
+

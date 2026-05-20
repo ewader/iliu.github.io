@@ -2,7 +2,7 @@
 title: "告别 PaperMod：审美疲劳后的 Hugo 博客“换装”记"
 date: 2026-02-04T16:03:45+08:00
 
-tags: ["Hugo", "折腾", "AI", "齐物"]
+tags: ["Hugo", "折腾", "AI", "前端"]
 categories: ["齐物"]
 author: "老刘"
 # author: ["Me", "You"] # multiple authors

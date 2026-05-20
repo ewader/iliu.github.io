@@ -3,7 +3,7 @@ title: "关二爷大意失荆州，冤枉吗？"
 date: 2024-11-14T20:17:52-05:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["德充符"]
+tags: ["读书"]
 categories: ["德充符"]
 author: "老刘"
 # author: ["Me", "You"] # multiple authors

@@ -3,8 +3,8 @@ title: "雪天接女记"
 date: 2025-12-13T16:18:19+08:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["人间世录", "育儿", "天气"]
-categories: ["人间世"]
+tags: ["生活记录", "育儿", "天气"]
+categories: ["人世间"]
 author: "老刘"
 # author: ["Me", "You"] # multiple authors
 showToc: true

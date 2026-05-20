@@ -9,7 +9,7 @@ baidutui:
 views:
   - 489
 categories:
-  - 齐物
+  - 电脑网络
   - 网站相关
 tags:
   - trilium

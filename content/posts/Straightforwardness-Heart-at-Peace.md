@@ -3,7 +3,7 @@ title: "以直报怨，怨未尽而心已定"
 date: 2025-10-28T14:36:08+08:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["德充符","传统文化"]
+tags: ["读书","传统文化"]
 categories: ["德充符"]
 author: "老刘"
 # author: ["Me", "You"] # multiple authors

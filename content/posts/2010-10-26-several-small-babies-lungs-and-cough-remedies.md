@@ -15,7 +15,7 @@ b2_vote:
 tin_post_views:
   - 482
 categories:
-  - 人间世
+  - 生活记
 tags:
   - 宝宝咳嗽
 

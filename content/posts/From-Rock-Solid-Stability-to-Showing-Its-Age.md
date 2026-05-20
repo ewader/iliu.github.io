@@ -4,7 +4,7 @@ date: 2025-12-18T11:51:57+08:00
 # weight: 1
 # aliases: ["/first"]
 tags: ["NAS", "群晖", "数码产品", "中年爱好"]
-categories: ["人间世"]
+categories: ["人世间"]
 author: "老刘"
 # author: ["Me", "You"] # multiple authors
 showToc: true

@@ -17,7 +17,7 @@ tin_latest_reviewed:
 views:
   - 202
 categories:
-  - 人间世
+  - 生活记
 tags:
   - Linux
   - 系统

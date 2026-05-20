@@ -1,0 +1,162 @@
+baseURL: "https://www.iliu.org/"
+title: 老刘博客
+pagination:
+  pagerSize: 10
+theme: PaperMod
+defaultContentLanguage: zh-cn
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+hasCJKLanguage: true
+googleAnalytics: G-0XVC4DWYPH
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: 老刘博客
+  description: "老刘的个人博客，一些读书、工作、生活方面的杂记，及折腾各种物件的记录"
+  keywords: [图南, 博客, 验光师, linux, hugo, wordpress, 群晖, 南怀瑾, 庄子,传统文化]
+  author: 老刘
+  # author: ["Me", "You"] # multiple authors
+  images: ["/img/liujinsuiyue.jpg"]
+  DateFormat: "2006-01-02"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+  customCSS:
+    - css/extended/custom.css
+    - css/extended/friends-links.css
+  # VisitCount: true
+  twikoo:
+      version: 1.6.44
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: true
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+  ShowFullTextinRSS: true
+  
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    disableFingerprinting: false
+    favicon: "/img/favicon"
+    favicon16x16: "/img/favicon-16x16.png"
+    favicon32x32: "/img/favicon-32x32.png"
+    apple_touch_icon: "/img/apple-touch-icon.png"
+    # safari_pinned_tab: "<link / abs url>"
+
+  label:
+    text: "老刘博客"
+    icon: "/img/apple-touch-icon.png"
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: ExampleSite
+    subtitle: "This is subtitle"
+    imageUrl: "<img location>"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hi there \U0001F44B "
+    Content: >
+      Hello,我是老刘，这是我的个人博客！         
+      
+      - **博主**目前经营一家视光工作室👓，有需要这方面的博友可以找老刘哦，详情可以参考[博友配镜](https://iliu.org/boyoupeijing/)🏪。
+
+      - [博主](https://iliu.org/about/)爱好传统文化，深信因果。
+      
+ 
+      ---
+        ⏰ Now
+        - 心情：😅
+        - 计划80天读完《华严经》,已读第18卷
+        - 心得：善用其心
+       
+
+  socialIcons:
+    - name: x
+      url: "https://x.com/tunanblog"
+    - name: Email
+      url: "mailto:ewader@gmail.com"
+    - name: github
+      url: "https://github.com/ewader"
+    - name: RSS
+      url: "index.xml"
+    - name: mastodon
+      url: "https://cmx.go.it/@laoliu"
+    
+  
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  
+
+ 
+menu:
+  main:
+    
+    - identifier: archives
+      name: 💾 归档
+      url: /archives/
+      weight: 15
+    - identifier: peijing
+      name: 👓 配镜
+      url: /boyoupeijing/
+      weight: 46
+    - identifier: search
+      name: 🔍 搜索
+      url: search
+      weight: 40
+    
+    - identifier: links
+      name: 🌍 邻居
+      url: /friends/
+      weight: 47  
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: monokai
+  goldmark:
+    renderer:
+      unsafe: true

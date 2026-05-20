@@ -17,7 +17,7 @@ b2_vote:
 tin_post_views:
   - 779
 categories:
-  - 人间世
+  - 生活记
 tags:
   - 开博
   - 随笔

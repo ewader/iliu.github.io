@@ -3,7 +3,7 @@ title: "大宋朝的那些奇葩事"
 date: 2024-11-27T07:25:18-05:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["德充符"]
+tags: ["读书"]
 categories: ["德充符"]
 author: "老刘"
 # author: ["Me", "You"] # multiple authors

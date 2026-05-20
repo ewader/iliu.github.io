@@ -11,7 +11,7 @@ views:
 like:
   - 1
 categories:
-  - 齐物
+  - 电脑网络
 tags:
   - gnome
   - manjaro

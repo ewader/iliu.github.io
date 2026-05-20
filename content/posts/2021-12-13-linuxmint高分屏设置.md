@@ -22,7 +22,7 @@ views:
 baidutui:
   - '{"remain":2997,"success":1}'
 categories:
-  - 齐物
+  - 电脑网络
 tags:
   - linuxmint
   - 字体

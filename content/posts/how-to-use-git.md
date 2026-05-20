@@ -4,7 +4,7 @@ date: 2023-11-15T21:28:20+08:00
 # weight: 1
 # aliases: ["/first"]
 tags: ["博客"]
-categories: ["齐物"]
+categories: ["齐物论"]
 author: "老刘"
 # author: ["Me", "You"] # multiple authors
 showToc: true

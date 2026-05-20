@@ -4,7 +4,7 @@ date: 2026-01-02T15:53:23+08:00
 # weight: 1
 # aliases: ["/first"]
 tags: [""]
-categories: ["人间世"]
+categories: ["人世间"]
 author: "老刘"
 # author: ["Me", "You"] # multiple authors
 showToc: true

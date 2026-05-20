@@ -4,7 +4,7 @@ date: 2025-12-11T10:33:11+08:00
 # weight: 1
 # aliases: ["/first"]
 tags: ["社会观察", "环保", "农村变迁"]
-categories: ["人间世"]
+categories: ["人世间"]
 author: "老刘"
 # author: ["Me", "You"] # multiple authors
 showToc: true

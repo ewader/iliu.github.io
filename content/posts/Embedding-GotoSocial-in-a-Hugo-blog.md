@@ -22,11 +22,11 @@ cover:
 [我的微博](http://iliu.org/toots)
 
 ## 总体思路
-由于 GoToSocial 默认开启了严格的 CORS 限制，获取内容的时候需要token，由于Hugo是静态博客，直接把token写在齐物非常不安全，所以我们需要一个中转层。
+由于 GoToSocial 默认开启了严格的 CORS 限制，获取内容的时候需要token，由于Hugo是静态博客，直接把token写在前端非常不安全，所以我们需要一个中转层。
 Cloudflare Workers 可以完美胜任代理转发的功能，作用是：
-- 从 Hugo 齐物发请求 → Cloudflare Worker
+- 从 Hugo 前端发请求 → Cloudflare Worker
 - Worker 向 https://你的域名/api/v1/accounts/.../statuses 请求 GoToSocial 数据
-- Worker 再把 JSON 数据返回给 Hugo 齐物
+- Worker 再把 JSON 数据返回给 Hugo 前端
 - Hugo 构建时渲染
 ## 获取 GoToSocial 的 toot API 接口
 ### 目标概述

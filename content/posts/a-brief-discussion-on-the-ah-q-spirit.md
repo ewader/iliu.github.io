@@ -3,7 +3,7 @@ title: "浅谈阿Q精神"
 date: 2025-09-25T10:15:38+08:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["德充符"]
+tags: ["读书"]
 categories: ["德充符"]
 author: "老刘"
 # author: ["Me", "You"] # multiple authors

@@ -1,0 +1,137 @@
+{{- /* 1. 确保此脚本只在 Hugo 的单页（文章）上下文运行 */ -}}
+{{- if .IsPage }}
+
+{{- /* 2. 定义 postId 变量：使用最可靠的 ID (.File.BaseFileName) */ -}}
+{{- $postId := .File.BaseFileName -}} 
+{{- if not $postId -}}
+    {{- $postId = .UniqueID -}} 
+{{- end -}}
+
+{{- /* 3. 避免在 about 页面上渲染脚本 */ -}}
+{{- if not (in ($postId | lower) "about") }}
+<script>
+// 🚨 修正：将所有逻辑（包括全局锁和 return）放入 IIFE 内部，避免 Hugo 编译错误。
+(function() {
+    // 🚨 关键修正：使用全局锁机制，确保脚本只执行一次
+    if (window.upvoteScriptInitialized) {
+        console.warn("Upvote script skipped: Already initialized by a previous call.");
+        return; // <--- 安全的 JavaScript return 语句
+    }
+    window.upvoteScriptInitialized = true; // 设置全局锁
+    
+    // 获取必要的 DOM 元素
+    const upvoteCount = document.getElementById('upvote-count');
+    const upvoteBtn = document.getElementById('upvote-btn');
+
+    // 从配置中获取后端 API 基础 URL，并进行 JS 安全转义
+    const upvoteURL = '{{ .Site.Params.upvoteURL | safeJS }}'; 
+    if (!upvoteURL) {
+        console.error("Upvote feature disabled: upvoteURL not set.");
+        return; 
+    }
+
+    // 修正 1：在 JS 代码中安全移除 upvoteURL 末尾可能多余的斜杠
+    const API_BASE_URL = upvoteURL.replace(/\/+$/, ''); 
+
+    // 最终确定的 postId 变量（来自 Hugo 的当前页面）
+    const postId = '{{ $postId | safeJS }}'; 
+
+    // 🚨 最终修正：如果 ID 污染，我们强制使用 URL slug 作为 fallback ID
+    const pathSlug = window.location.pathname.split('/').filter(Boolean).pop();
+    // 如果 Hugo 提供的 ID 不匹配 URL Slug，则使用 URL Slug 作为最终 ID
+    const finalPostId = (postId.toLowerCase().includes(pathSlug.toLowerCase())) ? postId : pathSlug;
+    
+    // 警告日志，用于提醒用户主题存在污染，但不中断执行
+    if (finalPostId !== postId) {
+        console.warn("ID Mismatch: Using URL slug as Final Post ID. Potential Context Pollution in Theme.");
+    }
+    
+    let hasUpvoted = false; 
+
+    // 辅助函数：更新 UI 状态
+    function updateUpvoteUI(count, upvoted) {
+        upvoteCount.innerText = count;
+        hasUpvoted = upvoted;
+        if (upvoted) {
+            upvoteBtn.classList.add('upvoted');
+        } else {
+            upvoteBtn.classList.remove('upvoted');
+        }
+    }
+
+    // 1. 获取 Upvote 数量的方法
+    async function getCount(id) {
+        if (!upvoteURL || !upvoteBtn) return;
+        
+        const url = API_BASE_URL + '/count?post=' + encodeURIComponent(id);
+        
+        try {
+            const response = await fetch(url, { method: 'GET', headers: { 'Content-Type': 'application/json' } });
+            
+            if (response.status === 302 || response.status === 404) {
+                console.error("Worker did not recognize the path. Check Worker Routes or API_BASE_URL configuration.");
+                return;
+            }
+
+            const data = await response.json();
+            if (data.code === 0) {
+                updateUpvoteUI(data.data.count, data.data.hasUpvoted);
+            } else {
+                updateUpvoteUI(0, false);
+            }
+        } catch (error) {
+            console.error(`Error fetching upvote count for Post ID ${id}: `, error);
+        }
+    }
+
+    // 2. 执行点赞或取消点赞的方法
+    async function upvotePost() {
+        if (!upvoteURL || !upvoteBtn) return;
+        upvoteBtn.disabled = true;
+
+        const diffValue = hasUpvoted ? -1 : 1; 
+
+        try {
+            const url = API_BASE_URL + '/upvote'; 
+            const response = await fetch(url, { 
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ postId: finalPostId, diff: diffValue }) // 使用修正后的 finalPostId
+            });
+            
+            if (response.status === 302 || response.status === 404) {
+                console.error("Worker did not recognize the path. Check Worker Routes or API_BASE_URL configuration.");
+                upvoteBtn.disabled = false;
+                return;
+            }
+
+            const data = await response.json();
+            if (data.code === 0) {
+                await getCount(finalPostId); 
+            } else {
+                console.error('Failed to execute upvote/downvote: ', data.msg);
+                alert('操作失败: ' + data.msg); 
+            }
+        } catch (error) {
+            console.error('Error sending upvote request: ', error);
+            alert('网络请求失败，请检查配置或稍后再试。');
+        } finally {
+            upvoteBtn.disabled = false;
+        }
+    }
+
+    // 3. 绑定事件监听器和初始化
+    if (upvoteBtn && upvoteURL && finalPostId) {
+        console.log("Final Resolved Post ID:", finalPostId); // 打印最终 ID
+        
+        upvoteBtn.addEventListener('click', upvotePost);
+        getCount(finalPostId);
+    } else if (!upvoteBtn) {
+        console.warn("Upvote button element not found.");
+    } else if (!finalPostId) {
+        console.error("Critical Error: Post identifier (finalPostId) is empty. Upvote disabled.");
+    }
+})(); // 🚨 闭合 IIFE
+</script>
+{{- end }} {{/* 闭合 if not (in $postId "about") */}}
+{{- end }} {{/* 闭合 if .IsPage */}}

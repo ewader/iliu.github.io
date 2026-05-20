@@ -4,7 +4,7 @@ date: 2025-12-23T09:48:18+08:00
 # weight: 1
 # aliases: ["/first"]
 tags: ["年终总结"]
-categories: ["人间世"]
+categories: ["人世间"]
 author: "老刘"
 # author: ["Me", "You"] # multiple authors
 showToc: true
@@ -37,7 +37,7 @@ cover:
 玄武湖畔找荫凉。
 
 
-灯下德充符有几本，
+灯下读书有几本，
 
 可惜收获只少许。
 

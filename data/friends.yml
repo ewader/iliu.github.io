@@ -1,0 +1,53 @@
+
+
+- name: "老张博客"
+  url: "https://laozhang.org/"
+  avatar: "https://picx.s3.bitiful.net/2023/05/01/644f0e3acd666.png"
+  desc: "生活琐记，技术折腾，乐在记录点滴与分享"
+
+- name: "印记"
+  url: "https://yinji.org/"
+  avatar: "https://gravatar.loli.net/avatar/e0c9b701821e8219b15b261a7edd48859c86406a50563758d7e16440d1581c27"
+  desc: "Live a life you will remember"
+
+
+- name: "孤旅記"
+  url: "https://lonely.travel/"
+  avatar: "https://s2.l22.org/images/1765934056_unnamed.jpg"
+  desc: "行做笔·心当墨"
+
+- name: "MR.HE"
+  url: "https://www.mrhe.net/"
+  avatar: "https://s2.l22.org/images/1765934056_unnamed.jpg"
+  desc: "分享老何的故事"
+
+- name: "随风沐虐"
+  url: "https://www.munue.com/"
+  avatar: "https://s2.l22.org/images/1765934056_unnamed.jpg"
+  desc: "万里风云三尺剑，一庭花草半床书"
+
+- name: "1990"
+  url: "https://1900.l孤旅記ive/"
+  avatar: "https://1900.live/logo.svg"
+  desc: "孤独的互联网冲浪大师"
+
+
+- name: "她的蓝"
+  url: "https://her.blue/"
+  avatar: "https://her.blue/content/images/2025/01/herblue-logo-5.png"
+  desc: "阅读、旅行、电影、音乐"
+
+- name: "荒野菲克"
+  url: "https://ficor.net/"
+  avatar: "https://img.ficor.net/uploads/2025/11/691448c231589.webp"
+  desc: "在路上的思考与脚印"      
+- name: "木竹"
+  url: "https://www.laomuzhu.cn/"
+  avatar: "https://www.laomuzhu.cn/img/touxiang.jpg"
+  desc: "木竹"  
+
+- name: "归云集"
+  url: "https://l22.org/"
+  avatar: "https://l22.org/content/images/2025/12/guiyun1.png"
+  desc: "静心观世界"  
+

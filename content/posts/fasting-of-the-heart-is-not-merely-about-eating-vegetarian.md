@@ -3,7 +3,7 @@ title: "心斋，不只是吃素"
 date: 2025-08-13T08:45:11+08:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["德充符"]
+tags: ["读书"]
 categories: ["德充符"]
 author: "老刘"
 # author: ["Me", "You"] # multiple authors

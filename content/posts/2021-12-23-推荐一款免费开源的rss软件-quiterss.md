@@ -23,7 +23,7 @@ tin_latest_reviewed:
 views:
   - 1632
 categories:
-  - 齐物
+  - 电脑网络
 tags:
   - QuiteRSS
   - RSS

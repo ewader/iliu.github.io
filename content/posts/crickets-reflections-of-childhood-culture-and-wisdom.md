@@ -3,7 +3,7 @@ title: "蟋蟀：童趣、文化与智慧的映照"
 date: 2025-09-08T10:39:08+08:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["随笔","德充符"]
+tags: ["随笔","读书"]
 categories: ["德充符"]
 author: "老刘"
 # author: ["Me", "You"] # multiple authors

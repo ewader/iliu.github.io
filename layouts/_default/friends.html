@@ -1,0 +1,47 @@
+{{ define "head" }}
+  {{ $style := resources.Get "css/extended/friends-links.css" | minify }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}">
+{{ end }}
+
+{{ define "main" }}
+<main class="main-content" id="main-content">
+  <article class="post-single">
+    <header class="post-header">
+     
+      <h1 class="post-title">{{ .Title }}</h1>
+      {{ with .Params.summary }}
+        <p class="post-description">{{ . }}</p>
+      {{ end }}
+    </header>
+    
+    <div class="post-content">
+      {{ .Content }}
+
+      <div class="friend-links">
+        {{ range $index, $friend := .Site.Data.friends }}
+          <a href="{{ $friend.url }}" target="_blank" rel="noopener" class="friend-card">
+            
+            {{ if $friend.avatar }}
+              <img src="{{ $friend.avatar }}" alt="{{ $friend.name }}" class="friend-avatar">
+            {{ else }}
+              <div class="friend-avatar link-{{ mod $index 5 }}">
+                {{ substr $friend.name 0 1 }}
+              </div>
+            {{ end }}
+            
+            <div class="friend-info">
+              <div class="font-semibold">{{ $friend.name }}</div>
+              <div class="text-gray-600">{{ $friend.desc }}</div>
+            </div>
+          </a>
+        {{ end }}
+      </div>
+    </div>
+
+    {{ partial "comments.html" . }}
+    
+  </article>
+</main>
+
+
+{{ end }}

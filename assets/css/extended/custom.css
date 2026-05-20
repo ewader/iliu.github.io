@@ -1,0 +1,130 @@
+/* Custom styles added to demo */
+
+.twitter-tweet {
+    margin: auto;
+}
+
+iframe {
+    border-radius: var(--radius) !important;
+}
+
+.home-info ul {
+    padding-inline-start: 20px;
+}
+
+.entry-cover img {
+    border: 1px solid var(--border);
+}
+
+.friend-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.2rem;
+  margin-top: 2rem;
+}
+
+.friend-card {
+  display: flex;
+  align-items: center;
+  background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1rem;
+  text-decoration: none;
+  color: var(--primary);
+  transition: all 0.2s ease;
+}
+
+.friend-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  background: var(--theme);
+}
+
+.friend-card img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  margin-right: 1rem;
+  object-fit: cover;
+  border: 2px solid var(--border);
+}
+
+.friend-card div {
+  flex: 1;
+}
+
+.friend-card .font-semibold {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.friend-card .text-gray-600 {
+  font-size: 0.9rem;
+  color: var(--secondary);
+}
+
+
+/* ================================================================= */
+/* 🚀 最终样式：图标在上，数字在下（无文本） */
+/* ================================================================= */
+
+.upvote-container {
+    display: inline-block; /* 保持在文本流中 */
+    margin: 0 0.5em; /* 根据需要调整间距 */
+    /* 确保容器的默认颜色和文本颜色一致 */
+    color: var(--primary); 
+}
+
+.upvote-btn {
+    /* 核心：使用 Flexbox 实现垂直堆叠 */
+    all: unset; /* 移除所有默认按钮样式 */
+    cursor: pointer;
+    font-size: inherit; 
+    display: flex; /* 开启弹性布局 */
+    flex-direction: column; /* 垂直排列子元素 */
+    align-items: center; /* 水平居中 */
+    justify-content: center; /* 垂直居中 */
+    
+    /* 设置按钮尺寸，使其看起来像一个整体的可点击区域 */
+    width: 2em; /* 按钮宽度，可根据需要调整 */
+    height: 3em; /* 按钮高度，可根据需要调整 */
+    padding: 0; 
+}
+
+/* 1. 移除伪元素（确保没有方括号或多余文本） */
+.upvote-btn::before,
+.upvote-btn::after {
+    content: none !important; 
+}
+
+/* 2. 样式化 SVG 图标 */
+.upvote-icon svg {
+    display: block; 
+    width: 1.2em;   /* 调整图标大小 */
+    height: 1.2em;
+    stroke: var(--secondary); /* 默认颜色 */
+    transition: all 0.2s ease-in-out;
+}
+
+/* 3. 样式化计数数字 */
+.upvote-count {
+    font-size: 0.8em; /* 字体比图标小一点 */
+    font-weight: 600; 
+    line-height: 1; /* 紧凑排列 */
+    margin-top: 0.1em; /* 稍微和图标隔开 */
+}
+
+/* 4. 点赞状态：图标和数字都变红 */
+.upvote-btn.upvoted {
+    color: #ff3838; /* 确保数字变红 */
+}
+.upvote-btn.upvoted .upvote-icon svg {
+    stroke: #ff3838; /* 图标线条变红 */
+    fill: #ff3838;   /* 图标填充变红 */
+}
+
+/* 5. 鼠标悬停时的效果 */
+.upvote-btn:hover {
+    opacity: 0.8; /* 悬停时透明度变化，提供反馈 */
+}

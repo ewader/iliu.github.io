@@ -11,7 +11,7 @@ views:
 tin_post_views:
   - 357
 categories:
-  - 齐物
+  - 电脑网络
 
 ---
 昨天青山在群里说，微软的好几个软件限时免费送，最搞的一个原来卖300多，本着有便宜就占的风格，赶紧去搞去，结果进微软商店，却打不开，提示代码: 0x80131500错误。<figure class="wp-block-image size-large">

@@ -11,7 +11,7 @@ views:
 tin_post_views:
   - 101
 categories:
-  - 齐物
+  - 电脑网络
 tags:
   - avg
   - cccleaner

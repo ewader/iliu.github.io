@@ -17,7 +17,7 @@ tin_post_views:
 baidu_record:
   - 1
 categories:
-  - 人间世
+  - 生活记
 tags:
   - 黑莓
   - 黑莓刷机
