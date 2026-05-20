@@ -91,10 +91,23 @@ params:
       
  
       ---
-        ⏰ Now
-        - 心情：😅
-        - 计划80天读完《华严经》,已读第18卷
-        - 心得：善用其心
+        <div id="memos-now" style="margin-top:0.5em">
+          <span style="color:var(--meta);font-size:0.85em">加载中...</span>
+        </div>
+        <script>
+        (function(){
+          fetch('https://note.l22.org/api/v1/memos?pageSize=1&visibility=PUBLIC')
+            .then(r=>r.json())
+            .then(d=>{
+              var c=d.memos&&d.memos[0];
+              if(!c)return;
+              var t=c.createTime.split('T')[0];
+              var con=c.content.replace(/\n/g,'<br>');
+              document.getElementById('memos-now').innerHTML=
+                '<p style="margin:0">⏰ '+t+'</p><p style="margin:0.3em 0 0">'+con+'</p>';
+            });
+        })();
+        </script>
        
 
   socialIcons:
