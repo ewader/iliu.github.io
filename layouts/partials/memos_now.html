@@ -11,9 +11,9 @@
       var t = c.createTime.split('T')[0];
       var con = c.content.replace(/\n/g, '<br>');
       document.getElementById('memos-now').innerHTML =
-        '<p style="margin:0;font-size:.85em;color:var(--secondary)">说说</p>' +
-        '<div style="border:1px solid var(--border);border-radius:8px;padding:.8em 1em;margin-top:.3em">' + con + '</div>' +
-        '<p style="margin:0.2em 0 0;font-size:.8em"><a href="https://note.l22.org" target="_blank" style="color:var(--meta)">⏰ ' + t + '</a></p>';
+        '<div style="border:1px solid #888;border-radius:8px;padding:.8em 1em;margin-top:.3em;background:var(--entry-bg)">' +
+        '<p style="margin:0;font-size:.9em">'+con+'</p>' +
+        '<p style="margin:0.3em 0 0;font-size:.78em;text-align:right"><a href="https://note.l22.org" target="_blank" style="color:var(--secondary)">⏰ '+t+'</a></p></div>';
     });
 })();
 </script>
