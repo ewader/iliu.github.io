@@ -30,16 +30,32 @@
   </header>
   {{- $isHidden := (.Param "cover.hiddenInSingle") | default (.Param "cover.hidden") | default false }}
   {{- partial "cover.html" (dict "cxt" . "IsSingle" true "isHidden" $isHidden) }}
-  {{- if (.Param "ShowToc") }}
-  {{- partial "toc.html" . }}
-  {{- end }}
 
+  {{- if and (.Param "ShowToc") .TableOfContents }}
+  <div class="post-with-toc">
+    <div class="post-content">
+      {{- if .Content }}
+      <div class="post-content-inner">
+        {{- if not (.Param "disableAnchoredHeadings") }}
+        {{- partial "anchored_headings.html" .Content -}}
+        {{- else }}{{ .Content }}{{ end }}
+      </div>
+      {{- end }}
+    </div>
+    <aside class="post-toc-aside">
+      {{- partial "toc.html" . }}
+    </aside>
+  </div>
+  {{- else }}
   {{- if .Content }}
   <div class="post-content">
-    {{- if not (.Param "disableAnchoredHeadings") }}
-    {{- partial "anchored_headings.html" .Content -}}
-    {{- else }}{{ .Content }}{{ end }}
+    <div class="post-content-inner">
+      {{- if not (.Param "disableAnchoredHeadings") }}
+      {{- partial "anchored_headings.html" .Content -}}
+      {{- else }}{{ .Content }}{{ end }}
+    </div>
   </div>
+  {{- end }}
   {{- end }}
 <div class="upvote-container">
     <small class="upvote">
