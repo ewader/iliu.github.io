@@ -29,11 +29,18 @@
       {{- end -}}
       {{- $today := now -}}
       {{- $end := $today -}}
-      {{- /* 今天到本周日的天数: (7 - weekday) % 7，Sunday=0 */ -}}
+      {{- /* 计算到本周日的天数（避免 sub/mod 返回 int64 问题） */ -}}
       {{- $weekday := int ($end.Weekday) -}}
-      {{- $daysToSunday := mod (sub 7 $weekday) 7 -}}
+      {{- $daysToSunday := 0 -}}
+      {{- if eq $weekday 1 }}{{ $daysToSunday = 6 }}
+      {{- else if eq $weekday 2 }}{{ $daysToSunday = 5 }}
+      {{- else if eq $weekday 3 }}{{ $daysToSunday = 4 }}
+      {{- else if eq $weekday 4 }}{{ $daysToSunday = 3 }}
+      {{- else if eq $weekday 5 }}{{ $daysToSunday = 2 }}
+      {{- else if eq $weekday 6 }}{{ $daysToSunday = 1 }}
+      {{- else }}{{ $daysToSunday = 0 }}{{ end -}}
       {{- $end = $end.AddDate 0 0 $daysToSunday -}}
-      {{- $start := $end.AddDate 0 0 (sub 0 (mul 52 7)) -}}
+      {{- $start := $end.AddDate 0 0 -364 -}}
       {{- $cursor := $start -}}
       {{- $cellsHTML := "" -}}
       {{- range (seq 0 52) -}}
