@@ -1,4 +1,32 @@
-/* client-side search (used on /search/) */
+/* 汉堡菜单切换 */
+(function() {
+  var burger = document.getElementById('hamburger');
+  var nav = document.getElementById('mobile-nav');
+  if (!burger || !nav) return;
+  burger.addEventListener('click', function() {
+    burger.classList.toggle('open');
+    nav.classList.toggle('open');
+    document.body.style.overflow = nav.classList.contains('open') ? 'hidden' : '';
+  });
+  // 点击链接后关闭菜单
+  nav.querySelectorAll('a').forEach(function(link) {
+    link.addEventListener('click', function() {
+      burger.classList.remove('open');
+      nav.classList.remove('open');
+      document.body.style.overflow = '';
+    });
+  });
+  // 窗口resize到桌面时自动关闭
+  window.addEventListener('resize', function() {
+    if (window.innerWidth > 1024 && nav.classList.contains('open')) {
+      burger.classList.remove('open');
+      nav.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+  });
+})();
+
+/* 客户端搜索（用于 /search/） */
 (function() {
   var input = document.getElementById('search-input');
   var out = document.getElementById('search-results');
@@ -121,8 +149,8 @@
       })
       .catch(function() { textEl.textContent = '加载失败'; });
   }
-  load();
-  setInterval(load, 5 * 60 * 1000);
+  loadMemos();
+  setInterval(loadMemos, 5 * 60 * 1000);
 })();
 
 /* 实时 memos（首页 hero 卡片） */

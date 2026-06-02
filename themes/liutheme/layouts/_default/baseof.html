@@ -43,7 +43,7 @@
   </main>
 
   <aside class="col-right">
-    {{ block "sidebar-right" . }}{{ partial "sidebar-right.html" . }}{{ end }}
+    {{ block "sidebar-right" . }}{{ partialCached "sidebar-right.html" . }}{{ end }}
   </aside>
 </div>
 

@@ -5,28 +5,19 @@
   </h3>
   {{- $byDay := dict -}}
   {{- range where .Site.RegularPages "Section" "posts" -}}
-    {{- $key := .Date.Format "2006-01-02" -}}
-    {{- $cnt := index $byDay $key | default 0 -}}
-    {{- $byDay = merge $byDay (dict $key (add $cnt 1)) -}}
+    {{- $k := .Date.Format "2006-01-02" -}}
+    {{- $cur := index $byDay $k | default 0 -}}
+    {{- $byDay = merge $byDay (dict $k (add $cur 1)) -}}
   {{- end -}}
   {{- $maxDay := 0 -}}
-  {{- range $byDay }}{{ if gt . $maxDay }}{{ $maxDay = . }}{{ end }}{{ end -}}
+  {{- range $byDay -}}
+    {{- if gt . $maxDay -}}{{- $maxDay = . -}}{{- end -}}
+  {{- end -}}
   <div class="heat-wrap">
     <div class="heat-grid" role="img" aria-label="发布热力图">
       <div class="heat-days" aria-hidden="true">
         <span></span><span>一</span><span></span><span>三</span><span></span><span>五</span><span></span>
       </div>
-      {{- /* 用 map 索引按 ISO 日期计数 */ -}}
-      {{- $byDay := dict -}}
-      {{- range where .Site.RegularPages "Section" "posts" -}}
-        {{- $k := .Date.Format "2006-01-02" -}}
-        {{- $cur := index $byDay $k | default 0 -}}
-        {{- $byDay = merge $byDay (dict $k (add $cur 1)) -}}
-      {{- end -}}
-      {{- $maxDay := 0 -}}
-      {{- range $byDay -}}
-        {{- if gt . $maxDay -}}{{- $maxDay = . -}}{{- end -}}
-      {{- end -}}
       {{- $today := now -}}
       {{- $end := $today -}}
       {{- /* 计算到本周日的天数（避免 sub/mod 返回 int64 问题） */ -}}
