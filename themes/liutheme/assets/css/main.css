@@ -589,6 +589,7 @@ body.theme-dark .heat-l4 { background: #39d353; }
 
 /* ---------- Home hero ---------- */
 .home-hero {
+  display: none;
   margin-bottom: 32px;
   padding: 0 4px;
 }
@@ -1638,6 +1639,8 @@ body.theme-dark .chroma .cs { color: #6b6555; }
   .right-card, .tag-cloud, .stats-card, .breadcrumbs,
   section, .archive-section, .list-section, .friends-section,
   .search-section, .pagination { max-width: 100% !important; }
+  
+  .home-hero { display: block; }
 
   /* === 热力图横滑 === */
   .heat-grid { max-width: 100% !important; overflow-x: auto !important; }
