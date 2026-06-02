@@ -28,10 +28,10 @@
         {{- if gt . $maxDay -}}{{- $maxDay = . -}}{{- end -}}
       {{- end -}}
       {{- $today := now -}}
-      {{- /* 取今天之前的某个周一（往前 52 周），保证从周一开始 */ -}}
       {{- $end := $today -}}
-      {{- $endDow := int (mod $end.Weekday 7) -}}{{- /* Sun=0...Sat=6 */ -}}
-      {{- $daysToSunday := sub 6 $endDow -}}
+      {{- /* 今天到本周日的天数: (7 - weekday) % 7，Sunday=0 */ -}}
+      {{- $weekday := int ($end.Weekday) -}}
+      {{- $daysToSunday := mod (sub 7 $weekday) 7 -}}
       {{- $end = $end.AddDate 0 0 $daysToSunday -}}
       {{- $start := $end.AddDate 0 0 (sub 0 (mul 52 7)) -}}
       {{- $cursor := $start -}}
