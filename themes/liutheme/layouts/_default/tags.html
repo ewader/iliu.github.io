@@ -1,0 +1,12 @@
+{{- define "main" -}}
+<section class="terms-section">
+  <header class="section-head">
+    <h1 class="section-title">{{ .Title }} · {{ len .Pages }} 个标签</h1>
+  </header>
+  <div class="tag-cloud big">
+    {{- range $name, $pages := .Site.Taxonomies.tags }}
+    <a href="/tags/{{ $name | urlize }}/" class="tag-pill big">{{ $name }}<sup>{{ len $pages }}</sup></a>
+    {{- end }}
+  </div>
+</section>
+{{- end -}}

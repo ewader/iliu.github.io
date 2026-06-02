@@ -1,0 +1,49 @@
+{{- define "main" -}}
+{{- $paginator := .Paginate .Pages }}
+<section class="list-section">
+  <header class="section-head">
+    <nav class="breadcrumbs" aria-label="面包屑">
+      <a href="{{ "/" | absURL }}">{{ i18n "nav_home" }}</a>
+      <span class="bc-sep">/</span>
+      <span class="bc-current">{{ .Title }}</span>
+    </nav>
+    <h1 class="section-title">
+      {{ .Title }}
+      {{- with .OutputFormats.Get "rss" }}
+      <a class="rss-link" href="{{ .RelPermalink }}" title="RSS" aria-label="RSS">RSS</a>
+      {{- end }}
+    </h1>
+    {{ with .Description }}<p class="section-desc">{{ . | markdownify }}</p>{{ end }}
+    {{- if eq .Kind "term" }}
+    <p class="section-meta">共 {{ len .Pages }} 篇文章</p>
+    {{- end }}
+  </header>
+
+  <section class="post-list">
+    {{- range $paginator.Pages }}
+    <article class="post-card">
+      <header class="post-card-head">
+        <h2 class="post-card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        <div class="post-card-meta">
+          <time>{{ .Date.Format "2006-01-02" }}</time>
+          {{ with .Params.categories }}<span class="dot">·</span><a class="post-cat" href="/categories/{{ index . 0 | urlize }}/">{{ index . 0 }}</a>{{ end }}
+          {{ with .ReadingTime }}<span class="dot">·</span><span>{{ . }} 分钟</span>{{ end }}
+        </div>
+      </header>
+      <div class="post-card-summary">
+        {{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | chomp }}{{ end }}
+      </div>
+      {{ with .Params.tags }}
+      <div class="post-card-tags">
+        {{- range . }}<a href="/tags/{{ . | urlize }}/" class="post-tag">#{{ . }}</a>{{- end }}
+      </div>
+      {{ end }}
+    </article>
+    {{- else }}
+    <p class="empty-state">这里还没有文章</p>
+    {{- end }}
+  </section>
+
+  {{- partial "pagination.html" . }}
+</section>
+{{- end -}}

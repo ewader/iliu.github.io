@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "zh-cn" }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{{ block "title" . }}{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} · {{ .Site.Title }}{{ end }}{{ end }}</title>
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Summary | plainify }}{{ end }}{{ end }}">
+<meta name="keywords" content="{{ if .IsHome }}{{ delimit .Site.Params.keywords ", " "" }}{{ else }}{{ with .Params.tags }}{{ delimit . ", " }}{{ end }}{{ end }}">
+{{- template "_internal/opengraph.html" . }}
+{{- template "_internal/twitter_cards.html" . }}
+{{- template "_internal/schema.html" . }}
+
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+<link rel="canonical" href="{{ .Permalink }}">
+
+{{ with resources.Get "css/main.css" }}
+  {{ $style := . | resources.Minify }}
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+{{ end }}
+
+{{- range .Site.Params.customCSS }}
+<link rel="stylesheet" href="{{ . | absURL }}">
+{{- end }}
+
+{{- if .Site.Params.analytics }}
+{{- end }}
+
+{{ if not hugo.IsServer }}
+{{ with .Site.Config.Services.GoogleAnalytics.ID }}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', '{{ . }}');</script>
+{{ end }}
+{{ end }}
+</head>
+<body class="theme-light">
+{{ block "header" . }}{{ partial "header.html" . }}{{ end }}
+
+<div class="site-grid">
+  <main class="col-main">
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  <aside class="col-right">
+    {{ block "sidebar-right" . }}{{ partial "sidebar-right.html" . }}{{ end }}
+  </aside>
+</div>
+
+<footer class="site-footer">
+  {{ block "footer" . }}{{ partial "footer.html" . }}{{ end }}
+</footer>
+
+<script src="/js/theme.js" defer></script>
+<script src="/js/main.js" defer></script>
+</body>
+</html>

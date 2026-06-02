@@ -1,0 +1,48 @@
+{{- define "main" -}}
+{{- $pages := where .Site.RegularPages "Section" "posts" -}}
+<section class="archive-section">
+  <header class="section-head">
+    <h1 class="section-title">{{ .Title }}</h1>
+    <p class="section-desc">共 {{ len $pages }} 篇文章，按时间倒序</p>
+  </header>
+
+  <div class="archive-stats">
+    {{- $thisYear := (index ($pages.GroupByDate "2006") 0) -}}
+    {{- $thisYearPosts := 0 -}}
+    {{- $thisYearStr := now.Format "2006" -}}
+    {{- range $pages -}}
+      {{- if eq (.Date.Format "2006") $thisYearStr -}}
+        {{- $thisYearPosts = add $thisYearPosts 1 -}}
+      {{- end -}}
+    {{- end -}}
+    <div class="arc-stat"><strong>{{ $thisYearPosts }}</strong><span>{{ $thisYearStr }} 文章</span></div>
+    <div class="arc-stat"><strong>{{ len (where $pages "Lastmod" "ne" nil) }}</strong><span>总更新</span></div>
+    <div class="arc-stat"><strong>{{ len $pages }}</strong><span>累计文章</span></div>
+  </div>
+
+  <div class="archive-list">
+    {{- range ($pages.GroupByDate "2006") }}
+    <div class="archive-year">
+      <h2 class="archive-year-title">
+        <span>{{ .Key }}</span>
+        <span class="archive-year-count">{{ len .Pages }} 篇</span>
+      </h2>
+      {{- range (.GroupByDate "2006-01") }}
+      <details class="archive-month" open>
+        <summary>{{ .Key }}</summary>
+        <ul>
+          {{- range .Pages }}
+          <li>
+            <time>{{ .Date.Format "01-02" }}</time>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+            {{ with .Params.categories }}<span class="archive-cat">{{ index . 0 }}</span>{{ end }}
+          </li>
+          {{- end }}
+        </ul>
+      </details>
+      {{- end }}
+    </div>
+    {{- end }}
+  </div>
+</section>
+{{- end -}}

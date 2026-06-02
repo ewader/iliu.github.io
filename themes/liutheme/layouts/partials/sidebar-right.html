@@ -1,0 +1,131 @@
+<aside class="right-card">
+  <h3 class="card-title">
+    <span>发布热力</span>
+    <a href="/archives/" class="card-more">more →</a>
+  </h3>
+  {{- $byDay := dict -}}
+  {{- range where .Site.RegularPages "Section" "posts" -}}
+    {{- $key := .Date.Format "2006-01-02" -}}
+    {{- $cnt := index $byDay $key | default 0 -}}
+    {{- $byDay = merge $byDay (dict $key (add $cnt 1)) -}}
+  {{- end -}}
+  {{- $maxDay := 0 -}}
+  {{- range $byDay }}{{ if gt . $maxDay }}{{ $maxDay = . }}{{ end }}{{ end -}}
+  <div class="heat-wrap">
+    <div class="heat-grid" role="img" aria-label="发布热力图">
+      <div class="heat-days" aria-hidden="true">
+        <span></span><span>一</span><span></span><span>三</span><span></span><span>五</span><span></span>
+      </div>
+      {{- /* 用 map 索引按 ISO 日期计数 */ -}}
+      {{- $byDay := dict -}}
+      {{- range where .Site.RegularPages "Section" "posts" -}}
+        {{- $k := .Date.Format "2006-01-02" -}}
+        {{- $cur := index $byDay $k | default 0 -}}
+        {{- $byDay = merge $byDay (dict $k (add $cur 1)) -}}
+      {{- end -}}
+      {{- $maxDay := 0 -}}
+      {{- range $byDay -}}
+        {{- if gt . $maxDay -}}{{- $maxDay = . -}}{{- end -}}
+      {{- end -}}
+      {{- $today := now -}}
+      {{- /* 取今天之前的某个周一（往前 52 周），保证从周一开始 */ -}}
+      {{- $end := $today -}}
+      {{- $endDow := int (mod $end.Weekday 7) -}}{{- /* Sun=0...Sat=6 */ -}}
+      {{- $daysToSunday := sub 6 $endDow -}}
+      {{- $end = $end.AddDate 0 0 $daysToSunday -}}
+      {{- $start := $end.AddDate 0 0 (sub 0 (mul 52 7)) -}}
+      {{- $cursor := $start -}}
+      {{- $cellsHTML := "" -}}
+      {{- range (seq 0 52) -}}
+        {{- $col := "" -}}
+        {{- range (seq 0 6) -}}
+          {{- $iso := $cursor.Format "2006-01-02" -}}
+          {{- $cnt := index $byDay $iso | default 0 -}}
+          {{- $level := 0 -}}
+          {{- if gt $cnt 0 -}}
+            {{- $lv := $cnt -}}
+            {{- if gt $lv 4 }}{{ $lv = 4 }}{{ end -}}
+            {{- $level = $lv -}}
+          {{- end -}}
+          {{- $future := gt $cursor $today -}}
+          {{- $cls := printf "heat-l%d" $level -}}
+          {{- if $future }}{{ $cls = printf "%s heat-future" $cls }}{{ end -}}
+          {{- $title := printf "%s · %d 篇" $iso $cnt -}}
+          {{- $col = printf "%s<span class=\"heat-cell %s\" data-date=\"%s\" data-count=\"%d\" title=\"%s\"></span>" $col $cls $iso $cnt $title -}}
+          {{- $cursor = $cursor.AddDate 0 0 1 -}}
+        {{- end -}}
+        {{- $cellsHTML = printf "%s<div class=\"heat-col\">%s</div>" $cellsHTML $col -}}
+      {{- end -}}
+      <div class="heat-cells">{{ safeHTML $cellsHTML }}</div>
+    </div>
+    <div class="heat-legend" aria-hidden="true">
+      <span>少</span>
+      <span class="heat-cell heat-l0"></span>
+      <span class="heat-cell heat-l1"></span>
+      <span class="heat-cell heat-l2"></span>
+      <span class="heat-cell heat-l3"></span>
+      <span class="heat-cell heat-l4"></span>
+      <span>多</span>
+    </div>
+  </div>
+</aside>
+
+{{ $tags := .Site.Taxonomies.tags }}
+{{ if $tags }}
+{{ $tagList := slice }}
+{{ range $name, $pages := $tags }}
+  {{ $tagList = $tagList | append (dict "name" $name "count" (len $pages)) }}
+{{ end }}
+{{ $sortedTags := sort $tagList "count" "desc" }}
+{{ $topTags := first 20 $sortedTags }}
+{{ $hiddenCount := sub (len $sortedTags) (len $topTags) }}
+<aside class="right-card">
+  <h3 class="card-title">
+    <span>标签云</span>
+    {{ if gt $hiddenCount 0 }}
+    <a href="/tags/" class="card-more">more →</a>
+    {{ end }}
+  </h3>
+  <div class="tag-cloud">
+    {{- range $topTags }}
+    <a href="/tags/{{ .name | urlize }}/" class="tag-pill">{{ .name }}<sup>{{ .count }}</sup></a>
+    {{- end }}
+  </div>
+</aside>
+{{ end }}
+
+<aside class="right-card stats-card">
+  <h3 class="card-title"><span>博客统计</span></h3>
+  <ul class="stats-list">
+    <li><span>文章</span><strong>{{ len (where .Site.RegularPages "Section" "posts") }}</strong></li>
+    <li><span>分类</span><strong>{{ len .Site.Taxonomies.categories }}</strong></li>
+    <li><span>标签</span><strong>{{ len .Site.Taxonomies.tags }}</strong></li>
+  </ul>
+</aside>
+
+<aside class="right-card">
+  <h3 class="card-title"><span>关于</span></h3>
+  <p class="about-blurb">{{ .Site.Params.description }}</p>
+  {{ with .Site.Params.socialIcons }}
+  <div class="about-social">
+    {{- range . }}
+    <a href="{{ .url }}" target="_blank" rel="noopener nofollow" aria-label="{{ .name }}" class="social-icon" data-tip="{{ .name }}">
+      {{- if eq .name "x" -}}
+      <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+      {{- else if eq .name "github" -}}
+      <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+      {{- else if eq .name "Email" -}}
+      <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+      {{- else if eq .name "RSS" -}}
+      <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19 7.38 20 6.18 20A2.18 2.18 0 0 1 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1z"/></svg>
+      {{- else if eq .name "mastodon" -}}
+      <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M21.327 8.566c0-4.339-2.843-5.61-2.843-5.61C17.347 2.296 14.94 2.078 12.451 2h-.057c-2.489.078-4.894.296-6.034.956 0 0-2.843 1.27-2.843 5.61 0 .993-.019 2.181.012 3.441.103 4.243.778 8.425 4.701 9.463 1.808.479 3.361.579 4.612.51 2.268-.126 3.541-.809 3.541-.809l-.075-1.646s-1.621.511-3.441.449c-1.804-.062-3.707-.194-3.999-2.409a4.523 4.523 0 0 1-.04-.621s1.769.432 4.014.535c1.372.063 2.658-.08 3.965-.236 2.506-.299 4.688-1.843 4.962-3.254.434-2.223.398-5.43.398-5.42zm-3.353 5.59h-2.081V9.057c0-1.075-.452-1.62-1.357-1.62-1 0-1.501.647-1.501 1.927v2.791h-2.069V9.364c0-1.28-.501-1.927-1.502-1.927-.905 0-1.357.546-1.357 1.62v5.099H6.026V8.903c0-1.074.273-1.927.823-2.558.566-.631 1.307-.955 2.228-.955 1.065 0 1.872.409 2.405 1.228l.518.869.519-.869c.533-.819 1.34-1.228 2.405-1.228.92 0 1.662.324 2.228.955.549.631.822 1.484.822 2.558z"/></svg>
+      {{- else -}}
+      <span>{{ .name }}</span>
+      {{- end -}}
+    </a>
+    {{- end }}
+  </div>
+  {{ end }}
+  <a href="/about/" class="read-more">了解更多 →</a>
+</aside>

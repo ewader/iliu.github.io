@@ -1,0 +1,16 @@
+name = "Liutheme"
+license = "MIT"
+licenselink = "https://github.com/"
+description = "三栏杂志型 Hugo 主题，米白底 + 衬线 + 留白克制的高级感博客"
+homepage = ""
+tags = ["blog", "responsive", "minimal", "magazine", "three-column", "personal", "elegant"]
+features = ["three-column", "search", "rss", "responsive", "dark-mode-toggle", "reading-time", "word-count", "toc", "code-highlight", "tag-cloud", "archive"]
+min_version = "0.110.0"
+
+[author]
+  name = "liuge"
+  homepage = "https://www.iliu.org/"
+
+[original]
+  name = ""
+  homepage = ""

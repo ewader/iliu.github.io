@@ -1,0 +1,22 @@
+{{- define "main" -}}
+<section class="search-section">
+  <header class="section-head">
+    <h1 class="section-title">🔍 搜索</h1>
+    <p class="section-desc">在 {{ len (where .Site.RegularPages "Section" "posts") }} 篇文章里查找</p>
+  </header>
+  <div class="search-wrap">
+    <div class="search-input-wrap">
+      <svg class="search-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      <input type="search" id="search-input" placeholder="输入关键词…" autocomplete="off" spellcheck="false" />
+      <span class="search-clear" id="search-clear" aria-label="清空">✕</span>
+    </div>
+    <div class="search-hint">支持标题、内容、标签、分类 · 多词用空格分隔</div>
+    <div id="search-results">
+      <div class="search-idle">输入关键词开始搜索</div>
+    </div>
+  </div>
+</section>
+
+{{ $index := resources.Get "js/search.json.tmpl" | resources.ExecuteAsTemplate "js/search.json" . }}
+<script>window.SEARCH_INDEX_URL = "{{ $index.RelPermalink }}";</script>
+{{- end -}}

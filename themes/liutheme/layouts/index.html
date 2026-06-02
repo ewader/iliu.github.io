@@ -1,0 +1,43 @@
+{{ define "main" }}
+{{- $paginator := .Paginate (where .Site.RegularPages "Section" "posts") }}
+<section class="home-hero">
+  <div class="memos-live" id="home-memos" data-api="https://note.l22.org/api/v1/memos?limit=8&visibility=PUBLIC" data-memos-base="https://note.l22.org">
+    <div class="memos-live-head">
+      <span class="memos-live-dot" aria-hidden="true"></span>
+      <span class="memos-live-label">最新动态</span>
+      <span class="memos-live-time" data-memos-time></span>
+    </div>
+    <div class="memos-live-body" data-memos-body>
+      <span class="memos-live-text" data-memos-text>载入中…</span>
+    </div>
+    <a class="memos-live-more" href="https://note.l22.org" target="_blank" rel="noopener">查看更多 →</a>
+  </div>
+</section>
+
+<section class="post-list">
+  {{- range $paginator.Pages }}
+  {{- $isExternal := or (hasPrefix .RelPermalink "/vps/") (eq .Section "vps") }}
+  <article class="post-card">
+    <header class="post-card-head">
+      <h2 class="post-card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      <div class="post-card-meta">
+        <time>{{ .Date.Format "2006-01-02" }}</time>
+        {{ with .Params.categories }}<span class="dot">·</span><a class="post-cat" href="/categories/{{ index . 0 | urlize }}/">{{ index . 0 }}</a>{{ end }}
+        {{ with .ReadingTime }}<span class="dot">·</span><span>{{ . }} 分钟</span>{{ end }}
+        {{ with .WordCount }}<span class="dot">·</span><span>{{ . }} 字</span>{{ end }}
+      </div>
+    </header>
+    <div class="post-card-summary">
+      {{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | chomp }}{{ end }}
+    </div>
+    {{ with .Params.tags }}
+    <div class="post-card-tags">
+      {{- range . }}<a href="/tags/{{ . | urlize }}/" class="post-tag">#{{ . }}</a>{{- end }}
+    </div>
+    {{ end }}
+  </article>
+  {{- end }}
+</section>
+
+{{- partial "pagination.html" . }}
+{{ end }}

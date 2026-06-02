@@ -1,0 +1,27 @@
+{{- if gt .Paginator.TotalPages 1 }}
+{{- $current := .Paginator.PageNumber -}}
+{{- $total := .Paginator.TotalPages -}}
+<nav class="pagination">
+  <ul class="pagination-list">
+    {{- if .Paginator.HasPrev }}
+    <li><a href="{{ .Paginator.Prev.URL }}" class="page-link">‹</a></li>
+    {{- end }}
+    {{- if ne $current 1 }}
+    <li><a href="{{ .Paginator.First.URL }}" class="page-link">1</a></li>
+    {{- if gt $current 4 }}<li><span class="page-ellipsis">…</span></li>{{ end }}
+    {{- end }}
+    {{- $start := math.Max 1 (sub $current 2) -}}
+    {{- $end := math.Min $total (add $current 2) -}}
+    {{- range $i := (seq $start $end) }}
+    <li><a href="{{ (printf "/page/%d/" $i | absURL) }}" class="page-link{{ if eq $i $current }} active{{ end }}">{{ $i }}</a></li>
+    {{- end }}
+    {{- if lt $current (sub $total 3) }}<li><span class="page-ellipsis">…</span></li>
+    <li><a href="{{ .Paginator.Last.URL }}" class="page-link">{{ $total }}</a></li>
+    {{- end }}
+    {{- if .Paginator.HasNext }}
+    <li><a href="{{ .Paginator.Next.URL }}" class="page-link">›</a></li>
+    {{- end }}
+  </ul>
+  <span class="pagination-info">{{ $current }} / {{ $total }}</span>
+</nav>
+{{- end }}

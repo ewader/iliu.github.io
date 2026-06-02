@@ -48,10 +48,10 @@
     {{ if $showShare }}
     <div class="post-share">
       <span class="share-label">分享</span>
-      <a class="share-btn" href="https://twitter.com/intent/tweet" onclick="window.open(this.href+'?url='+encodeURIComponent(location.href)+'&text='+encodeURIComponent(document.title));return false;" target="_blank" rel="noopener" title="X / Twitter">𝕏</a>
-      <a class="share-btn" href="https://www.facebook.com/sharer/sharer.php" onclick="window.open(this.href+'?u='+encodeURIComponent(location.href));return false;" target="_blank" rel="noopener" title="Facebook">f</a>
-      <a class="share-btn" href="https://service.weibo.com/share/share.php" onclick="window.open(this.href+'?url='+encodeURIComponent(location.href)+'&title='+encodeURIComponent(document.title));return false;" target="_blank" rel="noopener" title="微博">微</a>
-      <a class="share-btn" href="mailto:" onclick="this.href='mailto:?subject='+encodeURIComponent(document.title)+'&body='+encodeURIComponent(location.href);" target="_blank" rel="noopener" title="邮件">✉</a>
+      <a class="share-btn" href="https://twitter.com/intent/tweet?url={{ .Permalink }}&text={{ .Title }}" target="_blank" rel="noopener" title="X / Twitter">𝕏</a>
+      <a class="share-btn" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" target="_blank" rel="noopener" title="Facebook">f</a>
+      <a class="share-btn" href="https://service.weibo.com/share/share.php?url={{ .Permalink }}&title={{ .Title }}" target="_blank" rel="noopener" title="微博">微</a>
+      <a class="share-btn" href="mailto:?subject={{ .Title }}&body={{ .Permalink }}" target="_blank" rel="noopener" title="邮件">✉</a>
     </div>
     {{ end }}
   </footer>

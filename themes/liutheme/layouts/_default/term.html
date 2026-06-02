@@ -1,0 +1,28 @@
+{{- define "main" -}}
+<section class="term-section">
+  <header class="section-head">
+    <nav class="breadcrumbs" aria-label="面包屑">
+      <a href="{{ "/" | absURL }}">{{ i18n "nav_home" }}</a>
+      <span class="bc-sep">/</span>
+      <a href="/{{ .Data.Plural | urlize }}/">{{ .Data.Plural | humanize }}</a>
+      <span class="bc-sep">/</span>
+      <span class="bc-current">{{ .Title }}</span>
+    </nav>
+    <h1 class="section-title">
+      {{- if eq .Data.Singular "tag" }}#{{ .Title }}
+      {{- else }}{{ .Title }}
+      {{- end }}
+    </h1>
+    <p class="section-meta">共 {{ len .Pages }} 篇文章</p>
+  </header>
+
+  <ul class="post-list-naked">
+    {{- range .Pages.ByDate.Reverse }}
+    <li>
+      <time>{{ .Date.Format "2006-01-02" }}</time>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </li>
+    {{- end }}
+  </ul>
+</section>
+{{- end -}}

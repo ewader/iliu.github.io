@@ -1,0 +1,18 @@
+{{- define "main" -}}
+<section class="terms-section">
+  <header class="section-head">
+    <h1 class="section-title">{{ .Title }} · {{ len .Site.Taxonomies.categories }} 个分类</h1>
+  </header>
+  {{ $catList := slice }}
+  {{ range $name, $pages := .Site.Taxonomies.categories }}
+    {{ $catList = $catList | append (dict "name" $name "count" (len $pages)) }}
+  {{ end }}
+  {{ $sortedCats := sort $catList "count" "desc" }}
+  {{ $topCats := first 20 $sortedCats }}
+  <ul class="cat-list big">
+    {{- range $topCats }}
+    <li><a href="/categories/{{ .name | urlize }}/"><span class="cat-name">{{ .name }}</span><span class="cat-count">{{ .count }}</span></a></li>
+    {{- end }}
+  </ul>
+</section>
+{{- end -}}

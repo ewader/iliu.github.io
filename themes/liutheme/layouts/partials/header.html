@@ -1,0 +1,30 @@
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="{{ .Site.BaseURL }}" title="回到首页">
+      {{ with .Site.Params.label.icon }}<img class="brand-icon" src="{{ . | absURL }}" alt="logo">{{ end }}
+      <span class="brand-title">{{ .Site.Title }}</span>
+      {{ with .Site.Params.label.subtitle }}<span class="brand-subtitle">{{ . }}</span>{{ end }}
+    </a>
+
+    <nav class="site-nav">
+      <ul>
+        {{- $current := . -}}
+        {{- range .Site.Menus.main -}}
+        <li>
+          <a href="{{ .URL | absURL }}" class="nav-link{{ if $current.IsMenuCurrent "main" . }} active{{ end }}">{{ .Name | safeHTML }}</a>
+        </li>
+        {{- end -}}
+      </ul>
+    </nav>
+
+    <div class="header-tools">
+      <button class="theme-toggle" id="theme-toggle" aria-label="切换主题">
+        <svg class="icon-sun" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <a class="search-link" href="/search/" aria-label="搜索">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      </a>
+    </div>
+  </div>
+</header>
