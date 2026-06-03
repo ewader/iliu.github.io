@@ -129,6 +129,62 @@ iframe {
     opacity: 0.8; /* 悬停时透明度变化，提供反馈 */
 }
 
+/* =================================================================
+   霞露文楷 (LXGW WenKai) — 2026-06-03
+   - 仅覆盖 .post-content 等正文阅读区，UI/标题/侧栏/代码块保留思源宋体
+   - 922KB WOFF2 子集（覆盖 content/ 全部 markdown 出现过的 ~4300 字 + 基础标点）
+   - font-display: swap，加载中先用回退字体，加载完平滑切换
+   ================================================================= */
+@font-face {
+  font-family: "LXGW WenKai";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/LXGWWenKai-Regular.subset.woff2") format("woff2");
+}
+
+/* 正文阅读区用霞露文楷（楷体更有人文气） */
+.post-content,
+.entry-content,
+.single-summary {
+  font-family: "LXGW WenKai", "霞露文楷", "Source Han Serif SC", "Noto Serif SC", "Songti SC", "STZhongsong", "STSong", Georgia, "Times New Roman", serif;
+  font-size: 17px;
+  line-height: 1.85;
+  letter-spacing: 0.01em;
+}
+
+/* h1~h6 / 标题区保留宋体（结构性元素需要稳定视觉重量） */
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+  font-family: "Source Han Serif SC", "Noto Serif SC", "Songti SC", "STZhongsong", "STSong", Georgia, "Times New Roman", serif;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+/* 代码块 / 等宽元素 — 维持默认等宽，避免楷体在功能性元素上糊 */
+.post-content code,
+.post-content pre,
+.post-content kbd,
+.post-content samp,
+.post-content table,
+.post-content .highlight {
+  font-family: var(--mono);
+}
+
+/* 引用块：保持宋体的稳重感，跟正文楷体形成节奏对比 */
+.post-content blockquote {
+  font-family: "Source Han Serif SC", "Noto Serif SC", "Songti SC", "STZhongsong", "STSong", Georgia, serif;
+}
+
+/* 暗色模式微调：楷体在深底色上需要稍微提亮 */
+body.theme-dark .post-content {
+  color: #d8d2c4;
+}
+
 /* =====================
    右侧 sticky TOC（不挤占正文空间）
    原理：CSS Grid，第一列 max-content（自动取内容所需宽度，受 max-width 720px 约束），
