@@ -814,13 +814,13 @@ body.theme-dark .memos-live {
 
 /* ---------- Single post ---------- */
 .single-post {
-  background: var(--bg-card);
-  border: 1px solid var(--line);
-  border-radius: var(--radius-lg);
-  padding: 48px 56px;
-  box-shadow: var(--shadow);
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  box-shadow: none;
 }
-body.theme-dark .single-post { background: var(--bg-card); }
+body.theme-dark .single-post { background: transparent; }
 
 .single-head {
   text-align: center;
