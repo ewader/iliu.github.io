@@ -10,6 +10,68 @@
 {{- template "_internal/twitter_cards.html" . }}
 {{- template "_internal/schema.html" . }}
 
+{{/*
+  社交分享卡片补全（X / Mastodon / 长毛象 通用）
+  Hugo 内置 opengraph.html 不输出 image:width/height/alt，
+  也不带 article:published_time / profile:* 这些现代字段，
+  这里按 og:type 分支补全。
+*/}}
+{{- $site := .Site -}}
+{{- $ogImage := "" -}}
+{{- if .IsHome -}}
+  {{- with index $site.Params.images 0 }}{{ $ogImage = . }}{{ end -}}
+{{- else -}}
+  {{- with .Params.images }}{{ $ogImage = index . 0 }}{{ end -}}
+  {{- if not $ogImage }}{{ with index $site.Params.images 0 }}{{ $ogImage = . }}{{ end }}{{ end -}}
+{{- end -}}
+
+{{- if $ogImage -}}
+{{- $ogImageAbs := $ogImage | absURL -}}
+{{- $altText := "" -}}
+{{- if .Params.ogImageAlt -}}
+  {{- $altText = .Params.ogImageAlt -}}
+{{- else if .IsHome -}}
+  {{- $altText = printf "%s——%s" $site.Title $site.Params.description -}}
+{{- else -}}
+  {{- $altText = printf "%s · %s" .Title $site.Title -}}
+{{- end -}}
+<meta property="og:image" content="{{ $ogImageAbs }}">
+<meta property="og:image:secure_url" content="{{ $ogImageAbs }}">
+<meta property="og:image:alt" content="{{ $altText }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/jpeg">
+<meta name="twitter:image" content="{{ $ogImageAbs }}">
+<meta name="twitter:image:alt" content="{{ $altText }}">
+{{- end -}}
+
+{{- /* Mastodon / 长毛象友好：site_name、article 元数据。
+   og:locale / og:type / og:title / og:description / og:url 由 Hugo 内置 _internal/opengraph.html 输出。 */ -}}
+<meta property="og:site_name" content="{{ $site.Title }}">
+
+{{- if and (eq .Kind "page") (not .IsHome) (not .IsNode) -}}
+  {{- $author := or ($.Param "author") $site.Params.author -}}
+  <meta property="article:author" content="{{ $author }}">
+  {{- with .Section }}<meta property="article:section" content="{{ . | humanize }}">{{ end -}}
+  {{- with .Keywords }}<meta property="article:tag" content="{{ delimit . "," }}">{{ end -}}
+{{- end -}}
+
+{{- /* X 账号绑定，profile:username 让 X 在卡片下显示"@xxx 发布的" */ -}}
+{{- range $site.Params.socialIcons -}}
+  {{- if eq .name "x" -}}
+    {{- $xHandle := strings.TrimPrefix "https://x.com/" (strings.TrimPrefix "http://x.com/" .url) -}}
+    {{- $xHandle = strings.TrimPrefix "@" $xHandle -}}
+    {{- $xHandle = strings.TrimRight "/" $xHandle -}}
+    <meta name="twitter:site" content="@{{ $xHandle }}">
+    <meta name="twitter:creator" content="@{{ $xHandle }}">
+  {{- end -}}
+{{- end -}}
+{{- /* Mastodon 实例 URL，长毛象转发识别 */ -}}
+{{- range $site.Params.socialIcons -}}
+  {{- if eq .name "mastodon" -}}<meta property="og:see_also" content="{{ .url }}">{{ end -}}
+{{- end -}}
+{{- with $site.Params.author }}<meta name="profile:display_name" content="{{ . }}">{{ end -}}
+
 <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
 <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">

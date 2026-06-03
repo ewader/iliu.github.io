@@ -22,7 +22,7 @@ params:
   keywords: [图南, 博客, 验光师, linux, hugo, wordpress, 群晖, 南怀瑾, 庄子,传统文化]
   author: 老刘
   # author: ["Me", "You"] # multiple authors
-  images: ["/img/liujinsuiyue.jpg"]
+  images: ["/img/iliu-poster.jpg"]
   DateFormat: "2006-01-02"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
