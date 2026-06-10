@@ -1,19 +1,60 @@
 {{ define "main" }}
 {{- $paginator := .Paginate (where .Site.RegularPages "Section" "posts") }}
+
 <section class="home-hero">
-  <div class="memos-live" id="home-memos" data-api="https://note.l22.org/api/v1/memos?limit=8&visibility=PUBLIC" data-memos-base="https://note.l22.org">
+
+  {{/* 最新动态 — 增强版 */}}
+  {{- $weread := .Site.Data.weread }}
+  <div class="memos-live" id="home-memos">
     <div class="memos-live-head">
       <span class="memos-live-dot" aria-hidden="true"></span>
       <span class="memos-live-label">最新动态</span>
-      <span class="memos-live-time" data-memos-time></span>
+      <span class="memos-live-time" data-memos-time>
+        {{- with $weread }}{{ .fetchedAt }}{{ end }}
+      </span>
     </div>
+
+    {{- if $weread }}
+    {{- $recent := $weread.recentBooks }}
+    <div class="weread-section">
+      <div class="weread-head">📖 读书</div>
+      <div class="weread-books">
+        {{- range $recent }}
+        <div class="weread-book">
+          <div class="weread-book-info">
+            <span class="weread-book-title">{{ .title }}</span>
+            {{- if .author }}<span class="weread-book-author"> — {{ .author }}</span>{{ end }}
+          </div>
+          <div class="weread-book-meta">
+            {{- if eq (.finishReading | string) "1" }}
+            <span class="weread-done">✅ 已读完</span>
+            {{- else if and .progress (ge .progress 0) }}
+            <span class="weread-pct">{{ .progress }}%</span>
+            <span class="weread-bar"><span class="weread-bar-fill" style="width:{{ .progress }}%"></span></span>
+            {{- end }}
+          </div>
+        </div>
+        {{- end }}
+      </div>
+      {{- with $weread.summary }}
+      <div class="weread-summary">
+        2026年读了 <strong>{{ .annualReadDays }}</strong> 天 · 约 <strong>{{ math.Floor (div .annualReadTime 3600) }}</strong> 小时 ·
+        累计 <strong>{{ .totalReadDays }}</strong> 天
+      </div>
+      {{- end }}
+    </div>
+    {{- end }}
+
+    <div class="weread-head" style="margin-top:14px">💬 近况</div>
     <div class="memos-live-body" data-memos-body>
       <span class="memos-live-text" data-memos-text>载入中…</span>
     </div>
     <a class="memos-live-more" href="https://note.l22.org" target="_blank" rel="noopener">查看更多 →</a>
   </div>
+
 </section>
 
+{{/* 文章列表 */}}
 <section class="post-list">
   {{- range $paginator.Pages }}
   {{- $isExternal := or (hasPrefix .RelPermalink "/vps/") (eq .Section "vps") }}
@@ -40,4 +81,20 @@
 </section>
 
 {{- partial "pagination.html" . }}
+
+{{/* JS: 获取 memos */}}
+{{ $memos_js := `(function(){
+  var api = 'https://note.l22.org/api/v1/memos?pageSize=1&visibility=PUBLIC';
+  fetch(api).then(function(r){return r.json()}).then(function(d){
+    var c = d.memos && d.memos[0];
+    if(!c) return;
+    var t = c.createTime.split('T')[0];
+    var con = c.content.replace(/\n/g, '<br>');
+    var body = document.querySelector('[data-memos-body]');
+    if(body) body.innerHTML =
+      '<span class="memos-live-text">'+con+'</span>' +
+      '<span class="memos-live-time" style="display:block;margin-top:6px;text-align:right;font-size:11px;color:var(--text-mute)">'+t+'</span>';
+  });
+})();` }}
+<script>{{ $memos_js | safeJS }}</script>
 {{ end }}

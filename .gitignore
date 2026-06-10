@@ -19,3 +19,6 @@ Thumbs.db
 # 临时文件
 *.tmp
 *.log
+
+# 微信读书数据抓取脚本（含 API Key，勿提交）
+scripts/

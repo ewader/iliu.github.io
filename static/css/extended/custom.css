@@ -1,235 +1,160 @@
-/* Custom styles added to demo */
+/* 微信读书卡片样式 — weread section inside memos-live */
 
-.twitter-tweet {
-    margin: auto;
+/* 桌面端也显示 home-hero 区域（主题默认 display:none） */
+.home-hero {
+  display: block !important;
 }
 
-iframe {
-    border-radius: var(--radius) !important;
+.weread-section {
+  margin: 8px 0 4px;
 }
 
-.home-info ul {
-    padding-inline-start: 20px;
+.weread-head {
+  font-family: var(--serif);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  letter-spacing: 0.06em;
+  margin-bottom: 8px;
 }
 
-.entry-cover img {
-    border: 1px solid var(--border);
+.weread-books {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
-.friend-links {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 1.2rem;
-  margin-top: 2rem;
-}
-
-.friend-card {
+.weread-book {
   display: flex;
   align-items: center;
-  background: var(--entry);
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  padding: 1rem;
-  text-decoration: none;
-  color: var(--primary);
-  transition: all 0.2s ease;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 4px 0;
+  border-bottom: 1px dashed var(--line);
+}
+.weread-book:last-child {
+  border-bottom: none;
 }
 
-.friend-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  background: var(--theme);
-}
-
-.friend-card img {
-  width: 56px;
-  height: 56px;
-  border-radius: 50%;
-  margin-right: 1rem;
-  object-fit: cover;
-  border: 2px solid var(--border);
-}
-
-.friend-card div {
+.weread-book-info {
   flex: 1;
+  min-width: 0;
+  overflow: hidden;
 }
 
-.friend-card .font-semibold {
+.weread-book-title {
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  max-width: 70%;
+  vertical-align: bottom;
+}
+
+.weread-book-author {
+  font-size: 12px;
+  color: var(--text-mute);
+}
+
+.weread-book-meta {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+}
+
+.weread-pct {
+  color: var(--accent);
   font-weight: 600;
-  margin-bottom: 0.25rem;
+  min-width: 32px;
+  text-align: right;
 }
 
-.friend-card .text-gray-600 {
-  font-size: 0.9rem;
-  color: var(--secondary);
+.weread-bar {
+  width: 60px;
+  height: 5px;
+  background: var(--line);
+  border-radius: 3px;
+  overflow: hidden;
+  display: inline-block;
 }
 
-
-/* ================================================================= */
-/* 🚀 最终样式：图标在上，数字在下（无文本） */
-/* ================================================================= */
-
-.upvote-container {
-    display: inline-block; /* 保持在文本流中 */
-    margin: 0 0.5em; /* 根据需要调整间距 */
-    /* 确保容器的默认颜色和文本颜色一致 */
-    color: var(--primary); 
+.weread-bar-fill {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent), rgba(var(--accent-rgb, 184, 134, 89), 0.6));
+  border-radius: 3px;
+  transition: width 0.3s ease;
 }
 
-.upvote-btn {
-    /* 核心：使用 Flexbox 实现垂直堆叠 */
-    all: unset; /* 移除所有默认按钮样式 */
-    cursor: pointer;
-    font-size: inherit; 
-    display: flex; /* 开启弹性布局 */
-    flex-direction: column; /* 垂直排列子元素 */
-    align-items: center; /* 水平居中 */
-    justify-content: center; /* 垂直居中 */
-    
-    /* 设置按钮尺寸，使其看起来像一个整体的可点击区域 */
-    width: 2em; /* 按钮宽度，可根据需要调整 */
-    height: 3em; /* 按钮高度，可根据需要调整 */
-    padding: 0; 
+.weread-done {
+  color: var(--accent);
+  font-size: 12px;
+  white-space: nowrap;
 }
 
-/* 1. 移除伪元素（确保没有方括号或多余文本） */
-.upvote-btn::before,
-.upvote-btn::after {
-    content: none !important; 
+.weread-summary {
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid var(--line);
+  font-size: 12px;
+  color: var(--text-mute);
+  line-height: 1.6;
 }
 
-/* 2. 样式化 SVG 图标 */
-.upvote-icon svg {
-    display: block; 
-    width: 1.2em;   /* 调整图标大小 */
-    height: 1.2em;
-    stroke: var(--secondary); /* 默认颜色 */
-    transition: all 0.2s ease-in-out;
+/* 移动端适配 */
+@media (max-width: 768px) {
+  .weread-book-title {
+    font-size: 13px;
+    max-width: 65%;
+  }
+  .weread-book-author {
+    font-size: 11px;
+  }
+  .weread-bar {
+    width: 45px;
+  }
+  .weread-pct {
+    font-size: 11px;
+    min-width: 28px;
+  }
 }
 
-/* 3. 样式化计数数字 */
-.upvote-count {
-    font-size: 0.8em; /* 字体比图标小一点 */
-    font-weight: 600; 
-    line-height: 1; /* 紧凑排列 */
-    margin-top: 0.1em; /* 稍微和图标隔开 */
+@media (max-width: 640px) {
+  .weread-book-title {
+    font-size: 12px;
+    max-width: 60%;
+  }
+  .weread-book {
+    padding: 3px 0;
+    gap: 4px;
+  }
+  .weread-book-meta {
+    gap: 4px;
+  }
+  .weread-bar {
+    width: 36px;
+    height: 4px;
+  }
+  .weread-pct {
+    font-size: 10px;
+    min-width: 24px;
+  }
+  .weread-summary {
+    font-size: 11px;
+  }
 }
 
-/* 4. 点赞状态：图标和数字都变红 */
-.upvote-btn.upvoted {
-    color: #ff3838; /* 确保数字变红 */
-}
-.upvote-btn.upvoted .upvote-icon svg {
-    stroke: #ff3838; /* 图标线条变红 */
-    fill: #ff3838;   /* 图标填充变红 */
-}
-
-/* 5. 鼠标悬停时的效果 */
-.upvote-btn:hover {
-    opacity: 0.8; /* 悬停时透明度变化，提供反馈 */
-}
-
-/* =================================================================
-   霞露文楷 (LXGW WenKai) — 2026-06-03
-   - 仅覆盖 .post-content 等正文阅读区，UI/标题/侧栏/代码块保留思源宋体
-   - 922KB WOFF2 子集（覆盖 content/ 全部 markdown 出现过的 ~4300 字 + 基础标点）
-   - font-display: swap，加载中先用回退字体，加载完平滑切换
-   ================================================================= */
-@font-face {
-  font-family: "LXGW WenKai";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("/fonts/LXGWWenKai-Regular.subset.woff2") format("woff2");
-}
-
-/* 正文阅读区用霞露文楷（楷体更有人文气） */
-.post-content,
-.entry-content,
-.single-summary {
-  font-family: "LXGW WenKai", "霞露文楷", "Source Han Serif SC", "Noto Serif SC", "Songti SC", "STZhongsong", "STSong", Georgia, "Times New Roman", serif;
-  font-size: 17px;
-  line-height: 1.85;
-  letter-spacing: 0.01em;
-}
-
-/* h1~h6 / 标题区保留宋体（结构性元素需要稳定视觉重量） */
-.post-content h1,
-.post-content h2,
-.post-content h3,
-.post-content h4,
-.post-content h5,
-.post-content h6 {
-  font-family: "Source Han Serif SC", "Noto Serif SC", "Songti SC", "STZhongsong", "STSong", Georgia, "Times New Roman", serif;
-  font-weight: 700;
-  letter-spacing: 0;
-}
-
-/* 代码块 / 等宽元素 — 维持默认等宽，避免楷体在功能性元素上糊 */
-.post-content code,
-.post-content pre,
-.post-content kbd,
-.post-content samp,
-.post-content table,
-.post-content .highlight {
-  font-family: var(--mono);
-}
-
-/* 引用块：保持宋体的稳重感，跟正文楷体形成节奏对比 */
-.post-content blockquote {
-  font-family: "Source Han Serif SC", "Noto Serif SC", "Songti SC", "STZhongsong", "STSong", Georgia, serif;
-}
-
-/* 暗色模式微调：楷体在深底色上需要稍微提亮 */
-body.theme-dark .post-content {
-  color: #d8d2c4;
-}
-
-/* =====================
-   右侧 sticky TOC（不挤占正文空间）
-   原理：CSS Grid，第一列 max-content（自动取内容所需宽度，受 max-width 720px 约束），
-         TOC 列固定 240px，两列并列但第一列不会扩张到填满剩余空间。
-   ===================== */
-@media (min-width: 1200px) {
-    .post-with-toc {
-        display: grid;
-        grid-template-columns: max-content 240px;
-        gap: 0 var(--gap);
-        align-items: start;
-    }
-
-    .post-with-toc .post-content {
-        max-width: var(--main-width); /* 720px，严格约束 */
-        margin: 0;
-        min-width: 0;
-    }
-
-    .post-toc-aside {
-        position: sticky;
-        top: calc(var(--header-height) + var(--gap));
-        max-height: calc(100vh - var(--header-height) - var(--gap) * 2);
-        overflow-y: auto;
-    }
-
-    .post-toc-aside .toc {
-        margin-bottom: 0;
-    }
-}
-
-@media (max-width: 1199px) {
-    .post-with-toc {
-        display: block;
-    }
-
-    .post-with-toc .post-content {
-        max-width: 100%;
-    }
-
-    .post-with-toc .post-toc-aside {
-        position: static;
-        width: 100%;
-        max-height: none;
-        overflow-y: visible;
-        margin-bottom: var(--content-gap);
-    }
+@media (max-width: 374px) {
+  .weread-book-title {
+    font-size: 11px;
+    max-width: 55%;
+  }
+  .weread-bar {
+    width: 28px;
+  }
 }

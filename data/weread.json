@@ -1,0 +1,79 @@
+{
+  "fetchedAt": "2026-06-10 08:54",
+  "summary": {
+    "totalReadDays": 391,
+    "totalReadTime": 842266,
+    "annualReadDays": 23,
+    "annualReadTime": 34564
+  },
+  "recentBooks": [
+    {
+      "bookId": "728514",
+      "title": "无人生还（同名英剧原著）",
+      "author": "阿加莎·克里斯蒂",
+      "cover": "https://cdn.weread.qq.com/weread/cover/63/yuewen_728514/t6_yuewen_7285141680854106.jpg",
+      "finishReading": 1,
+      "readUpdateTime": "2026-04-22",
+      "progress": 100,
+      "readingTime": 11462
+    },
+    {
+      "bookId": "40792926",
+      "title": "华严经",
+      "author": "佛陀跋陀罗  [唐]实叉难陀",
+      "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/926/40792926/t6_40792926.jpg",
+      "finishReading": 0,
+      "readUpdateTime": "2026-04-08",
+      "progress": 57,
+      "readingTime": 15368
+    }
+  ],
+  "topBooksAnnual": [
+    {
+      "title": "无人生还（同名英剧原著）",
+      "author": "阿加莎·克里斯蒂",
+      "readTime": 11462,
+      "tags": [
+        "单日阅读最久"
+      ]
+    },
+    {
+      "title": "列子臆说（中册）",
+      "author": "南怀瑾著述",
+      "readTime": 3679,
+      "tags": []
+    },
+    {
+      "title": "人呐（用极短的时间读懂极深的人心）",
+      "author": "莫言",
+      "readTime": 3387,
+      "tags": []
+    },
+    {
+      "title": "山羊不吃天堂草",
+      "author": "曹文轩",
+      "readTime": 2882,
+      "tags": []
+    },
+    {
+      "title": "知识分子的鸦片",
+      "author": "[法]雷蒙·阿隆",
+      "readTime": 2508,
+      "tags": []
+    }
+  ],
+  "monthlyReads": {
+    "1767196800": 13746,
+    "1769875200": 1175,
+    "1772294400": 672,
+    "1774972800": 12408,
+    "1777564800": 6561,
+    "1780243200": 2,
+    "1782835200": 0,
+    "1785513600": 0,
+    "1788192000": 0,
+    "1790784000": 0,
+    "1793462400": 0,
+    "1796054400": 0
+  }
+}
