@@ -1,31 +1,31 @@
 {
-  "fetchedAt": "2026-06-10 08:54",
+  "fetchedAt": "2026-06-11 08:32",
   "summary": {
-    "totalReadDays": 391,
-    "totalReadTime": 842266,
-    "annualReadDays": 23,
-    "annualReadTime": 34564
+    "totalReadDays": 393,
+    "totalReadTime": 845227,
+    "annualReadDays": 25,
+    "annualReadTime": 37525
   },
   "recentBooks": [
-    {
-      "bookId": "728514",
-      "title": "无人生还（同名英剧原著）",
-      "author": "阿加莎·克里斯蒂",
-      "cover": "https://cdn.weread.qq.com/weread/cover/63/yuewen_728514/t6_yuewen_7285141680854106.jpg",
-      "finishReading": 1,
-      "readUpdateTime": "2026-04-22",
-      "progress": 100,
-      "readingTime": 11462
-    },
     {
       "bookId": "40792926",
       "title": "华严经",
       "author": "佛陀跋陀罗  [唐]实叉难陀",
       "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/926/40792926/t6_40792926.jpg",
       "finishReading": 0,
-      "readUpdateTime": "2026-04-08",
+      "readUpdateTime": "2026-06-11",
       "progress": 57,
-      "readingTime": 15368
+      "readingTime": 16619
+    },
+    {
+      "bookId": "23437971",
+      "title": "生育制度",
+      "author": "费孝通",
+      "cover": "https://cdn.weread.qq.com/weread/cover/0/yuewen_23437971/t6_yuewen_234379711750822804.jpg",
+      "finishReading": 1,
+      "readUpdateTime": "2026-06-10",
+      "progress": 10,
+      "readingTime": 1710
     }
   ],
   "topBooksAnnual": [
@@ -56,9 +56,9 @@
       "tags": []
     },
     {
-      "title": "知识分子的鸦片",
-      "author": "[法]雷蒙·阿隆",
-      "readTime": 2508,
+      "title": "华严经",
+      "author": "佛陀跋陀罗  [唐]实叉难陀",
+      "readTime": 2799,
       "tags": []
     }
   ],
@@ -68,7 +68,7 @@
     "1772294400": 672,
     "1774972800": 12408,
     "1777564800": 6561,
-    "1780243200": 2,
+    "1780243200": 2963,
     "1782835200": 0,
     "1785513600": 0,
     "1788192000": 0,
