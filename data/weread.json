@@ -1,12 +1,22 @@
 {
-  "fetchedAt": "2026-06-11 08:32",
+  "fetchedAt": "2026-06-11 15:53",
   "summary": {
     "totalReadDays": 393,
-    "totalReadTime": 845227,
-    "annualReadDays": 25,
-    "annualReadTime": 37525
+    "totalReadTime": 846994,
+    "annualReadDays": 2,
+    "annualReadTime": 39292
   },
   "recentBooks": [
+    {
+      "bookId": "CB_FiD0Wn0VFCKY74M75X5JG6s1",
+      "title": "空腹力革命",
+      "author": "石原结实",
+      "cover": "https://res.weread.qq.com/wrepub/CB_GnPGOdGNzGG974L75eGLPC1G_parsecover",
+      "finishReading": 1,
+      "readUpdateTime": "2026-06-11",
+      "progress": 0,
+      "readingTime": 0
+    },
     {
       "bookId": "40792926",
       "title": "华严经",
@@ -14,8 +24,8 @@
       "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/926/40792926/t6_40792926.jpg",
       "finishReading": 0,
       "readUpdateTime": "2026-06-11",
-      "progress": 57,
-      "readingTime": 16619
+      "progress": 0,
+      "readingTime": 0
     },
     {
       "bookId": "23437971",
@@ -24,56 +34,58 @@
       "cover": "https://cdn.weread.qq.com/weread/cover/0/yuewen_23437971/t6_yuewen_234379711750822804.jpg",
       "finishReading": 1,
       "readUpdateTime": "2026-06-10",
-      "progress": 10,
-      "readingTime": 1710
-    }
-  ],
-  "topBooksAnnual": [
+      "progress": 0,
+      "readingTime": 0
+    },
     {
+      "bookId": "728514",
       "title": "无人生还（同名英剧原著）",
       "author": "阿加莎·克里斯蒂",
-      "readTime": 11462,
-      "tags": [
-        "单日阅读最久"
-      ]
+      "cover": "https://cdn.weread.qq.com/weread/cover/63/yuewen_728514/t6_yuewen_7285141680854106.jpg",
+      "finishReading": 1,
+      "readUpdateTime": "2026-04-22",
+      "progress": 0,
+      "readingTime": 0
     },
     {
-      "title": "列子臆说（中册）",
-      "author": "南怀瑾著述",
-      "readTime": 3679,
-      "tags": []
+      "bookId": "3300101193",
+      "title": "一间属于自己的房间",
+      "author": "[英]弗吉尼亚·伍尔夫",
+      "cover": "https://cdn.weread.qq.com/weread/cover/8/cpplatform_fzakfwu1jkryy1bgrd4oem/t6_cpplatform_fzakfwu1jkryy1bgrd4oem1721797890.jpg",
+      "finishReading": 0,
+      "readUpdateTime": "2026-04-08",
+      "progress": 0,
+      "readingTime": 0
     },
     {
-      "title": "人呐（用极短的时间读懂极深的人心）",
-      "author": "莫言",
-      "readTime": 3387,
-      "tags": []
+      "bookId": "933455",
+      "title": "装在口袋里的爸爸-超级透视眼",
+      "author": "杨鹏",
+      "cover": "https://cdn.weread.qq.com/weread/cover/67/yuewen_933455/t6_yuewen_9334551747990217.jpg",
+      "finishReading": 0,
+      "readUpdateTime": "2026-03-29",
+      "progress": 0,
+      "readingTime": 0
     },
     {
-      "title": "山羊不吃天堂草",
-      "author": "曹文轩",
-      "readTime": 2882,
-      "tags": []
+      "bookId": "933427",
+      "title": "装在口袋里的爸爸-魔幻水晶球",
+      "author": "杨鹏",
+      "cover": "https://cdn.weread.qq.com/weread/cover/76/yuewen_933427/t6_yuewen_9334271747990228.jpg",
+      "finishReading": 0,
+      "readUpdateTime": "2026-03-29",
+      "progress": 0,
+      "readingTime": 0
     },
     {
-      "title": "华严经",
-      "author": "佛陀跋陀罗  [唐]实叉难陀",
-      "readTime": 2799,
-      "tags": []
+      "bookId": "3300146795",
+      "title": "装在口袋里的爸爸-平行世界的我",
+      "author": "杨鹏",
+      "cover": "https://cdn.weread.qq.com/weread/cover/82/cpplatform_8fb571wxacw5b1uvvq7fmn/t6_cpplatform_8fb571wxacw5b1uvvq7fmn1748589875.jpg",
+      "finishReading": 0,
+      "readUpdateTime": "2026-03-29",
+      "progress": 0,
+      "readingTime": 0
     }
-  ],
-  "monthlyReads": {
-    "1767196800": 13746,
-    "1769875200": 1175,
-    "1772294400": 672,
-    "1774972800": 12408,
-    "1777564800": 6561,
-    "1780243200": 2963,
-    "1782835200": 0,
-    "1785513600": 0,
-    "1788192000": 0,
-    "1790784000": 0,
-    "1793462400": 0,
-    "1796054400": 0
-  }
+  ]
 }

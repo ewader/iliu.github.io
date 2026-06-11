@@ -15,24 +15,28 @@
     </div>
 
     {{- if $weread }}
-    {{- $recent := $weread.recentBooks }}
+    {{- $recent := first 4 $weread.recentBooks }}
     <div class="weread-section">
       <div class="weread-head">📖 读书</div>
-      <div class="weread-books">
+      <div class="weread-books-grid">
         {{- range $recent }}
-        <div class="weread-book">
-          <div class="weread-book-info">
-            <span class="weread-book-title">{{ .title }}</span>
-            {{- if .author }}<span class="weread-book-author"> — {{ .author }}</span>{{ end }}
-          </div>
-          <div class="weread-book-meta">
+        <div class="weread-book-item">
+          <div class="weread-book-cover-wrap">
+            <img class="weread-book-cover"
+                 src="{{ .cover }}"
+                 alt="{{ .title }}"
+                 loading="lazy"
+                 onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="weread-book-cover-fallback">
+              <span>{{ substr .title 0 2 }}</span>
+            </div>
             {{- if eq (.finishReading | string) "1" }}
-            <span class="weread-done">✅ 已读完</span>
+            <span class="weread-badge-done">已读完</span>
             {{- else if and .progress (ge .progress 0) }}
-            <span class="weread-pct">{{ .progress }}%</span>
-            <span class="weread-bar"><span class="weread-bar-fill" style="width:{{ .progress }}%"></span></span>
+            <span class="weread-badge-progress">{{ .progress }}%</span>
             {{- end }}
           </div>
+          <div class="weread-book-title">{{ .title }}</div>
         </div>
         {{- end }}
       </div>
