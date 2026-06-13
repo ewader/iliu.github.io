@@ -1,9 +1,14 @@
 <footer class="footer-inner">
-  <p class="copyright">© {{ now.Year }} {{ .Site.Params.author }} · Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> · 主题 <strong>liutheme</strong>
+  <p class="copyright">© {{ now.Year }} {{ .Site.Params.author }} · Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> · 主题 <strong>liutheme</strong></p>
+  <div class="footer-links">
     <a class="rss-link" href="/index.xml" target="_blank" rel="noopener" aria-label="RSS">
       <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19 7.38 20 6.18 20A2.18 2.18 0 0 1 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1z"/></svg>
       RSS
     </a>
-  </p>
-  <p class="icp">{{ with .Site.Params.icp }}<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">{{ . }}</a>{{ end }}</p>
+    <a class="sitemap-link" href="/sitemap.xml" target="_blank" rel="noopener" aria-label="Sitemap">
+      <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 2v4m0 12v4M2 12h4m12 0h4M4.93 4.93l2.83 2.83m8.48 8.48 2.83 2.83M4.93 19.07l2.83-2.83m8.48-8.48 2.83-2.83"/></svg>
+      Sitemap
+    </a>
+    {{ with .Site.Params.icp }}<a class="icp-link" href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">{{ . }}</a>{{ end }}
+  </div>
 </footer>

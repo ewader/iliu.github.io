@@ -1,0 +1,24 @@
+/* ====== Grid layout ====== */
+.site-grid {
+  max-width: var(--content-width);
+  margin: 40px auto;
+  padding: 0 var(--gutter);
+  display: grid;
+  grid-template-columns: 1fr var(--col-right);
+  gap: var(--gutter);
+  align-items: start;
+}
+
+.col-right {
+  position: sticky;
+  top: 88px;
+  align-self: start;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-right: 4px;
+}
+
+.col-main {
+  min-width: 0;
+}

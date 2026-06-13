@@ -1,0 +1,187 @@
+/* ====== Header ====== */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(250,247,241,0.85);
+  backdrop-filter: saturate(180%) blur(12px);
+  -webkit-backdrop-filter: saturate(180%) blur(12px);
+  border-bottom: 1px solid var(--line);
+}
+body.theme-dark .site-header { background: rgba(22,20,15,0.85); }
+
+.header-inner {
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+  height: 64px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text);
+  font-family: var(--serif);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.brand-icon { width: 28px; height: 28px; border-radius: 50%; }
+.brand-title { font-size: 20px; }
+
+/* 实时 memos 片段 */
+.brand-memos {
+  display: inline-flex;
+  align-items: center;
+  min-width: 0;
+  max-width: 360px;
+}
+.brand-memos-inner {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  max-width: 100%;
+  padding: 4px 12px;
+  border-left: 2px solid var(--accent);
+  font-family: var(--sans);
+  font-size: 12px;
+  color: var(--text-mute);
+  text-decoration: none;
+  transition: color 0.2s;
+  min-width: 0;
+}
+.brand-memos-inner:hover { color: var(--text); }
+.brand-memos-label {
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.brand-memos-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
+}
+.brand-subtitle {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--text-mute);
+  margin-left: 4px;
+  font-family: var(--sans);
+  border-left: 1px solid var(--line);
+  padding-left: 10px;
+}
+
+.site-nav {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.site-nav ul {
+  list-style: none;
+  margin: 0; padding: 0;
+  display: flex;
+  gap: 6px;
+}
+.nav-link {
+  display: inline-block;
+  padding: 8px 14px;
+  color: var(--text-soft);
+  font-size: 14px;
+  border-radius: var(--radius);
+  transition: all 0.2s;
+}
+.nav-link:hover { color: var(--text); background: var(--accent-bg); }
+.nav-link.active { color: var(--accent); font-weight: 500; }
+
+.header-tools {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.hamburger, .theme-toggle, .search-link {
+  width: 36px; height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  color: var(--text-soft);
+  border-radius: var(--radius);
+  transition: all 0.2s;
+}
+.hamburger:hover, .theme-toggle:hover, .search-link:hover {
+  color: var(--text);
+  background: var(--accent-bg);
+}
+
+/* 汉堡菜单三线 */
+.hamburger {
+  flex-direction: column;
+  gap: 4px;
+  display: none;
+}
+.hamburger-line {
+  display: block;
+  width: 18px;
+  height: 2px;
+  background: currentColor;
+  border-radius: 1px;
+  transition: all 0.3s;
+}
+.hamburger.open .hamburger-line:nth-child(1) {
+  transform: rotate(45deg) translate(4px, 4px);
+}
+.hamburger.open .hamburger-line:nth-child(2) { opacity: 0; }
+.hamburger.open .hamburger-line:nth-child(3) {
+  transform: rotate(-45deg) translate(4px, -4px);
+}
+
+/* 移动端菜单面板 */
+.mobile-nav {
+  position: fixed;
+  top: 64px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(250,247,241,0.97);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  z-index: 49;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+body.theme-dark .mobile-nav { background: rgba(22,20,15,0.97); }
+.mobile-nav.open { opacity: 1; visibility: visible; }
+.mobile-nav ul {
+  list-style: none;
+  margin: 0; padding: 0;
+  text-align: center;
+}
+.mobile-nav li + li { margin-top: 8px; }
+.mobile-nav-link {
+  display: block;
+  padding: 14px 40px;
+  font-size: 18px;
+  color: var(--text);
+  border-radius: var(--radius);
+  transition: all 0.2s;
+}
+.mobile-nav-link:hover,
+.mobile-nav-link.active {
+  background: var(--accent-bg);
+  color: var(--accent);
+}
+.theme-toggle .icon-moon, body.theme-light .theme-toggle .icon-sun { display: none; }
+body.theme-dark .theme-toggle .icon-sun,
+body.theme-light .theme-toggle .icon-moon { display: block; }
+body.theme-dark .theme-toggle .icon-moon { display: block; }

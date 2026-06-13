@@ -1,0 +1,54 @@
+/* ====== liutheme — design tokens ====== */
+
+:root {
+  --bg: #faf7f1;
+  --bg-soft: #f3eee5;
+  --bg-card: #ffffff;
+  --bg-card-hover: #fdfbf7;
+  --bg-code: #f6f2ea;
+  --text: #2a2a2a;
+  --text-soft: #555;
+  --text-mute: #8a8478;
+  --line: #e8e2d4;
+  --line-soft: #efeada;
+  --accent: #8b6f4a;
+  --accent-soft: #b89b76;
+  --accent-bg: rgba(139,111,74,0.07);
+  --link: #5a4423;
+  --link-hover: #8b6f4a;
+  --tag-bg: #f0e9d9;
+  --tag-text: #6a5a3e;
+  --shadow: 0 1px 2px rgba(50,40,20,0.04), 0 8px 24px rgba(50,40,20,0.04);
+  --shadow-hover: 0 2px 4px rgba(50,40,20,0.06), 0 16px 40px rgba(50,40,20,0.08);
+  --radius: 4px;
+  --radius-lg: 8px;
+  --serif: "Source Han Serif SC", "Noto Serif SC", "Songti SC", "STZhongsong", "STSong", Georgia, "Times New Roman", serif;
+  --sans: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
+  --mono: "JetBrains Mono", "Fira Code", "SF Mono", Consolas, Menlo, monospace;
+  --content-width: 1180px;
+  --col-left: 240px;
+  --col-right: 300px;
+  --gutter: 32px;
+}
+
+body.theme-dark {
+  --bg: #16140f;
+  --bg-soft: #1d1b15;
+  --bg-card: #1f1d17;
+  --bg-card-hover: #25231c;
+  --bg-code: #1a1813;
+  --text: #d8d2c4;
+  --text-soft: #a89f8b;
+  --text-mute: #6b6555;
+  --line: #2c2a22;
+  --line-soft: #232118;
+  --accent: #c2a578;
+  --accent-soft: #a48a5b;
+  --accent-bg: rgba(194,165,120,0.10);
+  --link: #d3b988;
+  --link-hover: #e8cfa3;
+  --tag-bg: #2a2620;
+  --tag-text: #b5a888;
+  --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px rgba(0,0,0,0.25);
+  --shadow-hover: 0 2px 4px rgba(0,0,0,0.4), 0 16px 40px rgba(0,0,0,0.35);
+}

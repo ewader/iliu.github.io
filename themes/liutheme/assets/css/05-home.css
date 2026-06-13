@@ -1,0 +1,194 @@
+/* ====== Home hero + memos live + weread ====== */
+.home-hero {
+  display: none;
+  margin-bottom: 32px;
+  padding: 0 4px;
+}
+.hero-title {
+  font-family: var(--serif);
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0 0 8px;
+  color: var(--text);
+  letter-spacing: 0.01em;
+}
+.hero-tagline {
+  color: var(--text-mute);
+  font-size: 14px;
+  margin: 0;
+  font-style: italic;
+}
+
+/* 实时动态 memos 卡片 */
+.memos-live {
+  position: relative;
+  margin-bottom: 28px;
+  padding: 20px 24px 18px;
+  background:
+    linear-gradient(135deg,
+      rgba(var(--accent-rgb, 184, 134, 89), 0.06) 0%,
+      rgba(var(--accent-rgb, 184, 134, 89), 0) 60%),
+    var(--bg-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+.memos-live::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 3px; height: 100%;
+  background: linear-gradient(180deg, var(--accent), rgba(var(--accent-rgb, 184, 134, 89), 0.2));
+}
+.memos-live-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.memos-live-dot {
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  background: #e74c3c;
+  box-shadow: 0 0 0 0 rgba(231, 76, 60, 0.6);
+  animation: memos-pulse 1.8s ease-out infinite;
+  flex-shrink: 0;
+}
+@keyframes memos-pulse {
+  0%   { box-shadow: 0 0 0 0 rgba(231, 76, 60, 0.55); }
+  70%  { box-shadow: 0 0 0 8px rgba(231, 76, 60, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(231, 76, 60, 0); }
+}
+.memos-live-label {
+  font-family: var(--serif);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  letter-spacing: 0.06em;
+}
+.memos-live-time {
+  margin-left: auto;
+  font-family: var(--sans);
+  font-size: 11px;
+  color: var(--text-mute);
+  letter-spacing: 0.05em;
+}
+.memos-live-body {
+  min-height: 22px;
+  margin: 6px 0 12px;
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--text);
+}
+.memos-live-text { display: block; }
+.memos-live-body a.memos-live-text-link {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.memos-live-body a.memos-live-text-link:hover { color: var(--accent); }
+.memos-live-more {
+  font-family: var(--sans);
+  font-size: 12px;
+  color: var(--text-mute);
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  transition: color 0.2s;
+}
+.memos-live-more:hover { color: var(--accent); }
+
+body.theme-dark .memos-live {
+  background:
+    linear-gradient(135deg,
+      rgba(var(--accent-rgb, 200, 160, 110), 0.10) 0%,
+      rgba(var(--accent-rgb, 200, 160, 110), 0) 60%),
+    var(--bg-card);
+}
+
+/* 微信读书书架网格 */
+.weread-section { margin-bottom: 6px; }
+.weread-head {
+  font-family: var(--serif);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 10px;
+}
+.weread-books-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  justify-items: center;
+}
+.weread-book-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+}
+.weread-book-cover-wrap {
+  position: relative;
+  aspect-ratio: 3 / 4;
+  border-radius: 5px;
+  overflow: hidden;
+  background: var(--bg-soft, #f0eee6);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  max-width: 130px;
+}
+.weread-book-cover {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.weread-book-cover-fallback {
+  display: none;
+  position: absolute;
+  inset: 0;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-soft, #f0eee6);
+  color: var(--text-mute);
+  font-size: 20px;
+  font-weight: 600;
+  font-family: var(--serif);
+}
+.weread-badge-done,
+.weread-badge-progress {
+  position: absolute;
+  bottom: 4px;
+  left: 4px;
+  padding: 1px 6px;
+  font-size: 10px;
+  font-weight: 600;
+  border-radius: 3px;
+  line-height: 1.4;
+}
+.weread-badge-done { background: rgba(46, 125, 50, 0.85); color: #fff; }
+.weread-badge-progress { background: rgba(0,0,0,0.55); color: #fff; }
+.weread-book-title {
+  font-size: 11px;
+  font-family: var(--sans);
+  color: var(--text);
+  line-height: 1.35;
+  text-align: center;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.weread-summary {
+  margin-top: 10px;
+  font-size: 12px;
+  color: var(--text-mute);
+  text-align: center;
+}
+.weread-summary strong { color: var(--text); }
+
+@media (max-width: 640px) {
+  .weread-books-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+}

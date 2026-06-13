@@ -1,0 +1,12 @@
+{{- /*
+  Markdown 图片 render hook — 自动加 loading=lazy + alt
+  路径: themes/liutheme/layouts/_markup/render-image.html
+*/ -}}
+{{- $alt := .PlainText | default "" -}}
+{{- $src := .Destination -}}
+{{- /* 外部图片直接输出 */ -}}
+<img src="{{ $src }}"
+     alt="{{ $alt }}"
+     loading="lazy"
+     decoding="async"
+     {{ with .Title }}title="{{ . }}"{{ end }}>
