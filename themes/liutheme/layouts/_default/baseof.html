@@ -11,13 +11,23 @@
 {{- $site := .Site -}}
 {{- $isPage := and (eq .Kind "page") (not .IsHome) (not .IsNode) -}}
 
-{{- /* 基础 OG 标签 */ -}}
+{{- $pageDesc := "" -}}
+{{- if $isPage -}}
+  {{- with .Description -}}
+    {{- $pageDesc = . -}}
+  {{- else -}}
+    {{- $pageDesc = .Summary | plainify -}}
+  {{- end -}}
+{{- else -}}
+  {{- $pageDesc = .Site.Params.description -}}
+{{- end -}}
+{{- $pageDesc = replaceRE "\\s+" " " $pageDesc -}}
 <meta property="og:site_name" content="{{ $site.Title }}">
 <meta property="og:locale" content="{{ .Site.LanguageCode | default "zh_CN" | replaceRE "-" "_" }}">
 {{- if $isPage -}}
   <meta property="og:type" content="article">
   <meta property="og:title" content="{{ .Title }}">
-  <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | chomp }}{{ end }}">
+  <meta property="og:description" content="{{ $pageDesc }}">
   <meta property="og:url" content="{{ .Permalink }}">
   {{- with .Date }}<meta property="article:published_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}">{{ end -}}
   {{- with .Lastmod }}<meta property="article:modified_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}">{{ end -}}
@@ -28,7 +38,7 @@
 {{- else -}}
   <meta property="og:type" content="website">
   <meta property="og:title" content="{{ if .IsHome }}{{ $site.Title }}{{ else }}{{ .Title }}{{ end }}">
-  <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ $site.Params.description }}{{ end }}">
+  <meta property="og:description" content="{{ $pageDesc }}">
   <meta property="og:url" content="{{ .Permalink }}">
 {{- end -}}
 
@@ -80,7 +90,7 @@
 <meta name="twitter:card" content="summary">
 {{- end -}}
 <meta name="twitter:title" content="{{ if $isPage }}{{ .Title }}{{ else }}{{ $site.Title }}{{ end }}">
-<meta name="twitter:description" content="{{ if $isPage }}{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | chomp }}{{ end }}{{ else }}{{ $site.Params.description }}{{ end }}">
+<meta name="twitter:description" content="{{ $pageDesc }}">
 {{- range $site.Params.socialIcons -}}
   {{- if eq .name "x" -}}
     {{- $xHandle := strings.TrimPrefix "https://x.com/" (strings.TrimPrefix "http://x.com/" .url) -}}
