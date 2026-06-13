@@ -3,58 +3,18 @@
     <span>发布热力</span>
     <a href="/archives/" class="card-more">more →</a>
   </h3>
+  {{- /* 生成 JSON 数据供 JS 使用 */ -}}
   {{- $byDay := dict -}}
   {{- range where .Site.RegularPages "Section" "posts" -}}
     {{- $k := .Date.Format "2006-01-02" -}}
     {{- $cur := index $byDay $k | default 0 -}}
     {{- $byDay = merge $byDay (dict $k (add $cur 1)) -}}
   {{- end -}}
-  {{- $maxDay := 0 -}}
-  {{- range $byDay -}}
-    {{- if gt . $maxDay -}}{{- $maxDay = . -}}{{- end -}}
-  {{- end -}}
+  <script type="application/json" id="heatmap-data">
+    {{- $byDay | jsonify -}}
+  </script>
   <div class="heat-wrap">
-    <div class="heatgrid" role="img" aria-label="发布热力图">
-      <div class="heat-days" aria-hidden="true">
-        <span></span><span>一</span><span></span><span>三</span><span></span><span>五</span><span></span>
-      </div>
-      {{- $today := now -}}
-      {{- $end := $today -}}
-      {{- $weekday := int ($end.Weekday) -}}
-      {{- $daysToSunday := 0 -}}
-      {{- if eq $weekday 1 }}{{ $daysToSunday = 6 }}
-      {{- else if eq $weekday 2 }}{{ $daysToSunday = 5 }}
-      {{- else if eq $weekday 3 }}{{ $daysToSunday = 4 }}
-      {{- else if eq $weekday 4 }}{{ $daysToSunday = 3 }}
-      {{- else if eq $weekday 5 }}{{ $daysToSunday = 2 }}
-      {{- else if eq $weekday 6 }}{{ $daysToSunday = 1 }}
-      {{- else }}{{ $daysToSunday = 0 }}{{ end -}}
-      {{- $end = $end.AddDate 0 0 $daysToSunday -}}
-      {{- $start := $end.AddDate 0 0 -364 -}}
-      {{- $cursor := $start -}}
-      {{- $cellsHTML := "" -}}
-      {{- range (seq 0 52) -}}
-        {{- $col := "" -}}
-        {{- range (seq 0 6) -}}
-          {{- $iso := $cursor.Format "2006-01-02" -}}
-          {{- $cnt := index $byDay $iso | default 0 -}}
-          {{- $level := 0 -}}
-          {{- if gt $cnt 0 -}}
-            {{- $lv := $cnt -}}
-            {{- if gt $lv 4 }}{{ $lv = 4 }}{{ end -}}
-            {{- $level = $lv -}}
-          {{- end -}}
-          {{- $future := gt $cursor $today -}}
-          {{- $cls := printf "heat-l%d" $level -}}
-          {{- if $future }}{{ $cls = printf "%s heat-future" $cls }}{{ end -}}
-          {{- $title := printf "%s · %d 篇" $iso $cnt -}}
-          {{- $col = printf "%s<span class=\"heat-cell %s\" data-date=\"%s\" data-count=\"%d\" title=\"%s\"></span>" $col $cls $iso $cnt $title -}}
-          {{- $cursor = $cursor.AddDate 0 0 1 -}}
-        {{- end -}}
-        {{- $cellsHTML = printf "%s<div class=\"heat-col\">%s</div>" $cellsHTML $col -}}
-      {{- end -}}
-      <div class="heat-cells">{{ safeHTML $cellsHTML }}</div>
-    </div>
+    <div class="heatmap-container" id="heatmap"></div>
     <div class="heat-legend" aria-hidden="true">
       <span>少</span>
       <span class="heat-cell heat-l0"></span>

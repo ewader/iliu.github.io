@@ -213,3 +213,55 @@
   load();
   setInterval(load, 5 * 60 * 1000);
 })();
+
+/* ====== 发布热力图（客户端渲染） ====== */
+(function() {
+  var container = document.getElementById('heatmap');
+  var dataEl = document.getElementById('heatmap-data');
+  if (!container || !dataEl) return;
+
+  var byDay = JSON.parse(dataEl.textContent);
+  var today = new Date();
+  today.setHours(0, 0, 0, 0);
+
+  // 计算到本周日的天数
+  var daysToSunday = (7 - today.getDay()) % 7;
+  var end = new Date(today);
+  end.setDate(end.getDate() + daysToSunday);
+  var start = new Date(end);
+  start.setDate(start.getDate() - 182); // 26 周 = 182 天
+
+  var grid = document.createElement('div');
+  grid.className = 'heatmap-grid';
+
+  var cursor = new Date(start);
+  for (var week = 0; week < 26; week++) {
+    for (var day = 0; day < 7; day++) {
+      var cell = document.createElement('div');
+      cell.className = 'heatmap-cell';
+
+      var iso = cursor.toISOString().split('T')[0];
+      var cnt = byDay[iso] || 0;
+      var isFuture = cursor > today;
+
+      if (isFuture) {
+        cell.classList.add('heat-future');
+      } else {
+        var level = 0;
+        if (cnt > 0) {
+          level = Math.min(cnt, 4);
+        }
+        cell.classList.add('heat-l' + level);
+        if (cnt > 0) {
+          cell.setAttribute('data-count', cnt);
+          cell.setAttribute('data-title', iso + ' · ' + cnt + ' 篇');
+        }
+      }
+
+      grid.appendChild(cell);
+      cursor.setDate(cursor.getDate() + 1);
+    }
+  }
+
+  container.appendChild(grid);
+})();

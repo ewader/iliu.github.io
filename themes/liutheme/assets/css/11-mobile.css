@@ -22,8 +22,9 @@
 
   .home-hero { display: block; }
 
-  /* 热力图横滑 */
-  .heatgrid { max-width: 100% !important; overflow-x: auto !important; }
+  /* 热力图自适应 */
+  .heatmap-container { max-width: 100% !important; }
+  .heatmap-grid { gap: 1px; }
 
   /* 文字防溢出 */
   p, h1, h2, h3, h4, h5, h6, span, div, a, li, td, th,
