@@ -220,7 +220,7 @@
   var dataEl = document.getElementById('heatmap-data');
   if (!container || !dataEl) return;
 
-  var byDay = JSON.parse(dataEl.textContent);
+  var byDay = JSON.parse(dataEl.textContent.trim());
   var today = new Date();
   today.setHours(0, 0, 0, 0);
 

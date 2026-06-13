@@ -11,7 +11,7 @@
     {{- $byDay = merge $byDay (dict $k (add $cur 1)) -}}
   {{- end -}}
   <script type="application/json" id="heatmap-data">
-    {{- $byDay | jsonify -}}
+    {{- $byDay | jsonify | safeJS -}}
   </script>
   <div class="heat-wrap">
     <div class="heatmap-container" id="heatmap"></div>
